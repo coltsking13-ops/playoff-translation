@@ -1,0 +1,522 @@
+game_id,actionNumber,actionType,period,clock,clock_display,game_clock,scoreHome,scoreAway,teamId,playerName,description,previous_action,next_action,score_margin,leverage_bucket
+21900241,2,period,1,PT12M00.00S,12:00,Q1 12:00,0,0,1610612765.0,,Start of 1st Period (7:11 PM EST),,2pt missed,0,Low
+21900241,7,2pt,1,PT11M33.00S,11:33,Q1 11:33,0,0,1610612765.0,Brown,MISS Brown 10' Driving Floating Jump Shot,period,rebound,0,Low
+21900241,8,rebound,1,PT11M30.00S,11:30,Q1 11:30,0,0,1610612753.0,Fournier,Fournier REBOUND (Off:0 Def:1),2pt missed,turnover,0,Low
+21900241,9,turnover,1,PT11M24.00S,11:24,Q1 11:24,0,0,1610612753.0,Fournier,Fournier Lost Ball Turnover (P1.T1),rebound,steal,0,Low
+21900241,9,steal,1,PT11M24.00S,11:24,Q1 11:24,0,0,1610612765.0,Galloway,Galloway STEAL (1 STL),turnover,foul,0,Low
+21900241,11,foul,1,PT11M13.00S,11:13,Q1 11:13,0,0,1610612753.0,Fournier,Fournier P.FOUL (P1.T1) (T.Ford),steal,3pt missed,0,Low
+21900241,13,3pt,1,PT11M07.00S,11:07,Q1 11:07,0,0,1610612765.0,Kennard,MISS Kennard 26' 3PT Jump Shot,foul,rebound,0,Low
+21900241,14,rebound,1,PT11M03.00S,11:03,Q1 11:03,0,0,1610612753.0,Isaac,Isaac REBOUND (Off:0 Def:1),3pt missed,3pt made,0,Low
+21900241,15,3pt,1,PT10M58.00S,10:58,Q1 10:58,0,3,1610612753.0,Isaac,Isaac 25' 3PT Pullup Jump Shot (3 PTS),rebound,2pt missed,3,Low
+21900241,16,2pt,1,PT10M46.00S,10:46,Q1 10:46,0,3,1610612765.0,Brown,MISS Brown 4' Driving Layup,3pt made,rebound,3,Low
+21900241,17,rebound,1,PT10M46.00S,10:46,Q1 10:46,0,3,1610612753.0,Isaac,Isaac REBOUND (Off:0 Def:2),2pt missed,3pt missed,3,Low
+21900241,18,3pt,1,PT10M28.00S,10:28,Q1 10:28,0,3,1610612753.0,Fultz,MISS Fultz 24' 3PT Jump Shot,rebound,rebound,3,Low
+21900241,19,rebound,1,PT10M25.00S,10:25,Q1 10:25,0,3,1610612753.0,Birch,Birch REBOUND (Off:1 Def:0),3pt missed,2pt missed,3,Low
+21900241,20,2pt,1,PT10M14.00S,10:14,Q1 10:14,0,3,1610612753.0,Isaac,MISS Isaac 13' Floating Jump Shot,rebound,rebound,3,Low
+21900241,21,rebound,1,PT10M08.00S,10:08,Q1 10:08,0,3,1610612765.0,Griffin,Griffin REBOUND (Off:0 Def:1),2pt missed,foul,3,Low
+21900241,22,foul,1,PT10M04.00S,10:04,Q1 10:04,0,3,1610612753.0,Iwundu,Iwundu P.FOUL (P1.T2) (T.Maddox),rebound,3pt made,3,Low
+21900241,24,3pt,1,PT09M58.00S,09:58,Q1 09:58,3,3,1610612765.0,Kennard,Kennard 27' 3PT Jump Shot (3 PTS) (Galloway 1 AST),foul,2pt missed,0,Low
+21900241,26,2pt,1,PT09M31.00S,09:31,Q1 09:31,3,3,1610612753.0,Fournier,MISS Fournier 18' Pullup Jump Shot,3pt made,rebound,0,Low
+21900241,27,rebound,1,PT09M27.00S,09:27,Q1 09:27,3,3,1610612765.0,Drummond,Drummond REBOUND (Off:0 Def:1),2pt missed,2pt made,0,Low
+21900241,28,2pt,1,PT09M21.00S,09:21,Q1 09:21,5,3,1610612765.0,Griffin,Griffin 2' Layup (2 PTS) (Galloway 2 AST),rebound,foul,2,Low
+21900241,30,foul,1,PT09M21.00S,09:21,Q1 09:21,5,3,1610612753.0,Isaac,Isaac S.FOUL (P1.T3) (T.Ford),2pt made,freethrow,2,Low
+21900241,32,freethrow,1,PT09M21.00S,09:21,Q1 09:21,5,3,1610612765.0,Griffin,MISS Griffin Free Throw 1 of 1,foul,rebound,2,Low
+21900241,33,rebound,1,PT09M19.00S,09:19,Q1 09:19,5,3,1610612753.0,Isaac,Isaac REBOUND (Off:0 Def:3),freethrow,2pt made,2,Low
+21900241,34,2pt,1,PT09M02.00S,09:02,Q1 09:02,5,5,1610612753.0,Birch,Birch 6' Floating Jump Shot (2 PTS) (Fournier 1 AST),rebound,3pt made,0,Low
+21900241,36,3pt,1,PT08M49.00S,08:49,Q1 08:49,8,5,1610612765.0,Galloway,Galloway 24' 3PT Jump Shot (3 PTS) (Kennard 1 AST),2pt made,foul,3,Low
+21900241,38,foul,1,PT08M38.00S,08:38,Q1 08:38,8,5,1610612765.0,Griffin,Griffin P.FOUL (P1.T1) (T.Maddox),3pt made,2pt made,3,Low
+21900241,40,2pt,1,PT08M32.00S,08:32,Q1 08:32,8,7,1610612753.0,Fournier,Fournier 14' Pullup Jump Shot (2 PTS),foul,foul,1,Low
+21900241,41,foul,1,PT08M24.00S,08:24,Q1 08:24,8,7,1610612765.0,Drummond,Drummond Offensive Charge Foul (P1.T2) (T.Maddox),2pt made,turnover,1,Low
+21900241,43,turnover,1,PT08M24.00S,08:24,Q1 08:24,8,7,1610612765.0,Drummond,Drummond Offensive Foul Turnover (P1.T1),foul,2pt missed,1,Low
+21900241,44,2pt,1,PT08M04.00S,08:04,Q1 08:04,8,7,1610612753.0,Isaac,MISS Isaac 7' Driving Layup,turnover,rebound,1,Low
+21900241,45,rebound,1,PT08M04.00S,08:04,Q1 08:04,8,7,1610612765.0,Brown,Brown REBOUND (Off:0 Def:1),2pt missed,2pt made,1,Low
+21900241,46,2pt,1,PT07M59.00S,07:59,Q1 07:59,10,7,1610612765.0,Kennard,Kennard 2' Running Layup (5 PTS) (Brown 1 AST),rebound,2pt made,3,Low
+21900241,47,2pt,1,PT07M39.00S,07:39,Q1 07:39,10,9,1610612753.0,Fultz,Fultz 13' Step Back Jump Shot (2 PTS),2pt made,3pt made,1,Low
+21900241,49,3pt,1,PT07M14.00S,07:14,Q1 07:14,13,9,1610612765.0,Brown,Brown 27' 3PT Jump Shot (3 PTS) (Galloway 3 AST),2pt made,2pt made,4,Low
+21900241,51,2pt,1,PT06M57.00S,06:57,Q1 06:57,13,11,1610612753.0,Fultz,Fultz 3' Driving Layup (4 PTS),3pt made,foul,2,Low
+21900241,52,foul,1,PT06M57.00S,06:57,Q1 06:57,13,11,1610612765.0,Galloway,Galloway S.FOUL (P1.T3) (T.Ford),2pt made,timeout,2,Low
+21900241,54,timeout,1,PT06M57.00S,06:57,Q1 06:57,13,11,1610612765.0,,PISTONS Timeout: Regular (Full 1 Short 0),foul,freethrow,2,Low
+21900241,55,freethrow,1,PT06M57.00S,06:57,Q1 06:57,13,12,1610612753.0,Fultz,Fultz Free Throw 1 of 1 (5 PTS),timeout,foul,1,Low
+21900241,56,foul,1,PT06M42.00S,06:42,Q1 06:42,13,12,1610612753.0,Birch,Birch S.FOUL (P1.T4) (P.Ransom),freethrow,freethrow,1,Low
+21900241,58,freethrow,1,PT06M42.00S,06:42,Q1 06:42,14,12,1610612765.0,Griffin,Griffin Free Throw 1 of 2 (3 PTS),foul,freethrow,2,Low
+21900241,59,freethrow,1,PT06M42.00S,06:42,Q1 06:42,15,12,1610612765.0,Griffin,Griffin Free Throw 2 of 2 (4 PTS),freethrow,2pt missed,3,Low
+21900241,60,2pt,1,PT06M24.00S,06:24,Q1 06:24,15,12,1610612753.0,Fournier,MISS Fournier 14' Running Jump Shot,freethrow,rebound,3,Low
+21900241,61,rebound,1,PT06M20.00S,06:20,Q1 06:20,15,12,1610612765.0,Griffin,Griffin REBOUND (Off:0 Def:2),2pt missed,3pt missed,3,Low
+21900241,62,3pt,1,PT06M14.00S,06:14,Q1 06:14,15,12,1610612765.0,Galloway,MISS Galloway 25' 3PT Jump Shot,rebound,rebound,3,Low
+21900241,63,rebound,1,PT06M14.00S,06:14,Q1 06:14,15,12,1610612753.0,Birch,Birch REBOUND (Off:1 Def:1),3pt missed,2pt made,3,Low
+21900241,64,2pt,1,PT06M03.00S,06:03,Q1 06:03,15,14,1610612753.0,Fultz,Fultz 2' Driving Layup (7 PTS),rebound,foul,1,Low
+21900241,66,foul,1,PT05M45.00S,05:45,Q1 05:45,15,14,1610612753.0,Birch,Birch S.FOUL (P2.PN) (P.Ransom),2pt made,freethrow,1,Low
+21900241,68,freethrow,1,PT05M45.00S,05:45,Q1 05:45,16,14,1610612765.0,Kennard,Kennard Free Throw 1 of 3 (6 PTS),foul,freethrow,2,Low
+21900241,69,freethrow,1,PT05M45.00S,05:45,Q1 05:45,17,14,1610612765.0,Kennard,Kennard Free Throw 2 of 3 (7 PTS),freethrow,freethrow,3,Low
+21900241,78,freethrow,1,PT05M45.00S,05:45,Q1 05:45,18,14,1610612765.0,Kennard,Kennard Free Throw 3 of 3 (8 PTS),freethrow,substitution,4,Low
+21900241,70,substitution,1,PT05M45.00S,05:45,Q1 05:45,17,14,1610612765.0,Galloway,SUB out: L. Galloway,freethrow,substitution,3,Low
+21900241,71,substitution,1,PT05M45.00S,05:45,Q1 05:45,17,14,1610612765.0,Brown,SUB out: B. Brown,substitution,substitution,3,Low
+21900241,72,substitution,1,PT05M45.00S,05:45,Q1 05:45,17,14,1610612753.0,Birch,SUB out: K. Birch,substitution,substitution,3,Low
+21900241,73,substitution,1,PT05M45.00S,05:45,Q1 05:45,17,14,1610612753.0,Fournier,SUB out: E. Fournier,substitution,substitution,3,Low
+21900241,74,substitution,1,PT05M45.00S,05:45,Q1 05:45,17,14,1610612765.0,Rose,SUB in: D. Rose,substitution,substitution,3,Low
+21900241,75,substitution,1,PT05M45.00S,05:45,Q1 05:45,17,14,1610612765.0,Mykhailiuk,SUB in: S. Mykhailiuk,substitution,substitution,3,Low
+21900241,76,substitution,1,PT05M45.00S,05:45,Q1 05:45,17,14,1610612753.0,Aminu,SUB in: A. Aminu,substitution,substitution,3,Low
+21900241,77,substitution,1,PT05M45.00S,05:45,Q1 05:45,17,14,1610612753.0,Bamba,SUB in: M. Bamba,substitution,2pt missed,3,Low
+21900241,79,2pt,1,PT05M24.00S,05:24,Q1 05:24,18,14,1610612753.0,Iwundu,MISS Iwundu 7' Driving Layup,substitution,rebound,4,Low
+21900241,81,rebound,1,PT05M21.00S,05:21,Q1 05:21,18,14,1610612765.0,Drummond,Drummond REBOUND (Off:0 Def:2),2pt missed,turnover,4,Low
+21900241,82,turnover,1,PT05M17.00S,05:17,Q1 05:17,18,14,1610612765.0,Kennard,Kennard Bad Pass Turnover (P1.T2),rebound,steal,4,Low
+21900241,82,steal,1,PT05M17.00S,05:17,Q1 05:17,18,14,1610612753.0,Fultz,Fultz STEAL (1 STL),turnover,foul,4,Low
+21900241,88,foul,1,PT05M07.00S,05:07,Q1 05:07,18,14,1610612765.0,Drummond,Drummond S.FOUL (P2.T4) (P.Ransom),steal,freethrow,4,Low
+21900241,90,freethrow,1,PT05M07.00S,05:07,Q1 05:07,18,14,1610612753.0,Fultz,MISS Fultz Free Throw 1 of 2,foul,rebound,4,Low
+21900241,91,rebound,1,PT05M07.00S,05:07,Q1 05:07,18,14,1610612753.0,,TEAM offensive REBOUND,freethrow,freethrow,4,Low
+21900241,92,freethrow,1,PT05M07.00S,05:07,Q1 05:07,18,15,1610612753.0,Fultz,Fultz Free Throw 2 of 2 (8 PTS),rebound,2pt made,3,Low
+21900241,93,2pt,1,PT04M57.00S,04:57,Q1 04:57,20,15,1610612765.0,Drummond,Drummond Cutting Dunk Shot (2 PTS) (Griffin 1 AST),freethrow,foul,5,Low
+21900241,95,foul,1,PT04M48.00S,04:48,Q1 04:48,20,15,1610612765.0,Kennard,Kennard P.FOUL (P1.PN) (T.Maddox),2pt made,substitution,5,Low
+21900241,97,substitution,1,PT04M48.00S,04:48,Q1 04:48,20,15,1610612765.0,Griffin,SUB out: B. Griffin,foul,substitution,5,Low
+21900241,98,substitution,1,PT04M48.00S,04:48,Q1 04:48,20,15,1610612753.0,Isaac,SUB out: J. Isaac,substitution,substitution,5,Low
+21900241,99,substitution,1,PT04M48.00S,04:48,Q1 04:48,20,15,1610612753.0,Fultz,SUB out: M. Fultz,substitution,substitution,5,Low
+21900241,100,substitution,1,PT04M48.00S,04:48,Q1 04:48,20,15,1610612765.0,Morris,SUB in: M. Morris,substitution,substitution,5,Low
+21900241,101,substitution,1,PT04M48.00S,04:48,Q1 04:48,20,15,1610612753.0,Augustin,SUB in: D. Augustin,substitution,substitution,5,Low
+21900241,102,substitution,1,PT04M48.00S,04:48,Q1 04:48,20,15,1610612753.0,Ross,SUB in: T. Ross,substitution,2pt made,5,Low
+21900241,103,2pt,1,PT04M38.00S,04:38,Q1 04:38,20,17,1610612753.0,Bamba,Bamba 2' Layup (2 PTS) (Augustin 1 AST),substitution,3pt missed,3,Low
+21900241,105,3pt,1,PT04M21.00S,04:21,Q1 04:21,20,17,1610612765.0,Mykhailiuk,MISS Mykhailiuk 35' 3PT Pullup Jump Shot,2pt made,rebound,3,Low
+21900241,106,rebound,1,PT04M18.00S,04:18,Q1 04:18,20,17,1610612753.0,,TEAM defensive REBOUND,3pt missed,foul,3,Low
+21900241,108,foul,1,PT04M09.00S,04:09,Q1 04:09,20,17,1610612765.0,Mykhailiuk,Mykhailiuk P.FOUL (P1.PN) (P.Ransom),rebound,freethrow,3,Low
+21900241,110,freethrow,1,PT04M09.00S,04:09,Q1 04:09,20,18,1610612753.0,Ross,Ross Free Throw 1 of 2 (1 PTS),foul,freethrow,2,Low
+21900241,111,freethrow,1,PT04M09.00S,04:09,Q1 04:09,20,19,1610612753.0,Ross,Ross Free Throw 2 of 2 (2 PTS),freethrow,turnover,1,Low
+21900241,112,turnover,1,PT03M57.00S,03:57,Q1 03:57,20,19,1610612765.0,Rose,Rose Bad Pass Turnover (P1.T3),freethrow,steal,1,Low
+21900241,112,steal,1,PT03M57.00S,03:57,Q1 03:57,20,19,1610612753.0,Bamba,Bamba STEAL (1 STL),turnover,2pt missed,1,Low
+21900241,114,2pt,1,PT03M54.00S,03:54,Q1 03:54,20,19,1610612753.0,Iwundu,MISS Iwundu Driving Layup,steal,rebound,1,Low
+21900241,115,rebound,1,PT03M53.00S,03:53,Q1 03:53,20,19,1610612753.0,Bamba,Bamba REBOUND (Off:1 Def:0),2pt missed,2pt missed,1,Low
+21900241,179,2pt,1,PT03M53.00S,03:53,Q1 03:53,20,19,1610612753.0,Bamba,MISS Bamba 2' Tip Layup Shot,rebound,rebound,1,Low
+21900241,180,rebound,1,PT03M53.00S,03:53,Q1 03:53,20,19,1610612753.0,Bamba,Bamba REBOUND (Off:2 Def:0),2pt missed,2pt made,1,Low
+21900241,116,2pt,1,PT03M35.00S,03:35,Q1 03:35,20,21,1610612753.0,Aminu,Aminu 16' Jump Shot (2 PTS) (Augustin 2 AST),rebound,turnover,1,Low
+21900241,117,turnover,1,PT03M20.00S,03:20,Q1 03:20,20,21,1610612765.0,Drummond,Drummond Lost Ball Turnover (P2.T4),2pt made,steal,1,Low
+21900241,117,steal,1,PT03M20.00S,03:20,Q1 03:20,20,21,1610612753.0,Bamba,Bamba STEAL (2 STL),turnover,2pt missed,1,Low
+21900241,119,2pt,1,PT03M02.00S,03:02,Q1 03:02,20,21,1610612753.0,Aminu,MISS Aminu 5' Jump Bank Shot,steal,rebound,1,Low
+21900241,120,rebound,1,PT02M59.00S,02:59,Q1 02:59,20,21,1610612765.0,Drummond,Drummond REBOUND (Off:0 Def:3),2pt missed,2pt missed,1,Low
+21900241,121,2pt,1,PT02M52.00S,02:52,Q1 02:52,20,21,1610612765.0,Rose,MISS Rose 14' Pullup Jump Shot,rebound,rebound,1,Low
+21900241,122,rebound,1,PT02M48.00S,02:48,Q1 02:48,20,21,1610612753.0,Bamba,Bamba REBOUND (Off:2 Def:1),2pt missed,2pt missed,1,Low
+21900241,123,2pt,1,PT02M45.00S,02:45,Q1 02:45,20,21,1610612753.0,Ross,MISS Ross 13' Pullup Jump Shot,rebound,rebound,1,Low
+21900241,124,rebound,1,PT02M41.00S,02:41,Q1 02:41,20,21,1610612753.0,Bamba,Bamba REBOUND (Off:3 Def:1),2pt missed,2pt made,1,Low
+21900241,125,2pt,1,PT02M33.00S,02:33,Q1 02:33,20,23,1610612753.0,Ross,Ross 2' Driving Layup (4 PTS),rebound,foul,3,Low
+21900241,126,foul,1,PT02M33.00S,02:33,Q1 02:33,20,23,1610612765.0,Mykhailiuk,Mykhailiuk S.FOUL (P2.PN) (T.Maddox),2pt made,timeout,3,Low
+21900241,128,timeout,1,PT02M33.00S,02:33,Q1 02:33,20,23,1610612753.0,,Magic Timeout: Regular (Reg.1 Short 0),foul,freethrow,3,Low
+21900241,136,freethrow,1,PT02M33.00S,02:33,Q1 02:33,20,23,1610612753.0,Ross,MISS Ross Free Throw 1 of 1,timeout,rebound,3,Low
+21900241,157,rebound,1,PT02M33.00S,02:33,Q1 02:33,20,23,1610612765.0,Maker,Maker REBOUND (Off:0 Def:1),freethrow,substitution,3,Low
+21900241,130,substitution,1,PT02M33.00S,02:33,Q1 02:33,20,23,1610612765.0,Drummond,SUB out: A. Drummond,rebound,substitution,3,Low
+21900241,131,substitution,1,PT02M33.00S,02:33,Q1 02:33,20,23,1610612765.0,Kennard,SUB out: L. Kennard,substitution,substitution,3,Low
+21900241,132,substitution,1,PT02M33.00S,02:33,Q1 02:33,20,23,1610612753.0,Iwundu,SUB out: W. Iwundu,substitution,substitution,3,Low
+21900241,133,substitution,1,PT02M33.00S,02:33,Q1 02:33,20,23,1610612765.0,Maker,SUB in: T. Maker,substitution,substitution,3,Low
+21900241,134,substitution,1,PT02M33.00S,02:33,Q1 02:33,20,23,1610612765.0,Galloway,SUB in: L. Galloway,substitution,substitution,3,Low
+21900241,135,substitution,1,PT02M33.00S,02:33,Q1 02:33,20,23,1610612753.0,Fournier,SUB in: E. Fournier,substitution,3pt missed,3,Low
+21900241,137,3pt,1,PT02M18.00S,02:18,Q1 02:18,20,23,1610612765.0,Rose,MISS Rose 26' 3PT Jump Shot,substitution,rebound,3,Low
+21900241,138,rebound,1,PT02M14.00S,02:14,Q1 02:14,20,23,1610612753.0,Aminu,Aminu REBOUND (Off:0 Def:1),3pt missed,3pt made,3,Low
+21900241,139,3pt,1,PT02M01.00S,02:01,Q1 02:01,20,26,1610612753.0,Augustin,Augustin 24' 3PT Jump Shot (3 PTS) (Aminu 1 AST),rebound,3pt missed,6,Low
+21900241,141,3pt,1,PT01M42.00S,01:42,Q1 01:42,20,26,1610612765.0,Galloway,MISS Galloway 24' 3PT Jump Shot,3pt made,rebound,6,Low
+21900241,142,rebound,1,PT01M41.00S,01:41,Q1 01:41,20,26,1610612765.0,,TEAM offensive REBOUND,3pt missed,foul,6,Low
+21900241,143,foul,1,PT01M41.00S,01:41,Q1 01:41,20,26,1610612753.0,Fournier,Fournier L.B.FOUL (P2.PN) (T.Maddox),rebound,freethrow,6,Low
+21900241,145,freethrow,1,PT01M41.00S,01:41,Q1 01:41,21,26,1610612765.0,Maker,Maker Free Throw 1 of 2 (1 PTS),foul,freethrow,5,Low
+21900241,146,freethrow,1,PT01M41.00S,01:41,Q1 01:41,21,26,1610612765.0,Maker,MISS Maker Free Throw 2 of 2,freethrow,rebound,5,Low
+21900241,147,rebound,1,PT01M38.00S,01:38,Q1 01:38,21,26,1610612753.0,Aminu,Aminu REBOUND (Off:0 Def:2),freethrow,2pt made,5,Low
+21900241,148,2pt,1,PT01M25.00S,01:25,Q1 01:25,21,28,1610612753.0,Fournier,Fournier 12' Pullup Jump Shot (4 PTS),rebound,3pt missed,7,Low
+21900241,149,3pt,1,PT01M05.00S,01:05,Q1 01:05,21,28,1610612765.0,Morris,MISS Morris 26' 3PT Step Back Jump Shot,2pt made,rebound,7,Low
+21900241,150,rebound,1,PT01M01.00S,01:01,Q1 01:01,21,28,1610612753.0,Bamba,Bamba REBOUND (Off:3 Def:2),3pt missed,2pt missed,7,Low
+21900241,151,2pt,1,PT00M57.70S,00:57,Q1 00:57,21,28,1610612753.0,Ross,MISS Ross 3' Driving Layup,rebound,rebound,7,Low
+21900241,152,rebound,1,PT00M54.90S,00:54,Q1 00:54,21,28,1610612753.0,Bamba,Bamba REBOUND (Off:4 Def:2),2pt missed,2pt made,7,Low
+21900241,153,2pt,1,PT00M54.30S,00:54,Q1 00:54,21,30,1610612753.0,Bamba,Bamba 1' Tip Layup Shot (4 PTS),rebound,foul,9,Low
+21900241,154,foul,1,PT00M45.70S,00:45,Q1 00:45,21,30,1610612753.0,Augustin,Augustin S.FOUL (P1.PN) (P.Ransom),2pt made,freethrow,9,Low
+21900241,156,freethrow,1,PT00M45.70S,00:45,Q1 00:45,22,30,1610612765.0,Maker,Maker Free Throw 1 of 2 (2 PTS),foul,freethrow,8,Low
+21900241,158,freethrow,1,PT00M45.70S,00:45,Q1 00:45,23,30,1610612765.0,Maker,Maker Free Throw 2 of 2 (3 PTS),freethrow,foul,7,Low
+21900241,159,foul,1,PT00M28.70S,00:28,Q1 00:28,23,30,1610612765.0,Rose,Rose S.FOUL (P1.PN) (T.Maddox),freethrow,freethrow,7,Low
+21900241,161,freethrow,1,PT00M28.70S,00:28,Q1 00:28,23,30,1610612753.0,Augustin,MISS Augustin Free Throw 1 of 2,foul,rebound,7,Low
+21900241,162,rebound,1,PT00M28.70S,00:28,Q1 00:28,23,30,1610612753.0,,TEAM offensive REBOUND,freethrow,freethrow,7,Low
+21900241,165,freethrow,1,PT00M28.70S,00:28,Q1 00:28,23,31,1610612753.0,Augustin,Augustin Free Throw 2 of 2 (4 PTS),rebound,substitution,8,Low
+21900241,163,substitution,1,PT00M28.70S,00:28,Q1 00:28,23,30,1610612753.0,Fournier,SUB out: E. Fournier,freethrow,substitution,7,Low
+21900241,164,substitution,1,PT00M28.70S,00:28,Q1 00:28,23,30,1610612753.0,Iwundu,SUB in: W. Iwundu,substitution,2pt missed,7,Low
+21900241,166,2pt,1,PT00M10.80S,00:10,Q1 00:10,23,31,1610612765.0,Rose,MISS Rose 1' Layup,substitution,block,8,Low
+21900241,166,block,1,PT00M10.80S,00:10,Q1 00:10,23,31,1610612753.0,Bamba,Bamba BLOCK (1 BLK),2pt missed,rebound,8,Low
+21900241,168,rebound,1,PT00M08.00S,00:08,Q1 00:08,23,31,1610612765.0,Maker,Maker REBOUND (Off:1 Def:1),block,2pt missed,8,Low
+21900241,169,2pt,1,PT00M07.40S,00:07,Q1 00:07,23,31,1610612765.0,Maker,MISS Maker 2' Layup,rebound,block,8,Low
+21900241,169,block,1,PT00M07.40S,00:07,Q1 00:07,23,31,1610612753.0,Bamba,Bamba BLOCK (2 BLK),2pt missed,rebound,8,Low
+21900241,171,rebound,1,PT00M03.80S,00:03,Q1 00:03,23,31,1610612753.0,Augustin,Augustin REBOUND (Off:0 Def:1),block,period,8,Low
+21900241,172,period,1,PT00M00.00S,00:00,Q1 00:00,23,31,1610612765.0,,End of 1st Period (7:39 PM EST),rebound,period,8,Low
+21900241,175,period,2,PT12M00.00S,12:00,Q2 12:00,23,31,1610612765.0,,Start of 2nd Period (7:41 PM EST),period,substitution,8,Low
+21900241,177,3pt,2,PT11M40.00S,11:40,Q2 11:40,23,34,1610612753.0,Augustin,Augustin 25' 3PT Jump Shot (7 PTS) (Iwundu 1 AST),substitution,3pt made,11,Low
+21900241,181,3pt,2,PT11M13.00S,11:13,Q2 11:13,26,34,1610612765.0,Morris,Morris 3PT Jump Shot (3 PTS) (Galloway 4 AST),3pt made,turnover,8,Low
+21900241,184,turnover,2,PT10M55.00S,10:55,Q2 10:55,26,34,1610612753.0,Augustin,Augustin Bad Pass Turnover (P1.T2),3pt made,steal,8,Low
+21900241,184,steal,2,PT10M55.00S,10:55,Q2 10:55,26,34,1610612765.0,Morris,Morris STEAL (1 STL),turnover,2pt made,8,Low
+21900241,186,2pt,2,PT10M51.00S,10:51,Q2 10:51,28,34,1610612765.0,Morris,Morris 1' Layup (5 PTS) (Rose 1 AST),steal,3pt missed,6,Low
+21900241,188,3pt,2,PT10M29.00S,10:29,Q2 10:29,28,34,1610612753.0,Aminu,MISS Aminu 3PT Jump Shot,2pt made,rebound,6,Low
+21900241,189,rebound,2,PT10M26.00S,10:26,Q2 10:26,28,34,1610612765.0,Morris,Morris REBOUND (Off:0 Def:1),3pt missed,foul,6,Low
+21900241,190,foul,2,PT10M24.00S,10:24,Q2 10:24,28,34,1610612753.0,Bamba,Bamba S.FOUL (P1.T1) (P.Ransom),rebound,freethrow,6,Low
+21900241,192,freethrow,2,PT10M24.00S,10:24,Q2 10:24,29,34,1610612765.0,Wood,Wood Free Throw 1 of 2 (1 PTS),foul,freethrow,5,Low
+21900241,193,freethrow,2,PT10M24.00S,10:24,Q2 10:24,30,34,1610612765.0,Wood,Wood Free Throw 2 of 2 (2 PTS),freethrow,foul,4,Low
+21900241,194,foul,2,PT10M13.00S,10:13,Q2 10:13,30,34,1610612765.0,Morris,Morris P.FOUL (P1.T1) (P.Ransom),freethrow,2pt made,4,Low
+21900241,196,2pt,2,PT10M06.00S,10:06,Q2 10:06,30,36,1610612753.0,Ross,Ross 2' Driving Layup (6 PTS),foul,2pt missed,6,Low
+21900241,197,2pt,2,PT09M49.00S,09:49,Q2 09:49,30,36,1610612765.0,Rose,MISS Rose 12' Pullup Jump Shot,2pt made,rebound,6,Low
+21900241,198,rebound,2,PT09M45.00S,09:45,Q2 09:45,30,36,1610612753.0,Aminu,Aminu REBOUND (Off:0 Def:3),2pt missed,2pt missed,6,Low
+21900241,199,2pt,2,PT09M39.00S,09:39,Q2 09:39,30,36,1610612753.0,Augustin,MISS Augustin 2' Driving Layup,rebound,rebound,6,Low
+21900241,200,rebound,2,PT09M37.00S,09:37,Q2 09:37,30,36,1610612765.0,Wood,Wood REBOUND (Off:0 Def:1),2pt missed,2pt missed,6,Low
+21900241,201,2pt,2,PT09M34.00S,09:34,Q2 09:34,30,36,1610612765.0,Rose,MISS Rose 2' Driving Layup,rebound,block,6,Low
+21900241,201,block,2,PT09M34.00S,09:34,Q2 09:34,30,36,1610612753.0,Bamba,Bamba BLOCK (3 BLK),2pt missed,rebound,6,Low
+21900241,203,rebound,2,PT09M29.00S,09:29,Q2 09:29,30,36,1610612753.0,Iwundu,Iwundu REBOUND (Off:0 Def:1),block,3pt missed,6,Low
+21900241,204,3pt,2,PT09M27.00S,09:27,Q2 09:27,30,36,1610612753.0,Aminu,MISS Aminu 25' 3PT Jump Shot,rebound,rebound,6,Low
+21900241,205,rebound,2,PT09M22.00S,09:22,Q2 09:22,30,36,1610612765.0,Wood,Wood REBOUND (Off:0 Def:2),3pt missed,2pt missed,6,Low
+21900241,206,2pt,2,PT09M20.00S,09:20,Q2 09:20,30,36,1610612765.0,Mykhailiuk,MISS Mykhailiuk 1' Layup,rebound,rebound,6,Low
+21900241,208,rebound,2,PT09M16.00S,09:16,Q2 09:16,30,36,1610612753.0,Iwundu,Iwundu REBOUND (Off:0 Def:2),2pt missed,3pt missed,6,Low
+21900241,209,3pt,2,PT08M56.00S,08:56,Q2 08:56,30,36,1610612753.0,Aminu,MISS Aminu 3PT Jump Shot,rebound,rebound,6,Low
+21900241,210,rebound,2,PT08M51.00S,08:51,Q2 08:51,30,36,1610612765.0,Galloway,Galloway REBOUND (Off:0 Def:1),3pt missed,2pt made,6,Low
+21900241,211,2pt,2,PT08M48.00S,08:48,Q2 08:48,32,36,1610612765.0,Wood,Wood 1' Alley Oop Dunk (4 PTS) (Galloway 5 AST),rebound,timeout,4,Low
+21900241,213,timeout,2,PT08M37.00S,08:37,Q2 08:37,32,36,1610612753.0,,Magic Timeout: Regular (Reg.2 Short 0),2pt made,substitution,4,Low
+21900241,214,substitution,2,PT08M37.00S,08:37,Q2 08:37,32,36,1610612765.0,Morris,SUB out: M. Morris,timeout,substitution,4,Low
+21900241,215,substitution,2,PT08M37.00S,08:37,Q2 08:37,32,36,1610612765.0,Galloway,SUB out: L. Galloway,substitution,substitution,4,Low
+21900241,216,substitution,2,PT08M37.00S,08:37,Q2 08:37,32,36,1610612765.0,Rose,SUB out: D. Rose,substitution,substitution,4,Low
+21900241,217,substitution,2,PT08M37.00S,08:37,Q2 08:37,32,36,1610612753.0,Iwundu,SUB out: W. Iwundu,substitution,substitution,4,Low
+21900241,218,substitution,2,PT08M37.00S,08:37,Q2 08:37,32,36,1610612765.0,Brown,SUB in: B. Brown,substitution,substitution,4,Low
+21900241,219,substitution,2,PT08M37.00S,08:37,Q2 08:37,32,36,1610612765.0,Kennard,SUB in: L. Kennard,substitution,substitution,4,Low
+21900241,220,substitution,2,PT08M37.00S,08:37,Q2 08:37,32,36,1610612765.0,Griffin,SUB in: B. Griffin,substitution,substitution,4,Low
+21900241,221,substitution,2,PT08M37.00S,08:37,Q2 08:37,32,36,1610612753.0,Fournier,SUB in: E. Fournier,substitution,foul,4,Low
+21900241,222,foul,2,PT08M32.00S,08:32,Q2 08:32,32,36,1610612753.0,Bamba,Bamba OFF.Foul (P2) (T.Ford),substitution,turnover,4,Low
+21900241,224,turnover,2,PT08M32.00S,08:32,Q2 08:32,32,36,1610612753.0,Bamba,Bamba Offensive Foul Turnover (P1.T3),foul,2pt made,4,Low
+21900241,225,2pt,2,PT08M18.00S,08:18,Q2 08:18,34,36,1610612765.0,Wood,Wood Dunk (6 PTS) (Kennard 2 AST),turnover,foul,2,Low
+21900241,227,foul,2,PT08M05.00S,08:05,Q2 08:05,34,36,1610612765.0,Mykhailiuk,Mykhailiuk P.FOUL (P3.T2) (T.Maddox),2pt made,substitution,2,Low
+21900241,229,substitution,2,PT08M05.00S,08:05,Q2 08:05,34,36,1610612753.0,Aminu,SUB out: A. Aminu,foul,substitution,2,Low
+21900241,230,substitution,2,PT08M05.00S,08:05,Q2 08:05,34,36,1610612753.0,Ross,SUB out: T. Ross,substitution,substitution,2,Low
+21900241,231,substitution,2,PT08M05.00S,08:05,Q2 08:05,34,36,1610612753.0,Fultz,SUB in: M. Fultz,substitution,substitution,2,Low
+21900241,232,substitution,2,PT08M05.00S,08:05,Q2 08:05,34,36,1610612753.0,Isaac,SUB in: J. Isaac,substitution,foul,2,Low
+21900241,233,foul,2,PT08M03.00S,08:03,Q2 08:03,34,36,1610612753.0,Augustin,Augustin OFF.Foul (P2) (P.Ransom),substitution,turnover,2,Low
+21900241,235,turnover,2,PT08M03.00S,08:03,Q2 08:03,34,36,1610612753.0,Augustin,Augustin Offensive Foul Turnover (P2.T4),foul,2pt missed,2,Low
+21900241,236,2pt,2,PT07M53.00S,07:53,Q2 07:53,34,36,1610612765.0,Griffin,MISS Griffin 4' Jump Shot,turnover,block,2,Low
+21900241,236,block,2,PT07M53.00S,07:53,Q2 07:53,34,36,1610612753.0,Isaac,Isaac BLOCK (1 BLK),2pt missed,rebound,2,Low
+21900241,238,rebound,2,PT07M52.00S,07:52,Q2 07:52,34,36,1610612753.0,Isaac,Isaac REBOUND (Off:0 Def:4),block,turnover,2,Low
+21900241,239,turnover,2,PT07M50.00S,07:50,Q2 07:50,34,36,1610612753.0,Isaac,Isaac Bad Pass Turnover (P1.T5),rebound,steal,2,Low
+21900241,239,steal,2,PT07M50.00S,07:50,Q2 07:50,34,36,1610612765.0,Brown,Brown STEAL (1 STL),turnover,2pt missed,2,Low
+21900241,241,2pt,2,PT07M45.00S,07:45,Q2 07:45,34,36,1610612765.0,Griffin,MISS Griffin 2' Layup,steal,block,2,Low
+21900241,241,block,2,PT07M45.00S,07:45,Q2 07:45,34,36,1610612753.0,Isaac,Isaac BLOCK (2 BLK),2pt missed,rebound,2,Low
+21900241,243,rebound,2,PT07M43.00S,07:43,Q2 07:43,34,36,1610612753.0,Fournier,Fournier REBOUND (Off:0 Def:2),block,3pt missed,2,Low
+21900241,244,3pt,2,PT07M37.00S,07:37,Q2 07:37,34,36,1610612753.0,Augustin,MISS Augustin 25' 3PT Jump Shot,rebound,rebound,2,Low
+21900241,245,rebound,2,PT07M35.00S,07:35,Q2 07:35,34,36,1610612765.0,Griffin,Griffin REBOUND (Off:0 Def:3),3pt missed,3pt made,2,Low
+21900241,246,3pt,2,PT07M29.00S,07:29,Q2 07:29,37,36,1610612765.0,Mykhailiuk,Mykhailiuk 3PT Jump Shot (3 PTS) (Kennard 3 AST),rebound,2pt made,1,Low
+21900241,248,2pt,2,PT07M12.00S,07:12,Q2 07:12,37,38,1610612753.0,Fultz,Fultz 1' Layup (10 PTS) (Bamba 1 AST),3pt made,2pt made,1,Low
+21900241,250,2pt,2,PT06M55.00S,06:55,Q2 06:55,39,38,1610612765.0,Kennard,Kennard 8' Hook Shot (10 PTS),2pt made,3pt made,1,Low
+21900241,251,3pt,2,PT06M40.00S,06:40,Q2 06:40,39,41,1610612753.0,Isaac,Isaac 25' 3PT Jump Shot (6 PTS) (Augustin 3 AST),2pt made,3pt missed,2,Low
+21900241,253,3pt,2,PT06M16.00S,06:16,Q2 06:16,39,41,1610612765.0,Mykhailiuk,MISS Mykhailiuk 26' 3PT Jump Shot,3pt made,rebound,2,Low
+21900241,254,rebound,2,PT06M14.00S,06:14,Q2 06:14,39,41,1610612753.0,Bamba,Bamba REBOUND (Off:4 Def:3),3pt missed,turnover,2,Low
+21900241,255,turnover,2,PT06M12.00S,06:12,Q2 06:12,39,41,1610612753.0,Bamba,Bamba Bad Pass Turnover (P2.T6),rebound,steal,2,Low
+21900241,255,steal,2,PT06M12.00S,06:12,Q2 06:12,39,41,1610612765.0,Wood,Wood STEAL (1 STL),turnover,2pt missed,2,Low
+21900241,257,2pt,2,PT06M05.00S,06:05,Q2 06:05,39,41,1610612765.0,Kennard,MISS Kennard 3' Layup,steal,block,2,Low
+21900241,257,block,2,PT06M05.00S,06:05,Q2 06:05,39,41,1610612753.0,Isaac,Isaac BLOCK (3 BLK),2pt missed,rebound,2,Low
+21900241,259,rebound,2,PT06M02.00S,06:02,Q2 06:02,39,41,1610612753.0,Bamba,Bamba REBOUND (Off:4 Def:4),block,3pt missed,2,Low
+21900241,260,3pt,2,PT05M43.00S,05:43,Q2 05:43,39,41,1610612753.0,Augustin,MISS Augustin 24' 3PT Step Back Jump Shot,rebound,rebound,2,Low
+21900241,261,rebound,2,PT05M42.00S,05:42,Q2 05:42,39,41,1610612753.0,,TEAM offensive REBOUND,3pt missed,turnover,2,Low
+21900241,262,turnover,2,PT05M42.00S,05:42,Q2 05:42,39,41,0.0,,Magic Turnover: Shot Clock (T#7),rebound,substitution,2,Low
+21900241,263,substitution,2,PT05M42.00S,05:42,Q2 05:42,39,41,1610612753.0,Bamba,SUB out: M. Bamba,turnover,substitution,2,Low
+21900241,264,substitution,2,PT05M42.00S,05:42,Q2 05:42,39,41,1610612765.0,Mykhailiuk,SUB out: S. Mykhailiuk,substitution,substitution,2,Low
+21900241,265,substitution,2,PT05M42.00S,05:42,Q2 05:42,39,41,1610612753.0,Birch,SUB in: K. Birch,substitution,substitution,2,Low
+21900241,266,substitution,2,PT05M42.00S,05:42,Q2 05:42,39,41,1610612765.0,Galloway,SUB in: L. Galloway,substitution,2pt missed,2,Low
+21900241,265,2pt,2,PT05M30.00S,05:30,Q2 05:30,39,41,1610612765.0,Brown,MISS Brown 3' Driving Layup,substitution,rebound,2,Low
+21900241,266,rebound,2,PT05M28.00S,05:28,Q2 05:28,39,41,1610612765.0,Wood,Wood REBOUND (Off:1 Def:2),2pt missed,2pt made,2,Low
+21900241,267,2pt,2,PT05M27.00S,05:27,Q2 05:27,41,41,1610612765.0,Wood,Wood 1' Tip Layup Shot (8 PTS),rebound,foul,0,Low
+21900241,268,foul,2,PT05M17.00S,05:17,Q2 05:17,41,41,1610612765.0,Brown,Brown S.FOUL (P1.T3) (P.Ransom),2pt made,freethrow,0,Low
+21900241,272,freethrow,2,PT05M17.00S,05:17,Q2 05:17,41,42,1610612753.0,Augustin,Augustin Free Throw 1 of 2 (8 PTS),foul,freethrow,1,Low
+21900241,273,freethrow,2,PT05M17.00S,05:17,Q2 05:17,41,43,1610612753.0,Augustin,Augustin Free Throw 2 of 2 (9 PTS),freethrow,3pt missed,2,Low
+21900241,274,3pt,2,PT05M03.00S,05:03,Q2 05:03,41,43,1610612765.0,Brown,MISS Brown 26' 3PT Jump Shot,freethrow,rebound,2,Low
+21900241,275,rebound,2,PT04M59.00S,04:59,Q2 04:59,41,43,1610612753.0,Fultz,Fultz REBOUND (Off:0 Def:1),3pt missed,3pt missed,2,Low
+21900241,277,3pt,2,PT04M42.00S,04:42,Q2 04:42,41,43,1610612753.0,Fournier,MISS Fournier 26' 3PT Jump Shot,rebound,rebound,2,Low
+21900241,278,rebound,2,PT04M38.00S,04:38,Q2 04:38,41,43,1610612753.0,Birch,Birch REBOUND (Off:2 Def:1),3pt missed,2pt missed,2,Low
+21900241,279,2pt,2,PT04M29.00S,04:29,Q2 04:29,41,43,1610612753.0,Fultz,MISS Fultz 16' Jump Shot,rebound,rebound,2,Low
+21900241,280,rebound,2,PT04M28.00S,04:28,Q2 04:28,41,43,1610612753.0,,TEAM offensive REBOUND,2pt missed,2pt made,2,Low
+21900241,282,2pt,2,PT04M14.00S,04:14,Q2 04:14,41,45,1610612753.0,Fournier,Fournier 3' Cutting Layup Shot (6 PTS) (Augustin 4 AST),rebound,timeout,4,Low
+21900241,284,timeout,2,PT04M09.00S,04:09,Q2 04:09,41,45,1610612765.0,,PISTONS Timeout: Regular (Full 2 Short 0),2pt made,substitution,4,Low
+21900241,285,substitution,2,PT04M09.00S,04:09,Q2 04:09,41,45,1610612765.0,Wood,SUB out: C. Wood,timeout,substitution,4,Low
+21900241,286,substitution,2,PT04M09.00S,04:09,Q2 04:09,41,45,1610612753.0,Augustin,SUB out: D. Augustin,substitution,substitution,4,Low
+21900241,287,substitution,2,PT04M09.00S,04:09,Q2 04:09,41,45,1610612765.0,Drummond,SUB in: A. Drummond,substitution,substitution,4,Low
+21900241,288,substitution,2,PT04M09.00S,04:09,Q2 04:09,41,45,1610612753.0,Ross,SUB in: T. Ross,substitution,3pt missed,4,Low
+21900241,289,3pt,2,PT04M03.00S,04:03,Q2 04:03,41,45,1610612765.0,Galloway,MISS Galloway 25' 3PT Jump Shot,substitution,rebound,4,Low
+21900241,290,rebound,2,PT03M59.00S,03:59,Q2 03:59,41,45,1610612753.0,Fultz,Fultz REBOUND (Off:0 Def:2),3pt missed,3pt made,4,Low
+21900241,291,3pt,2,PT03M53.00S,03:53,Q2 03:53,41,48,1610612753.0,Ross,Ross 25' 3PT Jump Shot (9 PTS) (Fultz 1 AST),rebound,2pt made,7,Low
+21900241,293,2pt,2,PT03M38.00S,03:38,Q2 03:38,43,48,1610612765.0,Brown,Brown 2' Driving Layup (5 PTS),3pt made,3pt missed,5,Low
+21900241,294,3pt,2,PT03M23.00S,03:23,Q2 03:23,43,48,1610612753.0,Fournier,MISS Fournier 26' 3PT Jump Shot,2pt made,rebound,5,Low
+21900241,295,rebound,2,PT03M21.00S,03:21,Q2 03:21,43,48,1610612765.0,Drummond,Drummond REBOUND (Off:0 Def:4),3pt missed,2pt missed,5,Low
+21900241,296,2pt,2,PT03M03.00S,03:03,Q2 03:03,43,48,1610612765.0,Griffin,MISS Griffin 5' Hook Shot,rebound,rebound,5,Low
+21900241,297,rebound,2,PT03M01.00S,03:01,Q2 03:01,43,48,1610612765.0,Drummond,Drummond REBOUND (Off:1 Def:4),2pt missed,2pt made,5,Low
+21900241,298,2pt,2,PT03M01.00S,03:01,Q2 03:01,45,48,1610612765.0,Drummond,Drummond 1' Tip Layup Shot (4 PTS),rebound,2pt made,3,Low
+21900241,299,2pt,2,PT02M45.00S,02:45,Q2 02:45,45,50,1610612753.0,Ross,Ross 17' Pullup Jump Shot (11 PTS),2pt made,turnover,5,Low
+21900241,300,turnover,2,PT02M39.00S,02:39,Q2 02:39,45,50,1610612765.0,Drummond,Drummond Traveling Turnover (P3.T5),2pt made,2pt made,5,Low
+21900241,301,2pt,2,PT02M20.00S,02:20,Q2 02:20,45,52,1610612753.0,Fournier,Fournier 17' Step Back Jump Shot (8 PTS),turnover,2pt made,7,Low
+21900241,302,2pt,2,PT01M56.00S,01:56,Q2 01:56,47,52,1610612765.0,Griffin,Griffin 2' Jump Shot (6 PTS),2pt made,2pt missed,5,Low
+21900241,304,2pt,2,PT01M38.00S,01:38,Q2 01:38,47,52,1610612753.0,Fournier,MISS Fournier 1' Finger Roll Layup,2pt made,rebound,5,Low
+21900241,305,rebound,2,PT01M35.00S,01:35,Q2 01:35,47,52,1610612765.0,Drummond,Drummond REBOUND (Off:1 Def:5),2pt missed,foul,5,Low
+21900241,306,foul,2,PT01M34.00S,01:34,Q2 01:34,47,52,1610612753.0,Fultz,Fultz P.FOUL (P1.T2) (T.Ford),rebound,substitution,5,Low
+21900241,308,substitution,2,PT01M34.00S,01:34,Q2 01:34,47,52,1610612753.0,Fournier,SUB out: E. Fournier,foul,substitution,5,Low
+21900241,309,substitution,2,PT01M34.00S,01:34,Q2 01:34,47,52,1610612753.0,Birch,SUB out: K. Birch,substitution,substitution,5,Low
+21900241,310,substitution,2,PT01M34.00S,01:34,Q2 01:34,47,52,1610612753.0,Iwundu,SUB in: W. Iwundu,substitution,substitution,5,Low
+21900241,311,substitution,2,PT01M34.00S,01:34,Q2 01:34,47,52,1610612753.0,Bamba,SUB in: M. Bamba,substitution,foul,5,Low
+21900241,312,foul,2,PT01M31.00S,01:31,Q2 01:31,47,52,1610612753.0,Isaac,Isaac P.FOUL (P2.PN) (T.Maddox),substitution,freethrow,5,Low
+21900241,314,freethrow,2,PT01M31.00S,01:31,Q2 01:31,47,52,1610612765.0,Griffin,MISS Griffin Free Throw 1 of 2,foul,rebound,5,Low
+21900241,315,rebound,2,PT01M31.00S,01:31,Q2 01:31,47,52,1610612765.0,,TEAM offensive REBOUND,freethrow,freethrow,5,Low
+21900241,318,freethrow,2,PT01M31.00S,01:31,Q2 01:31,48,52,1610612765.0,Griffin,Griffin Free Throw 2 of 2 (7 PTS),rebound,substitution,4,Low
+21900241,316,substitution,2,PT01M31.00S,01:31,Q2 01:31,47,52,1610612753.0,Isaac,SUB out: J. Isaac,freethrow,substitution,5,Low
+21900241,317,substitution,2,PT01M31.00S,01:31,Q2 01:31,47,52,1610612753.0,Aminu,SUB in: A. Aminu,substitution,3pt made,5,Low
+21900241,319,3pt,2,PT01M15.00S,01:15,Q2 01:15,48,55,1610612753.0,Ross,Ross 25' 3PT Step Back Jump Shot (14 PTS),substitution,turnover,7,Low
+21900241,320,turnover,2,PT01M06.00S,01:06,Q2 01:06,48,55,1610612765.0,Brown,Brown Out of Bounds - Bad Pass Turnover Turnover (P1.T6),3pt made,substitution,7,Low
+21900241,321,substitution,2,PT01M06.00S,01:06,Q2 01:06,48,55,1610612765.0,Brown,SUB out: B. Brown,turnover,substitution,7,Low
+21900241,322,substitution,2,PT01M06.00S,01:06,Q2 01:06,48,55,1610612765.0,Rose,SUB in: D. Rose,substitution,foul,7,Low
+21900241,323,foul,2,PT00M58.60S,00:58,Q2 00:58,48,55,1610612765.0,Drummond,Drummond P.FOUL (P3.T4) (T.Ford),substitution,substitution,7,Low
+21900241,325,substitution,2,PT00M58.60S,00:58,Q2 00:58,48,55,1610612765.0,Drummond,SUB out: A. Drummond,foul,substitution,7,Low
+21900241,326,substitution,2,PT00M58.60S,00:58,Q2 00:58,48,55,1610612765.0,Wood,SUB in: C. Wood,substitution,3pt missed,7,Low
+21900241,327,3pt,2,PT00M53.90S,00:53,Q2 00:53,48,55,1610612753.0,Ross,MISS Ross 25' 3PT Jump Shot,substitution,rebound,7,Low
+21900241,328,rebound,2,PT00M51.00S,00:51,Q2 00:51,48,55,1610612765.0,Kennard,Kennard REBOUND (Off:0 Def:1),3pt missed,3pt made,7,Low
+21900241,329,3pt,2,PT00M39.70S,00:39,Q2 00:39,51,55,1610612765.0,Griffin,Griffin 26' 3PT Jump Shot (10 PTS),rebound,2pt missed,4,Low
+21900241,331,2pt,2,PT00M29.70S,00:29,Q2 00:29,51,55,1610612753.0,Iwundu,MISS Iwundu 2' Driving Layup,3pt made,block,4,Low
+21900241,331,block,2,PT00M29.70S,00:29,Q2 00:29,51,55,1610612765.0,Wood,Wood BLOCK (1 BLK),2pt missed,rebound,4,Low
+21900241,333,rebound,2,PT00M28.30S,00:28,Q2 00:28,51,55,1610612765.0,,TEAM defensive REBOUND,block,3pt missed,4,Low
+21900241,335,3pt,2,PT00M16.60S,00:16,Q2 00:16,51,55,1610612765.0,Rose,MISS Rose 25' 3PT Pullup Jump Shot,rebound,rebound,4,Low
+21900241,336,rebound,2,PT00M15.60S,00:15,Q2 00:15,51,55,1610612765.0,,TEAM offensive REBOUND,3pt missed,foul,4,Low
+21900241,337,foul,2,PT00M15.60S,00:15,Q2 00:15,51,55,1610612753.0,Bamba,Bamba L.B.FOUL (P3.PN) (T.Ford),rebound,freethrow,4,Low
+21900241,339,freethrow,2,PT00M15.60S,00:15,Q2 00:15,52,55,1610612765.0,Wood,Wood Free Throw 1 of 2 (9 PTS),foul,freethrow,3,Low
+21900241,344,freethrow,2,PT00M15.60S,00:15,Q2 00:15,53,55,1610612765.0,Wood,Wood Free Throw 2 of 2 (10 PTS),freethrow,substitution,2,Low
+21900241,340,substitution,2,PT00M15.60S,00:15,Q2 00:15,51,55,1610612765.0,Kennard,SUB out: L. Kennard,substitution,substitution,4,Low
+21900241,341,substitution,2,PT00M15.60S,00:15,Q2 00:15,51,55,1610612753.0,Bamba,SUB: Jefferson FOR Bamba,substitution,substitution,4,Low
+21900241,342,substitution,2,PT00M15.60S,00:15,Q2 00:15,51,55,1610612765.0,Brown,SUB in: B. Brown,substitution,2pt missed,4,Low
+21900241,345,2pt,2,PT00M00.30S,00:00,Q2 00:00,53,55,1610612753.0,Iwundu,MISS Iwundu 21' Jump Shot,substitution,rebound,2,Low
+21900241,346,rebound,2,PT00M00.10S,00:00,Q2 00:00,53,55,1610612753.0,,TEAM offensive REBOUND,2pt missed,period,2,Low
+21900241,347,period,2,PT00M00.00S,00:00,Q2 00:00,53,55,1610612765.0,,End of 2nd Period (8:07 PM EST),rebound,period,2,Low
+21900241,358,period,3,PT12M00.00S,12:00,Q3 12:00,53,55,1610612765.0,,Start of 3rd Period (8:23 PM EST),period,substitution,2,Low
+21900241,359,2pt,3,PT11M40.00S,11:40,Q3 11:40,53,55,1610612753.0,Iwundu,MISS Iwundu 12' Pullup Jump Shot,substitution,rebound,2,Low
+21900241,360,rebound,3,PT11M36.00S,11:36,Q3 11:36,53,55,1610612765.0,Drummond,Drummond REBOUND (Off:1 Def:6),2pt missed,turnover,2,Low
+21900241,361,turnover,3,PT11M30.00S,11:30,Q3 11:30,53,55,1610612765.0,Griffin,Griffin Bad Pass Turnover (P1.T7),rebound,steal,2,Low
+21900241,361,steal,3,PT11M30.00S,11:30,Q3 11:30,53,55,1610612753.0,Fultz,Fultz STEAL (2 STL),turnover,2pt made,2,Low
+21900241,363,2pt,3,PT11M26.00S,11:26,Q3 11:26,53,57,1610612753.0,Fultz,Fultz 3' Running Layup (12 PTS),steal,turnover,4,Low
+21900241,364,turnover,3,PT11M09.00S,11:09,Q3 11:09,53,57,1610612765.0,Brown,Brown Bad Pass Turnover (P2.T8),2pt made,steal,4,Low
+21900241,364,steal,3,PT11M09.00S,11:09,Q3 11:09,53,57,1610612753.0,Fournier,Fournier STEAL (1 STL),turnover,foul,4,Low
+21900241,366,foul,3,PT11M04.00S,11:04,Q3 11:04,53,57,1610612765.0,Galloway,Galloway S.FOUL (P2.T1) (T.Maddox),steal,freethrow,4,Low
+21900241,368,freethrow,3,PT11M04.00S,11:04,Q3 11:04,53,57,1610612753.0,Birch,MISS Birch Free Throw 1 of 2,foul,rebound,4,Low
+21900241,369,rebound,3,PT11M04.00S,11:04,Q3 11:04,53,57,1610612753.0,,TEAM offensive REBOUND,freethrow,freethrow,4,Low
+21900241,370,freethrow,3,PT11M04.00S,11:04,Q3 11:04,53,58,1610612753.0,Birch,Birch Free Throw 2 of 2 (3 PTS),rebound,3pt made,5,Low
+21900241,371,3pt,3,PT10M42.00S,10:42,Q3 10:42,56,58,1610612765.0,Galloway,Galloway 3PT Jump Shot (6 PTS) (Kennard 4 AST),freethrow,2pt missed,2,Low
+21900241,373,2pt,3,PT10M21.00S,10:21,Q3 10:21,56,58,1610612753.0,Fournier,MISS Fournier 12' Floating Jump Shot,3pt made,rebound,2,Low
+21900241,374,rebound,3,PT10M18.00S,10:18,Q3 10:18,56,58,1610612765.0,Drummond,Drummond REBOUND (Off:1 Def:7),2pt missed,2pt made,2,Low
+21900241,375,2pt,3,PT10M11.00S,10:11,Q3 10:11,58,58,1610612765.0,Drummond,Drummond Alley Oop Dunk (6 PTS) (Kennard 5 AST),rebound,turnover,0,Low
+21900241,377,turnover,3,PT09M45.00S,09:45,Q3 09:45,58,58,1610612753.0,Iwundu,Iwundu Bad Pass Turnover (P1.T8),2pt made,steal,0,Low
+21900241,377,steal,3,PT09M45.00S,09:45,Q3 09:45,58,58,1610612765.0,Kennard,Kennard STEAL (1 STL),turnover,foul,0,Low
+21900241,379,foul,3,PT09M34.00S,09:34,Q3 09:34,58,58,1610612753.0,Birch,Birch S.FOUL (P3.T1) (T.Ford),steal,freethrow,0,Low
+21900241,381,freethrow,3,PT09M34.00S,09:34,Q3 09:34,59,58,1610612765.0,Griffin,Griffin Free Throw 1 of 2 (11 PTS),foul,freethrow,1,Low
+21900241,382,freethrow,3,PT09M34.00S,09:34,Q3 09:34,60,58,1610612765.0,Griffin,Griffin Free Throw 2 of 2 (12 PTS),freethrow,2pt missed,2,Low
+21900241,383,2pt,3,PT09M12.00S,09:12,Q3 09:12,60,58,1610612753.0,Isaac,MISS Isaac 14' Pullup Jump Shot,freethrow,rebound,2,Low
+21900241,384,rebound,3,PT09M07.00S,09:07,Q3 09:07,60,58,1610612765.0,Brown,Brown REBOUND (Off:0 Def:2),2pt missed,turnover,2,Low
+21900241,385,turnover,3,PT08M59.00S,08:59,Q3 08:59,60,58,1610612765.0,Brown,Brown Bad Pass Turnover (P3.T9),rebound,steal,2,Low
+21900241,385,steal,3,PT08M59.00S,08:59,Q3 08:59,60,58,1610612753.0,Isaac,Isaac STEAL (1 STL),turnover,2pt made,2,Low
+21900241,387,2pt,3,PT08M55.00S,08:55,Q3 08:55,60,60,1610612753.0,Isaac,Isaac 1' Running Layup (8 PTS),steal,turnover,0,Low
+21900241,388,turnover,3,PT08M38.00S,08:38,Q3 08:38,60,60,1610612765.0,Brown,Brown Bad Pass Turnover (P4.T10),2pt made,steal,0,Low
+21900241,388,steal,3,PT08M38.00S,08:38,Q3 08:38,60,60,1610612753.0,Fournier,Fournier STEAL (2 STL),turnover,3pt made,0,Low
+21900241,390,3pt,3,PT08M23.00S,08:23,Q3 08:23,60,63,1610612753.0,Iwundu,Iwundu 26' 3PT Jump Shot (3 PTS) (Fournier 2 AST),steal,2pt made,3,Low
+21900241,393,2pt,3,PT07M58.00S,07:58,Q3 07:58,62,63,1610612765.0,Brown,Brown 1' Driving Layup (7 PTS),3pt made,foul,1,Low
+21900241,394,foul,3,PT07M49.00S,07:49,Q3 07:49,62,63,1610612765.0,Brown,Brown S.FOUL (P2.T2) (T.Ford),2pt made,freethrow,1,Low
+21900241,396,freethrow,3,PT07M49.00S,07:49,Q3 07:49,62,64,1610612753.0,Fournier,Fournier Free Throw 1 of 2 (9 PTS),foul,freethrow,2,Low
+21900241,397,freethrow,3,PT07M49.00S,07:49,Q3 07:49,62,64,1610612753.0,Fournier,MISS Fournier Free Throw 2 of 2,freethrow,rebound,2,Low
+21900241,398,rebound,3,PT07M46.00S,07:46,Q3 07:46,62,64,1610612765.0,Drummond,Drummond REBOUND (Off:1 Def:8),freethrow,2pt missed,2,Low
+21900241,399,2pt,3,PT07M33.00S,07:33,Q3 07:33,62,64,1610612765.0,Kennard,MISS Kennard 16' Pullup Jump Shot,rebound,rebound,2,Low
+21900241,400,rebound,3,PT07M30.00S,07:30,Q3 07:30,62,64,1610612753.0,Isaac,Isaac REBOUND (Off:0 Def:5),2pt missed,2pt made,2,Low
+21900241,401,2pt,3,PT07M20.00S,07:20,Q3 07:20,62,66,1610612753.0,Birch,Birch 8' Turnaround Jump Shot (5 PTS) (Isaac 1 AST),rebound,2pt made,4,Low
+21900241,403,2pt,3,PT06M59.00S,06:59,Q3 06:59,64,66,1610612765.0,Griffin,Griffin 2' Driving Layup (14 PTS) (Kennard 6 AST),2pt made,foul,2,Low
+21900241,404,foul,3,PT06M59.00S,06:59,Q3 06:59,64,66,1610612753.0,Fournier,Fournier S.FOUL (P3.T2) (T.Ford),2pt made,timeout,2,Low
+21900241,406,timeout,3,PT06M59.00S,06:59,Q3 06:59,64,66,1610612765.0,,PISTONS Timeout: Regular (Full 3 Short 0),foul,freethrow,2,Low
+21900241,408,freethrow,3,PT06M59.00S,06:59,Q3 06:59,65,66,1610612765.0,Griffin,Griffin Free Throw 1 of 1 (15 PTS),timeout,3pt missed,1,Low
+21900241,409,3pt,3,PT06M45.00S,06:45,Q3 06:45,65,66,1610612753.0,Fournier,MISS Fournier 25' 3PT Jump Shot,freethrow,rebound,1,Low
+21900241,410,rebound,3,PT06M40.00S,06:40,Q3 06:40,65,66,1610612765.0,Kennard,Kennard REBOUND (Off:0 Def:2),3pt missed,2pt made,1,Low
+21900241,411,2pt,3,PT06M26.00S,06:26,Q3 06:26,67,66,1610612765.0,Brown,Brown 3' Driving Layup (9 PTS),rebound,2pt made,1,Low
+21900241,413,2pt,3,PT06M07.00S,06:07,Q3 06:07,67,68,1610612753.0,Fultz,Fultz 1' Driving Dunk (14 PTS),2pt made,2pt made,1,Low
+21900241,414,2pt,3,PT05M40.00S,05:40,Q3 05:40,69,68,1610612765.0,Brown,Brown 3' Floating Jump Shot (11 PTS),2pt made,3pt missed,1,Low
+21900241,415,3pt,3,PT05M26.00S,05:26,Q3 05:26,69,68,1610612753.0,Isaac,MISS Isaac 26' 3PT Jump Shot,2pt made,rebound,1,Low
+21900241,416,rebound,3,PT05M23.00S,05:23,Q3 05:23,69,68,1610612765.0,Galloway,Galloway REBOUND (Off:0 Def:2),3pt missed,3pt missed,1,Low
+21900241,417,3pt,3,PT05M16.00S,05:16,Q3 05:16,69,68,1610612765.0,Brown,MISS Brown 26' 3PT Jump Shot,rebound,rebound,1,Low
+21900241,418,rebound,3,PT05M13.00S,05:13,Q3 05:13,69,68,1610612753.0,Fultz,Fultz REBOUND (Off:0 Def:3),3pt missed,2pt missed,1,Low
+21900241,419,2pt,3,PT04M59.00S,04:59,Q3 04:59,69,68,1610612753.0,Isaac,MISS Isaac 15' Pullup Jump Shot,rebound,rebound,1,Low
+21900241,420,rebound,3,PT04M56.00S,04:56,Q3 04:56,69,68,1610612765.0,Drummond,Drummond REBOUND (Off:1 Def:9),2pt missed,foul,1,Low
+21900241,421,foul,3,PT04M55.00S,04:55,Q3 04:55,69,68,1610612753.0,Iwundu,Iwundu P.FOUL (P2.T3) (T.Ford),rebound,substitution,1,Low
+21900241,423,substitution,3,PT04M55.00S,04:55,Q3 04:55,69,68,1610612765.0,Brown,SUB out: B. Brown,foul,substitution,1,Low
+21900241,424,substitution,3,PT04M55.00S,04:55,Q3 04:55,69,68,1610612753.0,Fultz,SUB out: M. Fultz,substitution,substitution,1,Low
+21900241,425,substitution,3,PT04M55.00S,04:55,Q3 04:55,69,68,1610612753.0,Iwundu,SUB out: W. Iwundu,substitution,substitution,1,Low
+21900241,426,substitution,3,PT04M55.00S,04:55,Q3 04:55,69,68,1610612753.0,Fournier,SUB out: E. Fournier,substitution,substitution,1,Low
+21900241,427,substitution,3,PT04M55.00S,04:55,Q3 04:55,69,68,1610612765.0,Rose,SUB in: D. Rose,substitution,substitution,1,Low
+21900241,428,substitution,3,PT04M55.00S,04:55,Q3 04:55,69,68,1610612753.0,Augustin,SUB in: D. Augustin,substitution,substitution,1,Low
+21900241,429,substitution,3,PT04M55.00S,04:55,Q3 04:55,69,68,1610612753.0,Ross,SUB in: T. Ross,substitution,substitution,1,Low
+21900241,430,substitution,3,PT04M55.00S,04:55,Q3 04:55,69,68,1610612753.0,Aminu,SUB in: A. Aminu,substitution,3pt missed,1,Low
+21900241,431,3pt,3,PT04M46.00S,04:46,Q3 04:46,69,68,1610612765.0,Griffin,MISS Griffin 27' 3PT Step Back Jump Shot,substitution,rebound,1,Low
+21900241,432,rebound,3,PT04M41.00S,04:41,Q3 04:41,69,68,1610612753.0,Ross,Ross REBOUND (Off:0 Def:1),3pt missed,2pt missed,1,Low
+21900241,433,2pt,3,PT04M36.00S,04:36,Q3 04:36,69,68,1610612753.0,Ross,MISS Ross 16' Pullup Jump Shot,rebound,rebound,1,Low
+21900241,434,rebound,3,PT04M33.00S,04:33,Q3 04:33,69,68,1610612753.0,Birch,Birch REBOUND (Off:3 Def:1),2pt missed,3pt missed,1,Low
+21900241,435,3pt,3,PT04M30.00S,04:30,Q3 04:30,69,68,1610612753.0,Aminu,MISS Aminu 25' 3PT Jump Shot,rebound,rebound,1,Low
+21900241,436,rebound,3,PT04M26.00S,04:26,Q3 04:26,69,68,1610612765.0,Drummond,Drummond REBOUND (Off:1 Def:10),3pt missed,2pt missed,1,Low
+21900241,437,2pt,3,PT04M18.00S,04:18,Q3 04:18,69,68,1610612765.0,Rose,MISS Rose 9' Driving Layup,rebound,rebound,1,Low
+21900241,438,rebound,3,PT04M17.00S,04:17,Q3 04:17,69,68,1610612765.0,Rose,Rose REBOUND (Off:1 Def:0),2pt missed,3pt made,1,Low
+21900241,439,3pt,3,PT04M11.00S,04:11,Q3 04:11,72,68,1610612765.0,Galloway,Galloway 26' 3PT Jump Shot (9 PTS) (Griffin 2 AST),rebound,2pt missed,4,Low
+21900241,441,2pt,3,PT03M50.00S,03:50,Q3 03:50,72,68,1610612753.0,Birch,MISS Birch 9' Turnaround Hook Shot,3pt made,rebound,4,Low
+21900241,442,rebound,3,PT03M47.00S,03:47,Q3 03:47,72,68,1610612765.0,Griffin,Griffin REBOUND (Off:0 Def:4),2pt missed,3pt made,4,Low
+21900241,443,3pt,3,PT03M39.00S,03:39,Q3 03:39,75,68,1610612765.0,Kennard,Kennard 25' 3PT Jump Shot (13 PTS) (Rose 2 AST),rebound,timeout,7,Low
+21900241,445,timeout,3,PT03M39.00S,03:39,Q3 03:39,75,68,1610612753.0,,Magic Timeout: Regular (Reg.3 Short 0),3pt made,substitution,7,Low
+21900241,446,substitution,3,PT03M39.00S,03:39,Q3 03:39,75,68,1610612765.0,Kennard,SUB out: L. Kennard,timeout,substitution,7,Low
+21900241,447,substitution,3,PT03M39.00S,03:39,Q3 03:39,75,68,1610612765.0,Griffin,SUB out: B. Griffin,substitution,substitution,7,Low
+21900241,448,substitution,3,PT03M39.00S,03:39,Q3 03:39,75,68,1610612753.0,Isaac,SUB out: J. Isaac,substitution,substitution,7,Low
+21900241,449,substitution,3,PT03M39.00S,03:39,Q3 03:39,75,68,1610612753.0,Birch,SUB out: K. Birch,substitution,substitution,7,Low
+21900241,450,substitution,3,PT03M39.00S,03:39,Q3 03:39,75,68,1610612765.0,Morris,SUB in: M. Morris,substitution,substitution,7,Low
+21900241,451,substitution,3,PT03M39.00S,03:39,Q3 03:39,75,68,1610612765.0,Mykhailiuk,SUB in: S. Mykhailiuk,substitution,substitution,7,Low
+21900241,452,substitution,3,PT03M39.00S,03:39,Q3 03:39,75,68,1610612753.0,Bamba,SUB in: M. Bamba,substitution,substitution,7,Low
+21900241,453,substitution,3,PT03M39.00S,03:39,Q3 03:39,75,68,1610612753.0,Iwundu,SUB in: W. Iwundu,substitution,2pt missed,7,Low
+21900241,454,2pt,3,PT03M20.00S,03:20,Q3 03:20,75,68,1610612753.0,Ross,MISS Ross 16' Jump Shot,substitution,rebound,7,Low
+21900241,455,rebound,3,PT03M19.00S,03:19,Q3 03:19,75,68,1610612765.0,Drummond,Drummond REBOUND (Off:1 Def:11),2pt missed,2pt missed,7,Low
+21900241,456,2pt,3,PT03M08.00S,03:08,Q3 03:08,75,68,1610612765.0,Drummond,MISS Drummond 7' Turnaround Hook Shot,rebound,rebound,7,Low
+21900241,457,rebound,3,PT03M06.00S,03:06,Q3 03:06,75,68,1610612753.0,Bamba,Bamba REBOUND (Off:4 Def:5),2pt missed,2pt missed,7,Low
+21900241,459,2pt,3,PT02M58.00S,02:58,Q3 02:58,75,68,1610612753.0,Bamba,MISS Bamba 6' Layup,rebound,block,7,Low
+21900241,459,block,3,PT02M58.00S,02:58,Q3 02:58,75,68,1610612765.0,Morris,Morris BLOCK (1 BLK),2pt missed,rebound,7,Low
+21900241,464,rebound,3,PT02M58.00S,02:58,Q3 02:58,75,68,1610612765.0,,TEAM defensive REBOUND,block,substitution,7,Low
+21900241,482,substitution,3,PT02M58.00S,02:58,Q3 02:58,75,68,1610612753.0,Iwundu,SUB out: W. Iwundu,rebound,substitution,7,Low
+21900241,483,substitution,3,PT02M58.00S,02:58,Q3 02:58,75,68,1610612753.0,Fournier,SUB in: E. Fournier,substitution,turnover,7,Low
+21900241,465,turnover,3,PT02M44.00S,02:44,Q3 02:44,75,68,1610612765.0,Galloway,Galloway Out of Bounds Lost Ball Turnover (P1.T11),substitution,2pt missed,7,Low
+21900241,466,2pt,3,PT02M21.00S,02:21,Q3 02:21,75,68,1610612753.0,Aminu,MISS Aminu 5' Driving Layup,turnover,rebound,7,Low
+21900241,467,rebound,3,PT02M19.00S,02:19,Q3 02:19,75,68,1610612765.0,Mykhailiuk,Mykhailiuk REBOUND (Off:0 Def:1),2pt missed,3pt made,7,Low
+21900241,468,3pt,3,PT02M05.00S,02:05,Q3 02:05,78,68,1610612765.0,Mykhailiuk,Mykhailiuk 24' 3PT Jump Shot (6 PTS) (Drummond 1 AST),rebound,2pt missed,10,Low
+21900241,470,2pt,3,PT01M47.00S,01:47,Q3 01:47,78,68,1610612753.0,Augustin,MISS Augustin 20' Pullup Jump Shot,3pt made,rebound,10,Low
+21900241,471,rebound,3,PT01M42.00S,01:42,Q3 01:42,78,68,1610612765.0,Drummond,Drummond REBOUND (Off:1 Def:12),2pt missed,3pt missed,10,Low
+21900241,473,3pt,3,PT01M41.00S,01:41,Q3 01:41,78,68,1610612765.0,Rose,MISS Rose 26' 3PT Pullup Jump Shot,rebound,rebound,10,Low
+21900241,474,rebound,3,PT01M38.00S,01:38,Q3 01:38,78,68,1610612753.0,Bamba,Bamba REBOUND (Off:4 Def:6),3pt missed,2pt missed,10,Low
+21900241,475,2pt,3,PT01M28.00S,01:28,Q3 01:28,78,68,1610612753.0,Augustin,MISS Augustin 2' Driving Reverse Layup,rebound,block,10,Low
+21900241,475,block,3,PT01M28.00S,01:28,Q3 01:28,78,68,1610612765.0,Rose,Rose BLOCK (1 BLK),2pt missed,rebound,10,Low
+21900241,477,rebound,3,PT01M28.00S,01:28,Q3 01:28,78,68,1610612753.0,,TEAM offensive REBOUND,block,substitution,10,Low
+21900241,478,substitution,3,PT01M28.00S,01:28,Q3 01:28,78,68,1610612765.0,Drummond,SUB out: A. Drummond,rebound,substitution,10,Low
+21900241,479,substitution,3,PT01M28.00S,01:28,Q3 01:28,78,68,1610612765.0,Wood,SUB in: C. Wood,substitution,foul,10,Low
+21900241,480,foul,3,PT01M23.00S,01:23,Q3 01:23,78,68,1610612765.0,Mykhailiuk,Mykhailiuk S.FOUL (P4.T3) (T.Ford),substitution,freethrow,10,Low
+21900241,484,freethrow,3,PT01M23.00S,01:23,Q3 01:23,78,69,1610612753.0,Fournier,Fournier Free Throw 1 of 2 (10 PTS),foul,freethrow,9,Low
+21900241,503,freethrow,3,PT01M23.00S,01:23,Q3 01:23,78,70,1610612753.0,Fournier,Fournier Free Throw 2 of 2 (11 PTS),freethrow,substitution,8,Low
+21900241,485,substitution,3,PT01M23.00S,01:23,Q3 01:23,78,70,1610612765.0,Mykhailiuk,SUB out: S. Mykhailiuk,freethrow,substitution,8,Low
+21900241,486,substitution,3,PT01M23.00S,01:23,Q3 01:23,78,70,1610612765.0,Kennard,SUB in: L. Kennard,substitution,3pt missed,8,Low
+21900241,487,3pt,3,PT01M08.00S,01:08,Q3 01:08,78,70,1610612765.0,Galloway,MISS Galloway 26' 3PT Jump Shot,substitution,rebound,8,Low
+21900241,488,rebound,3,PT01M05.00S,01:05,Q3 01:05,78,70,1610612753.0,Aminu,Aminu REBOUND (Off:0 Def:4),3pt missed,3pt missed,8,Low
+21900241,489,3pt,3,PT00M55.70S,00:55,Q3 00:55,78,70,1610612753.0,Bamba,MISS Bamba 26' 3PT Jump Shot,rebound,rebound,8,Low
+21900241,490,rebound,3,PT00M54.00S,00:54,Q3 00:54,78,70,1610612765.0,Rose,Rose REBOUND (Off:1 Def:1),3pt missed,2pt missed,8,Low
+21900241,491,2pt,3,PT00M49.00S,00:49,Q3 00:49,78,70,1610612765.0,Rose,MISS Rose 5' Driving Layup,rebound,rebound,8,Low
+21900241,492,rebound,3,PT00M47.60S,00:47,Q3 00:47,78,70,1610612765.0,Galloway,Galloway REBOUND (Off:1 Def:2),2pt missed,3pt missed,8,Low
+21900241,493,3pt,3,PT00M46.40S,00:46,Q3 00:46,78,70,1610612765.0,Kennard,MISS Kennard 26' 3PT Jump Shot,rebound,rebound,8,Low
+21900241,494,rebound,3,PT00M43.30S,00:43,Q3 00:43,78,70,1610612753.0,Bamba,Bamba REBOUND (Off:4 Def:7),3pt missed,2pt missed,8,Low
+21900241,495,2pt,3,PT00M29.90S,00:29,Q3 00:29,78,70,1610612753.0,Bamba,MISS Bamba 6' Hook Shot,rebound,rebound,8,Low
+21900241,496,rebound,3,PT00M26.70S,00:26,Q3 00:26,78,70,1610612765.0,Kennard,Kennard REBOUND (Off:0 Def:3),2pt missed,3pt missed,8,Low
+21900241,497,3pt,3,PT00M08.60S,00:08,Q3 00:08,78,70,1610612765.0,Galloway,MISS Galloway 29' 3PT Jump Shot,rebound,rebound,8,Low
+21900241,498,rebound,3,PT00M05.80S,00:05,Q3 00:05,78,70,1610612753.0,Bamba,Bamba REBOUND (Off:4 Def:8),3pt missed,period,8,Low
+21900241,502,period,3,PT00M00.00S,00:00,Q3 00:00,78,70,1610612765.0,,End of 3rd Period (8:46 PM EST),rebound,period,8,Low
+21900241,506,period,4,PT12M00.00S,12:00,Q4 12:00,78,70,1610612765.0,,Start of 4th Period (8:48 PM EST),period,substitution,8,Medium
+21900241,507,2pt,4,PT11M48.00S,11:48,Q4 11:48,80,70,1610612765.0,Rose,Rose 1' Driving Reverse Layup (2 PTS),substitution,2pt made,10,Low
+21900241,508,2pt,4,PT11M30.00S,11:30,Q4 11:30,80,72,1610612753.0,Bamba,Bamba 1' Alley Oop Dunk (6 PTS) (Aminu 2 AST),2pt made,3pt missed,8,Medium
+21900241,510,3pt,4,PT11M13.00S,11:13,Q4 11:13,80,72,1610612765.0,Wood,MISS Wood 25' 3PT Jump Shot,2pt made,rebound,8,Medium
+21900241,511,rebound,4,PT11M10.00S,11:10,Q4 11:10,80,72,1610612753.0,Augustin,Augustin REBOUND (Off:0 Def:2),3pt missed,foul,8,Medium
+21900241,512,foul,4,PT11M06.00S,11:06,Q4 11:06,80,72,1610612765.0,Rose,Rose P.FOUL (P2.T1) (T.Ford),rebound,3pt missed,8,Medium
+21900241,515,3pt,4,PT11M01.00S,11:01,Q4 11:01,80,72,1610612753.0,Fournier,MISS Fournier 26' 3PT Jump Shot,foul,rebound,8,Medium
+21900241,516,rebound,4,PT10M58.00S,10:58,Q4 10:58,80,72,1610612765.0,Wood,Wood REBOUND (Off:1 Def:3),3pt missed,2pt made,8,Medium
+21900241,517,2pt,4,PT10M48.00S,10:48,Q4 10:48,82,72,1610612765.0,Kennard,Kennard 19' Pullup Jump Shot (15 PTS) (Rose 3 AST),rebound,foul,10,Low
+21900241,519,foul,4,PT10M26.00S,10:26,Q4 10:26,82,72,1610612765.0,Kennard,Kennard S.FOUL (P2.T2) (P.Ransom),2pt made,freethrow,10,Low
+21900241,521,freethrow,4,PT10M26.00S,10:26,Q4 10:26,82,73,1610612753.0,Fournier,Fournier Free Throw 1 of 2 (12 PTS),foul,freethrow,9,Low
+21900241,522,freethrow,4,PT10M26.00S,10:26,Q4 10:26,82,74,1610612753.0,Fournier,Fournier Free Throw 2 of 2 (13 PTS),freethrow,3pt missed,8,Medium
+21900241,523,3pt,4,PT10M11.00S,10:11,Q4 10:11,82,74,1610612765.0,Morris,MISS Morris 25' 3PT Jump Shot,freethrow,rebound,8,Medium
+21900241,524,rebound,4,PT10M05.00S,10:05,Q4 10:05,82,74,1610612765.0,Mykhailiuk,Mykhailiuk REBOUND (Off:1 Def:1),3pt missed,3pt made,8,Medium
+21900241,525,3pt,4,PT09M56.00S,09:56,Q4 09:56,85,74,1610612765.0,Kennard,Kennard 25' 3PT Jump Shot (18 PTS) (Rose 4 AST),rebound,foul,11,Low
+21900241,527,foul,4,PT09M36.00S,09:36,Q4 09:36,85,74,1610612765.0,Rose,Rose S.FOUL (P3.T3) (T.Ford),3pt made,freethrow,11,Low
+21900241,529,freethrow,4,PT09M36.00S,09:36,Q4 09:36,85,75,1610612753.0,Fournier,Fournier Free Throw 1 of 2 (14 PTS),foul,freethrow,10,Low
+21900241,532,freethrow,4,PT09M36.00S,09:36,Q4 09:36,85,76,1610612753.0,Fournier,Fournier Free Throw 2 of 2 (15 PTS),freethrow,substitution,9,Low
+21900241,530,substitution,4,PT09M36.00S,09:36,Q4 09:36,85,75,1610612765.0,Kennard,SUB out: L. Kennard,freethrow,substitution,10,Low
+21900241,531,substitution,4,PT09M36.00S,09:36,Q4 09:36,85,75,1610612765.0,Brown,SUB in: B. Brown,substitution,3pt missed,10,Low
+21900241,533,3pt,4,PT09M21.00S,09:21,Q4 09:21,85,76,1610612765.0,Morris,MISS Morris 25' 3PT Jump Shot,substitution,rebound,9,Low
+21900241,534,rebound,4,PT09M16.00S,09:16,Q4 09:16,85,76,1610612753.0,Augustin,Augustin REBOUND (Off:0 Def:3),3pt missed,2pt missed,9,Low
+21900241,535,2pt,4,PT09M05.00S,09:05,Q4 09:05,85,76,1610612753.0,Bamba,MISS Bamba 15' Turnaround Jump Shot,rebound,rebound,9,Low
+21900241,536,rebound,4,PT09M02.00S,09:02,Q4 09:02,85,76,1610612765.0,Brown,Brown REBOUND (Off:0 Def:3),2pt missed,3pt made,9,Low
+21900241,537,3pt,4,PT08M51.00S,08:51,Q4 08:51,88,76,1610612765.0,Mykhailiuk,Mykhailiuk 24' 3PT Jump Shot (9 PTS) (Rose 5 AST),rebound,timeout,12,Low
+21900241,539,timeout,4,PT08M43.00S,08:43,Q4 08:43,88,76,1610612753.0,,Magic Timeout: Regular (Reg.4 Short 0),3pt made,substitution,12,Low
+21900241,540,substitution,4,PT08M43.00S,08:43,Q4 08:43,88,76,1610612753.0,Aminu,SUB out: A. Aminu,timeout,substitution,12,Low
+21900241,541,substitution,4,PT08M43.00S,08:43,Q4 08:43,88,76,1610612753.0,Bamba,SUB out: M. Bamba,substitution,substitution,12,Low
+21900241,542,substitution,4,PT08M43.00S,08:43,Q4 08:43,88,76,1610612753.0,Birch,SUB in: K. Birch,substitution,substitution,12,Low
+21900241,543,substitution,4,PT08M43.00S,08:43,Q4 08:43,88,76,1610612753.0,Isaac,SUB in: J. Isaac,substitution,2pt made,12,Low
+21900241,544,2pt,4,PT08M31.00S,08:31,Q4 08:31,88,78,1610612753.0,Ross,Ross 12' Driving Floating Jump Shot (16 PTS) (Augustin 5 AST),substitution,2pt made,10,Low
+21900241,546,2pt,4,PT08M11.00S,08:11,Q4 08:11,90,78,1610612765.0,Wood,Wood 5' Driving Hook Shot (12 PTS) (Rose 6 AST),2pt made,turnover,12,Low
+21900241,548,turnover,4,PT07M49.00S,07:49,Q4 07:49,90,78,1610612753.0,Ross,Ross Bad Pass Turnover (P1.T9),2pt made,steal,12,Low
+21900241,548,steal,4,PT07M49.00S,07:49,Q4 07:49,90,78,1610612765.0,Mykhailiuk,Mykhailiuk STEAL (1 STL),turnover,3pt missed,12,Low
+21900241,550,3pt,4,PT07M28.00S,07:28,Q4 07:28,90,78,1610612765.0,Rose,MISS Rose 3PT Jump Shot,steal,rebound,12,Low
+21900241,551,rebound,4,PT07M25.00S,07:25,Q4 07:25,90,78,1610612753.0,Ross,Ross REBOUND (Off:0 Def:2),3pt missed,2pt made,12,Low
+21900241,552,2pt,4,PT07M16.00S,07:16,Q4 07:16,90,80,1610612753.0,Fournier,Fournier 15' Pullup Jump Shot (17 PTS),rebound,timeout,10,Low
+21900241,553,timeout,4,PT07M09.00S,07:09,Q4 07:09,90,80,1610612765.0,,PISTONS Timeout: Regular (Full 4 Short 0),2pt made,substitution,10,Low
+21900241,554,substitution,4,PT07M09.00S,07:09,Q4 07:09,90,80,1610612765.0,Morris,SUB out: M. Morris,timeout,substitution,10,Low
+21900241,555,substitution,4,PT07M09.00S,07:09,Q4 07:09,90,80,1610612765.0,Rose,SUB out: D. Rose,substitution,substitution,10,Low
+21900241,556,substitution,4,PT07M09.00S,07:09,Q4 07:09,90,80,1610612765.0,Wood,SUB out: C. Wood,substitution,substitution,10,Low
+21900241,557,substitution,4,PT07M09.00S,07:09,Q4 07:09,90,80,1610612753.0,Augustin,SUB out: D. Augustin,substitution,substitution,10,Low
+21900241,558,substitution,4,PT07M09.00S,07:09,Q4 07:09,90,80,1610612765.0,Drummond,SUB in: A. Drummond,substitution,substitution,10,Low
+21900241,559,substitution,4,PT07M09.00S,07:09,Q4 07:09,90,80,1610612765.0,Griffin,SUB in: B. Griffin,substitution,substitution,10,Low
+21900241,560,substitution,4,PT07M09.00S,07:09,Q4 07:09,90,80,1610612765.0,Galloway,SUB in: L. Galloway,substitution,substitution,10,Low
+21900241,561,substitution,4,PT07M09.00S,07:09,Q4 07:09,90,80,1610612753.0,Fultz,SUB in: M. Fultz,substitution,3pt missed,10,Low
+21900241,563,3pt,4,PT06M49.00S,06:49,Q4 06:49,90,80,1610612765.0,Mykhailiuk,MISS Mykhailiuk 3PT Jump Shot,substitution,rebound,10,Low
+21900241,564,rebound,4,PT06M46.00S,06:46,Q4 06:46,90,80,1610612765.0,Drummond,Drummond REBOUND (Off:2 Def:12),3pt missed,foul,10,Low
+21900241,565,foul,4,PT06M46.00S,06:46,Q4 06:46,90,80,1610612753.0,Birch,Birch S.FOUL (P4.T1) (T.Maddox),rebound,freethrow,10,Low
+21900241,567,freethrow,4,PT06M46.00S,06:46,Q4 06:46,90,80,1610612765.0,Drummond,MISS Drummond Free Throw 1 of 2,foul,rebound,10,Low
+21900241,568,rebound,4,PT06M46.00S,06:46,Q4 06:46,90,80,1610612765.0,,TEAM offensive REBOUND,freethrow,freethrow,10,Low
+21900241,569,freethrow,4,PT06M46.00S,06:46,Q4 06:46,91,80,1610612765.0,Drummond,Drummond Free Throw 2 of 2 (7 PTS),rebound,2pt missed,11,Low
+21900241,570,2pt,4,PT06M31.00S,06:31,Q4 06:31,91,80,1610612753.0,Ross,MISS Ross 12' Jump Shot,freethrow,rebound,11,Low
+21900241,571,rebound,4,PT06M28.00S,06:28,Q4 06:28,91,80,1610612765.0,Brown,Brown REBOUND (Off:0 Def:4),2pt missed,3pt made,11,Low
+21900241,572,3pt,4,PT06M15.00S,06:15,Q4 06:15,94,80,1610612765.0,Mykhailiuk,Mykhailiuk 27' 3PT Jump Shot (12 PTS) (Brown 2 AST),rebound,foul,14,Low
+21900241,574,foul,4,PT06M03.00S,06:03,Q4 06:03,94,80,1610612753.0,Fultz,Fultz OFF.Foul (P2) (T.Ford),3pt made,instant replay,14,Low
+21900241,577,timeout,4,PT06M03.00S,06:03,Q4 06:03,94,80,1610612765.0,,PISTONS Timeout: Coach Challenge (Full 4 Short 0),instant replay,turnover,14,Low
+21900241,578,turnover,4,PT06M03.00S,06:03,Q4 06:03,94,80,1610612753.0,Fultz,Fultz Offensive Foul Turnover (P1.T10),timeout,2pt missed,14,Low
+21900241,579,2pt,4,PT05M49.00S,05:49,Q4 05:49,94,80,1610612765.0,Brown,MISS Brown 5' Driving Floating Jump Shot,turnover,rebound,14,Low
+21900241,580,rebound,4,PT05M47.00S,05:47,Q4 05:47,94,80,1610612753.0,Fultz,Fultz REBOUND (Off:0 Def:4),2pt missed,3pt missed,14,Low
+21900241,581,3pt,4,PT05M44.00S,05:44,Q4 05:44,94,80,1610612753.0,Ross,MISS Ross 26' 3PT Jump Shot,rebound,rebound,14,Low
+21900241,582,rebound,4,PT05M42.00S,05:42,Q4 05:42,94,80,1610612753.0,Birch,Birch REBOUND (Off:4 Def:1),3pt missed,2pt missed,14,Low
+21900241,583,2pt,4,PT05M30.00S,05:30,Q4 05:30,94,80,1610612753.0,Fournier,MISS Fournier 3' Driving Layup,rebound,rebound,14,Low
+21900241,584,rebound,4,PT05M29.00S,05:29,Q4 05:29,94,80,1610612765.0,Drummond,Drummond REBOUND (Off:2 Def:13),2pt missed,2pt missed,14,Low
+21900241,585,2pt,4,PT05M19.00S,05:19,Q4 05:19,94,80,1610612765.0,Drummond,MISS Drummond 2' Layup,rebound,rebound,14,Low
+21900241,586,rebound,4,PT05M19.00S,05:19,Q4 05:19,94,80,1610612753.0,,TEAM defensive REBOUND,2pt missed,2pt missed,14,Low
+21900241,588,2pt,4,PT05M02.00S,05:02,Q4 05:02,94,80,1610612753.0,Isaac,MISS Isaac 3' Reverse Layup,rebound,block,14,Low
+21900241,588,block,4,PT05M02.00S,05:02,Q4 05:02,94,80,1610612765.0,Drummond,Drummond BLOCK (1 BLK),2pt missed,rebound,14,Low
+21900241,590,rebound,4,PT05M02.00S,05:02,Q4 05:02,94,80,1610612765.0,Drummond,Drummond REBOUND (Off:2 Def:14),block,3pt missed,14,Low
+21900241,591,3pt,4,PT04M41.00S,04:41,Q4 04:41,94,80,1610612765.0,Mykhailiuk,MISS Mykhailiuk 31' 3PT Jump Shot,rebound,rebound,14,Low
+21900241,592,rebound,4,PT04M35.00S,04:35,Q4 04:35,94,80,1610612753.0,Birch,Birch REBOUND (Off:4 Def:2),3pt missed,2pt missed,14,Low
+21900241,593,2pt,4,PT04M27.00S,04:27,Q4 04:27,94,80,1610612753.0,Fultz,MISS Fultz 17' Step Back Jump Shot,rebound,rebound,14,Low
+21900241,594,rebound,4,PT04M25.00S,04:25,Q4 04:25,94,80,1610612765.0,Drummond,Drummond REBOUND (Off:2 Def:15),2pt missed,foul,14,Low
+21900241,595,foul,4,PT04M08.00S,04:08,Q4 04:08,94,80,1610612765.0,Griffin,Griffin Offensive Charge Foul (P2.T4) (T.Maddox),rebound,turnover,14,Low
+21900241,597,turnover,4,PT04M08.00S,04:08,Q4 04:08,94,80,1610612765.0,Griffin,Griffin Offensive Foul Turnover (P2.T12),foul,substitution,14,Low
+21900241,598,substitution,4,PT04M08.00S,04:08,Q4 04:08,94,80,1610612765.0,Mykhailiuk,SUB out: S. Mykhailiuk,turnover,substitution,14,Low
+21900241,599,substitution,4,PT04M08.00S,04:08,Q4 04:08,94,80,1610612765.0,Kennard,SUB in: L. Kennard,substitution,2pt missed,14,Low
+21900241,600,2pt,4,PT03M55.00S,03:55,Q4 03:55,94,80,1610612753.0,Fournier,MISS Fournier 23' Jump Shot,substitution,rebound,14,Low
+21900241,601,rebound,4,PT03M49.00S,03:49,Q4 03:49,94,80,1610612765.0,Brown,Brown REBOUND (Off:0 Def:5),2pt missed,3pt missed,14,Low
+21900241,602,3pt,4,PT03M44.00S,03:44,Q4 03:44,94,80,1610612765.0,Galloway,MISS Galloway 25' 3PT Jump Shot,rebound,rebound,14,Low
+21900241,603,rebound,4,PT03M42.00S,03:42,Q4 03:42,94,80,1610612765.0,Brown,Brown REBOUND (Off:1 Def:5),3pt missed,turnover,14,Low
+21900241,604,turnover,4,PT03M30.00S,03:30,Q4 03:30,94,80,0.0,,PISTONS Turnover: Shot Clock (T#13),rebound,2pt missed,14,Low
+21900241,653,2pt,4,PT03M22.00S,03:22,Q4 03:22,94,80,1610612753.0,Fultz,MISS Fultz 1' Driving Layup,turnover,block,14,Low
+21900241,653,block,4,PT03M22.00S,03:22,Q4 03:22,94,80,1610612765.0,Kennard,Kennard BLOCK (1 BLK),2pt missed,rebound,14,Low
+21900241,655,rebound,4,PT03M22.00S,03:22,Q4 03:22,94,80,1610612765.0,Griffin,Griffin REBOUND (Off:0 Def:5),block,3pt missed,14,Low
+21900241,607,3pt,4,PT03M15.00S,03:15,Q4 03:15,94,80,1610612765.0,Galloway,MISS Galloway 3PT Jump Shot,rebound,rebound,14,Low
+21900241,608,rebound,4,PT03M13.00S,03:13,Q4 03:13,94,80,1610612753.0,Isaac,Isaac REBOUND (Off:0 Def:6),3pt missed,timeout,14,Low
+21900241,609,timeout,4,PT03M09.00S,03:09,Q4 03:09,94,80,1610612753.0,,Magic Timeout: Regular (Reg.5 Short 0),rebound,foul,14,Low
+21900241,610,foul,4,PT02M57.00S,02:57,Q4 02:57,94,80,1610612765.0,Kennard,Kennard S.FOUL (P3.PN) (T.Ford),timeout,freethrow,14,Low
+21900241,612,freethrow,4,PT02M57.00S,02:57,Q4 02:57,94,80,1610612753.0,Birch,MISS Birch Free Throw 1 of 2,foul,rebound,14,Low
+21900241,613,rebound,4,PT02M57.00S,02:57,Q4 02:57,94,80,1610612753.0,,TEAM offensive REBOUND,freethrow,freethrow,14,Low
+21900241,614,freethrow,4,PT02M57.00S,02:57,Q4 02:57,94,81,1610612753.0,Birch,Birch Free Throw 2 of 2 (6 PTS),rebound,2pt missed,13,Low
+21900241,615,2pt,4,PT02M37.00S,02:37,Q4 02:37,94,81,1610612765.0,Drummond,MISS Drummond 2' Layup,freethrow,block,13,Low
+21900241,615,block,4,PT02M37.00S,02:37,Q4 02:37,94,81,1610612753.0,Isaac,Isaac BLOCK (4 BLK),2pt missed,rebound,13,Low
+21900241,620,rebound,4,PT02M37.00S,02:37,Q4 02:37,94,81,1610612753.0,,TEAM defensive REBOUND,block,3pt missed,13,Low
+21900241,622,3pt,4,PT02M20.00S,02:20,Q4 02:20,94,81,1610612753.0,Fournier,MISS Fournier 26' 3PT Jump Shot,rebound,rebound,13,Low
+21900241,623,rebound,4,PT02M16.00S,02:16,Q4 02:16,94,81,1610612765.0,Kennard,Kennard REBOUND (Off:0 Def:4),3pt missed,2pt made,13,Low
+21900241,624,2pt,4,PT01M58.00S,01:58,Q4 01:58,96,81,1610612765.0,Griffin,Griffin 5' Driving Layup (17 PTS),rebound,2pt made,15,Low
+21900241,625,2pt,4,PT01M47.00S,01:47,Q4 01:47,96,83,1610612753.0,Isaac,Isaac 19' Jump Shot (10 PTS) (Fultz 2 AST),2pt made,turnover,13,Low
+21900241,626,turnover,4,PT01M38.00S,01:38,Q4 01:38,96,83,1610612765.0,Griffin,Griffin Bad Pass Turnover (P3.T14),2pt made,steal,13,Low
+21900241,626,steal,4,PT01M38.00S,01:38,Q4 01:38,96,83,1610612753.0,Fultz,Fultz STEAL (3 STL),turnover,2pt made,13,Low
+21900241,628,2pt,4,PT01M33.00S,01:33,Q4 01:33,96,85,1610612753.0,Fultz,Fultz 1' Layup (16 PTS),steal,2pt missed,11,Medium
+21900241,629,2pt,4,PT01M24.00S,01:24,Q4 01:24,96,85,1610612765.0,Kennard,MISS Kennard 2' Layup,2pt made,rebound,11,Medium
+21900241,630,rebound,4,PT01M24.00S,01:24,Q4 01:24,96,85,1610612765.0,Drummond,Drummond REBOUND (Off:3 Def:15),2pt missed,foul,11,Medium
+21900241,631,foul,4,PT01M24.00S,01:24,Q4 01:24,96,85,1610612753.0,Birch,Birch P.FOUL (P5.T2) (T.Ford),rebound,3pt made,11,Medium
+21900241,633,3pt,4,PT01M14.00S,01:14,Q4 01:14,99,85,1610612765.0,Galloway,Galloway 30' 3PT Jump Shot (12 PTS) (Kennard 7 AST),foul,3pt made,14,Low
+21900241,635,3pt,4,PT01M09.00S,01:09,Q4 01:09,99,88,1610612753.0,Ross,Ross 27' 3PT Jump Shot (19 PTS) (Fultz 3 AST),3pt made,foul,11,Medium
+21900241,636,foul,4,PT01M02.00S,01:02,Q4 01:02,99,88,1610612753.0,Isaac,Isaac Personal Take Foul (P3.PN) (T.Ford),3pt made,freethrow,11,Medium
+21900241,638,freethrow,4,PT01M02.00S,01:02,Q4 01:02,100,88,1610612765.0,Kennard,Kennard Free Throw 1 of 2 (19 PTS),foul,freethrow,12,Medium
+21900241,639,freethrow,4,PT01M02.00S,01:02,Q4 01:02,101,88,1610612765.0,Kennard,Kennard Free Throw 2 of 2 (20 PTS),freethrow,timeout,13,Low
+21900241,640,timeout,4,PT01M02.00S,01:02,Q4 01:02,101,88,1610612753.0,,Magic Timeout: Regular (Reg.6 Short 0),freethrow,2pt missed,13,Low
+21900241,642,2pt,4,PT00M52.80S,00:52,Q4 00:52,101,88,1610612753.0,Isaac,MISS Isaac 17' Jump Shot,timeout,rebound,13,Low
+21900241,643,rebound,4,PT00M50.60S,00:50,Q4 00:50,101,88,1610612765.0,Brown,Brown REBOUND (Off:1 Def:6),2pt missed,foul,13,Low
+21900241,644,foul,4,PT00M50.60S,00:50,Q4 00:50,101,88,1610612753.0,Fultz,Fultz Personal Take Foul (P3.PN) (P.Ransom),rebound,freethrow,13,Low
+21900241,646,freethrow,4,PT00M50.60S,00:50,Q4 00:50,102,88,1610612765.0,Brown,Brown Free Throw 1 of 2 (12 PTS),foul,freethrow,14,Low
+21900241,647,freethrow,4,PT00M50.60S,00:50,Q4 00:50,103,88,1610612765.0,Brown,Brown Free Throw 2 of 2 (13 PTS),freethrow,3pt missed,15,Low
+21900241,648,3pt,4,PT00M41.00S,00:41,Q4 00:41,103,88,1610612753.0,Fultz,MISS Fultz 3PT Step Back Jump Shot,freethrow,rebound,15,Low
+21900241,649,rebound,4,PT00M35.70S,00:35,Q4 00:35,103,88,1610612765.0,Brown,Brown REBOUND (Off:1 Def:7),3pt missed,turnover,15,Low
+21900241,650,turnover,4,PT00M14.70S,00:14,Q4 00:14,103,88,0.0,,PISTONS Turnover: Shot Clock (T#15),rebound,period,15,Low
+21900241,651,period,4,PT00M00.00S,00:00,Q4 00:00,103,88,1610612765.0,,End of 4th Period (9:20 PM EST),turnover,,15,Low

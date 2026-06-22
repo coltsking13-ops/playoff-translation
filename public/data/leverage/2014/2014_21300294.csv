@@ -1,0 +1,535 @@
+game_id,actionNumber,actionType,period,clock,clock_display,game_clock,scoreHome,scoreAway,teamId,playerName,description,previous_action,next_action,score_margin,leverage_bucket
+21300294,0,period,1,PT12M00.00S,12:00,Q1 12:00,0,0,1610612750.0,,Start of 1st Period (8:11 PM EST),,turnover,0,Low
+21300294,2,turnover,1,PT11M47.00S,11:47,Q1 11:47,0,0,1610612748.0,James,James Step Out of Bounds Turnover (P1.T1),period,foul,0,Low
+21300294,3,foul,1,PT11M37.00S,11:37,Q1 11:37,0,0,1610612748.0,Bosh,Bosh P.FOUL (P1.T1),turnover,turnover,0,Low
+21300294,5,turnover,1,PT11M28.00S,11:28,Q1 11:28,0,0,1610612750.0,Rubio,Rubio Bad Pass Turnover (P1.T1),foul,2pt made,0,Low
+21300294,6,2pt,1,PT11M13.00S,11:13,Q1 11:13,0,2,1610612748.0,Wade,Wade 17' Jump Shot (2 PTS) (James 1 AST),turnover,2pt made,2,Low
+21300294,7,2pt,1,PT10M51.00S,10:51,Q1 10:51,2,2,1610612750.0,Pekovic,Pekovic 5' Jump Shot (2 PTS) (Rubio 1 AST),2pt made,2pt made,0,Low
+21300294,10,2pt,1,PT10M42.00S,10:42,Q1 10:42,2,4,1610612748.0,Chalmers,Chalmers 3' Driving Layup (2 PTS),2pt made,foul,2,Low
+21300294,11,foul,1,PT10M42.00S,10:42,Q1 10:42,0,0,1610612750.0,Mbah a Moute,Mbah a Moute S.FOUL (P1.T1),2pt made,freethrow,0,Low
+21300294,12,freethrow,1,PT10M42.00S,10:42,Q1 10:42,2,5,1610612748.0,Chalmers,Chalmers Free Throw 1 of 1 (3 PTS),foul,3pt missed,3,Low
+21300294,14,3pt,1,PT10M28.00S,10:28,Q1 10:28,0,0,1610612750.0,Brewer,MISS Brewer  3PT Jump Shot,freethrow,rebound,0,Low
+21300294,15,rebound,1,PT10M27.00S,10:27,Q1 10:27,0,0,1610612750.0,Pekovic,Pekovic REBOUND (Off:1 Def:0),3pt missed,foul,0,Low
+21300294,16,foul,1,PT10M26.00S,10:26,Q1 10:26,0,0,1610612748.0,Battier,Battier S.FOUL (P1.T2),rebound,freethrow,0,Low
+21300294,17,freethrow,1,PT10M26.00S,10:26,Q1 10:26,3,5,1610612750.0,Pekovic,Pekovic Free Throw 1 of 2 (3 PTS),foul,freethrow,2,Low
+21300294,19,freethrow,1,PT10M26.00S,10:26,Q1 10:26,4,5,1610612750.0,Pekovic,Pekovic Free Throw 2 of 2 (4 PTS),freethrow,3pt missed,1,Low
+21300294,21,3pt,1,PT10M15.00S,10:15,Q1 10:15,0,0,1610612748.0,Battier,MISS Battier 25' 3PT Jump Shot,freethrow,2pt made,0,Low
+21300294,22,2pt,1,PT10M13.00S,10:13,Q1 10:13,4,7,1610612748.0,James,James 1' Tip Shot (2 PTS),3pt missed,rebound,3,Low
+21300294,23,rebound,1,PT10M13.00S,10:13,Q1 10:13,0,0,1610612748.0,James,James REBOUND (Off:1 Def:0),2pt made,2pt missed,0,Low
+21300294,24,2pt,1,PT09M51.00S,09:51,Q1 09:51,0,0,1610612750.0,Pekovic,MISS Pekovic 1' Layup,rebound,block,0,Low
+21300294,24,block,1,PT09M51.00S,09:51,Q1 09:51,0,0,1610612748.0,Battier,Battier BLOCK (1 BLK),2pt missed,rebound,0,Low
+21300294,26,rebound,1,PT09M51.00S,09:51,Q1 09:51,0,0,1610612750.0,,TEAM offensive REBOUND,block,2pt missed,0,Low
+21300294,27,2pt,1,PT09M44.00S,09:44,Q1 09:44,0,0,1610612750.0,Mbah a Moute,MISS Mbah a Moute 2' Layup,rebound,rebound,0,Low
+21300294,28,rebound,1,PT09M43.00S,09:43,Q1 09:43,0,0,1610612750.0,Pekovic,Pekovic REBOUND (Off:2 Def:0),2pt missed,2pt missed,0,Low
+21300294,29,2pt,1,PT09M40.00S,09:40,Q1 09:40,0,0,1610612750.0,Pekovic,MISS Pekovic 1' Layup,rebound,block,0,Low
+21300294,29,block,1,PT09M40.00S,09:40,Q1 09:40,0,0,1610612748.0,Battier,Battier BLOCK (2 BLK),2pt missed,rebound,0,Low
+21300294,30,rebound,1,PT09M39.00S,09:39,Q1 09:39,0,0,1610612748.0,James,James REBOUND (Off:1 Def:1),block,timeout,0,Low
+21300294,31,timeout,1,PT09M34.00S,09:34,Q1 09:34,0,0,1610612748.0,,Heat Timeout: Short (Reg.0 Short 1),rebound,substitution,0,Low
+21300294,32,substitution,1,PT09M34.00S,09:34,Q1 09:34,0,0,1610612748.0,Bosh,SUB out: C. Bosh,timeout,substitution,0,Low
+21300294,33,substitution,1,PT09M34.00S,09:34,Q1 09:34,0,0,1610612748.0,Andersen,SUB in: C. Andersen,substitution,2pt made,0,Low
+21300294,33,2pt,1,PT09M17.00S,09:17,Q1 09:17,4,9,1610612748.0,Wade,Wade 1' Reverse Layup (4 PTS) (James 2 AST),substitution,foul,5,Low
+21300294,34,foul,1,PT09M06.00S,09:06,Q1 09:06,0,0,1610612750.0,Brewer,Brewer OFF.Foul (P1),2pt made,turnover,0,Low
+21300294,35,turnover,1,PT09M06.00S,09:06,Q1 09:06,0,0,1610612750.0,Brewer,Brewer Foul Turnover (P1.T2),foul,3pt made,0,Low
+21300294,36,3pt,1,PT08M49.00S,08:49,Q1 08:49,4,12,1610612748.0,Battier,Battier 24' 3PT Jump Shot (3 PTS) (James 3 AST),turnover,3pt made,8,Low
+21300294,37,3pt,1,PT08M34.00S,08:34,Q1 08:34,7,12,1610612750.0,Martin,Martin 24' 3PT Step Back Jump Shot (3 PTS),3pt made,2pt made,5,Low
+21300294,38,2pt,1,PT08M27.00S,08:27,Q1 08:27,7,14,1610612748.0,James,James  Slam Dunk (4 PTS) (Wade 1 AST),3pt made,turnover,7,Low
+21300294,39,turnover,1,PT08M06.00S,08:06,Q1 08:06,0,0,1610612750.0,Rubio,Rubio Bad Pass Turnover (P2.T3),2pt made,steal,0,Low
+21300294,39,steal,1,PT08M06.00S,08:06,Q1 08:06,0,0,1610612748.0,Chalmers,Chalmers STEAL (1 STL),turnover,2pt missed,0,Low
+21300294,40,2pt,1,PT07M51.00S,07:51,Q1 07:51,0,0,1610612748.0,Wade,MISS Wade 9' Turnaround Jump Shot,steal,rebound,0,Low
+21300294,41,rebound,1,PT07M50.00S,07:50,Q1 07:50,0,0,1610612750.0,Pekovic,Pekovic REBOUND (Off:2 Def:1),2pt missed,2pt missed,0,Low
+21300294,42,2pt,1,PT07M32.00S,07:32,Q1 07:32,0,0,1610612750.0,Martin,MISS Martin 23' Turnaround Jump Shot,rebound,rebound,0,Low
+21300294,43,rebound,1,PT07M31.00S,07:31,Q1 07:31,0,0,1610612748.0,Wade,Wade REBOUND (Off:0 Def:1),2pt missed,2pt missed,0,Low
+21300294,44,2pt,1,PT07M24.00S,07:24,Q1 07:24,0,0,1610612748.0,Battier,MISS Battier 2' Layup,rebound,rebound,0,Low
+21300294,45,rebound,1,PT07M23.00S,07:23,Q1 07:23,0,0,1610612748.0,Battier,Battier REBOUND (Off:1 Def:0),2pt missed,2pt missed,0,Low
+21300294,47,2pt,1,PT07M10.00S,07:10,Q1 07:10,0,0,1610612748.0,Wade,MISS Wade 21' Jump Shot,rebound,rebound,0,Low
+21300294,48,rebound,1,PT07M09.00S,07:09,Q1 07:09,0,0,1610612750.0,Pekovic,Pekovic REBOUND (Off:2 Def:2),2pt missed,2pt made,0,Low
+21300294,50,2pt,1,PT06M55.00S,06:55,Q1 06:55,9,14,1610612750.0,Martin,Martin 15' Jump Shot (5 PTS) (Rubio 2 AST),rebound,turnover,5,Low
+21300294,51,turnover,1,PT06M43.00S,06:43,Q1 06:43,0,0,1610612748.0,Wade,Wade Lost Ball Turnover (P1.T2),2pt made,steal,0,Low
+21300294,51,steal,1,PT06M43.00S,06:43,Q1 06:43,0,0,1610612750.0,Mbah a Moute,Mbah a Moute STEAL (1 STL),turnover,2pt made,0,Low
+21300294,52,2pt,1,PT06M39.00S,06:39,Q1 06:39,11,14,1610612750.0,Mbah a Moute,Mbah a Moute 2' Driving Slam Dunk (2 PTS),steal,turnover,3,Low
+21300294,53,turnover,1,PT06M24.00S,06:24,Q1 06:24,0,0,1610612748.0,Wade,Wade Traveling Turnover (P2.T3),2pt made,foul,0,Low
+21300294,54,foul,1,PT06M13.00S,06:13,Q1 06:13,0,0,1610612748.0,Wade,Wade S.FOUL (P1.T3),turnover,timeout,0,Low
+21300294,55,timeout,1,PT06M13.00S,06:13,Q1 06:13,0,0,1610612748.0,,Heat Timeout: Regular (Reg.1 Short 1),foul,instant replay,0,Low
+21300294,59,freethrow,1,PT06M13.00S,06:13,Q1 06:13,12,14,1610612750.0,Martin,Martin Free Throw 1 of 2 (6 PTS),instant replay,freethrow,2,Low
+21300294,61,freethrow,1,PT06M13.00S,06:13,Q1 06:13,13,14,1610612750.0,Martin,Martin Free Throw 2 of 2 (7 PTS),freethrow,turnover,1,Low
+21300294,63,turnover,1,PT06M02.00S,06:02,Q1 06:02,0,0,1610612748.0,James,James Bad Pass Turnover (P2.T4),freethrow,steal,0,Low
+21300294,63,steal,1,PT06M02.00S,06:02,Q1 06:02,0,0,1610612750.0,Martin,Martin STEAL (1 STL),turnover,2pt made,0,Low
+21300294,64,2pt,1,PT05M59.00S,05:59,Q1 05:59,15,14,1610612750.0,Martin,Martin  Driving Dunk (9 PTS),steal,foul,1,Low
+21300294,65,foul,1,PT05M40.00S,05:40,Q1 05:40,0,0,1610612750.0,Martin,Martin S.FOUL (P1.T2),2pt made,freethrow,0,Low
+21300294,66,freethrow,1,PT05M40.00S,05:40,Q1 05:40,0,0,1610612748.0,Andersen,MISS Andersen Free Throw 1 of 2,foul,rebound,0,Low
+21300294,67,rebound,1,PT05M40.00S,05:40,Q1 05:40,0,0,1610612748.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21300294,69,freethrow,1,PT05M40.00S,05:40,Q1 05:40,15,15,1610612748.0,Andersen,Andersen Free Throw 2 of 2 (1 PTS),rebound,substitution,0,Low
+21300294,68,substitution,1,PT05M40.00S,05:40,Q1 05:40,0,0,1610612748.0,Wade,SUB out: D. Wade,freethrow,substitution,0,Low
+21300294,69,substitution,1,PT05M40.00S,05:40,Q1 05:40,0,0,1610612748.0,Allen,SUB in: R. Allen,substitution,2pt made,0,Low
+21300294,72,2pt,1,PT05M28.00S,05:28,Q1 05:28,17,15,1610612750.0,Pekovic,Pekovic 1' Slam Dunk (6 PTS) (Mbah a Moute 1 AST),substitution,2pt missed,2,Low
+21300294,73,2pt,1,PT05M03.00S,05:03,Q1 05:03,0,0,1610612748.0,James,MISS James 22' Jump Shot,2pt made,rebound,0,Low
+21300294,74,rebound,1,PT05M01.00S,05:01,Q1 05:01,0,0,1610612750.0,Rubio,Rubio REBOUND (Off:0 Def:1),2pt missed,3pt missed,0,Low
+21300294,75,3pt,1,PT04M55.00S,04:55,Q1 04:55,0,0,1610612750.0,Martin,MISS Martin  3PT Jump Shot,rebound,rebound,0,Low
+21300294,76,rebound,1,PT04M54.00S,04:54,Q1 04:54,0,0,1610612748.0,James,James REBOUND (Off:1 Def:2),3pt missed,2pt made,0,Low
+21300294,77,2pt,1,PT04M46.00S,04:46,Q1 04:46,17,17,1610612748.0,James,James 5' Running Bank Shot (6 PTS),rebound,foul,0,Low
+21300294,78,foul,1,PT04M41.00S,04:41,Q1 04:41,0,0,1610612748.0,Chalmers,Chalmers P.FOUL (P1.T4),2pt made,foul,0,Low
+21300294,79,foul,1,PT04M33.00S,04:33,Q1 04:33,0,0,1610612748.0,Battier,Battier S.FOUL (P2.PN),foul,freethrow,0,Low
+21300294,80,freethrow,1,PT04M33.00S,04:33,Q1 04:33,18,17,1610612750.0,Mbah a Moute,Mbah a Moute Free Throw 1 of 2 (3 PTS),foul,freethrow,1,Low
+21300294,83,freethrow,1,PT04M33.00S,04:33,Q1 04:33,19,17,1610612750.0,Mbah a Moute,Mbah a Moute Free Throw 2 of 2 (4 PTS),freethrow,substitution,2,Low
+21300294,82,substitution,1,PT04M33.00S,04:33,Q1 04:33,0,0,1610612748.0,Battier,SUB out: S. Battier,freethrow,substitution,0,Low
+21300294,83,substitution,1,PT04M33.00S,04:33,Q1 04:33,0,0,1610612748.0,Lewis,SUB in: R. Lewis,substitution,2pt made,0,Low
+21300294,85,2pt,1,PT04M20.00S,04:20,Q1 04:20,19,19,1610612748.0,Lewis,Lewis 13' Pullup Bank Shot (2 PTS),substitution,2pt missed,0,Low
+21300294,86,2pt,1,PT04M02.00S,04:02,Q1 04:02,0,0,1610612750.0,Pekovic,MISS Pekovic 4' Running Jump Shot,2pt made,rebound,0,Low
+21300294,87,rebound,1,PT04M01.00S,04:01,Q1 04:01,0,0,1610612748.0,James,James REBOUND (Off:1 Def:3),2pt missed,turnover,0,Low
+21300294,88,turnover,1,PT03M57.00S,03:57,Q1 03:57,0,0,1610612748.0,James,James Lost Ball Turnover (P3.T5),rebound,steal,0,Low
+21300294,88,steal,1,PT03M57.00S,03:57,Q1 03:57,0,0,1610612750.0,Rubio,Rubio STEAL (1 STL),turnover,3pt missed,0,Low
+21300294,89,3pt,1,PT03M46.00S,03:46,Q1 03:46,0,0,1610612750.0,Brewer,MISS Brewer  3PT Jump Shot,steal,rebound,0,Low
+21300294,90,rebound,1,PT03M45.00S,03:45,Q1 03:45,0,0,1610612750.0,Mbah a Moute,Mbah a Moute REBOUND (Off:1 Def:0),3pt missed,foul,0,Low
+21300294,91,foul,1,PT03M43.00S,03:43,Q1 03:43,0,0,1610612748.0,James,James S.FOUL (P1.PN),rebound,freethrow,0,Low
+21300294,92,freethrow,1,PT03M43.00S,03:43,Q1 03:43,0,0,1610612750.0,Mbah a Moute,MISS Mbah a Moute Free Throw 1 of 2,foul,rebound,0,Low
+21300294,93,rebound,1,PT03M43.00S,03:43,Q1 03:43,0,0,1610612750.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21300294,94,freethrow,1,PT03M43.00S,03:43,Q1 03:43,20,19,1610612750.0,Mbah a Moute,Mbah a Moute Free Throw 2 of 2 (5 PTS),rebound,2pt missed,1,Low
+21300294,96,2pt,1,PT03M29.00S,03:29,Q1 03:29,0,0,1610612748.0,Chalmers,MISS Chalmers 3' Running Reverse Layup,freethrow,rebound,0,Low
+21300294,97,rebound,1,PT03M28.00S,03:28,Q1 03:28,0,0,1610612750.0,Rubio,Rubio REBOUND (Off:0 Def:2),2pt missed,2pt made,0,Low
+21300294,98,2pt,1,PT03M19.00S,03:19,Q1 03:19,22,19,1610612750.0,Martin,Martin 8' Running Jump Shot (11 PTS),rebound,foul,3,Low
+21300294,99,foul,1,PT03M19.00S,03:19,Q1 03:19,0,0,1610612748.0,Allen,Allen S.FOUL (P1.PN),2pt made,freethrow,0,Low
+21300294,100,freethrow,1,PT03M19.00S,03:19,Q1 03:19,23,19,1610612750.0,Martin,Martin Free Throw 1 of 1 (12 PTS),foul,turnover,4,Low
+21300294,102,turnover,1,PT03M08.00S,03:08,Q1 03:08,0,0,1610612748.0,Chalmers,Chalmers Bad Pass Turnover (P1.T6),freethrow,steal,0,Low
+21300294,102,steal,1,PT03M08.00S,03:08,Q1 03:08,0,0,1610612750.0,Rubio,Rubio STEAL (2 STL),turnover,turnover,0,Low
+21300294,103,turnover,1,PT02M59.00S,02:59,Q1 02:59,0,0,1610612750.0,Pekovic,Pekovic Lost Ball Turnover (P1.T4),steal,steal,0,Low
+21300294,103,steal,1,PT02M59.00S,02:59,Q1 02:59,0,0,1610612748.0,Chalmers,Chalmers STEAL (2 STL),turnover,3pt missed,0,Low
+21300294,104,3pt,1,PT02M52.00S,02:52,Q1 02:52,0,0,1610612748.0,Allen,MISS Allen  3PT Jump Shot,steal,rebound,0,Low
+21300294,105,rebound,1,PT02M51.00S,02:51,Q1 02:51,0,0,1610612750.0,,TEAM defensive REBOUND,3pt missed,foul,0,Low
+21300294,106,foul,1,PT02M51.00S,02:51,Q1 02:51,0,0,1610612748.0,James,James L.B.FOUL (P2.PN),rebound,timeout,0,Low
+21300294,107,timeout,1,PT02M51.00S,02:51,Q1 02:51,0,0,1610612750.0,,TIMBERWOLVES Timeout: Regular (Full 1 Short 0),foul,freethrow,0,Low
+21300294,110,freethrow,1,PT02M51.00S,02:51,Q1 02:51,24,19,1610612750.0,Brewer,Brewer Free Throw 1 of 2 (1 PTS),timeout,freethrow,5,Low
+21300294,113,freethrow,1,PT02M51.00S,02:51,Q1 02:51,25,19,1610612750.0,Brewer,Brewer Free Throw 2 of 2 (2 PTS),freethrow,substitution,6,Low
+21300294,109,substitution,1,PT02M51.00S,02:51,Q1 02:51,0,0,1610612748.0,James,SUB out: L. James,freethrow,substitution,0,Low
+21300294,110,substitution,1,PT02M51.00S,02:51,Q1 02:51,0,0,1610612750.0,Mbah a Moute,SUB out: L. Mbah a Moute,substitution,substitution,0,Low
+21300294,111,substitution,1,PT02M51.00S,02:51,Q1 02:51,0,0,1610612748.0,Wade,SUB in: D. Wade,substitution,substitution,0,Low
+21300294,112,substitution,1,PT02M51.00S,02:51,Q1 02:51,0,0,1610612750.0,Cunningham,SUB in: D. Cunningham,substitution,turnover,0,Low
+21300294,115,turnover,1,PT02M41.00S,02:41,Q1 02:41,0,0,1610612748.0,Allen,Allen Bad Pass Turnover (P1.T7),substitution,turnover,0,Low
+21300294,116,turnover,1,PT02M26.00S,02:26,Q1 02:26,0,0,1610612750.0,Pekovic,Pekovic 3 Second Violation Turnover (P2.T5),turnover,2pt made,0,Low
+21300294,117,2pt,1,PT02M08.00S,02:08,Q1 02:08,25,21,1610612748.0,Andersen,Andersen 1' Slam Dunk (3 PTS) (Lewis 1 AST),turnover,2pt missed,4,Low
+21300294,118,2pt,1,PT01M56.00S,01:56,Q1 01:56,0,0,1610612750.0,Martin,MISS Martin 15' Turnaround Jump Shot,2pt made,rebound,0,Low
+21300294,119,rebound,1,PT01M55.00S,01:55,Q1 01:55,0,0,1610612750.0,Pekovic,Pekovic REBOUND (Off:3 Def:2),2pt missed,2pt missed,0,Low
+21300294,120,2pt,1,PT01M53.00S,01:53,Q1 01:53,0,0,1610612750.0,Pekovic,MISS Pekovic 2' Layup,rebound,rebound,0,Low
+21300294,121,rebound,1,PT01M52.00S,01:52,Q1 01:52,0,0,1610612748.0,Lewis,Lewis REBOUND (Off:0 Def:1),2pt missed,substitution,0,Low
+21300294,124,substitution,1,PT01M47.00S,01:47,Q1 01:47,0,0,1610612748.0,Chalmers,SUB out: M. Chalmers,rebound,substitution,0,Low
+21300294,125,substitution,1,PT01M47.00S,01:47,Q1 01:47,0,0,1610612748.0,Cole,SUB in: N. Cole,substitution,2pt made,0,Low
+21300294,125,2pt,1,PT01M35.00S,01:35,Q1 01:35,25,23,1610612748.0,Lewis,Lewis 10' Jump Shot (4 PTS) (Cole 1 AST),substitution,2pt missed,2,Low
+21300294,126,2pt,1,PT01M14.00S,01:14,Q1 01:14,0,0,1610612750.0,Pekovic,MISS Pekovic 3' Jump Shot,2pt made,block,0,Low
+21300294,126,block,1,PT01M14.00S,01:14,Q1 01:14,0,0,1610612748.0,Andersen,Andersen BLOCK (1 BLK),2pt missed,rebound,0,Low
+21300294,127,rebound,1,PT01M13.00S,01:13,Q1 01:13,0,0,1610612748.0,Allen,Allen REBOUND (Off:0 Def:1),block,foul,0,Low
+21300294,128,foul,1,PT01M09.00S,01:09,Q1 01:09,0,0,1610612750.0,Pekovic,Pekovic T.FOUL (P0.T2),rebound,freethrow,0,Low
+21300294,129,freethrow,1,PT01M09.00S,01:09,Q1 01:09,25,24,1610612748.0,Allen,Allen Free Throw Technical (1 PTS),foul,2pt missed,1,Low
+21300294,131,2pt,1,PT00M59.90S,00:59,Q1 00:59,0,0,1610612748.0,Cole,MISS Cole 22' Jump Shot,freethrow,rebound,0,Low
+21300294,132,rebound,1,PT00M58.90S,00:58,Q1 00:58,0,0,1610612750.0,Pekovic,Pekovic REBOUND (Off:3 Def:3),2pt missed,turnover,0,Low
+21300294,133,turnover,1,PT00M36.90S,00:36,Q1 00:36,0,0,1610612750.0,Rubio,Rubio Bad Pass Turnover (P3.T6),rebound,steal,0,Low
+21300294,133,steal,1,PT00M36.90S,00:36,Q1 00:36,0,0,1610612748.0,Allen,Allen STEAL (1 STL),turnover,turnover,0,Low
+21300294,134,turnover,1,PT00M26.70S,00:26,Q1 00:26,0,0,1610612748.0,Cole,Cole Bad Pass Turnover (P1.T8),steal,2pt missed,0,Low
+21300294,135,2pt,1,PT00M04.90S,00:04,Q1 00:04,0,0,1610612750.0,Cunningham,MISS Cunningham 19' Jump Shot,turnover,rebound,0,Low
+21300294,136,rebound,1,PT00M02.80S,00:02,Q1 00:02,0,0,1610612748.0,Wade,Wade REBOUND (Off:0 Def:2),2pt missed,period,0,Low
+21300294,137,period,1,PT00M00.00S,00:00,Q1 00:00,25,24,1610612750.0,,End of 1st Period (8:39 PM EST),rebound,period,1,Low
+21300294,139,period,2,PT12M00.00S,12:00,Q2 12:00,25,24,1610612750.0,,Start of 2nd Period (8:42 PM EST),period,substitution,1,Low
+21300294,140,turnover,2,PT11M46.00S,11:46,Q2 11:46,0,0,1610612750.0,Martin,Martin Bad Pass Turnover (P1.T7),substitution,steal,0,Low
+21300294,140,steal,2,PT11M46.00S,11:46,Q2 11:46,0,0,1610612748.0,Lewis,Lewis STEAL (1 STL),turnover,turnover,0,Low
+21300294,141,turnover,2,PT11M43.00S,11:43,Q2 11:43,0,0,1610612748.0,Lewis,Lewis Bad Pass Turnover (P1.T9),steal,steal,0,Low
+21300294,141,steal,2,PT11M43.00S,11:43,Q2 11:43,0,0,1610612750.0,Cunningham,Cunningham STEAL (1 STL),turnover,3pt missed,0,Low
+21300294,142,3pt,2,PT11M37.00S,11:37,Q2 11:37,0,0,1610612750.0,Brewer,MISS Brewer  3PT Jump Shot,steal,rebound,0,Low
+21300294,143,rebound,2,PT11M35.00S,11:35,Q2 11:35,0,0,1610612748.0,,TEAM defensive REBOUND,3pt missed,foul,0,Low
+21300294,144,foul,2,PT11M21.00S,11:21,Q2 11:21,0,0,1610612750.0,Dieng,Dieng S.FOUL (P1.T1),rebound,freethrow,0,Low
+21300294,145,freethrow,2,PT11M21.00S,11:21,Q2 11:21,25,25,1610612748.0,Wade,Wade Free Throw 1 of 2 (5 PTS),foul,freethrow,0,Low
+21300294,147,freethrow,2,PT11M21.00S,11:21,Q2 11:21,25,26,1610612748.0,Wade,Wade Free Throw 2 of 2 (6 PTS),freethrow,2pt missed,1,Low
+21300294,149,2pt,2,PT11M03.00S,11:03,Q2 11:03,0,0,1610612750.0,Dieng,MISS Dieng 2' Layup,freethrow,rebound,0,Low
+21300294,150,rebound,2,PT11M02.00S,11:02,Q2 11:02,0,0,1610612748.0,Bosh,Bosh REBOUND (Off:0 Def:1),2pt missed,turnover,0,Low
+21300294,151,turnover,2,PT10M57.00S,10:57,Q2 10:57,0,0,1610612748.0,Wade,Wade Bad Pass Turnover (P3.T10),rebound,steal,0,Low
+21300294,151,steal,2,PT10M57.00S,10:57,Q2 10:57,0,0,1610612750.0,Martin,Martin STEAL (2 STL),turnover,2pt made,0,Low
+21300294,152,2pt,2,PT10M52.00S,10:52,Q2 10:52,27,26,1610612750.0,Martin,Martin 2' Driving Layup (14 PTS),steal,2pt missed,1,Low
+21300294,153,2pt,2,PT10M33.00S,10:33,Q2 10:33,0,0,1610612748.0,Bosh,MISS Bosh 14' Step Back Jump Shot,2pt made,rebound,0,Low
+21300294,154,rebound,2,PT10M31.00S,10:31,Q2 10:31,0,0,1610612750.0,Dieng,Dieng REBOUND (Off:0 Def:1),2pt missed,turnover,0,Low
+21300294,155,turnover,2,PT10M30.00S,10:30,Q2 10:30,0,0,1610612750.0,Barea,Barea Traveling Turnover (P1.T8),rebound,2pt made,0,Low
+21300294,157,2pt,2,PT10M21.00S,10:21,Q2 10:21,27,28,1610612748.0,Allen,Allen 3' Layup (3 PTS),turnover,2pt missed,1,Low
+21300294,159,2pt,2,PT09M58.00S,09:58,Q2 09:58,0,0,1610612750.0,Cunningham,MISS Cunningham 15' Jump Shot,2pt made,rebound,0,Low
+21300294,160,rebound,2,PT09M57.00S,09:57,Q2 09:57,0,0,1610612748.0,Wade,Wade REBOUND (Off:0 Def:3),2pt missed,2pt made,0,Low
+21300294,161,2pt,2,PT09M44.00S,09:44,Q2 09:44,27,30,1610612748.0,Allen,Allen 1' Layup (5 PTS) (Wade 2 AST),rebound,2pt missed,3,Low
+21300294,162,2pt,2,PT09M32.00S,09:32,Q2 09:32,0,0,1610612750.0,Barea,MISS Barea 2' Driving Layup,2pt made,rebound,0,Low
+21300294,163,rebound,2,PT09M31.00S,09:31,Q2 09:31,0,0,1610612748.0,Bosh,Bosh REBOUND (Off:0 Def:2),2pt missed,2pt made,0,Low
+21300294,164,2pt,2,PT09M28.00S,09:28,Q2 09:28,27,32,1610612748.0,Wade,Wade 1' Driving Reverse Layup (8 PTS) (Cole 2 AST),rebound,foul,5,Low
+21300294,165,foul,2,PT09M28.00S,09:28,Q2 09:28,0,0,1610612750.0,Dieng,Dieng S.FOUL (P2.T2),2pt made,freethrow,0,Low
+21300294,166,freethrow,2,PT09M28.00S,09:28,Q2 09:28,27,33,1610612748.0,Wade,Wade Free Throw 1 of 1 (9 PTS),foul,timeout,6,Low
+21300294,168,timeout,2,PT09M23.00S,09:23,Q2 09:23,0,0,1610612750.0,,TIMBERWOLVES Timeout: Regular (Full 2 Short 0),freethrow,substitution,0,Low
+21300294,173,substitution,2,PT09M23.00S,09:23,Q2 09:23,0,0,1610612750.0,Dieng,SUB out: G. Dieng,timeout,substitution,0,Low
+21300294,174,substitution,2,PT09M23.00S,09:23,Q2 09:23,0,0,1610612750.0,Martin,SUB out: K. Martin,substitution,substitution,0,Low
+21300294,175,substitution,2,PT09M23.00S,09:23,Q2 09:23,0,0,1610612750.0,Pekovic,SUB in: N. Pekovic,substitution,substitution,0,Low
+21300294,176,substitution,2,PT09M23.00S,09:23,Q2 09:23,0,0,1610612750.0,Rubio,SUB in: R. Rubio,substitution,2pt missed,0,Low
+21300294,171,2pt,2,PT09M06.00S,09:06,Q2 09:06,0,0,1610612750.0,Rubio,MISS Rubio 2' Layup,substitution,rebound,0,Low
+21300294,172,rebound,2,PT09M05.00S,09:05,Q2 09:05,0,0,1610612748.0,Bosh,Bosh REBOUND (Off:0 Def:3),2pt missed,2pt made,0,Low
+21300294,174,2pt,2,PT08M53.00S,08:53,Q2 08:53,27,35,1610612748.0,Wade,Wade 20' Jump Shot (11 PTS) (Allen 1 AST),rebound,foul,8,Low
+21300294,175,foul,2,PT08M43.00S,08:43,Q2 08:43,0,0,1610612748.0,Lewis,Lewis S.FOUL (P1.T1),2pt made,freethrow,0,Low
+21300294,176,freethrow,2,PT08M43.00S,08:43,Q2 08:43,0,0,1610612750.0,Pekovic,MISS Pekovic Free Throw 1 of 2,foul,rebound,0,Low
+21300294,177,rebound,2,PT08M43.00S,08:43,Q2 08:43,0,0,1610612750.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21300294,178,freethrow,2,PT08M43.00S,08:43,Q2 08:43,0,0,1610612750.0,Pekovic,MISS Pekovic Free Throw 2 of 2,rebound,rebound,0,Low
+21300294,179,rebound,2,PT08M42.00S,08:42,Q2 08:42,0,0,1610612748.0,Bosh,Bosh REBOUND (Off:0 Def:4),freethrow,2pt missed,0,Low
+21300294,180,2pt,2,PT08M25.00S,08:25,Q2 08:25,0,0,1610612748.0,Cole,MISS Cole 14' Jump Shot,rebound,rebound,0,Low
+21300294,181,rebound,2,PT08M24.00S,08:24,Q2 08:24,0,0,1610612750.0,Brewer,Brewer REBOUND (Off:0 Def:1),2pt missed,2pt made,0,Low
+21300294,182,2pt,2,PT08M06.00S,08:06,Q2 08:06,29,35,1610612750.0,Cunningham,Cunningham 20' Jump Shot (2 PTS) (Barea 1 AST),rebound,2pt missed,6,Low
+21300294,183,2pt,2,PT07M55.00S,07:55,Q2 07:55,0,0,1610612748.0,Bosh,MISS Bosh 23' Jump Shot,2pt made,rebound,0,Low
+21300294,184,rebound,2,PT07M54.00S,07:54,Q2 07:54,0,0,1610612750.0,Rubio,Rubio REBOUND (Off:0 Def:3),2pt missed,foul,0,Low
+21300294,185,foul,2,PT07M49.00S,07:49,Q2 07:49,0,0,1610612748.0,Cole,Cole S.FOUL (P1.T2),rebound,freethrow,0,Low
+21300294,186,freethrow,2,PT07M49.00S,07:49,Q2 07:49,30,35,1610612750.0,Rubio,Rubio Free Throw 1 of 2 (1 PTS),foul,freethrow,5,Low
+21300294,190,freethrow,2,PT07M49.00S,07:49,Q2 07:49,0,0,1610612750.0,Rubio,MISS Rubio Free Throw 2 of 2,freethrow,rebound,0,Low
+21300294,192,rebound,2,PT07M49.00S,07:49,Q2 07:49,0,0,1610612748.0,Bosh,Bosh REBOUND (Off:0 Def:5),freethrow,substitution,0,Low
+21300294,188,substitution,2,PT07M49.00S,07:49,Q2 07:49,0,0,1610612748.0,Allen,SUB out: R. Allen,rebound,substitution,0,Low
+21300294,189,substitution,2,PT07M49.00S,07:49,Q2 07:49,0,0,1610612750.0,Brewer,SUB out: C. Brewer,substitution,substitution,0,Low
+21300294,190,substitution,2,PT07M49.00S,07:49,Q2 07:49,0,0,1610612748.0,James,SUB in: L. James,substitution,substitution,0,Low
+21300294,191,substitution,2,PT07M49.00S,07:49,Q2 07:49,0,0,1610612750.0,Mbah a Moute,SUB in: L. Mbah a Moute,substitution,turnover,0,Low
+21300294,194,turnover,2,PT07M42.00S,07:42,Q2 07:42,0,0,1610612748.0,James,James Bad Pass Turnover (P4.T11),substitution,steal,0,Low
+21300294,194,steal,2,PT07M42.00S,07:42,Q2 07:42,0,0,1610612750.0,Cunningham,Cunningham STEAL (2 STL),turnover,2pt missed,0,Low
+21300294,195,2pt,2,PT07M36.00S,07:36,Q2 07:36,0,0,1610612750.0,Rubio,MISS Rubio 18' Jump Shot,steal,rebound,0,Low
+21300294,196,rebound,2,PT07M34.00S,07:34,Q2 07:34,0,0,1610612748.0,Wade,Wade REBOUND (Off:0 Def:4),2pt missed,2pt missed,0,Low
+21300294,197,2pt,2,PT07M30.00S,07:30,Q2 07:30,0,0,1610612748.0,Wade,MISS Wade 3' Driving Layup,rebound,rebound,0,Low
+21300294,198,rebound,2,PT07M29.00S,07:29,Q2 07:29,0,0,1610612750.0,,TEAM defensive REBOUND,2pt missed,2pt missed,0,Low
+21300294,200,2pt,2,PT07M14.00S,07:14,Q2 07:14,0,0,1610612750.0,Pekovic,MISS Pekovic 1' Layup,rebound,block,0,Low
+21300294,200,block,2,PT07M14.00S,07:14,Q2 07:14,0,0,1610612748.0,Bosh,Bosh BLOCK (1 BLK),2pt missed,rebound,0,Low
+21300294,201,rebound,2,PT07M13.00S,07:13,Q2 07:13,0,0,1610612748.0,Bosh,Bosh REBOUND (Off:0 Def:6),block,2pt made,0,Low
+21300294,202,2pt,2,PT06M56.00S,06:56,Q2 06:56,30,37,1610612748.0,Bosh,Bosh 21' Jump Shot (2 PTS) (James 4 AST),rebound,3pt missed,7,Low
+21300294,203,3pt,2,PT06M36.00S,06:36,Q2 06:36,0,0,1610612750.0,Barea,MISS Barea 25' 3PT Jump Shot,2pt made,rebound,0,Low
+21300294,204,rebound,2,PT06M35.00S,06:35,Q2 06:35,0,0,1610612748.0,James,James REBOUND (Off:1 Def:4),3pt missed,foul,0,Low
+21300294,205,foul,2,PT06M30.00S,06:30,Q2 06:30,0,0,1610612750.0,Cunningham,Cunningham S.FOUL (P1.T3),rebound,freethrow,0,Low
+21300294,206,freethrow,2,PT06M30.00S,06:30,Q2 06:30,0,0,1610612748.0,James,MISS James Free Throw 1 of 2,foul,rebound,0,Low
+21300294,207,rebound,2,PT06M30.00S,06:30,Q2 06:30,0,0,1610612748.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21300294,210,freethrow,2,PT06M30.00S,06:30,Q2 06:30,30,38,1610612748.0,James,James Free Throw 2 of 2 (7 PTS),rebound,substitution,8,Low
+21300294,208,substitution,2,PT06M30.00S,06:30,Q2 06:30,0,0,1610612748.0,Wade,SUB out: D. Wade,freethrow,substitution,0,Low
+21300294,209,substitution,2,PT06M30.00S,06:30,Q2 06:30,0,0,1610612750.0,Barea,SUB out: J. Barea,substitution,substitution,0,Low
+21300294,210,substitution,2,PT06M30.00S,06:30,Q2 06:30,0,0,1610612748.0,Chalmers,SUB in: M. Chalmers,substitution,substitution,0,Low
+21300294,211,substitution,2,PT06M30.00S,06:30,Q2 06:30,0,0,1610612750.0,Martin,SUB in: K. Martin,substitution,turnover,0,Low
+21300294,212,turnover,2,PT06M22.00S,06:22,Q2 06:22,0,0,1610612750.0,Rubio,Rubio Bad Pass Turnover (P4.T9),substitution,steal,0,Low
+21300294,212,steal,2,PT06M22.00S,06:22,Q2 06:22,0,0,1610612748.0,Chalmers,Chalmers STEAL (3 STL),turnover,turnover,0,Low
+21300294,213,turnover,2,PT06M20.00S,06:20,Q2 06:20,0,0,1610612748.0,Chalmers,Chalmers Lost Ball Turnover (P2.T12),steal,steal,0,Low
+21300294,213,steal,2,PT06M20.00S,06:20,Q2 06:20,0,0,1610612750.0,Rubio,Rubio STEAL (3 STL),turnover,2pt made,0,Low
+21300294,214,2pt,2,PT06M16.00S,06:16,Q2 06:16,32,38,1610612750.0,Mbah a Moute,Mbah a Moute 1' Layup (7 PTS) (Rubio 3 AST),steal,foul,6,Low
+21300294,215,foul,2,PT05M58.00S,05:58,Q2 05:58,0,0,1610612750.0,Martin,Martin P.FOUL (P2.T4),2pt made,timeout,0,Low
+21300294,216,timeout,2,PT05M58.00S,05:58,Q2 05:58,0,0,0.0,,Timeout: Regular,foul,2pt missed,0,Low
+21300294,218,2pt,2,PT05M47.00S,05:47,Q2 05:47,0,0,1610612748.0,James,MISS James 17' Turnaround Jump Shot,timeout,rebound,0,Low
+21300294,219,rebound,2,PT05M46.00S,05:46,Q2 05:46,0,0,1610612750.0,Martin,Martin REBOUND (Off:0 Def:1),2pt missed,2pt made,0,Low
+21300294,220,2pt,2,PT05M41.00S,05:41,Q2 05:41,34,38,1610612750.0,Mbah a Moute,Mbah a Moute 1' Layup (9 PTS) (Rubio 4 AST),rebound,3pt missed,4,Low
+21300294,221,3pt,2,PT05M22.00S,05:22,Q2 05:22,0,0,1610612748.0,Bosh,MISS Bosh 26' 3PT Jump Shot,2pt made,2pt made,0,Low
+21300294,222,2pt,2,PT05M20.00S,05:20,Q2 05:20,34,40,1610612748.0,James,James 1' Tip Shot (9 PTS),3pt missed,rebound,6,Low
+21300294,223,rebound,2,PT05M20.00S,05:20,Q2 05:20,0,0,1610612748.0,James,James REBOUND (Off:2 Def:4),2pt made,2pt missed,0,Low
+21300294,224,2pt,2,PT05M00.00S,05:00,Q2 05:00,0,0,1610612750.0,Mbah a Moute,MISS Mbah a Moute 3' Running Layup,rebound,rebound,0,Low
+21300294,225,rebound,2,PT04M59.00S,04:59,Q2 04:59,0,0,1610612748.0,James,James REBOUND (Off:2 Def:5),2pt missed,2pt made,0,Low
+21300294,226,2pt,2,PT04M50.00S,04:50,Q2 04:50,34,42,1610612748.0,Chalmers,Chalmers 1' Running Reverse Layup (5 PTS),rebound,turnover,8,Low
+21300294,227,turnover,2,PT04M34.00S,04:34,Q2 04:34,0,0,1610612750.0,Rubio,Rubio Bad Pass Turnover (P5.T10),2pt made,steal,0,Low
+21300294,227,steal,2,PT04M34.00S,04:34,Q2 04:34,0,0,1610612748.0,James,James STEAL (1 STL),turnover,2pt made,0,Low
+21300294,228,2pt,2,PT04M30.00S,04:30,Q2 04:30,34,44,1610612748.0,James,James 1' Slam Dunk (11 PTS),steal,3pt missed,10,Low
+21300294,229,3pt,2,PT04M05.00S,04:05,Q2 04:05,0,0,1610612750.0,Mbah a Moute,MISS Mbah a Moute 25' 3PT Jump Shot,2pt made,rebound,0,Low
+21300294,230,rebound,2,PT04M04.00S,04:04,Q2 04:04,0,0,1610612748.0,Chalmers,Chalmers REBOUND (Off:0 Def:1),3pt missed,3pt made,0,Low
+21300294,231,3pt,2,PT03M57.00S,03:57,Q2 03:57,34,47,1610612748.0,Lewis,Lewis 24' 3PT Jump Shot (7 PTS) (Bosh 1 AST),rebound,timeout,13,Low
+21300294,232,timeout,2,PT03M55.00S,03:55,Q2 03:55,0,0,1610612750.0,,TIMBERWOLVES Timeout: Short (Full 2 Short 1),3pt made,substitution,0,Low
+21300294,234,substitution,2,PT03M55.00S,03:55,Q2 03:55,0,0,1610612750.0,Cunningham,SUB out: D. Cunningham,timeout,substitution,0,Low
+21300294,235,substitution,2,PT03M55.00S,03:55,Q2 03:55,0,0,1610612750.0,Brewer,SUB in: C. Brewer,substitution,foul,0,Low
+21300294,235,foul,2,PT03M46.00S,03:46,Q2 03:46,0,0,1610612748.0,Lewis,Lewis P.FOUL (P2.T3),substitution,turnover,0,Low
+21300294,236,turnover,2,PT03M38.00S,03:38,Q2 03:38,0,0,1610612750.0,Rubio,Rubio Bad Pass Turnover (P6.T11),foul,steal,0,Low
+21300294,236,steal,2,PT03M38.00S,03:38,Q2 03:38,0,0,1610612748.0,Lewis,Lewis STEAL (2 STL),turnover,2pt made,0,Low
+21300294,237,2pt,2,PT03M32.00S,03:32,Q2 03:32,34,49,1610612748.0,Chalmers,Chalmers  Driving Layup (7 PTS) (James 5 AST),steal,foul,15,Low
+21300294,238,foul,2,PT03M23.00S,03:23,Q2 03:23,0,0,1610612748.0,Chalmers,Chalmers S.FOUL (P2.T4),2pt made,freethrow,0,Low
+21300294,239,freethrow,2,PT03M23.00S,03:23,Q2 03:23,35,49,1610612750.0,Martin,Martin Free Throw 1 of 2 (15 PTS),foul,freethrow,14,Low
+21300294,242,freethrow,2,PT03M23.00S,03:23,Q2 03:23,36,49,1610612750.0,Martin,Martin Free Throw 2 of 2 (16 PTS),freethrow,substitution,13,Low
+21300294,241,substitution,2,PT03M23.00S,03:23,Q2 03:23,0,0,1610612750.0,Rubio,SUB out: R. Rubio,freethrow,substitution,0,Low
+21300294,242,substitution,2,PT03M23.00S,03:23,Q2 03:23,0,0,1610612750.0,Barea,SUB in: J. Barea,substitution,2pt made,0,Low
+21300294,244,2pt,2,PT03M09.00S,03:09,Q2 03:09,36,51,1610612748.0,Bosh,Bosh 1' Layup (4 PTS) (James 6 AST),substitution,3pt missed,15,Low
+21300294,245,3pt,2,PT03M01.00S,03:01,Q2 03:01,0,0,1610612750.0,Martin,MISS Martin 25' 3PT Jump Shot,2pt made,rebound,0,Low
+21300294,246,rebound,2,PT03M00.00S,03:00,Q2 03:00,0,0,1610612748.0,James,James REBOUND (Off:2 Def:6),3pt missed,3pt missed,0,Low
+21300294,247,3pt,2,PT02M53.00S,02:53,Q2 02:53,0,0,1610612748.0,Cole,MISS Cole  3PT Jump Shot,rebound,rebound,0,Low
+21300294,248,rebound,2,PT02M52.00S,02:52,Q2 02:52,0,0,1610612750.0,Brewer,Brewer REBOUND (Off:0 Def:2),3pt missed,2pt missed,0,Low
+21300294,249,2pt,2,PT02M46.00S,02:46,Q2 02:46,0,0,1610612750.0,Barea,MISS Barea 2' Layup,rebound,rebound,0,Low
+21300294,250,rebound,2,PT02M44.00S,02:44,Q2 02:44,0,0,1610612750.0,Pekovic,Pekovic REBOUND (Off:4 Def:3),2pt missed,2pt missed,0,Low
+21300294,251,2pt,2,PT02M42.00S,02:42,Q2 02:42,0,0,1610612750.0,Pekovic,MISS Pekovic  Layup,rebound,rebound,0,Low
+21300294,252,rebound,2,PT02M42.00S,02:42,Q2 02:42,0,0,1610612748.0,Bosh,Bosh REBOUND (Off:0 Def:7),2pt missed,foul,0,Low
+21300294,253,foul,2,PT02M37.00S,02:37,Q2 02:37,0,0,1610612750.0,Brewer,Brewer S.FOUL (P2.PN),rebound,timeout,0,Low
+21300294,254,timeout,2,PT02M37.00S,02:37,Q2 02:37,0,0,1610612748.0,,Heat Timeout: Regular (Reg.2 Short 1),foul,freethrow,0,Low
+21300294,256,freethrow,2,PT02M37.00S,02:37,Q2 02:37,36,52,1610612748.0,James,James Free Throw 1 of 2 (12 PTS),timeout,freethrow,16,Low
+21300294,258,freethrow,2,PT02M37.00S,02:37,Q2 02:37,36,53,1610612748.0,James,James Free Throw 2 of 2 (13 PTS),freethrow,3pt missed,17,Low
+21300294,260,3pt,2,PT02M14.00S,02:14,Q2 02:14,0,0,1610612750.0,Martin,MISS Martin 25' 3PT Jump Shot,freethrow,rebound,0,Low
+21300294,261,rebound,2,PT02M13.00S,02:13,Q2 02:13,0,0,1610612748.0,Lewis,Lewis REBOUND (Off:0 Def:2),3pt missed,3pt missed,0,Low
+21300294,262,3pt,2,PT02M01.00S,02:01,Q2 02:01,0,0,1610612748.0,Lewis,MISS Lewis 25' 3PT Jump Shot,rebound,rebound,0,Low
+21300294,263,rebound,2,PT02M00.00S,02:00,Q2 02:00,0,0,1610612748.0,James,James REBOUND (Off:3 Def:6),3pt missed,turnover,0,Low
+21300294,264,turnover,2,PT01M51.00S,01:51,Q2 01:51,0,0,1610612748.0,James,James Bad Pass Turnover (P5.T13),rebound,steal,0,Low
+21300294,264,steal,2,PT01M51.00S,01:51,Q2 01:51,0,0,1610612750.0,Barea,Barea STEAL (1 STL),turnover,2pt made,0,Low
+21300294,265,2pt,2,PT01M46.00S,01:46,Q2 01:46,38,53,1610612750.0,Pekovic,Pekovic 1' Layup (8 PTS),steal,turnover,15,Low
+21300294,266,turnover,2,PT01M29.00S,01:29,Q2 01:29,0,0,1610612748.0,Lewis,Lewis 3 Second Violation Turnover (P2.T14),2pt made,substitution,0,Low
+21300294,267,substitution,2,PT01M29.00S,01:29,Q2 01:29,0,0,1610612748.0,James,SUB out: L. James,turnover,substitution,0,Low
+21300294,268,substitution,2,PT01M29.00S,01:29,Q2 01:29,0,0,1610612748.0,Chalmers,SUB out: M. Chalmers,substitution,substitution,0,Low
+21300294,269,substitution,2,PT01M29.00S,01:29,Q2 01:29,0,0,1610612748.0,Wade,SUB in: D. Wade,substitution,substitution,0,Low
+21300294,270,substitution,2,PT01M29.00S,01:29,Q2 01:29,0,0,1610612748.0,Allen,SUB in: R. Allen,substitution,foul,0,Low
+21300294,269,foul,2,PT01M19.00S,01:19,Q2 01:19,0,0,1610612748.0,Lewis,Lewis S.FOUL (P3.PN),substitution,freethrow,0,Low
+21300294,270,freethrow,2,PT01M19.00S,01:19,Q2 01:19,39,53,1610612750.0,Brewer,Brewer Free Throw 1 of 2 (3 PTS),foul,freethrow,14,Low
+21300294,273,freethrow,2,PT01M19.00S,01:19,Q2 01:19,40,53,1610612750.0,Brewer,Brewer Free Throw 2 of 2 (4 PTS),freethrow,substitution,13,Low
+21300294,272,substitution,2,PT01M19.00S,01:19,Q2 01:19,0,0,1610612748.0,Lewis,SUB out: R. Lewis,freethrow,substitution,0,Low
+21300294,273,substitution,2,PT01M19.00S,01:19,Q2 01:19,0,0,1610612748.0,James,SUB in: L. James,substitution,2pt missed,0,Low
+21300294,275,2pt,2,PT01M06.00S,01:06,Q2 01:06,0,0,1610612748.0,Wade,MISS Wade 2' Layup,substitution,rebound,0,Low
+21300294,276,rebound,2,PT01M04.00S,01:04,Q2 01:04,0,0,1610612750.0,Barea,Barea REBOUND (Off:0 Def:1),2pt missed,2pt missed,0,Low
+21300294,277,2pt,2,PT00M49.90S,00:49,Q2 00:49,0,0,1610612750.0,Brewer,MISS Brewer 6' Jump Shot,rebound,rebound,0,Low
+21300294,278,rebound,2,PT00M48.10S,00:48,Q2 00:48,0,0,1610612750.0,Martin,Martin REBOUND (Off:1 Def:1),2pt missed,foul,0,Low
+21300294,279,foul,2,PT00M47.60S,00:47,Q2 00:47,0,0,1610612748.0,Wade,Wade P.FOUL (P2.PN),rebound,freethrow,0,Low
+21300294,280,freethrow,2,PT00M47.60S,00:47,Q2 00:47,41,53,1610612750.0,Martin,Martin Free Throw 1 of 2 (17 PTS),foul,freethrow,12,Low
+21300294,282,freethrow,2,PT00M47.60S,00:47,Q2 00:47,0,0,1610612750.0,Martin,MISS Martin Free Throw 2 of 2,freethrow,rebound,0,Low
+21300294,284,rebound,2,PT00M47.60S,00:47,Q2 00:47,0,0,1610612748.0,James,James REBOUND (Off:3 Def:7),freethrow,turnover,0,Low
+21300294,285,turnover,2,PT00M28.90S,00:28,Q2 00:28,0,0,1610612748.0,James,James Bad Pass Turnover (P6.T15),rebound,steal,0,Low
+21300294,285,steal,2,PT00M28.90S,00:28,Q2 00:28,0,0,1610612750.0,Martin,Martin STEAL (3 STL),turnover,foul,0,Low
+21300294,286,foul,2,PT00M25.20S,00:25,Q2 00:25,0,0,1610612748.0,Cole,Cole S.FOUL (P2.PN),steal,freethrow,0,Low
+21300294,287,freethrow,2,PT00M25.20S,00:25,Q2 00:25,0,0,1610612750.0,Brewer,MISS Brewer Free Throw 1 of 2,foul,rebound,0,Low
+21300294,288,rebound,2,PT00M25.20S,00:25,Q2 00:25,0,0,1610612750.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21300294,291,freethrow,2,PT00M25.20S,00:25,Q2 00:25,42,53,1610612750.0,Brewer,Brewer Free Throw 2 of 2 (5 PTS),rebound,substitution,11,Low
+21300294,289,substitution,2,PT00M25.20S,00:25,Q2 00:25,0,0,1610612750.0,Pekovic,SUB out: N. Pekovic,freethrow,substitution,0,Low
+21300294,290,substitution,2,PT00M25.20S,00:25,Q2 00:25,0,0,1610612750.0,Martin,SUB out: K. Martin,substitution,substitution,0,Low
+21300294,291,substitution,2,PT00M25.20S,00:25,Q2 00:25,0,0,1610612750.0,Cunningham,SUB in: D. Cunningham,substitution,substitution,0,Low
+21300294,292,substitution,2,PT00M25.20S,00:25,Q2 00:25,0,0,1610612750.0,Rubio,SUB in: R. Rubio,substitution,2pt made,0,Low
+21300294,293,2pt,2,PT00M05.50S,00:05,Q2 00:05,42,55,1610612748.0,Bosh,Bosh 1' Layup (6 PTS) (Allen 2 AST),substitution,3pt missed,13,Low
+21300294,294,3pt,2,PT00M00.50S,00:00,Q2 00:00,0,0,1610612750.0,Rubio,MISS Rubio  3PT Jump Shot,2pt made,rebound,0,Low
+21300294,295,rebound,2,PT00M00.00S,00:00,Q2 00:00,0,0,1610612750.0,,TEAM offensive REBOUND,3pt missed,period,0,Low
+21300294,296,period,2,PT00M00.00S,00:00,Q2 00:00,42,55,1610612750.0,,End of 2nd Period (9:13 PM EST),rebound,period,13,Low
+21300294,298,period,3,PT12M00.00S,12:00,Q3 12:00,42,55,1610612750.0,,Start of 3rd Period (9:29 PM EST),period,substitution,13,Low
+21300294,299,2pt,3,PT11M46.00S,11:46,Q3 11:46,0,0,1610612750.0,Brewer,MISS Brewer 6' Running Jump Shot,substitution,rebound,0,Low
+21300294,300,rebound,3,PT11M44.00S,11:44,Q3 11:44,0,0,1610612750.0,Brewer,Brewer REBOUND (Off:1 Def:2),2pt missed,2pt missed,0,Low
+21300294,301,2pt,3,PT11M39.00S,11:39,Q3 11:39,0,0,1610612750.0,Pekovic,MISS Pekovic 2' Layup,rebound,block,0,Low
+21300294,301,block,3,PT11M39.00S,11:39,Q3 11:39,0,0,1610612748.0,Bosh,Bosh BLOCK (2 BLK),2pt missed,rebound,0,Low
+21300294,302,rebound,3,PT11M38.00S,11:38,Q3 11:38,0,0,1610612750.0,Pekovic,Pekovic REBOUND (Off:5 Def:3),block,2pt made,0,Low
+21300294,303,2pt,3,PT11M37.00S,11:37,Q3 11:37,44,55,1610612750.0,Pekovic,Pekovic 1' Layup (10 PTS),rebound,foul,11,Low
+21300294,305,foul,3,PT11M37.00S,11:37,Q3 11:37,0,0,1610612748.0,Bosh,Bosh S.FOUL (P2.T1),2pt made,freethrow,0,Low
+21300294,306,freethrow,3,PT11M37.00S,11:37,Q3 11:37,45,55,1610612750.0,Pekovic,Pekovic Free Throw 1 of 1 (11 PTS),foul,turnover,10,Low
+21300294,308,turnover,3,PT11M32.00S,11:32,Q3 11:32,0,0,1610612748.0,Chalmers,Chalmers Bad Pass Turnover (P3.T16),freethrow,2pt missed,0,Low
+21300294,309,2pt,3,PT11M16.00S,11:16,Q3 11:16,0,0,1610612750.0,Pekovic,MISS Pekovic 2' Layup,turnover,rebound,0,Low
+21300294,310,rebound,3,PT11M11.00S,11:11,Q3 11:11,0,0,1610612750.0,Brewer,Brewer REBOUND (Off:2 Def:2),2pt missed,2pt made,0,Low
+21300294,311,2pt,3,PT10M58.00S,10:58,Q3 10:58,47,55,1610612750.0,Brewer,Brewer 13' Turnaround Fadeaway (7 PTS),rebound,2pt missed,8,Low
+21300294,312,2pt,3,PT10M33.00S,10:33,Q3 10:33,0,0,1610612748.0,Battier,MISS Battier 5' Jump Shot,2pt made,rebound,0,Low
+21300294,313,rebound,3,PT10M32.00S,10:32,Q3 10:32,0,0,1610612750.0,Rubio,Rubio REBOUND (Off:0 Def:4),2pt missed,3pt missed,0,Low
+21300294,314,3pt,3,PT10M24.00S,10:24,Q3 10:24,0,0,1610612750.0,Martin,MISS Martin 24' 3PT Jump Shot,rebound,rebound,0,Low
+21300294,315,rebound,3,PT10M23.00S,10:23,Q3 10:23,0,0,1610612750.0,Pekovic,Pekovic REBOUND (Off:6 Def:3),3pt missed,2pt made,0,Low
+21300294,316,2pt,3,PT10M22.00S,10:22,Q3 10:22,49,55,1610612750.0,Pekovic,Pekovic 1' Layup (13 PTS),rebound,2pt made,6,Low
+21300294,318,2pt,3,PT10M05.00S,10:05,Q3 10:05,49,57,1610612748.0,Chalmers,Chalmers 1' Driving Layup (9 PTS),2pt made,foul,8,Low
+21300294,319,foul,3,PT10M05.00S,10:05,Q3 10:05,0,0,1610612750.0,Martin,Martin S.FOUL (P3.T1),2pt made,freethrow,0,Low
+21300294,320,freethrow,3,PT10M05.00S,10:05,Q3 10:05,0,0,1610612748.0,Chalmers,MISS Chalmers Free Throw 1 of 1,foul,rebound,0,Low
+21300294,322,rebound,3,PT10M05.00S,10:05,Q3 10:05,0,0,1610612750.0,Pekovic,Pekovic REBOUND (Off:6 Def:4),freethrow,turnover,0,Low
+21300294,323,turnover,3,PT09M49.00S,09:49,Q3 09:49,0,0,1610612750.0,Mbah a Moute,Mbah a Moute Bad Pass Turnover (P1.T12),rebound,steal,0,Low
+21300294,323,steal,3,PT09M49.00S,09:49,Q3 09:49,0,0,1610612748.0,Bosh,Bosh STEAL (1 STL),turnover,2pt made,0,Low
+21300294,324,2pt,3,PT09M45.00S,09:45,Q3 09:45,49,59,1610612748.0,James,James 1' Driving Layup (15 PTS),steal,3pt made,10,Low
+21300294,325,3pt,3,PT09M19.00S,09:19,Q3 09:19,52,59,1610612750.0,Brewer,Brewer 26' 3PT Jump Bank Shot (10 PTS) (Rubio 5 AST),2pt made,turnover,7,Low
+21300294,326,turnover,3,PT08M56.00S,08:56,Q3 08:56,0,0,1610612748.0,Wade,Wade Bad Pass Turnover (P4.T17),3pt made,steal,0,Low
+21300294,326,steal,3,PT08M56.00S,08:56,Q3 08:56,0,0,1610612750.0,Martin,Martin STEAL (4 STL),turnover,2pt made,0,Low
+21300294,327,2pt,3,PT08M47.00S,08:47,Q3 08:47,54,59,1610612750.0,Mbah a Moute,Mbah a Moute 17' Pullup Jump Shot (11 PTS),steal,2pt missed,5,Low
+21300294,328,2pt,3,PT08M25.00S,08:25,Q3 08:25,0,0,1610612748.0,Wade,MISS Wade 18' Jump Shot,2pt made,rebound,0,Low
+21300294,329,rebound,3,PT08M23.00S,08:23,Q3 08:23,0,0,1610612750.0,Martin,Martin REBOUND (Off:1 Def:2),2pt missed,2pt missed,0,Low
+21300294,330,2pt,3,PT08M04.00S,08:04,Q3 08:04,0,0,1610612750.0,Rubio,MISS Rubio 2' Layup,rebound,rebound,0,Low
+21300294,331,rebound,3,PT08M03.00S,08:03,Q3 08:03,0,0,1610612750.0,Brewer,Brewer REBOUND (Off:3 Def:2),2pt missed,2pt missed,0,Low
+21300294,332,2pt,3,PT08M01.00S,08:01,Q3 08:01,0,0,1610612750.0,Brewer,MISS Brewer 1' Layup,rebound,rebound,0,Low
+21300294,333,rebound,3,PT08M00.00S,08:00,Q3 08:00,0,0,1610612750.0,Brewer,Brewer REBOUND (Off:4 Def:2),2pt missed,2pt missed,0,Low
+21300294,334,2pt,3,PT07M57.00S,07:57,Q3 07:57,0,0,1610612750.0,Mbah a Moute,MISS Mbah a Moute 19' Jump Shot,rebound,rebound,0,Low
+21300294,335,rebound,3,PT07M56.00S,07:56,Q3 07:56,0,0,1610612748.0,Bosh,Bosh REBOUND (Off:0 Def:8),2pt missed,foul,0,Low
+21300294,336,foul,3,PT07M51.00S,07:51,Q3 07:51,0,0,1610612748.0,Wade,Wade Offensive Charge Foul (P3.T2),rebound,turnover,0,Low
+21300294,337,turnover,3,PT07M51.00S,07:51,Q3 07:51,0,0,1610612748.0,Wade,Wade Foul Turnover (P5.T18),foul,foul,0,Low
+21300294,338,foul,3,PT07M43.00S,07:43,Q3 07:43,0,0,1610612748.0,Chalmers,Chalmers P.FOUL (P3.T3),turnover,foul,0,Low
+21300294,339,foul,3,PT07M43.00S,07:43,Q3 07:43,0,0,1610612748.0,Wade,Wade T.FOUL (P3.T3),foul,freethrow,0,Low
+21300294,340,freethrow,3,PT07M43.00S,07:43,Q3 07:43,0,0,1610612750.0,Martin,MISS Martin Free Throw Technical,foul,rebound,0,Low
+21300294,341,rebound,3,PT07M43.00S,07:43,Q3 07:43,0,0,1610612750.0,,TEAM offensive REBOUND,freethrow,2pt missed,0,Low
+21300294,342,2pt,3,PT07M27.00S,07:27,Q3 07:27,0,0,1610612750.0,Pekovic,MISS Pekovic 11' Jump Shot,rebound,rebound,0,Low
+21300294,343,rebound,3,PT07M26.00S,07:26,Q3 07:26,0,0,1610612750.0,,TEAM offensive REBOUND,2pt missed,2pt missed,0,Low
+21300294,344,2pt,3,PT07M23.00S,07:23,Q3 07:23,0,0,1610612750.0,Martin,MISS Martin 13' Jump Shot,rebound,rebound,0,Low
+21300294,345,rebound,3,PT07M22.00S,07:22,Q3 07:22,0,0,1610612748.0,James,James REBOUND (Off:3 Def:8),2pt missed,foul,0,Low
+21300294,346,foul,3,PT07M19.00S,07:19,Q3 07:19,0,0,1610612748.0,James,James OFF.Foul (P3),rebound,turnover,0,Low
+21300294,347,turnover,3,PT07M19.00S,07:19,Q3 07:19,0,0,1610612748.0,James,James Foul Turnover (P7.T19),foul,2pt missed,0,Low
+21300294,348,2pt,3,PT07M02.00S,07:02,Q3 07:02,0,0,1610612750.0,Mbah a Moute,MISS Mbah a Moute 18' Jump Shot,turnover,rebound,0,Low
+21300294,349,rebound,3,PT07M01.00S,07:01,Q3 07:01,0,0,1610612748.0,James,James REBOUND (Off:3 Def:9),2pt missed,2pt made,0,Low
+21300294,350,2pt,3,PT06M51.00S,06:51,Q3 06:51,54,61,1610612748.0,Wade,Wade 3' Dunk (13 PTS) (Chalmers 1 AST),rebound,2pt made,7,Low
+21300294,351,2pt,3,PT06M25.00S,06:25,Q3 06:25,56,61,1610612750.0,Pekovic,Pekovic 1' Layup (15 PTS) (Rubio 6 AST),2pt made,3pt missed,5,Low
+21300294,352,3pt,3,PT06M03.00S,06:03,Q3 06:03,0,0,1610612748.0,Battier,MISS Battier  3PT Jump Shot,2pt made,rebound,0,Low
+21300294,353,rebound,3,PT06M02.00S,06:02,Q3 06:02,0,0,1610612750.0,Rubio,Rubio REBOUND (Off:0 Def:5),3pt missed,timeout,0,Low
+21300294,355,timeout,3,PT05M54.00S,05:54,Q3 05:54,0,0,1610612750.0,,TIMBERWOLVES Timeout: Regular (Full 3 Short 1),rebound,2pt missed,0,Low
+21300294,357,2pt,3,PT05M46.00S,05:46,Q3 05:46,0,0,1610612750.0,Martin,MISS Martin 18' Turnaround Jump Shot,timeout,block,0,Low
+21300294,357,block,3,PT05M46.00S,05:46,Q3 05:46,0,0,1610612748.0,Wade,Wade BLOCK (1 BLK),2pt missed,rebound,0,Low
+21300294,358,rebound,3,PT05M45.00S,05:45,Q3 05:45,0,0,1610612748.0,Bosh,Bosh REBOUND (Off:0 Def:9),block,foul,0,Low
+21300294,359,foul,3,PT05M34.00S,05:34,Q3 05:34,0,0,1610612750.0,Martin,Martin S.FOUL (P4.T2),rebound,freethrow,0,Low
+21300294,360,freethrow,3,PT05M34.00S,05:34,Q3 05:34,56,62,1610612748.0,Wade,Wade Free Throw 1 of 2 (14 PTS),foul,freethrow,6,Low
+21300294,362,freethrow,3,PT05M34.00S,05:34,Q3 05:34,56,63,1610612748.0,Wade,Wade Free Throw 2 of 2 (15 PTS),freethrow,turnover,7,Low
+21300294,364,turnover,3,PT05M10.00S,05:10,Q3 05:10,0,0,0.0,,TIMBERWOLVES Turnover: Shot Clock (T#13),freethrow,substitution,0,Low
+21300294,365,substitution,3,PT05M10.00S,05:10,Q3 05:10,0,0,1610612750.0,Martin,SUB out: K. Martin,turnover,substitution,0,Low
+21300294,366,substitution,3,PT05M10.00S,05:10,Q3 05:10,0,0,1610612750.0,Hummel,SUB in: R. Hummel,substitution,2pt made,0,Low
+21300294,366,2pt,3,PT04M56.00S,04:56,Q3 04:56,56,65,1610612748.0,Bosh,Bosh 17' Jump Shot (8 PTS),substitution,3pt missed,9,Low
+21300294,367,3pt,3,PT04M41.00S,04:41,Q3 04:41,0,0,1610612750.0,Brewer,MISS Brewer 25' 3PT Jump Shot,2pt made,rebound,0,Low
+21300294,368,rebound,3,PT04M40.00S,04:40,Q3 04:40,0,0,1610612748.0,Wade,Wade REBOUND (Off:0 Def:5),3pt missed,2pt made,0,Low
+21300294,369,2pt,3,PT04M35.00S,04:35,Q3 04:35,56,67,1610612748.0,James,James 1' Layup (17 PTS) (Wade 3 AST),rebound,foul,11,Low
+21300294,370,foul,3,PT04M35.00S,04:35,Q3 04:35,0,0,1610612750.0,Mbah a Moute,Mbah a Moute S.FOUL (P2.T3),2pt made,freethrow,0,Low
+21300294,371,freethrow,3,PT04M35.00S,04:35,Q3 04:35,0,0,1610612748.0,James,MISS James Free Throw 1 of 1,foul,rebound,0,Low
+21300294,373,rebound,3,PT04M35.00S,04:35,Q3 04:35,0,0,1610612750.0,Mbah a Moute,Mbah a Moute REBOUND (Off:1 Def:1),freethrow,foul,0,Low
+21300294,374,foul,3,PT04M13.00S,04:13,Q3 04:13,0,0,1610612748.0,Battier,Battier S.FOUL (P3.T4),rebound,freethrow,0,Low
+21300294,375,freethrow,3,PT04M13.00S,04:13,Q3 04:13,0,0,1610612750.0,Pekovic,MISS Pekovic Free Throw 1 of 2,foul,rebound,0,Low
+21300294,376,rebound,3,PT04M13.00S,04:13,Q3 04:13,0,0,1610612750.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21300294,377,freethrow,3,PT04M13.00S,04:13,Q3 04:13,57,67,1610612750.0,Pekovic,Pekovic Free Throw 2 of 2 (16 PTS),rebound,2pt made,10,Low
+21300294,380,2pt,3,PT03M56.00S,03:56,Q3 03:56,57,69,1610612748.0,James,James 1' Layup (19 PTS) (Battier 1 AST),freethrow,foul,12,Low
+21300294,381,foul,3,PT03M28.00S,03:28,Q3 03:28,0,0,1610612750.0,Pekovic,Pekovic Offensive Charge Foul (P1.T4),2pt made,turnover,0,Low
+21300294,382,turnover,3,PT03M28.00S,03:28,Q3 03:28,0,0,1610612750.0,Pekovic,Pekovic Foul Turnover (P3.T14),foul,2pt missed,0,Low
+21300294,383,2pt,3,PT03M10.00S,03:10,Q3 03:10,0,0,1610612748.0,Bosh,MISS Bosh 18' Jump Shot,turnover,rebound,0,Low
+21300294,384,rebound,3,PT03M09.00S,03:09,Q3 03:09,0,0,1610612750.0,,TEAM defensive REBOUND,2pt missed,substitution,0,Low
+21300294,385,substitution,3,PT03M09.00S,03:09,Q3 03:09,0,0,1610612750.0,Rubio,SUB out: R. Rubio,rebound,substitution,0,Low
+21300294,386,substitution,3,PT03M09.00S,03:09,Q3 03:09,0,0,1610612750.0,Barea,SUB in: J. Barea,substitution,turnover,0,Low
+21300294,386,turnover,3,PT02M54.00S,02:54,Q3 02:54,0,0,1610612750.0,Brewer,Brewer Lost Ball Turnover (P2.T15),substitution,steal,0,Low
+21300294,386,steal,3,PT02M54.00S,02:54,Q3 02:54,0,0,1610612748.0,James,James STEAL (2 STL),turnover,2pt made,0,Low
+21300294,387,2pt,3,PT02M49.00S,02:49,Q3 02:49,57,71,1610612748.0,James,James  Alley Oop Dunk (21 PTS) (Wade 4 AST),steal,timeout,14,Low
+21300294,389,timeout,3,PT02M38.00S,02:38,Q3 02:38,0,0,1610612748.0,,Heat Timeout: Regular (Reg.3 Short 1),2pt made,substitution,0,Low
+21300294,390,substitution,3,PT02M38.00S,02:38,Q3 02:38,0,0,1610612750.0,Mbah a Moute,SUB out: L. Mbah a Moute,timeout,substitution,0,Low
+21300294,391,substitution,3,PT02M38.00S,02:38,Q3 02:38,0,0,1610612748.0,Bosh,SUB out: C. Bosh,substitution,substitution,0,Low
+21300294,392,substitution,3,PT02M38.00S,02:38,Q3 02:38,0,0,1610612748.0,Wade,SUB out: D. Wade,substitution,substitution,0,Low
+21300294,393,substitution,3,PT02M38.00S,02:38,Q3 02:38,0,0,1610612750.0,Cunningham,SUB in: D. Cunningham,substitution,substitution,0,Low
+21300294,394,substitution,3,PT02M38.00S,02:38,Q3 02:38,0,0,1610612748.0,Andersen,SUB in: C. Andersen,substitution,substitution,0,Low
+21300294,395,substitution,3,PT02M38.00S,02:38,Q3 02:38,0,0,1610612748.0,Allen,SUB in: R. Allen,substitution,2pt missed,0,Low
+21300294,393,2pt,3,PT02M25.00S,02:25,Q3 02:25,0,0,1610612750.0,Cunningham,MISS Cunningham 20' Jump Shot,substitution,rebound,0,Low
+21300294,394,rebound,3,PT02M23.00S,02:23,Q3 02:23,0,0,1610612748.0,Andersen,Andersen REBOUND (Off:0 Def:1),2pt missed,foul,0,Low
+21300294,395,foul,3,PT02M14.00S,02:14,Q3 02:14,0,0,1610612750.0,Brewer,Brewer P.FOUL (P3.PN),rebound,2pt made,0,Low
+21300294,396,2pt,3,PT02M12.00S,02:12,Q3 02:12,57,73,1610612748.0,Allen,Allen 1' Layup (7 PTS) (James 7 AST),foul,2pt missed,16,Low
+21300294,397,2pt,3,PT01M51.00S,01:51,Q3 01:51,0,0,1610612750.0,Barea,MISS Barea 21' Jump Shot,2pt made,rebound,0,Low
+21300294,398,rebound,3,PT01M49.00S,01:49,Q3 01:49,0,0,1610612748.0,James,James REBOUND (Off:3 Def:10),2pt missed,3pt missed,0,Low
+21300294,399,3pt,3,PT01M44.00S,01:44,Q3 01:44,0,0,1610612748.0,Chalmers,MISS Chalmers 25' 3PT Jump Shot,rebound,rebound,0,Low
+21300294,400,rebound,3,PT01M43.00S,01:43,Q3 01:43,0,0,1610612750.0,Barea,Barea REBOUND (Off:0 Def:2),3pt missed,turnover,0,Low
+21300294,401,turnover,3,PT01M41.00S,01:41,Q3 01:41,0,0,1610612750.0,Barea,Barea Lost Ball Turnover (P2.T16),rebound,steal,0,Low
+21300294,401,steal,3,PT01M41.00S,01:41,Q3 01:41,0,0,1610612748.0,Allen,Allen STEAL (2 STL),turnover,3pt missed,0,Low
+21300294,402,3pt,3,PT01M24.00S,01:24,Q3 01:24,0,0,1610612748.0,Battier,MISS Battier 25' 3PT Jump Shot,steal,rebound,0,Low
+21300294,403,rebound,3,PT01M23.00S,01:23,Q3 01:23,0,0,1610612750.0,Cunningham,Cunningham REBOUND (Off:0 Def:1),3pt missed,turnover,0,Low
+21300294,404,turnover,3,PT01M18.00S,01:18,Q3 01:18,0,0,1610612750.0,Brewer,Brewer Out of Bounds Lost Ball Turnover (P3.T17),rebound,substitution,0,Low
+21300294,405,substitution,3,PT01M18.00S,01:18,Q3 01:18,0,0,1610612750.0,Hummel,SUB out: R. Hummel,turnover,substitution,0,Low
+21300294,406,substitution,3,PT01M18.00S,01:18,Q3 01:18,0,0,1610612748.0,Chalmers,SUB out: M. Chalmers,substitution,substitution,0,Low
+21300294,407,substitution,3,PT01M18.00S,01:18,Q3 01:18,0,0,1610612748.0,Battier,SUB out: S. Battier,substitution,substitution,0,Low
+21300294,408,substitution,3,PT01M18.00S,01:18,Q3 01:18,0,0,1610612750.0,Price,SUB in: A. Price,substitution,substitution,0,Low
+21300294,409,substitution,3,PT01M18.00S,01:18,Q3 01:18,0,0,1610612748.0,Cole,SUB in: N. Cole,substitution,substitution,0,Low
+21300294,410,substitution,3,PT01M18.00S,01:18,Q3 01:18,0,0,1610612748.0,Lewis,SUB in: R. Lewis,substitution,2pt missed,0,Low
+21300294,408,2pt,3,PT00M59.90S,00:59,Q3 00:59,0,0,1610612748.0,Lewis,MISS Lewis 11' Running Jump Shot,substitution,rebound,0,Low
+21300294,409,rebound,3,PT00M57.80S,00:57,Q3 00:57,0,0,1610612750.0,Price,Price REBOUND (Off:0 Def:1),2pt missed,2pt missed,0,Low
+21300294,410,2pt,3,PT00M39.90S,00:39,Q3 00:39,0,0,1610612750.0,Cunningham,MISS Cunningham 20' Jump Shot,rebound,rebound,0,Low
+21300294,411,rebound,3,PT00M38.90S,00:38,Q3 00:38,0,0,1610612748.0,Allen,Allen REBOUND (Off:0 Def:2),2pt missed,2pt missed,0,Low
+21300294,412,2pt,3,PT00M19.90S,00:19,Q3 00:19,0,0,1610612748.0,James,MISS James 11' Running Jump Shot,rebound,block,0,Low
+21300294,412,block,3,PT00M19.90S,00:19,Q3 00:19,0,0,1610612750.0,Cunningham,Cunningham BLOCK (1 BLK),2pt missed,rebound,0,Low
+21300294,413,rebound,3,PT00M18.20S,00:18,Q3 00:18,0,0,1610612748.0,James,James REBOUND (Off:4 Def:10),block,3pt made,0,Low
+21300294,414,3pt,3,PT00M17.20S,00:17,Q3 00:17,57,76,1610612748.0,Lewis,Lewis  3PT Jump Shot (10 PTS) (James 8 AST),rebound,2pt missed,19,Low
+21300294,415,2pt,3,PT00M02.90S,00:02,Q3 00:02,0,0,1610612750.0,Pekovic,MISS Pekovic 1' Layup,3pt made,rebound,0,Low
+21300294,416,rebound,3,PT00M01.70S,00:01,Q3 00:01,0,0,1610612750.0,Cunningham,Cunningham REBOUND (Off:1 Def:1),2pt missed,3pt made,0,Low
+21300294,417,3pt,3,PT00M00.30S,00:00,Q3 00:00,60,76,1610612750.0,Brewer,Brewer 25' 3PT Jump Shot (13 PTS) (Cunningham 1 AST),rebound,instant replay,16,Low
+21300294,419,period,3,PT00M00.00S,00:00,Q3 00:00,60,76,1610612750.0,,End of 3rd Period (9:54 PM EST),instant replay,period,16,Low
+21300294,421,period,4,PT12M00.00S,12:00,Q4 12:00,60,76,1610612750.0,,Start of 4th Period (9:56 PM EST),period,substitution,16,Low
+21300294,422,turnover,4,PT11M46.00S,11:46,Q4 11:46,0,0,1610612748.0,Allen,Allen Bad Pass Turnover (P2.T20),substitution,2pt made,0,Medium
+21300294,423,2pt,4,PT11M33.00S,11:33,Q4 11:33,62,76,1610612750.0,Cunningham,Cunningham 20' Jump Shot (4 PTS) (Price 1 AST),turnover,2pt made,14,Low
+21300294,424,2pt,4,PT11M12.00S,11:12,Q4 11:12,62,78,1610612748.0,Allen,Allen 13' Pullup Jump Shot (9 PTS),2pt made,2pt missed,16,Low
+21300294,425,2pt,4,PT10M52.00S,10:52,Q4 10:52,0,0,1610612750.0,Cunningham,MISS Cunningham 15' Jump Shot,2pt made,rebound,0,Medium
+21300294,426,rebound,4,PT10M51.00S,10:51,Q4 10:51,0,0,1610612748.0,Andersen,Andersen REBOUND (Off:0 Def:2),2pt missed,3pt missed,0,Medium
+21300294,427,3pt,4,PT10M43.00S,10:43,Q4 10:43,0,0,1610612748.0,Cole,MISS Cole 26' 3PT Jump Shot,rebound,rebound,0,Medium
+21300294,428,rebound,4,PT10M42.00S,10:42,Q4 10:42,0,0,1610612750.0,Pekovic,Pekovic REBOUND (Off:6 Def:5),3pt missed,3pt missed,0,Medium
+21300294,429,3pt,4,PT10M35.00S,10:35,Q4 10:35,0,0,1610612750.0,Martin,MISS Martin 25' 3PT Jump Shot,rebound,rebound,0,Medium
+21300294,430,rebound,4,PT10M34.00S,10:34,Q4 10:34,0,0,1610612748.0,Cole,Cole REBOUND (Off:0 Def:1),3pt missed,foul,0,Medium
+21300294,431,foul,4,PT10M14.00S,10:14,Q4 10:14,0,0,1610612750.0,Barea,Barea S.FOUL (P1.T1),rebound,freethrow,0,Medium
+21300294,432,freethrow,4,PT10M14.00S,10:14,Q4 10:14,62,79,1610612748.0,Allen,Allen Free Throw 1 of 2 (10 PTS),foul,freethrow,17,Low
+21300294,435,freethrow,4,PT10M14.00S,10:14,Q4 10:14,62,80,1610612748.0,Allen,Allen Free Throw 2 of 2 (11 PTS),freethrow,substitution,18,Low
+21300294,434,substitution,4,PT10M14.00S,10:14,Q4 10:14,0,0,1610612748.0,James,SUB out: L. James,freethrow,substitution,0,Medium
+21300294,435,substitution,4,PT10M14.00S,10:14,Q4 10:14,0,0,1610612748.0,Wade,SUB in: D. Wade,substitution,3pt missed,0,Medium
+21300294,437,3pt,4,PT09M50.00S,09:50,Q4 09:50,0,0,1610612750.0,Price,MISS Price 25' 3PT Jump Shot,substitution,rebound,0,Medium
+21300294,438,rebound,4,PT09M49.00S,09:49,Q4 09:49,0,0,1610612748.0,Cole,Cole REBOUND (Off:0 Def:2),3pt missed,2pt made,0,Medium
+21300294,439,2pt,4,PT09M43.00S,09:43,Q4 09:43,62,82,1610612748.0,Cole,Cole 2' Driving Layup (2 PTS),rebound,foul,20,Low
+21300294,440,foul,4,PT09M34.00S,09:34,Q4 09:34,0,0,1610612748.0,Cole,Cole S.FOUL (P3.T1),2pt made,freethrow,0,Medium
+21300294,441,freethrow,4,PT09M34.00S,09:34,Q4 09:34,63,82,1610612750.0,Barea,Barea Free Throw 1 of 2 (1 PTS),foul,freethrow,19,Low
+21300294,443,freethrow,4,PT09M34.00S,09:34,Q4 09:34,64,82,1610612750.0,Barea,Barea Free Throw 2 of 2 (2 PTS),freethrow,2pt made,18,Low
+21300294,445,2pt,4,PT09M23.00S,09:23,Q4 09:23,64,84,1610612748.0,Wade,Wade 12' Turnaround Jump Shot (17 PTS),freethrow,foul,20,Low
+21300294,446,foul,4,PT09M13.00S,09:13,Q4 09:13,0,0,1610612748.0,Andersen,Andersen P.FOUL (P1.T2),2pt made,2pt missed,0,Medium
+21300294,447,2pt,4,PT08M59.00S,08:59,Q4 08:59,0,0,1610612750.0,Cunningham,MISS Cunningham 19' Jump Shot,foul,rebound,0,Medium
+21300294,448,rebound,4,PT08M58.00S,08:58,Q4 08:58,0,0,1610612748.0,Lewis,Lewis REBOUND (Off:0 Def:3),2pt missed,2pt missed,0,Medium
+21300294,449,2pt,4,PT08M51.00S,08:51,Q4 08:51,0,0,1610612748.0,Wade,MISS Wade 19' Jump Shot,rebound,rebound,0,Medium
+21300294,450,rebound,4,PT08M49.00S,08:49,Q4 08:49,0,0,1610612750.0,Martin,Martin REBOUND (Off:1 Def:3),2pt missed,2pt missed,0,Medium
+21300294,451,2pt,4,PT08M42.00S,08:42,Q4 08:42,0,0,1610612750.0,Cunningham,MISS Cunningham 4' Jump Shot,rebound,block,0,Medium
+21300294,451,block,4,PT08M42.00S,08:42,Q4 08:42,0,0,1610612748.0,Andersen,Andersen BLOCK (2 BLK),2pt missed,rebound,0,Medium
+21300294,452,rebound,4,PT08M41.00S,08:41,Q4 08:41,0,0,1610612748.0,Cole,Cole REBOUND (Off:0 Def:3),block,2pt made,0,Medium
+21300294,453,2pt,4,PT08M35.00S,08:35,Q4 08:35,64,86,1610612748.0,Cole,Cole 1' Driving Layup (4 PTS),rebound,timeout,22,Low
+21300294,454,timeout,4,PT08M33.00S,08:33,Q4 08:33,0,0,1610612750.0,,TIMBERWOLVES Timeout: Regular (Full 4 Short 1),2pt made,substitution,0,Medium
+21300294,456,substitution,4,PT08M33.00S,08:33,Q4 08:33,0,0,1610612750.0,Price,SUB out: A. Price,timeout,substitution,0,Medium
+21300294,457,substitution,4,PT08M33.00S,08:33,Q4 08:33,0,0,1610612750.0,Cunningham,SUB out: D. Cunningham,substitution,substitution,0,Medium
+21300294,458,substitution,4,PT08M33.00S,08:33,Q4 08:33,0,0,1610612750.0,Shved,SUB in: A. Shved,substitution,substitution,0,Medium
+21300294,459,substitution,4,PT08M33.00S,08:33,Q4 08:33,0,0,1610612750.0,Hummel,SUB in: R. Hummel,substitution,3pt missed,0,Medium
+21300294,458,3pt,4,PT08M17.00S,08:17,Q4 08:17,0,0,1610612750.0,Martin,MISS Martin 25' 3PT Jump Shot,substitution,rebound,0,Medium
+21300294,459,rebound,4,PT08M16.00S,08:16,Q4 08:16,0,0,1610612750.0,Pekovic,Pekovic REBOUND (Off:7 Def:5),3pt missed,2pt made,0,Medium
+21300294,460,2pt,4,PT08M15.00S,08:15,Q4 08:15,66,86,1610612750.0,Pekovic,Pekovic 1' Layup (18 PTS),rebound,2pt missed,20,Low
+21300294,461,2pt,4,PT07M49.00S,07:49,Q4 07:49,0,0,1610612748.0,Wade,MISS Wade 16' Jump Shot,2pt made,rebound,0,Medium
+21300294,462,rebound,4,PT07M47.00S,07:47,Q4 07:47,0,0,1610612750.0,Barea,Barea REBOUND (Off:0 Def:3),2pt missed,3pt missed,0,Medium
+21300294,463,3pt,4,PT07M42.00S,07:42,Q4 07:42,0,0,1610612750.0,Barea,MISS Barea 25' 3PT Jump Shot,rebound,rebound,0,Medium
+21300294,464,rebound,4,PT07M41.00S,07:41,Q4 07:41,0,0,1610612750.0,Hummel,Hummel REBOUND (Off:1 Def:0),3pt missed,2pt missed,0,Medium
+21300294,465,2pt,4,PT07M36.00S,07:36,Q4 07:36,0,0,1610612750.0,Martin,MISS Martin 12' Jump Shot,rebound,rebound,0,Medium
+21300294,466,rebound,4,PT07M35.00S,07:35,Q4 07:35,0,0,1610612748.0,,TEAM defensive REBOUND,2pt missed,2pt made,0,Medium
+21300294,467,2pt,4,PT07M23.00S,07:23,Q4 07:23,66,88,1610612748.0,Andersen,Andersen 19' Jump Shot (5 PTS),rebound,turnover,22,Low
+21300294,468,turnover,4,PT07M10.00S,07:10,Q4 07:10,0,0,1610612750.0,Shved,Shved Bad Pass Turnover (P1.T18),2pt made,2pt missed,0,Medium
+21300294,469,2pt,4,PT06M57.00S,06:57,Q4 06:57,0,0,1610612748.0,Allen,MISS Allen  Driving Layup,turnover,2pt made,0,High
+21300294,470,2pt,4,PT06M56.00S,06:56,Q4 06:56,66,90,1610612748.0,Andersen,Andersen 1' Tip Shot (7 PTS),2pt missed,rebound,24,Low
+21300294,471,rebound,4,PT06M56.00S,06:56,Q4 06:56,0,0,1610612748.0,Andersen,Andersen REBOUND (Off:1 Def:2),2pt made,foul,0,High
+21300294,472,foul,4,PT06M44.00S,06:44,Q4 06:44,0,0,1610612748.0,Wade,Wade S.FOUL (P4.T3),rebound,freethrow,0,High
+21300294,473,freethrow,4,PT06M44.00S,06:44,Q4 06:44,67,90,1610612750.0,Martin,Martin Free Throw 1 of 2 (18 PTS),foul,freethrow,23,Low
+21300294,476,freethrow,4,PT06M44.00S,06:44,Q4 06:44,68,90,1610612750.0,Martin,Martin Free Throw 2 of 2 (19 PTS),freethrow,substitution,22,Low
+21300294,475,substitution,4,PT06M44.00S,06:44,Q4 06:44,0,0,1610612750.0,Pekovic,SUB out: N. Pekovic,freethrow,substitution,0,High
+21300294,476,substitution,4,PT06M44.00S,06:44,Q4 06:44,0,0,1610612750.0,Dieng,SUB in: G. Dieng,substitution,3pt missed,0,High
+21300294,478,3pt,4,PT06M30.00S,06:30,Q4 06:30,0,0,1610612748.0,Allen,MISS Allen 25' 3PT Jump Shot,substitution,2pt made,0,High
+21300294,479,2pt,4,PT06M28.00S,06:28,Q4 06:28,68,92,1610612748.0,Andersen,Andersen 1' Putback Slam Dunk (9 PTS),3pt missed,rebound,24,Low
+21300294,480,rebound,4,PT06M28.00S,06:28,Q4 06:28,0,0,1610612748.0,Andersen,Andersen REBOUND (Off:2 Def:2),2pt made,3pt missed,0,High
+21300294,481,3pt,4,PT06M11.00S,06:11,Q4 06:11,0,0,1610612750.0,Shved,MISS Shved  3PT Jump Shot,rebound,rebound,0,High
+21300294,482,rebound,4,PT06M10.00S,06:10,Q4 06:10,0,0,1610612748.0,Allen,Allen REBOUND (Off:0 Def:3),3pt missed,3pt missed,0,High
+21300294,483,3pt,4,PT06M00.00S,06:00,Q4 06:00,0,0,1610612748.0,Andersen,MISS Andersen 25' 3PT Jump Shot,rebound,rebound,0,High
+21300294,484,rebound,4,PT05M59.00S,05:59,Q4 05:59,0,0,1610612750.0,Shved,Shved REBOUND (Off:0 Def:1),3pt missed,2pt made,0,High
+21300294,485,2pt,4,PT05M53.00S,05:53,Q4 05:53,70,92,1610612750.0,Dieng,Dieng 2' Layup (2 PTS) (Shved 1 AST),rebound,foul,22,Low
+21300294,486,foul,4,PT05M39.00S,05:39,Q4 05:39,0,0,1610612750.0,Hummel,Hummel S.FOUL (P1.T2),2pt made,timeout,0,High
+21300294,487,timeout,4,PT05M39.00S,05:39,Q4 05:39,0,0,0.0,,Timeout: Regular,foul,freethrow,0,High
+21300294,490,freethrow,4,PT05M39.00S,05:39,Q4 05:39,0,0,1610612748.0,Andersen,MISS Andersen Free Throw 1 of 2,timeout,rebound,0,High
+21300294,491,rebound,4,PT05M39.00S,05:39,Q4 05:39,0,0,1610612748.0,,TEAM offensive REBOUND,freethrow,freethrow,0,High
+21300294,492,freethrow,4,PT05M39.00S,05:39,Q4 05:39,0,0,1610612748.0,Andersen,MISS Andersen Free Throw 2 of 2,rebound,rebound,0,High
+21300294,494,rebound,4,PT05M39.00S,05:39,Q4 05:39,0,0,1610612750.0,Dieng,Dieng REBOUND (Off:0 Def:2),freethrow,substitution,0,High
+21300294,489,substitution,4,PT05M39.00S,05:39,Q4 05:39,0,0,1610612750.0,Martin,SUB out: K. Martin,rebound,substitution,0,High
+21300294,490,substitution,4,PT05M39.00S,05:39,Q4 05:39,0,0,1610612750.0,Muhammad,SUB in: S. Muhammad,substitution,turnover,0,High
+21300294,495,turnover,4,PT05M27.00S,05:27,Q4 05:27,0,0,1610612750.0,Shved,Shved Bad Pass Turnover (P2.T19),substitution,steal,0,High
+21300294,495,steal,4,PT05M27.00S,05:27,Q4 05:27,0,0,1610612748.0,Wade,Wade STEAL (1 STL),turnover,2pt made,0,High
+21300294,496,2pt,4,PT05M22.00S,05:22,Q4 05:22,70,94,1610612748.0,Wade,Wade 2' Driving Dunk (19 PTS),steal,2pt missed,24,Low
+21300294,497,2pt,4,PT05M03.00S,05:03,Q4 05:03,0,0,1610612750.0,Muhammad,MISS Muhammad 1' Driving Dunk,2pt made,block,0,High
+21300294,497,block,4,PT05M03.00S,05:03,Q4 05:03,0,0,1610612748.0,Andersen,Andersen BLOCK (3 BLK),2pt missed,rebound,0,High
+21300294,498,rebound,4,PT05M03.00S,05:03,Q4 05:03,0,0,1610612748.0,,TEAM defensive REBOUND,block,3pt missed,0,High
+21300294,499,3pt,4,PT04M39.00S,04:39,Q4 04:39,0,0,1610612748.0,Allen,MISS Allen  3PT Jump Shot,rebound,rebound,0,High
+21300294,500,rebound,4,PT04M38.00S,04:38,Q4 04:38,0,0,1610612750.0,Hummel,Hummel REBOUND (Off:1 Def:1),3pt missed,foul,0,High
+21300294,501,foul,4,PT04M33.00S,04:33,Q4 04:33,0,0,1610612748.0,Allen,Allen P.FOUL (P2.T4),rebound,substitution,0,High
+21300294,502,substitution,4,PT04M33.00S,04:33,Q4 04:33,0,0,1610612750.0,Barea,SUB out: J. Barea,foul,substitution,0,High
+21300294,503,substitution,4,PT04M33.00S,04:33,Q4 04:33,0,0,1610612748.0,Allen,SUB out: R. Allen,substitution,substitution,0,High
+21300294,504,substitution,4,PT04M33.00S,04:33,Q4 04:33,0,0,1610612748.0,Andersen,SUB out: C. Andersen,substitution,substitution,0,High
+21300294,505,substitution,4,PT04M33.00S,04:33,Q4 04:33,0,0,1610612750.0,Price,SUB in: A. Price,substitution,substitution,0,High
+21300294,506,substitution,4,PT04M33.00S,04:33,Q4 04:33,0,0,1610612748.0,Mason Jr.,SUB in: R. Mason Jr.,substitution,substitution,0,High
+21300294,507,substitution,4,PT04M33.00S,04:33,Q4 04:33,0,0,1610612748.0,Haslem,SUB in: U. Haslem,substitution,3pt made,0,High
+21300294,505,3pt,4,PT04M21.00S,04:21,Q4 04:21,73,94,1610612750.0,Hummel,Hummel 24' 3PT Jump Shot (3 PTS) (Shved 2 AST),substitution,3pt missed,21,Low
+21300294,506,3pt,4,PT03M55.00S,03:55,Q4 03:55,0,0,1610612748.0,Lewis,MISS Lewis  3PT Jump Shot,3pt made,rebound,0,High
+21300294,507,rebound,4,PT03M53.00S,03:53,Q4 03:53,0,0,1610612750.0,Dieng,Dieng REBOUND (Off:0 Def:3),3pt missed,foul,0,High
+21300294,508,foul,4,PT03M41.00S,03:41,Q4 03:41,0,0,1610612748.0,Lewis,Lewis S.FOUL (P4.PN),rebound,freethrow,0,High
+21300294,509,freethrow,4,PT03M41.00S,03:41,Q4 03:41,0,0,1610612750.0,Shved,MISS Shved Free Throw 1 of 2,foul,rebound,0,High
+21300294,510,rebound,4,PT03M41.00S,03:41,Q4 03:41,0,0,1610612750.0,,TEAM offensive REBOUND,freethrow,freethrow,0,High
+21300294,513,freethrow,4,PT03M41.00S,03:41,Q4 03:41,74,94,1610612750.0,Shved,Shved Free Throw 2 of 2 (1 PTS),rebound,substitution,20,Low
+21300294,512,substitution,4,PT03M41.00S,03:41,Q4 03:41,0,0,1610612748.0,Wade,SUB out: D. Wade,freethrow,substitution,0,High
+21300294,513,substitution,4,PT03M41.00S,03:41,Q4 03:41,0,0,1610612748.0,Jones,SUB in: J. Jones,substitution,2pt missed,0,High
+21300294,515,2pt,4,PT03M30.00S,03:30,Q4 03:30,0,0,1610612748.0,Mason Jr.,MISS Mason Jr. 20' Jump Shot,substitution,rebound,0,High
+21300294,516,rebound,4,PT03M29.00S,03:29,Q4 03:29,0,0,1610612750.0,Hummel,Hummel REBOUND (Off:1 Def:2),2pt missed,foul,0,High
+21300294,517,foul,4,PT03M22.00S,03:22,Q4 03:22,0,0,1610612748.0,Mason Jr.,Mason Jr. P.FOUL (P1.PN),rebound,freethrow,0,High
+21300294,518,freethrow,4,PT03M22.00S,03:22,Q4 03:22,75,94,1610612750.0,Dieng,Dieng Free Throw 1 of 2 (3 PTS),foul,freethrow,19,Low
+21300294,520,freethrow,4,PT03M22.00S,03:22,Q4 03:22,0,0,1610612750.0,Dieng,MISS Dieng Free Throw 2 of 2,freethrow,rebound,0,High
+21300294,522,rebound,4,PT03M21.00S,03:21,Q4 03:21,0,0,1610612750.0,Dieng,Dieng REBOUND (Off:1 Def:3),freethrow,2pt missed,0,High
+21300294,523,2pt,4,PT03M17.00S,03:17,Q4 03:17,0,0,1610612750.0,Dieng,MISS Dieng 7' Fadeaway Jumper,rebound,rebound,0,High
+21300294,524,rebound,4,PT03M16.00S,03:16,Q4 03:16,0,0,1610612748.0,Jones,Jones REBOUND (Off:0 Def:1),2pt missed,3pt made,0,High
+21300294,525,3pt,4,PT02M58.00S,02:58,Q4 02:58,75,97,1610612748.0,Mason Jr.,Mason Jr. 25' 3PT Jump Shot (3 PTS) (Cole 3 AST),rebound,3pt made,22,Low
+21300294,526,3pt,4,PT02M35.00S,02:35,Q4 02:35,78,97,1610612750.0,Hummel,Hummel 25' 3PT Jump Shot (6 PTS) (Price 2 AST),3pt made,2pt made,19,Low
+21300294,527,2pt,4,PT02M17.00S,02:17,Q4 02:17,78,99,1610612748.0,Mason Jr.,Mason Jr. 20' Jump Shot (5 PTS) (Cole 4 AST),3pt made,2pt missed,21,Low
+21300294,528,2pt,4,PT01M51.00S,01:51,Q4 01:51,0,0,1610612750.0,Shved,MISS Shved 13' Running Jump Shot,2pt made,rebound,0,Very High
+21300294,529,rebound,4,PT01M49.00S,01:49,Q4 01:49,0,0,1610612748.0,,TEAM defensive REBOUND,2pt missed,timeout,0,Very High
+21300294,530,timeout,4,PT01M49.00S,01:49,Q4 01:49,0,0,1610612748.0,,Heat Timeout: Regular (Reg.4 Short 1),rebound,instant replay,0,Very High
+21300294,533,3pt,4,PT01M33.00S,01:33,Q4 01:33,0,0,1610612748.0,Jones,MISS Jones 25' 3PT Jump Shot,instant replay,rebound,0,Very High
+21300294,534,rebound,4,PT01M32.00S,01:32,Q4 01:32,0,0,1610612750.0,Dieng,Dieng REBOUND (Off:1 Def:4),3pt missed,2pt missed,0,Very High
+21300294,535,2pt,4,PT01M15.00S,01:15,Q4 01:15,0,0,1610612750.0,Hummel,MISS Hummel 20' Jump Shot,rebound,rebound,0,Very High
+21300294,536,rebound,4,PT01M14.00S,01:14,Q4 01:14,0,0,1610612750.0,Dieng,Dieng REBOUND (Off:2 Def:4),2pt missed,foul,0,Very High
+21300294,537,foul,4,PT01M14.00S,01:14,Q4 01:14,0,0,1610612748.0,Mason Jr.,Mason Jr. S.FOUL (P2.PN),rebound,freethrow,0,Very High
+21300294,538,freethrow,4,PT01M14.00S,01:14,Q4 01:14,79,99,1610612750.0,Dieng,Dieng Free Throw 1 of 2 (4 PTS),foul,freethrow,20,Low
+21300294,540,freethrow,4,PT01M14.00S,01:14,Q4 01:14,80,99,1610612750.0,Dieng,Dieng Free Throw 2 of 2 (5 PTS),freethrow,2pt made,19,Low
+21300294,542,2pt,4,PT00M55.60S,00:55,Q4 00:55,80,101,1610612748.0,Mason Jr.,Mason Jr. 22' Jump Shot (7 PTS) (Lewis 2 AST),freethrow,foul,21,Low
+21300294,543,foul,4,PT00M39.50S,00:39,Q4 00:39,0,0,1610612748.0,Haslem,Haslem P.FOUL (P1.PN),2pt made,freethrow,0,Very High
+21300294,544,freethrow,4,PT00M39.50S,00:39,Q4 00:39,81,101,1610612750.0,Hummel,Hummel Free Throw 1 of 2 (7 PTS),foul,freethrow,20,Low
+21300294,546,freethrow,4,PT00M39.50S,00:39,Q4 00:39,82,101,1610612750.0,Hummel,Hummel Free Throw 2 of 2 (8 PTS),freethrow,2pt made,19,Low
+21300294,548,2pt,4,PT00M22.20S,00:22,Q4 00:22,82,103,1610612748.0,Mason Jr.,Mason Jr. 20' Pullup Jump Shot (9 PTS),freethrow,3pt missed,21,Low
+21300294,549,3pt,4,PT00M02.90S,00:02,Q4 00:02,0,0,1610612750.0,Shved,MISS Shved 24' 3PT Jump Shot,2pt made,rebound,0,Very High
+21300294,550,rebound,4,PT00M01.40S,00:01,Q4 00:01,0,0,1610612748.0,,TEAM defensive REBOUND,3pt missed,period,0,Very High
+21300294,551,period,4,PT00M00.00S,00:00,Q4 00:00,82,103,1610612750.0,,End of 4th Period (10:23 PM EST),rebound,,21,Low

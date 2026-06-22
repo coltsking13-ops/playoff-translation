@@ -1,0 +1,656 @@
+game_id,actionNumber,actionType,period,clock,clock_display,game_clock,scoreHome,scoreAway,teamId,playerName,description,previous_action,next_action,score_margin,leverage_bucket
+22400442,7,turnover,1,PT11M47.00S,11:47,Q1 11:47,0,0,1610612766.0,Bridges,M. Bridges lost ball TURNOVER (1 TO),,steal,0,Medium
+22400442,8,steal,1,PT11M47.00S,11:47,Q1 11:47,0,0,1610612741.0,Giddey,J. Giddey STEAL (1 STL),turnover,foul,0,Medium
+22400442,9,foul,1,PT11M44.00S,11:44,Q1 11:44,0,0,1610612766.0,Williams,M. Williams shooting personal FOUL (1 PF) (Phillips 2 FT),steal,freethrow,0,Medium
+22400442,11,freethrow,1,PT11M44.00S,11:44,Q1 11:44,0,1,1610612741.0,Phillips,J. Phillips Free Throw 1 of 2 (1 PTS),foul,freethrow,1,Medium
+22400442,12,freethrow,1,PT11M44.00S,11:44,Q1 11:44,0,2,1610612741.0,Phillips,J. Phillips Free Throw 2 of 2 (2 PTS),freethrow,2pt missed,2,Medium
+22400442,13,2pt,1,PT11M31.00S,11:31,Q1 11:31,0,2,1610612766.0,Bridges,MISS M. Bridges driving Layup,freethrow,rebound,2,Medium
+22400442,14,rebound,1,PT11M26.00S,11:26,Q1 11:26,0,2,1610612741.0,Vučević,N. Vučević REBOUND (Off:0 Def:1),2pt missed,3pt missed,2,Medium
+22400442,16,3pt,1,PT11M10.00S,11:10,Q1 11:10,0,2,1610612741.0,White,MISS C. White 28' 3PT,rebound,rebound,2,Medium
+22400442,17,rebound,1,PT11M07.00S,11:07,Q1 11:07,0,2,1610612766.0,,TEAM defensive REBOUND,3pt missed,2pt missed,2,Medium
+22400442,19,2pt,1,PT10M56.00S,10:56,Q1 10:56,0,2,1610612766.0,Micić,MISS V. Micić 14' driving floating Shot,rebound,rebound,2,Medium
+22400442,20,rebound,1,PT10M54.00S,10:54,Q1 10:54,0,2,1610612766.0,Green,J. Green REBOUND (Off:1 Def:0),2pt missed,3pt made,2,Medium
+22400442,21,3pt,1,PT10M52.00S,10:52,Q1 10:52,3,2,1610612766.0,Curry,S. Curry 26' 3PT  (3 PTS) (M. Bridges 1 AST),rebound,3pt made,1,Medium
+22400442,23,3pt,1,PT10M38.00S,10:38,Q1 10:38,3,5,1610612741.0,Williams,P. Williams 26' 3PT pullup (3 PTS) (N. Vučević 1 AST),3pt made,foul,2,Medium
+22400442,24,foul,1,PT10M32.00S,10:32,Q1 10:32,3,5,1610612741.0,White,C. White personal FOUL (1 PF),3pt made,2pt missed,2,Medium
+22400442,27,2pt,1,PT10M14.00S,10:14,Q1 10:14,3,5,1610612766.0,Bridges,MISS M. Bridges 12' driving floating Shot,foul,rebound,2,Medium
+22400442,28,rebound,1,PT10M08.00S,10:08,Q1 10:08,3,5,1610612741.0,White,C. White REBOUND (Off:0 Def:1),2pt missed,2pt made,2,Medium
+22400442,29,2pt,1,PT10M05.00S,10:05,Q1 10:05,3,7,1610612741.0,White,C. White running Layup (2 PTS),rebound,2pt missed,4,Medium
+22400442,30,2pt,1,PT09M53.00S,09:53,Q1 09:53,3,7,1610612766.0,Curry,MISS S. Curry 10' driving floating Shot,2pt made,rebound,4,Medium
+22400442,31,rebound,1,PT09M51.00S,09:51,Q1 09:51,3,7,1610612766.0,Curry,S. Curry REBOUND (Off:1 Def:0),2pt missed,2pt made,4,Medium
+22400442,32,2pt,1,PT09M49.00S,09:49,Q1 09:49,5,7,1610612766.0,Curry,S. Curry tip Layup (5 PTS),rebound,3pt missed,2,Medium
+22400442,33,3pt,1,PT09M42.00S,09:42,Q1 09:42,5,7,1610612741.0,Williams,MISS P. Williams 28' 3PT,2pt made,rebound,2,Medium
+22400442,34,rebound,1,PT09M39.00S,09:39,Q1 09:39,5,7,1610612766.0,Micić,V. Micić REBOUND (Off:0 Def:1),3pt missed,3pt made,2,Medium
+22400442,35,3pt,1,PT09M30.00S,09:30,Q1 09:30,8,7,1610612766.0,Curry,S. Curry 27' 3PT pullup (8 PTS),rebound,3pt missed,1,Medium
+22400442,36,3pt,1,PT09M22.00S,09:22,Q1 09:22,8,7,1610612741.0,Giddey,MISS J. Giddey 25' pullup 3PT,3pt made,rebound,1,Medium
+22400442,37,rebound,1,PT09M19.00S,09:19,Q1 09:19,8,7,1610612766.0,Williams,M. Williams REBOUND (Off:0 Def:1),3pt missed,2pt made,1,Medium
+22400442,38,2pt,1,PT09M10.00S,09:10,Q1 09:10,10,7,1610612766.0,Curry,S. Curry 17' driving floating Jump Shot (10 PTS),rebound,3pt missed,3,Medium
+22400442,39,3pt,1,PT08M52.00S,08:52,Q1 08:52,10,7,1610612741.0,White,MISS C. White 26' 3PT,2pt made,rebound,3,Medium
+22400442,40,rebound,1,PT08M49.00S,08:49,Q1 08:49,10,7,1610612766.0,Micić,V. Micić REBOUND (Off:0 Def:2),3pt missed,2pt made,3,Medium
+22400442,41,2pt,1,PT08M40.00S,08:40,Q1 08:40,12,7,1610612766.0,Curry,S. Curry driving Layup (12 PTS) (M. Bridges 2 AST),rebound,timeout,5,Medium
+22400442,42,timeout,1,PT08M40.00S,08:40,Q1 08:40,12,7,1610612741.0,,CHI Timeout,2pt made,2pt missed,5,Medium
+22400442,45,2pt,1,PT08M16.00S,08:16,Q1 08:16,12,7,1610612741.0,Williams,MISS P. Williams driving floating Shot - blocked,timeout,block,5,Medium
+22400442,46,block,1,PT08M16.00S,08:16,Q1 08:16,12,7,1610612766.0,Williams,M. Williams BLOCK (1 BLK),2pt missed,rebound,5,Medium
+22400442,47,rebound,1,PT08M16.00S,08:16,Q1 08:16,12,7,1610612741.0,Williams,P. Williams REBOUND (Off:1 Def:0),block,turnover,5,Medium
+22400442,48,turnover,1,PT08M16.00S,08:16,Q1 08:16,12,7,1610612741.0,,CHI shot clock Team TURNOVER,rebound,3pt missed,5,Medium
+22400442,49,3pt,1,PT08M00.00S,08:00,Q1 08:00,12,7,1610612766.0,Curry,MISS S. Curry 25' 3PT,turnover,rebound,5,Medium
+22400442,50,rebound,1,PT07M56.00S,07:56,Q1 07:56,12,7,1610612741.0,Phillips,J. Phillips REBOUND (Off:0 Def:1),3pt missed,turnover,5,Medium
+22400442,51,turnover,1,PT07M49.00S,07:49,Q1 07:49,12,7,1610612741.0,Vučević,N. Vučević bad pass out-of-bounds TURNOVER (1 TO),rebound,substitution,5,Medium
+22400442,52,substitution,1,PT07M49.00S,07:49,Q1 07:49,12,7,1610612741.0,White,SUB out: C. White,turnover,substitution,5,Medium
+22400442,53,substitution,1,PT07M49.00S,07:49,Q1 07:49,12,7,1610612741.0,Ball,SUB in: L. Ball,substitution,2pt missed,5,Medium
+22400442,54,2pt,1,PT07M32.00S,07:32,Q1 07:32,12,7,1610612766.0,Bridges,MISS M. Bridges driving Layup,substitution,rebound,5,Medium
+22400442,55,rebound,1,PT07M30.00S,07:30,Q1 07:30,12,7,1610612741.0,Vučević,N. Vučević REBOUND (Off:0 Def:2),2pt missed,foul,5,Medium
+22400442,56,foul,1,PT07M27.00S,07:27,Q1 07:27,12,7,1610612766.0,Green,J. Green personal FOUL (1 PF),rebound,3pt missed,5,Medium
+22400442,58,3pt,1,PT07M22.00S,07:22,Q1 07:22,12,7,1610612741.0,Williams,MISS P. Williams 27' 3PT,foul,rebound,5,Medium
+22400442,59,rebound,1,PT07M19.00S,07:19,Q1 07:19,12,7,1610612766.0,Bridges,M. Bridges REBOUND (Off:0 Def:1),3pt missed,2pt made,5,Medium
+22400442,60,2pt,1,PT07M10.00S,07:10,Q1 07:10,14,7,1610612766.0,Williams,M. Williams DUNK (2 PTS) (V. Micić 1 AST),rebound,turnover,7,Medium
+22400442,62,turnover,1,PT07M04.00S,07:04,Q1 07:04,14,7,1610612741.0,Phillips,J. Phillips double dribble TURNOVER (1 TO),2pt made,2pt made,7,Medium
+22400442,63,2pt,1,PT06M53.00S,06:53,Q1 06:53,16,7,1610612766.0,Bridges,M. Bridges driving Layup (2 PTS) (V. Micić 2 AST),turnover,2pt missed,9,Medium
+22400442,65,2pt,1,PT06M39.00S,06:39,Q1 06:39,16,7,1610612741.0,Vučević,MISS N. Vučević 8' turnaround Hook,2pt made,rebound,9,Medium
+22400442,66,rebound,1,PT06M37.00S,06:37,Q1 06:37,16,7,1610612766.0,Green,J. Green REBOUND (Off:1 Def:1),2pt missed,3pt missed,9,Medium
+22400442,67,3pt,1,PT06M26.00S,06:26,Q1 06:26,16,7,1610612766.0,Micić,MISS V. Micić 29' 3PT,rebound,rebound,9,Medium
+22400442,68,rebound,1,PT06M24.00S,06:24,Q1 06:24,16,7,1610612741.0,Giddey,J. Giddey REBOUND (Off:0 Def:1),3pt missed,3pt missed,9,Medium
+22400442,69,3pt,1,PT06M19.00S,06:19,Q1 06:19,16,7,1610612741.0,Vučević,MISS N. Vučević 25' running 3PT,rebound,rebound,9,Medium
+22400442,70,rebound,1,PT06M13.00S,06:13,Q1 06:13,16,7,1610612741.0,Giddey,J. Giddey REBOUND (Off:1 Def:1),3pt missed,2pt made,9,Medium
+22400442,71,2pt,1,PT06M13.00S,06:13,Q1 06:13,16,9,1610612741.0,Giddey,J. Giddey putback Layup (2 PTS),rebound,3pt missed,7,Medium
+22400442,72,3pt,1,PT06M01.00S,06:01,Q1 06:01,16,9,1610612766.0,Bridges,MISS M. Bridges 25' step back 3PT,2pt made,rebound,7,Medium
+22400442,73,rebound,1,PT05M56.00S,05:56,Q1 05:56,16,9,1610612741.0,Vučević,N. Vučević REBOUND (Off:0 Def:3),3pt missed,3pt missed,7,Medium
+22400442,74,3pt,1,PT05M47.00S,05:47,Q1 05:47,16,9,1610612741.0,Williams,MISS P. Williams 3PT,rebound,rebound,7,Medium
+22400442,75,rebound,1,PT05M45.00S,05:45,Q1 05:45,16,9,1610612766.0,Green,J. Green REBOUND (Off:1 Def:2),3pt missed,2pt missed,7,Medium
+22400442,76,2pt,1,PT05M35.00S,05:35,Q1 05:35,16,9,1610612766.0,Micić,MISS V. Micić 12' pullup Shot,rebound,rebound,7,Medium
+22400442,77,rebound,1,PT05M32.00S,05:32,Q1 05:32,16,9,1610612741.0,Ball,L. Ball REBOUND (Off:0 Def:1),2pt missed,3pt missed,7,Medium
+22400442,78,3pt,1,PT05M27.00S,05:27,Q1 05:27,16,9,1610612741.0,Giddey,MISS J. Giddey 25' 3PT,rebound,rebound,7,Medium
+22400442,79,rebound,1,PT05M24.00S,05:24,Q1 05:24,16,9,1610612766.0,Williams,M. Williams REBOUND (Off:0 Def:2),3pt missed,timeout,7,Medium
+22400442,80,timeout,1,PT05M20.00S,05:20,Q1 05:20,16,9,1610612766.0,,CHA Timeout,rebound,substitution,7,Medium
+22400442,81,substitution,1,PT05M20.00S,05:20,Q1 05:20,16,9,1610612766.0,Bridges,SUB out: M. Bridges,timeout,substitution,7,Medium
+22400442,82,substitution,1,PT05M20.00S,05:20,Q1 05:20,16,9,1610612766.0,Williams,SUB out: M. Williams,substitution,substitution,7,Medium
+22400442,83,substitution,1,PT05M20.00S,05:20,Q1 05:20,16,9,1610612766.0,Micić,SUB out: V. Micić,substitution,substitution,7,Medium
+22400442,84,substitution,1,PT05M20.00S,05:20,Q1 05:20,16,9,1610612766.0,Curry,SUB out: S. Curry,substitution,substitution,7,Medium
+22400442,85,substitution,1,PT05M20.00S,05:20,Q1 05:20,16,9,1610612741.0,Phillips,SUB out: J. Phillips,substitution,substitution,7,Medium
+22400442,86,substitution,1,PT05M20.00S,05:20,Q1 05:20,16,9,1610612741.0,Williams,SUB out: P. Williams,substitution,substitution,7,Medium
+22400442,87,substitution,1,PT05M20.00S,05:20,Q1 05:20,16,9,1610612766.0,Wong,SUB in: I. Wong,substitution,substitution,7,Medium
+22400442,88,substitution,1,PT05M20.00S,05:20,Q1 05:20,16,9,1610612766.0,Salaün,SUB in: T. Salaün,substitution,substitution,7,Medium
+22400442,89,substitution,1,PT05M20.00S,05:20,Q1 05:20,16,9,1610612766.0,Simpson,SUB in: K. Simpson,substitution,substitution,7,Medium
+22400442,90,substitution,1,PT05M20.00S,05:20,Q1 05:20,16,9,1610612766.0,Richards,SUB in: N. Richards,substitution,substitution,7,Medium
+22400442,91,substitution,1,PT05M20.00S,05:20,Q1 05:20,16,9,1610612741.0,Buzelis,SUB in: M. Buzelis,substitution,substitution,7,Medium
+22400442,92,substitution,1,PT05M20.00S,05:20,Q1 05:20,16,9,1610612741.0,Terry,SUB in: D. Terry,substitution,turnover,7,Medium
+22400442,93,turnover,1,PT05M10.00S,05:10,Q1 05:10,16,9,1610612766.0,Simpson,K. Simpson lost ball TURNOVER (1 TO),substitution,steal,7,Medium
+22400442,94,steal,1,PT05M10.00S,05:10,Q1 05:10,16,9,1610612741.0,Ball,L. Ball STEAL (1 STL),turnover,2pt made,7,Medium
+22400442,95,2pt,1,PT04M52.00S,04:52,Q1 04:52,16,11,1610612741.0,Vučević,N. Vučević 13' Jump Shot (2 PTS) (D. Terry 1 AST),steal,3pt missed,5,Medium
+22400442,96,3pt,1,PT04M39.00S,04:39,Q1 04:39,16,11,1610612766.0,Green,MISS J. Green 25' 3PT,2pt made,rebound,5,Medium
+22400442,97,rebound,1,PT04M36.00S,04:36,Q1 04:36,16,11,1610612741.0,Giddey,J. Giddey REBOUND (Off:1 Def:2),3pt missed,3pt missed,5,Medium
+22400442,98,3pt,1,PT04M31.00S,04:31,Q1 04:31,16,11,1610612741.0,Giddey,MISS J. Giddey 25' running pullup 3PT,rebound,rebound,5,Medium
+22400442,99,rebound,1,PT04M28.00S,04:28,Q1 04:28,16,11,1610612766.0,Richards,N. Richards REBOUND (Off:0 Def:1),3pt missed,2pt missed,5,Medium
+22400442,100,2pt,1,PT04M15.00S,04:15,Q1 04:15,16,11,1610612766.0,Richards,MISS N. Richards 6' turnaround Hook,rebound,rebound,5,Medium
+22400442,101,rebound,1,PT04M12.00S,04:12,Q1 04:12,16,11,1610612741.0,Buzelis,M. Buzelis REBOUND (Off:0 Def:1),2pt missed,2pt missed,5,Medium
+22400442,102,2pt,1,PT04M08.00S,04:08,Q1 04:08,16,11,1610612741.0,Terry,MISS D. Terry running Layup - blocked,rebound,block,5,Medium
+22400442,103,block,1,PT04M08.00S,04:08,Q1 04:08,16,11,1610612766.0,Richards,N. Richards BLOCK (1 BLK),2pt missed,rebound,5,Medium
+22400442,104,rebound,1,PT04M08.00S,04:08,Q1 04:08,16,11,1610612741.0,,TEAM offensive REBOUND,block,substitution,5,Medium
+22400442,106,substitution,1,PT04M08.00S,04:08,Q1 04:08,16,11,1610612766.0,Green,SUB out: J. Green,rebound,substitution,5,Medium
+22400442,107,substitution,1,PT04M08.00S,04:08,Q1 04:08,16,11,1610612741.0,Giddey,SUB out: J. Giddey,substitution,substitution,5,Medium
+22400442,108,substitution,1,PT04M08.00S,04:08,Q1 04:08,16,11,1610612766.0,Jeffries,SUB in: D. Jeffries,substitution,substitution,5,Medium
+22400442,109,substitution,1,PT04M08.00S,04:08,Q1 04:08,16,11,1610612741.0,White,SUB in: C. White,substitution,3pt missed,5,Medium
+22400442,111,3pt,1,PT04M05.00S,04:05,Q1 04:05,16,11,1610612741.0,Terry,MISS D. Terry 25' 3PT,substitution,rebound,5,Medium
+22400442,112,rebound,1,PT04M02.00S,04:02,Q1 04:02,16,11,1610612766.0,Jeffries,D. Jeffries REBOUND (Off:0 Def:1),3pt missed,2pt made,5,Medium
+22400442,113,2pt,1,PT03M42.00S,03:42,Q1 03:42,18,11,1610612766.0,Simpson,K. Simpson 9' driving bank Jump Shot (2 PTS),rebound,turnover,7,Medium
+22400442,114,turnover,1,PT03M39.00S,03:39,Q1 03:39,18,11,1610612741.0,Ball,L. Ball bad pass TURNOVER (1 TO),2pt made,steal,7,Medium
+22400442,115,steal,1,PT03M39.00S,03:39,Q1 03:39,18,11,1610612766.0,Simpson,K. Simpson STEAL (1 STL),turnover,2pt made,7,Medium
+22400442,116,2pt,1,PT03M39.00S,03:39,Q1 03:39,20,11,1610612766.0,Simpson,K. Simpson Layup (4 PTS),steal,foul,9,Medium
+22400442,117,foul,1,PT03M39.00S,03:39,Q1 03:39,20,11,1610612741.0,Ball,L. Ball shooting personal FOUL (1 PF) (Simpson 1 FT),2pt made,freethrow,9,Medium
+22400442,121,freethrow,1,PT03M39.00S,03:39,Q1 03:39,20,11,1610612766.0,Simpson,MISS K. Simpson Free Throw 1 of 1,foul,substitution,9,Medium
+22400442,119,substitution,1,PT03M39.00S,03:39,Q1 03:39,20,11,1610612741.0,Vučević,SUB out: N. Vučević,freethrow,substitution,9,Medium
+22400442,120,substitution,1,PT03M39.00S,03:39,Q1 03:39,20,11,1610612741.0,Smith,SUB in: J. Smith,substitution,rebound,9,Medium
+22400442,122,rebound,1,PT03M35.00S,03:35,Q1 03:35,20,11,1610612741.0,Smith,J. Smith REBOUND (Off:0 Def:1),substitution,2pt missed,9,Medium
+22400442,123,2pt,1,PT03M25.00S,03:25,Q1 03:25,20,11,1610612741.0,Buzelis,MISS M. Buzelis driving Layup,rebound,rebound,9,Medium
+22400442,124,rebound,1,PT03M22.00S,03:22,Q1 03:22,20,11,1610612766.0,Wong,I. Wong REBOUND (Off:0 Def:1),2pt missed,2pt missed,9,Medium
+22400442,125,2pt,1,PT03M16.00S,03:16,Q1 03:16,20,11,1610612766.0,Wong,MISS I. Wong running Layup - blocked,rebound,block,9,Medium
+22400442,126,block,1,PT03M16.00S,03:16,Q1 03:16,20,11,1610612741.0,Buzelis,M. Buzelis BLOCK (1 BLK),2pt missed,rebound,9,Medium
+22400442,127,rebound,1,PT03M13.00S,03:13,Q1 03:13,20,11,1610612741.0,Buzelis,M. Buzelis REBOUND (Off:0 Def:2),block,foul,9,Medium
+22400442,128,foul,1,PT03M10.00S,03:10,Q1 03:10,20,11,1610612766.0,Richards,N. Richards personal FOUL (1 PF),rebound,substitution,9,Medium
+22400442,130,substitution,1,PT03M10.00S,03:10,Q1 03:10,20,11,1610612741.0,Ball,SUB out: L. Ball,foul,substitution,9,Medium
+22400442,131,substitution,1,PT03M10.00S,03:10,Q1 03:10,20,11,1610612741.0,Horton-Tucker,SUB in: T. Horton-Tucker,substitution,3pt missed,9,Medium
+22400442,132,3pt,1,PT02M58.00S,02:58,Q1 02:58,20,11,1610612741.0,Smith,MISS J. Smith 25' 3PT,substitution,rebound,9,Medium
+22400442,133,rebound,1,PT02M54.00S,02:54,Q1 02:54,20,11,1610612766.0,Simpson,K. Simpson REBOUND (Off:0 Def:1),3pt missed,3pt missed,9,Medium
+22400442,134,3pt,1,PT02M50.00S,02:50,Q1 02:50,20,11,1610612766.0,Simpson,MISS K. Simpson 25' running pullup 3PT,rebound,rebound,9,Medium
+22400442,135,rebound,1,PT02M49.00S,02:49,Q1 02:49,20,11,1610612741.0,,TEAM defensive REBOUND,3pt missed,3pt missed,9,Medium
+22400442,137,3pt,1,PT02M39.00S,02:39,Q1 02:39,20,11,1610612741.0,White,MISS C. White 31' pullup 3PT,rebound,rebound,9,Medium
+22400442,138,rebound,1,PT02M36.00S,02:36,Q1 02:36,20,11,1610612766.0,Salaün,T. Salaün REBOUND (Off:0 Def:1),3pt missed,2pt missed,9,Medium
+22400442,139,2pt,1,PT02M24.00S,02:24,Q1 02:24,20,11,1610612766.0,Salaün,MISS T. Salaün 7' driving Layup,rebound,rebound,9,Medium
+22400442,140,rebound,1,PT02M21.00S,02:21,Q1 02:21,20,11,1610612741.0,Horton-Tucker,T. Horton-Tucker REBOUND (Off:0 Def:1),2pt missed,2pt made,9,Medium
+22400442,141,2pt,1,PT02M13.00S,02:13,Q1 02:13,20,13,1610612741.0,Buzelis,M. Buzelis Layup (2 PTS) (T. Horton-Tucker 1 AST),rebound,3pt missed,7,Medium
+22400442,142,3pt,1,PT01M48.00S,01:48,Q1 01:48,20,13,1610612766.0,Wong,MISS I. Wong 26' 3PT,2pt made,rebound,7,Medium
+22400442,143,rebound,1,PT01M46.00S,01:46,Q1 01:46,20,13,1610612741.0,Terry,D. Terry REBOUND (Off:0 Def:1),3pt missed,2pt made,7,Medium
+22400442,144,2pt,1,PT01M33.00S,01:33,Q1 01:33,20,15,1610612741.0,Smith,J. Smith 6' turnaround bank Jump Shot (2 PTS),rebound,foul,5,Medium
+22400442,146,foul,1,PT01M15.00S,01:15,Q1 01:15,20,15,1610612741.0,Buzelis,M. Buzelis shooting personal FOUL (1 PF) (Simpson 2 FT),2pt made,freethrow,5,Medium
+22400442,148,freethrow,1,PT01M15.00S,01:15,Q1 01:15,21,15,1610612766.0,Simpson,K. Simpson Free Throw 1 of 2 (5 PTS),foul,freethrow,6,Medium
+22400442,151,freethrow,1,PT01M15.00S,01:15,Q1 01:15,22,15,1610612766.0,Simpson,K. Simpson Free Throw 2 of 2 (6 PTS),freethrow,substitution,7,Medium
+22400442,149,substitution,1,PT01M15.00S,01:15,Q1 01:15,21,15,1610612766.0,Richards,SUB out: N. Richards,freethrow,substitution,6,Medium
+22400442,150,substitution,1,PT01M15.00S,01:15,Q1 01:15,21,15,1610612766.0,Diabaté,SUB in: M. Diabaté,substitution,turnover,6,Medium
+22400442,152,turnover,1,PT00M59.50S,00:59,Q1 00:59,22,15,1610612741.0,Horton-Tucker,T. Horton-Tucker lost ball TURNOVER (1 TO),substitution,steal,7,Medium
+22400442,153,steal,1,PT00M59.50S,00:59,Q1 00:59,22,15,1610612766.0,Jeffries,D. Jeffries STEAL (1 STL),turnover,2pt made,7,Medium
+22400442,154,2pt,1,PT00M55.80S,00:55,Q1 00:55,24,15,1610612766.0,Jeffries,D. Jeffries running Layup (2 PTS) (T. Salaün 1 AST),steal,2pt missed,9,Medium
+22400442,156,2pt,1,PT00M50.30S,00:50,Q1 00:50,24,15,1610612741.0,Buzelis,MISS M. Buzelis driving DUNK,2pt made,rebound,9,Medium
+22400442,157,rebound,1,PT00M48.30S,00:48,Q1 00:48,24,15,1610612741.0,Horton-Tucker,T. Horton-Tucker REBOUND (Off:1 Def:1),2pt missed,3pt missed,9,Medium
+22400442,158,3pt,1,PT00M45.40S,00:45,Q1 00:45,24,15,1610612741.0,Buzelis,MISS M. Buzelis 3PT,rebound,rebound,9,Medium
+22400442,159,rebound,1,PT00M43.00S,00:43,Q1 00:43,24,15,1610612766.0,Salaün,T. Salaün REBOUND (Off:0 Def:2),3pt missed,2pt missed,9,Medium
+22400442,160,2pt,1,PT00M30.00S,00:30,Q1 00:30,24,15,1610612766.0,Simpson,MISS K. Simpson 12' turnaround fadeaway Shot,rebound,rebound,9,Medium
+22400442,161,rebound,1,PT00M28.10S,00:28,Q1 00:28,24,15,1610612766.0,Wong,I. Wong REBOUND (Off:1 Def:1),2pt missed,3pt missed,9,Medium
+22400442,162,3pt,1,PT00M14.90S,00:14,Q1 00:14,24,15,1610612766.0,Simpson,MISS K. Simpson 3PT,rebound,rebound,9,Medium
+22400442,163,rebound,1,PT00M11.80S,00:11,Q1 00:11,24,15,1610612741.0,White,C. White REBOUND (Off:0 Def:2),3pt missed,2pt missed,9,Medium
+22400442,164,2pt,1,PT00M00.70S,00:00,Q1 00:00,24,15,1610612741.0,White,MISS C. White driving floating Shot,rebound,rebound,9,Medium
+22400442,165,rebound,1,PT00M00.70S,00:00,Q1 00:00,24,15,1610612766.0,Jeffries,D. Jeffries REBOUND (Off:0 Def:2),2pt missed,substitution,9,Medium
+22400442,167,substitution,2,PT12M00.00S,12:00,Q2 12:00,24,15,1610612766.0,Wong,SUB out: I. Wong,rebound,substitution,9,Medium
+22400442,168,substitution,2,PT12M00.00S,12:00,Q2 12:00,24,15,1610612766.0,Simpson,SUB out: K. Simpson,substitution,substitution,9,Medium
+22400442,169,substitution,2,PT12M00.00S,12:00,Q2 12:00,24,15,1610612766.0,Diabaté,SUB out: M. Diabaté,substitution,substitution,9,Medium
+22400442,170,substitution,2,PT12M00.00S,12:00,Q2 12:00,24,15,1610612766.0,Curry,SUB in: S. Curry,substitution,substitution,9,Medium
+22400442,171,substitution,2,PT12M00.00S,12:00,Q2 12:00,24,15,1610612766.0,Micić,SUB in: V. Micić,substitution,substitution,9,Medium
+22400442,172,substitution,2,PT12M00.00S,12:00,Q2 12:00,24,15,1610612766.0,Richards,SUB in: N. Richards,substitution,2pt missed,9,Medium
+22400442,174,2pt,2,PT11M46.00S,11:46,Q2 11:46,24,15,1610612741.0,Buzelis,MISS M. Buzelis 14' Jump Shot,substitution,rebound,9,Medium
+22400442,175,rebound,2,PT11M42.00S,11:42,Q2 11:42,24,15,1610612766.0,Salaün,T. Salaün REBOUND (Off:0 Def:3),2pt missed,2pt missed,9,Medium
+22400442,176,2pt,2,PT11M31.00S,11:31,Q2 11:31,24,15,1610612766.0,Jeffries,MISS D. Jeffries DUNK - blocked,rebound,block,9,Medium
+22400442,177,block,2,PT11M31.00S,11:31,Q2 11:31,24,15,1610612741.0,Smith,J. Smith BLOCK (1 BLK),2pt missed,rebound,9,Medium
+22400442,178,rebound,2,PT11M27.00S,11:27,Q2 11:27,24,15,1610612741.0,Horton-Tucker,T. Horton-Tucker REBOUND (Off:1 Def:2),block,2pt missed,9,Medium
+22400442,179,2pt,2,PT11M24.00S,11:24,Q2 11:24,24,15,1610612741.0,Horton-Tucker,MISS T. Horton-Tucker running Layup - blocked,rebound,block,9,Medium
+22400442,180,block,2,PT11M24.00S,11:24,Q2 11:24,24,15,1610612766.0,Jeffries,D. Jeffries BLOCK (1 BLK),2pt missed,rebound,9,Medium
+22400442,181,rebound,2,PT11M21.00S,11:21,Q2 11:21,24,15,1610612766.0,Salaün,T. Salaün REBOUND (Off:0 Def:4),block,2pt missed,9,Medium
+22400442,182,2pt,2,PT11M18.00S,11:18,Q2 11:18,24,15,1610612766.0,Salaün,MISS T. Salaün 6' driving Hook,rebound,rebound,9,Medium
+22400442,183,rebound,2,PT11M16.00S,11:16,Q2 11:16,24,15,1610612741.0,Terry,D. Terry REBOUND (Off:0 Def:2),2pt missed,3pt missed,9,Medium
+22400442,184,3pt,2,PT11M12.00S,11:12,Q2 11:12,24,15,1610612741.0,Horton-Tucker,MISS T. Horton-Tucker running 3PT,rebound,rebound,9,Medium
+22400442,185,rebound,2,PT11M08.00S,11:08,Q2 11:08,24,15,1610612766.0,Salaün,T. Salaün REBOUND (Off:0 Def:5),3pt missed,2pt made,9,Medium
+22400442,186,2pt,2,PT10M54.00S,10:54,Q2 10:54,26,15,1610612766.0,Jeffries,D. Jeffries reverse Layup (4 PTS) (V. Micić 3 AST),rebound,2pt made,11,Medium
+22400442,188,2pt,2,PT10M43.00S,10:43,Q2 10:43,26,17,1610612741.0,Smith,J. Smith reverse Layup (4 PTS) (C. White 1 AST),2pt made,3pt missed,9,Medium
+22400442,190,3pt,2,PT10M22.00S,10:22,Q2 10:22,26,17,1610612766.0,Micić,MISS V. Micić 28' 3PT,2pt made,rebound,9,Medium
+22400442,191,rebound,2,PT10M18.00S,10:18,Q2 10:18,26,17,1610612741.0,Terry,D. Terry REBOUND (Off:0 Def:3),3pt missed,3pt made,9,Medium
+22400442,192,3pt,2,PT10M10.00S,10:10,Q2 10:10,26,20,1610612741.0,Terry,D. Terry 25' 3PT  (3 PTS) (C. White 2 AST),rebound,3pt missed,6,Medium
+22400442,194,3pt,2,PT09M48.00S,09:48,Q2 09:48,26,20,1610612766.0,Salaün,MISS T. Salaün 25' 3PT,3pt made,rebound,6,Medium
+22400442,195,rebound,2,PT09M46.00S,09:46,Q2 09:46,26,20,1610612741.0,White,C. White REBOUND (Off:0 Def:3),3pt missed,foul,6,Medium
+22400442,196,foul,2,PT09M42.00S,09:42,Q2 09:42,26,20,1610612766.0,Jeffries,D. Jeffries shooting personal FOUL (1 PF) (White 2 FT),rebound,freethrow,6,Medium
+22400442,198,freethrow,2,PT09M42.00S,09:42,Q2 09:42,26,20,1610612741.0,White,MISS C. White Free Throw 1 of 2,foul,rebound,6,Medium
+22400442,199,rebound,2,PT09M42.00S,09:42,Q2 09:42,26,20,1610612741.0,,TEAM offensive REBOUND,freethrow,freethrow,6,Medium
+22400442,206,freethrow,2,PT09M42.00S,09:42,Q2 09:42,26,21,1610612741.0,White,C. White Free Throw 2 of 2 (3 PTS),rebound,substitution,5,Medium
+22400442,200,substitution,2,PT09M42.00S,09:42,Q2 09:42,26,20,1610612766.0,Jeffries,SUB out: D. Jeffries,freethrow,substitution,6,Medium
+22400442,201,substitution,2,PT09M42.00S,09:42,Q2 09:42,26,20,1610612766.0,Salaün,SUB out: T. Salaün,substitution,substitution,6,Medium
+22400442,202,substitution,2,PT09M42.00S,09:42,Q2 09:42,26,20,1610612741.0,Buzelis,SUB out: M. Buzelis,substitution,substitution,6,Medium
+22400442,203,substitution,2,PT09M42.00S,09:42,Q2 09:42,26,20,1610612766.0,Bridges,SUB in: M. Bridges,substitution,substitution,6,Medium
+22400442,204,substitution,2,PT09M42.00S,09:42,Q2 09:42,26,20,1610612766.0,Green,SUB in: J. Green,substitution,substitution,6,Medium
+22400442,205,substitution,2,PT09M42.00S,09:42,Q2 09:42,26,20,1610612741.0,Williams,SUB in: P. Williams,substitution,2pt missed,6,Medium
+22400442,207,2pt,2,PT09M30.00S,09:30,Q2 09:30,26,21,1610612766.0,Bridges,MISS M. Bridges 20' step back Shot,substitution,rebound,5,Medium
+22400442,208,rebound,2,PT09M27.00S,09:27,Q2 09:27,26,21,1610612741.0,White,C. White REBOUND (Off:0 Def:4),2pt missed,2pt made,5,Medium
+22400442,209,2pt,2,PT09M23.00S,09:23,Q2 09:23,26,23,1610612741.0,Horton-Tucker,T. Horton-Tucker running Layup (2 PTS) (C. White 3 AST),rebound,turnover,3,Medium
+22400442,211,turnover,2,PT09M01.00S,09:01,Q2 09:01,26,23,1610612766.0,Curry,S. Curry lost ball TURNOVER (1 TO),2pt made,steal,3,Medium
+22400442,212,steal,2,PT09M01.00S,09:01,Q2 09:01,26,23,1610612741.0,Horton-Tucker,T. Horton-Tucker STEAL (1 STL),turnover,foul,3,Medium
+22400442,213,foul,2,PT08M58.00S,08:58,Q2 08:58,26,23,1610612766.0,Micić,V. Micić shooting personal FOUL (1 PF) (Terry 2 FT),steal,timeout,3,Medium
+22400442,215,timeout,2,PT08M58.00S,08:58,Q2 08:58,26,23,1610612766.0,,CHA Timeout,foul,freethrow,3,Medium
+22400442,221,freethrow,2,PT08M58.00S,08:58,Q2 08:58,26,24,1610612741.0,Terry,D. Terry Free Throw 1 of 2 (4 PTS),timeout,freethrow,2,Medium
+22400442,222,freethrow,2,PT08M58.00S,08:58,Q2 08:58,26,24,1610612741.0,Terry,MISS D. Terry Free Throw 2 of 2,freethrow,substitution,2,Medium
+22400442,217,substitution,2,PT08M58.00S,08:58,Q2 08:58,26,23,1610612766.0,Richards,SUB out: N. Richards,freethrow,substitution,3,Medium
+22400442,218,substitution,2,PT08M58.00S,08:58,Q2 08:58,26,23,1610612741.0,White,SUB out: C. White,substitution,substitution,3,Medium
+22400442,219,substitution,2,PT08M58.00S,08:58,Q2 08:58,26,23,1610612766.0,Williams,SUB in: M. Williams,substitution,substitution,3,Medium
+22400442,220,substitution,2,PT08M58.00S,08:58,Q2 08:58,26,23,1610612741.0,Giddey,SUB in: J. Giddey,substitution,rebound,3,Medium
+22400442,223,rebound,2,PT08M55.00S,08:55,Q2 08:55,26,24,1610612766.0,Bridges,M. Bridges REBOUND (Off:0 Def:2),substitution,3pt missed,2,Medium
+22400442,224,3pt,2,PT08M40.00S,08:40,Q2 08:40,26,24,1610612766.0,Bridges,MISS M. Bridges 3PT - blocked,rebound,block,2,Medium
+22400442,237,block,2,PT08M40.00S,08:40,Q2 08:40,26,24,1610612741.0,Horton-Tucker,T. Horton-Tucker BLOCK (1 BLK),3pt missed,rebound,2,Medium
+22400442,225,rebound,2,PT08M38.00S,08:38,Q2 08:38,26,24,1610612741.0,Smith,J. Smith REBOUND (Off:0 Def:2),block,2pt missed,2,Medium
+22400442,226,2pt,2,PT08M29.00S,08:29,Q2 08:29,26,24,1610612741.0,Giddey,MISS J. Giddey 8' driving bank Shot,rebound,rebound,2,Medium
+22400442,227,rebound,2,PT08M26.00S,08:26,Q2 08:26,26,24,1610612766.0,Williams,M. Williams REBOUND (Off:0 Def:3),2pt missed,2pt missed,2,Medium
+22400442,228,2pt,2,PT08M05.00S,08:05,Q2 08:05,26,24,1610612766.0,Micić,MISS V. Micić 6' turnaround Hook,rebound,rebound,2,Medium
+22400442,229,rebound,2,PT08M03.00S,08:03,Q2 08:03,26,24,1610612741.0,Giddey,J. Giddey REBOUND (Off:1 Def:3),2pt missed,3pt missed,2,Medium
+22400442,230,3pt,2,PT07M56.00S,07:56,Q2 07:56,26,24,1610612741.0,Smith,MISS J. Smith 25' 3PT,rebound,rebound,2,Medium
+22400442,231,rebound,2,PT07M52.00S,07:52,Q2 07:52,26,24,1610612766.0,Bridges,M. Bridges REBOUND (Off:0 Def:3),3pt missed,3pt made,2,Medium
+22400442,232,3pt,2,PT07M39.00S,07:39,Q2 07:39,29,24,1610612766.0,Curry,S. Curry 25' 3PT pullup (15 PTS),rebound,3pt made,5,Medium
+22400442,233,3pt,2,PT07M24.00S,07:24,Q2 07:24,29,27,1610612741.0,Williams,P. Williams 27' 3PT pullup (6 PTS) (J. Giddey 1 AST),3pt made,2pt made,2,Medium
+22400442,234,2pt,2,PT07M13.00S,07:13,Q2 07:13,31,27,1610612766.0,Bridges,M. Bridges 6' driving floating Jump Shot (4 PTS),3pt made,foul,4,Medium
+22400442,235,foul,2,PT07M13.00S,07:13,Q2 07:13,31,27,1610612741.0,Smith,J. Smith shooting personal FOUL (1 PF) (Bridges 1 FT),2pt made,freethrow,4,Medium
+22400442,240,freethrow,2,PT07M13.00S,07:13,Q2 07:13,32,27,1610612766.0,Bridges,M. Bridges Free Throw 1 of 1 (5 PTS),foul,substitution,5,Medium
+22400442,238,substitution,2,PT07M13.00S,07:13,Q2 07:13,31,27,1610612741.0,Terry,SUB out: D. Terry,freethrow,substitution,4,Medium
+22400442,239,substitution,2,PT07M13.00S,07:13,Q2 07:13,31,27,1610612741.0,Ball,SUB in: L. Ball,substitution,3pt made,4,Medium
+22400442,242,3pt,2,PT07M01.00S,07:01,Q2 07:01,32,30,1610612741.0,Williams,P. Williams 3PT  (9 PTS) (J. Giddey 2 AST),substitution,2pt made,2,Medium
+22400442,244,2pt,2,PT06M36.00S,06:36,Q2 06:36,34,30,1610612766.0,Curry,S. Curry 19' step back Jump Shot (17 PTS) (V. Micić 4 AST),3pt made,2pt made,4,Medium
+22400442,246,2pt,2,PT06M25.00S,06:25,Q2 06:25,34,32,1610612741.0,Giddey,J. Giddey 6' floating Jump Shot (4 PTS) (T. Horton-Tucker 2 AST),2pt made,3pt missed,2,Medium
+22400442,248,3pt,2,PT06M11.00S,06:11,Q2 06:11,34,32,1610612766.0,Micić,MISS V. Micić 28' pullup 3PT,2pt made,rebound,2,Medium
+22400442,249,rebound,2,PT06M10.00S,06:10,Q2 06:10,34,32,1610612741.0,Smith,J. Smith REBOUND (Off:0 Def:3),3pt missed,timeout,2,Medium
+22400442,250,timeout,2,PT06M10.00S,06:10,Q2 06:10,34,32,1610612741.0,,CHI Timeout,rebound,substitution,2,Medium
+22400442,251,substitution,2,PT06M10.00S,06:10,Q2 06:10,34,32,1610612741.0,Smith,SUB out: J. Smith,timeout,substitution,2,Medium
+22400442,252,substitution,2,PT06M10.00S,06:10,Q2 06:10,34,32,1610612741.0,Horton-Tucker,SUB out: T. Horton-Tucker,substitution,substitution,2,Medium
+22400442,253,substitution,2,PT06M10.00S,06:10,Q2 06:10,34,32,1610612741.0,White,SUB in: C. White,substitution,substitution,2,Medium
+22400442,254,substitution,2,PT06M10.00S,06:10,Q2 06:10,34,32,1610612741.0,Vučević,SUB in: N. Vučević,substitution,3pt missed,2,Medium
+22400442,255,3pt,2,PT05M59.00S,05:59,Q2 05:59,34,32,1610612741.0,Ball,MISS L. Ball 26' 3PT,substitution,rebound,2,Medium
+22400442,256,rebound,2,PT05M55.00S,05:55,Q2 05:55,34,32,1610612766.0,Bridges,M. Bridges REBOUND (Off:0 Def:4),3pt missed,3pt missed,2,Medium
+22400442,257,3pt,2,PT05M39.00S,05:39,Q2 05:39,34,32,1610612766.0,Micić,MISS V. Micić 25' 3PT,rebound,rebound,2,Medium
+22400442,258,rebound,2,PT05M36.00S,05:36,Q2 05:36,34,32,1610612741.0,Williams,P. Williams REBOUND (Off:1 Def:1),3pt missed,3pt missed,2,Medium
+22400442,259,3pt,2,PT05M13.00S,05:13,Q2 05:13,34,32,1610612741.0,Ball,MISS L. Ball 3PT,rebound,rebound,2,Medium
+22400442,260,rebound,2,PT05M10.00S,05:10,Q2 05:10,34,32,1610612741.0,Ball,L. Ball REBOUND (Off:1 Def:1),3pt missed,3pt made,2,Medium
+22400442,261,3pt,2,PT05M08.00S,05:08,Q2 05:08,34,35,1610612741.0,White,C. White 26' 3PT  (6 PTS) (L. Ball 1 AST),rebound,3pt missed,1,Medium
+22400442,263,3pt,2,PT04M45.00S,04:45,Q2 04:45,34,35,1610612766.0,Bridges,MISS M. Bridges 3PT,3pt made,rebound,1,Medium
+22400442,264,rebound,2,PT04M42.00S,04:42,Q2 04:42,34,35,1610612741.0,Vučević,N. Vučević REBOUND (Off:0 Def:4),3pt missed,foul,1,Medium
+22400442,265,foul,2,PT04M40.00S,04:40,Q2 04:40,34,35,1610612766.0,Curry,S. Curry shooting personal FOUL (1 PF) (Ball 3 FT),rebound,freethrow,1,Medium
+22400442,267,freethrow,2,PT04M40.00S,04:40,Q2 04:40,34,35,1610612741.0,Ball,MISS L. Ball Free Throw 1 of 3,foul,rebound,1,Medium
+22400442,269,rebound,2,PT04M40.00S,04:40,Q2 04:40,34,35,1610612741.0,,TEAM offensive REBOUND,freethrow,freethrow,1,Medium
+22400442,270,freethrow,2,PT04M40.00S,04:40,Q2 04:40,34,36,1610612741.0,Ball,L. Ball Free Throw 2 of 3 (1 PTS),rebound,freethrow,2,Medium
+22400442,275,freethrow,2,PT04M40.00S,04:40,Q2 04:40,34,36,1610612741.0,Ball,MISS L. Ball Free Throw 3 of 3,freethrow,substitution,2,Medium
+22400442,271,substitution,2,PT04M40.00S,04:40,Q2 04:40,34,36,1610612766.0,Williams,SUB out: M. Williams,freethrow,substitution,2,Medium
+22400442,272,substitution,2,PT04M40.00S,04:40,Q2 04:40,34,36,1610612766.0,Micić,SUB out: V. Micić,substitution,substitution,2,Medium
+22400442,273,substitution,2,PT04M40.00S,04:40,Q2 04:40,34,36,1610612766.0,Diabaté,SUB in: M. Diabaté,substitution,substitution,2,Medium
+22400442,274,substitution,2,PT04M40.00S,04:40,Q2 04:40,34,36,1610612766.0,Simpson,SUB in: K. Simpson,substitution,rebound,2,Medium
+22400442,276,rebound,2,PT04M36.00S,04:36,Q2 04:36,34,36,1610612766.0,Bridges,M. Bridges REBOUND (Off:0 Def:5),substitution,3pt missed,2,Medium
+22400442,277,3pt,2,PT04M15.00S,04:15,Q2 04:15,34,36,1610612766.0,Green,MISS J. Green 3PT,rebound,rebound,2,Medium
+22400442,278,rebound,2,PT04M12.00S,04:12,Q2 04:12,34,36,1610612741.0,White,C. White REBOUND (Off:0 Def:5),3pt missed,3pt made,2,Medium
+22400442,279,3pt,2,PT04M01.00S,04:01,Q2 04:01,34,39,1610612741.0,Giddey,J. Giddey 3PT  (7 PTS) (L. Ball 2 AST),rebound,3pt missed,5,Medium
+22400442,281,3pt,2,PT03M44.00S,03:44,Q2 03:44,34,39,1610612766.0,Simpson,MISS K. Simpson 25' 3PT,3pt made,rebound,5,Medium
+22400442,282,rebound,2,PT03M42.00S,03:42,Q2 03:42,34,39,1610612741.0,White,C. White REBOUND (Off:0 Def:6),3pt missed,2pt made,5,Medium
+22400442,283,2pt,2,PT03M37.00S,03:37,Q2 03:37,34,41,1610612741.0,White,C. White driving Layup (8 PTS),rebound,foul,7,Medium
+22400442,284,foul,2,PT03M37.00S,03:37,Q2 03:37,34,41,1610612766.0,Bridges,M. Bridges shooting personal FOUL (1 PF) (White 1 FT),2pt made,freethrow,7,Medium
+22400442,290,freethrow,2,PT03M37.00S,03:37,Q2 03:37,34,42,1610612741.0,White,C. White Free Throw 1 of 1 (9 PTS),foul,substitution,8,Medium
+22400442,286,substitution,2,PT03M37.00S,03:37,Q2 03:37,34,41,1610612766.0,Bridges,SUB out: M. Bridges,freethrow,substitution,7,Medium
+22400442,287,substitution,2,PT03M37.00S,03:37,Q2 03:37,34,41,1610612766.0,Curry,SUB out: S. Curry,substitution,substitution,7,Medium
+22400442,288,substitution,2,PT03M37.00S,03:37,Q2 03:37,34,41,1610612766.0,Wong,SUB in: I. Wong,substitution,substitution,7,Medium
+22400442,289,substitution,2,PT03M37.00S,03:37,Q2 03:37,34,41,1610612766.0,Salaün,SUB in: T. Salaün,substitution,2pt made,7,Medium
+22400442,291,2pt,2,PT03M15.00S,03:15,Q2 03:15,36,42,1610612766.0,Wong,I. Wong 14' pullup Jump Shot (2 PTS),substitution,3pt missed,6,Medium
+22400442,292,3pt,2,PT03M07.00S,03:07,Q2 03:07,36,42,1610612741.0,White,MISS C. White 25' pullup 3PT,2pt made,rebound,6,Medium
+22400442,293,rebound,2,PT03M06.00S,03:06,Q2 03:06,36,42,1610612766.0,,TEAM defensive REBOUND,3pt missed,substitution,6,Medium
+22400442,295,substitution,2,PT03M06.00S,03:06,Q2 03:06,36,42,1610612766.0,Diabaté,SUB out: M. Diabaté,rebound,substitution,6,Medium
+22400442,296,substitution,2,PT03M06.00S,03:06,Q2 03:06,36,42,1610612766.0,Williams,SUB in: M. Williams,substitution,2pt missed,6,Medium
+22400442,297,2pt,2,PT02M46.00S,02:46,Q2 02:46,36,42,1610612766.0,Wong,MISS I. Wong 10' pullup Shot,substitution,rebound,6,Medium
+22400442,298,rebound,2,PT02M42.00S,02:42,Q2 02:42,36,42,1610612741.0,Vučević,N. Vučević REBOUND (Off:0 Def:5),2pt missed,turnover,6,Medium
+22400442,299,turnover,2,PT02M40.00S,02:40,Q2 02:40,36,42,1610612741.0,Vučević,N. Vučević bad pass TURNOVER (2 TO),rebound,steal,6,Medium
+22400442,300,steal,2,PT02M40.00S,02:40,Q2 02:40,36,42,1610612766.0,Wong,I. Wong STEAL (1 STL),turnover,2pt made,6,Medium
+22400442,301,2pt,2,PT02M35.00S,02:35,Q2 02:35,38,42,1610612766.0,Williams,M. Williams cutting DUNK (4 PTS) (I. Wong 1 AST),steal,2pt missed,4,Medium
+22400442,303,2pt,2,PT02M06.00S,02:06,Q2 02:06,38,42,1610612741.0,Giddey,MISS J. Giddey 9' driving Layup - blocked,2pt made,block,4,Medium
+22400442,304,block,2,PT02M06.00S,02:06,Q2 02:06,38,42,1610612766.0,Williams,M. Williams BLOCK (2 BLK),2pt missed,rebound,4,Medium
+22400442,305,rebound,2,PT02M01.00S,02:01,Q2 02:01,38,42,1610612766.0,Simpson,K. Simpson REBOUND (Off:0 Def:2),block,3pt made,4,Medium
+22400442,306,3pt,2,PT01M55.00S,01:55,Q2 01:55,41,42,1610612766.0,Green,J. Green 3PT running (3 PTS) (T. Salaün 2 AST),rebound,3pt made,1,Medium
+22400442,308,3pt,2,PT01M42.00S,01:42,Q2 01:42,41,45,1610612741.0,Williams,P. Williams 3PT  (12 PTS) (C. White 4 AST),3pt made,2pt made,4,Medium
+22400442,310,2pt,2,PT01M21.00S,01:21,Q2 01:21,43,45,1610612766.0,Williams,M. Williams 8' Hook (6 PTS) (K. Simpson 1 AST),3pt made,2pt made,2,Medium
+22400442,312,2pt,2,PT01M06.00S,01:06,Q2 01:06,43,47,1610612741.0,Vučević,N. Vučević Layup (4 PTS) (J. Giddey 3 AST),2pt made,3pt made,4,Medium
+22400442,314,3pt,2,PT00M40.60S,00:40,Q2 00:40,46,47,1610612766.0,Salaün,T. Salaün 3PT fadeaway (3 PTS),2pt made,3pt made,1,Medium
+22400442,315,3pt,2,PT00M32.80S,00:32,Q2 00:32,46,50,1610612741.0,Vučević,N. Vučević 26' 3PT  (7 PTS) (J. Giddey 4 AST),3pt made,3pt missed,4,Medium
+22400442,317,3pt,2,PT00M11.60S,00:11,Q2 00:11,46,50,1610612766.0,Simpson,MISS K. Simpson 25' step back 3PT,3pt made,rebound,4,Medium
+22400442,318,rebound,2,PT00M09.50S,00:09,Q2 00:09,46,50,1610612766.0,Green,J. Green REBOUND (Off:2 Def:2),3pt missed,turnover,4,Medium
+22400442,327,turnover,2,PT00M09.50S,00:09,Q2 00:09,46,50,1610612766.0,Green,J. Green bad pass out-of-bounds TURNOVER (1 TO),rebound,foul,4,Medium
+22400442,320,foul,2,PT00M02.50S,00:02,Q2 00:02,46,50,1610612766.0,Salaün,T. Salaün shooting personal FOUL (1 PF) (Giddey 2 FT),turnover,freethrow,4,Medium
+22400442,322,freethrow,2,PT00M02.50S,00:02,Q2 00:02,46,51,1610612741.0,Giddey,J. Giddey Free Throw 1 of 2 (8 PTS),foul,freethrow,5,Medium
+22400442,323,freethrow,2,PT00M02.50S,00:02,Q2 00:02,46,52,1610612741.0,Giddey,J. Giddey Free Throw 2 of 2 (9 PTS),freethrow,substitution,6,Medium
+22400442,328,substitution,3,PT12M00.00S,12:00,Q3 12:00,46,52,1610612766.0,Wong,SUB out: I. Wong,freethrow,substitution,6,Medium
+22400442,329,substitution,3,PT12M00.00S,12:00,Q3 12:00,46,52,1610612766.0,Simpson,SUB out: K. Simpson,substitution,substitution,6,Medium
+22400442,330,substitution,3,PT12M00.00S,12:00,Q3 12:00,46,52,1610612766.0,Salaün,SUB out: T. Salaün,substitution,substitution,6,Medium
+22400442,331,substitution,3,PT12M00.00S,12:00,Q3 12:00,46,52,1610612741.0,Ball,SUB out: L. Ball,substitution,substitution,6,Medium
+22400442,332,substitution,3,PT12M00.00S,12:00,Q3 12:00,46,52,1610612766.0,Bridges,SUB in: M. Bridges,substitution,substitution,6,Medium
+22400442,333,substitution,3,PT12M00.00S,12:00,Q3 12:00,46,52,1610612766.0,Curry,SUB in: S. Curry,substitution,substitution,6,Medium
+22400442,334,substitution,3,PT12M00.00S,12:00,Q3 12:00,46,52,1610612766.0,Micić,SUB in: V. Micić,substitution,substitution,6,Medium
+22400442,335,substitution,3,PT12M00.00S,12:00,Q3 12:00,46,52,1610612741.0,Phillips,SUB in: J. Phillips,substitution,2pt missed,6,Medium
+22400442,337,2pt,3,PT11M36.00S,11:36,Q3 11:36,46,52,1610612741.0,Vučević,MISS N. Vučević Layup,substitution,rebound,6,Medium
+22400442,338,rebound,3,PT11M34.00S,11:34,Q3 11:34,46,52,1610612766.0,Williams,M. Williams REBOUND (Off:0 Def:4),2pt missed,3pt missed,6,Medium
+22400442,339,3pt,3,PT11M26.00S,11:26,Q3 11:26,46,52,1610612766.0,Bridges,MISS M. Bridges 26' pullup 3PT,rebound,rebound,6,Medium
+22400442,340,rebound,3,PT11M23.00S,11:23,Q3 11:23,46,52,1610612741.0,Williams,P. Williams REBOUND (Off:1 Def:2),3pt missed,3pt missed,6,Medium
+22400442,341,3pt,3,PT11M12.00S,11:12,Q3 11:12,46,52,1610612741.0,Giddey,MISS J. Giddey 25' 3PT,rebound,rebound,6,Medium
+22400442,342,rebound,3,PT11M09.00S,11:09,Q3 11:09,46,52,1610612766.0,Bridges,M. Bridges REBOUND (Off:0 Def:6),3pt missed,2pt made,6,Medium
+22400442,343,2pt,3,PT10M58.00S,10:58,Q3 10:58,48,52,1610612766.0,Bridges,M. Bridges floating Jump Shot (7 PTS) (V. Micić 5 AST),rebound,foul,4,Medium
+22400442,345,foul,3,PT10M50.00S,10:50,Q3 10:50,48,52,1610612741.0,Williams,P. Williams offensive FOUL (1 PF),2pt made,turnover,4,Medium
+22400442,347,turnover,3,PT10M50.00S,10:50,Q3 10:50,48,52,1610612741.0,Williams,P. Williams offensive foul TURNOVER (1 TO),foul,2pt made,4,Medium
+22400442,348,2pt,3,PT10M37.00S,10:37,Q3 10:37,50,52,1610612766.0,Williams,M. Williams alley-oop DUNK (8 PTS) (M. Bridges 3 AST),turnover,turnover,2,Medium
+22400442,350,turnover,3,PT10M23.00S,10:23,Q3 10:23,50,52,1610612741.0,White,C. White step out-of-bounds TURNOVER (1 TO),2pt made,3pt missed,2,Medium
+22400442,351,3pt,3,PT10M12.00S,10:12,Q3 10:12,50,52,1610612766.0,Bridges,MISS M. Bridges 24' 3PT,turnover,rebound,2,Medium
+22400442,352,rebound,3,PT10M09.00S,10:09,Q3 10:09,50,52,1610612741.0,White,C. White REBOUND (Off:0 Def:7),3pt missed,3pt made,2,Medium
+22400442,353,3pt,3,PT10M05.00S,10:05,Q3 10:05,50,55,1610612741.0,Vučević,N. Vučević 25' 3PT running (10 PTS) (C. White 5 AST),rebound,2pt made,5,Medium
+22400442,355,2pt,3,PT09M49.00S,09:49,Q3 09:49,52,55,1610612766.0,Bridges,M. Bridges driving Layup (9 PTS) (S. Curry 1 AST),3pt made,foul,3,Medium
+22400442,357,foul,3,PT09M49.00S,09:49,Q3 09:49,52,55,1610612741.0,White,C. White shooting personal FOUL (2 PF) (Bridges 1 FT),2pt made,freethrow,3,Medium
+22400442,359,freethrow,3,PT09M49.00S,09:49,Q3 09:49,53,55,1610612766.0,Bridges,M. Bridges Free Throw 1 of 1 (10 PTS),foul,3pt missed,2,Medium
+22400442,360,3pt,3,PT09M39.00S,09:39,Q3 09:39,53,55,1610612741.0,White,MISS C. White 27' pullup 3PT,freethrow,rebound,2,Medium
+22400442,361,rebound,3,PT09M35.00S,09:35,Q3 09:35,53,55,1610612741.0,Vučević,N. Vučević REBOUND (Off:1 Def:5),3pt missed,3pt missed,2,Medium
+22400442,362,3pt,3,PT09M30.00S,09:30,Q3 09:30,53,55,1610612741.0,Giddey,MISS J. Giddey 25' 3PT,rebound,rebound,2,Medium
+22400442,363,rebound,3,PT09M30.00S,09:30,Q3 09:30,53,55,1610612766.0,Williams,M. Williams REBOUND (Off:0 Def:5),3pt missed,2pt made,2,Medium
+22400442,364,2pt,3,PT09M17.00S,09:17,Q3 09:17,55,55,1610612766.0,Bridges,M. Bridges driving Layup (12 PTS),rebound,timeout,0,Medium
+22400442,365,timeout,3,PT09M17.00S,09:17,Q3 09:17,55,55,1610612741.0,,CHI Timeout,2pt made,turnover,0,Medium
+22400442,366,turnover,3,PT09M03.00S,09:03,Q3 09:03,55,55,1610612741.0,Giddey,J. Giddey bad pass TURNOVER (1 TO),timeout,steal,0,Medium
+22400442,367,steal,3,PT09M03.00S,09:03,Q3 09:03,55,55,1610612766.0,Williams,M. Williams STEAL (1 STL),turnover,2pt made,0,Medium
+22400442,368,2pt,3,PT08M57.00S,08:57,Q3 08:57,57,55,1610612766.0,Williams,M. Williams running DUNK (10 PTS) (J. Green 1 AST),steal,3pt missed,2,Medium
+22400442,370,3pt,3,PT08M48.00S,08:48,Q3 08:48,57,55,1610612741.0,White,MISS C. White 26' pullup 3PT,2pt made,rebound,2,Medium
+22400442,371,rebound,3,PT08M46.00S,08:46,Q3 08:46,57,55,1610612766.0,Williams,M. Williams REBOUND (Off:0 Def:6),3pt missed,2pt missed,2,Medium
+22400442,372,2pt,3,PT08M36.00S,08:36,Q3 08:36,57,55,1610612766.0,Curry,MISS S. Curry 14' pullup Shot,rebound,rebound,2,Medium
+22400442,373,rebound,3,PT08M33.00S,08:33,Q3 08:33,57,55,1610612766.0,Williams,M. Williams REBOUND (Off:1 Def:6),2pt missed,3pt made,2,Medium
+22400442,374,3pt,3,PT08M32.00S,08:32,Q3 08:32,60,55,1610612766.0,Green,J. Green 3PT  (6 PTS) (M. Williams 1 AST),rebound,2pt missed,5,Medium
+22400442,376,2pt,3,PT08M16.00S,08:16,Q3 08:16,60,55,1610612741.0,White,MISS C. White 10' pullup Shot,3pt made,rebound,5,Medium
+22400442,377,rebound,3,PT08M13.00S,08:13,Q3 08:13,60,55,1610612766.0,Curry,S. Curry REBOUND (Off:1 Def:1),2pt missed,3pt missed,5,Medium
+22400442,378,3pt,3,PT08M02.00S,08:02,Q3 08:02,60,55,1610612766.0,Green,MISS J. Green 3PT,rebound,rebound,5,Medium
+22400442,379,rebound,3,PT07M59.00S,07:59,Q3 07:59,60,55,1610612741.0,Vučević,N. Vučević REBOUND (Off:1 Def:6),3pt missed,3pt missed,5,Medium
+22400442,380,3pt,3,PT07M52.00S,07:52,Q3 07:52,60,55,1610612741.0,Williams,MISS P. Williams 26' 3PT,rebound,rebound,5,Medium
+22400442,381,rebound,3,PT07M50.00S,07:50,Q3 07:50,60,55,1610612741.0,Giddey,J. Giddey REBOUND (Off:2 Def:3),3pt missed,turnover,5,Medium
+22400442,382,turnover,3,PT07M44.00S,07:44,Q3 07:44,60,55,1610612741.0,Giddey,J. Giddey bad pass TURNOVER (2 TO),rebound,steal,5,Medium
+22400442,383,steal,3,PT07M44.00S,07:44,Q3 07:44,60,55,1610612766.0,Williams,M. Williams STEAL (2 STL),turnover,2pt made,5,Medium
+22400442,384,2pt,3,PT07M40.00S,07:40,Q3 07:40,62,55,1610612766.0,Green,J. Green running Layup (8 PTS) (M. Williams 2 AST),steal,foul,7,Medium
+22400442,386,foul,3,PT07M40.00S,07:40,Q3 07:40,62,55,1610612741.0,Phillips,J. Phillips shooting personal FOUL (1 PF) (Green 1 FT),2pt made,freethrow,7,Medium
+22400442,398,freethrow,3,PT07M40.00S,07:40,Q3 07:40,63,55,1610612766.0,Green,J. Green Free Throw 1 of 1 (9 PTS),foul,substitution,8,Medium
+22400442,388,substitution,3,PT07M40.00S,07:40,Q3 07:40,62,55,1610612766.0,Curry,SUB out: S. Curry,freethrow,substitution,7,Medium
+22400442,389,substitution,3,PT07M40.00S,07:40,Q3 07:40,62,55,1610612741.0,White,SUB out: C. White,substitution,substitution,7,Medium
+22400442,390,substitution,3,PT07M40.00S,07:40,Q3 07:40,62,55,1610612741.0,Giddey,SUB out: J. Giddey,substitution,substitution,7,Medium
+22400442,391,substitution,3,PT07M40.00S,07:40,Q3 07:40,62,55,1610612741.0,Williams,SUB out: P. Williams,substitution,substitution,7,Medium
+22400442,392,substitution,3,PT07M40.00S,07:40,Q3 07:40,62,55,1610612741.0,Phillips,SUB out: J. Phillips,substitution,substitution,7,Medium
+22400442,393,substitution,3,PT07M40.00S,07:40,Q3 07:40,62,55,1610612766.0,Simpson,SUB in: K. Simpson,substitution,substitution,7,Medium
+22400442,394,substitution,3,PT07M40.00S,07:40,Q3 07:40,62,55,1610612741.0,Horton-Tucker,SUB in: T. Horton-Tucker,substitution,substitution,7,Medium
+22400442,395,substitution,3,PT07M40.00S,07:40,Q3 07:40,62,55,1610612741.0,Terry,SUB in: D. Terry,substitution,substitution,7,Medium
+22400442,396,substitution,3,PT07M40.00S,07:40,Q3 07:40,62,55,1610612741.0,Ball,SUB in: L. Ball,substitution,substitution,7,Medium
+22400442,397,substitution,3,PT07M40.00S,07:40,Q3 07:40,62,55,1610612741.0,Craig,SUB in: T. Craig,substitution,foul,7,Medium
+22400442,399,foul,3,PT07M28.00S,07:28,Q3 07:28,63,55,1610612766.0,Green,J. Green personal FOUL (2 PF),substitution,turnover,8,Medium
+22400442,401,turnover,3,PT07M13.00S,07:13,Q3 07:13,63,55,1610612741.0,,CHI shot clock Team TURNOVER,foul,2pt missed,8,Medium
+22400442,402,2pt,3,PT07M01.00S,07:01,Q3 07:01,63,55,1610612766.0,Micić,MISS V. Micić 6' driving Layup,turnover,rebound,8,Medium
+22400442,403,rebound,3,PT06M58.00S,06:58,Q3 06:58,63,55,1610612766.0,Williams,M. Williams REBOUND (Off:2 Def:6),2pt missed,turnover,8,Medium
+22400442,422,turnover,3,PT06M58.00S,06:58,Q3 06:58,63,55,1610612766.0,Williams,M. Williams lost ball TURNOVER (1 TO),rebound,steal,8,Medium
+22400442,423,steal,3,PT06M58.00S,06:58,Q3 06:58,63,55,1610612741.0,Horton-Tucker,T. Horton-Tucker STEAL (2 STL),turnover,3pt missed,8,Medium
+22400442,404,3pt,3,PT06M53.00S,06:53,Q3 06:53,63,55,1610612741.0,Craig,MISS T. Craig 27' running 3PT,steal,rebound,8,Medium
+22400442,405,rebound,3,PT06M50.00S,06:50,Q3 06:50,63,55,1610612766.0,Williams,M. Williams REBOUND (Off:2 Def:7),3pt missed,2pt missed,8,Medium
+22400442,406,2pt,3,PT06M31.00S,06:31,Q3 06:31,63,55,1610612766.0,Bridges,MISS M. Bridges driving Layup,rebound,rebound,8,Medium
+22400442,407,rebound,3,PT06M29.00S,06:29,Q3 06:29,63,55,1610612741.0,Vučević,N. Vučević REBOUND (Off:1 Def:7),2pt missed,turnover,8,Medium
+22400442,408,turnover,3,PT06M26.00S,06:26,Q3 06:26,63,55,1610612741.0,Terry,D. Terry lost ball TURNOVER (1 TO),rebound,steal,8,Medium
+22400442,409,steal,3,PT06M26.00S,06:26,Q3 06:26,63,55,1610612766.0,Simpson,K. Simpson STEAL (2 STL),turnover,2pt missed,8,Medium
+22400442,410,2pt,3,PT06M16.00S,06:16,Q3 06:16,63,55,1610612766.0,Green,MISS J. Green 6' driving floating Shot,steal,rebound,8,Medium
+22400442,412,rebound,3,PT06M14.00S,06:14,Q3 06:14,63,55,1610612741.0,Horton-Tucker,T. Horton-Tucker REBOUND (Off:1 Def:3),2pt missed,3pt made,8,Medium
+22400442,413,3pt,3,PT06M02.00S,06:02,Q3 06:02,63,58,1610612741.0,Craig,T. Craig 24' 3PT  (3 PTS) (T. Horton-Tucker 3 AST),rebound,2pt missed,5,Medium
+22400442,415,2pt,3,PT05M44.00S,05:44,Q3 05:44,63,58,1610612766.0,Micić,MISS V. Micić driving Layup,3pt made,rebound,5,Medium
+22400442,416,rebound,3,PT05M42.00S,05:42,Q3 05:42,63,58,1610612741.0,Ball,L. Ball REBOUND (Off:1 Def:2),2pt missed,foul,5,Medium
+22400442,417,foul,3,PT05M41.00S,05:41,Q3 05:41,63,58,1610612766.0,Green,J. Green shooting personal FOUL (3 PF) (Craig 2 FT),rebound,freethrow,5,Medium
+22400442,419,freethrow,3,PT05M41.00S,05:41,Q3 05:41,63,58,1610612741.0,Craig,MISS T. Craig Free Throw 1 of 2,foul,rebound,5,Medium
+22400442,420,rebound,3,PT05M41.00S,05:41,Q3 05:41,63,58,1610612741.0,,TEAM offensive REBOUND,freethrow,timeout,5,Medium
+22400442,421,timeout,3,PT05M41.00S,05:41,Q3 05:41,63,58,1610612766.0,,CHA Timeout,rebound,freethrow,5,Medium
+22400442,430,freethrow,3,PT05M41.00S,05:41,Q3 05:41,63,59,1610612741.0,Craig,T. Craig Free Throw 2 of 2 (4 PTS),timeout,substitution,4,Medium
+22400442,424,substitution,3,PT05M41.00S,05:41,Q3 05:41,63,58,1610612766.0,Bridges,SUB out: M. Bridges,freethrow,substitution,5,Medium
+22400442,425,substitution,3,PT05M41.00S,05:41,Q3 05:41,63,58,1610612766.0,Williams,SUB out: M. Williams,substitution,substitution,5,Medium
+22400442,426,substitution,3,PT05M41.00S,05:41,Q3 05:41,63,58,1610612766.0,Micić,SUB out: V. Micić,substitution,substitution,5,Medium
+22400442,427,substitution,3,PT05M41.00S,05:41,Q3 05:41,63,58,1610612766.0,Wong,SUB in: I. Wong,substitution,substitution,5,Medium
+22400442,428,substitution,3,PT05M41.00S,05:41,Q3 05:41,63,58,1610612766.0,Richards,SUB in: N. Richards,substitution,substitution,5,Medium
+22400442,429,substitution,3,PT05M41.00S,05:41,Q3 05:41,63,58,1610612766.0,Salaün,SUB in: T. Salaün,substitution,turnover,5,Medium
+22400442,431,turnover,3,PT05M19.00S,05:19,Q3 05:19,63,59,1610612766.0,Richards,N. Richards lost ball TURNOVER (1 TO),substitution,steal,4,Medium
+22400442,432,steal,3,PT05M19.00S,05:19,Q3 05:19,63,59,1610612741.0,Ball,L. Ball STEAL (2 STL),turnover,foul,4,Medium
+22400442,433,foul,3,PT05M17.00S,05:17,Q3 05:17,63,59,1610612766.0,Richards,N. Richards shooting personal FOUL (2 PF) (Terry 2 FT),steal,freethrow,4,Medium
+22400442,435,freethrow,3,PT05M17.00S,05:17,Q3 05:17,63,60,1610612741.0,Terry,D. Terry Free Throw 1 of 2 (5 PTS),foul,freethrow,3,Medium
+22400442,438,freethrow,3,PT05M17.00S,05:17,Q3 05:17,63,60,1610612741.0,Terry,MISS D. Terry Free Throw 2 of 2,freethrow,substitution,3,Medium
+22400442,436,substitution,3,PT05M17.00S,05:17,Q3 05:17,63,60,1610612766.0,Green,SUB out: J. Green,freethrow,substitution,3,Medium
+22400442,437,substitution,3,PT05M17.00S,05:17,Q3 05:17,63,60,1610612766.0,Jeffries,SUB in: D. Jeffries,substitution,rebound,3,Medium
+22400442,439,rebound,3,PT05M13.00S,05:13,Q3 05:13,63,60,1610612741.0,Craig,T. Craig REBOUND (Off:1 Def:0),substitution,3pt made,3,Medium
+22400442,440,3pt,3,PT05M11.00S,05:11,Q3 05:11,63,63,1610612741.0,Ball,L. Ball 25' 3PT pullup (4 PTS) (T. Craig 1 AST),rebound,2pt missed,0,Medium
+22400442,442,2pt,3,PT04M45.00S,04:45,Q3 04:45,63,63,1610612766.0,Wong,MISS I. Wong 10' pullup Shot,3pt made,rebound,0,Medium
+22400442,443,rebound,3,PT04M43.00S,04:43,Q3 04:43,63,63,1610612741.0,Vučević,N. Vučević REBOUND (Off:1 Def:8),2pt missed,3pt missed,0,Medium
+22400442,444,3pt,3,PT04M32.00S,04:32,Q3 04:32,63,63,1610612741.0,Vučević,MISS N. Vučević 27' 3PT,rebound,rebound,0,Medium
+22400442,445,rebound,3,PT04M29.00S,04:29,Q3 04:29,63,63,1610612766.0,Salaün,T. Salaün REBOUND (Off:0 Def:6),3pt missed,foul,0,Medium
+22400442,446,foul,3,PT04M23.00S,04:23,Q3 04:23,63,63,1610612766.0,Richards,N. Richards offensive FOUL (3 PF),rebound,turnover,0,Medium
+22400442,448,turnover,3,PT04M23.00S,04:23,Q3 04:23,63,63,1610612766.0,Richards,N. Richards offensive foul TURNOVER (2 TO),foul,substitution,0,Medium
+22400442,449,substitution,3,PT04M23.00S,04:23,Q3 04:23,63,63,1610612766.0,Salaün,SUB out: T. Salaün,turnover,substitution,0,Medium
+22400442,450,substitution,3,PT04M23.00S,04:23,Q3 04:23,63,63,1610612741.0,Ball,SUB out: L. Ball,substitution,substitution,0,Medium
+22400442,451,substitution,3,PT04M23.00S,04:23,Q3 04:23,63,63,1610612766.0,Bridges,SUB in: M. Bridges,substitution,substitution,0,Medium
+22400442,452,substitution,3,PT04M23.00S,04:23,Q3 04:23,63,63,1610612741.0,White,SUB in: C. White,substitution,3pt made,0,Medium
+22400442,453,3pt,3,PT04M09.00S,04:09,Q3 04:09,63,66,1610612741.0,Craig,T. Craig 25' 3PT  (7 PTS) (N. Vučević 2 AST),substitution,2pt made,3,Medium
+22400442,455,2pt,3,PT03M56.00S,03:56,Q3 03:56,65,66,1610612766.0,Richards,N. Richards cutting Layup (2 PTS) (M. Bridges 4 AST),3pt made,2pt missed,1,Medium
+22400442,457,2pt,3,PT03M49.00S,03:49,Q3 03:49,65,66,1610612741.0,Craig,MISS T. Craig 7' driving Layup - blocked,2pt made,block,1,Medium
+22400442,458,block,3,PT03M49.00S,03:49,Q3 03:49,65,66,1610612766.0,Richards,N. Richards BLOCK (2 BLK),2pt missed,rebound,1,Medium
+22400442,459,rebound,3,PT03M49.00S,03:49,Q3 03:49,65,66,1610612741.0,,TEAM offensive REBOUND,block,2pt made,1,Medium
+22400442,461,2pt,3,PT03M45.00S,03:45,Q3 03:45,65,68,1610612741.0,White,C. White cutting Layup (11 PTS) (D. Terry 2 AST),rebound,foul,3,Medium
+22400442,463,foul,3,PT03M31.00S,03:31,Q3 03:31,65,68,1610612741.0,Vučević,N. Vučević shooting personal FOUL (1 PF) (Richards 2 FT),2pt made,freethrow,3,Medium
+22400442,465,freethrow,3,PT03M31.00S,03:31,Q3 03:31,65,68,1610612766.0,Richards,MISS N. Richards Free Throw 1 of 2,foul,rebound,3,Medium
+22400442,466,rebound,3,PT03M31.00S,03:31,Q3 03:31,65,68,1610612766.0,,TEAM offensive REBOUND,freethrow,freethrow,3,Medium
+22400442,471,freethrow,3,PT03M31.00S,03:31,Q3 03:31,65,68,1610612766.0,Richards,MISS N. Richards Free Throw 2 of 2,rebound,substitution,3,Medium
+22400442,467,substitution,3,PT03M31.00S,03:31,Q3 03:31,65,68,1610612766.0,Simpson,SUB out: K. Simpson,freethrow,substitution,3,Medium
+22400442,468,substitution,3,PT03M31.00S,03:31,Q3 03:31,65,68,1610612741.0,Vučević,SUB out: N. Vučević,substitution,substitution,3,Medium
+22400442,469,substitution,3,PT03M31.00S,03:31,Q3 03:31,65,68,1610612766.0,Curry,SUB in: S. Curry,substitution,substitution,3,Medium
+22400442,470,substitution,3,PT03M31.00S,03:31,Q3 03:31,65,68,1610612741.0,Smith,SUB in: J. Smith,substitution,rebound,3,Medium
+22400442,472,rebound,3,PT03M28.00S,03:28,Q3 03:28,65,68,1610612741.0,Terry,D. Terry REBOUND (Off:0 Def:4),substitution,3pt missed,3,Medium
+22400442,473,3pt,3,PT03M16.00S,03:16,Q3 03:16,65,68,1610612741.0,Craig,MISS T. Craig 25' 3PT,rebound,rebound,3,Medium
+22400442,474,rebound,3,PT03M12.00S,03:12,Q3 03:12,65,68,1610612766.0,Bridges,M. Bridges REBOUND (Off:0 Def:7),3pt missed,3pt missed,3,Medium
+22400442,475,3pt,3,PT03M02.00S,03:02,Q3 03:02,65,68,1610612766.0,Bridges,MISS M. Bridges 29' 3PT,rebound,rebound,3,Medium
+22400442,476,rebound,3,PT02M59.00S,02:59,Q3 02:59,65,68,1610612741.0,Craig,T. Craig REBOUND (Off:1 Def:1),3pt missed,2pt missed,3,Medium
+22400442,477,2pt,3,PT02M54.00S,02:54,Q3 02:54,65,68,1610612741.0,White,MISS C. White 10' driving floating bank Shot,rebound,rebound,3,Medium
+22400442,478,rebound,3,PT02M51.00S,02:51,Q3 02:51,65,68,1610612766.0,Bridges,M. Bridges REBOUND (Off:0 Def:8),2pt missed,2pt made,3,Medium
+22400442,479,2pt,3,PT02M48.00S,02:48,Q3 02:48,67,68,1610612766.0,Jeffries,D. Jeffries running alley-oop DUNK (6 PTS) (M. Bridges 5 AST),rebound,timeout,1,Medium
+22400442,481,timeout,3,PT02M48.00S,02:48,Q3 02:48,67,68,1610612741.0,,CHI Timeout,2pt made,substitution,1,Medium
+22400442,482,substitution,3,PT02M48.00S,02:48,Q3 02:48,67,68,1610612741.0,Craig,SUB out: T. Craig,timeout,substitution,1,Medium
+22400442,483,substitution,3,PT02M48.00S,02:48,Q3 02:48,67,68,1610612741.0,Terry,SUB out: D. Terry,substitution,substitution,1,Medium
+22400442,484,substitution,3,PT02M48.00S,02:48,Q3 02:48,67,68,1610612741.0,Buzelis,SUB in: M. Buzelis,substitution,substitution,1,Medium
+22400442,485,substitution,3,PT02M48.00S,02:48,Q3 02:48,67,68,1610612741.0,Williams,SUB in: P. Williams,substitution,2pt made,1,Medium
+22400442,486,2pt,3,PT02M28.00S,02:28,Q3 02:28,67,70,1610612741.0,Horton-Tucker,T. Horton-Tucker driving Layup (4 PTS),substitution,2pt missed,3,Medium
+22400442,487,2pt,3,PT02M08.00S,02:08,Q3 02:08,67,70,1610612766.0,Bridges,MISS M. Bridges driving reverse Layup - blocked,2pt made,block,3,Medium
+22400442,488,block,3,PT02M08.00S,02:08,Q3 02:08,67,70,1610612741.0,Horton-Tucker,T. Horton-Tucker BLOCK (2 BLK),2pt missed,rebound,3,Medium
+22400442,489,rebound,3,PT02M05.00S,02:05,Q3 02:05,67,70,1610612741.0,Horton-Tucker,T. Horton-Tucker REBOUND (Off:1 Def:4),block,3pt missed,3,Medium
+22400442,490,3pt,3,PT02M00.00S,02:00,Q3 02:00,67,70,1610612741.0,Horton-Tucker,MISS T. Horton-Tucker 25' 3PT,rebound,rebound,3,Medium
+22400442,491,rebound,3,PT02M00.00S,02:00,Q3 02:00,67,70,1610612766.0,Bridges,M. Bridges REBOUND (Off:0 Def:9),3pt missed,2pt made,3,Medium
+22400442,492,2pt,3,PT01M44.00S,01:44,Q3 01:44,69,70,1610612766.0,Bridges,M. Bridges 7' driving floating Jump Shot (14 PTS),rebound,foul,1,Medium
+22400442,493,foul,3,PT01M34.00S,01:34,Q3 01:34,69,70,1610612741.0,Horton-Tucker,T. Horton-Tucker offensive FOUL (1 PF),2pt made,turnover,1,Medium
+22400442,495,turnover,3,PT01M34.00S,01:34,Q3 01:34,69,70,1610612741.0,Horton-Tucker,T. Horton-Tucker offensive foul TURNOVER (2 TO),foul,2pt missed,1,Medium
+22400442,496,2pt,3,PT01M24.00S,01:24,Q3 01:24,69,70,1610612766.0,Wong,MISS I. Wong driving reverse Layup,turnover,rebound,1,Medium
+22400442,497,rebound,3,PT01M22.00S,01:22,Q3 01:22,69,70,1610612741.0,White,C. White REBOUND (Off:0 Def:8),2pt missed,3pt made,1,Medium
+22400442,498,3pt,3,PT01M08.00S,01:08,Q3 01:08,69,73,1610612741.0,Smith,J. Smith 25' 3PT  (7 PTS) (C. White 6 AST),rebound,2pt made,4,Medium
+22400442,500,2pt,3,PT00M51.80S,00:51,Q3 00:51,71,73,1610612766.0,Bridges,M. Bridges driving Layup (16 PTS),3pt made,3pt missed,2,Medium
+22400442,501,3pt,3,PT00M44.90S,00:44,Q3 00:44,71,73,1610612741.0,White,MISS C. White 25' pullup 3PT,2pt made,rebound,2,Medium
+22400442,502,rebound,3,PT00M40.50S,00:40,Q3 00:40,71,73,1610612741.0,Smith,J. Smith REBOUND (Off:1 Def:3),3pt missed,2pt missed,2,Medium
+22400442,503,2pt,3,PT00M38.70S,00:38,Q3 00:38,71,73,1610612741.0,Buzelis,MISS M. Buzelis floating Shot,rebound,rebound,2,Medium
+22400442,504,rebound,3,PT00M38.70S,00:38,Q3 00:38,71,73,1610612741.0,,TEAM offensive REBOUND,2pt missed,3pt missed,2,Medium
+22400442,506,3pt,3,PT00M28.50S,00:28,Q3 00:28,71,73,1610612741.0,Horton-Tucker,MISS T. Horton-Tucker 3PT,rebound,rebound,2,Medium
+22400442,507,rebound,3,PT00M27.30S,00:27,Q3 00:27,71,73,1610612741.0,,TEAM offensive REBOUND,3pt missed,3pt missed,2,Medium
+22400442,509,3pt,3,PT00M23.60S,00:23,Q3 00:23,71,73,1610612741.0,Smith,MISS J. Smith 25' 3PT,rebound,rebound,2,Medium
+22400442,510,rebound,3,PT00M20.50S,00:20,Q3 00:20,71,73,1610612766.0,Richards,N. Richards REBOUND (Off:0 Def:2),3pt missed,foul,2,Medium
+22400442,511,foul,3,PT00M03.30S,00:03,Q3 00:03,71,73,1610612741.0,Horton-Tucker,T. Horton-Tucker personal FOUL (2 PF),rebound,3pt missed,2,Medium
+22400442,513,3pt,3,PT00M00.00S,00:00,Q3 00:00,71,73,1610612766.0,Curry,MISS S. Curry 25' floating 3PT,foul,rebound,2,Medium
+22400442,514,rebound,3,PT00M00.00S,00:00,Q3 00:00,71,73,1610612766.0,,TEAM offensive REBOUND,3pt missed,substitution,2,Medium
+22400442,516,substitution,4,PT12M00.00S,12:00,Q4 12:00,71,73,1610612766.0,Bridges,SUB out: M. Bridges,rebound,substitution,2,Medium
+22400442,517,substitution,4,PT12M00.00S,12:00,Q4 12:00,71,73,1610612766.0,Richards,SUB out: N. Richards,substitution,substitution,2,Medium
+22400442,518,substitution,4,PT12M00.00S,12:00,Q4 12:00,71,73,1610612741.0,Buzelis,SUB out: M. Buzelis,substitution,substitution,2,Medium
+22400442,519,substitution,4,PT12M00.00S,12:00,Q4 12:00,71,73,1610612741.0,Williams,SUB out: P. Williams,substitution,substitution,2,Medium
+22400442,520,substitution,4,PT12M00.00S,12:00,Q4 12:00,71,73,1610612766.0,Salaün,SUB in: T. Salaün,substitution,substitution,2,Medium
+22400442,521,substitution,4,PT12M00.00S,12:00,Q4 12:00,71,73,1610612766.0,Williams,SUB in: M. Williams,substitution,substitution,2,Medium
+22400442,522,substitution,4,PT12M00.00S,12:00,Q4 12:00,71,73,1610612741.0,Giddey,SUB in: J. Giddey,substitution,substitution,2,Medium
+22400442,523,substitution,4,PT12M00.00S,12:00,Q4 12:00,71,73,1610612741.0,Craig,SUB in: T. Craig,substitution,3pt missed,2,Medium
+22400442,525,3pt,4,PT11M42.00S,11:42,Q4 11:42,71,73,1610612766.0,Curry,MISS S. Curry 3PT,substitution,rebound,2,Medium
+22400442,526,rebound,4,PT11M39.00S,11:39,Q4 11:39,71,73,1610612741.0,White,C. White REBOUND (Off:0 Def:9),3pt missed,2pt made,2,Medium
+22400442,527,2pt,4,PT11M35.00S,11:35,Q4 11:35,71,75,1610612741.0,Smith,J. Smith running DUNK (9 PTS) (T. Craig 2 AST),rebound,3pt missed,4,Medium
+22400442,529,3pt,4,PT11M18.00S,11:18,Q4 11:18,71,75,1610612766.0,Wong,MISS I. Wong 27' 3PT,2pt made,rebound,4,Medium
+22400442,530,rebound,4,PT11M15.00S,11:15,Q4 11:15,71,75,1610612741.0,Smith,J. Smith REBOUND (Off:1 Def:4),3pt missed,2pt made,4,Medium
+22400442,531,2pt,4,PT11M08.00S,11:08,Q4 11:08,71,77,1610612741.0,Giddey,J. Giddey 13' driving floating Jump Shot (11 PTS) (C. White 7 AST),rebound,foul,6,Medium
+22400442,533,foul,4,PT10M54.00S,10:54,Q4 10:54,71,77,1610612741.0,Horton-Tucker,T. Horton-Tucker shooting personal FOUL (3 PF) (Wong 2 FT),2pt made,freethrow,6,Medium
+22400442,535,freethrow,4,PT10M54.00S,10:54,Q4 10:54,71,77,1610612766.0,Wong,MISS I. Wong Free Throw 1 of 2,foul,rebound,6,Medium
+22400442,536,rebound,4,PT10M54.00S,10:54,Q4 10:54,71,77,1610612766.0,,TEAM offensive REBOUND,freethrow,freethrow,6,Medium
+22400442,537,freethrow,4,PT10M54.00S,10:54,Q4 10:54,71,77,1610612766.0,Wong,MISS I. Wong Free Throw 2 of 2,rebound,rebound,6,Medium
+22400442,538,rebound,4,PT10M51.00S,10:51,Q4 10:51,71,77,1610612741.0,Giddey,J. Giddey REBOUND (Off:2 Def:4),freethrow,3pt missed,6,Medium
+22400442,539,3pt,4,PT10M41.00S,10:41,Q4 10:41,71,77,1610612741.0,Smith,MISS J. Smith 26' 3PT,rebound,rebound,6,Medium
+22400442,540,rebound,4,PT10M37.00S,10:37,Q4 10:37,71,77,1610612766.0,Williams,M. Williams REBOUND (Off:2 Def:8),3pt missed,3pt missed,6,Medium
+22400442,541,3pt,4,PT10M29.00S,10:29,Q4 10:29,71,77,1610612766.0,Salaün,MISS T. Salaün 25' pullup 3PT,rebound,rebound,6,Medium
+22400442,542,rebound,4,PT10M25.00S,10:25,Q4 10:25,71,77,1610612766.0,Wong,I. Wong REBOUND (Off:2 Def:1),3pt missed,3pt missed,6,Medium
+22400442,543,3pt,4,PT10M23.00S,10:23,Q4 10:23,71,77,1610612766.0,Curry,MISS S. Curry 26' 3PT,rebound,rebound,6,Medium
+22400442,544,rebound,4,PT10M20.00S,10:20,Q4 10:20,71,77,1610612741.0,Giddey,J. Giddey REBOUND (Off:2 Def:5),3pt missed,2pt missed,6,Medium
+22400442,545,2pt,4,PT10M13.00S,10:13,Q4 10:13,71,77,1610612741.0,Giddey,MISS J. Giddey 14' driving floating Shot,rebound,rebound,6,Medium
+22400442,546,rebound,4,PT10M10.00S,10:10,Q4 10:10,71,77,1610612766.0,Williams,M. Williams REBOUND (Off:2 Def:9),2pt missed,turnover,6,Medium
+22400442,547,turnover,4,PT10M02.00S,10:02,Q4 10:02,71,77,1610612766.0,Wong,I. Wong lost ball TURNOVER (1 TO),rebound,steal,6,Medium
+22400442,548,steal,4,PT10M02.00S,10:02,Q4 10:02,71,77,1610612741.0,Horton-Tucker,T. Horton-Tucker STEAL (3 STL),turnover,3pt missed,6,Medium
+22400442,549,3pt,4,PT09M47.00S,09:47,Q4 09:47,71,77,1610612741.0,Smith,MISS J. Smith 25' 3PT,steal,rebound,6,Medium
+22400442,550,rebound,4,PT09M45.00S,09:45,Q4 09:45,71,77,1610612766.0,Salaün,T. Salaün REBOUND (Off:0 Def:7),3pt missed,foul,6,Medium
+22400442,551,foul,4,PT09M37.00S,09:37,Q4 09:37,71,77,1610612766.0,Curry,S. Curry offensive FOUL (2 PF),rebound,turnover,6,Medium
+22400442,553,turnover,4,PT09M37.00S,09:37,Q4 09:37,71,77,1610612766.0,Curry,S. Curry offensive foul TURNOVER (2 TO),foul,substitution,6,Medium
+22400442,554,substitution,4,PT09M37.00S,09:37,Q4 09:37,71,77,1610612766.0,Wong,SUB out: I. Wong,turnover,substitution,6,Medium
+22400442,555,substitution,4,PT09M37.00S,09:37,Q4 09:37,71,77,1610612766.0,Micić,SUB in: V. Micić,substitution,turnover,6,Medium
+22400442,556,turnover,4,PT09M14.00S,09:14,Q4 09:14,71,77,1610612741.0,White,C. White bad pass TURNOVER (2 TO),substitution,steal,6,Medium
+22400442,557,steal,4,PT09M14.00S,09:14,Q4 09:14,71,77,1610612766.0,Micić,V. Micić STEAL (1 STL),turnover,3pt made,6,Medium
+22400442,558,3pt,4,PT09M08.00S,09:08,Q4 09:08,74,77,1610612766.0,Micić,V. Micić 26' 3PT running pullup (3 PTS),steal,3pt missed,3,Medium
+22400442,559,3pt,4,PT08M56.00S,08:56,Q4 08:56,74,77,1610612741.0,Giddey,MISS J. Giddey 25' 3PT,3pt made,rebound,3,Medium
+22400442,560,rebound,4,PT08M53.00S,08:53,Q4 08:53,74,77,1610612766.0,Salaün,T. Salaün REBOUND (Off:0 Def:8),3pt missed,turnover,3,Medium
+22400442,561,turnover,4,PT08M48.00S,08:48,Q4 08:48,74,77,1610612766.0,Micić,V. Micić bad pass TURNOVER (1 TO),rebound,steal,3,Medium
+22400442,562,steal,4,PT08M48.00S,08:48,Q4 08:48,74,77,1610612741.0,Smith,J. Smith STEAL (1 STL),turnover,foul,3,Medium
+22400442,563,foul,4,PT08M34.00S,08:34,Q4 08:34,74,77,1610612766.0,Salaün,T. Salaün shooting personal FOUL (2 PF) (White 2 FT),steal,freethrow,3,Medium
+22400442,565,freethrow,4,PT08M34.00S,08:34,Q4 08:34,74,78,1610612741.0,White,C. White Free Throw 1 of 2 (12 PTS),foul,freethrow,4,Medium
+22400442,570,freethrow,4,PT08M34.00S,08:34,Q4 08:34,74,79,1610612741.0,White,C. White Free Throw 2 of 2 (13 PTS),freethrow,substitution,5,Medium
+22400442,566,substitution,4,PT08M34.00S,08:34,Q4 08:34,74,78,1610612766.0,Jeffries,SUB out: D. Jeffries,freethrow,substitution,4,Medium
+22400442,567,substitution,4,PT08M34.00S,08:34,Q4 08:34,74,78,1610612741.0,Horton-Tucker,SUB out: T. Horton-Tucker,substitution,substitution,4,Medium
+22400442,568,substitution,4,PT08M34.00S,08:34,Q4 08:34,74,78,1610612766.0,Green,SUB in: J. Green,substitution,substitution,4,Medium
+22400442,569,substitution,4,PT08M34.00S,08:34,Q4 08:34,74,78,1610612741.0,Williams,SUB in: P. Williams,substitution,foul,4,Medium
+22400442,571,foul,4,PT08M21.00S,08:21,Q4 08:21,74,79,1610612741.0,Williams,P. Williams shooting personal FOUL (2 PF) (Green 2 FT),substitution,freethrow,5,Medium
+22400442,573,freethrow,4,PT08M21.00S,08:21,Q4 08:21,75,79,1610612766.0,Green,J. Green Free Throw 1 of 2 (10 PTS),foul,freethrow,4,Medium
+22400442,578,freethrow,4,PT08M21.00S,08:21,Q4 08:21,76,79,1610612766.0,Green,J. Green Free Throw 2 of 2 (11 PTS),freethrow,substitution,3,Medium
+22400442,574,substitution,4,PT08M21.00S,08:21,Q4 08:21,75,79,1610612766.0,Williams,SUB out: M. Williams,freethrow,substitution,4,Medium
+22400442,575,substitution,4,PT08M21.00S,08:21,Q4 08:21,75,79,1610612741.0,White,SUB out: C. White,substitution,substitution,4,Medium
+22400442,576,substitution,4,PT08M21.00S,08:21,Q4 08:21,75,79,1610612766.0,Diabaté,SUB in: M. Diabaté,substitution,substitution,4,Medium
+22400442,577,substitution,4,PT08M21.00S,08:21,Q4 08:21,75,79,1610612741.0,Ball,SUB in: L. Ball,substitution,2pt made,4,Medium
+22400442,579,2pt,4,PT08M09.00S,08:09,Q4 08:09,76,81,1610612741.0,Smith,J. Smith 7' floating Jump Shot (11 PTS) (J. Giddey 5 AST),substitution,2pt missed,5,Medium
+22400442,581,2pt,4,PT07M54.00S,07:54,Q4 07:54,76,81,1610612766.0,Salaün,MISS T. Salaün 7' driving Hook,2pt made,rebound,5,Medium
+22400442,582,rebound,4,PT07M54.00S,07:54,Q4 07:54,76,81,1610612741.0,,TEAM defensive REBOUND,2pt missed,substitution,5,Medium
+22400442,584,substitution,4,PT07M54.00S,07:54,Q4 07:54,76,81,1610612741.0,Giddey,SUB out: J. Giddey,rebound,substitution,5,Medium
+22400442,585,substitution,4,PT07M54.00S,07:54,Q4 07:54,76,81,1610612741.0,Terry,SUB in: D. Terry,substitution,foul,5,Medium
+22400442,586,foul,4,PT07M44.00S,07:44,Q4 07:44,76,81,1610612766.0,Salaün,T. Salaün shooting personal FOUL (3 PF) (Williams 2 FT),substitution,freethrow,5,Medium
+22400442,588,freethrow,4,PT07M44.00S,07:44,Q4 07:44,76,82,1610612741.0,Williams,P. Williams Free Throw 1 of 2 (13 PTS),foul,timeout,6,Medium
+22400442,589,timeout,4,PT07M44.00S,07:44,Q4 07:44,76,82,1610612766.0,,CHA Timeout,freethrow,freethrow,6,Medium
+22400442,592,freethrow,4,PT07M44.00S,07:44,Q4 07:44,76,83,1610612741.0,Williams,P. Williams Free Throw 2 of 2 (14 PTS),timeout,substitution,7,Medium
+22400442,590,substitution,4,PT07M44.00S,07:44,Q4 07:44,76,82,1610612766.0,Salaün,SUB out: T. Salaün,freethrow,substitution,6,Medium
+22400442,591,substitution,4,PT07M44.00S,07:44,Q4 07:44,76,82,1610612766.0,Bridges,SUB in: M. Bridges,substitution,3pt missed,6,Medium
+22400442,593,3pt,4,PT07M31.00S,07:31,Q4 07:31,76,83,1610612766.0,Bridges,MISS M. Bridges 26' 3PT,substitution,rebound,7,Medium
+22400442,594,rebound,4,PT07M27.00S,07:27,Q4 07:27,76,83,1610612741.0,,TEAM defensive REBOUND,3pt missed,3pt missed,7,Medium
+22400442,596,3pt,4,PT07M09.00S,07:09,Q4 07:09,76,83,1610612741.0,Williams,MISS P. Williams 25' pullup 3PT,rebound,rebound,7,Medium
+22400442,597,rebound,4,PT07M06.00S,07:06,Q4 07:06,76,83,1610612766.0,Diabaté,M. Diabaté REBOUND (Off:0 Def:1),3pt missed,3pt missed,7,Medium
+22400442,598,3pt,4,PT06M52.00S,06:52,Q4 06:52,76,83,1610612766.0,Micić,MISS V. Micić 25' pullup 3PT,rebound,rebound,7,Medium
+22400442,599,rebound,4,PT06M51.00S,06:51,Q4 06:51,76,83,1610612741.0,,TEAM defensive REBOUND,3pt missed,substitution,7,Medium
+22400442,601,substitution,4,PT06M51.00S,06:51,Q4 06:51,76,83,1610612741.0,Smith,SUB out: J. Smith,rebound,substitution,7,Medium
+22400442,602,substitution,4,PT06M51.00S,06:51,Q4 06:51,76,83,1610612741.0,Vučević,SUB in: N. Vučević,substitution,3pt missed,7,Medium
+22400442,603,3pt,4,PT06M30.00S,06:30,Q4 06:30,76,83,1610612741.0,Terry,MISS D. Terry 27' 3PT,substitution,rebound,7,Medium
+22400442,604,rebound,4,PT06M27.00S,06:27,Q4 06:27,76,83,1610612741.0,Vučević,N. Vučević REBOUND (Off:2 Def:8),3pt missed,2pt missed,7,Medium
+22400442,605,2pt,4,PT06M16.00S,06:16,Q4 06:16,76,83,1610612741.0,Vučević,MISS N. Vučević 8' turnaround Hook,rebound,rebound,7,Medium
+22400442,606,rebound,4,PT06M13.00S,06:13,Q4 06:13,76,83,1610612766.0,Diabaté,M. Diabaté REBOUND (Off:0 Def:2),2pt missed,foul,7,Medium
+22400442,607,foul,4,PT06M01.00S,06:01,Q4 06:01,76,83,1610612741.0,Ball,L. Ball shooting personal FOUL (2 PF) (Micić 3 FT),rebound,timeout,7,Medium
+22400442,609,timeout,4,PT06M01.00S,06:01,Q4 06:01,76,83,1610612741.0,,CHI Timeout,foul,freethrow,7,Medium
+22400442,613,freethrow,4,PT06M01.00S,06:01,Q4 06:01,77,83,1610612766.0,Micić,V. Micić Free Throw 1 of 3 (4 PTS),timeout,freethrow,6,High
+22400442,614,freethrow,4,PT06M01.00S,06:01,Q4 06:01,78,83,1610612766.0,Micić,V. Micić Free Throw 2 of 3 (5 PTS),freethrow,freethrow,5,High
+22400442,615,freethrow,4,PT06M01.00S,06:01,Q4 06:01,78,83,1610612766.0,Micić,MISS V. Micić Free Throw 3 of 3,freethrow,substitution,5,High
+22400442,611,substitution,4,PT06M01.00S,06:01,Q4 06:01,76,83,1610612741.0,Terry,SUB out: D. Terry,freethrow,substitution,7,Medium
+22400442,612,substitution,4,PT06M01.00S,06:01,Q4 06:01,76,83,1610612741.0,White,SUB in: C. White,substitution,rebound,7,Medium
+22400442,616,rebound,4,PT05M58.00S,05:58,Q4 05:58,78,83,1610612741.0,Craig,T. Craig REBOUND (Off:1 Def:2),substitution,2pt missed,5,High
+22400442,617,2pt,4,PT05M43.00S,05:43,Q4 05:43,78,83,1610612741.0,White,MISS C. White driving Layup,rebound,rebound,5,High
+22400442,618,rebound,4,PT05M41.00S,05:41,Q4 05:41,78,83,1610612766.0,Green,J. Green REBOUND (Off:2 Def:3),2pt missed,turnover,5,High
+22400442,619,turnover,4,PT05M31.00S,05:31,Q4 05:31,78,83,1610612766.0,Green,J. Green bad pass TURNOVER (2 TO),rebound,steal,5,High
+22400442,620,steal,4,PT05M31.00S,05:31,Q4 05:31,78,83,1610612741.0,Craig,T. Craig STEAL (1 STL),turnover,3pt missed,5,High
+22400442,621,3pt,4,PT05M24.00S,05:24,Q4 05:24,78,83,1610612741.0,White,MISS C. White 26' running pullup 3PT,steal,rebound,5,High
+22400442,622,rebound,4,PT05M21.00S,05:21,Q4 05:21,78,83,1610612741.0,White,C. White REBOUND (Off:1 Def:9),3pt missed,3pt made,5,High
+22400442,623,3pt,4,PT05M16.00S,05:16,Q4 05:16,78,86,1610612741.0,Craig,T. Craig 26' 3PT  (10 PTS) (N. Vučević 3 AST),rebound,3pt made,8,Medium
+22400442,625,3pt,4,PT05M02.00S,05:02,Q4 05:02,81,86,1610612766.0,Bridges,M. Bridges 26' 3PT pullup (19 PTS) (V. Micić 6 AST),3pt made,2pt made,5,High
+22400442,627,2pt,4,PT04M45.00S,04:45,Q4 04:45,81,88,1610612741.0,White,C. White driving Layup (15 PTS),3pt made,3pt missed,7,High
+22400442,628,3pt,4,PT04M35.00S,04:35,Q4 04:35,81,88,1610612766.0,Bridges,MISS M. Bridges 25' 3PT,2pt made,rebound,7,High
+22400442,629,rebound,4,PT04M31.00S,04:31,Q4 04:31,81,88,1610612766.0,Bridges,M. Bridges REBOUND (Off:1 Def:9),3pt missed,2pt missed,7,High
+22400442,630,2pt,4,PT04M30.00S,04:30,Q4 04:30,81,88,1610612766.0,Bridges,MISS M. Bridges putback DUNK,rebound,rebound,7,High
+22400442,631,rebound,4,PT04M29.00S,04:29,Q4 04:29,81,88,1610612766.0,Green,J. Green REBOUND (Off:3 Def:3),2pt missed,3pt made,7,High
+22400442,632,3pt,4,PT04M27.00S,04:27,Q4 04:27,84,88,1610612766.0,Green,J. Green 3PT  (14 PTS),rebound,2pt made,4,High
+22400442,633,2pt,4,PT04M08.00S,04:08,Q4 04:08,84,90,1610612741.0,Vučević,N. Vučević Layup (12 PTS) (C. White 8 AST),3pt made,foul,6,High
+22400442,635,foul,4,PT04M08.00S,04:08,Q4 04:08,84,90,1610612766.0,Bridges,M. Bridges shooting personal FOUL (2 PF) (Vučević 1 FT),2pt made,freethrow,6,High
+22400442,645,freethrow,4,PT04M08.00S,04:08,Q4 04:08,84,91,1610612741.0,Vučević,N. Vučević Free Throw 1 of 1 (13 PTS),foul,substitution,7,High
+22400442,637,substitution,4,PT04M08.00S,04:08,Q4 04:08,84,90,1610612766.0,Diabaté,SUB out: M. Diabaté,freethrow,substitution,6,High
+22400442,638,substitution,4,PT04M08.00S,04:08,Q4 04:08,84,90,1610612766.0,Curry,SUB out: S. Curry,substitution,substitution,6,High
+22400442,639,substitution,4,PT04M08.00S,04:08,Q4 04:08,84,90,1610612741.0,Ball,SUB out: L. Ball,substitution,substitution,6,High
+22400442,640,substitution,4,PT04M08.00S,04:08,Q4 04:08,84,90,1610612741.0,Williams,SUB out: P. Williams,substitution,substitution,6,High
+22400442,641,substitution,4,PT04M08.00S,04:08,Q4 04:08,84,90,1610612766.0,Williams,SUB in: M. Williams,substitution,substitution,6,High
+22400442,642,substitution,4,PT04M08.00S,04:08,Q4 04:08,84,90,1610612766.0,Jeffries,SUB in: D. Jeffries,substitution,substitution,6,High
+22400442,643,substitution,4,PT04M08.00S,04:08,Q4 04:08,84,90,1610612741.0,Terry,SUB in: D. Terry,substitution,substitution,6,High
+22400442,644,substitution,4,PT04M08.00S,04:08,Q4 04:08,84,90,1610612741.0,Giddey,SUB in: J. Giddey,substitution,2pt made,6,High
+22400442,646,2pt,4,PT03M52.00S,03:52,Q4 03:52,86,91,1610612766.0,Bridges,M. Bridges driving Layup (21 PTS),substitution,3pt missed,5,High
+22400442,647,3pt,4,PT03M35.00S,03:35,Q4 03:35,86,91,1610612741.0,Giddey,MISS J. Giddey 24' 3PT,2pt made,rebound,5,High
+22400442,648,rebound,4,PT03M31.00S,03:31,Q4 03:31,86,91,1610612766.0,Jeffries,D. Jeffries REBOUND (Off:0 Def:3),3pt missed,2pt made,5,High
+22400442,649,2pt,4,PT03M20.00S,03:20,Q4 03:20,88,91,1610612766.0,Williams,M. Williams alley-oop Layup (12 PTS) (V. Micić 7 AST),rebound,2pt missed,3,High
+22400442,651,2pt,4,PT03M08.00S,03:08,Q4 03:08,88,91,1610612741.0,Craig,MISS T. Craig 22' step back Shot,2pt made,rebound,3,High
+22400442,652,rebound,4,PT03M06.00S,03:06,Q4 03:06,88,91,1610612741.0,Giddey,J. Giddey REBOUND (Off:3 Def:5),2pt missed,2pt made,3,High
+22400442,653,2pt,4,PT02M58.00S,02:58,Q4 02:58,88,93,1610612741.0,White,C. White driving DUNK (17 PTS),rebound,2pt made,5,High
+22400442,654,2pt,4,PT02M37.00S,02:37,Q4 02:37,90,93,1610612766.0,Williams,M. Williams 9' floating Jump Shot (14 PTS) (M. Bridges 6 AST),2pt made,3pt made,3,High
+22400442,656,3pt,4,PT02M15.00S,02:15,Q4 02:15,90,96,1610612741.0,Craig,T. Craig 25' 3PT  (13 PTS) (D. Terry 3 AST),2pt made,2pt made,6,High
+22400442,658,2pt,4,PT02M00.00S,02:00,Q4 02:00,92,96,1610612766.0,Bridges,M. Bridges driving floating bank Jump Shot (23 PTS),3pt made,3pt missed,4,Very High
+22400442,659,3pt,4,PT01M44.00S,01:44,Q4 01:44,92,96,1610612741.0,White,MISS C. White 25' step back 3PT,2pt made,rebound,4,Very High
+22400442,660,rebound,4,PT01M42.00S,01:42,Q4 01:42,92,96,1610612766.0,Bridges,M. Bridges REBOUND (Off:1 Def:10),3pt missed,2pt made,4,Very High
+22400442,661,2pt,4,PT01M32.00S,01:32,Q4 01:32,94,96,1610612766.0,Williams,M. Williams cutting Layup (16 PTS) (M. Bridges 7 AST),rebound,foul,2,Very High
+22400442,663,foul,4,PT01M32.00S,01:32,Q4 01:32,94,96,1610612741.0,Vučević,N. Vučević shooting personal FOUL (2 PF) (Williams 1 FT),2pt made,freethrow,2,Very High
+22400442,671,freethrow,4,PT01M32.00S,01:32,Q4 01:32,95,96,1610612766.0,Williams,M. Williams Free Throw 1 of 1 (17 PTS),foul,substitution,1,Very High
+22400442,666,substitution,4,PT01M32.00S,01:32,Q4 01:32,94,96,1610612741.0,Terry,SUB out: D. Terry,freethrow,substitution,2,Very High
+22400442,667,substitution,4,PT01M32.00S,01:32,Q4 01:32,94,96,1610612741.0,Giddey,SUB out: J. Giddey,substitution,substitution,2,Very High
+22400442,668,substitution,4,PT01M32.00S,01:32,Q4 01:32,94,96,1610612741.0,Ball,SUB in: L. Ball,substitution,substitution,2,Very High
+22400442,669,substitution,4,PT01M32.00S,01:32,Q4 01:32,94,96,1610612741.0,Williams,SUB in: P. Williams,substitution,3pt missed,2,Very High
+22400442,672,3pt,4,PT01M20.00S,01:20,Q4 01:20,95,96,1610612741.0,Vučević,MISS N. Vučević 26' 3PT,substitution,rebound,1,Very High
+22400442,673,rebound,4,PT01M16.00S,01:16,Q4 01:16,95,96,1610612741.0,Craig,T. Craig REBOUND (Off:2 Def:2),3pt missed,2pt made,1,Very High
+22400442,674,2pt,4,PT01M09.00S,01:09,Q4 01:09,95,98,1610612741.0,White,C. White 8' driving bank Jump Shot (19 PTS) (L. Ball 3 AST),rebound,turnover,3,Very High
+22400442,675,turnover,4,PT00M55.40S,00:55,Q4 00:55,95,98,1610612766.0,Bridges,M. Bridges bad pass TURNOVER (2 TO),2pt made,steal,3,Very High
+22400442,676,steal,4,PT00M55.40S,00:55,Q4 00:55,95,98,1610612741.0,White,C. White STEAL (1 STL),turnover,turnover,3,Very High
+22400442,677,turnover,4,PT00M51.00S,00:51,Q4 00:51,95,98,1610612741.0,White,C. White lost ball TURNOVER (3 TO),steal,steal,3,Very High
+22400442,678,steal,4,PT00M51.00S,00:51,Q4 00:51,95,98,1610612766.0,Micić,V. Micić STEAL (2 STL),turnover,3pt missed,3,Very High
+22400442,679,3pt,4,PT00M31.60S,00:31,Q4 00:31,95,98,1610612766.0,Micić,MISS V. Micić 26' 3PT,steal,rebound,3,Very High
+22400442,680,rebound,4,PT00M29.30S,00:29,Q4 00:29,95,98,1610612741.0,Vučević,N. Vučević REBOUND (Off:2 Def:9),3pt missed,foul,3,Very High
+22400442,681,foul,4,PT00M20.30S,00:20,Q4 00:20,95,98,1610612766.0,Green,J. Green personal FOUL (4 PF),rebound,timeout,3,Very High
+22400442,683,timeout,4,PT00M20.30S,00:20,Q4 00:20,95,98,1610612741.0,,CHI Timeout,foul,substitution,3,Very High
+22400442,684,substitution,4,PT00M20.30S,00:20,Q4 00:20,95,98,1610612766.0,Williams,SUB out: M. Williams,timeout,substitution,3,Very High
+22400442,685,substitution,4,PT00M20.30S,00:20,Q4 00:20,95,98,1610612766.0,Diabaté,SUB in: M. Diabaté,substitution,2pt missed,3,Very High
+22400442,686,2pt,4,PT00M11.00S,00:11,Q4 00:11,95,98,1610612741.0,White,MISS C. White 20' step back Shot,substitution,rebound,3,Very High
+22400442,687,rebound,4,PT00M10.10S,00:10,Q4 00:10,95,98,1610612766.0,Diabaté,M. Diabaté REBOUND (Off:0 Def:3),2pt missed,timeout,3,Very High
+22400442,688,timeout,4,PT00M10.10S,00:10,Q4 00:10,95,98,1610612766.0,,CHA Timeout,rebound,substitution,3,Very High
+22400442,690,substitution,4,PT00M10.10S,00:10,Q4 00:10,95,98,1610612766.0,Diabaté,SUB out: M. Diabaté,timeout,substitution,3,Very High
+22400442,691,substitution,4,PT00M10.10S,00:10,Q4 00:10,95,98,1610612766.0,Curry,SUB in: S. Curry,substitution,3pt missed,3,Very High
+22400442,692,3pt,4,PT00M06.70S,00:06,Q4 00:06,95,98,1610612766.0,Bridges,MISS M. Bridges fadeaway 3PT,substitution,rebound,3,Very High
+22400442,693,rebound,4,PT00M06.60S,00:06,Q4 00:06,95,98,1610612741.0,Vučević,N. Vučević REBOUND (Off:2 Def:10),3pt missed,foul,3,Very High
+22400442,694,foul,4,PT00M06.60S,00:06,Q4 00:06,95,98,1610612766.0,Green,J. Green take personal FOUL (5 PF) (Vučević 2 FT),rebound,freethrow,3,Very High
+22400442,696,freethrow,4,PT00M06.60S,00:06,Q4 00:06,95,98,1610612741.0,Vučević,MISS N. Vučević Free Throw 1 of 2,foul,rebound,3,Very High
+22400442,697,rebound,4,PT00M06.60S,00:06,Q4 00:06,95,98,1610612741.0,,TEAM offensive REBOUND,freethrow,freethrow,3,Very High
+22400442,700,freethrow,4,PT00M06.60S,00:06,Q4 00:06,95,98,1610612741.0,Vučević,MISS N. Vučević Free Throw 2 of 2,rebound,substitution,3,Very High
+22400442,765,substitution,4,PT00M06.60S,00:06,Q4 00:06,95,98,1610612766.0,Curry,SUB out: S. Curry,freethrow,substitution,3,Very High
+22400442,766,substitution,4,PT00M06.60S,00:06,Q4 00:06,95,98,1610612766.0,Williams,SUB in: M. Williams,substitution,rebound,3,Very High
+22400442,701,rebound,4,PT00M06.30S,00:06,Q4 00:06,95,98,1610612766.0,Bridges,M. Bridges REBOUND (Off:1 Def:11),substitution,timeout,3,Very High
+22400442,702,timeout,4,PT00M06.30S,00:06,Q4 00:06,95,98,1610612766.0,,CHA Timeout,rebound,substitution,3,Very High
+22400442,703,substitution,4,PT00M05.80S,00:05,Q4 00:05,95,98,1610612766.0,Jeffries,SUB out: D. Jeffries,timeout,substitution,3,Very High
+22400442,704,substitution,4,PT00M05.80S,00:05,Q4 00:05,95,98,1610612766.0,Curry,SUB in: S. Curry,substitution,3pt made,3,Very High
+22400442,705,3pt,4,PT00M01.50S,00:01,Q4 00:01,98,98,1610612766.0,Bridges,M. Bridges 25' 3PT floating (26 PTS),substitution,substitution,0,Very High
+22400442,706,substitution,4,PT00M01.50S,00:01,Q4 00:01,98,98,1610612766.0,Curry,SUB out: S. Curry,3pt made,substitution,0,Very High
+22400442,707,substitution,4,PT00M01.50S,00:01,Q4 00:01,98,98,1610612741.0,Craig,SUB out: T. Craig,substitution,substitution,0,Very High
+22400442,708,substitution,4,PT00M01.50S,00:01,Q4 00:01,98,98,1610612766.0,Diabaté,SUB in: M. Diabaté,substitution,substitution,0,Very High
+22400442,709,substitution,4,PT00M01.50S,00:01,Q4 00:01,98,98,1610612741.0,Giddey,SUB in: J. Giddey,substitution,3pt missed,0,Very High
+22400442,710,3pt,4,PT00M00.00S,00:00,Q4 00:00,98,98,1610612741.0,Vučević,MISS N. Vučević 3PT,substitution,rebound,0,Very High
+22400442,711,rebound,4,PT00M00.00S,00:00,Q4 00:00,98,98,1610612741.0,,TEAM offensive REBOUND,3pt missed,substitution,0,Very High
+22400442,713,substitution,5,PT05M00.00S,05:00,Q5 05:00,98,98,1610612766.0,Diabaté,SUB out: M. Diabaté,rebound,substitution,0,High
+22400442,714,substitution,5,PT05M00.00S,05:00,Q5 05:00,98,98,1610612741.0,Williams,SUB out: P. Williams,substitution,substitution,0,High
+22400442,715,substitution,5,PT05M00.00S,05:00,Q5 05:00,98,98,1610612766.0,Curry,SUB in: S. Curry,substitution,substitution,0,High
+22400442,716,substitution,5,PT05M00.00S,05:00,Q5 05:00,98,98,1610612741.0,Craig,SUB in: T. Craig,substitution,turnover,0,High
+22400442,722,turnover,5,PT04M40.00S,04:40,Q5 04:40,98,98,1610612766.0,Micić,V. Micić bad pass TURNOVER (2 TO),substitution,steal,0,High
+22400442,723,steal,5,PT04M40.00S,04:40,Q5 04:40,98,98,1610612741.0,Vučević,N. Vučević STEAL (1 STL),turnover,2pt made,0,High
+22400442,724,2pt,5,PT04M33.00S,04:33,Q5 04:33,98,100,1610612741.0,White,C. White running Layup (21 PTS),steal,2pt missed,2,High
+22400442,725,2pt,5,PT04M24.00S,04:24,Q5 04:24,98,100,1610612766.0,Bridges,MISS M. Bridges 8' driving floating Shot,2pt made,rebound,2,High
+22400442,726,rebound,5,PT04M20.00S,04:20,Q5 04:20,98,100,1610612741.0,Craig,T. Craig REBOUND (Off:2 Def:3),2pt missed,3pt missed,2,High
+22400442,727,3pt,5,PT04M09.00S,04:09,Q5 04:09,98,100,1610612741.0,White,MISS C. White 26' pullup 3PT,rebound,rebound,2,High
+22400442,728,rebound,5,PT04M06.00S,04:06,Q5 04:06,98,100,1610612766.0,Williams,M. Williams REBOUND (Off:2 Def:10),3pt missed,3pt missed,2,High
+22400442,729,3pt,5,PT03M57.00S,03:57,Q5 03:57,98,100,1610612766.0,Micić,MISS V. Micić 26' pullup 3PT,rebound,rebound,2,High
+22400442,730,rebound,5,PT03M53.00S,03:53,Q5 03:53,98,100,1610612741.0,Vučević,N. Vučević REBOUND (Off:2 Def:11),3pt missed,3pt made,2,High
+22400442,731,3pt,5,PT03M34.00S,03:34,Q5 03:34,98,103,1610612741.0,Vučević,N. Vučević 3PT  (16 PTS) (C. White 9 AST),rebound,3pt missed,5,High
+22400442,733,3pt,5,PT03M09.00S,03:09,Q5 03:09,98,103,1610612766.0,Bridges,MISS M. Bridges 27' 3PT,3pt made,rebound,5,High
+22400442,734,rebound,5,PT03M06.00S,03:06,Q5 03:06,98,103,1610612741.0,Giddey,J. Giddey REBOUND (Off:3 Def:6),3pt missed,3pt missed,5,High
+22400442,735,3pt,5,PT02M52.00S,02:52,Q5 02:52,98,103,1610612741.0,Giddey,MISS J. Giddey 3PT - blocked,rebound,block,5,High
+22400442,736,block,5,PT02M52.00S,02:52,Q5 02:52,98,103,1610612766.0,Williams,M. Williams BLOCK (3 BLK),3pt missed,rebound,5,High
+22400442,737,rebound,5,PT02M52.00S,02:52,Q5 02:52,98,103,1610612741.0,,TEAM offensive REBOUND,block,3pt made,5,High
+22400442,739,3pt,5,PT02M49.00S,02:49,Q5 02:49,98,106,1610612741.0,Craig,T. Craig 3PT  (16 PTS) (J. Giddey 6 AST),rebound,timeout,8,High
+22400442,741,timeout,5,PT02M49.00S,02:49,Q5 02:49,98,106,1610612766.0,,CHA Timeout,3pt made,substitution,8,High
+22400442,742,substitution,5,PT02M49.00S,02:49,Q5 02:49,98,106,1610612741.0,Giddey,SUB out: J. Giddey,timeout,substitution,8,High
+22400442,743,substitution,5,PT02M49.00S,02:49,Q5 02:49,98,106,1610612741.0,Williams,SUB in: P. Williams,substitution,2pt made,8,High
+22400442,744,2pt,5,PT02M34.00S,02:34,Q5 02:34,100,106,1610612766.0,Williams,M. Williams reverse Layup (19 PTS) (M. Bridges 8 AST),substitution,foul,6,High
+22400442,746,foul,5,PT02M34.00S,02:34,Q5 02:34,100,106,1610612741.0,Vučević,N. Vučević shooting personal FOUL (3 PF) (Williams 1 FT),2pt made,freethrow,6,High
+22400442,750,freethrow,5,PT02M34.00S,02:34,Q5 02:34,101,106,1610612766.0,Williams,M. Williams Free Throw 1 of 1 (20 PTS),foul,substitution,5,High
+22400442,748,substitution,5,PT02M34.00S,02:34,Q5 02:34,100,106,1610612766.0,Curry,SUB out: S. Curry,freethrow,substitution,6,High
+22400442,749,substitution,5,PT02M34.00S,02:34,Q5 02:34,100,106,1610612766.0,Jeffries,SUB in: D. Jeffries,substitution,2pt made,6,High
+22400442,751,2pt,5,PT02M13.00S,02:13,Q5 02:13,101,108,1610612741.0,Craig,T. Craig 10' fadeaway Jump Shot (18 PTS) (L. Ball 4 AST),substitution,turnover,7,High
+22400442,753,turnover,5,PT01M54.00S,01:54,Q5 01:54,101,108,1610612766.0,Bridges,M. Bridges lost ball TURNOVER (3 TO),2pt made,steal,7,High
+22400442,754,steal,5,PT01M54.00S,01:54,Q5 01:54,101,108,1610612741.0,Ball,L. Ball STEAL (3 STL),turnover,foul,7,High
+22400442,755,foul,5,PT01M51.00S,01:51,Q5 01:51,101,108,1610612766.0,Micić,V. Micić shooting personal FOUL (2 PF) (White 2 FT),steal,freethrow,7,High
+22400442,757,freethrow,5,PT01M51.00S,01:51,Q5 01:51,101,109,1610612741.0,White,C. White Free Throw 1 of 2 (22 PTS),foul,freethrow,8,High
+22400442,758,freethrow,5,PT01M51.00S,01:51,Q5 01:51,101,110,1610612741.0,White,C. White Free Throw 2 of 2 (23 PTS),freethrow,foul,9,Low
+22400442,759,foul,5,PT01M36.00S,01:36,Q5 01:36,101,110,1610612741.0,Ball,L. Ball shooting personal FOUL (3 PF) (Micić 2 FT),freethrow,freethrow,9,Low
+22400442,761,freethrow,5,PT01M36.00S,01:36,Q5 01:36,102,110,1610612766.0,Micić,V. Micić Free Throw 1 of 2 (6 PTS),foul,freethrow,8,High
+22400442,764,freethrow,5,PT01M36.00S,01:36,Q5 01:36,103,110,1610612766.0,Micić,V. Micić Free Throw 2 of 2 (7 PTS),freethrow,substitution,7,High
+22400442,762,substitution,5,PT01M36.00S,01:36,Q5 01:36,102,110,1610612766.0,Williams,SUB out: M. Williams,freethrow,substitution,8,High
+22400442,763,substitution,5,PT01M36.00S,01:36,Q5 01:36,102,110,1610612766.0,Diabaté,SUB in: M. Diabaté,substitution,2pt missed,8,High
+22400442,767,2pt,5,PT01M14.00S,01:14,Q5 01:14,103,110,1610612741.0,Vučević,MISS N. Vučević 14' fadeaway Shot,substitution,rebound,7,High
+22400442,768,rebound,5,PT01M10.00S,01:10,Q5 01:10,103,110,1610612766.0,Micić,V. Micić REBOUND (Off:0 Def:3),2pt missed,2pt made,7,High
+22400442,769,2pt,5,PT01M00.00S,01:00,Q5 01:00,105,110,1610612766.0,Bridges,M. Bridges driving floating Jump Shot (28 PTS),rebound,3pt made,5,Very High
+22400442,770,3pt,5,PT00M49.50S,00:49,Q5 00:49,105,113,1610612741.0,Williams,P. Williams 3PT  (17 PTS) (L. Ball 5 AST),2pt made,2pt made,8,High
+22400442,772,2pt,5,PT00M39.50S,00:39,Q5 00:39,107,113,1610612766.0,Bridges,M. Bridges driving floating Jump Shot (30 PTS),3pt made,foul,6,High
+22400442,773,foul,5,PT00M39.50S,00:39,Q5 00:39,107,113,1610612741.0,Craig,T. Craig shooting personal FOUL (1 PF) (Bridges 1 FT),2pt made,freethrow,6,High
+22400442,775,freethrow,5,PT00M39.50S,00:39,Q5 00:39,108,113,1610612766.0,Bridges,M. Bridges Free Throw 1 of 1 (31 PTS),foul,timeout,5,Very High
+22400442,776,timeout,5,PT00M23.60S,00:23,Q5 00:23,108,113,1610612741.0,,CHI Timeout,freethrow,substitution,5,Very High
+22400442,777,substitution,5,PT00M23.60S,00:23,Q5 00:23,108,113,1610612741.0,Craig,SUB out: T. Craig,timeout,substitution,5,Very High
+22400442,778,substitution,5,PT00M23.60S,00:23,Q5 00:23,108,113,1610612741.0,Giddey,SUB in: J. Giddey,substitution,2pt missed,5,Very High
+22400442,779,2pt,5,PT00M15.50S,00:15,Q5 00:15,108,113,1610612741.0,White,MISS C. White driving Layup,substitution,rebound,5,Very High
+22400442,780,rebound,5,PT00M14.20S,00:14,Q5 00:14,108,113,1610612741.0,Giddey,J. Giddey REBOUND (Off:4 Def:6),2pt missed,2pt missed,5,Very High
+22400442,781,2pt,5,PT00M14.20S,00:14,Q5 00:14,108,113,1610612741.0,Giddey,MISS J. Giddey tip Layup,rebound,rebound,5,Very High
+22400442,782,rebound,5,PT00M14.20S,00:14,Q5 00:14,108,113,1610612741.0,Giddey,J. Giddey REBOUND (Off:5 Def:6),2pt missed,foul,5,Very High
+22400442,783,foul,5,PT00M14.20S,00:14,Q5 00:14,108,113,1610612766.0,Diabaté,M. Diabaté personal FOUL (1 PF) (Giddey 2 FT),rebound,freethrow,5,Very High
+22400442,785,freethrow,5,PT00M14.20S,00:14,Q5 00:14,108,114,1610612741.0,Giddey,J. Giddey Free Throw 1 of 2 (12 PTS),foul,freethrow,6,High
+22400442,786,freethrow,5,PT00M14.20S,00:14,Q5 00:14,108,115,1610612741.0,Giddey,J. Giddey Free Throw 2 of 2 (13 PTS),freethrow,3pt missed,7,High
+22400442,787,3pt,5,PT00M07.60S,00:07,Q5 00:07,108,115,1610612766.0,Bridges,MISS M. Bridges 28' pullup 3PT,freethrow,rebound,7,High
+22400442,788,rebound,5,PT00M05.50S,00:05,Q5 00:05,108,115,1610612741.0,Giddey,J. Giddey REBOUND (Off:5 Def:7),3pt missed,,7,High

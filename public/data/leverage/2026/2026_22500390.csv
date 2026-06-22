@@ -1,0 +1,646 @@
+game_id,actionNumber,actionType,period,clock,clock_display,game_clock,scoreHome,scoreAway,teamId,playerName,description,previous_action,next_action,score_margin,leverage_bucket
+22500390,7,turnover,1,PT11M47.00S,11:47,Q1 11:47,0,0,1610612766.0,Ball,L. Ball bad pass TURNOVER (1 TO),,steal,0,Medium
+22500390,8,steal,1,PT11M47.00S,11:47,Q1 11:47,0,0,1610612765.0,Harris,T. Harris STEAL (1 STL),turnover,3pt missed,0,Medium
+22500390,9,3pt,1,PT11M39.00S,11:39,Q1 11:39,0,0,1610612765.0,Robinson,MISS D. Robinson 3PT,steal,rebound,0,Medium
+22500390,10,rebound,1,PT11M37.00S,11:37,Q1 11:37,0,0,1610612766.0,Bridges,M. Bridges REBOUND (Off:0 Def:1),3pt missed,3pt made,0,Medium
+22500390,11,3pt,1,PT11M31.00S,11:31,Q1 11:31,0,3,1610612766.0,Ball,L. Ball 24' 3PT running pullup (3 PTS) (M. Bridges 1 AST),rebound,2pt missed,3,Medium
+22500390,13,2pt,1,PT11M13.00S,11:13,Q1 11:13,0,3,1610612765.0,Harris,MISS T. Harris driving floating bank Shot,3pt made,rebound,3,Medium
+22500390,14,rebound,1,PT11M11.00S,11:11,Q1 11:11,0,3,1610612765.0,Thompson,A. Thompson REBOUND (Off:1 Def:0),2pt missed,3pt missed,3,Medium
+22500390,15,3pt,1,PT11M04.00S,11:04,Q1 11:04,0,3,1610612765.0,Harris,MISS T. Harris 26' 3PT,rebound,rebound,3,Medium
+22500390,16,rebound,1,PT11M01.00S,11:01,Q1 11:01,0,3,1610612766.0,Knueppel,K. Knueppel REBOUND (Off:0 Def:1),3pt missed,foul,3,Medium
+22500390,17,foul,1,PT10M59.00S,10:59,Q1 10:59,0,3,1610612765.0,Cunningham,C. Cunningham personal FOUL (1 PF),rebound,3pt made,3,Medium
+22500390,19,3pt,1,PT10M52.00S,10:52,Q1 10:52,0,6,1610612766.0,Ball,L. Ball 27' 3PT  (6 PTS) (R. Kalkbrenner 1 AST),foul,foul,6,Medium
+22500390,21,foul,1,PT10M40.00S,10:40,Q1 10:40,0,6,1610612766.0,Bridges,M. Bridges shooting personal FOUL (1 PF) (Thompson 2 FT),3pt made,freethrow,6,Medium
+22500390,23,freethrow,1,PT10M40.00S,10:40,Q1 10:40,1,6,1610612765.0,Thompson,A. Thompson Free Throw 1 of 2 (1 PTS),foul,freethrow,5,Medium
+22500390,24,freethrow,1,PT10M40.00S,10:40,Q1 10:40,2,6,1610612765.0,Thompson,A. Thompson Free Throw 2 of 2 (2 PTS),freethrow,3pt missed,4,Medium
+22500390,25,3pt,1,PT10M26.00S,10:26,Q1 10:26,2,6,1610612766.0,Ball,MISS L. Ball 27' 3PT,freethrow,rebound,4,Medium
+22500390,26,rebound,1,PT10M23.00S,10:23,Q1 10:23,2,6,1610612765.0,Thompson,A. Thompson REBOUND (Off:1 Def:1),3pt missed,2pt made,4,Medium
+22500390,27,2pt,1,PT10M21.00S,10:21,Q1 10:21,4,6,1610612765.0,Thompson,A. Thompson running Layup (4 PTS),rebound,2pt missed,2,Medium
+22500390,30,2pt,1,PT10M04.00S,10:04,Q1 10:04,4,6,1610612766.0,Bridges,MISS M. Bridges driving Hook,2pt made,rebound,2,Medium
+22500390,31,rebound,1,PT10M02.00S,10:02,Q1 10:02,4,6,1610612765.0,Cunningham,C. Cunningham REBOUND (Off:0 Def:1),2pt missed,2pt missed,2,Medium
+22500390,32,2pt,1,PT09M43.00S,09:43,Q1 09:43,4,6,1610612765.0,Thompson,MISS A. Thompson 16' pullup bank Shot,rebound,rebound,2,Medium
+22500390,33,rebound,1,PT09M41.00S,09:41,Q1 09:41,4,6,1610612766.0,Kalkbrenner,R. Kalkbrenner REBOUND (Off:0 Def:1),2pt missed,2pt made,2,Medium
+22500390,34,2pt,1,PT09M38.00S,09:38,Q1 09:38,4,8,1610612766.0,Knueppel,K. Knueppel running DUNK (2 PTS) (L. Ball 1 AST),rebound,timeout,4,Medium
+22500390,35,timeout,1,PT09M35.00S,09:35,Q1 09:35,4,8,1610612765.0,,DET Timeout,2pt made,2pt missed,4,Medium
+22500390,36,2pt,1,PT09M18.00S,09:18,Q1 09:18,4,8,1610612765.0,Cunningham,MISS C. Cunningham 13' driving floating Shot - blocked,timeout,block,4,Medium
+22500390,37,block,1,PT09M18.00S,09:18,Q1 09:18,4,8,1610612766.0,Ball,L. Ball BLOCK (1 BLK),2pt missed,rebound,4,Medium
+22500390,38,rebound,1,PT09M16.00S,09:16,Q1 09:16,4,8,1610612766.0,Miller,B. Miller REBOUND (Off:0 Def:1),block,2pt missed,4,Medium
+22500390,39,2pt,1,PT09M13.00S,09:13,Q1 09:13,4,8,1610612766.0,Miller,MISS B. Miller running Layup,rebound,rebound,4,Medium
+22500390,40,rebound,1,PT09M12.00S,09:12,Q1 09:12,4,8,1610612766.0,,TEAM offensive REBOUND,2pt missed,3pt missed,4,Medium
+22500390,42,3pt,1,PT09M01.00S,09:01,Q1 09:01,4,8,1610612766.0,Miller,MISS B. Miller 26' 3PT,rebound,rebound,4,Medium
+22500390,43,rebound,1,PT08M58.00S,08:58,Q1 08:58,4,8,1610612765.0,Robinson,D. Robinson REBOUND (Off:0 Def:1),3pt missed,2pt missed,4,Medium
+22500390,44,2pt,1,PT08M51.00S,08:51,Q1 08:51,4,8,1610612765.0,Thompson,MISS A. Thompson driving Layup,rebound,rebound,4,Medium
+22500390,45,rebound,1,PT08M47.00S,08:47,Q1 08:47,4,8,1610612765.0,Duren,J. Duren REBOUND (Off:1 Def:0),2pt missed,2pt made,4,Medium
+22500390,46,2pt,1,PT08M47.00S,08:47,Q1 08:47,6,8,1610612765.0,Duren,J. Duren tip DUNK (2 PTS),rebound,3pt made,2,Medium
+22500390,47,3pt,1,PT08M43.00S,08:43,Q1 08:43,6,11,1610612766.0,Bridges,M. Bridges 3PT running (3 PTS) (K. Knueppel 1 AST),2pt made,2pt missed,5,Medium
+22500390,49,2pt,1,PT08M27.00S,08:27,Q1 08:27,6,11,1610612765.0,Duren,MISS J. Duren reverse Layup,3pt made,rebound,5,Medium
+22500390,50,rebound,1,PT08M26.00S,08:26,Q1 08:26,6,11,1610612765.0,Harris,T. Harris REBOUND (Off:1 Def:0),2pt missed,2pt made,5,Medium
+22500390,51,2pt,1,PT08M25.00S,08:25,Q1 08:25,8,11,1610612765.0,Harris,T. Harris tip Layup (2 PTS),rebound,2pt made,3,Medium
+22500390,52,2pt,1,PT08M17.00S,08:17,Q1 08:17,8,13,1610612766.0,Ball,L. Ball driving floating bank Jump Shot (8 PTS),2pt made,2pt made,5,Medium
+22500390,53,2pt,1,PT07M56.00S,07:56,Q1 07:56,10,13,1610612765.0,Duren,J. Duren Hook (4 PTS) (C. Cunningham 1 AST),2pt made,3pt missed,3,Medium
+22500390,55,3pt,1,PT07M45.00S,07:45,Q1 07:45,10,13,1610612766.0,Ball,MISS L. Ball 25' 3PT,2pt made,rebound,3,Medium
+22500390,59,rebound,1,PT07M44.00S,07:44,Q1 07:44,10,13,1610612766.0,,TEAM offensive REBOUND,3pt missed,substitution,3,Medium
+22500390,114,substitution,1,PT07M43.00S,07:43,Q1 07:43,10,13,1610612766.0,Miller,SUB out: B. Miller,rebound,substitution,3,Medium
+22500390,115,substitution,1,PT07M43.00S,07:43,Q1 07:43,10,13,1610612766.0,Green,SUB in: J. Green,substitution,3pt missed,3,Medium
+22500390,60,3pt,1,PT07M37.00S,07:37,Q1 07:37,10,13,1610612766.0,Knueppel,MISS K. Knueppel 3PT,substitution,rebound,3,Medium
+22500390,61,rebound,1,PT07M35.00S,07:35,Q1 07:35,10,13,1610612765.0,Duren,J. Duren REBOUND (Off:1 Def:1),3pt missed,2pt made,3,Medium
+22500390,64,2pt,1,PT07M24.00S,07:24,Q1 07:24,12,13,1610612765.0,Duren,J. Duren DUNK (6 PTS) (A. Thompson 1 AST),rebound,3pt made,1,Medium
+22500390,66,3pt,1,PT07M10.00S,07:10,Q1 07:10,12,16,1610612766.0,Green,J. Green 3PT  (3 PTS) (L. Ball 2 AST),2pt made,2pt made,4,Medium
+22500390,68,2pt,1,PT06M54.00S,06:54,Q1 06:54,14,16,1610612765.0,Cunningham,C. Cunningham 9' turnaround fadeaway Jump Shot (2 PTS),3pt made,foul,2,Medium
+22500390,69,foul,1,PT06M34.00S,06:34,Q1 06:34,14,16,1610612765.0,Robinson,D. Robinson personal FOUL (1 PF),2pt made,substitution,2,Medium
+22500390,71,substitution,1,PT06M34.00S,06:34,Q1 06:34,14,16,1610612765.0,Robinson,SUB out: D. Robinson,foul,substitution,2,Medium
+22500390,72,substitution,1,PT06M34.00S,06:34,Q1 06:34,14,16,1610612765.0,Ivey,SUB in: J. Ivey,substitution,turnover,2,Medium
+22500390,73,turnover,1,PT06M26.00S,06:26,Q1 06:26,14,16,1610612766.0,Bridges,M. Bridges bad pass TURNOVER (1 TO),substitution,steal,2,Medium
+22500390,74,steal,1,PT06M26.00S,06:26,Q1 06:26,14,16,1610612765.0,Duren,J. Duren STEAL (1 STL),turnover,2pt made,2,Medium
+22500390,75,2pt,1,PT06M12.00S,06:12,Q1 06:12,16,16,1610612765.0,Cunningham,C. Cunningham driving bank Jump Shot (4 PTS) (J. Ivey 1 AST),steal,foul,0,Medium
+22500390,77,foul,1,PT05M58.00S,05:58,Q1 05:58,16,16,1610612765.0,Thompson,A. Thompson personal FOUL (1 PF),2pt made,substitution,0,Medium
+22500390,79,substitution,1,PT05M58.00S,05:58,Q1 05:58,16,16,1610612765.0,Thompson,SUB out: A. Thompson,foul,substitution,0,Medium
+22500390,80,substitution,1,PT05M58.00S,05:58,Q1 05:58,16,16,1610612766.0,Ball,SUB out: L. Ball,substitution,substitution,0,Medium
+22500390,81,substitution,1,PT05M58.00S,05:58,Q1 05:58,16,16,1610612765.0,LeVert,SUB in: C. LeVert,substitution,substitution,0,Medium
+22500390,82,substitution,1,PT05M58.00S,05:58,Q1 05:58,16,16,1610612766.0,Mann,SUB in: T. Mann,substitution,3pt made,0,Medium
+22500390,83,3pt,1,PT05M51.00S,05:51,Q1 05:51,16,19,1610612766.0,Knueppel,K. Knueppel 26' 3PT  (5 PTS) (T. Mann 1 AST),substitution,2pt made,3,Medium
+22500390,85,2pt,1,PT05M38.00S,05:38,Q1 05:38,18,19,1610612765.0,Cunningham,C. Cunningham driving Layup (6 PTS),3pt made,3pt missed,1,Medium
+22500390,86,3pt,1,PT05M22.00S,05:22,Q1 05:22,18,19,1610612766.0,Bridges,MISS M. Bridges 25' 3PT,2pt made,rebound,1,Medium
+22500390,87,rebound,1,PT05M20.00S,05:20,Q1 05:20,18,19,1610612765.0,Duren,J. Duren REBOUND (Off:1 Def:2),3pt missed,foul,1,Medium
+22500390,88,foul,1,PT05M16.00S,05:16,Q1 05:16,18,19,1610612766.0,Mann,T. Mann shooting personal FOUL (1 PF) (Harris 2 FT),rebound,freethrow,1,Medium
+22500390,90,freethrow,1,PT05M16.00S,05:16,Q1 05:16,19,19,1610612765.0,Harris,T. Harris Free Throw 1 of 2 (3 PTS),foul,freethrow,0,Medium
+22500390,93,freethrow,1,PT05M16.00S,05:16,Q1 05:16,20,19,1610612765.0,Harris,T. Harris Free Throw 2 of 2 (4 PTS),freethrow,substitution,1,Medium
+22500390,91,substitution,1,PT05M16.00S,05:16,Q1 05:16,19,19,1610612766.0,Kalkbrenner,SUB out: R. Kalkbrenner,freethrow,substitution,0,Medium
+22500390,92,substitution,1,PT05M16.00S,05:16,Q1 05:16,19,19,1610612766.0,Diabaté,SUB in: M. Diabaté,substitution,foul,0,Medium
+22500390,94,foul,1,PT05M04.00S,05:04,Q1 05:04,20,19,1610612765.0,Duren,J. Duren personal FOUL (1 PF),substitution,substitution,1,Medium
+22500390,96,substitution,1,PT05M04.00S,05:04,Q1 05:04,20,19,1610612765.0,Harris,SUB out: T. Harris,foul,substitution,1,Medium
+22500390,97,substitution,1,PT05M04.00S,05:04,Q1 05:04,20,19,1610612765.0,Stewart,SUB in: I. Stewart,substitution,2pt missed,1,Medium
+22500390,98,2pt,1,PT04M53.00S,04:53,Q1 04:53,20,19,1610612766.0,Mann,MISS T. Mann 12' pullup Shot,substitution,rebound,1,Medium
+22500390,99,rebound,1,PT04M50.00S,04:50,Q1 04:50,20,19,1610612765.0,Cunningham,C. Cunningham REBOUND (Off:0 Def:2),2pt missed,2pt made,1,Medium
+22500390,100,2pt,1,PT04M49.00S,04:49,Q1 04:49,22,19,1610612765.0,Ivey,J. Ivey driving floating Jump Shot (2 PTS) (C. Cunningham 2 AST),rebound,foul,3,Medium
+22500390,102,foul,1,PT04M49.00S,04:49,Q1 04:49,22,19,1610612766.0,Green,J. Green shooting personal FOUL (1 PF) (Ivey 1 FT),2pt made,freethrow,3,Medium
+22500390,104,freethrow,1,PT04M49.00S,04:49,Q1 04:49,23,19,1610612765.0,Ivey,J. Ivey Free Throw 1 of 1 (3 PTS),foul,turnover,4,Medium
+22500390,105,turnover,1,PT04M32.00S,04:32,Q1 04:32,23,19,1610612766.0,Mann,T. Mann lost ball TURNOVER (1 TO),freethrow,steal,4,Medium
+22500390,106,steal,1,PT04M32.00S,04:32,Q1 04:32,23,19,1610612765.0,Cunningham,C. Cunningham STEAL (1 STL),turnover,2pt made,4,Medium
+22500390,107,2pt,1,PT04M31.00S,04:31,Q1 04:31,25,19,1610612765.0,Cunningham,C. Cunningham running DUNK (8 PTS),steal,timeout,6,Medium
+22500390,108,timeout,1,PT04M31.00S,04:31,Q1 04:31,25,19,1610612766.0,,CHA Timeout,2pt made,turnover,6,Medium
+22500390,110,turnover,1,PT04M17.00S,04:17,Q1 04:17,25,19,1610612766.0,Knueppel,K. Knueppel lost ball TURNOVER (1 TO),timeout,steal,6,Medium
+22500390,111,steal,1,PT04M17.00S,04:17,Q1 04:17,25,19,1610612765.0,LeVert,C. LeVert STEAL (1 STL),turnover,turnover,6,Medium
+22500390,112,turnover,1,PT04M13.00S,04:13,Q1 04:13,25,19,1610612765.0,LeVert,C. LeVert bad pass TURNOVER (1 TO),steal,steal,6,Medium
+22500390,113,steal,1,PT04M13.00S,04:13,Q1 04:13,25,19,1610612766.0,Mann,T. Mann STEAL (1 STL),turnover,3pt made,6,Medium
+22500390,116,3pt,1,PT03M55.00S,03:55,Q1 03:55,25,22,1610612766.0,Knueppel,K. Knueppel 26' 3PT  (8 PTS) (M. Bridges 2 AST),steal,foul,3,Medium
+22500390,118,foul,1,PT03M40.00S,03:40,Q1 03:40,25,22,1610612765.0,Duren,J. Duren offensive FOUL (2 PF),3pt made,turnover,3,Medium
+22500390,120,turnover,1,PT03M40.00S,03:40,Q1 03:40,25,22,1610612765.0,Duren,J. Duren offensive foul TURNOVER (1 TO),foul,substitution,3,Medium
+22500390,121,substitution,1,PT03M40.00S,03:40,Q1 03:40,25,22,1610612765.0,Duren,SUB out: J. Duren,turnover,substitution,3,Medium
+22500390,122,substitution,1,PT03M40.00S,03:40,Q1 03:40,25,22,1610612766.0,Bridges,SUB out: M. Bridges,substitution,substitution,3,Medium
+22500390,123,substitution,1,PT03M40.00S,03:40,Q1 03:40,25,22,1610612766.0,Knueppel,SUB out: K. Knueppel,substitution,substitution,3,Medium
+22500390,124,substitution,1,PT03M40.00S,03:40,Q1 03:40,25,22,1610612766.0,Green,SUB out: J. Green,substitution,substitution,3,Medium
+22500390,125,substitution,1,PT03M40.00S,03:40,Q1 03:40,25,22,1610612765.0,Holland II,SUB in: R. Holland II,substitution,substitution,3,Medium
+22500390,126,substitution,1,PT03M40.00S,03:40,Q1 03:40,25,22,1610612766.0,Miller,SUB in: B. Miller,substitution,substitution,3,Medium
+22500390,127,substitution,1,PT03M40.00S,03:40,Q1 03:40,25,22,1610612766.0,James,SUB in: S. James,substitution,substitution,3,Medium
+22500390,128,substitution,1,PT03M40.00S,03:40,Q1 03:40,25,22,1610612766.0,Salaün,SUB in: T. Salaün,substitution,2pt missed,3,Medium
+22500390,129,2pt,1,PT03M26.00S,03:26,Q1 03:26,25,22,1610612766.0,Diabaté,MISS M. Diabaté cutting Layup,substitution,rebound,3,Medium
+22500390,130,rebound,1,PT03M23.00S,03:23,Q1 03:23,25,22,1610612765.0,Cunningham,C. Cunningham REBOUND (Off:0 Def:3),2pt missed,2pt missed,3,Medium
+22500390,131,2pt,1,PT03M12.00S,03:12,Q1 03:12,25,22,1610612765.0,Stewart,MISS I. Stewart Hook,rebound,rebound,3,Medium
+22500390,132,rebound,1,PT03M11.00S,03:11,Q1 03:11,25,22,1610612766.0,Diabaté,M. Diabaté REBOUND (Off:0 Def:1),2pt missed,foul,3,Medium
+22500390,133,foul,1,PT03M09.00S,03:09,Q1 03:09,25,22,1610612765.0,Holland II,R. Holland II personal FOUL (1 PF) (Mann 2 FT),rebound,freethrow,3,Medium
+22500390,135,freethrow,1,PT03M09.00S,03:09,Q1 03:09,25,22,1610612766.0,Mann,MISS T. Mann Free Throw 1 of 2,foul,rebound,3,Medium
+22500390,136,rebound,1,PT03M09.00S,03:09,Q1 03:09,25,22,1610612766.0,,TEAM offensive REBOUND,freethrow,freethrow,3,Medium
+22500390,139,freethrow,1,PT03M09.00S,03:09,Q1 03:09,25,23,1610612766.0,Mann,T. Mann Free Throw 2 of 2 (1 PTS),rebound,substitution,2,Medium
+22500390,137,substitution,1,PT03M09.00S,03:09,Q1 03:09,25,22,1610612765.0,Cunningham,SUB out: C. Cunningham,freethrow,substitution,3,Medium
+22500390,138,substitution,1,PT03M09.00S,03:09,Q1 03:09,25,22,1610612765.0,Robinson,SUB in: D. Robinson,substitution,foul,3,Medium
+22500390,140,foul,1,PT02M54.00S,02:54,Q1 02:54,25,23,1610612766.0,Miller,B. Miller shooting personal FOUL (1 PF) (LeVert 2 FT),substitution,freethrow,2,Medium
+22500390,142,freethrow,1,PT02M54.00S,02:54,Q1 02:54,26,23,1610612765.0,LeVert,C. LeVert Free Throw 1 of 2 (1 PTS),foul,freethrow,3,Medium
+22500390,145,freethrow,1,PT02M54.00S,02:54,Q1 02:54,27,23,1610612765.0,LeVert,C. LeVert Free Throw 2 of 2 (2 PTS),freethrow,substitution,4,Medium
+22500390,143,substitution,1,PT02M54.00S,02:54,Q1 02:54,26,23,1610612765.0,Ivey,SUB out: J. Ivey,freethrow,substitution,3,Medium
+22500390,144,substitution,1,PT02M54.00S,02:54,Q1 02:54,26,23,1610612765.0,Thompson,SUB in: A. Thompson,substitution,turnover,3,Medium
+22500390,146,turnover,1,PT02M33.00S,02:33,Q1 02:33,27,23,1610612766.0,Miller,B. Miller bad pass out-of-bounds TURNOVER (1 TO),substitution,3pt missed,4,Medium
+22500390,147,3pt,1,PT02M20.00S,02:20,Q1 02:20,27,23,1610612765.0,Robinson,MISS D. Robinson 25' pullup 3PT,turnover,rebound,4,Medium
+22500390,148,rebound,1,PT02M17.00S,02:17,Q1 02:17,27,23,1610612766.0,Miller,B. Miller REBOUND (Off:0 Def:2),3pt missed,2pt missed,4,Medium
+22500390,149,2pt,1,PT02M10.00S,02:10,Q1 02:10,27,23,1610612766.0,Mann,MISS T. Mann 10' driving floating Shot,rebound,rebound,4,Medium
+22500390,150,rebound,1,PT02M06.00S,02:06,Q1 02:06,27,23,1610612765.0,LeVert,C. LeVert REBOUND (Off:0 Def:1),2pt missed,turnover,4,Medium
+22500390,151,turnover,1,PT01M59.00S,01:59,Q1 01:59,27,23,1610612765.0,LeVert,C. LeVert bad pass out-of-bounds TURNOVER (2 TO),rebound,turnover,4,Medium
+22500390,152,turnover,1,PT01M37.00S,01:37,Q1 01:37,27,23,1610612766.0,Miller,B. Miller lost ball TURNOVER (2 TO),turnover,steal,4,Medium
+22500390,153,steal,1,PT01M37.00S,01:37,Q1 01:37,27,23,1610612765.0,LeVert,C. LeVert STEAL (2 STL),turnover,3pt missed,4,Medium
+22500390,154,3pt,1,PT01M30.00S,01:30,Q1 01:30,27,23,1610612765.0,Stewart,MISS I. Stewart 25' 3PT,steal,rebound,4,Medium
+22500390,155,rebound,1,PT01M27.00S,01:27,Q1 01:27,27,23,1610612766.0,Miller,B. Miller REBOUND (Off:0 Def:3),3pt missed,3pt made,4,Medium
+22500390,156,3pt,1,PT01M21.00S,01:21,Q1 01:21,27,26,1610612766.0,Miller,B. Miller 26' 3PT pullup (3 PTS) (M. Diabaté 1 AST),rebound,foul,1,Medium
+22500390,158,foul,1,PT01M21.00S,01:21,Q1 01:21,27,26,1610612765.0,Stewart,I. Stewart loose ball personal FOUL (1 PF) (Diabaté 1 FT),3pt made,freethrow,1,Medium
+22500390,161,freethrow,1,PT01M21.00S,01:21,Q1 01:21,27,27,1610612766.0,Diabaté,M. Diabaté Free Throw 1 of 1 (1 PTS),foul,foul,0,Medium
+22500390,162,foul,1,PT01M11.00S,01:11,Q1 01:11,27,27,1610612766.0,Miller,B. Miller loose ball personal FOUL (2 PF) (Thompson 2 FT),freethrow,freethrow,0,Medium
+22500390,164,freethrow,1,PT01M11.00S,01:11,Q1 01:11,28,27,1610612765.0,Thompson,A. Thompson Free Throw 1 of 2 (5 PTS),foul,freethrow,1,Medium
+22500390,165,freethrow,1,PT01M11.00S,01:11,Q1 01:11,28,27,1610612765.0,Thompson,MISS A. Thompson Free Throw 2 of 2,freethrow,rebound,1,Medium
+22500390,166,rebound,1,PT01M10.00S,01:10,Q1 01:10,28,27,1610612765.0,,TEAM offensive REBOUND,freethrow,foul,1,Medium
+22500390,169,foul,1,PT01M10.00S,01:10,Q1 01:10,28,27,1610612766.0,Diabaté,M. Diabaté loose ball personal FOUL (1 PF) (Stewart 2 FT),rebound,freethrow,1,Medium
+22500390,171,freethrow,1,PT01M10.00S,01:10,Q1 01:10,29,27,1610612765.0,Stewart,I. Stewart Free Throw 1 of 2 (1 PTS),foul,freethrow,2,Medium
+22500390,172,freethrow,1,PT01M10.00S,01:10,Q1 01:10,30,27,1610612765.0,Stewart,I. Stewart Free Throw 2 of 2 (2 PTS),freethrow,2pt missed,3,Medium
+22500390,173,2pt,1,PT00M53.80S,00:53,Q1 00:53,30,27,1610612766.0,Miller,MISS B. Miller 8' driving floating Shot,freethrow,rebound,3,Medium
+22500390,174,rebound,1,PT00M51.30S,00:51,Q1 00:51,30,27,1610612765.0,Holland II,R. Holland II REBOUND (Off:0 Def:1),2pt missed,turnover,3,Medium
+22500390,304,turnover,1,PT00M45.20S,00:45,Q1 00:45,30,27,1610612765.0,Holland II,R. Holland II lost ball TURNOVER (1 TO),rebound,steal,3,Medium
+22500390,305,steal,1,PT00M45.20S,00:45,Q1 00:45,30,27,1610612766.0,Mann,T. Mann STEAL (2 STL),turnover,3pt missed,3,Medium
+22500390,178,3pt,1,PT00M38.20S,00:38,Q1 00:38,30,27,1610612766.0,Salaün,MISS T. Salaün 28' 3PT,steal,rebound,3,Medium
+22500390,179,rebound,1,PT00M34.90S,00:34,Q1 00:34,30,27,1610612765.0,Stewart,I. Stewart REBOUND (Off:0 Def:1),3pt missed,3pt made,3,Medium
+22500390,180,3pt,1,PT00M24.00S,00:24,Q1 00:24,33,27,1610612765.0,Robinson,D. Robinson 3PT step back (3 PTS) (A. Thompson 2 AST),rebound,turnover,6,Medium
+22500390,183,turnover,1,PT00M00.30S,00:00,Q1 00:00,33,27,1610612766.0,Miller,B. Miller offensive goaltending TURNOVER (3 TO),3pt made,substitution,6,Medium
+22500390,185,substitution,2,PT12M00.00S,12:00,Q2 12:00,33,27,1610612765.0,LeVert,SUB out: C. LeVert,turnover,substitution,6,Medium
+22500390,186,substitution,2,PT12M00.00S,12:00,Q2 12:00,33,27,1610612765.0,Thompson,SUB out: A. Thompson,substitution,substitution,6,Medium
+22500390,187,substitution,2,PT12M00.00S,12:00,Q2 12:00,33,27,1610612766.0,Diabaté,SUB out: M. Diabaté,substitution,substitution,6,Medium
+22500390,188,substitution,2,PT12M00.00S,12:00,Q2 12:00,33,27,1610612766.0,Mann,SUB out: T. Mann,substitution,substitution,6,Medium
+22500390,189,substitution,2,PT12M00.00S,12:00,Q2 12:00,33,27,1610612765.0,Cunningham,SUB in: C. Cunningham,substitution,substitution,6,Medium
+22500390,190,substitution,2,PT12M00.00S,12:00,Q2 12:00,33,27,1610612765.0,Green,SUB in: J. Green,substitution,substitution,6,Medium
+22500390,191,substitution,2,PT12M00.00S,12:00,Q2 12:00,33,27,1610612766.0,Kalkbrenner,SUB in: R. Kalkbrenner,substitution,substitution,6,Medium
+22500390,192,substitution,2,PT12M00.00S,12:00,Q2 12:00,33,27,1610612766.0,Ball,SUB in: L. Ball,substitution,3pt missed,6,Medium
+22500390,194,3pt,2,PT11M46.00S,11:46,Q2 11:46,33,27,1610612765.0,Green,MISS J. Green 26' 3PT,substitution,rebound,6,Medium
+22500390,195,rebound,2,PT11M41.00S,11:41,Q2 11:41,33,27,1610612766.0,James,S. James REBOUND (Off:0 Def:1),3pt missed,3pt missed,6,Medium
+22500390,196,3pt,2,PT11M36.00S,11:36,Q2 11:36,33,27,1610612766.0,Ball,MISS L. Ball 25' pullup 3PT,rebound,rebound,6,Medium
+22500390,197,rebound,2,PT11M33.00S,11:33,Q2 11:33,33,27,1610612765.0,Holland II,R. Holland II REBOUND (Off:0 Def:2),3pt missed,foul,6,Medium
+22500390,198,foul,2,PT11M29.00S,11:29,Q2 11:29,33,27,1610612765.0,Stewart,I. Stewart offensive FOUL (2 PF),rebound,turnover,6,Medium
+22500390,200,turnover,2,PT11M29.00S,11:29,Q2 11:29,33,27,1610612765.0,Stewart,I. Stewart offensive foul TURNOVER (1 TO),foul,turnover,6,Medium
+22500390,202,turnover,2,PT11M05.00S,11:05,Q2 11:05,33,27,1610612766.0,,CHA shot clock Team TURNOVER,turnover,2pt missed,6,Medium
+22500390,203,2pt,2,PT10M48.00S,10:48,Q2 10:48,33,27,1610612765.0,Cunningham,MISS C. Cunningham 8' turnaround Shot,turnover,rebound,6,Medium
+22500390,204,rebound,2,PT10M46.00S,10:46,Q2 10:46,33,27,1610612765.0,,TEAM offensive REBOUND,2pt missed,foul,6,Medium
+22500390,206,foul,2,PT10M41.00S,10:41,Q2 10:41,33,27,1610612766.0,Ball,L. Ball personal FOUL (1 PF),rebound,3pt missed,6,Medium
+22500390,208,3pt,2,PT10M33.00S,10:33,Q2 10:33,33,27,1610612765.0,Cunningham,MISS C. Cunningham 26' pullup 3PT,foul,rebound,6,Medium
+22500390,209,rebound,2,PT10M32.00S,10:32,Q2 10:32,33,27,1610612765.0,,TEAM offensive REBOUND,3pt missed,3pt missed,6,Medium
+22500390,211,3pt,2,PT10M27.00S,10:27,Q2 10:27,33,27,1610612765.0,Robinson,MISS D. Robinson 28' pullup 3PT,rebound,rebound,6,Medium
+22500390,212,rebound,2,PT10M23.00S,10:23,Q2 10:23,33,27,1610612766.0,Kalkbrenner,R. Kalkbrenner REBOUND (Off:0 Def:2),3pt missed,foul,6,Medium
+22500390,213,foul,2,PT10M08.00S,10:08,Q2 10:08,33,27,1610612765.0,Robinson,D. Robinson shooting personal FOUL (2 PF) (Miller 2 FT),rebound,freethrow,6,Medium
+22500390,215,freethrow,2,PT10M08.00S,10:08,Q2 10:08,33,28,1610612766.0,Miller,B. Miller Free Throw 1 of 2 (4 PTS),foul,freethrow,5,Medium
+22500390,216,freethrow,2,PT10M08.00S,10:08,Q2 10:08,33,29,1610612766.0,Miller,B. Miller Free Throw 2 of 2 (5 PTS),freethrow,2pt missed,4,Medium
+22500390,217,2pt,2,PT10M02.00S,10:02,Q2 10:02,33,29,1610612765.0,Stewart,MISS I. Stewart driving Layup - blocked,freethrow,block,4,Medium
+22500390,218,block,2,PT10M02.00S,10:02,Q2 10:02,33,29,1610612766.0,Kalkbrenner,R. Kalkbrenner BLOCK (1 BLK),2pt missed,rebound,4,Medium
+22500390,219,rebound,2,PT09M59.00S,09:59,Q2 09:59,33,29,1610612766.0,Kalkbrenner,R. Kalkbrenner REBOUND (Off:0 Def:3),block,3pt missed,4,Medium
+22500390,220,3pt,2,PT09M48.00S,09:48,Q2 09:48,33,29,1610612766.0,Ball,MISS L. Ball step back 3PT,rebound,rebound,4,Medium
+22500390,221,rebound,2,PT09M45.00S,09:45,Q2 09:45,33,29,1610612765.0,Stewart,I. Stewart REBOUND (Off:0 Def:2),3pt missed,2pt made,4,Medium
+22500390,222,2pt,2,PT09M40.00S,09:40,Q2 09:40,35,29,1610612765.0,Cunningham,C. Cunningham running Layup (10 PTS) (J. Green 1 AST),rebound,3pt missed,6,Medium
+22500390,224,3pt,2,PT09M28.00S,09:28,Q2 09:28,35,29,1610612766.0,James,MISS S. James 26' 3PT,2pt made,rebound,6,Medium
+22500390,225,rebound,2,PT09M24.00S,09:24,Q2 09:24,35,29,1610612765.0,Cunningham,C. Cunningham REBOUND (Off:0 Def:4),3pt missed,foul,6,Medium
+22500390,226,foul,2,PT09M17.00S,09:17,Q2 09:17,35,29,1610612766.0,James,S. James shooting personal FOUL (1 PF) (Cunningham 2 FT),rebound,freethrow,6,Medium
+22500390,228,freethrow,2,PT09M17.00S,09:17,Q2 09:17,36,29,1610612765.0,Cunningham,C. Cunningham Free Throw 1 of 2 (11 PTS),foul,freethrow,7,Medium
+22500390,235,freethrow,2,PT09M17.00S,09:17,Q2 09:17,37,29,1610612765.0,Cunningham,C. Cunningham Free Throw 2 of 2 (12 PTS),freethrow,substitution,8,Medium
+22500390,229,substitution,2,PT09M17.00S,09:17,Q2 09:17,36,29,1610612765.0,Robinson,SUB out: D. Robinson,freethrow,substitution,7,Medium
+22500390,230,substitution,2,PT09M17.00S,09:17,Q2 09:17,36,29,1610612766.0,James,SUB out: S. James,substitution,substitution,7,Medium
+22500390,231,substitution,2,PT09M17.00S,09:17,Q2 09:17,36,29,1610612766.0,Salaün,SUB out: T. Salaün,substitution,substitution,7,Medium
+22500390,232,substitution,2,PT09M17.00S,09:17,Q2 09:17,36,29,1610612765.0,Harris,SUB in: T. Harris,substitution,substitution,7,Medium
+22500390,233,substitution,2,PT09M17.00S,09:17,Q2 09:17,36,29,1610612766.0,Knueppel,SUB in: K. Knueppel,substitution,substitution,7,Medium
+22500390,234,substitution,2,PT09M17.00S,09:17,Q2 09:17,36,29,1610612766.0,Bridges,SUB in: M. Bridges,substitution,3pt made,7,Medium
+22500390,236,3pt,2,PT09M03.00S,09:03,Q2 09:03,37,32,1610612766.0,Knueppel,K. Knueppel 3PT pullup (11 PTS) (L. Ball 3 AST),substitution,3pt missed,5,Medium
+22500390,238,3pt,2,PT08M46.00S,08:46,Q2 08:46,37,32,1610612765.0,Cunningham,MISS C. Cunningham 25' pullup 3PT,3pt made,rebound,5,Medium
+22500390,239,rebound,2,PT08M46.00S,08:46,Q2 08:46,37,32,1610612766.0,Knueppel,K. Knueppel REBOUND (Off:0 Def:2),3pt missed,2pt made,5,Medium
+22500390,240,2pt,2,PT08M32.00S,08:32,Q2 08:32,37,34,1610612766.0,Miller,B. Miller driving finger roll Layup (7 PTS) (K. Knueppel 2 AST),rebound,turnover,3,Medium
+22500390,242,turnover,2,PT08M16.00S,08:16,Q2 08:16,37,34,1610612765.0,Harris,T. Harris lost ball TURNOVER (1 TO),2pt made,steal,3,Medium
+22500390,243,steal,2,PT08M16.00S,08:16,Q2 08:16,37,34,1610612766.0,Ball,L. Ball STEAL (1 STL),turnover,turnover,3,Medium
+22500390,350,turnover,2,PT08M16.00S,08:16,Q2 08:16,37,34,1610612766.0,Bridges,M. Bridges lost ball TURNOVER (2 TO),steal,steal,3,Medium
+22500390,351,steal,2,PT08M16.00S,08:16,Q2 08:16,37,34,1610612765.0,Cunningham,C. Cunningham STEAL (2 STL),turnover,foul,3,Medium
+22500390,247,foul,2,PT08M06.00S,08:06,Q2 08:06,37,34,1610612766.0,Miller,B. Miller shooting personal FOUL (3 PF) (Stewart 2 FT),steal,freethrow,3,Medium
+22500390,249,freethrow,2,PT08M06.00S,08:06,Q2 08:06,38,34,1610612765.0,Stewart,I. Stewart Free Throw 1 of 2 (3 PTS),foul,freethrow,4,Medium
+22500390,252,freethrow,2,PT08M06.00S,08:06,Q2 08:06,38,34,1610612765.0,Stewart,MISS I. Stewart Free Throw 2 of 2,freethrow,substitution,4,Medium
+22500390,250,substitution,2,PT08M06.00S,08:06,Q2 08:06,38,34,1610612766.0,Miller,SUB out: B. Miller,freethrow,substitution,4,Medium
+22500390,251,substitution,2,PT08M06.00S,08:06,Q2 08:06,38,34,1610612766.0,Green,SUB in: J. Green,substitution,rebound,4,Medium
+22500390,253,rebound,2,PT08M04.00S,08:04,Q2 08:04,38,34,1610612766.0,Knueppel,K. Knueppel REBOUND (Off:0 Def:3),substitution,turnover,4,Medium
+22500390,254,turnover,2,PT07M47.00S,07:47,Q2 07:47,38,34,1610612766.0,Ball,L. Ball bad pass out-of-bounds TURNOVER (2 TO),rebound,foul,4,Medium
+22500390,255,foul,2,PT07M33.00S,07:33,Q2 07:33,38,34,1610612766.0,Green,J. Green shooting personal FOUL (2 PF) (Harris 2 FT),turnover,freethrow,4,Medium
+22500390,257,freethrow,2,PT07M33.00S,07:33,Q2 07:33,39,34,1610612765.0,Harris,T. Harris Free Throw 1 of 2 (5 PTS),foul,freethrow,5,Medium
+22500390,260,freethrow,2,PT07M33.00S,07:33,Q2 07:33,40,34,1610612765.0,Harris,T. Harris Free Throw 2 of 2 (6 PTS),freethrow,substitution,6,Medium
+22500390,258,substitution,2,PT07M33.00S,07:33,Q2 07:33,39,34,1610612765.0,Holland II,SUB out: R. Holland II,freethrow,substitution,5,Medium
+22500390,259,substitution,2,PT07M33.00S,07:33,Q2 07:33,39,34,1610612765.0,Ivey,SUB in: J. Ivey,substitution,2pt missed,5,Medium
+22500390,261,2pt,2,PT07M14.00S,07:14,Q2 07:14,40,34,1610612766.0,Bridges,MISS M. Bridges Layup - blocked,substitution,block,6,Medium
+22500390,262,block,2,PT07M14.00S,07:14,Q2 07:14,40,34,1610612765.0,Harris,T. Harris BLOCK (1 BLK),2pt missed,rebound,6,Medium
+22500390,263,rebound,2,PT07M12.00S,07:12,Q2 07:12,40,34,1610612766.0,Kalkbrenner,R. Kalkbrenner REBOUND (Off:1 Def:3),block,2pt missed,6,Medium
+22500390,264,2pt,2,PT07M11.00S,07:11,Q2 07:11,40,34,1610612766.0,Kalkbrenner,MISS R. Kalkbrenner driving Layup - blocked,rebound,block,6,Medium
+22500390,265,block,2,PT07M11.00S,07:11,Q2 07:11,40,34,1610612765.0,Stewart,I. Stewart BLOCK (1 BLK),2pt missed,rebound,6,Medium
+22500390,266,rebound,2,PT07M11.00S,07:11,Q2 07:11,40,34,1610612765.0,Cunningham,C. Cunningham REBOUND (Off:0 Def:5),block,2pt missed,6,Medium
+22500390,267,2pt,2,PT07M07.00S,07:07,Q2 07:07,40,34,1610612765.0,Green,MISS J. Green running Layup - blocked,rebound,block,6,Medium
+22500390,268,block,2,PT07M07.00S,07:07,Q2 07:07,40,34,1610612766.0,Knueppel,K. Knueppel BLOCK (1 BLK),2pt missed,rebound,6,Medium
+22500390,269,rebound,2,PT07M05.00S,07:05,Q2 07:05,40,34,1610612765.0,,TEAM offensive REBOUND,block,3pt missed,6,Medium
+22500390,271,3pt,2,PT06M59.00S,06:59,Q2 06:59,40,34,1610612765.0,Cunningham,MISS C. Cunningham 25' pullup 3PT,rebound,rebound,6,Medium
+22500390,272,rebound,2,PT06M58.00S,06:58,Q2 06:58,40,34,1610612766.0,Bridges,M. Bridges REBOUND (Off:0 Def:2),3pt missed,2pt made,6,Medium
+22500390,273,2pt,2,PT06M51.00S,06:51,Q2 06:51,40,36,1610612766.0,Bridges,M. Bridges running Layup (5 PTS),rebound,foul,4,Medium
+22500390,274,foul,2,PT06M33.00S,06:33,Q2 06:33,40,36,1610612766.0,Bridges,M. Bridges shooting personal FOUL (2 PF) (Harris 2 FT),2pt made,timeout,4,Medium
+22500390,276,timeout,2,PT06M33.00S,06:33,Q2 06:33,40,36,1610612765.0,,DET Timeout,foul,freethrow,4,Medium
+22500390,283,freethrow,2,PT06M33.00S,06:33,Q2 06:33,40,36,1610612765.0,Harris,MISS T. Harris Free Throw 1 of 2,timeout,rebound,4,Medium
+22500390,284,rebound,2,PT06M33.00S,06:33,Q2 06:33,40,36,1610612765.0,,TEAM offensive REBOUND,freethrow,freethrow,4,Medium
+22500390,285,freethrow,2,PT06M33.00S,06:33,Q2 06:33,41,36,1610612765.0,Harris,T. Harris Free Throw 2 of 2 (7 PTS),rebound,substitution,5,Medium
+22500390,277,substitution,2,PT06M33.00S,06:33,Q2 06:33,40,36,1610612765.0,Cunningham,SUB out: C. Cunningham,freethrow,substitution,4,Medium
+22500390,278,substitution,2,PT06M33.00S,06:33,Q2 06:33,40,36,1610612765.0,Stewart,SUB out: I. Stewart,substitution,substitution,4,Medium
+22500390,279,substitution,2,PT06M33.00S,06:33,Q2 06:33,40,36,1610612766.0,Ball,SUB out: L. Ball,substitution,substitution,4,Medium
+22500390,280,substitution,2,PT06M33.00S,06:33,Q2 06:33,40,36,1610612765.0,LeVert,SUB in: C. LeVert,substitution,substitution,4,Medium
+22500390,281,substitution,2,PT06M33.00S,06:33,Q2 06:33,40,36,1610612765.0,Duren,SUB in: J. Duren,substitution,substitution,4,Medium
+22500390,282,substitution,2,PT06M33.00S,06:33,Q2 06:33,40,36,1610612766.0,Mann,SUB in: T. Mann,substitution,3pt made,4,Medium
+22500390,286,3pt,2,PT06M18.00S,06:18,Q2 06:18,41,39,1610612766.0,Bridges,M. Bridges 3PT  (8 PTS) (J. Green 1 AST),substitution,2pt missed,2,Medium
+22500390,288,2pt,2,PT05M55.00S,05:55,Q2 05:55,41,39,1610612765.0,Duren,MISS J. Duren driving floating Shot,3pt made,rebound,2,Medium
+22500390,289,rebound,2,PT05M53.00S,05:53,Q2 05:53,41,39,1610612765.0,Harris,T. Harris REBOUND (Off:2 Def:0),2pt missed,2pt missed,2,Medium
+22500390,290,2pt,2,PT05M53.00S,05:53,Q2 05:53,41,39,1610612765.0,Harris,MISS T. Harris tip Layup,rebound,rebound,2,Medium
+22500390,291,rebound,2,PT05M52.00S,05:52,Q2 05:52,41,39,1610612766.0,Mann,T. Mann REBOUND (Off:0 Def:1),2pt missed,foul,2,Medium
+22500390,292,foul,2,PT05M51.00S,05:51,Q2 05:51,41,39,1610612765.0,Duren,J. Duren shooting personal FOUL (3 PF) (Bridges 2 FT),rebound,freethrow,2,Medium
+22500390,294,freethrow,2,PT05M51.00S,05:51,Q2 05:51,41,40,1610612766.0,Bridges,M. Bridges Free Throw 1 of 2 (9 PTS),foul,freethrow,1,Medium
+22500390,299,freethrow,2,PT05M51.00S,05:51,Q2 05:51,41,41,1610612766.0,Bridges,M. Bridges Free Throw 2 of 2 (10 PTS),freethrow,substitution,0,Medium
+22500390,295,substitution,2,PT05M51.00S,05:51,Q2 05:51,41,40,1610612765.0,Green,SUB out: J. Green,freethrow,substitution,1,Medium
+22500390,296,substitution,2,PT05M51.00S,05:51,Q2 05:51,41,40,1610612765.0,Duren,SUB out: J. Duren,substitution,substitution,1,Medium
+22500390,297,substitution,2,PT05M51.00S,05:51,Q2 05:51,41,40,1610612765.0,Thompson,SUB in: A. Thompson,substitution,substitution,1,Medium
+22500390,298,substitution,2,PT05M51.00S,05:51,Q2 05:51,41,40,1610612765.0,Stewart,SUB in: I. Stewart,substitution,3pt missed,1,Medium
+22500390,300,3pt,2,PT05M42.00S,05:42,Q2 05:42,41,41,1610612765.0,LeVert,MISS C. LeVert 26' pullup 3PT,substitution,rebound,0,Medium
+22500390,301,rebound,2,PT05M38.00S,05:38,Q2 05:38,41,41,1610612765.0,Thompson,A. Thompson REBOUND (Off:2 Def:1),3pt missed,foul,0,Medium
+22500390,302,foul,2,PT05M38.00S,05:38,Q2 05:38,41,41,1610612766.0,Mann,T. Mann personal FOUL (2 PF) (Thompson 2 FT),rebound,freethrow,0,Medium
+22500390,306,freethrow,2,PT05M38.00S,05:38,Q2 05:38,41,41,1610612765.0,Thompson,MISS A. Thompson Free Throw 1 of 2,foul,rebound,0,Medium
+22500390,307,rebound,2,PT05M38.00S,05:38,Q2 05:38,41,41,1610612765.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Medium
+22500390,310,freethrow,2,PT05M38.00S,05:38,Q2 05:38,42,41,1610612765.0,Thompson,A. Thompson Free Throw 2 of 2 (6 PTS),rebound,substitution,1,Medium
+22500390,308,substitution,2,PT05M38.00S,05:38,Q2 05:38,41,41,1610612766.0,Kalkbrenner,SUB out: R. Kalkbrenner,freethrow,substitution,0,Medium
+22500390,309,substitution,2,PT05M38.00S,05:38,Q2 05:38,41,41,1610612766.0,Plumlee,SUB in: M. Plumlee,substitution,2pt missed,0,Medium
+22500390,311,2pt,2,PT05M24.00S,05:24,Q2 05:24,42,41,1610612766.0,Knueppel,MISS K. Knueppel 16' pullup Shot,substitution,rebound,1,Medium
+22500390,312,rebound,2,PT05M21.00S,05:21,Q2 05:21,42,41,1610612766.0,Mann,T. Mann REBOUND (Off:1 Def:1),2pt missed,3pt missed,1,Medium
+22500390,313,3pt,2,PT05M19.00S,05:19,Q2 05:19,42,41,1610612766.0,Green,MISS J. Green 3PT,rebound,rebound,1,Medium
+22500390,314,rebound,2,PT05M16.00S,05:16,Q2 05:16,42,41,1610612765.0,Stewart,I. Stewart REBOUND (Off:0 Def:3),3pt missed,2pt missed,1,Medium
+22500390,315,2pt,2,PT05M07.00S,05:07,Q2 05:07,42,41,1610612765.0,Ivey,MISS J. Ivey 12' step back Shot,rebound,rebound,1,Medium
+22500390,316,rebound,2,PT05M04.00S,05:04,Q2 05:04,42,41,1610612765.0,Stewart,I. Stewart REBOUND (Off:1 Def:3),2pt missed,turnover,1,Medium
+22500390,317,turnover,2,PT05M02.00S,05:02,Q2 05:02,42,41,1610612765.0,Stewart,I. Stewart lost ball TURNOVER (2 TO),rebound,steal,1,Medium
+22500390,318,steal,2,PT05M02.00S,05:02,Q2 05:02,42,41,1610612766.0,Green,J. Green STEAL (1 STL),turnover,3pt missed,1,Medium
+22500390,319,3pt,2,PT04M55.00S,04:55,Q2 04:55,42,41,1610612766.0,Green,MISS J. Green 3PT,steal,rebound,1,Medium
+22500390,320,rebound,2,PT04M49.00S,04:49,Q2 04:49,42,41,1610612766.0,Knueppel,K. Knueppel REBOUND (Off:1 Def:3),3pt missed,2pt missed,1,Medium
+22500390,321,2pt,2,PT04M49.00S,04:49,Q2 04:49,42,41,1610612766.0,Knueppel,MISS K. Knueppel tip Layup - blocked,rebound,block,1,Medium
+22500390,401,block,2,PT04M49.00S,04:49,Q2 04:49,42,41,1610612765.0,Thompson,A. Thompson BLOCK (1 BLK),2pt missed,rebound,1,Medium
+22500390,322,rebound,2,PT04M49.00S,04:49,Q2 04:49,42,41,1610612766.0,Mann,T. Mann REBOUND (Off:2 Def:1),block,turnover,1,Medium
+22500390,323,turnover,2,PT04M46.00S,04:46,Q2 04:46,42,41,1610612766.0,Green,J. Green lost ball TURNOVER (1 TO),rebound,steal,1,Medium
+22500390,324,steal,2,PT04M46.00S,04:46,Q2 04:46,42,41,1610612765.0,Thompson,A. Thompson STEAL (1 STL),turnover,3pt missed,1,Medium
+22500390,325,3pt,2,PT04M39.00S,04:39,Q2 04:39,42,41,1610612765.0,Ivey,MISS J. Ivey running 3PT,steal,rebound,1,Medium
+22500390,326,rebound,2,PT04M36.00S,04:36,Q2 04:36,42,41,1610612765.0,Stewart,I. Stewart REBOUND (Off:2 Def:3),3pt missed,turnover,1,Medium
+22500390,327,turnover,2,PT04M35.00S,04:35,Q2 04:35,42,41,1610612765.0,Stewart,I. Stewart lost ball TURNOVER (3 TO),rebound,steal,1,Medium
+22500390,328,steal,2,PT04M35.00S,04:35,Q2 04:35,42,41,1610612766.0,Green,J. Green STEAL (2 STL),turnover,2pt made,1,Medium
+22500390,329,2pt,2,PT04M30.00S,04:30,Q2 04:30,42,43,1610612766.0,Green,J. Green running Layup (5 PTS),steal,foul,1,Medium
+22500390,330,foul,2,PT04M07.00S,04:07,Q2 04:07,42,43,1610612765.0,Thompson,A. Thompson offensive FOUL (2 PF),2pt made,turnover,1,Medium
+22500390,332,turnover,2,PT04M07.00S,04:07,Q2 04:07,42,43,1610612765.0,Thompson,A. Thompson offensive foul TURNOVER (1 TO),foul,substitution,1,Medium
+22500390,333,substitution,2,PT04M07.00S,04:07,Q2 04:07,42,43,1610612765.0,Thompson,SUB out: A. Thompson,turnover,substitution,1,Medium
+22500390,334,substitution,2,PT04M07.00S,04:07,Q2 04:07,42,43,1610612765.0,Ivey,SUB out: J. Ivey,substitution,substitution,1,Medium
+22500390,335,substitution,2,PT04M07.00S,04:07,Q2 04:07,42,43,1610612766.0,Green,SUB out: J. Green,substitution,substitution,1,Medium
+22500390,336,substitution,2,PT04M07.00S,04:07,Q2 04:07,42,43,1610612765.0,Cunningham,SUB in: C. Cunningham,substitution,substitution,1,Medium
+22500390,337,substitution,2,PT04M07.00S,04:07,Q2 04:07,42,43,1610612765.0,Robinson,SUB in: D. Robinson,substitution,substitution,1,Medium
+22500390,338,substitution,2,PT04M07.00S,04:07,Q2 04:07,42,43,1610612766.0,James,SUB in: S. James,substitution,3pt missed,1,Medium
+22500390,339,3pt,2,PT03M52.00S,03:52,Q2 03:52,42,43,1610612766.0,Mann,MISS T. Mann 25' 3PT,substitution,rebound,1,Medium
+22500390,340,rebound,2,PT03M49.00S,03:49,Q2 03:49,42,43,1610612766.0,Plumlee,M. Plumlee REBOUND (Off:1 Def:0),3pt missed,2pt made,1,Medium
+22500390,341,2pt,2,PT03M35.00S,03:35,Q2 03:35,42,45,1610612766.0,Mann,T. Mann 19' pullup Jump Shot (3 PTS) (M. Plumlee 1 AST),rebound,turnover,3,Medium
+22500390,343,turnover,2,PT03M19.00S,03:19,Q2 03:19,42,45,1610612765.0,Stewart,I. Stewart lost ball TURNOVER (4 TO),2pt made,steal,3,Medium
+22500390,344,steal,2,PT03M19.00S,03:19,Q2 03:19,42,45,1610612766.0,Plumlee,M. Plumlee STEAL (1 STL),turnover,3pt missed,3,Medium
+22500390,345,3pt,2,PT03M14.00S,03:14,Q2 03:14,42,45,1610612766.0,Knueppel,MISS K. Knueppel 27' running pullup 3PT,steal,rebound,3,Medium
+22500390,346,rebound,2,PT03M11.00S,03:11,Q2 03:11,42,45,1610612765.0,Stewart,I. Stewart REBOUND (Off:2 Def:4),3pt missed,3pt made,3,Medium
+22500390,347,3pt,2,PT03M01.00S,03:01,Q2 03:01,45,45,1610612765.0,Stewart,I. Stewart 25' 3PT  (6 PTS) (C. Cunningham 3 AST),rebound,timeout,0,Medium
+22500390,349,timeout,2,PT03M01.00S,03:01,Q2 03:01,45,45,1610612766.0,,CHA Timeout,3pt made,substitution,0,Medium
+22500390,352,substitution,2,PT03M01.00S,03:01,Q2 03:01,45,45,1610612766.0,Mann,SUB out: T. Mann,timeout,substitution,0,Medium
+22500390,353,substitution,2,PT03M01.00S,03:01,Q2 03:01,45,45,1610612766.0,Ball,SUB in: L. Ball,substitution,foul,0,Medium
+22500390,355,foul,2,PT02M57.00S,02:57,Q2 02:57,45,45,1610612765.0,Robinson,D. Robinson personal FOUL (3 PF),substitution,substitution,0,Medium
+22500390,357,substitution,2,PT02M57.00S,02:57,Q2 02:57,45,45,1610612765.0,Robinson,SUB out: D. Robinson,foul,substitution,0,Medium
+22500390,358,substitution,2,PT02M57.00S,02:57,Q2 02:57,45,45,1610612765.0,Thompson,SUB in: A. Thompson,substitution,3pt missed,0,Medium
+22500390,359,3pt,2,PT02M38.00S,02:38,Q2 02:38,45,45,1610612766.0,Bridges,MISS M. Bridges 24' 3PT,substitution,rebound,0,Medium
+22500390,360,rebound,2,PT02M35.00S,02:35,Q2 02:35,45,45,1610612765.0,LeVert,C. LeVert REBOUND (Off:0 Def:2),3pt missed,2pt made,0,Medium
+22500390,361,2pt,2,PT02M18.00S,02:18,Q2 02:18,47,45,1610612765.0,Harris,T. Harris 13' step back Jump Shot (9 PTS),rebound,2pt missed,2,Medium
+22500390,363,2pt,2,PT02M05.00S,02:05,Q2 02:05,47,45,1610612766.0,Ball,MISS L. Ball driving Layup,2pt made,rebound,2,Medium
+22500390,364,rebound,2,PT02M05.00S,02:05,Q2 02:05,47,45,1610612765.0,Stewart,I. Stewart REBOUND (Off:2 Def:5),2pt missed,foul,2,Medium
+22500390,365,foul,2,PT02M05.00S,02:05,Q2 02:05,47,45,1610612766.0,Ball,L. Ball technical FOUL (1 Tech),rebound,freethrow,2,Medium
+22500390,366,freethrow,2,PT02M05.00S,02:05,Q2 02:05,48,45,1610612765.0,Cunningham,C. Cunningham technical Free Throw 1 of 1 (13 PTS),foul,2pt missed,3,Medium
+22500390,367,2pt,2,PT01M49.00S,01:49,Q2 01:49,48,45,1610612765.0,Cunningham,MISS C. Cunningham 6' driving floating Shot,freethrow,rebound,3,Medium
+22500390,368,rebound,2,PT01M46.00S,01:46,Q2 01:46,48,45,1610612765.0,Stewart,I. Stewart REBOUND (Off:3 Def:5),2pt missed,2pt made,3,Medium
+22500390,369,2pt,2,PT01M46.00S,01:46,Q2 01:46,50,45,1610612765.0,Stewart,I. Stewart tip Layup (8 PTS),rebound,2pt missed,5,Medium
+22500390,370,2pt,2,PT01M28.00S,01:28,Q2 01:28,50,45,1610612766.0,Bridges,MISS M. Bridges driving Layup,2pt made,rebound,5,Medium
+22500390,371,rebound,2,PT01M28.00S,01:28,Q2 01:28,50,45,1610612766.0,,TEAM offensive REBOUND,2pt missed,foul,5,Medium
+22500390,372,foul,2,PT01M28.00S,01:28,Q2 01:28,50,45,1610612765.0,Harris,T. Harris loose ball personal FOUL (1 PF),rebound,timeout,5,Medium
+22500390,374,timeout,2,PT01M28.00S,01:28,Q2 01:28,50,45,1610612765.0,,DET Timeout,foul,substitution,5,Medium
+22500390,376,substitution,2,PT01M28.00S,01:28,Q2 01:28,50,45,1610612766.0,Plumlee,SUB out: M. Plumlee,timeout,substitution,5,Medium
+22500390,377,substitution,2,PT01M28.00S,01:28,Q2 01:28,50,45,1610612766.0,Diabaté,SUB in: M. Diabaté,substitution,2pt missed,5,Medium
+22500390,378,2pt,2,PT01M20.00S,01:20,Q2 01:20,50,45,1610612766.0,Ball,MISS L. Ball 13' floating Shot - blocked,substitution,block,5,Medium
+22500390,379,block,2,PT01M20.00S,01:20,Q2 01:20,50,45,1610612765.0,Thompson,A. Thompson BLOCK (2 BLK),2pt missed,rebound,5,Medium
+22500390,380,rebound,2,PT01M18.00S,01:18,Q2 01:18,50,45,1610612765.0,Cunningham,C. Cunningham REBOUND (Off:0 Def:6),block,2pt made,5,Medium
+22500390,381,2pt,2,PT01M14.00S,01:14,Q2 01:14,52,45,1610612765.0,Cunningham,C. Cunningham driving Layup (15 PTS),rebound,2pt missed,7,Medium
+22500390,382,2pt,2,PT00M57.20S,00:57,Q2 00:57,52,45,1610612766.0,Bridges,MISS M. Bridges 11' driving floating Shot,2pt made,rebound,7,Medium
+22500390,383,rebound,2,PT00M55.80S,00:55,Q2 00:55,52,45,1610612765.0,Stewart,I. Stewart REBOUND (Off:3 Def:6),2pt missed,foul,7,Medium
+22500390,384,foul,2,PT00M42.30S,00:42,Q2 00:42,52,45,1610612766.0,Ball,L. Ball shooting personal FOUL (2 PF) (Harris 2 FT),rebound,freethrow,7,Medium
+22500390,386,freethrow,2,PT00M42.30S,00:42,Q2 00:42,52,45,1610612765.0,Harris,MISS T. Harris Free Throw 1 of 2,foul,rebound,7,Medium
+22500390,387,rebound,2,PT00M42.30S,00:42,Q2 00:42,52,45,1610612765.0,,TEAM offensive REBOUND,freethrow,freethrow,7,Medium
+22500390,390,freethrow,2,PT00M42.30S,00:42,Q2 00:42,53,45,1610612765.0,Harris,T. Harris Free Throw 2 of 2 (10 PTS),rebound,substitution,8,Medium
+22500390,388,substitution,2,PT00M42.30S,00:42,Q2 00:42,52,45,1610612766.0,James,SUB out: S. James,freethrow,substitution,7,Medium
+22500390,389,substitution,2,PT00M42.30S,00:42,Q2 00:42,52,45,1610612766.0,Miller,SUB in: B. Miller,substitution,2pt missed,7,Medium
+22500390,391,2pt,2,PT00M31.60S,00:31,Q2 00:31,53,45,1610612766.0,Ball,MISS L. Ball 7' driving floating Shot,substitution,rebound,8,Medium
+22500390,392,rebound,2,PT00M29.60S,00:29,Q2 00:29,53,45,1610612765.0,Cunningham,C. Cunningham REBOUND (Off:0 Def:7),2pt missed,2pt made,8,Medium
+22500390,393,2pt,2,PT00M07.20S,00:07,Q2 00:07,55,45,1610612765.0,Thompson,A. Thompson 8' turnaround Jump Shot (8 PTS) (C. Cunningham 4 AST),rebound,2pt missed,10,Medium
+22500390,395,2pt,2,PT00M03.20S,00:03,Q2 00:03,55,45,1610612766.0,Ball,MISS L. Ball 7' driving Layup - blocked,2pt made,block,10,Medium
+22500390,396,block,2,PT00M03.20S,00:03,Q2 00:03,55,45,1610612765.0,Stewart,I. Stewart BLOCK (2 BLK),2pt missed,rebound,10,Medium
+22500390,397,rebound,2,PT00M02.20S,00:02,Q2 00:02,55,45,1610612766.0,Miller,B. Miller REBOUND (Off:1 Def:3),block,2pt missed,10,Medium
+22500390,398,2pt,2,PT00M00.60S,00:00,Q2 00:00,55,45,1610612766.0,Miller,MISS B. Miller 7' Jump Shot,rebound,rebound,10,Medium
+22500390,399,rebound,2,PT00M00.60S,00:00,Q2 00:00,55,45,1610612766.0,,TEAM offensive REBOUND,2pt missed,substitution,10,Medium
+22500390,402,substitution,3,PT12M00.00S,12:00,Q3 12:00,55,45,1610612765.0,LeVert,SUB out: C. LeVert,rebound,substitution,10,Medium
+22500390,403,substitution,3,PT12M00.00S,12:00,Q3 12:00,55,45,1610612765.0,Stewart,SUB out: I. Stewart,substitution,substitution,10,Medium
+22500390,404,substitution,3,PT12M00.00S,12:00,Q3 12:00,55,45,1610612766.0,Diabaté,SUB out: M. Diabaté,substitution,substitution,10,Medium
+22500390,405,substitution,3,PT12M00.00S,12:00,Q3 12:00,55,45,1610612765.0,Duren,SUB in: J. Duren,substitution,substitution,10,Medium
+22500390,406,substitution,3,PT12M00.00S,12:00,Q3 12:00,55,45,1610612765.0,Robinson,SUB in: D. Robinson,substitution,substitution,10,Medium
+22500390,407,substitution,3,PT12M00.00S,12:00,Q3 12:00,55,45,1610612766.0,Kalkbrenner,SUB in: R. Kalkbrenner,substitution,3pt made,10,Medium
+22500390,409,3pt,3,PT11M45.00S,11:45,Q3 11:45,58,45,1610612765.0,Robinson,D. Robinson 25' 3PT pullup (6 PTS) (C. Cunningham 5 AST),substitution,2pt missed,13,Medium
+22500390,411,2pt,3,PT11M32.00S,11:32,Q3 11:32,58,45,1610612766.0,Miller,MISS B. Miller 9' turnaround Shot,3pt made,rebound,13,Medium
+22500390,412,rebound,3,PT11M32.00S,11:32,Q3 11:32,58,45,1610612765.0,Thompson,A. Thompson REBOUND (Off:2 Def:2),2pt missed,turnover,13,Medium
+22500390,413,turnover,3,PT11M22.00S,11:22,Q3 11:22,58,45,1610612765.0,Thompson,A. Thompson bad pass TURNOVER (2 TO),rebound,steal,13,Medium
+22500390,414,steal,3,PT11M22.00S,11:22,Q3 11:22,58,45,1610612766.0,Ball,L. Ball STEAL (2 STL),turnover,foul,13,Medium
+22500390,415,foul,3,PT11M22.00S,11:22,Q3 11:22,58,45,1610612765.0,Robinson,D. Robinson loose ball personal FOUL (4 PF),steal,2pt made,13,Medium
+22500390,417,2pt,3,PT11M10.00S,11:10,Q3 11:10,58,47,1610612766.0,Miller,B. Miller driving Layup (9 PTS) (R. Kalkbrenner 2 AST),foul,2pt made,11,Medium
+22500390,419,2pt,3,PT10M52.00S,10:52,Q3 10:52,60,47,1610612765.0,Duren,J. Duren Hook (8 PTS),2pt made,3pt missed,13,Medium
+22500390,420,3pt,3,PT10M38.00S,10:38,Q3 10:38,60,47,1610612766.0,Miller,MISS B. Miller 24' 3PT - blocked,2pt made,block,13,Medium
+22500390,421,block,3,PT10M38.00S,10:38,Q3 10:38,60,47,1610612765.0,Thompson,A. Thompson BLOCK (3 BLK),3pt missed,rebound,13,Medium
+22500390,422,rebound,3,PT10M35.00S,10:35,Q3 10:35,60,47,1610612765.0,Robinson,D. Robinson REBOUND (Off:0 Def:2),block,2pt missed,13,Medium
+22500390,423,2pt,3,PT10M29.00S,10:29,Q3 10:29,60,47,1610612765.0,Thompson,MISS A. Thompson running Layup,rebound,rebound,13,Medium
+22500390,424,rebound,3,PT10M26.00S,10:26,Q3 10:26,60,47,1610612766.0,Knueppel,K. Knueppel REBOUND (Off:1 Def:4),2pt missed,2pt missed,13,Medium
+22500390,425,2pt,3,PT10M23.00S,10:23,Q3 10:23,60,47,1610612766.0,Knueppel,MISS K. Knueppel running Layup,rebound,rebound,13,Medium
+22500390,427,rebound,3,PT10M20.00S,10:20,Q3 10:20,60,47,1610612765.0,Harris,T. Harris REBOUND (Off:2 Def:1),2pt missed,3pt made,13,Medium
+22500390,428,3pt,3,PT10M17.00S,10:17,Q3 10:17,63,47,1610612765.0,Cunningham,C. Cunningham 24' 3PT running (18 PTS) (T. Harris 1 AST),rebound,2pt made,16,Medium
+22500390,430,2pt,3,PT10M08.00S,10:08,Q3 10:08,63,49,1610612766.0,Bridges,M. Bridges alley-oop DUNK (12 PTS) (L. Ball 4 AST),3pt made,2pt missed,14,Medium
+22500390,432,2pt,3,PT09M58.00S,09:58,Q3 09:58,63,49,1610612765.0,Cunningham,MISS C. Cunningham driving floating Shot,2pt made,rebound,14,Medium
+22500390,433,rebound,3,PT09M57.00S,09:57,Q3 09:57,63,49,1610612765.0,,TEAM offensive REBOUND,2pt missed,foul,14,Medium
+22500390,435,foul,3,PT09M55.00S,09:55,Q3 09:55,63,49,1610612766.0,Ball,L. Ball personal FOUL (3 PF),rebound,2pt missed,14,Medium
+22500390,437,2pt,3,PT09M46.00S,09:46,Q3 09:46,63,49,1610612765.0,Cunningham,MISS C. Cunningham 8' driving floating Shot,foul,rebound,14,Medium
+22500390,438,rebound,3,PT09M43.00S,09:43,Q3 09:43,63,49,1610612765.0,Cunningham,C. Cunningham REBOUND (Off:1 Def:7),2pt missed,3pt made,14,Medium
+22500390,439,3pt,3,PT09M42.00S,09:42,Q3 09:42,66,49,1610612765.0,Robinson,D. Robinson 26' 3PT  (9 PTS) (C. Cunningham 6 AST),rebound,foul,17,Medium
+22500390,441,foul,3,PT09M27.00S,09:27,Q3 09:27,66,49,1610612765.0,Harris,T. Harris shooting personal FOUL (2 PF) (Knueppel 2 FT),3pt made,freethrow,17,Medium
+22500390,443,freethrow,3,PT09M27.00S,09:27,Q3 09:27,66,50,1610612766.0,Knueppel,K. Knueppel Free Throw 1 of 2 (12 PTS),foul,freethrow,16,Medium
+22500390,444,freethrow,3,PT09M27.00S,09:27,Q3 09:27,66,50,1610612766.0,Knueppel,MISS K. Knueppel Free Throw 2 of 2,freethrow,rebound,16,Medium
+22500390,445,rebound,3,PT09M26.00S,09:26,Q3 09:26,66,50,1610612766.0,,TEAM offensive REBOUND,freethrow,foul,16,Medium
+22500390,448,foul,3,PT09M17.00S,09:17,Q3 09:17,66,50,1610612766.0,Ball,L. Ball offensive FOUL (4 PF),rebound,turnover,16,Medium
+22500390,450,turnover,3,PT09M17.00S,09:17,Q3 09:17,66,50,1610612766.0,Ball,L. Ball offensive foul TURNOVER (3 TO),foul,turnover,16,Medium
+22500390,451,turnover,3,PT09M09.00S,09:09,Q3 09:09,66,50,1610612765.0,Cunningham,C. Cunningham bad pass TURNOVER (1 TO),turnover,steal,16,Medium
+22500390,452,steal,3,PT09M09.00S,09:09,Q3 09:09,66,50,1610612766.0,Miller,B. Miller STEAL (1 STL),turnover,2pt made,16,Medium
+22500390,453,2pt,3,PT09M04.00S,09:04,Q3 09:04,66,52,1610612766.0,Bridges,M. Bridges running alley-oop DUNK (14 PTS) (L. Ball 5 AST),steal,3pt made,14,Medium
+22500390,455,3pt,3,PT08M56.00S,08:56,Q3 08:56,69,52,1610612765.0,Robinson,D. Robinson 3PT  (12 PTS) (C. Cunningham 7 AST),2pt made,foul,17,Medium
+22500390,457,foul,3,PT08M56.00S,08:56,Q3 08:56,69,52,1610612766.0,Ball,L. Ball shooting personal FOUL (5 PF) (Robinson 1 FT),3pt made,freethrow,17,Medium
+22500390,461,freethrow,3,PT08M56.00S,08:56,Q3 08:56,70,52,1610612765.0,Robinson,D. Robinson Free Throw 1 of 1 (13 PTS),foul,substitution,18,Medium
+22500390,459,substitution,3,PT08M56.00S,08:56,Q3 08:56,69,52,1610612766.0,Ball,SUB out: L. Ball,freethrow,substitution,17,Medium
+22500390,460,substitution,3,PT08M56.00S,08:56,Q3 08:56,69,52,1610612766.0,Mann,SUB in: T. Mann,substitution,3pt missed,17,Medium
+22500390,462,3pt,3,PT08M40.00S,08:40,Q3 08:40,70,52,1610612766.0,Mann,MISS T. Mann 3PT,substitution,rebound,18,Medium
+22500390,463,rebound,3,PT08M38.00S,08:38,Q3 08:38,70,52,1610612765.0,Harris,T. Harris REBOUND (Off:2 Def:2),3pt missed,2pt missed,18,Medium
+22500390,464,2pt,3,PT08M27.00S,08:27,Q3 08:27,70,52,1610612765.0,Duren,MISS J. Duren 15' Jump Shot,rebound,rebound,18,Medium
+22500390,465,rebound,3,PT08M25.00S,08:25,Q3 08:25,70,52,1610612766.0,Knueppel,K. Knueppel REBOUND (Off:1 Def:5),2pt missed,2pt made,18,Medium
+22500390,466,2pt,3,PT08M16.00S,08:16,Q3 08:16,70,54,1610612766.0,Kalkbrenner,R. Kalkbrenner Layup (2 PTS) (K. Knueppel 3 AST),rebound,2pt made,16,Medium
+22500390,468,2pt,3,PT07M55.00S,07:55,Q3 07:55,72,54,1610612765.0,Duren,J. Duren bank Hook (10 PTS) (T. Harris 2 AST),2pt made,2pt missed,18,Medium
+22500390,470,2pt,3,PT07M30.00S,07:30,Q3 07:30,72,54,1610612766.0,Bridges,MISS M. Bridges driving Layup,2pt made,rebound,18,Medium
+22500390,471,rebound,3,PT07M28.00S,07:28,Q3 07:28,72,54,1610612765.0,Duren,J. Duren REBOUND (Off:1 Def:3),2pt missed,2pt made,18,Medium
+22500390,472,2pt,3,PT07M25.00S,07:25,Q3 07:25,74,54,1610612765.0,Thompson,A. Thompson running alley-oop DUNK (10 PTS) (C. Cunningham 8 AST),rebound,timeout,20,Medium
+22500390,474,timeout,3,PT07M25.00S,07:25,Q3 07:25,74,54,1610612766.0,,CHA Timeout,2pt made,3pt missed,20,Medium
+22500390,475,3pt,3,PT07M01.00S,07:01,Q3 07:01,74,54,1610612766.0,Miller,MISS B. Miller 3PT,timeout,rebound,20,Medium
+22500390,476,rebound,3,PT06M59.00S,06:59,Q3 06:59,74,54,1610612765.0,Robinson,D. Robinson REBOUND (Off:0 Def:3),3pt missed,3pt missed,20,Medium
+22500390,477,3pt,3,PT06M50.00S,06:50,Q3 06:50,74,54,1610612765.0,Robinson,MISS D. Robinson 24' 3PT,rebound,rebound,20,Medium
+22500390,478,rebound,3,PT06M47.00S,06:47,Q3 06:47,74,54,1610612766.0,Kalkbrenner,R. Kalkbrenner REBOUND (Off:1 Def:4),3pt missed,3pt missed,20,Medium
+22500390,479,3pt,3,PT06M35.00S,06:35,Q3 06:35,74,54,1610612766.0,Bridges,MISS M. Bridges 3PT,rebound,rebound,20,Medium
+22500390,480,rebound,3,PT06M32.00S,06:32,Q3 06:32,74,54,1610612766.0,Miller,B. Miller REBOUND (Off:2 Def:3),3pt missed,3pt missed,20,Medium
+22500390,481,3pt,3,PT06M28.00S,06:28,Q3 06:28,74,54,1610612766.0,Knueppel,MISS K. Knueppel 26' 3PT,rebound,rebound,20,Medium
+22500390,482,rebound,3,PT06M26.00S,06:26,Q3 06:26,74,54,1610612765.0,Duren,J. Duren REBOUND (Off:1 Def:4),3pt missed,turnover,20,Medium
+22500390,483,turnover,3,PT06M10.00S,06:10,Q3 06:10,74,54,1610612765.0,Cunningham,C. Cunningham step out-of-bounds TURNOVER (2 TO),rebound,substitution,20,Medium
+22500390,484,substitution,3,PT06M10.00S,06:10,Q3 06:10,74,54,1610612765.0,Thompson,SUB out: A. Thompson,turnover,substitution,20,Medium
+22500390,485,substitution,3,PT06M10.00S,06:10,Q3 06:10,74,54,1610612766.0,Miller,SUB out: B. Miller,substitution,substitution,20,Medium
+22500390,486,substitution,3,PT06M10.00S,06:10,Q3 06:10,74,54,1610612765.0,Ivey,SUB in: J. Ivey,substitution,substitution,20,Medium
+22500390,487,substitution,3,PT06M10.00S,06:10,Q3 06:10,74,54,1610612766.0,Green,SUB in: J. Green,substitution,foul,20,Medium
+22500390,488,foul,3,PT05M58.00S,05:58,Q3 05:58,74,54,1610612765.0,Ivey,J. Ivey shooting personal FOUL (1 PF) (Knueppel 2 FT),substitution,freethrow,20,Medium
+22500390,490,freethrow,3,PT05M58.00S,05:58,Q3 05:58,74,55,1610612766.0,Knueppel,K. Knueppel Free Throw 1 of 2 (13 PTS),foul,freethrow,19,Medium
+22500390,491,freethrow,3,PT05M58.00S,05:58,Q3 05:58,74,56,1610612766.0,Knueppel,K. Knueppel Free Throw 2 of 2 (14 PTS),freethrow,3pt missed,18,Medium
+22500390,492,3pt,3,PT05M42.00S,05:42,Q3 05:42,74,56,1610612765.0,Ivey,MISS J. Ivey 25' 3PT,freethrow,rebound,18,Medium
+22500390,493,rebound,3,PT05M39.00S,05:39,Q3 05:39,74,56,1610612765.0,Cunningham,C. Cunningham REBOUND (Off:2 Def:7),3pt missed,2pt made,18,Medium
+22500390,494,2pt,3,PT05M32.00S,05:32,Q3 05:32,76,56,1610612765.0,Ivey,J. Ivey 17' pullup Jump Shot (5 PTS) (D. Robinson 1 AST),rebound,2pt missed,20,Medium
+22500390,496,2pt,3,PT05M15.00S,05:15,Q3 05:15,76,56,1610612766.0,Mann,MISS T. Mann driving floating Shot,2pt made,rebound,20,Medium
+22500390,497,rebound,3,PT05M13.00S,05:13,Q3 05:13,76,56,1610612765.0,Duren,J. Duren REBOUND (Off:1 Def:5),2pt missed,3pt missed,20,Medium
+22500390,498,3pt,3,PT05M10.00S,05:10,Q3 05:10,76,56,1610612765.0,Cunningham,MISS C. Cunningham 25' running 3PT,rebound,rebound,20,Medium
+22500390,499,rebound,3,PT05M06.00S,05:06,Q3 05:06,76,56,1610612766.0,Knueppel,K. Knueppel REBOUND (Off:1 Def:6),3pt missed,foul,20,Medium
+22500390,500,foul,3,PT05M03.00S,05:03,Q3 05:03,76,56,1610612765.0,Ivey,J. Ivey shooting personal FOUL (2 PF) (Knueppel 2 FT),rebound,freethrow,20,Medium
+22500390,502,freethrow,3,PT05M03.00S,05:03,Q3 05:03,76,57,1610612766.0,Knueppel,K. Knueppel Free Throw 1 of 2 (15 PTS),foul,freethrow,19,Medium
+22500390,509,freethrow,3,PT05M03.00S,05:03,Q3 05:03,76,58,1610612766.0,Knueppel,K. Knueppel Free Throw 2 of 2 (16 PTS),freethrow,substitution,18,Medium
+22500390,503,substitution,3,PT05M03.00S,05:03,Q3 05:03,76,57,1610612765.0,Harris,SUB out: T. Harris,freethrow,substitution,19,Medium
+22500390,504,substitution,3,PT05M03.00S,05:03,Q3 05:03,76,57,1610612765.0,Robinson,SUB out: D. Robinson,substitution,substitution,19,Medium
+22500390,505,substitution,3,PT05M03.00S,05:03,Q3 05:03,76,57,1610612766.0,Kalkbrenner,SUB out: R. Kalkbrenner,substitution,substitution,19,Medium
+22500390,506,substitution,3,PT05M03.00S,05:03,Q3 05:03,76,57,1610612765.0,Stewart,SUB in: I. Stewart,substitution,substitution,19,Medium
+22500390,507,substitution,3,PT05M03.00S,05:03,Q3 05:03,76,57,1610612765.0,LeVert,SUB in: C. LeVert,substitution,substitution,19,Medium
+22500390,508,substitution,3,PT05M03.00S,05:03,Q3 05:03,76,57,1610612766.0,Diabaté,SUB in: M. Diabaté,substitution,3pt missed,19,Medium
+22500390,510,3pt,3,PT04M45.00S,04:45,Q3 04:45,76,58,1610612765.0,Stewart,MISS I. Stewart 3PT,substitution,rebound,18,Medium
+22500390,511,rebound,3,PT04M42.00S,04:42,Q3 04:42,76,58,1610612766.0,Diabaté,M. Diabaté REBOUND (Off:0 Def:2),3pt missed,3pt made,18,Medium
+22500390,512,3pt,3,PT04M30.00S,04:30,Q3 04:30,76,61,1610612766.0,Knueppel,K. Knueppel 24' 3PT pullup (19 PTS) (T. Mann 2 AST),rebound,2pt missed,15,Medium
+22500390,514,2pt,3,PT04M07.00S,04:07,Q3 04:07,76,61,1610612765.0,Duren,MISS J. Duren Hook,3pt made,rebound,15,Medium
+22500390,515,rebound,3,PT04M07.00S,04:07,Q3 04:07,76,61,1610612765.0,Duren,J. Duren REBOUND (Off:2 Def:5),2pt missed,foul,15,Medium
+22500390,516,foul,3,PT04M07.00S,04:07,Q3 04:07,76,61,1610612766.0,Mann,T. Mann shooting personal FOUL (3 PF) (Duren 2 FT),rebound,freethrow,15,Medium
+22500390,518,freethrow,3,PT04M07.00S,04:07,Q3 04:07,76,61,1610612765.0,Duren,MISS J. Duren Free Throw 1 of 2,foul,rebound,15,Medium
+22500390,519,rebound,3,PT04M07.00S,04:07,Q3 04:07,76,61,1610612765.0,,TEAM offensive REBOUND,freethrow,freethrow,15,Medium
+22500390,520,freethrow,3,PT04M07.00S,04:07,Q3 04:07,77,61,1610612765.0,Duren,J. Duren Free Throw 2 of 2 (11 PTS),rebound,3pt made,16,Medium
+22500390,521,3pt,3,PT03M52.00S,03:52,Q3 03:52,77,64,1610612766.0,Bridges,M. Bridges 25' 3PT  (17 PTS) (K. Knueppel 4 AST),freethrow,2pt missed,13,Medium
+22500390,523,2pt,3,PT03M36.00S,03:36,Q3 03:36,77,64,1610612765.0,Duren,MISS J. Duren 7' turnaround Shot,3pt made,rebound,13,Medium
+22500390,524,rebound,3,PT03M33.00S,03:33,Q3 03:33,77,64,1610612766.0,Mann,T. Mann REBOUND (Off:2 Def:2),2pt missed,3pt missed,13,Medium
+22500390,525,3pt,3,PT03M26.00S,03:26,Q3 03:26,77,64,1610612766.0,Green,MISS J. Green 3PT,rebound,rebound,13,Medium
+22500390,526,rebound,3,PT03M23.00S,03:23,Q3 03:23,77,64,1610612765.0,Duren,J. Duren REBOUND (Off:2 Def:6),3pt missed,2pt made,13,Medium
+22500390,527,2pt,3,PT03M05.00S,03:05,Q3 03:05,79,64,1610612765.0,Duren,J. Duren DUNK (13 PTS) (J. Ivey 2 AST),rebound,foul,15,Medium
+22500390,529,foul,3,PT03M01.00S,03:01,Q3 03:01,79,64,1610612765.0,Ivey,J. Ivey personal FOUL (3 PF) (Bridges 2 FT),2pt made,freethrow,15,Medium
+22500390,531,freethrow,3,PT03M01.00S,03:01,Q3 03:01,79,65,1610612766.0,Bridges,M. Bridges Free Throw 1 of 2 (18 PTS),foul,freethrow,14,Medium
+22500390,536,freethrow,3,PT03M01.00S,03:01,Q3 03:01,79,66,1610612766.0,Bridges,M. Bridges Free Throw 2 of 2 (19 PTS),freethrow,substitution,13,Medium
+22500390,532,substitution,3,PT03M01.00S,03:01,Q3 03:01,79,65,1610612765.0,Duren,SUB out: J. Duren,freethrow,substitution,14,Medium
+22500390,533,substitution,3,PT03M01.00S,03:01,Q3 03:01,79,65,1610612766.0,Mann,SUB out: T. Mann,substitution,substitution,14,Medium
+22500390,534,substitution,3,PT03M01.00S,03:01,Q3 03:01,79,65,1610612765.0,Holland II,SUB in: R. Holland II,substitution,substitution,14,Medium
+22500390,535,substitution,3,PT03M01.00S,03:01,Q3 03:01,79,65,1610612766.0,James,SUB in: S. James,substitution,3pt missed,14,Medium
+22500390,537,3pt,3,PT02M41.00S,02:41,Q3 02:41,79,66,1610612765.0,Holland II,MISS R. Holland II pullup 3PT,substitution,rebound,13,Medium
+22500390,538,rebound,3,PT02M38.00S,02:38,Q3 02:38,79,66,1610612766.0,James,S. James REBOUND (Off:0 Def:2),3pt missed,timeout,13,Medium
+22500390,540,timeout,3,PT02M38.00S,02:38,Q3 02:38,79,66,1610612765.0,,DET Timeout,rebound,substitution,13,Medium
+22500390,541,substitution,3,PT02M38.00S,02:38,Q3 02:38,79,66,1610612765.0,Cunningham,SUB out: C. Cunningham,timeout,substitution,13,Medium
+22500390,542,substitution,3,PT02M38.00S,02:38,Q3 02:38,79,66,1610612765.0,Thompson,SUB in: A. Thompson,substitution,3pt missed,13,Medium
+22500390,543,3pt,3,PT02M24.00S,02:24,Q3 02:24,79,66,1610612766.0,Knueppel,MISS K. Knueppel 26' pullup 3PT,substitution,rebound,13,Medium
+22500390,544,rebound,3,PT02M21.00S,02:21,Q3 02:21,79,66,1610612765.0,Ivey,J. Ivey REBOUND (Off:0 Def:1),3pt missed,turnover,13,Medium
+22500390,545,turnover,3,PT02M16.00S,02:16,Q3 02:16,79,66,1610612765.0,Ivey,J. Ivey bad pass TURNOVER (1 TO),rebound,steal,13,Medium
+22500390,546,steal,3,PT02M16.00S,02:16,Q3 02:16,79,66,1610612766.0,Green,J. Green STEAL (3 STL),turnover,foul,13,Medium
+22500390,547,foul,3,PT02M04.00S,02:04,Q3 02:04,79,66,1610612766.0,Bridges,M. Bridges offensive FOUL (3 PF),steal,turnover,13,Medium
+22500390,549,turnover,3,PT02M04.00S,02:04,Q3 02:04,79,66,1610612766.0,Bridges,M. Bridges offensive foul TURNOVER (3 TO),foul,substitution,13,Medium
+22500390,552,substitution,3,PT02M04.00S,02:04,Q3 02:04,79,66,1610612766.0,Bridges,SUB out: M. Bridges,turnover,substitution,13,Medium
+22500390,553,substitution,3,PT02M04.00S,02:04,Q3 02:04,79,66,1610612766.0,Knueppel,SUB out: K. Knueppel,substitution,substitution,13,Medium
+22500390,554,substitution,3,PT02M04.00S,02:04,Q3 02:04,79,66,1610612766.0,Salaün,SUB in: T. Salaün,substitution,substitution,13,Medium
+22500390,555,substitution,3,PT02M04.00S,02:04,Q3 02:04,79,66,1610612766.0,Miller,SUB in: B. Miller,substitution,3pt missed,13,Medium
+22500390,556,3pt,3,PT01M48.00S,01:48,Q3 01:48,79,66,1610612765.0,LeVert,MISS C. LeVert 25' 3PT,substitution,rebound,13,Medium
+22500390,557,rebound,3,PT01M46.00S,01:46,Q3 01:46,79,66,1610612766.0,Green,J. Green REBOUND (Off:0 Def:1),3pt missed,2pt missed,13,Medium
+22500390,558,2pt,3,PT01M42.00S,01:42,Q3 01:42,79,66,1610612766.0,James,MISS S. James running Layup - blocked,rebound,block,13,Medium
+22500390,559,block,3,PT01M42.00S,01:42,Q3 01:42,79,66,1610612765.0,LeVert,C. LeVert BLOCK (1 BLK),2pt missed,rebound,13,Medium
+22500390,560,rebound,3,PT01M39.00S,01:39,Q3 01:39,79,66,1610612765.0,Holland II,R. Holland II REBOUND (Off:0 Def:3),block,turnover,13,Medium
+22500390,562,turnover,3,PT01M25.00S,01:25,Q3 01:25,79,66,1610612765.0,Thompson,A. Thompson lost ball out-of-bounds TURNOVER (3 TO),rebound,2pt missed,13,Medium
+22500390,563,2pt,3,PT01M10.00S,01:10,Q3 01:10,79,66,1610612766.0,Miller,MISS B. Miller 12' pullup Shot,turnover,rebound,13,Medium
+22500390,564,rebound,3,PT01M07.00S,01:07,Q3 01:07,79,66,1610612766.0,James,S. James REBOUND (Off:1 Def:2),2pt missed,3pt missed,13,Medium
+22500390,565,3pt,3,PT01M02.00S,01:02,Q3 01:02,79,66,1610612766.0,James,MISS S. James 25' 3PT,rebound,rebound,13,Medium
+22500390,566,rebound,3,PT01M00.00S,01:00,Q3 01:00,79,66,1610612766.0,Green,J. Green REBOUND (Off:1 Def:1),3pt missed,2pt made,13,Medium
+22500390,567,2pt,3,PT00M57.40S,00:57,Q3 00:57,79,68,1610612766.0,Salaün,T. Salaün 6' floating Jump Shot (2 PTS) (J. Green 2 AST),rebound,foul,11,Medium
+22500390,569,foul,3,PT00M57.40S,00:57,Q3 00:57,79,68,1610612765.0,Stewart,I. Stewart shooting personal FOUL (3 PF) (Salaün 1 FT),2pt made,freethrow,11,Medium
+22500390,571,freethrow,3,PT00M57.40S,00:57,Q3 00:57,79,69,1610612766.0,Salaün,T. Salaün Free Throw 1 of 1 (3 PTS),foul,foul,10,Medium
+22500390,572,foul,3,PT00M57.40S,00:57,Q3 00:57,79,69,1610612765.0,Stewart,I. Stewart loose ball personal FOUL (4 PF) (Diabaté 1 FT),freethrow,freethrow,10,Medium
+22500390,575,freethrow,3,PT00M57.40S,00:57,Q3 00:57,79,69,1610612766.0,Diabaté,MISS M. Diabaté Free Throw 1 of 1,foul,rebound,10,Medium
+22500390,576,rebound,3,PT00M55.10S,00:55,Q3 00:55,79,69,1610612765.0,Stewart,I. Stewart REBOUND (Off:3 Def:7),freethrow,2pt missed,10,Medium
+22500390,577,2pt,3,PT00M40.20S,00:40,Q3 00:40,79,69,1610612765.0,Holland II,MISS R. Holland II driving Layup,rebound,rebound,10,Medium
+22500390,578,rebound,3,PT00M38.70S,00:38,Q3 00:38,79,69,1610612765.0,Stewart,I. Stewart REBOUND (Off:4 Def:7),2pt missed,2pt missed,10,Medium
+22500390,579,2pt,3,PT00M38.50S,00:38,Q3 00:38,79,69,1610612765.0,Stewart,MISS I. Stewart tip DUNK,rebound,rebound,10,Medium
+22500390,580,rebound,3,PT00M36.70S,00:36,Q3 00:36,79,69,1610612765.0,Holland II,R. Holland II REBOUND (Off:1 Def:3),2pt missed,2pt missed,10,Medium
+22500390,619,2pt,3,PT00M35.50S,00:35,Q3 00:35,79,69,1610612765.0,Holland II,MISS R. Holland II putback Layup - blocked,rebound,block,10,Medium
+22500390,620,block,3,PT00M35.50S,00:35,Q3 00:35,79,69,1610612766.0,James,S. James BLOCK (1 BLK),2pt missed,rebound,10,Medium
+22500390,621,rebound,3,PT00M35.50S,00:35,Q3 00:35,79,69,1610612766.0,Green,J. Green REBOUND (Off:1 Def:2),block,turnover,10,Medium
+22500390,581,turnover,3,PT00M30.30S,00:30,Q3 00:30,79,69,1610612766.0,Green,J. Green bad pass TURNOVER (2 TO),rebound,steal,10,Medium
+22500390,582,steal,3,PT00M30.30S,00:30,Q3 00:30,79,69,1610612765.0,Ivey,J. Ivey STEAL (1 STL),turnover,3pt missed,10,Medium
+22500390,583,3pt,3,PT00M26.60S,00:26,Q3 00:26,79,69,1610612765.0,Ivey,MISS J. Ivey 26' running pullup 3PT,steal,rebound,10,Medium
+22500390,584,rebound,3,PT00M22.90S,00:22,Q3 00:22,79,69,1610612766.0,James,S. James REBOUND (Off:1 Def:3),3pt missed,foul,10,Medium
+22500390,585,foul,3,PT00M02.90S,00:02,Q3 00:02,79,69,1610612765.0,Stewart,I. Stewart flagrant-type-1 personal FOUL (5 PF) (Miller 3 FT),rebound,freethrow,10,Medium
+22500390,590,freethrow,3,PT00M02.90S,00:02,Q3 00:02,79,70,1610612766.0,Miller,B. Miller flagrant Free Throw 1 of 3 (10 PTS),foul,freethrow,9,Medium
+22500390,591,freethrow,3,PT00M02.90S,00:02,Q3 00:02,79,71,1610612766.0,Miller,B. Miller flagrant Free Throw 2 of 3 (11 PTS),freethrow,freethrow,8,Medium
+22500390,592,freethrow,3,PT00M02.90S,00:02,Q3 00:02,79,72,1610612766.0,Miller,B. Miller flagrant Free Throw 3 of 3 (12 PTS),freethrow,substitution,7,Medium
+22500390,588,substitution,3,PT00M02.90S,00:02,Q3 00:02,79,69,1610612765.0,Stewart,SUB out: I. Stewart,freethrow,substitution,10,Medium
+22500390,589,substitution,3,PT00M02.90S,00:02,Q3 00:02,79,69,1610612765.0,Duren,SUB in: J. Duren,substitution,substitution,10,Medium
+22500390,593,substitution,3,PT00M02.90S,00:02,Q3 00:02,79,72,1610612766.0,Green,SUB out: J. Green,substitution,substitution,7,Medium
+22500390,594,substitution,3,PT00M02.90S,00:02,Q3 00:02,79,72,1610612766.0,Knueppel,SUB in: K. Knueppel,substitution,3pt missed,7,Medium
+22500390,595,3pt,3,PT00M00.50S,00:00,Q3 00:00,79,72,1610612766.0,Knueppel,MISS K. Knueppel 26' 3PT,substitution,rebound,7,Medium
+22500390,596,rebound,3,PT00M00.50S,00:00,Q3 00:00,79,72,1610612766.0,,TEAM offensive REBOUND,3pt missed,substitution,7,Medium
+22500390,598,substitution,4,PT12M00.00S,12:00,Q4 12:00,79,72,1610612765.0,LeVert,SUB out: C. LeVert,rebound,substitution,7,Medium
+22500390,599,substitution,4,PT12M00.00S,12:00,Q4 12:00,79,72,1610612765.0,Thompson,SUB out: A. Thompson,substitution,substitution,7,Medium
+22500390,600,substitution,4,PT12M00.00S,12:00,Q4 12:00,79,72,1610612765.0,Ivey,SUB out: J. Ivey,substitution,substitution,7,Medium
+22500390,601,substitution,4,PT12M00.00S,12:00,Q4 12:00,79,72,1610612766.0,Knueppel,SUB out: K. Knueppel,substitution,substitution,7,Medium
+22500390,602,substitution,4,PT12M00.00S,12:00,Q4 12:00,79,72,1610612765.0,Cunningham,SUB in: C. Cunningham,substitution,substitution,7,Medium
+22500390,603,substitution,4,PT12M00.00S,12:00,Q4 12:00,79,72,1610612765.0,Green,SUB in: J. Green,substitution,substitution,7,Medium
+22500390,604,substitution,4,PT12M00.00S,12:00,Q4 12:00,79,72,1610612765.0,Robinson,SUB in: D. Robinson,substitution,substitution,7,Medium
+22500390,605,substitution,4,PT12M00.00S,12:00,Q4 12:00,79,72,1610612766.0,Ball,SUB in: L. Ball,substitution,3pt made,7,Medium
+22500390,607,3pt,4,PT11M42.00S,11:42,Q4 11:42,79,75,1610612766.0,James,S. James 27' 3PT  (3 PTS) (L. Ball 6 AST),substitution,2pt made,4,Medium
+22500390,609,2pt,4,PT11M19.00S,11:19,Q4 11:19,81,75,1610612765.0,Holland II,R. Holland II driving Layup (2 PTS) (C. Cunningham 9 AST),3pt made,turnover,6,Medium
+22500390,611,turnover,4,PT11M02.00S,11:02,Q4 11:02,81,75,1610612766.0,James,S. James bad pass TURNOVER (1 TO),2pt made,steal,6,Medium
+22500390,612,steal,4,PT11M02.00S,11:02,Q4 11:02,81,75,1610612765.0,Green,J. Green STEAL (1 STL),turnover,3pt missed,6,Medium
+22500390,613,3pt,4,PT10M52.00S,10:52,Q4 10:52,81,75,1610612765.0,Holland II,MISS R. Holland II 3PT,steal,rebound,6,Medium
+22500390,614,rebound,4,PT10M48.00S,10:48,Q4 10:48,81,75,1610612766.0,Diabaté,M. Diabaté REBOUND (Off:0 Def:3),3pt missed,2pt made,6,Medium
+22500390,615,2pt,4,PT10M43.00S,10:43,Q4 10:43,81,77,1610612766.0,Miller,B. Miller running Layup (14 PTS),rebound,2pt made,4,Medium
+22500390,617,2pt,4,PT10M29.00S,10:29,Q4 10:29,83,77,1610612765.0,Cunningham,C. Cunningham driving Layup (20 PTS),2pt made,foul,6,Medium
+22500390,618,foul,4,PT10M29.00S,10:29,Q4 10:29,83,77,1610612766.0,Salaün,T. Salaün shooting personal FOUL (1 PF) (Cunningham 1 FT),2pt made,freethrow,6,Medium
+22500390,623,freethrow,4,PT10M29.00S,10:29,Q4 10:29,83,77,1610612765.0,Cunningham,MISS C. Cunningham Free Throw 1 of 1,foul,rebound,6,Medium
+22500390,624,rebound,4,PT10M25.00S,10:25,Q4 10:25,83,77,1610612766.0,Salaün,T. Salaün REBOUND (Off:0 Def:1),freethrow,turnover,6,Medium
+22500390,625,turnover,4,PT10M13.00S,10:13,Q4 10:13,83,77,1610612766.0,Miller,B. Miller lost ball TURNOVER (4 TO),rebound,steal,6,Medium
+22500390,626,steal,4,PT10M13.00S,10:13,Q4 10:13,83,77,1610612765.0,Holland II,R. Holland II STEAL (1 STL),turnover,foul,6,Medium
+22500390,627,foul,4,PT10M12.00S,10:12,Q4 10:12,83,77,1610612766.0,Salaün,T. Salaün personal FOUL (2 PF),steal,2pt missed,6,Medium
+22500390,630,2pt,4,PT10M03.00S,10:03,Q4 10:03,83,77,1610612765.0,Cunningham,MISS C. Cunningham driving Layup,foul,rebound,6,Medium
+22500390,631,rebound,4,PT10M03.00S,10:03,Q4 10:03,83,77,1610612765.0,,TEAM offensive REBOUND,2pt missed,foul,6,Medium
+22500390,632,foul,4,PT10M03.00S,10:03,Q4 10:03,83,77,1610612766.0,Salaün,T. Salaün loose ball personal FOUL (3 PF),rebound,2pt made,6,Medium
+22500390,634,2pt,4,PT09M47.00S,09:47,Q4 09:47,85,77,1610612765.0,Duren,J. Duren DUNK (15 PTS) (R. Holland II 1 AST),foul,3pt missed,8,Medium
+22500390,636,3pt,4,PT09M38.00S,09:38,Q4 09:38,85,77,1610612766.0,Salaün,MISS T. Salaün 24' 3PT,2pt made,rebound,8,Medium
+22500390,637,rebound,4,PT09M33.00S,09:33,Q4 09:33,85,77,1610612765.0,Green,J. Green REBOUND (Off:0 Def:1),3pt missed,2pt missed,8,Medium
+22500390,638,2pt,4,PT09M31.00S,09:31,Q4 09:31,85,77,1610612765.0,Green,MISS J. Green running Layup - blocked,rebound,block,8,Medium
+22500390,639,block,4,PT09M31.00S,09:31,Q4 09:31,85,77,1610612766.0,Miller,B. Miller BLOCK (1 BLK),2pt missed,rebound,8,Medium
+22500390,640,rebound,4,PT09M31.00S,09:31,Q4 09:31,85,77,1610612765.0,Holland II,R. Holland II REBOUND (Off:2 Def:3),block,foul,8,Medium
+22500390,641,foul,4,PT09M31.00S,09:31,Q4 09:31,85,77,1610612766.0,Salaün,T. Salaün shooting personal FOUL (4 PF) (Holland II 2 FT),rebound,freethrow,8,Medium
+22500390,643,freethrow,4,PT09M31.00S,09:31,Q4 09:31,86,77,1610612765.0,Holland II,R. Holland II Free Throw 1 of 2 (3 PTS),foul,freethrow,9,Medium
+22500390,646,freethrow,4,PT09M31.00S,09:31,Q4 09:31,87,77,1610612765.0,Holland II,R. Holland II Free Throw 2 of 2 (4 PTS),freethrow,substitution,10,Medium
+22500390,644,substitution,4,PT09M31.00S,09:31,Q4 09:31,86,77,1610612766.0,Diabaté,SUB out: M. Diabaté,freethrow,substitution,9,Medium
+22500390,645,substitution,4,PT09M31.00S,09:31,Q4 09:31,86,77,1610612766.0,Kalkbrenner,SUB in: R. Kalkbrenner,substitution,turnover,9,Medium
+22500390,647,turnover,4,PT09M19.00S,09:19,Q4 09:19,87,77,1610612766.0,Ball,L. Ball bad pass TURNOVER (4 TO),substitution,steal,10,Medium
+22500390,648,steal,4,PT09M19.00S,09:19,Q4 09:19,87,77,1610612765.0,Robinson,D. Robinson STEAL (1 STL),turnover,2pt made,10,Medium
+22500390,649,2pt,4,PT09M17.00S,09:17,Q4 09:17,89,77,1610612765.0,Robinson,D. Robinson running DUNK (15 PTS),steal,timeout,12,Medium
+22500390,650,timeout,4,PT09M16.00S,09:16,Q4 09:16,89,77,1610612766.0,,CHA Timeout,2pt made,substitution,12,Medium
+22500390,651,substitution,4,PT09M16.00S,09:16,Q4 09:16,89,77,1610612766.0,James,SUB out: S. James,timeout,substitution,12,Medium
+22500390,652,substitution,4,PT09M16.00S,09:16,Q4 09:16,89,77,1610612766.0,Knueppel,SUB in: K. Knueppel,substitution,3pt missed,12,Medium
+22500390,653,3pt,4,PT08M57.00S,08:57,Q4 08:57,89,77,1610612766.0,Miller,MISS B. Miller 25' 3PT,substitution,rebound,12,Medium
+22500390,654,rebound,4,PT08M54.00S,08:54,Q4 08:54,89,77,1610612765.0,Green,J. Green REBOUND (Off:0 Def:2),3pt missed,2pt made,12,Medium
+22500390,655,2pt,4,PT08M43.00S,08:43,Q4 08:43,91,77,1610612765.0,Duren,J. Duren driving bank Jump Shot (17 PTS),rebound,foul,14,Medium
+22500390,656,foul,4,PT08M31.00S,08:31,Q4 08:31,91,77,1610612765.0,Cunningham,C. Cunningham personal FOUL (2 PF),2pt made,2pt missed,14,Medium
+22500390,658,2pt,4,PT08M21.00S,08:21,Q4 08:21,91,77,1610612766.0,Ball,MISS L. Ball driving Layup,foul,rebound,14,Medium
+22500390,659,rebound,4,PT08M20.00S,08:20,Q4 08:20,91,77,1610612766.0,,TEAM offensive REBOUND,2pt missed,3pt missed,14,Medium
+22500390,661,3pt,4,PT08M14.00S,08:14,Q4 08:14,91,77,1610612766.0,Knueppel,MISS K. Knueppel 26' 3PT,rebound,rebound,14,Medium
+22500390,662,rebound,4,PT08M10.00S,08:10,Q4 08:10,91,77,1610612766.0,Salaün,T. Salaün REBOUND (Off:1 Def:1),3pt missed,2pt missed,14,Medium
+22500390,663,2pt,4,PT08M09.00S,08:09,Q4 08:09,91,77,1610612766.0,Salaün,MISS T. Salaün 6' putback Layup,rebound,rebound,14,Medium
+22500390,664,rebound,4,PT08M08.00S,08:08,Q4 08:08,91,77,1610612766.0,Kalkbrenner,R. Kalkbrenner REBOUND (Off:2 Def:4),2pt missed,3pt missed,14,Medium
+22500390,665,3pt,4,PT08M00.00S,08:00,Q4 08:00,91,77,1610612766.0,Ball,MISS L. Ball 3PT,rebound,rebound,14,Medium
+22500390,666,rebound,4,PT07M56.00S,07:56,Q4 07:56,91,77,1610612765.0,Holland II,R. Holland II REBOUND (Off:2 Def:4),3pt missed,3pt missed,14,Medium
+22500390,667,3pt,4,PT07M52.00S,07:52,Q4 07:52,91,77,1610612765.0,Robinson,MISS D. Robinson running 3PT,rebound,rebound,14,Medium
+22500390,668,rebound,4,PT07M50.00S,07:50,Q4 07:50,91,77,1610612765.0,Duren,J. Duren REBOUND (Off:3 Def:6),3pt missed,2pt missed,14,Medium
+22500390,669,2pt,4,PT07M34.00S,07:34,Q4 07:34,91,77,1610612765.0,Duren,MISS J. Duren floating Shot,rebound,rebound,14,Medium
+22500390,670,rebound,4,PT07M34.00S,07:34,Q4 07:34,91,77,1610612765.0,Duren,J. Duren REBOUND (Off:4 Def:6),2pt missed,2pt missed,14,Medium
+22500390,671,2pt,4,PT07M32.00S,07:32,Q4 07:32,91,77,1610612765.0,Duren,MISS J. Duren putback Layup - blocked,rebound,block,14,Medium
+22500390,672,block,4,PT07M32.00S,07:32,Q4 07:32,91,77,1610612766.0,Miller,B. Miller BLOCK (2 BLK),2pt missed,rebound,14,Medium
+22500390,673,rebound,4,PT07M30.00S,07:30,Q4 07:30,91,77,1610612766.0,Ball,L. Ball REBOUND (Off:0 Def:1),block,2pt missed,14,Medium
+22500390,674,2pt,4,PT07M24.00S,07:24,Q4 07:24,91,77,1610612766.0,Ball,MISS L. Ball running Layup,rebound,rebound,14,Medium
+22500390,675,rebound,4,PT07M22.00S,07:22,Q4 07:22,91,77,1610612765.0,Holland II,R. Holland II REBOUND (Off:2 Def:5),2pt missed,2pt missed,14,Medium
+22500390,676,2pt,4,PT07M05.00S,07:05,Q4 07:05,91,77,1610612765.0,Cunningham,MISS C. Cunningham driving Layup,rebound,rebound,14,Medium
+22500390,677,rebound,4,PT07M02.00S,07:02,Q4 07:02,91,77,1610612766.0,Kalkbrenner,R. Kalkbrenner REBOUND (Off:2 Def:5),2pt missed,turnover,14,Medium
+22500390,678,turnover,4,PT06M59.00S,06:59,Q4 06:59,91,77,1610612766.0,Knueppel,K. Knueppel lost ball out-of-bounds TURNOVER (2 TO),rebound,substitution,14,Low
+22500390,679,substitution,4,PT06M59.00S,06:59,Q4 06:59,91,77,1610612766.0,Salaün,SUB out: T. Salaün,turnover,substitution,14,Low
+22500390,680,substitution,4,PT06M59.00S,06:59,Q4 06:59,91,77,1610612766.0,Bridges,SUB in: M. Bridges,substitution,2pt made,14,Low
+22500390,681,2pt,4,PT06M44.00S,06:44,Q4 06:44,93,77,1610612765.0,Duren,J. Duren driving Layup (19 PTS),substitution,2pt missed,16,Low
+22500390,682,2pt,4,PT06M35.00S,06:35,Q4 06:35,93,77,1610612766.0,Miller,MISS B. Miller driving Layup,2pt made,rebound,16,Low
+22500390,683,rebound,4,PT06M33.00S,06:33,Q4 06:33,93,77,1610612765.0,Green,J. Green REBOUND (Off:0 Def:3),2pt missed,2pt missed,16,Low
+22500390,684,2pt,4,PT06M30.00S,06:30,Q4 06:30,93,77,1610612765.0,Holland II,MISS R. Holland II 6' driving Layup - blocked,rebound,block,16,Low
+22500390,685,block,4,PT06M30.00S,06:30,Q4 06:30,93,77,1610612766.0,Ball,L. Ball BLOCK (2 BLK),2pt missed,rebound,16,Low
+22500390,691,rebound,4,PT06M30.00S,06:30,Q4 06:30,93,77,1610612765.0,,TEAM offensive REBOUND,block,foul,16,Low
+22500390,692,foul,4,PT06M30.00S,06:30,Q4 06:30,93,77,1610612766.0,Ball,L. Ball loose ball personal FOUL (6 PF) (Holland II 2 FT),rebound,freethrow,16,Low
+22500390,696,freethrow,4,PT06M30.00S,06:30,Q4 06:30,93,77,1610612765.0,Holland II,MISS R. Holland II Free Throw 1 of 2,foul,rebound,16,Low
+22500390,697,rebound,4,PT06M30.00S,06:30,Q4 06:30,93,77,1610612765.0,,TEAM offensive REBOUND,freethrow,freethrow,16,Low
+22500390,698,freethrow,4,PT06M30.00S,06:30,Q4 06:30,94,77,1610612765.0,Holland II,R. Holland II Free Throw 2 of 2 (5 PTS),rebound,substitution,17,Low
+22500390,686,substitution,4,PT06M30.00S,06:30,Q4 06:30,93,77,1610612765.0,Robinson,SUB out: D. Robinson,freethrow,substitution,16,Low
+22500390,687,substitution,4,PT06M30.00S,06:30,Q4 06:30,93,77,1610612765.0,Harris,SUB in: T. Harris,substitution,substitution,16,Low
+22500390,694,substitution,4,PT06M30.00S,06:30,Q4 06:30,93,77,1610612766.0,Ball,SUB out: L. Ball,substitution,substitution,16,Low
+22500390,695,substitution,4,PT06M30.00S,06:30,Q4 06:30,93,77,1610612766.0,James,SUB in: S. James,substitution,foul,16,Low
+22500390,699,foul,4,PT06M18.00S,06:18,Q4 06:18,94,77,1610612765.0,Cunningham,C. Cunningham personal FOUL (3 PF),substitution,substitution,17,Low
+22500390,701,substitution,4,PT06M18.00S,06:18,Q4 06:18,94,77,1610612765.0,Green,SUB out: J. Green,foul,substitution,17,Low
+22500390,702,substitution,4,PT06M18.00S,06:18,Q4 06:18,94,77,1610612765.0,Thompson,SUB in: A. Thompson,substitution,2pt made,17,Low
+22500390,703,2pt,4,PT06M08.00S,06:08,Q4 06:08,94,79,1610612766.0,Kalkbrenner,R. Kalkbrenner DUNK (4 PTS) (K. Knueppel 5 AST),substitution,3pt missed,15,Low
+22500390,705,3pt,4,PT05M53.00S,05:53,Q4 05:53,94,79,1610612765.0,Holland II,MISS R. Holland II 24' 3PT,2pt made,rebound,15,Low
+22500390,706,rebound,4,PT05M50.00S,05:50,Q4 05:50,94,79,1610612765.0,Duren,J. Duren REBOUND (Off:5 Def:6),3pt missed,2pt made,15,Low
+22500390,707,2pt,4,PT05M45.00S,05:45,Q4 05:45,96,79,1610612765.0,Harris,T. Harris driving Layup (12 PTS) (J. Duren 1 AST),rebound,turnover,17,Low
+22500390,709,turnover,4,PT05M27.00S,05:27,Q4 05:27,96,79,1610612766.0,Bridges,M. Bridges lost ball TURNOVER (4 TO),2pt made,steal,17,Low
+22500390,710,steal,4,PT05M27.00S,05:27,Q4 05:27,96,79,1610612765.0,Thompson,A. Thompson STEAL (2 STL),turnover,2pt made,17,Low
+22500390,711,2pt,4,PT05M25.00S,05:25,Q4 05:25,98,79,1610612765.0,Thompson,A. Thompson running Layup (12 PTS) (J. Duren 2 AST),steal,timeout,19,Low
+22500390,713,timeout,4,PT05M25.00S,05:25,Q4 05:25,98,79,1610612766.0,,CHA Timeout,2pt made,substitution,19,Low
+22500390,714,substitution,4,PT05M25.00S,05:25,Q4 05:25,98,79,1610612765.0,Duren,SUB out: J. Duren,timeout,substitution,19,Low
+22500390,715,substitution,4,PT05M25.00S,05:25,Q4 05:25,98,79,1610612766.0,Kalkbrenner,SUB out: R. Kalkbrenner,substitution,substitution,19,Low
+22500390,716,substitution,4,PT05M25.00S,05:25,Q4 05:25,98,79,1610612765.0,Stewart,SUB in: I. Stewart,substitution,substitution,19,Low
+22500390,717,substitution,4,PT05M25.00S,05:25,Q4 05:25,98,79,1610612766.0,Plumlee,SUB in: M. Plumlee,substitution,2pt missed,19,Low
+22500390,718,2pt,4,PT05M09.00S,05:09,Q4 05:09,98,79,1610612766.0,Miller,MISS B. Miller 8' pullup Shot - blocked,substitution,block,19,Low
+22500390,719,block,4,PT05M09.00S,05:09,Q4 05:09,98,79,1610612765.0,Thompson,A. Thompson BLOCK (4 BLK),2pt missed,rebound,19,Low
+22500390,720,rebound,4,PT05M07.00S,05:07,Q4 05:07,98,79,1610612765.0,Cunningham,C. Cunningham REBOUND (Off:2 Def:8),block,2pt made,19,Low
+22500390,721,2pt,4,PT05M04.00S,05:04,Q4 05:04,100,79,1610612765.0,Holland II,R. Holland II running DUNK (7 PTS) (C. Cunningham 10 AST),rebound,turnover,21,Low
+22500390,723,turnover,4,PT04M50.00S,04:50,Q4 04:50,100,79,1610612766.0,Knueppel,K. Knueppel bad pass out-of-bounds TURNOVER (3 TO),2pt made,2pt made,21,Low
+22500390,724,2pt,4,PT04M32.00S,04:32,Q4 04:32,102,79,1610612765.0,Harris,T. Harris 8' turnaround Jump Shot (14 PTS),turnover,2pt missed,23,Low
+22500390,725,2pt,4,PT04M18.00S,04:18,Q4 04:18,102,79,1610612766.0,Bridges,MISS M. Bridges 9' driving finger roll Layup,2pt made,rebound,23,Low
+22500390,726,rebound,4,PT04M16.00S,04:16,Q4 04:16,102,79,1610612765.0,Harris,T. Harris REBOUND (Off:2 Def:3),2pt missed,2pt made,23,Low
+22500390,727,2pt,4,PT04M13.00S,04:13,Q4 04:13,104,79,1610612765.0,Cunningham,C. Cunningham running alley-oop DUNK (22 PTS) (T. Harris 3 AST),rebound,foul,25,Low
+22500390,729,foul,4,PT04M09.00S,04:09,Q4 04:09,104,79,1610612765.0,Thompson,A. Thompson personal FOUL (3 PF),2pt made,substitution,25,Low
+22500390,731,substitution,4,PT04M09.00S,04:09,Q4 04:09,104,79,1610612765.0,Cunningham,SUB out: C. Cunningham,foul,substitution,25,Low
+22500390,732,substitution,4,PT04M09.00S,04:09,Q4 04:09,104,79,1610612766.0,Bridges,SUB out: M. Bridges,substitution,substitution,25,Low
+22500390,733,substitution,4,PT04M09.00S,04:09,Q4 04:09,104,79,1610612765.0,Jenkins,SUB in: D. Jenkins,substitution,substitution,25,Low
+22500390,734,substitution,4,PT04M09.00S,04:09,Q4 04:09,104,79,1610612766.0,Salaün,SUB in: T. Salaün,substitution,turnover,25,Low
+22500390,735,turnover,4,PT04M00.00S,04:00,Q4 04:00,104,79,1610612766.0,Miller,B. Miller lost ball TURNOVER (5 TO),substitution,steal,25,Low
+22500390,736,steal,4,PT04M00.00S,04:00,Q4 04:00,104,79,1610612765.0,Thompson,A. Thompson STEAL (3 STL),turnover,turnover,25,Low
+22500390,737,turnover,4,PT03M57.00S,03:57,Q4 03:57,104,79,1610612765.0,Thompson,A. Thompson lost ball TURNOVER (4 TO),steal,steal,25,Low
+22500390,738,steal,4,PT03M57.00S,03:57,Q4 03:57,104,79,1610612766.0,James,S. James STEAL (1 STL),turnover,2pt missed,25,Low
+22500390,739,2pt,4,PT03M52.00S,03:52,Q4 03:52,104,79,1610612766.0,Salaün,MISS T. Salaün running Layup - blocked,steal,block,25,Low
+22500390,740,block,4,PT03M52.00S,03:52,Q4 03:52,104,79,1610612765.0,Stewart,I. Stewart BLOCK (3 BLK),2pt missed,rebound,25,Low
+22500390,741,rebound,4,PT03M49.00S,03:49,Q4 03:49,104,79,1610612765.0,Jenkins,D. Jenkins REBOUND (Off:0 Def:1),block,2pt missed,25,Low
+22500390,743,2pt,4,PT03M47.00S,03:47,Q4 03:47,104,79,1610612765.0,Holland II,MISS R. Holland II running alley-oop DUNK,rebound,rebound,25,Low
+22500390,744,rebound,4,PT03M46.00S,03:46,Q4 03:46,104,79,1610612766.0,Miller,B. Miller REBOUND (Off:2 Def:4),2pt missed,3pt missed,25,Low
+22500390,800,3pt,4,PT03M40.00S,03:40,Q4 03:40,104,79,1610612766.0,Miller,MISS B. Miller 24' pullup 3PT,rebound,rebound,25,Low
+22500390,801,rebound,4,PT03M40.00S,03:40,Q4 03:40,104,79,1610612766.0,Miller,B. Miller REBOUND (Off:3 Def:4),3pt missed,turnover,25,Low
+22500390,747,turnover,4,PT03M33.00S,03:33,Q4 03:33,104,79,1610612766.0,Knueppel,K. Knueppel bad pass TURNOVER (4 TO),rebound,steal,25,Low
+22500390,748,steal,4,PT03M33.00S,03:33,Q4 03:33,104,79,1610612765.0,Stewart,I. Stewart STEAL (1 STL),turnover,2pt missed,25,Low
+22500390,749,2pt,4,PT03M22.00S,03:22,Q4 03:22,104,79,1610612765.0,Jenkins,MISS D. Jenkins driving Layup,steal,rebound,25,Low
+22500390,750,rebound,4,PT03M20.00S,03:20,Q4 03:20,104,79,1610612766.0,Salaün,T. Salaün REBOUND (Off:1 Def:2),2pt missed,2pt made,25,Low
+22500390,751,2pt,4,PT03M15.00S,03:15,Q4 03:15,104,81,1610612766.0,Salaün,T. Salaün running Layup (5 PTS),rebound,2pt made,23,Low
+22500390,752,2pt,4,PT02M53.00S,02:53,Q4 02:53,106,81,1610612765.0,Harris,T. Harris 7' turnaround fadeaway Jump Shot (16 PTS),2pt made,2pt missed,25,Low
+22500390,753,2pt,4,PT02M42.00S,02:42,Q4 02:42,106,81,1610612766.0,James,MISS S. James driving Layup,2pt made,rebound,25,Low
+22500390,754,rebound,4,PT02M40.00S,02:40,Q4 02:40,106,81,1610612765.0,Holland II,R. Holland II REBOUND (Off:2 Def:6),2pt missed,2pt made,25,Low
+22500390,755,2pt,4,PT02M25.00S,02:25,Q4 02:25,108,81,1610612765.0,Thompson,A. Thompson driving Layup (14 PTS),rebound,timeout,27,Low
+22500390,757,timeout,4,PT02M25.00S,02:25,Q4 02:25,108,81,1610612766.0,,CHA Timeout,2pt made,substitution,27,Low
+22500390,758,substitution,4,PT02M25.00S,02:25,Q4 02:25,108,81,1610612765.0,Thompson,SUB out: A. Thompson,timeout,substitution,27,Low
+22500390,759,substitution,4,PT02M25.00S,02:25,Q4 02:25,108,81,1610612765.0,Harris,SUB out: T. Harris,substitution,substitution,27,Low
+22500390,760,substitution,4,PT02M25.00S,02:25,Q4 02:25,108,81,1610612765.0,Stewart,SUB out: I. Stewart,substitution,substitution,27,Low
+22500390,761,substitution,4,PT02M25.00S,02:25,Q4 02:25,108,81,1610612766.0,Knueppel,SUB out: K. Knueppel,substitution,substitution,27,Low
+22500390,762,substitution,4,PT02M25.00S,02:25,Q4 02:25,108,81,1610612766.0,Plumlee,SUB out: M. Plumlee,substitution,substitution,27,Low
+22500390,763,substitution,4,PT02M25.00S,02:25,Q4 02:25,108,81,1610612766.0,Miller,SUB out: B. Miller,substitution,substitution,27,Low
+22500390,764,substitution,4,PT02M25.00S,02:25,Q4 02:25,108,81,1610612765.0,Sasser,SUB in: M. Sasser,substitution,substitution,27,Low
+22500390,765,substitution,4,PT02M25.00S,02:25,Q4 02:25,108,81,1610612765.0,Green,SUB in: J. Green,substitution,substitution,27,Low
+22500390,766,substitution,4,PT02M25.00S,02:25,Q4 02:25,108,81,1610612765.0,Reed,SUB in: P. Reed,substitution,substitution,27,Low
+22500390,767,substitution,4,PT02M25.00S,02:25,Q4 02:25,108,81,1610612766.0,Connaughton,SUB in: P. Connaughton,substitution,substitution,27,Low
+22500390,768,substitution,4,PT02M25.00S,02:25,Q4 02:25,108,81,1610612766.0,Mann,SUB in: T. Mann,substitution,substitution,27,Low
+22500390,769,substitution,4,PT02M25.00S,02:25,Q4 02:25,108,81,1610612766.0,Diabaté,SUB in: M. Diabaté,substitution,turnover,27,Low
+22500390,770,turnover,4,PT02M10.00S,02:10,Q4 02:10,108,81,1610612766.0,Mann,T. Mann bad pass TURNOVER (2 TO),substitution,steal,27,Low
+22500390,771,steal,4,PT02M10.00S,02:10,Q4 02:10,108,81,1610612765.0,Green,J. Green STEAL (2 STL),turnover,2pt made,27,Low
+22500390,772,2pt,4,PT02M07.00S,02:07,Q4 02:07,110,81,1610612765.0,Green,J. Green running Layup (2 PTS),steal,2pt missed,29,Low
+22500390,774,2pt,4,PT01M45.00S,01:45,Q4 01:45,110,81,1610612766.0,Diabaté,MISS M. Diabaté 6' Hook,2pt made,rebound,29,Low
+22500390,775,rebound,4,PT01M42.00S,01:42,Q4 01:42,110,81,1610612765.0,Holland II,R. Holland II REBOUND (Off:2 Def:7),2pt missed,3pt missed,29,Low
+22500390,776,3pt,4,PT01M37.00S,01:37,Q4 01:37,110,81,1610612765.0,Holland II,MISS R. Holland II 26' 3PT,rebound,rebound,29,Low
+22500390,777,rebound,4,PT01M35.00S,01:35,Q4 01:35,110,81,1610612766.0,James,S. James REBOUND (Off:1 Def:4),3pt missed,2pt made,29,Low
+22500390,780,2pt,4,PT01M29.00S,01:29,Q4 01:29,110,83,1610612766.0,James,S. James running Layup (5 PTS),rebound,foul,27,Low
+22500390,781,foul,4,PT01M15.00S,01:15,Q4 01:15,110,83,1610612765.0,Reed,P. Reed offensive FOUL (1 PF),2pt made,turnover,27,Low
+22500390,783,turnover,4,PT01M15.00S,01:15,Q4 01:15,110,83,1610612765.0,Reed,P. Reed offensive foul TURNOVER (1 TO),foul,turnover,27,Low
+22500390,802,turnover,4,PT01M01.00S,01:01,Q4 01:01,110,83,1610612766.0,Salaün,T. Salaün lost ball TURNOVER (1 TO),turnover,steal,27,Low
+22500390,803,steal,4,PT01M01.00S,01:01,Q4 01:01,110,83,1610612765.0,Green,J. Green STEAL (3 STL),turnover,2pt made,27,Low
+22500390,787,2pt,4,PT00M57.80S,00:57,Q4 00:57,112,83,1610612765.0,Holland II,R. Holland II running DUNK (9 PTS) (M. Sasser 1 AST),steal,2pt missed,29,Low
+22500390,789,2pt,4,PT00M40.90S,00:40,Q4 00:40,112,83,1610612766.0,Salaün,MISS T. Salaün 7' Hook - blocked,2pt made,block,29,Low
+22500390,790,block,4,PT00M40.90S,00:40,Q4 00:40,112,83,1610612765.0,Reed,P. Reed BLOCK (1 BLK),2pt missed,rebound,29,Low
+22500390,791,rebound,4,PT00M38.20S,00:38,Q4 00:38,112,83,1610612765.0,Sasser,M. Sasser REBOUND (Off:0 Def:1),block,turnover,29,Low
+22500390,792,turnover,4,PT00M37.10S,00:37,Q4 00:37,112,83,1610612765.0,Sasser,M. Sasser bad pass TURNOVER (1 TO),rebound,steal,29,Low
+22500390,793,steal,4,PT00M37.10S,00:37,Q4 00:37,112,83,1610612766.0,Salaün,T. Salaün STEAL (1 STL),turnover,3pt made,29,Low
+22500390,794,3pt,4,PT00M29.90S,00:29,Q4 00:29,112,86,1610612766.0,Salaün,T. Salaün 27' 3PT  (8 PTS) (T. Mann 3 AST),steal,turnover,26,Low
+22500390,796,turnover,4,PT00M05.90S,00:05,Q4 00:05,112,86,1610612765.0,Jenkins,D. Jenkins bad pass TURNOVER (1 TO),3pt made,steal,26,Low
+22500390,797,steal,4,PT00M05.90S,00:05,Q4 00:05,112,86,1610612766.0,Diabaté,M. Diabaté STEAL (1 STL),turnover,,26,Low

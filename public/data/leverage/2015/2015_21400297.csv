@@ -1,0 +1,520 @@
+game_id,actionNumber,actionType,period,clock,clock_display,game_clock,scoreHome,scoreAway,teamId,playerName,description,previous_action,next_action,score_margin,leverage_bucket
+21400297,0,period,1,PT12M00.00S,12:00,Q1 12:00,0,0,1610612765.0,,Start of 1st Period (6:11 PM EST),,turnover,0,Low
+21400297,2,turnover,1,PT11M38.00S,11:38,Q1 11:38,0,0,1610612760.0,Westbrook,Westbrook Bad Pass Turnover (P1.T1),period,steal,0,Low
+21400297,2,steal,1,PT11M38.00S,11:38,Q1 11:38,0,0,1610612765.0,Drummond,Drummond STEAL (1 STL),turnover,2pt missed,0,Low
+21400297,3,2pt,1,PT11M13.00S,11:13,Q1 11:13,0,0,1610612765.0,Drummond,MISS Drummond 6' Hook Shot,steal,rebound,0,Low
+21400297,4,rebound,1,PT11M10.00S,11:10,Q1 11:10,0,0,1610612760.0,Durant,Durant REBOUND (Off:0 Def:1),2pt missed,2pt made,0,Low
+21400297,5,2pt,1,PT10M53.00S,10:53,Q1 10:53,0,2,1610612760.0,Durant,Durant 11' Jump Shot (2 PTS) (Westbrook 1 AST),rebound,turnover,2,Low
+21400297,6,turnover,1,PT10M41.00S,10:41,Q1 10:41,0,0,1610612765.0,Jennings,Jennings Lost Ball Turnover (P1.T1),2pt made,steal,0,Low
+21400297,6,steal,1,PT10M41.00S,10:41,Q1 10:41,0,0,1610612760.0,Roberson,Roberson STEAL (1 STL),turnover,2pt missed,0,Low
+21400297,7,2pt,1,PT10M38.00S,10:38,Q1 10:38,0,0,1610612760.0,Westbrook,MISS Westbrook 10' Jump Shot,steal,rebound,0,Low
+21400297,8,rebound,1,PT10M38.00S,10:38,Q1 10:38,0,0,1610612760.0,Ibaka,Ibaka REBOUND (Off:1 Def:0),2pt missed,2pt missed,0,Low
+21400297,9,2pt,1,PT10M35.00S,10:35,Q1 10:35,0,0,1610612760.0,Ibaka,MISS Ibaka 15' Jump Shot,rebound,rebound,0,Low
+21400297,10,rebound,1,PT10M35.00S,10:35,Q1 10:35,0,0,1610612765.0,Drummond,Drummond REBOUND (Off:0 Def:1),2pt missed,foul,0,Low
+21400297,11,foul,1,PT10M35.00S,10:35,Q1 10:35,0,0,1610612760.0,Adams,Adams P.FOUL (P1.T1),rebound,foul,0,Low
+21400297,12,foul,1,PT10M21.00S,10:21,Q1 10:21,0,0,1610612760.0,Roberson,Roberson P.FOUL (P1.T2),foul,freethrow,0,Low
+21400297,13,freethrow,1,PT10M21.00S,10:21,Q1 10:21,1,2,1610612765.0,Caldwell-Pope,Caldwell-Pope Free Throw 1 of 3 (1 PTS),foul,freethrow,1,Low
+21400297,15,freethrow,1,PT10M21.00S,10:21,Q1 10:21,2,2,1610612765.0,Caldwell-Pope,Caldwell-Pope Free Throw 2 of 3 (2 PTS),freethrow,freethrow,0,Low
+21400297,17,freethrow,1,PT10M21.00S,10:21,Q1 10:21,3,2,1610612765.0,Caldwell-Pope,Caldwell-Pope Free Throw 3 of 3 (3 PTS),freethrow,foul,1,Low
+21400297,19,foul,1,PT10M11.00S,10:11,Q1 10:11,0,0,1610612765.0,Smith,Smith S.FOUL (P1.T1),freethrow,freethrow,0,Low
+21400297,20,freethrow,1,PT10M11.00S,10:11,Q1 10:11,0,0,1610612760.0,Adams,MISS Adams Free Throw 1 of 2,foul,rebound,0,Low
+21400297,21,rebound,1,PT10M11.00S,10:11,Q1 10:11,0,0,1610612760.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21400297,22,freethrow,1,PT10M11.00S,10:11,Q1 10:11,3,3,1610612760.0,Adams,Adams Free Throw 2 of 2 (1 PTS),rebound,2pt missed,0,Low
+21400297,24,2pt,1,PT09M56.00S,09:56,Q1 09:56,0,0,1610612765.0,Smith,MISS Smith 5' Jump Shot,freethrow,rebound,0,Low
+21400297,25,rebound,1,PT09M55.00S,09:55,Q1 09:55,0,0,1610612765.0,Drummond,Drummond REBOUND (Off:1 Def:1),2pt missed,2pt missed,0,Low
+21400297,26,2pt,1,PT09M54.00S,09:54,Q1 09:54,0,0,1610612765.0,Drummond,MISS Drummond  Tip Shot,rebound,rebound,0,Low
+21400297,27,rebound,1,PT09M53.00S,09:53,Q1 09:53,0,0,1610612760.0,Westbrook,Westbrook REBOUND (Off:0 Def:1),2pt missed,2pt missed,0,Low
+21400297,28,2pt,1,PT09M49.00S,09:49,Q1 09:49,0,0,1610612760.0,Westbrook,MISS Westbrook 1' Layup,rebound,rebound,0,Low
+21400297,29,rebound,1,PT09M48.00S,09:48,Q1 09:48,0,0,1610612765.0,Smith,Smith REBOUND (Off:0 Def:1),2pt missed,3pt made,0,Low
+21400297,30,3pt,1,PT09M40.00S,09:40,Q1 09:40,6,3,1610612765.0,Singler,Singler 24' 3PT Jump Shot (3 PTS) (Jennings 1 AST),rebound,3pt missed,3,Low
+21400297,31,3pt,1,PT09M20.00S,09:20,Q1 09:20,0,0,1610612760.0,Roberson,MISS Roberson 24' 3PT Jump Shot,3pt made,rebound,0,Low
+21400297,32,rebound,1,PT09M19.00S,09:19,Q1 09:19,0,0,1610612765.0,Drummond,Drummond REBOUND (Off:1 Def:2),3pt missed,2pt made,0,Low
+21400297,34,2pt,1,PT09M03.00S,09:03,Q1 09:03,8,3,1610612765.0,Smith,Smith 20' Jump Shot (2 PTS) (Caldwell-Pope 1 AST),rebound,foul,5,Low
+21400297,35,foul,1,PT08M54.00S,08:54,Q1 08:54,0,0,1610612765.0,Drummond,Drummond S.FOUL (P1.T2),2pt made,freethrow,0,Low
+21400297,36,freethrow,1,PT08M54.00S,08:54,Q1 08:54,8,4,1610612760.0,Westbrook,Westbrook Free Throw 1 of 2 (1 PTS),foul,freethrow,4,Low
+21400297,38,freethrow,1,PT08M54.00S,08:54,Q1 08:54,8,5,1610612760.0,Westbrook,Westbrook Free Throw 2 of 2 (2 PTS),freethrow,foul,3,Low
+21400297,40,foul,1,PT08M39.00S,08:39,Q1 08:39,0,0,1610612760.0,Ibaka,Ibaka P.FOUL (P1.T3),freethrow,2pt made,0,Low
+21400297,41,2pt,1,PT08M30.00S,08:30,Q1 08:30,10,5,1610612765.0,Smith,Smith  Layup (4 PTS) (Jennings 2 AST),foul,2pt made,5,Low
+21400297,42,2pt,1,PT08M18.00S,08:18,Q1 08:18,10,7,1610612760.0,Ibaka,Ibaka 18' Jump Shot (2 PTS) (Durant 1 AST),2pt made,foul,3,Low
+21400297,43,foul,1,PT08M06.00S,08:06,Q1 08:06,0,0,1610612760.0,Durant,Durant S.FOUL (P1.T4),2pt made,freethrow,0,Low
+21400297,44,freethrow,1,PT08M06.00S,08:06,Q1 08:06,0,0,1610612765.0,Smith,MISS Smith Free Throw 1 of 2,foul,rebound,0,Low
+21400297,45,rebound,1,PT08M06.00S,08:06,Q1 08:06,0,0,1610612765.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21400297,47,freethrow,1,PT08M06.00S,08:06,Q1 08:06,0,0,1610612765.0,Smith,MISS Smith Free Throw 2 of 2,rebound,substitution,0,Low
+21400297,46,substitution,1,PT08M06.00S,08:06,Q1 08:06,0,0,1610612760.0,Durant,SUB out: K. Durant,freethrow,substitution,0,Low
+21400297,47,substitution,1,PT08M06.00S,08:06,Q1 08:06,0,0,1610612760.0,Morrow,SUB in: A. Morrow,substitution,rebound,0,Low
+21400297,49,rebound,1,PT08M05.00S,08:05,Q1 08:05,0,0,1610612760.0,Ibaka,Ibaka REBOUND (Off:1 Def:1),substitution,2pt made,0,Low
+21400297,50,2pt,1,PT07M59.00S,07:59,Q1 07:59,10,9,1610612760.0,Roberson,Roberson  Dunk (2 PTS) (Westbrook 2 AST),rebound,2pt made,1,Low
+21400297,51,2pt,1,PT07M38.00S,07:38,Q1 07:38,12,9,1610612765.0,Smith,Smith 5' Hook Shot (6 PTS),2pt made,turnover,3,Low
+21400297,52,turnover,1,PT07M25.00S,07:25,Q1 07:25,0,0,1610612760.0,Adams,Adams 3 Second Violation Turnover (P1.T2),2pt made,turnover,0,Low
+21400297,53,turnover,1,PT07M11.00S,07:11,Q1 07:11,0,0,1610612765.0,Caldwell-Pope,Caldwell-Pope Traveling Turnover (P1.T2),turnover,2pt made,0,Low
+21400297,54,2pt,1,PT06M58.00S,06:58,Q1 06:58,12,11,1610612760.0,Westbrook,Westbrook 1' Driving Layup (4 PTS),turnover,2pt made,1,Low
+21400297,55,2pt,1,PT06M43.00S,06:43,Q1 06:43,14,11,1610612765.0,Singler,Singler 17' Pullup Jump Shot (5 PTS) (Jennings 3 AST),2pt made,2pt missed,3,Low
+21400297,56,2pt,1,PT06M25.00S,06:25,Q1 06:25,0,0,1610612760.0,Adams,MISS Adams  Layup,2pt made,rebound,0,Low
+21400297,57,rebound,1,PT06M24.00S,06:24,Q1 06:24,0,0,1610612765.0,Smith,Smith REBOUND (Off:0 Def:2),2pt missed,2pt missed,0,Low
+21400297,58,2pt,1,PT06M18.00S,06:18,Q1 06:18,0,0,1610612765.0,Caldwell-Pope,MISS Caldwell-Pope 1' Layup,rebound,rebound,0,Low
+21400297,59,rebound,1,PT06M17.00S,06:17,Q1 06:17,0,0,1610612765.0,Caldwell-Pope,Caldwell-Pope REBOUND (Off:1 Def:0),2pt missed,2pt made,0,Low
+21400297,60,2pt,1,PT06M16.00S,06:16,Q1 06:16,16,11,1610612765.0,Caldwell-Pope,Caldwell-Pope 1' Tip Shot (5 PTS),rebound,3pt missed,5,Low
+21400297,61,3pt,1,PT05M52.00S,05:52,Q1 05:52,0,0,1610612760.0,Westbrook,MISS Westbrook 27' 3PT Jump Shot,2pt made,rebound,0,Low
+21400297,62,rebound,1,PT05M51.00S,05:51,Q1 05:51,0,0,1610612765.0,,TEAM defensive REBOUND,3pt missed,foul,0,Low
+21400297,64,foul,1,PT05M51.00S,05:51,Q1 05:51,0,0,1610612760.0,Adams,Adams L.B.FOUL (P2.PN),rebound,timeout,0,Low
+21400297,65,timeout,1,PT05M51.00S,05:51,Q1 05:51,0,0,1610612765.0,,PISTONS Timeout: Regular (Full 1 Short 0),foul,freethrow,0,Low
+21400297,68,freethrow,1,PT05M51.00S,05:51,Q1 05:51,17,11,1610612765.0,Drummond,Drummond Free Throw 1 of 2 (1 PTS),timeout,freethrow,6,Low
+21400297,70,freethrow,1,PT05M51.00S,05:51,Q1 05:51,0,0,1610612765.0,Drummond,MISS Drummond Free Throw 2 of 2,freethrow,rebound,0,Low
+21400297,72,rebound,1,PT05M51.00S,05:51,Q1 05:51,0,0,1610612760.0,Ibaka,Ibaka REBOUND (Off:1 Def:2),freethrow,substitution,0,Low
+21400297,67,substitution,1,PT05M51.00S,05:51,Q1 05:51,0,0,1610612760.0,Adams,SUB out: S. Adams,rebound,substitution,0,Low
+21400297,68,substitution,1,PT05M51.00S,05:51,Q1 05:51,0,0,1610612760.0,Perkins,SUB in: K. Perkins,substitution,2pt made,0,Low
+21400297,73,2pt,1,PT05M38.00S,05:38,Q1 05:38,17,13,1610612760.0,Westbrook,Westbrook  Driving Dunk (6 PTS),substitution,3pt made,4,Low
+21400297,74,3pt,1,PT05M21.00S,05:21,Q1 05:21,20,13,1610612765.0,Smith,Smith  3PT Jump Shot (9 PTS) (Jennings 4 AST),2pt made,2pt missed,7,Low
+21400297,75,2pt,1,PT05M07.00S,05:07,Q1 05:07,0,0,1610612760.0,Westbrook,MISS Westbrook 1' Driving Layup,3pt made,rebound,0,Low
+21400297,76,rebound,1,PT05M05.00S,05:05,Q1 05:05,0,0,1610612765.0,Smith,Smith REBOUND (Off:0 Def:3),2pt missed,foul,0,Low
+21400297,78,foul,1,PT04M57.00S,04:57,Q1 04:57,0,0,1610612760.0,Perkins,Perkins P.FOUL (P1.PN),rebound,freethrow,0,Low
+21400297,79,freethrow,1,PT04M57.00S,04:57,Q1 04:57,21,13,1610612765.0,Caldwell-Pope,Caldwell-Pope Free Throw 1 of 2 (6 PTS),foul,freethrow,8,Low
+21400297,82,freethrow,1,PT04M57.00S,04:57,Q1 04:57,22,13,1610612765.0,Caldwell-Pope,Caldwell-Pope Free Throw 2 of 2 (7 PTS),freethrow,substitution,9,Low
+21400297,81,substitution,1,PT04M57.00S,04:57,Q1 04:57,0,0,1610612760.0,Roberson,SUB out: A. Roberson,freethrow,substitution,0,Low
+21400297,82,substitution,1,PT04M57.00S,04:57,Q1 04:57,0,0,1610612760.0,Jackson,SUB in: R. Jackson,substitution,turnover,0,Low
+21400297,84,turnover,1,PT04M46.00S,04:46,Q1 04:46,0,0,1610612760.0,Morrow,Morrow Traveling Turnover (P1.T3),substitution,foul,0,Low
+21400297,85,foul,1,PT04M34.00S,04:34,Q1 04:34,0,0,1610612760.0,Perkins,Thunder T.Foul (Def. 3 Sec Perkins ),turnover,freethrow,0,Low
+21400297,86,freethrow,1,PT04M34.00S,04:34,Q1 04:34,23,13,1610612765.0,Caldwell-Pope,Caldwell-Pope Free Throw Technical (8 PTS),foul,foul,10,Low
+21400297,88,foul,1,PT04M23.00S,04:23,Q1 04:23,0,0,1610612760.0,Jackson,Jackson S.FOUL (P1.PN),freethrow,freethrow,0,Low
+21400297,89,freethrow,1,PT04M23.00S,04:23,Q1 04:23,0,0,1610612765.0,Smith,MISS Smith Free Throw 1 of 2,foul,rebound,0,Low
+21400297,90,rebound,1,PT04M23.00S,04:23,Q1 04:23,0,0,1610612765.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21400297,91,freethrow,1,PT04M23.00S,04:23,Q1 04:23,24,13,1610612765.0,Smith,Smith Free Throw 2 of 2 (10 PTS),rebound,2pt made,11,Low
+21400297,93,2pt,1,PT04M08.00S,04:08,Q1 04:08,24,15,1610612760.0,Jackson,Jackson 18' Jump Shot (2 PTS),freethrow,2pt missed,9,Low
+21400297,94,2pt,1,PT03M51.00S,03:51,Q1 03:51,0,0,1610612765.0,Smith,MISS Smith 6' Hook Shot,2pt made,block,0,Low
+21400297,94,block,1,PT03M51.00S,03:51,Q1 03:51,0,0,1610612760.0,Ibaka,Ibaka BLOCK (1 BLK),2pt missed,rebound,0,Low
+21400297,95,rebound,1,PT03M49.00S,03:49,Q1 03:49,0,0,1610612760.0,Jackson,Jackson REBOUND (Off:0 Def:1),block,turnover,0,Low
+21400297,96,turnover,1,PT03M43.00S,03:43,Q1 03:43,0,0,1610612760.0,Jackson,Jackson Bad Pass Turnover (P1.T4),rebound,steal,0,Low
+21400297,96,steal,1,PT03M43.00S,03:43,Q1 03:43,0,0,1610612765.0,Singler,Singler STEAL (1 STL),turnover,2pt made,0,Low
+21400297,97,2pt,1,PT03M37.00S,03:37,Q1 03:37,26,15,1610612765.0,Drummond,Drummond  Alley Oop Dunk (3 PTS) (Jennings 5 AST),steal,2pt made,11,Low
+21400297,98,2pt,1,PT03M23.00S,03:23,Q1 03:23,26,17,1610612760.0,Westbrook,Westbrook 19' Jump Shot (8 PTS),2pt made,3pt missed,9,Low
+21400297,99,3pt,1,PT03M03.00S,03:03,Q1 03:03,0,0,1610612765.0,Singler,MISS Singler 27' 3PT Jump Shot,2pt made,rebound,0,Low
+21400297,100,rebound,1,PT03M02.00S,03:02,Q1 03:02,0,0,1610612760.0,Ibaka,Ibaka REBOUND (Off:1 Def:3),3pt missed,turnover,0,Low
+21400297,101,turnover,1,PT02M55.00S,02:55,Q1 02:55,0,0,1610612760.0,Westbrook,Westbrook Lost Ball Turnover (P2.T5),rebound,steal,0,Low
+21400297,101,steal,1,PT02M55.00S,02:55,Q1 02:55,0,0,1610612765.0,Caldwell-Pope,Caldwell-Pope STEAL (1 STL),turnover,2pt made,0,Low
+21400297,102,2pt,1,PT02M51.00S,02:51,Q1 02:51,28,17,1610612765.0,Jennings,Jennings 1' Layup (2 PTS) (Caldwell-Pope 2 AST),steal,timeout,11,Low
+21400297,103,timeout,1,PT02M42.00S,02:42,Q1 02:42,0,0,1610612760.0,,Thunder Timeout: Regular (Reg.1 Short 0),2pt made,substitution,0,Low
+21400297,105,substitution,1,PT02M42.00S,02:42,Q1 02:42,0,0,1610612765.0,Drummond,SUB out: A. Drummond,timeout,substitution,0,Low
+21400297,106,substitution,1,PT02M42.00S,02:42,Q1 02:42,0,0,1610612760.0,Ibaka,SUB out: S. Ibaka,substitution,substitution,0,Low
+21400297,107,substitution,1,PT02M42.00S,02:42,Q1 02:42,0,0,1610612760.0,Westbrook,SUB out: R. Westbrook,substitution,substitution,0,Low
+21400297,108,substitution,1,PT02M42.00S,02:42,Q1 02:42,0,0,1610612765.0,Monroe,SUB in: G. Monroe,substitution,substitution,0,Low
+21400297,109,substitution,1,PT02M42.00S,02:42,Q1 02:42,0,0,1610612760.0,Durant,SUB in: K. Durant,substitution,substitution,0,Low
+21400297,110,substitution,1,PT02M42.00S,02:42,Q1 02:42,0,0,1610612760.0,Lamb,SUB in: J. Lamb,substitution,2pt missed,0,Low
+21400297,108,2pt,1,PT02M36.00S,02:36,Q1 02:36,0,0,1610612760.0,Perkins,MISS Perkins 5' Hook Shot,substitution,rebound,0,Low
+21400297,109,rebound,1,PT02M33.00S,02:33,Q1 02:33,0,0,1610612765.0,Monroe,Monroe REBOUND (Off:0 Def:1),2pt missed,3pt missed,0,Low
+21400297,110,3pt,1,PT02M14.00S,02:14,Q1 02:14,0,0,1610612765.0,Caldwell-Pope,MISS Caldwell-Pope 26' 3PT Jump Shot,rebound,rebound,0,Low
+21400297,111,rebound,1,PT02M13.00S,02:13,Q1 02:13,0,0,1610612760.0,Durant,Durant REBOUND (Off:0 Def:2),3pt missed,foul,0,Low
+21400297,112,foul,1,PT02M07.00S,02:07,Q1 02:07,0,0,1610612765.0,Caldwell-Pope,Caldwell-Pope P.FOUL (P1.T3),rebound,substitution,0,Low
+21400297,113,substitution,1,PT02M07.00S,02:07,Q1 02:07,0,0,1610612765.0,Caldwell-Pope,SUB out: K. Caldwell-Pope,foul,substitution,0,Low
+21400297,114,substitution,1,PT02M07.00S,02:07,Q1 02:07,0,0,1610612765.0,Martin,SUB in: C. Martin,substitution,foul,0,Low
+21400297,114,foul,1,PT02M05.00S,02:05,Q1 02:05,0,0,1610612765.0,Singler,Singler P.FOUL (P1.T4),substitution,foul,0,Low
+21400297,115,foul,1,PT01M59.00S,01:59,Q1 01:59,0,0,1610612765.0,Smith,Smith P.FOUL (P2.PN),foul,freethrow,0,Low
+21400297,116,freethrow,1,PT01M59.00S,01:59,Q1 01:59,28,18,1610612760.0,Durant,Durant Free Throw 1 of 2 (3 PTS),foul,freethrow,10,Low
+21400297,119,freethrow,1,PT01M59.00S,01:59,Q1 01:59,28,19,1610612760.0,Durant,Durant Free Throw 2 of 2 (4 PTS),freethrow,substitution,9,Low
+21400297,118,substitution,1,PT01M59.00S,01:59,Q1 01:59,0,0,1610612765.0,Smith,SUB out: J. Smith,freethrow,substitution,0,Low
+21400297,119,substitution,1,PT01M59.00S,01:59,Q1 01:59,0,0,1610612765.0,Jerebko,SUB in: J. Jerebko,substitution,2pt made,0,Low
+21400297,121,2pt,1,PT01M46.00S,01:46,Q1 01:46,30,19,1610612765.0,Jennings,Jennings 18' Pullup Jump Shot (4 PTS),substitution,2pt made,11,Low
+21400297,122,2pt,1,PT01M34.00S,01:34,Q1 01:34,30,21,1610612760.0,Durant,Durant 8' Jump Shot (6 PTS),2pt made,foul,9,Low
+21400297,123,foul,1,PT01M34.00S,01:34,Q1 01:34,0,0,1610612765.0,Singler,Singler S.FOUL (P2.PN),2pt made,freethrow,0,Low
+21400297,124,freethrow,1,PT01M34.00S,01:34,Q1 01:34,30,22,1610612760.0,Durant,Durant Free Throw 1 of 1 (7 PTS),foul,2pt missed,8,Low
+21400297,125,2pt,1,PT01M12.00S,01:12,Q1 01:12,0,0,1610612765.0,Jennings,MISS Jennings 21' Jump Shot,freethrow,rebound,0,Low
+21400297,126,rebound,1,PT01M11.00S,01:11,Q1 01:11,0,0,1610612760.0,Lamb,Lamb REBOUND (Off:0 Def:1),2pt missed,3pt made,0,Low
+21400297,127,3pt,1,PT01M05.00S,01:05,Q1 01:05,30,25,1610612760.0,Morrow,Morrow 24' 3PT Jump Shot (3 PTS) (Durant 2 AST),rebound,2pt made,5,Low
+21400297,128,2pt,1,PT00M45.30S,00:45,Q1 00:45,32,25,1610612765.0,Monroe,Monroe 1' Driving Layup (2 PTS),3pt made,foul,7,Low
+21400297,129,foul,1,PT00M45.30S,00:45,Q1 00:45,0,0,1610612760.0,Perkins,Perkins S.FOUL (P2.PN),2pt made,freethrow,0,Low
+21400297,131,freethrow,1,PT00M45.30S,00:45,Q1 00:45,33,25,1610612765.0,Monroe,Monroe Free Throw 1 of 1 (3 PTS),foul,substitution,8,Low
+21400297,130,substitution,1,PT00M45.30S,00:45,Q1 00:45,0,0,1610612765.0,Singler,SUB out: K. Singler,freethrow,substitution,0,Low
+21400297,131,substitution,1,PT00M45.30S,00:45,Q1 00:45,0,0,1610612765.0,Butler,SUB in: C. Butler,substitution,3pt missed,0,Low
+21400297,132,3pt,1,PT00M30.90S,00:30,Q1 00:30,0,0,1610612760.0,Jackson,MISS Jackson 27' 3PT Jump Shot,substitution,rebound,0,Low
+21400297,133,rebound,1,PT00M29.70S,00:29,Q1 00:29,0,0,1610612765.0,Monroe,Monroe REBOUND (Off:0 Def:2),3pt missed,2pt missed,0,Low
+21400297,134,2pt,1,PT00M04.90S,00:04,Q1 00:04,0,0,1610612765.0,Monroe,MISS Monroe 12' Jump Shot,rebound,rebound,0,Low
+21400297,135,rebound,1,PT00M03.90S,00:03,Q1 00:03,0,0,1610612760.0,Durant,Durant REBOUND (Off:0 Def:3),2pt missed,2pt missed,0,Low
+21400297,136,2pt,1,PT00M01.50S,00:01,Q1 00:01,0,0,1610612760.0,Durant,MISS Durant 10' Jump Shot,rebound,rebound,0,Low
+21400297,137,rebound,1,PT00M00.00S,00:00,Q1 00:00,0,0,1610612760.0,,TEAM offensive REBOUND,2pt missed,period,0,Low
+21400297,138,period,1,PT00M00.00S,00:00,Q1 00:00,33,25,1610612765.0,,End of 1st Period (6:39 PM EST),rebound,period,8,Low
+21400297,140,period,2,PT12M00.00S,12:00,Q2 12:00,33,25,1610612765.0,,Start of 2nd Period (6:42 PM EST),period,substitution,8,Low
+21400297,141,2pt,2,PT11M43.00S,11:43,Q2 11:43,0,0,1610612765.0,Martin,MISS Martin 18' Jump Shot,substitution,rebound,0,Low
+21400297,142,rebound,2,PT11M42.00S,11:42,Q2 11:42,0,0,1610612760.0,Perkins,Perkins REBOUND (Off:0 Def:1),2pt missed,2pt made,0,Low
+21400297,143,2pt,2,PT11M26.00S,11:26,Q2 11:26,33,27,1610612760.0,Durant,Durant 7' Running Jump Shot (9 PTS) (Jackson 1 AST),rebound,2pt made,6,Low
+21400297,144,2pt,2,PT11M07.00S,11:07,Q2 11:07,35,27,1610612765.0,Jerebko,Jerebko 1' Driving Layup (2 PTS) (Martin 1 AST),2pt made,foul,8,Low
+21400297,145,foul,2,PT10M49.00S,10:49,Q2 10:49,0,0,1610612765.0,Jerebko,Jerebko P.FOUL (P1.T1),2pt made,2pt missed,0,Low
+21400297,146,2pt,2,PT10M40.00S,10:40,Q2 10:40,0,0,1610612760.0,Jackson,MISS Jackson 18' Jump Shot,foul,rebound,0,Low
+21400297,147,rebound,2,PT10M39.00S,10:39,Q2 10:39,0,0,1610612765.0,Augustin,Augustin REBOUND (Off:0 Def:1),2pt missed,foul,0,Low
+21400297,148,foul,2,PT10M16.00S,10:16,Q2 10:16,0,0,1610612760.0,Durant,Durant S.FOUL (P2.T1),rebound,freethrow,0,Low
+21400297,149,freethrow,2,PT10M16.00S,10:16,Q2 10:16,36,27,1610612765.0,Augustin,Augustin Free Throw 1 of 2 (1 PTS),foul,freethrow,9,Low
+21400297,151,freethrow,2,PT10M16.00S,10:16,Q2 10:16,37,27,1610612765.0,Augustin,Augustin Free Throw 2 of 2 (2 PTS),freethrow,2pt made,10,Low
+21400297,153,2pt,2,PT10M04.00S,10:04,Q2 10:04,37,29,1610612760.0,Perkins,Perkins 1' Layup (2 PTS) (Lamb 1 AST),freethrow,2pt missed,8,Low
+21400297,154,2pt,2,PT09M45.00S,09:45,Q2 09:45,0,0,1610612765.0,Monroe,MISS Monroe 2' Layup,2pt made,rebound,0,Low
+21400297,155,rebound,2,PT09M42.00S,09:42,Q2 09:42,0,0,1610612765.0,Jerebko,Jerebko REBOUND (Off:1 Def:0),2pt missed,2pt made,0,Low
+21400297,156,2pt,2,PT09M40.00S,09:40,Q2 09:40,39,29,1610612765.0,Jerebko,Jerebko 1' Tip Shot (4 PTS),rebound,2pt made,10,Low
+21400297,157,2pt,2,PT09M29.00S,09:29,Q2 09:29,39,31,1610612760.0,Lamb,Lamb 1' Layup (2 PTS) (Perkins 1 AST),2pt made,2pt made,8,Low
+21400297,158,2pt,2,PT09M08.00S,09:08,Q2 09:08,41,31,1610612765.0,Monroe,Monroe 6' Hook Shot (5 PTS) (Butler 1 AST),2pt made,timeout,10,Low
+21400297,159,timeout,2,PT09M03.00S,09:03,Q2 09:03,0,0,1610612760.0,,Thunder Timeout: Regular (Reg.2 Short 0),2pt made,substitution,0,Low
+21400297,161,substitution,2,PT09M03.00S,09:03,Q2 09:03,0,0,1610612760.0,Durant,SUB out: K. Durant,timeout,substitution,0,Low
+21400297,162,substitution,2,PT09M03.00S,09:03,Q2 09:03,0,0,1610612760.0,Collison,SUB in: N. Collison,substitution,2pt made,0,Low
+21400297,162,2pt,2,PT08M55.00S,08:55,Q2 08:55,41,33,1610612760.0,Lamb,Lamb 1' Layup (4 PTS) (Collison 1 AST),substitution,3pt missed,8,Low
+21400297,163,3pt,2,PT08M28.00S,08:28,Q2 08:28,0,0,1610612765.0,Martin,MISS Martin 26' 3PT Jump Shot,2pt made,rebound,0,Low
+21400297,164,rebound,2,PT08M27.00S,08:27,Q2 08:27,0,0,1610612765.0,,TEAM offensive REBOUND,3pt missed,foul,0,Low
+21400297,165,foul,2,PT08M27.00S,08:27,Q2 08:27,0,0,1610612760.0,Jackson,Jackson L.B.FOUL (P2.T2),rebound,2pt missed,0,Low
+21400297,166,2pt,2,PT08M20.00S,08:20,Q2 08:20,0,0,1610612765.0,Jerebko,MISS Jerebko  Layup,foul,rebound,0,Low
+21400297,167,rebound,2,PT08M20.00S,08:20,Q2 08:20,0,0,1610612760.0,Collison,Collison REBOUND (Off:0 Def:1),2pt missed,substitution,0,Low
+21400297,168,substitution,2,PT08M20.00S,08:20,Q2 08:20,0,0,1610612760.0,Morrow,SUB out: A. Morrow,rebound,substitution,0,Low
+21400297,169,substitution,2,PT08M20.00S,08:20,Q2 08:20,0,0,1610612760.0,Westbrook,SUB in: R. Westbrook,substitution,2pt missed,0,Low
+21400297,169,2pt,2,PT08M09.00S,08:09,Q2 08:09,0,0,1610612760.0,Perkins,MISS Perkins  Layup,substitution,rebound,0,Low
+21400297,170,rebound,2,PT08M07.00S,08:07,Q2 08:07,0,0,1610612765.0,Monroe,Monroe REBOUND (Off:0 Def:3),2pt missed,3pt made,0,Low
+21400297,171,3pt,2,PT07M57.00S,07:57,Q2 07:57,44,33,1610612765.0,Jerebko,Jerebko 24' 3PT Jump Shot (7 PTS) (Martin 2 AST),rebound,2pt missed,11,Low
+21400297,172,2pt,2,PT07M40.00S,07:40,Q2 07:40,0,0,1610612760.0,Lamb,MISS Lamb 14' Jump Shot,3pt made,rebound,0,Low
+21400297,173,rebound,2,PT07M39.00S,07:39,Q2 07:39,0,0,1610612760.0,Collison,Collison REBOUND (Off:1 Def:1),2pt missed,foul,0,Low
+21400297,174,foul,2,PT07M35.00S,07:35,Q2 07:35,0,0,1610612760.0,Westbrook,Westbrook Offensive Charge Foul (P1.T3),rebound,turnover,0,Low
+21400297,175,turnover,2,PT07M35.00S,07:35,Q2 07:35,0,0,1610612760.0,Westbrook,Westbrook Foul Turnover (P3.T6),foul,substitution,0,Low
+21400297,176,substitution,2,PT07M35.00S,07:35,Q2 07:35,0,0,1610612765.0,Martin,SUB out: C. Martin,turnover,substitution,0,Low
+21400297,177,substitution,2,PT07M35.00S,07:35,Q2 07:35,0,0,1610612760.0,Perkins,SUB out: K. Perkins,substitution,substitution,0,Low
+21400297,178,substitution,2,PT07M35.00S,07:35,Q2 07:35,0,0,1610612765.0,Caldwell-Pope,SUB in: K. Caldwell-Pope,substitution,substitution,0,Low
+21400297,179,substitution,2,PT07M35.00S,07:35,Q2 07:35,0,0,1610612760.0,Ibaka,SUB in: S. Ibaka,substitution,turnover,0,Low
+21400297,178,turnover,2,PT07M13.00S,07:13,Q2 07:13,0,0,1610612765.0,Butler,Butler Bad Pass Turnover (P1.T3),substitution,3pt missed,0,Low
+21400297,179,3pt,2,PT06M54.00S,06:54,Q2 06:54,0,0,1610612760.0,Jackson,MISS Jackson 26' 3PT Jump Shot,turnover,rebound,0,Low
+21400297,180,rebound,2,PT06M53.00S,06:53,Q2 06:53,0,0,1610612765.0,Jerebko,Jerebko REBOUND (Off:1 Def:1),3pt missed,3pt missed,0,Low
+21400297,181,3pt,2,PT06M46.00S,06:46,Q2 06:46,0,0,1610612765.0,Augustin,MISS Augustin 26' 3PT Jump Shot,rebound,block,0,Low
+21400297,181,block,2,PT06M46.00S,06:46,Q2 06:46,0,0,1610612760.0,Ibaka,Ibaka BLOCK (2 BLK),3pt missed,rebound,0,Low
+21400297,182,rebound,2,PT06M44.00S,06:44,Q2 06:44,0,0,1610612760.0,Westbrook,Westbrook REBOUND (Off:0 Def:2),block,turnover,0,Low
+21400297,183,turnover,2,PT06M42.00S,06:42,Q2 06:42,0,0,1610612760.0,Westbrook,Westbrook Bad Pass Turnover (P4.T7),rebound,3pt missed,0,Low
+21400297,184,3pt,2,PT06M21.00S,06:21,Q2 06:21,0,0,1610612765.0,Caldwell-Pope,MISS Caldwell-Pope 27' 3PT Jump Shot,turnover,rebound,0,Low
+21400297,185,rebound,2,PT06M20.00S,06:20,Q2 06:20,0,0,1610612760.0,Westbrook,Westbrook REBOUND (Off:0 Def:3),3pt missed,2pt made,0,Low
+21400297,186,2pt,2,PT06M14.00S,06:14,Q2 06:14,44,35,1610612760.0,Westbrook,Westbrook 6' Jump Shot (10 PTS),rebound,3pt missed,9,Low
+21400297,187,3pt,2,PT05M54.00S,05:54,Q2 05:54,0,0,1610612765.0,Butler,MISS Butler 24' 3PT Jump Shot,2pt made,rebound,0,Low
+21400297,188,rebound,2,PT05M53.00S,05:53,Q2 05:53,0,0,1610612760.0,Westbrook,Westbrook REBOUND (Off:0 Def:4),3pt missed,2pt made,0,Low
+21400297,189,2pt,2,PT05M46.00S,05:46,Q2 05:46,44,37,1610612760.0,Ibaka,Ibaka  Layup (4 PTS) (Westbrook 3 AST),rebound,timeout,7,Low
+21400297,190,timeout,2,PT05M41.00S,05:41,Q2 05:41,0,0,1610612765.0,,PISTONS Timeout: Regular (Full 2 Short 0),2pt made,substitution,0,Low
+21400297,192,substitution,2,PT05M41.00S,05:41,Q2 05:41,0,0,1610612765.0,Monroe,SUB out: G. Monroe,timeout,substitution,0,Low
+21400297,193,substitution,2,PT05M41.00S,05:41,Q2 05:41,0,0,1610612765.0,Drummond,SUB in: A. Drummond,substitution,2pt made,0,Low
+21400297,193,2pt,2,PT05M31.00S,05:31,Q2 05:31,46,37,1610612765.0,Augustin,Augustin 1' Reverse Layup (4 PTS),substitution,2pt missed,9,Low
+21400297,194,2pt,2,PT05M14.00S,05:14,Q2 05:14,0,0,1610612760.0,Ibaka,MISS Ibaka 10' Jump Shot,2pt made,rebound,0,Low
+21400297,195,rebound,2,PT05M13.00S,05:13,Q2 05:13,0,0,1610612765.0,Augustin,Augustin REBOUND (Off:0 Def:2),2pt missed,2pt made,0,Low
+21400297,196,2pt,2,PT05M08.00S,05:08,Q2 05:08,48,37,1610612765.0,Drummond,Drummond  Alley Oop Dunk (5 PTS) (Augustin 1 AST),rebound,foul,11,Low
+21400297,197,foul,2,PT04M55.00S,04:55,Q2 04:55,0,0,1610612765.0,Butler,Butler P.FOUL (P1.T2),2pt made,substitution,0,Low
+21400297,198,substitution,2,PT04M55.00S,04:55,Q2 04:55,0,0,1610612765.0,Jerebko,SUB out: J. Jerebko,foul,substitution,0,Low
+21400297,199,substitution,2,PT04M55.00S,04:55,Q2 04:55,0,0,1610612765.0,Butler,SUB out: C. Butler,substitution,substitution,0,Low
+21400297,200,substitution,2,PT04M55.00S,04:55,Q2 04:55,0,0,1610612760.0,Jackson,SUB out: R. Jackson,substitution,substitution,0,Low
+21400297,201,substitution,2,PT04M55.00S,04:55,Q2 04:55,0,0,1610612765.0,Smith,SUB in: J. Smith,substitution,substitution,0,Low
+21400297,202,substitution,2,PT04M55.00S,04:55,Q2 04:55,0,0,1610612765.0,Singler,SUB in: K. Singler,substitution,substitution,0,Low
+21400297,203,substitution,2,PT04M55.00S,04:55,Q2 04:55,0,0,1610612760.0,Durant,SUB in: K. Durant,substitution,3pt made,0,Low
+21400297,201,3pt,2,PT04M42.00S,04:42,Q2 04:42,48,40,1610612760.0,Lamb,Lamb 26' 3PT Jump Shot (7 PTS) (Collison 2 AST),substitution,foul,8,Low
+21400297,202,foul,2,PT04M25.00S,04:25,Q2 04:25,0,0,1610612760.0,Lamb,Lamb P.FOUL (P1.T4),3pt made,turnover,0,Low
+21400297,203,turnover,2,PT04M14.00S,04:14,Q2 04:14,0,0,1610612765.0,Singler,Singler Bad Pass Turnover (P1.T4),foul,steal,0,Low
+21400297,203,steal,2,PT04M14.00S,04:14,Q2 04:14,0,0,1610612760.0,Durant,Durant STEAL (1 STL),turnover,foul,0,Low
+21400297,204,foul,2,PT04M14.00S,04:14,Q2 04:14,0,0,1610612765.0,Smith,Smith P.FOUL (P3.T3),steal,substitution,0,Low
+21400297,205,substitution,2,PT04M14.00S,04:14,Q2 04:14,0,0,1610612765.0,Smith,SUB out: J. Smith,foul,substitution,0,Low
+21400297,206,substitution,2,PT04M14.00S,04:14,Q2 04:14,0,0,1610612765.0,Jerebko,SUB in: J. Jerebko,substitution,2pt made,0,Low
+21400297,206,2pt,2,PT03M57.00S,03:57,Q2 03:57,48,42,1610612760.0,Durant,Durant 19' Jump Shot (11 PTS),substitution,2pt made,6,Low
+21400297,207,2pt,2,PT03M42.00S,03:42,Q2 03:42,50,42,1610612765.0,Caldwell-Pope,Caldwell-Pope 11' Jump Shot (10 PTS) (Jerebko 1 AST),2pt made,2pt made,8,Low
+21400297,208,2pt,2,PT03M22.00S,03:22,Q2 03:22,50,44,1610612760.0,Durant,Durant 14' Jump Shot (13 PTS) (Collison 3 AST),2pt made,3pt missed,6,Low
+21400297,209,3pt,2,PT03M05.00S,03:05,Q2 03:05,0,0,1610612765.0,Jerebko,MISS Jerebko 26' 3PT Jump Shot,2pt made,rebound,0,Low
+21400297,210,rebound,2,PT03M04.00S,03:04,Q2 03:04,0,0,1610612760.0,Westbrook,Westbrook REBOUND (Off:0 Def:5),3pt missed,3pt missed,0,Low
+21400297,211,3pt,2,PT02M50.00S,02:50,Q2 02:50,0,0,1610612760.0,Durant,MISS Durant 25' 3PT Jump Shot,rebound,rebound,0,Low
+21400297,212,rebound,2,PT02M49.00S,02:49,Q2 02:49,0,0,1610612765.0,Caldwell-Pope,Caldwell-Pope REBOUND (Off:1 Def:1),3pt missed,foul,0,Low
+21400297,213,foul,2,PT02M45.00S,02:45,Q2 02:45,0,0,1610612765.0,Caldwell-Pope,Caldwell-Pope Offensive Charge Foul (P2.T4),rebound,turnover,0,Low
+21400297,214,turnover,2,PT02M45.00S,02:45,Q2 02:45,0,0,1610612765.0,Caldwell-Pope,Caldwell-Pope Foul Turnover (P2.T5),foul,timeout,0,Low
+21400297,215,timeout,2,PT02M45.00S,02:45,Q2 02:45,0,0,0.0,,Timeout: Official,turnover,3pt missed,0,Low
+21400297,217,3pt,2,PT02M30.00S,02:30,Q2 02:30,0,0,1610612760.0,Collison,MISS Collison  3PT Jump Shot,timeout,rebound,0,Low
+21400297,218,rebound,2,PT02M29.00S,02:29,Q2 02:29,0,0,1610612760.0,Ibaka,Ibaka REBOUND (Off:2 Def:3),3pt missed,foul,0,Low
+21400297,219,foul,2,PT02M26.00S,02:26,Q2 02:26,0,0,1610612765.0,Drummond,Drummond S.FOUL (P2.PN),rebound,freethrow,0,Low
+21400297,220,freethrow,2,PT02M26.00S,02:26,Q2 02:26,0,0,1610612760.0,Westbrook,MISS Westbrook Free Throw 1 of 2,foul,rebound,0,Low
+21400297,221,rebound,2,PT02M26.00S,02:26,Q2 02:26,0,0,1610612760.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21400297,224,freethrow,2,PT02M26.00S,02:26,Q2 02:26,0,0,1610612760.0,Westbrook,MISS Westbrook Free Throw 2 of 2,rebound,substitution,0,Low
+21400297,223,substitution,2,PT02M26.00S,02:26,Q2 02:26,0,0,1610612765.0,Drummond,SUB out: A. Drummond,freethrow,substitution,0,Low
+21400297,224,substitution,2,PT02M26.00S,02:26,Q2 02:26,0,0,1610612765.0,Monroe,SUB in: G. Monroe,substitution,rebound,0,Low
+21400297,226,rebound,2,PT02M25.00S,02:25,Q2 02:25,0,0,1610612765.0,Caldwell-Pope,Caldwell-Pope REBOUND (Off:1 Def:2),substitution,foul,0,Low
+21400297,227,foul,2,PT02M07.00S,02:07,Q2 02:07,0,0,1610612760.0,Collison,Collison S.FOUL (P1.PN),rebound,freethrow,0,Low
+21400297,228,freethrow,2,PT02M07.00S,02:07,Q2 02:07,51,44,1610612765.0,Singler,Singler Free Throw 1 of 2 (6 PTS),foul,freethrow,7,Low
+21400297,230,freethrow,2,PT02M07.00S,02:07,Q2 02:07,52,44,1610612765.0,Singler,Singler Free Throw 2 of 2 (7 PTS),freethrow,foul,8,Low
+21400297,232,foul,2,PT02M00.00S,02:00,Q2 02:00,0,0,1610612765.0,Caldwell-Pope,Caldwell-Pope P.FOUL (P3.PN),freethrow,freethrow,0,Low
+21400297,233,freethrow,2,PT02M00.00S,02:00,Q2 02:00,0,0,1610612760.0,Westbrook,MISS Westbrook Free Throw 1 of 2,foul,rebound,0,Low
+21400297,234,rebound,2,PT02M00.00S,02:00,Q2 02:00,0,0,1610612760.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21400297,236,freethrow,2,PT02M00.00S,02:00,Q2 02:00,52,45,1610612760.0,Westbrook,Westbrook Free Throw 2 of 2 (11 PTS),rebound,substitution,7,Low
+21400297,235,substitution,2,PT02M00.00S,02:00,Q2 02:00,0,0,1610612765.0,Caldwell-Pope,SUB out: K. Caldwell-Pope,freethrow,substitution,0,Low
+21400297,236,substitution,2,PT02M00.00S,02:00,Q2 02:00,0,0,1610612765.0,Martin,SUB in: C. Martin,substitution,foul,0,Low
+21400297,238,foul,2,PT01M49.00S,01:49,Q2 01:49,0,0,1610612760.0,Collison,Collison S.FOUL (P2.PN),substitution,freethrow,0,Low
+21400297,239,freethrow,2,PT01M49.00S,01:49,Q2 01:49,53,45,1610612765.0,Monroe,Monroe Free Throw 1 of 2 (6 PTS),foul,freethrow,8,Low
+21400297,242,freethrow,2,PT01M49.00S,01:49,Q2 01:49,54,45,1610612765.0,Monroe,Monroe Free Throw 2 of 2 (7 PTS),freethrow,substitution,9,Low
+21400297,241,substitution,2,PT01M49.00S,01:49,Q2 01:49,0,0,1610612760.0,Collison,SUB out: N. Collison,freethrow,substitution,0,Low
+21400297,242,substitution,2,PT01M49.00S,01:49,Q2 01:49,0,0,1610612760.0,Adams,SUB in: S. Adams,substitution,2pt made,0,Low
+21400297,244,2pt,2,PT01M30.00S,01:30,Q2 01:30,54,47,1610612760.0,Ibaka,Ibaka 14' Fadeaway Jumper (6 PTS) (Durant 3 AST),substitution,turnover,7,Low
+21400297,245,turnover,2,PT01M10.00S,01:10,Q2 01:10,0,0,1610612765.0,Monroe,Monroe Bad Pass Turnover (P1.T6),2pt made,turnover,0,Low
+21400297,246,turnover,2,PT01M04.00S,01:04,Q2 01:04,0,0,1610612760.0,Durant,Durant Bad Pass Turnover (P1.T8),turnover,3pt missed,0,Low
+21400297,247,3pt,2,PT00M47.90S,00:47,Q2 00:47,0,0,1610612765.0,Singler,MISS Singler  3PT Jump Shot,turnover,rebound,0,Low
+21400297,248,rebound,2,PT00M45.90S,00:45,Q2 00:45,0,0,1610612765.0,Jerebko,Jerebko REBOUND (Off:2 Def:1),3pt missed,2pt missed,0,Low
+21400297,249,2pt,2,PT00M45.40S,00:45,Q2 00:45,0,0,1610612765.0,Jerebko,MISS Jerebko 1' Layup,rebound,block,0,Low
+21400297,249,block,2,PT00M45.40S,00:45,Q2 00:45,0,0,1610612760.0,Adams,Adams BLOCK (1 BLK),2pt missed,rebound,0,Low
+21400297,250,rebound,2,PT00M43.60S,00:43,Q2 00:43,0,0,1610612765.0,Monroe,Monroe REBOUND (Off:1 Def:3),block,turnover,0,Low
+21400297,251,turnover,2,PT00M39.70S,00:39,Q2 00:39,0,0,0.0,,PISTONS Turnover: Shot Clock (T#7),rebound,3pt missed,0,Low
+21400297,252,3pt,2,PT00M33.90S,00:33,Q2 00:33,0,0,1610612760.0,Westbrook,MISS Westbrook 27' 3PT Jump Shot,turnover,rebound,0,Low
+21400297,253,rebound,2,PT00M32.70S,00:32,Q2 00:32,0,0,1610612765.0,Augustin,Augustin REBOUND (Off:0 Def:3),3pt missed,foul,0,Low
+21400297,254,foul,2,PT00M22.60S,00:22,Q2 00:22,0,0,1610612760.0,Ibaka,Ibaka S.FOUL (P2.PN),rebound,freethrow,0,Low
+21400297,255,freethrow,2,PT00M22.60S,00:22,Q2 00:22,55,47,1610612765.0,Monroe,Monroe Free Throw 1 of 2 (8 PTS),foul,freethrow,8,Low
+21400297,258,freethrow,2,PT00M22.60S,00:22,Q2 00:22,0,0,1610612765.0,Monroe,MISS Monroe Free Throw 2 of 2,freethrow,substitution,0,Low
+21400297,257,substitution,2,PT00M22.60S,00:22,Q2 00:22,0,0,1610612765.0,Singler,SUB out: K. Singler,freethrow,substitution,0,Low
+21400297,258,substitution,2,PT00M22.60S,00:22,Q2 00:22,0,0,1610612765.0,Butler,SUB in: C. Butler,substitution,rebound,0,Low
+21400297,260,rebound,2,PT00M21.90S,00:21,Q2 00:21,0,0,1610612760.0,Westbrook,Westbrook REBOUND (Off:0 Def:6),substitution,foul,0,Low
+21400297,261,foul,2,PT00M02.50S,00:02,Q2 00:02,0,0,1610612765.0,Jerebko,Jerebko S.FOUL (P2.PN),rebound,freethrow,0,Low
+21400297,262,freethrow,2,PT00M02.50S,00:02,Q2 00:02,55,48,1610612760.0,Durant,Durant Free Throw 1 of 2 (14 PTS),foul,freethrow,7,Low
+21400297,267,freethrow,2,PT00M02.50S,00:02,Q2 00:02,0,0,1610612760.0,Durant,MISS Durant Free Throw 2 of 2,freethrow,substitution,0,Low
+21400297,264,substitution,2,PT00M02.50S,00:02,Q2 00:02,0,0,1610612760.0,Adams,SUB out: S. Adams,freethrow,substitution,0,Low
+21400297,265,substitution,2,PT00M02.50S,00:02,Q2 00:02,0,0,1610612760.0,Lamb,SUB out: J. Lamb,substitution,substitution,0,Low
+21400297,266,substitution,2,PT00M02.50S,00:02,Q2 00:02,0,0,1610612760.0,Collison,SUB in: N. Collison,substitution,substitution,0,Low
+21400297,267,substitution,2,PT00M02.50S,00:02,Q2 00:02,0,0,1610612760.0,Roberson,SUB in: A. Roberson,substitution,rebound,0,Low
+21400297,269,rebound,2,PT00M01.90S,00:01,Q2 00:01,0,0,1610612765.0,Monroe,Monroe REBOUND (Off:1 Def:4),substitution,period,0,Low
+21400297,270,period,2,PT00M00.00S,00:00,Q2 00:00,55,48,1610612765.0,,End of 2nd Period (7:11 PM EST),rebound,period,7,Low
+21400297,272,period,3,PT12M00.00S,12:00,Q3 12:00,55,48,1610612765.0,,Start of 3rd Period (7:28 PM EST),period,substitution,7,Low
+21400297,274,3pt,3,PT11M35.00S,11:35,Q3 11:35,0,0,1610612765.0,Singler,MISS Singler 25' 3PT Jump Shot,substitution,rebound,0,Low
+21400297,275,rebound,3,PT11M35.00S,11:35,Q3 11:35,0,0,1610612760.0,Ibaka,Ibaka REBOUND (Off:2 Def:4),3pt missed,2pt missed,0,Low
+21400297,276,2pt,3,PT11M20.00S,11:20,Q3 11:20,0,0,1610612760.0,Durant,MISS Durant 8' Turnaround Jump Shot,rebound,rebound,0,Low
+21400297,277,rebound,3,PT11M18.00S,11:18,Q3 11:18,0,0,1610612765.0,Jennings,Jennings REBOUND (Off:0 Def:1),2pt missed,foul,0,Low
+21400297,278,foul,3,PT11M12.00S,11:12,Q3 11:12,0,0,1610612760.0,Ibaka,Ibaka P.FOUL (P3.T1),rebound,2pt made,0,Low
+21400297,279,2pt,3,PT11M03.00S,11:03,Q3 11:03,57,48,1610612765.0,Caldwell-Pope,Caldwell-Pope 18' Jump Shot (12 PTS) (Jennings 6 AST),foul,2pt missed,9,Low
+21400297,281,2pt,3,PT10M48.00S,10:48,Q3 10:48,0,0,1610612760.0,Durant,MISS Durant 16' Jump Shot,2pt made,rebound,0,Low
+21400297,282,rebound,3,PT10M47.00S,10:47,Q3 10:47,0,0,1610612760.0,Ibaka,Ibaka REBOUND (Off:3 Def:4),2pt missed,2pt made,0,Low
+21400297,283,2pt,3,PT10M46.00S,10:46,Q3 10:46,57,50,1610612760.0,Ibaka,Ibaka 5' Hook Shot (8 PTS),rebound,foul,7,Low
+21400297,284,foul,3,PT10M46.00S,10:46,Q3 10:46,0,0,1610612765.0,Smith,Smith S.FOUL (P4.T1),2pt made,freethrow,0,Low
+21400297,287,freethrow,3,PT10M46.00S,10:46,Q3 10:46,57,51,1610612760.0,Ibaka,Ibaka Free Throw 1 of 1 (9 PTS),foul,substitution,6,Low
+21400297,286,substitution,3,PT10M46.00S,10:46,Q3 10:46,0,0,1610612765.0,Smith,SUB out: J. Smith,freethrow,substitution,0,Low
+21400297,287,substitution,3,PT10M46.00S,10:46,Q3 10:46,0,0,1610612765.0,Monroe,SUB in: G. Monroe,substitution,3pt missed,0,Low
+21400297,290,3pt,3,PT10M21.00S,10:21,Q3 10:21,0,0,1610612765.0,Caldwell-Pope,MISS Caldwell-Pope 25' 3PT Jump Shot,substitution,rebound,0,Low
+21400297,291,rebound,3,PT10M21.00S,10:21,Q3 10:21,0,0,1610612765.0,,TEAM offensive REBOUND,3pt missed,turnover,0,Low
+21400297,292,turnover,3,PT10M21.00S,10:21,Q3 10:21,0,0,0.0,,PISTONS Turnover: Shot Clock (T#8),rebound,2pt missed,0,Low
+21400297,293,2pt,3,PT10M13.00S,10:13,Q3 10:13,0,0,1610612760.0,Westbrook,MISS Westbrook 1' Layup,turnover,rebound,0,Low
+21400297,294,rebound,3,PT10M13.00S,10:13,Q3 10:13,0,0,1610612760.0,Ibaka,Ibaka REBOUND (Off:4 Def:4),2pt missed,foul,0,Low
+21400297,295,foul,3,PT10M13.00S,10:13,Q3 10:13,0,0,1610612765.0,Drummond,Drummond P.FOUL (P3.T2),rebound,2pt missed,0,Low
+21400297,296,2pt,3,PT10M04.00S,10:04,Q3 10:04,0,0,1610612760.0,Adams,MISS Adams 1' Layup,foul,rebound,0,Low
+21400297,297,rebound,3,PT10M02.00S,10:02,Q3 10:02,0,0,1610612760.0,Roberson,Roberson REBOUND (Off:1 Def:0),2pt missed,3pt missed,0,Low
+21400297,298,3pt,3,PT09M58.00S,09:58,Q3 09:58,0,0,1610612760.0,Ibaka,MISS Ibaka 26' 3PT Jump Shot,rebound,rebound,0,Low
+21400297,299,rebound,3,PT09M58.00S,09:58,Q3 09:58,0,0,1610612760.0,,TEAM offensive REBOUND,3pt missed,2pt missed,0,Low
+21400297,300,2pt,3,PT09M54.00S,09:54,Q3 09:54,0,0,1610612760.0,Ibaka,MISS Ibaka 15' Jump Shot,rebound,rebound,0,Low
+21400297,301,rebound,3,PT09M53.00S,09:53,Q3 09:53,0,0,1610612760.0,Roberson,Roberson REBOUND (Off:2 Def:0),2pt missed,2pt made,0,Low
+21400297,302,2pt,3,PT09M50.00S,09:50,Q3 09:50,57,53,1610612760.0,Roberson,Roberson 1' Tip Shot (4 PTS),rebound,timeout,4,Low
+21400297,304,timeout,3,PT09M35.00S,09:35,Q3 09:35,0,0,1610612765.0,,PISTONS Timeout: Regular (Full 3 Short 0),2pt made,2pt made,0,Low
+21400297,306,2pt,3,PT09M29.00S,09:29,Q3 09:29,59,53,1610612765.0,Drummond,Drummond  Dunk (7 PTS) (Monroe 1 AST),timeout,2pt missed,6,Low
+21400297,307,2pt,3,PT09M13.00S,09:13,Q3 09:13,0,0,1610612760.0,Durant,MISS Durant 1' Driving Layup,2pt made,rebound,0,Low
+21400297,308,rebound,3,PT09M11.00S,09:11,Q3 09:11,0,0,1610612765.0,Monroe,Monroe REBOUND (Off:1 Def:5),2pt missed,turnover,0,Low
+21400297,309,turnover,3,PT09M07.00S,09:07,Q3 09:07,0,0,1610612765.0,Singler,Singler Lost Ball Turnover (P2.T9),rebound,steal,0,Low
+21400297,309,steal,3,PT09M07.00S,09:07,Q3 09:07,0,0,1610612760.0,Roberson,Roberson STEAL (2 STL),turnover,2pt made,0,Low
+21400297,310,2pt,3,PT09M03.00S,09:03,Q3 09:03,59,55,1610612760.0,Durant,Durant  Dunk (16 PTS) (Westbrook 4 AST),steal,2pt missed,4,Low
+21400297,311,2pt,3,PT08M39.00S,08:39,Q3 08:39,0,0,1610612765.0,Monroe,MISS Monroe 1' Layup,2pt made,block,0,Low
+21400297,311,block,3,PT08M39.00S,08:39,Q3 08:39,0,0,1610612760.0,Adams,Adams BLOCK (2 BLK),2pt missed,rebound,0,Low
+21400297,312,rebound,3,PT08M33.00S,08:33,Q3 08:33,0,0,1610612765.0,Drummond,Drummond REBOUND (Off:2 Def:2),block,2pt made,0,Low
+21400297,313,2pt,3,PT08M30.00S,08:30,Q3 08:30,61,55,1610612765.0,Drummond,Drummond 3' Hook Shot (9 PTS),rebound,3pt missed,6,Low
+21400297,314,3pt,3,PT08M14.00S,08:14,Q3 08:14,0,0,1610612760.0,Ibaka,MISS Ibaka 24' 3PT Jump Shot,2pt made,rebound,0,Low
+21400297,315,rebound,3,PT08M13.00S,08:13,Q3 08:13,0,0,1610612760.0,Westbrook,Westbrook REBOUND (Off:1 Def:6),3pt missed,2pt made,0,Low
+21400297,316,2pt,3,PT08M13.00S,08:13,Q3 08:13,61,57,1610612760.0,Westbrook,Westbrook  Layup (13 PTS),rebound,2pt missed,4,Low
+21400297,317,2pt,3,PT07M52.00S,07:52,Q3 07:52,0,0,1610612765.0,Jennings,MISS Jennings 6' Floating Jump Shot,2pt made,rebound,0,Low
+21400297,318,rebound,3,PT07M49.00S,07:49,Q3 07:49,0,0,1610612760.0,Ibaka,Ibaka REBOUND (Off:4 Def:5),2pt missed,turnover,0,Low
+21400297,319,turnover,3,PT07M38.00S,07:38,Q3 07:38,0,0,1610612760.0,Adams,Adams Backcourt Turnover (P2.T9),rebound,substitution,0,Low
+21400297,320,substitution,3,PT07M38.00S,07:38,Q3 07:38,0,0,1610612760.0,Durant,SUB out: K. Durant,turnover,substitution,0,Low
+21400297,321,substitution,3,PT07M38.00S,07:38,Q3 07:38,0,0,1610612760.0,Morrow,SUB in: A. Morrow,substitution,3pt missed,0,Low
+21400297,321,3pt,3,PT07M23.00S,07:23,Q3 07:23,0,0,1610612765.0,Singler,MISS Singler 26' 3PT Jump Shot,substitution,rebound,0,Low
+21400297,322,rebound,3,PT07M22.00S,07:22,Q3 07:22,0,0,1610612760.0,Ibaka,Ibaka REBOUND (Off:4 Def:6),3pt missed,2pt made,0,Low
+21400297,323,2pt,3,PT07M15.00S,07:15,Q3 07:15,61,59,1610612760.0,Westbrook,Westbrook 19' Pullup Jump Shot (15 PTS),rebound,2pt missed,2,Low
+21400297,324,2pt,3,PT07M02.00S,07:02,Q3 07:02,0,0,1610612765.0,Monroe,MISS Monroe 1' Layup,2pt made,block,0,Low
+21400297,324,block,3,PT07M02.00S,07:02,Q3 07:02,0,0,1610612760.0,Ibaka,Ibaka BLOCK (3 BLK),2pt missed,rebound,0,Low
+21400297,325,rebound,3,PT07M01.00S,07:01,Q3 07:01,0,0,1610612760.0,Adams,Adams REBOUND (Off:0 Def:1),block,foul,0,Low
+21400297,326,foul,3,PT07M01.00S,07:01,Q3 07:01,0,0,1610612765.0,Monroe,Monroe P.FOUL (P1.T3),rebound,2pt made,0,Low
+21400297,327,2pt,3,PT06M49.00S,06:49,Q3 06:49,61,61,1610612760.0,Adams,Adams  Dunk (3 PTS) (Westbrook 5 AST),foul,foul,0,Low
+21400297,328,foul,3,PT06M40.00S,06:40,Q3 06:40,0,0,1610612760.0,Morrow,Morrow P.FOUL (P1.T2),2pt made,2pt made,0,Low
+21400297,329,2pt,3,PT06M30.00S,06:30,Q3 06:30,63,61,1610612765.0,Jennings,Jennings  Driving Layup (6 PTS),foul,2pt missed,2,Low
+21400297,330,2pt,3,PT06M14.00S,06:14,Q3 06:14,0,0,1610612760.0,Westbrook,MISS Westbrook  Layup,2pt made,rebound,0,Low
+21400297,331,rebound,3,PT06M13.00S,06:13,Q3 06:13,0,0,1610612765.0,Drummond,Drummond REBOUND (Off:2 Def:3),2pt missed,2pt made,0,Low
+21400297,332,2pt,3,PT06M08.00S,06:08,Q3 06:08,65,61,1610612765.0,Caldwell-Pope,Caldwell-Pope 1' Layup (14 PTS) (Jennings 7 AST),rebound,foul,4,Low
+21400297,333,foul,3,PT06M08.00S,06:08,Q3 06:08,0,0,1610612760.0,Morrow,Morrow S.FOUL (P2.T3),2pt made,freethrow,0,Low
+21400297,334,freethrow,3,PT06M08.00S,06:08,Q3 06:08,0,0,1610612765.0,Caldwell-Pope,MISS Caldwell-Pope Free Throw 1 of 1,foul,rebound,0,Low
+21400297,335,rebound,3,PT06M06.00S,06:06,Q3 06:06,0,0,1610612765.0,Monroe,Monroe REBOUND (Off:2 Def:5),freethrow,turnover,0,Low
+21400297,336,turnover,3,PT06M04.00S,06:04,Q3 06:04,0,0,1610612765.0,Monroe,Monroe Traveling Turnover (P2.T10),rebound,2pt missed,0,Low
+21400297,337,2pt,3,PT05M52.00S,05:52,Q3 05:52,0,0,1610612760.0,Adams,MISS Adams 1' Layup,turnover,rebound,0,Low
+21400297,338,rebound,3,PT05M51.00S,05:51,Q3 05:51,0,0,1610612760.0,Ibaka,Ibaka REBOUND (Off:5 Def:6),2pt missed,2pt made,0,Low
+21400297,339,2pt,3,PT05M50.00S,05:50,Q3 05:50,65,63,1610612760.0,Ibaka,Ibaka 1' Layup (11 PTS),rebound,2pt made,2,Low
+21400297,340,2pt,3,PT05M23.00S,05:23,Q3 05:23,67,63,1610612765.0,Caldwell-Pope,Caldwell-Pope 16' Jump Shot (16 PTS) (Jennings 8 AST),2pt made,turnover,4,Low
+21400297,341,turnover,3,PT05M13.00S,05:13,Q3 05:13,0,0,1610612760.0,Adams,Adams Traveling Turnover (P3.T10),2pt made,substitution,0,Low
+21400297,342,substitution,3,PT05M13.00S,05:13,Q3 05:13,0,0,1610612760.0,Adams,SUB out: S. Adams,turnover,substitution,0,Low
+21400297,343,substitution,3,PT05M13.00S,05:13,Q3 05:13,0,0,1610612760.0,Perkins,SUB in: K. Perkins,substitution,2pt made,0,Low
+21400297,343,2pt,3,PT05M00.00S,05:00,Q3 05:00,69,63,1610612765.0,Monroe,Monroe 2' Layup (10 PTS) (Caldwell-Pope 3 AST),substitution,2pt missed,6,Low
+21400297,344,2pt,3,PT04M45.00S,04:45,Q3 04:45,0,0,1610612760.0,Ibaka,MISS Ibaka 17' Jump Shot,2pt made,rebound,0,Low
+21400297,345,rebound,3,PT04M44.00S,04:44,Q3 04:44,0,0,1610612765.0,Drummond,Drummond REBOUND (Off:2 Def:4),2pt missed,2pt missed,0,Low
+21400297,346,2pt,3,PT04M35.00S,04:35,Q3 04:35,0,0,1610612765.0,Drummond,MISS Drummond 1' Layup,rebound,block,0,Low
+21400297,346,block,3,PT04M35.00S,04:35,Q3 04:35,0,0,1610612760.0,Ibaka,Ibaka BLOCK (4 BLK),2pt missed,rebound,0,Low
+21400297,347,rebound,3,PT04M31.00S,04:31,Q3 04:31,0,0,1610612760.0,Westbrook,Westbrook REBOUND (Off:1 Def:7),block,2pt made,0,Low
+21400297,348,2pt,3,PT04M28.00S,04:28,Q3 04:28,69,65,1610612760.0,Westbrook,Westbrook 1' Layup (17 PTS),rebound,turnover,4,Low
+21400297,349,turnover,3,PT04M10.00S,04:10,Q3 04:10,0,0,1610612765.0,Caldwell-Pope,Caldwell-Pope Traveling Turnover (P3.T11),2pt made,substitution,0,Low
+21400297,350,substitution,3,PT04M10.00S,04:10,Q3 04:10,0,0,1610612760.0,Roberson,SUB out: A. Roberson,turnover,substitution,0,Low
+21400297,351,substitution,3,PT04M10.00S,04:10,Q3 04:10,0,0,1610612760.0,Jackson,SUB in: R. Jackson,substitution,2pt missed,0,Low
+21400297,356,2pt,3,PT03M47.00S,03:47,Q3 03:47,0,0,1610612760.0,Morrow,MISS Morrow 7' Jump Shot,substitution,rebound,0,Low
+21400297,357,rebound,3,PT03M46.00S,03:46,Q3 03:46,0,0,1610612760.0,Ibaka,Ibaka REBOUND (Off:6 Def:6),2pt missed,2pt made,0,Low
+21400297,358,2pt,3,PT03M45.00S,03:45,Q3 03:45,69,67,1610612760.0,Ibaka,Ibaka  Layup (13 PTS),rebound,3pt missed,2,Low
+21400297,359,3pt,3,PT03M26.00S,03:26,Q3 03:26,0,0,1610612765.0,Jennings,MISS Jennings 26' 3PT Jump Shot,2pt made,rebound,0,Low
+21400297,360,rebound,3,PT03M25.00S,03:25,Q3 03:25,0,0,1610612760.0,Jackson,Jackson REBOUND (Off:0 Def:2),3pt missed,3pt made,0,Low
+21400297,361,3pt,3,PT03M18.00S,03:18,Q3 03:18,69,70,1610612760.0,Westbrook,Westbrook 27' 3PT Jump Shot (20 PTS),rebound,2pt missed,1,Low
+21400297,362,2pt,3,PT03M03.00S,03:03,Q3 03:03,0,0,1610612765.0,Caldwell-Pope,MISS Caldwell-Pope 15' Jump Shot,3pt made,rebound,0,Low
+21400297,363,rebound,3,PT03M02.00S,03:02,Q3 03:02,0,0,1610612760.0,Jackson,Jackson REBOUND (Off:0 Def:3),2pt missed,foul,0,Low
+21400297,364,foul,3,PT02M57.00S,02:57,Q3 02:57,0,0,1610612765.0,Caldwell-Pope,Caldwell-Pope P.FOUL (P4.T4),rebound,timeout,0,Low
+21400297,365,timeout,3,PT02M57.00S,02:57,Q3 02:57,0,0,1610612760.0,,Thunder Timeout: Regular (Reg.3 Short 0),foul,instant replay,0,Low
+21400297,368,substitution,3,PT02M57.00S,02:57,Q3 02:57,0,0,1610612760.0,Ibaka,SUB out: S. Ibaka,instant replay,substitution,0,Low
+21400297,369,substitution,3,PT02M57.00S,02:57,Q3 02:57,0,0,1610612760.0,Westbrook,SUB out: R. Westbrook,substitution,substitution,0,Low
+21400297,370,substitution,3,PT02M57.00S,02:57,Q3 02:57,0,0,1610612765.0,Caldwell-Pope,SUB out: K. Caldwell-Pope,substitution,substitution,0,Low
+21400297,371,substitution,3,PT02M57.00S,02:57,Q3 02:57,0,0,1610612760.0,Durant,SUB in: K. Durant,substitution,substitution,0,Low
+21400297,372,substitution,3,PT02M57.00S,02:57,Q3 02:57,0,0,1610612760.0,Collison,SUB in: N. Collison,substitution,substitution,0,Low
+21400297,373,substitution,3,PT02M57.00S,02:57,Q3 02:57,0,0,1610612765.0,Martin,SUB in: C. Martin,substitution,2pt made,0,Low
+21400297,371,2pt,3,PT02M45.00S,02:45,Q3 02:45,69,72,1610612760.0,Durant,Durant 17' Jump Shot (18 PTS),substitution,2pt made,3,Low
+21400297,372,2pt,3,PT02M24.00S,02:24,Q3 02:24,71,72,1610612765.0,Drummond,Drummond 1' Layup (11 PTS) (Singler 1 AST),2pt made,turnover,1,Low
+21400297,373,turnover,3,PT02M01.00S,02:01,Q3 02:01,0,0,1610612760.0,Collison,Collison Bad Pass Turnover (P1.T11),2pt made,steal,0,Low
+21400297,373,steal,3,PT02M01.00S,02:01,Q3 02:01,0,0,1610612765.0,Singler,Singler STEAL (2 STL),turnover,foul,0,Low
+21400297,374,foul,3,PT01M51.00S,01:51,Q3 01:51,0,0,1610612760.0,Collison,Collison S.FOUL (P3.T4),steal,freethrow,0,Low
+21400297,375,freethrow,3,PT01M51.00S,01:51,Q3 01:51,0,0,1610612765.0,Monroe,MISS Monroe Free Throw 1 of 2,foul,rebound,0,Low
+21400297,376,rebound,3,PT01M51.00S,01:51,Q3 01:51,0,0,1610612765.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21400297,378,freethrow,3,PT01M51.00S,01:51,Q3 01:51,72,72,1610612765.0,Monroe,Monroe Free Throw 2 of 2 (11 PTS),rebound,substitution,0,Low
+21400297,377,substitution,3,PT01M51.00S,01:51,Q3 01:51,0,0,1610612765.0,Drummond,SUB out: A. Drummond,freethrow,substitution,0,Low
+21400297,378,substitution,3,PT01M51.00S,01:51,Q3 01:51,0,0,1610612765.0,Jerebko,SUB in: J. Jerebko,substitution,2pt missed,0,Low
+21400297,380,2pt,3,PT01M38.00S,01:38,Q3 01:38,0,0,1610612760.0,Durant,MISS Durant 1' Finger Roll Layup,substitution,rebound,0,Low
+21400297,381,rebound,3,PT01M35.00S,01:35,Q3 01:35,0,0,1610612765.0,Singler,Singler REBOUND (Off:0 Def:1),2pt missed,turnover,0,Low
+21400297,382,turnover,3,PT01M27.00S,01:27,Q3 01:27,0,0,1610612765.0,Monroe,Monroe Lost Ball Turnover (P3.T12),rebound,steal,0,Low
+21400297,382,steal,3,PT01M27.00S,01:27,Q3 01:27,0,0,1610612760.0,Perkins,Perkins STEAL (1 STL),turnover,2pt missed,0,Low
+21400297,383,2pt,3,PT01M21.00S,01:21,Q3 01:21,0,0,1610612760.0,Jackson,MISS Jackson 17' Jump Shot,steal,rebound,0,Low
+21400297,384,rebound,3,PT01M20.00S,01:20,Q3 01:20,0,0,1610612765.0,Monroe,Monroe REBOUND (Off:2 Def:6),2pt missed,2pt made,0,Low
+21400297,385,2pt,3,PT01M04.00S,01:04,Q3 01:04,74,72,1610612765.0,Jerebko,Jerebko 1' Layup (9 PTS) (Monroe 2 AST),rebound,3pt made,2,Low
+21400297,386,3pt,3,PT00M51.20S,00:51,Q3 00:51,74,75,1610612760.0,Morrow,Morrow  3PT Jump Shot (6 PTS) (Durant 4 AST),2pt made,2pt missed,1,Low
+21400297,387,2pt,3,PT00M27.20S,00:27,Q3 00:27,0,0,1610612765.0,Jerebko,MISS Jerebko 5' Jump Shot,3pt made,rebound,0,Low
+21400297,388,rebound,3,PT00M27.20S,00:27,Q3 00:27,0,0,1610612765.0,,TEAM offensive REBOUND,2pt missed,foul,0,Low
+21400297,389,foul,3,PT00M27.20S,00:27,Q3 00:27,0,0,1610612760.0,Perkins,Perkins P.FOUL (P3.PN),rebound,freethrow,0,Low
+21400297,390,freethrow,3,PT00M27.20S,00:27,Q3 00:27,0,0,1610612765.0,Monroe,MISS Monroe Free Throw 1 of 2,foul,rebound,0,Low
+21400297,391,rebound,3,PT00M27.20S,00:27,Q3 00:27,0,0,1610612765.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21400297,392,freethrow,3,PT00M27.20S,00:27,Q3 00:27,75,75,1610612765.0,Monroe,Monroe Free Throw 2 of 2 (12 PTS),rebound,foul,0,Low
+21400297,394,foul,3,PT00M06.40S,00:06,Q3 00:06,0,0,1610612765.0,Monroe,Monroe P.FOUL (P2.PN),freethrow,freethrow,0,Low
+21400297,395,freethrow,3,PT00M06.40S,00:06,Q3 00:06,75,76,1610612760.0,Durant,Durant Free Throw 1 of 2 (19 PTS),foul,freethrow,1,Low
+21400297,398,freethrow,3,PT00M06.40S,00:06,Q3 00:06,75,77,1610612760.0,Durant,Durant Free Throw 2 of 2 (20 PTS),freethrow,substitution,2,Low
+21400297,397,substitution,3,PT00M06.40S,00:06,Q3 00:06,0,0,1610612760.0,Collison,SUB out: N. Collison,freethrow,substitution,0,Low
+21400297,398,substitution,3,PT00M06.40S,00:06,Q3 00:06,0,0,1610612760.0,Roberson,SUB in: A. Roberson,substitution,period,0,Low
+21400297,400,period,3,PT00M00.00S,00:00,Q3 00:00,75,77,1610612765.0,,End of 3rd Period (7:55 PM EST),substitution,period,2,Medium
+21400297,402,period,4,PT12M00.00S,12:00,Q4 12:00,75,77,1610612765.0,,Start of 4th Period (7:58 PM EST),period,substitution,2,Medium
+21400297,403,3pt,4,PT11M45.00S,11:45,Q4 11:45,0,0,1610612760.0,Durant,MISS Durant 26' 3PT Jump Shot,substitution,rebound,0,Medium
+21400297,404,rebound,4,PT11M45.00S,11:45,Q4 11:45,0,0,1610612765.0,Singler,Singler REBOUND (Off:0 Def:2),3pt missed,2pt missed,0,Medium
+21400297,405,2pt,4,PT11M24.00S,11:24,Q4 11:24,0,0,1610612765.0,Martin,MISS Martin 1' Driving Layup,rebound,rebound,0,Medium
+21400297,406,rebound,4,PT11M23.00S,11:23,Q4 11:23,0,0,1610612760.0,Perkins,Perkins REBOUND (Off:0 Def:2),2pt missed,2pt made,0,Medium
+21400297,407,2pt,4,PT11M17.00S,11:17,Q4 11:17,75,79,1610612760.0,Jackson,Jackson 1' Driving Layup (4 PTS),rebound,2pt missed,4,Medium
+21400297,408,2pt,4,PT10M58.00S,10:58,Q4 10:58,0,0,1610612765.0,Singler,MISS Singler 19' Jump Shot,2pt made,rebound,0,Medium
+21400297,409,rebound,4,PT10M57.00S,10:57,Q4 10:57,0,0,1610612760.0,Durant,Durant REBOUND (Off:0 Def:4),2pt missed,3pt missed,0,Medium
+21400297,410,3pt,4,PT10M48.00S,10:48,Q4 10:48,0,0,1610612760.0,Jackson,MISS Jackson 26' 3PT Jump Shot,rebound,rebound,0,Medium
+21400297,411,rebound,4,PT10M47.00S,10:47,Q4 10:47,0,0,1610612765.0,Martin,Martin REBOUND (Off:0 Def:1),3pt missed,turnover,0,Medium
+21400297,412,turnover,4,PT10M34.00S,10:34,Q4 10:34,0,0,1610612765.0,Monroe,Monroe Lost Ball Turnover (P4.T13),rebound,steal,0,Medium
+21400297,412,steal,4,PT10M34.00S,10:34,Q4 10:34,0,0,1610612760.0,Morrow,Morrow STEAL (1 STL),turnover,3pt missed,0,Medium
+21400297,413,3pt,4,PT10M26.00S,10:26,Q4 10:26,0,0,1610612760.0,Durant,MISS Durant 27' 3PT Jump Shot,steal,rebound,0,Medium
+21400297,414,rebound,4,PT10M25.00S,10:25,Q4 10:25,0,0,1610612760.0,Collison,Collison REBOUND (Off:2 Def:1),3pt missed,2pt missed,0,Medium
+21400297,415,2pt,4,PT10M12.00S,10:12,Q4 10:12,0,0,1610612760.0,Collison,MISS Collison  Layup,rebound,rebound,0,Medium
+21400297,416,rebound,4,PT10M11.00S,10:11,Q4 10:11,0,0,1610612765.0,Jerebko,Jerebko REBOUND (Off:2 Def:2),2pt missed,3pt missed,0,Medium
+21400297,417,3pt,4,PT10M02.00S,10:02,Q4 10:02,0,0,1610612765.0,Jerebko,MISS Jerebko 26' 3PT Jump Shot,rebound,rebound,0,Medium
+21400297,418,rebound,4,PT10M01.00S,10:01,Q4 10:01,0,0,1610612760.0,Perkins,Perkins REBOUND (Off:0 Def:3),3pt missed,2pt made,0,Medium
+21400297,419,2pt,4,PT09M45.00S,09:45,Q4 09:45,75,81,1610612760.0,Morrow,Morrow 19' Jump Shot (8 PTS) (Perkins 2 AST),rebound,timeout,6,Medium
+21400297,420,timeout,4,PT09M45.00S,09:45,Q4 09:45,0,0,1610612765.0,,PISTONS Timeout: Regular (Full 4 Short 0),2pt made,substitution,0,Medium
+21400297,422,substitution,4,PT09M45.00S,09:45,Q4 09:45,0,0,1610612765.0,Singler,SUB out: K. Singler,timeout,substitution,0,Medium
+21400297,423,substitution,4,PT09M45.00S,09:45,Q4 09:45,0,0,1610612765.0,Monroe,SUB out: G. Monroe,substitution,substitution,0,Medium
+21400297,424,substitution,4,PT09M45.00S,09:45,Q4 09:45,0,0,1610612765.0,Jerebko,SUB out: J. Jerebko,substitution,substitution,0,Medium
+21400297,425,substitution,4,PT09M45.00S,09:45,Q4 09:45,0,0,1610612760.0,Durant,SUB out: K. Durant,substitution,substitution,0,Medium
+21400297,426,substitution,4,PT09M45.00S,09:45,Q4 09:45,0,0,1610612765.0,Drummond,SUB in: A. Drummond,substitution,substitution,0,Medium
+21400297,427,substitution,4,PT09M45.00S,09:45,Q4 09:45,0,0,1610612765.0,Smith,SUB in: J. Smith,substitution,substitution,0,Medium
+21400297,428,substitution,4,PT09M45.00S,09:45,Q4 09:45,0,0,1610612765.0,Butler,SUB in: C. Butler,substitution,substitution,0,Medium
+21400297,429,substitution,4,PT09M45.00S,09:45,Q4 09:45,0,0,1610612760.0,Lamb,SUB in: J. Lamb,substitution,3pt missed,0,Medium
+21400297,426,3pt,4,PT09M30.00S,09:30,Q4 09:30,0,0,1610612765.0,Martin,MISS Martin 25' 3PT Jump Shot,substitution,rebound,0,Medium
+21400297,427,rebound,4,PT09M29.00S,09:29,Q4 09:29,0,0,1610612760.0,Lamb,Lamb REBOUND (Off:0 Def:2),3pt missed,foul,0,Medium
+21400297,428,foul,4,PT09M15.00S,09:15,Q4 09:15,0,0,1610612760.0,Perkins,Perkins OFF.Foul (P4),rebound,turnover,0,Medium
+21400297,429,turnover,4,PT09M15.00S,09:15,Q4 09:15,0,0,1610612760.0,Perkins,Perkins Foul Turnover (P1.T12),foul,2pt missed,0,Medium
+21400297,430,2pt,4,PT09M06.00S,09:06,Q4 09:06,0,0,1610612765.0,Smith,MISS Smith  Layup,turnover,block,0,Medium
+21400297,430,block,4,PT09M06.00S,09:06,Q4 09:06,0,0,1610612760.0,Collison,Collison BLOCK (1 BLK),2pt missed,rebound,0,Medium
+21400297,431,rebound,4,PT09M05.00S,09:05,Q4 09:05,0,0,1610612760.0,Perkins,Perkins REBOUND (Off:0 Def:4),block,2pt missed,0,Medium
+21400297,432,2pt,4,PT08M52.00S,08:52,Q4 08:52,0,0,1610612760.0,Jackson,MISS Jackson 6' Floating Jump Shot,rebound,rebound,0,Medium
+21400297,433,rebound,4,PT08M50.00S,08:50,Q4 08:50,0,0,1610612760.0,Perkins,Perkins REBOUND (Off:1 Def:4),2pt missed,3pt made,0,Medium
+21400297,434,3pt,4,PT08M41.00S,08:41,Q4 08:41,75,84,1610612760.0,Lamb,Lamb 27' 3PT Jump Shot (10 PTS) (Collison 4 AST),rebound,2pt missed,9,Low
+21400297,435,2pt,4,PT08M24.00S,08:24,Q4 08:24,0,0,1610612765.0,Smith,MISS Smith 7' Jump Bank Shot,3pt made,rebound,0,Medium
+21400297,436,rebound,4,PT08M22.00S,08:22,Q4 08:22,0,0,1610612760.0,Perkins,Perkins REBOUND (Off:1 Def:5),2pt missed,3pt missed,0,Medium
+21400297,437,3pt,4,PT08M16.00S,08:16,Q4 08:16,0,0,1610612760.0,Lamb,MISS Lamb 24' 3PT Jump Shot,rebound,rebound,0,Medium
+21400297,438,rebound,4,PT08M15.00S,08:15,Q4 08:15,0,0,1610612760.0,Collison,Collison REBOUND (Off:3 Def:1),3pt missed,2pt missed,0,Medium
+21400297,439,2pt,4,PT08M08.00S,08:08,Q4 08:08,0,0,1610612760.0,Jackson,MISS Jackson 14' Jump Shot,rebound,block,0,Medium
+21400297,439,block,4,PT08M08.00S,08:08,Q4 08:08,0,0,1610612765.0,Drummond,Drummond BLOCK (1 BLK),2pt missed,rebound,0,Medium
+21400297,440,rebound,4,PT08M06.00S,08:06,Q4 08:06,0,0,1610612760.0,Jackson,Jackson REBOUND (Off:1 Def:3),block,3pt missed,0,Medium
+21400297,441,3pt,4,PT08M03.00S,08:03,Q4 08:03,0,0,1610612760.0,Collison,MISS Collison 28' 3PT Jump Shot,rebound,rebound,0,Medium
+21400297,442,rebound,4,PT08M02.00S,08:02,Q4 08:02,0,0,1610612760.0,Perkins,Perkins REBOUND (Off:2 Def:5),3pt missed,2pt missed,0,Medium
+21400297,443,2pt,4,PT07M59.00S,07:59,Q4 07:59,0,0,1610612760.0,Morrow,MISS Morrow 11' Jump Shot,rebound,rebound,0,Medium
+21400297,444,rebound,4,PT07M59.00S,07:59,Q4 07:59,0,0,1610612760.0,Collison,Collison REBOUND (Off:4 Def:1),2pt missed,foul,0,Medium
+21400297,445,foul,4,PT07M59.00S,07:59,Q4 07:59,0,0,1610612765.0,Martin,Martin P.FOUL (P1.T1),rebound,timeout,0,Medium
+21400297,446,timeout,4,PT07M59.00S,07:59,Q4 07:59,0,0,1610612765.0,,PISTONS Timeout: Short (Full 4 Short 1),foul,substitution,0,Medium
+21400297,448,substitution,4,PT07M59.00S,07:59,Q4 07:59,0,0,1610612760.0,Morrow,SUB out: A. Morrow,timeout,substitution,0,Medium
+21400297,449,substitution,4,PT07M59.00S,07:59,Q4 07:59,0,0,1610612765.0,Martin,SUB out: C. Martin,substitution,substitution,0,Medium
+21400297,450,substitution,4,PT07M59.00S,07:59,Q4 07:59,0,0,1610612760.0,Westbrook,SUB in: R. Westbrook,substitution,substitution,0,Medium
+21400297,451,substitution,4,PT07M59.00S,07:59,Q4 07:59,0,0,1610612765.0,Caldwell-Pope,SUB in: K. Caldwell-Pope,substitution,2pt missed,0,Medium
+21400297,450,2pt,4,PT07M51.00S,07:51,Q4 07:51,0,0,1610612760.0,Perkins,MISS Perkins 1' Layup,substitution,rebound,0,Medium
+21400297,451,rebound,4,PT07M50.00S,07:50,Q4 07:50,0,0,1610612765.0,Smith,Smith REBOUND (Off:0 Def:4),2pt missed,2pt missed,0,Medium
+21400297,452,2pt,4,PT07M43.00S,07:43,Q4 07:43,0,0,1610612765.0,Drummond,MISS Drummond 1' Alley Oop Layup,rebound,rebound,0,Medium
+21400297,453,rebound,4,PT07M42.00S,07:42,Q4 07:42,0,0,1610612760.0,,TEAM defensive REBOUND,2pt missed,2pt missed,0,Medium
+21400297,454,2pt,4,PT07M36.00S,07:36,Q4 07:36,0,0,1610612760.0,Westbrook,MISS Westbrook 2' Layup,rebound,rebound,0,Medium
+21400297,455,rebound,4,PT07M35.00S,07:35,Q4 07:35,0,0,1610612765.0,Butler,Butler REBOUND (Off:0 Def:1),2pt missed,3pt made,0,Medium
+21400297,456,3pt,4,PT07M26.00S,07:26,Q4 07:26,78,84,1610612765.0,Augustin,Augustin  3PT Jump Shot (7 PTS) (Butler 2 AST),rebound,turnover,6,Medium
+21400297,457,turnover,4,PT07M08.00S,07:08,Q4 07:08,0,0,1610612760.0,Perkins,Perkins 3 Second Violation Turnover (P2.T13),3pt made,foul,0,Medium
+21400297,458,foul,4,PT06M56.00S,06:56,Q4 06:56,0,0,1610612760.0,Collison,Collison P.FOUL (P4.T1),turnover,substitution,0,High
+21400297,459,substitution,4,PT06M56.00S,06:56,Q4 06:56,0,0,1610612760.0,Collison,SUB out: N. Collison,foul,substitution,0,High
+21400297,460,substitution,4,PT06M56.00S,06:56,Q4 06:56,0,0,1610612760.0,Ibaka,SUB in: S. Ibaka,substitution,2pt missed,0,High
+21400297,460,2pt,4,PT06M45.00S,06:45,Q4 06:45,0,0,1610612765.0,Smith,MISS Smith 22' Jump Shot,substitution,rebound,0,High
+21400297,461,rebound,4,PT06M43.00S,06:43,Q4 06:43,0,0,1610612760.0,Westbrook,Westbrook REBOUND (Off:1 Def:8),2pt missed,2pt made,0,High
+21400297,462,2pt,4,PT06M38.00S,06:38,Q4 06:38,78,86,1610612760.0,Westbrook,Westbrook  Driving Dunk (22 PTS),rebound,2pt made,8,Medium
+21400297,463,2pt,4,PT06M16.00S,06:16,Q4 06:16,80,86,1610612765.0,Smith,Smith 4' Hook Shot (12 PTS) (Caldwell-Pope 4 AST),2pt made,2pt made,6,High
+21400297,464,2pt,4,PT05M50.00S,05:50,Q4 05:50,80,88,1610612760.0,Lamb,Lamb 1' Driving Layup (12 PTS),2pt made,3pt made,8,Medium
+21400297,465,3pt,4,PT05M35.00S,05:35,Q4 05:35,83,88,1610612765.0,Butler,Butler  3PT Jump Shot (3 PTS) (Smith 1 AST),2pt made,timeout,5,High
+21400297,466,timeout,4,PT05M26.00S,05:26,Q4 05:26,0,0,1610612760.0,,Thunder Timeout: Regular (Reg.4 Short 0),3pt made,substitution,0,High
+21400297,468,substitution,4,PT05M26.00S,05:26,Q4 05:26,0,0,1610612765.0,Butler,SUB out: C. Butler,timeout,substitution,0,High
+21400297,469,substitution,4,PT05M26.00S,05:26,Q4 05:26,0,0,1610612760.0,Perkins,SUB out: K. Perkins,substitution,substitution,0,High
+21400297,470,substitution,4,PT05M26.00S,05:26,Q4 05:26,0,0,1610612765.0,Singler,SUB in: K. Singler,substitution,substitution,0,High
+21400297,471,substitution,4,PT05M26.00S,05:26,Q4 05:26,0,0,1610612760.0,Durant,SUB in: K. Durant,substitution,2pt made,0,High
+21400297,470,2pt,4,PT05M13.00S,05:13,Q4 05:13,83,90,1610612760.0,Durant,Durant 12' Jump Shot (22 PTS) (Westbrook 6 AST),substitution,substitution,7,Medium
+21400297,472,substitution,4,PT04M59.00S,04:59,Q4 04:59,0,0,1610612765.0,Augustin,SUB out: D. Augustin,2pt made,substitution,0,High
+21400297,473,substitution,4,PT04M59.00S,04:59,Q4 04:59,0,0,1610612765.0,Jennings,SUB in: B. Jennings,substitution,3pt made,0,High
+21400297,474,3pt,4,PT04M50.00S,04:50,Q4 04:50,86,90,1610612765.0,Caldwell-Pope,Caldwell-Pope 28' 3PT Jump Shot (19 PTS) (Jennings 9 AST),substitution,2pt made,4,High
+21400297,475,2pt,4,PT04M36.00S,04:36,Q4 04:36,86,92,1610612760.0,Durant,Durant  Layup (24 PTS) (Westbrook 7 AST),3pt made,foul,6,High
+21400297,476,foul,4,PT04M36.00S,04:36,Q4 04:36,0,0,1610612765.0,Drummond,Drummond S.FOUL (P4.T2),2pt made,freethrow,0,High
+21400297,477,freethrow,4,PT04M36.00S,04:36,Q4 04:36,86,93,1610612760.0,Durant,Durant Free Throw 1 of 1 (25 PTS),foul,3pt missed,7,High
+21400297,478,3pt,4,PT04M18.00S,04:18,Q4 04:18,0,0,1610612765.0,Caldwell-Pope,MISS Caldwell-Pope 26' 3PT Jump Shot,freethrow,rebound,0,High
+21400297,479,rebound,4,PT04M17.00S,04:17,Q4 04:17,0,0,1610612760.0,Jackson,Jackson REBOUND (Off:1 Def:4),3pt missed,3pt missed,0,High
+21400297,480,3pt,4,PT03M58.00S,03:58,Q4 03:58,0,0,1610612760.0,Lamb,MISS Lamb  3PT Jump Shot,rebound,rebound,0,High
+21400297,481,rebound,4,PT03M57.00S,03:57,Q4 03:57,0,0,1610612765.0,Smith,Smith REBOUND (Off:0 Def:5),3pt missed,foul,0,High
+21400297,482,foul,4,PT03M53.00S,03:53,Q4 03:53,0,0,1610612760.0,Lamb,Lamb S.FOUL (P2.T2),rebound,freethrow,0,High
+21400297,483,freethrow,4,PT03M53.00S,03:53,Q4 03:53,87,93,1610612765.0,Drummond,Drummond Free Throw 1 of 2 (12 PTS),foul,freethrow,6,High
+21400297,485,freethrow,4,PT03M53.00S,03:53,Q4 03:53,0,0,1610612765.0,Drummond,MISS Drummond Free Throw 2 of 2,freethrow,rebound,0,High
+21400297,487,rebound,4,PT03M52.00S,03:52,Q4 03:52,0,0,1610612760.0,Westbrook,Westbrook REBOUND (Off:1 Def:9),freethrow,2pt missed,0,High
+21400297,488,2pt,4,PT03M35.00S,03:35,Q4 03:35,0,0,1610612760.0,Ibaka,MISS Ibaka 5' Hook Shot,rebound,rebound,0,High
+21400297,489,rebound,4,PT03M31.00S,03:31,Q4 03:31,0,0,1610612765.0,Drummond,Drummond REBOUND (Off:2 Def:5),2pt missed,2pt missed,0,High
+21400297,490,2pt,4,PT03M25.00S,03:25,Q4 03:25,0,0,1610612765.0,Smith,MISS Smith 5' Hook Shot,rebound,rebound,0,High
+21400297,491,rebound,4,PT03M20.00S,03:20,Q4 03:20,0,0,1610612765.0,Drummond,Drummond REBOUND (Off:3 Def:5),2pt missed,2pt made,0,High
+21400297,492,2pt,4,PT03M19.00S,03:19,Q4 03:19,89,93,1610612765.0,Drummond,Drummond 1' Tip Shot (14 PTS),rebound,2pt missed,4,High
+21400297,493,2pt,4,PT02M59.00S,02:59,Q4 02:59,0,0,1610612760.0,Durant,MISS Durant 11' Fadeaway Jumper,2pt made,rebound,0,High
+21400297,494,rebound,4,PT02M57.00S,02:57,Q4 02:57,0,0,1610612765.0,Drummond,Drummond REBOUND (Off:3 Def:6),2pt missed,2pt missed,0,High
+21400297,495,2pt,4,PT02M51.00S,02:51,Q4 02:51,0,0,1610612765.0,Smith,MISS Smith 5' Jump Shot,rebound,rebound,0,High
+21400297,496,rebound,4,PT02M50.00S,02:50,Q4 02:50,0,0,1610612760.0,Ibaka,Ibaka REBOUND (Off:6 Def:7),2pt missed,2pt missed,0,High
+21400297,497,2pt,4,PT02M34.00S,02:34,Q4 02:34,0,0,1610612760.0,Westbrook,MISS Westbrook 18' Jump Shot,rebound,rebound,0,High
+21400297,498,rebound,4,PT02M33.00S,02:33,Q4 02:33,0,0,1610612765.0,Jennings,Jennings REBOUND (Off:0 Def:2),2pt missed,foul,0,High
+21400297,499,foul,4,PT02M28.00S,02:28,Q4 02:28,0,0,1610612760.0,Lamb,Lamb P.FOUL (P3.T3),rebound,timeout,0,High
+21400297,500,timeout,4,PT02M28.00S,02:28,Q4 02:28,0,0,0.0,,Timeout: Official,foul,substitution,0,High
+21400297,503,substitution,4,PT02M28.00S,02:28,Q4 02:28,0,0,1610612760.0,Lamb,SUB out: J. Lamb,timeout,substitution,0,High
+21400297,504,substitution,4,PT02M28.00S,02:28,Q4 02:28,0,0,1610612760.0,Adams,SUB in: S. Adams,substitution,3pt made,0,High
+21400297,504,3pt,4,PT02M18.00S,02:18,Q4 02:18,92,93,1610612765.0,Singler,Singler  3PT Jump Shot (10 PTS) (Smith 2 AST),substitution,3pt made,1,High
+21400297,505,3pt,4,PT02M01.00S,02:01,Q4 02:01,92,96,1610612760.0,Durant,Durant 26' 3PT Jump Shot (28 PTS) (Jackson 2 AST),3pt made,2pt missed,4,High
+21400297,506,2pt,4,PT01M43.00S,01:43,Q4 01:43,0,0,1610612765.0,Drummond,MISS Drummond 6' Hook Shot,3pt made,rebound,0,Very High
+21400297,507,rebound,4,PT01M42.00S,01:42,Q4 01:42,0,0,1610612760.0,Westbrook,Westbrook REBOUND (Off:1 Def:10),2pt missed,turnover,0,Very High
+21400297,508,turnover,4,PT01M20.00S,01:20,Q4 01:20,0,0,1610612760.0,Ibaka,Ibaka Bad Pass Turnover (P1.T14),rebound,turnover,0,Very High
+21400297,509,turnover,4,PT01M04.00S,01:04,Q4 01:04,0,0,1610612765.0,Smith,Smith Out of Bounds Lost Ball Turnover (P1.T14),turnover,turnover,0,Very High
+21400297,510,turnover,4,PT00M45.90S,00:45,Q4 00:45,0,0,1610612760.0,Durant,Durant Bad Pass Turnover (P2.T15),turnover,steal,0,Very High
+21400297,510,steal,4,PT00M45.90S,00:45,Q4 00:45,0,0,1610612765.0,Drummond,Drummond STEAL (2 STL),turnover,2pt made,0,Very High
+21400297,511,2pt,4,PT00M31.50S,00:31,Q4 00:31,94,96,1610612765.0,Drummond,Drummond  Slam Dunk (16 PTS) (Caldwell-Pope 5 AST),steal,2pt missed,2,Very High
+21400297,512,2pt,4,PT00M10.90S,00:10,Q4 00:10,0,0,1610612760.0,Westbrook,MISS Westbrook 16' Jump Shot,2pt made,rebound,0,Very High
+21400297,513,rebound,4,PT00M09.70S,00:09,Q4 00:09,0,0,1610612765.0,Jennings,Jennings REBOUND (Off:0 Def:3),2pt missed,3pt missed,0,Very High
+21400297,514,3pt,4,PT00M01.90S,00:01,Q4 00:01,0,0,1610612765.0,Smith,MISS Smith 26' 3PT Jump Shot,rebound,rebound,0,Very High
+21400297,515,rebound,4,PT00M01.10S,00:01,Q4 00:01,0,0,1610612760.0,,TEAM defensive REBOUND,3pt missed,timeout,0,Very High
+21400297,516,timeout,4,PT00M01.10S,00:01,Q4 00:01,0,0,1610612760.0,,Thunder Timeout: Regular (Reg.5 Short 0),rebound,substitution,0,Very High
+21400297,518,substitution,4,PT00M01.10S,00:01,Q4 00:01,0,0,1610612760.0,Ibaka,SUB out: S. Ibaka,timeout,substitution,0,Very High
+21400297,519,substitution,4,PT00M01.10S,00:01,Q4 00:01,0,0,1610612760.0,Adams,SUB out: S. Adams,substitution,substitution,0,Very High
+21400297,520,substitution,4,PT00M01.10S,00:01,Q4 00:01,0,0,1610612765.0,Drummond,SUB out: A. Drummond,substitution,substitution,0,Very High
+21400297,521,substitution,4,PT00M01.10S,00:01,Q4 00:01,0,0,1610612760.0,Roberson,SUB in: A. Roberson,substitution,substitution,0,Very High
+21400297,522,substitution,4,PT00M01.10S,00:01,Q4 00:01,0,0,1610612760.0,Morrow,SUB in: A. Morrow,substitution,substitution,0,Very High
+21400297,523,substitution,4,PT00M01.10S,00:01,Q4 00:01,0,0,1610612765.0,Martin,SUB in: C. Martin,substitution,foul,0,Very High
+21400297,521,foul,4,PT00M00.50S,00:00,Q4 00:00,0,0,1610612765.0,Singler,Singler P.FOUL (P3.T3),substitution,period,0,Very High
+21400297,522,period,4,PT00M00.00S,00:00,Q4 00:00,94,96,1610612765.0,,End of 4th Period (8:26 PM EST),foul,,2,Very High

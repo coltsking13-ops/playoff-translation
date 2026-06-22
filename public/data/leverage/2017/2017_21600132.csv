@@ -1,0 +1,571 @@
+game_id,actionNumber,actionType,period,clock,clock_display,game_clock,scoreHome,scoreAway,teamId,playerName,description,previous_action,next_action,score_margin,leverage_bucket
+21600132,0,period,1,PT12M00.00S,12:00,Q1 12:00,0,0,1610612737.0,,Start of 1st Period (7:41 PM EST),,turnover,0,Low
+21600132,2,turnover,1,PT11M44.00S,11:44,Q1 11:44,0,0,1610612737.0,Bazemore,Bazemore Bad Pass Turnover (P1.T1),period,steal,0,Low
+21600132,2,steal,1,PT11M44.00S,11:44,Q1 11:44,0,0,1610612755.0,Rodriguez,Rodriguez STEAL (1 STL),turnover,turnover,0,Low
+21600132,3,turnover,1,PT11M34.00S,11:34,Q1 11:34,0,0,1610612755.0,Okafor,Okafor Bad Pass Turnover (P1.T1),steal,steal,0,Low
+21600132,3,steal,1,PT11M34.00S,11:34,Q1 11:34,0,0,1610612737.0,Schroder,Schroder STEAL (1 STL),turnover,foul,0,Low
+21600132,4,foul,1,PT11M12.00S,11:12,Q1 11:12,0,0,1610612755.0,Okafor,Okafor P.FOUL (P1.T1) (G.Petraitis),steal,2pt made,0,Low
+21600132,5,2pt,1,PT11M12.00S,11:12,Q1 11:12,2,0,1610612737.0,Bazemore,Bazemore 1' Cutting Layup Shot (2 PTS) (Korver 1 AST),foul,2pt missed,2,Low
+21600132,6,2pt,1,PT10M48.00S,10:48,Q1 10:48,0,0,1610612755.0,Okafor,MISS Okafor 17' Jump Shot,2pt made,rebound,0,Low
+21600132,7,rebound,1,PT10M47.00S,10:47,Q1 10:47,0,0,1610612737.0,Howard,Howard REBOUND (Off:0 Def:1),2pt missed,2pt missed,0,Low
+21600132,8,2pt,1,PT10M40.00S,10:40,Q1 10:40,0,0,1610612737.0,Schroder,MISS Schroder 3' Driving Layup,rebound,block,0,Low
+21600132,8,block,1,PT10M40.00S,10:40,Q1 10:40,0,0,1610612755.0,Okafor,Okafor BLOCK (1 BLK),2pt missed,rebound,0,Low
+21600132,9,rebound,1,PT10M36.00S,10:36,Q1 10:36,0,0,1610612737.0,,TEAM offensive REBOUND,block,2pt made,0,Low
+21600132,10,2pt,1,PT10M29.00S,10:29,Q1 10:29,4,0,1610612737.0,Schroder,Schroder 18' Jump Shot (2 PTS) (Korver 2 AST),rebound,2pt made,4,Low
+21600132,12,2pt,1,PT10M05.00S,10:05,Q1 10:05,4,2,1610612755.0,Henderson,Henderson 22' Pullup Jump Shot (2 PTS),2pt made,turnover,2,Low
+21600132,13,turnover,1,PT09M55.00S,09:55,Q1 09:55,0,0,1610612737.0,Schroder,Schroder Out of Bounds - Bad Pass Turnover Turnover (P1.T2),2pt made,2pt made,0,Low
+21600132,14,2pt,1,PT09M53.00S,09:53,Q1 09:53,4,4,1610612755.0,Saric,Saric 20' Jump Shot (2 PTS) (Okafor 1 AST),turnover,turnover,0,Low
+21600132,16,turnover,1,PT09M41.00S,09:41,Q1 09:41,0,0,1610612737.0,Korver,Korver Bad Pass Turnover (P1.T3),2pt made,steal,0,Low
+21600132,16,steal,1,PT09M41.00S,09:41,Q1 09:41,0,0,1610612755.0,Covington,Covington STEAL (1 STL),turnover,2pt made,0,Low
+21600132,17,2pt,1,PT09M34.00S,09:34,Q1 09:34,4,6,1610612755.0,Henderson,Henderson  Dunk (4 PTS) (Rodriguez 1 AST),steal,2pt made,2,Low
+21600132,18,2pt,1,PT09M16.00S,09:16,Q1 09:16,6,6,1610612737.0,Millsap,Millsap 12' Fadeaway Jumper (2 PTS),2pt made,2pt missed,0,Low
+21600132,19,2pt,1,PT09M08.00S,09:08,Q1 09:08,0,0,1610612755.0,Rodriguez,MISS Rodriguez 8' Driving Floating Jump Shot,2pt made,rebound,0,Low
+21600132,20,rebound,1,PT09M07.00S,09:07,Q1 09:07,0,0,1610612755.0,Saric,Saric REBOUND (Off:1 Def:0),2pt missed,2pt missed,0,Low
+21600132,21,2pt,1,PT09M06.00S,09:06,Q1 09:06,0,0,1610612755.0,Saric,MISS Saric 2' Putback Layup,rebound,block,0,Low
+21600132,21,block,1,PT09M06.00S,09:06,Q1 09:06,0,0,1610612737.0,Korver,Korver BLOCK (1 BLK),2pt missed,rebound,0,Low
+21600132,30,rebound,1,PT09M05.00S,09:05,Q1 09:05,0,0,1610612737.0,Schroder,Schroder REBOUND (Off:0 Def:1),block,3pt missed,0,Low
+21600132,22,3pt,1,PT09M01.00S,09:01,Q1 09:01,0,0,1610612737.0,Bazemore,MISS Bazemore  3PT Jump Shot,rebound,rebound,0,Low
+21600132,23,rebound,1,PT08M59.00S,08:59,Q1 08:59,0,0,1610612737.0,Howard,Howard REBOUND (Off:1 Def:1),3pt missed,3pt missed,0,Low
+21600132,24,3pt,1,PT08M56.00S,08:56,Q1 08:56,0,0,1610612737.0,Millsap,MISS Millsap 25' 3PT Jump Shot,rebound,rebound,0,Low
+21600132,25,rebound,1,PT08M55.00S,08:55,Q1 08:55,0,0,1610612755.0,Covington,Covington REBOUND (Off:0 Def:1),3pt missed,2pt made,0,Low
+21600132,26,2pt,1,PT08M49.00S,08:49,Q1 08:49,6,8,1610612755.0,Saric,Saric 16' Jump Shot (4 PTS) (Rodriguez 2 AST),rebound,timeout,2,Low
+21600132,27,timeout,1,PT08M43.00S,08:43,Q1 08:43,0,0,1610612737.0,,HAWKS Timeout: Regular (Full 1 Short 0),2pt made,2pt made,0,Low
+21600132,31,2pt,1,PT08M33.00S,08:33,Q1 08:33,8,8,1610612737.0,Howard,Howard  Alley Oop Dunk (2 PTS) (Schroder 1 AST),timeout,2pt made,0,Low
+21600132,33,2pt,1,PT08M16.00S,08:16,Q1 08:16,8,10,1610612755.0,Okafor,Okafor 10' Fadeaway Jumper (2 PTS),2pt made,2pt missed,2,Low
+21600132,34,2pt,1,PT08M00.00S,08:00,Q1 08:00,0,0,1610612737.0,Schroder,MISS Schroder  Driving Layup,2pt made,rebound,0,Low
+21600132,35,rebound,1,PT07M59.00S,07:59,Q1 07:59,0,0,1610612755.0,Okafor,Okafor REBOUND (Off:0 Def:1),2pt missed,2pt missed,0,Low
+21600132,36,2pt,1,PT07M45.00S,07:45,Q1 07:45,0,0,1610612755.0,Saric,MISS Saric 3' Driving Layup,rebound,block,0,Low
+21600132,36,block,1,PT07M45.00S,07:45,Q1 07:45,0,0,1610612737.0,Korver,Korver BLOCK (2 BLK),2pt missed,rebound,0,Low
+21600132,37,rebound,1,PT07M43.00S,07:43,Q1 07:43,0,0,1610612737.0,Bazemore,Bazemore REBOUND (Off:0 Def:1),block,foul,0,Low
+21600132,38,foul,1,PT07M39.00S,07:39,Q1 07:39,0,0,1610612755.0,Henderson,Henderson S.FOUL (P1.T2) (E.Malloy),rebound,freethrow,0,Low
+21600132,39,freethrow,1,PT07M39.00S,07:39,Q1 07:39,0,0,1610612737.0,Schroder,MISS Schroder Free Throw 1 of 2,foul,rebound,0,Low
+21600132,40,rebound,1,PT07M39.00S,07:39,Q1 07:39,0,0,1610612737.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21600132,42,freethrow,1,PT07M39.00S,07:39,Q1 07:39,0,0,1610612737.0,Schroder,MISS Schroder Free Throw 2 of 2,rebound,rebound,0,Low
+21600132,44,rebound,1,PT07M39.00S,07:39,Q1 07:39,0,0,1610612755.0,Saric,Saric REBOUND (Off:1 Def:1),freethrow,substitution,0,Low
+21600132,41,substitution,1,PT07M39.00S,07:39,Q1 07:39,0,0,1610612755.0,Okafor,SUB out: J. Okafor,rebound,substitution,0,Low
+21600132,42,substitution,1,PT07M39.00S,07:39,Q1 07:39,0,0,1610612755.0,Holmes,SUB in: R. Holmes,substitution,3pt missed,0,Low
+21600132,45,3pt,1,PT07M20.00S,07:20,Q1 07:20,0,0,1610612755.0,Henderson,MISS Henderson 24' 3PT Pullup Jump Shot,substitution,rebound,0,Low
+21600132,46,rebound,1,PT07M19.00S,07:19,Q1 07:19,0,0,1610612737.0,Schroder,Schroder REBOUND (Off:0 Def:2),3pt missed,2pt made,0,Low
+21600132,47,2pt,1,PT07M11.00S,07:11,Q1 07:11,10,10,1610612737.0,Bazemore,Bazemore 2' Driving Layup (4 PTS) (Schroder 2 AST),rebound,2pt missed,0,Low
+21600132,48,2pt,1,PT06M45.00S,06:45,Q1 06:45,0,0,1610612755.0,Holmes,MISS Holmes 7' Floating Jump Shot,2pt made,rebound,0,Low
+21600132,49,rebound,1,PT06M43.00S,06:43,Q1 06:43,0,0,1610612737.0,Bazemore,Bazemore REBOUND (Off:0 Def:2),2pt missed,turnover,0,Low
+21600132,50,turnover,1,PT06M33.00S,06:33,Q1 06:33,0,0,1610612737.0,Schroder,Schroder Bad Pass Turnover (P2.T4),rebound,steal,0,Low
+21600132,50,steal,1,PT06M33.00S,06:33,Q1 06:33,0,0,1610612755.0,Holmes,Holmes STEAL (1 STL),turnover,substitution,0,Low
+21600132,52,substitution,1,PT06M28.00S,06:28,Q1 06:28,0,0,1610612737.0,Millsap,SUB out: P. Millsap,steal,substitution,0,Low
+21600132,53,substitution,1,PT06M28.00S,06:28,Q1 06:28,0,0,1610612755.0,Covington,SUB out: R. Covington,substitution,substitution,0,Low
+21600132,54,substitution,1,PT06M28.00S,06:28,Q1 06:28,0,0,1610612755.0,Henderson,SUB out: G. Henderson,substitution,substitution,0,Low
+21600132,55,substitution,1,PT06M28.00S,06:28,Q1 06:28,0,0,1610612755.0,Rodriguez,SUB out: S. Rodriguez,substitution,substitution,0,Low
+21600132,56,substitution,1,PT06M28.00S,06:28,Q1 06:28,0,0,1610612737.0,Muscala,SUB in: M. Muscala,substitution,substitution,0,Low
+21600132,57,substitution,1,PT06M28.00S,06:28,Q1 06:28,0,0,1610612755.0,Stauskas,SUB in: N. Stauskas,substitution,substitution,0,Low
+21600132,58,substitution,1,PT06M28.00S,06:28,Q1 06:28,0,0,1610612755.0,Thompson,SUB in: H. Thompson,substitution,substitution,0,Low
+21600132,59,substitution,1,PT06M28.00S,06:28,Q1 06:28,0,0,1610612755.0,McConnell,SUB in: T. McConnell,substitution,3pt made,0,Low
+21600132,56,3pt,1,PT06M19.00S,06:19,Q1 06:19,10,13,1610612755.0,Saric,Saric 24' 3PT Jump Shot (7 PTS) (McConnell 1 AST),substitution,2pt made,3,Low
+21600132,57,2pt,1,PT06M04.00S,06:04,Q1 06:04,12,13,1610612737.0,Schroder,Schroder 19' Pullup Jump Shot (4 PTS),3pt made,turnover,1,Low
+21600132,58,turnover,1,PT05M44.00S,05:44,Q1 05:44,0,0,1610612755.0,Stauskas,Stauskas Bad Pass Turnover (P1.T2),2pt made,steal,0,Low
+21600132,58,steal,1,PT05M44.00S,05:44,Q1 05:44,0,0,1610612737.0,Muscala,Muscala STEAL (1 STL),turnover,turnover,0,Low
+21600132,59,turnover,1,PT05M38.00S,05:38,Q1 05:38,0,0,1610612737.0,Korver,Korver Lost Ball Turnover (P2.T5),steal,steal,0,Low
+21600132,59,steal,1,PT05M38.00S,05:38,Q1 05:38,0,0,1610612755.0,Stauskas,Stauskas STEAL (1 STL),turnover,foul,0,Low
+21600132,60,foul,1,PT05M34.00S,05:34,Q1 05:34,0,0,1610612737.0,Korver,Korver S.FOUL (P1.T1) (E.Malloy),steal,freethrow,0,Low
+21600132,61,freethrow,1,PT05M34.00S,05:34,Q1 05:34,12,14,1610612755.0,Stauskas,Stauskas Free Throw 1 of 2 (1 PTS),foul,freethrow,2,Low
+21600132,64,freethrow,1,PT05M34.00S,05:34,Q1 05:34,12,15,1610612755.0,Stauskas,Stauskas Free Throw 2 of 2 (2 PTS),freethrow,substitution,3,Low
+21600132,63,substitution,1,PT05M34.00S,05:34,Q1 05:34,0,0,1610612755.0,Saric,SUB out: D. Saric,freethrow,substitution,0,Low
+21600132,64,substitution,1,PT05M34.00S,05:34,Q1 05:34,0,0,1610612755.0,Ilyasova,SUB in: E. Ilyasova,substitution,2pt missed,0,Low
+21600132,67,2pt,1,PT05M21.00S,05:21,Q1 05:21,0,0,1610612737.0,Bazemore,MISS Bazemore 17' Pullup Jump Shot,substitution,rebound,0,Low
+21600132,68,rebound,1,PT05M18.00S,05:18,Q1 05:18,0,0,1610612755.0,Ilyasova,Ilyasova REBOUND (Off:0 Def:1),2pt missed,3pt missed,0,Low
+21600132,69,3pt,1,PT04M58.00S,04:58,Q1 04:58,0,0,1610612755.0,Ilyasova,MISS Ilyasova 26' 3PT Step Back Jump Shot,rebound,rebound,0,Low
+21600132,70,rebound,1,PT04M57.00S,04:57,Q1 04:57,0,0,1610612737.0,Bazemore,Bazemore REBOUND (Off:0 Def:3),3pt missed,turnover,0,Low
+21600132,71,turnover,1,PT04M49.00S,04:49,Q1 04:49,0,0,1610612737.0,Bazemore,Bazemore Bad Pass Turnover (P2.T6),rebound,steal,0,Low
+21600132,71,steal,1,PT04M49.00S,04:49,Q1 04:49,0,0,1610612755.0,Ilyasova,Ilyasova STEAL (1 STL),turnover,foul,0,Low
+21600132,72,foul,1,PT04M45.00S,04:45,Q1 04:45,0,0,1610612755.0,Thompson,Thompson Offensive Charge Foul (P1.T3) (E.Malloy),steal,turnover,0,Low
+21600132,73,turnover,1,PT04M45.00S,04:45,Q1 04:45,0,0,1610612755.0,Thompson,Thompson Foul Turnover (P1.T3),foul,substitution,0,Low
+21600132,74,substitution,1,PT04M45.00S,04:45,Q1 04:45,0,0,1610612737.0,Korver,SUB out: K. Korver,turnover,substitution,0,Low
+21600132,75,substitution,1,PT04M45.00S,04:45,Q1 04:45,0,0,1610612737.0,Hardaway Jr.,SUB in: T. Hardaway Jr.,substitution,2pt made,0,Low
+21600132,75,2pt,1,PT04M36.00S,04:36,Q1 04:36,14,15,1610612737.0,Schroder,Schroder 7' Driving Floating Bank Jump Shot (6 PTS),substitution,2pt missed,1,Low
+21600132,76,2pt,1,PT04M15.00S,04:15,Q1 04:15,0,0,1610612755.0,Holmes,MISS Holmes 16' Jump Shot,2pt made,rebound,0,Low
+21600132,77,rebound,1,PT04M13.00S,04:13,Q1 04:13,0,0,1610612737.0,Hardaway Jr.,Hardaway Jr. REBOUND (Off:0 Def:1),2pt missed,3pt missed,0,Low
+21600132,79,3pt,1,PT04M03.00S,04:03,Q1 04:03,0,0,1610612737.0,Hardaway Jr.,MISS Hardaway Jr. 24' 3PT Jump Shot,rebound,rebound,0,Low
+21600132,80,rebound,1,PT04M01.00S,04:01,Q1 04:01,0,0,1610612755.0,Ilyasova,Ilyasova REBOUND (Off:0 Def:2),3pt missed,timeout,0,Low
+21600132,81,timeout,1,PT03M54.00S,03:54,Q1 03:54,0,0,1610612755.0,,76ers Timeout: Regular (Reg.1 Short 0),rebound,substitution,0,Low
+21600132,83,substitution,1,PT03M54.00S,03:54,Q1 03:54,0,0,1610612737.0,Bazemore,SUB out: K. Bazemore,timeout,substitution,0,Low
+21600132,84,substitution,1,PT03M54.00S,03:54,Q1 03:54,0,0,1610612737.0,Schroder,SUB out: D. Schroder,substitution,substitution,0,Low
+21600132,85,substitution,1,PT03M54.00S,03:54,Q1 03:54,0,0,1610612737.0,Sefolosha,SUB in: T. Sefolosha,substitution,substitution,0,Low
+21600132,86,substitution,1,PT03M54.00S,03:54,Q1 03:54,0,0,1610612737.0,Delaney,SUB in: M. Delaney,substitution,2pt missed,0,Low
+21600132,86,2pt,1,PT03M42.00S,03:42,Q1 03:42,0,0,1610612755.0,Ilyasova,MISS Ilyasova 2' Driving Layup,substitution,rebound,0,Low
+21600132,87,rebound,1,PT03M41.00S,03:41,Q1 03:41,0,0,1610612737.0,Howard,Howard REBOUND (Off:1 Def:2),2pt missed,foul,0,Low
+21600132,88,foul,1,PT03M39.00S,03:39,Q1 03:39,0,0,1610612755.0,Stauskas,Stauskas S.FOUL (P1.T4) (M.Lindsay),rebound,freethrow,0,Low
+21600132,89,freethrow,1,PT03M39.00S,03:39,Q1 03:39,15,15,1610612737.0,Hardaway Jr.,Hardaway Jr. Free Throw 1 of 2 (1 PTS),foul,freethrow,0,Low
+21600132,92,freethrow,1,PT03M39.00S,03:39,Q1 03:39,0,0,1610612737.0,Hardaway Jr.,MISS Hardaway Jr. Free Throw 2 of 2,freethrow,substitution,0,Low
+21600132,91,substitution,1,PT03M39.00S,03:39,Q1 03:39,0,0,1610612755.0,Holmes,SUB out: R. Holmes,freethrow,substitution,0,Low
+21600132,92,substitution,1,PT03M39.00S,03:39,Q1 03:39,0,0,1610612755.0,Okafor,SUB in: J. Okafor,substitution,rebound,0,Low
+21600132,94,rebound,1,PT03M38.00S,03:38,Q1 03:38,0,0,1610612755.0,Ilyasova,Ilyasova REBOUND (Off:0 Def:3),substitution,3pt missed,0,Low
+21600132,95,3pt,1,PT03M26.00S,03:26,Q1 03:26,0,0,1610612755.0,Thompson,MISS Thompson 25' 3PT Jump Shot,rebound,rebound,0,Low
+21600132,96,rebound,1,PT03M25.00S,03:25,Q1 03:25,0,0,1610612737.0,Howard,Howard REBOUND (Off:1 Def:3),3pt missed,turnover,0,Low
+21600132,97,turnover,1,PT03M13.00S,03:13,Q1 03:13,0,0,1610612737.0,Delaney,Delaney Bad Pass Turnover (P1.T7),rebound,steal,0,Low
+21600132,97,steal,1,PT03M13.00S,03:13,Q1 03:13,0,0,1610612755.0,Stauskas,Stauskas STEAL (2 STL),turnover,3pt missed,0,Low
+21600132,98,3pt,1,PT03M05.00S,03:05,Q1 03:05,0,0,1610612755.0,Thompson,MISS Thompson 25' 3PT Running Jump Shot,steal,rebound,0,Low
+21600132,99,rebound,1,PT03M02.00S,03:02,Q1 03:02,0,0,1610612737.0,Howard,Howard REBOUND (Off:1 Def:4),3pt missed,2pt missed,0,Low
+21600132,100,2pt,1,PT02M52.00S,02:52,Q1 02:52,0,0,1610612737.0,Delaney,MISS Delaney 19' Jump Shot,rebound,rebound,0,Low
+21600132,101,rebound,1,PT02M50.00S,02:50,Q1 02:50,0,0,1610612737.0,Muscala,Muscala REBOUND (Off:1 Def:0),2pt missed,3pt missed,0,Low
+21600132,102,3pt,1,PT02M46.00S,02:46,Q1 02:46,0,0,1610612737.0,Sefolosha,MISS Sefolosha 25' 3PT Jump Shot,rebound,rebound,0,Low
+21600132,103,rebound,1,PT02M44.00S,02:44,Q1 02:44,0,0,1610612755.0,Thompson,Thompson REBOUND (Off:0 Def:1),3pt missed,2pt made,0,Low
+21600132,104,2pt,1,PT02M38.00S,02:38,Q1 02:38,15,17,1610612755.0,McConnell,McConnell 16' Pullup Jump Shot (2 PTS),rebound,turnover,2,Low
+21600132,105,turnover,1,PT02M15.00S,02:15,Q1 02:15,0,0,1610612737.0,Sefolosha,Sefolosha Lost Ball Turnover (P1.T8),2pt made,steal,0,Low
+21600132,105,steal,1,PT02M15.00S,02:15,Q1 02:15,0,0,1610612755.0,Stauskas,Stauskas STEAL (3 STL),turnover,2pt made,0,Low
+21600132,106,2pt,1,PT02M10.00S,02:10,Q1 02:10,15,19,1610612755.0,Stauskas,Stauskas  Running Dunk (4 PTS),steal,timeout,4,Low
+21600132,107,timeout,1,PT02M10.00S,02:10,Q1 02:10,0,0,1610612737.0,,HAWKS Timeout: Short (Full 1 Short 1),2pt made,substitution,0,Low
+21600132,108,substitution,1,PT02M10.00S,02:10,Q1 02:10,0,0,1610612737.0,Howard,SUB out: D. Howard,timeout,substitution,0,Low
+21600132,109,substitution,1,PT02M10.00S,02:10,Q1 02:10,0,0,1610612737.0,Muscala,SUB out: M. Muscala,substitution,substitution,0,Low
+21600132,110,substitution,1,PT02M10.00S,02:10,Q1 02:10,0,0,1610612737.0,Millsap,SUB in: P. Millsap,substitution,substitution,0,Low
+21600132,111,substitution,1,PT02M10.00S,02:10,Q1 02:10,0,0,1610612737.0,Humphries,SUB in: K. Humphries,substitution,turnover,0,Low
+21600132,110,turnover,1,PT01M58.00S,01:58,Q1 01:58,0,0,1610612737.0,Hardaway Jr.,Hardaway Jr. Bad Pass Turnover (P1.T9),substitution,steal,0,Low
+21600132,110,steal,1,PT01M58.00S,01:58,Q1 01:58,0,0,1610612755.0,McConnell,McConnell STEAL (1 STL),turnover,2pt made,0,Low
+21600132,111,2pt,1,PT01M52.00S,01:52,Q1 01:52,15,21,1610612755.0,Okafor,Okafor 1' Running Layup (4 PTS) (McConnell 2 AST),steal,3pt made,6,Low
+21600132,112,3pt,1,PT01M35.00S,01:35,Q1 01:35,18,21,1610612737.0,Hardaway Jr.,Hardaway Jr. 25' 3PT Jump Shot (4 PTS) (Humphries 1 AST),2pt made,2pt made,3,Low
+21600132,113,2pt,1,PT01M16.00S,01:16,Q1 01:16,18,23,1610612755.0,Ilyasova,Ilyasova 17' Pullup Jump Shot (2 PTS) (Stauskas 1 AST),3pt made,3pt made,5,Low
+21600132,114,3pt,1,PT01M05.00S,01:05,Q1 01:05,21,23,1610612737.0,Humphries,Humphries 25' 3PT Jump Shot (3 PTS) (Delaney 1 AST),2pt made,2pt made,2,Low
+21600132,115,2pt,1,PT00M42.40S,00:42,Q1 00:42,21,25,1610612755.0,Okafor,Okafor 2' Driving Layup (6 PTS),3pt made,foul,4,Low
+21600132,116,foul,1,PT00M34.00S,00:34,Q1 00:34,0,0,1610612755.0,Okafor,Okafor S.FOUL (P2.PN) (M.Lindsay),2pt made,freethrow,0,Low
+21600132,117,freethrow,1,PT00M34.00S,00:34,Q1 00:34,22,25,1610612737.0,Delaney,Delaney Free Throw 1 of 2 (1 PTS),foul,freethrow,3,Low
+21600132,120,freethrow,1,PT00M34.00S,00:34,Q1 00:34,23,25,1610612737.0,Delaney,Delaney Free Throw 2 of 2 (2 PTS),freethrow,substitution,2,Low
+21600132,119,substitution,1,PT00M34.00S,00:34,Q1 00:34,0,0,1610612755.0,Okafor,SUB out: J. Okafor,freethrow,substitution,0,Low
+21600132,120,substitution,1,PT00M34.00S,00:34,Q1 00:34,0,0,1610612755.0,Holmes,SUB in: R. Holmes,substitution,foul,0,Low
+21600132,123,foul,1,PT00M28.30S,00:28,Q1 00:28,0,0,1610612755.0,Ilyasova,Ilyasova OFF.Foul (P1) (E.Malloy),substitution,turnover,0,Low
+21600132,124,turnover,1,PT00M28.30S,00:28,Q1 00:28,0,0,1610612755.0,Ilyasova,Ilyasova Foul Turnover (P1.T4),foul,2pt missed,0,Low
+21600132,125,2pt,1,PT00M05.90S,00:05,Q1 00:05,0,0,1610612737.0,Millsap,MISS Millsap 7' Pullup Jump Shot,turnover,block,0,Low
+21600132,125,block,1,PT00M05.90S,00:05,Q1 00:05,0,0,1610612755.0,Ilyasova,Ilyasova BLOCK (1 BLK),2pt missed,rebound,0,Low
+21600132,126,rebound,1,PT00M03.90S,00:03,Q1 00:03,0,0,1610612755.0,Ilyasova,Ilyasova REBOUND (Off:0 Def:4),block,2pt made,0,Low
+21600132,127,2pt,1,PT00M01.90S,00:01,Q1 00:01,23,27,1610612755.0,Stauskas,Stauskas 3' Running Layup (6 PTS) (McConnell 3 AST),rebound,period,4,Low
+21600132,128,period,1,PT00M00.00S,00:00,Q1 00:00,23,27,1610612737.0,,End of 1st Period (8:05 PM EST),2pt made,period,4,Low
+21600132,130,period,2,PT12M00.00S,12:00,Q2 12:00,23,27,1610612737.0,,Start of 2nd Period (8:08 PM EST),period,substitution,4,Low
+21600132,131,3pt,2,PT11M45.00S,11:45,Q2 11:45,0,0,1610612755.0,Ilyasova,MISS Ilyasova 24' 3PT Jump Shot,substitution,rebound,0,Low
+21600132,132,rebound,2,PT11M43.00S,11:43,Q2 11:43,0,0,1610612737.0,Millsap,Millsap REBOUND (Off:0 Def:1),3pt missed,2pt missed,0,Low
+21600132,133,2pt,2,PT11M26.00S,11:26,Q2 11:26,0,0,1610612737.0,Millsap,MISS Millsap 9' Jump Bank Shot,rebound,2pt made,0,Low
+21600132,134,2pt,2,PT11M25.00S,11:25,Q2 11:25,25,27,1610612737.0,Humphries,Humphries 1' Tip Layup Shot (5 PTS),2pt missed,rebound,2,Low
+21600132,135,rebound,2,PT11M25.00S,11:25,Q2 11:25,0,0,1610612737.0,Humphries,Humphries REBOUND (Off:1 Def:0),2pt made,turnover,0,Low
+21600132,136,turnover,2,PT11M17.00S,11:17,Q2 11:17,0,0,1610612755.0,Ilyasova,Ilyasova Lost Ball Turnover (P2.T5),rebound,steal,0,Low
+21600132,136,steal,2,PT11M17.00S,11:17,Q2 11:17,0,0,1610612737.0,Korver,Korver STEAL (1 STL),turnover,2pt missed,0,Low
+21600132,137,2pt,2,PT11M11.00S,11:11,Q2 11:11,0,0,1610612737.0,Sefolosha,MISS Sefolosha 1' Running Layup,steal,2pt missed,0,Low
+21600132,138,2pt,2,PT11M09.00S,11:09,Q2 11:09,0,0,1610612737.0,Delaney,MISS Delaney 1' Tip Layup Shot,2pt missed,rebound,0,Low
+21600132,139,rebound,2,PT11M09.00S,11:09,Q2 11:09,0,0,1610612737.0,Delaney,Delaney REBOUND (Off:1 Def:0),2pt missed,rebound,0,Low
+21600132,140,rebound,2,PT11M08.00S,11:08,Q2 11:08,0,0,1610612755.0,Ilyasova,Ilyasova REBOUND (Off:0 Def:5),rebound,2pt made,0,Low
+21600132,141,2pt,2,PT10M53.00S,10:53,Q2 10:53,25,29,1610612755.0,Ilyasova,Ilyasova  Layup (4 PTS) (Thompson 1 AST),rebound,2pt made,4,Low
+21600132,143,2pt,2,PT10M30.00S,10:30,Q2 10:30,27,29,1610612737.0,Humphries,Humphries 1' Reverse Layup (7 PTS) (Delaney 2 AST),2pt made,foul,2,Low
+21600132,144,foul,2,PT10M19.00S,10:19,Q2 10:19,0,0,1610612755.0,Ilyasova,Ilyasova OFF.Foul (P2) (G.Petraitis),2pt made,turnover,0,Low
+21600132,145,turnover,2,PT10M19.00S,10:19,Q2 10:19,0,0,1610612755.0,Ilyasova,Ilyasova Foul Turnover (P3.T6),foul,substitution,0,Low
+21600132,146,substitution,2,PT10M19.00S,10:19,Q2 10:19,0,0,1610612755.0,McConnell,SUB out: T. McConnell,turnover,substitution,0,Low
+21600132,147,substitution,2,PT10M19.00S,10:19,Q2 10:19,0,0,1610612755.0,Stauskas,SUB out: N. Stauskas,substitution,substitution,0,Low
+21600132,148,substitution,2,PT10M19.00S,10:19,Q2 10:19,0,0,1610612755.0,Thompson,SUB out: H. Thompson,substitution,substitution,0,Low
+21600132,149,substitution,2,PT10M19.00S,10:19,Q2 10:19,0,0,1610612755.0,Ilyasova,SUB out: E. Ilyasova,substitution,substitution,0,Low
+21600132,150,substitution,2,PT10M19.00S,10:19,Q2 10:19,0,0,1610612755.0,Covington,SUB in: R. Covington,substitution,substitution,0,Low
+21600132,151,substitution,2,PT10M19.00S,10:19,Q2 10:19,0,0,1610612755.0,Henderson,SUB in: G. Henderson,substitution,substitution,0,Low
+21600132,152,substitution,2,PT10M19.00S,10:19,Q2 10:19,0,0,1610612755.0,Saric,SUB in: D. Saric,substitution,substitution,0,Low
+21600132,153,substitution,2,PT10M19.00S,10:19,Q2 10:19,0,0,1610612755.0,Rodriguez,SUB in: S. Rodriguez,substitution,2pt made,0,Low
+21600132,151,2pt,2,PT10M03.00S,10:03,Q2 10:03,29,29,1610612737.0,Humphries,Humphries 15' Jump Shot (9 PTS) (Millsap 1 AST),substitution,2pt missed,0,Low
+21600132,152,2pt,2,PT09M49.00S,09:49,Q2 09:49,0,0,1610612755.0,Saric,MISS Saric 1' Driving Layup,2pt made,rebound,0,Low
+21600132,153,rebound,2,PT09M47.00S,09:47,Q2 09:47,0,0,1610612737.0,Humphries,Humphries REBOUND (Off:1 Def:1),2pt missed,3pt made,0,Low
+21600132,154,3pt,2,PT09M42.00S,09:42,Q2 09:42,32,29,1610612737.0,Korver,Korver  3PT Running Jump Shot (3 PTS) (Delaney 3 AST),rebound,timeout,3,Low
+21600132,156,timeout,2,PT09M41.00S,09:41,Q2 09:41,0,0,1610612755.0,,76ers Timeout: Regular (Reg.2 Short 0),3pt made,turnover,0,Low
+21600132,159,turnover,2,PT09M23.00S,09:23,Q2 09:23,0,0,1610612755.0,Saric,Saric Bad Pass Turnover (P1.T7),timeout,steal,0,Low
+21600132,159,steal,2,PT09M23.00S,09:23,Q2 09:23,0,0,1610612737.0,Sefolosha,Sefolosha STEAL (1 STL),turnover,foul,0,Low
+21600132,160,foul,2,PT09M23.00S,09:23,Q2 09:23,0,0,1610612755.0,Covington,Covington P.FOUL (P1.T1) (E.Malloy),steal,2pt made,0,Low
+21600132,161,2pt,2,PT09M07.00S,09:07,Q2 09:07,34,29,1610612737.0,Millsap,Millsap 15' Step Back Jump Shot (4 PTS),foul,2pt missed,5,Low
+21600132,162,2pt,2,PT08M47.00S,08:47,Q2 08:47,0,0,1610612755.0,Henderson,MISS Henderson 13' Driving Floating Jump Shot,2pt made,rebound,0,Low
+21600132,163,rebound,2,PT08M45.00S,08:45,Q2 08:45,0,0,1610612737.0,Sefolosha,Sefolosha REBOUND (Off:0 Def:1),2pt missed,3pt missed,0,Low
+21600132,164,3pt,2,PT08M38.00S,08:38,Q2 08:38,0,0,1610612737.0,Delaney,MISS Delaney 25' 3PT Jump Shot,rebound,rebound,0,Low
+21600132,165,rebound,2,PT08M36.00S,08:36,Q2 08:36,0,0,1610612737.0,Delaney,Delaney REBOUND (Off:2 Def:0),3pt missed,2pt made,0,Low
+21600132,166,2pt,2,PT08M26.00S,08:26,Q2 08:26,36,29,1610612737.0,Delaney,Delaney 19' Pullup Jump Shot (4 PTS),rebound,foul,7,Low
+21600132,167,foul,2,PT08M26.00S,08:26,Q2 08:26,0,0,1610612755.0,Covington,Covington S.FOUL (P2.T2) (G.Petraitis),2pt made,freethrow,0,Low
+21600132,168,freethrow,2,PT08M26.00S,08:26,Q2 08:26,37,29,1610612737.0,Delaney,Delaney Free Throw 1 of 1 (5 PTS),foul,3pt missed,8,Low
+21600132,171,3pt,2,PT08M16.00S,08:16,Q2 08:16,0,0,1610612755.0,Covington,MISS Covington 25' 3PT Jump Shot,freethrow,rebound,0,Low
+21600132,172,rebound,2,PT08M14.00S,08:14,Q2 08:14,0,0,1610612737.0,Millsap,Millsap REBOUND (Off:0 Def:2),3pt missed,turnover,0,Low
+21600132,173,turnover,2,PT08M11.00S,08:11,Q2 08:11,0,0,1610612737.0,Millsap,Millsap Out of Bounds - Bad Pass Turnover Turnover (P1.T10),rebound,foul,0,Low
+21600132,174,foul,2,PT08M01.00S,08:01,Q2 08:01,0,0,1610612737.0,Sefolosha,Sefolosha S.FOUL (P1.T1) (M.Lindsay),turnover,freethrow,0,Low
+21600132,175,freethrow,2,PT08M01.00S,08:01,Q2 08:01,37,30,1610612755.0,Holmes,Holmes Free Throw 1 of 2 (1 PTS),foul,freethrow,7,Low
+21600132,177,freethrow,2,PT08M01.00S,08:01,Q2 08:01,37,31,1610612755.0,Holmes,Holmes Free Throw 2 of 2 (2 PTS),freethrow,2pt missed,6,Low
+21600132,179,2pt,2,PT07M47.00S,07:47,Q2 07:47,0,0,1610612737.0,Millsap,MISS Millsap 13' Step Back Jump Shot,freethrow,rebound,0,Low
+21600132,180,rebound,2,PT07M44.00S,07:44,Q2 07:44,0,0,1610612755.0,Saric,Saric REBOUND (Off:1 Def:2),2pt missed,3pt missed,0,Low
+21600132,181,3pt,2,PT07M38.00S,07:38,Q2 07:38,0,0,1610612755.0,Covington,MISS Covington 25' 3PT Jump Shot,rebound,rebound,0,Low
+21600132,182,rebound,2,PT07M37.00S,07:37,Q2 07:37,0,0,1610612737.0,Humphries,Humphries REBOUND (Off:1 Def:2),3pt missed,2pt made,0,Low
+21600132,183,2pt,2,PT07M31.00S,07:31,Q2 07:31,39,31,1610612737.0,Delaney,Delaney 19' Running Pull-Up Jump Shot (7 PTS),rebound,2pt made,8,Low
+21600132,184,2pt,2,PT07M15.00S,07:15,Q2 07:15,39,33,1610612755.0,Rodriguez,Rodriguez 6' Driving Floating Bank Jump Shot (2 PTS),2pt made,2pt missed,6,Low
+21600132,185,2pt,2,PT07M08.00S,07:08,Q2 07:08,0,0,1610612737.0,Delaney,MISS Delaney 4' Driving Layup,2pt made,block,0,Low
+21600132,185,block,2,PT07M08.00S,07:08,Q2 07:08,0,0,1610612755.0,Covington,Covington BLOCK (1 BLK),2pt missed,rebound,0,Low
+21600132,186,rebound,2,PT07M08.00S,07:08,Q2 07:08,0,0,1610612755.0,,TEAM defensive REBOUND,block,substitution,0,Low
+21600132,187,substitution,2,PT07M08.00S,07:08,Q2 07:08,0,0,1610612737.0,Millsap,SUB out: P. Millsap,rebound,substitution,0,Low
+21600132,188,substitution,2,PT07M08.00S,07:08,Q2 07:08,0,0,1610612737.0,Sefolosha,SUB out: T. Sefolosha,substitution,substitution,0,Low
+21600132,189,substitution,2,PT07M08.00S,07:08,Q2 07:08,0,0,1610612755.0,Holmes,SUB out: R. Holmes,substitution,substitution,0,Low
+21600132,190,substitution,2,PT07M08.00S,07:08,Q2 07:08,0,0,1610612737.0,Bazemore,SUB in: K. Bazemore,substitution,substitution,0,Low
+21600132,191,substitution,2,PT07M08.00S,07:08,Q2 07:08,0,0,1610612737.0,Muscala,SUB in: M. Muscala,substitution,substitution,0,Low
+21600132,192,substitution,2,PT07M08.00S,07:08,Q2 07:08,0,0,1610612755.0,Okafor,SUB in: J. Okafor,substitution,3pt made,0,Low
+21600132,190,3pt,2,PT06M44.00S,06:44,Q2 06:44,39,36,1610612755.0,Saric,Saric  3PT Jump Shot (10 PTS) (Rodriguez 3 AST),substitution,2pt missed,3,Low
+21600132,191,2pt,2,PT06M20.00S,06:20,Q2 06:20,0,0,1610612737.0,Muscala,MISS Muscala 6' Driving Hook Shot,3pt made,rebound,0,Low
+21600132,192,rebound,2,PT06M20.00S,06:20,Q2 06:20,0,0,1610612755.0,,TEAM defensive REBOUND,2pt missed,foul,0,Low
+21600132,193,foul,2,PT06M20.00S,06:20,Q2 06:20,0,0,1610612737.0,Muscala,Muscala L.B.FOUL (P1.T2) (G.Petraitis),rebound,substitution,0,Low
+21600132,194,substitution,2,PT06M20.00S,06:20,Q2 06:20,0,0,1610612737.0,Delaney,SUB out: M. Delaney,foul,substitution,0,Low
+21600132,195,substitution,2,PT06M20.00S,06:20,Q2 06:20,0,0,1610612737.0,Humphries,SUB out: K. Humphries,substitution,substitution,0,Low
+21600132,196,substitution,2,PT06M20.00S,06:20,Q2 06:20,0,0,1610612737.0,Schroder,SUB in: D. Schroder,substitution,substitution,0,Low
+21600132,197,substitution,2,PT06M20.00S,06:20,Q2 06:20,0,0,1610612737.0,Howard,SUB in: D. Howard,substitution,2pt missed,0,Low
+21600132,197,2pt,2,PT06M00.00S,06:00,Q2 06:00,0,0,1610612755.0,Okafor,MISS Okafor 15' Pullup Jump Shot,substitution,rebound,0,Low
+21600132,198,rebound,2,PT05M59.00S,05:59,Q2 05:59,0,0,1610612737.0,Muscala,Muscala REBOUND (Off:1 Def:1),2pt missed,2pt made,0,Low
+21600132,199,2pt,2,PT05M54.00S,05:54,Q2 05:54,41,36,1610612737.0,Howard,Howard 2' Layup (4 PTS) (Bazemore 1 AST),rebound,foul,5,Low
+21600132,200,foul,2,PT05M54.00S,05:54,Q2 05:54,0,0,1610612755.0,Okafor,Okafor S.FOUL (P3.T3) (M.Lindsay),2pt made,timeout,0,Low
+21600132,201,timeout,2,PT05M54.00S,05:54,Q2 05:54,0,0,0.0,,Timeout: Official,foul,freethrow,0,Low
+21600132,205,freethrow,2,PT05M54.00S,05:54,Q2 05:54,0,0,1610612737.0,Howard,MISS Howard Free Throw 1 of 1,timeout,substitution,0,Low
+21600132,203,substitution,2,PT05M54.00S,05:54,Q2 05:54,0,0,1610612755.0,Okafor,SUB out: J. Okafor,freethrow,substitution,0,Low
+21600132,204,substitution,2,PT05M54.00S,05:54,Q2 05:54,0,0,1610612755.0,Henderson,SUB out: G. Henderson,substitution,substitution,0,Low
+21600132,205,substitution,2,PT05M54.00S,05:54,Q2 05:54,0,0,1610612755.0,Ilyasova,SUB in: E. Ilyasova,substitution,substitution,0,Low
+21600132,206,substitution,2,PT05M54.00S,05:54,Q2 05:54,0,0,1610612755.0,Thompson,SUB in: H. Thompson,substitution,rebound,0,Low
+21600132,207,rebound,2,PT05M52.00S,05:52,Q2 05:52,0,0,1610612755.0,Rodriguez,Rodriguez REBOUND (Off:0 Def:1),substitution,3pt made,0,Low
+21600132,208,3pt,2,PT05M40.00S,05:40,Q2 05:40,41,39,1610612755.0,Rodriguez,Rodriguez 25' 3PT Pullup Jump Shot (5 PTS),rebound,2pt made,2,Low
+21600132,209,2pt,2,PT05M25.00S,05:25,Q2 05:25,43,39,1610612737.0,Muscala,Muscala 3' Cutting Layup Shot (2 PTS) (Schroder 3 AST),3pt made,3pt missed,4,Low
+21600132,210,3pt,2,PT05M15.00S,05:15,Q2 05:15,0,0,1610612755.0,Saric,MISS Saric 24' 3PT Jump Shot,2pt made,rebound,0,Low
+21600132,211,rebound,2,PT05M12.00S,05:12,Q2 05:12,0,0,1610612737.0,Korver,Korver REBOUND (Off:0 Def:1),3pt missed,turnover,0,Low
+21600132,213,turnover,2,PT05M06.00S,05:06,Q2 05:06,0,0,1610612737.0,Schroder,Schroder Bad Pass Turnover (P3.T11),rebound,steal,0,Low
+21600132,213,steal,2,PT05M06.00S,05:06,Q2 05:06,0,0,1610612755.0,Covington,Covington STEAL (2 STL),turnover,turnover,0,Low
+21600132,214,turnover,2,PT04M57.00S,04:57,Q2 04:57,0,0,1610612755.0,Ilyasova,Ilyasova Lost Ball Turnover (P4.T8),steal,steal,0,Low
+21600132,214,steal,2,PT04M57.00S,04:57,Q2 04:57,0,0,1610612737.0,Bazemore,Bazemore STEAL (1 STL),turnover,2pt missed,0,Low
+21600132,215,2pt,2,PT04M38.00S,04:38,Q2 04:38,0,0,1610612737.0,Bazemore,MISS Bazemore 1' Driving Layup,steal,rebound,0,Low
+21600132,216,rebound,2,PT04M38.00S,04:38,Q2 04:38,0,0,1610612755.0,,TEAM defensive REBOUND,2pt missed,foul,0,Low
+21600132,217,foul,2,PT04M38.00S,04:38,Q2 04:38,0,0,1610612737.0,Howard,Howard L.B.FOUL (P1.T3) (E.Malloy),rebound,substitution,0,Low
+21600132,218,substitution,2,PT04M38.00S,04:38,Q2 04:38,0,0,1610612755.0,Covington,SUB out: R. Covington,foul,substitution,0,Low
+21600132,219,substitution,2,PT04M38.00S,04:38,Q2 04:38,0,0,1610612737.0,Korver,SUB out: K. Korver,substitution,substitution,0,Low
+21600132,220,substitution,2,PT04M38.00S,04:38,Q2 04:38,0,0,1610612755.0,Stauskas,SUB in: N. Stauskas,substitution,substitution,0,Low
+21600132,221,substitution,2,PT04M38.00S,04:38,Q2 04:38,0,0,1610612737.0,Hardaway Jr.,SUB in: T. Hardaway Jr.,substitution,turnover,0,Low
+21600132,222,turnover,2,PT04M24.00S,04:24,Q2 04:24,0,0,1610612755.0,Stauskas,Stauskas Bad Pass Turnover (P2.T9),substitution,steal,0,Low
+21600132,222,steal,2,PT04M24.00S,04:24,Q2 04:24,0,0,1610612737.0,Howard,Howard STEAL (1 STL),turnover,2pt made,0,Low
+21600132,223,2pt,2,PT04M20.00S,04:20,Q2 04:20,45,39,1610612737.0,Bazemore,Bazemore 1' Running Finger Roll Layup (6 PTS) (Muscala 1 AST),steal,2pt missed,6,Low
+21600132,224,2pt,2,PT03M59.00S,03:59,Q2 03:59,0,0,1610612755.0,Saric,MISS Saric 17' Jump Shot,2pt made,rebound,0,Low
+21600132,225,rebound,2,PT03M58.00S,03:58,Q2 03:58,0,0,1610612737.0,Hardaway Jr.,Hardaway Jr. REBOUND (Off:0 Def:2),2pt missed,2pt missed,0,Low
+21600132,226,2pt,2,PT03M53.00S,03:53,Q2 03:53,0,0,1610612737.0,Hardaway Jr.,MISS Hardaway Jr.  Running Layup,rebound,rebound,0,Low
+21600132,227,rebound,2,PT03M52.00S,03:52,Q2 03:52,0,0,1610612755.0,Rodriguez,Rodriguez REBOUND (Off:0 Def:2),2pt missed,2pt missed,0,Low
+21600132,228,2pt,2,PT03M45.00S,03:45,Q2 03:45,0,0,1610612755.0,Ilyasova,MISS Ilyasova 3' Layup,rebound,block,0,Low
+21600132,228,block,2,PT03M45.00S,03:45,Q2 03:45,0,0,1610612737.0,Bazemore,Bazemore BLOCK (1 BLK),2pt missed,rebound,0,Low
+21600132,229,rebound,2,PT03M43.00S,03:43,Q2 03:43,0,0,1610612737.0,Muscala,Muscala REBOUND (Off:1 Def:2),block,2pt made,0,Low
+21600132,230,2pt,2,PT03M40.00S,03:40,Q2 03:40,47,39,1610612737.0,Hardaway Jr.,Hardaway Jr.  Running Dunk (6 PTS) (Schroder 4 AST),rebound,2pt made,8,Low
+21600132,231,2pt,2,PT03M16.00S,03:16,Q2 03:16,47,41,1610612755.0,Rodriguez,Rodriguez 19' Pullup Jump Shot (7 PTS),2pt made,2pt made,6,Low
+21600132,232,2pt,2,PT03M08.00S,03:08,Q2 03:08,49,41,1610612737.0,Bazemore,Bazemore  Cutting Dunk Shot (8 PTS) (Muscala 2 AST),2pt made,turnover,8,Low
+21600132,233,turnover,2,PT02M43.00S,02:43,Q2 02:43,0,0,1610612755.0,Saric,Saric 3 Second Violation Turnover (P2.T10),2pt made,timeout,0,Low
+21600132,234,timeout,2,PT02M43.00S,02:43,Q2 02:43,0,0,1610612737.0,,HAWKS Timeout: Regular (Full 2 Short 1),turnover,substitution,0,Low
+21600132,236,substitution,2,PT02M43.00S,02:43,Q2 02:43,0,0,1610612737.0,Muscala,SUB out: M. Muscala,timeout,substitution,0,Low
+21600132,237,substitution,2,PT02M43.00S,02:43,Q2 02:43,0,0,1610612755.0,Saric,SUB out: D. Saric,substitution,substitution,0,Low
+21600132,238,substitution,2,PT02M43.00S,02:43,Q2 02:43,0,0,1610612737.0,Millsap,SUB in: P. Millsap,substitution,substitution,0,Low
+21600132,239,substitution,2,PT02M43.00S,02:43,Q2 02:43,0,0,1610612755.0,Holmes,SUB in: R. Holmes,substitution,2pt made,0,Low
+21600132,238,2pt,2,PT02M33.00S,02:33,Q2 02:33,51,41,1610612737.0,Howard,Howard  Alley Oop Dunk (6 PTS) (Millsap 2 AST),substitution,3pt made,10,Low
+21600132,239,3pt,2,PT02M20.00S,02:20,Q2 02:20,51,44,1610612755.0,Stauskas,Stauskas 24' 3PT Jump Shot (9 PTS) (Ilyasova 1 AST),2pt made,foul,7,Low
+21600132,240,foul,2,PT02M11.00S,02:11,Q2 02:11,0,0,1610612755.0,Rodriguez,Rodriguez P.FOUL (P1.T4) (M.Lindsay),3pt made,2pt missed,0,Low
+21600132,241,2pt,2,PT02M09.00S,02:09,Q2 02:09,0,0,1610612737.0,Schroder,MISS Schroder  Cutting Layup Shot,foul,block,0,Low
+21600132,241,block,2,PT02M09.00S,02:09,Q2 02:09,0,0,1610612755.0,Rodriguez,Rodriguez BLOCK (1 BLK),2pt missed,rebound,0,Low
+21600132,242,rebound,2,PT02M07.00S,02:07,Q2 02:07,0,0,1610612737.0,Howard,Howard REBOUND (Off:2 Def:4),block,3pt missed,0,Low
+21600132,243,3pt,2,PT01M59.00S,01:59,Q2 01:59,0,0,1610612737.0,Bazemore,MISS Bazemore 24' 3PT Pullup Jump Shot,rebound,rebound,0,Low
+21600132,244,rebound,2,PT01M57.00S,01:57,Q2 01:57,0,0,1610612755.0,Stauskas,Stauskas REBOUND (Off:0 Def:1),3pt missed,2pt made,0,Low
+21600132,245,2pt,2,PT01M49.00S,01:49,Q2 01:49,51,46,1610612755.0,Holmes,Holmes 18' Jump Shot (4 PTS) (Rodriguez 4 AST),rebound,3pt made,5,Low
+21600132,246,3pt,2,PT01M33.00S,01:33,Q2 01:33,54,46,1610612737.0,Hardaway Jr.,Hardaway Jr. 25' 3PT Jump Shot (9 PTS) (Schroder 5 AST),2pt made,2pt missed,8,Low
+21600132,248,2pt,2,PT01M17.00S,01:17,Q2 01:17,0,0,1610612755.0,Ilyasova,MISS Ilyasova 19' Pullup Jump Shot,3pt made,rebound,0,Low
+21600132,249,rebound,2,PT01M14.00S,01:14,Q2 01:14,0,0,1610612755.0,Stauskas,Stauskas REBOUND (Off:1 Def:1),2pt missed,3pt missed,0,Low
+21600132,250,3pt,2,PT01M00.00S,01:00,Q2 01:00,0,0,1610612755.0,Stauskas,MISS Stauskas  3PT Step Back Jump Shot,rebound,rebound,0,Low
+21600132,251,rebound,2,PT00M58.90S,00:58,Q2 00:58,0,0,1610612737.0,Schroder,Schroder REBOUND (Off:0 Def:3),3pt missed,3pt missed,0,Low
+21600132,252,3pt,2,PT00M52.90S,00:52,Q2 00:52,0,0,1610612737.0,Hardaway Jr.,MISS Hardaway Jr. 25' 3PT Running Jump Shot,rebound,rebound,0,Low
+21600132,253,rebound,2,PT00M50.90S,00:50,Q2 00:50,0,0,1610612737.0,Howard,Howard REBOUND (Off:3 Def:4),3pt missed,2pt made,0,Low
+21600132,254,2pt,2,PT00M47.30S,00:47,Q2 00:47,56,46,1610612737.0,Hardaway Jr.,Hardaway Jr.  Layup (11 PTS) (Howard 1 AST),rebound,timeout,10,Low
+21600132,255,timeout,2,PT00M47.30S,00:47,Q2 00:47,0,0,1610612755.0,,76ers Timeout: Short (Reg.2 Short 1),2pt made,substitution,0,Low
+21600132,257,substitution,2,PT00M47.30S,00:47,Q2 00:47,0,0,1610612755.0,Rodriguez,SUB out: S. Rodriguez,timeout,substitution,0,Low
+21600132,258,substitution,2,PT00M47.30S,00:47,Q2 00:47,0,0,1610612755.0,McConnell,SUB in: T. McConnell,substitution,2pt made,0,Low
+21600132,258,2pt,2,PT00M31.30S,00:31,Q2 00:31,56,48,1610612755.0,Ilyasova,Ilyasova 2' Cutting Layup Shot (6 PTS) (Holmes 1 AST),substitution,3pt made,8,Low
+21600132,259,3pt,2,PT00M09.90S,00:09,Q2 00:09,59,48,1610612737.0,Bazemore,Bazemore  3PT Jump Shot (11 PTS) (Millsap 3 AST),2pt made,foul,11,Low
+21600132,260,foul,2,PT00M04.30S,00:04,Q2 00:04,0,0,1610612737.0,Howard,Howard P.FOUL (P2.T4) (E.Malloy),3pt made,substitution,0,Low
+21600132,261,substitution,2,PT00M04.30S,00:04,Q2 00:04,0,0,1610612737.0,Howard,SUB out: D. Howard,foul,substitution,0,Low
+21600132,262,substitution,2,PT00M04.30S,00:04,Q2 00:04,0,0,1610612737.0,Muscala,SUB in: M. Muscala,substitution,2pt missed,0,Low
+21600132,266,2pt,2,PT00M02.20S,00:02,Q2 00:02,0,0,1610612755.0,Holmes,MISS Holmes 1' Driving Dunk,substitution,rebound,0,Low
+21600132,267,rebound,2,PT00M00.90S,00:00,Q2 00:00,0,0,1610612755.0,Stauskas,Stauskas REBOUND (Off:2 Def:1),2pt missed,3pt missed,0,Low
+21600132,262,3pt,2,PT00M00.50S,00:00,Q2 00:00,0,0,1610612755.0,Stauskas,MISS Stauskas  3PT Jump Shot,rebound,rebound,0,Low
+21600132,263,rebound,2,PT00M00.00S,00:00,Q2 00:00,0,0,1610612755.0,,TEAM offensive REBOUND,3pt missed,period,0,Low
+21600132,264,period,2,PT00M00.00S,00:00,Q2 00:00,59,48,1610612737.0,,End of 2nd Period (8:34 PM EST),rebound,period,11,Low
+21600132,268,period,3,PT12M00.00S,12:00,Q3 12:00,59,48,1610612737.0,,Start of 3rd Period (8:49 PM EST),period,substitution,11,Low
+21600132,269,2pt,3,PT11M45.00S,11:45,Q3 11:45,0,0,1610612755.0,Okafor,MISS Okafor 1' Layup,substitution,block,0,Low
+21600132,269,block,3,PT11M45.00S,11:45,Q3 11:45,0,0,1610612737.0,Schroder,Schroder BLOCK (1 BLK),2pt missed,rebound,0,Low
+21600132,270,rebound,3,PT11M45.00S,11:45,Q3 11:45,0,0,1610612755.0,,TEAM offensive REBOUND,block,2pt missed,0,Low
+21600132,271,2pt,3,PT11M35.00S,11:35,Q3 11:35,0,0,1610612755.0,Rodriguez,MISS Rodriguez 13' Pullup Jump Shot,rebound,rebound,0,Low
+21600132,272,rebound,3,PT11M35.00S,11:35,Q3 11:35,0,0,1610612755.0,Henderson,Henderson REBOUND (Off:1 Def:0),2pt missed,foul,0,Low
+21600132,273,foul,3,PT11M35.00S,11:35,Q3 11:35,0,0,1610612737.0,Millsap,Millsap P.FOUL (P1.T1) (E.Malloy),rebound,freethrow,0,Low
+21600132,274,freethrow,3,PT11M35.00S,11:35,Q3 11:35,0,0,1610612755.0,Henderson,MISS Henderson Free Throw 1 of 2,foul,rebound,0,Low
+21600132,275,rebound,3,PT11M35.00S,11:35,Q3 11:35,0,0,1610612755.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21600132,276,freethrow,3,PT11M35.00S,11:35,Q3 11:35,0,0,1610612755.0,Henderson,MISS Henderson Free Throw 2 of 2,rebound,rebound,0,Low
+21600132,278,rebound,3,PT11M34.00S,11:34,Q3 11:34,0,0,1610612755.0,,TEAM offensive REBOUND,freethrow,3pt made,0,Low
+21600132,279,3pt,3,PT11M12.00S,11:12,Q3 11:12,59,51,1610612755.0,Rodriguez,Rodriguez 25' 3PT Jump Shot (10 PTS) (Henderson 1 AST),rebound,2pt missed,8,Low
+21600132,280,2pt,3,PT10M56.00S,10:56,Q3 10:56,0,0,1610612737.0,Howard,MISS Howard  Alley Oop Dunk,3pt made,rebound,0,Low
+21600132,281,rebound,3,PT10M54.00S,10:54,Q3 10:54,0,0,1610612737.0,Bazemore,Bazemore REBOUND (Off:1 Def:3),2pt missed,3pt missed,0,Low
+21600132,282,3pt,3,PT10M45.00S,10:45,Q3 10:45,0,0,1610612737.0,Millsap,MISS Millsap 25' 3PT Jump Shot,rebound,rebound,0,Low
+21600132,283,rebound,3,PT10M43.00S,10:43,Q3 10:43,0,0,1610612755.0,Henderson,Henderson REBOUND (Off:1 Def:1),3pt missed,turnover,0,Low
+21600132,284,turnover,3,PT10M37.00S,10:37,Q3 10:37,0,0,1610612755.0,Saric,Saric Bad Pass Turnover (P3.T11),rebound,steal,0,Low
+21600132,284,steal,3,PT10M37.00S,10:37,Q3 10:37,0,0,1610612737.0,Bazemore,Bazemore STEAL (2 STL),turnover,turnover,0,Low
+21600132,287,turnover,3,PT10M33.00S,10:33,Q3 10:33,0,0,1610612737.0,Bazemore,Bazemore Lost Ball Turnover (P3.T12),steal,steal,0,Low
+21600132,287,steal,3,PT10M33.00S,10:33,Q3 10:33,0,0,1610612755.0,Covington,Covington STEAL (3 STL),turnover,2pt missed,0,Low
+21600132,288,2pt,3,PT10M24.00S,10:24,Q3 10:24,0,0,1610612755.0,Saric,MISS Saric 1' Driving Layup,steal,rebound,0,Low
+21600132,289,rebound,3,PT10M22.00S,10:22,Q3 10:22,0,0,1610612737.0,Millsap,Millsap REBOUND (Off:0 Def:3),2pt missed,turnover,0,Low
+21600132,290,turnover,3,PT10M14.00S,10:14,Q3 10:14,0,0,1610612737.0,Schroder,Schroder Bad Pass Turnover (P4.T13),rebound,steal,0,Low
+21600132,290,steal,3,PT10M14.00S,10:14,Q3 10:14,0,0,1610612755.0,Saric,Saric STEAL (1 STL),turnover,2pt missed,0,Low
+21600132,291,2pt,3,PT10M07.00S,10:07,Q3 10:07,0,0,1610612755.0,Henderson,MISS Henderson 16' Fadeaway Jumper,steal,rebound,0,Low
+21600132,292,rebound,3,PT10M04.00S,10:04,Q3 10:04,0,0,1610612755.0,Okafor,Okafor REBOUND (Off:1 Def:1),2pt missed,2pt made,0,Low
+21600132,293,2pt,3,PT09M58.00S,09:58,Q3 09:58,59,53,1610612755.0,Okafor,Okafor 1' Driving Layup (8 PTS),rebound,2pt missed,6,Low
+21600132,294,2pt,3,PT09M46.00S,09:46,Q3 09:46,0,0,1610612737.0,Korver,MISS Korver 18' Pullup Jump Shot,2pt made,rebound,0,Low
+21600132,295,rebound,3,PT09M44.00S,09:44,Q3 09:44,0,0,1610612755.0,Saric,Saric REBOUND (Off:1 Def:3),2pt missed,foul,0,Low
+21600132,296,foul,3,PT09M35.00S,09:35,Q3 09:35,0,0,1610612737.0,Korver,Korver Shooting Block Foul (P2.T2) (G.Petraitis),rebound,freethrow,0,Low
+21600132,297,freethrow,3,PT09M35.00S,09:35,Q3 09:35,59,54,1610612755.0,Covington,Covington Free Throw 1 of 2 (1 PTS),foul,freethrow,5,Low
+21600132,299,freethrow,3,PT09M35.00S,09:35,Q3 09:35,59,55,1610612755.0,Covington,Covington Free Throw 2 of 2 (2 PTS),freethrow,2pt made,4,Low
+21600132,301,2pt,3,PT09M23.00S,09:23,Q3 09:23,61,55,1610612737.0,Schroder,Schroder 2' Driving Layup (8 PTS),freethrow,foul,6,Low
+21600132,302,foul,3,PT09M05.00S,09:05,Q3 09:05,0,0,1610612737.0,Howard,Howard S.FOUL (P3.T3) (M.Lindsay),2pt made,freethrow,0,Low
+21600132,303,freethrow,3,PT09M05.00S,09:05,Q3 09:05,61,56,1610612755.0,Okafor,Okafor Free Throw 1 of 2 (9 PTS),foul,freethrow,5,Low
+21600132,305,freethrow,3,PT09M05.00S,09:05,Q3 09:05,0,0,1610612755.0,Okafor,MISS Okafor Free Throw 2 of 2,freethrow,rebound,0,Low
+21600132,307,rebound,3,PT09M04.00S,09:04,Q3 09:04,0,0,1610612737.0,Bazemore,Bazemore REBOUND (Off:1 Def:4),freethrow,2pt missed,0,Low
+21600132,308,2pt,3,PT08M52.00S,08:52,Q3 08:52,0,0,1610612737.0,Millsap,MISS Millsap 1' Cutting Layup Shot,rebound,rebound,0,Low
+21600132,309,rebound,3,PT08M50.00S,08:50,Q3 08:50,0,0,1610612755.0,Henderson,Henderson REBOUND (Off:1 Def:2),2pt missed,3pt made,0,Low
+21600132,310,3pt,3,PT08M45.00S,08:45,Q3 08:45,61,59,1610612755.0,Covington,Covington 24' 3PT Running Jump Shot (5 PTS) (Henderson 2 AST),rebound,timeout,2,Low
+21600132,311,timeout,3,PT08M44.00S,08:44,Q3 08:44,0,0,1610612737.0,,HAWKS Timeout: Regular (Full 3 Short 1),3pt made,2pt made,0,Low
+21600132,313,2pt,3,PT08M33.00S,08:33,Q3 08:33,63,59,1610612737.0,Korver,Korver 20' Jump Shot (5 PTS) (Schroder 6 AST),timeout,2pt made,4,Low
+21600132,314,2pt,3,PT08M16.00S,08:16,Q3 08:16,63,61,1610612755.0,Saric,Saric 22' Jump Shot (12 PTS),2pt made,3pt made,2,Low
+21600132,315,3pt,3,PT07M55.00S,07:55,Q3 07:55,66,61,1610612737.0,Schroder,Schroder 25' 3PT Pullup Jump Shot (11 PTS),2pt made,2pt made,5,Low
+21600132,316,2pt,3,PT07M39.00S,07:39,Q3 07:39,66,63,1610612755.0,Henderson,Henderson 1' Cutting Layup Shot (6 PTS) (Saric 1 AST),3pt made,2pt made,3,Low
+21600132,317,2pt,3,PT07M31.00S,07:31,Q3 07:31,68,63,1610612737.0,Millsap,Millsap 1' Layup (6 PTS) (Schroder 7 AST),2pt made,2pt missed,5,Low
+21600132,318,2pt,3,PT07M02.00S,07:02,Q3 07:02,0,0,1610612755.0,Okafor,MISS Okafor 17' Step Back Jump Shot,2pt made,rebound,0,Low
+21600132,319,rebound,3,PT07M01.00S,07:01,Q3 07:01,0,0,1610612737.0,Schroder,Schroder REBOUND (Off:0 Def:4),2pt missed,foul,0,Low
+21600132,320,foul,3,PT06M58.00S,06:58,Q3 06:58,0,0,1610612755.0,Okafor,Okafor P.FOUL (P4.T1) (E.Malloy),rebound,foul,0,Low
+21600132,321,foul,3,PT06M58.00S,06:58,Q3 06:58,0,0,1610612755.0,Okafor,Okafor T.FOUL (P4.T1) (E.Malloy),foul,freethrow,0,Low
+21600132,322,freethrow,3,PT06M58.00S,06:58,Q3 06:58,69,63,1610612737.0,Korver,Korver Free Throw Technical (6 PTS),foul,substitution,6,Low
+21600132,324,substitution,3,PT06M58.00S,06:58,Q3 06:58,0,0,1610612755.0,Okafor,SUB out: J. Okafor,freethrow,substitution,0,Low
+21600132,325,substitution,3,PT06M58.00S,06:58,Q3 06:58,0,0,1610612737.0,Howard,SUB out: D. Howard,substitution,substitution,0,Low
+21600132,326,substitution,3,PT06M58.00S,06:58,Q3 06:58,0,0,1610612755.0,Holmes,SUB in: R. Holmes,substitution,substitution,0,Low
+21600132,327,substitution,3,PT06M58.00S,06:58,Q3 06:58,0,0,1610612737.0,Muscala,SUB in: M. Muscala,substitution,2pt made,0,Low
+21600132,326,2pt,3,PT06M53.00S,06:53,Q3 06:53,71,63,1610612737.0,Bazemore,Bazemore 2' Driving Layup (13 PTS) (Schroder 8 AST),substitution,2pt missed,8,Low
+21600132,327,2pt,3,PT06M36.00S,06:36,Q3 06:36,0,0,1610612755.0,Saric,MISS Saric 1' Layup,2pt made,rebound,0,Low
+21600132,328,rebound,3,PT06M35.00S,06:35,Q3 06:35,0,0,1610612737.0,Millsap,Millsap REBOUND (Off:0 Def:4),2pt missed,3pt missed,0,Low
+21600132,329,3pt,3,PT06M25.00S,06:25,Q3 06:25,0,0,1610612737.0,Korver,MISS Korver 24' 3PT Jump Shot,rebound,rebound,0,Low
+21600132,330,rebound,3,PT06M24.00S,06:24,Q3 06:24,0,0,1610612755.0,Saric,Saric REBOUND (Off:1 Def:4),3pt missed,2pt missed,0,Low
+21600132,331,2pt,3,PT06M08.00S,06:08,Q3 06:08,0,0,1610612755.0,Holmes,MISS Holmes 17' Jump Shot,rebound,rebound,0,Low
+21600132,332,rebound,3,PT06M06.00S,06:06,Q3 06:06,0,0,1610612737.0,Schroder,Schroder REBOUND (Off:0 Def:5),2pt missed,turnover,0,Low
+21600132,333,turnover,3,PT05M59.00S,05:59,Q3 05:59,0,0,1610612737.0,Millsap,Millsap Bad Pass Turnover (P2.T14),rebound,steal,0,Low
+21600132,333,steal,3,PT05M59.00S,05:59,Q3 05:59,0,0,1610612755.0,Henderson,Henderson STEAL (1 STL),turnover,2pt missed,0,Low
+21600132,334,2pt,3,PT05M51.00S,05:51,Q3 05:51,0,0,1610612755.0,Rodriguez,MISS Rodriguez 9' Driving Floating Jump Shot,steal,2pt made,0,Low
+21600132,335,2pt,3,PT05M49.00S,05:49,Q3 05:49,71,65,1610612755.0,Holmes,Holmes 2' Tip Layup Shot (6 PTS),2pt missed,rebound,6,Low
+21600132,336,rebound,3,PT05M49.00S,05:49,Q3 05:49,0,0,1610612755.0,Holmes,Holmes REBOUND (Off:1 Def:0),2pt made,foul,0,Low
+21600132,337,foul,3,PT05M39.00S,05:39,Q3 05:39,0,0,1610612755.0,Holmes,Holmes S.FOUL (P1.T2) (G.Petraitis),rebound,freethrow,0,Low
+21600132,338,freethrow,3,PT05M39.00S,05:39,Q3 05:39,72,65,1610612737.0,Muscala,Muscala Free Throw 1 of 2 (3 PTS),foul,freethrow,7,Low
+21600132,343,freethrow,3,PT05M39.00S,05:39,Q3 05:39,0,0,1610612737.0,Muscala,MISS Muscala Free Throw 2 of 2,freethrow,substitution,0,Low
+21600132,340,substitution,3,PT05M39.00S,05:39,Q3 05:39,0,0,1610612755.0,Rodriguez,SUB out: S. Rodriguez,freethrow,substitution,0,Low
+21600132,341,substitution,3,PT05M39.00S,05:39,Q3 05:39,0,0,1610612755.0,Henderson,SUB out: G. Henderson,substitution,substitution,0,Low
+21600132,342,substitution,3,PT05M39.00S,05:39,Q3 05:39,0,0,1610612737.0,Millsap,SUB out: P. Millsap,substitution,substitution,0,Low
+21600132,343,substitution,3,PT05M39.00S,05:39,Q3 05:39,0,0,1610612755.0,McConnell,SUB in: T. McConnell,substitution,substitution,0,Low
+21600132,344,substitution,3,PT05M39.00S,05:39,Q3 05:39,0,0,1610612755.0,Stauskas,SUB in: N. Stauskas,substitution,substitution,0,Low
+21600132,345,substitution,3,PT05M39.00S,05:39,Q3 05:39,0,0,1610612737.0,Howard,SUB in: D. Howard,substitution,rebound,0,Low
+21600132,345,rebound,3,PT05M38.00S,05:38,Q3 05:38,0,0,1610612755.0,Saric,Saric REBOUND (Off:1 Def:5),substitution,2pt missed,0,Low
+21600132,346,2pt,3,PT05M24.00S,05:24,Q3 05:24,0,0,1610612755.0,Holmes,MISS Holmes  Driving Layup,rebound,block,0,Low
+21600132,346,block,3,PT05M24.00S,05:24,Q3 05:24,0,0,1610612737.0,Bazemore,Bazemore BLOCK (2 BLK),2pt missed,rebound,0,Low
+21600132,347,rebound,3,PT05M24.00S,05:24,Q3 05:24,0,0,1610612755.0,,TEAM offensive REBOUND,block,substitution,0,Low
+21600132,348,substitution,3,PT05M24.00S,05:24,Q3 05:24,0,0,1610612755.0,Saric,SUB out: D. Saric,rebound,substitution,0,Low
+21600132,349,substitution,3,PT05M24.00S,05:24,Q3 05:24,0,0,1610612755.0,Ilyasova,SUB in: E. Ilyasova,substitution,3pt made,0,Low
+21600132,349,3pt,3,PT05M17.00S,05:17,Q3 05:17,72,68,1610612755.0,Covington,Covington 25' 3PT Jump Shot (8 PTS) (Ilyasova 2 AST),substitution,2pt made,4,Low
+21600132,350,2pt,3,PT05M02.00S,05:02,Q3 05:02,74,68,1610612737.0,Bazemore,Bazemore  Cutting Dunk Shot (15 PTS) (Howard 2 AST),3pt made,substitution,6,Low
+21600132,352,substitution,3,PT04M51.00S,04:51,Q3 04:51,0,0,1610612737.0,Korver,SUB out: K. Korver,2pt made,substitution,0,Low
+21600132,353,substitution,3,PT04M51.00S,04:51,Q3 04:51,0,0,1610612737.0,Hardaway Jr.,SUB in: T. Hardaway Jr.,substitution,turnover,0,Low
+21600132,353,turnover,3,PT04M37.00S,04:37,Q3 04:37,0,0,1610612755.0,Stauskas,Stauskas Out of Bounds - Bad Pass Turnover Turnover (P3.T12),substitution,turnover,0,Low
+21600132,354,turnover,3,PT04M29.00S,04:29,Q3 04:29,0,0,1610612737.0,Schroder,Schroder Bad Pass Turnover (P5.T15),turnover,steal,0,Low
+21600132,354,steal,3,PT04M29.00S,04:29,Q3 04:29,0,0,1610612755.0,Covington,Covington STEAL (4 STL),turnover,3pt made,0,Low
+21600132,355,3pt,3,PT04M24.00S,04:24,Q3 04:24,74,71,1610612755.0,Covington,Covington 25' 3PT Running Pull-Up Jump Shot (11 PTS),steal,2pt made,3,Low
+21600132,356,2pt,3,PT04M04.00S,04:04,Q3 04:04,76,71,1610612737.0,Schroder,Schroder 2' Driving Layup (13 PTS),3pt made,foul,5,Low
+21600132,357,foul,3,PT04M04.00S,04:04,Q3 04:04,0,0,1610612755.0,Ilyasova,Ilyasova S.FOUL (P3.T3) (M.Lindsay),2pt made,freethrow,0,Low
+21600132,359,freethrow,3,PT04M04.00S,04:04,Q3 04:04,0,0,1610612737.0,Schroder,MISS Schroder Free Throw 1 of 1,foul,substitution,0,Low
+21600132,358,substitution,3,PT04M04.00S,04:04,Q3 04:04,0,0,1610612737.0,Hardaway Jr.,SUB out: T. Hardaway Jr.,freethrow,substitution,0,Low
+21600132,359,substitution,3,PT04M04.00S,04:04,Q3 04:04,0,0,1610612737.0,Sefolosha,SUB in: T. Sefolosha,substitution,rebound,0,Low
+21600132,361,rebound,3,PT04M01.00S,04:01,Q3 04:01,0,0,1610612755.0,Covington,Covington REBOUND (Off:0 Def:2),substitution,3pt made,0,Low
+21600132,363,3pt,3,PT03M49.00S,03:49,Q3 03:49,76,74,1610612755.0,Ilyasova,Ilyasova 25' 3PT Jump Shot (9 PTS) (Holmes 2 AST),rebound,2pt made,2,Low
+21600132,364,2pt,3,PT03M35.00S,03:35,Q3 03:35,78,74,1610612737.0,Sefolosha,Sefolosha 15' Pullup Jump Shot (2 PTS),3pt made,turnover,4,Low
+21600132,365,turnover,3,PT03M26.00S,03:26,Q3 03:26,0,0,1610612755.0,Covington,Covington Traveling Turnover (P1.T13),2pt made,substitution,0,Low
+21600132,366,substitution,3,PT03M26.00S,03:26,Q3 03:26,0,0,1610612737.0,Schroder,SUB out: D. Schroder,turnover,substitution,0,Low
+21600132,367,substitution,3,PT03M26.00S,03:26,Q3 03:26,0,0,1610612737.0,Delaney,SUB in: M. Delaney,substitution,2pt missed,0,Low
+21600132,367,2pt,3,PT03M10.00S,03:10,Q3 03:10,0,0,1610612737.0,Bazemore,MISS Bazemore 4' Pullup Jump Shot,substitution,rebound,0,Low
+21600132,368,rebound,3,PT03M09.00S,03:09,Q3 03:09,0,0,1610612755.0,Holmes,Holmes REBOUND (Off:1 Def:1),2pt missed,foul,0,Low
+21600132,369,foul,3,PT03M06.00S,03:06,Q3 03:06,0,0,1610612737.0,Muscala,Muscala P.FOUL (P2.T4) (M.Lindsay),rebound,3pt missed,0,Low
+21600132,370,3pt,3,PT02M49.00S,02:49,Q3 02:49,0,0,1610612755.0,Ilyasova,MISS Ilyasova 25' 3PT Jump Shot,foul,rebound,0,Low
+21600132,371,rebound,3,PT02M48.00S,02:48,Q3 02:48,0,0,1610612737.0,Muscala,Muscala REBOUND (Off:1 Def:3),3pt missed,2pt made,0,Low
+21600132,372,2pt,3,PT02M39.00S,02:39,Q3 02:39,80,74,1610612737.0,Howard,Howard  Alley Oop Dunk (8 PTS) (Delaney 4 AST),rebound,timeout,6,Low
+21600132,373,timeout,3,PT02M38.00S,02:38,Q3 02:38,0,0,1610612755.0,,76ers Timeout: Regular (Reg.3 Short 1),2pt made,substitution,0,Low
+21600132,376,substitution,3,PT02M38.00S,02:38,Q3 02:38,0,0,1610612737.0,Bazemore,SUB out: K. Bazemore,timeout,substitution,0,Low
+21600132,377,substitution,3,PT02M38.00S,02:38,Q3 02:38,0,0,1610612737.0,Korver,SUB in: K. Korver,substitution,3pt missed,0,Low
+21600132,377,3pt,3,PT02M24.00S,02:24,Q3 02:24,0,0,1610612755.0,Covington,MISS Covington 25' 3PT Jump Shot,substitution,rebound,0,Low
+21600132,378,rebound,3,PT02M22.00S,02:22,Q3 02:22,0,0,1610612737.0,Delaney,Delaney REBOUND (Off:2 Def:1),3pt missed,2pt missed,0,Low
+21600132,379,2pt,3,PT02M14.00S,02:14,Q3 02:14,0,0,1610612737.0,Delaney,MISS Delaney 14' Driving Floating Jump Shot,rebound,rebound,0,Low
+21600132,380,rebound,3,PT02M13.00S,02:13,Q3 02:13,0,0,1610612755.0,Covington,Covington REBOUND (Off:0 Def:3),2pt missed,substitution,0,Low
+21600132,382,substitution,3,PT01M59.00S,01:59,Q3 01:59,0,0,1610612755.0,Covington,SUB out: R. Covington,rebound,substitution,0,Low
+21600132,383,substitution,3,PT01M59.00S,01:59,Q3 01:59,0,0,1610612755.0,Holmes,SUB out: R. Holmes,substitution,substitution,0,Low
+21600132,384,substitution,3,PT01M59.00S,01:59,Q3 01:59,0,0,1610612755.0,Thompson,SUB in: H. Thompson,substitution,substitution,0,Low
+21600132,385,substitution,3,PT01M59.00S,01:59,Q3 01:59,0,0,1610612755.0,Okafor,SUB in: J. Okafor,substitution,turnover,0,Low
+21600132,384,turnover,3,PT01M55.00S,01:55,Q3 01:55,0,0,1610612755.0,McConnell,McConnell Traveling Turnover (P1.T14),substitution,2pt made,0,Low
+21600132,386,2pt,3,PT01M42.00S,01:42,Q3 01:42,82,74,1610612737.0,Sefolosha,Sefolosha  Cutting Layup Shot (4 PTS) (Delaney 5 AST),turnover,2pt missed,8,Low
+21600132,387,2pt,3,PT01M29.00S,01:29,Q3 01:29,0,0,1610612755.0,McConnell,MISS McConnell 3' Driving Layup,2pt made,rebound,0,Low
+21600132,388,rebound,3,PT01M27.00S,01:27,Q3 01:27,0,0,1610612737.0,Howard,Howard REBOUND (Off:3 Def:5),2pt missed,3pt missed,0,Low
+21600132,389,3pt,3,PT01M21.00S,01:21,Q3 01:21,0,0,1610612737.0,Korver,MISS Korver 26' 3PT Running Jump Shot,rebound,rebound,0,Low
+21600132,390,rebound,3,PT01M20.00S,01:20,Q3 01:20,0,0,1610612737.0,,TEAM offensive REBOUND,3pt missed,3pt missed,0,Low
+21600132,391,3pt,3,PT01M13.00S,01:13,Q3 01:13,0,0,1610612737.0,Sefolosha,MISS Sefolosha  3PT Jump Shot,rebound,2pt made,0,Low
+21600132,392,2pt,3,PT01M10.00S,01:10,Q3 01:10,84,74,1610612737.0,Howard,Howard  Tip Dunk Shot (10 PTS),3pt missed,rebound,10,Low
+21600132,393,rebound,3,PT01M10.00S,01:10,Q3 01:10,0,0,1610612737.0,Howard,Howard REBOUND (Off:4 Def:5),2pt made,3pt made,0,Low
+21600132,394,3pt,3,PT00M58.30S,00:58,Q3 00:58,84,77,1610612755.0,Stauskas,Stauskas  3PT Jump Shot (12 PTS) (McConnell 4 AST),rebound,3pt missed,7,Low
+21600132,395,3pt,3,PT00M51.90S,00:51,Q3 00:51,0,0,1610612737.0,Korver,MISS Korver 25' 3PT Jump Shot,3pt made,rebound,0,Low
+21600132,396,rebound,3,PT00M50.70S,00:50,Q3 00:50,0,0,1610612737.0,Howard,Howard REBOUND (Off:5 Def:5),3pt missed,3pt made,0,Low
+21600132,397,3pt,3,PT00M45.40S,00:45,Q3 00:45,87,77,1610612737.0,Korver,Korver 25' 3PT Pullup Jump Shot (9 PTS) (Sefolosha 1 AST),rebound,foul,10,Low
+21600132,398,foul,3,PT00M25.10S,00:25,Q3 00:25,0,0,1610612737.0,Howard,Howard S.FOUL (P4.PN) (M.Lindsay),3pt made,freethrow,0,Low
+21600132,399,freethrow,3,PT00M25.10S,00:25,Q3 00:25,87,78,1610612755.0,Okafor,Okafor Free Throw 1 of 2 (10 PTS),foul,freethrow,9,Low
+21600132,403,freethrow,3,PT00M25.10S,00:25,Q3 00:25,0,0,1610612755.0,Okafor,MISS Okafor Free Throw 2 of 2,freethrow,substitution,0,Low
+21600132,401,substitution,3,PT00M25.10S,00:25,Q3 00:25,0,0,1610612737.0,Howard,SUB out: D. Howard,freethrow,substitution,0,Low
+21600132,402,substitution,3,PT00M25.10S,00:25,Q3 00:25,0,0,1610612737.0,Muscala,SUB out: M. Muscala,substitution,substitution,0,Low
+21600132,403,substitution,3,PT00M25.10S,00:25,Q3 00:25,0,0,1610612737.0,Humphries,SUB in: K. Humphries,substitution,substitution,0,Low
+21600132,404,substitution,3,PT00M25.10S,00:25,Q3 00:25,0,0,1610612737.0,Millsap,SUB in: P. Millsap,substitution,rebound,0,Low
+21600132,405,rebound,3,PT00M23.50S,00:23,Q3 00:23,0,0,1610612737.0,Humphries,Humphries REBOUND (Off:1 Def:3),substitution,2pt missed,0,Low
+21600132,406,2pt,3,PT00M01.90S,00:01,Q3 00:01,0,0,1610612737.0,Millsap,MISS Millsap 13' Floating Jump Shot,rebound,rebound,0,Low
+21600132,407,rebound,3,PT00M00.10S,00:00,Q3 00:00,0,0,1610612737.0,,TEAM offensive REBOUND,2pt missed,period,0,Medium
+21600132,408,period,3,PT00M00.00S,00:00,Q3 00:00,87,78,1610612737.0,,End of 3rd Period (9:16 PM EST),rebound,period,9,Low
+21600132,410,period,4,PT12M00.00S,12:00,Q4 12:00,87,78,1610612737.0,,Start of 4th Period (9:19 PM EST),period,turnover,9,Low
+21600132,411,turnover,4,PT11M41.00S,11:41,Q4 11:41,0,0,1610612737.0,Korver,Korver Lost Ball Turnover (P3.T16),period,steal,0,Medium
+21600132,411,steal,4,PT11M41.00S,11:41,Q4 11:41,0,0,1610612755.0,Thompson,Thompson STEAL (1 STL),turnover,2pt missed,0,Medium
+21600132,412,2pt,4,PT11M35.00S,11:35,Q4 11:35,0,0,1610612755.0,Ilyasova,MISS Ilyasova 3' Jump Shot,steal,block,0,Medium
+21600132,412,block,4,PT11M35.00S,11:35,Q4 11:35,0,0,1610612737.0,Humphries,Humphries BLOCK (1 BLK),2pt missed,rebound,0,Medium
+21600132,413,rebound,4,PT11M33.00S,11:33,Q4 11:33,0,0,1610612737.0,Korver,Korver REBOUND (Off:0 Def:2),block,3pt missed,0,Medium
+21600132,414,3pt,4,PT11M14.00S,11:14,Q4 11:14,0,0,1610612737.0,Humphries,MISS Humphries 25' 3PT Jump Shot,rebound,rebound,0,Medium
+21600132,415,rebound,4,PT11M12.00S,11:12,Q4 11:12,0,0,1610612755.0,Thompson,Thompson REBOUND (Off:0 Def:2),3pt missed,turnover,0,Medium
+21600132,416,turnover,4,PT10M51.00S,10:51,Q4 10:51,0,0,1610612755.0,Okafor,Okafor Lost Ball Turnover (P2.T15),rebound,steal,0,Medium
+21600132,416,steal,4,PT10M51.00S,10:51,Q4 10:51,0,0,1610612737.0,Korver,Korver STEAL (2 STL),turnover,2pt missed,0,Medium
+21600132,417,2pt,4,PT10M44.00S,10:44,Q4 10:44,0,0,1610612737.0,Humphries,MISS Humphries 7' Floating Jump Shot,steal,rebound,0,Medium
+21600132,418,rebound,4,PT10M44.00S,10:44,Q4 10:44,0,0,1610612737.0,Humphries,Humphries REBOUND (Off:2 Def:3),2pt missed,foul,0,Medium
+21600132,419,foul,4,PT10M44.00S,10:44,Q4 10:44,0,0,1610612755.0,Stauskas,Stauskas P.FOUL (P2.T1) (G.Petraitis),rebound,2pt made,0,Medium
+21600132,421,2pt,4,PT10M34.00S,10:34,Q4 10:34,89,78,1610612737.0,Delaney,Delaney 15' Pullup Jump Shot (9 PTS),foul,foul,11,Low
+21600132,422,foul,4,PT10M17.00S,10:17,Q4 10:17,0,0,1610612755.0,Thompson,Thompson Offensive Charge Foul (P2.T2) (E.Malloy),2pt made,turnover,0,Medium
+21600132,423,turnover,4,PT10M17.00S,10:17,Q4 10:17,0,0,1610612755.0,Thompson,Thompson Foul Turnover (P2.T16),foul,substitution,0,Medium
+21600132,424,substitution,4,PT10M17.00S,10:17,Q4 10:17,0,0,1610612755.0,Ilyasova,SUB out: E. Ilyasova,turnover,substitution,0,Medium
+21600132,425,substitution,4,PT10M17.00S,10:17,Q4 10:17,0,0,1610612755.0,Saric,SUB in: D. Saric,substitution,foul,0,Medium
+21600132,425,foul,4,PT10M08.00S,10:08,Q4 10:08,0,0,1610612755.0,McConnell,McConnell P.FOUL (P1.T3) (M.Lindsay),substitution,2pt missed,0,Medium
+21600132,427,2pt,4,PT09M56.00S,09:56,Q4 09:56,0,0,1610612737.0,Sefolosha,MISS Sefolosha 10' Pullup Bank Shot,foul,rebound,0,Medium
+21600132,428,rebound,4,PT09M53.00S,09:53,Q4 09:53,0,0,1610612755.0,Okafor,Okafor REBOUND (Off:1 Def:2),2pt missed,turnover,0,Medium
+21600132,429,turnover,4,PT09M47.00S,09:47,Q4 09:47,0,0,1610612755.0,Stauskas,Stauskas Bad Pass Turnover (P4.T17),rebound,steal,0,Medium
+21600132,429,steal,4,PT09M47.00S,09:47,Q4 09:47,0,0,1610612737.0,Sefolosha,Sefolosha STEAL (2 STL),turnover,3pt made,0,Medium
+21600132,430,3pt,4,PT09M42.00S,09:42,Q4 09:42,92,78,1610612737.0,Korver,Korver 25' 3PT Running Jump Shot (12 PTS) (Delaney 6 AST),steal,foul,14,Low
+21600132,431,foul,4,PT09M18.00S,09:18,Q4 09:18,0,0,1610612737.0,Humphries,Humphries S.FOUL (P1.T1) (E.Malloy),3pt made,freethrow,0,Medium
+21600132,432,freethrow,4,PT09M18.00S,09:18,Q4 09:18,92,79,1610612755.0,Okafor,Okafor Free Throw 1 of 2 (11 PTS),foul,freethrow,13,Low
+21600132,435,freethrow,4,PT09M18.00S,09:18,Q4 09:18,92,80,1610612755.0,Okafor,Okafor Free Throw 2 of 2 (12 PTS),freethrow,substitution,12,Low
+21600132,434,substitution,4,PT09M18.00S,09:18,Q4 09:18,0,0,1610612755.0,Thompson,SUB out: H. Thompson,freethrow,substitution,0,Medium
+21600132,435,substitution,4,PT09M18.00S,09:18,Q4 09:18,0,0,1610612755.0,Henderson,SUB in: G. Henderson,substitution,3pt missed,0,Medium
+21600132,438,3pt,4,PT09M07.00S,09:07,Q4 09:07,0,0,1610612737.0,Korver,MISS Korver 24' 3PT Jump Shot,substitution,rebound,0,Medium
+21600132,439,rebound,4,PT09M07.00S,09:07,Q4 09:07,0,0,1610612755.0,,TEAM defensive REBOUND,3pt missed,timeout,0,Medium
+21600132,440,timeout,4,PT09M07.00S,09:07,Q4 09:07,0,0,1610612755.0,,76ers Timeout: Regular (Reg.4 Short 1),rebound,2pt missed,0,Medium
+21600132,444,2pt,4,PT08M49.00S,08:49,Q4 08:49,0,0,1610612755.0,Okafor,MISS Okafor 5' Hook Shot,timeout,rebound,0,Medium
+21600132,445,rebound,4,PT08M47.00S,08:47,Q4 08:47,0,0,1610612755.0,Okafor,Okafor REBOUND (Off:2 Def:2),2pt missed,2pt made,0,Medium
+21600132,446,2pt,4,PT08M46.00S,08:46,Q4 08:46,92,82,1610612755.0,Okafor,Okafor  Putback Layup (14 PTS),rebound,2pt made,10,Low
+21600132,447,2pt,4,PT08M29.00S,08:29,Q4 08:29,94,82,1610612737.0,Korver,Korver 20' Step Back Jump Shot (14 PTS),2pt made,2pt made,12,Low
+21600132,448,2pt,4,PT08M15.00S,08:15,Q4 08:15,94,84,1610612755.0,Okafor,Okafor 3' Floating Jump Shot (16 PTS),2pt made,3pt missed,10,Low
+21600132,449,3pt,4,PT08M06.00S,08:06,Q4 08:06,0,0,1610612737.0,Korver,MISS Korver 24' 3PT Pullup Jump Shot,2pt made,rebound,0,Medium
+21600132,450,rebound,4,PT08M05.00S,08:05,Q4 08:05,0,0,1610612755.0,,TEAM defensive REBOUND,3pt missed,substitution,0,Medium
+21600132,451,substitution,4,PT08M05.00S,08:05,Q4 08:05,0,0,1610612737.0,Delaney,SUB out: M. Delaney,rebound,substitution,0,Medium
+21600132,452,substitution,4,PT08M05.00S,08:05,Q4 08:05,0,0,1610612737.0,Korver,SUB out: K. Korver,substitution,substitution,0,Medium
+21600132,453,substitution,4,PT08M05.00S,08:05,Q4 08:05,0,0,1610612755.0,Stauskas,SUB out: N. Stauskas,substitution,substitution,0,Medium
+21600132,454,substitution,4,PT08M05.00S,08:05,Q4 08:05,0,0,1610612737.0,Schroder,SUB in: D. Schroder,substitution,substitution,0,Medium
+21600132,455,substitution,4,PT08M05.00S,08:05,Q4 08:05,0,0,1610612737.0,Hardaway Jr.,SUB in: T. Hardaway Jr.,substitution,substitution,0,Medium
+21600132,456,substitution,4,PT08M05.00S,08:05,Q4 08:05,0,0,1610612755.0,Covington,SUB in: R. Covington,substitution,3pt missed,0,Medium
+21600132,454,3pt,4,PT07M40.00S,07:40,Q4 07:40,0,0,1610612755.0,Covington,MISS Covington 25' 3PT Jump Shot,substitution,rebound,0,Medium
+21600132,455,rebound,4,PT07M38.00S,07:38,Q4 07:38,0,0,1610612737.0,Sefolosha,Sefolosha REBOUND (Off:0 Def:2),3pt missed,3pt missed,0,Medium
+21600132,456,3pt,4,PT07M33.00S,07:33,Q4 07:33,0,0,1610612737.0,Hardaway Jr.,MISS Hardaway Jr.  3PT Running Jump Shot,rebound,rebound,0,Medium
+21600132,457,rebound,4,PT07M30.00S,07:30,Q4 07:30,0,0,1610612755.0,Saric,Saric REBOUND (Off:1 Def:6),3pt missed,3pt missed,0,Medium
+21600132,458,3pt,4,PT07M16.00S,07:16,Q4 07:16,0,0,1610612755.0,Saric,MISS Saric 24' 3PT Jump Shot,rebound,rebound,0,Medium
+21600132,459,rebound,4,PT07M14.00S,07:14,Q4 07:14,0,0,1610612737.0,Humphries,Humphries REBOUND (Off:2 Def:4),3pt missed,3pt made,0,Medium
+21600132,460,3pt,4,PT07M05.00S,07:05,Q4 07:05,97,84,1610612737.0,Sefolosha,Sefolosha 25' 3PT Jump Shot (7 PTS) (Humphries 2 AST),rebound,timeout,13,Low
+21600132,461,timeout,4,PT07M04.00S,07:04,Q4 07:04,0,0,1610612755.0,,76ers Timeout: Short (Reg.4 Short 2),3pt made,substitution,0,Medium
+21600132,463,substitution,4,PT07M04.00S,07:04,Q4 07:04,0,0,1610612737.0,Millsap,SUB out: P. Millsap,timeout,substitution,0,Medium
+21600132,464,substitution,4,PT07M04.00S,07:04,Q4 07:04,0,0,1610612737.0,Sefolosha,SUB out: T. Sefolosha,substitution,substitution,0,Medium
+21600132,465,substitution,4,PT07M04.00S,07:04,Q4 07:04,0,0,1610612755.0,McConnell,SUB out: T. McConnell,substitution,substitution,0,Medium
+21600132,466,substitution,4,PT07M04.00S,07:04,Q4 07:04,0,0,1610612737.0,Bazemore,SUB in: K. Bazemore,substitution,substitution,0,Medium
+21600132,467,substitution,4,PT07M04.00S,07:04,Q4 07:04,0,0,1610612737.0,Muscala,SUB in: M. Muscala,substitution,substitution,0,Medium
+21600132,468,substitution,4,PT07M04.00S,07:04,Q4 07:04,0,0,1610612755.0,Rodriguez,SUB in: S. Rodriguez,substitution,2pt made,0,Medium
+21600132,466,2pt,4,PT06M43.00S,06:43,Q4 06:43,97,86,1610612755.0,Okafor,Okafor 6' Driving Floating Jump Shot (18 PTS),substitution,3pt missed,11,Low
+21600132,467,3pt,4,PT06M29.00S,06:29,Q4 06:29,0,0,1610612737.0,Muscala,MISS Muscala 25' 3PT Jump Shot,2pt made,rebound,0,High
+21600132,468,rebound,4,PT06M27.00S,06:27,Q4 06:27,0,0,1610612737.0,Humphries,Humphries REBOUND (Off:3 Def:4),3pt missed,3pt made,0,High
+21600132,469,3pt,4,PT06M23.00S,06:23,Q4 06:23,100,86,1610612737.0,Hardaway Jr.,Hardaway Jr. 24' 3PT Jump Shot (14 PTS) (Muscala 3 AST),rebound,3pt made,14,Low
+21600132,471,3pt,4,PT05M55.00S,05:55,Q4 05:55,100,89,1610612755.0,Rodriguez,Rodriguez 25' 3PT Jump Shot (13 PTS) (Okafor 2 AST),3pt made,3pt made,11,Medium
+21600132,472,3pt,4,PT05M42.00S,05:42,Q4 05:42,103,89,1610612737.0,Hardaway Jr.,Hardaway Jr. 24' 3PT Jump Shot (17 PTS) (Muscala 4 AST),3pt made,2pt missed,14,Low
+21600132,473,2pt,4,PT05M20.00S,05:20,Q4 05:20,0,0,1610612755.0,Covington,MISS Covington 2' Driving Layup,3pt made,rebound,0,High
+21600132,474,rebound,4,PT05M19.00S,05:19,Q4 05:19,0,0,1610612737.0,Muscala,Muscala REBOUND (Off:1 Def:4),2pt missed,3pt missed,0,High
+21600132,475,3pt,4,PT05M15.00S,05:15,Q4 05:15,0,0,1610612737.0,Hardaway Jr.,MISS Hardaway Jr. 25' 3PT Running Jump Shot,rebound,rebound,0,High
+21600132,476,rebound,4,PT05M13.00S,05:13,Q4 05:13,0,0,1610612755.0,Rodriguez,Rodriguez REBOUND (Off:0 Def:3),3pt missed,foul,0,High
+21600132,477,foul,4,PT05M02.00S,05:02,Q4 05:02,0,0,1610612737.0,Humphries,Humphries S.FOUL (P2.T2) (G.Petraitis),rebound,timeout,0,High
+21600132,478,timeout,4,PT05M02.00S,05:02,Q4 05:02,0,0,0.0,,Timeout: Official,foul,freethrow,0,High
+21600132,481,freethrow,4,PT05M02.00S,05:02,Q4 05:02,0,0,1610612755.0,Okafor,MISS Okafor Free Throw 1 of 2,timeout,rebound,0,High
+21600132,482,rebound,4,PT05M02.00S,05:02,Q4 05:02,0,0,1610612755.0,,TEAM offensive REBOUND,freethrow,freethrow,0,High
+21600132,483,freethrow,4,PT05M02.00S,05:02,Q4 05:02,0,0,1610612755.0,Okafor,MISS Okafor Free Throw 2 of 2,rebound,substitution,0,High
+21600132,479,substitution,4,PT05M02.00S,05:02,Q4 05:02,0,0,1610612737.0,Humphries,SUB out: K. Humphries,freethrow,substitution,0,High
+21600132,480,substitution,4,PT05M02.00S,05:02,Q4 05:02,0,0,1610612755.0,Henderson,SUB out: G. Henderson,substitution,substitution,0,High
+21600132,481,substitution,4,PT05M02.00S,05:02,Q4 05:02,0,0,1610612737.0,Howard,SUB in: D. Howard,substitution,substitution,0,High
+21600132,482,substitution,4,PT05M02.00S,05:02,Q4 05:02,0,0,1610612755.0,Stauskas,SUB in: N. Stauskas,substitution,rebound,0,High
+21600132,485,rebound,4,PT04M59.00S,04:59,Q4 04:59,0,0,1610612737.0,Hardaway Jr.,Hardaway Jr. REBOUND (Off:0 Def:3),substitution,3pt missed,0,High
+21600132,486,3pt,4,PT04M49.00S,04:49,Q4 04:49,0,0,1610612737.0,Hardaway Jr.,MISS Hardaway Jr. 24' 3PT Jump Shot,rebound,rebound,0,High
+21600132,487,rebound,4,PT04M47.00S,04:47,Q4 04:47,0,0,1610612755.0,Okafor,Okafor REBOUND (Off:2 Def:3),3pt missed,3pt missed,0,High
+21600132,488,3pt,4,PT04M31.00S,04:31,Q4 04:31,0,0,1610612755.0,Rodriguez,MISS Rodriguez  3PT Jump Shot,rebound,rebound,0,High
+21600132,489,rebound,4,PT04M29.00S,04:29,Q4 04:29,0,0,1610612737.0,Howard,Howard REBOUND (Off:5 Def:6),3pt missed,2pt made,0,High
+21600132,490,2pt,4,PT04M21.00S,04:21,Q4 04:21,105,89,1610612737.0,Bazemore,Bazemore 1' Driving Finger Roll Layup (17 PTS),rebound,2pt missed,16,Low
+21600132,491,2pt,4,PT04M04.00S,04:04,Q4 04:04,0,0,1610612755.0,Okafor,MISS Okafor 2' Driving Layup,2pt made,rebound,0,High
+21600132,492,rebound,4,PT04M03.00S,04:03,Q4 04:03,0,0,1610612755.0,Okafor,Okafor REBOUND (Off:3 Def:3),2pt missed,substitution,0,High
+21600132,494,substitution,4,PT04M03.00S,04:03,Q4 04:03,0,0,1610612755.0,Okafor,SUB out: J. Okafor,rebound,substitution,0,High
+21600132,495,substitution,4,PT04M03.00S,04:03,Q4 04:03,0,0,1610612755.0,Ilyasova,SUB in: E. Ilyasova,substitution,foul,0,High
+21600132,495,foul,4,PT03M51.00S,03:51,Q4 03:51,0,0,1610612755.0,Covington,Covington Offensive Charge Foul (P3.T4) (M.Lindsay),substitution,turnover,0,High
+21600132,496,turnover,4,PT03M51.00S,03:51,Q4 03:51,0,0,1610612755.0,Covington,Covington Foul Turnover (P2.T18),foul,2pt missed,0,High
+21600132,497,2pt,4,PT03M37.00S,03:37,Q4 03:37,0,0,1610612737.0,Howard,MISS Howard  Alley Oop Layup,turnover,2pt missed,0,High
+21600132,498,2pt,4,PT03M36.00S,03:36,Q4 03:36,0,0,1610612737.0,Muscala,MISS Muscala 1' Tip Layup Shot,2pt missed,rebound,0,High
+21600132,499,rebound,4,PT03M36.00S,03:36,Q4 03:36,0,0,1610612737.0,Muscala,Muscala REBOUND (Off:2 Def:4),2pt missed,rebound,0,High
+21600132,500,rebound,4,PT03M35.00S,03:35,Q4 03:35,0,0,1610612755.0,Stauskas,Stauskas REBOUND (Off:2 Def:2),rebound,turnover,0,High
+21600132,501,turnover,4,PT03M26.00S,03:26,Q4 03:26,0,0,1610612755.0,Covington,Covington Bad Pass Turnover (P3.T19),rebound,steal,0,High
+21600132,501,steal,4,PT03M26.00S,03:26,Q4 03:26,0,0,1610612737.0,Bazemore,Bazemore STEAL (3 STL),turnover,3pt made,0,High
+21600132,502,3pt,4,PT03M17.00S,03:17,Q4 03:17,108,89,1610612737.0,Schroder,Schroder  3PT Jump Shot (16 PTS) (Hardaway Jr. 1 AST),steal,timeout,19,Low
+21600132,503,timeout,4,PT03M16.00S,03:16,Q4 03:16,0,0,1610612755.0,,76ers Timeout: Regular (Reg.5 Short 2),3pt made,substitution,0,High
+21600132,505,substitution,4,PT03M16.00S,03:16,Q4 03:16,0,0,1610612755.0,Covington,SUB out: R. Covington,timeout,substitution,0,High
+21600132,506,substitution,4,PT03M16.00S,03:16,Q4 03:16,0,0,1610612755.0,Saric,SUB out: D. Saric,substitution,substitution,0,High
+21600132,507,substitution,4,PT03M16.00S,03:16,Q4 03:16,0,0,1610612755.0,Rodriguez,SUB out: S. Rodriguez,substitution,substitution,0,High
+21600132,508,substitution,4,PT03M16.00S,03:16,Q4 03:16,0,0,1610612755.0,Stauskas,SUB out: N. Stauskas,substitution,substitution,0,High
+21600132,509,substitution,4,PT03M16.00S,03:16,Q4 03:16,0,0,1610612737.0,Bazemore,SUB out: K. Bazemore,substitution,substitution,0,High
+21600132,510,substitution,4,PT03M16.00S,03:16,Q4 03:16,0,0,1610612737.0,Howard,SUB out: D. Howard,substitution,substitution,0,High
+21600132,511,substitution,4,PT03M16.00S,03:16,Q4 03:16,0,0,1610612737.0,Schroder,SUB out: D. Schroder,substitution,substitution,0,High
+21600132,512,substitution,4,PT03M16.00S,03:16,Q4 03:16,0,0,1610612737.0,Muscala,SUB out: M. Muscala,substitution,substitution,0,High
+21600132,513,substitution,4,PT03M16.00S,03:16,Q4 03:16,0,0,1610612755.0,McConnell,SUB in: T. McConnell,substitution,substitution,0,High
+21600132,514,substitution,4,PT03M16.00S,03:16,Q4 03:16,0,0,1610612755.0,Luwawu-Cabarrot,SUB in: T. Luwawu-Cabarrot,substitution,substitution,0,High
+21600132,515,substitution,4,PT03M16.00S,03:16,Q4 03:16,0,0,1610612755.0,Holmes,SUB in: R. Holmes,substitution,substitution,0,High
+21600132,516,substitution,4,PT03M16.00S,03:16,Q4 03:16,0,0,1610612755.0,Thompson,SUB in: H. Thompson,substitution,substitution,0,High
+21600132,517,substitution,4,PT03M16.00S,03:16,Q4 03:16,0,0,1610612737.0,Prince,SUB in: T. Prince,substitution,substitution,0,High
+21600132,518,substitution,4,PT03M16.00S,03:16,Q4 03:16,0,0,1610612737.0,Kelly,SUB in: R. Kelly,substitution,substitution,0,High
+21600132,519,substitution,4,PT03M16.00S,03:16,Q4 03:16,0,0,1610612737.0,Humphries,SUB in: K. Humphries,substitution,substitution,0,High
+21600132,520,substitution,4,PT03M16.00S,03:16,Q4 03:16,0,0,1610612737.0,Bembry,SUB in: D. Bembry,substitution,foul,0,High
+21600132,513,foul,4,PT03M05.00S,03:05,Q4 03:05,0,0,1610612737.0,Humphries,Humphries S.FOUL (P3.T3) (G.Petraitis),substitution,freethrow,0,High
+21600132,514,freethrow,4,PT03M05.00S,03:05,Q4 03:05,108,90,1610612755.0,Thompson,Thompson Free Throw 1 of 2 (1 PTS),foul,freethrow,18,Low
+21600132,516,freethrow,4,PT03M05.00S,03:05,Q4 03:05,108,91,1610612755.0,Thompson,Thompson Free Throw 2 of 2 (2 PTS),freethrow,2pt missed,17,Low
+21600132,520,2pt,4,PT02M43.00S,02:43,Q4 02:43,0,0,1610612737.0,Kelly,MISS Kelly  Cutting Layup Shot,freethrow,2pt made,0,High
+21600132,521,2pt,4,PT02M41.00S,02:41,Q4 02:41,110,91,1610612737.0,Humphries,Humphries  Tip Dunk Shot (11 PTS),2pt missed,rebound,19,Low
+21600132,522,rebound,4,PT02M41.00S,02:41,Q4 02:41,0,0,1610612737.0,Humphries,Humphries REBOUND (Off:4 Def:4),2pt made,2pt made,0,High
+21600132,523,2pt,4,PT02M29.00S,02:29,Q4 02:29,110,93,1610612755.0,Luwawu-Cabarrot,Luwawu-Cabarrot 2' Driving Layup (2 PTS) (McConnell 5 AST),rebound,foul,17,Low
+21600132,524,foul,4,PT02M16.00S,02:16,Q4 02:16,0,0,1610612755.0,Thompson,Thompson S.FOUL (P3.PN) (M.Lindsay),2pt made,freethrow,0,High
+21600132,525,freethrow,4,PT02M16.00S,02:16,Q4 02:16,111,93,1610612737.0,Humphries,Humphries Free Throw 1 of 2 (12 PTS),foul,freethrow,18,Low
+21600132,527,freethrow,4,PT02M16.00S,02:16,Q4 02:16,112,93,1610612737.0,Humphries,Humphries Free Throw 2 of 2 (13 PTS),freethrow,3pt missed,19,Low
+21600132,529,3pt,4,PT01M56.00S,01:56,Q4 01:56,0,0,1610612755.0,Holmes,MISS Holmes 25' 3PT Pullup Jump Shot,freethrow,rebound,0,Very High
+21600132,530,rebound,4,PT01M53.00S,01:53,Q4 01:53,0,0,1610612755.0,Thompson,Thompson REBOUND (Off:1 Def:2),3pt missed,2pt missed,0,Very High
+21600132,531,2pt,4,PT01M50.00S,01:50,Q4 01:50,0,0,1610612755.0,Thompson,MISS Thompson 11' Jump Shot,rebound,rebound,0,Very High
+21600132,532,rebound,4,PT01M49.00S,01:49,Q4 01:49,0,0,1610612755.0,Holmes,Holmes REBOUND (Off:2 Def:1),2pt missed,foul,0,Very High
+21600132,533,foul,4,PT01M49.00S,01:49,Q4 01:49,0,0,1610612737.0,Prince,Prince S.FOUL (P1.T4) (M.Lindsay),rebound,freethrow,0,Very High
+21600132,534,freethrow,4,PT01M49.00S,01:49,Q4 01:49,0,0,1610612755.0,Holmes,MISS Holmes Free Throw 1 of 2,foul,rebound,0,Very High
+21600132,535,rebound,4,PT01M49.00S,01:49,Q4 01:49,0,0,1610612755.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Very High
+21600132,536,freethrow,4,PT01M49.00S,01:49,Q4 01:49,112,94,1610612755.0,Holmes,Holmes Free Throw 2 of 2 (7 PTS),rebound,foul,18,Low
+21600132,538,foul,4,PT01M48.00S,01:48,Q4 01:48,0,0,1610612755.0,McConnell,McConnell P.FOUL (P2.PN) (E.Malloy),freethrow,2pt missed,0,Very High
+21600132,539,2pt,4,PT01M38.00S,01:38,Q4 01:38,0,0,1610612737.0,Bembry,MISS Bembry 12' Driving Floating Jump Shot,foul,rebound,0,Very High
+21600132,540,rebound,4,PT01M37.00S,01:37,Q4 01:37,0,0,1610612737.0,Bembry,Bembry REBOUND (Off:1 Def:0),2pt missed,2pt missed,0,Very High
+21600132,541,2pt,4,PT01M35.00S,01:35,Q4 01:35,0,0,1610612737.0,Bembry,MISS Bembry  Putback Layup,rebound,rebound,0,Very High
+21600132,542,rebound,4,PT01M34.00S,01:34,Q4 01:34,0,0,1610612755.0,Holmes,Holmes REBOUND (Off:2 Def:2),2pt missed,2pt made,0,Very High
+21600132,543,2pt,4,PT01M28.00S,01:28,Q4 01:28,112,96,1610612755.0,Thompson,Thompson  Driving Layup (4 PTS) (McConnell 6 AST),rebound,3pt made,16,Low
+21600132,544,3pt,4,PT01M11.00S,01:11,Q4 01:11,115,96,1610612737.0,Hardaway Jr.,Hardaway Jr. 26' 3PT Pullup Jump Shot (20 PTS) (Kelly 1 AST),2pt made,3pt missed,19,Low
+21600132,546,3pt,4,PT00M57.30S,00:57,Q4 00:57,0,0,1610612755.0,Ilyasova,MISS Ilyasova 25' 3PT Pullup Jump Shot,3pt made,rebound,0,Very High
+21600132,547,rebound,4,PT00M54.60S,00:54,Q4 00:54,0,0,1610612737.0,Prince,Prince REBOUND (Off:0 Def:1),3pt missed,2pt made,0,Very High
+21600132,548,2pt,4,PT00M42.70S,00:42,Q4 00:42,117,96,1610612737.0,Prince,Prince 1' Driving Layup (2 PTS),rebound,3pt missed,21,Low
+21600132,549,3pt,4,PT00M29.70S,00:29,Q4 00:29,0,0,1610612755.0,Thompson,MISS Thompson 24' 3PT Jump Shot,2pt made,rebound,0,Very High
+21600132,550,rebound,4,PT00M28.10S,00:28,Q4 00:28,0,0,1610612737.0,Humphries,Humphries REBOUND (Off:4 Def:5),3pt missed,2pt missed,0,Very High
+21600132,551,2pt,4,PT00M05.60S,00:05,Q4 00:05,0,0,1610612737.0,Prince,MISS Prince 10' Turnaround Jump Shot,rebound,rebound,0,Very High
+21600132,552,rebound,4,PT00M03.90S,00:03,Q4 00:03,0,0,1610612755.0,Holmes,Holmes REBOUND (Off:2 Def:3),2pt missed,instant replay,0,Very High
+21600132,555,period,4,PT00M00.00S,00:00,Q4 00:00,117,96,1610612737.0,,End of 4th Period (9:49 PM EST),instant replay,,21,Low

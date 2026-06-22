@@ -1,0 +1,523 @@
+game_id,actionNumber,actionType,period,clock,clock_display,game_clock,scoreHome,scoreAway,teamId,playerName,description,previous_action,next_action,score_margin,leverage_bucket
+22500258,7,turnover,1,PT11M39.00S,11:39,Q1 11:39,0,0,1610612755.0,Edwards,J. Edwards lost ball TURNOVER (1 TO),,steal,0,Low
+22500258,8,steal,1,PT11M39.00S,11:39,Q1 11:39,0,0,1610612761.0,Poeltl,J. Poeltl STEAL (1 STL),turnover,2pt missed,0,Low
+22500258,9,2pt,1,PT11M34.00S,11:34,Q1 11:34,0,0,1610612761.0,Barrett,MISS R. Barrett running Layup - blocked,steal,block,0,Low
+22500258,10,block,1,PT11M34.00S,11:34,Q1 11:34,0,0,1610612755.0,Barlow,D. Barlow BLOCK (1 BLK),2pt missed,rebound,0,Low
+22500258,11,rebound,1,PT11M34.00S,11:34,Q1 11:34,0,0,1610612761.0,,TEAM offensive REBOUND,block,2pt made,0,Low
+22500258,13,2pt,1,PT11M29.00S,11:29,Q1 11:29,0,2,1610612761.0,Poeltl,J. Poeltl driving Hook (2 PTS) (S. Barnes 1 AST),rebound,2pt made,2,Low
+22500258,15,2pt,1,PT11M08.00S,11:08,Q1 11:08,2,2,1610612755.0,Edwards,J. Edwards 9' pullup Jump Shot (2 PTS) (D. Barlow 1 AST),2pt made,foul,0,Low
+22500258,17,foul,1,PT10M43.00S,10:43,Q1 10:43,2,2,1610612755.0,Edwards,J. Edwards shooting personal FOUL (1 PF) (Ingram 2 FT),2pt made,freethrow,0,Low
+22500258,19,freethrow,1,PT10M43.00S,10:43,Q1 10:43,2,3,1610612761.0,Ingram,B. Ingram Free Throw 1 of 2 (1 PTS),foul,freethrow,1,Low
+22500258,20,freethrow,1,PT10M43.00S,10:43,Q1 10:43,2,4,1610612761.0,Ingram,B. Ingram Free Throw 2 of 2 (2 PTS),freethrow,turnover,2,Low
+22500258,21,turnover,1,PT10M21.00S,10:21,Q1 10:21,2,4,1610612755.0,Barlow,D. Barlow backcourt TURNOVER (1 TO),freethrow,2pt missed,2,Low
+22500258,22,2pt,1,PT10M14.00S,10:14,Q1 10:14,2,4,1610612761.0,Ingram,MISS B. Ingram 16' fadeaway Shot,turnover,rebound,2,Low
+22500258,23,rebound,1,PT10M09.00S,10:09,Q1 10:09,2,4,1610612755.0,Drummond,A. Drummond REBOUND (Off:0 Def:1),2pt missed,3pt made,2,Low
+22500258,24,3pt,1,PT10M04.00S,10:04,Q1 10:04,5,4,1610612755.0,Maxey,T. Maxey 24' 3PT step back (3 PTS),rebound,2pt made,1,Low
+22500258,25,2pt,1,PT09M55.00S,09:55,Q1 09:55,5,6,1610612761.0,Barnes,S. Barnes 14' step back Jump Shot (2 PTS),3pt made,3pt missed,1,Low
+22500258,26,3pt,1,PT09M41.00S,09:41,Q1 09:41,5,6,1610612755.0,Edwards,MISS J. Edwards 26' 3PT,2pt made,rebound,1,Low
+22500258,27,rebound,1,PT09M39.00S,09:39,Q1 09:39,5,6,1610612761.0,Quickley,I. Quickley REBOUND (Off:0 Def:1),3pt missed,2pt made,1,Low
+22500258,28,2pt,1,PT09M35.00S,09:35,Q1 09:35,5,8,1610612761.0,Poeltl,J. Poeltl running Layup (4 PTS) (R. Barrett 1 AST),rebound,2pt made,3,Low
+22500258,30,2pt,1,PT09M16.00S,09:16,Q1 09:16,7,8,1610612755.0,Maxey,T. Maxey driving finger roll Layup (5 PTS),2pt made,foul,1,Low
+22500258,31,foul,1,PT09M03.00S,09:03,Q1 09:03,7,8,1610612755.0,Edgecombe,V. Edgecombe shooting personal FOUL (1 PF) (Barrett 2 FT),2pt made,freethrow,1,Low
+22500258,33,freethrow,1,PT09M03.00S,09:03,Q1 09:03,7,9,1610612761.0,Barrett,R. Barrett Free Throw 1 of 2 (1 PTS),foul,freethrow,2,Low
+22500258,34,freethrow,1,PT09M03.00S,09:03,Q1 09:03,7,10,1610612761.0,Barrett,R. Barrett Free Throw 2 of 2 (2 PTS),freethrow,3pt made,3,Low
+22500258,35,3pt,1,PT08M45.00S,08:45,Q1 08:45,10,10,1610612755.0,Maxey,T. Maxey 27' 3PT  (8 PTS) (V. Edgecombe 1 AST),freethrow,3pt made,0,Low
+22500258,37,3pt,1,PT08M27.00S,08:27,Q1 08:27,10,13,1610612761.0,Ingram,B. Ingram 3PT  (5 PTS) (S. Barnes 2 AST),3pt made,2pt missed,3,Low
+22500258,39,2pt,1,PT08M09.00S,08:09,Q1 08:09,10,13,1610612755.0,Edgecombe,MISS V. Edgecombe 9' driving floating Shot,3pt made,rebound,3,Low
+22500258,40,rebound,1,PT08M08.00S,08:08,Q1 08:08,10,13,1610612755.0,Drummond,A. Drummond REBOUND (Off:1 Def:1),2pt missed,2pt missed,3,Low
+22500258,86,2pt,1,PT08M07.00S,08:07,Q1 08:07,10,13,1610612755.0,Drummond,MISS A. Drummond tip Layup,rebound,rebound,3,Low
+22500258,87,rebound,1,PT08M07.00S,08:07,Q1 08:07,10,13,1610612755.0,Edgecombe,V. Edgecombe REBOUND (Off:1 Def:0),2pt missed,2pt missed,3,Low
+22500258,41,2pt,1,PT08M04.00S,08:04,Q1 08:04,10,13,1610612755.0,Edgecombe,MISS V. Edgecombe tip Layup,rebound,rebound,3,Low
+22500258,42,rebound,1,PT08M03.00S,08:03,Q1 08:03,10,13,1610612755.0,Drummond,A. Drummond REBOUND (Off:2 Def:1),2pt missed,2pt missed,3,Low
+22500258,43,2pt,1,PT08M03.00S,08:03,Q1 08:03,10,13,1610612755.0,Drummond,MISS A. Drummond tip Layup,rebound,rebound,3,Low
+22500258,44,rebound,1,PT08M03.00S,08:03,Q1 08:03,10,13,1610612755.0,Drummond,A. Drummond REBOUND (Off:3 Def:1),2pt missed,2pt made,3,Low
+22500258,45,2pt,1,PT08M00.00S,08:00,Q1 08:00,12,13,1610612755.0,Drummond,A. Drummond tip Layup (2 PTS),rebound,2pt made,1,Low
+22500258,46,2pt,1,PT07M50.00S,07:50,Q1 07:50,12,15,1610612761.0,Poeltl,J. Poeltl reverse Layup (6 PTS) (S. Barnes 3 AST),2pt made,foul,3,Low
+22500258,48,foul,1,PT07M34.00S,07:34,Q1 07:34,12,15,1610612761.0,Barrett,R. Barrett shooting personal FOUL (1 PF) (Edgecombe 3 FT),2pt made,freethrow,3,Low
+22500258,50,freethrow,1,PT07M34.00S,07:34,Q1 07:34,13,15,1610612755.0,Edgecombe,V. Edgecombe Free Throw 1 of 3 (1 PTS),foul,freethrow,2,Low
+22500258,51,freethrow,1,PT07M34.00S,07:34,Q1 07:34,14,15,1610612755.0,Edgecombe,V. Edgecombe Free Throw 2 of 3 (2 PTS),freethrow,freethrow,1,Low
+22500258,52,freethrow,1,PT07M34.00S,07:34,Q1 07:34,15,15,1610612755.0,Edgecombe,V. Edgecombe Free Throw 3 of 3 (3 PTS),freethrow,2pt missed,0,Low
+22500258,53,2pt,1,PT07M19.00S,07:19,Q1 07:19,15,15,1610612761.0,Quickley,MISS I. Quickley 10' driving floating Shot - blocked,freethrow,block,0,Low
+22500258,54,block,1,PT07M19.00S,07:19,Q1 07:19,15,15,1610612755.0,Maxey,T. Maxey BLOCK (1 BLK),2pt missed,rebound,0,Low
+22500258,55,rebound,1,PT07M17.00S,07:17,Q1 07:17,15,15,1610612755.0,Barlow,D. Barlow REBOUND (Off:0 Def:1),block,foul,0,Low
+22500258,56,foul,1,PT07M17.00S,07:17,Q1 07:17,15,15,1610612761.0,Ingram,B. Ingram personal FOUL (1 PF),rebound,3pt missed,0,Low
+22500258,58,3pt,1,PT07M04.00S,07:04,Q1 07:04,15,15,1610612755.0,Maxey,MISS T. Maxey 26' pullup 3PT,foul,rebound,0,Low
+22500258,59,rebound,1,PT07M01.00S,07:01,Q1 07:01,15,15,1610612761.0,,TEAM defensive REBOUND,3pt missed,2pt made,0,Low
+22500258,61,2pt,1,PT06M52.00S,06:52,Q1 06:52,15,17,1610612761.0,Barnes,S. Barnes 13' turnaround Jump Shot (4 PTS),rebound,foul,2,Low
+22500258,62,foul,1,PT06M34.00S,06:34,Q1 06:34,15,17,1610612755.0,Barlow,D. Barlow offensive FOUL (1 PF),2pt made,turnover,2,Low
+22500258,64,turnover,1,PT06M34.00S,06:34,Q1 06:34,15,17,1610612755.0,Barlow,D. Barlow offensive foul TURNOVER (2 TO),foul,timeout,2,Low
+22500258,65,timeout,1,PT06M34.00S,06:34,Q1 06:34,15,17,1610612755.0,,PHI Timeout,turnover,substitution,2,Low
+22500258,66,substitution,1,PT06M34.00S,06:34,Q1 06:34,15,17,1610612755.0,Barlow,SUB out: D. Barlow,timeout,substitution,2,Low
+22500258,67,substitution,1,PT06M34.00S,06:34,Q1 06:34,15,17,1610612755.0,Edgecombe,SUB out: V. Edgecombe,substitution,substitution,2,Low
+22500258,68,substitution,1,PT06M34.00S,06:34,Q1 06:34,15,17,1610612761.0,Barnes,SUB out: S. Barnes,substitution,substitution,2,Low
+22500258,69,substitution,1,PT06M34.00S,06:34,Q1 06:34,15,17,1610612755.0,Grimes,SUB in: Q. Grimes,substitution,substitution,2,Low
+22500258,70,substitution,1,PT06M34.00S,06:34,Q1 06:34,15,17,1610612755.0,Watford,SUB in: T. Watford,substitution,substitution,2,Low
+22500258,71,substitution,1,PT06M34.00S,06:34,Q1 06:34,15,17,1610612761.0,Walter,SUB in: J. Walter,substitution,turnover,2,Low
+22500258,72,turnover,1,PT06M23.00S,06:23,Q1 06:23,15,17,1610612761.0,Ingram,B. Ingram traveling TURNOVER (1 TO),substitution,2pt missed,2,Low
+22500258,73,2pt,1,PT06M09.00S,06:09,Q1 06:09,15,17,1610612755.0,Drummond,MISS A. Drummond turnaround Hook,turnover,rebound,2,Low
+22500258,74,rebound,1,PT06M06.00S,06:06,Q1 06:06,15,17,1610612761.0,Barrett,R. Barrett REBOUND (Off:0 Def:1),2pt missed,2pt made,2,Low
+22500258,75,2pt,1,PT06M04.00S,06:04,Q1 06:04,15,19,1610612761.0,Quickley,I. Quickley running finger roll Layup (2 PTS) (R. Barrett 2 AST),rebound,2pt missed,4,Low
+22500258,77,2pt,1,PT05M40.00S,05:40,Q1 05:40,15,19,1610612755.0,Maxey,MISS T. Maxey 7' driving floating Shot,2pt made,rebound,4,Low
+22500258,78,rebound,1,PT05M39.00S,05:39,Q1 05:39,15,19,1610612755.0,Maxey,T. Maxey REBOUND (Off:1 Def:0),2pt missed,turnover,4,Low
+22500258,80,turnover,1,PT05M39.00S,05:39,Q1 05:39,15,19,1610612755.0,Drummond,A. Drummond offensive goaltending TURNOVER (1 TO),rebound,substitution,4,Low
+22500258,81,substitution,1,PT05M39.00S,05:39,Q1 05:39,15,19,1610612761.0,Quickley,SUB out: I. Quickley,turnover,substitution,4,Low
+22500258,82,substitution,1,PT05M39.00S,05:39,Q1 05:39,15,19,1610612761.0,Shead,SUB in: J. Shead,substitution,2pt made,4,Low
+22500258,83,2pt,1,PT05M21.00S,05:21,Q1 05:21,15,21,1610612761.0,Ingram,B. Ingram driving Layup (7 PTS) (R. Barrett 3 AST),substitution,2pt made,6,Low
+22500258,85,2pt,1,PT05M06.00S,05:06,Q1 05:06,17,21,1610612755.0,Watford,T. Watford driving floating Jump Shot (2 PTS),2pt made,2pt missed,4,Low
+22500258,88,2pt,1,PT04M50.00S,04:50,Q1 04:50,17,21,1610612761.0,Ingram,MISS B. Ingram 16' pullup Shot,2pt made,rebound,4,Low
+22500258,89,rebound,1,PT04M47.00S,04:47,Q1 04:47,17,21,1610612755.0,Grimes,Q. Grimes REBOUND (Off:0 Def:1),2pt missed,3pt made,4,Low
+22500258,90,3pt,1,PT04M40.00S,04:40,Q1 04:40,20,21,1610612755.0,Watford,T. Watford 26' 3PT  (5 PTS) (T. Maxey 1 AST),rebound,2pt missed,1,Low
+22500258,92,2pt,1,PT04M22.00S,04:22,Q1 04:22,20,21,1610612761.0,Poeltl,MISS J. Poeltl driving Layup,3pt made,rebound,1,Low
+22500258,93,rebound,1,PT04M21.00S,04:21,Q1 04:21,20,21,1610612755.0,Drummond,A. Drummond REBOUND (Off:3 Def:2),2pt missed,3pt made,1,Low
+22500258,94,3pt,1,PT04M16.00S,04:16,Q1 04:16,23,21,1610612755.0,Maxey,T. Maxey 25' 3PT running (11 PTS) (T. Watford 1 AST),rebound,3pt missed,2,Low
+22500258,96,3pt,1,PT03M55.00S,03:55,Q1 03:55,23,21,1610612761.0,Shead,MISS J. Shead 25' 3PT,3pt made,rebound,2,Low
+22500258,97,rebound,1,PT03M55.00S,03:55,Q1 03:55,23,21,1610612755.0,Drummond,A. Drummond REBOUND (Off:3 Def:3),3pt missed,3pt missed,2,Low
+22500258,98,3pt,1,PT03M43.00S,03:43,Q1 03:43,23,21,1610612755.0,Maxey,MISS T. Maxey 27' step back 3PT,rebound,rebound,2,Low
+22500258,99,rebound,1,PT03M40.00S,03:40,Q1 03:40,23,21,1610612755.0,Edwards,J. Edwards REBOUND (Off:1 Def:0),3pt missed,3pt missed,2,Low
+22500258,100,3pt,1,PT03M39.00S,03:39,Q1 03:39,23,21,1610612755.0,Watford,MISS T. Watford 25' 3PT,rebound,rebound,2,Low
+22500258,101,rebound,1,PT03M39.00S,03:39,Q1 03:39,23,21,1610612755.0,Drummond,A. Drummond REBOUND (Off:4 Def:3),3pt missed,turnover,2,Low
+22500258,102,turnover,1,PT03M34.00S,03:34,Q1 03:34,23,21,1610612755.0,Drummond,A. Drummond bad pass TURNOVER (2 TO),rebound,steal,2,Low
+22500258,103,steal,1,PT03M34.00S,03:34,Q1 03:34,23,21,1610612761.0,Walter,J. Walter STEAL (1 STL),turnover,foul,2,Low
+22500258,104,foul,1,PT03M34.00S,03:34,Q1 03:34,23,21,1610612755.0,Watford,T. Watford personal FOUL (1 PF),steal,substitution,2,Low
+22500258,106,substitution,1,PT03M34.00S,03:34,Q1 03:34,23,21,1610612755.0,Drummond,SUB out: A. Drummond,foul,substitution,2,Low
+22500258,107,substitution,1,PT03M34.00S,03:34,Q1 03:34,23,21,1610612755.0,Edwards,SUB out: J. Edwards,substitution,substitution,2,Low
+22500258,108,substitution,1,PT03M34.00S,03:34,Q1 03:34,23,21,1610612761.0,Barrett,SUB out: R. Barrett,substitution,substitution,2,Low
+22500258,109,substitution,1,PT03M34.00S,03:34,Q1 03:34,23,21,1610612761.0,Poeltl,SUB out: J. Poeltl,substitution,substitution,2,Low
+22500258,110,substitution,1,PT03M34.00S,03:34,Q1 03:34,23,21,1610612755.0,Walker,SUB in: J. Walker,substitution,substitution,2,Low
+22500258,111,substitution,1,PT03M34.00S,03:34,Q1 03:34,23,21,1610612755.0,Edgecombe,SUB in: V. Edgecombe,substitution,substitution,2,Low
+22500258,112,substitution,1,PT03M34.00S,03:34,Q1 03:34,23,21,1610612761.0,Mamukelashvili,SUB in: S. Mamukelashvili,substitution,substitution,2,Low
+22500258,113,substitution,1,PT03M34.00S,03:34,Q1 03:34,23,21,1610612761.0,Dick,SUB in: G. Dick,substitution,3pt made,2,Low
+22500258,114,3pt,1,PT03M20.00S,03:20,Q1 03:20,23,24,1610612761.0,Walter,J. Walter 24' 3PT  (3 PTS) (B. Ingram 1 AST),substitution,foul,1,Low
+22500258,116,foul,1,PT03M02.00S,03:02,Q1 03:02,23,24,1610612761.0,Shead,J. Shead shooting personal FOUL (1 PF) (Maxey 2 FT),3pt made,freethrow,1,Low
+22500258,118,freethrow,1,PT03M02.00S,03:02,Q1 03:02,24,24,1610612755.0,Maxey,T. Maxey Free Throw 1 of 2 (12 PTS),foul,timeout,0,Low
+22500258,121,timeout,1,PT03M02.00S,03:02,Q1 03:02,24,24,1610612761.0,,TOR Timeout,freethrow,freethrow,0,Low
+22500258,122,freethrow,1,PT03M02.00S,03:02,Q1 03:02,24,24,1610612755.0,Maxey,MISS T. Maxey Free Throw 2 of 2,timeout,substitution,0,Low
+22500258,119,substitution,1,PT03M02.00S,03:02,Q1 03:02,24,24,1610612761.0,Ingram,SUB out: B. Ingram,freethrow,substitution,0,Low
+22500258,120,substitution,1,PT03M02.00S,03:02,Q1 03:02,24,24,1610612761.0,Barnes,SUB in: S. Barnes,substitution,rebound,0,Low
+22500258,123,rebound,1,PT02M59.00S,02:59,Q1 02:59,24,24,1610612761.0,Walter,J. Walter REBOUND (Off:0 Def:1),substitution,3pt missed,0,Low
+22500258,124,3pt,1,PT02M44.00S,02:44,Q1 02:44,24,24,1610612761.0,Dick,MISS G. Dick 3PT,rebound,rebound,0,Low
+22500258,125,rebound,1,PT02M40.00S,02:40,Q1 02:40,24,24,1610612755.0,Maxey,T. Maxey REBOUND (Off:1 Def:1),3pt missed,turnover,0,Low
+22500258,126,turnover,1,PT02M31.00S,02:31,Q1 02:31,24,24,1610612755.0,Maxey,T. Maxey bad pass TURNOVER (1 TO),rebound,steal,0,Low
+22500258,127,steal,1,PT02M31.00S,02:31,Q1 02:31,24,24,1610612761.0,Dick,G. Dick STEAL (1 STL),turnover,2pt made,0,Low
+22500258,128,2pt,1,PT02M28.00S,02:28,Q1 02:28,24,26,1610612761.0,Dick,G. Dick running DUNK (2 PTS),steal,substitution,2,Low
+22500258,130,substitution,1,PT02M12.00S,02:12,Q1 02:12,24,26,1610612755.0,Maxey,SUB out: T. Maxey,2pt made,substitution,2,Low
+22500258,131,substitution,1,PT02M12.00S,02:12,Q1 02:12,24,26,1610612755.0,McCain,SUB in: J. McCain,substitution,3pt missed,2,Low
+22500258,132,3pt,1,PT02M09.00S,02:09,Q1 02:09,24,26,1610612755.0,Grimes,MISS Q. Grimes 3PT,substitution,rebound,2,Low
+22500258,133,rebound,1,PT02M03.00S,02:03,Q1 02:03,24,26,1610612755.0,Walker,J. Walker REBOUND (Off:1 Def:0),3pt missed,2pt made,2,Low
+22500258,134,2pt,1,PT02M03.00S,02:03,Q1 02:03,26,26,1610612755.0,Walker,J. Walker putback Layup (2 PTS),rebound,2pt made,0,Low
+22500258,135,2pt,1,PT02M00.00S,02:00,Q1 02:00,26,28,1610612761.0,Mamukelashvili,S. Mamukelashvili driving finger roll Layup (2 PTS) (J. Shead 1 AST),2pt made,2pt missed,2,Low
+22500258,137,2pt,1,PT01M46.00S,01:46,Q1 01:46,26,28,1610612755.0,Grimes,MISS Q. Grimes 14' pullup Shot,2pt made,rebound,2,Low
+22500258,138,rebound,1,PT01M43.00S,01:43,Q1 01:43,26,28,1610612761.0,Barnes,S. Barnes REBOUND (Off:0 Def:1),2pt missed,3pt missed,2,Low
+22500258,139,3pt,1,PT01M37.00S,01:37,Q1 01:37,26,28,1610612761.0,Walter,MISS J. Walter 27' 3PT,rebound,rebound,2,Low
+22500258,140,rebound,1,PT01M34.00S,01:34,Q1 01:34,26,28,1610612755.0,Walker,J. Walker REBOUND (Off:1 Def:1),3pt missed,turnover,2,Low
+22500258,141,turnover,1,PT01M22.00S,01:22,Q1 01:22,26,28,1610612755.0,Watford,T. Watford lost ball TURNOVER (1 TO),rebound,steal,2,Low
+22500258,142,steal,1,PT01M22.00S,01:22,Q1 01:22,26,28,1610612761.0,Walter,J. Walter STEAL (2 STL),turnover,2pt missed,2,Low
+22500258,143,2pt,1,PT01M17.00S,01:17,Q1 01:17,26,28,1610612761.0,Barnes,MISS S. Barnes running Layup - blocked,steal,block,2,Low
+22500258,144,block,1,PT01M17.00S,01:17,Q1 01:17,26,28,1610612755.0,Edgecombe,V. Edgecombe BLOCK (1 BLK),2pt missed,rebound,2,Low
+22500258,145,rebound,1,PT01M17.00S,01:17,Q1 01:17,26,28,1610612761.0,Mamukelashvili,S. Mamukelashvili REBOUND (Off:1 Def:0),block,foul,2,Low
+22500258,146,foul,1,PT01M17.00S,01:17,Q1 01:17,26,28,1610612755.0,McCain,J. McCain shooting personal FOUL (1 PF) (Mamukelashvili 2 FT),rebound,freethrow,2,Low
+22500258,148,freethrow,1,PT01M17.00S,01:17,Q1 01:17,26,29,1610612761.0,Mamukelashvili,S. Mamukelashvili Free Throw 1 of 2 (3 PTS),foul,freethrow,3,Low
+22500258,151,freethrow,1,PT01M17.00S,01:17,Q1 01:17,26,29,1610612761.0,Mamukelashvili,MISS S. Mamukelashvili Free Throw 2 of 2,freethrow,substitution,3,Low
+22500258,149,substitution,1,PT01M17.00S,01:17,Q1 01:17,26,29,1610612761.0,Shead,SUB out: J. Shead,freethrow,substitution,3,Low
+22500258,150,substitution,1,PT01M17.00S,01:17,Q1 01:17,26,29,1610612761.0,Quickley,SUB in: I. Quickley,substitution,rebound,3,Low
+22500258,152,rebound,1,PT01M14.00S,01:14,Q1 01:14,26,29,1610612755.0,Watford,T. Watford REBOUND (Off:0 Def:1),substitution,2pt made,3,Low
+22500258,153,2pt,1,PT01M02.00S,01:02,Q1 01:02,28,29,1610612755.0,McCain,J. McCain 11' step back Jump Shot (2 PTS),rebound,2pt made,1,Low
+22500258,154,2pt,1,PT00M49.80S,00:49,Q1 00:49,28,31,1610612761.0,Barnes,S. Barnes 6' driving floating Jump Shot (6 PTS),2pt made,foul,3,Low
+22500258,155,foul,1,PT00M41.90S,00:41,Q1 00:41,28,31,1610612755.0,Edgecombe,V. Edgecombe charge offensive FOUL (2 PF),2pt made,turnover,3,Low
+22500258,157,turnover,1,PT00M41.90S,00:41,Q1 00:41,28,31,1610612755.0,Edgecombe,V. Edgecombe offensive foul TURNOVER (1 TO),foul,2pt made,3,Low
+22500258,158,2pt,1,PT00M28.40S,00:28,Q1 00:28,28,33,1610612761.0,Walter,J. Walter 9' driving floating bank Jump Shot (5 PTS) (I. Quickley 1 AST),turnover,2pt missed,5,Low
+22500258,160,2pt,1,PT00M13.30S,00:13,Q1 00:13,28,33,1610612755.0,McCain,MISS J. McCain driving floating Shot - blocked,2pt made,block,5,Low
+22500258,161,block,1,PT00M13.30S,00:13,Q1 00:13,28,33,1610612761.0,Dick,G. Dick BLOCK (1 BLK),2pt missed,rebound,5,Low
+22500258,162,rebound,1,PT00M13.30S,00:13,Q1 00:13,28,33,1610612755.0,,TEAM offensive REBOUND,block,3pt missed,5,Low
+22500258,164,3pt,1,PT00M06.20S,00:06,Q1 00:06,28,33,1610612755.0,McCain,MISS J. McCain 27' 3PT,rebound,rebound,5,Low
+22500258,165,rebound,1,PT00M02.60S,00:02,Q1 00:02,28,33,1610612761.0,Barnes,S. Barnes REBOUND (Off:0 Def:2),3pt missed,3pt missed,5,Low
+22500258,166,3pt,1,PT00M00.20S,00:00,Q1 00:00,28,33,1610612761.0,Barnes,MISS S. Barnes 26' pullup 3PT,rebound,rebound,5,Low
+22500258,167,rebound,1,PT00M00.10S,00:00,Q1 00:00,28,33,1610612761.0,,TEAM offensive REBOUND,3pt missed,substitution,5,Low
+22500258,169,substitution,2,PT12M00.00S,12:00,Q2 12:00,28,33,1610612755.0,Watford,SUB out: T. Watford,rebound,substitution,5,Low
+22500258,170,substitution,2,PT12M00.00S,12:00,Q2 12:00,28,33,1610612761.0,Walter,SUB out: J. Walter,substitution,substitution,5,Low
+22500258,171,substitution,2,PT12M00.00S,12:00,Q2 12:00,28,33,1610612755.0,Barlow,SUB in: D. Barlow,substitution,substitution,5,Low
+22500258,172,substitution,2,PT12M00.00S,12:00,Q2 12:00,28,33,1610612761.0,Barrett,SUB in: R. Barrett,substitution,2pt made,5,Low
+22500258,174,2pt,2,PT11M53.00S,11:53,Q2 11:53,28,35,1610612761.0,Quickley,I. Quickley 12' driving floating Jump Shot (4 PTS),substitution,2pt missed,7,Low
+22500258,175,2pt,2,PT11M24.00S,11:24,Q2 11:24,28,35,1610612755.0,Barlow,MISS D. Barlow 12' pullup Shot,2pt made,rebound,7,Low
+22500258,176,rebound,2,PT11M21.00S,11:21,Q2 11:21,28,35,1610612761.0,Barnes,S. Barnes REBOUND (Off:0 Def:3),2pt missed,3pt missed,7,Low
+22500258,177,3pt,2,PT11M09.00S,11:09,Q2 11:09,28,35,1610612761.0,Mamukelashvili,MISS S. Mamukelashvili 27' 3PT,rebound,rebound,7,Low
+22500258,178,rebound,2,PT11M06.00S,11:06,Q2 11:06,28,35,1610612755.0,Walker,J. Walker REBOUND (Off:1 Def:2),3pt missed,3pt made,7,Low
+22500258,179,3pt,2,PT10M49.00S,10:49,Q2 10:49,31,35,1610612755.0,McCain,J. McCain 26' 3PT pullup (5 PTS) (D. Barlow 2 AST),rebound,3pt missed,4,Low
+22500258,181,3pt,2,PT10M27.00S,10:27,Q2 10:27,31,35,1610612761.0,Quickley,MISS I. Quickley 3PT,3pt made,rebound,4,Low
+22500258,182,rebound,2,PT10M27.00S,10:27,Q2 10:27,31,35,1610612755.0,,TEAM defensive REBOUND,3pt missed,foul,4,Low
+22500258,183,foul,2,PT10M27.00S,10:27,Q2 10:27,31,35,1610612761.0,Mamukelashvili,S. Mamukelashvili loose ball personal FOUL (1 PF),rebound,turnover,4,Low
+22500258,185,turnover,2,PT10M08.00S,10:08,Q2 10:08,31,35,1610612755.0,McCain,J. McCain lost ball TURNOVER (1 TO),foul,steal,4,Low
+22500258,186,steal,2,PT10M08.00S,10:08,Q2 10:08,31,35,1610612761.0,Dick,G. Dick STEAL (2 STL),turnover,2pt missed,4,Low
+22500258,187,2pt,2,PT10M03.00S,10:03,Q2 10:03,31,35,1610612761.0,Barrett,MISS R. Barrett running Layup,steal,rebound,4,Low
+22500258,188,rebound,2,PT10M01.00S,10:01,Q2 10:01,31,35,1610612755.0,McCain,J. McCain REBOUND (Off:0 Def:1),2pt missed,2pt missed,4,Low
+22500258,189,2pt,2,PT09M57.00S,09:57,Q2 09:57,31,35,1610612755.0,Edgecombe,MISS V. Edgecombe running Layup,rebound,rebound,4,Low
+22500258,190,rebound,2,PT09M56.00S,09:56,Q2 09:56,31,35,1610612755.0,Barlow,D. Barlow REBOUND (Off:1 Def:1),2pt missed,2pt missed,4,Low
+22500258,201,2pt,2,PT09M55.00S,09:55,Q2 09:55,31,35,1610612755.0,Barlow,MISS D. Barlow tip Layup,rebound,rebound,4,Low
+22500258,202,rebound,2,PT09M52.00S,09:52,Q2 09:52,31,35,1610612755.0,Barlow,D. Barlow REBOUND (Off:2 Def:1),2pt missed,2pt made,4,Low
+22500258,191,2pt,2,PT09M52.00S,09:52,Q2 09:52,33,35,1610612755.0,Barlow,D. Barlow tip Layup (2 PTS),rebound,3pt missed,2,Low
+22500258,192,3pt,2,PT09M39.00S,09:39,Q2 09:39,33,35,1610612761.0,Barrett,MISS R. Barrett 24' 3PT,2pt made,rebound,2,Low
+22500258,193,rebound,2,PT09M39.00S,09:39,Q2 09:39,33,35,1610612755.0,Edgecombe,V. Edgecombe REBOUND (Off:1 Def:1),3pt missed,3pt missed,2,Low
+22500258,194,3pt,2,PT09M27.00S,09:27,Q2 09:27,33,35,1610612755.0,Edgecombe,MISS V. Edgecombe 26' 3PT,rebound,rebound,2,Low
+22500258,195,rebound,2,PT09M24.00S,09:24,Q2 09:24,33,35,1610612761.0,Barnes,S. Barnes REBOUND (Off:0 Def:4),3pt missed,3pt missed,2,Low
+22500258,196,3pt,2,PT09M22.00S,09:22,Q2 09:22,33,35,1610612761.0,Dick,MISS G. Dick 26' running pullup 3PT,rebound,rebound,2,Low
+22500258,197,rebound,2,PT09M15.00S,09:15,Q2 09:15,33,35,1610612755.0,McCain,J. McCain REBOUND (Off:0 Def:2),3pt missed,3pt made,2,Low
+22500258,198,3pt,2,PT09M08.00S,09:08,Q2 09:08,36,35,1610612755.0,Walker,J. Walker 25' 3PT  (5 PTS) (V. Edgecombe 2 AST),rebound,timeout,1,Low
+22500258,200,timeout,2,PT09M07.00S,09:07,Q2 09:07,36,35,1610612761.0,,TOR Timeout,3pt made,substitution,1,Low
+22500258,203,substitution,2,PT09M07.00S,09:07,Q2 09:07,36,35,1610612761.0,Dick,SUB out: G. Dick,timeout,substitution,1,Low
+22500258,204,substitution,2,PT09M07.00S,09:07,Q2 09:07,36,35,1610612761.0,Mamukelashvili,SUB out: S. Mamukelashvili,substitution,substitution,1,Low
+22500258,205,substitution,2,PT09M07.00S,09:07,Q2 09:07,36,35,1610612761.0,Battle,SUB in: J. Battle,substitution,substitution,1,Low
+22500258,206,substitution,2,PT09M07.00S,09:07,Q2 09:07,36,35,1610612761.0,Poeltl,SUB in: J. Poeltl,substitution,foul,1,Low
+22500258,207,foul,2,PT08M51.00S,08:51,Q2 08:51,36,35,1610612755.0,Grimes,Q. Grimes shooting personal FOUL (1 PF) (Barrett 2 FT),substitution,freethrow,1,Low
+22500258,209,freethrow,2,PT08M51.00S,08:51,Q2 08:51,36,36,1610612761.0,Barrett,R. Barrett Free Throw 1 of 2 (3 PTS),foul,freethrow,0,Low
+22500258,212,freethrow,2,PT08M51.00S,08:51,Q2 08:51,36,37,1610612761.0,Barrett,R. Barrett Free Throw 2 of 2 (4 PTS),freethrow,substitution,1,Low
+22500258,210,substitution,2,PT08M51.00S,08:51,Q2 08:51,36,36,1610612755.0,Walker,SUB out: J. Walker,freethrow,substitution,0,Low
+22500258,211,substitution,2,PT08M51.00S,08:51,Q2 08:51,36,36,1610612755.0,Drummond,SUB in: A. Drummond,substitution,foul,0,Low
+22500258,213,foul,2,PT08M41.00S,08:41,Q2 08:41,36,37,1610612761.0,Quickley,I. Quickley personal FOUL (1 PF),substitution,3pt missed,1,Low
+22500258,215,3pt,2,PT08M29.00S,08:29,Q2 08:29,36,37,1610612755.0,Barlow,MISS D. Barlow 3PT,foul,rebound,1,Low
+22500258,216,rebound,2,PT08M26.00S,08:26,Q2 08:26,36,37,1610612761.0,Quickley,I. Quickley REBOUND (Off:0 Def:2),3pt missed,2pt made,1,Low
+22500258,217,2pt,2,PT08M15.00S,08:15,Q2 08:15,36,39,1610612761.0,Barrett,R. Barrett driving Layup (6 PTS),rebound,3pt missed,3,Low
+22500258,218,3pt,2,PT07M59.00S,07:59,Q2 07:59,36,39,1610612755.0,Grimes,MISS Q. Grimes 27' 3PT,2pt made,rebound,3,Low
+22500258,219,rebound,2,PT07M57.00S,07:57,Q2 07:57,36,39,1610612761.0,Quickley,I. Quickley REBOUND (Off:0 Def:3),3pt missed,2pt made,3,Low
+22500258,220,2pt,2,PT07M44.00S,07:44,Q2 07:44,36,41,1610612761.0,Poeltl,J. Poeltl Layup (8 PTS) (I. Quickley 2 AST),rebound,2pt missed,5,Low
+22500258,222,2pt,2,PT07M35.00S,07:35,Q2 07:35,36,41,1610612755.0,Edgecombe,MISS V. Edgecombe driving finger roll Layup,2pt made,rebound,5,Low
+22500258,223,rebound,2,PT07M33.00S,07:33,Q2 07:33,36,41,1610612761.0,Poeltl,J. Poeltl REBOUND (Off:0 Def:1),2pt missed,3pt missed,5,Low
+22500258,224,3pt,2,PT07M26.00S,07:26,Q2 07:26,36,41,1610612761.0,Battle,MISS J. Battle 26' 3PT,rebound,rebound,5,Low
+22500258,225,rebound,2,PT07M23.00S,07:23,Q2 07:23,36,41,1610612761.0,Barnes,S. Barnes REBOUND (Off:1 Def:4),3pt missed,3pt missed,5,Low
+22500258,226,3pt,2,PT07M21.00S,07:21,Q2 07:21,36,41,1610612761.0,Battle,MISS J. Battle 25' 3PT,rebound,rebound,5,Low
+22500258,227,rebound,2,PT07M17.00S,07:17,Q2 07:17,36,41,1610612755.0,Grimes,Q. Grimes REBOUND (Off:0 Def:2),3pt missed,timeout,5,Low
+22500258,228,timeout,2,PT07M12.00S,07:12,Q2 07:12,36,41,1610612755.0,,PHI Timeout,rebound,substitution,5,Low
+22500258,229,substitution,2,PT07M12.00S,07:12,Q2 07:12,36,41,1610612755.0,McCain,SUB out: J. McCain,timeout,substitution,5,Low
+22500258,230,substitution,2,PT07M12.00S,07:12,Q2 07:12,36,41,1610612755.0,Barlow,SUB out: D. Barlow,substitution,substitution,5,Low
+22500258,231,substitution,2,PT07M12.00S,07:12,Q2 07:12,36,41,1610612755.0,Edgecombe,SUB out: V. Edgecombe,substitution,substitution,5,Low
+22500258,232,substitution,2,PT07M12.00S,07:12,Q2 07:12,36,41,1610612761.0,Barnes,SUB out: S. Barnes,substitution,substitution,5,Low
+22500258,233,substitution,2,PT07M12.00S,07:12,Q2 07:12,36,41,1610612761.0,Quickley,SUB out: I. Quickley,substitution,substitution,5,Low
+22500258,234,substitution,2,PT07M12.00S,07:12,Q2 07:12,36,41,1610612761.0,Barrett,SUB out: R. Barrett,substitution,substitution,5,Low
+22500258,235,substitution,2,PT07M12.00S,07:12,Q2 07:12,36,41,1610612755.0,Maxey,SUB in: T. Maxey,substitution,substitution,5,Low
+22500258,236,substitution,2,PT07M12.00S,07:12,Q2 07:12,36,41,1610612755.0,Edwards,SUB in: J. Edwards,substitution,substitution,5,Low
+22500258,237,substitution,2,PT07M12.00S,07:12,Q2 07:12,36,41,1610612755.0,Watford,SUB in: T. Watford,substitution,substitution,5,Low
+22500258,238,substitution,2,PT07M12.00S,07:12,Q2 07:12,36,41,1610612761.0,Ingram,SUB in: B. Ingram,substitution,substitution,5,Low
+22500258,239,substitution,2,PT07M12.00S,07:12,Q2 07:12,36,41,1610612761.0,Shead,SUB in: J. Shead,substitution,substitution,5,Low
+22500258,240,substitution,2,PT07M12.00S,07:12,Q2 07:12,36,41,1610612761.0,Walter,SUB in: J. Walter,substitution,foul,5,Low
+22500258,241,foul,2,PT07M01.00S,07:01,Q2 07:01,36,41,1610612761.0,Poeltl,J. Poeltl shooting personal FOUL (1 PF) (Edwards 2 FT),substitution,freethrow,5,Low
+22500258,243,freethrow,2,PT07M01.00S,07:01,Q2 07:01,37,41,1610612755.0,Edwards,J. Edwards Free Throw 1 of 2 (3 PTS),foul,freethrow,4,Low
+22500258,244,freethrow,2,PT07M01.00S,07:01,Q2 07:01,38,41,1610612755.0,Edwards,J. Edwards Free Throw 2 of 2 (4 PTS),freethrow,2pt made,3,Low
+22500258,245,2pt,2,PT06M42.00S,06:42,Q2 06:42,38,43,1610612761.0,Battle,J. Battle 8' driving floating Jump Shot (2 PTS) (B. Ingram 2 AST),freethrow,2pt made,5,Low
+22500258,247,2pt,2,PT06M17.00S,06:17,Q2 06:17,40,43,1610612755.0,Drummond,A. Drummond Layup (4 PTS) (T. Maxey 2 AST),2pt made,2pt made,3,Low
+22500258,249,2pt,2,PT05M54.00S,05:54,Q2 05:54,40,45,1610612761.0,Poeltl,J. Poeltl 10' floating Jump Shot (10 PTS) (J. Shead 2 AST),2pt made,2pt made,5,Low
+22500258,251,2pt,2,PT05M39.00S,05:39,Q2 05:39,42,45,1610612755.0,Grimes,Q. Grimes driving Layup (2 PTS),2pt made,foul,3,Low
+22500258,252,foul,2,PT05M39.00S,05:39,Q2 05:39,42,45,1610612761.0,Battle,J. Battle shooting personal FOUL (1 PF) (Grimes 1 FT),2pt made,freethrow,3,Low
+22500258,256,freethrow,2,PT05M39.00S,05:39,Q2 05:39,43,45,1610612755.0,Grimes,Q. Grimes Free Throw 1 of 1 (3 PTS),foul,substitution,2,Low
+22500258,254,substitution,2,PT05M39.00S,05:39,Q2 05:39,42,45,1610612761.0,Battle,SUB out: J. Battle,freethrow,substitution,3,Low
+22500258,255,substitution,2,PT05M39.00S,05:39,Q2 05:39,42,45,1610612761.0,Quickley,SUB in: I. Quickley,substitution,3pt missed,3,Low
+22500258,257,3pt,2,PT05M30.00S,05:30,Q2 05:30,43,45,1610612761.0,Quickley,MISS I. Quickley 27' 3PT,substitution,rebound,2,Low
+22500258,258,rebound,2,PT05M29.00S,05:29,Q2 05:29,43,45,1610612755.0,,TEAM defensive REBOUND,3pt missed,turnover,2,Low
+22500258,260,turnover,2,PT05M21.00S,05:21,Q2 05:21,43,45,1610612755.0,Watford,T. Watford traveling TURNOVER (2 TO),rebound,turnover,2,Low
+22500258,261,turnover,2,PT05M10.00S,05:10,Q2 05:10,43,45,1610612761.0,Walter,J. Walter bad pass TURNOVER (1 TO),turnover,steal,2,Low
+22500258,262,steal,2,PT05M10.00S,05:10,Q2 05:10,43,45,1610612755.0,Maxey,T. Maxey STEAL (1 STL),turnover,2pt made,2,Low
+22500258,263,2pt,2,PT05M02.00S,05:02,Q2 05:02,45,45,1610612755.0,Edwards,J. Edwards driving Layup (6 PTS) (T. Maxey 3 AST),steal,2pt missed,0,Low
+22500258,265,2pt,2,PT04M49.00S,04:49,Q2 04:49,45,45,1610612761.0,Shead,MISS J. Shead 6' driving floating Shot,2pt made,rebound,0,Low
+22500258,266,rebound,2,PT04M45.00S,04:45,Q2 04:45,45,45,1610612761.0,Poeltl,J. Poeltl REBOUND (Off:1 Def:1),2pt missed,2pt missed,0,Low
+22500258,267,2pt,2,PT04M45.00S,04:45,Q2 04:45,45,45,1610612761.0,Poeltl,MISS J. Poeltl tip Layup,rebound,rebound,0,Low
+22500258,268,rebound,2,PT04M45.00S,04:45,Q2 04:45,45,45,1610612761.0,Poeltl,J. Poeltl REBOUND (Off:2 Def:1),2pt missed,2pt made,0,Low
+22500258,269,2pt,2,PT04M42.00S,04:42,Q2 04:42,45,47,1610612761.0,Poeltl,J. Poeltl putback Layup (12 PTS),rebound,3pt missed,2,Low
+22500258,270,3pt,2,PT04M32.00S,04:32,Q2 04:32,45,47,1610612755.0,Drummond,MISS A. Drummond 3PT,2pt made,rebound,2,Low
+22500258,271,rebound,2,PT04M29.00S,04:29,Q2 04:29,45,47,1610612761.0,Poeltl,J. Poeltl REBOUND (Off:2 Def:2),3pt missed,2pt made,2,Low
+22500258,272,2pt,2,PT04M19.00S,04:19,Q2 04:19,45,49,1610612761.0,Ingram,B. Ingram 11' turnaround fadeaway Jump Shot (9 PTS),rebound,2pt missed,4,Low
+22500258,273,2pt,2,PT04M08.00S,04:08,Q2 04:08,45,49,1610612755.0,Maxey,MISS T. Maxey 10' step back Shot,2pt made,rebound,4,Low
+22500258,274,rebound,2,PT04M06.00S,04:06,Q2 04:06,45,49,1610612761.0,Shead,J. Shead REBOUND (Off:0 Def:1),2pt missed,2pt missed,4,Low
+22500258,275,2pt,2,PT04M01.00S,04:01,Q2 04:01,45,49,1610612761.0,Quickley,MISS I. Quickley 8' driving floating Shot,rebound,rebound,4,Low
+22500258,276,rebound,2,PT03M59.00S,03:59,Q2 03:59,45,49,1610612755.0,Drummond,A. Drummond REBOUND (Off:4 Def:4),2pt missed,2pt missed,4,Low
+22500258,277,2pt,2,PT03M54.00S,03:54,Q2 03:54,45,49,1610612755.0,Edwards,MISS J. Edwards 10' pullup Shot,rebound,rebound,4,Low
+22500258,278,rebound,2,PT03M52.00S,03:52,Q2 03:52,45,49,1610612761.0,,TEAM defensive REBOUND,2pt missed,substitution,4,Low
+22500258,280,substitution,2,PT03M52.00S,03:52,Q2 03:52,45,49,1610612761.0,Shead,SUB out: J. Shead,rebound,substitution,4,Low
+22500258,281,substitution,2,PT03M52.00S,03:52,Q2 03:52,45,49,1610612761.0,Barnes,SUB in: S. Barnes,substitution,foul,4,Low
+22500258,282,foul,2,PT03M43.00S,03:43,Q2 03:43,45,49,1610612755.0,Maxey,T. Maxey personal FOUL (1 PF),substitution,substitution,4,Low
+22500258,284,substitution,2,PT03M43.00S,03:43,Q2 03:43,45,49,1610612755.0,Grimes,SUB out: Q. Grimes,foul,substitution,4,Low
+22500258,285,substitution,2,PT03M43.00S,03:43,Q2 03:43,45,49,1610612761.0,Walter,SUB out: J. Walter,substitution,substitution,4,Low
+22500258,286,substitution,2,PT03M43.00S,03:43,Q2 03:43,45,49,1610612761.0,Poeltl,SUB out: J. Poeltl,substitution,substitution,4,Low
+22500258,287,substitution,2,PT03M43.00S,03:43,Q2 03:43,45,49,1610612755.0,Edgecombe,SUB in: V. Edgecombe,substitution,substitution,4,Low
+22500258,288,substitution,2,PT03M43.00S,03:43,Q2 03:43,45,49,1610612761.0,Barrett,SUB in: R. Barrett,substitution,substitution,4,Low
+22500258,289,substitution,2,PT03M43.00S,03:43,Q2 03:43,45,49,1610612761.0,Mamukelashvili,SUB in: S. Mamukelashvili,substitution,turnover,4,Low
+22500258,290,turnover,2,PT03M31.00S,03:31,Q2 03:31,45,49,1610612761.0,Barnes,S. Barnes lost ball TURNOVER (1 TO),substitution,steal,4,Low
+22500258,291,steal,2,PT03M31.00S,03:31,Q2 03:31,45,49,1610612755.0,Maxey,T. Maxey STEAL (2 STL),turnover,turnover,4,Low
+22500258,292,turnover,2,PT03M19.00S,03:19,Q2 03:19,45,49,1610612755.0,Maxey,T. Maxey bad pass TURNOVER (2 TO),steal,steal,4,Low
+22500258,293,steal,2,PT03M19.00S,03:19,Q2 03:19,45,49,1610612761.0,Quickley,I. Quickley STEAL (1 STL),turnover,2pt made,4,Low
+22500258,294,2pt,2,PT03M15.00S,03:15,Q2 03:15,45,51,1610612761.0,Barnes,S. Barnes running alley-oop Layup (8 PTS) (R. Barrett 4 AST),steal,2pt made,6,Low
+22500258,296,2pt,2,PT02M57.00S,02:57,Q2 02:57,47,51,1610612755.0,Watford,T. Watford driving floating Jump Shot (7 PTS),2pt made,2pt missed,4,Low
+22500258,297,2pt,2,PT02M46.00S,02:46,Q2 02:46,47,51,1610612761.0,Barnes,MISS S. Barnes driving finger roll Layup,2pt made,rebound,4,Low
+22500258,298,rebound,2,PT02M43.00S,02:43,Q2 02:43,47,51,1610612755.0,Drummond,A. Drummond REBOUND (Off:4 Def:5),2pt missed,3pt missed,4,Low
+22500258,299,3pt,2,PT02M39.00S,02:39,Q2 02:39,47,51,1610612755.0,Edgecombe,MISS V. Edgecombe 25' running 3PT,rebound,rebound,4,Low
+22500258,300,rebound,2,PT02M35.00S,02:35,Q2 02:35,47,51,1610612761.0,Mamukelashvili,S. Mamukelashvili REBOUND (Off:1 Def:1),3pt missed,turnover,4,Low
+22500258,301,turnover,2,PT02M33.00S,02:33,Q2 02:33,47,51,1610612761.0,Ingram,B. Ingram bad pass out-of-bounds TURNOVER (2 TO),rebound,turnover,4,Low
+22500258,302,turnover,2,PT02M13.00S,02:13,Q2 02:13,47,51,1610612755.0,Edgecombe,V. Edgecombe lost ball TURNOVER (2 TO),turnover,steal,4,Low
+22500258,303,steal,2,PT02M13.00S,02:13,Q2 02:13,47,51,1610612761.0,Mamukelashvili,S. Mamukelashvili STEAL (1 STL),turnover,2pt made,4,Low
+22500258,304,2pt,2,PT02M08.00S,02:08,Q2 02:08,47,53,1610612761.0,Ingram,B. Ingram 22' running Jump Shot (11 PTS) (S. Mamukelashvili 1 AST),steal,foul,6,Low
+22500258,306,foul,2,PT01M49.00S,01:49,Q2 01:49,47,53,1610612761.0,Ingram,B. Ingram personal FOUL (2 PF) (Edwards 2 FT),2pt made,freethrow,6,Low
+22500258,308,freethrow,2,PT01M49.00S,01:49,Q2 01:49,48,53,1610612755.0,Edwards,J. Edwards Free Throw 1 of 2 (7 PTS),foul,freethrow,5,Low
+22500258,311,freethrow,2,PT01M49.00S,01:49,Q2 01:49,49,53,1610612755.0,Edwards,J. Edwards Free Throw 2 of 2 (8 PTS),freethrow,substitution,4,Low
+22500258,309,substitution,2,PT01M49.00S,01:49,Q2 01:49,48,53,1610612761.0,Mamukelashvili,SUB out: S. Mamukelashvili,freethrow,substitution,5,Low
+22500258,310,substitution,2,PT01M49.00S,01:49,Q2 01:49,48,53,1610612761.0,Poeltl,SUB in: J. Poeltl,substitution,turnover,5,Low
+22500258,312,turnover,2,PT01M30.00S,01:30,Q2 01:30,49,53,1610612761.0,Ingram,B. Ingram lost ball TURNOVER (3 TO),substitution,steal,4,Low
+22500258,313,steal,2,PT01M30.00S,01:30,Q2 01:30,49,53,1610612755.0,Edwards,J. Edwards STEAL (1 STL),turnover,2pt made,4,Low
+22500258,314,2pt,2,PT01M25.00S,01:25,Q2 01:25,51,53,1610612755.0,Edgecombe,V. Edgecombe running DUNK (5 PTS) (J. Edwards 1 AST),steal,3pt missed,2,Low
+22500258,318,3pt,2,PT00M59.00S,00:59,Q2 00:59,51,53,1610612761.0,Quickley,MISS I. Quickley 28' 3PT,2pt made,rebound,2,Low
+22500258,319,rebound,2,PT00M56.60S,00:56,Q2 00:56,51,53,1610612761.0,Poeltl,J. Poeltl REBOUND (Off:3 Def:2),3pt missed,turnover,2,Low
+22500258,320,turnover,2,PT00M55.30S,00:55,Q2 00:55,51,53,1610612761.0,Poeltl,J. Poeltl bad pass TURNOVER (1 TO),rebound,steal,2,Low
+22500258,321,steal,2,PT00M55.30S,00:55,Q2 00:55,51,53,1610612755.0,Edgecombe,V. Edgecombe STEAL (1 STL),turnover,3pt made,2,Low
+22500258,322,3pt,2,PT00M52.10S,00:52,Q2 00:52,54,53,1610612755.0,Maxey,T. Maxey 27' 3PT running (15 PTS) (V. Edgecombe 3 AST),steal,3pt missed,1,Low
+22500258,324,3pt,2,PT00M33.20S,00:33,Q2 00:33,54,53,1610612761.0,Barrett,MISS R. Barrett 26' 3PT,3pt made,rebound,1,Low
+22500258,325,rebound,2,PT00M31.10S,00:31,Q2 00:31,54,53,1610612761.0,,TEAM offensive REBOUND,3pt missed,2pt missed,1,Low
+22500258,327,2pt,2,PT00M26.90S,00:26,Q2 00:26,54,53,1610612761.0,Barrett,MISS R. Barrett Layup - blocked,rebound,block,1,Low
+22500258,328,block,2,PT00M26.90S,00:26,Q2 00:26,54,53,1610612755.0,Drummond,A. Drummond BLOCK (1 BLK),2pt missed,rebound,1,Low
+22500258,329,rebound,2,PT00M24.00S,00:24,Q2 00:24,54,53,1610612755.0,Edgecombe,V. Edgecombe REBOUND (Off:1 Def:2),block,2pt made,1,Low
+22500258,330,2pt,2,PT00M06.80S,00:06,Q2 00:06,56,53,1610612755.0,Edgecombe,V. Edgecombe driving floating Jump Shot (7 PTS),rebound,2pt missed,3,Low
+22500258,331,2pt,2,PT00M00.20S,00:00,Q2 00:00,56,53,1610612761.0,Quickley,MISS I. Quickley 12' driving floating Shot,2pt made,rebound,3,Low
+22500258,332,rebound,2,PT00M00.10S,00:00,Q2 00:00,56,53,1610612761.0,,TEAM offensive REBOUND,2pt missed,substitution,3,Low
+22500258,334,substitution,3,PT12M00.00S,12:00,Q3 12:00,56,53,1610612755.0,Edwards,SUB out: J. Edwards,rebound,substitution,3,Low
+22500258,335,substitution,3,PT12M00.00S,12:00,Q3 12:00,56,53,1610612755.0,Grimes,SUB in: Q. Grimes,substitution,foul,3,Low
+22500258,337,foul,3,PT11M45.00S,11:45,Q3 11:45,56,53,1610612755.0,Watford,T. Watford personal FOUL (2 PF),substitution,2pt made,3,Low
+22500258,342,2pt,3,PT11M33.00S,11:33,Q3 11:33,56,55,1610612761.0,Ingram,B. Ingram 17' fadeaway Jump Shot (13 PTS) (I. Quickley 3 AST),foul,turnover,1,Low
+22500258,344,turnover,3,PT11M11.00S,11:11,Q3 11:11,56,55,1610612755.0,Edgecombe,V. Edgecombe bad pass TURNOVER (3 TO),2pt made,steal,1,Low
+22500258,345,steal,3,PT11M11.00S,11:11,Q3 11:11,56,55,1610612761.0,Quickley,I. Quickley STEAL (2 STL),turnover,2pt made,1,Low
+22500258,347,2pt,3,PT10M58.00S,10:58,Q3 10:58,56,57,1610612761.0,Barrett,R. Barrett cutting DUNK (8 PTS) (B. Ingram 3 AST),steal,foul,1,Low
+22500258,349,foul,3,PT10M58.00S,10:58,Q3 10:58,56,57,1610612755.0,Drummond,A. Drummond shooting personal FOUL (1 PF) (Barrett 1 FT),2pt made,freethrow,1,Low
+22500258,351,freethrow,3,PT10M58.00S,10:58,Q3 10:58,56,58,1610612761.0,Barrett,R. Barrett Free Throw 1 of 1 (9 PTS),foul,2pt missed,2,Low
+22500258,352,2pt,3,PT10M49.00S,10:49,Q3 10:49,56,58,1610612755.0,Edgecombe,MISS V. Edgecombe 10' driving floating Shot,freethrow,rebound,2,Low
+22500258,354,rebound,3,PT10M47.00S,10:47,Q3 10:47,56,58,1610612755.0,Edgecombe,V. Edgecombe REBOUND (Off:2 Def:2),2pt missed,2pt made,2,Low
+22500258,355,2pt,3,PT10M45.00S,10:45,Q3 10:45,58,58,1610612755.0,Edgecombe,V. Edgecombe floating Jump Shot (9 PTS),rebound,foul,0,Low
+22500258,356,foul,3,PT10M32.00S,10:32,Q3 10:32,58,58,1610612755.0,Watford,T. Watford shooting personal FOUL (3 PF) (Ingram 3 FT),2pt made,freethrow,0,Low
+22500258,358,freethrow,3,PT10M32.00S,10:32,Q3 10:32,58,59,1610612761.0,Ingram,B. Ingram Free Throw 1 of 3 (14 PTS),foul,freethrow,1,Low
+22500258,359,freethrow,3,PT10M32.00S,10:32,Q3 10:32,58,60,1610612761.0,Ingram,B. Ingram Free Throw 2 of 3 (15 PTS),freethrow,freethrow,2,Low
+22500258,360,freethrow,3,PT10M32.00S,10:32,Q3 10:32,58,61,1610612761.0,Ingram,B. Ingram Free Throw 3 of 3 (16 PTS),freethrow,turnover,3,Low
+22500258,361,turnover,3,PT10M16.00S,10:16,Q3 10:16,58,61,1610612755.0,Drummond,A. Drummond bad pass TURNOVER (3 TO),freethrow,steal,3,Low
+22500258,362,steal,3,PT10M16.00S,10:16,Q3 10:16,58,61,1610612761.0,Quickley,I. Quickley STEAL (3 STL),turnover,2pt made,3,Low
+22500258,363,2pt,3,PT10M10.00S,10:10,Q3 10:10,58,63,1610612761.0,Barnes,S. Barnes DUNK (10 PTS) (J. Poeltl 1 AST),steal,timeout,5,Low
+22500258,365,timeout,3,PT10M03.00S,10:03,Q3 10:03,58,63,1610612755.0,,PHI Timeout,2pt made,3pt made,5,Low
+22500258,366,3pt,3,PT09M57.00S,09:57,Q3 09:57,61,63,1610612755.0,Edgecombe,V. Edgecombe 26' 3PT  (12 PTS) (Q. Grimes 1 AST),timeout,foul,2,Low
+22500258,368,foul,3,PT09M42.00S,09:42,Q3 09:42,61,63,1610612755.0,Grimes,Q. Grimes shooting personal FOUL (2 PF) (Ingram 2 FT),3pt made,freethrow,2,Low
+22500258,370,freethrow,3,PT09M42.00S,09:42,Q3 09:42,61,63,1610612761.0,Ingram,MISS B. Ingram Free Throw 1 of 2,foul,rebound,2,Low
+22500258,372,rebound,3,PT09M42.00S,09:42,Q3 09:42,61,63,1610612761.0,,TEAM offensive REBOUND,freethrow,freethrow,2,Low
+22500258,373,freethrow,3,PT09M42.00S,09:42,Q3 09:42,61,64,1610612761.0,Ingram,B. Ingram Free Throw 2 of 2 (17 PTS),rebound,2pt made,3,Low
+22500258,374,2pt,3,PT09M30.00S,09:30,Q3 09:30,63,64,1610612755.0,Drummond,A. Drummond DUNK (6 PTS) (T. Maxey 4 AST),freethrow,2pt made,1,Low
+22500258,377,2pt,3,PT09M09.00S,09:09,Q3 09:09,63,66,1610612761.0,Barrett,R. Barrett cutting Layup (11 PTS) (J. Poeltl 2 AST),2pt made,turnover,3,Low
+22500258,379,turnover,3,PT08M56.00S,08:56,Q3 08:56,63,66,1610612755.0,Grimes,Q. Grimes backcourt TURNOVER (1 TO),2pt made,foul,3,Low
+22500258,380,foul,3,PT08M48.00S,08:48,Q3 08:48,63,66,1610612755.0,Edgecombe,V. Edgecombe shooting personal FOUL (3 PF) (Barrett 2 FT),turnover,freethrow,3,Low
+22500258,382,freethrow,3,PT08M48.00S,08:48,Q3 08:48,63,67,1610612761.0,Barrett,R. Barrett Free Throw 1 of 2 (12 PTS),foul,freethrow,4,Low
+22500258,385,freethrow,3,PT08M48.00S,08:48,Q3 08:48,63,68,1610612761.0,Barrett,R. Barrett Free Throw 2 of 2 (13 PTS),freethrow,substitution,5,Low
+22500258,383,substitution,3,PT08M48.00S,08:48,Q3 08:48,63,67,1610612755.0,Watford,SUB out: T. Watford,freethrow,substitution,4,Low
+22500258,384,substitution,3,PT08M48.00S,08:48,Q3 08:48,63,67,1610612755.0,Barlow,SUB in: D. Barlow,substitution,3pt missed,4,Low
+22500258,386,3pt,3,PT08M29.00S,08:29,Q3 08:29,63,68,1610612755.0,Maxey,MISS T. Maxey 27' step back 3PT,substitution,rebound,5,Low
+22500258,387,rebound,3,PT08M27.00S,08:27,Q3 08:27,63,68,1610612761.0,,TEAM defensive REBOUND,3pt missed,3pt made,5,Low
+22500258,389,3pt,3,PT08M18.00S,08:18,Q3 08:18,63,71,1610612761.0,Quickley,I. Quickley 24' 3PT  (7 PTS) (J. Poeltl 3 AST),rebound,foul,8,Low
+22500258,391,foul,3,PT08M00.00S,08:00,Q3 08:00,63,71,1610612761.0,Ingram,B. Ingram personal FOUL (3 PF),3pt made,3pt made,8,Low
+22500258,393,3pt,3,PT07M49.00S,07:49,Q3 07:49,66,71,1610612755.0,Grimes,Q. Grimes 26' 3PT pullup (6 PTS),foul,turnover,5,Low
+22500258,394,turnover,3,PT07M40.00S,07:40,Q3 07:40,66,71,1610612761.0,Barnes,S. Barnes lost ball TURNOVER (2 TO),3pt made,steal,5,Low
+22500258,395,steal,3,PT07M40.00S,07:40,Q3 07:40,66,71,1610612755.0,Grimes,Q. Grimes STEAL (1 STL),turnover,2pt missed,5,Low
+22500258,396,2pt,3,PT07M36.00S,07:36,Q3 07:36,66,71,1610612755.0,Grimes,MISS Q. Grimes running finger roll Layup,steal,rebound,5,Low
+22500258,397,rebound,3,PT07M34.00S,07:34,Q3 07:34,66,71,1610612761.0,Poeltl,J. Poeltl REBOUND (Off:3 Def:3),2pt missed,3pt made,5,Low
+22500258,398,3pt,3,PT07M31.00S,07:31,Q3 07:31,66,74,1610612761.0,Ingram,B. Ingram 25' 3PT running (20 PTS) (I. Quickley 4 AST),rebound,turnover,8,Low
+22500258,401,turnover,3,PT07M10.00S,07:10,Q3 07:10,66,74,1610612755.0,Barlow,D. Barlow bad pass TURNOVER (3 TO),3pt made,steal,8,Low
+22500258,402,steal,3,PT07M10.00S,07:10,Q3 07:10,66,74,1610612761.0,Barnes,S. Barnes STEAL (1 STL),turnover,3pt missed,8,Low
+22500258,403,3pt,3,PT07M07.00S,07:07,Q3 07:07,66,74,1610612761.0,Quickley,MISS I. Quickley 26' running 3PT,steal,rebound,8,Low
+22500258,404,rebound,3,PT07M01.00S,07:01,Q3 07:01,66,74,1610612755.0,Drummond,A. Drummond REBOUND (Off:4 Def:6),3pt missed,foul,8,Low
+22500258,405,foul,3,PT06M55.00S,06:55,Q3 06:55,66,74,1610612761.0,Poeltl,J. Poeltl shooting personal FOUL (2 PF) (Maxey 2 FT),rebound,freethrow,8,Low
+22500258,407,freethrow,3,PT06M55.00S,06:55,Q3 06:55,67,74,1610612755.0,Maxey,T. Maxey Free Throw 1 of 2 (16 PTS),foul,freethrow,7,Low
+22500258,414,freethrow,3,PT06M55.00S,06:55,Q3 06:55,68,74,1610612755.0,Maxey,T. Maxey Free Throw 2 of 2 (17 PTS),freethrow,substitution,6,Low
+22500258,408,substitution,3,PT06M55.00S,06:55,Q3 06:55,67,74,1610612755.0,Grimes,SUB out: Q. Grimes,freethrow,substitution,7,Low
+22500258,409,substitution,3,PT06M55.00S,06:55,Q3 06:55,67,74,1610612755.0,Edgecombe,SUB out: V. Edgecombe,substitution,substitution,7,Low
+22500258,410,substitution,3,PT06M55.00S,06:55,Q3 06:55,67,74,1610612761.0,Barnes,SUB out: S. Barnes,substitution,substitution,7,Low
+22500258,411,substitution,3,PT06M55.00S,06:55,Q3 06:55,67,74,1610612755.0,McCain,SUB in: J. McCain,substitution,substitution,7,Low
+22500258,412,substitution,3,PT06M55.00S,06:55,Q3 06:55,67,74,1610612755.0,Edwards,SUB in: J. Edwards,substitution,substitution,7,Low
+22500258,413,substitution,3,PT06M55.00S,06:55,Q3 06:55,67,74,1610612761.0,Shead,SUB in: J. Shead,substitution,2pt missed,7,Low
+22500258,415,2pt,3,PT06M39.00S,06:39,Q3 06:39,68,74,1610612761.0,Ingram,MISS B. Ingram 19' Jump Shot,substitution,rebound,6,Low
+22500258,416,rebound,3,PT06M35.00S,06:35,Q3 06:35,68,74,1610612755.0,Drummond,A. Drummond REBOUND (Off:4 Def:7),2pt missed,foul,6,Low
+22500258,418,foul,3,PT06M17.00S,06:17,Q3 06:17,68,74,1610612761.0,Ingram,B. Ingram personal FOUL (4 PF),rebound,substitution,6,Low
+22500258,420,substitution,3,PT06M17.00S,06:17,Q3 06:17,68,74,1610612761.0,Ingram,SUB out: B. Ingram,foul,substitution,6,Low
+22500258,421,substitution,3,PT06M17.00S,06:17,Q3 06:17,68,74,1610612761.0,Barnes,SUB in: S. Barnes,substitution,3pt missed,6,Low
+22500258,422,3pt,3,PT06M11.00S,06:11,Q3 06:11,68,74,1610612755.0,McCain,MISS J. McCain 28' 3PT,substitution,rebound,6,Low
+22500258,423,rebound,3,PT06M08.00S,06:08,Q3 06:08,68,74,1610612761.0,Barrett,R. Barrett REBOUND (Off:0 Def:2),3pt missed,3pt made,6,Low
+22500258,424,3pt,3,PT06M01.00S,06:01,Q3 06:01,68,77,1610612761.0,Barrett,R. Barrett 25' 3PT  (16 PTS) (J. Shead 3 AST),rebound,3pt made,9,Low
+22500258,426,3pt,3,PT05M39.00S,05:39,Q3 05:39,71,77,1610612755.0,Barlow,D. Barlow 3PT  (5 PTS) (T. Maxey 5 AST),3pt made,foul,6,Low
+22500258,428,foul,3,PT05M20.00S,05:20,Q3 05:20,71,77,1610612755.0,Barlow,D. Barlow shooting personal FOUL (2 PF) (Poeltl 2 FT),3pt made,freethrow,6,Low
+22500258,430,freethrow,3,PT05M20.00S,05:20,Q3 05:20,71,78,1610612761.0,Poeltl,J. Poeltl Free Throw 1 of 2 (13 PTS),foul,freethrow,7,Low
+22500258,433,freethrow,3,PT05M20.00S,05:20,Q3 05:20,71,79,1610612761.0,Poeltl,J. Poeltl Free Throw 2 of 2 (14 PTS),freethrow,substitution,8,Low
+22500258,431,substitution,3,PT05M20.00S,05:20,Q3 05:20,71,78,1610612761.0,Quickley,SUB out: I. Quickley,freethrow,substitution,7,Low
+22500258,432,substitution,3,PT05M20.00S,05:20,Q3 05:20,71,78,1610612761.0,Dick,SUB in: G. Dick,substitution,foul,7,Low
+22500258,434,foul,3,PT05M10.00S,05:10,Q3 05:10,71,79,1610612761.0,Poeltl,J. Poeltl personal FOUL (3 PF),substitution,2pt made,8,Low
+22500258,436,2pt,3,PT05M02.00S,05:02,Q3 05:02,73,79,1610612755.0,Maxey,T. Maxey driving finger roll Layup (19 PTS) (J. Edwards 2 AST),foul,2pt made,6,Low
+22500258,438,2pt,3,PT04M51.00S,04:51,Q3 04:51,73,81,1610612761.0,Poeltl,J. Poeltl cutting Layup (16 PTS) (S. Barnes 4 AST),2pt made,2pt missed,8,Low
+22500258,440,2pt,3,PT04M30.00S,04:30,Q3 04:30,73,81,1610612755.0,Edwards,MISS J. Edwards 6' driving floating Shot,2pt made,rebound,8,Low
+22500258,441,rebound,3,PT04M30.00S,04:30,Q3 04:30,73,81,1610612761.0,,TEAM defensive REBOUND,2pt missed,foul,8,Low
+22500258,442,foul,3,PT04M30.00S,04:30,Q3 04:30,73,81,1610612755.0,Edwards,J. Edwards loose ball personal FOUL (2 PF) (Poeltl 2 FT),rebound,freethrow,8,Low
+22500258,444,freethrow,3,PT04M30.00S,04:30,Q3 04:30,73,81,1610612761.0,Poeltl,MISS J. Poeltl Free Throw 1 of 2,foul,rebound,8,Low
+22500258,445,rebound,3,PT04M30.00S,04:30,Q3 04:30,73,81,1610612761.0,,TEAM offensive REBOUND,freethrow,freethrow,8,Low
+22500258,452,freethrow,3,PT04M30.00S,04:30,Q3 04:30,73,82,1610612761.0,Poeltl,J. Poeltl Free Throw 2 of 2 (17 PTS),rebound,substitution,9,Low
+22500258,446,substitution,3,PT04M30.00S,04:30,Q3 04:30,73,81,1610612755.0,Drummond,SUB out: A. Drummond,freethrow,substitution,8,Low
+22500258,447,substitution,3,PT04M30.00S,04:30,Q3 04:30,73,81,1610612755.0,Barlow,SUB out: D. Barlow,substitution,substitution,8,Low
+22500258,448,substitution,3,PT04M30.00S,04:30,Q3 04:30,73,81,1610612761.0,Barrett,SUB out: R. Barrett,substitution,substitution,8,Low
+22500258,449,substitution,3,PT04M30.00S,04:30,Q3 04:30,73,81,1610612755.0,Watford,SUB in: T. Watford,substitution,substitution,8,Low
+22500258,450,substitution,3,PT04M30.00S,04:30,Q3 04:30,73,81,1610612755.0,Walker,SUB in: J. Walker,substitution,substitution,8,Low
+22500258,451,substitution,3,PT04M30.00S,04:30,Q3 04:30,73,81,1610612761.0,Walter,SUB in: J. Walter,substitution,2pt made,8,Low
+22500258,453,2pt,3,PT04M16.00S,04:16,Q3 04:16,75,82,1610612755.0,Maxey,T. Maxey driving finger roll Layup (21 PTS) (T. Watford 2 AST),substitution,2pt missed,7,Low
+22500258,455,2pt,3,PT04M05.00S,04:05,Q3 04:05,75,82,1610612761.0,Shead,MISS J. Shead driving Layup - blocked,2pt made,block,7,Low
+22500258,456,block,3,PT04M05.00S,04:05,Q3 04:05,75,82,1610612755.0,Walker,J. Walker BLOCK (1 BLK),2pt missed,rebound,7,Low
+22500258,457,rebound,3,PT04M05.00S,04:05,Q3 04:05,75,82,1610612761.0,,TEAM offensive REBOUND,block,timeout,7,Low
+22500258,459,timeout,3,PT04M05.00S,04:05,Q3 04:05,75,82,1610612761.0,,TOR Timeout,rebound,substitution,7,Low
+22500258,460,substitution,3,PT04M05.00S,04:05,Q3 04:05,75,82,1610612761.0,Poeltl,SUB out: J. Poeltl,timeout,substitution,7,Low
+22500258,461,substitution,3,PT04M05.00S,04:05,Q3 04:05,75,82,1610612761.0,Mamukelashvili,SUB in: S. Mamukelashvili,substitution,2pt missed,7,Low
+22500258,462,2pt,3,PT04M02.00S,04:02,Q3 04:02,75,82,1610612761.0,Barnes,MISS S. Barnes cutting Layup,substitution,rebound,7,Low
+22500258,463,rebound,3,PT03M55.00S,03:55,Q3 03:55,75,82,1610612761.0,Barnes,S. Barnes REBOUND (Off:2 Def:4),2pt missed,2pt missed,7,Low
+22500258,464,2pt,3,PT03M55.00S,03:55,Q3 03:55,75,82,1610612761.0,Barnes,MISS S. Barnes putback Layup,rebound,rebound,7,Low
+22500258,465,rebound,3,PT03M55.00S,03:55,Q3 03:55,75,82,1610612755.0,Edwards,J. Edwards REBOUND (Off:1 Def:1),2pt missed,2pt missed,7,Low
+22500258,466,2pt,3,PT03M52.00S,03:52,Q3 03:52,75,82,1610612755.0,McCain,MISS J. McCain 11' running finger roll Layup,rebound,rebound,7,Low
+22500258,467,rebound,3,PT03M52.00S,03:52,Q3 03:52,75,82,1610612755.0,Walker,J. Walker REBOUND (Off:2 Def:2),2pt missed,turnover,7,Low
+22500258,468,turnover,3,PT03M52.00S,03:52,Q3 03:52,75,82,1610612755.0,Walker,J. Walker step out-of-bounds TURNOVER (1 TO),rebound,3pt made,7,Low
+22500258,469,3pt,3,PT03M44.00S,03:44,Q3 03:44,75,85,1610612761.0,Walter,J. Walter 26' 3PT  (8 PTS) (J. Shead 4 AST),turnover,3pt made,10,Low
+22500258,471,3pt,3,PT03M19.00S,03:19,Q3 03:19,78,85,1610612755.0,Maxey,T. Maxey 26' 3PT step back (24 PTS),3pt made,2pt made,7,Low
+22500258,472,2pt,3,PT03M02.00S,03:02,Q3 03:02,78,87,1610612761.0,Dick,G. Dick driving reverse Layup (4 PTS) (J. Walter 1 AST),3pt made,turnover,9,Low
+22500258,475,turnover,3,PT02M59.00S,02:59,Q3 02:59,78,87,1610612755.0,Watford,T. Watford bad pass TURNOVER (3 TO),2pt made,steal,9,Low
+22500258,476,steal,3,PT02M59.00S,02:59,Q3 02:59,78,87,1610612761.0,Walter,J. Walter STEAL (3 STL),turnover,2pt missed,9,Low
+22500258,477,2pt,3,PT02M53.00S,02:53,Q3 02:53,78,87,1610612761.0,Mamukelashvili,MISS S. Mamukelashvili driving Layup,steal,rebound,9,Low
+22500258,479,rebound,3,PT02M51.00S,02:51,Q3 02:51,78,87,1610612755.0,Watford,T. Watford REBOUND (Off:0 Def:2),2pt missed,2pt missed,9,Low
+22500258,480,2pt,3,PT02M40.00S,02:40,Q3 02:40,78,87,1610612755.0,Watford,MISS T. Watford 12' turnaround Shot - blocked,rebound,block,9,Low
+22500258,481,block,3,PT02M40.00S,02:40,Q3 02:40,78,87,1610612761.0,Barnes,S. Barnes BLOCK (1 BLK),2pt missed,rebound,9,Low
+22500258,482,rebound,3,PT02M37.00S,02:37,Q3 02:37,78,87,1610612761.0,Barnes,S. Barnes REBOUND (Off:2 Def:5),block,foul,9,Low
+22500258,483,foul,3,PT02M30.00S,02:30,Q3 02:30,78,87,1610612755.0,Walker,J. Walker shooting personal FOUL (1 PF) (Mamukelashvili 2 FT),rebound,freethrow,9,Low
+22500258,485,freethrow,3,PT02M30.00S,02:30,Q3 02:30,78,88,1610612761.0,Mamukelashvili,S. Mamukelashvili Free Throw 1 of 2 (4 PTS),foul,freethrow,10,Low
+22500258,488,freethrow,3,PT02M30.00S,02:30,Q3 02:30,78,89,1610612761.0,Mamukelashvili,S. Mamukelashvili Free Throw 2 of 2 (5 PTS),freethrow,substitution,11,Low
+22500258,486,substitution,3,PT02M30.00S,02:30,Q3 02:30,78,88,1610612755.0,Maxey,SUB out: T. Maxey,freethrow,substitution,10,Low
+22500258,487,substitution,3,PT02M30.00S,02:30,Q3 02:30,78,88,1610612755.0,Edgecombe,SUB in: V. Edgecombe,substitution,3pt missed,10,Low
+22500258,489,3pt,3,PT02M19.00S,02:19,Q3 02:19,78,89,1610612755.0,Edwards,MISS J. Edwards 26' 3PT,substitution,rebound,11,Low
+22500258,490,rebound,3,PT02M16.00S,02:16,Q3 02:16,78,89,1610612761.0,Shead,J. Shead REBOUND (Off:0 Def:2),3pt missed,turnover,11,Low
+22500258,491,turnover,3,PT02M08.00S,02:08,Q3 02:08,78,89,1610612761.0,Barnes,S. Barnes bad pass TURNOVER (3 TO),rebound,steal,11,Low
+22500258,492,steal,3,PT02M08.00S,02:08,Q3 02:08,78,89,1610612755.0,Edgecombe,V. Edgecombe STEAL (2 STL),turnover,turnover,11,Low
+22500258,493,turnover,3,PT02M02.00S,02:02,Q3 02:02,78,89,1610612755.0,Edgecombe,V. Edgecombe lost ball TURNOVER (4 TO),steal,steal,11,Low
+22500258,494,steal,3,PT02M02.00S,02:02,Q3 02:02,78,89,1610612761.0,Shead,J. Shead STEAL (1 STL),turnover,2pt made,11,Low
+22500258,495,2pt,3,PT01M59.00S,01:59,Q3 01:59,78,91,1610612761.0,Barnes,S. Barnes running DUNK (12 PTS) (J. Shead 5 AST),steal,turnover,13,Low
+22500258,497,turnover,3,PT01M44.00S,01:44,Q3 01:44,78,91,1610612755.0,Edwards,J. Edwards lost ball out-of-bounds TURNOVER (2 TO),2pt made,substitution,13,Low
+22500258,498,substitution,3,PT01M44.00S,01:44,Q3 01:44,78,91,1610612761.0,Barnes,SUB out: S. Barnes,turnover,substitution,13,Low
+22500258,499,substitution,3,PT01M44.00S,01:44,Q3 01:44,78,91,1610612761.0,Shead,SUB out: J. Shead,substitution,substitution,13,Low
+22500258,500,substitution,3,PT01M44.00S,01:44,Q3 01:44,78,91,1610612761.0,Quickley,SUB in: I. Quickley,substitution,substitution,13,Low
+22500258,501,substitution,3,PT01M44.00S,01:44,Q3 01:44,78,91,1610612761.0,Barrett,SUB in: R. Barrett,substitution,3pt made,13,Low
+22500258,502,3pt,3,PT01M27.00S,01:27,Q3 01:27,78,94,1610612761.0,Walter,J. Walter 3PT  (11 PTS) (S. Mamukelashvili 2 AST),substitution,foul,16,Low
+22500258,504,foul,3,PT01M14.00S,01:14,Q3 01:14,78,94,1610612761.0,Walter,J. Walter personal FOUL (1 PF) (Watford 2 FT),3pt made,freethrow,16,Low
+22500258,506,freethrow,3,PT01M14.00S,01:14,Q3 01:14,79,94,1610612755.0,Watford,T. Watford Free Throw 1 of 2 (8 PTS),foul,freethrow,15,Low
+22500258,507,freethrow,3,PT01M14.00S,01:14,Q3 01:14,80,94,1610612755.0,Watford,T. Watford Free Throw 2 of 2 (9 PTS),freethrow,2pt made,14,Low
+22500258,508,2pt,3,PT00M59.00S,00:59,Q3 00:59,80,96,1610612761.0,Mamukelashvili,S. Mamukelashvili cutting finger roll Layup (7 PTS) (I. Quickley 5 AST),freethrow,2pt made,16,Low
+22500258,510,2pt,3,PT00M45.00S,00:45,Q3 00:45,82,96,1610612755.0,Edgecombe,V. Edgecombe driving Layup (14 PTS) (J. Walker 1 AST),2pt made,foul,14,Low
+22500258,512,foul,3,PT00M29.20S,00:29,Q3 00:29,82,96,1610612755.0,McCain,J. McCain shooting personal FOUL (2 PF) (Barrett 2 FT),2pt made,freethrow,14,Low
+22500258,514,freethrow,3,PT00M29.20S,00:29,Q3 00:29,82,97,1610612761.0,Barrett,R. Barrett Free Throw 1 of 2 (17 PTS),foul,freethrow,15,Low
+22500258,515,freethrow,3,PT00M29.20S,00:29,Q3 00:29,82,97,1610612761.0,Barrett,MISS R. Barrett Free Throw 2 of 2,freethrow,rebound,15,Low
+22500258,516,rebound,3,PT00M26.80S,00:26,Q3 00:26,82,97,1610612755.0,Watford,T. Watford REBOUND (Off:0 Def:3),freethrow,3pt missed,15,Low
+22500258,517,3pt,3,PT00M20.80S,00:20,Q3 00:20,82,97,1610612755.0,McCain,MISS J. McCain 26' 3PT,rebound,rebound,15,Low
+22500258,518,rebound,3,PT00M17.80S,00:17,Q3 00:17,82,97,1610612761.0,Dick,G. Dick REBOUND (Off:0 Def:1),3pt missed,turnover,15,Low
+22500258,519,turnover,3,PT00M02.50S,00:02,Q3 00:02,82,97,1610612761.0,Quickley,I. Quickley bad pass TURNOVER (1 TO),rebound,steal,15,Low
+22500258,520,steal,3,PT00M02.50S,00:02,Q3 00:02,82,97,1610612755.0,Edgecombe,V. Edgecombe STEAL (3 STL),turnover,3pt missed,15,Low
+22500258,521,3pt,3,PT00M00.00S,00:00,Q3 00:00,82,97,1610612755.0,Edgecombe,MISS V. Edgecombe 34' pullup 3PT,steal,rebound,15,Low
+22500258,522,rebound,3,PT00M00.00S,00:00,Q3 00:00,82,97,1610612755.0,,TEAM offensive REBOUND,3pt missed,substitution,15,Low
+22500258,524,substitution,4,PT12M00.00S,12:00,Q4 12:00,82,97,1610612755.0,Edwards,SUB out: J. Edwards,rebound,substitution,15,Low
+22500258,525,substitution,4,PT12M00.00S,12:00,Q4 12:00,82,97,1610612755.0,Watford,SUB out: T. Watford,substitution,substitution,15,Low
+22500258,526,substitution,4,PT12M00.00S,12:00,Q4 12:00,82,97,1610612755.0,McCain,SUB out: J. McCain,substitution,substitution,15,Low
+22500258,527,substitution,4,PT12M00.00S,12:00,Q4 12:00,82,97,1610612755.0,Barlow,SUB in: D. Barlow,substitution,substitution,15,Low
+22500258,528,substitution,4,PT12M00.00S,12:00,Q4 12:00,82,97,1610612755.0,Maxey,SUB in: T. Maxey,substitution,substitution,15,Low
+22500258,529,substitution,4,PT12M00.00S,12:00,Q4 12:00,82,97,1610612755.0,Grimes,SUB in: Q. Grimes,substitution,substitution,15,Low
+22500258,530,substitution,4,PT12M00.00S,12:00,Q4 12:00,82,97,1610612761.0,Walter,SUB out: J. Walter,substitution,substitution,15,Low
+22500258,531,substitution,4,PT12M00.00S,12:00,Q4 12:00,82,97,1610612761.0,Shead,SUB in: J. Shead,substitution,foul,15,Low
+22500258,533,foul,4,PT11M47.00S,11:47,Q4 11:47,82,97,1610612761.0,Barrett,R. Barrett shooting personal FOUL (2 PF) (Edgecombe 2 FT),substitution,freethrow,15,Low
+22500258,535,freethrow,4,PT11M47.00S,11:47,Q4 11:47,83,97,1610612755.0,Edgecombe,V. Edgecombe Free Throw 1 of 2 (15 PTS),foul,freethrow,14,Low
+22500258,536,freethrow,4,PT11M47.00S,11:47,Q4 11:47,83,97,1610612755.0,Edgecombe,MISS V. Edgecombe Free Throw 2 of 2,freethrow,rebound,14,Low
+22500258,543,rebound,4,PT11M47.00S,11:47,Q4 11:47,83,97,1610612755.0,,TEAM offensive REBOUND,freethrow,foul,14,Low
+22500258,537,foul,4,PT11M47.00S,11:47,Q4 11:47,83,97,1610612761.0,Mamukelashvili,S. Mamukelashvili loose ball personal FOUL (2 PF),rebound,2pt made,14,Low
+22500258,539,2pt,4,PT11M35.00S,11:35,Q4 11:35,85,97,1610612755.0,Edgecombe,V. Edgecombe cutting finger roll Layup (17 PTS) (D. Barlow 3 AST),foul,3pt made,12,Low
+22500258,541,3pt,4,PT11M14.00S,11:14,Q4 11:14,85,100,1610612761.0,Quickley,I. Quickley 28' 3PT pullup (10 PTS),2pt made,foul,15,Low
+22500258,545,foul,4,PT11M01.00S,11:01,Q4 11:01,85,100,1610612761.0,Quickley,I. Quickley personal FOUL (2 PF),3pt made,3pt missed,15,Low
+22500258,547,3pt,4,PT10M52.00S,10:52,Q4 10:52,85,100,1610612755.0,Edgecombe,MISS V. Edgecombe 3PT,foul,rebound,15,Low
+22500258,548,rebound,4,PT10M48.00S,10:48,Q4 10:48,85,100,1610612755.0,Walker,J. Walker REBOUND (Off:3 Def:2),3pt missed,2pt missed,15,Low
+22500258,549,2pt,4,PT10M45.00S,10:45,Q4 10:45,85,100,1610612755.0,Walker,MISS J. Walker putback Layup,rebound,rebound,15,Low
+22500258,550,rebound,4,PT10M40.00S,10:40,Q4 10:40,85,100,1610612755.0,Walker,J. Walker REBOUND (Off:4 Def:2),2pt missed,2pt missed,15,Low
+22500258,551,2pt,4,PT10M40.00S,10:40,Q4 10:40,85,100,1610612755.0,Walker,MISS J. Walker putback Layup,rebound,rebound,15,Low
+22500258,552,rebound,4,PT10M38.00S,10:38,Q4 10:38,85,100,1610612755.0,Edgecombe,V. Edgecombe REBOUND (Off:3 Def:2),2pt missed,2pt missed,15,Low
+22500258,553,2pt,4,PT10M38.00S,10:38,Q4 10:38,85,100,1610612755.0,Edgecombe,MISS V. Edgecombe tip Layup,rebound,rebound,15,Low
+22500258,554,rebound,4,PT10M36.00S,10:36,Q4 10:36,85,100,1610612755.0,Walker,J. Walker REBOUND (Off:5 Def:2),2pt missed,2pt made,15,Low
+22500258,555,2pt,4,PT10M36.00S,10:36,Q4 10:36,87,100,1610612755.0,Walker,J. Walker putback Layup (7 PTS),rebound,3pt made,13,Low
+22500258,556,3pt,4,PT10M26.00S,10:26,Q4 10:26,87,103,1610612761.0,Barrett,R. Barrett 25' 3PT  (20 PTS) (I. Quickley 6 AST),2pt made,3pt made,16,Low
+22500258,558,3pt,4,PT10M04.00S,10:04,Q4 10:04,90,103,1610612755.0,Grimes,Q. Grimes 24' 3PT step back (9 PTS) (J. Walker 2 AST),3pt made,3pt missed,13,Low
+22500258,560,3pt,4,PT09M34.00S,09:34,Q4 09:34,90,103,1610612761.0,Mamukelashvili,MISS S. Mamukelashvili 27' 3PT,3pt made,rebound,13,Low
+22500258,561,rebound,4,PT09M30.00S,09:30,Q4 09:30,90,103,1610612755.0,Edgecombe,V. Edgecombe REBOUND (Off:3 Def:3),3pt missed,2pt made,13,Low
+22500258,562,2pt,4,PT09M27.00S,09:27,Q4 09:27,92,103,1610612755.0,Edgecombe,V. Edgecombe running DUNK (19 PTS),rebound,timeout,11,Low
+22500258,563,timeout,4,PT09M16.00S,09:16,Q4 09:16,92,103,1610612761.0,,TOR Timeout,2pt made,substitution,11,Low
+22500258,564,substitution,4,PT09M16.00S,09:16,Q4 09:16,92,103,1610612755.0,Barlow,SUB out: D. Barlow,timeout,substitution,11,Low
+22500258,565,substitution,4,PT09M16.00S,09:16,Q4 09:16,92,103,1610612761.0,Dick,SUB out: G. Dick,substitution,substitution,11,Low
+22500258,566,substitution,4,PT09M16.00S,09:16,Q4 09:16,92,103,1610612761.0,Barrett,SUB out: R. Barrett,substitution,substitution,11,Low
+22500258,567,substitution,4,PT09M16.00S,09:16,Q4 09:16,92,103,1610612761.0,Mamukelashvili,SUB out: S. Mamukelashvili,substitution,substitution,11,Low
+22500258,568,substitution,4,PT09M16.00S,09:16,Q4 09:16,92,103,1610612755.0,Drummond,SUB in: A. Drummond,substitution,substitution,11,Low
+22500258,569,substitution,4,PT09M16.00S,09:16,Q4 09:16,92,103,1610612761.0,Barnes,SUB in: S. Barnes,substitution,substitution,11,Low
+22500258,570,substitution,4,PT09M16.00S,09:16,Q4 09:16,92,103,1610612761.0,Poeltl,SUB in: J. Poeltl,substitution,substitution,11,Low
+22500258,571,substitution,4,PT09M16.00S,09:16,Q4 09:16,92,103,1610612761.0,Ingram,SUB in: B. Ingram,substitution,turnover,11,Low
+22500258,572,turnover,4,PT09M01.00S,09:01,Q4 09:01,92,103,1610612761.0,Shead,J. Shead bad pass TURNOVER (1 TO),substitution,steal,11,Low
+22500258,573,steal,4,PT09M01.00S,09:01,Q4 09:01,92,103,1610612755.0,Maxey,T. Maxey STEAL (3 STL),turnover,3pt missed,11,Low
+22500258,574,3pt,4,PT08M44.00S,08:44,Q4 08:44,92,103,1610612755.0,Grimes,MISS Q. Grimes 24' 3PT,steal,rebound,11,Low
+22500258,575,rebound,4,PT08M43.00S,08:43,Q4 08:43,92,103,1610612755.0,,TEAM offensive REBOUND,3pt missed,foul,11,Low
+22500258,576,foul,4,PT08M43.00S,08:43,Q4 08:43,92,103,1610612761.0,Barnes,S. Barnes loose ball personal FOUL (1 PF),rebound,2pt made,11,Low
+22500258,578,2pt,4,PT08M34.00S,08:34,Q4 08:34,94,103,1610612755.0,Walker,J. Walker DUNK (9 PTS),foul,turnover,9,Low
+22500258,580,turnover,4,PT08M15.00S,08:15,Q4 08:15,94,103,1610612761.0,Ingram,B. Ingram lost ball TURNOVER (4 TO),2pt made,steal,9,Low
+22500258,581,steal,4,PT08M15.00S,08:15,Q4 08:15,94,103,1610612755.0,Drummond,A. Drummond STEAL (1 STL),turnover,2pt made,9,Low
+22500258,582,2pt,4,PT08M12.00S,08:12,Q4 08:12,96,103,1610612755.0,Drummond,A. Drummond driving DUNK (8 PTS),steal,foul,7,Medium
+22500258,583,foul,4,PT08M08.00S,08:08,Q4 08:08,96,103,1610612755.0,Walker,J. Walker personal FOUL (2 PF),2pt made,turnover,7,Medium
+22500258,585,turnover,4,PT08M01.00S,08:01,Q4 08:01,96,103,1610612761.0,Barnes,S. Barnes bad pass TURNOVER (4 TO),foul,steal,7,Medium
+22500258,586,steal,4,PT08M01.00S,08:01,Q4 08:01,96,103,1610612755.0,Drummond,A. Drummond STEAL (2 STL),turnover,2pt made,7,Medium
+22500258,587,2pt,4,PT07M46.00S,07:46,Q4 07:46,98,103,1610612755.0,Grimes,Q. Grimes driving reverse Layup (11 PTS) (V. Edgecombe 4 AST),steal,2pt made,5,Medium
+22500258,589,2pt,4,PT07M30.00S,07:30,Q4 07:30,98,105,1610612761.0,Ingram,B. Ingram finger roll Layup (22 PTS) (J. Poeltl 4 AST),2pt made,timeout,7,Medium
+22500258,591,timeout,4,PT07M23.00S,07:23,Q4 07:23,98,105,1610612755.0,,PHI Timeout,2pt made,2pt made,7,Medium
+22500258,592,2pt,4,PT07M11.00S,07:11,Q4 07:11,100,105,1610612755.0,Drummond,A. Drummond driving reverse Layup (10 PTS) (Q. Grimes 2 AST),timeout,2pt made,5,Medium
+22500258,594,2pt,4,PT06M47.00S,06:47,Q4 06:47,100,107,1610612761.0,Barnes,S. Barnes 12' floating Jump Shot (14 PTS) (J. Shead 6 AST),2pt made,2pt missed,7,Medium
+22500258,596,2pt,4,PT06M29.00S,06:29,Q4 06:29,100,107,1610612755.0,Edgecombe,MISS V. Edgecombe driving finger roll Layup,2pt made,rebound,7,Medium
+22500258,597,rebound,4,PT06M29.00S,06:29,Q4 06:29,100,107,1610612761.0,Poeltl,J. Poeltl REBOUND (Off:3 Def:4),2pt missed,foul,7,Medium
+22500258,601,foul,4,PT06M16.00S,06:16,Q4 06:16,100,107,1610612761.0,Barnes,S. Barnes offensive FOUL (2 PF),rebound,turnover,7,Medium
+22500258,603,turnover,4,PT06M16.00S,06:16,Q4 06:16,100,107,1610612761.0,Barnes,S. Barnes offensive foul TURNOVER (5 TO),foul,3pt made,7,Medium
+22500258,604,3pt,4,PT06M02.00S,06:02,Q4 06:02,103,107,1610612755.0,Grimes,Q. Grimes 26' 3PT  (14 PTS) (T. Maxey 6 AST),turnover,2pt made,4,High
+22500258,606,2pt,4,PT05M47.00S,05:47,Q4 05:47,103,109,1610612761.0,Quickley,I. Quickley 9' fadeaway Jump Shot (12 PTS),3pt made,3pt made,6,High
+22500258,607,3pt,4,PT05M23.00S,05:23,Q4 05:23,106,109,1610612755.0,Grimes,Q. Grimes 28' 3PT  (17 PTS) (T. Maxey 7 AST),2pt made,3pt missed,3,High
+22500258,609,3pt,4,PT05M03.00S,05:03,Q4 05:03,106,109,1610612761.0,Barnes,MISS S. Barnes 3PT,3pt made,rebound,3,High
+22500258,610,rebound,4,PT04M59.00S,04:59,Q4 04:59,106,109,1610612755.0,Walker,J. Walker REBOUND (Off:5 Def:3),3pt missed,substitution,3,High
+22500258,612,substitution,4,PT04M59.00S,04:59,Q4 04:59,106,109,1610612761.0,Shead,SUB out: J. Shead,rebound,substitution,3,High
+22500258,613,substitution,4,PT04M59.00S,04:59,Q4 04:59,106,109,1610612761.0,Barrett,SUB in: R. Barrett,substitution,3pt missed,3,High
+22500258,614,3pt,4,PT04M47.00S,04:47,Q4 04:47,106,109,1610612755.0,Maxey,MISS T. Maxey 27' pullup 3PT,substitution,rebound,3,High
+22500258,615,rebound,4,PT04M46.00S,04:46,Q4 04:46,106,109,1610612761.0,,TEAM defensive REBOUND,3pt missed,foul,3,High
+22500258,616,foul,4,PT04M46.00S,04:46,Q4 04:46,106,109,1610612755.0,Drummond,A. Drummond loose ball personal FOUL (2 PF),rebound,2pt made,3,High
+22500258,618,2pt,4,PT04M35.00S,04:35,Q4 04:35,106,111,1610612761.0,Poeltl,J. Poeltl cutting Layup (19 PTS) (S. Barnes 5 AST),foul,2pt missed,5,High
+22500258,620,2pt,4,PT04M18.00S,04:18,Q4 04:18,106,111,1610612755.0,Grimes,MISS Q. Grimes driving Layup,2pt made,rebound,5,High
+22500258,622,rebound,4,PT04M16.00S,04:16,Q4 04:16,106,111,1610612761.0,Quickley,I. Quickley REBOUND (Off:0 Def:4),2pt missed,2pt missed,5,High
+22500258,623,2pt,4,PT04M14.00S,04:14,Q4 04:14,106,111,1610612761.0,Barnes,MISS S. Barnes running Layup - blocked,rebound,block,5,High
+22500258,624,block,4,PT04M14.00S,04:14,Q4 04:14,106,111,1610612755.0,Edgecombe,V. Edgecombe BLOCK (2 BLK),2pt missed,rebound,5,High
+22500258,625,rebound,4,PT04M14.00S,04:14,Q4 04:14,106,111,1610612761.0,,TEAM offensive REBOUND,block,3pt missed,5,High
+22500258,627,3pt,4,PT04M02.00S,04:02,Q4 04:02,106,111,1610612761.0,Quickley,MISS I. Quickley 27' 3PT,rebound,rebound,5,High
+22500258,628,rebound,4,PT03M58.00S,03:58,Q4 03:58,106,111,1610612755.0,Walker,J. Walker REBOUND (Off:5 Def:4),3pt missed,turnover,5,High
+22500258,629,turnover,4,PT03M49.00S,03:49,Q4 03:49,106,111,1610612755.0,Maxey,T. Maxey bad pass out-of-bounds TURNOVER (3 TO),rebound,timeout,5,High
+22500258,630,timeout,4,PT03M49.00S,03:49,Q4 03:49,106,111,1610612761.0,,TOR Timeout,turnover,3pt missed,5,High
+22500258,631,3pt,4,PT03M32.00S,03:32,Q4 03:32,106,111,1610612761.0,Barrett,MISS R. Barrett 26' 3PT,timeout,rebound,5,High
+22500258,632,rebound,4,PT03M28.00S,03:28,Q4 03:28,106,111,1610612755.0,Drummond,A. Drummond REBOUND (Off:4 Def:8),3pt missed,2pt made,5,High
+22500258,633,2pt,4,PT03M23.00S,03:23,Q4 03:23,108,111,1610612755.0,Edgecombe,V. Edgecombe running Layup (21 PTS) (T. Maxey 8 AST),rebound,3pt made,3,High
+22500258,635,3pt,4,PT03M01.00S,03:01,Q4 03:01,108,114,1610612761.0,Quickley,I. Quickley 25' 3PT  (15 PTS) (B. Ingram 4 AST),2pt made,2pt missed,6,High
+22500258,637,2pt,4,PT02M41.00S,02:41,Q4 02:41,108,114,1610612755.0,Grimes,MISS Q. Grimes 18' step back Shot,3pt made,rebound,6,High
+22500258,638,rebound,4,PT02M38.00S,02:38,Q4 02:38,108,114,1610612761.0,Quickley,I. Quickley REBOUND (Off:0 Def:5),2pt missed,2pt missed,6,High
+22500258,639,2pt,4,PT02M22.00S,02:22,Q4 02:22,108,114,1610612761.0,Barnes,MISS S. Barnes driving Layup,rebound,rebound,6,High
+22500258,640,rebound,4,PT02M19.00S,02:19,Q4 02:19,108,114,1610612761.0,Barnes,S. Barnes REBOUND (Off:3 Def:5),2pt missed,2pt made,6,High
+22500258,641,2pt,4,PT02M19.00S,02:19,Q4 02:19,108,116,1610612761.0,Barnes,S. Barnes putback DUNK (16 PTS),rebound,foul,8,High
+22500258,642,foul,4,PT02M06.00S,02:06,Q4 02:06,108,116,1610612761.0,Ingram,B. Ingram personal FOUL (5 PF) (Grimes 2 FT),2pt made,freethrow,8,High
+22500258,644,freethrow,4,PT02M06.00S,02:06,Q4 02:06,109,116,1610612755.0,Grimes,Q. Grimes Free Throw 1 of 2 (18 PTS),foul,freethrow,7,High
+22500258,645,freethrow,4,PT02M06.00S,02:06,Q4 02:06,110,116,1610612755.0,Grimes,Q. Grimes Free Throw 2 of 2 (19 PTS),freethrow,2pt missed,6,High
+22500258,646,2pt,4,PT01M43.00S,01:43,Q4 01:43,110,116,1610612761.0,Barnes,MISS S. Barnes driving floating Shot,freethrow,rebound,6,High
+22500258,647,rebound,4,PT01M41.00S,01:41,Q4 01:41,110,116,1610612761.0,Barnes,S. Barnes REBOUND (Off:4 Def:5),2pt missed,turnover,6,High
+22500258,648,turnover,4,PT01M41.00S,01:41,Q4 01:41,110,116,1610612761.0,Barnes,S. Barnes lost ball TURNOVER (6 TO),rebound,steal,6,High
+22500258,649,steal,4,PT01M41.00S,01:41,Q4 01:41,110,116,1610612755.0,Grimes,Q. Grimes STEAL (2 STL),turnover,2pt made,6,High
+22500258,650,2pt,4,PT01M38.00S,01:38,Q4 01:38,112,116,1610612755.0,Grimes,Q. Grimes running DUNK (21 PTS) (T. Maxey 9 AST),steal,3pt made,4,Very High
+22500258,652,3pt,4,PT01M19.00S,01:19,Q4 01:19,112,119,1610612761.0,Quickley,I. Quickley 26' 3PT pullup (18 PTS),2pt made,3pt missed,7,High
+22500258,653,3pt,4,PT01M04.00S,01:04,Q4 01:04,112,119,1610612755.0,Grimes,MISS Q. Grimes 26' 3PT,3pt made,rebound,7,High
+22500258,654,rebound,4,PT01M01.00S,01:01,Q4 01:01,112,119,1610612761.0,Poeltl,J. Poeltl REBOUND (Off:3 Def:5),3pt missed,foul,7,High
+22500258,655,foul,4,PT00M42.70S,00:42,Q4 00:42,112,119,1610612755.0,Drummond,A. Drummond personal FOUL (3 PF),rebound,2pt made,7,High
+22500258,657,2pt,4,PT00M38.20S,00:38,Q4 00:38,112,121,1610612761.0,Barrett,R. Barrett cutting DUNK (22 PTS) (B. Ingram 5 AST),foul,timeout,9,Medium
+22500258,659,timeout,4,PT00M38.20S,00:38,Q4 00:38,112,121,1610612755.0,,PHI Timeout,2pt made,3pt missed,9,Medium
+22500258,660,3pt,4,PT00M36.80S,00:36,Q4 00:36,112,121,1610612755.0,Edgecombe,MISS V. Edgecombe 25' 3PT,timeout,rebound,9,Medium
+22500258,661,rebound,4,PT00M33.40S,00:33,Q4 00:33,112,121,1610612761.0,Barrett,R. Barrett REBOUND (Off:0 Def:3),3pt missed,turnover,9,Medium
+22500258,662,turnover,4,PT00M10.20S,00:10,Q4 00:10,112,121,1610612761.0,,TOR shot clock Team TURNOVER,rebound,,9,Medium

@@ -1,0 +1,547 @@
+game_id,actionNumber,actionType,period,clock,clock_display,game_clock,scoreHome,scoreAway,teamId,playerName,description,previous_action,next_action,score_margin,leverage_bucket
+21300378,0,period,1,PT12M00.00S,12:00,Q1 12:00,0,0,1610612756.0,,Start of 1st Period (9:11 PM EST),,turnover,0,Low
+21300378,2,turnover,1,PT11M42.00S,11:42,Q1 11:42,0,0,1610612759.0,Joseph,Joseph Traveling Turnover (P1.T1),period,3pt made,0,Low
+21300378,3,3pt,1,PT11M30.00S,11:30,Q1 11:30,3,0,1610612756.0,Frye,Frye 24' 3PT Jump Shot (3 PTS) (Tucker 1 AST),turnover,2pt made,3,Low
+21300378,4,2pt,1,PT11M14.00S,11:14,Q1 11:14,3,2,1610612759.0,Splitter,Splitter 7' Running Hook Shot (2 PTS),3pt made,3pt made,1,Low
+21300378,5,3pt,1,PT10M53.00S,10:53,Q1 10:53,6,2,1610612756.0,Frye,Frye 26' 3PT Jump Shot (6 PTS) (Bledsoe 1 AST),2pt made,2pt made,4,Low
+21300378,6,2pt,1,PT10M42.00S,10:42,Q1 10:42,6,4,1610612759.0,Belinelli,Belinelli 2' Layup (2 PTS) (Duncan 1 AST),3pt made,2pt missed,2,Low
+21300378,7,2pt,1,PT10M26.00S,10:26,Q1 10:26,0,0,1610612756.0,Plumlee,MISS Plumlee 2' Layup,2pt made,2pt made,0,Low
+21300378,8,2pt,1,PT10M24.00S,10:24,Q1 10:24,8,4,1610612756.0,Plumlee,Plumlee 2' Tip Shot (2 PTS),2pt missed,rebound,4,Low
+21300378,9,rebound,1,PT10M24.00S,10:24,Q1 10:24,0,0,1610612756.0,Plumlee,Plumlee REBOUND (Off:1 Def:0),2pt made,turnover,0,Low
+21300378,10,turnover,1,PT10M13.00S,10:13,Q1 10:13,0,0,1610612759.0,Duncan,Duncan Lost Ball Turnover (P1.T2),rebound,steal,0,Low
+21300378,10,steal,1,PT10M13.00S,10:13,Q1 10:13,0,0,1610612756.0,Plumlee,Plumlee STEAL (1 STL),turnover,foul,0,Low
+21300378,11,foul,1,PT10M10.00S,10:10,Q1 10:10,0,0,1610612759.0,Joseph,Joseph Shooting Block Foul (P1.T1),steal,freethrow,0,Low
+21300378,12,freethrow,1,PT10M10.00S,10:10,Q1 10:10,9,4,1610612756.0,Tucker,Tucker Free Throw 1 of 2 (1 PTS),foul,freethrow,5,Low
+21300378,14,freethrow,1,PT10M10.00S,10:10,Q1 10:10,0,0,1610612756.0,Tucker,MISS Tucker Free Throw 2 of 2,freethrow,rebound,0,Low
+21300378,16,rebound,1,PT10M09.00S,10:09,Q1 10:09,0,0,1610612759.0,Splitter,Splitter REBOUND (Off:0 Def:1),freethrow,2pt made,0,Low
+21300378,17,2pt,1,PT10M00.00S,10:00,Q1 10:00,9,6,1610612759.0,Splitter,Splitter 1' Driving Layup (4 PTS),rebound,2pt missed,3,Low
+21300378,18,2pt,1,PT09M45.00S,09:45,Q1 09:45,0,0,1610612756.0,Dragic,MISS Dragic 15' Jump Shot,2pt made,rebound,0,Low
+21300378,19,rebound,1,PT09M44.00S,09:44,Q1 09:44,0,0,1610612759.0,Belinelli,Belinelli REBOUND (Off:0 Def:1),2pt missed,turnover,0,Low
+21300378,20,turnover,1,PT09M28.00S,09:28,Q1 09:28,0,0,1610612759.0,Duncan,Duncan Lost Ball Turnover (P2.T3),rebound,steal,0,Low
+21300378,20,steal,1,PT09M28.00S,09:28,Q1 09:28,0,0,1610612756.0,Plumlee,Plumlee STEAL (2 STL),turnover,2pt missed,0,Low
+21300378,21,2pt,1,PT09M24.00S,09:24,Q1 09:24,0,0,1610612756.0,Dragic,MISS Dragic 1' Layup,steal,rebound,0,Low
+21300378,22,rebound,1,PT09M21.00S,09:21,Q1 09:21,0,0,1610612759.0,Joseph,Joseph REBOUND (Off:0 Def:1),2pt missed,2pt missed,0,Low
+21300378,23,2pt,1,PT09M09.00S,09:09,Q1 09:09,0,0,1610612759.0,Belinelli,MISS Belinelli 17' Pullup Jump Shot,rebound,rebound,0,Low
+21300378,24,rebound,1,PT09M08.00S,09:08,Q1 09:08,0,0,1610612759.0,Duncan,Duncan REBOUND (Off:1 Def:0),2pt missed,2pt missed,0,Low
+21300378,25,2pt,1,PT09M02.00S,09:02,Q1 09:02,0,0,1610612759.0,Leonard,MISS Leonard 4' Jump Shot,rebound,rebound,0,Low
+21300378,26,rebound,1,PT09M00.00S,09:00,Q1 09:00,0,0,1610612756.0,Tucker,Tucker REBOUND (Off:0 Def:1),2pt missed,2pt made,0,Low
+21300378,27,2pt,1,PT08M54.00S,08:54,Q1 08:54,11,6,1610612756.0,Frye,Frye 1' Dunk (8 PTS) (Bledsoe 2 AST),rebound,timeout,5,Low
+21300378,28,timeout,1,PT08M52.00S,08:52,Q1 08:52,0,0,1610612759.0,,Spurs Timeout: Regular (Reg.1 Short 0),2pt made,foul,0,Low
+21300378,32,foul,1,PT08M39.00S,08:39,Q1 08:39,0,0,1610612756.0,Dragic,Dragic P.FOUL (P1.T1),timeout,2pt missed,0,Low
+21300378,33,2pt,1,PT08M32.00S,08:32,Q1 08:32,0,0,1610612759.0,Belinelli,MISS Belinelli 1' Layup,foul,rebound,0,Low
+21300378,34,rebound,1,PT08M30.00S,08:30,Q1 08:30,0,0,1610612759.0,Splitter,Splitter REBOUND (Off:1 Def:1),2pt missed,2pt made,0,Low
+21300378,35,2pt,1,PT08M29.00S,08:29,Q1 08:29,11,8,1610612759.0,Duncan,Duncan 1' Layup (2 PTS),rebound,foul,3,Low
+21300378,36,foul,1,PT08M29.00S,08:29,Q1 08:29,0,0,1610612756.0,Plumlee,Plumlee S.FOUL (P1.T2),2pt made,freethrow,0,Low
+21300378,37,freethrow,1,PT08M29.00S,08:29,Q1 08:29,11,9,1610612759.0,Duncan,Duncan Free Throw 1 of 1 (3 PTS),foul,2pt made,2,Low
+21300378,39,2pt,1,PT08M18.00S,08:18,Q1 08:18,13,9,1610612756.0,Frye,Frye 23' Jump Shot (10 PTS) (Tucker 2 AST),freethrow,2pt made,4,Low
+21300378,40,2pt,1,PT07M57.00S,07:57,Q1 07:57,13,11,1610612759.0,Leonard,Leonard 10' Hook Shot (2 PTS),2pt made,2pt made,2,Low
+21300378,41,2pt,1,PT07M44.00S,07:44,Q1 07:44,15,11,1610612756.0,Plumlee,Plumlee 1' Dunk (4 PTS) (Dragic 1 AST),2pt made,2pt missed,4,Low
+21300378,42,2pt,1,PT07M34.00S,07:34,Q1 07:34,0,0,1610612759.0,Leonard,MISS Leonard 1' Reverse Layup,2pt made,block,0,Low
+21300378,42,block,1,PT07M34.00S,07:34,Q1 07:34,0,0,1610612756.0,Frye,Frye BLOCK (1 BLK),2pt missed,rebound,0,Low
+21300378,43,rebound,1,PT07M32.00S,07:32,Q1 07:32,0,0,1610612756.0,Bledsoe,Bledsoe REBOUND (Off:0 Def:1),block,2pt made,0,Low
+21300378,44,2pt,1,PT07M27.00S,07:27,Q1 07:27,17,11,1610612756.0,Bledsoe,Bledsoe 17' Pullup Jump Shot (2 PTS),rebound,foul,6,Low
+21300378,45,foul,1,PT07M04.00S,07:04,Q1 07:04,0,0,1610612756.0,Bledsoe,Bledsoe S.FOUL (P1.T3),2pt made,freethrow,0,Low
+21300378,46,freethrow,1,PT07M04.00S,07:04,Q1 07:04,0,0,1610612759.0,Splitter,MISS Splitter Free Throw 1 of 2,foul,rebound,0,Low
+21300378,47,rebound,1,PT07M04.00S,07:04,Q1 07:04,0,0,1610612759.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21300378,48,freethrow,1,PT07M04.00S,07:04,Q1 07:04,17,12,1610612759.0,Splitter,Splitter Free Throw 2 of 2 (5 PTS),rebound,2pt made,5,Low
+21300378,50,2pt,1,PT06M49.00S,06:49,Q1 06:49,19,12,1610612756.0,Frye,Frye 8' Jump Bank Shot (12 PTS),freethrow,turnover,7,Low
+21300378,51,turnover,1,PT06M30.00S,06:30,Q1 06:30,0,0,1610612759.0,Duncan,Duncan Bad Pass Turnover (P3.T4),2pt made,steal,0,Low
+21300378,51,steal,1,PT06M30.00S,06:30,Q1 06:30,0,0,1610612756.0,Frye,Frye STEAL (1 STL),turnover,2pt missed,0,Low
+21300378,52,2pt,1,PT06M23.00S,06:23,Q1 06:23,0,0,1610612756.0,Tucker,MISS Tucker 22' Jump Shot,steal,rebound,0,Low
+21300378,53,rebound,1,PT06M23.00S,06:23,Q1 06:23,0,0,1610612759.0,,TEAM defensive REBOUND,2pt missed,substitution,0,Low
+21300378,54,substitution,1,PT06M23.00S,06:23,Q1 06:23,0,0,1610612759.0,Splitter,SUB out: T. Splitter,rebound,substitution,0,Low
+21300378,55,substitution,1,PT06M23.00S,06:23,Q1 06:23,0,0,1610612759.0,Diaw,SUB in: B. Diaw,substitution,2pt missed,0,Low
+21300378,55,2pt,1,PT06M03.00S,06:03,Q1 06:03,0,0,1610612759.0,Joseph,MISS Joseph 12' Jump Shot,substitution,rebound,0,Low
+21300378,56,rebound,1,PT06M01.00S,06:01,Q1 06:01,0,0,1610612756.0,Frye,Frye REBOUND (Off:0 Def:1),2pt missed,foul,0,Low
+21300378,57,foul,1,PT05M50.00S,05:50,Q1 05:50,0,0,1610612759.0,Joseph,Joseph Shooting Block Foul (P2.T2),rebound,freethrow,0,Low
+21300378,58,freethrow,1,PT05M50.00S,05:50,Q1 05:50,20,12,1610612756.0,Dragic,Dragic Free Throw 1 of 2 (1 PTS),foul,freethrow,8,Low
+21300378,61,freethrow,1,PT05M50.00S,05:50,Q1 05:50,21,12,1610612756.0,Dragic,Dragic Free Throw 2 of 2 (2 PTS),freethrow,substitution,9,Low
+21300378,60,substitution,1,PT05M50.00S,05:50,Q1 05:50,0,0,1610612759.0,Belinelli,SUB out: M. Belinelli,freethrow,substitution,0,Low
+21300378,61,substitution,1,PT05M50.00S,05:50,Q1 05:50,0,0,1610612759.0,Ginobili,SUB in: M. Ginobili,substitution,foul,0,Low
+21300378,63,foul,1,PT05M41.00S,05:41,Q1 05:41,0,0,1610612756.0,Frye,SUNS T.Foul (Def. 3 Sec Frye ),substitution,freethrow,0,Low
+21300378,64,freethrow,1,PT05M41.00S,05:41,Q1 05:41,21,13,1610612759.0,Ginobili,Ginobili Free Throw Technical (1 PTS),foul,substitution,8,Low
+21300378,66,substitution,1,PT05M41.00S,05:41,Q1 05:41,0,0,1610612759.0,Joseph,SUB out: C. Joseph,freethrow,substitution,0,Low
+21300378,67,substitution,1,PT05M41.00S,05:41,Q1 05:41,0,0,1610612759.0,Mills,SUB in: P. Mills,substitution,2pt missed,0,Low
+21300378,67,2pt,1,PT05M34.00S,05:34,Q1 05:34,0,0,1610612759.0,Duncan,MISS Duncan 10' Jump Bank Shot,substitution,rebound,0,Low
+21300378,68,rebound,1,PT05M31.00S,05:31,Q1 05:31,0,0,1610612756.0,Plumlee,Plumlee REBOUND (Off:1 Def:1),2pt missed,2pt missed,0,Low
+21300378,69,2pt,1,PT05M23.00S,05:23,Q1 05:23,0,0,1610612756.0,Bledsoe,MISS Bledsoe 10' Floating Jump Shot,rebound,rebound,0,Low
+21300378,70,rebound,1,PT05M19.00S,05:19,Q1 05:19,0,0,1610612759.0,Leonard,Leonard REBOUND (Off:0 Def:1),2pt missed,3pt missed,0,Low
+21300378,71,3pt,1,PT05M15.00S,05:15,Q1 05:15,0,0,1610612759.0,Ginobili,MISS Ginobili 25' 3PT Jump Shot,rebound,2pt missed,0,Low
+21300378,72,2pt,1,PT05M13.00S,05:13,Q1 05:13,0,0,1610612759.0,Duncan,MISS Duncan 2' Layup,3pt missed,rebound,0,Low
+21300378,73,rebound,1,PT05M13.00S,05:13,Q1 05:13,0,0,1610612759.0,Duncan,Duncan REBOUND (Off:2 Def:0),2pt missed,2pt missed,0,Low
+21300378,74,2pt,1,PT05M11.00S,05:11,Q1 05:11,0,0,1610612759.0,Duncan,MISS Duncan 2' Tip Shot,rebound,rebound,0,Low
+21300378,75,rebound,1,PT05M11.00S,05:11,Q1 05:11,0,0,1610612759.0,Duncan,Duncan REBOUND (Off:3 Def:0),2pt missed,rebound,0,Low
+21300378,76,rebound,1,PT05M11.00S,05:11,Q1 05:11,0,0,1610612759.0,,TEAM offensive REBOUND,rebound,substitution,0,Low
+21300378,77,substitution,1,PT05M11.00S,05:11,Q1 05:11,0,0,1610612756.0,Dragic,SUB out: G. Dragic,rebound,substitution,0,Low
+21300378,78,substitution,1,PT05M11.00S,05:11,Q1 05:11,0,0,1610612756.0,Green,SUB in: G. Green,substitution,2pt made,0,Low
+21300378,78,2pt,1,PT05M08.00S,05:08,Q1 05:08,21,15,1610612759.0,Ginobili,Ginobili 1' Layup (3 PTS) (Diaw 1 AST),substitution,turnover,6,Low
+21300378,79,turnover,1,PT04M53.00S,04:53,Q1 04:53,0,0,1610612756.0,Bledsoe,Bledsoe Bad Pass Turnover (P1.T1),2pt made,steal,0,Low
+21300378,79,steal,1,PT04M53.00S,04:53,Q1 04:53,0,0,1610612759.0,Mills,Mills STEAL (1 STL),turnover,2pt made,0,Low
+21300378,80,2pt,1,PT04M48.00S,04:48,Q1 04:48,21,17,1610612759.0,Diaw,Diaw 2' Reverse Layup (2 PTS) (Ginobili 1 AST),steal,3pt made,4,Low
+21300378,81,3pt,1,PT04M33.00S,04:33,Q1 04:33,24,17,1610612756.0,Frye,Frye 25' 3PT Jump Shot (15 PTS) (Green 1 AST),2pt made,2pt made,7,Low
+21300378,82,2pt,1,PT04M15.00S,04:15,Q1 04:15,24,19,1610612759.0,Ginobili,Ginobili 2' Driving Layup (5 PTS),3pt made,3pt made,5,Low
+21300378,83,3pt,1,PT03M59.00S,03:59,Q1 03:59,27,19,1610612756.0,Tucker,Tucker 24' 3PT Jump Shot (4 PTS) (Bledsoe 3 AST),2pt made,turnover,8,Low
+21300378,84,turnover,1,PT03M47.00S,03:47,Q1 03:47,0,0,1610612759.0,Ginobili,Ginobili Bad Pass Turnover (P1.T5),3pt made,substitution,0,Low
+21300378,85,substitution,1,PT03M47.00S,03:47,Q1 03:47,0,0,1610612759.0,Duncan,SUB out: T. Duncan,turnover,substitution,0,Low
+21300378,86,substitution,1,PT03M47.00S,03:47,Q1 03:47,0,0,1610612756.0,Plumlee,SUB out: M. Plumlee,substitution,substitution,0,Low
+21300378,87,substitution,1,PT03M47.00S,03:47,Q1 03:47,0,0,1610612759.0,Ayres,SUB in: J. Ayres,substitution,substitution,0,Low
+21300378,88,substitution,1,PT03M47.00S,03:47,Q1 03:47,0,0,1610612756.0,Morris,SUB in: M. Morris,substitution,2pt missed,0,Low
+21300378,87,2pt,1,PT03M27.00S,03:27,Q1 03:27,0,0,1610612756.0,Green,MISS Green 19' Pullup Jump Shot,substitution,rebound,0,Low
+21300378,88,rebound,1,PT03M24.00S,03:24,Q1 03:24,0,0,1610612756.0,Tucker,Tucker REBOUND (Off:1 Def:1),2pt missed,2pt made,0,Low
+21300378,89,2pt,1,PT03M17.00S,03:17,Q1 03:17,29,19,1610612756.0,Morris,Mark Morris 13' Jump Shot (2 PTS) (Green 2 AST),rebound,turnover,10,Low
+21300378,90,turnover,1,PT03M07.00S,03:07,Q1 03:07,0,0,1610612759.0,Diaw,Diaw Bad Pass Turnover (P1.T6),2pt made,2pt missed,0,Low
+21300378,91,2pt,1,PT02M48.00S,02:48,Q1 02:48,0,0,1610612756.0,Green,MISS Green 12' Jump Shot,turnover,rebound,0,Low
+21300378,92,rebound,1,PT02M46.00S,02:46,Q1 02:46,0,0,1610612759.0,Ayres,Ayres REBOUND (Off:0 Def:1),2pt missed,2pt made,0,Low
+21300378,93,2pt,1,PT02M40.00S,02:40,Q1 02:40,29,21,1610612759.0,Ayres,Ayres 1' Dunk (2 PTS) (Leonard 1 AST),rebound,turnover,8,Low
+21300378,94,turnover,1,PT02M30.00S,02:30,Q1 02:30,0,0,1610612756.0,Bledsoe,Bledsoe Out of Bounds Lost Ball Turnover (P2.T2),2pt made,timeout,0,Low
+21300378,95,timeout,1,PT02M30.00S,02:30,Q1 02:30,0,0,1610612756.0,,SUNS Timeout: Regular (Full 1 Short 0),turnover,substitution,0,Low
+21300378,97,substitution,1,PT02M30.00S,02:30,Q1 02:30,0,0,1610612759.0,Leonard,SUB out: K. Leonard,timeout,substitution,0,Low
+21300378,98,substitution,1,PT02M30.00S,02:30,Q1 02:30,0,0,1610612759.0,Green,SUB in: D. Green,substitution,turnover,0,Low
+21300378,100,turnover,1,PT02M22.00S,02:22,Q1 02:22,0,0,1610612759.0,Ginobili,Ginobili Traveling Turnover (P2.T7),substitution,foul,0,Low
+21300378,101,foul,1,PT02M11.00S,02:11,Q1 02:11,0,0,1610612756.0,Frye,Frye OFF.Foul (P1),turnover,turnover,0,Low
+21300378,102,turnover,1,PT02M11.00S,02:11,Q1 02:11,0,0,1610612756.0,Frye,Frye Foul Turnover (P1.T3),foul,2pt missed,0,Low
+21300378,103,2pt,1,PT01M54.00S,01:54,Q1 01:54,0,0,1610612759.0,Diaw,MISS Diaw 22' Jump Shot,turnover,rebound,0,Low
+21300378,104,rebound,1,PT01M54.00S,01:54,Q1 01:54,0,0,1610612759.0,,TEAM offensive REBOUND,2pt missed,substitution,0,Low
+21300378,105,substitution,1,PT01M54.00S,01:54,Q1 01:54,0,0,1610612756.0,Tucker,SUB out: P. Tucker,substitution,substitution,0,Low
+21300378,106,substitution,1,PT01M54.00S,01:54,Q1 01:54,0,0,1610612756.0,Morris,SUB in: M. Morris,substitution,2pt made,0,Low
+21300378,106,2pt,1,PT01M51.00S,01:51,Q1 01:51,29,23,1610612759.0,Ginobili,Ginobili 16' Jump Shot (7 PTS) (Mills 1 AST),substitution,3pt made,6,Low
+21300378,107,3pt,1,PT01M36.00S,01:36,Q1 01:36,32,23,1610612756.0,Green,Green 25' 3PT Jump Shot (3 PTS) (Bledsoe 4 AST),2pt made,3pt made,9,Low
+21300378,108,3pt,1,PT01M09.00S,01:09,Q1 01:09,32,26,1610612759.0,Mills,Mills 25' 3PT Jump Shot (3 PTS) (Ginobili 2 AST),3pt made,foul,6,Low
+21300378,109,foul,1,PT00M51.20S,00:51,Q1 00:51,0,0,1610612759.0,Ayres,Ayres Personal Block Foul (P1.T3),3pt made,2pt missed,0,Low
+21300378,110,2pt,1,PT00M41.90S,00:41,Q1 00:41,0,0,1610612756.0,Morris Sr.,MISS Marc Morris 15' Jump Shot,foul,rebound,0,Low
+21300378,111,rebound,1,PT00M40.40S,00:40,Q1 00:40,0,0,1610612759.0,Ginobili,Ginobili REBOUND (Off:0 Def:1),2pt missed,3pt made,0,Low
+21300378,112,3pt,1,PT00M32.90S,00:32,Q1 00:32,32,29,1610612759.0,Mills,Mills 25' 3PT Jump Shot (6 PTS) (Ginobili 3 AST),rebound,foul,3,Low
+21300378,113,foul,1,PT00M25.10S,00:25,Q1 00:25,0,0,1610612759.0,Mills,Mills P.FOUL (P1.PN),3pt made,freethrow,0,Low
+21300378,114,freethrow,1,PT00M25.10S,00:25,Q1 00:25,33,29,1610612756.0,Bledsoe,Bledsoe Free Throw 1 of 2 (3 PTS),foul,freethrow,4,Low
+21300378,118,freethrow,1,PT00M25.10S,00:25,Q1 00:25,34,29,1610612756.0,Bledsoe,Bledsoe Free Throw 2 of 2 (4 PTS),freethrow,substitution,5,Low
+21300378,116,substitution,1,PT00M25.10S,00:25,Q1 00:25,0,0,1610612759.0,Diaw,SUB out: B. Diaw,freethrow,substitution,0,Low
+21300378,117,substitution,1,PT00M25.10S,00:25,Q1 00:25,0,0,1610612756.0,Frye,SUB out: C. Frye,substitution,substitution,0,Low
+21300378,118,substitution,1,PT00M25.10S,00:25,Q1 00:25,0,0,1610612759.0,Bonner,SUB in: M. Bonner,substitution,substitution,0,Low
+21300378,119,substitution,1,PT00M25.10S,00:25,Q1 00:25,0,0,1610612756.0,Goodwin,SUB in: A. Goodwin,substitution,foul,0,Low
+21300378,120,foul,1,PT00M08.30S,00:08,Q1 00:08,0,0,1610612756.0,Morris,Mark Morris Personal Block Foul (P1.T4),substitution,2pt missed,0,Low
+21300378,121,2pt,1,PT00M00.90S,00:00,Q1 00:00,0,0,1610612759.0,Ginobili,MISS Ginobili 20' Jump Shot,foul,rebound,0,Low
+21300378,122,rebound,1,PT00M00.10S,00:00,Q1 00:00,0,0,1610612759.0,,TEAM offensive REBOUND,2pt missed,period,0,Low
+21300378,123,period,1,PT00M00.00S,00:00,Q1 00:00,34,29,1610612756.0,,End of 1st Period (9:36 PM EST),rebound,period,5,Low
+21300378,126,period,2,PT12M00.00S,12:00,Q2 12:00,34,29,1610612756.0,,Start of 2nd Period (9:39 PM EST),period,substitution,5,Low
+21300378,127,3pt,2,PT11M44.00S,11:44,Q2 11:44,0,0,1610612756.0,Dragic,MISS Dragic 25' 3PT Jump Shot,substitution,rebound,0,Low
+21300378,128,rebound,2,PT11M42.00S,11:42,Q2 11:42,0,0,1610612759.0,Ginobili,Ginobili REBOUND (Off:0 Def:2),3pt missed,2pt made,0,Low
+21300378,129,2pt,2,PT11M26.00S,11:26,Q2 11:26,34,31,1610612759.0,Ayres,Ayres 1' Dunk (4 PTS) (Diaw 2 AST),rebound,3pt missed,3,Low
+21300378,130,3pt,2,PT11M12.00S,11:12,Q2 11:12,0,0,1610612756.0,Green,MISS Green 26' 3PT Jump Shot,2pt made,rebound,0,Low
+21300378,131,rebound,2,PT11M10.00S,11:10,Q2 11:10,0,0,1610612759.0,Ayres,Ayres REBOUND (Off:0 Def:2),3pt missed,2pt missed,0,Low
+21300378,132,2pt,2,PT10M50.00S,10:50,Q2 10:50,0,0,1610612759.0,Diaw,MISS Diaw 8' Jump Shot,rebound,rebound,0,Low
+21300378,133,rebound,2,PT10M48.00S,10:48,Q2 10:48,0,0,1610612756.0,Morris,Mark Morris REBOUND (Off:0 Def:1),2pt missed,2pt missed,0,Low
+21300378,134,2pt,2,PT10M35.00S,10:35,Q2 10:35,0,0,1610612756.0,Morris,MISS Mark Morris 17' Jump Shot,rebound,rebound,0,Low
+21300378,135,rebound,2,PT10M33.00S,10:33,Q2 10:33,0,0,1610612759.0,Ginobili,Ginobili REBOUND (Off:0 Def:3),2pt missed,turnover,0,Low
+21300378,136,turnover,2,PT10M31.00S,10:31,Q2 10:31,0,0,1610612759.0,Ayres,Ayres Bad Pass Turnover (P1.T8),rebound,2pt made,0,Low
+21300378,137,2pt,2,PT10M13.00S,10:13,Q2 10:13,36,31,1610612756.0,Dragic,Dragic 1' Driving Layup (4 PTS),turnover,2pt made,5,Low
+21300378,138,2pt,2,PT10M01.00S,10:01,Q2 10:01,36,33,1610612759.0,Green,Green 1' Layup (2 PTS) (Ginobili 4 AST),2pt made,turnover,3,Low
+21300378,139,turnover,2,PT09M46.00S,09:46,Q2 09:46,0,0,1610612756.0,Dragic,Dragic Lost Ball Turnover (P1.T4),2pt made,steal,0,Low
+21300378,139,steal,2,PT09M46.00S,09:46,Q2 09:46,0,0,1610612759.0,Ginobili,Ginobili STEAL (1 STL),turnover,2pt made,0,Low
+21300378,140,2pt,2,PT09M32.00S,09:32,Q2 09:32,36,35,1610612759.0,Ginobili,Ginobili 2' Driving Layup (9 PTS),steal,turnover,1,Low
+21300378,141,turnover,2,PT09M14.00S,09:14,Q2 09:14,0,0,1610612756.0,Green,Green Bad Pass Turnover (P1.T5),2pt made,steal,0,Low
+21300378,141,steal,2,PT09M14.00S,09:14,Q2 09:14,0,0,1610612759.0,Ayres,Ayres STEAL (1 STL),turnover,2pt missed,0,Low
+21300378,142,2pt,2,PT09M08.00S,09:08,Q2 09:08,0,0,1610612759.0,Ginobili,MISS Ginobili 15' Jump Shot,steal,rebound,0,Low
+21300378,143,rebound,2,PT09M05.00S,09:05,Q2 09:05,0,0,1610612756.0,Morris Sr.,Marc Morris REBOUND (Off:0 Def:1),2pt missed,2pt made,0,Low
+21300378,144,2pt,2,PT08M55.00S,08:55,Q2 08:55,38,35,1610612756.0,Goodwin,Goodwin 6' Jump Bank Shot (2 PTS),rebound,timeout,3,Low
+21300378,145,timeout,2,PT08M54.00S,08:54,Q2 08:54,0,0,1610612759.0,,Spurs Timeout: Regular (Reg.2 Short 0),2pt made,substitution,0,Low
+21300378,148,substitution,2,PT08M54.00S,08:54,Q2 08:54,0,0,1610612759.0,Diaw,SUB out: B. Diaw,timeout,substitution,0,Low
+21300378,149,substitution,2,PT08M54.00S,08:54,Q2 08:54,0,0,1610612759.0,Ginobili,SUB out: M. Ginobili,substitution,substitution,0,Low
+21300378,150,substitution,2,PT08M54.00S,08:54,Q2 08:54,0,0,1610612759.0,Leonard,SUB in: K. Leonard,substitution,substitution,0,Low
+21300378,151,substitution,2,PT08M54.00S,08:54,Q2 08:54,0,0,1610612759.0,Bonner,SUB in: M. Bonner,substitution,2pt made,0,Low
+21300378,150,2pt,2,PT08M40.00S,08:40,Q2 08:40,38,37,1610612759.0,Mills,Mills 16' Jump Shot (8 PTS),substitution,turnover,1,Low
+21300378,151,turnover,2,PT08M23.00S,08:23,Q2 08:23,0,0,1610612756.0,Goodwin,Goodwin Lost Ball Turnover (P1.T6),2pt made,steal,0,Low
+21300378,151,steal,2,PT08M23.00S,08:23,Q2 08:23,0,0,1610612759.0,Leonard,Leonard STEAL (1 STL),turnover,foul,0,Low
+21300378,152,foul,2,PT08M18.00S,08:18,Q2 08:18,0,0,1610612759.0,Bonner,Bonner OFF.Foul (P1),steal,turnover,0,Low
+21300378,153,turnover,2,PT08M18.00S,08:18,Q2 08:18,0,0,1610612759.0,Bonner,Bonner Foul Turnover (P1.T9),foul,2pt made,0,Low
+21300378,154,2pt,2,PT08M02.00S,08:02,Q2 08:02,40,37,1610612756.0,Morris Sr.,Marc Morris 21' Step Back Jump Shot (2 PTS),turnover,2pt missed,3,Low
+21300378,155,2pt,2,PT07M50.00S,07:50,Q2 07:50,0,0,1610612759.0,Leonard,MISS Leonard 8' Jump Shot,2pt made,block,0,Low
+21300378,155,block,2,PT07M50.00S,07:50,Q2 07:50,0,0,1610612756.0,Green,Green BLOCK (1 BLK),2pt missed,rebound,0,Low
+21300378,156,rebound,2,PT07M50.00S,07:50,Q2 07:50,0,0,1610612759.0,,TEAM offensive REBOUND,block,foul,0,Low
+21300378,157,foul,2,PT07M46.00S,07:46,Q2 07:46,0,0,1610612756.0,Dragic,Dragic Shooting Block Foul (P2.T1),rebound,freethrow,0,Low
+21300378,158,freethrow,2,PT07M46.00S,07:46,Q2 07:46,0,0,1610612759.0,Green,MISS Green Free Throw 1 of 2,foul,rebound,0,Low
+21300378,159,rebound,2,PT07M46.00S,07:46,Q2 07:46,0,0,1610612759.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21300378,160,freethrow,2,PT07M46.00S,07:46,Q2 07:46,0,0,1610612759.0,Green,MISS Green Free Throw 2 of 2,rebound,rebound,0,Low
+21300378,162,rebound,2,PT07M45.00S,07:45,Q2 07:45,0,0,1610612756.0,Dragic,Dragic REBOUND (Off:0 Def:1),freethrow,2pt missed,0,Low
+21300378,163,2pt,2,PT07M31.00S,07:31,Q2 07:31,0,0,1610612756.0,Goodwin,MISS Goodwin 2' Layup,rebound,rebound,0,Low
+21300378,164,rebound,2,PT07M29.00S,07:29,Q2 07:29,0,0,1610612759.0,Ayres,Ayres REBOUND (Off:0 Def:3),2pt missed,2pt missed,0,Low
+21300378,165,2pt,2,PT07M14.00S,07:14,Q2 07:14,0,0,1610612759.0,Leonard,MISS Leonard 16' Jump Shot,rebound,rebound,0,Low
+21300378,166,rebound,2,PT07M12.00S,07:12,Q2 07:12,0,0,1610612756.0,Morris Sr.,Marc Morris REBOUND (Off:0 Def:2),2pt missed,2pt missed,0,Low
+21300378,167,2pt,2,PT07M02.00S,07:02,Q2 07:02,0,0,1610612756.0,Morris Sr.,MISS Marc Morris 14' Turnaround Jump Shot,rebound,2pt missed,0,Low
+21300378,168,2pt,2,PT07M00.00S,07:00,Q2 07:00,0,0,1610612756.0,Morris,MISS Mark Morris 1' Tip Shot,2pt missed,rebound,0,Low
+21300378,169,rebound,2,PT07M00.00S,07:00,Q2 07:00,0,0,1610612756.0,Morris,Mark Morris REBOUND (Off:1 Def:1),2pt missed,rebound,0,Low
+21300378,170,rebound,2,PT06M56.00S,06:56,Q2 06:56,0,0,1610612759.0,Leonard,Leonard REBOUND (Off:0 Def:2),rebound,substitution,0,Low
+21300378,172,substitution,2,PT06M53.00S,06:53,Q2 06:53,0,0,1610612756.0,Green,SUB out: G. Green,rebound,substitution,0,Low
+21300378,173,substitution,2,PT06M53.00S,06:53,Q2 06:53,0,0,1610612759.0,Ayres,SUB out: J. Ayres,substitution,substitution,0,Low
+21300378,174,substitution,2,PT06M53.00S,06:53,Q2 06:53,0,0,1610612756.0,Plumlee,SUB in: M. Plumlee,substitution,substitution,0,Low
+21300378,175,substitution,2,PT06M53.00S,06:53,Q2 06:53,0,0,1610612759.0,Duncan,SUB in: T. Duncan,substitution,2pt made,0,Low
+21300378,174,2pt,2,PT06M41.00S,06:41,Q2 06:41,40,39,1610612759.0,Duncan,Duncan 20' Jump Shot (5 PTS) (Green 1 AST),substitution,foul,1,Low
+21300378,175,foul,2,PT06M23.00S,06:23,Q2 06:23,0,0,1610612759.0,Duncan,Duncan S.FOUL (P1.T1),2pt made,freethrow,0,Low
+21300378,176,freethrow,2,PT06M23.00S,06:23,Q2 06:23,41,39,1610612756.0,Goodwin,Goodwin Free Throw 1 of 2 (3 PTS),foul,freethrow,2,Low
+21300378,179,freethrow,2,PT06M23.00S,06:23,Q2 06:23,0,0,1610612756.0,Goodwin,MISS Goodwin Free Throw 2 of 2,freethrow,substitution,0,Low
+21300378,178,substitution,2,PT06M23.00S,06:23,Q2 06:23,0,0,1610612759.0,Green,SUB out: D. Green,freethrow,substitution,0,Low
+21300378,179,substitution,2,PT06M23.00S,06:23,Q2 06:23,0,0,1610612759.0,Belinelli,SUB in: M. Belinelli,substitution,rebound,0,Low
+21300378,181,rebound,2,PT06M22.00S,06:22,Q2 06:22,0,0,1610612759.0,Leonard,Leonard REBOUND (Off:0 Def:3),substitution,3pt missed,0,Low
+21300378,182,3pt,2,PT06M15.00S,06:15,Q2 06:15,0,0,1610612759.0,Bonner,MISS Bonner 27' 3PT Jump Shot,rebound,rebound,0,Low
+21300378,183,rebound,2,PT06M13.00S,06:13,Q2 06:13,0,0,1610612756.0,Goodwin,Goodwin REBOUND (Off:0 Def:1),3pt missed,2pt missed,0,Low
+21300378,184,2pt,2,PT05M59.00S,05:59,Q2 05:59,0,0,1610612756.0,Dragic,MISS Dragic 16' Jump Shot,rebound,rebound,0,Low
+21300378,185,rebound,2,PT05M58.00S,05:58,Q2 05:58,0,0,1610612759.0,Duncan,Duncan REBOUND (Off:3 Def:1),2pt missed,3pt missed,0,Low
+21300378,186,3pt,2,PT05M51.00S,05:51,Q2 05:51,0,0,1610612759.0,Mills,MISS Mills 25' 3PT Jump Shot,rebound,rebound,0,Low
+21300378,187,rebound,2,PT05M49.00S,05:49,Q2 05:49,0,0,1610612756.0,Morris Sr.,Marc Morris REBOUND (Off:0 Def:3),3pt missed,2pt made,0,Low
+21300378,188,2pt,2,PT05M43.00S,05:43,Q2 05:43,43,39,1610612756.0,Plumlee,Plumlee 1' Dunk (6 PTS) (Dragic 2 AST),rebound,2pt made,4,Low
+21300378,189,2pt,2,PT05M26.00S,05:26,Q2 05:26,43,41,1610612759.0,Bonner,Bonner 7' Jump Shot (2 PTS),2pt made,turnover,2,Low
+21300378,190,turnover,2,PT05M14.00S,05:14,Q2 05:14,0,0,1610612756.0,Dragic,Dragic Traveling Turnover (P2.T7),2pt made,timeout,0,Low
+21300378,191,timeout,2,PT05M14.00S,05:14,Q2 05:14,0,0,0.0,,Timeout: Official,turnover,2pt missed,0,Low
+21300378,195,2pt,2,PT04M57.00S,04:57,Q2 04:57,0,0,1610612759.0,Leonard,MISS Leonard 6' Jump Shot,timeout,rebound,0,Low
+21300378,196,rebound,2,PT04M55.00S,04:55,Q2 04:55,0,0,1610612759.0,Leonard,Leonard REBOUND (Off:1 Def:3),2pt missed,2pt made,0,Low
+21300378,197,2pt,2,PT04M55.00S,04:55,Q2 04:55,43,43,1610612759.0,Leonard,Leonard 3' Layup (4 PTS),rebound,foul,0,Low
+21300378,198,foul,2,PT04M55.00S,04:55,Q2 04:55,0,0,1610612756.0,Morris Sr.,Marc Morris S.FOUL (P1.T2),2pt made,freethrow,0,Low
+21300378,199,freethrow,2,PT04M55.00S,04:55,Q2 04:55,0,0,1610612759.0,Leonard,MISS Leonard Free Throw 1 of 1,foul,rebound,0,Low
+21300378,201,rebound,2,PT04M54.00S,04:54,Q2 04:54,0,0,1610612756.0,Plumlee,Plumlee REBOUND (Off:1 Def:2),freethrow,2pt made,0,Low
+21300378,202,2pt,2,PT04M34.00S,04:34,Q2 04:34,45,43,1610612756.0,Morris,Mark Morris 15' Turnaround Fadeaway (4 PTS),rebound,3pt made,2,Low
+21300378,203,3pt,2,PT04M23.00S,04:23,Q2 04:23,45,46,1610612759.0,Leonard,Leonard 24' 3PT Jump Shot (7 PTS) (Belinelli 1 AST),2pt made,2pt made,1,Low
+21300378,204,2pt,2,PT04M13.00S,04:13,Q2 04:13,47,46,1610612756.0,Dragic,Dragic 1' Driving Layup (6 PTS),3pt made,3pt made,1,Low
+21300378,205,3pt,2,PT04M05.00S,04:05,Q2 04:05,47,49,1610612759.0,Bonner,Bonner 25' 3PT Jump Shot (5 PTS) (Mills 2 AST),2pt made,substitution,2,Low
+21300378,207,substitution,2,PT03M53.00S,03:53,Q2 03:53,0,0,1610612759.0,Mills,SUB out: P. Mills,3pt made,substitution,0,Low
+21300378,208,substitution,2,PT03M53.00S,03:53,Q2 03:53,0,0,1610612756.0,Morris,SUB out: M. Morris,substitution,substitution,0,Low
+21300378,209,substitution,2,PT03M53.00S,03:53,Q2 03:53,0,0,1610612756.0,Dragic,SUB out: G. Dragic,substitution,substitution,0,Low
+21300378,210,substitution,2,PT03M53.00S,03:53,Q2 03:53,0,0,1610612759.0,Joseph,SUB in: C. Joseph,substitution,substitution,0,Low
+21300378,211,substitution,2,PT03M53.00S,03:53,Q2 03:53,0,0,1610612756.0,Frye,SUB in: C. Frye,substitution,substitution,0,Low
+21300378,212,substitution,2,PT03M53.00S,03:53,Q2 03:53,0,0,1610612756.0,Bledsoe,SUB in: E. Bledsoe,substitution,2pt missed,0,Low
+21300378,210,2pt,2,PT03M51.00S,03:51,Q2 03:51,0,0,1610612756.0,Frye,MISS Frye 17' Jump Shot,substitution,rebound,0,Low
+21300378,211,rebound,2,PT03M49.00S,03:49,Q2 03:49,0,0,1610612759.0,Duncan,Duncan REBOUND (Off:3 Def:2),2pt missed,turnover,0,Low
+21300378,212,turnover,2,PT03M38.00S,03:38,Q2 03:38,0,0,1610612759.0,Leonard,Leonard Lost Ball Turnover (P1.T10),rebound,steal,0,Low
+21300378,212,steal,2,PT03M38.00S,03:38,Q2 03:38,0,0,1610612756.0,Goodwin,Goodwin STEAL (1 STL),turnover,2pt made,0,Low
+21300378,213,2pt,2,PT03M35.00S,03:35,Q2 03:35,49,49,1610612756.0,Goodwin,Goodwin  Layup (5 PTS),steal,2pt missed,0,Low
+21300378,214,2pt,2,PT03M16.00S,03:16,Q2 03:16,0,0,1610612759.0,Joseph,MISS Joseph 2' Layup,2pt made,rebound,0,Low
+21300378,215,rebound,2,PT03M15.00S,03:15,Q2 03:15,0,0,1610612756.0,Morris Sr.,Marc Morris REBOUND (Off:0 Def:4),2pt missed,2pt made,0,Low
+21300378,216,2pt,2,PT03M10.00S,03:10,Q2 03:10,51,49,1610612756.0,Plumlee,Plumlee 2' Reverse Layup (8 PTS) (Bledsoe 5 AST),rebound,2pt missed,2,Low
+21300378,218,2pt,2,PT02M55.00S,02:55,Q2 02:55,0,0,1610612759.0,Belinelli,MISS Belinelli 4' Jump Shot,2pt made,block,0,Low
+21300378,218,block,2,PT02M55.00S,02:55,Q2 02:55,0,0,1610612756.0,Plumlee,Plumlee BLOCK (1 BLK),2pt missed,rebound,0,Low
+21300378,219,rebound,2,PT02M53.00S,02:53,Q2 02:53,0,0,1610612756.0,Plumlee,Plumlee REBOUND (Off:1 Def:3),block,turnover,0,Low
+21300378,220,turnover,2,PT02M44.00S,02:44,Q2 02:44,0,0,1610612756.0,Frye,Frye Traveling Turnover (P2.T8),rebound,timeout,0,Low
+21300378,221,timeout,2,PT02M44.00S,02:44,Q2 02:44,0,0,1610612756.0,,SUNS Timeout: Regular (Full 2 Short 0),turnover,substitution,0,Low
+21300378,224,substitution,2,PT02M44.00S,02:44,Q2 02:44,0,0,1610612759.0,Bonner,SUB out: M. Bonner,timeout,substitution,0,Low
+21300378,225,substitution,2,PT02M44.00S,02:44,Q2 02:44,0,0,1610612759.0,Ginobili,SUB in: M. Ginobili,substitution,3pt made,0,Low
+21300378,225,3pt,2,PT02M31.00S,02:31,Q2 02:31,51,52,1610612759.0,Belinelli,Belinelli 26' 3PT Jump Shot (5 PTS) (Duncan 2 AST),substitution,turnover,1,Low
+21300378,226,turnover,2,PT02M15.00S,02:15,Q2 02:15,0,0,1610612756.0,Morris Sr.,Marc Morris Traveling Turnover (P1.T9),3pt made,3pt made,0,Low
+21300378,227,3pt,2,PT01M59.00S,01:59,Q2 01:59,51,55,1610612759.0,Leonard,Leonard 25' 3PT Jump Shot (10 PTS) (Ginobili 5 AST),turnover,2pt made,4,Low
+21300378,228,2pt,2,PT01M48.00S,01:48,Q2 01:48,53,55,1610612756.0,Bledsoe,Bledsoe 19' Jump Shot (6 PTS),3pt made,foul,2,Low
+21300378,229,foul,2,PT01M48.00S,01:48,Q2 01:48,0,0,1610612759.0,Joseph,Joseph S.FOUL (P3.T2),2pt made,freethrow,0,Low
+21300378,232,freethrow,2,PT01M48.00S,01:48,Q2 01:48,54,55,1610612756.0,Bledsoe,Bledsoe Free Throw 1 of 1 (7 PTS),foul,substitution,1,Low
+21300378,230,substitution,2,PT01M48.00S,01:48,Q2 01:48,0,0,1610612756.0,Morris Sr.,SUB out: M. Morris Sr.,freethrow,substitution,0,Low
+21300378,231,substitution,2,PT01M48.00S,01:48,Q2 01:48,0,0,1610612759.0,Joseph,SUB out: C. Joseph,substitution,substitution,0,Low
+21300378,232,substitution,2,PT01M48.00S,01:48,Q2 01:48,0,0,1610612756.0,Dragic,SUB in: G. Dragic,substitution,substitution,0,Low
+21300378,233,substitution,2,PT01M48.00S,01:48,Q2 01:48,0,0,1610612759.0,Mills,SUB in: P. Mills,substitution,3pt missed,0,Low
+21300378,234,3pt,2,PT01M32.00S,01:32,Q2 01:32,0,0,1610612759.0,Mills,MISS Mills  3PT Jump Shot,substitution,rebound,0,Low
+21300378,235,rebound,2,PT01M30.00S,01:30,Q2 01:30,0,0,1610612759.0,Duncan,Duncan REBOUND (Off:4 Def:2),3pt missed,2pt made,0,Low
+21300378,236,2pt,2,PT01M28.00S,01:28,Q2 01:28,54,57,1610612759.0,Duncan,Duncan 2' Layup (7 PTS),rebound,2pt missed,3,Low
+21300378,237,2pt,2,PT01M16.00S,01:16,Q2 01:16,0,0,1610612756.0,Dragic,MISS Dragic 6' Floating Jump Shot,2pt made,rebound,0,Low
+21300378,238,rebound,2,PT01M12.00S,01:12,Q2 01:12,0,0,1610612759.0,Belinelli,Belinelli REBOUND (Off:0 Def:2),2pt missed,turnover,0,Low
+21300378,239,turnover,2,PT01M11.00S,01:11,Q2 01:11,0,0,1610612759.0,Duncan,Duncan Traveling Turnover (P4.T11),rebound,2pt made,0,Low
+21300378,241,2pt,2,PT00M48.90S,00:48,Q2 00:48,56,57,1610612756.0,Dragic,Dragic  Driving Reverse Layup (8 PTS),turnover,foul,1,Low
+21300378,243,foul,2,PT00M43.60S,00:43,Q2 00:43,0,0,1610612756.0,Bledsoe,Bledsoe P.FOUL (P2.T3),2pt made,turnover,0,Low
+21300378,244,turnover,2,PT00M36.90S,00:36,Q2 00:36,0,0,1610612759.0,Belinelli,Belinelli Lost Ball Turnover (P1.T12),foul,steal,0,Low
+21300378,244,steal,2,PT00M36.90S,00:36,Q2 00:36,0,0,1610612756.0,Goodwin,Goodwin STEAL (2 STL),turnover,2pt made,0,Low
+21300378,245,2pt,2,PT00M33.90S,00:33,Q2 00:33,58,57,1610612756.0,Goodwin,Goodwin  Dunk (7 PTS),steal,2pt made,1,Low
+21300378,246,2pt,2,PT00M26.90S,00:26,Q2 00:26,58,59,1610612759.0,Ginobili,Ginobili 15' Pullup Jump Shot (11 PTS),2pt made,turnover,1,Low
+21300378,247,turnover,2,PT00M05.60S,00:05,Q2 00:05,0,0,1610612756.0,Bledsoe,Bledsoe Bad Pass Turnover (P3.T10),2pt made,timeout,0,Low
+21300378,248,timeout,2,PT00M05.60S,00:05,Q2 00:05,0,0,1610612759.0,,Spurs Timeout: Short (Reg.2 Short 1),turnover,substitution,0,Low
+21300378,250,substitution,2,PT00M05.60S,00:05,Q2 00:05,0,0,1610612756.0,Frye,SUB out: C. Frye,timeout,substitution,0,Low
+21300378,251,substitution,2,PT00M05.60S,00:05,Q2 00:05,0,0,1610612759.0,Belinelli,SUB out: M. Belinelli,substitution,substitution,0,Low
+21300378,252,substitution,2,PT00M05.60S,00:05,Q2 00:05,0,0,1610612756.0,Tucker,SUB in: P. Tucker,substitution,substitution,0,Low
+21300378,253,substitution,2,PT00M05.60S,00:05,Q2 00:05,0,0,1610612759.0,Bonner,SUB in: M. Bonner,substitution,3pt missed,0,Low
+21300378,253,3pt,2,PT00M00.30S,00:00,Q2 00:00,0,0,1610612759.0,Ginobili,MISS Ginobili 26' 3PT Jump Shot,substitution,rebound,0,Low
+21300378,254,rebound,2,PT00M00.10S,00:00,Q2 00:00,0,0,1610612756.0,Bledsoe,Bledsoe REBOUND (Off:0 Def:2),3pt missed,period,0,Low
+21300378,255,period,2,PT00M00.00S,00:00,Q2 00:00,58,59,1610612756.0,,End of 2nd Period (10:06 PM EST),rebound,instant replay,1,Low
+21300378,258,period,3,PT12M00.00S,12:00,Q3 12:00,58,59,1610612756.0,,Start of 3rd Period (10:23 PM EST),instant replay,substitution,1,Low
+21300378,259,2pt,3,PT11M38.00S,11:38,Q3 11:38,0,0,1610612756.0,Plumlee,MISS Plumlee 7' Hook Shot,substitution,rebound,0,Low
+21300378,260,rebound,3,PT11M35.00S,11:35,Q3 11:35,0,0,1610612759.0,Joseph,Joseph REBOUND (Off:0 Def:2),2pt missed,2pt missed,0,Low
+21300378,261,2pt,3,PT11M30.00S,11:30,Q3 11:30,0,0,1610612759.0,Leonard,MISS Leonard 6' Jump Shot,rebound,rebound,0,Low
+21300378,262,rebound,3,PT11M28.00S,11:28,Q3 11:28,0,0,1610612759.0,Splitter,Splitter REBOUND (Off:2 Def:1),2pt missed,foul,0,Low
+21300378,263,foul,3,PT11M19.00S,11:19,Q3 11:19,0,0,1610612756.0,Frye,Frye S.FOUL (P2.T1),rebound,freethrow,0,Low
+21300378,264,freethrow,3,PT11M19.00S,11:19,Q3 11:19,58,60,1610612759.0,Splitter,Splitter Free Throw 1 of 2 (6 PTS),foul,freethrow,2,Low
+21300378,266,freethrow,3,PT11M19.00S,11:19,Q3 11:19,58,61,1610612759.0,Splitter,Splitter Free Throw 2 of 2 (7 PTS),freethrow,2pt made,3,Low
+21300378,268,2pt,3,PT11M08.00S,11:08,Q3 11:08,60,61,1610612756.0,Bledsoe,Bledsoe 2' Reverse Layup (9 PTS) (Frye 1 AST),freethrow,2pt made,1,Low
+21300378,269,2pt,3,PT10M57.00S,10:57,Q3 10:57,60,63,1610612759.0,Leonard,Leonard 1' Layup (12 PTS),2pt made,foul,3,Low
+21300378,270,foul,3,PT10M47.00S,10:47,Q3 10:47,0,0,1610612756.0,Frye,Frye OFF.Foul (P3),2pt made,turnover,0,Low
+21300378,271,turnover,3,PT10M47.00S,10:47,Q3 10:47,0,0,1610612756.0,Frye,Frye Foul Turnover (P3.T11),foul,2pt made,0,Low
+21300378,272,2pt,3,PT10M32.00S,10:32,Q3 10:32,60,65,1610612759.0,Duncan,Duncan 13' Turnaround Jump Shot (9 PTS),turnover,3pt made,5,Low
+21300378,273,3pt,3,PT10M19.00S,10:19,Q3 10:19,63,65,1610612756.0,Frye,Frye 26' 3PT Jump Shot (18 PTS) (Bledsoe 6 AST),2pt made,2pt missed,2,Low
+21300378,274,2pt,3,PT09M51.00S,09:51,Q3 09:51,0,0,1610612759.0,Duncan,MISS Duncan 17' Jump Shot,3pt made,rebound,0,Low
+21300378,275,rebound,3,PT09M49.00S,09:49,Q3 09:49,0,0,1610612756.0,Frye,Frye REBOUND (Off:0 Def:2),2pt missed,2pt made,0,Low
+21300378,276,2pt,3,PT09M38.00S,09:38,Q3 09:38,65,65,1610612756.0,Bledsoe,Bledsoe 14' Pullup Jump Shot (11 PTS),rebound,timeout,0,Low
+21300378,277,timeout,3,PT09M34.00S,09:34,Q3 09:34,0,0,1610612759.0,,Spurs Timeout: Regular (Reg.3 Short 1),2pt made,substitution,0,Low
+21300378,279,substitution,3,PT09M34.00S,09:34,Q3 09:34,0,0,1610612759.0,Splitter,SUB out: T. Splitter,timeout,substitution,0,Low
+21300378,280,substitution,3,PT09M34.00S,09:34,Q3 09:34,0,0,1610612759.0,Diaw,SUB in: B. Diaw,substitution,turnover,0,Low
+21300378,281,turnover,3,PT09M18.00S,09:18,Q3 09:18,0,0,1610612759.0,Duncan,Duncan Traveling Turnover (P5.T13),substitution,2pt missed,0,Low
+21300378,282,2pt,3,PT09M07.00S,09:07,Q3 09:07,0,0,1610612756.0,Dragic,MISS Dragic 7' Jump Shot,turnover,block,0,Low
+21300378,282,block,3,PT09M07.00S,09:07,Q3 09:07,0,0,1610612759.0,Duncan,Duncan BLOCK (1 BLK),2pt missed,rebound,0,Low
+21300378,283,rebound,3,PT09M07.00S,09:07,Q3 09:07,0,0,1610612756.0,,TEAM offensive REBOUND,block,turnover,0,Low
+21300378,284,turnover,3,PT08M58.00S,08:58,Q3 08:58,0,0,1610612756.0,Frye,Frye Bad Pass Turnover (P4.T12),rebound,steal,0,Low
+21300378,284,steal,3,PT08M58.00S,08:58,Q3 08:58,0,0,1610612759.0,Duncan,Duncan STEAL (1 STL),turnover,2pt made,0,Low
+21300378,285,2pt,3,PT08M54.00S,08:54,Q3 08:54,65,67,1610612759.0,Joseph,Joseph 1' Reverse Layup (2 PTS) (Leonard 2 AST),steal,2pt made,2,Low
+21300378,286,2pt,3,PT08M48.00S,08:48,Q3 08:48,67,67,1610612756.0,Dragic,Dragic 1' Layup (10 PTS),2pt made,foul,0,Low
+21300378,287,foul,3,PT08M24.00S,08:24,Q3 08:24,0,0,1610612756.0,Plumlee,Plumlee S.FOUL (P2.T2),2pt made,freethrow,0,Low
+21300378,288,freethrow,3,PT08M24.00S,08:24,Q3 08:24,67,68,1610612759.0,Duncan,Duncan Free Throw 1 of 2 (10 PTS),foul,freethrow,1,Low
+21300378,290,freethrow,3,PT08M24.00S,08:24,Q3 08:24,67,69,1610612759.0,Duncan,Duncan Free Throw 2 of 2 (11 PTS),freethrow,2pt made,2,Low
+21300378,292,2pt,3,PT08M13.00S,08:13,Q3 08:13,69,69,1610612756.0,Frye,Frye 2' Layup (20 PTS),freethrow,2pt made,0,Low
+21300378,293,2pt,3,PT07M50.00S,07:50,Q3 07:50,69,71,1610612759.0,Duncan,Duncan 9' Jump Bank Shot (13 PTS),2pt made,2pt missed,2,Low
+21300378,294,2pt,3,PT07M42.00S,07:42,Q3 07:42,0,0,1610612756.0,Dragic,MISS Dragic 15' Jump Shot,2pt made,rebound,0,Low
+21300378,295,rebound,3,PT07M40.00S,07:40,Q3 07:40,0,0,1610612756.0,Plumlee,Plumlee REBOUND (Off:2 Def:3),2pt missed,turnover,0,Low
+21300378,296,turnover,3,PT07M38.00S,07:38,Q3 07:38,0,0,1610612756.0,Plumlee,Plumlee Lost Ball Turnover (P1.T13),rebound,steal,0,Low
+21300378,296,steal,3,PT07M38.00S,07:38,Q3 07:38,0,0,1610612759.0,Leonard,Leonard STEAL (2 STL),turnover,2pt made,0,Low
+21300378,298,2pt,3,PT07M24.00S,07:24,Q3 07:24,69,73,1610612759.0,Joseph,Joseph 17' Jump Shot (4 PTS),steal,2pt missed,4,Low
+21300378,299,2pt,3,PT07M02.00S,07:02,Q3 07:02,0,0,1610612756.0,Tucker,MISS Tucker 6' Jump Shot,2pt made,block,0,Low
+21300378,299,block,3,PT07M02.00S,07:02,Q3 07:02,0,0,1610612759.0,Duncan,Duncan BLOCK (2 BLK),2pt missed,rebound,0,Low
+21300378,300,rebound,3,PT06M59.00S,06:59,Q3 06:59,0,0,1610612756.0,Tucker,Tucker REBOUND (Off:2 Def:1),block,turnover,0,Low
+21300378,301,turnover,3,PT06M57.00S,06:57,Q3 06:57,0,0,1610612756.0,Tucker,Tucker Lost Ball Turnover (P1.T14),rebound,steal,0,Low
+21300378,301,steal,3,PT06M57.00S,06:57,Q3 06:57,0,0,1610612759.0,Duncan,Duncan STEAL (2 STL),turnover,foul,0,Low
+21300378,302,foul,3,PT06M57.00S,06:57,Q3 06:57,0,0,1610612756.0,Tucker,Tucker P.FOUL (P1.T3),steal,2pt missed,0,Low
+21300378,303,2pt,3,PT06M45.00S,06:45,Q3 06:45,0,0,1610612759.0,Duncan,MISS Duncan 9' Turnaround Jump Shot,foul,rebound,0,Low
+21300378,304,rebound,3,PT06M42.00S,06:42,Q3 06:42,0,0,1610612756.0,Plumlee,Plumlee REBOUND (Off:2 Def:4),2pt missed,foul,0,Low
+21300378,305,foul,3,PT06M40.00S,06:40,Q3 06:40,0,0,1610612759.0,Belinelli,Belinelli Shooting Block Foul (P1.T1),rebound,freethrow,0,Low
+21300378,306,freethrow,3,PT06M40.00S,06:40,Q3 06:40,0,0,1610612756.0,Dragic,MISS Dragic Free Throw 1 of 2,foul,rebound,0,Low
+21300378,307,rebound,3,PT06M40.00S,06:40,Q3 06:40,0,0,1610612756.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21300378,308,freethrow,3,PT06M40.00S,06:40,Q3 06:40,70,73,1610612756.0,Dragic,Dragic Free Throw 2 of 2 (11 PTS),rebound,foul,3,Low
+21300378,310,foul,3,PT06M33.00S,06:33,Q3 06:33,0,0,1610612756.0,Dragic,Dragic P.FOUL (P3.T4),freethrow,substitution,0,Low
+21300378,311,substitution,3,PT06M33.00S,06:33,Q3 06:33,0,0,1610612759.0,Belinelli,SUB out: M. Belinelli,foul,substitution,0,Low
+21300378,312,substitution,3,PT06M33.00S,06:33,Q3 06:33,0,0,1610612759.0,Ginobili,SUB in: M. Ginobili,substitution,turnover,0,Low
+21300378,312,turnover,3,PT06M24.00S,06:24,Q3 06:24,0,0,1610612759.0,Diaw,Diaw Bad Pass Turnover (P2.T14),substitution,steal,0,Low
+21300378,312,steal,3,PT06M24.00S,06:24,Q3 06:24,0,0,1610612756.0,Frye,Frye STEAL (2 STL),turnover,3pt missed,0,Low
+21300378,313,3pt,3,PT06M09.00S,06:09,Q3 06:09,0,0,1610612756.0,Bledsoe,MISS Bledsoe 25' 3PT Jump Shot,steal,rebound,0,Low
+21300378,314,rebound,3,PT06M07.00S,06:07,Q3 06:07,0,0,1610612756.0,Plumlee,Plumlee REBOUND (Off:3 Def:4),3pt missed,2pt missed,0,Low
+21300378,315,2pt,3,PT06M03.00S,06:03,Q3 06:03,0,0,1610612756.0,Frye,MISS Frye 16' Jump Shot,rebound,rebound,0,Low
+21300378,316,rebound,3,PT06M01.00S,06:01,Q3 06:01,0,0,1610612759.0,Joseph,Joseph REBOUND (Off:0 Def:3),2pt missed,2pt missed,0,Low
+21300378,317,2pt,3,PT05M54.00S,05:54,Q3 05:54,0,0,1610612759.0,Joseph,MISS Joseph 5' Jump Shot,rebound,rebound,0,Low
+21300378,318,rebound,3,PT05M52.00S,05:52,Q3 05:52,0,0,1610612756.0,Tucker,Tucker REBOUND (Off:2 Def:2),2pt missed,timeout,0,Low
+21300378,319,timeout,3,PT05M39.00S,05:39,Q3 05:39,0,0,1610612756.0,,SUNS Timeout: Regular (Full 3 Short 0),rebound,turnover,0,Low
+21300378,323,turnover,3,PT05M33.00S,05:33,Q3 05:33,0,0,1610612756.0,Tucker,Tucker Traveling Turnover (P2.T15),timeout,2pt missed,0,Low
+21300378,324,2pt,3,PT05M22.00S,05:22,Q3 05:22,0,0,1610612759.0,Leonard,MISS Leonard 2' Layup,turnover,rebound,0,Low
+21300378,325,rebound,3,PT05M20.00S,05:20,Q3 05:20,0,0,1610612756.0,Frye,Frye REBOUND (Off:0 Def:3),2pt missed,2pt made,0,Low
+21300378,326,2pt,3,PT05M07.00S,05:07,Q3 05:07,72,73,1610612756.0,Bledsoe,Bledsoe 6' Running Bank Shot (13 PTS),rebound,foul,1,Low
+21300378,327,foul,3,PT04M48.00S,04:48,Q3 04:48,0,0,1610612756.0,Plumlee,Plumlee S.FOUL (P3.PN),2pt made,freethrow,0,Low
+21300378,328,freethrow,3,PT04M48.00S,04:48,Q3 04:48,72,74,1610612759.0,Leonard,Leonard Free Throw 1 of 2 (13 PTS),foul,freethrow,2,Low
+21300378,332,freethrow,3,PT04M48.00S,04:48,Q3 04:48,72,75,1610612759.0,Leonard,Leonard Free Throw 2 of 2 (14 PTS),freethrow,substitution,3,Low
+21300378,330,substitution,3,PT04M48.00S,04:48,Q3 04:48,0,0,1610612756.0,Frye,SUB out: C. Frye,freethrow,substitution,0,Low
+21300378,331,substitution,3,PT04M48.00S,04:48,Q3 04:48,0,0,1610612756.0,Bledsoe,SUB out: E. Bledsoe,substitution,substitution,0,Low
+21300378,332,substitution,3,PT04M48.00S,04:48,Q3 04:48,0,0,1610612756.0,Morris,SUB in: M. Morris,substitution,substitution,0,Low
+21300378,333,substitution,3,PT04M48.00S,04:48,Q3 04:48,0,0,1610612756.0,Green,SUB in: G. Green,substitution,2pt missed,0,Low
+21300378,334,2pt,3,PT04M25.00S,04:25,Q3 04:25,0,0,1610612756.0,Morris,MISS Mark Morris 9' Turnaround Bank Shot,substitution,rebound,0,Low
+21300378,335,rebound,3,PT04M22.00S,04:22,Q3 04:22,0,0,1610612759.0,Diaw,Diaw REBOUND (Off:0 Def:1),2pt missed,foul,0,Low
+21300378,336,foul,3,PT04M06.00S,04:06,Q3 04:06,0,0,1610612756.0,Green,Green S.FOUL (P1.PN),rebound,freethrow,0,Low
+21300378,337,freethrow,3,PT04M06.00S,04:06,Q3 04:06,72,76,1610612759.0,Duncan,Duncan Free Throw 1 of 2 (14 PTS),foul,freethrow,4,Low
+21300378,342,freethrow,3,PT04M06.00S,04:06,Q3 04:06,72,77,1610612759.0,Duncan,Duncan Free Throw 2 of 2 (15 PTS),freethrow,substitution,5,Low
+21300378,339,substitution,3,PT04M06.00S,04:06,Q3 04:06,0,0,1610612756.0,Tucker,SUB out: P. Tucker,substitution,substitution,0,Low
+21300378,340,substitution,3,PT04M06.00S,04:06,Q3 04:06,0,0,1610612759.0,Leonard,SUB out: K. Leonard,substitution,substitution,0,Low
+21300378,341,substitution,3,PT04M06.00S,04:06,Q3 04:06,0,0,1610612759.0,Joseph,SUB out: C. Joseph,substitution,substitution,0,Low
+21300378,342,substitution,3,PT04M06.00S,04:06,Q3 04:06,0,0,1610612756.0,Morris,SUB in: M. Morris,substitution,substitution,0,Low
+21300378,343,substitution,3,PT04M06.00S,04:06,Q3 04:06,0,0,1610612759.0,Green,SUB in: D. Green,substitution,substitution,0,Low
+21300378,344,substitution,3,PT04M06.00S,04:06,Q3 04:06,0,0,1610612759.0,Mills,SUB in: P. Mills,substitution,2pt missed,0,Low
+21300378,344,2pt,3,PT03M47.00S,03:47,Q3 03:47,0,0,1610612756.0,Plumlee,MISS Plumlee 2' Layup,substitution,block,0,Low
+21300378,344,block,3,PT03M47.00S,03:47,Q3 03:47,0,0,1610612759.0,Duncan,Duncan BLOCK (3 BLK),2pt missed,rebound,0,Low
+21300378,345,rebound,3,PT03M46.00S,03:46,Q3 03:46,0,0,1610612756.0,Plumlee,Plumlee REBOUND (Off:4 Def:4),block,foul,0,Low
+21300378,346,foul,3,PT03M46.00S,03:46,Q3 03:46,0,0,1610612759.0,Diaw,Diaw S.FOUL (P1.T2),rebound,freethrow,0,Low
+21300378,347,freethrow,3,PT03M46.00S,03:46,Q3 03:46,73,77,1610612756.0,Plumlee,Plumlee Free Throw 1 of 2 (9 PTS),foul,freethrow,4,Low
+21300378,350,freethrow,3,PT03M46.00S,03:46,Q3 03:46,0,0,1610612756.0,Plumlee,MISS Plumlee Free Throw 2 of 2,freethrow,substitution,0,Low
+21300378,349,substitution,3,PT03M46.00S,03:46,Q3 03:46,0,0,1610612759.0,Duncan,SUB out: T. Duncan,freethrow,substitution,0,Low
+21300378,350,substitution,3,PT03M46.00S,03:46,Q3 03:46,0,0,1610612759.0,Splitter,SUB in: T. Splitter,substitution,rebound,0,Low
+21300378,352,rebound,3,PT03M45.00S,03:45,Q3 03:45,0,0,1610612759.0,Diaw,Diaw REBOUND (Off:0 Def:2),substitution,2pt made,0,Low
+21300378,354,2pt,3,PT03M25.00S,03:25,Q3 03:25,73,79,1610612759.0,Diaw,Diaw 2' Reverse Layup (4 PTS) (Ginobili 6 AST),rebound,turnover,6,Low
+21300378,355,turnover,3,PT03M06.00S,03:06,Q3 03:06,0,0,1610612756.0,Morris,Mark Morris Bad Pass Turnover (P1.T16),2pt made,2pt missed,0,Low
+21300378,356,2pt,3,PT02M54.00S,02:54,Q3 02:54,0,0,1610612759.0,Ginobili,MISS Ginobili 5' Jump Shot,turnover,block,0,Low
+21300378,356,block,3,PT02M54.00S,02:54,Q3 02:54,0,0,1610612756.0,Morris,Mark Morris BLOCK (1 BLK),2pt missed,rebound,0,Low
+21300378,357,rebound,3,PT02M51.00S,02:51,Q3 02:51,0,0,1610612759.0,Ginobili,Ginobili REBOUND (Off:1 Def:3),block,foul,0,Low
+21300378,358,foul,3,PT02M45.00S,02:45,Q3 02:45,0,0,1610612756.0,Green,Green S.FOUL (P2.PN),rebound,freethrow,0,Low
+21300378,359,freethrow,3,PT02M45.00S,02:45,Q3 02:45,0,0,1610612759.0,Splitter,MISS Splitter Free Throw 1 of 2,foul,rebound,0,Low
+21300378,360,rebound,3,PT02M45.00S,02:45,Q3 02:45,0,0,1610612759.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21300378,365,freethrow,3,PT02M45.00S,02:45,Q3 02:45,73,80,1610612759.0,Splitter,Splitter Free Throw 2 of 2 (8 PTS),rebound,2pt missed,7,Low
+21300378,367,2pt,3,PT02M24.00S,02:24,Q3 02:24,0,0,1610612756.0,Morris Sr.,MISS Marc Morris 8' Jump Shot,freethrow,rebound,0,Low
+21300378,368,rebound,3,PT02M23.00S,02:23,Q3 02:23,0,0,1610612759.0,Green,Green REBOUND (Off:0 Def:1),2pt missed,2pt made,0,Low
+21300378,369,2pt,3,PT02M12.00S,02:12,Q3 02:12,73,82,1610612759.0,Diaw,Diaw 2' Layup (6 PTS),rebound,3pt missed,9,Low
+21300378,370,3pt,3,PT01M55.00S,01:55,Q3 01:55,0,0,1610612756.0,Green,MISS Green 25' 3PT Jump Shot,2pt made,rebound,0,Low
+21300378,371,rebound,3,PT01M53.00S,01:53,Q3 01:53,0,0,1610612756.0,Plumlee,Plumlee REBOUND (Off:5 Def:4),3pt missed,2pt made,0,Low
+21300378,372,2pt,3,PT01M51.00S,01:51,Q3 01:51,75,82,1610612756.0,Plumlee,Plumlee 2' Layup (11 PTS),rebound,3pt missed,7,Low
+21300378,373,3pt,3,PT01M44.00S,01:44,Q3 01:44,0,0,1610612759.0,Ginobili,MISS Ginobili 26' 3PT Jump Shot,2pt made,block,0,Low
+21300378,373,block,3,PT01M44.00S,01:44,Q3 01:44,0,0,1610612756.0,Green,Green BLOCK (2 BLK),3pt missed,rebound,0,Low
+21300378,374,rebound,3,PT01M41.00S,01:41,Q3 01:41,0,0,1610612756.0,Green,Green REBOUND (Off:0 Def:1),block,3pt made,0,Low
+21300378,375,3pt,3,PT01M32.00S,01:32,Q3 01:32,78,82,1610612756.0,Morris Sr.,Marc Morris 25' 3PT Jump Shot (5 PTS) (Dragic 3 AST),rebound,2pt missed,4,Low
+21300378,376,2pt,3,PT01M21.00S,01:21,Q3 01:21,0,0,1610612759.0,Diaw,MISS Diaw 2' Layup,3pt made,rebound,0,Low
+21300378,377,rebound,3,PT01M18.00S,01:18,Q3 01:18,0,0,1610612756.0,Plumlee,Plumlee REBOUND (Off:5 Def:5),2pt missed,3pt missed,0,Low
+21300378,378,3pt,3,PT01M14.00S,01:14,Q3 01:14,0,0,1610612756.0,Green,MISS Green 26' 3PT Jump Shot,rebound,rebound,0,Low
+21300378,379,rebound,3,PT01M12.00S,01:12,Q3 01:12,0,0,1610612756.0,Dragic,Dragic REBOUND (Off:1 Def:1),3pt missed,2pt missed,0,Low
+21300378,380,2pt,3,PT01M10.00S,01:10,Q3 01:10,0,0,1610612756.0,Dragic,MISS Dragic 9' Jump Shot,rebound,rebound,0,Low
+21300378,381,rebound,3,PT01M08.00S,01:08,Q3 01:08,0,0,1610612759.0,Mills,Mills REBOUND (Off:0 Def:1),2pt missed,2pt missed,0,Low
+21300378,382,2pt,3,PT01M04.00S,01:04,Q3 01:04,0,0,1610612759.0,Ginobili,MISS Ginobili 4' Jump Shot,rebound,rebound,0,Low
+21300378,383,rebound,3,PT01M01.00S,01:01,Q3 01:01,0,0,1610612759.0,Ginobili,Ginobili REBOUND (Off:2 Def:3),2pt missed,3pt missed,0,Low
+21300378,384,3pt,3,PT00M56.90S,00:56,Q3 00:56,0,0,1610612759.0,Green,MISS Green 25' 3PT Jump Shot,rebound,rebound,0,Low
+21300378,385,rebound,3,PT00M54.80S,00:54,Q3 00:54,0,0,1610612759.0,Splitter,Splitter REBOUND (Off:3 Def:1),3pt missed,2pt made,0,Low
+21300378,386,2pt,3,PT00M51.60S,00:51,Q3 00:51,78,84,1610612759.0,Green,Green 1' Layup (4 PTS) (Ginobili 7 AST),rebound,foul,6,Low
+21300378,387,foul,3,PT00M51.60S,00:51,Q3 00:51,0,0,1610612756.0,Morris,Mark Morris S.FOUL (P2.PN),2pt made,freethrow,0,Low
+21300378,391,freethrow,3,PT00M51.60S,00:51,Q3 00:51,78,85,1610612759.0,Green,Green Free Throw 1 of 1 (5 PTS),foul,substitution,7,Low
+21300378,388,substitution,3,PT00M51.60S,00:51,Q3 00:51,0,0,1610612756.0,Plumlee,SUB out: M. Plumlee,freethrow,substitution,0,Low
+21300378,389,substitution,3,PT00M51.60S,00:51,Q3 00:51,0,0,1610612759.0,Splitter,SUB out: T. Splitter,substitution,substitution,0,Low
+21300378,390,substitution,3,PT00M51.60S,00:51,Q3 00:51,0,0,1610612756.0,Goodwin,SUB in: A. Goodwin,substitution,substitution,0,Low
+21300378,391,substitution,3,PT00M51.60S,00:51,Q3 00:51,0,0,1610612759.0,Bonner,SUB in: M. Bonner,substitution,turnover,0,Low
+21300378,393,turnover,3,PT00M28.90S,00:28,Q3 00:28,0,0,1610612756.0,Morris Sr.,Marc Morris Lost Ball Turnover (P2.T17),substitution,steal,0,Low
+21300378,393,steal,3,PT00M28.90S,00:28,Q3 00:28,0,0,1610612759.0,Mills,Mills STEAL (2 STL),turnover,2pt made,0,Low
+21300378,394,2pt,3,PT00M06.90S,00:06,Q3 00:06,78,87,1610612759.0,Diaw,Diaw 5' Jump Bank Shot (8 PTS),steal,foul,9,Low
+21300378,395,foul,3,PT00M04.20S,00:04,Q3 00:04,0,0,1610612759.0,Mills,Mills S.FOUL (P2.T3),2pt made,foul,0,Low
+21300378,397,foul,3,PT00M04.20S,00:04,Q3 00:04,0,0,0.0,,Gregg Popovich Foul:T.FOUL,foul,freethrow,0,Low
+21300378,398,freethrow,3,PT00M04.20S,00:04,Q3 00:04,79,87,1610612756.0,Dragic,Dragic Free Throw Technical (12 PTS),foul,freethrow,8,Low
+21300378,400,freethrow,3,PT00M04.20S,00:04,Q3 00:04,80,87,1610612756.0,Dragic,Dragic Free Throw 1 of 3 (13 PTS),freethrow,freethrow,7,Low
+21300378,402,freethrow,3,PT00M04.20S,00:04,Q3 00:04,0,0,1610612756.0,Dragic,MISS Dragic Free Throw 2 of 3,freethrow,rebound,0,Low
+21300378,403,rebound,3,PT00M04.20S,00:04,Q3 00:04,0,0,1610612756.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21300378,404,freethrow,3,PT00M04.20S,00:04,Q3 00:04,81,87,1610612756.0,Dragic,Dragic Free Throw 3 of 3 (14 PTS),rebound,turnover,6,Low
+21300378,406,turnover,3,PT00M00.10S,00:00,Q3 00:00,0,0,1610612759.0,Ginobili,Ginobili Bad Pass Turnover (P3.T15),freethrow,period,0,Medium
+21300378,407,period,3,PT00M00.00S,00:00,Q3 00:00,81,87,1610612756.0,,End of 3rd Period (10:52 PM EST),turnover,period,6,Medium
+21300378,409,period,4,PT12M00.00S,12:00,Q4 12:00,81,87,1610612756.0,,Start of 4th Period (10:54 PM EST),period,substitution,6,Medium
+21300378,411,2pt,4,PT11M46.00S,11:46,Q4 11:46,81,89,1610612759.0,Ginobili,Ginobili  Dunk (13 PTS) (Belinelli 2 AST),substitution,2pt missed,8,Medium
+21300378,412,2pt,4,PT11M25.00S,11:25,Q4 11:25,0,0,1610612756.0,Morris,MISS Mark Morris 13' Turnaround Jump Shot,2pt made,rebound,0,Medium
+21300378,413,rebound,4,PT11M23.00S,11:23,Q4 11:23,0,0,1610612759.0,Belinelli,Belinelli REBOUND (Off:0 Def:3),2pt missed,turnover,0,Medium
+21300378,414,turnover,4,PT11M12.00S,11:12,Q4 11:12,0,0,1610612759.0,Ginobili,Ginobili Bad Pass Turnover (P4.T16),rebound,steal,0,Medium
+21300378,414,steal,4,PT11M12.00S,11:12,Q4 11:12,0,0,1610612756.0,Green,Green STEAL (1 STL),turnover,2pt made,0,Medium
+21300378,415,2pt,4,PT11M08.00S,11:08,Q4 11:08,83,89,1610612756.0,Green,Green  Driving Layup (5 PTS),steal,2pt missed,6,Medium
+21300378,416,2pt,4,PT10M57.00S,10:57,Q4 10:57,0,0,1610612759.0,Splitter,MISS Splitter 3' Layup,2pt made,block,0,Medium
+21300378,416,block,4,PT10M57.00S,10:57,Q4 10:57,0,0,1610612756.0,Morris,Mark Morris BLOCK (2 BLK),2pt missed,rebound,0,Medium
+21300378,417,rebound,4,PT10M54.00S,10:54,Q4 10:54,0,0,1610612756.0,Morris,Mark Morris REBOUND (Off:1 Def:2),block,2pt missed,0,Medium
+21300378,418,2pt,4,PT10M49.00S,10:49,Q4 10:49,0,0,1610612756.0,Green,MISS Green 16' Jump Shot,rebound,rebound,0,Medium
+21300378,419,rebound,4,PT10M47.00S,10:47,Q4 10:47,0,0,1610612759.0,Belinelli,Belinelli REBOUND (Off:0 Def:4),2pt missed,2pt missed,0,Medium
+21300378,420,2pt,4,PT10M31.00S,10:31,Q4 10:31,0,0,1610612759.0,Belinelli,MISS Belinelli 6' Running Jump Shot,rebound,rebound,0,Medium
+21300378,421,rebound,4,PT10M28.00S,10:28,Q4 10:28,0,0,1610612756.0,Green,Green REBOUND (Off:0 Def:2),2pt missed,2pt made,0,Medium
+21300378,422,2pt,4,PT10M17.00S,10:17,Q4 10:17,85,89,1610612756.0,Morris,Mark Morris 1' Dunk (6 PTS) (Dragic 4 AST),rebound,timeout,4,Medium
+21300378,423,timeout,4,PT10M09.00S,10:09,Q4 10:09,0,0,1610612759.0,,Spurs Timeout: Regular (Reg.4 Short 1),2pt made,substitution,0,Medium
+21300378,425,substitution,4,PT10M09.00S,10:09,Q4 10:09,0,0,1610612756.0,Green,SUB out: G. Green,timeout,substitution,0,Medium
+21300378,426,substitution,4,PT10M09.00S,10:09,Q4 10:09,0,0,1610612756.0,Goodwin,SUB out: A. Goodwin,substitution,substitution,0,Medium
+21300378,427,substitution,4,PT10M09.00S,10:09,Q4 10:09,0,0,1610612759.0,Splitter,SUB out: T. Splitter,substitution,substitution,0,Medium
+21300378,428,substitution,4,PT10M09.00S,10:09,Q4 10:09,0,0,1610612759.0,Diaw,SUB out: B. Diaw,substitution,substitution,0,Medium
+21300378,429,substitution,4,PT10M09.00S,10:09,Q4 10:09,0,0,1610612759.0,Ginobili,SUB out: M. Ginobili,substitution,substitution,0,Medium
+21300378,430,substitution,4,PT10M09.00S,10:09,Q4 10:09,0,0,1610612756.0,Bledsoe,SUB in: E. Bledsoe,substitution,substitution,0,Medium
+21300378,431,substitution,4,PT10M09.00S,10:09,Q4 10:09,0,0,1610612756.0,Tucker,SUB in: P. Tucker,substitution,substitution,0,Medium
+21300378,432,substitution,4,PT10M09.00S,10:09,Q4 10:09,0,0,1610612759.0,Ayres,SUB in: J. Ayres,substitution,substitution,0,Medium
+21300378,433,substitution,4,PT10M09.00S,10:09,Q4 10:09,0,0,1610612759.0,Leonard,SUB in: K. Leonard,substitution,substitution,0,Medium
+21300378,434,substitution,4,PT10M09.00S,10:09,Q4 10:09,0,0,1610612759.0,Green,SUB in: D. Green,substitution,2pt missed,0,Medium
+21300378,430,2pt,4,PT10M04.00S,10:04,Q4 10:04,0,0,1610612759.0,Belinelli,MISS Belinelli 9' Running Jump Shot,substitution,rebound,0,Medium
+21300378,431,rebound,4,PT10M01.00S,10:01,Q4 10:01,0,0,1610612756.0,Bledsoe,Bledsoe REBOUND (Off:0 Def:3),2pt missed,2pt missed,0,Medium
+21300378,432,2pt,4,PT09M58.00S,09:58,Q4 09:58,0,0,1610612756.0,Dragic,MISS Dragic 2' Layup,rebound,block,0,Medium
+21300378,432,block,4,PT09M58.00S,09:58,Q4 09:58,0,0,1610612759.0,Green,Green BLOCK (1 BLK),2pt missed,rebound,0,Medium
+21300378,433,rebound,4,PT09M56.00S,09:56,Q4 09:56,0,0,1610612759.0,Green,Green REBOUND (Off:0 Def:2),block,3pt missed,0,Medium
+21300378,434,3pt,4,PT09M38.00S,09:38,Q4 09:38,0,0,1610612759.0,Leonard,MISS Leonard 25' 3PT Jump Shot,rebound,rebound,0,Medium
+21300378,435,rebound,4,PT09M37.00S,09:37,Q4 09:37,0,0,1610612756.0,Bledsoe,Bledsoe REBOUND (Off:0 Def:4),3pt missed,foul,0,Medium
+21300378,436,foul,4,PT09M32.00S,09:32,Q4 09:32,0,0,1610612759.0,Mills,Mills Personal Block Foul (P3.T1),rebound,2pt missed,0,Medium
+21300378,437,2pt,4,PT09M27.00S,09:27,Q4 09:27,0,0,1610612756.0,Bledsoe,MISS Bledsoe 17' Pullup Jump Shot,foul,rebound,0,Medium
+21300378,438,rebound,4,PT09M24.00S,09:24,Q4 09:24,0,0,1610612759.0,Leonard,Leonard REBOUND (Off:1 Def:4),2pt missed,foul,0,Medium
+21300378,439,foul,4,PT09M07.00S,09:07,Q4 09:07,0,0,1610612756.0,Morris Sr.,Marc Morris P.FOUL (P2.T1),rebound,2pt made,0,Medium
+21300378,440,2pt,4,PT09M00.00S,09:00,Q4 09:00,85,91,1610612759.0,Belinelli,Belinelli 10' Jump Shot (7 PTS) (Mills 3 AST),foul,2pt missed,6,Medium
+21300378,441,2pt,4,PT08M35.00S,08:35,Q4 08:35,0,0,1610612756.0,Bledsoe,MISS Bledsoe 18' Jump Shot,2pt made,rebound,0,Medium
+21300378,442,rebound,4,PT08M33.00S,08:33,Q4 08:33,0,0,1610612759.0,Belinelli,Belinelli REBOUND (Off:0 Def:5),2pt missed,2pt made,0,Medium
+21300378,443,2pt,4,PT08M30.00S,08:30,Q4 08:30,85,93,1610612759.0,Mills,Mills 1' Layup (10 PTS) (Belinelli 3 AST),rebound,2pt made,8,Medium
+21300378,444,2pt,4,PT08M09.00S,08:09,Q4 08:09,87,93,1610612756.0,Morris,Mark Morris 1' Layup (8 PTS) (Bledsoe 7 AST),2pt made,foul,6,Medium
+21300378,445,foul,4,PT08M09.00S,08:09,Q4 08:09,0,0,1610612759.0,Leonard,Leonard S.FOUL (P1.T2),2pt made,freethrow,0,Medium
+21300378,446,freethrow,4,PT08M09.00S,08:09,Q4 08:09,88,93,1610612756.0,Morris,Mark Morris Free Throw 1 of 1 (9 PTS),foul,3pt missed,5,Medium
+21300378,448,3pt,4,PT07M52.00S,07:52,Q4 07:52,0,0,1610612759.0,Belinelli,MISS Belinelli 25' 3PT Jump Shot,freethrow,rebound,0,Medium
+21300378,449,rebound,4,PT07M51.00S,07:51,Q4 07:51,0,0,1610612756.0,,TEAM defensive REBOUND,3pt missed,foul,0,Medium
+21300378,450,foul,4,PT07M51.00S,07:51,Q4 07:51,0,0,1610612759.0,Green,Green L.B.FOUL (P1.T3),rebound,3pt missed,0,Medium
+21300378,451,3pt,4,PT07M33.00S,07:33,Q4 07:33,0,0,1610612756.0,Bledsoe,MISS Bledsoe 24' 3PT Jump Shot,foul,rebound,0,Medium
+21300378,452,rebound,4,PT07M31.00S,07:31,Q4 07:31,0,0,1610612756.0,Morris,Mark Morris REBOUND (Off:2 Def:2),3pt missed,foul,0,Medium
+21300378,454,foul,4,PT07M30.00S,07:30,Q4 07:30,0,0,1610612759.0,Green,Green S.FOUL (P2.T4),rebound,instant replay,0,Medium
+21300378,458,freethrow,4,PT07M30.00S,07:30,Q4 07:30,89,93,1610612756.0,Morris,Mark Morris Free Throw 1 of 2 (10 PTS),instant replay,freethrow,4,Medium
+21300378,463,freethrow,4,PT07M30.00S,07:30,Q4 07:30,90,93,1610612756.0,Morris,Mark Morris Free Throw 2 of 2 (11 PTS),freethrow,substitution,3,Medium
+21300378,460,substitution,4,PT07M30.00S,07:30,Q4 07:30,0,0,1610612759.0,Ayres,SUB out: J. Ayres,freethrow,substitution,0,Medium
+21300378,461,substitution,4,PT07M30.00S,07:30,Q4 07:30,0,0,1610612756.0,Morris Sr.,SUB out: M. Morris Sr.,substitution,substitution,0,Medium
+21300378,462,substitution,4,PT07M30.00S,07:30,Q4 07:30,0,0,1610612759.0,Green,SUB out: D. Green,substitution,substitution,0,Medium
+21300378,463,substitution,4,PT07M30.00S,07:30,Q4 07:30,0,0,1610612759.0,Duncan,SUB in: T. Duncan,substitution,substitution,0,Medium
+21300378,464,substitution,4,PT07M30.00S,07:30,Q4 07:30,0,0,1610612756.0,Plumlee,SUB in: M. Plumlee,substitution,substitution,0,Medium
+21300378,465,substitution,4,PT07M30.00S,07:30,Q4 07:30,0,0,1610612759.0,Ginobili,SUB in: M. Ginobili,substitution,2pt missed,0,Medium
+21300378,465,2pt,4,PT07M13.00S,07:13,Q4 07:13,0,0,1610612759.0,Mills,MISS Mills 10' Running Bank Shot,substitution,rebound,0,Medium
+21300378,466,rebound,4,PT07M11.00S,07:11,Q4 07:11,0,0,1610612759.0,Duncan,Duncan REBOUND (Off:5 Def:2),2pt missed,foul,0,Medium
+21300378,467,foul,4,PT07M07.00S,07:07,Q4 07:07,0,0,1610612759.0,Leonard,Leonard Offensive Charge Foul (P2.PN),rebound,turnover,0,Medium
+21300378,468,turnover,4,PT07M07.00S,07:07,Q4 07:07,0,0,1610612759.0,Leonard,Leonard Foul Turnover (P2.T17),foul,2pt made,0,Medium
+21300378,469,2pt,4,PT06M50.00S,06:50,Q4 06:50,92,93,1610612756.0,Bledsoe,Bledsoe 17' Pullup Jump Shot (15 PTS),turnover,foul,1,High
+21300378,470,foul,4,PT06M46.00S,06:46,Q4 06:46,0,0,1610612756.0,Dragic,Dragic P.FOUL (P4.T2),2pt made,2pt missed,0,High
+21300378,471,2pt,4,PT06M36.00S,06:36,Q4 06:36,0,0,1610612759.0,Leonard,MISS Leonard 5' Running Jump Shot,foul,rebound,0,High
+21300378,472,rebound,4,PT06M34.00S,06:34,Q4 06:34,0,0,1610612759.0,Leonard,Leonard REBOUND (Off:2 Def:4),2pt missed,2pt missed,0,High
+21300378,473,2pt,4,PT06M32.00S,06:32,Q4 06:32,0,0,1610612759.0,Leonard,MISS Leonard 2' Layup,rebound,rebound,0,High
+21300378,474,rebound,4,PT06M30.00S,06:30,Q4 06:30,0,0,1610612756.0,Plumlee,Plumlee REBOUND (Off:5 Def:6),2pt missed,2pt missed,0,High
+21300378,476,2pt,4,PT06M13.00S,06:13,Q4 06:13,0,0,1610612756.0,Bledsoe,MISS Bledsoe 21' Jump Shot,rebound,rebound,0,High
+21300378,477,rebound,4,PT06M12.00S,06:12,Q4 06:12,0,0,1610612756.0,Morris,Mark Morris REBOUND (Off:3 Def:2),2pt missed,foul,0,High
+21300378,478,foul,4,PT06M12.00S,06:12,Q4 06:12,0,0,1610612759.0,Leonard,Leonard S.FOUL (P3.PN),rebound,freethrow,0,High
+21300378,479,freethrow,4,PT06M12.00S,06:12,Q4 06:12,0,0,1610612756.0,Morris,MISS Mark Morris Free Throw 1 of 2,foul,rebound,0,High
+21300378,480,rebound,4,PT06M12.00S,06:12,Q4 06:12,0,0,1610612756.0,,TEAM offensive REBOUND,freethrow,freethrow,0,High
+21300378,483,freethrow,4,PT06M12.00S,06:12,Q4 06:12,93,93,1610612756.0,Morris,Mark Morris Free Throw 2 of 2 (12 PTS),rebound,substitution,0,High
+21300378,481,substitution,4,PT06M12.00S,06:12,Q4 06:12,0,0,1610612759.0,Leonard,SUB out: K. Leonard,freethrow,substitution,0,High
+21300378,482,substitution,4,PT06M12.00S,06:12,Q4 06:12,0,0,1610612759.0,Belinelli,SUB out: M. Belinelli,substitution,substitution,0,High
+21300378,483,substitution,4,PT06M12.00S,06:12,Q4 06:12,0,0,1610612759.0,Green,SUB in: D. Green,substitution,substitution,0,High
+21300378,484,substitution,4,PT06M12.00S,06:12,Q4 06:12,0,0,1610612759.0,Diaw,SUB in: B. Diaw,substitution,turnover,0,High
+21300378,485,turnover,4,PT05M55.00S,05:55,Q4 05:55,0,0,1610612759.0,Ginobili,Ginobili Bad Pass Turnover (P5.T18),substitution,steal,0,High
+21300378,485,steal,4,PT05M55.00S,05:55,Q4 05:55,0,0,1610612756.0,Morris,Mark Morris STEAL (1 STL),turnover,2pt missed,0,High
+21300378,486,2pt,4,PT05M50.00S,05:50,Q4 05:50,0,0,1610612756.0,Dragic,MISS Dragic  Dunk,steal,rebound,0,High
+21300378,487,rebound,4,PT05M47.00S,05:47,Q4 05:47,0,0,1610612756.0,Plumlee,Plumlee REBOUND (Off:6 Def:6),2pt missed,3pt missed,0,High
+21300378,488,3pt,4,PT05M39.00S,05:39,Q4 05:39,0,0,1610612756.0,Bledsoe,MISS Bledsoe 25' 3PT Jump Shot,rebound,rebound,0,High
+21300378,489,rebound,4,PT05M37.00S,05:37,Q4 05:37,0,0,1610612759.0,Duncan,Duncan REBOUND (Off:5 Def:3),3pt missed,3pt missed,0,High
+21300378,490,3pt,4,PT05M28.00S,05:28,Q4 05:28,0,0,1610612759.0,Ginobili,MISS Ginobili 25' 3PT Jump Shot,rebound,rebound,0,High
+21300378,491,rebound,4,PT05M26.00S,05:26,Q4 05:26,0,0,1610612756.0,Bledsoe,Bledsoe REBOUND (Off:0 Def:5),3pt missed,2pt missed,0,High
+21300378,492,2pt,4,PT05M12.00S,05:12,Q4 05:12,0,0,1610612756.0,Tucker,MISS Tucker 2' Layup,rebound,2pt made,0,High
+21300378,493,2pt,4,PT05M10.00S,05:10,Q4 05:10,95,93,1610612756.0,Plumlee,Plumlee 2' Reverse Layup (13 PTS),2pt missed,rebound,2,High
+21300378,494,rebound,4,PT05M10.00S,05:10,Q4 05:10,0,0,1610612756.0,Plumlee,Plumlee REBOUND (Off:7 Def:6),2pt made,2pt missed,0,High
+21300378,495,2pt,4,PT04M47.00S,04:47,Q4 04:47,0,0,1610612759.0,Duncan,MISS Duncan 12' Jump Shot,rebound,block,0,High
+21300378,495,block,4,PT04M47.00S,04:47,Q4 04:47,0,0,1610612756.0,Plumlee,Plumlee BLOCK (2 BLK),2pt missed,rebound,0,High
+21300378,496,rebound,4,PT04M45.00S,04:45,Q4 04:45,0,0,1610612759.0,Duncan,Duncan REBOUND (Off:6 Def:3),block,2pt missed,0,High
+21300378,497,2pt,4,PT04M42.00S,04:42,Q4 04:42,0,0,1610612759.0,Mills,MISS Mills 23' Step Back Jump Shot,rebound,rebound,0,High
+21300378,498,rebound,4,PT04M39.00S,04:39,Q4 04:39,0,0,1610612756.0,Morris,Mark Morris REBOUND (Off:3 Def:3),2pt missed,2pt missed,0,High
+21300378,499,2pt,4,PT04M19.00S,04:19,Q4 04:19,0,0,1610612756.0,Bledsoe,MISS Bledsoe 15' Jump Shot,rebound,rebound,0,High
+21300378,500,rebound,4,PT04M17.00S,04:17,Q4 04:17,0,0,1610612759.0,Duncan,Duncan REBOUND (Off:6 Def:4),2pt missed,2pt missed,0,High
+21300378,501,2pt,4,PT04M13.00S,04:13,Q4 04:13,0,0,1610612759.0,Mills,MISS Mills 1' Reverse Layup,rebound,2pt made,0,High
+21300378,502,2pt,4,PT04M11.00S,04:11,Q4 04:11,95,95,1610612759.0,Ginobili,Ginobili  Tip Shot (15 PTS),2pt missed,rebound,0,High
+21300378,503,rebound,4,PT04M11.00S,04:11,Q4 04:11,0,0,1610612759.0,Ginobili,Ginobili REBOUND (Off:3 Def:3),2pt made,timeout,0,High
+21300378,504,timeout,4,PT03M59.00S,03:59,Q4 03:59,0,0,1610612756.0,,SUNS Timeout: Regular (Full 4 Short 0),rebound,2pt missed,0,High
+21300378,508,2pt,4,PT03M43.00S,03:43,Q4 03:43,0,0,1610612756.0,Dragic,MISS Dragic 7' Jump Bank Shot,timeout,rebound,0,High
+21300378,509,rebound,4,PT03M41.00S,03:41,Q4 03:41,0,0,1610612759.0,Diaw,Diaw REBOUND (Off:0 Def:3),2pt missed,foul,0,High
+21300378,510,foul,4,PT03M41.00S,03:41,Q4 03:41,0,0,1610612756.0,Tucker,Tucker P.FOUL (P2.T3),rebound,substitution,0,High
+21300378,511,substitution,4,PT03M41.00S,03:41,Q4 03:41,0,0,1610612756.0,Morris,SUB out: M. Morris,foul,substitution,0,High
+21300378,512,substitution,4,PT03M41.00S,03:41,Q4 03:41,0,0,1610612756.0,Frye,SUB in: C. Frye,substitution,2pt missed,0,High
+21300378,512,2pt,4,PT03M31.00S,03:31,Q4 03:31,0,0,1610612759.0,Duncan,MISS Duncan 1' Layup,substitution,rebound,0,High
+21300378,513,rebound,4,PT03M29.00S,03:29,Q4 03:29,0,0,1610612756.0,Frye,Frye REBOUND (Off:0 Def:4),2pt missed,2pt missed,0,High
+21300378,514,2pt,4,PT03M12.00S,03:12,Q4 03:12,0,0,1610612756.0,Bledsoe,MISS Bledsoe 14' Jump Shot,rebound,rebound,0,High
+21300378,515,rebound,4,PT03M11.00S,03:11,Q4 03:11,0,0,1610612759.0,Duncan,Duncan REBOUND (Off:6 Def:5),2pt missed,foul,0,High
+21300378,516,foul,4,PT03M04.00S,03:04,Q4 03:04,0,0,1610612756.0,Bledsoe,Bledsoe P.FOUL (P3.T4),rebound,3pt made,0,High
+21300378,517,3pt,4,PT02M58.00S,02:58,Q4 02:58,95,98,1610612759.0,Ginobili,Ginobili  3PT Jump Shot (18 PTS) (Mills 4 AST),foul,3pt missed,3,High
+21300378,518,3pt,4,PT02M29.00S,02:29,Q4 02:29,0,0,1610612756.0,Dragic,MISS Dragic 25' 3PT Jump Shot,3pt made,rebound,0,High
+21300378,519,rebound,4,PT02M27.00S,02:27,Q4 02:27,0,0,1610612759.0,Duncan,Duncan REBOUND (Off:6 Def:6),3pt missed,foul,0,High
+21300378,520,foul,4,PT02M26.00S,02:26,Q4 02:26,0,0,1610612756.0,Bledsoe,Bledsoe S.FOUL (P4.PN),rebound,timeout,0,High
+21300378,521,timeout,4,PT02M26.00S,02:26,Q4 02:26,0,0,0.0,,Timeout: Official,foul,freethrow,0,High
+21300378,525,freethrow,4,PT02M26.00S,02:26,Q4 02:26,95,99,1610612759.0,Mills,Mills Free Throw 1 of 2 (11 PTS),timeout,freethrow,4,High
+21300378,527,freethrow,4,PT02M26.00S,02:26,Q4 02:26,95,100,1610612759.0,Mills,Mills Free Throw 2 of 2 (12 PTS),freethrow,2pt made,5,High
+21300378,529,2pt,4,PT02M15.00S,02:15,Q4 02:15,97,100,1610612756.0,Dragic,Dragic 2' Driving Layup (16 PTS),freethrow,2pt made,3,High
+21300378,530,2pt,4,PT01M59.00S,01:59,Q4 01:59,97,102,1610612759.0,Ginobili,Ginobili 10' Jump Shot (20 PTS) (Diaw 3 AST),2pt made,turnover,5,Very High
+21300378,531,turnover,4,PT01M35.00S,01:35,Q4 01:35,0,0,1610612756.0,Plumlee,Plumlee Bad Pass Turnover (P2.T18),2pt made,steal,0,Very High
+21300378,531,steal,4,PT01M35.00S,01:35,Q4 01:35,0,0,1610612759.0,Ginobili,Ginobili STEAL (2 STL),turnover,3pt missed,0,Very High
+21300378,532,3pt,4,PT01M16.00S,01:16,Q4 01:16,0,0,1610612759.0,Mills,MISS Mills 25' 3PT Jump Shot,steal,rebound,0,Very High
+21300378,533,rebound,4,PT01M14.00S,01:14,Q4 01:14,0,0,1610612756.0,Frye,Frye REBOUND (Off:0 Def:5),3pt missed,2pt missed,0,Very High
+21300378,534,2pt,4,PT01M03.00S,01:03,Q4 01:03,0,0,1610612756.0,Frye,MISS Frye 15' Jump Shot,rebound,rebound,0,Very High
+21300378,535,rebound,4,PT01M02.00S,01:02,Q4 01:02,0,0,1610612759.0,Duncan,Duncan REBOUND (Off:6 Def:7),2pt missed,foul,0,Very High
+21300378,536,foul,4,PT00M47.50S,00:47,Q4 00:47,0,0,1610612756.0,Plumlee,Plumlee P.FOUL (P4.PN),rebound,freethrow,0,Very High
+21300378,537,freethrow,4,PT00M47.50S,00:47,Q4 00:47,97,103,1610612759.0,Ginobili,Ginobili Free Throw 1 of 2 (21 PTS),foul,freethrow,6,High
+21300378,540,freethrow,4,PT00M47.50S,00:47,Q4 00:47,97,104,1610612759.0,Ginobili,Ginobili Free Throw 2 of 2 (22 PTS),freethrow,timeout,7,High
+21300378,542,timeout,4,PT00M47.50S,00:47,Q4 00:47,0,0,1610612756.0,,SUNS Timeout: Short (Full 4 Short 1),freethrow,substitution,0,Very High
+21300378,539,substitution,4,PT00M47.50S,00:47,Q4 00:47,0,0,1610612759.0,Mills,SUB out: P. Mills,timeout,substitution,0,Very High
+21300378,540,substitution,4,PT00M47.50S,00:47,Q4 00:47,0,0,1610612759.0,Leonard,SUB in: K. Leonard,substitution,turnover,0,Very High
+21300378,546,turnover,4,PT00M41.90S,00:41,Q4 00:41,0,0,1610612756.0,Bledsoe,Bledsoe Lost Ball Turnover (P4.T19),substitution,steal,0,Very High
+21300378,546,steal,4,PT00M41.90S,00:41,Q4 00:41,0,0,1610612759.0,Diaw,Diaw STEAL (1 STL),turnover,2pt made,0,Very High
+21300378,547,2pt,4,PT00M19.90S,00:19,Q4 00:19,97,106,1610612759.0,Duncan,Duncan 1' Layup (17 PTS) (Diaw 4 AST),steal,2pt made,9,Medium
+21300378,548,2pt,4,PT00M12.90S,00:12,Q4 00:12,99,106,1610612756.0,Dragic,Dragic 1' Driving Layup (18 PTS),2pt made,foul,7,High
+21300378,549,foul,4,PT00M10.80S,00:10,Q4 00:10,0,0,1610612756.0,Tucker,Tucker Personal Take Foul (P3.PN),2pt made,freethrow,0,Very High
+21300378,550,freethrow,4,PT00M10.80S,00:10,Q4 00:10,99,107,1610612759.0,Ginobili,Ginobili Free Throw 1 of 2 (23 PTS),foul,freethrow,8,High
+21300378,555,freethrow,4,PT00M10.80S,00:10,Q4 00:10,99,108,1610612759.0,Ginobili,Ginobili Free Throw 2 of 2 (24 PTS),freethrow,timeout,9,Medium
+21300378,557,timeout,4,PT00M10.80S,00:10,Q4 00:10,0,0,1610612756.0,,SUNS Timeout: Short (Full 4 Short 2),freethrow,substitution,0,Very High
+21300378,552,substitution,4,PT00M10.80S,00:10,Q4 00:10,0,0,1610612759.0,Leonard,SUB out: K. Leonard,timeout,substitution,0,Very High
+21300378,553,substitution,4,PT00M10.80S,00:10,Q4 00:10,0,0,1610612759.0,Duncan,SUB out: T. Duncan,substitution,substitution,0,Very High
+21300378,554,substitution,4,PT00M10.80S,00:10,Q4 00:10,0,0,1610612759.0,Diaw,SUB out: B. Diaw,substitution,substitution,0,Very High
+21300378,555,substitution,4,PT00M10.80S,00:10,Q4 00:10,0,0,1610612759.0,Ginobili,SUB out: M. Ginobili,substitution,substitution,0,Very High
+21300378,556,substitution,4,PT00M10.80S,00:10,Q4 00:10,0,0,1610612759.0,Joseph,SUB in: C. Joseph,substitution,substitution,0,Very High
+21300378,557,substitution,4,PT00M10.80S,00:10,Q4 00:10,0,0,1610612759.0,Ayres,SUB in: J. Ayres,substitution,substitution,0,Very High
+21300378,558,substitution,4,PT00M10.80S,00:10,Q4 00:10,0,0,1610612759.0,Bonner,SUB in: M. Bonner,substitution,substitution,0,Very High
+21300378,559,substitution,4,PT00M10.80S,00:10,Q4 00:10,0,0,1610612759.0,Belinelli,SUB in: M. Belinelli,substitution,foul,0,Very High
+21300378,561,foul,4,PT00M07.30S,00:07,Q4 00:07,0,0,1610612759.0,Belinelli,Belinelli P.FOUL (P2.PN),substitution,freethrow,0,Very High
+21300378,562,freethrow,4,PT00M07.30S,00:07,Q4 00:07,100,108,1610612756.0,Frye,Frye Free Throw 1 of 2 (21 PTS),foul,freethrow,8,High
+21300378,564,freethrow,4,PT00M07.30S,00:07,Q4 00:07,101,108,1610612756.0,Frye,Frye Free Throw 2 of 2 (22 PTS),freethrow,period,7,High
+21300378,566,period,4,PT00M00.00S,00:00,Q4 00:00,101,108,1610612756.0,,End of 4th Period (11:28 PM EST),freethrow,,7,High

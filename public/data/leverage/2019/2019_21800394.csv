@@ -1,0 +1,491 @@
+game_id,actionNumber,actionType,period,clock,clock_display,game_clock,scoreHome,scoreAway,teamId,playerName,description,previous_action,next_action,score_margin,leverage_bucket
+21800394,2,period,1,PT12M00.00S,12:00,Q1 12:00,0,0,1610612741.0,,Start of 1st Period (8:11 PM EST),,turnover,0,Low
+21800394,7,turnover,1,PT11M40.00S,11:40,Q1 11:40,0,0,1610612741.0,Holiday,Holiday Bad Pass Turnover (P1.T1),period,steal,0,Low
+21800394,7,steal,1,PT11M40.00S,11:40,Q1 11:40,0,0,1610612758.0,Cauley-Stein,Cauley-Stein STEAL (1 STL),turnover,foul,0,Low
+21800394,9,foul,1,PT11M36.00S,11:36,Q1 11:36,0,0,1610612741.0,Arcidiacono,Arcidiacono S.FOUL (P1.T1) (E.Malloy),steal,freethrow,0,Low
+21800394,11,freethrow,1,PT11M36.00S,11:36,Q1 11:36,0,1,1610612758.0,Fox,Fox Free Throw 1 of 2 (1 PTS),foul,freethrow,1,Low
+21800394,12,freethrow,1,PT11M36.00S,11:36,Q1 11:36,0,2,1610612758.0,Fox,Fox Free Throw 2 of 2 (2 PTS),freethrow,3pt missed,2,Low
+21800394,13,3pt,1,PT11M24.00S,11:24,Q1 11:24,0,2,1610612741.0,Markkanen,MISS Markkanen 24' 3PT Jump Shot,freethrow,rebound,2,Low
+21800394,14,rebound,1,PT11M19.00S,11:19,Q1 11:19,0,2,1610612758.0,Hield,Hield REBOUND (Off:0 Def:1),3pt missed,2pt made,2,Low
+21800394,15,2pt,1,PT11M06.00S,11:06,Q1 11:06,0,4,1610612758.0,Cauley-Stein,Cauley-Stein 1' Layup (2 PTS) (Fox 1 AST),rebound,2pt made,4,Low
+21800394,17,2pt,1,PT10M49.00S,10:49,Q1 10:49,2,4,1610612741.0,Holiday,Holiday 13' Pullup Jump Shot (2 PTS) (Carter Jr. 1 AST),2pt made,3pt made,2,Low
+21800394,19,3pt,1,PT10M36.00S,10:36,Q1 10:36,2,7,1610612758.0,Shumpert,Shumpert 3PT Jump Shot (3 PTS) (Bjelica 1 AST),2pt made,2pt made,5,Low
+21800394,21,2pt,1,PT10M18.00S,10:18,Q1 10:18,4,7,1610612741.0,Markkanen,Markkanen 8' Driving Floating Jump Shot (2 PTS) (Arcidiacono 1 AST),3pt made,2pt made,3,Low
+21800394,23,2pt,1,PT10M09.00S,10:09,Q1 10:09,4,9,1610612758.0,Cauley-Stein,Cauley-Stein 2' Driving Finger Roll Layup (4 PTS) (Fox 2 AST),2pt made,foul,5,Low
+21800394,25,foul,1,PT10M09.00S,10:09,Q1 10:09,4,9,1610612741.0,Carter Jr.,Carter Jr. S.FOUL (P1.T2) (R.Garretson),2pt made,freethrow,5,Low
+21800394,27,freethrow,1,PT10M09.00S,10:09,Q1 10:09,4,10,1610612758.0,Cauley-Stein,Cauley-Stein Free Throw 1 of 1 (5 PTS),foul,foul,6,Low
+21800394,28,foul,1,PT09M59.00S,09:59,Q1 09:59,4,10,1610612758.0,Hield,Hield P.FOUL (P1.T1) (R.Garretson),freethrow,turnover,6,Low
+21800394,30,turnover,1,PT09M53.00S,09:53,Q1 09:53,4,10,1610612741.0,LaVine,LaVine Bad Pass Turnover (P1.T2),foul,steal,6,Low
+21800394,30,steal,1,PT09M53.00S,09:53,Q1 09:53,4,10,1610612758.0,Cauley-Stein,Cauley-Stein STEAL (2 STL),turnover,turnover,6,Low
+21800394,32,turnover,1,PT09M49.00S,09:49,Q1 09:49,4,10,1610612758.0,Hield,Hield Bad Pass Turnover (P1.T1),steal,steal,6,Low
+21800394,32,steal,1,PT09M49.00S,09:49,Q1 09:49,4,10,1610612741.0,LaVine,LaVine STEAL (1 STL),turnover,2pt made,6,Low
+21800394,34,2pt,1,PT09M40.00S,09:40,Q1 09:40,6,10,1610612741.0,LaVine,LaVine 1' Driving Reverse Layup (2 PTS),steal,turnover,4,Low
+21800394,36,turnover,1,PT09M26.00S,09:26,Q1 09:26,6,10,1610612758.0,Shumpert,Shumpert Bad Pass Turnover (P1.T2),2pt made,steal,4,Low
+21800394,36,steal,1,PT09M26.00S,09:26,Q1 09:26,6,10,1610612741.0,Holiday,Holiday STEAL (1 STL),turnover,2pt made,4,Low
+21800394,38,2pt,1,PT09M22.00S,09:22,Q1 09:22,8,10,1610612741.0,Markkanen,Markkanen 1' Running Dunk (4 PTS),steal,timeout,2,Low
+21800394,40,timeout,1,PT09M22.00S,09:22,Q1 09:22,8,10,1610612758.0,,Kings Timeout: Regular (Reg.1 Short 0),2pt made,3pt made,2,Low
+21800394,41,3pt,1,PT09M09.00S,09:09,Q1 09:09,8,13,1610612758.0,Shumpert,Shumpert 26' 3PT Jump Shot (6 PTS) (Cauley-Stein 1 AST),timeout,turnover,5,Low
+21800394,43,turnover,1,PT08M52.00S,08:52,Q1 08:52,8,13,1610612741.0,LaVine,LaVine Bad Pass Turnover (P2.T3),3pt made,steal,5,Low
+21800394,43,steal,1,PT08M52.00S,08:52,Q1 08:52,8,13,1610612758.0,Cauley-Stein,Cauley-Stein STEAL (3 STL),turnover,2pt missed,5,Low
+21800394,45,2pt,1,PT08M43.00S,08:43,Q1 08:43,8,13,1610612758.0,Fox,MISS Fox 8' Layup,steal,rebound,5,Low
+21800394,46,rebound,1,PT08M40.00S,08:40,Q1 08:40,8,13,1610612741.0,Carter Jr.,Carter Jr. REBOUND (Off:0 Def:1),2pt missed,3pt made,5,Low
+21800394,47,3pt,1,PT08M29.00S,08:29,Q1 08:29,11,13,1610612741.0,LaVine,LaVine 3PT Jump Shot (5 PTS) (Holiday 1 AST),rebound,turnover,2,Low
+21800394,49,turnover,1,PT08M18.00S,08:18,Q1 08:18,11,13,1610612758.0,Fox,Fox Bad Pass Turnover (P1.T3),3pt made,steal,2,Low
+21800394,49,steal,1,PT08M18.00S,08:18,Q1 08:18,11,13,1610612741.0,LaVine,LaVine STEAL (2 STL),turnover,3pt made,2,Low
+21800394,51,3pt,1,PT08M12.00S,08:12,Q1 08:12,14,13,1610612741.0,Holiday,Holiday 3PT Jump Shot (5 PTS) (Arcidiacono 2 AST),steal,2pt missed,1,Low
+21800394,54,2pt,1,PT07M51.00S,07:51,Q1 07:51,14,13,1610612758.0,Hield,MISS Hield 17' Jump Shot,3pt made,rebound,1,Low
+21800394,55,rebound,1,PT07M46.00S,07:46,Q1 07:46,14,13,1610612758.0,Cauley-Stein,Cauley-Stein REBOUND (Off:1 Def:0),2pt missed,3pt missed,1,Low
+21800394,56,3pt,1,PT07M34.00S,07:34,Q1 07:34,14,13,1610612758.0,Hield,MISS Hield 26' 3PT Jump Shot,rebound,turnover,1,Low
+21800394,57,turnover,1,PT07M34.00S,07:34,Q1 07:34,14,13,0.0,,Kings Turnover: Shot Clock (T#4),3pt missed,rebound,1,Low
+21800394,58,rebound,1,PT07M34.00S,07:34,Q1 07:34,14,13,1610612758.0,,TEAM offensive REBOUND,turnover,2pt missed,1,Low
+21800394,59,2pt,1,PT07M13.00S,07:13,Q1 07:13,14,13,1610612741.0,Markkanen,MISS Markkanen 18' Hook Shot,rebound,rebound,1,Low
+21800394,60,rebound,1,PT07M11.00S,07:11,Q1 07:11,14,13,1610612741.0,Carter Jr.,Carter Jr. REBOUND (Off:1 Def:1),2pt missed,2pt missed,1,Low
+21800394,61,2pt,1,PT07M10.00S,07:10,Q1 07:10,14,13,1610612741.0,Carter Jr.,MISS Carter Jr. 10' Fadeaway Jumper,rebound,rebound,1,Low
+21800394,62,rebound,1,PT07M08.00S,07:08,Q1 07:08,14,13,1610612758.0,Cauley-Stein,Cauley-Stein REBOUND (Off:1 Def:1),2pt missed,3pt missed,1,Low
+21800394,63,3pt,1,PT06M55.00S,06:55,Q1 06:55,14,13,1610612758.0,Hield,MISS Hield 25' 3PT Jump Shot,rebound,rebound,1,Low
+21800394,64,rebound,1,PT06M52.00S,06:52,Q1 06:52,14,13,1610612741.0,Markkanen,Markkanen REBOUND (Off:0 Def:1),3pt missed,foul,1,Low
+21800394,65,foul,1,PT06M46.00S,06:46,Q1 06:46,14,13,1610612758.0,Shumpert,Shumpert S.FOUL (P1.T2) (P.Ransom),rebound,freethrow,1,Low
+21800394,67,freethrow,1,PT06M46.00S,06:46,Q1 06:46,15,13,1610612741.0,Markkanen,Markkanen Free Throw 1 of 2 (5 PTS),foul,freethrow,2,Low
+21800394,68,freethrow,1,PT06M46.00S,06:46,Q1 06:46,16,13,1610612741.0,Markkanen,Markkanen Free Throw 2 of 2 (6 PTS),freethrow,2pt missed,3,Low
+21800394,69,2pt,1,PT06M38.00S,06:38,Q1 06:38,16,13,1610612758.0,Fox,MISS Fox 19' Pullup Jump Shot,freethrow,rebound,3,Low
+21800394,70,rebound,1,PT06M35.00S,06:35,Q1 06:35,16,13,1610612741.0,Carter Jr.,Carter Jr. REBOUND (Off:1 Def:2),2pt missed,2pt made,3,Low
+21800394,71,2pt,1,PT06M27.00S,06:27,Q1 06:27,18,13,1610612741.0,LaVine,LaVine 1' Driving Dunk (7 PTS),rebound,3pt missed,5,Low
+21800394,72,3pt,1,PT06M21.00S,06:21,Q1 06:21,18,13,1610612758.0,Shumpert,MISS Shumpert 25' 3PT Running Pull-Up Jump Shot,2pt made,rebound,5,Low
+21800394,73,rebound,1,PT06M21.00S,06:21,Q1 06:21,18,13,1610612741.0,Markkanen,Markkanen REBOUND (Off:0 Def:2),3pt missed,foul,5,Low
+21800394,74,foul,1,PT06M14.00S,06:14,Q1 06:14,18,13,1610612758.0,Fox,Fox P.FOUL (P1.T3) (E.Malloy),rebound,3pt missed,5,Low
+21800394,76,3pt,1,PT06M05.00S,06:05,Q1 06:05,18,13,1610612741.0,Holiday,MISS Holiday 24' 3PT Jump Shot,foul,rebound,5,Low
+21800394,77,rebound,1,PT06M01.00S,06:01,Q1 06:01,18,13,1610612758.0,Bjelica,Bjelica REBOUND (Off:0 Def:1),3pt missed,2pt made,5,Low
+21800394,80,2pt,1,PT05M52.00S,05:52,Q1 05:52,18,15,1610612758.0,Bjelica,Bjelica 22' Jump Shot (2 PTS) (Shumpert 1 AST),rebound,2pt missed,3,Low
+21800394,82,2pt,1,PT05M39.00S,05:39,Q1 05:39,18,15,1610612741.0,Markkanen,MISS Markkanen 3' Layup,2pt made,rebound,3,Low
+21800394,83,rebound,1,PT05M37.00S,05:37,Q1 05:37,18,15,1610612758.0,Bjelica,Bjelica REBOUND (Off:0 Def:2),2pt missed,2pt missed,3,Low
+21800394,84,2pt,1,PT05M29.00S,05:29,Q1 05:29,18,15,1610612758.0,Bjelica,MISS Bjelica 3' Driving Floating Jump Shot,rebound,rebound,3,Low
+21800394,85,rebound,1,PT05M29.00S,05:29,Q1 05:29,18,15,1610612758.0,Cauley-Stein,Cauley-Stein REBOUND (Off:2 Def:1),2pt missed,2pt made,3,Low
+21800394,86,2pt,1,PT05M23.00S,05:23,Q1 05:23,18,17,1610612758.0,Cauley-Stein,Cauley-Stein 1' Putback Dunk (7 PTS),rebound,timeout,1,Low
+21800394,87,timeout,1,PT05M21.00S,05:21,Q1 05:21,18,17,1610612741.0,,BULLS Timeout: Regular (Full 1 Short 0),2pt made,substitution,1,Low
+21800394,88,substitution,1,PT05M21.00S,05:21,Q1 05:21,18,17,1610612741.0,Markkanen,SUB out: L. Markkanen,timeout,substitution,1,Low
+21800394,89,substitution,1,PT05M21.00S,05:21,Q1 05:21,18,17,1610612741.0,Arcidiacono,SUB out: R. Arcidiacono,substitution,substitution,1,Low
+21800394,90,substitution,1,PT05M21.00S,05:21,Q1 05:21,18,17,1610612758.0,Fox,SUB out: D. Fox,substitution,substitution,1,Low
+21800394,91,substitution,1,PT05M21.00S,05:21,Q1 05:21,18,17,1610612758.0,Bjelica,SUB out: N. Bjelica,substitution,substitution,1,Low
+21800394,92,substitution,1,PT05M21.00S,05:21,Q1 05:21,18,17,1610612741.0,Parker,SUB in: J. Parker,substitution,substitution,1,Low
+21800394,93,substitution,1,PT05M21.00S,05:21,Q1 05:21,18,17,1610612741.0,Dunn,SUB in: K. Dunn,substitution,substitution,1,Low
+21800394,94,substitution,1,PT05M21.00S,05:21,Q1 05:21,18,17,1610612758.0,Bogdanovic,SUB in: B. Bogdanovic,substitution,substitution,1,Low
+21800394,95,substitution,1,PT05M21.00S,05:21,Q1 05:21,18,17,1610612758.0,Bagley III,SUB in: M. Bagley III,substitution,3pt missed,1,Low
+21800394,96,3pt,1,PT05M10.00S,05:10,Q1 05:10,18,17,1610612741.0,Dunn,MISS Dunn 26' 3PT Jump Shot,substitution,rebound,1,Low
+21800394,97,rebound,1,PT05M08.00S,05:08,Q1 05:08,18,17,1610612741.0,Dunn,Dunn REBOUND (Off:1 Def:0),3pt missed,3pt made,1,Low
+21800394,99,3pt,1,PT05M01.00S,05:01,Q1 05:01,21,17,1610612741.0,LaVine,LaVine 3PT Jump Shot (10 PTS) (Dunn 1 AST),rebound,2pt made,4,Low
+21800394,101,2pt,1,PT04M44.00S,04:44,Q1 04:44,21,19,1610612758.0,Bagley III,Bagley III 10' Jump Shot (2 PTS),3pt made,turnover,2,Low
+21800394,102,turnover,1,PT04M39.00S,04:39,Q1 04:39,21,19,1610612741.0,Parker,Parker Bad Pass Turnover (P1.T4),2pt made,foul,2,Low
+21800394,103,foul,1,PT04M39.00S,04:39,Q1 04:39,21,19,1610612741.0,Dunn,Dunn L.B.FOUL (P1.T3) (R.Garretson),turnover,foul,2,Low
+21800394,105,foul,1,PT04M29.00S,04:29,Q1 04:29,21,19,1610612741.0,Parker,Parker S.FOUL (P1.T4) (E.Malloy),foul,freethrow,2,Low
+21800394,107,freethrow,1,PT04M29.00S,04:29,Q1 04:29,21,20,1610612758.0,Bagley III,Bagley III Free Throw 1 of 2 (3 PTS),foul,freethrow,1,Low
+21800394,108,freethrow,1,PT04M29.00S,04:29,Q1 04:29,21,21,1610612758.0,Bagley III,Bagley III Free Throw 2 of 2 (4 PTS),freethrow,turnover,0,Low
+21800394,109,turnover,1,PT04M11.00S,04:11,Q1 04:11,21,21,1610612741.0,LaVine,LaVine Lost Ball Turnover (P3.T5),freethrow,steal,0,Low
+21800394,109,steal,1,PT04M11.00S,04:11,Q1 04:11,21,21,1610612758.0,Shumpert,Shumpert STEAL (1 STL),turnover,2pt missed,0,Low
+21800394,111,2pt,1,PT03M50.00S,03:50,Q1 03:50,21,21,1610612758.0,Cauley-Stein,MISS Cauley-Stein 16' Jump Shot,steal,rebound,0,Low
+21800394,112,rebound,1,PT03M48.00S,03:48,Q1 03:48,21,21,1610612741.0,Parker,Parker REBOUND (Off:0 Def:1),2pt missed,foul,0,Low
+21800394,113,foul,1,PT03M41.00S,03:41,Q1 03:41,21,21,1610612758.0,Bagley III,Bagley III S.FOUL (P1.T4) (P.Ransom),rebound,freethrow,0,Low
+21800394,115,freethrow,1,PT03M41.00S,03:41,Q1 03:41,22,21,1610612741.0,Holiday,Holiday Free Throw 1 of 2 (6 PTS),foul,freethrow,1,Low
+21800394,122,freethrow,1,PT03M41.00S,03:41,Q1 03:41,23,21,1610612741.0,Holiday,Holiday Free Throw 2 of 2 (7 PTS),freethrow,substitution,2,Low
+21800394,116,substitution,1,PT03M41.00S,03:41,Q1 03:41,22,21,1610612741.0,LaVine,SUB out: Z. LaVine,freethrow,substitution,1,Low
+21800394,117,substitution,1,PT03M41.00S,03:41,Q1 03:41,22,21,1610612758.0,Cauley-Stein,SUB out: W. Cauley-Stein,substitution,substitution,1,Low
+21800394,118,substitution,1,PT03M41.00S,03:41,Q1 03:41,22,21,1610612758.0,Hield,SUB out: B. Hield,substitution,substitution,1,Low
+21800394,119,substitution,1,PT03M41.00S,03:41,Q1 03:41,22,21,1610612741.0,Portis,SUB in: B. Portis,substitution,substitution,1,Low
+21800394,120,substitution,1,PT03M41.00S,03:41,Q1 03:41,22,21,1610612758.0,Mason III,SUB in: F. Mason III,substitution,substitution,1,Low
+21800394,121,substitution,1,PT03M41.00S,03:41,Q1 03:41,22,21,1610612758.0,Koufos,SUB in: K. Koufos,substitution,3pt missed,1,Low
+21800394,123,3pt,1,PT03M26.00S,03:26,Q1 03:26,23,21,1610612758.0,Shumpert,MISS Shumpert 25' 3PT Jump Shot,substitution,rebound,2,Low
+21800394,124,rebound,1,PT03M22.00S,03:22,Q1 03:22,23,21,1610612741.0,Portis,Portis REBOUND (Off:0 Def:1),3pt missed,2pt missed,2,Low
+21800394,125,2pt,1,PT03M14.00S,03:14,Q1 03:14,23,21,1610612741.0,Holiday,MISS Holiday 8' Driving Floating Jump Shot,rebound,block,2,Low
+21800394,125,block,1,PT03M14.00S,03:14,Q1 03:14,23,21,1610612758.0,Mason III,Mason BLOCK (1 BLK),2pt missed,rebound,2,Low
+21800394,127,rebound,1,PT03M11.00S,03:11,Q1 03:11,23,21,1610612758.0,Bogdanovic,Bogdanovic REBOUND (Off:0 Def:1),block,2pt made,2,Low
+21800394,128,2pt,1,PT03M09.00S,03:09,Q1 03:09,23,23,1610612758.0,Bagley III,Bagley III 2' Alley Oop Layup (6 PTS) (Bogdanovic 1 AST),rebound,2pt missed,0,Low
+21800394,130,2pt,1,PT02M47.00S,02:47,Q1 02:47,23,23,1610612741.0,Parker,MISS Parker 14' Jump Shot,2pt made,rebound,0,Low
+21800394,131,rebound,1,PT02M40.00S,02:40,Q1 02:40,23,23,1610612741.0,Portis,Portis REBOUND (Off:1 Def:1),2pt missed,2pt made,0,Low
+21800394,132,2pt,1,PT02M39.00S,02:39,Q1 02:39,25,23,1610612741.0,Portis,Portis 7' Jump Shot (2 PTS),rebound,2pt missed,2,Low
+21800394,133,2pt,1,PT02M23.00S,02:23,Q1 02:23,25,23,1610612758.0,Mason III,MISS Mason 1' Driving Reverse Layup,2pt made,rebound,2,Low
+21800394,134,rebound,1,PT02M21.00S,02:21,Q1 02:21,25,23,1610612741.0,Carter Jr.,Carter Jr. REBOUND (Off:1 Def:3),2pt missed,2pt made,2,Low
+21800394,135,2pt,1,PT02M17.00S,02:17,Q1 02:17,27,23,1610612741.0,Dunn,Dunn 4' Running Finger Roll Layup (2 PTS),rebound,foul,4,Low
+21800394,136,foul,1,PT02M17.00S,02:17,Q1 02:17,27,23,1610612758.0,Koufos,Koufos S.FOUL (P1.PN) (P.Ransom),2pt made,freethrow,4,Low
+21800394,140,freethrow,1,PT02M17.00S,02:17,Q1 02:17,28,23,1610612741.0,Dunn,Dunn Free Throw 1 of 1 (3 PTS),foul,substitution,5,Low
+21800394,138,substitution,1,PT02M17.00S,02:17,Q1 02:17,27,23,1610612758.0,Shumpert,SUB out: I. Shumpert,freethrow,substitution,4,Low
+21800394,139,substitution,1,PT02M17.00S,02:17,Q1 02:17,27,23,1610612758.0,Jackson,SUB in: J. Jackson,substitution,foul,4,Low
+21800394,142,foul,1,PT01M55.00S,01:55,Q1 01:55,28,23,1610612741.0,Dunn,Dunn S.FOUL (P2.PN) (R.Garretson),substitution,freethrow,5,Low
+21800394,144,freethrow,1,PT01M55.00S,01:55,Q1 01:55,28,24,1610612758.0,Bogdanovic,Bogdanovic Free Throw 1 of 2 (1 PTS),foul,freethrow,4,Low
+21800394,145,freethrow,1,PT01M55.00S,01:55,Q1 01:55,28,24,1610612758.0,Bogdanovic,MISS Bogdanovic Free Throw 2 of 2,freethrow,rebound,4,Low
+21800394,146,rebound,1,PT01M54.00S,01:54,Q1 01:54,28,24,1610612741.0,Dunn,Dunn REBOUND (Off:1 Def:1),freethrow,foul,4,Low
+21800394,147,foul,1,PT01M54.00S,01:54,Q1 01:54,28,24,1610612758.0,Bagley III,Bagley III P.FOUL (P2.PN) (E.Malloy),rebound,freethrow,4,Low
+21800394,149,freethrow,1,PT01M54.00S,01:54,Q1 01:54,29,24,1610612741.0,Dunn,Dunn Free Throw 1 of 2 (4 PTS),foul,freethrow,5,Low
+21800394,150,freethrow,1,PT01M54.00S,01:54,Q1 01:54,30,24,1610612741.0,Dunn,Dunn Free Throw 2 of 2 (5 PTS),freethrow,3pt missed,6,Low
+21800394,151,3pt,1,PT01M44.00S,01:44,Q1 01:44,30,24,1610612758.0,Jackson,MISS Jackson 24' 3PT Jump Shot,freethrow,rebound,6,Low
+21800394,152,rebound,1,PT01M40.00S,01:40,Q1 01:40,30,24,1610612741.0,Portis,Portis REBOUND (Off:1 Def:2),3pt missed,turnover,6,Low
+21800394,153,turnover,1,PT01M25.00S,01:25,Q1 01:25,30,24,1610612741.0,Parker,Parker Out of Bounds - Bad Pass Turnover Turnover (P2.T6),rebound,2pt missed,6,Low
+21800394,154,2pt,1,PT01M09.00S,01:09,Q1 01:09,30,24,1610612758.0,Koufos,MISS Koufos 8' Driving Hook Shot,turnover,rebound,6,Low
+21800394,155,rebound,1,PT01M06.00S,01:06,Q1 01:06,30,24,1610612741.0,Portis,Portis REBOUND (Off:1 Def:3),2pt missed,2pt made,6,Low
+21800394,156,2pt,1,PT01M02.00S,01:02,Q1 01:02,32,24,1610612741.0,Carter Jr.,Carter Jr. 5' Turnaround Fadeaway (2 PTS) (Dunn 2 AST),rebound,foul,8,Low
+21800394,158,foul,1,PT01M02.00S,01:02,Q1 01:02,32,24,1610612758.0,Bogdanovic,Bogdanovic S.FOUL (P1.PN) (E.Malloy),2pt made,freethrow,8,Low
+21800394,160,freethrow,1,PT01M02.00S,01:02,Q1 01:02,33,24,1610612741.0,Carter Jr.,Carter Jr. Free Throw 1 of 1 (3 PTS),foul,turnover,9,Low
+21800394,161,turnover,1,PT00M55.40S,00:55,Q1 00:55,33,24,1610612758.0,Mason III,Mason Out of Bounds Lost Ball Turnover (P1.T5),freethrow,turnover,9,Low
+21800394,162,turnover,1,PT00M40.60S,00:40,Q1 00:40,33,24,1610612741.0,Holiday,Holiday Bad Pass Turnover (P2.T7),turnover,steal,9,Low
+21800394,162,steal,1,PT00M40.60S,00:40,Q1 00:40,33,24,1610612758.0,Koufos,Koufos STEAL (1 STL),turnover,2pt made,9,Low
+21800394,164,2pt,1,PT00M35.80S,00:35,Q1 00:35,33,26,1610612758.0,Jackson,Jackson 4' Running Jump Shot (2 PTS),steal,turnover,7,Low
+21800394,165,turnover,1,PT00M18.80S,00:18,Q1 00:18,33,26,1610612741.0,Carter Jr.,Carter Jr. Bad Pass Turnover (P1.T8),2pt made,steal,7,Low
+21800394,165,steal,1,PT00M18.80S,00:18,Q1 00:18,33,26,1610612758.0,Jackson,Jackson STEAL (1 STL),turnover,3pt missed,7,Low
+21800394,167,3pt,1,PT00M02.70S,00:02,Q1 00:02,33,26,1610612758.0,Mason III,MISS Mason 25' 3PT Pullup Jump Shot,steal,rebound,7,Low
+21800394,168,rebound,1,PT00M02.70S,00:02,Q1 00:02,33,26,1610612758.0,Jackson,Jackson REBOUND (Off:1 Def:0),3pt missed,2pt missed,7,Low
+21800394,169,2pt,1,PT00M00.00S,00:00,Q1 00:00,33,26,1610612758.0,Jackson,MISS Jackson 16' Jump Shot,rebound,rebound,7,Low
+21800394,170,rebound,1,PT00M00.00S,00:00,Q1 00:00,33,26,1610612758.0,,TEAM offensive REBOUND,2pt missed,period,7,Low
+21800394,171,period,1,PT00M00.00S,00:00,Q1 00:00,33,26,1610612741.0,,End of 1st Period (8:38 PM EST),rebound,period,7,Low
+21800394,176,period,2,PT12M00.00S,12:00,Q2 12:00,33,26,1610612741.0,,Start of 2nd Period (8:41 PM EST),period,substitution,7,Low
+21800394,177,2pt,2,PT11M45.00S,11:45,Q2 11:45,33,28,1610612758.0,Bogdanovic,Bogdanovic 18' Jump Shot (3 PTS) (Mason 1 AST),substitution,turnover,5,Low
+21800394,179,turnover,2,PT11M25.00S,11:25,Q2 11:25,33,28,1610612741.0,Lopez,Lopez 3 Second Violation Turnover (P1.T9),2pt made,2pt made,5,Low
+21800394,180,2pt,2,PT11M06.00S,11:06,Q2 11:06,33,30,1610612758.0,Koufos,Koufos 10' Hook Shot (2 PTS) (Mason 2 AST),turnover,2pt missed,3,Low
+21800394,182,2pt,2,PT10M51.00S,10:51,Q2 10:51,33,30,1610612741.0,Lopez,MISS Lopez 19' Jump Shot,2pt made,rebound,3,Low
+21800394,183,rebound,2,PT10M49.00S,10:49,Q2 10:49,33,30,1610612758.0,Mason III,Mason REBOUND (Off:0 Def:1),2pt missed,3pt missed,3,Low
+21800394,184,3pt,2,PT10M45.00S,10:45,Q2 10:45,33,30,1610612758.0,Jackson,MISS Jackson 26' 3PT Jump Shot,rebound,rebound,3,Low
+21800394,185,rebound,2,PT10M42.00S,10:42,Q2 10:42,33,30,1610612741.0,Portis,Portis REBOUND (Off:1 Def:4),3pt missed,2pt made,3,Low
+21800394,186,2pt,2,PT10M34.00S,10:34,Q2 10:34,35,30,1610612741.0,Dunn,Dunn 2' Driving Layup (7 PTS),rebound,2pt missed,5,Low
+21800394,187,2pt,2,PT10M13.00S,10:13,Q2 10:13,35,30,1610612758.0,Bogdanovic,MISS Bogdanovic 2' Driving Layup,2pt made,rebound,5,Low
+21800394,188,rebound,2,PT10M11.00S,10:11,Q2 10:11,35,30,1610612758.0,Bogdanovic,Bogdanovic REBOUND (Off:1 Def:1),2pt missed,2pt made,5,Low
+21800394,189,2pt,2,PT10M08.00S,10:08,Q2 10:08,35,32,1610612758.0,Bagley III,Bagley III 1' Driving Dunk (8 PTS) (Mason 3 AST),rebound,3pt made,3,Low
+21800394,191,3pt,2,PT09M53.00S,09:53,Q2 09:53,38,32,1610612741.0,Portis,Portis 26' 3PT Jump Shot (5 PTS) (Dunn 3 AST),2pt made,foul,6,Low
+21800394,193,foul,2,PT09M37.00S,09:37,Q2 09:37,38,32,1610612741.0,Portis,Portis P.FOUL (P1.T1) (E.Malloy),3pt made,foul,6,Low
+21800394,196,foul,2,PT09M25.00S,09:25,Q2 09:25,38,32,1610612741.0,Portis,Portis S.FOUL (P2.T2) (P.Ransom),foul,freethrow,6,Low
+21800394,198,freethrow,2,PT09M25.00S,09:25,Q2 09:25,38,32,1610612758.0,Bagley III,MISS Bagley III Free Throw 1 of 2,foul,rebound,6,Low
+21800394,199,rebound,2,PT09M25.00S,09:25,Q2 09:25,38,32,1610612758.0,,TEAM offensive REBOUND,freethrow,freethrow,6,Low
+21800394,200,freethrow,2,PT09M25.00S,09:25,Q2 09:25,38,33,1610612758.0,Bagley III,Bagley III Free Throw 2 of 2 (9 PTS),rebound,turnover,5,Low
+21800394,201,turnover,2,PT09M15.00S,09:15,Q2 09:15,38,33,1610612741.0,Dunn,Dunn Bad Pass Turnover (P1.T10),freethrow,steal,5,Low
+21800394,201,steal,2,PT09M15.00S,09:15,Q2 09:15,38,33,1610612758.0,Bogdanovic,Bogdanovic STEAL (1 STL),turnover,2pt made,5,Low
+21800394,203,2pt,2,PT09M08.00S,09:08,Q2 09:08,38,35,1610612758.0,Jackson,Jackson 6' Jump Shot (4 PTS) (Bogdanovic 2 AST),steal,2pt made,3,Low
+21800394,205,2pt,2,PT08M55.00S,08:55,Q2 08:55,40,35,1610612741.0,Portis,Portis 2' Driving Layup (7 PTS),2pt made,3pt made,5,Low
+21800394,206,3pt,2,PT08M43.00S,08:43,Q2 08:43,40,38,1610612758.0,Bagley III,Bagley III 26' 3PT Jump Shot (12 PTS) (Mason 4 AST),2pt made,3pt missed,2,Low
+21800394,208,3pt,2,PT08M24.00S,08:24,Q2 08:24,40,38,1610612741.0,Harrison,MISS Harrison 24' 3PT Jump Shot,3pt made,rebound,2,Low
+21800394,209,rebound,2,PT08M21.00S,08:21,Q2 08:21,40,38,1610612758.0,Koufos,Koufos REBOUND (Off:0 Def:1),3pt missed,timeout,2,Low
+21800394,211,timeout,2,PT08M08.00S,08:08,Q2 08:08,40,38,1610612741.0,,BULLS Timeout: Regular (Full 2 Short 0),rebound,substitution,2,Low
+21800394,212,substitution,2,PT08M08.00S,08:08,Q2 08:08,40,38,1610612758.0,Koufos,SUB out: K. Koufos,timeout,substitution,2,Low
+21800394,213,substitution,2,PT08M08.00S,08:08,Q2 08:08,40,38,1610612758.0,Bjelica,SUB in: N. Bjelica,substitution,3pt missed,2,Low
+21800394,214,3pt,2,PT08M06.00S,08:06,Q2 08:06,40,38,1610612758.0,Bogdanovic,MISS Bogdanovic 3PT Jump Shot,substitution,rebound,2,Low
+21800394,215,rebound,2,PT08M01.00S,08:01,Q2 08:01,40,38,1610612741.0,Portis,Portis REBOUND (Off:1 Def:5),3pt missed,2pt made,2,Low
+21800394,216,2pt,2,PT07M47.00S,07:47,Q2 07:47,42,38,1610612741.0,Parker,Parker 3' Driving Layup (2 PTS),rebound,turnover,4,Low
+21800394,217,turnover,2,PT07M29.00S,07:29,Q2 07:29,42,38,1610612758.0,Bjelica,Bjelica Lost Ball Turnover (P1.T6),2pt made,steal,4,Low
+21800394,217,steal,2,PT07M29.00S,07:29,Q2 07:29,42,38,1610612741.0,Harrison,Harrison STEAL (1 STL),turnover,substitution,4,Low
+21800394,219,substitution,2,PT07M27.00S,07:27,Q2 07:27,42,38,1610612758.0,Mason III,SUB out: F. Mason III,steal,substitution,4,Low
+21800394,220,substitution,2,PT07M27.00S,07:27,Q2 07:27,42,38,1610612758.0,Fox,SUB in: D. Fox,substitution,2pt made,4,Low
+21800394,221,2pt,2,PT07M21.00S,07:21,Q2 07:21,44,38,1610612741.0,Parker,Parker 1' Reverse Layup (4 PTS),substitution,2pt missed,6,Low
+21800394,222,2pt,2,PT07M01.00S,07:01,Q2 07:01,44,38,1610612758.0,Bagley III,MISS Bagley III 2' Driving Layup,2pt made,block,6,Low
+21800394,222,block,2,PT07M01.00S,07:01,Q2 07:01,44,38,1610612741.0,Lopez,Lopez BLOCK (1 BLK),2pt missed,rebound,6,Low
+21800394,224,rebound,2,PT06M58.00S,06:58,Q2 06:58,44,38,1610612741.0,Lopez,Lopez REBOUND (Off:0 Def:1),block,3pt missed,6,Low
+21800394,225,3pt,2,PT06M52.00S,06:52,Q2 06:52,44,38,1610612741.0,Dunn,MISS Dunn 3PT Jump Shot,rebound,rebound,6,Low
+21800394,226,rebound,2,PT06M49.00S,06:49,Q2 06:49,44,38,1610612758.0,Bagley III,Bagley III REBOUND (Off:0 Def:1),3pt missed,2pt missed,6,Low
+21800394,227,2pt,2,PT06M25.00S,06:25,Q2 06:25,44,38,1610612758.0,Bjelica,MISS Bjelica 6' Floating Jump Shot,rebound,rebound,6,Low
+21800394,228,rebound,2,PT06M25.00S,06:25,Q2 06:25,44,38,1610612758.0,Bjelica,Bjelica REBOUND (Off:1 Def:2),2pt missed,foul,6,Low
+21800394,229,foul,2,PT06M25.00S,06:25,Q2 06:25,44,38,1610612741.0,Parker,Parker P.FOUL (P2.T3) (P.Ransom),rebound,substitution,6,Low
+21800394,231,substitution,2,PT06M25.00S,06:25,Q2 06:25,44,38,1610612741.0,Harrison,SUB out: S. Harrison,foul,substitution,6,Low
+21800394,232,substitution,2,PT06M25.00S,06:25,Q2 06:25,44,38,1610612741.0,Portis,SUB out: B. Portis,substitution,substitution,6,Low
+21800394,233,substitution,2,PT06M25.00S,06:25,Q2 06:25,44,38,1610612741.0,Dunn,SUB out: K. Dunn,substitution,substitution,6,Low
+21800394,234,substitution,2,PT06M25.00S,06:25,Q2 06:25,44,38,1610612758.0,Jackson,SUB out: J. Jackson,substitution,substitution,6,Low
+21800394,235,substitution,2,PT06M25.00S,06:25,Q2 06:25,44,38,1610612741.0,LaVine,SUB in: Z. LaVine,substitution,substitution,6,Low
+21800394,236,substitution,2,PT06M25.00S,06:25,Q2 06:25,44,38,1610612741.0,Markkanen,SUB in: L. Markkanen,substitution,substitution,6,Low
+21800394,237,substitution,2,PT06M25.00S,06:25,Q2 06:25,44,38,1610612741.0,Arcidiacono,SUB in: R. Arcidiacono,substitution,substitution,6,Low
+21800394,238,substitution,2,PT06M25.00S,06:25,Q2 06:25,44,38,1610612758.0,Shumpert,SUB in: I. Shumpert,substitution,3pt missed,6,Low
+21800394,239,3pt,2,PT06M17.00S,06:17,Q2 06:17,44,38,1610612758.0,Shumpert,MISS Shumpert 3PT Jump Shot,substitution,rebound,6,Low
+21800394,240,rebound,2,PT06M14.00S,06:14,Q2 06:14,44,38,1610612741.0,Parker,Parker REBOUND (Off:0 Def:2),3pt missed,turnover,6,Low
+21800394,241,turnover,2,PT06M09.00S,06:09,Q2 06:09,44,38,1610612741.0,Parker,Parker Out of Bounds - Bad Pass Turnover Turnover (P3.T11),rebound,2pt made,6,Low
+21800394,243,2pt,2,PT05M54.00S,05:54,Q2 05:54,44,40,1610612758.0,Bogdanovic,Bogdanovic 10' Driving Floating Bank Jump Shot (5 PTS),turnover,2pt made,4,Low
+21800394,244,2pt,2,PT05M34.00S,05:34,Q2 05:34,46,40,1610612741.0,Lopez,Lopez 1' Dunk (2 PTS),2pt made,2pt missed,6,Low
+21800394,245,2pt,2,PT05M25.00S,05:25,Q2 05:25,46,40,1610612758.0,Fox,MISS Fox 14' Pullup Jump Shot,2pt made,rebound,6,Low
+21800394,246,rebound,2,PT05M22.00S,05:22,Q2 05:22,46,40,1610612741.0,Parker,Parker REBOUND (Off:0 Def:3),2pt missed,2pt missed,6,Low
+21800394,247,2pt,2,PT05M14.00S,05:14,Q2 05:14,46,40,1610612741.0,Parker,MISS Parker 7' Driving Floating Jump Shot,rebound,rebound,6,Low
+21800394,248,rebound,2,PT05M12.00S,05:12,Q2 05:12,46,40,1610612758.0,Fox,Fox REBOUND (Off:0 Def:1),2pt missed,foul,6,Low
+21800394,249,foul,2,PT05M06.00S,05:06,Q2 05:06,46,40,1610612758.0,Bjelica,Bjelica OFF.Foul (P1) (R.Garretson),rebound,turnover,6,Low
+21800394,251,turnover,2,PT05M06.00S,05:06,Q2 05:06,46,40,1610612758.0,Bjelica,Bjelica Offensive Foul Turnover (P2.T7),foul,substitution,6,Low
+21800394,252,substitution,2,PT05M06.00S,05:06,Q2 05:06,46,40,1610612758.0,Bagley III,SUB out: M. Bagley III,turnover,substitution,6,Low
+21800394,253,substitution,2,PT05M06.00S,05:06,Q2 05:06,46,40,1610612741.0,Parker,SUB out: J. Parker,substitution,substitution,6,Low
+21800394,254,substitution,2,PT05M06.00S,05:06,Q2 05:06,46,40,1610612758.0,Cauley-Stein,SUB in: W. Cauley-Stein,substitution,substitution,6,Low
+21800394,255,substitution,2,PT05M06.00S,05:06,Q2 05:06,46,40,1610612741.0,Holiday,SUB in: J. Holiday,substitution,2pt missed,6,Low
+21800394,256,2pt,2,PT04M50.00S,04:50,Q2 04:50,46,40,1610612741.0,Lopez,MISS Lopez 7' Turnaround Hook Shot,substitution,rebound,6,Low
+21800394,257,rebound,2,PT04M47.00S,04:47,Q2 04:47,46,40,1610612758.0,Cauley-Stein,Cauley-Stein REBOUND (Off:2 Def:2),2pt missed,2pt missed,6,Low
+21800394,258,2pt,2,PT04M41.00S,04:41,Q2 04:41,46,40,1610612758.0,Cauley-Stein,MISS Cauley-Stein 14' Jump Shot,rebound,rebound,6,Low
+21800394,259,rebound,2,PT04M38.00S,04:38,Q2 04:38,46,40,1610612741.0,Markkanen,Markkanen REBOUND (Off:0 Def:3),2pt missed,2pt made,6,Low
+21800394,260,2pt,2,PT04M29.00S,04:29,Q2 04:29,48,40,1610612741.0,Lopez,Lopez 4' Driving Hook Shot (4 PTS) (Markkanen 1 AST),rebound,3pt missed,8,Low
+21800394,262,3pt,2,PT04M18.00S,04:18,Q2 04:18,48,40,1610612758.0,Bjelica,MISS Bjelica 29' 3PT Jump Shot,2pt made,rebound,8,Low
+21800394,263,rebound,2,PT04M17.00S,04:17,Q2 04:17,48,40,1610612741.0,Arcidiacono,Arcidiacono REBOUND (Off:0 Def:1),3pt missed,2pt made,8,Low
+21800394,264,2pt,2,PT03M58.00S,03:58,Q2 03:58,50,40,1610612741.0,Lopez,Lopez 5' Turnaround Hook Shot (6 PTS),rebound,timeout,10,Low
+21800394,265,timeout,2,PT03M58.00S,03:58,Q2 03:58,50,40,1610612758.0,,Kings Timeout: Regular (Reg.2 Short 0),2pt made,substitution,10,Low
+21800394,268,substitution,2,PT03M58.00S,03:58,Q2 03:58,50,40,1610612758.0,Bogdanovic,SUB out: B. Bogdanovic,timeout,substitution,10,Low
+21800394,269,substitution,2,PT03M58.00S,03:58,Q2 03:58,50,40,1610612758.0,Hield,SUB in: B. Hield,substitution,2pt made,10,Low
+21800394,266,2pt,2,PT03M45.00S,03:45,Q2 03:45,50,42,1610612758.0,Bjelica,Bjelica 21' Pullup Jump Shot (4 PTS) (Cauley-Stein 2 AST),substitution,3pt missed,8,Low
+21800394,270,3pt,2,PT03M19.00S,03:19,Q2 03:19,50,42,1610612741.0,Markkanen,MISS Markkanen 25' 3PT Jump Shot,2pt made,rebound,8,Low
+21800394,271,rebound,2,PT03M15.00S,03:15,Q2 03:15,50,42,1610612741.0,Arcidiacono,Arcidiacono REBOUND (Off:1 Def:1),3pt missed,2pt missed,8,Low
+21800394,272,2pt,2,PT03M01.00S,03:01,Q2 03:01,50,42,1610612741.0,Arcidiacono,MISS Arcidiacono 3' Driving Layup,rebound,rebound,8,Low
+21800394,273,rebound,2,PT02M59.00S,02:59,Q2 02:59,50,42,1610612758.0,Cauley-Stein,Cauley-Stein REBOUND (Off:2 Def:3),2pt missed,3pt missed,8,Low
+21800394,274,3pt,2,PT02M55.00S,02:55,Q2 02:55,50,42,1610612758.0,Hield,MISS Hield 25' 3PT Jump Shot,rebound,rebound,8,Low
+21800394,275,rebound,2,PT02M51.00S,02:51,Q2 02:51,50,42,1610612741.0,Arcidiacono,Arcidiacono REBOUND (Off:1 Def:2),3pt missed,foul,8,Low
+21800394,276,foul,2,PT02M48.00S,02:48,Q2 02:48,50,42,1610612741.0,Lopez,Lopez OFF.Foul (P1) (E.Malloy),rebound,turnover,8,Low
+21800394,278,turnover,2,PT02M48.00S,02:48,Q2 02:48,50,42,1610612741.0,Lopez,Lopez Offensive Foul Turnover (P2.T12),foul,substitution,8,Low
+21800394,279,substitution,2,PT02M48.00S,02:48,Q2 02:48,50,42,1610612741.0,Lopez,SUB out: R. Lopez,turnover,substitution,8,Low
+21800394,280,substitution,2,PT02M48.00S,02:48,Q2 02:48,50,42,1610612741.0,Carter Jr.,SUB in: W. Carter Jr.,substitution,2pt missed,8,Low
+21800394,281,2pt,2,PT02M38.00S,02:38,Q2 02:38,50,42,1610612758.0,Fox,MISS Fox 4' Driving Layup,substitution,rebound,8,Low
+21800394,282,rebound,2,PT02M35.00S,02:35,Q2 02:35,50,42,1610612741.0,Holiday,Holiday REBOUND (Off:0 Def:1),2pt missed,2pt made,8,Low
+21800394,285,2pt,2,PT02M30.00S,02:30,Q2 02:30,52,42,1610612741.0,Carter Jr.,Carter Jr. 1' Dunk (5 PTS) (LaVine 1 AST),rebound,2pt missed,10,Low
+21800394,287,2pt,2,PT02M17.00S,02:17,Q2 02:17,52,42,1610612758.0,Cauley-Stein,MISS Cauley-Stein 1' Layup,2pt made,rebound,10,Low
+21800394,288,rebound,2,PT02M17.00S,02:17,Q2 02:17,52,42,1610612741.0,Markkanen,Markkanen REBOUND (Off:0 Def:4),2pt missed,2pt missed,10,Low
+21800394,325,2pt,2,PT02M07.00S,02:07,Q2 02:07,52,42,1610612741.0,LaVine,MISS LaVine 3' Driving Layup,rebound,block,10,Low
+21800394,325,block,2,PT02M07.00S,02:07,Q2 02:07,52,42,1610612758.0,Fox,Fox BLOCK (1 BLK),2pt missed,rebound,10,Low
+21800394,327,rebound,2,PT02M07.00S,02:07,Q2 02:07,52,42,1610612741.0,,TEAM offensive REBOUND,block,2pt made,10,Low
+21800394,290,2pt,2,PT02M04.00S,02:04,Q2 02:04,54,42,1610612741.0,Holiday,Holiday 14' Jump Shot (9 PTS) (Arcidiacono 3 AST),rebound,3pt missed,12,Low
+21800394,292,3pt,2,PT01M49.00S,01:49,Q2 01:49,54,42,1610612758.0,Fox,MISS Fox 25' 3PT Pullup Jump Shot,2pt made,rebound,12,Low
+21800394,293,rebound,2,PT01M45.00S,01:45,Q2 01:45,54,42,1610612741.0,LaVine,LaVine REBOUND (Off:0 Def:1),3pt missed,3pt missed,12,Low
+21800394,294,3pt,2,PT01M40.00S,01:40,Q2 01:40,54,42,1610612741.0,Markkanen,MISS Markkanen 26' 3PT Jump Shot,rebound,rebound,12,Low
+21800394,295,rebound,2,PT01M38.00S,01:38,Q2 01:38,54,42,1610612741.0,Arcidiacono,Arcidiacono REBOUND (Off:2 Def:2),3pt missed,foul,12,Low
+21800394,296,foul,2,PT01M30.00S,01:30,Q2 01:30,54,42,1610612758.0,Cauley-Stein,Cauley-Stein P.FOUL (P1.T1) (R.Garretson),rebound,foul,12,Low
+21800394,298,foul,2,PT01M27.00S,01:27,Q2 01:27,54,42,1610612741.0,Carter Jr.,Carter Jr. OFF.Foul (P2) (R.Garretson),foul,turnover,12,Low
+21800394,300,turnover,2,PT01M27.00S,01:27,Q2 01:27,54,42,1610612741.0,Carter Jr.,Carter Jr. Offensive Foul Turnover (P2.T13),foul,3pt missed,12,Low
+21800394,301,3pt,2,PT01M10.00S,01:10,Q2 01:10,54,42,1610612758.0,Hield,MISS Hield 27' 3PT Pullup Jump Shot,turnover,rebound,12,Low
+21800394,302,rebound,2,PT01M09.00S,01:09,Q2 01:09,54,42,1610612758.0,,TEAM offensive REBOUND,3pt missed,turnover,12,Low
+21800394,304,turnover,2,PT01M07.00S,01:07,Q2 01:07,54,42,1610612758.0,Shumpert,Shumpert Bad Pass Turnover (P2.T8),rebound,steal,12,Low
+21800394,304,steal,2,PT01M07.00S,01:07,Q2 01:07,54,42,1610612741.0,Holiday,Holiday STEAL (2 STL),turnover,2pt missed,12,Low
+21800394,306,2pt,2,PT01M01.00S,01:01,Q2 01:01,54,42,1610612741.0,Carter Jr.,MISS Carter Jr. 2' Running Layup,steal,rebound,12,Low
+21800394,307,rebound,2,PT01M00.00S,01:00,Q2 01:00,54,42,1610612741.0,LaVine,LaVine REBOUND (Off:1 Def:1),2pt missed,2pt made,12,Low
+21800394,308,2pt,2,PT01M00.00S,01:00,Q2 01:00,56,42,1610612741.0,LaVine,LaVine 1' Putback Dunk (12 PTS),rebound,3pt made,14,Low
+21800394,309,3pt,2,PT00M46.30S,00:46,Q2 00:46,56,45,1610612758.0,Hield,Hield 25' 3PT Jump Shot (3 PTS) (Bjelica 2 AST),2pt made,2pt missed,11,Low
+21800394,311,2pt,2,PT00M21.90S,00:21,Q2 00:21,56,45,1610612741.0,Carter Jr.,MISS Carter Jr. 2' Layup,3pt made,rebound,11,Low
+21800394,313,rebound,2,PT00M19.00S,00:19,Q2 00:19,56,45,1610612758.0,Bjelica,Bjelica REBOUND (Off:1 Def:3),2pt missed,foul,11,Low
+21800394,314,foul,2,PT00M07.70S,00:07,Q2 00:07,56,45,1610612741.0,Arcidiacono,Arcidiacono Personal Take Foul (P2.T4) (E.Malloy),rebound,substitution,11,Low
+21800394,316,substitution,2,PT00M07.70S,00:07,Q2 00:07,56,45,1610612741.0,Holiday,SUB out: J. Holiday,foul,substitution,11,Low
+21800394,317,substitution,2,PT00M07.70S,00:07,Q2 00:07,56,45,1610612741.0,Arcidiacono,SUB out: R. Arcidiacono,substitution,substitution,11,Low
+21800394,318,substitution,2,PT00M07.70S,00:07,Q2 00:07,56,45,1610612741.0,Dunn,SUB in: K. Dunn,substitution,substitution,11,Low
+21800394,319,substitution,2,PT00M07.70S,00:07,Q2 00:07,56,45,1610612741.0,Harrison,SUB in: S. Harrison,substitution,turnover,11,Low
+21800394,320,turnover,2,PT00M01.10S,00:01,Q2 00:01,56,45,1610612758.0,Bjelica,Bjelica Lost Ball Turnover (P3.T9),substitution,steal,11,Low
+21800394,320,steal,2,PT00M01.10S,00:01,Q2 00:01,56,45,1610612741.0,Markkanen,Markkanen STEAL (1 STL),turnover,3pt missed,11,Low
+21800394,322,3pt,2,PT00M00.00S,00:00,Q2 00:00,56,45,1610612741.0,Markkanen,MISS Markkanen 58' 3PT Jump Shot,steal,rebound,11,Low
+21800394,323,rebound,2,PT00M00.00S,00:00,Q2 00:00,56,45,1610612741.0,,TEAM offensive REBOUND,3pt missed,period,11,Low
+21800394,324,period,2,PT00M00.00S,00:00,Q2 00:00,56,45,1610612741.0,,End of 2nd Period (9:05 PM EST),rebound,period,11,Low
+21800394,332,period,3,PT12M00.00S,12:00,Q3 12:00,56,45,1610612741.0,,Start of 3rd Period (9:20 PM EST),period,substitution,11,Low
+21800394,333,2pt,3,PT11M38.00S,11:38,Q3 11:38,56,45,1610612758.0,Shumpert,MISS Shumpert 10' Driving Floating Jump Shot,substitution,rebound,11,Low
+21800394,334,rebound,3,PT11M36.00S,11:36,Q3 11:36,56,45,1610612741.0,Markkanen,Markkanen REBOUND (Off:0 Def:5),2pt missed,3pt missed,11,Low
+21800394,335,3pt,3,PT11M18.00S,11:18,Q3 11:18,56,45,1610612741.0,Markkanen,MISS Markkanen 24' 3PT Jump Shot,rebound,rebound,11,Low
+21800394,336,rebound,3,PT11M15.00S,11:15,Q3 11:15,56,45,1610612758.0,Cauley-Stein,Cauley-Stein REBOUND (Off:2 Def:4),3pt missed,foul,11,Low
+21800394,337,foul,3,PT11M11.00S,11:11,Q3 11:11,56,45,1610612741.0,Arcidiacono,Arcidiacono S.FOUL (P3.T1) (R.Garretson),rebound,freethrow,11,Low
+21800394,339,freethrow,3,PT11M11.00S,11:11,Q3 11:11,56,45,1610612758.0,Fox,MISS Fox Free Throw 1 of 2,foul,rebound,11,Low
+21800394,340,rebound,3,PT11M11.00S,11:11,Q3 11:11,56,45,1610612758.0,,TEAM offensive REBOUND,freethrow,freethrow,11,Low
+21800394,341,freethrow,3,PT11M11.00S,11:11,Q3 11:11,56,46,1610612758.0,Fox,Fox Free Throw 2 of 2 (3 PTS),rebound,3pt missed,10,Low
+21800394,342,3pt,3,PT10M49.00S,10:49,Q3 10:49,56,46,1610612741.0,Holiday,MISS Holiday 25' 3PT Step Back Jump Shot,freethrow,rebound,10,Low
+21800394,343,rebound,3,PT10M47.00S,10:47,Q3 10:47,56,46,1610612758.0,Fox,Fox REBOUND (Off:0 Def:2),3pt missed,2pt missed,10,Low
+21800394,344,2pt,3,PT10M37.00S,10:37,Q3 10:37,56,46,1610612758.0,Shumpert,MISS Shumpert 3' Driving Layup,rebound,rebound,10,Low
+21800394,345,rebound,3,PT10M35.00S,10:35,Q3 10:35,56,46,1610612741.0,Holiday,Holiday REBOUND (Off:0 Def:2),2pt missed,turnover,10,Low
+21800394,346,turnover,3,PT10M20.00S,10:20,Q3 10:20,56,46,1610612741.0,Holiday,Holiday Bad Pass Turnover (P3.T14),rebound,steal,10,Low
+21800394,346,steal,3,PT10M20.00S,10:20,Q3 10:20,56,46,1610612758.0,Shumpert,Shumpert STEAL (2 STL),turnover,turnover,10,Low
+21800394,348,turnover,3,PT10M16.00S,10:16,Q3 10:16,56,46,1610612758.0,Shumpert,Shumpert Bad Pass Turnover (P3.T10),steal,steal,10,Low
+21800394,348,steal,3,PT10M16.00S,10:16,Q3 10:16,56,46,1610612741.0,Holiday,Holiday STEAL (3 STL),turnover,foul,10,Low
+21800394,350,foul,3,PT10M11.00S,10:11,Q3 10:11,56,46,1610612758.0,Fox,Fox S.FOUL (P2.T1) (R.Garretson),steal,freethrow,10,Low
+21800394,352,freethrow,3,PT10M11.00S,10:11,Q3 10:11,57,46,1610612741.0,LaVine,LaVine Free Throw 1 of 2 (13 PTS),foul,freethrow,11,Low
+21800394,353,freethrow,3,PT10M11.00S,10:11,Q3 10:11,58,46,1610612741.0,LaVine,LaVine Free Throw 2 of 2 (14 PTS),freethrow,3pt made,12,Low
+21800394,354,3pt,3,PT09M50.00S,09:50,Q3 09:50,58,49,1610612758.0,Shumpert,Shumpert 24' 3PT Jump Shot (9 PTS) (Hield 1 AST),freethrow,3pt made,9,Low
+21800394,356,3pt,3,PT09M35.00S,09:35,Q3 09:35,61,49,1610612741.0,Markkanen,Markkanen 25' 3PT Jump Shot (9 PTS) (LaVine 2 AST),3pt made,2pt missed,12,Low
+21800394,358,2pt,3,PT09M24.00S,09:24,Q3 09:24,61,49,1610612758.0,Fox,MISS Fox 4' Driving Layup,3pt made,rebound,12,Low
+21800394,359,rebound,3,PT09M21.00S,09:21,Q3 09:21,61,49,1610612741.0,Markkanen,Markkanen REBOUND (Off:0 Def:6),2pt missed,3pt missed,12,Low
+21800394,360,3pt,3,PT09M07.00S,09:07,Q3 09:07,61,49,1610612741.0,Holiday,MISS Holiday 3PT Jump Shot,rebound,rebound,12,Low
+21800394,361,rebound,3,PT09M04.00S,09:04,Q3 09:04,61,49,1610612758.0,Cauley-Stein,Cauley-Stein REBOUND (Off:2 Def:5),3pt missed,2pt made,12,Low
+21800394,362,2pt,3,PT08M57.00S,08:57,Q3 08:57,61,51,1610612758.0,Cauley-Stein,Cauley-Stein 1' Driving Layup (9 PTS) (Fox 3 AST),rebound,turnover,10,Low
+21800394,372,turnover,3,PT08M38.00S,08:38,Q3 08:38,61,51,1610612741.0,Markkanen,Markkanen Lost Ball Turnover (P1.T15),2pt made,steal,10,Low
+21800394,372,steal,3,PT08M38.00S,08:38,Q3 08:38,61,51,1610612758.0,Fox,Fox STEAL (1 STL),turnover,turnover,10,Low
+21800394,379,turnover,3,PT08M36.00S,08:36,Q3 08:36,61,51,1610612758.0,Fox,Fox Lost Ball Turnover (P2.T11),steal,steal,10,Low
+21800394,379,steal,3,PT08M36.00S,08:36,Q3 08:36,61,51,1610612741.0,LaVine,LaVine STEAL (3 STL),turnover,2pt made,10,Low
+21800394,365,2pt,3,PT08M20.00S,08:20,Q3 08:20,63,51,1610612741.0,LaVine,LaVine 1' Driving Layup (16 PTS),steal,turnover,12,Low
+21800394,366,turnover,3,PT08M04.00S,08:04,Q3 08:04,63,51,1610612758.0,Shumpert,Shumpert Lost Ball Turnover (P4.T12),2pt made,steal,12,Low
+21800394,366,steal,3,PT08M04.00S,08:04,Q3 08:04,63,51,1610612741.0,Carter Jr.,Carter Jr. STEAL (1 STL),turnover,3pt missed,12,Low
+21800394,368,3pt,3,PT07M45.00S,07:45,Q3 07:45,63,51,1610612741.0,LaVine,MISS LaVine 3PT Jump Shot,steal,rebound,12,Low
+21800394,369,rebound,3,PT07M41.00S,07:41,Q3 07:41,63,51,1610612758.0,Cauley-Stein,Cauley-Stein REBOUND (Off:2 Def:6),3pt missed,2pt made,12,Low
+21800394,370,2pt,3,PT07M25.00S,07:25,Q3 07:25,63,53,1610612758.0,Cauley-Stein,Cauley-Stein 1' Dunk (11 PTS) (Shumpert 2 AST),rebound,3pt missed,10,Low
+21800394,374,3pt,3,PT07M06.00S,07:06,Q3 07:06,63,53,1610612741.0,Markkanen,MISS Markkanen 24' 3PT Jump Shot,2pt made,rebound,10,Low
+21800394,375,rebound,3,PT07M03.00S,07:03,Q3 07:03,63,53,1610612758.0,Bjelica,Bjelica REBOUND (Off:1 Def:4),3pt missed,3pt missed,10,Low
+21800394,376,3pt,3,PT06M57.00S,06:57,Q3 06:57,63,53,1610612758.0,Bjelica,MISS Bjelica 26' 3PT Jump Shot,rebound,rebound,10,Low
+21800394,377,rebound,3,PT06M55.00S,06:55,Q3 06:55,63,53,1610612758.0,Bjelica,Bjelica REBOUND (Off:2 Def:4),3pt missed,2pt made,10,Low
+21800394,378,2pt,3,PT06M53.00S,06:53,Q3 06:53,63,55,1610612758.0,Bjelica,Bjelica 2' Driving Layup (6 PTS),rebound,timeout,8,Low
+21800394,381,timeout,3,PT06M53.00S,06:53,Q3 06:53,63,55,1610612741.0,,BULLS Timeout: Regular (Full 3 Short 0),2pt made,substitution,8,Low
+21800394,382,substitution,3,PT06M53.00S,06:53,Q3 06:53,63,55,1610612741.0,Arcidiacono,SUB out: R. Arcidiacono,timeout,substitution,8,Low
+21800394,383,substitution,3,PT06M53.00S,06:53,Q3 06:53,63,55,1610612741.0,Dunn,SUB in: K. Dunn,substitution,turnover,8,Low
+21800394,385,turnover,3,PT06M35.00S,06:35,Q3 06:35,63,55,1610612741.0,Holiday,Holiday Lost Ball Turnover (P4.T16),substitution,steal,8,Low
+21800394,385,steal,3,PT06M35.00S,06:35,Q3 06:35,63,55,1610612758.0,Fox,Fox STEAL (2 STL),turnover,2pt made,8,Low
+21800394,387,2pt,3,PT06M29.00S,06:29,Q3 06:29,63,57,1610612758.0,Shumpert,Shumpert 1' Running Layup (11 PTS) (Fox 4 AST),steal,2pt missed,6,Low
+21800394,389,2pt,3,PT06M22.00S,06:22,Q3 06:22,63,57,1610612741.0,Markkanen,MISS Markkanen 2' Layup,2pt made,block,6,Low
+21800394,389,block,3,PT06M22.00S,06:22,Q3 06:22,63,57,1610612758.0,Bjelica,Bjelica BLOCK (1 BLK),2pt missed,rebound,6,Low
+21800394,391,rebound,3,PT06M22.00S,06:22,Q3 06:22,63,57,1610612741.0,,TEAM offensive REBOUND,block,substitution,6,Low
+21800394,393,substitution,3,PT06M22.00S,06:22,Q3 06:22,63,57,1610612741.0,Markkanen,SUB out: L. Markkanen,rebound,substitution,6,Low
+21800394,394,substitution,3,PT06M22.00S,06:22,Q3 06:22,63,57,1610612741.0,Parker,SUB in: J. Parker,substitution,3pt missed,6,Low
+21800394,395,3pt,3,PT06M14.00S,06:14,Q3 06:14,63,57,1610612741.0,Holiday,MISS Holiday 25' 3PT Jump Shot,substitution,rebound,6,Low
+21800394,396,rebound,3,PT06M10.00S,06:10,Q3 06:10,63,57,1610612758.0,Cauley-Stein,Cauley-Stein REBOUND (Off:2 Def:7),3pt missed,turnover,6,Low
+21800394,397,turnover,3,PT06M03.00S,06:03,Q3 06:03,63,57,1610612758.0,Shumpert,Shumpert Out of Bounds - Bad Pass Turnover Turnover (P5.T13),rebound,3pt made,6,Low
+21800394,398,3pt,3,PT05M45.00S,05:45,Q3 05:45,66,57,1610612741.0,LaVine,LaVine 28' 3PT Jump Shot (19 PTS) (Carter Jr. 2 AST),turnover,substitution,9,Low
+21800394,401,substitution,3,PT05M31.00S,05:31,Q3 05:31,66,57,1610612758.0,Bjelica,SUB out: N. Bjelica,3pt made,substitution,9,Low
+21800394,402,substitution,3,PT05M31.00S,05:31,Q3 05:31,66,57,1610612758.0,Bagley III,SUB in: M. Bagley III,substitution,foul,9,Low
+21800394,403,foul,3,PT05M25.00S,05:25,Q3 05:25,66,57,1610612741.0,Dunn,Dunn S.FOUL (P3.T2) (P.Ransom),substitution,freethrow,9,Low
+21800394,405,freethrow,3,PT05M25.00S,05:25,Q3 05:25,66,58,1610612758.0,Fox,Fox Free Throw 1 of 2 (4 PTS),foul,freethrow,8,Low
+21800394,406,freethrow,3,PT05M25.00S,05:25,Q3 05:25,66,59,1610612758.0,Fox,Fox Free Throw 2 of 2 (5 PTS),freethrow,turnover,7,Low
+21800394,407,turnover,3,PT05M11.00S,05:11,Q3 05:11,66,59,1610612741.0,LaVine,LaVine Bad Pass Turnover (P4.T17),freethrow,steal,7,Low
+21800394,407,steal,3,PT05M11.00S,05:11,Q3 05:11,66,59,1610612758.0,Fox,Fox STEAL (3 STL),turnover,2pt made,7,Low
+21800394,409,2pt,3,PT05M07.00S,05:07,Q3 05:07,66,61,1610612758.0,Fox,Fox 1' Running Dunk (7 PTS),steal,turnover,5,Low
+21800394,410,turnover,3,PT04M56.00S,04:56,Q3 04:56,66,61,1610612741.0,Parker,Parker Lost Ball Turnover (P4.T18),2pt made,steal,5,Low
+21800394,410,steal,3,PT04M56.00S,04:56,Q3 04:56,66,61,1610612758.0,Fox,Fox STEAL (4 STL),turnover,3pt made,5,Low
+21800394,412,3pt,3,PT04M49.00S,04:49,Q3 04:49,66,64,1610612758.0,Shumpert,Shumpert 25' 3PT Jump Shot (14 PTS) (Hield 2 AST),steal,timeout,2,Low
+21800394,414,timeout,3,PT04M48.00S,04:48,Q3 04:48,66,64,1610612741.0,,BULLS Timeout: Regular (Full 4 Short 0),3pt made,substitution,2,Low
+21800394,415,substitution,3,PT04M48.00S,04:48,Q3 04:48,66,64,1610612758.0,Hield,SUB out: B. Hield,timeout,substitution,2,Low
+21800394,416,substitution,3,PT04M48.00S,04:48,Q3 04:48,66,64,1610612758.0,Bogdanovic,SUB in: B. Bogdanovic,substitution,3pt made,2,Low
+21800394,417,3pt,3,PT04M26.00S,04:26,Q3 04:26,69,64,1610612741.0,Parker,Parker 25' 3PT Step Back Jump Shot (7 PTS) (Dunn 4 AST),substitution,3pt missed,5,Low
+21800394,418,3pt,3,PT04M07.00S,04:07,Q3 04:07,69,64,1610612758.0,Bogdanovic,MISS Bogdanovic 25' 3PT Jump Shot,3pt made,rebound,5,Low
+21800394,419,rebound,3,PT04M02.00S,04:02,Q3 04:02,69,64,1610612741.0,Dunn,Dunn REBOUND (Off:1 Def:2),3pt missed,2pt missed,5,Low
+21800394,420,2pt,3,PT03M51.00S,03:51,Q3 03:51,69,64,1610612741.0,LaVine,MISS LaVine 23' Pullup Jump Shot,rebound,rebound,5,Low
+21800394,421,rebound,3,PT03M48.00S,03:48,Q3 03:48,69,64,1610612758.0,Cauley-Stein,Cauley-Stein REBOUND (Off:2 Def:8),2pt missed,3pt made,5,Low
+21800394,422,3pt,3,PT03M41.00S,03:41,Q3 03:41,69,67,1610612758.0,Fox,Fox 25' 3PT Step Back Jump Shot (10 PTS),rebound,2pt made,2,Low
+21800394,423,2pt,3,PT03M28.00S,03:28,Q3 03:28,71,67,1610612741.0,Carter Jr.,Carter Jr. 3' Driving Layup (7 PTS) (Dunn 5 AST),3pt made,foul,4,Low
+21800394,425,foul,3,PT03M28.00S,03:28,Q3 03:28,71,67,1610612758.0,Cauley-Stein,Cauley-Stein S.FOUL (P2.T2) (E.Malloy),2pt made,freethrow,4,Low
+21800394,429,freethrow,3,PT03M28.00S,03:28,Q3 03:28,72,67,1610612741.0,Carter Jr.,Carter Jr. Free Throw 1 of 1 (8 PTS),foul,substitution,5,Low
+21800394,427,substitution,3,PT03M28.00S,03:28,Q3 03:28,71,67,1610612758.0,Cauley-Stein,SUB out: W. Cauley-Stein,freethrow,substitution,4,Low
+21800394,428,substitution,3,PT03M28.00S,03:28,Q3 03:28,71,67,1610612758.0,Koufos,SUB in: K. Koufos,substitution,3pt made,4,Low
+21800394,430,3pt,3,PT03M13.00S,03:13,Q3 03:13,72,70,1610612758.0,Fox,Fox 3PT Jump Shot (13 PTS) (Shumpert 3 AST),substitution,2pt made,2,Low
+21800394,432,2pt,3,PT03M04.00S,03:04,Q3 03:04,74,70,1610612741.0,Dunn,Dunn 4' Driving Floating Jump Shot (9 PTS),3pt made,2pt missed,4,Low
+21800394,433,2pt,3,PT02M51.00S,02:51,Q3 02:51,74,70,1610612758.0,Bagley III,MISS Bagley III 3' Driving Reverse Layup,2pt made,rebound,4,Low
+21800394,434,rebound,3,PT02M49.00S,02:49,Q3 02:49,74,70,1610612741.0,Carter Jr.,Carter Jr. REBOUND (Off:1 Def:4),2pt missed,turnover,4,Low
+21800394,435,turnover,3,PT02M32.00S,02:32,Q3 02:32,74,70,1610612741.0,Dunn,Dunn Bad Pass Turnover (P2.T19),rebound,steal,4,Low
+21800394,435,steal,3,PT02M32.00S,02:32,Q3 02:32,74,70,1610612758.0,Shumpert,Shumpert STEAL (3 STL),turnover,2pt made,4,Low
+21800394,437,2pt,3,PT02M25.00S,02:25,Q3 02:25,74,72,1610612758.0,Fox,Fox 6' Driving Floating Jump Shot (15 PTS),steal,2pt missed,2,Low
+21800394,438,2pt,3,PT02M06.00S,02:06,Q3 02:06,74,72,1610612741.0,Parker,MISS Parker 19' Jump Shot,2pt made,rebound,2,Low
+21800394,439,rebound,3,PT02M04.00S,02:04,Q3 02:04,74,72,1610612758.0,Koufos,Koufos REBOUND (Off:0 Def:2),2pt missed,3pt missed,2,Low
+21800394,440,3pt,3,PT01M58.00S,01:58,Q3 01:58,74,72,1610612758.0,Shumpert,MISS Shumpert 25' 3PT Jump Shot,rebound,rebound,2,Low
+21800394,441,rebound,3,PT01M56.00S,01:56,Q3 01:56,74,72,1610612758.0,,TEAM offensive REBOUND,3pt missed,substitution,2,Low
+21800394,443,substitution,3,PT01M56.00S,01:56,Q3 01:56,74,72,1610612741.0,Carter Jr.,SUB out: W. Carter Jr.,rebound,substitution,2,Low
+21800394,444,substitution,3,PT01M56.00S,01:56,Q3 01:56,74,72,1610612758.0,Shumpert,SUB out: I. Shumpert,substitution,substitution,2,Low
+21800394,445,substitution,3,PT01M56.00S,01:56,Q3 01:56,74,72,1610612741.0,Portis,SUB in: B. Portis,substitution,substitution,2,Low
+21800394,446,substitution,3,PT01M56.00S,01:56,Q3 01:56,74,72,1610612758.0,Hield,SUB in: B. Hield,substitution,3pt made,2,Low
+21800394,447,3pt,3,PT01M50.00S,01:50,Q3 01:50,74,75,1610612758.0,Hield,Hield 26' 3PT Pullup Jump Shot (6 PTS) (Bogdanovic 3 AST),substitution,turnover,1,Low
+21800394,449,turnover,3,PT01M30.00S,01:30,Q3 01:30,74,75,1610612741.0,LaVine,LaVine Traveling Turnover (P5.T20),3pt made,foul,1,Low
+21800394,450,foul,3,PT01M23.00S,01:23,Q3 01:23,74,75,1610612741.0,Dunn,Dunn P.FOUL (P4.T3) (E.Malloy),turnover,3pt missed,1,Low
+21800394,452,3pt,3,PT01M08.00S,01:08,Q3 01:08,74,75,1610612758.0,Bogdanovic,MISS Bogdanovic 26' 3PT Pullup Jump Shot,foul,rebound,1,Low
+21800394,453,rebound,3,PT01M06.00S,01:06,Q3 01:06,74,75,1610612741.0,,TEAM defensive REBOUND,3pt missed,turnover,1,Low
+21800394,455,turnover,3,PT00M46.90S,00:46,Q3 00:46,74,75,1610612741.0,Parker,Parker Lost Ball Turnover (P5.T21),rebound,steal,1,Low
+21800394,455,steal,3,PT00M46.90S,00:46,Q3 00:46,74,75,1610612758.0,Bogdanovic,Bogdanovic STEAL (2 STL),turnover,3pt made,1,Low
+21800394,457,3pt,3,PT00M43.20S,00:43,Q3 00:43,74,78,1610612758.0,Hield,Hield 25' 3PT Pullup Jump Shot (9 PTS) (Fox 5 AST),steal,3pt missed,4,Low
+21800394,459,3pt,3,PT00M32.50S,00:32,Q3 00:32,74,78,1610612741.0,Portis,MISS Portis 25' 3PT Jump Shot,3pt made,rebound,4,Low
+21800394,460,rebound,3,PT00M32.50S,00:32,Q3 00:32,74,78,1610612758.0,Hield,Hield REBOUND (Off:0 Def:2),3pt missed,3pt missed,4,Low
+21800394,461,3pt,3,PT00M08.50S,00:08,Q3 00:08,74,78,1610612758.0,Fox,MISS Fox 27' 3PT Pullup Jump Shot,rebound,rebound,4,Low
+21800394,462,rebound,3,PT00M04.80S,00:04,Q3 00:04,74,78,1610612758.0,Fox,Fox REBOUND (Off:1 Def:2),3pt missed,3pt made,4,Low
+21800394,463,3pt,3,PT00M00.40S,00:00,Q3 00:00,74,81,1610612758.0,Fox,Fox 25' 3PT Jump Shot (18 PTS) (Hield 3 AST),rebound,instant replay,7,Low
+21800394,466,period,3,PT00M00.00S,00:00,Q3 00:00,74,81,1610612741.0,,End of 3rd Period (9:44 PM EST),instant replay,period,7,Low
+21800394,476,period,4,PT12M00.00S,12:00,Q4 12:00,74,81,1610612741.0,,Start of 4th Period (9:47 PM EST),period,substitution,7,Medium
+21800394,477,2pt,4,PT11M40.00S,11:40,Q4 11:40,74,81,1610612741.0,Portis,MISS Portis 2' Driving Layup,substitution,block,7,Medium
+21800394,477,block,4,PT11M40.00S,11:40,Q4 11:40,74,81,1610612758.0,Koufos,Koufos BLOCK (1 BLK),2pt missed,rebound,7,Medium
+21800394,479,rebound,4,PT11M37.00S,11:37,Q4 11:37,74,81,1610612758.0,Hield,Hield REBOUND (Off:0 Def:3),block,turnover,7,Medium
+21800394,480,turnover,4,PT11M34.00S,11:34,Q4 11:34,74,81,1610612758.0,Hield,Hield Lost Ball Turnover (P2.T14),rebound,steal,7,Medium
+21800394,480,steal,4,PT11M34.00S,11:34,Q4 11:34,74,81,1610612741.0,Harrison,Harrison STEAL (2 STL),turnover,foul,7,Medium
+21800394,482,foul,4,PT11M33.00S,11:33,Q4 11:33,74,81,1610612758.0,Koufos,Koufos P.FOUL (P2.T1) (P.Ransom),steal,2pt made,7,Medium
+21800394,484,2pt,4,PT11M21.00S,11:21,Q4 11:21,76,81,1610612741.0,Arcidiacono,Arcidiacono 3' Cutting Layup Shot (2 PTS),foul,2pt missed,5,Medium
+21800394,485,2pt,4,PT10M57.00S,10:57,Q4 10:57,76,81,1610612758.0,Bagley III,MISS Bagley III 1' Driving Reverse Layup,2pt made,rebound,5,Medium
+21800394,486,rebound,4,PT10M55.00S,10:55,Q4 10:55,76,81,1610612741.0,Hutchison,Hutchison REBOUND (Off:0 Def:1),2pt missed,turnover,5,Medium
+21800394,487,turnover,4,PT10M46.00S,10:46,Q4 10:46,76,81,1610612741.0,Harrison,Harrison Out of Bounds Lost Ball Turnover (P1.T22),rebound,2pt made,5,Medium
+21800394,488,2pt,4,PT10M29.00S,10:29,Q4 10:29,76,83,1610612758.0,Hield,Hield 1' Driving Layup (11 PTS),turnover,2pt missed,7,Medium
+21800394,489,2pt,4,PT10M18.00S,10:18,Q4 10:18,76,83,1610612741.0,Portis,MISS Portis 22' Jump Shot,2pt made,rebound,7,Medium
+21800394,490,rebound,4,PT10M13.00S,10:13,Q4 10:13,76,83,1610612758.0,Fox,Fox REBOUND (Off:1 Def:3),2pt missed,3pt made,7,Medium
+21800394,491,3pt,4,PT10M01.00S,10:01,Q4 10:01,76,86,1610612758.0,Fox,Fox 26' 3PT Pullup Jump Shot (21 PTS),rebound,2pt made,10,Low
+21800394,492,2pt,4,PT09M40.00S,09:40,Q4 09:40,78,86,1610612741.0,Harrison,Harrison 1' Layup (2 PTS) (Portis 1 AST),3pt made,2pt made,8,Medium
+21800394,494,2pt,4,PT09M32.00S,09:32,Q4 09:32,78,88,1610612758.0,Fox,Fox 1' Running Layup (23 PTS),2pt made,foul,10,Low
+21800394,495,foul,4,PT09M27.00S,09:27,Q4 09:27,78,88,1610612758.0,Koufos,Koufos S.FOUL (P3.T2) (E.Malloy),2pt made,timeout,10,Low
+21800394,497,timeout,4,PT09M27.00S,09:27,Q4 09:27,78,88,1610612758.0,,Kings Timeout: Regular (Reg.3 Short 0),foul,freethrow,10,Low
+21800394,498,freethrow,4,PT09M27.00S,09:27,Q4 09:27,79,88,1610612741.0,Portis,Portis Free Throw 1 of 2 (8 PTS),timeout,freethrow,9,Low
+21800394,499,freethrow,4,PT09M27.00S,09:27,Q4 09:27,80,88,1610612741.0,Portis,Portis Free Throw 2 of 2 (9 PTS),freethrow,3pt missed,8,Medium
+21800394,500,3pt,4,PT09M03.00S,09:03,Q4 09:03,80,88,1610612758.0,Bogdanovic,MISS Bogdanovic 26' 3PT Step Back Jump Shot,freethrow,rebound,8,Medium
+21800394,501,rebound,4,PT09M03.00S,09:03,Q4 09:03,80,88,1610612758.0,,TEAM offensive REBOUND,3pt missed,turnover,8,Medium
+21800394,502,turnover,4,PT09M03.00S,09:03,Q4 09:03,80,88,0.0,,Kings Turnover: Shot Clock (T#15),rebound,2pt made,8,Medium
+21800394,503,2pt,4,PT08M47.00S,08:47,Q4 08:47,82,88,1610612741.0,Markkanen,Markkanen 5' Driving Floating Bank Jump Shot (11 PTS),turnover,2pt missed,6,Medium
+21800394,504,2pt,4,PT08M38.00S,08:38,Q4 08:38,82,88,1610612758.0,Fox,MISS Fox 3' Driving Layup,2pt made,block,6,Medium
+21800394,504,block,4,PT08M38.00S,08:38,Q4 08:38,82,88,1610612741.0,Portis,Portis BLOCK (1 BLK),2pt missed,rebound,6,Medium
+21800394,506,rebound,4,PT08M36.00S,08:36,Q4 08:36,82,88,1610612741.0,Portis,Portis REBOUND (Off:1 Def:6),block,2pt missed,6,Medium
+21800394,507,2pt,4,PT08M31.00S,08:31,Q4 08:31,82,88,1610612741.0,Portis,MISS Portis 19' Jump Shot,rebound,rebound,6,Medium
+21800394,508,rebound,4,PT08M28.00S,08:28,Q4 08:28,82,88,1610612758.0,Bogdanovic,Bogdanovic REBOUND (Off:1 Def:2),2pt missed,3pt made,6,Medium
+21800394,509,3pt,4,PT08M21.00S,08:21,Q4 08:21,82,91,1610612758.0,Bogdanovic,Bogdanovic 25' 3PT Jump Shot (8 PTS) (Fox 6 AST),rebound,2pt made,9,Low
+21800394,511,2pt,4,PT08M02.00S,08:02,Q4 08:02,84,91,1610612741.0,Harrison,Harrison 2' Driving Layup (4 PTS),3pt made,2pt missed,7,Medium
+21800394,512,2pt,4,PT07M52.00S,07:52,Q4 07:52,84,91,1610612758.0,Koufos,MISS Koufos 9' Driving Hook Shot,2pt made,rebound,7,Medium
+21800394,513,rebound,4,PT07M49.00S,07:49,Q4 07:49,84,91,1610612758.0,Bagley III,Bagley III REBOUND (Off:1 Def:1),2pt missed,foul,7,Medium
+21800394,514,foul,4,PT07M49.00S,07:49,Q4 07:49,84,91,1610612741.0,Markkanen,Markkanen S.FOUL (P1.T1) (E.Malloy),rebound,freethrow,7,Medium
+21800394,516,freethrow,4,PT07M49.00S,07:49,Q4 07:49,84,92,1610612758.0,Bagley III,Bagley III Free Throw 1 of 2 (13 PTS),foul,freethrow,8,Medium
+21800394,521,freethrow,4,PT07M49.00S,07:49,Q4 07:49,84,93,1610612758.0,Bagley III,Bagley III Free Throw 2 of 2 (14 PTS),freethrow,substitution,9,Low
+21800394,517,substitution,4,PT07M49.00S,07:49,Q4 07:49,84,92,1610612741.0,Hutchison,SUB out: C. Hutchison,freethrow,substitution,8,Medium
+21800394,518,substitution,4,PT07M49.00S,07:49,Q4 07:49,84,92,1610612741.0,Arcidiacono,SUB out: R. Arcidiacono,substitution,substitution,8,Medium
+21800394,519,substitution,4,PT07M49.00S,07:49,Q4 07:49,84,92,1610612741.0,Holiday,SUB in: J. Holiday,substitution,substitution,8,Medium
+21800394,520,substitution,4,PT07M49.00S,07:49,Q4 07:49,84,92,1610612741.0,LaVine,SUB in: Z. LaVine,substitution,turnover,8,Medium
+21800394,522,turnover,4,PT07M38.00S,07:38,Q4 07:38,84,93,1610612741.0,LaVine,LaVine Traveling Turnover (P6.T23),substitution,substitution,9,Low
+21800394,523,substitution,4,PT07M38.00S,07:38,Q4 07:38,84,93,1610612758.0,Fox,SUB out: D. Fox,turnover,substitution,9,Low
+21800394,524,substitution,4,PT07M38.00S,07:38,Q4 07:38,84,93,1610612758.0,Koufos,SUB out: K. Koufos,substitution,substitution,9,Low
+21800394,525,substitution,4,PT07M38.00S,07:38,Q4 07:38,84,93,1610612758.0,Cauley-Stein,SUB in: W. Cauley-Stein,substitution,substitution,9,Low
+21800394,526,substitution,4,PT07M38.00S,07:38,Q4 07:38,84,93,1610612758.0,Shumpert,SUB in: I. Shumpert,substitution,3pt made,9,Low
+21800394,527,3pt,4,PT07M18.00S,07:18,Q4 07:18,84,96,1610612758.0,Hield,Hield 25' 3PT Pullup Jump Shot (14 PTS) (Shumpert 4 AST),substitution,turnover,12,Low
+21800394,529,turnover,4,PT06M59.00S,06:59,Q4 06:59,84,96,1610612741.0,Harrison,Harrison Lost Ball Turnover (P2.T24),3pt made,steal,12,Low
+21800394,529,steal,4,PT06M59.00S,06:59,Q4 06:59,84,96,1610612758.0,Shumpert,Shumpert STEAL (4 STL),turnover,2pt missed,12,Low
+21800394,531,2pt,4,PT06M53.00S,06:53,Q4 06:53,84,96,1610612758.0,Cauley-Stein,MISS Cauley-Stein 3' Driving Reverse Layup,steal,rebound,12,Low
+21800394,532,rebound,4,PT06M50.00S,06:50,Q4 06:50,84,96,1610612741.0,Holiday,Holiday REBOUND (Off:0 Def:3),2pt missed,turnover,12,Low
+21800394,533,turnover,4,PT06M42.00S,06:42,Q4 06:42,84,96,1610612741.0,Markkanen,Markkanen Palming Turnover (P2.T25),rebound,substitution,12,Low
+21800394,534,substitution,4,PT06M42.00S,06:42,Q4 06:42,84,96,1610612741.0,Portis,SUB out: B. Portis,turnover,substitution,12,Low
+21800394,535,substitution,4,PT06M42.00S,06:42,Q4 06:42,84,96,1610612741.0,Carter Jr.,SUB in: W. Carter Jr.,substitution,2pt missed,12,Low
+21800394,536,2pt,4,PT06M29.00S,06:29,Q4 06:29,84,96,1610612758.0,Bogdanovic,MISS Bogdanovic 20' Pullup Jump Shot,substitution,rebound,12,Low
+21800394,537,rebound,4,PT06M26.00S,06:26,Q4 06:26,84,96,1610612741.0,Carter Jr.,Carter Jr. REBOUND (Off:1 Def:5),2pt missed,2pt missed,12,Low
+21800394,538,2pt,4,PT06M20.00S,06:20,Q4 06:20,84,96,1610612741.0,LaVine,MISS LaVine 1' Running Layup,rebound,rebound,12,Low
+21800394,539,rebound,4,PT06M17.00S,06:17,Q4 06:17,84,96,1610612758.0,Cauley-Stein,Cauley-Stein REBOUND (Off:2 Def:9),2pt missed,foul,12,Low
+21800394,540,foul,4,PT06M09.00S,06:09,Q4 06:09,84,96,1610612758.0,Cauley-Stein,Cauley-Stein OFF.Foul (P3) (P.Ransom),rebound,turnover,12,Low
+21800394,542,turnover,4,PT06M09.00S,06:09,Q4 06:09,84,96,1610612758.0,Cauley-Stein,Cauley-Stein Offensive Foul Turnover (P1.T16),foul,timeout,12,Low
+21800394,543,timeout,4,PT06M09.00S,06:09,Q4 06:09,84,96,1610612741.0,,BULLS Timeout: Regular (Full 5 Short 0),turnover,substitution,12,Low
+21800394,544,substitution,4,PT06M09.00S,06:09,Q4 06:09,84,96,1610612741.0,Harrison,SUB out: S. Harrison,timeout,substitution,12,Low
+21800394,545,substitution,4,PT06M09.00S,06:09,Q4 06:09,84,96,1610612741.0,Arcidiacono,SUB in: R. Arcidiacono,substitution,3pt missed,12,Low
+21800394,546,3pt,4,PT05M56.00S,05:56,Q4 05:56,84,96,1610612741.0,Arcidiacono,MISS Arcidiacono 26' 3PT Jump Shot,substitution,rebound,12,Medium
+21800394,547,rebound,4,PT05M51.00S,05:51,Q4 05:51,84,96,1610612758.0,Bogdanovic,Bogdanovic REBOUND (Off:1 Def:3),3pt missed,2pt made,12,Medium
+21800394,548,2pt,4,PT05M27.00S,05:27,Q4 05:27,84,98,1610612758.0,Bogdanovic,Bogdanovic 3' Driving Floating Jump Shot (10 PTS),rebound,3pt missed,14,Low
+21800394,549,3pt,4,PT05M08.00S,05:08,Q4 05:08,84,98,1610612741.0,LaVine,MISS LaVine 28' 3PT Jump Shot,2pt made,rebound,14,Low
+21800394,550,rebound,4,PT05M05.00S,05:05,Q4 05:05,84,98,1610612758.0,Cauley-Stein,Cauley-Stein REBOUND (Off:2 Def:10),3pt missed,3pt missed,14,Low
+21800394,551,3pt,4,PT04M52.00S,04:52,Q4 04:52,84,98,1610612758.0,Hield,MISS Hield 25' 3PT Pullup Jump Shot,rebound,rebound,14,Low
+21800394,552,rebound,4,PT04M49.00S,04:49,Q4 04:49,84,98,1610612741.0,Carter Jr.,Carter Jr. REBOUND (Off:1 Def:6),3pt missed,3pt missed,14,Low
+21800394,553,3pt,4,PT04M43.00S,04:43,Q4 04:43,84,98,1610612741.0,Markkanen,MISS Markkanen 25' 3PT Jump Shot,rebound,rebound,14,Low
+21800394,554,rebound,4,PT04M40.00S,04:40,Q4 04:40,84,98,1610612758.0,Cauley-Stein,Cauley-Stein REBOUND (Off:2 Def:11),3pt missed,2pt made,14,Low
+21800394,555,2pt,4,PT04M21.00S,04:21,Q4 04:21,84,100,1610612758.0,Bagley III,Bagley III 2' Floating Jump Shot (16 PTS) (Shumpert 5 AST),rebound,2pt made,16,Low
+21800394,557,2pt,4,PT04M03.00S,04:03,Q4 04:03,86,100,1610612741.0,Markkanen,Markkanen 9' Fadeaway Jumper (13 PTS),2pt made,foul,14,Low
+21800394,558,foul,4,PT03M52.00S,03:52,Q4 03:52,86,100,1610612741.0,LaVine,LaVine P.FOUL (P1.T2) (P.Ransom),2pt made,2pt missed,14,Low
+21800394,560,2pt,4,PT03M38.00S,03:38,Q4 03:38,86,100,1610612758.0,Cauley-Stein,MISS Cauley-Stein 5' Hook Shot,foul,rebound,14,Low
+21800394,561,rebound,4,PT03M35.00S,03:35,Q4 03:35,86,100,1610612741.0,Carter Jr.,Carter Jr. REBOUND (Off:1 Def:7),2pt missed,2pt missed,14,Low
+21800394,562,2pt,4,PT03M29.00S,03:29,Q4 03:29,86,100,1610612741.0,LaVine,MISS LaVine 1' Driving Reverse Layup,rebound,rebound,14,Low
+21800394,563,rebound,4,PT03M27.00S,03:27,Q4 03:27,86,100,1610612758.0,Cauley-Stein,Cauley-Stein REBOUND (Off:2 Def:12),2pt missed,2pt missed,14,Low
+21800394,564,2pt,4,PT03M22.00S,03:22,Q4 03:22,86,100,1610612758.0,Bagley III,MISS Bagley III 1' Layup,rebound,rebound,14,Low
+21800394,565,rebound,4,PT03M20.00S,03:20,Q4 03:20,86,100,1610612741.0,Arcidiacono,Arcidiacono REBOUND (Off:2 Def:3),2pt missed,2pt missed,14,Low
+21800394,566,2pt,4,PT03M16.00S,03:16,Q4 03:16,86,100,1610612741.0,Markkanen,MISS Markkanen 2' Driving Layup,rebound,rebound,14,Low
+21800394,567,rebound,4,PT03M16.00S,03:16,Q4 03:16,86,100,1610612758.0,Bogdanovic,Bogdanovic REBOUND (Off:1 Def:4),2pt missed,timeout,14,Low
+21800394,568,timeout,4,PT03M16.00S,03:16,Q4 03:16,86,100,1610612758.0,,Kings Timeout: Regular (Reg.4 Short 0),rebound,substitution,14,Low
+21800394,569,substitution,4,PT03M16.00S,03:16,Q4 03:16,86,100,1610612758.0,Bagley III,SUB out: M. Bagley III,timeout,substitution,14,Low
+21800394,570,substitution,4,PT03M16.00S,03:16,Q4 03:16,86,100,1610612758.0,Fox,SUB in: D. Fox,substitution,3pt missed,14,Low
+21800394,571,3pt,4,PT02M55.00S,02:55,Q4 02:55,86,100,1610612758.0,Bogdanovic,MISS Bogdanovic 26' 3PT Step Back Jump Shot,substitution,rebound,14,Low
+21800394,572,rebound,4,PT02M53.00S,02:53,Q4 02:53,86,100,1610612758.0,Cauley-Stein,Cauley-Stein REBOUND (Off:3 Def:12),3pt missed,2pt missed,14,Low
+21800394,573,2pt,4,PT02M50.00S,02:50,Q4 02:50,86,100,1610612758.0,Cauley-Stein,MISS Cauley-Stein 2' Layup,rebound,block,14,Low
+21800394,573,block,4,PT02M50.00S,02:50,Q4 02:50,86,100,1610612741.0,Carter Jr.,Carter Jr. BLOCK (1 BLK),2pt missed,rebound,14,Low
+21800394,575,rebound,4,PT02M50.00S,02:50,Q4 02:50,86,100,1610612758.0,Cauley-Stein,Cauley-Stein REBOUND (Off:4 Def:12),block,3pt made,14,Low
+21800394,576,3pt,4,PT02M46.00S,02:46,Q4 02:46,86,103,1610612758.0,Bogdanovic,Bogdanovic 24' 3PT Jump Shot (13 PTS) (Cauley-Stein 3 AST),rebound,3pt missed,17,Low
+21800394,578,3pt,4,PT02M31.00S,02:31,Q4 02:31,86,103,1610612741.0,Holiday,MISS Holiday 25' 3PT Jump Shot,3pt made,rebound,17,Low
+21800394,579,rebound,4,PT02M27.00S,02:27,Q4 02:27,86,103,1610612758.0,Hield,Hield REBOUND (Off:0 Def:4),3pt missed,3pt made,17,Low
+21800394,580,3pt,4,PT02M24.00S,02:24,Q4 02:24,86,106,1610612758.0,Bogdanovic,Bogdanovic 25' 3PT Jump Shot (16 PTS) (Hield 4 AST),rebound,foul,20,Low
+21800394,582,foul,4,PT02M08.00S,02:08,Q4 02:08,86,106,1610612741.0,Carter Jr.,Carter Jr. OFF.Foul (P3) (P.Ransom),3pt made,turnover,20,Low
+21800394,584,turnover,4,PT02M08.00S,02:08,Q4 02:08,86,106,1610612741.0,Carter Jr.,Carter Jr. Offensive Foul Turnover (P3.T26),foul,substitution,20,Low
+21800394,585,substitution,4,PT02M08.00S,02:08,Q4 02:08,86,106,1610612741.0,Holiday,SUB out: J. Holiday,substitution,substitution,20,Low
+21800394,586,substitution,4,PT02M08.00S,02:08,Q4 02:08,86,106,1610612741.0,LaVine,SUB out: Z. LaVine,substitution,substitution,20,Low
+21800394,587,substitution,4,PT02M08.00S,02:08,Q4 02:08,86,106,1610612741.0,Markkanen,SUB out: L. Markkanen,substitution,substitution,20,Low
+21800394,588,substitution,4,PT02M08.00S,02:08,Q4 02:08,86,106,1610612741.0,Arcidiacono,SUB out: R. Arcidiacono,substitution,substitution,20,Low
+21800394,591,substitution,4,PT02M08.00S,02:08,Q4 02:08,86,106,1610612741.0,Payne,SUB in: C. Payne,substitution,substitution,20,Low
+21800394,592,substitution,4,PT02M08.00S,02:08,Q4 02:08,86,106,1610612741.0,Hutchison,SUB in: C. Hutchison,substitution,substitution,20,Low
+21800394,593,substitution,4,PT02M08.00S,02:08,Q4 02:08,86,106,1610612758.0,Cauley-Stein,SUB: Giles III FOR Cauley-Stein,substitution,substitution,20,Low
+21800394,593,substitution,4,PT02M08.00S,02:08,Q4 02:08,86,106,1610612741.0,Dunn,SUB in: K. Dunn,substitution,substitution,20,Low
+21800394,594,substitution,4,PT02M08.00S,02:08,Q4 02:08,86,106,1610612741.0,Portis,SUB in: B. Portis,substitution,substitution,20,Low
+21800394,595,substitution,4,PT02M08.00S,02:08,Q4 02:08,86,106,1610612741.0,Carter Jr.,SUB: Felicio FOR Carter Jr.,substitution,2pt made,20,Low
+21800394,597,2pt,4,PT01M47.00S,01:47,Q4 01:47,86,108,1610612758.0,Fox,Fox 1' Driving Layup (25 PTS) (Giles III 1 AST),substitution,3pt missed,22,Low
+21800394,599,3pt,4,PT01M26.00S,01:26,Q4 01:26,86,108,1610612741.0,Payne,MISS Payne 26' 3PT Jump Shot,2pt made,rebound,22,Low
+21800394,600,rebound,4,PT01M23.00S,01:23,Q4 01:23,86,108,1610612741.0,Portis,Portis REBOUND (Off:2 Def:6),3pt missed,2pt missed,22,Low
+21800394,601,2pt,4,PT01M20.00S,01:20,Q4 01:20,86,108,1610612741.0,Portis,MISS Portis 4' Hook Shot,rebound,rebound,22,Low
+21800394,602,rebound,4,PT01M18.00S,01:18,Q4 01:18,86,108,1610612758.0,Bogdanovic,Bogdanovic REBOUND (Off:1 Def:5),2pt missed,turnover,22,Low
+21800394,603,turnover,4,PT01M00.00S,01:00,Q4 01:00,86,108,1610612758.0,Fox,Fox Traveling Turnover (P3.T17),rebound,foul,22,Low
+21800394,604,foul,4,PT00M46.90S,00:46,Q4 00:46,86,108,1610612758.0,Shumpert,Shumpert P.FOUL (P2.T3) (P.Ransom),turnover,3pt made,22,Low
+21800394,606,3pt,4,PT00M38.20S,00:38,Q4 00:38,89,108,1610612741.0,Hutchison,Hutchison 3PT Jump Shot (3 PTS) (Dunn 6 AST),foul,turnover,19,Low
+21800394,608,turnover,4,PT00M24.30S,00:24,Q4 00:24,89,108,1610612758.0,Fox,Fox Backcourt Turnover (P4.T18),3pt made,turnover,19,Low
+21800394,609,turnover,4,PT00M15.60S,00:15,Q4 00:15,89,108,1610612741.0,Portis,Portis Lost Ball Turnover (P1.T27),turnover,steal,19,Low
+21800394,609,steal,4,PT00M15.60S,00:15,Q4 00:15,89,108,1610612758.0,Hield,Hield STEAL (1 STL),turnover,period,19,Low
+21800394,611,period,4,PT00M00.00S,00:00,Q4 00:00,89,108,1610612741.0,,End of 4th Period (10:12 PM EST),steal,,19,Low

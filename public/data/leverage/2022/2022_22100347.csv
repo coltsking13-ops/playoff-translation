@@ -1,0 +1,524 @@
+game_id,actionNumber,actionType,period,clock,clock_display,game_clock,scoreHome,scoreAway,teamId,playerName,description,previous_action,next_action,score_margin,leverage_bucket
+22100347,7,turnover,1,PT11M55.00S,11:55,Q1 11:55,0,0,1610612738.0,Tatum,J. Tatum backcourt TURNOVER (1 TO),,foul,0,Low
+22100347,8,foul,1,PT11M38.00S,11:38,Q1 11:38,0,0,1610612738.0,Williams III,R. Williams III personal FOUL (1 PF),turnover,2pt missed,0,Low
+22100347,10,2pt,1,PT11M30.00S,11:30,Q1 11:30,0,0,1610612757.0,Nurkic,MISS J. Nurkic Hook - blocked,foul,block,0,Low
+22100347,11,block,1,PT11M30.00S,11:30,Q1 11:30,0,0,1610612738.0,Williams,G. Williams BLOCK (1 BLK),2pt missed,rebound,0,Low
+22100347,12,rebound,1,PT11M26.00S,11:26,Q1 11:26,0,0,1610612738.0,Williams III,R. Williams III REBOUND (Off:0 Def:1),block,2pt made,0,Low
+22100347,13,2pt,1,PT11M15.00S,11:15,Q1 11:15,0,2,1610612738.0,Williams III,R. Williams III alley-oop DUNK (2 PTS) (M. Smart 1 AST),rebound,2pt missed,2,Low
+22100347,15,2pt,1,PT10M58.00S,10:58,Q1 10:58,0,2,1610612757.0,Powell,MISS N. Powell driving Layup,2pt made,rebound,2,Low
+22100347,16,rebound,1,PT10M58.00S,10:58,Q1 10:58,0,2,1610612757.0,Nurkic,J. Nurkic REBOUND (Off:1 Def:0),2pt missed,foul,2,Low
+22100347,17,foul,1,PT10M58.00S,10:58,Q1 10:58,0,2,1610612738.0,Smart,M. Smart shooting personal FOUL (1 PF) (Nurkic 2 FT),rebound,freethrow,2,Low
+22100347,19,freethrow,1,PT10M58.00S,10:58,Q1 10:58,1,2,1610612757.0,Nurkic,J. Nurkic Free Throw 1 of 2 (1 PTS),foul,freethrow,1,Low
+22100347,20,freethrow,1,PT10M58.00S,10:58,Q1 10:58,2,2,1610612757.0,Nurkic,J. Nurkic Free Throw 2 of 2 (2 PTS),freethrow,turnover,0,Low
+22100347,21,turnover,1,PT10M48.00S,10:48,Q1 10:48,2,2,1610612738.0,Schroder,D. Schroder bad pass out-of-bounds TURNOVER (1 TO),freethrow,foul,0,Low
+22100347,22,foul,1,PT10M45.00S,10:45,Q1 10:45,2,2,1610612738.0,Tatum,J. Tatum shooting personal FOUL (1 PF) (Powell 2 FT),turnover,freethrow,0,Low
+22100347,24,freethrow,1,PT10M45.00S,10:45,Q1 10:45,3,2,1610612757.0,Powell,N. Powell Free Throw 1 of 2 (1 PTS),foul,freethrow,1,Low
+22100347,25,freethrow,1,PT10M45.00S,10:45,Q1 10:45,4,2,1610612757.0,Powell,N. Powell Free Throw 2 of 2 (2 PTS),freethrow,foul,2,Low
+22100347,26,foul,1,PT10M32.00S,10:32,Q1 10:32,4,2,1610612757.0,Smith Jr.,D. Smith Jr. shooting personal FOUL (1 PF) (Tatum 2 FT),freethrow,freethrow,2,Low
+22100347,28,freethrow,1,PT10M32.00S,10:32,Q1 10:32,4,3,1610612738.0,Tatum,J. Tatum Free Throw 1 of 2 (1 PTS),foul,freethrow,1,Low
+22100347,29,freethrow,1,PT10M32.00S,10:32,Q1 10:32,4,4,1610612738.0,Tatum,J. Tatum Free Throw 2 of 2 (2 PTS),freethrow,foul,0,Low
+22100347,30,foul,1,PT10M24.00S,10:24,Q1 10:24,4,4,1610612738.0,Williams III,R. Williams III shooting personal FOUL (2 PF) (Smith Jr. 2 FT),freethrow,freethrow,0,Low
+22100347,32,freethrow,1,PT10M24.00S,10:24,Q1 10:24,4,4,1610612757.0,Smith Jr.,MISS D. Smith Jr. Free Throw 1 of 2,foul,rebound,0,Low
+22100347,33,rebound,1,PT10M24.00S,10:24,Q1 10:24,4,4,1610612757.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+22100347,36,freethrow,1,PT10M24.00S,10:24,Q1 10:24,5,4,1610612757.0,Smith Jr.,D. Smith Jr. Free Throw 2 of 2 (1 PTS),rebound,substitution,1,Low
+22100347,34,substitution,1,PT10M24.00S,10:24,Q1 10:24,4,4,1610612738.0,Williams III,SUB out: R. Williams III,freethrow,substitution,0,Low
+22100347,35,substitution,1,PT10M24.00S,10:24,Q1 10:24,4,4,1610612738.0,Freedom,SUB in: E. Freedom,substitution,3pt made,0,Low
+22100347,37,3pt,1,PT10M12.00S,10:12,Q1 10:12,5,7,1610612738.0,Smart,M. Smart 3PT  (3 PTS) (J. Tatum 1 AST),substitution,3pt missed,2,Low
+22100347,39,3pt,1,PT09M57.00S,09:57,Q1 09:57,5,7,1610612757.0,Nurkic,MISS J. Nurkic 24' 3PT,3pt made,rebound,2,Low
+22100347,40,rebound,1,PT09M55.00S,09:55,Q1 09:55,5,7,1610612738.0,Freedom,E. Freedom REBOUND (Off:0 Def:1),3pt missed,3pt missed,2,Low
+22100347,41,3pt,1,PT09M45.00S,09:45,Q1 09:45,5,7,1610612738.0,Smart,MISS M. Smart step back 3PT,rebound,rebound,2,Low
+22100347,42,rebound,1,PT09M41.00S,09:41,Q1 09:41,5,7,1610612757.0,Nurkic,J. Nurkic REBOUND (Off:1 Def:1),3pt missed,2pt missed,2,Low
+22100347,43,2pt,1,PT09M34.00S,09:34,Q1 09:34,5,7,1610612757.0,Nurkic,MISS J. Nurkic 19' pullup Shot,rebound,rebound,2,Low
+22100347,44,rebound,1,PT09M33.00S,09:33,Q1 09:33,5,7,1610612738.0,Freedom,E. Freedom REBOUND (Off:0 Def:2),2pt missed,2pt made,2,Low
+22100347,45,2pt,1,PT09M18.00S,09:18,Q1 09:18,5,9,1610612738.0,Freedom,E. Freedom 17' Jump Shot (2 PTS) (M. Smart 2 AST),rebound,3pt missed,4,Low
+22100347,47,3pt,1,PT08M53.00S,08:53,Q1 08:53,5,9,1610612757.0,Covington,MISS R. Covington 24' 3PT,2pt made,rebound,4,Low
+22100347,48,rebound,1,PT08M51.00S,08:51,Q1 08:51,5,9,1610612738.0,Tatum,J. Tatum REBOUND (Off:0 Def:1),3pt missed,foul,4,Low
+22100347,49,foul,1,PT08M33.00S,08:33,Q1 08:33,5,9,1610612757.0,Powell,N. Powell personal FOUL (1 PF),rebound,3pt made,4,Low
+22100347,51,3pt,1,PT08M21.00S,08:21,Q1 08:21,5,12,1610612738.0,Tatum,J. Tatum 24' 3PT step back (5 PTS),foul,2pt missed,7,Low
+22100347,52,2pt,1,PT08M08.00S,08:08,Q1 08:08,5,12,1610612757.0,Covington,MISS R. Covington driving Layup - blocked,3pt made,block,7,Low
+22100347,53,block,1,PT08M08.00S,08:08,Q1 08:08,5,12,1610612738.0,Williams,G. Williams BLOCK (2 BLK),2pt missed,rebound,7,Low
+22100347,54,rebound,1,PT08M08.00S,08:08,Q1 08:08,5,12,1610612757.0,,TEAM offensive REBOUND,block,2pt made,7,Low
+22100347,56,2pt,1,PT07M57.00S,07:57,Q1 07:57,7,12,1610612757.0,Nurkic,J. Nurkic driving Layup (4 PTS),rebound,foul,5,Low
+22100347,57,foul,1,PT07M53.00S,07:53,Q1 07:53,7,12,1610612757.0,Smith Jr.,D. Smith Jr. personal FOUL (2 PF),2pt made,2pt made,5,Low
+22100347,59,2pt,1,PT07M47.00S,07:47,Q1 07:47,7,14,1610612738.0,Tatum,J. Tatum driving Layup (7 PTS),foul,timeout,7,Low
+22100347,60,timeout,1,PT07M47.00S,07:47,Q1 07:47,7,14,1610612757.0,,POR Timeout,2pt made,substitution,7,Low
+22100347,61,substitution,1,PT07M47.00S,07:47,Q1 07:47,7,14,1610612757.0,Smith Jr.,SUB out: D. Smith Jr.,timeout,substitution,7,Low
+22100347,62,substitution,1,PT07M47.00S,07:47,Q1 07:47,7,14,1610612757.0,McLemore,SUB in: B. McLemore,substitution,2pt missed,7,Low
+22100347,63,2pt,1,PT07M29.00S,07:29,Q1 07:29,7,14,1610612757.0,McCollum,MISS C. McCollum 20' pullup Shot,substitution,rebound,7,Low
+22100347,64,rebound,1,PT07M26.00S,07:26,Q1 07:26,7,14,1610612738.0,Freedom,E. Freedom REBOUND (Off:0 Def:3),2pt missed,2pt made,7,Low
+22100347,65,2pt,1,PT07M14.00S,07:14,Q1 07:14,7,16,1610612738.0,Smart,M. Smart driving Layup (5 PTS),rebound,2pt made,9,Low
+22100347,66,2pt,1,PT06M55.00S,06:55,Q1 06:55,9,16,1610612757.0,Nurkic,J. Nurkic driving Layup (6 PTS) (N. Powell 1 AST),2pt made,turnover,7,Low
+22100347,68,turnover,1,PT06M38.00S,06:38,Q1 06:38,9,16,1610612738.0,Smart,M. Smart bad pass TURNOVER (1 TO),2pt made,steal,7,Low
+22100347,69,steal,1,PT06M38.00S,06:38,Q1 06:38,9,16,1610612757.0,Nurkic,J. Nurkic STEAL (1 STL),turnover,2pt made,7,Low
+22100347,70,2pt,1,PT06M32.00S,06:32,Q1 06:32,11,16,1610612757.0,McCollum,C. McCollum 13' running pullup Jump Shot (2 PTS),steal,2pt made,5,Low
+22100347,71,2pt,1,PT06M16.00S,06:16,Q1 06:16,11,18,1610612738.0,Schroder,D. Schroder 9' turnaround fadeaway Jump Shot (2 PTS),2pt made,3pt missed,7,Low
+22100347,72,3pt,1,PT05M59.00S,05:59,Q1 05:59,11,18,1610612757.0,McCollum,MISS C. McCollum 24' pullup 3PT,2pt made,rebound,7,Low
+22100347,73,rebound,1,PT05M57.00S,05:57,Q1 05:57,11,18,1610612757.0,McLemore,B. McLemore REBOUND (Off:1 Def:0),3pt missed,3pt missed,7,Low
+22100347,74,3pt,1,PT05M53.00S,05:53,Q1 05:53,11,18,1610612757.0,Powell,MISS N. Powell 25' pullup 3PT,rebound,rebound,7,Low
+22100347,75,rebound,1,PT05M53.00S,05:53,Q1 05:53,11,18,1610612757.0,,TEAM offensive REBOUND,3pt missed,foul,7,Low
+22100347,76,foul,1,PT05M53.00S,05:53,Q1 05:53,11,18,1610612738.0,Freedom,E. Freedom loose ball personal FOUL (1 PF) (Nurkic 2 FT),rebound,freethrow,7,Low
+22100347,78,freethrow,1,PT05M53.00S,05:53,Q1 05:53,12,18,1610612757.0,Nurkic,J. Nurkic Free Throw 1 of 2 (7 PTS),foul,freethrow,6,Low
+22100347,85,freethrow,1,PT05M53.00S,05:53,Q1 05:53,13,18,1610612757.0,Nurkic,J. Nurkic Free Throw 2 of 2 (8 PTS),freethrow,substitution,5,Low
+22100347,79,substitution,1,PT05M53.00S,05:53,Q1 05:53,12,18,1610612757.0,Covington,SUB out: R. Covington,freethrow,substitution,6,Low
+22100347,80,substitution,1,PT05M53.00S,05:53,Q1 05:53,12,18,1610612738.0,Tatum,SUB out: J. Tatum,substitution,substitution,6,Low
+22100347,81,substitution,1,PT05M53.00S,05:53,Q1 05:53,12,18,1610612738.0,Smart,SUB out: M. Smart,substitution,substitution,6,Low
+22100347,82,substitution,1,PT05M53.00S,05:53,Q1 05:53,12,18,1610612757.0,Nance Jr.,SUB in: L. Nance Jr.,substitution,substitution,6,Low
+22100347,83,substitution,1,PT05M53.00S,05:53,Q1 05:53,12,18,1610612738.0,Nesmith,SUB in: A. Nesmith,substitution,substitution,6,Low
+22100347,84,substitution,1,PT05M53.00S,05:53,Q1 05:53,12,18,1610612738.0,Richardson,SUB in: J. Richardson,substitution,3pt made,6,Low
+22100347,86,3pt,1,PT05M39.00S,05:39,Q1 05:39,13,21,1610612738.0,Schroder,D. Schroder 25' 3PT pullup (5 PTS),substitution,2pt made,8,Low
+22100347,87,2pt,1,PT05M20.00S,05:20,Q1 05:20,15,21,1610612757.0,Nurkic,J. Nurkic 6' turnaround bank Hook (10 PTS),3pt made,3pt made,6,Low
+22100347,88,3pt,1,PT05M08.00S,05:08,Q1 05:08,15,24,1610612738.0,Williams,G. Williams 3PT  (3 PTS) (J. Richardson 1 AST),2pt made,2pt missed,9,Low
+22100347,90,2pt,1,PT04M55.00S,04:55,Q1 04:55,15,24,1610612757.0,McCollum,MISS C. McCollum driving floating bank Shot,3pt made,rebound,9,Low
+22100347,91,rebound,1,PT04M52.00S,04:52,Q1 04:52,15,24,1610612738.0,Freedom,E. Freedom REBOUND (Off:0 Def:4),2pt missed,turnover,9,Low
+22100347,92,turnover,1,PT04M51.00S,04:51,Q1 04:51,15,24,1610612738.0,Freedom,E. Freedom lost ball TURNOVER (1 TO),rebound,steal,9,Low
+22100347,93,steal,1,PT04M51.00S,04:51,Q1 04:51,15,24,1610612757.0,McCollum,C. McCollum STEAL (1 STL),turnover,turnover,9,Low
+22100347,94,turnover,1,PT04M42.00S,04:42,Q1 04:42,15,24,1610612757.0,McCollum,C. McCollum lost ball out-of-bounds TURNOVER (1 TO),steal,substitution,9,Low
+22100347,95,substitution,1,PT04M42.00S,04:42,Q1 04:42,15,24,1610612757.0,Nurkic,SUB out: J. Nurkic,turnover,substitution,9,Low
+22100347,96,substitution,1,PT04M42.00S,04:42,Q1 04:42,15,24,1610612757.0,Zeller,SUB in: C. Zeller,substitution,2pt made,9,Low
+22100347,97,2pt,1,PT04M32.00S,04:32,Q1 04:32,15,26,1610612738.0,Richardson,J. Richardson driving Layup (2 PTS) (D. Schroder 1 AST),substitution,3pt missed,11,Low
+22100347,98,3pt,1,PT04M23.00S,04:23,Q1 04:23,15,26,1610612757.0,McCollum,MISS C. McCollum 25' pullup 3PT,2pt made,rebound,11,Low
+22100347,99,rebound,1,PT04M20.00S,04:20,Q1 04:20,15,26,1610612738.0,Williams,G. Williams REBOUND (Off:0 Def:1),3pt missed,foul,11,Low
+22100347,100,foul,1,PT04M14.00S,04:14,Q1 04:14,15,26,1610612757.0,McCollum,C. McCollum shooting personal FOUL (1 PF) (Schroder 2 FT),rebound,freethrow,11,Low
+22100347,102,freethrow,1,PT04M14.00S,04:14,Q1 04:14,15,27,1610612738.0,Schroder,D. Schroder Free Throw 1 of 2 (6 PTS),foul,freethrow,12,Low
+22100347,103,freethrow,1,PT04M14.00S,04:14,Q1 04:14,15,28,1610612738.0,Schroder,D. Schroder Free Throw 2 of 2 (7 PTS),freethrow,turnover,13,Low
+22100347,104,turnover,1,PT03M58.00S,03:58,Q1 03:58,15,28,1610612757.0,Powell,N. Powell lost ball out-of-bounds TURNOVER (1 TO),freethrow,2pt made,13,Low
+22100347,105,2pt,1,PT03M44.00S,03:44,Q1 03:44,15,30,1610612738.0,Freedom,E. Freedom cutting Layup (4 PTS) (A. Nesmith 1 AST),turnover,2pt missed,15,Low
+22100347,107,2pt,1,PT03M31.00S,03:31,Q1 03:31,15,30,1610612757.0,Zeller,MISS C. Zeller driving Layup - blocked,2pt made,block,15,Low
+22100347,108,block,1,PT03M31.00S,03:31,Q1 03:31,15,30,1610612738.0,Freedom,E. Freedom BLOCK (1 BLK),2pt missed,rebound,15,Low
+22100347,109,rebound,1,PT03M28.00S,03:28,Q1 03:28,15,30,1610612738.0,Nesmith,A. Nesmith REBOUND (Off:0 Def:1),block,2pt made,15,Low
+22100347,110,2pt,1,PT03M18.00S,03:18,Q1 03:18,15,32,1610612738.0,Williams,G. Williams driving floating Jump Shot (5 PTS) (J. Richardson 2 AST),rebound,timeout,17,Low
+22100347,112,timeout,1,PT03M17.00S,03:17,Q1 03:17,15,32,1610612757.0,,POR Timeout,2pt made,substitution,17,Low
+22100347,113,substitution,1,PT03M17.00S,03:17,Q1 03:17,15,32,1610612757.0,Powell,SUB out: N. Powell,timeout,substitution,17,Low
+22100347,114,substitution,1,PT03M17.00S,03:17,Q1 03:17,15,32,1610612757.0,Snell,SUB in: T. Snell,substitution,2pt made,17,Low
+22100347,115,2pt,1,PT03M00.00S,03:00,Q1 03:00,17,32,1610612757.0,McLemore,B. McLemore 18' pullup bank Jump Shot (2 PTS),substitution,3pt made,15,Low
+22100347,116,3pt,1,PT02M33.00S,02:33,Q1 02:33,17,35,1610612738.0,Schroder,D. Schroder 25' 3PT  (10 PTS),2pt made,2pt missed,18,Low
+22100347,117,2pt,1,PT02M23.00S,02:23,Q1 02:23,17,35,1610612757.0,McCollum,MISS C. McCollum driving floating bank Shot,3pt made,rebound,18,Low
+22100347,118,rebound,1,PT02M21.00S,02:21,Q1 02:21,17,35,1610612738.0,Freedom,E. Freedom REBOUND (Off:0 Def:5),2pt missed,3pt made,18,Low
+22100347,121,3pt,1,PT02M13.00S,02:13,Q1 02:13,17,38,1610612738.0,Richardson,J. Richardson 26' 3PT  (5 PTS) (D. Schroder 2 AST),rebound,2pt missed,21,Low
+22100347,123,2pt,1,PT01M52.00S,01:52,Q1 01:52,17,38,1610612757.0,McCollum,MISS C. McCollum 15' driving floating Shot,3pt made,rebound,21,Low
+22100347,124,rebound,1,PT01M49.00S,01:49,Q1 01:49,17,38,1610612738.0,Freedom,E. Freedom REBOUND (Off:0 Def:6),2pt missed,3pt missed,21,Low
+22100347,125,3pt,1,PT01M32.00S,01:32,Q1 01:32,17,38,1610612738.0,Williams,MISS G. Williams 25' pullup 3PT,rebound,rebound,21,Low
+22100347,126,rebound,1,PT01M32.00S,01:32,Q1 01:32,17,38,1610612757.0,Snell,T. Snell REBOUND (Off:0 Def:1),3pt missed,2pt made,21,Low
+22100347,127,2pt,1,PT01M25.00S,01:25,Q1 01:25,19,38,1610612757.0,McCollum,C. McCollum Layup (4 PTS),rebound,foul,19,Low
+22100347,128,foul,1,PT01M25.00S,01:25,Q1 01:25,19,38,1610612738.0,Nesmith,A. Nesmith shooting personal FOUL (1 PF) (McCollum 1 FT),2pt made,freethrow,19,Low
+22100347,130,freethrow,1,PT01M25.00S,01:25,Q1 01:25,19,38,1610612757.0,McCollum,MISS C. McCollum Free Throw 1 of 1,foul,rebound,19,Low
+22100347,131,rebound,1,PT01M22.00S,01:22,Q1 01:22,19,38,1610612738.0,Williams,G. Williams REBOUND (Off:0 Def:2),freethrow,2pt missed,19,Low
+22100347,132,2pt,1,PT01M10.00S,01:10,Q1 01:10,19,38,1610612738.0,Schroder,MISS D. Schroder driving Layup - blocked,rebound,block,19,Low
+22100347,133,block,1,PT01M10.00S,01:10,Q1 01:10,19,38,1610612757.0,Snell,T. Snell BLOCK (1 BLK),2pt missed,rebound,19,Low
+22100347,134,rebound,1,PT01M07.00S,01:07,Q1 01:07,19,38,1610612757.0,Snell,T. Snell REBOUND (Off:0 Def:2),block,2pt missed,19,Low
+22100347,135,2pt,1,PT01M00.00S,01:00,Q1 01:00,19,38,1610612757.0,Zeller,MISS C. Zeller Layup - blocked,rebound,block,19,Low
+22100347,136,block,1,PT01M00.00S,01:00,Q1 01:00,19,38,1610612738.0,Freedom,E. Freedom BLOCK (2 BLK),2pt missed,rebound,19,Low
+22100347,137,rebound,1,PT00M57.90S,00:57,Q1 00:57,19,38,1610612738.0,Freedom,E. Freedom REBOUND (Off:0 Def:7),block,2pt missed,19,Low
+22100347,138,2pt,1,PT00M53.10S,00:53,Q1 00:53,19,38,1610612738.0,Richardson,MISS J. Richardson 13' running pullup Shot,rebound,rebound,19,Low
+22100347,139,rebound,1,PT00M50.50S,00:50,Q1 00:50,19,38,1610612757.0,Zeller,C. Zeller REBOUND (Off:0 Def:1),2pt missed,2pt made,19,Low
+22100347,141,2pt,1,PT00M40.80S,00:40,Q1 00:40,21,38,1610612757.0,Zeller,C. Zeller 8' floating Jump Shot (2 PTS) (C. McCollum 1 AST),rebound,2pt missed,17,Low
+22100347,143,2pt,1,PT00M28.00S,00:28,Q1 00:28,21,38,1610612738.0,Nesmith,MISS A. Nesmith driving floating Shot,2pt made,rebound,17,Low
+22100347,144,rebound,1,PT00M26.30S,00:26,Q1 00:26,21,38,1610612757.0,Nance Jr.,L. Nance Jr. REBOUND (Off:0 Def:1),2pt missed,2pt missed,17,Low
+22100347,145,2pt,1,PT00M06.40S,00:06,Q1 00:06,21,38,1610612757.0,McCollum,MISS C. McCollum 12' pullup Shot,rebound,rebound,17,Low
+22100347,146,rebound,1,PT00M03.00S,00:03,Q1 00:03,21,38,1610612757.0,,TEAM offensive REBOUND,2pt missed,2pt made,17,Low
+22100347,148,2pt,1,PT00M00.00S,00:00,Q1 00:00,23,38,1610612757.0,McCollum,C. McCollum driving floating Jump Shot (6 PTS) (B. McLemore 1 AST),rebound,substitution,15,Low
+22100347,151,substitution,2,PT12M00.00S,12:00,Q2 12:00,23,38,1610612757.0,McCollum,SUB out: C. McCollum,2pt made,substitution,15,Low
+22100347,152,substitution,2,PT12M00.00S,12:00,Q2 12:00,23,38,1610612738.0,Williams,SUB out: G. Williams,substitution,substitution,15,Low
+22100347,153,substitution,2,PT12M00.00S,12:00,Q2 12:00,23,38,1610612738.0,Freedom,SUB out: E. Freedom,substitution,substitution,15,Low
+22100347,154,substitution,2,PT12M00.00S,12:00,Q2 12:00,23,38,1610612738.0,Schroder,SUB out: D. Schroder,substitution,substitution,15,Low
+22100347,155,substitution,2,PT12M00.00S,12:00,Q2 12:00,23,38,1610612757.0,Smith Jr.,SUB in: D. Smith Jr.,substitution,substitution,15,Low
+22100347,156,substitution,2,PT12M00.00S,12:00,Q2 12:00,23,38,1610612738.0,Pritchard,SUB in: P. Pritchard,substitution,substitution,15,Low
+22100347,157,substitution,2,PT12M00.00S,12:00,Q2 12:00,23,38,1610612738.0,Tatum,SUB in: J. Tatum,substitution,substitution,15,Low
+22100347,158,substitution,2,PT12M00.00S,12:00,Q2 12:00,23,38,1610612738.0,Williams III,SUB in: R. Williams III,substitution,2pt missed,15,Low
+22100347,160,2pt,2,PT11M41.00S,11:41,Q2 11:41,23,38,1610612757.0,Smith Jr.,MISS D. Smith Jr. driving floating bank Shot,substitution,rebound,15,Low
+22100347,161,rebound,2,PT11M38.00S,11:38,Q2 11:38,23,38,1610612757.0,Zeller,C. Zeller REBOUND (Off:1 Def:1),2pt missed,2pt missed,15,Low
+22100347,162,2pt,2,PT11M38.00S,11:38,Q2 11:38,23,38,1610612757.0,Zeller,MISS C. Zeller tip Layup,rebound,rebound,15,Low
+22100347,163,rebound,2,PT11M37.00S,11:37,Q2 11:37,23,38,1610612738.0,Tatum,J. Tatum REBOUND (Off:0 Def:2),2pt missed,3pt made,15,Low
+22100347,164,3pt,2,PT11M21.00S,11:21,Q2 11:21,23,41,1610612738.0,Tatum,J. Tatum 24' 3PT step back (10 PTS),rebound,foul,18,Low
+22100347,165,foul,2,PT11M01.00S,11:01,Q2 11:01,23,41,1610612738.0,Nesmith,A. Nesmith shooting personal FOUL (2 PF) (Zeller 2 FT),3pt made,freethrow,18,Low
+22100347,167,freethrow,2,PT11M01.00S,11:01,Q2 11:01,24,41,1610612757.0,Zeller,C. Zeller Free Throw 1 of 2 (3 PTS),foul,freethrow,17,Low
+22100347,169,freethrow,2,PT11M01.00S,11:01,Q2 11:01,25,41,1610612757.0,Zeller,C. Zeller Free Throw 2 of 2 (4 PTS),freethrow,3pt made,16,Low
+22100347,170,3pt,2,PT10M44.00S,10:44,Q2 10:44,25,44,1610612738.0,Tatum,J. Tatum 26' 3PT pullup (13 PTS) (P. Pritchard 1 AST),freethrow,2pt missed,19,Low
+22100347,171,2pt,2,PT10M33.00S,10:33,Q2 10:33,25,44,1610612757.0,Zeller,MISS C. Zeller driving Layup,3pt made,rebound,19,Low
+22100347,172,rebound,2,PT10M31.00S,10:31,Q2 10:31,25,44,1610612738.0,Tatum,J. Tatum REBOUND (Off:0 Def:3),2pt missed,3pt missed,19,Low
+22100347,173,3pt,2,PT10M25.00S,10:25,Q2 10:25,25,44,1610612738.0,Tatum,MISS J. Tatum 28' pullup 3PT,rebound,rebound,19,Low
+22100347,174,rebound,2,PT10M22.00S,10:22,Q2 10:22,25,44,1610612757.0,Nance Jr.,L. Nance Jr. REBOUND (Off:0 Def:2),3pt missed,2pt missed,19,Low
+22100347,175,2pt,2,PT10M15.00S,10:15,Q2 10:15,25,44,1610612757.0,McLemore,MISS B. McLemore 18' step back Shot,rebound,rebound,19,Low
+22100347,176,rebound,2,PT10M13.00S,10:13,Q2 10:13,25,44,1610612738.0,Tatum,J. Tatum REBOUND (Off:0 Def:4),2pt missed,3pt missed,19,Low
+22100347,177,3pt,2,PT10M08.00S,10:08,Q2 10:08,25,44,1610612738.0,Richardson,MISS J. Richardson 25' running 3PT,rebound,rebound,19,Low
+22100347,178,rebound,2,PT10M08.00S,10:08,Q2 10:08,25,44,1610612757.0,Zeller,C. Zeller REBOUND (Off:1 Def:2),3pt missed,foul,19,Low
+22100347,179,foul,2,PT09M52.00S,09:52,Q2 09:52,25,44,1610612738.0,Nesmith,A. Nesmith personal FOUL (3 PF),rebound,2pt missed,19,Low
+22100347,182,2pt,2,PT09M43.00S,09:43,Q2 09:43,25,44,1610612757.0,Smith Jr.,MISS D. Smith Jr. driving Layup - blocked,foul,block,19,Low
+22100347,183,block,2,PT09M43.00S,09:43,Q2 09:43,25,44,1610612738.0,Williams III,R. Williams III BLOCK (1 BLK),2pt missed,rebound,19,Low
+22100347,184,rebound,2,PT09M43.00S,09:43,Q2 09:43,25,44,1610612757.0,,TEAM offensive REBOUND,block,substitution,19,Low
+22100347,186,substitution,2,PT09M43.00S,09:43,Q2 09:43,25,44,1610612738.0,Nesmith,SUB out: A. Nesmith,rebound,substitution,19,Low
+22100347,187,substitution,2,PT09M43.00S,09:43,Q2 09:43,25,44,1610612738.0,Hernangomez,SUB in: J. Hernangomez,substitution,3pt made,19,Low
+22100347,188,3pt,2,PT09M41.00S,09:41,Q2 09:41,28,44,1610612757.0,McLemore,B. McLemore 24' 3PT  (5 PTS) (D. Smith Jr. 1 AST),substitution,3pt missed,16,Low
+22100347,190,3pt,2,PT09M18.00S,09:18,Q2 09:18,28,44,1610612738.0,Pritchard,MISS P. Pritchard 3PT,3pt made,rebound,16,Low
+22100347,191,rebound,2,PT09M15.00S,09:15,Q2 09:15,28,44,1610612757.0,Zeller,C. Zeller REBOUND (Off:1 Def:3),3pt missed,2pt made,16,Low
+22100347,192,2pt,2,PT09M07.00S,09:07,Q2 09:07,30,44,1610612757.0,Zeller,C. Zeller cutting Layup (6 PTS) (D. Smith Jr. 2 AST),rebound,timeout,14,Low
+22100347,194,timeout,2,PT09M07.00S,09:07,Q2 09:07,30,44,1610612738.0,,BOS Timeout,2pt made,3pt made,14,Low
+22100347,195,3pt,2,PT08M43.00S,08:43,Q2 08:43,30,47,1610612738.0,Pritchard,P. Pritchard 28' 3PT  (3 PTS) (J. Tatum 2 AST),timeout,2pt made,17,Low
+22100347,197,2pt,2,PT08M24.00S,08:24,Q2 08:24,32,47,1610612757.0,Smith Jr.,D. Smith Jr. 18' pullup Jump Shot (3 PTS) (C. Zeller 1 AST),3pt made,2pt missed,15,Low
+22100347,200,2pt,2,PT08M00.00S,08:00,Q2 08:00,32,47,1610612738.0,Tatum,MISS J. Tatum 19' Jump Shot,2pt made,rebound,15,Low
+22100347,201,rebound,2,PT07M58.00S,07:58,Q2 07:58,32,47,1610612757.0,Zeller,C. Zeller REBOUND (Off:1 Def:4),2pt missed,foul,15,Low
+22100347,202,foul,2,PT07M38.00S,07:38,Q2 07:38,32,47,1610612738.0,Pritchard,P. Pritchard personal FOUL (1 PF),rebound,substitution,15,Low
+22100347,204,substitution,2,PT07M38.00S,07:38,Q2 07:38,32,47,1610612757.0,Snell,SUB out: T. Snell,foul,substitution,15,Low
+22100347,205,substitution,2,PT07M38.00S,07:38,Q2 07:38,32,47,1610612757.0,McLemore,SUB out: B. McLemore,substitution,substitution,15,Low
+22100347,206,substitution,2,PT07M38.00S,07:38,Q2 07:38,32,47,1610612757.0,Powell,SUB in: N. Powell,substitution,substitution,15,Low
+22100347,207,substitution,2,PT07M38.00S,07:38,Q2 07:38,32,47,1610612757.0,McCollum,SUB in: C. McCollum,substitution,2pt missed,15,Low
+22100347,208,2pt,2,PT07M29.00S,07:29,Q2 07:29,32,47,1610612757.0,Powell,MISS N. Powell 15' pullup Shot,substitution,rebound,15,Low
+22100347,209,rebound,2,PT07M24.00S,07:24,Q2 07:24,32,47,1610612738.0,Tatum,J. Tatum REBOUND (Off:0 Def:5),2pt missed,turnover,15,Low
+22100347,211,turnover,2,PT07M05.00S,07:05,Q2 07:05,32,47,1610612738.0,Hernangomez,J. Hernangomez bad pass TURNOVER (1 TO),rebound,steal,15,Low
+22100347,212,steal,2,PT07M05.00S,07:05,Q2 07:05,32,47,1610612757.0,Nance Jr.,L. Nance Jr. STEAL (1 STL),turnover,2pt made,15,Low
+22100347,213,2pt,2,PT07M02.00S,07:02,Q2 07:02,34,47,1610612757.0,Nance Jr.,L. Nance Jr. running DUNK (2 PTS) (C. McCollum 2 AST),steal,2pt missed,13,Low
+22100347,215,2pt,2,PT06M43.00S,06:43,Q2 06:43,34,47,1610612738.0,Pritchard,MISS P. Pritchard 20' pullup Shot,2pt made,rebound,13,Low
+22100347,216,rebound,2,PT06M42.00S,06:42,Q2 06:42,34,47,1610612757.0,Zeller,C. Zeller REBOUND (Off:1 Def:5),2pt missed,2pt missed,13,Low
+22100347,217,2pt,2,PT06M34.00S,06:34,Q2 06:34,34,47,1610612757.0,McCollum,MISS C. McCollum driving Layup,rebound,rebound,13,Low
+22100347,218,rebound,2,PT06M34.00S,06:34,Q2 06:34,34,47,1610612757.0,Zeller,C. Zeller REBOUND (Off:2 Def:5),2pt missed,2pt made,13,Low
+22100347,219,2pt,2,PT06M34.00S,06:34,Q2 06:34,36,47,1610612757.0,Zeller,C. Zeller tip DUNK (8 PTS),rebound,timeout,11,Low
+22100347,220,timeout,2,PT06M34.00S,06:34,Q2 06:34,36,47,1610612738.0,,BOS Timeout,2pt made,substitution,11,Low
+22100347,221,substitution,2,PT06M34.00S,06:34,Q2 06:34,36,47,1610612738.0,Richardson,SUB out: J. Richardson,timeout,substitution,11,Low
+22100347,222,substitution,2,PT06M34.00S,06:34,Q2 06:34,36,47,1610612738.0,Pritchard,SUB out: P. Pritchard,substitution,substitution,11,Low
+22100347,223,substitution,2,PT06M34.00S,06:34,Q2 06:34,36,47,1610612738.0,Smart,SUB in: M. Smart,substitution,substitution,11,Low
+22100347,224,substitution,2,PT06M34.00S,06:34,Q2 06:34,36,47,1610612738.0,Williams,SUB in: G. Williams,substitution,turnover,11,Low
+22100347,225,turnover,2,PT06M14.00S,06:14,Q2 06:14,36,47,1610612738.0,Smart,M. Smart lost ball TURNOVER (2 TO),substitution,steal,11,Low
+22100347,226,steal,2,PT06M14.00S,06:14,Q2 06:14,36,47,1610612757.0,Smith Jr.,D. Smith Jr. STEAL (1 STL),turnover,2pt made,11,Low
+22100347,227,2pt,2,PT06M10.00S,06:10,Q2 06:10,38,47,1610612757.0,Smith Jr.,D. Smith Jr. running DUNK (5 PTS),steal,2pt missed,9,Low
+22100347,228,2pt,2,PT05M48.00S,05:48,Q2 05:48,38,47,1610612738.0,Tatum,MISS J. Tatum 17' turnaround fadeaway Shot,2pt made,rebound,9,Low
+22100347,229,rebound,2,PT05M46.00S,05:46,Q2 05:46,38,47,1610612738.0,Williams III,R. Williams III REBOUND (Off:1 Def:1),2pt missed,3pt made,9,Low
+22100347,230,3pt,2,PT05M44.00S,05:44,Q2 05:44,38,50,1610612738.0,Hernangomez,J. Hernangomez 24' 3PT  (3 PTS) (R. Williams III 1 AST),rebound,3pt made,12,Low
+22100347,232,3pt,2,PT05M22.00S,05:22,Q2 05:22,41,50,1610612757.0,McCollum,C. McCollum 25' 3PT pullup (9 PTS),3pt made,3pt missed,9,Low
+22100347,233,3pt,2,PT05M06.00S,05:06,Q2 05:06,41,50,1610612738.0,Williams,MISS G. Williams 3PT,3pt made,rebound,9,Low
+22100347,234,rebound,2,PT05M03.00S,05:03,Q2 05:03,41,50,1610612757.0,Zeller,C. Zeller REBOUND (Off:2 Def:6),3pt missed,2pt made,9,Low
+22100347,235,2pt,2,PT04M58.00S,04:58,Q2 04:58,43,50,1610612757.0,Powell,N. Powell running Layup (4 PTS) (C. McCollum 3 AST),rebound,2pt missed,7,Low
+22100347,239,2pt,2,PT04M32.00S,04:32,Q2 04:32,43,50,1610612738.0,Tatum,MISS J. Tatum 13' driving floating bank Shot,2pt made,rebound,7,Low
+22100347,240,rebound,2,PT04M30.00S,04:30,Q2 04:30,43,50,1610612757.0,Nance Jr.,L. Nance Jr. REBOUND (Off:0 Def:3),2pt missed,foul,7,Low
+22100347,241,foul,2,PT04M28.00S,04:28,Q2 04:28,43,50,1610612738.0,Smart,M. Smart shooting personal FOUL (2 PF) (Smith Jr. 2 FT),rebound,freethrow,7,Low
+22100347,243,freethrow,2,PT04M28.00S,04:28,Q2 04:28,44,50,1610612757.0,Smith Jr.,D. Smith Jr. Free Throw 1 of 2 (6 PTS),foul,freethrow,6,Low
+22100347,248,freethrow,2,PT04M28.00S,04:28,Q2 04:28,45,50,1610612757.0,Smith Jr.,D. Smith Jr. Free Throw 2 of 2 (7 PTS),freethrow,substitution,5,Low
+22100347,244,substitution,2,PT04M28.00S,04:28,Q2 04:28,44,50,1610612757.0,Zeller,SUB out: C. Zeller,freethrow,substitution,6,Low
+22100347,245,substitution,2,PT04M28.00S,04:28,Q2 04:28,44,50,1610612738.0,Tatum,SUB out: J. Tatum,substitution,substitution,6,Low
+22100347,246,substitution,2,PT04M28.00S,04:28,Q2 04:28,44,50,1610612757.0,Nurkic,SUB in: J. Nurkic,substitution,substitution,6,Low
+22100347,247,substitution,2,PT04M28.00S,04:28,Q2 04:28,44,50,1610612738.0,Schroder,SUB in: D. Schroder,substitution,2pt missed,6,Low
+22100347,249,2pt,2,PT04M03.00S,04:03,Q2 04:03,45,50,1610612738.0,Smart,MISS M. Smart 10' turnaround fadeaway Shot,substitution,rebound,5,Low
+22100347,250,rebound,2,PT04M01.00S,04:01,Q2 04:01,45,50,1610612738.0,Williams III,R. Williams III REBOUND (Off:2 Def:1),2pt missed,2pt missed,5,Low
+22100347,251,2pt,2,PT03M51.00S,03:51,Q2 03:51,45,50,1610612738.0,Schroder,MISS D. Schroder 20' pullup Shot,rebound,rebound,5,Low
+22100347,252,rebound,2,PT03M49.00S,03:49,Q2 03:49,45,50,1610612738.0,Williams,G. Williams REBOUND (Off:1 Def:2),2pt missed,foul,5,Low
+22100347,253,foul,2,PT03M49.00S,03:49,Q2 03:49,45,50,1610612757.0,Nance Jr.,L. Nance Jr. personal FOUL (1 PF),rebound,3pt missed,5,Low
+22100347,255,3pt,2,PT03M37.00S,03:37,Q2 03:37,45,50,1610612738.0,Smart,MISS M. Smart 28' 3PT,foul,rebound,5,Low
+22100347,256,rebound,2,PT03M34.00S,03:34,Q2 03:34,45,50,1610612757.0,,TEAM defensive REBOUND,3pt missed,substitution,5,Low
+22100347,258,substitution,2,PT03M34.00S,03:34,Q2 03:34,45,50,1610612757.0,Nance Jr.,SUB out: L. Nance Jr.,rebound,substitution,5,Low
+22100347,259,substitution,2,PT03M34.00S,03:34,Q2 03:34,45,50,1610612757.0,Covington,SUB in: R. Covington,substitution,foul,5,Low
+22100347,260,foul,2,PT03M24.00S,03:24,Q2 03:24,45,50,1610612738.0,Smart,M. Smart shooting personal FOUL (3 PF) (McCollum 3 FT),substitution,foul,5,Low
+22100347,262,foul,2,PT03M24.00S,03:24,Q2 03:24,45,50,1610612738.0,Smart,M. Smart technical FOUL (1 Tech),foul,freethrow,5,Low
+22100347,263,freethrow,2,PT03M24.00S,03:24,Q2 03:24,46,50,1610612757.0,McCollum,C. McCollum technical Free Throw 1 of 1 (10 PTS),foul,freethrow,4,Low
+22100347,264,freethrow,2,PT03M24.00S,03:24,Q2 03:24,47,50,1610612757.0,McCollum,C. McCollum Free Throw 1 of 3 (11 PTS),freethrow,freethrow,3,Low
+22100347,265,freethrow,2,PT03M24.00S,03:24,Q2 03:24,48,50,1610612757.0,McCollum,C. McCollum Free Throw 2 of 3 (12 PTS),freethrow,freethrow,2,Low
+22100347,268,freethrow,2,PT03M24.00S,03:24,Q2 03:24,48,50,1610612757.0,McCollum,MISS C. McCollum Free Throw 3 of 3,freethrow,substitution,2,Low
+22100347,266,substitution,2,PT03M24.00S,03:24,Q2 03:24,48,50,1610612738.0,Williams III,SUB out: R. Williams III,freethrow,substitution,2,Low
+22100347,267,substitution,2,PT03M24.00S,03:24,Q2 03:24,48,50,1610612738.0,Freedom,SUB in: E. Freedom,substitution,rebound,2,Low
+22100347,269,rebound,2,PT03M22.00S,03:22,Q2 03:22,48,50,1610612738.0,Freedom,E. Freedom REBOUND (Off:0 Def:8),substitution,2pt made,2,Low
+22100347,270,2pt,2,PT03M08.00S,03:08,Q2 03:08,48,52,1610612738.0,Smart,M. Smart 7' driving floating bank Jump Shot (7 PTS) (D. Schroder 3 AST),rebound,2pt made,4,Low
+22100347,272,2pt,2,PT02M55.00S,02:55,Q2 02:55,50,52,1610612757.0,McCollum,C. McCollum driving Layup (14 PTS),2pt made,2pt made,2,Low
+22100347,273,2pt,2,PT02M42.00S,02:42,Q2 02:42,50,54,1610612738.0,Schroder,D. Schroder driving floating Jump Shot (12 PTS),2pt made,2pt made,4,Low
+22100347,274,2pt,2,PT02M32.00S,02:32,Q2 02:32,52,54,1610612757.0,Nurkic,J. Nurkic cutting Layup (12 PTS) (N. Powell 2 AST),2pt made,foul,2,Low
+22100347,276,foul,2,PT02M32.00S,02:32,Q2 02:32,52,54,1610612738.0,Williams,G. Williams shooting personal FOUL (1 PF) (Nurkic 1 FT),2pt made,freethrow,2,Low
+22100347,280,freethrow,2,PT02M32.00S,02:32,Q2 02:32,53,54,1610612757.0,Nurkic,J. Nurkic Free Throw 1 of 1 (13 PTS),foul,substitution,1,Low
+22100347,278,substitution,2,PT02M32.00S,02:32,Q2 02:32,52,54,1610612738.0,Hernangomez,SUB out: J. Hernangomez,freethrow,substitution,2,Low
+22100347,279,substitution,2,PT02M32.00S,02:32,Q2 02:32,52,54,1610612738.0,Tatum,SUB in: J. Tatum,substitution,2pt made,2,Low
+22100347,281,2pt,2,PT02M14.00S,02:14,Q2 02:14,53,56,1610612738.0,Smart,M. Smart 6' driving floating bank Jump Shot (9 PTS) (D. Schroder 4 AST),substitution,3pt missed,3,Low
+22100347,283,3pt,2,PT01M56.00S,01:56,Q2 01:56,53,56,1610612757.0,Covington,MISS R. Covington 25' 3PT,2pt made,rebound,3,Low
+22100347,284,rebound,2,PT01M54.00S,01:54,Q2 01:54,53,56,1610612757.0,Nurkic,J. Nurkic REBOUND (Off:2 Def:1),3pt missed,3pt missed,3,Low
+22100347,285,3pt,2,PT01M51.00S,01:51,Q2 01:51,53,56,1610612757.0,McCollum,MISS C. McCollum 3PT,rebound,rebound,3,Low
+22100347,286,rebound,2,PT01M50.00S,01:50,Q2 01:50,53,56,1610612738.0,Tatum,J. Tatum REBOUND (Off:0 Def:6),3pt missed,2pt missed,3,Low
+22100347,287,2pt,2,PT01M42.00S,01:42,Q2 01:42,53,56,1610612738.0,Freedom,MISS E. Freedom alley-oop Layup,rebound,rebound,3,Low
+22100347,288,rebound,2,PT01M42.00S,01:42,Q2 01:42,53,56,1610612738.0,Freedom,E. Freedom REBOUND (Off:1 Def:8),2pt missed,foul,3,Low
+22100347,289,foul,2,PT01M42.00S,01:42,Q2 01:42,53,56,1610612757.0,Nurkic,J. Nurkic shooting personal FOUL (1 PF) (Freedom 2 FT),rebound,freethrow,3,Low
+22100347,291,freethrow,2,PT01M42.00S,01:42,Q2 01:42,53,56,1610612738.0,Freedom,MISS E. Freedom Free Throw 1 of 2,foul,rebound,3,Low
+22100347,292,rebound,2,PT01M42.00S,01:42,Q2 01:42,53,56,1610612738.0,,TEAM offensive REBOUND,freethrow,freethrow,3,Low
+22100347,293,freethrow,2,PT01M42.00S,01:42,Q2 01:42,53,57,1610612738.0,Freedom,E. Freedom Free Throw 2 of 2 (5 PTS),rebound,2pt missed,4,Low
+22100347,294,2pt,2,PT01M29.00S,01:29,Q2 01:29,53,57,1610612757.0,Smith Jr.,MISS D. Smith Jr. 16' pullup Shot,freethrow,rebound,4,Low
+22100347,295,rebound,2,PT01M25.00S,01:25,Q2 01:25,53,57,1610612738.0,Tatum,J. Tatum REBOUND (Off:0 Def:7),2pt missed,2pt made,4,Low
+22100347,296,2pt,2,PT01M23.00S,01:23,Q2 01:23,53,59,1610612738.0,Williams,G. Williams running Layup (7 PTS) (J. Tatum 3 AST),rebound,2pt made,6,Low
+22100347,299,2pt,2,PT01M08.00S,01:08,Q2 01:08,55,59,1610612757.0,Covington,R. Covington driving Layup (2 PTS) (D. Smith Jr. 3 AST),2pt made,3pt missed,4,Low
+22100347,301,3pt,2,PT00M51.40S,00:51,Q2 00:51,55,59,1610612738.0,Schroder,MISS D. Schroder 26' 3PT,2pt made,rebound,4,Low
+22100347,302,rebound,2,PT00M49.80S,00:49,Q2 00:49,55,59,1610612757.0,Nurkic,J. Nurkic REBOUND (Off:2 Def:2),3pt missed,foul,4,Low
+22100347,304,foul,2,PT00M31.00S,00:31,Q2 00:31,55,59,1610612757.0,Nurkic,J. Nurkic offensive FOUL (2 PF),rebound,turnover,4,Low
+22100347,306,turnover,2,PT00M31.00S,00:31,Q2 00:31,55,59,1610612757.0,Nurkic,J. Nurkic offensive foul TURNOVER (1 TO),foul,3pt made,4,Low
+22100347,307,3pt,2,PT00M24.20S,00:24,Q2 00:24,55,62,1610612738.0,Schroder,D. Schroder 3PT  (15 PTS) (M. Smart 3 AST),turnover,3pt made,7,Low
+22100347,309,3pt,2,PT00M05.40S,00:05,Q2 00:05,58,62,1610612757.0,McCollum,C. McCollum 25' 3PT pullup (17 PTS),3pt made,2pt missed,4,Low
+22100347,310,2pt,2,PT00M00.40S,00:00,Q2 00:00,58,62,1610612738.0,Tatum,MISS J. Tatum driving Layup,3pt made,rebound,4,Low
+22100347,311,rebound,2,PT00M00.40S,00:00,Q2 00:00,58,62,1610612738.0,Freedom,E. Freedom REBOUND (Off:2 Def:8),2pt missed,2pt made,4,Low
+22100347,312,2pt,2,PT00M00.40S,00:00,Q2 00:00,58,64,1610612738.0,Freedom,E. Freedom tip DUNK (7 PTS),rebound,substitution,6,Low
+22100347,314,substitution,3,PT12M00.00S,12:00,Q3 12:00,58,64,1610612738.0,Freedom,SUB out: E. Freedom,2pt made,substitution,6,Low
+22100347,315,substitution,3,PT12M00.00S,12:00,Q3 12:00,58,64,1610612738.0,Williams III,SUB in: R. Williams III,substitution,2pt made,6,Low
+22100347,317,2pt,3,PT11M48.00S,11:48,Q3 11:48,60,64,1610612757.0,Nurkic,J. Nurkic 6' driving Hook (15 PTS) (N. Powell 3 AST),substitution,foul,4,Low
+22100347,319,foul,3,PT11M48.00S,11:48,Q3 11:48,60,64,1610612738.0,Williams III,R. Williams III shooting personal FOUL (3 PF) (Nurkic 1 FT),2pt made,freethrow,4,Low
+22100347,321,freethrow,3,PT11M48.00S,11:48,Q3 11:48,61,64,1610612757.0,Nurkic,J. Nurkic Free Throw 1 of 1 (16 PTS),foul,2pt made,3,Low
+22100347,322,2pt,3,PT11M32.00S,11:32,Q3 11:32,61,66,1610612738.0,Smart,M. Smart 6' driving floating Jump Shot (11 PTS) (G. Williams 1 AST),freethrow,foul,5,Low
+22100347,323,foul,3,PT11M32.00S,11:32,Q3 11:32,61,66,1610612757.0,McCollum,C. McCollum shooting personal FOUL (2 PF) (Smart 1 FT),2pt made,freethrow,5,Low
+22100347,325,freethrow,3,PT11M32.00S,11:32,Q3 11:32,61,67,1610612738.0,Smart,M. Smart Free Throw 1 of 1 (12 PTS),foul,2pt missed,6,Low
+22100347,326,2pt,3,PT11M20.00S,11:20,Q3 11:20,61,67,1610612757.0,Powell,MISS N. Powell driving Layup - blocked,freethrow,block,6,Low
+22100347,327,block,3,PT11M20.00S,11:20,Q3 11:20,61,67,1610612738.0,Williams III,R. Williams III BLOCK (2 BLK),2pt missed,rebound,6,Low
+22100347,328,rebound,3,PT11M17.00S,11:17,Q3 11:17,61,67,1610612738.0,Schroder,D. Schroder REBOUND (Off:0 Def:1),block,2pt made,6,Low
+22100347,329,2pt,3,PT11M05.00S,11:05,Q3 11:05,61,69,1610612738.0,Tatum,J. Tatum driving Layup (15 PTS),rebound,3pt missed,8,Low
+22100347,330,3pt,3,PT10M49.00S,10:49,Q3 10:49,61,69,1610612757.0,Covington,MISS R. Covington 26' 3PT,2pt made,rebound,8,Low
+22100347,331,rebound,3,PT10M48.00S,10:48,Q3 10:48,61,69,1610612738.0,,TEAM defensive REBOUND,3pt missed,2pt made,8,Low
+22100347,333,2pt,3,PT10M37.00S,10:37,Q3 10:37,61,71,1610612738.0,Tatum,J. Tatum 8' pullup Jump Shot (17 PTS) (D. Schroder 5 AST),rebound,3pt missed,10,Low
+22100347,335,3pt,3,PT10M18.00S,10:18,Q3 10:18,61,71,1610612757.0,Smith Jr.,MISS D. Smith Jr. 26' 3PT,2pt made,rebound,10,Low
+22100347,336,rebound,3,PT10M15.00S,10:15,Q3 10:15,61,71,1610612757.0,McCollum,C. McCollum REBOUND (Off:1 Def:0),3pt missed,3pt made,10,Low
+22100347,337,3pt,3,PT10M14.00S,10:14,Q3 10:14,64,71,1610612757.0,McCollum,C. McCollum 26' 3PT  (20 PTS),rebound,3pt made,7,Low
+22100347,338,3pt,3,PT10M00.00S,10:00,Q3 10:00,64,74,1610612738.0,Schroder,D. Schroder 25' 3PT  (18 PTS) (J. Tatum 4 AST),3pt made,2pt made,10,Low
+22100347,340,2pt,3,PT09M48.00S,09:48,Q3 09:48,66,74,1610612757.0,McCollum,C. McCollum 21' pullup Jump Shot (22 PTS),3pt made,2pt missed,8,Low
+22100347,341,2pt,3,PT09M31.00S,09:31,Q3 09:31,66,74,1610612738.0,Williams,MISS G. Williams floating Shot,2pt made,rebound,8,Low
+22100347,342,rebound,3,PT09M31.00S,09:31,Q3 09:31,66,74,1610612757.0,,TEAM defensive REBOUND,2pt missed,2pt made,8,Low
+22100347,344,2pt,3,PT09M15.00S,09:15,Q3 09:15,68,74,1610612757.0,Covington,R. Covington 17' pullup Jump Shot (4 PTS),rebound,2pt made,6,Low
+22100347,345,2pt,3,PT09M07.00S,09:07,Q3 09:07,68,76,1610612738.0,Smart,M. Smart 7' turnaround bank Jump Shot (14 PTS),2pt made,foul,8,Low
+22100347,346,foul,3,PT09M07.00S,09:07,Q3 09:07,68,76,1610612757.0,McCollum,C. McCollum shooting personal FOUL (3 PF) (Smart 1 FT),2pt made,freethrow,8,Low
+22100347,348,freethrow,3,PT09M07.00S,09:07,Q3 09:07,68,77,1610612738.0,Smart,M. Smart Free Throw 1 of 1 (15 PTS),foul,3pt missed,9,Low
+22100347,349,3pt,3,PT08M56.00S,08:56,Q3 08:56,68,77,1610612757.0,Covington,MISS R. Covington 26' 3PT,freethrow,rebound,9,Low
+22100347,350,rebound,3,PT08M53.00S,08:53,Q3 08:53,68,77,1610612738.0,Smart,M. Smart REBOUND (Off:0 Def:1),3pt missed,foul,9,Low
+22100347,352,foul,3,PT08M43.00S,08:43,Q3 08:43,68,77,1610612757.0,Powell,N. Powell personal FOUL (2 PF),rebound,foul,9,Low
+22100347,354,foul,3,PT08M43.00S,08:43,Q3 08:43,68,77,1610612757.0,Nurkic,J. Nurkic technical FOUL (1 Tech),foul,freethrow,9,Low
+22100347,355,freethrow,3,PT08M43.00S,08:43,Q3 08:43,68,78,1610612738.0,Tatum,J. Tatum technical Free Throw 1 of 1 (18 PTS),foul,2pt made,10,Low
+22100347,356,2pt,3,PT08M31.00S,08:31,Q3 08:31,68,80,1610612738.0,Tatum,J. Tatum 17' fadeaway Jump Shot (20 PTS),freethrow,timeout,12,Low
+22100347,357,timeout,3,PT08M27.00S,08:27,Q3 08:27,68,80,1610612757.0,,POR Timeout,2pt made,2pt made,12,Low
+22100347,358,2pt,3,PT08M19.00S,08:19,Q3 08:19,70,80,1610612757.0,Nurkic,J. Nurkic cutting Layup (18 PTS) (C. McCollum 4 AST),timeout,foul,10,Low
+22100347,360,foul,3,PT08M19.00S,08:19,Q3 08:19,70,80,1610612738.0,Williams III,R. Williams III shooting personal FOUL (4 PF) (Nurkic 1 FT),2pt made,freethrow,10,Low
+22100347,364,freethrow,3,PT08M19.00S,08:19,Q3 08:19,70,80,1610612757.0,Nurkic,MISS J. Nurkic Free Throw 1 of 1,foul,substitution,10,Low
+22100347,362,substitution,3,PT08M19.00S,08:19,Q3 08:19,70,80,1610612738.0,Williams III,SUB out: R. Williams III,freethrow,substitution,10,Low
+22100347,363,substitution,3,PT08M19.00S,08:19,Q3 08:19,70,80,1610612738.0,Freedom,SUB in: E. Freedom,substitution,rebound,10,Low
+22100347,365,rebound,3,PT08M17.00S,08:17,Q3 08:17,70,80,1610612738.0,Tatum,J. Tatum REBOUND (Off:0 Def:8),substitution,foul,10,Low
+22100347,366,foul,3,PT08M09.00S,08:09,Q3 08:09,70,80,1610612757.0,McCollum,C. McCollum shooting personal FOUL (4 PF) (Schroder 2 FT),rebound,freethrow,10,Low
+22100347,368,freethrow,3,PT08M09.00S,08:09,Q3 08:09,70,81,1610612738.0,Schroder,D. Schroder Free Throw 1 of 2 (19 PTS),foul,freethrow,11,Low
+22100347,369,freethrow,3,PT08M09.00S,08:09,Q3 08:09,70,82,1610612738.0,Schroder,D. Schroder Free Throw 2 of 2 (20 PTS),freethrow,3pt made,12,Low
+22100347,370,3pt,3,PT07M54.00S,07:54,Q3 07:54,73,82,1610612757.0,Covington,R. Covington 27' 3PT pullup (7 PTS) (N. Powell 4 AST),freethrow,3pt missed,9,Low
+22100347,372,3pt,3,PT07M27.00S,07:27,Q3 07:27,73,82,1610612738.0,Williams,MISS G. Williams 24' 3PT,3pt made,rebound,9,Low
+22100347,373,rebound,3,PT07M23.00S,07:23,Q3 07:23,73,82,1610612757.0,Smith Jr.,D. Smith Jr. REBOUND (Off:0 Def:1),3pt missed,2pt made,9,Low
+22100347,377,2pt,3,PT07M08.00S,07:08,Q3 07:08,75,82,1610612757.0,Powell,N. Powell 18' pullup Jump Shot (6 PTS) (J. Nurkic 1 AST),rebound,foul,7,Low
+22100347,379,foul,3,PT06M48.00S,06:48,Q3 06:48,75,82,1610612757.0,Smith Jr.,D. Smith Jr. shooting personal FOUL (3 PF) (Smart 2 FT),2pt made,freethrow,7,Low
+22100347,381,freethrow,3,PT06M48.00S,06:48,Q3 06:48,75,83,1610612738.0,Smart,M. Smart Free Throw 1 of 2 (16 PTS),foul,freethrow,8,Low
+22100347,382,freethrow,3,PT06M48.00S,06:48,Q3 06:48,75,84,1610612738.0,Smart,M. Smart Free Throw 2 of 2 (17 PTS),freethrow,3pt missed,9,Low
+22100347,383,3pt,3,PT06M37.00S,06:37,Q3 06:37,75,84,1610612757.0,Smith Jr.,MISS D. Smith Jr. 3PT,freethrow,rebound,9,Low
+22100347,384,rebound,3,PT06M34.00S,06:34,Q3 06:34,75,84,1610612738.0,Schroder,D. Schroder REBOUND (Off:0 Def:2),3pt missed,substitution,9,Low
+22100347,386,substitution,3,PT06M25.00S,06:25,Q3 06:25,75,84,1610612757.0,Smith Jr.,SUB out: D. Smith Jr.,rebound,substitution,9,Low
+22100347,387,substitution,3,PT06M25.00S,06:25,Q3 06:25,75,84,1610612757.0,McLemore,SUB in: B. McLemore,substitution,2pt made,9,Low
+22100347,388,2pt,3,PT06M19.00S,06:19,Q3 06:19,75,86,1610612738.0,Schroder,D. Schroder driving Layup (22 PTS),substitution,3pt missed,11,Low
+22100347,389,3pt,3,PT06M09.00S,06:09,Q3 06:09,75,86,1610612757.0,McCollum,MISS C. McCollum 26' pullup 3PT,2pt made,rebound,11,Low
+22100347,390,rebound,3,PT06M08.00S,06:08,Q3 06:08,75,86,1610612738.0,Freedom,E. Freedom REBOUND (Off:2 Def:9),3pt missed,turnover,11,Low
+22100347,391,turnover,3,PT06M01.00S,06:01,Q3 06:01,75,86,1610612738.0,Tatum,J. Tatum lost ball out-of-bounds TURNOVER (2 TO),rebound,substitution,11,Low
+22100347,392,substitution,3,PT06M01.00S,06:01,Q3 06:01,75,86,1610612738.0,Williams,SUB out: G. Williams,turnover,substitution,11,Low
+22100347,393,substitution,3,PT06M01.00S,06:01,Q3 06:01,75,86,1610612738.0,Richardson,SUB in: J. Richardson,substitution,3pt missed,11,Low
+22100347,394,3pt,3,PT05M53.00S,05:53,Q3 05:53,75,86,1610612757.0,Powell,MISS N. Powell 25' 3PT,substitution,rebound,11,Low
+22100347,395,rebound,3,PT05M49.00S,05:49,Q3 05:49,75,86,1610612738.0,Schroder,D. Schroder REBOUND (Off:0 Def:3),3pt missed,2pt made,11,Low
+22100347,396,2pt,3,PT05M39.00S,05:39,Q3 05:39,75,88,1610612738.0,Schroder,D. Schroder driving Layup (24 PTS),rebound,foul,13,Low
+22100347,397,foul,3,PT05M26.00S,05:26,Q3 05:26,75,88,1610612738.0,Freedom,E. Freedom shooting personal FOUL (2 PF) (Powell 2 FT),2pt made,freethrow,13,Low
+22100347,399,freethrow,3,PT05M26.00S,05:26,Q3 05:26,75,88,1610612757.0,Powell,MISS N. Powell Free Throw 1 of 2,foul,rebound,13,Low
+22100347,400,rebound,3,PT05M26.00S,05:26,Q3 05:26,75,88,1610612757.0,,TEAM offensive REBOUND,freethrow,freethrow,13,Low
+22100347,403,freethrow,3,PT05M26.00S,05:26,Q3 05:26,76,88,1610612757.0,Powell,N. Powell Free Throw 2 of 2 (7 PTS),rebound,substitution,12,Low
+22100347,401,substitution,3,PT05M26.00S,05:26,Q3 05:26,75,88,1610612757.0,Covington,SUB out: R. Covington,freethrow,substitution,13,Low
+22100347,402,substitution,3,PT05M26.00S,05:26,Q3 05:26,75,88,1610612757.0,Nance Jr.,SUB in: L. Nance Jr.,substitution,2pt missed,13,Low
+22100347,404,2pt,3,PT05M03.00S,05:03,Q3 05:03,76,88,1610612738.0,Tatum,MISS J. Tatum 17' turnaround fadeaway Shot,substitution,rebound,12,Low
+22100347,405,rebound,3,PT05M01.00S,05:01,Q3 05:01,76,88,1610612738.0,Freedom,E. Freedom REBOUND (Off:3 Def:9),2pt missed,2pt missed,12,Low
+22100347,406,2pt,3,PT04M53.00S,04:53,Q3 04:53,76,88,1610612738.0,Schroder,MISS D. Schroder driving Layup - blocked,rebound,block,12,Low
+22100347,407,block,3,PT04M53.00S,04:53,Q3 04:53,76,88,1610612757.0,Nurkic,J. Nurkic BLOCK (1 BLK),2pt missed,rebound,12,Low
+22100347,408,rebound,3,PT04M48.00S,04:48,Q3 04:48,76,88,1610612738.0,Freedom,E. Freedom REBOUND (Off:4 Def:9),block,2pt made,12,Low
+22100347,409,2pt,3,PT04M48.00S,04:48,Q3 04:48,76,90,1610612738.0,Freedom,E. Freedom putback Layup (9 PTS),rebound,3pt made,14,Low
+22100347,410,3pt,3,PT04M40.00S,04:40,Q3 04:40,79,90,1610612757.0,Nance Jr.,L. Nance Jr. 26' 3PT  (5 PTS) (C. McCollum 5 AST),2pt made,2pt missed,11,Low
+22100347,412,2pt,3,PT04M17.00S,04:17,Q3 04:17,79,90,1610612738.0,Smart,MISS M. Smart 6' turnaround fadeaway Shot,3pt made,rebound,11,Low
+22100347,413,rebound,3,PT04M15.00S,04:15,Q3 04:15,79,90,1610612757.0,Nurkic,J. Nurkic REBOUND (Off:2 Def:3),2pt missed,substitution,11,Low
+22100347,415,substitution,3,PT04M01.00S,04:01,Q3 04:01,79,90,1610612757.0,Nurkic,SUB out: J. Nurkic,rebound,substitution,11,Low
+22100347,416,substitution,3,PT04M01.00S,04:01,Q3 04:01,79,90,1610612738.0,Smart,SUB out: M. Smart,substitution,substitution,11,Low
+22100347,417,substitution,3,PT04M01.00S,04:01,Q3 04:01,79,90,1610612757.0,Zeller,SUB in: C. Zeller,substitution,substitution,11,Low
+22100347,418,substitution,3,PT04M01.00S,04:01,Q3 04:01,79,90,1610612738.0,Nesmith,SUB in: A. Nesmith,substitution,turnover,11,Low
+22100347,419,turnover,3,PT03M53.00S,03:53,Q3 03:53,79,90,1610612757.0,McCollum,C. McCollum lost ball TURNOVER (2 TO),substitution,steal,11,Low
+22100347,420,steal,3,PT03M53.00S,03:53,Q3 03:53,79,90,1610612738.0,Schroder,D. Schroder STEAL (1 STL),turnover,2pt made,11,Low
+22100347,421,2pt,3,PT03M50.00S,03:50,Q3 03:50,79,92,1610612738.0,Schroder,D. Schroder running Layup (26 PTS) (A. Nesmith 2 AST),steal,3pt missed,13,Low
+22100347,422,3pt,3,PT03M31.00S,03:31,Q3 03:31,79,92,1610612757.0,McCollum,MISS C. McCollum 25' 3PT,2pt made,rebound,13,Low
+22100347,423,rebound,3,PT03M28.00S,03:28,Q3 03:28,79,92,1610612738.0,Nesmith,A. Nesmith REBOUND (Off:0 Def:2),3pt missed,3pt made,13,Low
+22100347,424,3pt,3,PT03M22.00S,03:22,Q3 03:22,79,95,1610612738.0,Tatum,J. Tatum 25' 3PT pullup (23 PTS) (D. Schroder 6 AST),rebound,foul,16,Low
+22100347,426,foul,3,PT02M58.00S,02:58,Q3 02:58,79,95,1610612738.0,Freedom,E. Freedom shooting personal FOUL (3 PF) (Powell 2 FT),3pt made,timeout,16,Low
+22100347,428,timeout,3,PT02M58.00S,02:58,Q3 02:58,79,95,1610612738.0,,BOS Timeout,foul,freethrow,16,Low
+22100347,434,freethrow,3,PT02M58.00S,02:58,Q3 02:58,79,95,1610612757.0,Powell,MISS N. Powell Free Throw 1 of 2,timeout,rebound,16,Low
+22100347,435,rebound,3,PT02M58.00S,02:58,Q3 02:58,79,95,1610612757.0,,TEAM offensive REBOUND,freethrow,freethrow,16,Low
+22100347,438,freethrow,3,PT02M58.00S,02:58,Q3 02:58,80,95,1610612757.0,Powell,N. Powell Free Throw 2 of 2 (8 PTS),rebound,substitution,15,Low
+22100347,430,substitution,3,PT02M58.00S,02:58,Q3 02:58,79,95,1610612757.0,McCollum,SUB out: C. McCollum,freethrow,substitution,16,Low
+22100347,431,substitution,3,PT02M58.00S,02:58,Q3 02:58,79,95,1610612738.0,Schroder,SUB out: D. Schroder,substitution,substitution,16,Low
+22100347,433,substitution,3,PT02M58.00S,02:58,Q3 02:58,79,95,1610612738.0,Pritchard,SUB in: P. Pritchard,substitution,substitution,16,Low
+22100347,441,substitution,3,PT02M58.00S,02:58,Q3 02:58,79,95,1610612757.0,Smith Jr.,SUB in: D. Smith Jr.,substitution,foul,16,Low
+22100347,439,foul,3,PT02M37.00S,02:37,Q3 02:37,80,95,1610612757.0,McLemore,B. McLemore shooting personal FOUL (1 PF) (Tatum 3 FT),substitution,freethrow,15,Low
+22100347,442,freethrow,3,PT02M37.00S,02:37,Q3 02:37,80,96,1610612738.0,Tatum,J. Tatum Free Throw 1 of 3 (24 PTS),foul,freethrow,16,Low
+22100347,443,freethrow,3,PT02M37.00S,02:37,Q3 02:37,80,97,1610612738.0,Tatum,J. Tatum Free Throw 2 of 3 (25 PTS),freethrow,freethrow,17,Low
+22100347,446,freethrow,3,PT02M37.00S,02:37,Q3 02:37,80,98,1610612738.0,Tatum,J. Tatum Free Throw 3 of 3 (26 PTS),freethrow,substitution,18,Low
+22100347,444,substitution,3,PT02M37.00S,02:37,Q3 02:37,80,97,1610612757.0,Powell,SUB out: N. Powell,freethrow,substitution,17,Low
+22100347,445,substitution,3,PT02M37.00S,02:37,Q3 02:37,80,97,1610612757.0,Snell,SUB in: T. Snell,substitution,2pt made,17,Low
+22100347,447,2pt,3,PT02M25.00S,02:25,Q3 02:25,82,98,1610612757.0,Zeller,C. Zeller cutting DUNK (10 PTS) (T. Snell 1 AST),substitution,2pt missed,16,Low
+22100347,449,2pt,3,PT02M07.00S,02:07,Q3 02:07,82,98,1610612738.0,Richardson,MISS J. Richardson driving Layup,2pt made,rebound,16,Low
+22100347,450,rebound,3,PT02M04.00S,02:04,Q3 02:04,82,98,1610612738.0,Freedom,E. Freedom REBOUND (Off:5 Def:9),2pt missed,2pt missed,16,Low
+22100347,451,2pt,3,PT02M04.00S,02:04,Q3 02:04,82,98,1610612738.0,Freedom,MISS E. Freedom tip Layup,rebound,rebound,16,Low
+22100347,452,rebound,3,PT02M04.00S,02:04,Q3 02:04,82,98,1610612757.0,McLemore,B. McLemore REBOUND (Off:1 Def:1),2pt missed,3pt missed,16,Low
+22100347,453,3pt,3,PT01M51.00S,01:51,Q3 01:51,82,98,1610612757.0,McLemore,MISS B. McLemore 27' 3PT,rebound,rebound,16,Low
+22100347,454,rebound,3,PT01M49.00S,01:49,Q3 01:49,82,98,1610612738.0,Pritchard,P. Pritchard REBOUND (Off:0 Def:1),3pt missed,3pt made,16,Low
+22100347,455,3pt,3,PT01M36.00S,01:36,Q3 01:36,82,101,1610612738.0,Nesmith,A. Nesmith 24' 3PT  (3 PTS) (P. Pritchard 2 AST),rebound,2pt made,19,Low
+22100347,457,2pt,3,PT01M13.00S,01:13,Q3 01:13,84,101,1610612757.0,Smith Jr.,D. Smith Jr. driving Layup (9 PTS),3pt made,foul,17,Low
+22100347,458,foul,3,PT00M54.10S,00:54,Q3 00:54,84,101,1610612757.0,Snell,T. Snell shooting personal FOUL (1 PF) (Tatum 3 FT),2pt made,freethrow,17,Low
+22100347,460,freethrow,3,PT00M54.10S,00:54,Q3 00:54,84,102,1610612738.0,Tatum,J. Tatum Free Throw 1 of 3 (27 PTS),foul,freethrow,18,Low
+22100347,461,freethrow,3,PT00M54.10S,00:54,Q3 00:54,84,102,1610612738.0,Tatum,MISS J. Tatum Free Throw 2 of 3,freethrow,rebound,18,Low
+22100347,462,rebound,3,PT00M54.10S,00:54,Q3 00:54,84,102,1610612738.0,,TEAM offensive REBOUND,freethrow,freethrow,18,Low
+22100347,463,freethrow,3,PT00M54.10S,00:54,Q3 00:54,84,103,1610612738.0,Tatum,J. Tatum Free Throw 3 of 3 (28 PTS),rebound,3pt missed,19,Low
+22100347,464,3pt,3,PT00M42.10S,00:42,Q3 00:42,84,103,1610612757.0,McLemore,MISS B. McLemore 25' 3PT,freethrow,rebound,19,Low
+22100347,465,rebound,3,PT00M39.50S,00:39,Q3 00:39,84,103,1610612738.0,Freedom,E. Freedom REBOUND (Off:5 Def:10),3pt missed,2pt missed,19,Low
+22100347,467,2pt,3,PT00M28.80S,00:28,Q3 00:28,84,103,1610612738.0,Tatum,MISS J. Tatum 19' fadeaway Shot,rebound,rebound,19,Low
+22100347,468,rebound,3,PT00M26.50S,00:26,Q3 00:26,84,103,1610612757.0,Smith Jr.,D. Smith Jr. REBOUND (Off:0 Def:2),2pt missed,2pt missed,19,Low
+22100347,469,2pt,3,PT00M04.40S,00:04,Q3 00:04,84,103,1610612757.0,Smith Jr.,MISS D. Smith Jr. 12' pullup Shot,rebound,rebound,19,Low
+22100347,470,rebound,3,PT00M02.30S,00:02,Q3 00:02,84,103,1610612738.0,Tatum,J. Tatum REBOUND (Off:0 Def:9),2pt missed,2pt missed,19,Low
+22100347,471,2pt,3,PT00M00.00S,00:00,Q3 00:00,84,103,1610612738.0,Nesmith,MISS A. Nesmith 6' running pullup Shot,rebound,rebound,19,Low
+22100347,472,rebound,3,PT00M00.00S,00:00,Q3 00:00,84,103,1610612738.0,,TEAM offensive REBOUND,2pt missed,substitution,19,Low
+22100347,474,substitution,4,PT12M00.00S,12:00,Q4 12:00,84,103,1610612757.0,Zeller,SUB out: C. Zeller,rebound,substitution,19,Low
+22100347,475,substitution,4,PT12M00.00S,12:00,Q4 12:00,84,103,1610612757.0,Snell,SUB out: T. Snell,substitution,substitution,19,Low
+22100347,476,substitution,4,PT12M00.00S,12:00,Q4 12:00,84,103,1610612738.0,Tatum,SUB out: J. Tatum,substitution,substitution,19,Low
+22100347,477,substitution,4,PT12M00.00S,12:00,Q4 12:00,84,103,1610612738.0,Richardson,SUB out: J. Richardson,substitution,substitution,19,Low
+22100347,478,substitution,4,PT12M00.00S,12:00,Q4 12:00,84,103,1610612738.0,Freedom,SUB out: E. Freedom,substitution,substitution,19,Low
+22100347,479,substitution,4,PT12M00.00S,12:00,Q4 12:00,84,103,1610612757.0,Covington,SUB in: R. Covington,substitution,substitution,19,Low
+22100347,480,substitution,4,PT12M00.00S,12:00,Q4 12:00,84,103,1610612757.0,McCollum,SUB in: C. McCollum,substitution,substitution,19,Low
+22100347,481,substitution,4,PT12M00.00S,12:00,Q4 12:00,84,103,1610612738.0,Williams,SUB in: G. Williams,substitution,substitution,19,Low
+22100347,482,substitution,4,PT12M00.00S,12:00,Q4 12:00,84,103,1610612738.0,Schroder,SUB in: D. Schroder,substitution,substitution,19,Low
+22100347,483,substitution,4,PT12M00.00S,12:00,Q4 12:00,84,103,1610612738.0,Williams III,SUB in: R. Williams III,substitution,3pt missed,19,Low
+22100347,486,3pt,4,PT11M40.00S,11:40,Q4 11:40,84,103,1610612738.0,Schroder,MISS D. Schroder 25' step back 3PT,substitution,rebound,19,Low
+22100347,487,rebound,4,PT11M37.00S,11:37,Q4 11:37,84,103,1610612757.0,Covington,R. Covington REBOUND (Off:0 Def:1),3pt missed,turnover,19,Low
+22100347,488,turnover,4,PT11M26.00S,11:26,Q4 11:26,84,103,1610612757.0,Covington,R. Covington bad pass TURNOVER (1 TO),rebound,steal,19,Low
+22100347,489,steal,4,PT11M26.00S,11:26,Q4 11:26,84,103,1610612738.0,Williams,G. Williams STEAL (1 STL),turnover,2pt made,19,Low
+22100347,490,2pt,4,PT11M22.00S,11:22,Q4 11:22,84,105,1610612738.0,Williams III,R. Williams III running alley-oop Layup (4 PTS) (A. Nesmith 3 AST),steal,2pt made,21,Low
+22100347,492,2pt,4,PT11M06.00S,11:06,Q4 11:06,86,105,1610612757.0,Smith Jr.,D. Smith Jr. cutting DUNK (11 PTS) (L. Nance Jr. 1 AST),2pt made,3pt made,19,Low
+22100347,494,3pt,4,PT10M53.00S,10:53,Q4 10:53,86,108,1610612738.0,Nesmith,A. Nesmith 24' 3PT  (6 PTS) (D. Schroder 7 AST),2pt made,2pt missed,22,Low
+22100347,496,2pt,4,PT10M38.00S,10:38,Q4 10:38,86,108,1610612757.0,McCollum,MISS C. McCollum driving Layup - blocked,3pt made,block,22,Low
+22100347,497,block,4,PT10M38.00S,10:38,Q4 10:38,86,108,1610612738.0,Williams III,R. Williams III BLOCK (3 BLK),2pt missed,rebound,22,Low
+22100347,498,rebound,4,PT10M38.00S,10:38,Q4 10:38,86,108,1610612757.0,,TEAM offensive REBOUND,block,3pt missed,22,Low
+22100347,500,3pt,4,PT10M30.00S,10:30,Q4 10:30,86,108,1610612757.0,McCollum,MISS C. McCollum 24' step back 3PT,rebound,rebound,22,Low
+22100347,501,rebound,4,PT10M30.00S,10:30,Q4 10:30,86,108,1610612738.0,,TEAM defensive REBOUND,3pt missed,foul,22,Low
+22100347,502,foul,4,PT10M30.00S,10:30,Q4 10:30,86,108,1610612757.0,Nance Jr.,L. Nance Jr. loose ball personal FOUL (2 PF),rebound,3pt made,22,Low
+22100347,504,3pt,4,PT10M14.00S,10:14,Q4 10:14,86,111,1610612738.0,Nesmith,A. Nesmith 24' 3PT  (9 PTS) (D. Schroder 8 AST),foul,3pt missed,25,Low
+22100347,506,3pt,4,PT09M59.00S,09:59,Q4 09:59,86,111,1610612757.0,Nance Jr.,MISS L. Nance Jr. 27' pullup 3PT,3pt made,rebound,25,Low
+22100347,507,rebound,4,PT09M56.00S,09:56,Q4 09:56,86,111,1610612738.0,Schroder,D. Schroder REBOUND (Off:0 Def:4),3pt missed,3pt missed,25,Low
+22100347,508,3pt,4,PT09M50.00S,09:50,Q4 09:50,86,111,1610612738.0,Nesmith,MISS A. Nesmith 25' pullup 3PT,rebound,rebound,25,Low
+22100347,509,rebound,4,PT09M47.00S,09:47,Q4 09:47,86,111,1610612757.0,Smith Jr.,D. Smith Jr. REBOUND (Off:0 Def:3),3pt missed,3pt missed,25,Low
+22100347,510,3pt,4,PT09M44.00S,09:44,Q4 09:44,86,111,1610612757.0,McLemore,MISS B. McLemore 24' running 3PT,rebound,rebound,25,Low
+22100347,511,rebound,4,PT09M42.00S,09:42,Q4 09:42,86,111,1610612738.0,Williams,G. Williams REBOUND (Off:1 Def:3),3pt missed,2pt missed,25,Low
+22100347,512,2pt,4,PT09M27.00S,09:27,Q4 09:27,86,111,1610612738.0,Schroder,MISS D. Schroder driving Layup,rebound,rebound,25,Low
+22100347,513,rebound,4,PT09M26.00S,09:26,Q4 09:26,86,111,1610612757.0,Nance Jr.,L. Nance Jr. REBOUND (Off:0 Def:4),2pt missed,foul,25,Low
+22100347,514,foul,4,PT09M24.00S,09:24,Q4 09:24,86,111,1610612738.0,Williams,G. Williams shooting personal FOUL (2 PF) (McCollum 2 FT),rebound,freethrow,25,Low
+22100347,516,freethrow,4,PT09M24.00S,09:24,Q4 09:24,87,111,1610612757.0,McCollum,C. McCollum Free Throw 1 of 2 (23 PTS),foul,freethrow,24,Low
+22100347,517,freethrow,4,PT09M24.00S,09:24,Q4 09:24,88,111,1610612757.0,McCollum,C. McCollum Free Throw 2 of 2 (24 PTS),freethrow,foul,23,Low
+22100347,518,foul,4,PT09M09.00S,09:09,Q4 09:09,88,111,1610612757.0,Covington,R. Covington shooting personal FOUL (1 PF) (Schroder 2 FT),freethrow,freethrow,23,Low
+22100347,520,freethrow,4,PT09M09.00S,09:09,Q4 09:09,88,112,1610612738.0,Schroder,D. Schroder Free Throw 1 of 2 (27 PTS),foul,freethrow,24,Low
+22100347,521,freethrow,4,PT09M09.00S,09:09,Q4 09:09,88,113,1610612738.0,Schroder,D. Schroder Free Throw 2 of 2 (28 PTS),freethrow,2pt made,25,Low
+22100347,522,2pt,4,PT08M56.00S,08:56,Q4 08:56,90,113,1610612757.0,Nance Jr.,L. Nance Jr. cutting DUNK (7 PTS) (D. Smith Jr. 4 AST),freethrow,3pt missed,23,Low
+22100347,524,3pt,4,PT08M32.00S,08:32,Q4 08:32,90,113,1610612738.0,Pritchard,MISS P. Pritchard 25' 3PT,2pt made,rebound,23,Low
+22100347,525,rebound,4,PT08M31.00S,08:31,Q4 08:31,90,113,1610612757.0,Smith Jr.,D. Smith Jr. REBOUND (Off:0 Def:4),3pt missed,2pt made,23,Low
+22100347,526,2pt,4,PT08M27.00S,08:27,Q4 08:27,92,113,1610612757.0,Covington,R. Covington running Layup (9 PTS) (D. Smith Jr. 5 AST),rebound,2pt missed,21,Low
+22100347,528,2pt,4,PT08M05.00S,08:05,Q4 08:05,92,113,1610612738.0,Williams,MISS G. Williams 15' driving floating Shot,2pt made,rebound,21,Low
+22100347,529,rebound,4,PT08M01.00S,08:01,Q4 08:01,92,113,1610612757.0,Covington,R. Covington REBOUND (Off:0 Def:2),2pt missed,timeout,21,Low
+22100347,530,timeout,4,PT08M01.00S,08:01,Q4 08:01,92,113,1610612757.0,,POR Timeout,rebound,substitution,21,Low
+22100347,531,substitution,4,PT08M01.00S,08:01,Q4 08:01,92,113,1610612757.0,McLemore,SUB out: B. McLemore,timeout,substitution,21,Low
+22100347,532,substitution,4,PT08M01.00S,08:01,Q4 08:01,92,113,1610612738.0,Pritchard,SUB out: P. Pritchard,substitution,substitution,21,Low
+22100347,533,substitution,4,PT08M01.00S,08:01,Q4 08:01,92,113,1610612738.0,Nesmith,SUB out: A. Nesmith,substitution,substitution,21,Low
+22100347,534,substitution,4,PT08M01.00S,08:01,Q4 08:01,92,113,1610612757.0,Powell,SUB in: N. Powell,substitution,substitution,21,Low
+22100347,535,substitution,4,PT08M01.00S,08:01,Q4 08:01,92,113,1610612738.0,Tatum,SUB in: J. Tatum,substitution,substitution,21,Low
+22100347,536,substitution,4,PT08M01.00S,08:01,Q4 08:01,92,113,1610612738.0,Smart,SUB in: M. Smart,substitution,2pt made,21,Low
+22100347,537,2pt,4,PT07M54.00S,07:54,Q4 07:54,94,113,1610612757.0,Smith Jr.,D. Smith Jr. 17' pullup Jump Shot (13 PTS),substitution,3pt made,19,Low
+22100347,538,3pt,4,PT07M32.00S,07:32,Q4 07:32,94,116,1610612738.0,Schroder,D. Schroder 24' 3PT  (31 PTS),2pt made,3pt missed,22,Low
+22100347,539,3pt,4,PT07M17.00S,07:17,Q4 07:17,94,116,1610612757.0,Covington,MISS R. Covington 3PT,3pt made,rebound,22,Low
+22100347,540,rebound,4,PT07M13.00S,07:13,Q4 07:13,94,116,1610612757.0,Nance Jr.,L. Nance Jr. REBOUND (Off:1 Def:4),3pt missed,2pt made,22,Low
+22100347,541,2pt,4,PT07M13.00S,07:13,Q4 07:13,96,116,1610612757.0,Nance Jr.,L. Nance Jr. tip Layup (9 PTS),rebound,turnover,20,Low
+22100347,542,turnover,4,PT07M00.00S,07:00,Q4 07:00,96,116,1610612738.0,Smart,M. Smart bad pass TURNOVER (3 TO),2pt made,steal,20,Low
+22100347,543,steal,4,PT07M00.00S,07:00,Q4 07:00,96,116,1610612757.0,Smith Jr.,D. Smith Jr. STEAL (2 STL),turnover,2pt missed,20,Low
+22100347,544,2pt,4,PT06M53.00S,06:53,Q4 06:53,96,116,1610612757.0,Covington,MISS R. Covington driving Layup,steal,rebound,20,Low
+22100347,545,rebound,4,PT06M52.00S,06:52,Q4 06:52,96,116,1610612738.0,Smart,M. Smart REBOUND (Off:0 Def:2),2pt missed,turnover,20,Low
+22100347,548,turnover,4,PT06M52.00S,06:52,Q4 06:52,96,116,1610612738.0,Smart,M. Smart bad pass TURNOVER (4 TO),rebound,steal,20,Low
+22100347,549,steal,4,PT06M52.00S,06:52,Q4 06:52,96,116,1610612757.0,Nance Jr.,L. Nance Jr. STEAL (2 STL),turnover,turnover,20,Low
+22100347,546,turnover,4,PT06M51.00S,06:51,Q4 06:51,96,116,1610612757.0,Covington,R. Covington bad pass out-of-bounds TURNOVER (2 TO),steal,timeout,20,Low
+22100347,547,timeout,4,PT06M51.00S,06:51,Q4 06:51,96,116,1610612738.0,,BOS Timeout,turnover,2pt made,20,Low
+22100347,550,2pt,4,PT06M39.00S,06:39,Q4 06:39,96,118,1610612738.0,Tatum,J. Tatum driving Layup (30 PTS),timeout,foul,22,Low
+22100347,551,foul,4,PT06M39.00S,06:39,Q4 06:39,96,118,1610612757.0,Powell,N. Powell shooting personal FOUL (3 PF) (Tatum 1 FT),2pt made,freethrow,22,Low
+22100347,553,freethrow,4,PT06M39.00S,06:39,Q4 06:39,96,119,1610612738.0,Tatum,J. Tatum Free Throw 1 of 1 (31 PTS),foul,2pt missed,23,Low
+22100347,554,2pt,4,PT06M22.00S,06:22,Q4 06:22,96,119,1610612757.0,Powell,MISS N. Powell 20' step back Shot,freethrow,rebound,23,Low
+22100347,555,rebound,4,PT06M20.00S,06:20,Q4 06:20,96,119,1610612738.0,Tatum,J. Tatum REBOUND (Off:0 Def:10),2pt missed,2pt made,23,Low
+22100347,556,2pt,4,PT06M03.00S,06:03,Q4 06:03,96,121,1610612738.0,Williams,G. Williams driving floating Jump Shot (9 PTS) (M. Smart 4 AST),rebound,foul,25,Low
+22100347,558,foul,4,PT06M03.00S,06:03,Q4 06:03,96,121,1610612757.0,Covington,R. Covington shooting personal FOUL (2 PF) (Williams 1 FT),2pt made,freethrow,25,Low
+22100347,560,freethrow,4,PT06M03.00S,06:03,Q4 06:03,96,122,1610612738.0,Williams,G. Williams Free Throw 1 of 1 (10 PTS),foul,2pt made,26,Low
+22100347,561,2pt,4,PT05M51.00S,05:51,Q4 05:51,98,122,1610612757.0,Smith Jr.,D. Smith Jr. driving Layup (15 PTS) (C. McCollum 6 AST),freethrow,foul,24,Low
+22100347,563,foul,4,PT05M51.00S,05:51,Q4 05:51,98,122,1610612738.0,Williams III,R. Williams III shooting personal FOUL (5 PF) (Smith Jr. 1 FT),2pt made,freethrow,24,Low
+22100347,577,freethrow,4,PT05M51.00S,05:51,Q4 05:51,99,122,1610612757.0,Smith Jr.,D. Smith Jr. Free Throw 1 of 1 (16 PTS),foul,substitution,23,Low
+22100347,565,substitution,4,PT05M51.00S,05:51,Q4 05:51,98,122,1610612757.0,McCollum,SUB out: C. McCollum,freethrow,substitution,24,Low
+22100347,566,substitution,4,PT05M51.00S,05:51,Q4 05:51,98,122,1610612757.0,Nance Jr.,SUB out: L. Nance Jr.,substitution,substitution,24,Low
+22100347,567,substitution,4,PT05M51.00S,05:51,Q4 05:51,98,122,1610612757.0,Covington,SUB out: R. Covington,substitution,substitution,24,Low
+22100347,568,substitution,4,PT05M51.00S,05:51,Q4 05:51,98,122,1610612757.0,Powell,SUB out: N. Powell,substitution,substitution,24,Low
+22100347,569,substitution,4,PT05M51.00S,05:51,Q4 05:51,98,122,1610612738.0,Williams,SUB out: G. Williams,substitution,substitution,24,Low
+22100347,570,substitution,4,PT05M51.00S,05:51,Q4 05:51,98,122,1610612738.0,Schroder,SUB out: D. Schroder,substitution,substitution,24,Low
+22100347,571,substitution,4,PT05M51.00S,05:51,Q4 05:51,98,122,1610612757.0,Brown III,SUB in: G. Brown III,substitution,substitution,24,Low
+22100347,572,substitution,4,PT05M51.00S,05:51,Q4 05:51,98,122,1610612757.0,Elleby,SUB in: C. Elleby,substitution,substitution,24,Low
+22100347,573,substitution,4,PT05M51.00S,05:51,Q4 05:51,98,122,1610612757.0,Blevins,SUB in: K. Blevins,substitution,substitution,24,Low
+22100347,574,substitution,4,PT05M51.00S,05:51,Q4 05:51,98,122,1610612757.0,Watford,SUB in: T. Watford,substitution,substitution,24,Low
+22100347,575,substitution,4,PT05M51.00S,05:51,Q4 05:51,98,122,1610612738.0,Pritchard,SUB in: P. Pritchard,substitution,substitution,24,Low
+22100347,576,substitution,4,PT05M51.00S,05:51,Q4 05:51,98,122,1610612738.0,Nesmith,SUB in: A. Nesmith,substitution,3pt missed,24,Low
+22100347,578,3pt,4,PT05M36.00S,05:36,Q4 05:36,99,122,1610612738.0,Tatum,MISS J. Tatum 25' step back 3PT,substitution,rebound,23,Low
+22100347,579,rebound,4,PT05M34.00S,05:34,Q4 05:34,99,122,1610612757.0,Elleby,C. Elleby REBOUND (Off:0 Def:1),3pt missed,turnover,23,Low
+22100347,580,turnover,4,PT05M30.00S,05:30,Q4 05:30,99,122,1610612757.0,Blevins,K. Blevins bad pass TURNOVER (1 TO),rebound,steal,23,Low
+22100347,581,steal,4,PT05M30.00S,05:30,Q4 05:30,99,122,1610612738.0,Pritchard,P. Pritchard STEAL (1 STL),turnover,foul,23,Low
+22100347,582,foul,4,PT05M21.00S,05:21,Q4 05:21,99,122,1610612757.0,Elleby,C. Elleby shooting personal FOUL (1 PF) (Nesmith 2 FT),steal,freethrow,23,Low
+22100347,584,freethrow,4,PT05M21.00S,05:21,Q4 05:21,99,123,1610612738.0,Nesmith,A. Nesmith Free Throw 1 of 2 (10 PTS),foul,freethrow,24,Low
+22100347,589,freethrow,4,PT05M21.00S,05:21,Q4 05:21,99,124,1610612738.0,Nesmith,A. Nesmith Free Throw 2 of 2 (11 PTS),freethrow,substitution,25,Low
+22100347,585,substitution,4,PT05M21.00S,05:21,Q4 05:21,99,123,1610612738.0,Tatum,SUB out: J. Tatum,freethrow,substitution,24,Low
+22100347,586,substitution,4,PT05M21.00S,05:21,Q4 05:21,99,123,1610612738.0,Smart,SUB out: M. Smart,substitution,substitution,24,Low
+22100347,587,substitution,4,PT05M21.00S,05:21,Q4 05:21,99,123,1610612738.0,Hernangomez,SUB in: J. Hernangomez,substitution,substitution,24,Low
+22100347,588,substitution,4,PT05M21.00S,05:21,Q4 05:21,99,123,1610612738.0,Williams,SUB in: G. Williams,substitution,2pt made,24,Low
+22100347,590,2pt,4,PT05M04.00S,05:04,Q4 05:04,101,124,1610612757.0,Watford,T. Watford driving floating Jump Shot (2 PTS),substitution,foul,23,Low
+22100347,591,foul,4,PT04M55.00S,04:55,Q4 04:55,101,124,1610612757.0,Brown III,G. Brown III shooting personal FOUL (1 PF) (Williams III 2 FT),2pt made,freethrow,23,Low
+22100347,593,freethrow,4,PT04M55.00S,04:55,Q4 04:55,101,125,1610612738.0,Williams III,R. Williams III Free Throw 1 of 2 (5 PTS),foul,freethrow,24,Low
+22100347,594,freethrow,4,PT04M55.00S,04:55,Q4 04:55,101,125,1610612738.0,Williams III,MISS R. Williams III Free Throw 2 of 2,freethrow,rebound,24,Low
+22100347,600,rebound,4,PT04M50.00S,04:50,Q4 04:50,101,125,1610612738.0,,TEAM offensive REBOUND,freethrow,substitution,24,Low
+22100347,595,substitution,4,PT04M50.00S,04:50,Q4 04:50,101,125,1610612738.0,Williams III,SUB out: R. Williams III,rebound,substitution,24,Low
+22100347,596,substitution,4,PT04M50.00S,04:50,Q4 04:50,101,125,1610612738.0,Fernando,SUB in: B. Fernando,substitution,2pt made,24,Low
+22100347,601,2pt,4,PT04M48.00S,04:48,Q4 04:48,101,127,1610612738.0,Fernando,B. Fernando turnaround Hook (2 PTS) (P. Pritchard 3 AST),substitution,foul,26,Low
+22100347,602,foul,4,PT04M36.00S,04:36,Q4 04:36,101,127,1610612738.0,Hernangomez,J. Hernangomez shooting personal FOUL (1 PF) (Smith Jr. 2 FT),2pt made,freethrow,26,Low
+22100347,605,freethrow,4,PT04M36.00S,04:36,Q4 04:36,101,127,1610612757.0,Smith Jr.,MISS D. Smith Jr. Free Throw 1 of 2,foul,rebound,26,Low
+22100347,606,rebound,4,PT04M36.00S,04:36,Q4 04:36,101,127,1610612757.0,,TEAM offensive REBOUND,freethrow,freethrow,26,Low
+22100347,607,freethrow,4,PT04M36.00S,04:36,Q4 04:36,102,127,1610612757.0,Smith Jr.,D. Smith Jr. Free Throw 2 of 2 (17 PTS),rebound,turnover,25,Low
+22100347,608,turnover,4,PT04M24.00S,04:24,Q4 04:24,102,127,1610612738.0,Hernangomez,J. Hernangomez bad pass TURNOVER (2 TO),freethrow,steal,25,Low
+22100347,609,steal,4,PT04M24.00S,04:24,Q4 04:24,102,127,1610612757.0,Smith Jr.,D. Smith Jr. STEAL (3 STL),turnover,foul,25,Low
+22100347,610,foul,4,PT04M21.00S,04:21,Q4 04:21,102,127,1610612738.0,Nesmith,A. Nesmith shooting personal FOUL (4 PF) (Watford 2 FT),steal,freethrow,25,Low
+22100347,612,freethrow,4,PT04M21.00S,04:21,Q4 04:21,103,127,1610612757.0,Watford,T. Watford Free Throw 1 of 2 (3 PTS),foul,freethrow,24,Low
+22100347,613,freethrow,4,PT04M21.00S,04:21,Q4 04:21,104,127,1610612757.0,Watford,T. Watford Free Throw 2 of 2 (4 PTS),freethrow,2pt made,23,Low
+22100347,614,2pt,4,PT04M09.00S,04:09,Q4 04:09,104,129,1610612738.0,Pritchard,P. Pritchard driving Layup (5 PTS),freethrow,3pt made,25,Low
+22100347,615,3pt,4,PT03M59.00S,03:59,Q4 03:59,107,129,1610612757.0,Blevins,K. Blevins 3PT  (3 PTS) (D. Smith Jr. 6 AST),2pt made,3pt made,22,Low
+22100347,617,3pt,4,PT03M45.00S,03:45,Q4 03:45,107,132,1610612738.0,Pritchard,P. Pritchard 27' 3PT pullup (8 PTS),3pt made,3pt made,25,Low
+22100347,618,3pt,4,PT03M27.00S,03:27,Q4 03:27,110,132,1610612757.0,Smith Jr.,D. Smith Jr. 3PT  (20 PTS) (K. Blevins 1 AST),3pt made,foul,22,Low
+22100347,620,foul,4,PT03M16.00S,03:16,Q4 03:16,110,132,1610612738.0,Fernando,B. Fernando offensive FOUL (1 PF),3pt made,turnover,22,Low
+22100347,622,turnover,4,PT03M16.00S,03:16,Q4 03:16,110,132,1610612738.0,Fernando,B. Fernando offensive foul TURNOVER (1 TO),foul,substitution,22,Low
+22100347,623,substitution,4,PT03M16.00S,03:16,Q4 03:16,110,132,1610612738.0,Williams,SUB out: G. Williams,turnover,substitution,22,Low
+22100347,624,substitution,4,PT03M16.00S,03:16,Q4 03:16,110,132,1610612738.0,Parker,SUB in: J. Parker,substitution,turnover,22,Low
+22100347,625,turnover,4,PT03M05.00S,03:05,Q4 03:05,110,132,1610612757.0,Elleby,C. Elleby bad pass TURNOVER (1 TO),substitution,steal,22,Low
+22100347,626,steal,4,PT03M05.00S,03:05,Q4 03:05,110,132,1610612738.0,Nesmith,A. Nesmith STEAL (1 STL),turnover,2pt made,22,Low
+22100347,627,2pt,4,PT02M55.00S,02:55,Q4 02:55,110,134,1610612738.0,Fernando,B. Fernando DUNK (4 PTS),steal,2pt made,24,Low
+22100347,628,2pt,4,PT02M35.00S,02:35,Q4 02:35,112,134,1610612757.0,Elleby,C. Elleby 13' pullup Jump Shot (2 PTS),2pt made,foul,22,Low
+22100347,629,foul,4,PT02M21.00S,02:21,Q4 02:21,112,134,1610612757.0,Watford,T. Watford personal FOUL (1 PF) (Pritchard 2 FT),2pt made,freethrow,22,Low
+22100347,631,freethrow,4,PT02M21.00S,02:21,Q4 02:21,112,135,1610612738.0,Pritchard,P. Pritchard Free Throw 1 of 2 (9 PTS),foul,freethrow,23,Low
+22100347,632,freethrow,4,PT02M21.00S,02:21,Q4 02:21,112,136,1610612738.0,Pritchard,P. Pritchard Free Throw 2 of 2 (10 PTS),freethrow,2pt made,24,Low
+22100347,633,2pt,4,PT02M07.00S,02:07,Q4 02:07,114,136,1610612757.0,Elleby,C. Elleby 17' step back Jump Shot (4 PTS),freethrow,3pt made,22,Low
+22100347,634,3pt,4,PT01M55.00S,01:55,Q4 01:55,114,139,1610612738.0,Pritchard,P. Pritchard 25' 3PT step back (13 PTS),2pt made,2pt missed,25,Low
+22100347,635,2pt,4,PT01M46.00S,01:46,Q4 01:46,114,139,1610612757.0,Watford,MISS T. Watford driving Layup,3pt made,rebound,25,Low
+22100347,636,rebound,4,PT01M45.00S,01:45,Q4 01:45,114,139,1610612738.0,Nesmith,A. Nesmith REBOUND (Off:0 Def:3),2pt missed,3pt made,25,Low
+22100347,637,3pt,4,PT01M37.00S,01:37,Q4 01:37,114,142,1610612738.0,Pritchard,P. Pritchard 3PT step back (16 PTS),rebound,2pt missed,28,Low
+22100347,638,2pt,4,PT01M26.00S,01:26,Q4 01:26,114,142,1610612757.0,Smith Jr.,MISS D. Smith Jr. 14' pullup Shot,3pt made,rebound,28,Low
+22100347,639,rebound,4,PT01M23.00S,01:23,Q4 01:23,114,142,1610612738.0,Pritchard,P. Pritchard REBOUND (Off:0 Def:2),2pt missed,3pt made,28,Low
+22100347,640,3pt,4,PT01M09.00S,01:09,Q4 01:09,114,145,1610612738.0,Pritchard,P. Pritchard 31' 3PT pullup (19 PTS),rebound,foul,31,Low
+22100347,641,foul,4,PT01M08.00S,01:08,Q4 01:08,114,145,1610612738.0,Williams III,R. Williams III technical FOUL (1 Tech),3pt made,freethrow,31,Low
+22100347,642,freethrow,4,PT01M08.00S,01:08,Q4 01:08,115,145,1610612757.0,Smith Jr.,D. Smith Jr. technical Free Throw 1 of 1 (21 PTS),foul,3pt missed,30,Low
+22100347,643,3pt,4,PT00M53.90S,00:53,Q4 00:53,115,145,1610612757.0,Elleby,MISS C. Elleby 24' 3PT,freethrow,rebound,30,Low
+22100347,644,rebound,4,PT00M52.50S,00:52,Q4 00:52,115,145,1610612757.0,Watford,T. Watford REBOUND (Off:1 Def:0),3pt missed,2pt made,30,Low
+22100347,645,2pt,4,PT00M52.50S,00:52,Q4 00:52,117,145,1610612757.0,Watford,T. Watford putback Layup (6 PTS),rebound,3pt missed,28,Low
+22100347,646,3pt,4,PT00M42.40S,00:42,Q4 00:42,117,145,1610612738.0,Pritchard,MISS P. Pritchard 25' pullup 3PT,2pt made,rebound,28,Low
+22100347,647,rebound,4,PT00M42.40S,00:42,Q4 00:42,117,145,1610612738.0,Hernangomez,J. Hernangomez REBOUND (Off:1 Def:0),3pt missed,3pt missed,28,Low
+22100347,648,3pt,4,PT00M35.80S,00:35,Q4 00:35,117,145,1610612738.0,Pritchard,MISS P. Pritchard 25' pullup 3PT,rebound,rebound,28,Low
+22100347,649,rebound,4,PT00M35.80S,00:35,Q4 00:35,117,145,1610612738.0,Fernando,B. Fernando REBOUND (Off:1 Def:0),3pt missed,2pt missed,28,Low
+22100347,650,2pt,4,PT00M29.90S,00:29,Q4 00:29,117,145,1610612738.0,Fernando,MISS B. Fernando tip Layup,rebound,rebound,28,Low
+22100347,651,rebound,4,PT00M29.20S,00:29,Q4 00:29,117,145,1610612738.0,Hernangomez,J. Hernangomez REBOUND (Off:2 Def:0),2pt missed,3pt missed,28,Low
+22100347,652,3pt,4,PT00M27.00S,00:27,Q4 00:27,117,145,1610612738.0,Pritchard,MISS P. Pritchard 29' pullup 3PT,rebound,rebound,28,Low
+22100347,653,rebound,4,PT00M23.90S,00:23,Q4 00:23,117,145,1610612738.0,Hernangomez,J. Hernangomez REBOUND (Off:3 Def:0),3pt missed,turnover,28,Low
+22100347,654,turnover,4,PT00M09.60S,00:09,Q4 00:09,117,145,1610612738.0,,BOS shot clock Team TURNOVER,rebound,,28,Low

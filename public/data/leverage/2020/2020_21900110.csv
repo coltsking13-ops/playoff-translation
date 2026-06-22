@@ -1,0 +1,559 @@
+game_id,actionNumber,actionType,period,clock,clock_display,game_clock,scoreHome,scoreAway,teamId,playerName,description,previous_action,next_action,score_margin,leverage_bucket
+21900110,2,period,1,PT12M00.00S,12:00,Q1 12:00,0,0,1610612762.0,,Start of 1st Period (9:11 PM EST),,foul,0,Low
+21900110,7,foul,1,PT11M45.00S,11:45,Q1 11:45,0,0,1610612762.0,O'Neale,JAZZ T.Foul (Def. 3 Sec O'Neale ) (D.Collins),period,freethrow,0,Low
+21900110,8,freethrow,1,PT11M45.00S,11:45,Q1 11:45,0,1,1610612755.0,Harris,Harris Free Throw Technical (1 PTS),foul,2pt made,1,Low
+21900110,9,2pt,1,PT11M39.00S,11:39,Q1 11:39,0,3,1610612755.0,Richardson,Richardson 18' Pullup Jump Shot (2 PTS),freethrow,2pt missed,3,Low
+21900110,10,2pt,1,PT11M19.00S,11:19,Q1 11:19,0,3,1610612762.0,Gobert,MISS Gobert 2' Cutting Layup Shot,2pt made,block,3,Low
+21900110,10,block,1,PT11M19.00S,11:19,Q1 11:19,0,3,1610612755.0,Embiid,Embiid BLOCK (1 BLK),2pt missed,rebound,3,Low
+21900110,11,rebound,1,PT11M17.00S,11:17,Q1 11:17,0,3,1610612755.0,Harris,Harris REBOUND (Off:0 Def:1),block,2pt made,3,Low
+21900110,12,2pt,1,PT11M09.00S,11:09,Q1 11:09,0,5,1610612755.0,Simmons,Simmons 3' Hook Shot (2 PTS),rebound,turnover,5,Low
+21900110,13,turnover,1,PT11M02.00S,11:02,Q1 11:02,0,5,1610612762.0,O'Neale,O'Neale Bad Pass Turnover (P1.T1),2pt made,foul,5,Low
+21900110,14,foul,1,PT11M02.00S,11:02,Q1 11:02,0,5,1610612762.0,Mitchell,Mitchell L.B.FOUL (P1.T1) (D.Collins),turnover,2pt missed,5,Low
+21900110,16,2pt,1,PT10M38.00S,10:38,Q1 10:38,0,5,1610612755.0,Embiid,MISS Embiid 7' Layup,foul,block,5,Low
+21900110,16,block,1,PT10M38.00S,10:38,Q1 10:38,0,5,1610612762.0,Gobert,Gobert BLOCK (1 BLK),2pt missed,rebound,5,Low
+21900110,18,rebound,1,PT10M37.00S,10:37,Q1 10:37,0,5,1610612755.0,Embiid,Embiid REBOUND (Off:1 Def:0),block,turnover,5,Low
+21900110,21,turnover,1,PT10M37.00S,10:37,Q1 10:37,0,5,0.0,,76ers Turnover: Shot Clock (T#1),rebound,2pt missed,5,Low
+21900110,61,2pt,1,PT10M37.00S,10:37,Q1 10:37,0,5,1610612755.0,Embiid,MISS Embiid 5' Floating Jump Shot,turnover,rebound,5,Low
+21900110,62,rebound,1,PT10M37.00S,10:37,Q1 10:37,0,5,1610612755.0,,TEAM offensive REBOUND,2pt missed,2pt missed,5,Low
+21900110,22,2pt,1,PT10M19.00S,10:19,Q1 10:19,0,5,1610612762.0,Bogdanovic,MISS Bogdanovic 3' Driving Layup,rebound,rebound,5,Low
+21900110,23,rebound,1,PT10M16.00S,10:16,Q1 10:16,0,5,1610612755.0,Simmons,Simmons REBOUND (Off:0 Def:1),2pt missed,2pt missed,5,Low
+21900110,24,2pt,1,PT10M10.00S,10:10,Q1 10:10,0,5,1610612755.0,Simmons,MISS Simmons 3' Driving Layup,rebound,rebound,5,Low
+21900110,25,rebound,1,PT10M08.00S,10:08,Q1 10:08,0,5,1610612762.0,Gobert,Gobert REBOUND (Off:0 Def:1),2pt missed,2pt made,5,Low
+21900110,26,2pt,1,PT10M03.00S,10:03,Q1 10:03,2,5,1610612762.0,Conley,Conley 2' Driving Layup (2 PTS),rebound,foul,3,Low
+21900110,27,foul,1,PT09M40.00S,09:40,Q1 09:40,2,5,1610612762.0,Bogdanovic,Bogdanovic S.FOUL (P1.T2) (D.Collins),2pt made,freethrow,3,Low
+21900110,29,freethrow,1,PT09M40.00S,09:40,Q1 09:40,2,6,1610612755.0,Embiid,Embiid Free Throw 1 of 2 (1 PTS),foul,freethrow,4,Low
+21900110,31,freethrow,1,PT09M40.00S,09:40,Q1 09:40,2,7,1610612755.0,Embiid,Embiid Free Throw 2 of 2 (2 PTS),freethrow,turnover,5,Low
+21900110,32,turnover,1,PT09M20.00S,09:20,Q1 09:20,2,7,1610612762.0,Mitchell,Mitchell Bad Pass Turnover (P1.T2),freethrow,steal,5,Low
+21900110,32,steal,1,PT09M20.00S,09:20,Q1 09:20,2,7,1610612755.0,Richardson,Richardson STEAL (1 STL),turnover,2pt made,5,Low
+21900110,34,2pt,1,PT09M17.00S,09:17,Q1 09:17,2,9,1610612755.0,Richardson,Richardson 2' Running Dunk (4 PTS) (Harris 1 AST),steal,2pt missed,7,Low
+21900110,36,2pt,1,PT09M04.00S,09:04,Q1 09:04,2,9,1610612762.0,Conley,MISS Conley 10' Floating Jump Shot,2pt made,rebound,7,Low
+21900110,37,rebound,1,PT09M02.00S,09:02,Q1 09:02,2,9,1610612762.0,,TEAM offensive REBOUND,2pt missed,2pt made,7,Low
+21900110,39,2pt,1,PT08M56.00S,08:56,Q1 08:56,4,9,1610612762.0,Mitchell,Mitchell 17' Pullup Jump Shot (2 PTS),rebound,2pt missed,5,Low
+21900110,40,2pt,1,PT08M37.00S,08:37,Q1 08:37,4,9,1610612755.0,Horford,MISS Horford 8' Turnaround Hook Shot,2pt made,rebound,5,Low
+21900110,41,rebound,1,PT08M35.00S,08:35,Q1 08:35,4,9,1610612762.0,Gobert,Gobert REBOUND (Off:0 Def:2),2pt missed,2pt made,5,Low
+21900110,42,2pt,1,PT08M29.00S,08:29,Q1 08:29,6,9,1610612762.0,Mitchell,Mitchell 19' Pullup Jump Shot (4 PTS),rebound,3pt missed,3,Low
+21900110,43,3pt,1,PT08M05.00S,08:05,Q1 08:05,6,9,1610612755.0,Horford,MISS Horford 25' 3PT Jump Shot,2pt made,rebound,3,Low
+21900110,44,rebound,1,PT08M02.00S,08:02,Q1 08:02,6,9,1610612762.0,Gobert,Gobert REBOUND (Off:0 Def:3),3pt missed,2pt made,3,Low
+21900110,45,2pt,1,PT07M55.00S,07:55,Q1 07:55,8,9,1610612762.0,Mitchell,Mitchell 16' Pullup Jump Shot (6 PTS),rebound,3pt missed,1,Low
+21900110,46,3pt,1,PT07M42.00S,07:42,Q1 07:42,8,9,1610612755.0,Embiid,MISS Embiid 26' 3PT Jump Shot,2pt made,rebound,1,Low
+21900110,47,rebound,1,PT07M38.00S,07:38,Q1 07:38,8,9,1610612755.0,Horford,Horford REBOUND (Off:1 Def:0),3pt missed,turnover,1,Low
+21900110,48,turnover,1,PT07M34.00S,07:34,Q1 07:34,8,9,1610612755.0,Embiid,Embiid Bad Pass Turnover (P1.T2),rebound,steal,1,Low
+21900110,48,steal,1,PT07M34.00S,07:34,Q1 07:34,8,9,1610612762.0,Mitchell,Mitchell STEAL (1 STL),turnover,3pt missed,1,Low
+21900110,50,3pt,1,PT07M29.00S,07:29,Q1 07:29,8,9,1610612762.0,Bogdanovic,MISS Bogdanovic 24' 3PT Jump Shot,steal,rebound,1,Low
+21900110,51,rebound,1,PT07M26.00S,07:26,Q1 07:26,8,9,1610612755.0,Richardson,Richardson REBOUND (Off:0 Def:1),3pt missed,2pt missed,1,Low
+21900110,53,2pt,1,PT07M05.00S,07:05,Q1 07:05,8,9,1610612755.0,Harris,MISS Harris 12' Step Back Jump Shot,rebound,rebound,1,Low
+21900110,54,rebound,1,PT07M02.00S,07:02,Q1 07:02,8,9,1610612762.0,O'Neale,O'Neale REBOUND (Off:0 Def:1),2pt missed,2pt made,1,Low
+21900110,55,2pt,1,PT06M52.00S,06:52,Q1 06:52,10,9,1610612762.0,Mitchell,Mitchell 3' Layup (8 PTS),rebound,3pt missed,1,Low
+21900110,56,3pt,1,PT06M30.00S,06:30,Q1 06:30,10,9,1610612755.0,Richardson,MISS Richardson 26' 3PT Jump Shot,2pt made,rebound,1,Low
+21900110,57,rebound,1,PT06M26.00S,06:26,Q1 06:26,10,9,1610612755.0,Richardson,Richardson REBOUND (Off:1 Def:1),3pt missed,2pt made,1,Low
+21900110,58,2pt,1,PT06M21.00S,06:21,Q1 06:21,10,11,1610612755.0,Horford,Horford 3' Cutting Layup Shot (2 PTS) (Harris 2 AST),rebound,timeout,1,Low
+21900110,60,timeout,1,PT06M20.00S,06:20,Q1 06:20,10,11,1610612762.0,,JAZZ Timeout: Regular (Full 1 Short 0),2pt made,substitution,1,Low
+21900110,63,substitution,1,PT06M20.00S,06:20,Q1 06:20,10,11,1610612762.0,Mitchell,SUB out: D. Mitchell,timeout,substitution,1,Low
+21900110,64,substitution,1,PT06M20.00S,06:20,Q1 06:20,10,11,1610612755.0,Embiid,SUB out: J. Embiid,substitution,substitution,1,Low
+21900110,65,substitution,1,PT06M20.00S,06:20,Q1 06:20,10,11,1610612755.0,Richardson,SUB out: J. Richardson,substitution,substitution,1,Low
+21900110,66,substitution,1,PT06M20.00S,06:20,Q1 06:20,10,11,1610612762.0,Ingles,SUB in: J. Ingles,substitution,substitution,1,Low
+21900110,67,substitution,1,PT06M20.00S,06:20,Q1 06:20,10,11,1610612755.0,Thybulle,SUB in: M. Thybulle,substitution,substitution,1,Low
+21900110,68,substitution,1,PT06M20.00S,06:20,Q1 06:20,10,11,1610612755.0,Ennis III,SUB in: J. Ennis III,substitution,2pt made,1,Low
+21900110,69,2pt,1,PT06M04.00S,06:04,Q1 06:04,12,11,1610612762.0,Bogdanovic,Bogdanovic 2' Layup (2 PTS) (O'Neale 1 AST),substitution,2pt made,1,Low
+21900110,71,2pt,1,PT05M53.00S,05:53,Q1 05:53,12,13,1610612755.0,Ennis III,Ennis III 1' Driving Dunk (2 PTS),2pt made,2pt missed,1,Low
+21900110,72,2pt,1,PT05M38.00S,05:38,Q1 05:38,12,13,1610612762.0,Conley,MISS Conley 3' Driving Layup,2pt made,rebound,1,Low
+21900110,73,rebound,1,PT05M33.00S,05:33,Q1 05:33,12,13,1610612762.0,Gobert,Gobert REBOUND (Off:1 Def:3),2pt missed,2pt made,1,Low
+21900110,74,2pt,1,PT05M33.00S,05:33,Q1 05:33,14,13,1610612762.0,Gobert,Gobert 1' Tip Dunk Shot (2 PTS),rebound,turnover,1,Low
+21900110,75,turnover,1,PT05M25.00S,05:25,Q1 05:25,14,13,1610612755.0,Harris,Harris Traveling Turnover (P1.T3),2pt made,2pt missed,1,Low
+21900110,76,2pt,1,PT05M12.00S,05:12,Q1 05:12,14,13,1610612762.0,Gobert,MISS Gobert 2' Driving Layup,turnover,rebound,1,Low
+21900110,77,rebound,1,PT05M08.00S,05:08,Q1 05:08,14,13,1610612755.0,Ennis III,Ennis III REBOUND (Off:0 Def:1),2pt missed,turnover,1,Low
+21900110,78,turnover,1,PT05M08.00S,05:08,Q1 05:08,14,13,1610612755.0,Ennis III,Ennis III Bad Pass Turnover (P1.T4),rebound,steal,1,Low
+21900110,78,steal,1,PT05M08.00S,05:08,Q1 05:08,14,13,1610612762.0,Bogdanovic,Bogdanovic STEAL (1 STL),turnover,2pt made,1,Low
+21900110,80,2pt,1,PT05M05.00S,05:05,Q1 05:05,16,13,1610612762.0,Bogdanovic,Bogdanovic 2' Running Dunk (4 PTS),steal,3pt made,3,Low
+21900110,81,3pt,1,PT04M53.00S,04:53,Q1 04:53,16,16,1610612755.0,Horford,Horford 25' 3PT Jump Shot (5 PTS) (Simmons 1 AST),2pt made,2pt made,0,Low
+21900110,83,2pt,1,PT04M28.00S,04:28,Q1 04:28,18,16,1610612762.0,Ingles,Ingles 17' Driving Floating Jump Shot (2 PTS),3pt made,3pt missed,2,Low
+21900110,84,3pt,1,PT04M11.00S,04:11,Q1 04:11,18,16,1610612755.0,Thybulle,MISS Thybulle 26' 3PT Pullup Jump Shot,2pt made,rebound,2,Low
+21900110,85,rebound,1,PT04M09.00S,04:09,Q1 04:09,18,16,1610612762.0,Bogdanovic,Bogdanovic REBOUND (Off:0 Def:1),3pt missed,2pt missed,2,Low
+21900110,86,2pt,1,PT04M00.00S,04:00,Q1 04:00,18,16,1610612762.0,Bogdanovic,MISS Bogdanovic 17' Pullup Jump Shot,rebound,rebound,2,Low
+21900110,87,rebound,1,PT03M57.00S,03:57,Q1 03:57,18,16,1610612755.0,Thybulle,Thybulle REBOUND (Off:0 Def:1),2pt missed,3pt missed,2,Low
+21900110,88,3pt,1,PT03M47.00S,03:47,Q1 03:47,18,16,1610612755.0,Horford,MISS Horford 25' 3PT Jump Shot,rebound,rebound,2,Low
+21900110,89,rebound,1,PT03M45.00S,03:45,Q1 03:45,18,16,1610612762.0,O'Neale,O'Neale REBOUND (Off:0 Def:2),3pt missed,3pt made,2,Low
+21900110,90,3pt,1,PT03M34.00S,03:34,Q1 03:34,21,16,1610612762.0,O'Neale,O'Neale 24' 3PT Jump Shot (3 PTS) (Bogdanovic 1 AST),rebound,timeout,5,Low
+21900110,92,timeout,1,PT03M31.00S,03:31,Q1 03:31,21,16,1610612755.0,,76ers Timeout: Regular (Reg.1 Short 0),3pt made,substitution,5,Low
+21900110,93,substitution,1,PT03M31.00S,03:31,Q1 03:31,21,16,1610612762.0,Bogdanovic,SUB out: B. Bogdanovic,timeout,substitution,5,Low
+21900110,94,substitution,1,PT03M31.00S,03:31,Q1 03:31,21,16,1610612762.0,Conley,SUB out: M. Conley,substitution,substitution,5,Low
+21900110,95,substitution,1,PT03M31.00S,03:31,Q1 03:31,21,16,1610612762.0,O'Neale,SUB out: R. O'Neale,substitution,substitution,5,Low
+21900110,96,substitution,1,PT03M31.00S,03:31,Q1 03:31,21,16,1610612755.0,Harris,SUB out: T. Harris,substitution,substitution,5,Low
+21900110,97,substitution,1,PT03M31.00S,03:31,Q1 03:31,21,16,1610612755.0,Horford,SUB out: A. Horford,substitution,substitution,5,Low
+21900110,98,substitution,1,PT03M31.00S,03:31,Q1 03:31,21,16,1610612755.0,Simmons,SUB out: B. Simmons,substitution,substitution,5,Low
+21900110,99,substitution,1,PT03M31.00S,03:31,Q1 03:31,21,16,1610612755.0,Thybulle,SUB out: M. Thybulle,substitution,substitution,5,Low
+21900110,100,substitution,1,PT03M31.00S,03:31,Q1 03:31,21,16,1610612755.0,Ennis III,SUB out: J. Ennis III,substitution,substitution,5,Low
+21900110,101,substitution,1,PT03M31.00S,03:31,Q1 03:31,21,16,1610612762.0,Green,SUB in: J. Green,substitution,substitution,5,Low
+21900110,102,substitution,1,PT03M31.00S,03:31,Q1 03:31,21,16,1610612762.0,Niang,SUB in: G. Niang,substitution,substitution,5,Low
+21900110,103,substitution,1,PT03M31.00S,03:31,Q1 03:31,21,16,1610612762.0,Mitchell,SUB in: D. Mitchell,substitution,substitution,5,Low
+21900110,104,substitution,1,PT03M31.00S,03:31,Q1 03:31,21,16,1610612755.0,Scott,SUB in: M. Scott,substitution,substitution,5,Low
+21900110,105,substitution,1,PT03M31.00S,03:31,Q1 03:31,21,16,1610612755.0,Embiid,SUB in: J. Embiid,substitution,substitution,5,Low
+21900110,106,substitution,1,PT03M31.00S,03:31,Q1 03:31,21,16,1610612755.0,Neto,SUB in: R. Neto,substitution,substitution,5,Low
+21900110,107,substitution,1,PT03M31.00S,03:31,Q1 03:31,21,16,1610612755.0,Korkmaz,SUB in: F. Korkmaz,substitution,substitution,5,Low
+21900110,108,substitution,1,PT03M31.00S,03:31,Q1 03:31,21,16,1610612755.0,Richardson,SUB in: J. Richardson,substitution,2pt made,5,Low
+21900110,109,2pt,1,PT03M07.00S,03:07,Q1 03:07,21,18,1610612755.0,Embiid,Embiid 2' Driving Layup (4 PTS),substitution,turnover,3,Low
+21900110,110,turnover,1,PT02M56.00S,02:56,Q1 02:56,21,18,1610612762.0,Mitchell,Mitchell Out of Bounds - Bad Pass Turnover Turnover (P2.T3),2pt made,foul,3,Low
+21900110,111,foul,1,PT02M42.00S,02:42,Q1 02:42,21,18,1610612762.0,Niang,Niang P.FOUL (P1.T3) (J.Goldenberg),turnover,3pt made,3,Low
+21900110,113,3pt,1,PT02M33.00S,02:33,Q1 02:33,21,21,1610612755.0,Richardson,Richardson 3PT Jump Shot (7 PTS) (Embiid 1 AST),foul,3pt missed,0,Low
+21900110,115,3pt,1,PT02M14.00S,02:14,Q1 02:14,21,21,1610612762.0,Green,MISS Green 3PT Jump Shot,3pt made,rebound,0,Low
+21900110,116,rebound,1,PT02M10.00S,02:10,Q1 02:10,21,21,1610612755.0,Embiid,Embiid REBOUND (Off:1 Def:1),3pt missed,3pt made,0,Low
+21900110,117,3pt,1,PT02M04.00S,02:04,Q1 02:04,21,24,1610612755.0,Embiid,Embiid 28' 3PT Jump Shot (7 PTS) (Richardson 1 AST),rebound,2pt missed,3,Low
+21900110,119,2pt,1,PT01M42.00S,01:42,Q1 01:42,21,24,1610612762.0,Mitchell,MISS Mitchell 16' Turnaround Fadeaway Shot,3pt made,rebound,3,Low
+21900110,120,rebound,1,PT01M40.00S,01:40,Q1 01:40,21,24,1610612755.0,Scott,Scott REBOUND (Off:0 Def:1),2pt missed,3pt made,3,Low
+21900110,121,3pt,1,PT01M24.00S,01:24,Q1 01:24,21,27,1610612755.0,Korkmaz,Korkmaz 24' 3PT Jump Shot (3 PTS) (Embiid 2 AST),rebound,2pt missed,6,Low
+21900110,123,2pt,1,PT01M03.00S,01:03,Q1 01:03,21,27,1610612762.0,Mitchell,MISS Mitchell 15' Turnaround Fadeaway Bank Jump Shot,3pt made,rebound,6,Low
+21900110,124,rebound,1,PT01M01.00S,01:01,Q1 01:01,21,27,1610612762.0,Mitchell,Mitchell REBOUND (Off:1 Def:0),2pt missed,2pt made,6,Low
+21900110,125,2pt,1,PT01M01.00S,01:01,Q1 01:01,23,27,1610612762.0,Mitchell,Mitchell 1' Tip Layup Shot (10 PTS),rebound,3pt missed,4,Low
+21900110,126,3pt,1,PT00M49.30S,00:49,Q1 00:49,23,27,1610612755.0,Richardson,MISS Richardson 25' 3PT Jump Shot,2pt made,rebound,4,Low
+21900110,127,rebound,1,PT00M47.00S,00:47,Q1 00:47,23,27,1610612762.0,Gobert,Gobert REBOUND (Off:1 Def:4),3pt missed,3pt made,4,Low
+21900110,128,3pt,1,PT00M37.60S,00:37,Q1 00:37,26,27,1610612762.0,Ingles,Ingles 24' 3PT Pullup Jump Shot (5 PTS) (Gobert 1 AST),rebound,3pt missed,1,Low
+21900110,130,3pt,1,PT00M29.60S,00:29,Q1 00:29,26,27,1610612755.0,Embiid,MISS Embiid 27' 3PT Jump Shot,3pt made,rebound,1,Low
+21900110,131,rebound,1,PT00M26.00S,00:26,Q1 00:26,26,27,1610612762.0,Green,Green REBOUND (Off:0 Def:1),3pt missed,2pt missed,1,Low
+21900110,132,2pt,1,PT00M08.50S,00:08,Q1 00:08,26,27,1610612762.0,Mitchell,MISS Mitchell 19' Pullup Jump Shot,rebound,rebound,1,Low
+21900110,133,rebound,1,PT00M05.80S,00:05,Q1 00:05,26,27,1610612755.0,Embiid,Embiid REBOUND (Off:1 Def:2),2pt missed,2pt made,1,Low
+21900110,134,2pt,1,PT00M00.30S,00:00,Q1 00:00,26,29,1610612755.0,Richardson,Richardson 3' Driving Layup (9 PTS) (Embiid 3 AST),rebound,period,3,Low
+21900110,136,period,1,PT00M00.00S,00:00,Q1 00:00,26,29,1610612762.0,,End of 1st Period (9:32 PM EST),2pt made,period,3,Low
+21900110,141,period,2,PT12M00.00S,12:00,Q2 12:00,26,29,1610612762.0,,Start of 2nd Period (9:35 PM EST),period,substitution,3,Low
+21900110,142,3pt,2,PT11M48.00S,11:48,Q2 11:48,29,29,1610612762.0,Ingles,Ingles 24' 3PT Jump Shot (8 PTS) (Mitchell 1 AST),substitution,2pt made,0,Low
+21900110,144,2pt,2,PT11M35.00S,11:35,Q2 11:35,29,31,1610612755.0,Embiid,Embiid 2' Alley Oop Dunk (9 PTS) (Neto 1 AST),3pt made,3pt made,2,Low
+21900110,146,3pt,2,PT11M15.00S,11:15,Q2 11:15,32,31,1610612762.0,Green,Green 24' 3PT Jump Shot (3 PTS) (Ingles 1 AST),2pt made,2pt made,1,Low
+21900110,148,2pt,2,PT10M54.00S,10:54,Q2 10:54,32,33,1610612755.0,Neto,Neto 14' Step Back Jump Shot (2 PTS),3pt made,3pt missed,1,Low
+21900110,149,3pt,2,PT10M40.00S,10:40,Q2 10:40,32,33,1610612762.0,Ingles,MISS Ingles 24' 3PT Jump Shot,2pt made,rebound,1,Low
+21900110,150,rebound,2,PT10M37.00S,10:37,Q2 10:37,32,33,1610612755.0,Embiid,Embiid REBOUND (Off:1 Def:3),3pt missed,foul,1,Low
+21900110,151,foul,2,PT10M31.00S,10:31,Q2 10:31,32,33,1610612762.0,Ingles,Ingles P.FOUL (P1.T1) (J.Goldenberg),rebound,2pt made,1,Low
+21900110,153,2pt,2,PT10M28.00S,10:28,Q2 10:28,32,35,1610612755.0,Harris,Harris 2' Driving Dunk (3 PTS) (Richardson 2 AST),foul,foul,3,Low
+21900110,154,foul,2,PT10M28.00S,10:28,Q2 10:28,32,35,1610612762.0,Niang,Niang S.FOUL (P2.T2) (K.Mauer),2pt made,freethrow,3,Low
+21900110,156,freethrow,2,PT10M28.00S,10:28,Q2 10:28,32,36,1610612755.0,Harris,Harris Free Throw 1 of 1 (4 PTS),foul,turnover,4,Low
+21900110,158,turnover,2,PT10M14.00S,10:14,Q2 10:14,32,36,1610612762.0,Mitchell,Mitchell Bad Pass Turnover (P3.T4),freethrow,steal,4,Low
+21900110,158,steal,2,PT10M14.00S,10:14,Q2 10:14,32,36,1610612755.0,Richardson,Richardson STEAL (2 STL),turnover,foul,4,Low
+21900110,160,foul,2,PT10M11.00S,10:11,Q2 10:11,32,36,1610612762.0,Niang,Niang S.FOUL (P3.T3) (D.Collins),steal,freethrow,4,Low
+21900110,162,freethrow,2,PT10M11.00S,10:11,Q2 10:11,32,37,1610612755.0,Richardson,Richardson Free Throw 1 of 2 (10 PTS),foul,freethrow,5,Low
+21900110,165,freethrow,2,PT10M11.00S,10:11,Q2 10:11,32,38,1610612755.0,Richardson,Richardson Free Throw 2 of 2 (11 PTS),freethrow,substitution,6,Low
+21900110,163,substitution,2,PT10M11.00S,10:11,Q2 10:11,32,37,1610612762.0,Niang,SUB out: G. Niang,freethrow,substitution,5,Low
+21900110,164,substitution,2,PT10M11.00S,10:11,Q2 10:11,32,37,1610612762.0,O'Neale,SUB in: R. O'Neale,substitution,foul,5,Low
+21900110,166,foul,2,PT09M58.00S,09:58,Q2 09:58,32,38,1610612755.0,Neto,Neto P.FOUL (P1.T1) (K.Mauer),substitution,2pt made,6,Low
+21900110,168,2pt,2,PT09M46.00S,09:46,Q2 09:46,34,38,1610612762.0,Mitchell,Mitchell 18' Step Back Jump Shot (12 PTS),foul,foul,4,Low
+21900110,169,foul,2,PT09M22.00S,09:22,Q2 09:22,34,38,1610612762.0,Bradley,Bradley S.FOUL (P1.T4) (K.Mauer),2pt made,freethrow,4,Low
+21900110,171,freethrow,2,PT09M22.00S,09:22,Q2 09:22,34,39,1610612755.0,Embiid,Embiid Free Throw 1 of 2 (10 PTS),foul,freethrow,5,Low
+21900110,176,freethrow,2,PT09M22.00S,09:22,Q2 09:22,34,40,1610612755.0,Embiid,Embiid Free Throw 2 of 2 (11 PTS),freethrow,substitution,6,Low
+21900110,172,substitution,2,PT09M22.00S,09:22,Q2 09:22,34,39,1610612762.0,Ingles,SUB out: J. Ingles,freethrow,substitution,5,Low
+21900110,173,substitution,2,PT09M22.00S,09:22,Q2 09:22,34,39,1610612762.0,Mitchell,SUB out: D. Mitchell,substitution,substitution,5,Low
+21900110,174,substitution,2,PT09M22.00S,09:22,Q2 09:22,34,39,1610612762.0,Conley,SUB in: M. Conley,substitution,substitution,5,Low
+21900110,175,substitution,2,PT09M22.00S,09:22,Q2 09:22,34,39,1610612762.0,Bogdanovic,SUB in: B. Bogdanovic,substitution,2pt made,5,Low
+21900110,177,2pt,2,PT09M03.00S,09:03,Q2 09:03,36,40,1610612762.0,Bogdanovic,Bogdanovic 3' Driving Layup (6 PTS),substitution,foul,4,Low
+21900110,178,foul,2,PT08M55.00S,08:55,Q2 08:55,36,40,1610612762.0,Bradley,Bradley P.FOUL (P2.PN) (J.Goldenberg),2pt made,freethrow,4,Low
+21900110,180,freethrow,2,PT08M55.00S,08:55,Q2 08:55,36,41,1610612755.0,Embiid,Embiid Free Throw 1 of 2 (12 PTS),foul,freethrow,5,Low
+21900110,181,freethrow,2,PT08M55.00S,08:55,Q2 08:55,36,42,1610612755.0,Embiid,Embiid Free Throw 2 of 2 (13 PTS),freethrow,2pt missed,6,Low
+21900110,182,2pt,2,PT08M44.00S,08:44,Q2 08:44,36,42,1610612762.0,Conley,MISS Conley 14' Step Back Jump Shot,freethrow,rebound,6,Low
+21900110,183,rebound,2,PT08M41.00S,08:41,Q2 08:41,36,42,1610612762.0,Bradley,Bradley REBOUND (Off:1 Def:0),2pt missed,3pt missed,6,Low
+21900110,184,3pt,2,PT08M37.00S,08:37,Q2 08:37,36,42,1610612762.0,Green,MISS Green 25' 3PT Jump Shot,rebound,rebound,6,Low
+21900110,185,rebound,2,PT08M33.00S,08:33,Q2 08:33,36,42,1610612755.0,,TEAM defensive REBOUND,3pt missed,2pt made,6,Low
+21900110,187,2pt,2,PT08M12.00S,08:12,Q2 08:12,36,44,1610612755.0,Embiid,Embiid 14' Step Back Jump Shot (15 PTS),rebound,2pt missed,8,Low
+21900110,188,2pt,2,PT07M52.00S,07:52,Q2 07:52,36,44,1610612762.0,Conley,MISS Conley 15' Floating Jump Shot,2pt made,rebound,8,Low
+21900110,189,rebound,2,PT07M51.00S,07:51,Q2 07:51,36,44,1610612762.0,Conley,Conley REBOUND (Off:1 Def:0),2pt missed,2pt made,8,Low
+21900110,190,2pt,2,PT07M48.00S,07:48,Q2 07:48,38,44,1610612762.0,Conley,Conley 7' Tip Layup Shot (4 PTS),rebound,3pt missed,6,Low
+21900110,191,3pt,2,PT07M35.00S,07:35,Q2 07:35,38,44,1610612755.0,Embiid,MISS Embiid 26' 3PT Jump Shot,2pt made,rebound,6,Low
+21900110,192,rebound,2,PT07M33.00S,07:33,Q2 07:33,38,44,1610612762.0,Green,Green REBOUND (Off:0 Def:2),3pt missed,2pt made,6,Low
+21900110,193,2pt,2,PT07M26.00S,07:26,Q2 07:26,40,44,1610612762.0,Bradley,Bradley 3' Hook Shot (2 PTS) (Conley 1 AST),rebound,2pt missed,4,Low
+21900110,195,2pt,2,PT07M05.00S,07:05,Q2 07:05,40,44,1610612755.0,Embiid,MISS Embiid 7' Step Back Jump Shot,2pt made,rebound,4,Low
+21900110,196,rebound,2,PT07M02.00S,07:02,Q2 07:02,40,44,1610612762.0,Green,Green REBOUND (Off:0 Def:3),2pt missed,turnover,4,Low
+21900110,197,turnover,2,PT06M58.00S,06:58,Q2 06:58,40,44,1610612762.0,Green,Green Lost Ball Turnover (P1.T5),rebound,steal,4,Low
+21900110,197,steal,2,PT06M58.00S,06:58,Q2 06:58,40,44,1610612755.0,Neto,Neto STEAL (1 STL),turnover,2pt missed,4,Low
+21900110,199,2pt,2,PT06M56.00S,06:56,Q2 06:56,40,44,1610612755.0,Neto,MISS Neto 2' Layup,steal,block,4,Low
+21900110,199,block,2,PT06M56.00S,06:56,Q2 06:56,40,44,1610612762.0,Conley,Conley BLOCK (1 BLK),2pt missed,rebound,4,Low
+21900110,201,rebound,2,PT06M56.00S,06:56,Q2 06:56,40,44,1610612755.0,,TEAM offensive REBOUND,block,timeout,4,Low
+21900110,203,timeout,2,PT06M56.00S,06:56,Q2 06:56,40,44,1610612762.0,,JAZZ Timeout: Regular (Full 2 Short 0),rebound,substitution,4,Low
+21900110,204,substitution,2,PT06M56.00S,06:56,Q2 06:56,40,44,1610612762.0,Bradley,SUB out: T. Bradley,timeout,substitution,4,Low
+21900110,205,substitution,2,PT06M56.00S,06:56,Q2 06:56,40,44,1610612755.0,Richardson,SUB out: J. Richardson,substitution,substitution,4,Low
+21900110,206,substitution,2,PT06M56.00S,06:56,Q2 06:56,40,44,1610612755.0,Neto,SUB out: R. Neto,substitution,substitution,4,Low
+21900110,207,substitution,2,PT06M56.00S,06:56,Q2 06:56,40,44,1610612755.0,Embiid,SUB out: J. Embiid,substitution,substitution,4,Low
+21900110,208,substitution,2,PT06M56.00S,06:56,Q2 06:56,40,44,1610612755.0,Korkmaz,SUB out: F. Korkmaz,substitution,substitution,4,Low
+21900110,209,substitution,2,PT06M56.00S,06:56,Q2 06:56,40,44,1610612762.0,Gobert,SUB in: R. Gobert,substitution,substitution,4,Low
+21900110,210,substitution,2,PT06M56.00S,06:56,Q2 06:56,40,44,1610612755.0,Thybulle,SUB in: M. Thybulle,substitution,substitution,4,Low
+21900110,211,substitution,2,PT06M56.00S,06:56,Q2 06:56,40,44,1610612755.0,Horford,SUB in: A. Horford,substitution,substitution,4,Low
+21900110,212,substitution,2,PT06M56.00S,06:56,Q2 06:56,40,44,1610612755.0,Ennis III,SUB in: J. Ennis III,substitution,substitution,4,Low
+21900110,213,substitution,2,PT06M56.00S,06:56,Q2 06:56,40,44,1610612755.0,Simmons,SUB in: B. Simmons,substitution,2pt made,4,Low
+21900110,214,2pt,2,PT06M54.00S,06:54,Q2 06:54,40,46,1610612755.0,Thybulle,Thybulle 2' Alley Oop Dunk (2 PTS) (Simmons 2 AST),substitution,2pt made,6,Low
+21900110,216,2pt,2,PT06M35.00S,06:35,Q2 06:35,42,46,1610612762.0,Bogdanovic,Bogdanovic 3' Driving Layup (8 PTS),2pt made,2pt missed,4,Low
+21900110,217,2pt,2,PT06M17.00S,06:17,Q2 06:17,42,46,1610612755.0,Harris,MISS Harris 19' Pullup Jump Shot,2pt made,rebound,4,Low
+21900110,218,rebound,2,PT06M15.00S,06:15,Q2 06:15,42,46,1610612762.0,Conley,Conley REBOUND (Off:1 Def:1),2pt missed,turnover,4,Low
+21900110,219,turnover,2,PT06M12.00S,06:12,Q2 06:12,42,46,1610612762.0,Conley,Conley Lost Ball Turnover (P1.T6),rebound,steal,4,Low
+21900110,219,steal,2,PT06M12.00S,06:12,Q2 06:12,42,46,1610612755.0,Simmons,Simmons STEAL (1 STL),turnover,2pt missed,4,Low
+21900110,221,2pt,2,PT06M04.00S,06:04,Q2 06:04,42,46,1610612755.0,Thybulle,MISS Thybulle 12' Jump Shot,steal,rebound,4,Low
+21900110,222,rebound,2,PT06M02.00S,06:02,Q2 06:02,42,46,1610612762.0,Conley,Conley REBOUND (Off:1 Def:2),2pt missed,2pt made,4,Low
+21900110,223,2pt,2,PT05M55.00S,05:55,Q2 05:55,44,46,1610612762.0,Gobert,Gobert 2' Dunk (4 PTS) (Conley 2 AST),rebound,2pt missed,2,Low
+21900110,225,2pt,2,PT05M28.00S,05:28,Q2 05:28,44,46,1610612755.0,Harris,MISS Harris 18' Pullup Jump Shot,2pt made,rebound,2,Low
+21900110,226,rebound,2,PT05M25.00S,05:25,Q2 05:25,44,46,1610612762.0,O'Neale,O'Neale REBOUND (Off:0 Def:3),2pt missed,foul,2,Low
+21900110,227,foul,2,PT05M20.00S,05:20,Q2 05:20,44,46,1610612755.0,Harris,Harris P.FOUL (P1.T2) (K.Mauer),rebound,substitution,2,Low
+21900110,229,substitution,2,PT05M20.00S,05:20,Q2 05:20,44,46,1610612762.0,Green,SUB out: J. Green,foul,substitution,2,Low
+21900110,230,substitution,2,PT05M20.00S,05:20,Q2 05:20,44,46,1610612755.0,Simmons,SUB out: B. Simmons,substitution,substitution,2,Low
+21900110,231,substitution,2,PT05M20.00S,05:20,Q2 05:20,44,46,1610612762.0,Mitchell,SUB in: D. Mitchell,substitution,substitution,2,Low
+21900110,232,substitution,2,PT05M20.00S,05:20,Q2 05:20,44,46,1610612755.0,Neto,SUB in: R. Neto,substitution,3pt missed,2,Low
+21900110,233,3pt,2,PT05M15.00S,05:15,Q2 05:15,44,46,1610612762.0,Conley,MISS Conley 24' 3PT Pullup Jump Shot,substitution,rebound,2,Low
+21900110,234,rebound,2,PT05M12.00S,05:12,Q2 05:12,44,46,1610612762.0,Gobert,Gobert REBOUND (Off:2 Def:4),3pt missed,2pt made,2,Low
+21900110,235,2pt,2,PT05M10.00S,05:10,Q2 05:10,46,46,1610612762.0,Bogdanovic,Bogdanovic 1' Cutting Dunk Shot (10 PTS) (Gobert 2 AST),rebound,timeout,0,Low
+21900110,237,timeout,2,PT05M10.00S,05:10,Q2 05:10,46,46,1610612755.0,,76ers Timeout: Regular (Reg.2 Short 0),2pt made,turnover,0,Low
+21900110,238,turnover,2,PT04M47.00S,04:47,Q2 04:47,46,46,1610612755.0,Harris,Harris Lost Ball Turnover (P2.T5),timeout,steal,0,Low
+21900110,238,steal,2,PT04M47.00S,04:47,Q2 04:47,46,46,1610612762.0,Gobert,Gobert STEAL (1 STL),turnover,foul,0,Low
+21900110,240,foul,2,PT04M46.00S,04:46,Q2 04:46,46,46,1610612755.0,Thybulle,Thybulle P.FOUL (P1.T3) (K.Mauer),steal,turnover,0,Low
+21900110,242,turnover,2,PT04M34.00S,04:34,Q2 04:34,46,46,1610612762.0,Bogdanovic,Bogdanovic Lost Ball Turnover (P1.T7),foul,steal,0,Low
+21900110,242,steal,2,PT04M34.00S,04:34,Q2 04:34,46,46,1610612755.0,Neto,Neto STEAL (2 STL),turnover,turnover,0,Low
+21900110,244,turnover,2,PT04M31.00S,04:31,Q2 04:31,46,46,1610612755.0,Neto,Neto Out of Bounds Lost Ball Turnover (P1.T6),steal,turnover,0,Low
+21900110,245,turnover,2,PT04M21.00S,04:21,Q2 04:21,46,46,1610612762.0,Conley,Conley Lost Ball Turnover (P2.T8),turnover,steal,0,Low
+21900110,245,steal,2,PT04M21.00S,04:21,Q2 04:21,46,46,1610612755.0,Neto,Neto STEAL (3 STL),turnover,2pt made,0,Low
+21900110,247,2pt,2,PT04M17.00S,04:17,Q2 04:17,46,48,1610612755.0,Ennis III,Ennis III 3' Driving Layup (4 PTS) (Thybulle 1 AST),steal,3pt made,2,Low
+21900110,249,3pt,2,PT04M03.00S,04:03,Q2 04:03,49,48,1610612762.0,Bogdanovic,Bogdanovic 24' 3PT Pullup Jump Shot (13 PTS) (Mitchell 2 AST),2pt made,foul,1,Low
+21900110,251,foul,2,PT03M37.00S,03:37,Q2 03:37,49,48,1610612762.0,O'Neale,O'Neale S.FOUL (P1.PN) (K.Mauer),3pt made,freethrow,1,Low
+21900110,253,freethrow,2,PT03M37.00S,03:37,Q2 03:37,49,48,1610612755.0,Harris,MISS Harris Free Throw 1 of 2,foul,rebound,1,Low
+21900110,254,rebound,2,PT03M37.00S,03:37,Q2 03:37,49,48,1610612755.0,,TEAM offensive REBOUND,freethrow,freethrow,1,Low
+21900110,261,freethrow,2,PT03M37.00S,03:37,Q2 03:37,49,49,1610612755.0,Harris,Harris Free Throw 2 of 2 (5 PTS),rebound,substitution,0,Low
+21900110,255,substitution,2,PT03M37.00S,03:37,Q2 03:37,49,48,1610612762.0,O'Neale,SUB out: R. O'Neale,freethrow,substitution,1,Low
+21900110,256,substitution,2,PT03M37.00S,03:37,Q2 03:37,49,48,1610612755.0,Ennis III,SUB out: J. Ennis III,substitution,substitution,1,Low
+21900110,257,substitution,2,PT03M37.00S,03:37,Q2 03:37,49,48,1610612755.0,Horford,SUB out: A. Horford,substitution,substitution,1,Low
+21900110,258,substitution,2,PT03M37.00S,03:37,Q2 03:37,49,48,1610612762.0,Ingles,SUB in: J. Ingles,substitution,substitution,1,Low
+21900110,259,substitution,2,PT03M37.00S,03:37,Q2 03:37,49,48,1610612755.0,Korkmaz,SUB in: F. Korkmaz,substitution,substitution,1,Low
+21900110,260,substitution,2,PT03M37.00S,03:37,Q2 03:37,49,48,1610612755.0,Embiid,SUB in: J. Embiid,substitution,2pt made,1,Low
+21900110,262,2pt,2,PT03M24.00S,03:24,Q2 03:24,51,49,1610612762.0,Gobert,Gobert 1' Alley Oop Dunk (6 PTS) (Bogdanovic 2 AST),substitution,substitution,2,Low
+21900110,265,substitution,2,PT03M14.00S,03:14,Q2 03:14,51,49,1610612755.0,Harris,SUB out: T. Harris,2pt made,substitution,2,Low
+21900110,266,substitution,2,PT03M14.00S,03:14,Q2 03:14,51,49,1610612755.0,Scott,SUB in: M. Scott,substitution,2pt made,2,Low
+21900110,267,2pt,2,PT03M11.00S,03:11,Q2 03:11,51,51,1610612755.0,Scott,Scott 1' Layup (2 PTS) (Neto 2 AST),substitution,2pt made,0,Low
+21900110,269,2pt,2,PT02M56.00S,02:56,Q2 02:56,53,51,1610612762.0,Bogdanovic,Bogdanovic 2' Driving Layup (15 PTS) (Mitchell 3 AST),2pt made,2pt missed,2,Low
+21900110,270,2pt,2,PT02M46.00S,02:46,Q2 02:46,53,51,1610612755.0,Neto,MISS Neto 12' Floating Jump Shot,2pt made,rebound,2,Low
+21900110,271,rebound,2,PT02M43.00S,02:43,Q2 02:43,53,51,1610612762.0,Gobert,Gobert REBOUND (Off:2 Def:5),2pt missed,foul,2,Low
+21900110,273,foul,2,PT02M28.00S,02:28,Q2 02:28,53,51,1610612755.0,Embiid,Embiid S.FOUL (P1.T4) (J.Goldenberg),rebound,freethrow,2,Low
+21900110,275,freethrow,2,PT02M28.00S,02:28,Q2 02:28,54,51,1610612762.0,Gobert,Gobert Free Throw 1 of 2 (7 PTS),foul,freethrow,3,Low
+21900110,278,freethrow,2,PT02M28.00S,02:28,Q2 02:28,55,51,1610612762.0,Gobert,Gobert Free Throw 2 of 2 (8 PTS),freethrow,substitution,4,Low
+21900110,276,substitution,2,PT02M28.00S,02:28,Q2 02:28,54,51,1610612755.0,Thybulle,SUB out: M. Thybulle,freethrow,substitution,3,Low
+21900110,277,substitution,2,PT02M28.00S,02:28,Q2 02:28,54,51,1610612755.0,Richardson,SUB in: J. Richardson,substitution,foul,3,Low
+21900110,279,foul,2,PT02M22.00S,02:22,Q2 02:22,55,51,1610612762.0,Gobert,Gobert P.FOUL (P1.PN) (K.Mauer),substitution,freethrow,4,Low
+21900110,281,freethrow,2,PT02M22.00S,02:22,Q2 02:22,55,51,1610612755.0,Embiid,MISS Embiid Free Throw 1 of 2,foul,rebound,4,Low
+21900110,282,rebound,2,PT02M22.00S,02:22,Q2 02:22,55,51,1610612755.0,,TEAM offensive REBOUND,freethrow,freethrow,4,Low
+21900110,283,freethrow,2,PT02M22.00S,02:22,Q2 02:22,55,52,1610612755.0,Embiid,Embiid Free Throw 2 of 2 (16 PTS),rebound,2pt missed,3,Low
+21900110,284,2pt,2,PT02M09.00S,02:09,Q2 02:09,55,52,1610612762.0,Bogdanovic,MISS Bogdanovic 5' Driving Layup,freethrow,block,3,Low
+21900110,284,block,2,PT02M09.00S,02:09,Q2 02:09,55,52,1610612755.0,Embiid,Embiid BLOCK (2 BLK),2pt missed,rebound,3,Low
+21900110,286,rebound,2,PT02M06.00S,02:06,Q2 02:06,55,52,1610612755.0,Embiid,Embiid REBOUND (Off:1 Def:4),block,turnover,3,Low
+21900110,287,turnover,2,PT02M00.00S,02:00,Q2 02:00,55,52,1610612755.0,Embiid,Embiid Traveling Turnover (P2.T7),rebound,2pt missed,3,Low
+21900110,288,2pt,2,PT01M49.00S,01:49,Q2 01:49,55,52,1610612762.0,Ingles,MISS Ingles 11' Floating Jump Shot,turnover,rebound,3,Low
+21900110,289,rebound,2,PT01M43.00S,01:43,Q2 01:43,55,52,1610612762.0,Ingles,Ingles REBOUND (Off:1 Def:0),2pt missed,2pt missed,3,Low
+21900110,290,2pt,2,PT01M43.00S,01:43,Q2 01:43,55,52,1610612762.0,Ingles,MISS Ingles 1' Tip Layup Shot,rebound,rebound,3,Low
+21900110,291,rebound,2,PT01M42.00S,01:42,Q2 01:42,55,52,1610612762.0,Conley,Conley REBOUND (Off:2 Def:2),2pt missed,turnover,3,Low
+21900110,292,turnover,2,PT01M36.00S,01:36,Q2 01:36,55,52,1610612762.0,Bogdanovic,Bogdanovic Traveling Turnover (P2.T9),rebound,2pt made,3,Low
+21900110,293,2pt,2,PT01M19.00S,01:19,Q2 01:19,55,54,1610612755.0,Richardson,Richardson 9' Driving Floating Bank Jump Shot (13 PTS),turnover,2pt missed,1,Low
+21900110,294,2pt,2,PT01M08.00S,01:08,Q2 01:08,55,54,1610612762.0,Mitchell,MISS Mitchell 9' Driving Floating Bank Jump Shot,2pt made,rebound,1,Low
+21900110,295,rebound,2,PT01M06.00S,01:06,Q2 01:06,55,54,1610612755.0,Embiid,Embiid REBOUND (Off:1 Def:5),2pt missed,turnover,1,Low
+21900110,296,turnover,2,PT00M49.70S,00:49,Q2 00:49,55,54,1610612755.0,Neto,Neto Bad Pass Turnover (P2.T8),rebound,steal,1,Low
+21900110,296,steal,2,PT00M49.70S,00:49,Q2 00:49,55,54,1610612762.0,Gobert,Gobert STEAL (2 STL),turnover,foul,1,Low
+21900110,298,foul,2,PT00M49.70S,00:49,Q2 00:49,55,54,1610612755.0,Scott,Scott Personal Take Foul (P1.PN) (D.Collins),steal,freethrow,1,Low
+21900110,300,freethrow,2,PT00M49.70S,00:49,Q2 00:49,56,54,1610612762.0,Conley,Conley Free Throw 1 of 2 (5 PTS),foul,freethrow,2,Low
+21900110,301,freethrow,2,PT00M49.70S,00:49,Q2 00:49,56,54,1610612762.0,Conley,MISS Conley Free Throw 2 of 2,freethrow,rebound,2,Low
+21900110,302,rebound,2,PT00M48.50S,00:48,Q2 00:48,56,54,1610612755.0,Embiid,Embiid REBOUND (Off:1 Def:6),freethrow,2pt missed,2,Low
+21900110,303,2pt,2,PT00M33.90S,00:33,Q2 00:33,56,54,1610612755.0,Neto,MISS Neto 8' Driving Floating Bank Jump Shot,rebound,rebound,2,Low
+21900110,304,rebound,2,PT00M31.20S,00:31,Q2 00:31,56,54,1610612762.0,Gobert,Gobert REBOUND (Off:2 Def:6),2pt missed,2pt made,2,Low
+21900110,305,2pt,2,PT00M16.80S,00:16,Q2 00:16,58,54,1610612762.0,Ingles,Ingles 3' Driving Layup (10 PTS),rebound,2pt missed,4,Low
+21900110,306,2pt,2,PT00M01.00S,00:01,Q2 00:01,58,54,1610612755.0,Neto,MISS Neto 5' Driving Layup,2pt made,rebound,4,Low
+21900110,307,rebound,2,PT00M01.00S,00:01,Q2 00:01,58,54,1610612755.0,Embiid,Embiid REBOUND (Off:2 Def:6),2pt missed,foul,4,Low
+21900110,308,foul,2,PT00M00.20S,00:00,Q2 00:00,58,54,1610612762.0,Mitchell,Mitchell S.FOUL (P2.PN) (K.Mauer),rebound,instant replay,4,Low
+21900110,313,freethrow,2,PT00M00.20S,00:00,Q2 00:00,58,55,1610612755.0,Embiid,Embiid Free Throw 1 of 2 (17 PTS),instant replay,freethrow,3,Low
+21900110,314,freethrow,2,PT00M00.20S,00:00,Q2 00:00,58,56,1610612755.0,Embiid,Embiid Free Throw 2 of 2 (18 PTS),freethrow,substitution,2,Low
+21900110,311,substitution,2,PT00M00.20S,00:00,Q2 00:00,58,54,1610612755.0,Neto,SUB out: R. Neto,freethrow,substitution,4,Low
+21900110,312,substitution,2,PT00M00.20S,00:00,Q2 00:00,58,54,1610612755.0,Thybulle,SUB in: M. Thybulle,substitution,period,4,Low
+21900110,315,period,2,PT00M00.00S,00:00,Q2 00:00,58,56,1610612762.0,,End of 2nd Period (10:05 PM EST),substitution,period,2,Low
+21900110,322,period,3,PT12M00.00S,12:00,Q3 12:00,58,56,1610612762.0,,Start of 3rd Period (10:21 PM EST),period,substitution,2,Low
+21900110,323,2pt,3,PT11M44.00S,11:44,Q3 11:44,60,56,1610612762.0,Gobert,Gobert 4' Alley Oop Dunk (10 PTS) (Bogdanovic 3 AST),substitution,2pt missed,4,Low
+21900110,325,2pt,3,PT11M21.00S,11:21,Q3 11:21,60,56,1610612755.0,Embiid,MISS Embiid 13' Pullup Jump Shot,2pt made,rebound,4,Low
+21900110,326,rebound,3,PT11M19.00S,11:19,Q3 11:19,60,56,1610612762.0,Gobert,Gobert REBOUND (Off:2 Def:7),2pt missed,2pt missed,4,Low
+21900110,327,2pt,3,PT11M10.00S,11:10,Q3 11:10,60,56,1610612762.0,Mitchell,MISS Mitchell 9' Driving Floating Jump Shot,rebound,rebound,4,Low
+21900110,328,rebound,3,PT11M05.00S,11:05,Q3 11:05,60,56,1610612762.0,Mitchell,Mitchell REBOUND (Off:2 Def:0),2pt missed,2pt made,4,Low
+21900110,329,2pt,3,PT11M05.00S,11:05,Q3 11:05,62,56,1610612762.0,Mitchell,Mitchell 1' Tip Layup Shot (14 PTS),rebound,3pt made,6,Low
+21900110,330,3pt,3,PT10M46.00S,10:46,Q3 10:46,62,59,1610612755.0,Korkmaz,Korkmaz 25' 3PT Jump Shot (6 PTS) (Richardson 3 AST),2pt made,2pt missed,3,Low
+21900110,332,2pt,3,PT10M31.00S,10:31,Q3 10:31,62,59,1610612762.0,Bogdanovic,MISS Bogdanovic 5' Floating Jump Shot,3pt made,rebound,3,Low
+21900110,333,rebound,3,PT10M28.00S,10:28,Q3 10:28,62,59,1610612755.0,Harris,Harris REBOUND (Off:0 Def:2),2pt missed,2pt made,3,Low
+21900110,334,2pt,3,PT10M16.00S,10:16,Q3 10:16,62,61,1610612755.0,Richardson,Richardson 1' Reverse Layup (15 PTS),rebound,foul,1,Low
+21900110,335,foul,3,PT09M58.00S,09:58,Q3 09:58,62,61,1610612755.0,Korkmaz,Korkmaz P.FOUL (P1.T1) (J.Goldenberg),2pt made,turnover,1,Low
+21900110,337,turnover,3,PT09M52.00S,09:52,Q3 09:52,62,61,1610612762.0,Bogdanovic,Bogdanovic Lost Ball Turnover (P3.T10),foul,steal,1,Low
+21900110,337,steal,3,PT09M52.00S,09:52,Q3 09:52,62,61,1610612755.0,Horford,Horford STEAL (1 STL),turnover,turnover,1,Low
+21900110,339,turnover,3,PT09M49.00S,09:49,Q3 09:49,62,61,1610612755.0,Horford,Horford Out of Bounds - Bad Pass Turnover Turnover (P1.T9),steal,foul,1,Low
+21900110,340,foul,3,PT09M34.00S,09:34,Q3 09:34,62,61,1610612755.0,Embiid,Embiid S.FOUL (P2.T2) (K.Mauer),turnover,freethrow,1,Low
+21900110,342,freethrow,3,PT09M34.00S,09:34,Q3 09:34,63,61,1610612762.0,Gobert,Gobert Free Throw 1 of 2 (11 PTS),foul,freethrow,2,Low
+21900110,343,freethrow,3,PT09M34.00S,09:34,Q3 09:34,64,61,1610612762.0,Gobert,Gobert Free Throw 2 of 2 (12 PTS),freethrow,3pt missed,3,Low
+21900110,344,3pt,3,PT09M22.00S,09:22,Q3 09:22,64,61,1610612755.0,Harris,MISS Harris 25' 3PT Jump Shot,freethrow,rebound,3,Low
+21900110,345,rebound,3,PT09M18.00S,09:18,Q3 09:18,64,61,1610612762.0,Gobert,Gobert REBOUND (Off:2 Def:8),3pt missed,3pt missed,3,Low
+21900110,346,3pt,3,PT09M11.00S,09:11,Q3 09:11,64,61,1610612762.0,Bogdanovic,MISS Bogdanovic 3PT Jump Shot,rebound,block,3,Low
+21900110,346,block,3,PT09M11.00S,09:11,Q3 09:11,64,61,1610612755.0,Horford,Horford BLOCK (1 BLK),3pt missed,rebound,3,Low
+21900110,348,rebound,3,PT09M10.00S,09:10,Q3 09:10,64,61,1610612762.0,,TEAM offensive REBOUND,block,2pt missed,3,Low
+21900110,350,2pt,3,PT09M02.00S,09:02,Q3 09:02,64,61,1610612762.0,Mitchell,MISS Mitchell 7' Floating Jump Shot,rebound,rebound,3,Low
+21900110,351,rebound,3,PT08M59.00S,08:59,Q3 08:59,64,61,1610612762.0,Gobert,Gobert REBOUND (Off:3 Def:8),2pt missed,2pt missed,3,Low
+21900110,352,2pt,3,PT08M59.00S,08:59,Q3 08:59,64,61,1610612762.0,Gobert,MISS Gobert 1' Tip Layup Shot,rebound,rebound,3,Low
+21900110,353,rebound,3,PT08M58.00S,08:58,Q3 08:58,64,61,1610612755.0,Harris,Harris REBOUND (Off:0 Def:3),2pt missed,2pt missed,3,Low
+21900110,354,2pt,3,PT08M53.00S,08:53,Q3 08:53,64,61,1610612755.0,Horford,MISS Horford 2' Jump Shot,rebound,block,3,Low
+21900110,354,block,3,PT08M53.00S,08:53,Q3 08:53,64,61,1610612762.0,Bogdanovic,Bogdanovic BLOCK (1 BLK),2pt missed,rebound,3,Low
+21900110,359,rebound,3,PT08M52.00S,08:52,Q3 08:52,64,61,1610612755.0,,TEAM offensive REBOUND,block,2pt missed,3,Low
+21900110,360,2pt,3,PT08M46.00S,08:46,Q3 08:46,64,61,1610612755.0,Harris,MISS Harris 19' Jump Shot,rebound,rebound,3,Low
+21900110,361,rebound,3,PT08M42.00S,08:42,Q3 08:42,64,61,1610612762.0,O'Neale,O'Neale REBOUND (Off:0 Def:4),2pt missed,2pt made,3,Low
+21900110,362,2pt,3,PT08M33.00S,08:33,Q3 08:33,66,61,1610612762.0,Mitchell,Mitchell 18' Pullup Jump Shot (16 PTS),rebound,3pt missed,5,Low
+21900110,363,3pt,3,PT08M12.00S,08:12,Q3 08:12,66,61,1610612755.0,Korkmaz,MISS Korkmaz 28' 3PT Jump Shot,2pt made,rebound,5,Low
+21900110,364,rebound,3,PT08M09.00S,08:09,Q3 08:09,66,61,1610612762.0,Gobert,Gobert REBOUND (Off:3 Def:9),3pt missed,2pt missed,5,Low
+21900110,365,2pt,3,PT08M00.00S,08:00,Q3 08:00,66,61,1610612762.0,Conley,MISS Conley 9' Floating Jump Shot,rebound,rebound,5,Low
+21900110,366,rebound,3,PT07M57.00S,07:57,Q3 07:57,66,61,1610612755.0,,TEAM defensive REBOUND,2pt missed,foul,5,Low
+21900110,367,foul,3,PT07M57.00S,07:57,Q3 07:57,66,61,1610612762.0,Gobert,Gobert FLAGRANT.FOUL.TYPE1 (P2.T1) (K.Mauer),rebound,instant replay,5,Low
+21900110,370,freethrow,3,PT07M57.00S,07:57,Q3 07:57,66,62,1610612755.0,Richardson,Richardson Free Throw Flagrant 1 of 2 (16 PTS),instant replay,freethrow,4,Low
+21900110,371,freethrow,3,PT07M57.00S,07:57,Q3 07:57,66,63,1610612755.0,Richardson,Richardson Free Throw Flagrant 2 of 2 (17 PTS),freethrow,2pt missed,3,Low
+21900110,372,2pt,3,PT07M49.00S,07:49,Q3 07:49,66,63,1610612755.0,Horford,MISS Horford 7' Turnaround Jump Shot,freethrow,rebound,3,Low
+21900110,373,rebound,3,PT07M46.00S,07:46,Q3 07:46,66,63,1610612762.0,Mitchell,Mitchell REBOUND (Off:2 Def:1),2pt missed,2pt made,3,Low
+21900110,374,2pt,3,PT07M37.00S,07:37,Q3 07:37,68,63,1610612762.0,Mitchell,Mitchell 3' Driving Reverse Layup (18 PTS),rebound,2pt missed,5,Low
+21900110,375,2pt,3,PT07M21.00S,07:21,Q3 07:21,68,63,1610612755.0,Horford,MISS Horford 3' Layup,2pt made,rebound,5,Low
+21900110,376,rebound,3,PT07M19.00S,07:19,Q3 07:19,68,63,1610612762.0,Bogdanovic,Bogdanovic REBOUND (Off:0 Def:2),2pt missed,3pt made,5,Low
+21900110,377,3pt,3,PT07M16.00S,07:16,Q3 07:16,71,63,1610612762.0,Mitchell,Mitchell 26' 3PT Jump Shot (21 PTS) (Bogdanovic 4 AST),rebound,2pt missed,8,Low
+21900110,379,2pt,3,PT06M48.00S,06:48,Q3 06:48,71,63,1610612755.0,Horford,MISS Horford 12' Turnaround Fadeaway Shot,3pt made,rebound,8,Low
+21900110,380,rebound,3,PT06M46.00S,06:46,Q3 06:46,71,63,1610612762.0,Gobert,Gobert REBOUND (Off:3 Def:10),2pt missed,2pt missed,8,Low
+21900110,381,2pt,3,PT06M28.00S,06:28,Q3 06:28,71,63,1610612762.0,Bogdanovic,MISS Bogdanovic 12' Driving Floating Bank Jump Shot,rebound,rebound,8,Low
+21900110,382,rebound,3,PT06M26.00S,06:26,Q3 06:26,71,63,1610612755.0,Embiid,Embiid REBOUND (Off:2 Def:7),2pt missed,2pt missed,8,Low
+21900110,383,2pt,3,PT06M14.00S,06:14,Q3 06:14,71,63,1610612755.0,Horford,MISS Horford 3' Layup,rebound,block,8,Low
+21900110,383,block,3,PT06M14.00S,06:14,Q3 06:14,71,63,1610612762.0,O'Neale,O'Neale BLOCK (1 BLK),2pt missed,substitution,8,Low
+21900110,386,substitution,3,PT06M14.00S,06:14,Q3 06:14,71,63,1610612762.0,Mitchell,SUB out: D. Mitchell,block,substitution,8,Low
+21900110,387,substitution,3,PT06M14.00S,06:14,Q3 06:14,71,63,1610612755.0,Richardson,SUB out: J. Richardson,substitution,substitution,8,Low
+21900110,388,substitution,3,PT06M14.00S,06:14,Q3 06:14,71,63,1610612755.0,Embiid,SUB out: J. Embiid,substitution,substitution,8,Low
+21900110,389,substitution,3,PT06M14.00S,06:14,Q3 06:14,71,63,1610612755.0,Korkmaz,SUB out: F. Korkmaz,substitution,substitution,8,Low
+21900110,390,substitution,3,PT06M14.00S,06:14,Q3 06:14,71,63,1610612762.0,Ingles,SUB in: J. Ingles,substitution,substitution,8,Low
+21900110,391,substitution,3,PT06M14.00S,06:14,Q3 06:14,71,63,1610612755.0,Neto,SUB in: R. Neto,substitution,substitution,8,Low
+21900110,392,substitution,3,PT06M14.00S,06:14,Q3 06:14,71,63,1610612755.0,Ennis III,SUB in: J. Ennis III,substitution,substitution,8,Low
+21900110,393,substitution,3,PT06M14.00S,06:14,Q3 06:14,71,63,1610612755.0,Thybulle,SUB in: M. Thybulle,substitution,timeout,8,Low
+21900110,385,timeout,3,PT06M10.00S,06:10,Q3 06:10,71,63,1610612762.0,,JAZZ Timeout: Regular (Full 3 Short 0),substitution,rebound,8,Low
+21900110,397,rebound,3,PT06M10.00S,06:10,Q3 06:10,71,63,1610612755.0,,TEAM offensive REBOUND,timeout,turnover,8,Low
+21900110,398,turnover,3,PT06M02.00S,06:02,Q3 06:02,71,63,1610612755.0,Thybulle,Thybulle Bad Pass Turnover (P1.T10),rebound,steal,8,Low
+21900110,398,steal,3,PT06M02.00S,06:02,Q3 06:02,71,63,1610612762.0,O'Neale,O'Neale STEAL (1 STL),turnover,3pt made,8,Low
+21900110,400,3pt,3,PT05M57.00S,05:57,Q3 05:57,74,63,1610612762.0,Conley,Conley 24' 3PT Jump Shot (8 PTS) (Bogdanovic 5 AST),steal,2pt missed,11,Low
+21900110,402,2pt,3,PT05M44.00S,05:44,Q3 05:44,74,63,1610612755.0,Thybulle,MISS Thybulle 3' Driving Layup,3pt made,rebound,11,Low
+21900110,403,rebound,3,PT05M42.00S,05:42,Q3 05:42,74,63,1610612762.0,Bogdanovic,Bogdanovic REBOUND (Off:0 Def:3),2pt missed,turnover,11,Low
+21900110,404,turnover,3,PT05M31.00S,05:31,Q3 05:31,74,63,1610612762.0,Conley,Conley Bad Pass Turnover (P3.T11),rebound,steal,11,Low
+21900110,404,steal,3,PT05M31.00S,05:31,Q3 05:31,74,63,1610612755.0,Horford,Horford STEAL (2 STL),turnover,2pt made,11,Low
+21900110,406,2pt,3,PT05M25.00S,05:25,Q3 05:25,74,65,1610612755.0,Horford,Horford 1' Dunk (7 PTS) (Thybulle 2 AST),steal,foul,9,Low
+21900110,408,foul,3,PT05M08.00S,05:08,Q3 05:08,74,65,1610612755.0,Thybulle,Thybulle P.FOUL (P2.T3) (D.Collins),2pt made,2pt missed,9,Low
+21900110,410,2pt,3,PT04M59.00S,04:59,Q3 04:59,74,65,1610612762.0,Gobert,MISS Gobert 3' Driving Layup,foul,rebound,9,Low
+21900110,411,rebound,3,PT04M57.00S,04:57,Q3 04:57,74,65,1610612755.0,Horford,Horford REBOUND (Off:1 Def:1),2pt missed,3pt missed,9,Low
+21900110,412,3pt,3,PT04M51.00S,04:51,Q3 04:51,74,65,1610612755.0,Horford,MISS Horford 25' 3PT Jump Shot,rebound,rebound,9,Low
+21900110,413,rebound,3,PT04M48.00S,04:48,Q3 04:48,74,65,1610612762.0,Conley,Conley REBOUND (Off:2 Def:3),3pt missed,2pt made,9,Low
+21900110,414,2pt,3,PT04M39.00S,04:39,Q3 04:39,76,65,1610612762.0,Conley,Conley 11' Floating Jump Shot (10 PTS),rebound,timeout,11,Low
+21900110,415,timeout,3,PT04M37.00S,04:37,Q3 04:37,76,65,1610612755.0,,76ers Timeout: Regular (Reg.3 Short 0),2pt made,substitution,11,Low
+21900110,416,substitution,3,PT04M37.00S,04:37,Q3 04:37,76,65,1610612755.0,Harris,SUB out: T. Harris,timeout,substitution,11,Low
+21900110,417,substitution,3,PT04M37.00S,04:37,Q3 04:37,76,65,1610612755.0,Horford,SUB out: A. Horford,substitution,substitution,11,Low
+21900110,418,substitution,3,PT04M37.00S,04:37,Q3 04:37,76,65,1610612755.0,Thybulle,SUB out: M. Thybulle,substitution,substitution,11,Low
+21900110,419,substitution,3,PT04M37.00S,04:37,Q3 04:37,76,65,1610612755.0,Scott,SUB in: M. Scott,substitution,substitution,11,Low
+21900110,420,substitution,3,PT04M37.00S,04:37,Q3 04:37,76,65,1610612755.0,Embiid,SUB in: J. Embiid,substitution,substitution,11,Low
+21900110,421,substitution,3,PT04M37.00S,04:37,Q3 04:37,76,65,1610612755.0,Richardson,SUB in: J. Richardson,substitution,2pt missed,11,Low
+21900110,422,2pt,3,PT04M15.00S,04:15,Q3 04:15,76,65,1610612755.0,Embiid,MISS Embiid 4' Hook Shot,substitution,rebound,11,Low
+21900110,424,rebound,3,PT04M14.00S,04:14,Q3 04:14,76,65,1610612755.0,,TEAM offensive REBOUND,2pt missed,foul,11,Low
+21900110,426,foul,3,PT04M14.00S,04:14,Q3 04:14,76,65,0.0,,Brett Brown Foul:T.FOUL (D.Collins),rebound,freethrow,11,Low
+21900110,427,freethrow,3,PT04M14.00S,04:14,Q3 04:14,76,65,1610612762.0,Bogdanovic,MISS Bogdanovic Free Throw Technical,foul,rebound,11,Low
+21900110,428,rebound,3,PT04M14.00S,04:14,Q3 04:14,76,65,1610612755.0,,TEAM defensive REBOUND,freethrow,3pt missed,11,Low
+21900110,429,3pt,3,PT04M12.00S,04:12,Q3 04:12,76,65,1610612755.0,Embiid,MISS Embiid 25' 3PT Jump Shot,rebound,rebound,11,Low
+21900110,430,rebound,3,PT04M11.00S,04:11,Q3 04:11,76,65,1610612755.0,,TEAM offensive REBOUND,3pt missed,turnover,11,Low
+21900110,431,turnover,3,PT04M11.00S,04:11,Q3 04:11,76,65,0.0,,76ers Turnover: Shot Clock (T#11),rebound,foul,11,Low
+21900110,432,foul,3,PT03M57.00S,03:57,Q3 03:57,76,65,1610612755.0,Richardson,Richardson P.FOUL (P1.T4) (J.Goldenberg),turnover,foul,11,Low
+21900110,434,foul,3,PT03M57.00S,03:57,Q3 03:57,76,65,1610612755.0,Scott,Scott P.FOUL (P2.PN) (K.Mauer),foul,freethrow,11,Low
+21900110,436,freethrow,3,PT03M57.00S,03:57,Q3 03:57,77,65,1610612762.0,O'Neale,O'Neale Free Throw 1 of 2 (4 PTS),foul,freethrow,12,Low
+21900110,439,freethrow,3,PT03M57.00S,03:57,Q3 03:57,78,65,1610612762.0,O'Neale,O'Neale Free Throw 2 of 2 (5 PTS),freethrow,substitution,13,Low
+21900110,437,substitution,3,PT03M57.00S,03:57,Q3 03:57,77,65,1610612762.0,Bogdanovic,SUB out: B. Bogdanovic,freethrow,substitution,12,Low
+21900110,438,substitution,3,PT03M57.00S,03:57,Q3 03:57,77,65,1610612762.0,Green,SUB in: J. Green,substitution,3pt made,12,Low
+21900110,440,3pt,3,PT03M50.00S,03:50,Q3 03:50,78,68,1610612755.0,Richardson,Richardson 25' 3PT Jump Shot (20 PTS) (Neto 3 AST),substitution,2pt missed,10,Low
+21900110,442,2pt,3,PT03M32.00S,03:32,Q3 03:32,78,68,1610612762.0,Conley,MISS Conley 17' Floating Jump Shot,3pt made,rebound,10,Low
+21900110,443,rebound,3,PT03M29.00S,03:29,Q3 03:29,78,68,1610612755.0,Neto,Neto REBOUND (Off:0 Def:1),2pt missed,2pt missed,10,Low
+21900110,444,2pt,3,PT03M23.00S,03:23,Q3 03:23,78,68,1610612755.0,Neto,MISS Neto 4' Layup,rebound,rebound,10,Low
+21900110,445,rebound,3,PT03M21.00S,03:21,Q3 03:21,78,68,1610612762.0,Gobert,Gobert REBOUND (Off:3 Def:11),2pt missed,2pt missed,10,Low
+21900110,446,2pt,3,PT03M16.00S,03:16,Q3 03:16,78,68,1610612762.0,O'Neale,MISS O'Neale 3' Driving Layup,rebound,rebound,10,Low
+21900110,447,rebound,3,PT03M14.00S,03:14,Q3 03:14,78,68,1610612755.0,Embiid,Embiid REBOUND (Off:2 Def:8),2pt missed,turnover,10,Low
+21900110,448,turnover,3,PT03M08.00S,03:08,Q3 03:08,78,68,1610612755.0,Neto,Neto Bad Pass Turnover (P3.T12),rebound,steal,10,Low
+21900110,448,steal,3,PT03M08.00S,03:08,Q3 03:08,78,68,1610612762.0,Conley,Conley STEAL (1 STL),turnover,foul,10,Low
+21900110,450,foul,3,PT03M04.00S,03:04,Q3 03:04,78,68,1610612755.0,Embiid,Embiid S.FOUL (P3.PN) (D.Collins),steal,freethrow,10,Low
+21900110,452,freethrow,3,PT03M04.00S,03:04,Q3 03:04,78,68,1610612762.0,Gobert,MISS Gobert Free Throw 1 of 2,foul,rebound,10,Low
+21900110,453,rebound,3,PT03M04.00S,03:04,Q3 03:04,78,68,1610612762.0,,TEAM offensive REBOUND,freethrow,freethrow,10,Low
+21900110,460,freethrow,3,PT03M04.00S,03:04,Q3 03:04,79,68,1610612762.0,Gobert,Gobert Free Throw 2 of 2 (13 PTS),rebound,substitution,11,Low
+21900110,454,substitution,3,PT03M04.00S,03:04,Q3 03:04,78,68,1610612762.0,Conley,SUB out: M. Conley,freethrow,substitution,10,Low
+21900110,455,substitution,3,PT03M04.00S,03:04,Q3 03:04,78,68,1610612762.0,O'Neale,SUB out: R. O'Neale,substitution,substitution,10,Low
+21900110,456,substitution,3,PT03M04.00S,03:04,Q3 03:04,78,68,1610612755.0,Ennis III,SUB out: J. Ennis III,substitution,substitution,10,Low
+21900110,457,substitution,3,PT03M04.00S,03:04,Q3 03:04,78,68,1610612762.0,Niang,SUB in: G. Niang,substitution,substitution,10,Low
+21900110,458,substitution,3,PT03M04.00S,03:04,Q3 03:04,78,68,1610612762.0,Mitchell,SUB in: D. Mitchell,substitution,substitution,10,Low
+21900110,459,substitution,3,PT03M04.00S,03:04,Q3 03:04,78,68,1610612755.0,Korkmaz,SUB in: F. Korkmaz,substitution,foul,10,Low
+21900110,461,foul,3,PT02M53.00S,02:53,Q3 02:53,79,68,1610612762.0,Ingles,Ingles P.FOUL (P2.T2) (J.Goldenberg),substitution,3pt made,11,Low
+21900110,463,3pt,3,PT02M40.00S,02:40,Q3 02:40,79,71,1610612755.0,Neto,Neto 25' 3PT Fadeaway Jumper (5 PTS),foul,2pt missed,8,Low
+21900110,464,2pt,3,PT02M21.00S,02:21,Q3 02:21,79,71,1610612762.0,Mitchell,MISS Mitchell 9' Floating Jump Shot,3pt made,rebound,8,Low
+21900110,465,rebound,3,PT02M19.00S,02:19,Q3 02:19,79,71,1610612755.0,Korkmaz,Korkmaz REBOUND (Off:0 Def:1),2pt missed,3pt missed,8,Low
+21900110,466,3pt,3,PT02M10.00S,02:10,Q3 02:10,79,71,1610612755.0,Richardson,MISS Richardson 24' 3PT Pullup Jump Shot,rebound,rebound,8,Low
+21900110,467,rebound,3,PT02M07.00S,02:07,Q3 02:07,79,71,1610612762.0,Green,Green REBOUND (Off:0 Def:4),3pt missed,2pt made,8,Low
+21900110,468,2pt,3,PT02M02.00S,02:02,Q3 02:02,81,71,1610612762.0,Ingles,Ingles 3' Cutting Layup Shot (12 PTS) (Mitchell 4 AST),rebound,2pt missed,10,Low
+21900110,470,2pt,3,PT01M39.00S,01:39,Q3 01:39,81,71,1610612755.0,Embiid,MISS Embiid 18' Step Back Jump Shot,2pt made,rebound,10,Low
+21900110,471,rebound,3,PT01M35.00S,01:35,Q3 01:35,81,71,1610612762.0,Niang,Niang REBOUND (Off:0 Def:1),2pt missed,foul,10,Low
+21900110,472,foul,3,PT01M32.00S,01:32,Q3 01:32,81,71,1610612755.0,Korkmaz,Korkmaz S.FOUL (P2.PN) (J.Goldenberg),rebound,freethrow,10,Low
+21900110,474,freethrow,3,PT01M32.00S,01:32,Q3 01:32,82,71,1610612762.0,Niang,Niang Free Throw 1 of 2 (1 PTS),foul,freethrow,11,Low
+21900110,477,freethrow,3,PT01M32.00S,01:32,Q3 01:32,82,71,1610612762.0,Niang,MISS Niang Free Throw 2 of 2,freethrow,substitution,11,Low
+21900110,475,substitution,3,PT01M32.00S,01:32,Q3 01:32,82,71,1610612762.0,Gobert,SUB out: R. Gobert,freethrow,substitution,11,Low
+21900110,476,substitution,3,PT01M32.00S,01:32,Q3 01:32,82,71,1610612762.0,Bradley,SUB in: T. Bradley,substitution,rebound,11,Low
+21900110,478,rebound,3,PT01M30.00S,01:30,Q3 01:30,82,71,1610612755.0,Korkmaz,Korkmaz REBOUND (Off:0 Def:2),substitution,2pt missed,11,Low
+21900110,479,2pt,3,PT01M13.00S,01:13,Q3 01:13,82,71,1610612755.0,Richardson,MISS Richardson 3' Reverse Layup,rebound,rebound,11,Low
+21900110,480,rebound,3,PT01M12.00S,01:12,Q3 01:12,82,71,1610612762.0,Ingles,Ingles REBOUND (Off:1 Def:1),2pt missed,3pt missed,11,Low
+21900110,481,3pt,3,PT01M04.00S,01:04,Q3 01:04,82,71,1610612762.0,Green,MISS Green 24' 3PT Jump Shot,rebound,rebound,11,Low
+21900110,482,rebound,3,PT01M01.00S,01:01,Q3 01:01,82,71,1610612755.0,Korkmaz,Korkmaz REBOUND (Off:0 Def:3),3pt missed,3pt missed,11,Low
+21900110,483,3pt,3,PT00M51.00S,00:51,Q3 00:51,82,71,1610612755.0,Scott,MISS Scott 3PT Jump Shot,rebound,rebound,11,Low
+21900110,484,rebound,3,PT00M47.40S,00:47,Q3 00:47,82,71,1610612762.0,Niang,Niang REBOUND (Off:0 Def:2),3pt missed,2pt missed,11,Low
+21900110,485,2pt,3,PT00M35.40S,00:35,Q3 00:35,82,71,1610612762.0,Mitchell,MISS Mitchell 20' Pullup Jump Shot,rebound,rebound,11,Low
+21900110,486,rebound,3,PT00M33.00S,00:33,Q3 00:33,82,71,1610612762.0,Mitchell,Mitchell REBOUND (Off:3 Def:1),2pt missed,2pt missed,11,Low
+21900110,487,2pt,3,PT00M31.80S,00:31,Q3 00:31,82,71,1610612762.0,Mitchell,MISS Mitchell 6' Floating Jump Shot,rebound,rebound,11,Low
+21900110,488,rebound,3,PT00M31.80S,00:31,Q3 00:31,82,71,1610612762.0,Mitchell,Mitchell REBOUND (Off:4 Def:1),2pt missed,turnover,11,Low
+21900110,489,turnover,3,PT00M22.90S,00:22,Q3 00:22,82,71,1610612762.0,Mitchell,Mitchell Bad Pass Turnover (P4.T12),rebound,steal,11,Low
+21900110,489,steal,3,PT00M22.90S,00:22,Q3 00:22,82,71,1610612755.0,Richardson,Richardson STEAL (3 STL),turnover,foul,11,Low
+21900110,491,foul,3,PT00M22.90S,00:22,Q3 00:22,82,71,1610612762.0,Green,Green S.FOUL (P1.T3) (J.Goldenberg),steal,freethrow,11,Low
+21900110,493,freethrow,3,PT00M22.90S,00:22,Q3 00:22,82,72,1610612755.0,Richardson,Richardson Free Throw 1 of 2 (21 PTS),foul,freethrow,10,Low
+21900110,494,freethrow,3,PT00M22.90S,00:22,Q3 00:22,82,73,1610612755.0,Richardson,Richardson Free Throw 2 of 2 (22 PTS),freethrow,2pt made,9,Low
+21900110,495,2pt,3,PT00M00.90S,00:00,Q3 00:00,84,73,1610612762.0,Ingles,Ingles 23' Jump Shot (14 PTS) (Mitchell 5 AST),freethrow,period,11,Low
+21900110,497,period,3,PT00M00.00S,00:00,Q3 00:00,84,73,1610612762.0,,End of 3rd Period (10:53 PM EST),2pt made,instant replay,11,Low
+21900110,505,period,4,PT12M00.00S,12:00,Q4 12:00,84,73,1610612762.0,,Start of 4th Period (10:55 PM EST),instant replay,substitution,11,Low
+21900110,507,2pt,4,PT11M35.00S,11:35,Q4 11:35,84,73,1610612755.0,Horford,MISS Horford 11' Driving Floating Bank Jump Shot,substitution,rebound,11,Low
+21900110,508,rebound,4,PT11M33.00S,11:33,Q4 11:33,84,73,1610612762.0,Green,Green REBOUND (Off:0 Def:5),2pt missed,2pt missed,11,Low
+21900110,509,2pt,4,PT11M20.00S,11:20,Q4 11:20,84,73,1610612762.0,Niang,MISS Niang 3' Layup,rebound,rebound,11,Low
+21900110,510,rebound,4,PT11M20.00S,11:20,Q4 11:20,84,73,1610612762.0,Bradley,Bradley REBOUND (Off:2 Def:0),2pt missed,2pt missed,11,Low
+21900110,511,2pt,4,PT11M17.00S,11:17,Q4 11:17,84,73,1610612762.0,Bradley,MISS Bradley 1' Tip Layup Shot,rebound,rebound,11,Low
+21900110,512,rebound,4,PT11M16.00S,11:16,Q4 11:16,84,73,1610612755.0,Harris,Harris REBOUND (Off:0 Def:4),2pt missed,2pt made,11,Low
+21900110,513,2pt,4,PT11M07.00S,11:07,Q4 11:07,84,75,1610612755.0,Harris,Harris 12' Fadeaway Jumper (7 PTS),rebound,2pt missed,9,Low
+21900110,514,2pt,4,PT10M48.00S,10:48,Q4 10:48,84,75,1610612762.0,Green,MISS Green 7' Turnaround Hook Shot,2pt made,rebound,9,Low
+21900110,515,rebound,4,PT10M46.00S,10:46,Q4 10:46,84,75,1610612755.0,Horford,Horford REBOUND (Off:1 Def:2),2pt missed,2pt missed,9,Low
+21900110,516,2pt,4,PT10M39.00S,10:39,Q4 10:39,84,75,1610612755.0,Harris,MISS Harris 3' Driving Layup,rebound,rebound,9,Low
+21900110,517,rebound,4,PT10M38.00S,10:38,Q4 10:38,84,75,1610612755.0,Harris,Harris REBOUND (Off:1 Def:4),2pt missed,foul,9,Low
+21900110,518,foul,4,PT10M38.00S,10:38,Q4 10:38,84,75,1610612762.0,Niang,Niang S.FOUL (P4.T1) (D.Collins),rebound,freethrow,9,Low
+21900110,520,freethrow,4,PT10M38.00S,10:38,Q4 10:38,84,76,1610612755.0,Harris,Harris Free Throw 1 of 2 (8 PTS),foul,freethrow,8,Medium
+21900110,521,freethrow,4,PT10M38.00S,10:38,Q4 10:38,84,77,1610612755.0,Harris,Harris Free Throw 2 of 2 (9 PTS),freethrow,2pt made,7,Medium
+21900110,522,2pt,4,PT10M16.00S,10:16,Q4 10:16,86,77,1610612762.0,Bradley,Bradley 1' Dunk (4 PTS) (Ingles 2 AST),freethrow,foul,9,Low
+21900110,524,foul,4,PT09M59.00S,09:59,Q4 09:59,86,77,1610612762.0,Bradley,Bradley S.FOUL (P3.T2) (J.Goldenberg),2pt made,timeout,9,Low
+21900110,526,timeout,4,PT09M59.00S,09:59,Q4 09:59,86,77,1610612762.0,,JAZZ Timeout: Regular (Full 4 Short 0),foul,instant replay,9,Low
+21900110,528,freethrow,4,PT09M59.00S,09:59,Q4 09:59,86,78,1610612755.0,Harris,Harris Free Throw 1 of 2 (10 PTS),instant replay,freethrow,8,Medium
+21900110,529,freethrow,4,PT09M59.00S,09:59,Q4 09:59,86,79,1610612755.0,Harris,Harris Free Throw 2 of 2 (11 PTS),freethrow,3pt missed,7,Medium
+21900110,530,3pt,4,PT09M48.00S,09:48,Q4 09:48,86,79,1610612762.0,Mitchell,MISS Mitchell 25' 3PT Pullup Jump Shot,freethrow,rebound,7,Medium
+21900110,531,rebound,4,PT09M45.00S,09:45,Q4 09:45,86,79,1610612755.0,Harris,Harris REBOUND (Off:1 Def:5),3pt missed,2pt made,7,Medium
+21900110,532,2pt,4,PT09M37.00S,09:37,Q4 09:37,86,81,1610612755.0,Harris,Harris 8' Floating Jump Shot (13 PTS),rebound,foul,5,Medium
+21900110,533,foul,4,PT09M33.00S,09:33,Q4 09:33,86,81,1610612755.0,Neto,Neto P.FOUL (P2.T1) (D.Collins),2pt made,substitution,5,Medium
+21900110,535,substitution,4,PT09M33.00S,09:33,Q4 09:33,86,81,1610612762.0,Niang,SUB out: G. Niang,foul,substitution,5,Medium
+21900110,536,substitution,4,PT09M33.00S,09:33,Q4 09:33,86,81,1610612762.0,Bogdanovic,SUB in: B. Bogdanovic,substitution,foul,5,Medium
+21900110,537,foul,4,PT09M22.00S,09:22,Q4 09:22,86,81,1610612755.0,Thybulle,Thybulle S.FOUL (P3.T2) (J.Goldenberg),substitution,freethrow,5,Medium
+21900110,539,freethrow,4,PT09M22.00S,09:22,Q4 09:22,87,81,1610612762.0,Ingles,Ingles Free Throw 1 of 2 (15 PTS),foul,freethrow,6,Medium
+21900110,540,freethrow,4,PT09M22.00S,09:22,Q4 09:22,88,81,1610612762.0,Ingles,Ingles Free Throw 2 of 2 (16 PTS),freethrow,2pt missed,7,Medium
+21900110,541,2pt,4,PT09M08.00S,09:08,Q4 09:08,88,81,1610612755.0,Harris,MISS Harris 14' Floating Jump Shot,freethrow,rebound,7,Medium
+21900110,542,rebound,4,PT09M04.00S,09:04,Q4 09:04,88,81,1610612762.0,Green,Green REBOUND (Off:0 Def:6),2pt missed,2pt missed,7,Medium
+21900110,543,2pt,4,PT08M57.00S,08:57,Q4 08:57,88,81,1610612762.0,Green,MISS Green 6' Floating Jump Shot,rebound,rebound,7,Medium
+21900110,544,rebound,4,PT08M53.00S,08:53,Q4 08:53,88,81,1610612762.0,Bradley,Bradley REBOUND (Off:3 Def:0),2pt missed,2pt made,7,Medium
+21900110,545,2pt,4,PT08M53.00S,08:53,Q4 08:53,90,81,1610612762.0,Bradley,Bradley 1' Tip Layup Shot (6 PTS),rebound,2pt made,9,Low
+21900110,546,2pt,4,PT08M42.00S,08:42,Q4 08:42,90,83,1610612755.0,Neto,Neto 2' Driving Layup (7 PTS) (Horford 1 AST),2pt made,2pt made,7,Medium
+21900110,548,2pt,4,PT08M29.00S,08:29,Q4 08:29,92,83,1610612762.0,Bradley,Bradley 2' Cutting Layup Shot (8 PTS) (Mitchell 6 AST),2pt made,3pt missed,9,Low
+21900110,550,3pt,4,PT08M16.00S,08:16,Q4 08:16,92,83,1610612755.0,Neto,MISS Neto 25' 3PT Pullup Jump Shot,2pt made,rebound,9,Low
+21900110,551,rebound,4,PT08M13.00S,08:13,Q4 08:13,92,83,1610612762.0,Bogdanovic,Bogdanovic REBOUND (Off:0 Def:4),3pt missed,2pt missed,9,Low
+21900110,552,2pt,4,PT08M02.00S,08:02,Q4 08:02,92,83,1610612762.0,Mitchell,MISS Mitchell 16' Pullup Jump Shot,rebound,rebound,9,Low
+21900110,553,rebound,4,PT07M58.00S,07:58,Q4 07:58,92,83,1610612755.0,Horford,Horford REBOUND (Off:1 Def:3),2pt missed,2pt made,9,Low
+21900110,554,2pt,4,PT07M48.00S,07:48,Q4 07:48,92,85,1610612755.0,Harris,Harris 8' Floating Jump Shot (15 PTS) (Horford 2 AST),rebound,foul,7,Medium
+21900110,555,foul,4,PT07M35.00S,07:35,Q4 07:35,92,85,1610612755.0,Harris,Harris P.FOUL (P2.T3) (K.Mauer),2pt made,substitution,7,Medium
+21900110,558,substitution,4,PT07M35.00S,07:35,Q4 07:35,92,85,1610612762.0,Bradley,SUB out: T. Bradley,foul,substitution,7,Medium
+21900110,559,substitution,4,PT07M35.00S,07:35,Q4 07:35,92,85,1610612762.0,Green,SUB out: J. Green,substitution,substitution,7,Medium
+21900110,560,substitution,4,PT07M35.00S,07:35,Q4 07:35,92,85,1610612762.0,Mitchell,SUB out: D. Mitchell,substitution,substitution,7,Medium
+21900110,561,substitution,4,PT07M35.00S,07:35,Q4 07:35,92,85,1610612755.0,Thybulle,SUB out: M. Thybulle,substitution,substitution,7,Medium
+21900110,562,substitution,4,PT07M35.00S,07:35,Q4 07:35,92,85,1610612755.0,Horford,SUB out: A. Horford,substitution,substitution,7,Medium
+21900110,563,substitution,4,PT07M35.00S,07:35,Q4 07:35,92,85,1610612762.0,O'Neale,SUB in: R. O'Neale,substitution,substitution,7,Medium
+21900110,564,substitution,4,PT07M35.00S,07:35,Q4 07:35,92,85,1610612762.0,Conley,SUB in: M. Conley,substitution,substitution,7,Medium
+21900110,565,substitution,4,PT07M35.00S,07:35,Q4 07:35,92,85,1610612762.0,Gobert,SUB in: R. Gobert,substitution,substitution,7,Medium
+21900110,566,substitution,4,PT07M35.00S,07:35,Q4 07:35,92,85,1610612755.0,Richardson,SUB in: J. Richardson,substitution,substitution,7,Medium
+21900110,567,substitution,4,PT07M35.00S,07:35,Q4 07:35,92,85,1610612755.0,Embiid,SUB in: J. Embiid,substitution,3pt missed,7,Medium
+21900110,568,3pt,4,PT07M29.00S,07:29,Q4 07:29,92,85,1610612762.0,Ingles,MISS Ingles 26' 3PT Pullup Jump Shot,substitution,rebound,7,Medium
+21900110,569,rebound,4,PT07M25.00S,07:25,Q4 07:25,92,85,1610612755.0,Scott,Scott REBOUND (Off:0 Def:2),3pt missed,2pt made,7,Medium
+21900110,570,2pt,4,PT07M11.00S,07:11,Q4 07:11,92,87,1610612755.0,Neto,Neto 5' Fadeaway Jumper (9 PTS),rebound,turnover,5,Medium
+21900110,571,turnover,4,PT06M48.00S,06:48,Q4 06:48,92,87,1610612762.0,Conley,Conley Out of Bounds Lost Ball Turnover (P4.T13),2pt made,turnover,5,High
+21900110,572,turnover,4,PT06M35.00S,06:35,Q4 06:35,92,87,1610612755.0,Scott,Scott Bad Pass Turnover (P1.T13),turnover,steal,5,High
+21900110,572,steal,4,PT06M35.00S,06:35,Q4 06:35,92,87,1610612762.0,Gobert,Gobert STEAL (3 STL),turnover,2pt made,5,High
+21900110,574,2pt,4,PT06M25.00S,06:25,Q4 06:25,94,87,1610612762.0,Conley,Conley 18' Pullup Jump Shot (12 PTS),steal,timeout,7,Medium
+21900110,575,timeout,4,PT06M22.00S,06:22,Q4 06:22,94,87,1610612755.0,,76ers Timeout: Regular (Reg.4 Short 0),2pt made,substitution,7,Medium
+21900110,576,substitution,4,PT06M22.00S,06:22,Q4 06:22,94,87,1610612755.0,Harris,SUB out: T. Harris,timeout,substitution,7,Medium
+21900110,577,substitution,4,PT06M22.00S,06:22,Q4 06:22,94,87,1610612755.0,Korkmaz,SUB in: F. Korkmaz,substitution,turnover,7,Medium
+21900110,578,turnover,4,PT06M02.00S,06:02,Q4 06:02,94,87,1610612755.0,Neto,Neto Bad Pass Turnover (P4.T14),substitution,steal,7,Medium
+21900110,578,steal,4,PT06M02.00S,06:02,Q4 06:02,94,87,1610612762.0,Conley,Conley STEAL (2 STL),turnover,2pt made,7,Medium
+21900110,580,2pt,4,PT05M59.00S,05:59,Q4 05:59,96,87,1610612762.0,Conley,Conley 2' Layup (14 PTS) (Gobert 3 AST),steal,foul,9,Medium
+21900110,582,foul,4,PT05M59.00S,05:59,Q4 05:59,96,87,1610612755.0,Scott,Scott S.FOUL (P3.T4) (J.Goldenberg),2pt made,freethrow,9,Medium
+21900110,584,freethrow,4,PT05M59.00S,05:59,Q4 05:59,97,87,1610612762.0,Conley,Conley Free Throw 1 of 1 (15 PTS),foul,3pt made,10,Medium
+21900110,585,3pt,4,PT05M51.00S,05:51,Q4 05:51,97,90,1610612755.0,Scott,Scott 26' 3PT Jump Shot (5 PTS) (Neto 4 AST),freethrow,3pt missed,7,Medium
+21900110,587,3pt,4,PT05M28.00S,05:28,Q4 05:28,97,90,1610612762.0,Conley,MISS Conley 26' 3PT Pullup Jump Shot,3pt made,rebound,7,Medium
+21900110,588,rebound,4,PT05M25.00S,05:25,Q4 05:25,97,90,1610612755.0,Embiid,Embiid REBOUND (Off:2 Def:9),3pt missed,2pt made,7,Medium
+21900110,589,2pt,4,PT05M11.00S,05:11,Q4 05:11,97,92,1610612755.0,Neto,Neto 3' Driving Layup (11 PTS) (Richardson 4 AST),rebound,timeout,5,High
+21900110,590,timeout,4,PT05M02.00S,05:02,Q4 05:02,97,92,1610612762.0,,JAZZ Timeout: Regular (Full 5 Short 0),2pt made,substitution,5,High
+21900110,592,substitution,4,PT05M02.00S,05:02,Q4 05:02,97,92,1610612762.0,Ingles,SUB out: J. Ingles,timeout,substitution,5,High
+21900110,593,substitution,4,PT05M02.00S,05:02,Q4 05:02,97,92,1610612755.0,Scott,SUB out: M. Scott,substitution,substitution,5,High
+21900110,594,substitution,4,PT05M02.00S,05:02,Q4 05:02,97,92,1610612762.0,Mitchell,SUB in: D. Mitchell,substitution,substitution,5,High
+21900110,595,substitution,4,PT05M02.00S,05:02,Q4 05:02,97,92,1610612755.0,Horford,SUB in: A. Horford,substitution,2pt missed,5,High
+21900110,596,2pt,4,PT04M54.00S,04:54,Q4 04:54,97,92,1610612762.0,Bogdanovic,MISS Bogdanovic 3' Driving Layup,substitution,rebound,5,High
+21900110,597,rebound,4,PT04M54.00S,04:54,Q4 04:54,97,92,1610612762.0,Gobert,Gobert REBOUND (Off:4 Def:11),2pt missed,foul,5,High
+21900110,598,foul,4,PT04M54.00S,04:54,Q4 04:54,97,92,1610612755.0,Embiid,Embiid P.FOUL (P4.PN) (D.Collins),rebound,freethrow,5,High
+21900110,600,freethrow,4,PT04M54.00S,04:54,Q4 04:54,98,92,1610612762.0,Gobert,Gobert Free Throw 1 of 2 (14 PTS),foul,freethrow,6,High
+21900110,601,freethrow,4,PT04M54.00S,04:54,Q4 04:54,98,92,1610612762.0,Gobert,MISS Gobert Free Throw 2 of 2,freethrow,rebound,6,High
+21900110,602,rebound,4,PT04M52.00S,04:52,Q4 04:52,98,92,1610612755.0,Embiid,Embiid REBOUND (Off:2 Def:10),freethrow,3pt missed,6,High
+21900110,603,3pt,4,PT04M39.00S,04:39,Q4 04:39,98,92,1610612755.0,Richardson,MISS Richardson 24' 3PT Jump Shot,rebound,rebound,6,High
+21900110,604,rebound,4,PT04M35.00S,04:35,Q4 04:35,98,92,1610612755.0,Embiid,Embiid REBOUND (Off:3 Def:10),3pt missed,foul,6,High
+21900110,605,foul,4,PT04M35.00S,04:35,Q4 04:35,98,92,1610612762.0,Gobert,Gobert S.FOUL (P3.T3) (D.Collins),rebound,freethrow,6,High
+21900110,607,freethrow,4,PT04M35.00S,04:35,Q4 04:35,98,93,1610612755.0,Embiid,Embiid Free Throw 1 of 2 (19 PTS),foul,freethrow,5,High
+21900110,610,freethrow,4,PT04M35.00S,04:35,Q4 04:35,98,94,1610612755.0,Embiid,Embiid Free Throw 2 of 2 (20 PTS),freethrow,substitution,4,High
+21900110,608,substitution,4,PT04M35.00S,04:35,Q4 04:35,98,93,1610612755.0,Neto,SUB out: R. Neto,freethrow,substitution,5,High
+21900110,609,substitution,4,PT04M35.00S,04:35,Q4 04:35,98,93,1610612755.0,Harris,SUB in: T. Harris,substitution,foul,5,High
+21900110,611,foul,4,PT04M26.00S,04:26,Q4 04:26,98,94,1610612755.0,Richardson,Richardson S.FOUL (P2.PN) (K.Mauer),substitution,freethrow,4,High
+21900110,613,freethrow,4,PT04M26.00S,04:26,Q4 04:26,99,94,1610612762.0,Mitchell,Mitchell Free Throw 1 of 2 (22 PTS),foul,freethrow,5,High
+21900110,614,freethrow,4,PT04M26.00S,04:26,Q4 04:26,100,94,1610612762.0,Mitchell,Mitchell Free Throw 2 of 2 (23 PTS),freethrow,2pt made,6,High
+21900110,615,2pt,4,PT04M07.00S,04:07,Q4 04:07,100,96,1610612755.0,Embiid,Embiid 2' Layup (22 PTS) (Harris 3 AST),freethrow,2pt missed,4,High
+21900110,617,2pt,4,PT03M49.00S,03:49,Q4 03:49,100,96,1610612762.0,Conley,MISS Conley 9' Floating Jump Shot,2pt made,rebound,4,High
+21900110,618,rebound,4,PT03M47.00S,03:47,Q4 03:47,100,96,1610612755.0,Richardson,Richardson REBOUND (Off:1 Def:2),2pt missed,2pt missed,4,High
+21900110,619,2pt,4,PT03M42.00S,03:42,Q4 03:42,100,96,1610612755.0,Horford,MISS Horford 6' Layup,rebound,rebound,4,High
+21900110,620,rebound,4,PT03M40.00S,03:40,Q4 03:40,100,96,1610612762.0,Conley,Conley REBOUND (Off:2 Def:4),2pt missed,3pt missed,4,High
+21900110,621,3pt,4,PT03M30.00S,03:30,Q4 03:30,100,96,1610612762.0,Mitchell,MISS Mitchell 26' 3PT Pullup Jump Shot,rebound,rebound,4,High
+21900110,622,rebound,4,PT03M27.00S,03:27,Q4 03:27,100,96,1610612755.0,Richardson,Richardson REBOUND (Off:1 Def:3),3pt missed,timeout,4,High
+21900110,623,timeout,4,PT03M27.00S,03:27,Q4 03:27,100,96,1610612755.0,,76ers Timeout: Regular (Reg.5 Short 0),rebound,substitution,4,High
+21900110,624,substitution,4,PT03M27.00S,03:27,Q4 03:27,100,96,1610612762.0,O'Neale,SUB out: R. O'Neale,timeout,substitution,4,High
+21900110,625,substitution,4,PT03M27.00S,03:27,Q4 03:27,100,96,1610612762.0,Ingles,SUB in: J. Ingles,substitution,3pt missed,4,High
+21900110,626,3pt,4,PT03M15.00S,03:15,Q4 03:15,100,96,1610612755.0,Korkmaz,MISS Korkmaz 25' 3PT Jump Shot,substitution,rebound,4,High
+21900110,627,rebound,4,PT03M13.00S,03:13,Q4 03:13,100,96,1610612755.0,Embiid,Embiid REBOUND (Off:4 Def:10),3pt missed,turnover,4,High
+21900110,628,turnover,4,PT03M12.00S,03:12,Q4 03:12,100,96,1610612755.0,Embiid,Embiid Out of Bounds Lost Ball Turnover (P3.T15),rebound,2pt made,4,High
+21900110,630,2pt,4,PT02M59.00S,02:59,Q4 02:59,102,96,1610612762.0,Bogdanovic,Bogdanovic 19' Pullup Jump Shot (17 PTS) (Mitchell 7 AST),turnover,foul,6,High
+21900110,632,foul,4,PT02M42.00S,02:42,Q4 02:42,102,96,1610612762.0,Gobert,Gobert S.FOUL (P4.T4) (K.Mauer),2pt made,freethrow,6,High
+21900110,634,freethrow,4,PT02M42.00S,02:42,Q4 02:42,102,97,1610612755.0,Embiid,Embiid Free Throw 1 of 2 (23 PTS),foul,freethrow,5,High
+21900110,637,freethrow,4,PT02M42.00S,02:42,Q4 02:42,102,98,1610612755.0,Embiid,Embiid Free Throw 2 of 2 (24 PTS),freethrow,substitution,4,High
+21900110,635,substitution,4,PT02M42.00S,02:42,Q4 02:42,102,97,1610612755.0,Korkmaz,SUB out: F. Korkmaz,freethrow,substitution,5,High
+21900110,636,substitution,4,PT02M42.00S,02:42,Q4 02:42,102,97,1610612755.0,Neto,SUB in: R. Neto,substitution,3pt missed,5,High
+21900110,638,3pt,4,PT02M26.00S,02:26,Q4 02:26,102,98,1610612762.0,Bogdanovic,MISS Bogdanovic 25' 3PT Jump Shot,substitution,rebound,4,High
+21900110,639,rebound,4,PT02M23.00S,02:23,Q4 02:23,102,98,1610612755.0,Neto,Neto REBOUND (Off:0 Def:2),3pt missed,foul,4,High
+21900110,640,foul,4,PT02M17.00S,02:17,Q4 02:17,102,98,1610612762.0,Gobert,Gobert P.FOUL (P5.PN) (D.Collins),rebound,freethrow,4,High
+21900110,642,freethrow,4,PT02M17.00S,02:17,Q4 02:17,102,99,1610612755.0,Embiid,Embiid Free Throw 1 of 2 (25 PTS),foul,freethrow,3,High
+21900110,643,freethrow,4,PT02M17.00S,02:17,Q4 02:17,102,100,1610612755.0,Embiid,Embiid Free Throw 2 of 2 (26 PTS),freethrow,foul,2,High
+21900110,644,foul,4,PT02M05.00S,02:05,Q4 02:05,102,100,1610612755.0,Embiid,Embiid S.FOUL (P5.PN) (D.Collins),freethrow,freethrow,2,High
+21900110,646,freethrow,4,PT02M05.00S,02:05,Q4 02:05,103,100,1610612762.0,Mitchell,Mitchell Free Throw 1 of 2 (24 PTS),foul,freethrow,3,High
+21900110,647,freethrow,4,PT02M05.00S,02:05,Q4 02:05,103,100,1610612762.0,Mitchell,MISS Mitchell Free Throw 2 of 2,freethrow,rebound,3,High
+21900110,648,rebound,4,PT02M03.00S,02:03,Q4 02:03,103,100,1610612755.0,Embiid,Embiid REBOUND (Off:4 Def:11),freethrow,foul,3,High
+21900110,649,foul,4,PT01M51.00S,01:51,Q4 01:51,103,100,1610612762.0,Ingles,Ingles P.FOUL (P3.PN) (D.Collins),rebound,freethrow,3,Very High
+21900110,651,freethrow,4,PT01M51.00S,01:51,Q4 01:51,103,101,1610612755.0,Harris,Harris Free Throw 1 of 2 (16 PTS),foul,freethrow,2,Very High
+21900110,652,freethrow,4,PT01M51.00S,01:51,Q4 01:51,103,101,1610612755.0,Harris,MISS Harris Free Throw 2 of 2,freethrow,rebound,2,Very High
+21900110,653,rebound,4,PT01M50.00S,01:50,Q4 01:50,103,101,1610612762.0,Gobert,Gobert REBOUND (Off:4 Def:12),freethrow,3pt made,2,Very High
+21900110,654,3pt,4,PT01M39.00S,01:39,Q4 01:39,106,101,1610612762.0,Bogdanovic,Bogdanovic 26' 3PT Jump Shot (20 PTS) (Mitchell 8 AST),rebound,2pt missed,5,Very High
+21900110,656,2pt,4,PT01M23.00S,01:23,Q4 01:23,106,101,1610612755.0,Embiid,MISS Embiid 11' Step Back Jump Shot,3pt made,rebound,5,Very High
+21900110,657,rebound,4,PT01M20.00S,01:20,Q4 01:20,106,101,1610612762.0,Bogdanovic,Bogdanovic REBOUND (Off:0 Def:5),2pt missed,3pt missed,5,Very High
+21900110,658,3pt,4,PT01M02.00S,01:02,Q4 01:02,106,101,1610612762.0,Mitchell,MISS Mitchell 25' 3PT Pullup Jump Shot,rebound,rebound,5,Very High
+21900110,659,rebound,4,PT00M59.80S,00:59,Q4 00:59,106,101,1610612755.0,Embiid,Embiid REBOUND (Off:4 Def:12),3pt missed,foul,5,Very High
+21900110,660,foul,4,PT00M51.30S,00:51,Q4 00:51,106,101,1610612762.0,Gobert,Gobert P.FOUL (P6.PN) (J.Goldenberg),rebound,freethrow,5,Very High
+21900110,664,freethrow,4,PT00M51.30S,00:51,Q4 00:51,106,102,1610612755.0,Embiid,Embiid Free Throw 1 of 2 (27 PTS),foul,freethrow,4,Very High
+21900110,665,freethrow,4,PT00M51.30S,00:51,Q4 00:51,106,102,1610612755.0,Embiid,MISS Embiid Free Throw 2 of 2,freethrow,substitution,4,Very High
+21900110,662,substitution,4,PT00M51.30S,00:51,Q4 00:51,106,101,1610612762.0,Gobert,SUB out: R. Gobert,freethrow,substitution,5,Very High
+21900110,663,substitution,4,PT00M51.30S,00:51,Q4 00:51,106,101,1610612762.0,Bradley,SUB in: T. Bradley,substitution,rebound,5,Very High
+21900110,666,rebound,4,PT00M49.20S,00:49,Q4 00:49,106,102,1610612762.0,Bogdanovic,Bogdanovic REBOUND (Off:0 Def:6),substitution,3pt missed,4,Very High
+21900110,667,3pt,4,PT00M31.40S,00:31,Q4 00:31,106,102,1610612762.0,Ingles,MISS Ingles 24' 3PT Pullup Jump Shot,rebound,rebound,4,Very High
+21900110,668,rebound,4,PT00M28.30S,00:28,Q4 00:28,106,102,1610612755.0,Neto,Neto REBOUND (Off:0 Def:3),3pt missed,turnover,4,Very High
+21900110,669,turnover,4,PT00M20.20S,00:20,Q4 00:20,106,102,1610612755.0,Richardson,Richardson Bad Pass Turnover (P1.T16),rebound,steal,4,Very High
+21900110,669,steal,4,PT00M20.20S,00:20,Q4 00:20,106,102,1610612762.0,Bradley,Bradley STEAL (1 STL),turnover,foul,4,Very High
+21900110,671,foul,4,PT00M06.60S,00:06,Q4 00:06,106,102,1610612755.0,Richardson,Richardson Personal Take Foul (P3.PN) (K.Mauer),steal,freethrow,4,Very High
+21900110,673,freethrow,4,PT00M06.60S,00:06,Q4 00:06,106,102,1610612762.0,Mitchell,MISS Mitchell Free Throw 1 of 2,foul,rebound,4,Very High
+21900110,674,rebound,4,PT00M06.60S,00:06,Q4 00:06,106,102,1610612762.0,,TEAM offensive REBOUND,freethrow,freethrow,4,Very High
+21900110,675,freethrow,4,PT00M06.60S,00:06,Q4 00:06,106,102,1610612762.0,Mitchell,MISS Mitchell Free Throw 2 of 2,rebound,rebound,4,Very High
+21900110,676,rebound,4,PT00M06.40S,00:06,Q4 00:06,106,102,1610612755.0,Harris,Harris REBOUND (Off:1 Def:6),freethrow,timeout,4,Very High
+21900110,677,timeout,4,PT00M06.40S,00:06,Q4 00:06,106,102,1610612755.0,,76ers Timeout: Regular (Reg.6 Short 0),rebound,substitution,4,Very High
+21900110,678,substitution,4,PT00M06.30S,00:06,Q4 00:06,106,102,1610612762.0,Conley,SUB out: M. Conley,timeout,substitution,4,Very High
+21900110,679,substitution,4,PT00M06.30S,00:06,Q4 00:06,106,102,1610612755.0,Neto,SUB out: R. Neto,substitution,substitution,4,Very High
+21900110,680,substitution,4,PT00M06.30S,00:06,Q4 00:06,106,102,1610612762.0,O'Neale,SUB in: R. O'Neale,substitution,substitution,4,Very High
+21900110,681,substitution,4,PT00M06.30S,00:06,Q4 00:06,106,102,1610612755.0,Korkmaz,SUB in: F. Korkmaz,substitution,2pt made,4,Very High
+21900110,682,2pt,4,PT00M01.40S,00:01,Q4 00:01,106,104,1610612755.0,Richardson,Richardson 14' Turnaround Jump Shot (24 PTS),substitution,period,2,Very High
+21900110,683,period,4,PT00M00.00S,00:00,Q4 00:00,106,104,1610612762.0,,End of 4th Period (11:31 PM EST),2pt made,instant replay,2,Very High

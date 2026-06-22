@@ -1,0 +1,628 @@
+game_id,actionNumber,actionType,period,clock,clock_display,game_clock,scoreHome,scoreAway,teamId,playerName,description,previous_action,next_action,score_margin,leverage_bucket
+21300025,0,period,1,PT12M00.00S,12:00,Q1 12:00,0,0,1610612745.0,,Start of 1st Period (8:11 PM EST),,foul,0,Low
+21300025,2,foul,1,PT11M46.00S,11:46,Q1 11:46,0,0,1610612745.0,Asik,Asik OFF.Foul (P1),period,turnover,0,Low
+21300025,3,turnover,1,PT11M46.00S,11:46,Q1 11:46,0,0,1610612745.0,Asik,Asik Foul Turnover (P1.T1),foul,2pt missed,0,Low
+21300025,4,2pt,1,PT11M29.00S,11:29,Q1 11:29,0,0,1610612742.0,Ellis,MISS Ellis 21' Jump Bank Shot,turnover,rebound,0,Low
+21300025,5,rebound,1,PT11M28.00S,11:28,Q1 11:28,0,0,1610612745.0,Asik,Asik REBOUND (Off:0 Def:1),2pt missed,2pt missed,0,Low
+21300025,6,2pt,1,PT11M21.00S,11:21,Q1 11:21,0,0,1610612745.0,Howard,MISS Howard 7' Hook Shot,rebound,rebound,0,Low
+21300025,7,rebound,1,PT11M19.00S,11:19,Q1 11:19,0,0,1610612742.0,Marion,Marion REBOUND (Off:0 Def:1),2pt missed,foul,0,Low
+21300025,8,foul,1,PT11M09.00S,11:09,Q1 11:09,0,0,1610612745.0,Asik,Asik Shooting Block Foul (P2.T1),rebound,freethrow,0,Low
+21300025,9,freethrow,1,PT11M09.00S,11:09,Q1 11:09,0,0,1610612742.0,Marion,MISS Marion Free Throw 1 of 2,foul,rebound,0,Low
+21300025,10,rebound,1,PT11M09.00S,11:09,Q1 11:09,0,0,1610612742.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21300025,12,freethrow,1,PT11M09.00S,11:09,Q1 11:09,0,1,1610612742.0,Marion,Marion Free Throw 2 of 2 (1 PTS),rebound,substitution,1,Low
+21300025,11,substitution,1,PT11M09.00S,11:09,Q1 11:09,0,0,1610612745.0,Asik,SUB out: O. Asik,freethrow,substitution,0,Low
+21300025,12,substitution,1,PT11M09.00S,11:09,Q1 11:09,0,0,1610612745.0,Casspi,SUB in: O. Casspi,substitution,foul,0,Low
+21300025,14,foul,1,PT10M57.00S,10:57,Q1 10:57,0,0,1610612742.0,Dalembert,Dalembert P.FOUL (P1.T1),substitution,turnover,0,Low
+21300025,15,turnover,1,PT10M53.00S,10:53,Q1 10:53,0,0,1610612745.0,Lin,Lin Discontinue Dribble Turnover (P1.T2),foul,2pt missed,0,Low
+21300025,16,2pt,1,PT10M42.00S,10:42,Q1 10:42,0,0,1610612742.0,Dalembert,MISS Dalembert 5' Jump Shot,turnover,block,0,Low
+21300025,16,block,1,PT10M42.00S,10:42,Q1 10:42,0,0,1610612745.0,Howard,Howard BLOCK (1 BLK),2pt missed,rebound,0,Low
+21300025,17,rebound,1,PT10M40.00S,10:40,Q1 10:40,0,0,1610612745.0,Harden,Harden REBOUND (Off:0 Def:1),block,foul,0,Low
+21300025,18,foul,1,PT10M40.00S,10:40,Q1 10:40,0,0,1610612742.0,Nowitzki,Nowitzki Personal Take Foul (P1.T2),rebound,2pt missed,0,Low
+21300025,19,2pt,1,PT10M28.00S,10:28,Q1 10:28,0,0,1610612745.0,Casspi,MISS Casspi 17' Jump Shot,foul,rebound,0,Low
+21300025,21,rebound,1,PT10M26.00S,10:26,Q1 10:26,0,0,1610612745.0,Parsons,Parsons REBOUND (Off:1 Def:0),2pt missed,2pt made,0,Low
+21300025,20,2pt,1,PT10M25.00S,10:25,Q1 10:25,2,1,1610612745.0,Parsons,Parsons 3' Layup (2 PTS),rebound,2pt missed,1,Low
+21300025,22,2pt,1,PT10M15.00S,10:15,Q1 10:15,0,0,1610612742.0,Calderon,MISS Calderon 20' Pullup Jump Shot,2pt made,rebound,0,Low
+21300025,23,rebound,1,PT10M13.00S,10:13,Q1 10:13,0,0,1610612745.0,Howard,Howard REBOUND (Off:0 Def:1),2pt missed,2pt made,0,Low
+21300025,24,2pt,1,PT10M09.00S,10:09,Q1 10:09,4,1,1610612745.0,Lin,Lin 2' Driving Finger Roll Layup (2 PTS),rebound,3pt made,3,Low
+21300025,25,3pt,1,PT09M52.00S,09:52,Q1 09:52,4,4,1610612742.0,Ellis,Ellis  3PT Jump Shot (3 PTS) (Calderon 1 AST),2pt made,2pt missed,0,Low
+21300025,26,2pt,1,PT09M32.00S,09:32,Q1 09:32,0,0,1610612745.0,Lin,MISS Lin 9' Jump Bank Shot,3pt made,2pt missed,0,Low
+21300025,27,2pt,1,PT09M30.00S,09:30,Q1 09:30,0,0,1610612745.0,Howard,MISS Howard 1' Tip Shot,2pt missed,rebound,0,Low
+21300025,28,rebound,1,PT09M30.00S,09:30,Q1 09:30,0,0,1610612745.0,Howard,Howard REBOUND (Off:1 Def:1),2pt missed,rebound,0,Low
+21300025,29,rebound,1,PT09M28.00S,09:28,Q1 09:28,0,0,1610612745.0,Casspi,Casspi REBOUND (Off:1 Def:0),rebound,3pt made,0,Low
+21300025,30,3pt,1,PT09M26.00S,09:26,Q1 09:26,7,4,1610612745.0,Casspi,Casspi 25' 3PT Jump Shot (3 PTS),rebound,2pt made,3,Low
+21300025,31,2pt,1,PT09M04.00S,09:04,Q1 09:04,7,6,1610612742.0,Marion,Marion 8' Floating Jump Shot (3 PTS) (Calderon 2 AST),3pt made,3pt made,1,Low
+21300025,32,3pt,1,PT08M44.00S,08:44,Q1 08:44,10,6,1610612745.0,Casspi,Casspi  3PT Jump Shot (6 PTS) (Lin 1 AST),2pt made,2pt missed,4,Low
+21300025,33,2pt,1,PT08M32.00S,08:32,Q1 08:32,0,0,1610612742.0,Marion,MISS Marion 13' Jump Shot,3pt made,rebound,0,Low
+21300025,34,rebound,1,PT08M30.00S,08:30,Q1 08:30,0,0,1610612745.0,Lin,Lin REBOUND (Off:0 Def:1),2pt missed,2pt made,0,Low
+21300025,35,2pt,1,PT08M23.00S,08:23,Q1 08:23,12,6,1610612745.0,Harden,Harden 4' Layup (2 PTS) (Lin 2 AST),rebound,timeout,6,Low
+21300025,36,timeout,1,PT08M17.00S,08:17,Q1 08:17,0,0,1610612742.0,,Mavericks Timeout: Regular (Reg.1 Short 0),2pt made,foul,0,Low
+21300025,39,foul,1,PT08M14.00S,08:14,Q1 08:14,0,0,1610612745.0,Casspi,Casspi P.FOUL (P1.T2),timeout,2pt made,0,Low
+21300025,40,2pt,1,PT08M04.00S,08:04,Q1 08:04,12,8,1610612742.0,Nowitzki,Nowitzki 11' Turnaround Fadeaway (2 PTS),foul,2pt missed,4,Low
+21300025,41,2pt,1,PT07M49.00S,07:49,Q1 07:49,0,0,1610612745.0,Casspi,MISS Casspi 3' Jump Shot,2pt made,block,0,Low
+21300025,41,block,1,PT07M49.00S,07:49,Q1 07:49,0,0,1610612742.0,Dalembert,Dalembert BLOCK (1 BLK),2pt missed,rebound,0,Low
+21300025,42,rebound,1,PT07M46.00S,07:46,Q1 07:46,0,0,1610612745.0,Parsons,Parsons REBOUND (Off:2 Def:0),block,3pt missed,0,Low
+21300025,43,3pt,1,PT07M44.00S,07:44,Q1 07:44,0,0,1610612745.0,Parsons,MISS Parsons  3PT Jump Shot,rebound,rebound,0,Low
+21300025,44,rebound,1,PT07M44.00S,07:44,Q1 07:44,0,0,1610612745.0,,TEAM offensive REBOUND,3pt missed,foul,0,Low
+21300025,45,foul,1,PT07M44.00S,07:44,Q1 07:44,0,0,1610612742.0,Dalembert,Dalembert P.FOUL (P2.T3),rebound,substitution,0,Low
+21300025,46,substitution,1,PT07M44.00S,07:44,Q1 07:44,0,0,1610612742.0,Dalembert,SUB out: S. Dalembert,foul,substitution,0,Low
+21300025,47,substitution,1,PT07M44.00S,07:44,Q1 07:44,0,0,1610612742.0,Blair,SUB in: D. Blair,substitution,foul,0,Low
+21300025,47,foul,1,PT07M42.00S,07:42,Q1 07:42,0,0,1610612745.0,Harden,Harden OFF.Foul (P1),substitution,turnover,0,Low
+21300025,48,turnover,1,PT07M42.00S,07:42,Q1 07:42,0,0,1610612745.0,Harden,Harden Foul Turnover (P1.T3),foul,turnover,0,Low
+21300025,49,turnover,1,PT07M31.00S,07:31,Q1 07:31,0,0,1610612742.0,Nowitzki,Nowitzki Lost Ball Turnover (P1.T1),turnover,steal,0,Low
+21300025,49,steal,1,PT07M31.00S,07:31,Q1 07:31,0,0,1610612745.0,Casspi,Casspi STEAL (1 STL),turnover,2pt made,0,Low
+21300025,50,2pt,1,PT07M25.00S,07:25,Q1 07:25,14,8,1610612745.0,Howard,Howard 2' Layup (2 PTS) (Casspi 1 AST),steal,turnover,6,Low
+21300025,51,turnover,1,PT07M10.00S,07:10,Q1 07:10,0,0,1610612742.0,Marion,Marion Lost Ball Turnover (P1.T2),2pt made,steal,0,Low
+21300025,51,steal,1,PT07M10.00S,07:10,Q1 07:10,0,0,1610612745.0,Lin,Lin STEAL (1 STL),turnover,2pt made,0,Low
+21300025,52,2pt,1,PT07M06.00S,07:06,Q1 07:06,16,8,1610612745.0,Harden,Harden 2' Driving Layup (4 PTS) (Parsons 1 AST),steal,timeout,8,Low
+21300025,53,timeout,1,PT06M59.00S,06:59,Q1 06:59,0,0,1610612742.0,,Mavericks Timeout: Short (Reg.1 Short 1),2pt made,2pt missed,0,Low
+21300025,57,2pt,1,PT06M53.00S,06:53,Q1 06:53,0,0,1610612742.0,Calderon,MISS Calderon 9' Pullup Jump Shot,timeout,rebound,0,Low
+21300025,58,rebound,1,PT06M51.00S,06:51,Q1 06:51,0,0,1610612742.0,Blair,Blair REBOUND (Off:1 Def:0),2pt missed,2pt made,0,Low
+21300025,59,2pt,1,PT06M50.00S,06:50,Q1 06:50,16,10,1610612742.0,Blair,Blair 6' Jump Hook Shot (2 PTS),rebound,3pt missed,6,Low
+21300025,60,3pt,1,PT06M39.00S,06:39,Q1 06:39,0,0,1610612745.0,Lin,MISS Lin 26' 3PT Jump Shot,2pt made,rebound,0,Low
+21300025,61,rebound,1,PT06M37.00S,06:37,Q1 06:37,0,0,1610612745.0,Howard,Howard REBOUND (Off:2 Def:1),3pt missed,3pt missed,0,Low
+21300025,62,3pt,1,PT06M33.00S,06:33,Q1 06:33,0,0,1610612745.0,Harden,MISS Harden 28' 3PT Jump Shot,rebound,rebound,0,Low
+21300025,63,rebound,1,PT06M32.00S,06:32,Q1 06:32,0,0,1610612742.0,Blair,Blair REBOUND (Off:1 Def:1),3pt missed,2pt missed,0,Low
+21300025,64,2pt,1,PT06M22.00S,06:22,Q1 06:22,0,0,1610612742.0,Nowitzki,MISS Nowitzki 11' Turnaround Fadeaway Shot,rebound,rebound,0,Low
+21300025,65,rebound,1,PT06M21.00S,06:21,Q1 06:21,0,0,1610612745.0,Howard,Howard REBOUND (Off:2 Def:2),2pt missed,turnover,0,Low
+21300025,66,turnover,1,PT06M14.00S,06:14,Q1 06:14,0,0,1610612745.0,Lin,Lin Bad Pass Turnover (P2.T4),rebound,steal,0,Low
+21300025,66,steal,1,PT06M14.00S,06:14,Q1 06:14,0,0,1610612742.0,Blair,Blair STEAL (1 STL),turnover,2pt missed,0,Low
+21300025,67,2pt,1,PT06M07.00S,06:07,Q1 06:07,0,0,1610612742.0,Nowitzki,MISS Nowitzki 18' Jump Shot,steal,rebound,0,Low
+21300025,68,rebound,1,PT06M07.00S,06:07,Q1 06:07,0,0,1610612745.0,,TEAM defensive REBOUND,2pt missed,foul,0,Low
+21300025,69,foul,1,PT06M07.00S,06:07,Q1 06:07,0,0,1610612742.0,Blair,Blair L.B.FOUL (P1.T4),rebound,substitution,0,Low
+21300025,70,substitution,1,PT06M07.00S,06:07,Q1 06:07,0,0,1610612742.0,Nowitzki,SUB out: D. Nowitzki,foul,substitution,0,Low
+21300025,71,substitution,1,PT06M07.00S,06:07,Q1 06:07,0,0,1610612742.0,Carter,SUB in: V. Carter,substitution,2pt missed,0,Low
+21300025,71,2pt,1,PT05M47.00S,05:47,Q1 05:47,0,0,1610612745.0,Howard,MISS Howard 3' Hook Shot,substitution,block,0,Low
+21300025,71,block,1,PT05M47.00S,05:47,Q1 05:47,0,0,1610612742.0,Carter,Carter BLOCK (1 BLK),2pt missed,rebound,0,Low
+21300025,73,rebound,1,PT05M45.00S,05:45,Q1 05:45,0,0,1610612745.0,Howard,Howard REBOUND (Off:3 Def:2),block,2pt made,0,Low
+21300025,72,2pt,1,PT05M44.00S,05:44,Q1 05:44,18,10,1610612745.0,Howard,Howard 1' Layup (4 PTS),rebound,3pt missed,8,Low
+21300025,74,3pt,1,PT05M24.00S,05:24,Q1 05:24,0,0,1610612742.0,Carter,MISS Carter 27' 3PT Jump Shot,2pt made,rebound,0,Low
+21300025,75,rebound,1,PT05M23.00S,05:23,Q1 05:23,0,0,1610612745.0,Howard,Howard REBOUND (Off:3 Def:3),3pt missed,foul,0,Low
+21300025,76,foul,1,PT05M15.00S,05:15,Q1 05:15,0,0,1610612742.0,Ellis,Ellis S.FOUL (P1.PN),rebound,freethrow,0,Low
+21300025,77,freethrow,1,PT05M15.00S,05:15,Q1 05:15,19,10,1610612745.0,Harden,Harden Free Throw 1 of 2 (5 PTS),foul,freethrow,9,Low
+21300025,80,freethrow,1,PT05M15.00S,05:15,Q1 05:15,20,10,1610612745.0,Harden,Harden Free Throw 2 of 2 (6 PTS),freethrow,substitution,10,Low
+21300025,79,substitution,1,PT05M15.00S,05:15,Q1 05:15,0,0,1610612742.0,Calderon,SUB out: J. Calderon,freethrow,substitution,0,Low
+21300025,80,substitution,1,PT05M15.00S,05:15,Q1 05:15,0,0,1610612742.0,Mekel,SUB in: G. Mekel,substitution,2pt missed,0,Low
+21300025,82,2pt,1,PT04M56.00S,04:56,Q1 04:56,0,0,1610612742.0,Ellis,MISS Ellis 6' Jump Shot,substitution,rebound,0,Low
+21300025,83,rebound,1,PT04M55.00S,04:55,Q1 04:55,0,0,1610612742.0,Blair,Blair REBOUND (Off:2 Def:1),2pt missed,2pt made,0,Low
+21300025,84,2pt,1,PT04M48.00S,04:48,Q1 04:48,20,12,1610612742.0,Mekel,Mekel 18' Pullup Jump Shot (2 PTS),rebound,turnover,8,Low
+21300025,85,turnover,1,PT04M38.00S,04:38,Q1 04:38,0,0,1610612745.0,Parsons,Parsons Bad Pass Turnover (P1.T5),2pt made,steal,0,Low
+21300025,85,steal,1,PT04M38.00S,04:38,Q1 04:38,0,0,1610612742.0,Ellis,Ellis STEAL (1 STL),turnover,turnover,0,Low
+21300025,86,turnover,1,PT04M37.00S,04:37,Q1 04:37,0,0,1610612742.0,Ellis,Ellis Out of Bounds Lost Ball Turnover (P1.T3),steal,substitution,0,Low
+21300025,87,substitution,1,PT04M37.00S,04:37,Q1 04:37,0,0,1610612745.0,Lin,SUB out: J. Lin,turnover,substitution,0,Low
+21300025,88,substitution,1,PT04M37.00S,04:37,Q1 04:37,0,0,1610612745.0,Parsons,SUB out: C. Parsons,substitution,substitution,0,Low
+21300025,89,substitution,1,PT04M37.00S,04:37,Q1 04:37,0,0,1610612745.0,Brooks,SUB in: A. Brooks,substitution,substitution,0,Low
+21300025,90,substitution,1,PT04M37.00S,04:37,Q1 04:37,0,0,1610612745.0,Garcia,SUB in: F. Garcia,substitution,2pt missed,0,Low
+21300025,89,2pt,1,PT04M25.00S,04:25,Q1 04:25,0,0,1610612745.0,Howard,MISS Howard 3' Layup,substitution,block,0,Low
+21300025,89,block,1,PT04M25.00S,04:25,Q1 04:25,0,0,1610612742.0,Blair,Blair BLOCK (1 BLK),2pt missed,rebound,0,Low
+21300025,91,rebound,1,PT04M23.00S,04:23,Q1 04:23,0,0,1610612745.0,Garcia,Garcia REBOUND (Off:1 Def:0),block,3pt missed,0,Low
+21300025,90,3pt,1,PT04M20.00S,04:20,Q1 04:20,0,0,1610612745.0,Garcia,MISS Garcia 26' 3PT Jump Shot,rebound,2pt made,0,Low
+21300025,92,2pt,1,PT04M19.00S,04:19,Q1 04:19,22,12,1610612745.0,Howard,Howard  Putback Dunk (6 PTS),3pt missed,rebound,10,Low
+21300025,93,rebound,1,PT04M19.00S,04:19,Q1 04:19,0,0,1610612745.0,Howard,Howard REBOUND (Off:4 Def:3),2pt made,2pt missed,0,Low
+21300025,94,2pt,1,PT04M07.00S,04:07,Q1 04:07,0,0,1610612742.0,Ellis,MISS Ellis 11' Floating Jump Shot,rebound,rebound,0,Low
+21300025,95,rebound,1,PT04M05.00S,04:05,Q1 04:05,0,0,1610612745.0,Harden,Harden REBOUND (Off:0 Def:2),2pt missed,3pt made,0,Low
+21300025,96,3pt,1,PT03M54.00S,03:54,Q1 03:54,25,12,1610612745.0,Brooks,Brooks 24' 3PT Jump Shot (3 PTS) (Harden 1 AST),rebound,timeout,13,Low
+21300025,97,timeout,1,PT03M52.00S,03:52,Q1 03:52,0,0,1610612742.0,,Mavericks Timeout: Regular (Reg.2 Short 1),3pt made,3pt missed,0,Low
+21300025,101,3pt,1,PT03M37.00S,03:37,Q1 03:37,0,0,1610612742.0,Carter,MISS Carter  3PT Jump Shot,timeout,2pt missed,0,Low
+21300025,102,2pt,1,PT03M34.00S,03:34,Q1 03:34,0,0,1610612742.0,Marion,MISS Marion 1' Tip Shot,3pt missed,rebound,0,Low
+21300025,103,rebound,1,PT03M34.00S,03:34,Q1 03:34,0,0,1610612742.0,Marion,Marion REBOUND (Off:1 Def:1),2pt missed,rebound,0,Low
+21300025,104,rebound,1,PT03M33.00S,03:33,Q1 03:33,0,0,1610612742.0,Marion,Marion REBOUND (Off:2 Def:1),rebound,2pt missed,0,Low
+21300025,105,2pt,1,PT03M32.00S,03:32,Q1 03:32,0,0,1610612742.0,Marion,MISS Marion 3' Layup,rebound,rebound,0,Low
+21300025,106,rebound,1,PT03M29.00S,03:29,Q1 03:29,0,0,1610612745.0,Howard,Howard REBOUND (Off:4 Def:4),2pt missed,turnover,0,Low
+21300025,107,turnover,1,PT03M28.00S,03:28,Q1 03:28,0,0,1610612745.0,Harden,Harden Traveling Turnover (P2.T6),rebound,foul,0,Low
+21300025,108,foul,1,PT03M07.00S,03:07,Q1 03:07,0,0,1610612745.0,Casspi,Casspi S.FOUL (P2.T3),turnover,freethrow,0,Low
+21300025,109,freethrow,1,PT03M07.00S,03:07,Q1 03:07,25,13,1610612742.0,Carter,Carter Free Throw 1 of 2 (1 PTS),foul,freethrow,12,Low
+21300025,112,freethrow,1,PT03M07.00S,03:07,Q1 03:07,25,14,1610612742.0,Carter,Carter Free Throw 2 of 2 (2 PTS),freethrow,substitution,11,Low
+21300025,111,substitution,1,PT03M07.00S,03:07,Q1 03:07,0,0,1610612742.0,Marion,SUB out: S. Marion,freethrow,substitution,0,Low
+21300025,112,substitution,1,PT03M07.00S,03:07,Q1 03:07,0,0,1610612742.0,Ellis,SUB out: M. Ellis,substitution,substitution,0,Low
+21300025,113,substitution,1,PT03M07.00S,03:07,Q1 03:07,0,0,1610612742.0,Nowitzki,SUB in: D. Nowitzki,substitution,substitution,0,Low
+21300025,114,substitution,1,PT03M07.00S,03:07,Q1 03:07,0,0,1610612742.0,Ellington,SUB in: W. Ellington,substitution,3pt missed,0,Low
+21300025,114,3pt,1,PT02M51.00S,02:51,Q1 02:51,0,0,1610612745.0,Garcia,MISS Garcia 26' 3PT Jump Shot,substitution,rebound,0,Low
+21300025,115,rebound,1,PT02M49.00S,02:49,Q1 02:49,0,0,1610612742.0,Mekel,Mekel REBOUND (Off:0 Def:1),3pt missed,foul,0,Low
+21300025,117,foul,1,PT02M41.00S,02:41,Q1 02:41,0,0,1610612745.0,Howard,Howard S.FOUL (P1.T4),rebound,freethrow,0,Low
+21300025,119,freethrow,1,PT02M41.00S,02:41,Q1 02:41,25,15,1610612742.0,Blair,Blair Free Throw 1 of 2 (3 PTS),foul,freethrow,10,Low
+21300025,121,freethrow,1,PT02M41.00S,02:41,Q1 02:41,0,0,1610612742.0,Blair,MISS Blair Free Throw 2 of 2,freethrow,rebound,0,Low
+21300025,123,rebound,1,PT02M41.00S,02:41,Q1 02:41,0,0,1610612745.0,Howard,Howard REBOUND (Off:4 Def:5),freethrow,2pt made,0,Low
+21300025,124,2pt,1,PT02M24.00S,02:24,Q1 02:24,27,15,1610612745.0,Casspi,Casspi 15' Jump Shot (8 PTS) (Brooks 1 AST),rebound,2pt made,12,Low
+21300025,126,2pt,1,PT02M18.00S,02:18,Q1 02:18,27,17,1610612742.0,Nowitzki,Nowitzki 11' Turnaround Fadeaway (4 PTS),2pt made,3pt made,10,Low
+21300025,127,3pt,1,PT02M04.00S,02:04,Q1 02:04,30,17,1610612745.0,Harden,Harden 28' 3PT Jump Shot (9 PTS) (Brooks 2 AST),2pt made,foul,13,Low
+21300025,128,foul,1,PT01M40.00S,01:40,Q1 01:40,0,0,1610612745.0,Casspi,Casspi S.FOUL (P3.PN),3pt made,freethrow,0,Low
+21300025,129,freethrow,1,PT01M40.00S,01:40,Q1 01:40,30,18,1610612742.0,Nowitzki,Nowitzki Free Throw 1 of 2 (5 PTS),foul,freethrow,12,Low
+21300025,133,freethrow,1,PT01M40.00S,01:40,Q1 01:40,0,0,1610612742.0,Nowitzki,MISS Nowitzki Free Throw 2 of 2,freethrow,rebound,0,Low
+21300025,135,rebound,1,PT01M40.00S,01:40,Q1 01:40,0,0,1610612745.0,Parsons,Parsons REBOUND (Off:2 Def:1),freethrow,substitution,0,Low
+21300025,131,substitution,1,PT01M40.00S,01:40,Q1 01:40,0,0,1610612745.0,Casspi,SUB out: O. Casspi,rebound,substitution,0,Low
+21300025,132,substitution,1,PT01M40.00S,01:40,Q1 01:40,0,0,1610612745.0,Howard,SUB out: D. Howard,substitution,substitution,0,Low
+21300025,133,substitution,1,PT01M40.00S,01:40,Q1 01:40,0,0,1610612745.0,Asik,SUB in: O. Asik,substitution,substitution,0,Low
+21300025,134,substitution,1,PT01M40.00S,01:40,Q1 01:40,0,0,1610612745.0,Parsons,SUB in: C. Parsons,substitution,3pt made,0,Low
+21300025,136,3pt,1,PT01M25.00S,01:25,Q1 01:25,33,18,1610612745.0,Harden,Harden 27' 3PT Jump Shot (12 PTS),substitution,2pt made,15,Low
+21300025,137,2pt,1,PT01M09.00S,01:09,Q1 01:09,33,20,1610612742.0,Blair,Blair 7' Jump Shot (5 PTS),3pt made,foul,13,Low
+21300025,138,foul,1,PT00M53.60S,00:53,Q1 00:53,0,0,1610612742.0,Carter,Carter S.FOUL (P1.PN),2pt made,freethrow,0,Low
+21300025,139,freethrow,1,PT00M53.60S,00:53,Q1 00:53,0,0,1610612745.0,Asik,MISS Asik Free Throw 1 of 2,foul,rebound,0,Low
+21300025,140,rebound,1,PT00M53.60S,00:53,Q1 00:53,0,0,1610612745.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21300025,142,freethrow,1,PT00M53.60S,00:53,Q1 00:53,0,0,1610612745.0,Asik,MISS Asik Free Throw 2 of 2,rebound,rebound,0,Low
+21300025,144,rebound,1,PT00M53.60S,00:53,Q1 00:53,0,0,1610612745.0,Brooks,Brooks REBOUND (Off:1 Def:0),freethrow,substitution,0,Low
+21300025,141,substitution,1,PT00M53.60S,00:53,Q1 00:53,0,0,1610612745.0,Harden,SUB out: J. Harden,rebound,substitution,0,Low
+21300025,142,substitution,1,PT00M53.60S,00:53,Q1 00:53,0,0,1610612745.0,Lin,SUB in: J. Lin,substitution,2pt made,0,Low
+21300025,145,2pt,1,PT00M40.90S,00:40,Q1 00:40,35,20,1610612745.0,Asik,Asik 1' Dunk (2 PTS) (Garcia 1 AST),substitution,2pt made,15,Low
+21300025,146,2pt,1,PT00M28.00S,00:28,Q1 00:28,35,22,1610612742.0,Blair,Blair 2' Layup (7 PTS) (Carter 1 AST),2pt made,foul,13,Low
+21300025,147,foul,1,PT00M06.60S,00:06,Q1 00:06,0,0,1610612742.0,Mekel,Mekel S.FOUL (P1.PN),2pt made,freethrow,0,Low
+21300025,148,freethrow,1,PT00M06.60S,00:06,Q1 00:06,36,22,1610612745.0,Brooks,Brooks Free Throw 1 of 3 (4 PTS),foul,freethrow,14,Low
+21300025,150,freethrow,1,PT00M06.60S,00:06,Q1 00:06,37,22,1610612745.0,Brooks,Brooks Free Throw 2 of 3 (5 PTS),freethrow,freethrow,15,Low
+21300025,153,freethrow,1,PT00M06.60S,00:06,Q1 00:06,38,22,1610612745.0,Brooks,Brooks Free Throw 3 of 3 (6 PTS),freethrow,substitution,16,Low
+21300025,152,substitution,1,PT00M06.60S,00:06,Q1 00:06,0,0,1610612742.0,Mekel,SUB out: G. Mekel,freethrow,substitution,0,Low
+21300025,153,substitution,1,PT00M06.60S,00:06,Q1 00:06,0,0,1610612742.0,Ellis,SUB in: M. Ellis,substitution,2pt missed,0,Low
+21300025,155,2pt,1,PT00M00.00S,00:00,Q1 00:00,0,0,1610612742.0,Blair,MISS Blair 10' Floating Jump Shot,substitution,rebound,0,Low
+21300025,156,rebound,1,PT00M00.00S,00:00,Q1 00:00,0,0,1610612742.0,,TEAM offensive REBOUND,2pt missed,period,0,Low
+21300025,157,period,1,PT00M00.00S,00:00,Q1 00:00,38,22,1610612745.0,,End of 1st Period (8:40 PM EST),rebound,period,16,Low
+21300025,159,period,2,PT12M00.00S,12:00,Q2 12:00,38,22,1610612745.0,,Start of 2nd Period (8:42 PM EST),period,substitution,16,Low
+21300025,160,2pt,2,PT11M43.00S,11:43,Q2 11:43,0,0,1610612742.0,Blair,MISS Blair 9' Jump Shot,substitution,rebound,0,Low
+21300025,161,rebound,2,PT11M42.00S,11:42,Q2 11:42,0,0,1610612742.0,Blair,Blair REBOUND (Off:3 Def:1),2pt missed,3pt missed,0,Low
+21300025,162,3pt,2,PT11M35.00S,11:35,Q2 11:35,0,0,1610612742.0,Ellington,MISS Ellington  3PT Jump Shot,rebound,rebound,0,Low
+21300025,163,rebound,2,PT11M34.00S,11:34,Q2 11:34,0,0,1610612745.0,Parsons,Parsons REBOUND (Off:2 Def:2),3pt missed,2pt missed,0,Low
+21300025,164,2pt,2,PT11M17.00S,11:17,Q2 11:17,0,0,1610612745.0,Brooks,MISS Brooks 5' Running Hook Shot,rebound,rebound,0,Low
+21300025,165,rebound,2,PT11M15.00S,11:15,Q2 11:15,0,0,1610612742.0,Carter,Carter REBOUND (Off:0 Def:1),2pt missed,2pt missed,0,Low
+21300025,166,2pt,2,PT11M01.00S,11:01,Q2 11:01,0,0,1610612742.0,Nowitzki,MISS Nowitzki 6' Jump Shot,rebound,block,0,Low
+21300025,166,block,2,PT11M01.00S,11:01,Q2 11:01,0,0,1610612745.0,Garcia,Garcia BLOCK (1 BLK),2pt missed,rebound,0,Low
+21300025,167,rebound,2,PT10M59.00S,10:59,Q2 10:59,0,0,1610612745.0,Lin,Lin REBOUND (Off:0 Def:2),block,2pt made,0,Low
+21300025,168,2pt,2,PT10M56.00S,10:56,Q2 10:56,40,22,1610612745.0,Lin,Lin 1' Driving Layup (4 PTS),rebound,2pt made,18,Low
+21300025,169,2pt,2,PT10M42.00S,10:42,Q2 10:42,40,24,1610612742.0,Mekel,Mekel 11' Floating Jump Shot (4 PTS),2pt made,3pt missed,16,Low
+21300025,170,3pt,2,PT10M28.00S,10:28,Q2 10:28,0,0,1610612745.0,Parsons,MISS Parsons 27' 3PT Jump Shot,2pt made,rebound,0,Low
+21300025,171,rebound,2,PT10M27.00S,10:27,Q2 10:27,0,0,1610612742.0,Blair,Blair REBOUND (Off:3 Def:2),3pt missed,2pt missed,0,Low
+21300025,172,2pt,2,PT10M19.00S,10:19,Q2 10:19,0,0,1610612742.0,Blair,MISS Blair 12' Jump Shot,rebound,2pt missed,0,Low
+21300025,173,2pt,2,PT10M18.00S,10:18,Q2 10:18,0,0,1610612742.0,Nowitzki,MISS Nowitzki 2' Tip Shot,2pt missed,rebound,0,Low
+21300025,174,rebound,2,PT10M18.00S,10:18,Q2 10:18,0,0,1610612742.0,Nowitzki,Nowitzki REBOUND (Off:1 Def:0),2pt missed,rebound,0,Low
+21300025,175,rebound,2,PT10M16.00S,10:16,Q2 10:16,0,0,1610612745.0,Asik,Asik REBOUND (Off:0 Def:2),rebound,2pt made,0,Low
+21300025,176,2pt,2,PT10M10.00S,10:10,Q2 10:10,42,24,1610612745.0,Brooks,Brooks 2' Driving Layup (8 PTS),rebound,3pt made,18,Low
+21300025,177,3pt,2,PT10M01.00S,10:01,Q2 10:01,42,27,1610612742.0,Ellington,Ellington 25' 3PT Jump Shot (3 PTS) (Mekel 1 AST),2pt made,turnover,15,Low
+21300025,178,turnover,2,PT09M44.00S,09:44,Q2 09:44,0,0,1610612745.0,Lin,Lin Bad Pass Turnover (P3.T7),3pt made,steal,0,Low
+21300025,178,steal,2,PT09M44.00S,09:44,Q2 09:44,0,0,1610612742.0,Blair,Blair STEAL (2 STL),turnover,2pt missed,0,Low
+21300025,179,2pt,2,PT09M32.00S,09:32,Q2 09:32,0,0,1610612742.0,Nowitzki,MISS Nowitzki 8' Turnaround Jump Shot,steal,rebound,0,Low
+21300025,180,rebound,2,PT09M30.00S,09:30,Q2 09:30,0,0,1610612745.0,Asik,Asik REBOUND (Off:0 Def:3),2pt missed,turnover,0,Low
+21300025,181,turnover,2,PT09M26.00S,09:26,Q2 09:26,0,0,1610612745.0,Lin,Lin Out of Bounds Lost Ball Turnover (P4.T8),rebound,timeout,0,Low
+21300025,182,timeout,2,PT09M26.00S,09:26,Q2 09:26,0,0,1610612745.0,,ROCKETS Timeout: Regular (Full 1 Short 0),turnover,substitution,0,Low
+21300025,184,substitution,2,PT09M26.00S,09:26,Q2 09:26,0,0,1610612745.0,Brooks,SUB out: A. Brooks,timeout,substitution,0,Low
+21300025,185,substitution,2,PT09M26.00S,09:26,Q2 09:26,0,0,1610612742.0,Blair,SUB out: D. Blair,substitution,substitution,0,Low
+21300025,186,substitution,2,PT09M26.00S,09:26,Q2 09:26,0,0,1610612742.0,Carter,SUB out: V. Carter,substitution,substitution,0,Low
+21300025,187,substitution,2,PT09M26.00S,09:26,Q2 09:26,0,0,1610612745.0,Harden,SUB in: J. Harden,substitution,substitution,0,Low
+21300025,188,substitution,2,PT09M26.00S,09:26,Q2 09:26,0,0,1610612742.0,James,SUB in: B. James,substitution,substitution,0,Low
+21300025,189,substitution,2,PT09M26.00S,09:26,Q2 09:26,0,0,1610612742.0,Crowder,SUB in: J. Crowder,substitution,2pt missed,0,Low
+21300025,187,2pt,2,PT09M11.00S,09:11,Q2 09:11,0,0,1610612742.0,Ellington,MISS Ellington 8' Running Jump Shot,substitution,rebound,0,Low
+21300025,188,rebound,2,PT09M09.00S,09:09,Q2 09:09,0,0,1610612745.0,Asik,Asik REBOUND (Off:0 Def:4),2pt missed,3pt missed,0,Low
+21300025,189,3pt,2,PT08M59.00S,08:59,Q2 08:59,0,0,1610612745.0,Lin,MISS Lin 25' 3PT Jump Shot,rebound,rebound,0,Low
+21300025,190,rebound,2,PT08M58.00S,08:58,Q2 08:58,0,0,1610612742.0,Nowitzki,Nowitzki REBOUND (Off:1 Def:1),3pt missed,2pt made,0,Low
+21300025,191,2pt,2,PT08M50.00S,08:50,Q2 08:50,42,29,1610612742.0,Mekel,Mekel 2' Driving Layup (6 PTS),rebound,2pt made,13,Low
+21300025,192,2pt,2,PT08M38.00S,08:38,Q2 08:38,44,29,1610612745.0,Lin,Lin 1' Driving Reverse Layup (6 PTS),2pt made,foul,15,Low
+21300025,193,foul,2,PT08M38.00S,08:38,Q2 08:38,0,0,1610612742.0,James,James S.FOUL (P1.T1),2pt made,freethrow,0,Low
+21300025,198,freethrow,2,PT08M38.00S,08:38,Q2 08:38,45,29,1610612745.0,Lin,Lin Free Throw 1 of 1 (7 PTS),foul,substitution,16,Low
+21300025,194,substitution,2,PT08M38.00S,08:38,Q2 08:38,0,0,1610612742.0,Nowitzki,SUB out: D. Nowitzki,freethrow,substitution,0,Low
+21300025,195,substitution,2,PT08M38.00S,08:38,Q2 08:38,0,0,1610612742.0,Mekel,SUB out: G. Mekel,substitution,substitution,0,Low
+21300025,196,substitution,2,PT08M38.00S,08:38,Q2 08:38,0,0,1610612742.0,Ellington,SUB out: W. Ellington,substitution,substitution,0,Low
+21300025,197,substitution,2,PT08M38.00S,08:38,Q2 08:38,0,0,1610612742.0,James,SUB out: B. James,substitution,substitution,0,Low
+21300025,198,substitution,2,PT08M38.00S,08:38,Q2 08:38,0,0,1610612742.0,Marion,SUB in: S. Marion,substitution,substitution,0,Low
+21300025,199,substitution,2,PT08M38.00S,08:38,Q2 08:38,0,0,1610612742.0,Dalembert,SUB in: S. Dalembert,substitution,substitution,0,Low
+21300025,200,substitution,2,PT08M38.00S,08:38,Q2 08:38,0,0,1610612742.0,Calderon,SUB in: J. Calderon,substitution,substitution,0,Low
+21300025,201,substitution,2,PT08M38.00S,08:38,Q2 08:38,0,0,1610612742.0,Ellis,SUB in: M. Ellis,substitution,2pt missed,0,Low
+21300025,200,2pt,2,PT08M23.00S,08:23,Q2 08:23,0,0,1610612742.0,Ellis,MISS Ellis 20' Pullup Jump Shot,substitution,rebound,0,Low
+21300025,201,rebound,2,PT08M21.00S,08:21,Q2 08:21,0,0,1610612745.0,,TEAM defensive REBOUND,2pt missed,2pt made,0,Low
+21300025,202,2pt,2,PT08M13.00S,08:13,Q2 08:13,47,29,1610612745.0,Asik,Asik 1' Slam Dunk (4 PTS) (Garcia 2 AST),rebound,2pt missed,18,Low
+21300025,203,2pt,2,PT07M47.00S,07:47,Q2 07:47,0,0,1610612742.0,Dalembert,MISS Dalembert 8' Turnaround Hook Shot,2pt made,rebound,0,Low
+21300025,204,rebound,2,PT07M44.00S,07:44,Q2 07:44,0,0,1610612745.0,Asik,Asik REBOUND (Off:0 Def:5),2pt missed,turnover,0,Low
+21300025,205,turnover,2,PT07M34.00S,07:34,Q2 07:34,0,0,1610612745.0,Harden,Harden Bad Pass Turnover (P3.T9),rebound,steal,0,Low
+21300025,205,steal,2,PT07M34.00S,07:34,Q2 07:34,0,0,1610612742.0,Marion,Marion STEAL (1 STL),turnover,2pt missed,0,Low
+21300025,206,2pt,2,PT07M18.00S,07:18,Q2 07:18,0,0,1610612742.0,Calderon,MISS Calderon 20' Jump Shot,steal,rebound,0,Low
+21300025,207,rebound,2,PT07M17.00S,07:17,Q2 07:17,0,0,1610612742.0,Dalembert,Dalembert REBOUND (Off:1 Def:0),2pt missed,2pt missed,0,Low
+21300025,208,2pt,2,PT07M12.00S,07:12,Q2 07:12,0,0,1610612742.0,Crowder,MISS Crowder 17' Jump Shot,rebound,rebound,0,Low
+21300025,209,rebound,2,PT07M11.00S,07:11,Q2 07:11,0,0,1610612745.0,Asik,Asik REBOUND (Off:0 Def:6),2pt missed,2pt missed,0,Low
+21300025,210,2pt,2,PT06M58.00S,06:58,Q2 06:58,0,0,1610612745.0,Asik,MISS Asik 4' Layup,rebound,block,0,Low
+21300025,210,block,2,PT06M58.00S,06:58,Q2 06:58,0,0,1610612742.0,Crowder,Crowder BLOCK (1 BLK),2pt missed,rebound,0,Low
+21300025,211,rebound,2,PT06M58.00S,06:58,Q2 06:58,0,0,1610612742.0,,TEAM defensive REBOUND,block,substitution,0,Low
+21300025,212,substitution,2,PT06M58.00S,06:58,Q2 06:58,0,0,1610612745.0,Asik,SUB out: O. Asik,rebound,substitution,0,Low
+21300025,213,substitution,2,PT06M58.00S,06:58,Q2 06:58,0,0,1610612745.0,Howard,SUB in: D. Howard,substitution,turnover,0,Low
+21300025,213,turnover,2,PT06M43.00S,06:43,Q2 06:43,0,0,1610612742.0,Ellis,Ellis Bad Pass Turnover (P2.T4),substitution,steal,0,Low
+21300025,213,steal,2,PT06M43.00S,06:43,Q2 06:43,0,0,1610612745.0,Lin,Lin STEAL (2 STL),turnover,foul,0,Low
+21300025,214,foul,2,PT06M40.00S,06:40,Q2 06:40,0,0,1610612742.0,Ellis,Ellis S.FOUL (P2.T2),steal,freethrow,0,Low
+21300025,215,freethrow,2,PT06M40.00S,06:40,Q2 06:40,0,0,1610612745.0,Parsons,MISS Parsons Free Throw 1 of 2,foul,rebound,0,Low
+21300025,216,rebound,2,PT06M40.00S,06:40,Q2 06:40,0,0,1610612745.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21300025,217,freethrow,2,PT06M40.00S,06:40,Q2 06:40,48,29,1610612745.0,Parsons,Parsons Free Throw 2 of 2 (3 PTS),rebound,2pt made,19,Low
+21300025,219,2pt,2,PT06M29.00S,06:29,Q2 06:29,48,31,1610612742.0,Ellis,Ellis 4' Driving Layup (5 PTS),freethrow,2pt made,17,Low
+21300025,220,2pt,2,PT06M16.00S,06:16,Q2 06:16,50,31,1610612745.0,Harden,Harden 3' Driving Layup (14 PTS),2pt made,foul,19,Low
+21300025,221,foul,2,PT06M16.00S,06:16,Q2 06:16,0,0,1610612742.0,Crowder,Crowder S.FOUL (P1.T3),2pt made,freethrow,0,Low
+21300025,222,freethrow,2,PT06M16.00S,06:16,Q2 06:16,51,31,1610612745.0,Harden,Harden Free Throw 1 of 1 (15 PTS),foul,turnover,20,Low
+21300025,224,turnover,2,PT05M59.00S,05:59,Q2 05:59,0,0,1610612742.0,Ellis,Ellis Bad Pass Turnover (P3.T5),freethrow,steal,0,Low
+21300025,224,steal,2,PT05M59.00S,05:59,Q2 05:59,0,0,1610612745.0,Harden,Harden STEAL (1 STL),turnover,2pt made,0,Low
+21300025,225,2pt,2,PT05M53.00S,05:53,Q2 05:53,53,31,1610612745.0,Lin,Lin 2' Driving Reverse Layup (9 PTS) (Harden 2 AST),steal,timeout,22,Low
+21300025,226,timeout,2,PT05M53.00S,05:53,Q2 05:53,0,0,1610612742.0,,Mavericks Timeout: Regular (Reg.3 Short 1),2pt made,substitution,0,Low
+21300025,228,substitution,2,PT05M53.00S,05:53,Q2 05:53,0,0,1610612745.0,Garcia,SUB out: F. Garcia,timeout,substitution,0,Low
+21300025,229,substitution,2,PT05M53.00S,05:53,Q2 05:53,0,0,1610612742.0,Marion,SUB out: S. Marion,substitution,substitution,0,Low
+21300025,230,substitution,2,PT05M53.00S,05:53,Q2 05:53,0,0,1610612742.0,Crowder,SUB out: J. Crowder,substitution,substitution,0,Low
+21300025,231,substitution,2,PT05M53.00S,05:53,Q2 05:53,0,0,1610612745.0,Brewer,SUB in: R. Brewer,substitution,substitution,0,Low
+21300025,232,substitution,2,PT05M53.00S,05:53,Q2 05:53,0,0,1610612742.0,Carter,SUB in: V. Carter,substitution,substitution,0,Low
+21300025,233,substitution,2,PT05M53.00S,05:53,Q2 05:53,0,0,1610612742.0,Nowitzki,SUB in: D. Nowitzki,substitution,2pt made,0,Low
+21300025,231,2pt,2,PT05M36.00S,05:36,Q2 05:36,53,33,1610612742.0,Dalembert,Dalembert 2' Dunk (2 PTS) (Ellis 1 AST),substitution,2pt made,20,Low
+21300025,233,2pt,2,PT05M12.00S,05:12,Q2 05:12,55,33,1610612745.0,Harden,Harden 5' Running Jump Shot (17 PTS),2pt made,foul,22,Low
+21300025,234,foul,2,PT04M54.00S,04:54,Q2 04:54,0,0,1610612745.0,Brewer,Brewer S.FOUL (P1.T1),2pt made,freethrow,0,Low
+21300025,235,freethrow,2,PT04M54.00S,04:54,Q2 04:54,55,34,1610612742.0,Nowitzki,Nowitzki Free Throw 1 of 2 (6 PTS),foul,freethrow,21,Low
+21300025,237,freethrow,2,PT04M54.00S,04:54,Q2 04:54,55,35,1610612742.0,Nowitzki,Nowitzki Free Throw 2 of 2 (7 PTS),freethrow,turnover,20,Low
+21300025,239,turnover,2,PT04M38.00S,04:38,Q2 04:38,0,0,1610612745.0,Lin,Lin Poss Lost Ball Turnover (P5.T10),freethrow,steal,0,Low
+21300025,239,steal,2,PT04M38.00S,04:38,Q2 04:38,0,0,1610612742.0,Calderon,Calderon STEAL (1 STL),turnover,2pt made,0,Low
+21300025,243,2pt,2,PT04M25.00S,04:25,Q2 04:25,55,37,1610612742.0,Ellis,Ellis 22' Pullup Jump Shot (7 PTS),steal,3pt missed,18,Low
+21300025,245,3pt,2,PT04M06.00S,04:06,Q2 04:06,0,0,1610612745.0,Harden,MISS Harden 25' 3PT Jump Shot,2pt made,rebound,0,Low
+21300025,246,rebound,2,PT04M05.00S,04:05,Q2 04:05,0,0,1610612742.0,Ellis,Ellis REBOUND (Off:0 Def:1),3pt missed,turnover,0,Low
+21300025,247,turnover,2,PT03M58.00S,03:58,Q2 03:58,0,0,1610612742.0,Ellis,Ellis Traveling Turnover (P4.T6),rebound,substitution,0,Low
+21300025,248,substitution,2,PT03M58.00S,03:58,Q2 03:58,0,0,1610612745.0,Lin,SUB out: J. Lin,turnover,substitution,0,Low
+21300025,249,substitution,2,PT03M58.00S,03:58,Q2 03:58,0,0,1610612745.0,Brooks,SUB in: A. Brooks,substitution,foul,0,Low
+21300025,249,foul,2,PT03M41.00S,03:41,Q2 03:41,0,0,1610612742.0,Nowitzki,Nowitzki S.FOUL (P2.T4),substitution,freethrow,0,Low
+21300025,250,freethrow,2,PT03M41.00S,03:41,Q2 03:41,0,0,1610612745.0,Parsons,MISS Parsons Free Throw 1 of 2,foul,rebound,0,Low
+21300025,251,rebound,2,PT03M41.00S,03:41,Q2 03:41,0,0,1610612745.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21300025,252,freethrow,2,PT03M41.00S,03:41,Q2 03:41,56,37,1610612745.0,Parsons,Parsons Free Throw 2 of 2 (4 PTS),rebound,foul,19,Low
+21300025,254,foul,2,PT03M23.00S,03:23,Q2 03:23,0,0,1610612745.0,Howard,ROCKETS T.Foul (Def. 3 Sec Howard ),freethrow,freethrow,0,Low
+21300025,256,freethrow,2,PT03M23.00S,03:23,Q2 03:23,56,38,1610612742.0,Nowitzki,Nowitzki Free Throw Technical (8 PTS),foul,3pt missed,18,Low
+21300025,259,3pt,2,PT03M11.00S,03:11,Q2 03:11,0,0,1610612742.0,Ellis,MISS Ellis 26' 3PT Jump Shot,freethrow,2pt made,0,Low
+21300025,260,2pt,2,PT03M10.00S,03:10,Q2 03:10,56,40,1610612742.0,Carter,Carter 1' Tip Shot (4 PTS),3pt missed,rebound,16,Low
+21300025,261,rebound,2,PT03M10.00S,03:10,Q2 03:10,0,0,1610612742.0,Carter,Carter REBOUND (Off:1 Def:1),2pt made,2pt made,0,Low
+21300025,262,2pt,2,PT02M49.00S,02:49,Q2 02:49,58,40,1610612745.0,Parsons,Parsons 20' Jump Shot (6 PTS) (Brewer 1 AST),rebound,2pt made,18,Low
+21300025,263,2pt,2,PT02M36.00S,02:36,Q2 02:36,58,42,1610612742.0,Dalembert,Dalembert 14' Jump Shot (4 PTS),2pt made,3pt missed,16,Low
+21300025,264,3pt,2,PT02M24.00S,02:24,Q2 02:24,0,0,1610612745.0,Brooks,MISS Brooks 24' 3PT Jump Shot,2pt made,rebound,0,Low
+21300025,265,rebound,2,PT02M22.00S,02:22,Q2 02:22,0,0,1610612742.0,,TEAM defensive REBOUND,3pt missed,timeout,0,Low
+21300025,266,timeout,2,PT02M22.00S,02:22,Q2 02:22,0,0,0.0,,Timeout: Regular,rebound,substitution,0,Low
+21300025,268,substitution,2,PT02M22.00S,02:22,Q2 02:22,0,0,1610612745.0,Brewer,SUB out: R. Brewer,timeout,substitution,0,Low
+21300025,269,substitution,2,PT02M22.00S,02:22,Q2 02:22,0,0,1610612745.0,Garcia,SUB in: F. Garcia,substitution,2pt made,0,Low
+21300025,269,2pt,2,PT02M04.00S,02:04,Q2 02:04,58,44,1610612742.0,Ellis,Ellis 2' Driving Layup (9 PTS) (Nowitzki 1 AST),substitution,3pt missed,14,Low
+21300025,270,3pt,2,PT01M47.00S,01:47,Q2 01:47,0,0,1610612745.0,Brooks,MISS Brooks 26' 3PT Jump Shot,2pt made,rebound,0,Low
+21300025,271,rebound,2,PT01M46.00S,01:46,Q2 01:46,0,0,1610612742.0,Ellis,Ellis REBOUND (Off:0 Def:2),3pt missed,2pt made,0,Low
+21300025,272,2pt,2,PT01M34.00S,01:34,Q2 01:34,58,46,1610612742.0,Nowitzki,Nowitzki 2' Layup (10 PTS),rebound,3pt made,12,Low
+21300025,273,3pt,2,PT01M19.00S,01:19,Q2 01:19,61,46,1610612745.0,Garcia,Garcia 24' 3PT Jump Shot (3 PTS) (Harden 3 AST),2pt made,3pt missed,15,Low
+21300025,274,3pt,2,PT01M07.00S,01:07,Q2 01:07,0,0,1610612742.0,Ellis,MISS Ellis 25' 3PT Pullup Jump Shot,3pt made,rebound,0,Low
+21300025,275,rebound,2,PT01M06.00S,01:06,Q2 01:06,0,0,1610612745.0,Brooks,Brooks REBOUND (Off:1 Def:1),3pt missed,turnover,0,Low
+21300025,276,turnover,2,PT01M00.00S,01:00,Q2 01:00,0,0,1610612745.0,Parsons,Parsons Traveling Turnover (P2.T11),rebound,3pt missed,0,Low
+21300025,279,3pt,2,PT00M47.90S,00:47,Q2 00:47,0,0,1610612742.0,Calderon,MISS Calderon 24' 3PT Jump Shot,turnover,rebound,0,Low
+21300025,280,rebound,2,PT00M46.70S,00:46,Q2 00:46,0,0,1610612745.0,Garcia,Garcia REBOUND (Off:1 Def:1),3pt missed,3pt missed,0,Low
+21300025,281,3pt,2,PT00M32.90S,00:32,Q2 00:32,0,0,1610612745.0,Harden,MISS Harden 26' 3PT Jump Shot,rebound,rebound,0,Low
+21300025,282,rebound,2,PT00M31.80S,00:31,Q2 00:31,0,0,1610612742.0,Calderon,Calderon REBOUND (Off:0 Def:1),3pt missed,2pt made,0,Low
+21300025,283,2pt,2,PT00M26.60S,00:26,Q2 00:26,61,48,1610612742.0,Ellis,Ellis 2' Driving Layup (11 PTS) (Calderon 3 AST),rebound,turnover,13,Low
+21300025,284,turnover,2,PT00M04.90S,00:04,Q2 00:04,0,0,1610612745.0,Garcia,Garcia Bad Pass Turnover (P1.T12),2pt made,steal,0,Low
+21300025,284,steal,2,PT00M04.90S,00:04,Q2 00:04,0,0,1610612742.0,Dalembert,Dalembert STEAL (1 STL),turnover,foul,0,Low
+21300025,285,foul,2,PT00M00.80S,00:00,Q2 00:00,0,0,1610612745.0,Garcia,Garcia FLAGRANT.FOUL.TYPE1 (P1.T2),steal,instant replay,0,Low
+21300025,287,freethrow,2,PT00M00.80S,00:00,Q2 00:00,61,49,1610612742.0,Ellis,Ellis Free Throw Flagrant 1 of 2 (12 PTS),instant replay,freethrow,12,Low
+21300025,289,freethrow,2,PT00M00.80S,00:00,Q2 00:00,61,50,1610612742.0,Ellis,Ellis Free Throw Flagrant 2 of 2 (13 PTS),freethrow,substitution,11,Low
+21300025,291,substitution,2,PT00M00.80S,00:00,Q2 00:00,0,0,1610612742.0,Dalembert,SUB out: S. Dalembert,freethrow,substitution,0,Low
+21300025,292,substitution,2,PT00M00.80S,00:00,Q2 00:00,0,0,1610612742.0,Blair,SUB in: D. Blair,substitution,3pt missed,0,Low
+21300025,292,3pt,2,PT00M00.00S,00:00,Q2 00:00,0,0,1610612742.0,Calderon,MISS Calderon  3PT Jump Shot,substitution,rebound,0,Low
+21300025,293,rebound,2,PT00M00.00S,00:00,Q2 00:00,0,0,1610612742.0,,TEAM offensive REBOUND,3pt missed,period,0,Low
+21300025,294,period,2,PT00M00.00S,00:00,Q2 00:00,61,50,1610612745.0,,End of 2nd Period (9:11 PM EST),rebound,period,11,Low
+21300025,296,period,3,PT12M00.00S,12:00,Q3 12:00,61,50,1610612745.0,,Start of 3rd Period (9:28 PM EST),period,substitution,11,Low
+21300025,297,3pt,3,PT11M45.00S,11:45,Q3 11:45,0,0,1610612742.0,Nowitzki,MISS Nowitzki 26' 3PT Jump Shot,substitution,rebound,0,Low
+21300025,298,rebound,3,PT11M43.00S,11:43,Q3 11:43,0,0,1610612745.0,Harden,Harden REBOUND (Off:0 Def:3),3pt missed,turnover,0,Low
+21300025,299,turnover,3,PT11M33.00S,11:33,Q3 11:33,0,0,1610612745.0,Howard,Howard Bad Pass Turnover (P1.T13),rebound,steal,0,Low
+21300025,299,steal,3,PT11M33.00S,11:33,Q3 11:33,0,0,1610612742.0,Marion,Marion STEAL (2 STL),turnover,2pt missed,0,Low
+21300025,300,2pt,3,PT11M23.00S,11:23,Q3 11:23,0,0,1610612742.0,Ellis,MISS Ellis 22' Jump Shot,steal,rebound,0,Low
+21300025,301,rebound,3,PT11M22.00S,11:22,Q3 11:22,0,0,1610612745.0,Asik,Asik REBOUND (Off:0 Def:7),2pt missed,turnover,0,Low
+21300025,302,turnover,3,PT11M16.00S,11:16,Q3 11:16,0,0,1610612745.0,Lin,Lin Bad Pass Turnover (P6.T14),rebound,steal,0,Low
+21300025,302,steal,3,PT11M16.00S,11:16,Q3 11:16,0,0,1610612742.0,Ellis,Ellis STEAL (2 STL),turnover,turnover,0,Low
+21300025,303,turnover,3,PT11M00.00S,11:00,Q3 11:00,0,0,1610612742.0,Calderon,Calderon Bad Pass Turnover (P1.T7),steal,steal,0,Low
+21300025,303,steal,3,PT11M00.00S,11:00,Q3 11:00,0,0,1610612745.0,Lin,Lin STEAL (3 STL),turnover,foul,0,Low
+21300025,304,foul,3,PT10M59.00S,10:59,Q3 10:59,0,0,1610612742.0,Nowitzki,Nowitzki Personal Take Foul (P3.T1),steal,instant replay,0,Low
+21300025,306,turnover,3,PT10M47.00S,10:47,Q3 10:47,0,0,1610612745.0,Parsons,Parsons Traveling Turnover (P3.T15),instant replay,2pt missed,0,Low
+21300025,307,2pt,3,PT10M29.00S,10:29,Q3 10:29,0,0,1610612742.0,Marion,MISS Marion 4' Jump Shot,turnover,rebound,0,Low
+21300025,308,rebound,3,PT10M28.00S,10:28,Q3 10:28,0,0,1610612745.0,Howard,Howard REBOUND (Off:4 Def:6),2pt missed,3pt missed,0,Low
+21300025,309,3pt,3,PT10M21.00S,10:21,Q3 10:21,0,0,1610612745.0,Lin,MISS Lin 25' 3PT Jump Shot,rebound,rebound,0,Low
+21300025,310,rebound,3,PT10M18.00S,10:18,Q3 10:18,0,0,1610612742.0,Marion,Marion REBOUND (Off:2 Def:2),3pt missed,foul,0,Low
+21300025,311,foul,3,PT10M13.00S,10:13,Q3 10:13,0,0,1610612745.0,Parsons,Parsons P.FOUL (P1.T1),rebound,2pt missed,0,Low
+21300025,312,2pt,3,PT10M06.00S,10:06,Q3 10:06,0,0,1610612742.0,Nowitzki,MISS Nowitzki 2' Layup,foul,rebound,0,Low
+21300025,313,rebound,3,PT10M05.00S,10:05,Q3 10:05,0,0,1610612745.0,Asik,Asik REBOUND (Off:0 Def:8),2pt missed,foul,0,Low
+21300025,314,foul,3,PT10M03.00S,10:03,Q3 10:03,0,0,1610612742.0,Dalembert,Dalembert P.FOUL (P3.T2),rebound,3pt missed,0,Low
+21300025,316,3pt,3,PT09M47.00S,09:47,Q3 09:47,0,0,1610612745.0,Parsons,MISS Parsons 24' 3PT Jump Shot,foul,rebound,0,Low
+21300025,317,rebound,3,PT09M46.00S,09:46,Q3 09:46,0,0,1610612742.0,,TEAM defensive REBOUND,3pt missed,foul,0,Low
+21300025,318,foul,3,PT09M46.00S,09:46,Q3 09:46,0,0,1610612745.0,Asik,Asik L.B.FOUL (P3.T2),rebound,2pt missed,0,Low
+21300025,319,2pt,3,PT09M28.00S,09:28,Q3 09:28,0,0,1610612742.0,Ellis,MISS Ellis 21' Pullup Jump Shot,foul,rebound,0,Low
+21300025,320,rebound,3,PT09M25.00S,09:25,Q3 09:25,0,0,1610612745.0,Howard,Howard REBOUND (Off:4 Def:7),2pt missed,turnover,0,Low
+21300025,321,turnover,3,PT09M13.00S,09:13,Q3 09:13,0,0,1610612745.0,Harden,Harden Out of Bounds Lost Ball Turnover (P4.T16),rebound,foul,0,Low
+21300025,322,foul,3,PT09M01.00S,09:01,Q3 09:01,0,0,1610612745.0,Asik,Asik S.FOUL (P4.T3),turnover,freethrow,0,Low
+21300025,323,freethrow,3,PT09M01.00S,09:01,Q3 09:01,61,51,1610612742.0,Ellis,Ellis Free Throw 1 of 2 (14 PTS),foul,freethrow,10,Low
+21300025,326,freethrow,3,PT09M01.00S,09:01,Q3 09:01,61,52,1610612742.0,Ellis,Ellis Free Throw 2 of 2 (15 PTS),freethrow,substitution,9,Low
+21300025,325,substitution,3,PT09M01.00S,09:01,Q3 09:01,0,0,1610612745.0,Asik,SUB out: O. Asik,freethrow,substitution,0,Low
+21300025,326,substitution,3,PT09M01.00S,09:01,Q3 09:01,0,0,1610612745.0,Casspi,SUB in: O. Casspi,substitution,foul,0,Low
+21300025,328,foul,3,PT08M51.00S,08:51,Q3 08:51,0,0,1610612742.0,Ellis,Ellis P.FOUL (P3.T3),substitution,3pt made,0,Low
+21300025,329,3pt,3,PT08M38.00S,08:38,Q3 08:38,64,52,1610612745.0,Casspi,Casspi  3PT Jump Shot (11 PTS) (Parsons 2 AST),foul,foul,12,Low
+21300025,330,foul,3,PT08M27.00S,08:27,Q3 08:27,0,0,1610612745.0,Harden,Harden P.FOUL (P2.T4),3pt made,2pt missed,0,Low
+21300025,332,2pt,3,PT08M12.00S,08:12,Q3 08:12,0,0,1610612742.0,Calderon,MISS Calderon 17' Turnaround Jump Shot,foul,rebound,0,Low
+21300025,333,rebound,3,PT08M11.00S,08:11,Q3 08:11,0,0,1610612742.0,Marion,Marion REBOUND (Off:3 Def:2),2pt missed,2pt made,0,Low
+21300025,334,2pt,3,PT08M01.00S,08:01,Q3 08:01,64,54,1610612742.0,Marion,Marion 9' Jump Shot (5 PTS) (Nowitzki 2 AST),rebound,2pt missed,10,Low
+21300025,335,2pt,3,PT07M53.00S,07:53,Q3 07:53,0,0,1610612745.0,Lin,MISS Lin 5' Driving Layup,2pt made,block,0,Low
+21300025,335,block,3,PT07M53.00S,07:53,Q3 07:53,0,0,1610612742.0,Marion,Marion BLOCK (1 BLK),2pt missed,rebound,0,Low
+21300025,336,rebound,3,PT07M51.00S,07:51,Q3 07:51,0,0,1610612742.0,Ellis,Ellis REBOUND (Off:0 Def:3),block,2pt made,0,Low
+21300025,337,2pt,3,PT07M48.00S,07:48,Q3 07:48,64,56,1610612742.0,Marion,Marion 1' Dunk (7 PTS) (Calderon 4 AST),rebound,timeout,8,Low
+21300025,338,timeout,3,PT07M48.00S,07:48,Q3 07:48,0,0,1610612745.0,,ROCKETS Timeout: Regular (Full 2 Short 0),2pt made,foul,0,Low
+21300025,342,foul,3,PT07M34.00S,07:34,Q3 07:34,0,0,1610612742.0,Nowitzki,Nowitzki S.FOUL (P4.T4),timeout,freethrow,0,Low
+21300025,343,freethrow,3,PT07M34.00S,07:34,Q3 07:34,0,0,1610612745.0,Casspi,MISS Casspi Free Throw 1 of 2,foul,rebound,0,Low
+21300025,344,rebound,3,PT07M34.00S,07:34,Q3 07:34,0,0,1610612745.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21300025,346,freethrow,3,PT07M34.00S,07:34,Q3 07:34,65,56,1610612745.0,Casspi,Casspi Free Throw 2 of 2 (12 PTS),rebound,substitution,9,Low
+21300025,345,substitution,3,PT07M34.00S,07:34,Q3 07:34,0,0,1610612742.0,Nowitzki,SUB out: D. Nowitzki,freethrow,substitution,0,Low
+21300025,346,substitution,3,PT07M34.00S,07:34,Q3 07:34,0,0,1610612742.0,Carter,SUB in: V. Carter,substitution,3pt missed,0,Low
+21300025,348,3pt,3,PT07M13.00S,07:13,Q3 07:13,0,0,1610612742.0,Carter,MISS Carter 25' 3PT Jump Shot,substitution,rebound,0,Low
+21300025,349,rebound,3,PT07M12.00S,07:12,Q3 07:12,0,0,1610612745.0,Lin,Lin REBOUND (Off:0 Def:3),3pt missed,3pt missed,0,Low
+21300025,350,3pt,3,PT07M03.00S,07:03,Q3 07:03,0,0,1610612745.0,Parsons,MISS Parsons 25' 3PT Jump Shot,rebound,rebound,0,Low
+21300025,351,rebound,3,PT07M02.00S,07:02,Q3 07:02,0,0,1610612742.0,Dalembert,Dalembert REBOUND (Off:1 Def:1),3pt missed,2pt missed,0,Low
+21300025,352,2pt,3,PT06M53.00S,06:53,Q3 06:53,0,0,1610612742.0,Ellis,MISS Ellis 18' Pullup Jump Shot,rebound,2pt missed,0,Low
+21300025,353,2pt,3,PT06M52.00S,06:52,Q3 06:52,0,0,1610612742.0,Marion,MISS Marion 3' Tip Shot,2pt missed,rebound,0,Low
+21300025,354,rebound,3,PT06M52.00S,06:52,Q3 06:52,0,0,1610612742.0,Marion,Marion REBOUND (Off:4 Def:2),2pt missed,rebound,0,Low
+21300025,355,rebound,3,PT06M50.00S,06:50,Q3 06:50,0,0,1610612745.0,Parsons,Parsons REBOUND (Off:2 Def:3),rebound,foul,0,Low
+21300025,356,foul,3,PT06M36.00S,06:36,Q3 06:36,0,0,1610612742.0,Marion,Marion S.FOUL (P1.PN),rebound,freethrow,0,Low
+21300025,357,freethrow,3,PT06M36.00S,06:36,Q3 06:36,66,56,1610612745.0,Harden,Harden Free Throw 1 of 2 (18 PTS),foul,freethrow,10,Low
+21300025,359,freethrow,3,PT06M36.00S,06:36,Q3 06:36,0,0,1610612745.0,Harden,MISS Harden Free Throw 2 of 2,freethrow,2pt made,0,Low
+21300025,361,2pt,3,PT06M35.00S,06:35,Q3 06:35,68,56,1610612745.0,Howard,Howard 2' Tip Shot (8 PTS),freethrow,rebound,12,Low
+21300025,362,rebound,3,PT06M35.00S,06:35,Q3 06:35,0,0,1610612745.0,Howard,Howard REBOUND (Off:5 Def:7),2pt made,2pt missed,0,Low
+21300025,363,2pt,3,PT06M16.00S,06:16,Q3 06:16,0,0,1610612742.0,Calderon,MISS Calderon 21' Pullup Jump Shot,rebound,rebound,0,Low
+21300025,364,rebound,3,PT06M15.00S,06:15,Q3 06:15,0,0,1610612745.0,,TEAM defensive REBOUND,2pt missed,foul,0,Low
+21300025,365,foul,3,PT06M15.00S,06:15,Q3 06:15,0,0,1610612742.0,Dalembert,Dalembert L.B.FOUL (P4.PN),rebound,freethrow,0,Low
+21300025,366,freethrow,3,PT06M15.00S,06:15,Q3 06:15,0,0,1610612745.0,Howard,MISS Howard Free Throw 1 of 2,foul,rebound,0,Low
+21300025,367,rebound,3,PT06M15.00S,06:15,Q3 06:15,0,0,1610612745.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21300025,369,freethrow,3,PT06M15.00S,06:15,Q3 06:15,0,0,1610612745.0,Howard,MISS Howard Free Throw 2 of 2,rebound,rebound,0,Low
+21300025,371,rebound,3,PT06M15.00S,06:15,Q3 06:15,0,0,1610612742.0,Ellis,Ellis REBOUND (Off:0 Def:4),freethrow,substitution,0,Low
+21300025,368,substitution,3,PT06M15.00S,06:15,Q3 06:15,0,0,1610612742.0,Dalembert,SUB out: S. Dalembert,rebound,substitution,0,Low
+21300025,369,substitution,3,PT06M15.00S,06:15,Q3 06:15,0,0,1610612742.0,Nowitzki,SUB in: D. Nowitzki,substitution,foul,0,Low
+21300025,372,foul,3,PT06M03.00S,06:03,Q3 06:03,0,0,1610612745.0,Howard,Howard P.FOUL (P2.PN),substitution,freethrow,0,Low
+21300025,373,freethrow,3,PT06M03.00S,06:03,Q3 06:03,68,57,1610612742.0,Nowitzki,Nowitzki Free Throw 1 of 2 (11 PTS),foul,freethrow,11,Low
+21300025,375,freethrow,3,PT06M03.00S,06:03,Q3 06:03,68,58,1610612742.0,Nowitzki,Nowitzki Free Throw 2 of 2 (12 PTS),freethrow,foul,10,Low
+21300025,377,foul,3,PT06M01.00S,06:01,Q3 06:01,0,0,1610612742.0,Calderon,Calderon Personal Take Foul (P1.PN),freethrow,freethrow,0,Low
+21300025,378,freethrow,3,PT06M01.00S,06:01,Q3 06:01,0,0,1610612745.0,Howard,MISS Howard Free Throw 1 of 2,foul,rebound,0,Low
+21300025,379,rebound,3,PT06M01.00S,06:01,Q3 06:01,0,0,1610612745.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21300025,380,freethrow,3,PT06M01.00S,06:01,Q3 06:01,0,0,1610612745.0,Howard,MISS Howard Free Throw 2 of 2,rebound,rebound,0,Low
+21300025,382,rebound,3,PT06M01.00S,06:01,Q3 06:01,0,0,1610612742.0,Marion,Marion REBOUND (Off:4 Def:3),freethrow,2pt missed,0,Low
+21300025,384,2pt,3,PT05M52.00S,05:52,Q3 05:52,0,0,1610612742.0,Ellis,MISS Ellis 22' Pullup Jump Shot,rebound,rebound,0,Low
+21300025,385,rebound,3,PT05M50.00S,05:50,Q3 05:50,0,0,1610612745.0,,TEAM defensive REBOUND,2pt missed,foul,0,Low
+21300025,386,foul,3,PT05M50.00S,05:50,Q3 05:50,0,0,1610612742.0,Marion,Marion L.B.FOUL (P2.PN),rebound,freethrow,0,Low
+21300025,387,freethrow,3,PT05M50.00S,05:50,Q3 05:50,69,58,1610612745.0,Lin,Lin Free Throw 1 of 2 (10 PTS),foul,freethrow,11,Low
+21300025,389,freethrow,3,PT05M50.00S,05:50,Q3 05:50,70,58,1610612745.0,Lin,Lin Free Throw 2 of 2 (11 PTS),freethrow,2pt made,12,Low
+21300025,392,2pt,3,PT05M36.00S,05:36,Q3 05:36,70,60,1610612742.0,Nowitzki,Nowitzki 11' Fadeaway Jumper (14 PTS) (Calderon 5 AST),freethrow,foul,10,Low
+21300025,394,foul,3,PT05M34.00S,05:34,Q3 05:34,0,0,1610612742.0,Calderon,Calderon Personal Take Foul (P2.PN),2pt made,freethrow,0,Low
+21300025,395,freethrow,3,PT05M34.00S,05:34,Q3 05:34,0,0,1610612745.0,Howard,MISS Howard Free Throw 1 of 2,foul,rebound,0,Low
+21300025,396,rebound,3,PT05M34.00S,05:34,Q3 05:34,0,0,1610612745.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21300025,397,freethrow,3,PT05M34.00S,05:34,Q3 05:34,0,0,1610612745.0,Howard,MISS Howard Free Throw 2 of 2,rebound,rebound,0,Low
+21300025,399,rebound,3,PT05M34.00S,05:34,Q3 05:34,0,0,1610612742.0,Marion,Marion REBOUND (Off:4 Def:4),freethrow,2pt missed,0,Low
+21300025,400,2pt,3,PT05M11.00S,05:11,Q3 05:11,0,0,1610612742.0,Ellis,MISS Ellis 21' Pullup Jump Shot,rebound,rebound,0,Low
+21300025,401,rebound,3,PT05M09.00S,05:09,Q3 05:09,0,0,1610612745.0,Casspi,Casspi REBOUND (Off:1 Def:1),2pt missed,3pt made,0,Low
+21300025,402,3pt,3,PT05M02.00S,05:02,Q3 05:02,73,60,1610612745.0,Harden,Harden 25' 3PT Jump Shot (21 PTS) (Lin 3 AST),rebound,timeout,13,Low
+21300025,403,timeout,3,PT05M00.00S,05:00,Q3 05:00,0,0,1610612742.0,,Mavericks Timeout: Regular (Reg.4 Short 1),3pt made,2pt made,0,Low
+21300025,407,2pt,3,PT04M52.00S,04:52,Q3 04:52,73,62,1610612742.0,Nowitzki,Nowitzki 2' Layup (16 PTS) (Calderon 6 AST),timeout,foul,11,Low
+21300025,408,foul,3,PT04M45.00S,04:45,Q3 04:45,0,0,1610612742.0,Carter,Carter Personal Take Foul (P2.PN),2pt made,freethrow,0,Low
+21300025,409,freethrow,3,PT04M45.00S,04:45,Q3 04:45,74,62,1610612745.0,Howard,Howard Free Throw 1 of 2 (9 PTS),foul,freethrow,12,Low
+21300025,411,freethrow,3,PT04M45.00S,04:45,Q3 04:45,75,62,1610612745.0,Howard,Howard Free Throw 2 of 2 (10 PTS),freethrow,2pt made,13,Low
+21300025,413,2pt,3,PT04M23.00S,04:23,Q3 04:23,75,64,1610612742.0,Carter,Carter 8' Running Jump Shot (6 PTS),freethrow,foul,11,Low
+21300025,414,foul,3,PT04M15.00S,04:15,Q3 04:15,0,0,1610612742.0,Carter,Carter Personal Take Foul (P3.PN),2pt made,freethrow,0,Low
+21300025,415,freethrow,3,PT04M15.00S,04:15,Q3 04:15,76,64,1610612745.0,Howard,Howard Free Throw 1 of 2 (11 PTS),foul,freethrow,12,Low
+21300025,417,freethrow,3,PT04M15.00S,04:15,Q3 04:15,0,0,1610612745.0,Howard,MISS Howard Free Throw 2 of 2,freethrow,rebound,0,Low
+21300025,419,rebound,3,PT04M15.00S,04:15,Q3 04:15,0,0,1610612742.0,Carter,Carter REBOUND (Off:1 Def:2),freethrow,foul,0,Low
+21300025,420,foul,3,PT04M02.00S,04:02,Q3 04:02,0,0,1610612745.0,Howard,Howard P.FOUL (P3.PN),rebound,freethrow,0,Low
+21300025,421,freethrow,3,PT04M02.00S,04:02,Q3 04:02,76,65,1610612742.0,Nowitzki,Nowitzki Free Throw 1 of 2 (17 PTS),foul,freethrow,11,Low
+21300025,423,freethrow,3,PT04M02.00S,04:02,Q3 04:02,76,66,1610612742.0,Nowitzki,Nowitzki Free Throw 2 of 2 (18 PTS),freethrow,3pt missed,10,Low
+21300025,425,3pt,3,PT03M55.00S,03:55,Q3 03:55,0,0,1610612745.0,Parsons,MISS Parsons 24' 3PT Jump Shot,freethrow,rebound,0,Low
+21300025,426,rebound,3,PT03M54.00S,03:54,Q3 03:54,0,0,1610612742.0,Marion,Marion REBOUND (Off:4 Def:5),3pt missed,3pt missed,0,Low
+21300025,427,3pt,3,PT03M39.00S,03:39,Q3 03:39,0,0,1610612742.0,Calderon,MISS Calderon 25' 3PT Jump Shot,rebound,rebound,0,Low
+21300025,428,rebound,3,PT03M39.00S,03:39,Q3 03:39,0,0,1610612742.0,,TEAM offensive REBOUND,3pt missed,foul,0,Low
+21300025,429,foul,3,PT03M39.00S,03:39,Q3 03:39,0,0,1610612745.0,Howard,Howard L.B.FOUL (P4.PN),rebound,freethrow,0,Low
+21300025,430,freethrow,3,PT03M39.00S,03:39,Q3 03:39,76,67,1610612742.0,Nowitzki,Nowitzki Free Throw 1 of 2 (19 PTS),foul,freethrow,9,Low
+21300025,436,freethrow,3,PT03M39.00S,03:39,Q3 03:39,76,68,1610612742.0,Nowitzki,Nowitzki Free Throw 2 of 2 (20 PTS),freethrow,substitution,8,Low
+21300025,432,substitution,3,PT03M39.00S,03:39,Q3 03:39,0,0,1610612745.0,Lin,SUB out: J. Lin,freethrow,substitution,0,Low
+21300025,433,substitution,3,PT03M39.00S,03:39,Q3 03:39,0,0,1610612745.0,Howard,SUB out: D. Howard,substitution,substitution,0,Low
+21300025,434,substitution,3,PT03M39.00S,03:39,Q3 03:39,0,0,1610612742.0,Marion,SUB out: S. Marion,substitution,substitution,0,Low
+21300025,435,substitution,3,PT03M39.00S,03:39,Q3 03:39,0,0,1610612742.0,Ellis,SUB out: M. Ellis,substitution,substitution,0,Low
+21300025,436,substitution,3,PT03M39.00S,03:39,Q3 03:39,0,0,1610612745.0,Brooks,SUB in: A. Brooks,substitution,substitution,0,Low
+21300025,437,substitution,3,PT03M39.00S,03:39,Q3 03:39,0,0,1610612745.0,Garcia,SUB in: F. Garcia,substitution,substitution,0,Low
+21300025,438,substitution,3,PT03M39.00S,03:39,Q3 03:39,0,0,1610612742.0,Blair,SUB in: D. Blair,substitution,substitution,0,Low
+21300025,439,substitution,3,PT03M39.00S,03:39,Q3 03:39,0,0,1610612742.0,Ellington,SUB in: W. Ellington,substitution,2pt missed,0,Low
+21300025,438,2pt,3,PT03M20.00S,03:20,Q3 03:20,0,0,1610612745.0,Harden,MISS Harden 10' Jump Shot,substitution,block,0,Low
+21300025,438,block,3,PT03M20.00S,03:20,Q3 03:20,0,0,1610612742.0,Blair,Blair BLOCK (2 BLK),2pt missed,rebound,0,Low
+21300025,439,rebound,3,PT03M17.00S,03:17,Q3 03:17,0,0,1610612742.0,Blair,Blair REBOUND (Off:3 Def:3),block,turnover,0,Low
+21300025,440,turnover,3,PT03M16.00S,03:16,Q3 03:16,0,0,1610612742.0,Blair,Blair Bad Pass Turnover (P1.T8),rebound,steal,0,Low
+21300025,440,steal,3,PT03M16.00S,03:16,Q3 03:16,0,0,1610612745.0,Harden,Harden STEAL (2 STL),turnover,2pt missed,0,Low
+21300025,441,2pt,3,PT03M15.00S,03:15,Q3 03:15,0,0,1610612745.0,Casspi,MISS Casspi 3' Layup,steal,rebound,0,Low
+21300025,442,rebound,3,PT03M11.00S,03:11,Q3 03:11,0,0,1610612742.0,Carter,Carter REBOUND (Off:1 Def:3),2pt missed,3pt missed,0,Low
+21300025,443,3pt,3,PT03M02.00S,03:02,Q3 03:02,0,0,1610612742.0,Ellington,MISS Ellington 24' 3PT Jump Shot,rebound,rebound,0,Low
+21300025,445,rebound,3,PT03M01.00S,03:01,Q3 03:01,0,0,1610612742.0,Nowitzki,Nowitzki REBOUND (Off:2 Def:1),3pt missed,2pt made,0,Low
+21300025,444,2pt,3,PT03M00.00S,03:00,Q3 03:00,76,70,1610612742.0,Nowitzki,Nowitzki 2' Layup (22 PTS),rebound,timeout,6,Low
+21300025,446,timeout,3,PT02M59.00S,02:59,Q3 02:59,0,0,1610612745.0,,ROCKETS Timeout: Short (Full 2 Short 1),2pt made,substitution,0,Low
+21300025,449,substitution,3,PT02M59.00S,02:59,Q3 02:59,0,0,1610612745.0,Parsons,SUB out: C. Parsons,timeout,substitution,0,Low
+21300025,450,substitution,3,PT02M59.00S,02:59,Q3 02:59,0,0,1610612745.0,Asik,SUB in: O. Asik,substitution,3pt missed,0,Low
+21300025,450,3pt,3,PT02M44.00S,02:44,Q3 02:44,0,0,1610612745.0,Brooks,MISS Brooks 26' 3PT Jump Shot,substitution,rebound,0,Low
+21300025,451,rebound,3,PT02M41.00S,02:41,Q3 02:41,0,0,1610612745.0,Harden,Harden REBOUND (Off:1 Def:3),3pt missed,foul,0,Low
+21300025,452,foul,3,PT02M36.00S,02:36,Q3 02:36,0,0,1610612742.0,Blair,Blair S.FOUL (P2.PN),rebound,freethrow,0,Low
+21300025,453,freethrow,3,PT02M36.00S,02:36,Q3 02:36,77,70,1610612745.0,Harden,Harden Free Throw 1 of 2 (22 PTS),foul,freethrow,7,Low
+21300025,455,freethrow,3,PT02M36.00S,02:36,Q3 02:36,78,70,1610612745.0,Harden,Harden Free Throw 2 of 2 (23 PTS),freethrow,2pt missed,8,Low
+21300025,457,2pt,3,PT02M23.00S,02:23,Q3 02:23,0,0,1610612742.0,Nowitzki,MISS Nowitzki 19' Jump Shot,freethrow,rebound,0,Low
+21300025,458,rebound,3,PT02M22.00S,02:22,Q3 02:22,0,0,1610612745.0,Asik,Asik REBOUND (Off:0 Def:9),2pt missed,2pt made,0,Low
+21300025,459,2pt,3,PT02M18.00S,02:18,Q3 02:18,80,70,1610612745.0,Harden,Harden 3' Driving Layup (25 PTS),rebound,foul,10,Low
+21300025,460,foul,3,PT02M18.00S,02:18,Q3 02:18,0,0,1610612742.0,Nowitzki,Nowitzki S.FOUL (P5.PN),2pt made,freethrow,0,Low
+21300025,463,freethrow,3,PT02M18.00S,02:18,Q3 02:18,81,70,1610612745.0,Harden,Harden Free Throw 1 of 1 (26 PTS),foul,substitution,11,Low
+21300025,461,substitution,3,PT02M18.00S,02:18,Q3 02:18,0,0,1610612742.0,Nowitzki,SUB out: D. Nowitzki,freethrow,substitution,0,Low
+21300025,462,substitution,3,PT02M18.00S,02:18,Q3 02:18,0,0,1610612742.0,Calderon,SUB out: J. Calderon,substitution,substitution,0,Low
+21300025,463,substitution,3,PT02M18.00S,02:18,Q3 02:18,0,0,1610612742.0,Marion,SUB in: S. Marion,substitution,substitution,0,Low
+21300025,464,substitution,3,PT02M18.00S,02:18,Q3 02:18,0,0,1610612742.0,Mekel,SUB in: G. Mekel,substitution,2pt made,0,Low
+21300025,465,2pt,3,PT02M00.00S,02:00,Q3 02:00,81,72,1610612742.0,Mekel,Mekel 11' Running Bank Shot (8 PTS),substitution,foul,9,Low
+21300025,466,foul,3,PT01M49.00S,01:49,Q3 01:49,0,0,1610612745.0,Asik,Asik OFF.Foul (P5),2pt made,turnover,0,Low
+21300025,467,turnover,3,PT01M49.00S,01:49,Q3 01:49,0,0,1610612745.0,Asik,Asik Foul Turnover (P2.T17),foul,2pt missed,0,Low
+21300025,468,2pt,3,PT01M39.00S,01:39,Q3 01:39,0,0,1610612742.0,Carter,MISS Carter 3' Reverse Layup,turnover,rebound,0,Low
+21300025,469,rebound,3,PT01M37.00S,01:37,Q3 01:37,0,0,1610612745.0,Asik,Asik REBOUND (Off:0 Def:10),2pt missed,2pt missed,0,Low
+21300025,470,2pt,3,PT01M27.00S,01:27,Q3 01:27,0,0,1610612745.0,Casspi,MISS Casspi 11' Floating Jump Shot,rebound,rebound,0,Low
+21300025,471,rebound,3,PT01M25.00S,01:25,Q3 01:25,0,0,1610612742.0,Blair,Blair REBOUND (Off:3 Def:4),2pt missed,turnover,0,Low
+21300025,472,turnover,3,PT01M14.00S,01:14,Q3 01:14,0,0,1610612742.0,Blair,Blair Bad Pass Turnover (P2.T9),rebound,steal,0,Low
+21300025,472,steal,3,PT01M14.00S,01:14,Q3 01:14,0,0,1610612745.0,Garcia,Garcia STEAL (1 STL),turnover,2pt made,0,Low
+21300025,473,2pt,3,PT01M01.00S,01:01,Q3 01:01,83,72,1610612745.0,Harden,Harden 20' Jump Shot (28 PTS),steal,3pt missed,11,Low
+21300025,474,3pt,3,PT00M45.90S,00:45,Q3 00:45,0,0,1610612742.0,Ellington,MISS Ellington 25' 3PT Jump Shot,2pt made,rebound,0,Low
+21300025,475,rebound,3,PT00M43.90S,00:43,Q3 00:43,0,0,1610612742.0,Marion,Marion REBOUND (Off:5 Def:5),3pt missed,2pt missed,0,Low
+21300025,476,2pt,3,PT00M31.90S,00:31,Q3 00:31,0,0,1610612742.0,Marion,MISS Marion 19' Jump Shot,rebound,rebound,0,Low
+21300025,477,rebound,3,PT00M31.10S,00:31,Q3 00:31,0,0,1610612745.0,,TEAM defensive REBOUND,2pt missed,foul,0,Low
+21300025,478,foul,3,PT00M31.10S,00:31,Q3 00:31,0,0,1610612742.0,Blair,Blair L.B.FOUL (P3.PN),rebound,freethrow,0,Low
+21300025,479,freethrow,3,PT00M31.10S,00:31,Q3 00:31,84,72,1610612745.0,Asik,Asik Free Throw 1 of 2 (5 PTS),foul,freethrow,12,Low
+21300025,481,freethrow,3,PT00M31.10S,00:31,Q3 00:31,85,72,1610612745.0,Asik,Asik Free Throw 2 of 2 (6 PTS),freethrow,2pt missed,13,Low
+21300025,483,2pt,3,PT00M14.90S,00:14,Q3 00:14,0,0,1610612742.0,Carter,MISS Carter 2' Layup,freethrow,block,0,Low
+21300025,483,block,3,PT00M14.90S,00:14,Q3 00:14,0,0,1610612745.0,Garcia,Garcia BLOCK (2 BLK),2pt missed,rebound,0,Low
+21300025,484,rebound,3,PT00M14.90S,00:14,Q3 00:14,0,0,1610612742.0,,TEAM offensive REBOUND,block,2pt missed,0,Low
+21300025,485,2pt,3,PT00M09.90S,00:09,Q3 00:09,0,0,1610612742.0,Blair,MISS Blair 9' Jump Bank Shot,rebound,rebound,0,Low
+21300025,486,rebound,3,PT00M07.90S,00:07,Q3 00:07,0,0,1610612745.0,Asik,Asik REBOUND (Off:0 Def:11),2pt missed,2pt missed,0,Low
+21300025,487,2pt,3,PT00M02.90S,00:02,Q3 00:02,0,0,1610612745.0,Harden,MISS Harden 2' Driving Layup,rebound,rebound,0,Low
+21300025,488,rebound,3,PT00M01.00S,00:01,Q3 00:01,0,0,1610612742.0,Blair,Blair REBOUND (Off:3 Def:5),2pt missed,3pt missed,0,Low
+21300025,489,3pt,3,PT00M00.00S,00:00,Q3 00:00,0,0,1610612742.0,Blair,MISS Blair 65' 3PT Jump Shot,rebound,rebound,0,Medium
+21300025,490,rebound,3,PT00M00.00S,00:00,Q3 00:00,0,0,1610612742.0,,TEAM offensive REBOUND,3pt missed,period,0,Medium
+21300025,491,period,3,PT00M00.00S,00:00,Q3 00:00,85,72,1610612745.0,,End of 3rd Period (10:06 PM EST),rebound,period,13,Low
+21300025,493,period,4,PT12M00.00S,12:00,Q4 12:00,85,72,1610612745.0,,Start of 4th Period (10:09 PM EST),period,substitution,13,Low
+21300025,494,3pt,4,PT11M44.00S,11:44,Q4 11:44,0,0,1610612745.0,Garcia,MISS Garcia  3PT Jump Shot,substitution,rebound,0,Medium
+21300025,495,rebound,4,PT11M42.00S,11:42,Q4 11:42,0,0,1610612745.0,Asik,Asik REBOUND (Off:1 Def:11),3pt missed,foul,0,Medium
+21300025,496,foul,4,PT11M41.00S,11:41,Q4 11:41,0,0,1610612742.0,Blair,Blair P.FOUL (P4.T1),rebound,3pt made,0,Medium
+21300025,497,3pt,4,PT11M25.00S,11:25,Q4 11:25,88,72,1610612745.0,Garcia,Garcia  3PT Jump Shot (6 PTS) (Casspi 2 AST),foul,2pt made,16,Low
+21300025,498,2pt,4,PT11M06.00S,11:06,Q4 11:06,88,74,1610612742.0,Blair,Blair 8' Running Jump Shot (9 PTS) (Mekel 2 AST),3pt made,3pt made,14,Low
+21300025,499,3pt,4,PT10M54.00S,10:54,Q4 10:54,91,74,1610612745.0,Harden,Harden 27' 3PT Jump Shot (31 PTS) (Garcia 3 AST),2pt made,2pt missed,17,Low
+21300025,500,2pt,4,PT10M41.00S,10:41,Q4 10:41,0,0,1610612742.0,Blair,MISS Blair 10' Running Jump Shot,3pt made,block,0,Medium
+21300025,500,block,4,PT10M41.00S,10:41,Q4 10:41,0,0,1610612745.0,Garcia,Garcia BLOCK (3 BLK),2pt missed,rebound,0,Medium
+21300025,501,rebound,4,PT10M39.00S,10:39,Q4 10:39,0,0,1610612742.0,Blair,Blair REBOUND (Off:4 Def:5),block,2pt made,0,Medium
+21300025,502,2pt,4,PT10M36.00S,10:36,Q4 10:36,91,76,1610612742.0,Blair,Blair 2' Reverse Layup (11 PTS),rebound,turnover,15,Low
+21300025,503,turnover,4,PT10M27.00S,10:27,Q4 10:27,0,0,1610612745.0,Brooks,Brooks Bad Pass Turnover (P1.T18),2pt made,turnover,0,Medium
+21300025,504,turnover,4,PT10M12.00S,10:12,Q4 10:12,0,0,1610612742.0,Carter,Carter Bad Pass Turnover (P1.T10),turnover,steal,0,Medium
+21300025,504,steal,4,PT10M12.00S,10:12,Q4 10:12,0,0,1610612745.0,Harden,Harden STEAL (3 STL),turnover,2pt missed,0,Medium
+21300025,505,2pt,4,PT10M04.00S,10:04,Q4 10:04,0,0,1610612745.0,Asik,MISS Asik 1' Dunk,steal,rebound,0,Medium
+21300025,506,rebound,4,PT10M03.00S,10:03,Q4 10:03,0,0,1610612742.0,,TEAM defensive REBOUND,2pt missed,foul,0,Medium
+21300025,507,foul,4,PT10M03.00S,10:03,Q4 10:03,0,0,1610612745.0,Asik,Asik L.B.FOUL (P6.T1),rebound,substitution,0,Medium
+21300025,508,substitution,4,PT10M03.00S,10:03,Q4 10:03,0,0,1610612745.0,Asik,SUB out: O. Asik,foul,substitution,0,Medium
+21300025,509,substitution,4,PT10M03.00S,10:03,Q4 10:03,0,0,1610612745.0,Howard,SUB in: D. Howard,substitution,2pt missed,0,Medium
+21300025,509,2pt,4,PT09M51.00S,09:51,Q4 09:51,0,0,1610612742.0,Carter,MISS Carter 17' Pullup Jump Shot,substitution,rebound,0,Medium
+21300025,510,rebound,4,PT09M49.00S,09:49,Q4 09:49,0,0,1610612745.0,Howard,Howard REBOUND (Off:5 Def:8),2pt missed,turnover,0,Medium
+21300025,512,turnover,4,PT09M31.00S,09:31,Q4 09:31,0,0,1610612745.0,Casspi,Casspi Bad Pass Turnover (P1.T19),rebound,steal,0,Medium
+21300025,512,steal,4,PT09M31.00S,09:31,Q4 09:31,0,0,1610612742.0,Ellis,Ellis STEAL (3 STL),turnover,2pt made,0,Medium
+21300025,513,2pt,4,PT09M27.00S,09:27,Q4 09:27,91,78,1610612742.0,Ellis,Ellis 1' Driving Layup (17 PTS),steal,timeout,13,Low
+21300025,514,timeout,4,PT09M16.00S,09:16,Q4 09:16,0,0,1610612745.0,,ROCKETS Timeout: Regular (Full 3 Short 1),2pt made,substitution,0,Medium
+21300025,516,substitution,4,PT09M16.00S,09:16,Q4 09:16,0,0,1610612745.0,Casspi,SUB out: O. Casspi,timeout,substitution,0,Medium
+21300025,517,substitution,4,PT09M16.00S,09:16,Q4 09:16,0,0,1610612745.0,Harden,SUB out: J. Harden,substitution,substitution,0,Medium
+21300025,518,substitution,4,PT09M16.00S,09:16,Q4 09:16,0,0,1610612742.0,Marion,SUB out: S. Marion,substitution,substitution,0,Medium
+21300025,519,substitution,4,PT09M16.00S,09:16,Q4 09:16,0,0,1610612742.0,Blair,SUB out: D. Blair,substitution,substitution,0,Medium
+21300025,520,substitution,4,PT09M16.00S,09:16,Q4 09:16,0,0,1610612742.0,Carter,SUB out: V. Carter,substitution,substitution,0,Medium
+21300025,521,substitution,4,PT09M16.00S,09:16,Q4 09:16,0,0,1610612745.0,Parsons,SUB in: C. Parsons,substitution,substitution,0,Medium
+21300025,522,substitution,4,PT09M16.00S,09:16,Q4 09:16,0,0,1610612745.0,Lin,SUB in: J. Lin,substitution,substitution,0,Medium
+21300025,523,substitution,4,PT09M16.00S,09:16,Q4 09:16,0,0,1610612742.0,Dalembert,SUB in: S. Dalembert,substitution,substitution,0,Medium
+21300025,524,substitution,4,PT09M16.00S,09:16,Q4 09:16,0,0,1610612742.0,Nowitzki,SUB in: D. Nowitzki,substitution,substitution,0,Medium
+21300025,525,substitution,4,PT09M16.00S,09:16,Q4 09:16,0,0,1610612742.0,Crowder,SUB in: J. Crowder,substitution,foul,0,Medium
+21300025,521,foul,4,PT09M12.00S,09:12,Q4 09:12,0,0,1610612742.0,Dalembert,Dalembert P.FOUL (P5.T2),substitution,turnover,0,Medium
+21300025,522,turnover,4,PT09M00.00S,09:00,Q4 09:00,0,0,1610612745.0,Howard,Howard Bad Pass Turnover (P2.T20),foul,2pt made,0,Medium
+21300025,523,2pt,4,PT08M46.00S,08:46,Q4 08:46,91,80,1610612742.0,Ellis,Ellis 2' Driving Layup (19 PTS),turnover,2pt missed,11,Low
+21300025,524,2pt,4,PT08M23.00S,08:23,Q4 08:23,0,0,1610612745.0,Howard,MISS Howard 1' Driving Layup,2pt made,rebound,0,Medium
+21300025,525,rebound,4,PT08M21.00S,08:21,Q4 08:21,0,0,1610612742.0,Dalembert,Dalembert REBOUND (Off:1 Def:2),2pt missed,foul,0,Medium
+21300025,526,foul,4,PT08M18.00S,08:18,Q4 08:18,0,0,1610612745.0,Garcia,Garcia Shooting Block Foul (P2.T2),rebound,freethrow,0,Medium
+21300025,527,freethrow,4,PT08M18.00S,08:18,Q4 08:18,0,0,1610612742.0,Ellis,MISS Ellis Free Throw 1 of 2,foul,rebound,0,Medium
+21300025,528,rebound,4,PT08M18.00S,08:18,Q4 08:18,0,0,1610612742.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Medium
+21300025,529,freethrow,4,PT08M18.00S,08:18,Q4 08:18,91,81,1610612742.0,Ellis,Ellis Free Throw 2 of 2 (20 PTS),rebound,2pt missed,10,Low
+21300025,532,2pt,4,PT07M56.00S,07:56,Q4 07:56,0,0,1610612745.0,Howard,MISS Howard 6' Turnaround Jump Shot,freethrow,rebound,0,Medium
+21300025,533,rebound,4,PT07M54.00S,07:54,Q4 07:54,0,0,1610612742.0,Nowitzki,Nowitzki REBOUND (Off:2 Def:2),2pt missed,2pt made,0,Medium
+21300025,534,2pt,4,PT07M49.00S,07:49,Q4 07:49,91,83,1610612742.0,Dalembert,Dalembert 2' Layup (6 PTS) (Mekel 3 AST),rebound,foul,8,Medium
+21300025,535,foul,4,PT07M49.00S,07:49,Q4 07:49,0,0,1610612745.0,Lin,Lin S.FOUL (P1.T3),2pt made,freethrow,0,Medium
+21300025,537,freethrow,4,PT07M49.00S,07:49,Q4 07:49,0,0,1610612742.0,Dalembert,MISS Dalembert Free Throw 1 of 1,foul,rebound,0,Medium
+21300025,539,rebound,4,PT07M49.00S,07:49,Q4 07:49,0,0,1610612745.0,Howard,Howard REBOUND (Off:5 Def:9),freethrow,substitution,0,Medium
+21300025,536,substitution,4,PT07M49.00S,07:49,Q4 07:49,0,0,1610612745.0,Brooks,SUB out: A. Brooks,rebound,substitution,0,Medium
+21300025,537,substitution,4,PT07M49.00S,07:49,Q4 07:49,0,0,1610612745.0,Harden,SUB in: J. Harden,substitution,turnover,0,Medium
+21300025,540,turnover,4,PT07M26.00S,07:26,Q4 07:26,0,0,1610612745.0,Howard,Howard 3 Second Violation Turnover (P3.T21),substitution,3pt missed,0,Medium
+21300025,542,3pt,4,PT07M14.00S,07:14,Q4 07:14,0,0,1610612742.0,Nowitzki,MISS Nowitzki 25' 3PT Jump Shot,turnover,rebound,0,Medium
+21300025,543,rebound,4,PT07M13.00S,07:13,Q4 07:13,0,0,1610612745.0,Howard,Howard REBOUND (Off:5 Def:10),3pt missed,foul,0,Medium
+21300025,544,foul,4,PT07M09.00S,07:09,Q4 07:09,0,0,1610612742.0,Mekel,Mekel P.FOUL (P2.T3),rebound,2pt made,0,Medium
+21300025,545,2pt,4,PT07M00.00S,07:00,Q4 07:00,93,83,1610612745.0,Garcia,Garcia 2' Driving Layup (8 PTS),foul,3pt missed,10,Low
+21300025,546,3pt,4,PT06M48.00S,06:48,Q4 06:48,0,0,1610612742.0,Ellis,MISS Ellis 25' 3PT Jump Shot,2pt made,rebound,0,High
+21300025,547,rebound,4,PT06M46.00S,06:46,Q4 06:46,0,0,1610612745.0,Parsons,Parsons REBOUND (Off:2 Def:4),3pt missed,3pt missed,0,High
+21300025,548,3pt,4,PT06M33.00S,06:33,Q4 06:33,0,0,1610612745.0,Harden,MISS Harden 26' 3PT Jump Shot,rebound,rebound,0,High
+21300025,549,rebound,4,PT06M32.00S,06:32,Q4 06:32,0,0,1610612742.0,Dalembert,Dalembert REBOUND (Off:1 Def:3),3pt missed,turnover,0,High
+21300025,550,turnover,4,PT06M14.00S,06:14,Q4 06:14,0,0,1610612742.0,Ellis,Ellis Bad Pass Turnover (P5.T11),rebound,steal,0,High
+21300025,550,steal,4,PT06M14.00S,06:14,Q4 06:14,0,0,1610612745.0,Howard,Howard STEAL (1 STL),turnover,2pt made,0,High
+21300025,551,2pt,4,PT06M11.00S,06:11,Q4 06:11,95,83,1610612745.0,Harden,Harden 2' Driving Layup (33 PTS),steal,foul,12,Low
+21300025,552,foul,4,PT06M11.00S,06:11,Q4 06:11,0,0,1610612742.0,Nowitzki,Nowitzki S.FOUL (P6.T4),2pt made,freethrow,0,High
+21300025,554,freethrow,4,PT06M11.00S,06:11,Q4 06:11,96,83,1610612745.0,Harden,Harden Free Throw 1 of 1 (34 PTS),foul,substitution,13,Low
+21300025,553,substitution,4,PT06M11.00S,06:11,Q4 06:11,0,0,1610612742.0,Nowitzki,SUB out: D. Nowitzki,freethrow,substitution,0,High
+21300025,554,substitution,4,PT06M11.00S,06:11,Q4 06:11,0,0,1610612742.0,Carter,SUB in: V. Carter,substitution,turnover,0,High
+21300025,556,turnover,4,PT05M58.00S,05:58,Q4 05:58,0,0,1610612742.0,Dalembert,Dalembert Bad Pass Turnover (P1.T12),substitution,steal,0,High
+21300025,556,steal,4,PT05M58.00S,05:58,Q4 05:58,0,0,1610612745.0,Parsons,Parsons STEAL (1 STL),turnover,foul,0,High
+21300025,557,foul,4,PT05M58.00S,05:58,Q4 05:58,0,0,1610612742.0,Ellis,Ellis P.FOUL (P4.PN),steal,timeout,0,High
+21300025,558,timeout,4,PT05M58.00S,05:58,Q4 05:58,0,0,0.0,,Timeout: Regular,foul,freethrow,0,High
+21300025,560,freethrow,4,PT05M58.00S,05:58,Q4 05:58,97,83,1610612745.0,Parsons,Parsons Free Throw 1 of 2 (7 PTS),timeout,freethrow,14,Low
+21300025,562,freethrow,4,PT05M58.00S,05:58,Q4 05:58,0,0,1610612745.0,Parsons,MISS Parsons Free Throw 2 of 2,freethrow,rebound,0,High
+21300025,564,rebound,4,PT05M58.00S,05:58,Q4 05:58,0,0,1610612742.0,Dalembert,Dalembert REBOUND (Off:1 Def:4),freethrow,turnover,0,High
+21300025,565,turnover,4,PT05M38.00S,05:38,Q4 05:38,0,0,1610612742.0,Mekel,Mekel Bad Pass Turnover (P1.T13),rebound,steal,0,High
+21300025,565,steal,4,PT05M38.00S,05:38,Q4 05:38,0,0,1610612745.0,Harden,Harden STEAL (4 STL),turnover,foul,0,High
+21300025,566,foul,4,PT05M33.00S,05:33,Q4 05:33,0,0,1610612742.0,Crowder,Crowder Personal Take Foul (P2.PN),steal,freethrow,0,High
+21300025,567,freethrow,4,PT05M33.00S,05:33,Q4 05:33,98,83,1610612745.0,Howard,Howard Free Throw 1 of 2 (12 PTS),foul,freethrow,15,Low
+21300025,571,freethrow,4,PT05M33.00S,05:33,Q4 05:33,99,83,1610612745.0,Howard,Howard Free Throw 2 of 2 (13 PTS),freethrow,substitution,16,Low
+21300025,569,substitution,4,PT05M33.00S,05:33,Q4 05:33,0,0,1610612742.0,Ellis,SUB out: M. Ellis,freethrow,substitution,0,High
+21300025,570,substitution,4,PT05M33.00S,05:33,Q4 05:33,0,0,1610612742.0,Dalembert,SUB out: S. Dalembert,substitution,substitution,0,High
+21300025,571,substitution,4,PT05M33.00S,05:33,Q4 05:33,0,0,1610612742.0,Blair,SUB in: D. Blair,substitution,substitution,0,High
+21300025,572,substitution,4,PT05M33.00S,05:33,Q4 05:33,0,0,1610612742.0,Ellington,SUB in: W. Ellington,substitution,3pt made,0,High
+21300025,573,3pt,4,PT05M15.00S,05:15,Q4 05:15,99,86,1610612742.0,Crowder,Crowder 27' 3PT Jump Shot (3 PTS) (Mekel 4 AST),substitution,foul,13,Low
+21300025,574,foul,4,PT05M04.00S,05:04,Q4 05:04,0,0,1610612742.0,Blair,Blair S.FOUL (P5.PN),3pt made,freethrow,0,High
+21300025,575,freethrow,4,PT05M04.00S,05:04,Q4 05:04,100,86,1610612745.0,Lin,Lin Free Throw 1 of 2 (12 PTS),foul,freethrow,14,Low
+21300025,577,freethrow,4,PT05M04.00S,05:04,Q4 05:04,101,86,1610612745.0,Lin,Lin Free Throw 2 of 2 (13 PTS),freethrow,2pt missed,15,Low
+21300025,579,2pt,4,PT04M46.00S,04:46,Q4 04:46,0,0,1610612742.0,Ellington,MISS Ellington 21' Jump Shot,freethrow,rebound,0,High
+21300025,580,rebound,4,PT04M44.00S,04:44,Q4 04:44,0,0,1610612742.0,Carter,Carter REBOUND (Off:2 Def:3),2pt missed,3pt missed,0,High
+21300025,581,3pt,4,PT04M34.00S,04:34,Q4 04:34,0,0,1610612742.0,Mekel,MISS Mekel 25' 3PT Jump Shot,rebound,rebound,0,High
+21300025,582,rebound,4,PT04M32.00S,04:32,Q4 04:32,0,0,1610612742.0,Blair,Blair REBOUND (Off:5 Def:5),3pt missed,3pt missed,0,High
+21300025,583,3pt,4,PT04M28.00S,04:28,Q4 04:28,0,0,1610612742.0,Crowder,MISS Crowder 24' 3PT Jump Shot,rebound,rebound,0,High
+21300025,584,rebound,4,PT04M27.00S,04:27,Q4 04:27,0,0,1610612745.0,Howard,Howard REBOUND (Off:5 Def:11),3pt missed,foul,0,High
+21300025,585,foul,4,PT04M22.00S,04:22,Q4 04:22,0,0,1610612742.0,Mekel,Mekel P.FOUL (P3.PN),rebound,freethrow,0,High
+21300025,586,freethrow,4,PT04M22.00S,04:22,Q4 04:22,0,0,1610612745.0,Lin,MISS Lin Free Throw 1 of 2,foul,rebound,0,High
+21300025,587,rebound,4,PT04M22.00S,04:22,Q4 04:22,0,0,1610612745.0,,TEAM offensive REBOUND,freethrow,freethrow,0,High
+21300025,590,freethrow,4,PT04M22.00S,04:22,Q4 04:22,102,86,1610612745.0,Lin,Lin Free Throw 2 of 2 (14 PTS),rebound,foul,16,Low
+21300025,592,foul,4,PT04M22.00S,04:22,Q4 04:22,0,0,0.0,,ROCKETS Foul,freethrow,freethrow,0,High
+21300025,593,freethrow,4,PT04M22.00S,04:22,Q4 04:22,102,87,1610612742.0,Ellington,Ellington Free Throw Technical (4 PTS),foul,substitution,15,Low
+21300025,588,substitution,4,PT04M22.00S,04:22,Q4 04:22,0,0,1610612742.0,Carter,SUB out: V. Carter,freethrow,substitution,0,High
+21300025,589,substitution,4,PT04M22.00S,04:22,Q4 04:22,0,0,1610612742.0,Blair,SUB out: D. Blair,substitution,substitution,0,High
+21300025,590,substitution,4,PT04M22.00S,04:22,Q4 04:22,0,0,1610612742.0,James,SUB in: B. James,substitution,substitution,0,High
+21300025,591,substitution,4,PT04M22.00S,04:22,Q4 04:22,0,0,1610612742.0,Ledo,SUB in: R. Ledo,substitution,2pt missed,0,High
+21300025,595,2pt,4,PT04M10.00S,04:10,Q4 04:10,0,0,1610612742.0,Ellington,MISS Ellington 22' Pullup Jump Shot,substitution,rebound,0,High
+21300025,596,rebound,4,PT04M08.00S,04:08,Q4 04:08,0,0,1610612745.0,Parsons,Parsons REBOUND (Off:2 Def:5),2pt missed,2pt made,0,High
+21300025,597,2pt,4,PT04M00.00S,04:00,Q4 04:00,104,87,1610612745.0,Parsons,Parsons 1' Driving Layup (9 PTS) (Lin 4 AST),rebound,timeout,17,Low
+21300025,598,timeout,4,PT03M58.00S,03:58,Q4 03:58,0,0,1610612742.0,,Mavericks Timeout: Regular (Reg.5 Short 1),2pt made,substitution,0,High
+21300025,602,substitution,4,PT03M58.00S,03:58,Q4 03:58,0,0,1610612745.0,Parsons,SUB out: C. Parsons,timeout,substitution,0,High
+21300025,603,substitution,4,PT03M58.00S,03:58,Q4 03:58,0,0,1610612745.0,Howard,SUB out: D. Howard,substitution,substitution,0,High
+21300025,604,substitution,4,PT03M58.00S,03:58,Q4 03:58,0,0,1610612745.0,Harden,SUB out: J. Harden,substitution,substitution,0,High
+21300025,605,substitution,4,PT03M58.00S,03:58,Q4 03:58,0,0,1610612745.0,Garcia,SUB out: F. Garcia,substitution,substitution,0,High
+21300025,606,substitution,4,PT03M58.00S,03:58,Q4 03:58,0,0,1610612745.0,Lin,SUB out: J. Lin,substitution,substitution,0,High
+21300025,607,substitution,4,PT03M58.00S,03:58,Q4 03:58,0,0,1610612745.0,Brewer,SUB in: R. Brewer,substitution,substitution,0,High
+21300025,608,substitution,4,PT03M58.00S,03:58,Q4 03:58,0,0,1610612745.0,Jones,SUB in: T. Jones,substitution,substitution,0,High
+21300025,609,substitution,4,PT03M58.00S,03:58,Q4 03:58,0,0,1610612745.0,Brooks,SUB in: A. Brooks,substitution,substitution,0,High
+21300025,610,substitution,4,PT03M58.00S,03:58,Q4 03:58,0,0,1610612745.0,Motiejunas,SUB in: D. Motiejunas,substitution,substitution,0,High
+21300025,611,substitution,4,PT03M58.00S,03:58,Q4 03:58,0,0,1610612745.0,Smith,SUB in: G. Smith,substitution,3pt made,0,High
+21300025,601,3pt,4,PT03M34.00S,03:34,Q4 03:34,104,90,1610612742.0,Crowder,Crowder 25' 3PT Jump Shot (6 PTS) (James 1 AST),substitution,2pt missed,14,Low
+21300025,608,2pt,4,PT03M13.00S,03:13,Q4 03:13,0,0,1610612745.0,Motiejunas,MISS Motiejunas 8' Hook Shot,3pt made,rebound,0,High
+21300025,609,rebound,4,PT03M11.00S,03:11,Q4 03:11,0,0,1610612742.0,Crowder,Crowder REBOUND (Off:0 Def:1),2pt missed,3pt made,0,High
+21300025,610,3pt,4,PT03M04.00S,03:04,Q4 03:04,104,93,1610612742.0,Mekel,Mekel 27' 3PT Jump Shot (11 PTS) (Ledo 1 AST),rebound,foul,11,Medium
+21300025,611,foul,4,PT02M46.00S,02:46,Q4 02:46,0,0,1610612742.0,Crowder,Crowder P.FOUL (P3.PN),3pt made,freethrow,0,High
+21300025,612,freethrow,4,PT02M46.00S,02:46,Q4 02:46,0,0,1610612745.0,Motiejunas,MISS Motiejunas Free Throw 1 of 2,foul,rebound,0,High
+21300025,613,rebound,4,PT02M46.00S,02:46,Q4 02:46,0,0,1610612745.0,,TEAM offensive REBOUND,freethrow,freethrow,0,High
+21300025,614,freethrow,4,PT02M46.00S,02:46,Q4 02:46,105,93,1610612745.0,Motiejunas,Motiejunas Free Throw 2 of 2 (1 PTS),rebound,2pt missed,12,Medium
+21300025,616,2pt,4,PT02M35.00S,02:35,Q4 02:35,0,0,1610612742.0,Ledo,MISS Ledo 21' Jump Shot,freethrow,rebound,0,High
+21300025,617,rebound,4,PT02M34.00S,02:34,Q4 02:34,0,0,1610612745.0,Brewer,Brewer REBOUND (Off:0 Def:1),2pt missed,3pt made,0,High
+21300025,618,3pt,4,PT02M18.00S,02:18,Q4 02:18,108,93,1610612745.0,Brooks,Brooks 26' 3PT Jump Shot (11 PTS),rebound,turnover,15,Low
+21300025,619,turnover,4,PT02M08.00S,02:08,Q4 02:08,0,0,1610612742.0,Ledo,Ledo Palming Turnover (P1.T14),3pt made,2pt missed,0,High
+21300025,655,2pt,4,PT01M53.00S,01:53,Q4 01:53,0,0,1610612745.0,Smith,MISS Smith 2' Layup,turnover,block,0,Very High
+21300025,655,block,4,PT01M53.00S,01:53,Q4 01:53,0,0,1610612742.0,Ellington,Ellington BLOCK (1 BLK),2pt missed,rebound,0,Very High
+21300025,656,rebound,4,PT01M53.00S,01:53,Q4 01:53,0,0,1610612745.0,Smith,Smith REBOUND (Off:1 Def:0),block,turnover,0,Very High
+21300025,620,turnover,4,PT01M50.00S,01:50,Q4 01:50,0,0,1610612745.0,Smith,Smith Double Dribble Turnover (P1.T22),rebound,3pt made,0,Very High
+21300025,621,3pt,4,PT01M40.00S,01:40,Q4 01:40,108,96,1610612742.0,Ledo,Ledo 26' 3PT Jump Shot (3 PTS) (Mekel 5 AST),turnover,2pt missed,12,Medium
+21300025,622,2pt,4,PT01M16.00S,01:16,Q4 01:16,0,0,1610612745.0,Brooks,MISS Brooks 12' Fadeaway Jumper,3pt made,rebound,0,Very High
+21300025,623,rebound,4,PT01M16.00S,01:16,Q4 01:16,0,0,1610612745.0,,TEAM offensive REBOUND,2pt missed,turnover,0,Very High
+21300025,624,turnover,4,PT01M16.00S,01:16,Q4 01:16,0,0,0.0,,ROCKETS Turnover: Shot Clock (T#23),rebound,3pt made,0,Very High
+21300025,625,3pt,4,PT01M01.00S,01:01,Q4 01:01,108,99,1610612742.0,Crowder,Crowder 25' 3PT Jump Shot (9 PTS) (Mekel 6 AST),turnover,2pt missed,9,Medium
+21300025,626,2pt,4,PT00M43.90S,00:43,Q4 00:43,0,0,1610612745.0,Jones,MISS Jones 18' Jump Shot,3pt made,rebound,0,Very High
+21300025,627,rebound,4,PT00M42.90S,00:42,Q4 00:42,0,0,1610612742.0,Ellington,Ellington REBOUND (Off:0 Def:1),2pt missed,3pt made,0,Very High
+21300025,628,3pt,4,PT00M37.10S,00:37,Q4 00:37,108,102,1610612742.0,Crowder,Crowder 26' 3PT Jump Shot (12 PTS) (Ellington 1 AST),rebound,foul,6,High
+21300025,629,foul,4,PT00M34.20S,00:34,Q4 00:34,0,0,1610612742.0,Mekel,Mekel Personal Take Foul (P4.PN),3pt made,freethrow,0,Very High
+21300025,630,freethrow,4,PT00M34.20S,00:34,Q4 00:34,109,102,1610612745.0,Brooks,Brooks Free Throw 1 of 2 (12 PTS),foul,freethrow,7,High
+21300025,632,freethrow,4,PT00M34.20S,00:34,Q4 00:34,110,102,1610612745.0,Brooks,Brooks Free Throw 2 of 2 (13 PTS),freethrow,timeout,8,High
+21300025,634,timeout,4,PT00M34.20S,00:34,Q4 00:34,0,0,1610612742.0,,Mavericks Timeout: Short (Reg.5 Short 2),freethrow,2pt missed,0,Very High
+21300025,638,2pt,4,PT00M29.90S,00:29,Q4 00:29,0,0,1610612742.0,Ledo,MISS Ledo 3' Driving Layup,timeout,rebound,0,Very High
+21300025,639,rebound,4,PT00M26.80S,00:26,Q4 00:26,0,0,1610612742.0,Ellington,Ellington REBOUND (Off:1 Def:1),2pt missed,3pt made,0,Very High
+21300025,640,3pt,4,PT00M24.40S,00:24,Q4 00:24,110,105,1610612742.0,Crowder,Crowder  3PT Jump Shot (15 PTS) (Ellington 2 AST),rebound,foul,5,Very High
+21300025,641,foul,4,PT00M21.20S,00:21,Q4 00:21,0,0,1610612742.0,Ellington,Ellington Personal Take Foul (P1.PN),3pt made,freethrow,0,Very High
+21300025,642,freethrow,4,PT00M21.20S,00:21,Q4 00:21,0,0,1610612745.0,Jones,MISS Jones Free Throw 1 of 2,foul,rebound,0,Very High
+21300025,643,rebound,4,PT00M21.20S,00:21,Q4 00:21,0,0,1610612745.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Very High
+21300025,644,freethrow,4,PT00M21.20S,00:21,Q4 00:21,111,105,1610612745.0,Jones,Jones Free Throw 2 of 2 (1 PTS),rebound,2pt missed,6,High
+21300025,646,2pt,4,PT00M15.90S,00:15,Q4 00:15,0,0,1610612742.0,Mekel,MISS Mekel 4' Layup,freethrow,rebound,0,Very High
+21300025,647,rebound,4,PT00M12.10S,00:12,Q4 00:12,0,0,1610612745.0,Jones,Jones REBOUND (Off:0 Def:1),2pt missed,foul,0,Very High
+21300025,648,foul,4,PT00M12.10S,00:12,Q4 00:12,0,0,1610612742.0,Ledo,Ledo Personal Take Foul (P1.PN),rebound,freethrow,0,Very High
+21300025,649,freethrow,4,PT00M12.10S,00:12,Q4 00:12,112,105,1610612745.0,Jones,Jones Free Throw 1 of 2 (2 PTS),foul,freethrow,7,High
+21300025,651,freethrow,4,PT00M12.10S,00:12,Q4 00:12,113,105,1610612745.0,Jones,Jones Free Throw 2 of 2 (3 PTS),freethrow,timeout,8,High
+21300025,653,timeout,4,PT00M12.10S,00:12,Q4 00:12,0,0,1610612742.0,,Mavericks Timeout: Regular (Reg.6 Short 2),freethrow,3pt missed,0,Very High
+21300025,659,3pt,4,PT00M09.90S,00:09,Q4 00:09,0,0,1610612742.0,Crowder,MISS Crowder 26' 3PT Jump Shot,timeout,rebound,0,Very High
+21300025,660,rebound,4,PT00M07.60S,00:07,Q4 00:07,0,0,1610612745.0,,TEAM defensive REBOUND,3pt missed,period,0,Very High
+21300025,661,period,4,PT00M00.00S,00:00,Q4 00:00,113,105,1610612745.0,,End of 4th Period (10:44 PM EST),rebound,,8,High

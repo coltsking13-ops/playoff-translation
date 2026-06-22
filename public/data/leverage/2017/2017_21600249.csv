@@ -1,0 +1,508 @@
+game_id,actionNumber,actionType,period,clock,clock_display,game_clock,scoreHome,scoreAway,teamId,playerName,description,previous_action,next_action,score_margin,leverage_bucket
+21600249,0,period,1,PT12M00.00S,12:00,Q1 12:00,0,0,1610612754.0,,Start of 1st Period (6:11 PM EST),,turnover,0,Low
+21600249,2,turnover,1,PT11M49.00S,11:49,Q1 11:49,0,0,1610612746.0,Paul,Paul Bad Pass Turnover (P1.T1),period,steal,0,Low
+21600249,2,steal,1,PT11M49.00S,11:49,Q1 11:49,0,0,1610612754.0,Teague,Teague STEAL (1 STL),turnover,2pt made,0,Low
+21600249,3,2pt,1,PT11M44.00S,11:44,Q1 11:44,2,0,1610612754.0,Robinson III,Robinson III Running Dunk (2 PTS) (Teague 1 AST),steal,2pt missed,2,Low
+21600249,4,2pt,1,PT11M28.00S,11:28,Q1 11:28,2,0,1610612746.0,Redick,MISS Redick 19' Jump Shot,2pt made,rebound,2,Low
+21600249,5,rebound,1,PT11M27.00S,11:27,Q1 11:27,2,0,1610612754.0,Turner,Turner REBOUND (Off:0 Def:1),2pt missed,2pt made,2,Low
+21600249,6,2pt,1,PT11M09.00S,11:09,Q1 11:09,4,0,1610612754.0,Turner,Turner 20' Jump Shot (2 PTS) (Ellis 1 AST),rebound,foul,4,Low
+21600249,7,foul,1,PT10M59.00S,10:59,Q1 10:59,4,0,1610612754.0,Robinson III,Robinson III S.FOUL (P1.T1) (J.Goldenberg),2pt made,freethrow,4,Low
+21600249,8,freethrow,1,PT10M59.00S,10:59,Q1 10:59,4,0,1610612746.0,Jordan,MISS Jordan Free Throw 1 of 2,foul,rebound,4,Low
+21600249,9,rebound,1,PT10M59.00S,10:59,Q1 10:59,4,0,1610612746.0,,TEAM offensive REBOUND,freethrow,freethrow,4,Low
+21600249,10,freethrow,1,PT10M59.00S,10:59,Q1 10:59,4,1,1610612746.0,Jordan,Jordan Free Throw 2 of 2 (1 PTS),rebound,2pt missed,3,Low
+21600249,12,2pt,1,PT10M43.00S,10:43,Q1 10:43,4,1,1610612754.0,Turner,MISS Turner 19' Jump Shot,freethrow,rebound,3,Low
+21600249,13,rebound,1,PT10M42.00S,10:42,Q1 10:42,4,1,1610612746.0,Jordan,Jordan REBOUND (Off:0 Def:1),2pt missed,foul,3,Low
+21600249,14,foul,1,PT10M30.00S,10:30,Q1 10:30,4,1,1610612754.0,Turner,Turner S.FOUL (P1.T2) (S.Corbin),rebound,freethrow,3,Low
+21600249,15,freethrow,1,PT10M30.00S,10:30,Q1 10:30,4,2,1610612746.0,Mbah a Moute,Mbah a Moute Free Throw 1 of 2 (1 PTS),foul,freethrow,2,Low
+21600249,17,freethrow,1,PT10M30.00S,10:30,Q1 10:30,4,3,1610612746.0,Mbah a Moute,Mbah a Moute Free Throw 2 of 2 (2 PTS),freethrow,turnover,1,Low
+21600249,19,turnover,1,PT10M24.00S,10:24,Q1 10:24,4,3,1610612754.0,Teague,Teague Bad Pass Turnover (P1.T1),freethrow,steal,1,Low
+21600249,19,steal,1,PT10M24.00S,10:24,Q1 10:24,4,3,1610612746.0,Paul,Paul STEAL (1 STL),turnover,2pt made,1,Low
+21600249,20,2pt,1,PT10M21.00S,10:21,Q1 10:21,4,5,1610612746.0,Mbah a Moute,Mbah a Moute Running Dunk (4 PTS),steal,2pt made,1,Low
+21600249,21,2pt,1,PT10M10.00S,10:10,Q1 10:10,6,5,1610612754.0,Robinson III,Robinson III 1' Cutting Finger Roll Layup Shot (4 PTS) (Turner 1 AST),2pt made,turnover,1,Low
+21600249,22,turnover,1,PT10M03.00S,10:03,Q1 10:03,6,5,1610612746.0,Griffin,Griffin Out of Bounds - Bad Pass Turnover Turnover (P1.T2),2pt made,2pt made,1,Low
+21600249,23,2pt,1,PT09M52.00S,09:52,Q1 09:52,8,5,1610612754.0,Turner,Turner 17' Jump Shot (4 PTS) (Teague 2 AST),turnover,2pt missed,3,Low
+21600249,24,2pt,1,PT09M35.00S,09:35,Q1 09:35,8,5,1610612746.0,Griffin,MISS Griffin 8' Turnaround Bank Shot,2pt made,rebound,3,Low
+21600249,25,rebound,1,PT09M35.00S,09:35,Q1 09:35,8,5,1610612754.0,Ellis,Ellis REBOUND (Off:0 Def:1),2pt missed,2pt missed,3,Low
+21600249,26,2pt,1,PT09M27.00S,09:27,Q1 09:27,8,5,1610612754.0,Turner,MISS Turner 2' Layup,rebound,block,3,Low
+21600249,26,block,1,PT09M27.00S,09:27,Q1 09:27,8,5,1610612746.0,Paul,Paul BLOCK (1 BLK),2pt missed,rebound,3,Low
+21600249,27,rebound,1,PT09M25.00S,09:25,Q1 09:25,8,5,1610612746.0,Paul,Paul REBOUND (Off:0 Def:1),block,turnover,3,Low
+21600249,28,turnover,1,PT09M23.00S,09:23,Q1 09:23,8,5,1610612746.0,Paul,Paul Bad Pass Turnover (P2.T3),rebound,steal,3,Low
+21600249,28,steal,1,PT09M23.00S,09:23,Q1 09:23,8,5,1610612754.0,Teague,Teague STEAL (2 STL),turnover,2pt made,3,Low
+21600249,29,2pt,1,PT09M17.00S,09:17,Q1 09:17,10,5,1610612754.0,Robinson III,Robinson III 5' Jump Shot (6 PTS) (Teague 3 AST),steal,foul,5,Low
+21600249,30,foul,1,PT09M02.00S,09:02,Q1 09:02,10,5,1610612754.0,Young,T. Young S.FOUL (P1.T3) (J.Goldenberg),2pt made,freethrow,5,Low
+21600249,31,freethrow,1,PT09M02.00S,09:02,Q1 09:02,10,6,1610612746.0,Redick,Redick Free Throw 1 of 2 (1 PTS),foul,freethrow,4,Low
+21600249,33,freethrow,1,PT09M02.00S,09:02,Q1 09:02,10,7,1610612746.0,Redick,Redick Free Throw 2 of 2 (2 PTS),freethrow,2pt missed,3,Low
+21600249,35,2pt,1,PT08M51.00S,08:51,Q1 08:51,10,7,1610612754.0,Ellis,MISS Ellis 3' Driving Layup,freethrow,rebound,3,Low
+21600249,36,rebound,1,PT08M51.00S,08:51,Q1 08:51,10,7,1610612754.0,,TEAM offensive REBOUND,2pt missed,foul,3,Low
+21600249,37,foul,1,PT08M51.00S,08:51,Q1 08:51,10,7,1610612746.0,Paul,Paul L.B.FOUL (P1.T1) (J.Goldenberg),rebound,2pt missed,3,Low
+21600249,38,2pt,1,PT08M39.00S,08:39,Q1 08:39,10,7,1610612754.0,Teague,MISS Teague 14' Pullup Jump Shot,foul,rebound,3,Low
+21600249,39,rebound,1,PT08M38.00S,08:38,Q1 08:38,10,7,1610612754.0,Turner,Turner REBOUND (Off:1 Def:1),2pt missed,2pt made,3,Low
+21600249,40,2pt,1,PT08M37.00S,08:37,Q1 08:37,12,7,1610612754.0,Turner,Turner 1' Tip Layup Shot (6 PTS),rebound,rebound,5,Low
+21600249,47,rebound,1,PT08M37.00S,08:37,Q1 08:37,10,7,1610612754.0,Turner,Turner REBOUND (Off:2 Def:1),2pt made,2pt missed,3,Low
+21600249,48,2pt,1,PT08M37.00S,08:37,Q1 08:37,10,7,1610612754.0,Turner,MISS Turner 3' Putback Layup,rebound,foul,3,Low
+21600249,41,foul,1,PT08M30.00S,08:30,Q1 08:30,12,7,1610612754.0,Turner,Turner S.FOUL (P2.T4) (J.Goldenberg),2pt missed,freethrow,5,Low
+21600249,42,freethrow,1,PT08M30.00S,08:30,Q1 08:30,12,8,1610612746.0,Jordan,Jordan Free Throw 1 of 2 (2 PTS),foul,freethrow,4,Low
+21600249,45,freethrow,1,PT08M30.00S,08:30,Q1 08:30,12,9,1610612746.0,Jordan,Jordan Free Throw 2 of 2 (3 PTS),freethrow,substitution,3,Low
+21600249,44,substitution,1,PT08M30.00S,08:30,Q1 08:30,12,8,1610612754.0,Turner,SUB out: M. Turner,freethrow,substitution,4,Low
+21600249,45,substitution,1,PT08M30.00S,08:30,Q1 08:30,12,8,1610612754.0,Jefferson,SUB in: A. Jefferson,substitution,2pt made,4,Low
+21600249,49,2pt,1,PT08M15.00S,08:15,Q1 08:15,14,9,1610612754.0,Jefferson,Jefferson 1' Layup (2 PTS),substitution,3pt missed,5,Low
+21600249,50,3pt,1,PT07M59.00S,07:59,Q1 07:59,14,9,1610612746.0,Paul,MISS Paul 26' 3PT Jump Shot,2pt made,rebound,5,Low
+21600249,51,rebound,1,PT07M59.00S,07:59,Q1 07:59,14,9,1610612754.0,Robinson III,Robinson III REBOUND (Off:0 Def:1),3pt missed,2pt missed,5,Low
+21600249,52,2pt,1,PT07M50.00S,07:50,Q1 07:50,14,9,1610612754.0,Teague,MISS Teague 8' Running Jump Shot,rebound,rebound,5,Low
+21600249,53,rebound,1,PT07M49.00S,07:49,Q1 07:49,14,9,1610612746.0,Jordan,Jordan REBOUND (Off:0 Def:2),2pt missed,3pt made,5,Low
+21600249,54,3pt,1,PT07M42.00S,07:42,Q1 07:42,14,12,1610612746.0,Redick,Redick 3PT Jump Shot (5 PTS) (Paul 1 AST),rebound,2pt missed,2,Low
+21600249,55,2pt,1,PT07M20.00S,07:20,Q1 07:20,14,12,1610612754.0,Ellis,MISS Ellis 18' Pullup Jump Shot,3pt made,rebound,2,Low
+21600249,56,rebound,1,PT07M20.00S,07:20,Q1 07:20,14,12,1610612746.0,Griffin,Griffin REBOUND (Off:0 Def:1),2pt missed,2pt made,2,Low
+21600249,57,2pt,1,PT07M09.00S,07:09,Q1 07:09,14,14,1610612746.0,Paul,Paul 12' Step Back Jump Shot (2 PTS),rebound,2pt missed,0,Low
+21600249,58,2pt,1,PT06M45.00S,06:45,Q1 06:45,14,14,1610612754.0,Ellis,MISS Ellis 3' Driving Layup,2pt made,rebound,0,Low
+21600249,59,rebound,1,PT06M44.00S,06:44,Q1 06:44,14,14,1610612746.0,Jordan,Jordan REBOUND (Off:0 Def:3),2pt missed,turnover,0,Low
+21600249,60,turnover,1,PT06M35.00S,06:35,Q1 06:35,14,14,1610612746.0,Mbah a Moute,Mbah a Moute Out of Bounds Lost Ball Turnover (P1.T4),rebound,3pt missed,0,Low
+21600249,61,3pt,1,PT06M16.00S,06:16,Q1 06:16,14,14,1610612754.0,Young,MISS T. Young 26' 3PT Jump Shot,turnover,rebound,0,Low
+21600249,62,rebound,1,PT06M16.00S,06:16,Q1 06:16,14,14,1610612746.0,Jordan,Jordan REBOUND (Off:0 Def:4),3pt missed,3pt missed,0,Low
+21600249,63,3pt,1,PT06M03.00S,06:03,Q1 06:03,14,14,1610612746.0,Redick,MISS Redick 27' 3PT Jump Shot,rebound,2pt missed,0,Low
+21600249,64,2pt,1,PT06M01.00S,06:01,Q1 06:01,14,14,1610612746.0,Jordan,MISS Jordan 1' Tip Layup Shot,3pt missed,rebound,0,Low
+21600249,65,rebound,1,PT06M01.00S,06:01,Q1 06:01,14,14,1610612746.0,Jordan,Jordan REBOUND (Off:1 Def:4),2pt missed,rebound,0,Low
+21600249,66,rebound,1,PT06M00.00S,06:00,Q1 06:00,14,14,1610612754.0,Jefferson,Jefferson REBOUND (Off:0 Def:1),rebound,2pt made,0,Low
+21600249,67,2pt,1,PT05M47.00S,05:47,Q1 05:47,16,14,1610612754.0,Jefferson,Jefferson 16' Jump Shot (4 PTS) (Teague 4 AST),rebound,turnover,2,Low
+21600249,68,turnover,1,PT05M22.00S,05:22,Q1 05:22,16,14,1610612746.0,Redick,Redick Out of Bounds - Bad Pass Turnover Turnover (P1.T5),2pt made,timeout,2,Low
+21600249,69,timeout,1,PT05M22.00S,05:22,Q1 05:22,16,14,1610612754.0,,PACERS Timeout: Regular (Full 1 Short 0),turnover,substitution,2,Low
+21600249,71,substitution,1,PT05M22.00S,05:22,Q1 05:22,16,14,1610612754.0,Robinson III,SUB out: G. Robinson III,timeout,substitution,2,Low
+21600249,72,substitution,1,PT05M22.00S,05:22,Q1 05:22,16,14,1610612754.0,Young,SUB out: T. Young,substitution,substitution,2,Low
+21600249,73,substitution,1,PT05M22.00S,05:22,Q1 05:22,16,14,1610612754.0,Allen,SUB in: L. Allen,substitution,substitution,2,Low
+21600249,74,substitution,1,PT05M22.00S,05:22,Q1 05:22,16,14,1610612754.0,Stuckey,SUB in: R. Stuckey,substitution,2pt missed,2,Low
+21600249,73,2pt,1,PT05M09.00S,05:09,Q1 05:09,16,14,1610612754.0,Ellis,MISS Ellis 18' Jump Shot,substitution,rebound,2,Low
+21600249,74,rebound,1,PT05M09.00S,05:09,Q1 05:09,16,14,1610612746.0,Griffin,Griffin REBOUND (Off:0 Def:2),2pt missed,turnover,2,Low
+21600249,75,turnover,1,PT05M04.00S,05:04,Q1 05:04,16,14,1610612746.0,Paul,Paul Bad Pass Turnover (P3.T6),rebound,3pt missed,2,Low
+21600249,76,3pt,1,PT04M40.00S,04:40,Q1 04:40,16,14,1610612754.0,Ellis,MISS Ellis 24' 3PT Jump Shot,turnover,rebound,2,Low
+21600249,77,rebound,1,PT04M39.00S,04:39,Q1 04:39,16,14,1610612746.0,Redick,Redick REBOUND (Off:0 Def:1),3pt missed,turnover,2,Low
+21600249,78,turnover,1,PT04M17.00S,04:17,Q1 04:17,16,14,1610612746.0,Mbah a Moute,Mbah a Moute Lost Ball Turnover (P2.T7),rebound,steal,2,Low
+21600249,78,steal,1,PT04M17.00S,04:17,Q1 04:17,16,14,1610612754.0,Stuckey,Stuckey STEAL (1 STL),turnover,3pt missed,2,Low
+21600249,79,3pt,1,PT04M09.00S,04:09,Q1 04:09,16,14,1610612754.0,Teague,MISS Teague 24' 3PT Jump Shot,steal,rebound,2,Low
+21600249,80,rebound,1,PT04M08.00S,04:08,Q1 04:08,16,14,1610612746.0,Jordan,Jordan REBOUND (Off:1 Def:5),3pt missed,foul,2,Low
+21600249,81,foul,1,PT04M00.00S,04:00,Q1 04:00,16,14,1610612754.0,Ellis,Ellis S.FOUL (P1.PN) (B.Kennedy),rebound,freethrow,2,Low
+21600249,82,freethrow,1,PT04M00.00S,04:00,Q1 04:00,16,14,1610612746.0,Mbah a Moute,MISS Mbah a Moute Free Throw 1 of 2,foul,rebound,2,Low
+21600249,83,rebound,1,PT04M00.00S,04:00,Q1 04:00,16,14,1610612746.0,,TEAM offensive REBOUND,freethrow,freethrow,2,Low
+21600249,85,freethrow,1,PT04M00.00S,04:00,Q1 04:00,16,15,1610612746.0,Mbah a Moute,Mbah a Moute Free Throw 2 of 2 (5 PTS),rebound,substitution,1,Low
+21600249,84,substitution,1,PT04M00.00S,04:00,Q1 04:00,16,14,1610612746.0,Redick,SUB out: J. Redick,freethrow,substitution,2,Low
+21600249,85,substitution,1,PT04M00.00S,04:00,Q1 04:00,16,14,1610612746.0,Crawford,SUB in: J. Crawford,substitution,2pt missed,2,Low
+21600249,87,2pt,1,PT03M46.00S,03:46,Q1 03:46,16,15,1610612754.0,Jefferson,MISS Jefferson 11' Jump Shot,substitution,rebound,1,Low
+21600249,88,rebound,1,PT03M45.00S,03:45,Q1 03:45,16,15,1610612754.0,Allen,Allen REBOUND (Off:1 Def:0),2pt missed,2pt missed,1,Low
+21600249,89,2pt,1,PT03M36.00S,03:36,Q1 03:36,16,15,1610612754.0,Allen,MISS Allen 13' Jump Shot,rebound,block,1,Low
+21600249,89,block,1,PT03M36.00S,03:36,Q1 03:36,16,15,1610612746.0,Jordan,Jordan BLOCK (1 BLK),2pt missed,rebound,1,Low
+21600249,90,rebound,1,PT03M36.00S,03:36,Q1 03:36,16,15,1610612754.0,,TEAM offensive REBOUND,block,turnover,1,Low
+21600249,91,turnover,1,PT03M36.00S,03:36,Q1 03:36,16,15,0.0,,PACERS Turnover: Shot Clock (T#2),rebound,foul,1,Low
+21600249,92,foul,1,PT03M28.00S,03:28,Q1 03:28,16,15,1610612754.0,Teague,Teague P.FOUL (P1.PN) (B.Kennedy),turnover,freethrow,1,Low
+21600249,93,freethrow,1,PT03M28.00S,03:28,Q1 03:28,16,16,1610612746.0,Paul,Paul Free Throw 1 of 2 (3 PTS),foul,freethrow,0,Low
+21600249,96,freethrow,1,PT03M28.00S,03:28,Q1 03:28,16,17,1610612746.0,Paul,Paul Free Throw 2 of 2 (4 PTS),freethrow,substitution,1,Low
+21600249,95,substitution,1,PT03M28.00S,03:28,Q1 03:28,16,16,1610612746.0,Mbah a Moute,SUB out: L. Mbah a Moute,freethrow,substitution,0,Low
+21600249,96,substitution,1,PT03M28.00S,03:28,Q1 03:28,16,16,1610612746.0,Rivers,SUB in: A. Rivers,substitution,2pt made,0,Low
+21600249,98,2pt,1,PT03M04.00S,03:04,Q1 03:04,18,17,1610612754.0,Jefferson,Jefferson 11' Turnaround Hook Shot (6 PTS) (Stuckey 1 AST),substitution,3pt made,1,Low
+21600249,99,3pt,1,PT02M39.00S,02:39,Q1 02:39,18,20,1610612746.0,Rivers,Rivers 24' 3PT Jump Shot (3 PTS) (Griffin 1 AST),2pt made,2pt missed,2,Low
+21600249,100,2pt,1,PT02M22.00S,02:22,Q1 02:22,18,20,1610612754.0,Stuckey,MISS Stuckey 21' Pullup Jump Shot,3pt made,rebound,2,Low
+21600249,101,rebound,1,PT02M21.00S,02:21,Q1 02:21,18,20,1610612746.0,Paul,Paul REBOUND (Off:0 Def:2),2pt missed,3pt missed,2,Low
+21600249,102,3pt,1,PT02M12.00S,02:12,Q1 02:12,18,20,1610612746.0,Paul,MISS Paul 27' 3PT Jump Shot,rebound,rebound,2,Low
+21600249,103,rebound,1,PT02M11.00S,02:11,Q1 02:11,18,20,1610612754.0,Ellis,Ellis REBOUND (Off:0 Def:2),3pt missed,2pt missed,2,Low
+21600249,104,2pt,1,PT02M00.00S,02:00,Q1 02:00,18,20,1610612754.0,Jefferson,MISS Jefferson 18' Jump Shot,rebound,rebound,2,Low
+21600249,105,rebound,1,PT01M59.00S,01:59,Q1 01:59,18,20,1610612754.0,Allen,Allen REBOUND (Off:2 Def:0),2pt missed,3pt missed,2,Low
+21600249,106,3pt,1,PT01M54.00S,01:54,Q1 01:54,18,20,1610612754.0,Ellis,MISS Ellis 27' 3PT Jump Shot,rebound,rebound,2,Low
+21600249,107,rebound,1,PT01M52.00S,01:52,Q1 01:52,18,20,1610612746.0,Paul,Paul REBOUND (Off:0 Def:3),3pt missed,turnover,2,Low
+21600249,108,turnover,1,PT01M47.00S,01:47,Q1 01:47,18,20,1610612746.0,Paul,Paul Traveling Turnover (P4.T8),rebound,timeout,2,Low
+21600249,109,timeout,1,PT01M47.00S,01:47,Q1 01:47,18,20,1610612746.0,,Clippers Timeout: Regular (Reg.1 Short 0),turnover,substitution,2,Low
+21600249,111,substitution,1,PT01M47.00S,01:47,Q1 01:47,18,20,1610612746.0,Jordan,SUB out: D. Jordan,timeout,substitution,2,Low
+21600249,112,substitution,1,PT01M47.00S,01:47,Q1 01:47,18,20,1610612746.0,Paul,SUB out: C. Paul,substitution,substitution,2,Low
+21600249,113,substitution,1,PT01M47.00S,01:47,Q1 01:47,18,20,1610612754.0,Teague,SUB out: J. Teague,substitution,substitution,2,Low
+21600249,114,substitution,1,PT01M47.00S,01:47,Q1 01:47,18,20,1610612746.0,Felton,SUB in: R. Felton,substitution,substitution,2,Low
+21600249,115,substitution,1,PT01M47.00S,01:47,Q1 01:47,18,20,1610612746.0,Speights,SUB in: M. Speights,substitution,substitution,2,Low
+21600249,116,substitution,1,PT01M47.00S,01:47,Q1 01:47,18,20,1610612754.0,Brooks,SUB in: A. Brooks,substitution,2pt made,2,Low
+21600249,114,2pt,1,PT01M25.00S,01:25,Q1 01:25,20,20,1610612754.0,Brooks,Brooks 12' Jump Shot (2 PTS) (Allen 1 AST),substitution,turnover,0,Low
+21600249,115,turnover,1,PT01M11.00S,01:11,Q1 01:11,20,20,1610612746.0,Speights,Speights Bad Pass Turnover (P1.T9),2pt made,steal,0,Low
+21600249,115,steal,1,PT01M11.00S,01:11,Q1 01:11,20,20,1610612754.0,Allen,Allen STEAL (1 STL),turnover,2pt missed,0,Low
+21600249,116,2pt,1,PT01M06.00S,01:06,Q1 01:06,20,20,1610612754.0,Ellis,MISS Ellis 1' Running Layup,steal,rebound,0,Low
+21600249,117,rebound,1,PT01M06.00S,01:06,Q1 01:06,20,20,1610612746.0,Rivers,Rivers REBOUND (Off:0 Def:1),2pt missed,turnover,0,Low
+21600249,118,turnover,1,PT01M01.00S,01:01,Q1 01:01,20,20,1610612746.0,Rivers,Rivers Step Out of Bounds Turnover (P1.T10),rebound,substitution,0,Low
+21600249,119,substitution,1,PT01M01.00S,01:01,Q1 01:01,20,20,1610612754.0,Ellis,SUB out: M. Ellis,turnover,substitution,0,Low
+21600249,120,substitution,1,PT01M01.00S,01:01,Q1 01:01,20,20,1610612754.0,Robinson III,SUB in: G. Robinson III,substitution,2pt missed,0,Low
+21600249,120,2pt,1,PT00M49.50S,00:49,Q1 00:49,20,20,1610612754.0,Stuckey,MISS Stuckey 2' Cutting Layup Shot,substitution,rebound,0,Low
+21600249,121,rebound,1,PT00M48.90S,00:48,Q1 00:48,20,20,1610612746.0,Speights,Speights REBOUND (Off:0 Def:1),2pt missed,turnover,0,Low
+21600249,123,turnover,1,PT00M34.30S,00:34,Q1 00:34,20,20,1610612746.0,Griffin,Griffin Lost Ball Turnover (P2.T11),rebound,steal,0,Low
+21600249,123,steal,1,PT00M34.30S,00:34,Q1 00:34,20,20,1610612754.0,Brooks,Brooks STEAL (1 STL),turnover,foul,0,Low
+21600249,124,foul,1,PT00M30.70S,00:30,Q1 00:30,20,20,1610612746.0,Felton,Felton S.FOUL (P1.T2) (S.Corbin),steal,freethrow,0,Low
+21600249,125,freethrow,1,PT00M30.70S,00:30,Q1 00:30,21,20,1610612754.0,Stuckey,Stuckey Free Throw 1 of 2 (1 PTS),foul,freethrow,1,Low
+21600249,128,freethrow,1,PT00M30.70S,00:30,Q1 00:30,21,20,1610612754.0,Stuckey,MISS Stuckey Free Throw 2 of 2,freethrow,rebound,1,Low
+21600249,130,rebound,1,PT00M30.70S,00:30,Q1 00:30,21,20,1610612754.0,Jefferson,Jefferson REBOUND (Off:1 Def:1),freethrow,substitution,1,Low
+21600249,127,substitution,1,PT00M30.70S,00:30,Q1 00:30,21,20,1610612746.0,Griffin,SUB out: B. Griffin,rebound,substitution,1,Low
+21600249,128,substitution,1,PT00M30.70S,00:30,Q1 00:30,21,20,1610612746.0,Johnson,SUB in: W. Johnson,substitution,2pt made,1,Low
+21600249,131,2pt,1,PT00M08.00S,00:08,Q1 00:08,23,20,1610612754.0,Brooks,Brooks 16' Step Back Jump Shot (4 PTS),substitution,3pt missed,3,Low
+21600249,132,3pt,1,PT00M00.40S,00:00,Q1 00:00,23,20,1610612746.0,Felton,MISS Felton 25' 3PT Jump Shot,2pt made,rebound,3,Low
+21600249,133,rebound,1,PT00M00.00S,00:00,Q1 00:00,23,20,1610612754.0,Jefferson,Jefferson REBOUND (Off:1 Def:2),3pt missed,period,3,Low
+21600249,134,period,1,PT00M00.00S,00:00,Q1 00:00,23,20,1610612754.0,,End of 1st Period (6:36 PM EST),rebound,period,3,Low
+21600249,136,period,2,PT12M00.00S,12:00,Q2 12:00,23,20,1610612754.0,,Start of 2nd Period (6:39 PM EST),period,2pt made,3,Low
+21600249,137,2pt,2,PT11M38.00S,11:38,Q2 11:38,25,20,1610612754.0,Robinson III,Robinson III 18' Pullup Jump Shot (8 PTS) (Jefferson 1 AST),period,foul,5,Low
+21600249,138,foul,2,PT11M21.00S,11:21,Q2 11:21,25,20,1610612746.0,Speights,Speights OFF.Foul (P1) (S.Corbin),2pt made,turnover,5,Low
+21600249,139,turnover,2,PT11M21.00S,11:21,Q2 11:21,25,20,1610612746.0,Speights,Speights Foul Turnover (P2.T12),foul,2pt missed,5,Low
+21600249,140,2pt,2,PT11M08.00S,11:08,Q2 11:08,25,20,1610612754.0,Jefferson,MISS Jefferson 11' Pullup Jump Shot,turnover,rebound,5,Low
+21600249,141,rebound,2,PT11M06.00S,11:06,Q2 11:06,25,20,1610612754.0,Allen,Allen REBOUND (Off:3 Def:0),2pt missed,2pt missed,5,Low
+21600249,142,2pt,2,PT11M04.00S,11:04,Q2 11:04,25,20,1610612754.0,Allen,MISS Allen 13' Hook Shot,rebound,rebound,5,Low
+21600249,143,rebound,2,PT11M00.00S,11:00,Q2 11:00,25,20,1610612754.0,Jefferson,Jefferson REBOUND (Off:2 Def:2),2pt missed,timeout,5,Low
+21600249,144,timeout,2,PT10M59.00S,10:59,Q2 10:59,25,20,1610612754.0,,PACERS Timeout: Regular (Full 2 Short 0),rebound,2pt missed,5,Low
+21600249,146,2pt,2,PT10M42.00S,10:42,Q2 10:42,25,20,1610612754.0,Jefferson,MISS Jefferson 8' Hook Shot,timeout,rebound,5,Low
+21600249,147,rebound,2,PT10M42.00S,10:42,Q2 10:42,25,20,1610612746.0,Johnson,Johnson REBOUND (Off:0 Def:1),2pt missed,turnover,5,Low
+21600249,148,turnover,2,PT10M29.00S,10:29,Q2 10:29,25,20,1610612746.0,Crawford,Crawford Bad Pass Turnover (P1.T13),rebound,2pt missed,5,Low
+21600249,149,2pt,2,PT10M07.00S,10:07,Q2 10:07,25,20,1610612754.0,Brooks,MISS Brooks 18' Pullup Bank Shot,turnover,rebound,5,Low
+21600249,150,rebound,2,PT10M06.00S,10:06,Q2 10:06,25,20,1610612746.0,Felton,Felton REBOUND (Off:0 Def:1),2pt missed,2pt made,5,Low
+21600249,151,2pt,2,PT09M56.00S,09:56,Q2 09:56,25,22,1610612746.0,Johnson,Johnson 16' Jump Shot (2 PTS),rebound,2pt made,3,Low
+21600249,152,2pt,2,PT09M35.00S,09:35,Q2 09:35,27,22,1610612754.0,Stuckey,Stuckey 11' Jump Shot (3 PTS),2pt made,foul,5,Low
+21600249,153,foul,2,PT09M35.00S,09:35,Q2 09:35,27,22,1610612746.0,Johnson,Johnson S.FOUL (P1.T1) (S.Corbin),2pt made,freethrow,5,Low
+21600249,156,freethrow,2,PT09M35.00S,09:35,Q2 09:35,28,22,1610612754.0,Stuckey,Stuckey Free Throw 1 of 1 (4 PTS),foul,substitution,6,Low
+21600249,154,substitution,2,PT09M35.00S,09:35,Q2 09:35,27,22,1610612754.0,Allen,SUB out: L. Allen,freethrow,substitution,5,Low
+21600249,155,substitution,2,PT09M35.00S,09:35,Q2 09:35,27,22,1610612754.0,Jefferson,SUB out: A. Jefferson,substitution,substitution,5,Low
+21600249,156,substitution,2,PT09M35.00S,09:35,Q2 09:35,27,22,1610612754.0,Turner,SUB in: M. Turner,substitution,substitution,5,Low
+21600249,157,substitution,2,PT09M35.00S,09:35,Q2 09:35,27,22,1610612754.0,Young,SUB in: T. Young,substitution,2pt missed,5,Low
+21600249,159,2pt,2,PT09M14.00S,09:14,Q2 09:14,28,22,1610612746.0,Felton,MISS Felton 3' Floating Jump Shot,substitution,rebound,6,Low
+21600249,160,rebound,2,PT09M13.00S,09:13,Q2 09:13,28,22,1610612746.0,Speights,Speights REBOUND (Off:1 Def:1),2pt missed,2pt missed,6,Low
+21600249,161,2pt,2,PT09M11.00S,09:11,Q2 09:11,28,22,1610612746.0,Speights,MISS Speights 1' Putback Layup,rebound,rebound,6,Low
+21600249,162,rebound,2,PT09M09.00S,09:09,Q2 09:09,28,22,1610612754.0,,TEAM defensive REBOUND,2pt missed,turnover,6,Low
+21600249,163,turnover,2,PT08M57.00S,08:57,Q2 08:57,28,22,1610612754.0,Stuckey,Stuckey Bad Pass Turnover (P1.T3),rebound,steal,6,Low
+21600249,163,steal,2,PT08M57.00S,08:57,Q2 08:57,28,22,1610612746.0,Rivers,Rivers STEAL (1 STL),turnover,2pt missed,6,Low
+21600249,164,2pt,2,PT08M53.00S,08:53,Q2 08:53,28,22,1610612746.0,Rivers,MISS Rivers 1' Running Layup,steal,block,6,Low
+21600249,164,block,2,PT08M53.00S,08:53,Q2 08:53,28,22,1610612754.0,Turner,Turner BLOCK (1 BLK),2pt missed,rebound,6,Low
+21600249,165,rebound,2,PT08M52.00S,08:52,Q2 08:52,28,22,1610612754.0,Young,T. Young REBOUND (Off:0 Def:1),block,foul,6,Low
+21600249,166,foul,2,PT08M48.00S,08:48,Q2 08:48,28,22,1610612746.0,Johnson,Johnson P.FOUL (P2.T2) (B.Kennedy),rebound,foul,6,Low
+21600249,167,foul,2,PT08M46.00S,08:46,Q2 08:46,28,22,1610612746.0,Crawford,Crawford P.FOUL (P1.T3) (J.Goldenberg),foul,3pt missed,6,Low
+21600249,168,3pt,2,PT08M29.00S,08:29,Q2 08:29,28,22,1610612754.0,Stuckey,MISS Stuckey 26' 3PT Jump Shot,foul,rebound,6,Low
+21600249,169,rebound,2,PT08M29.00S,08:29,Q2 08:29,28,22,1610612746.0,Speights,Speights REBOUND (Off:1 Def:2),3pt missed,3pt made,6,Low
+21600249,170,3pt,2,PT08M18.00S,08:18,Q2 08:18,28,25,1610612746.0,Crawford,Crawford 28' 3PT Pullup Jump Shot (3 PTS) (Rivers 1 AST),rebound,2pt made,3,Low
+21600249,171,2pt,2,PT08M03.00S,08:03,Q2 08:03,30,25,1610612754.0,Brooks,Brooks Driving Reverse Layup (6 PTS),3pt made,2pt made,5,Low
+21600249,172,2pt,2,PT07M48.00S,07:48,Q2 07:48,30,27,1610612746.0,Crawford,Crawford 18' Pullup Jump Shot (5 PTS),2pt made,3pt missed,3,Low
+21600249,174,3pt,2,PT07M35.00S,07:35,Q2 07:35,30,27,1610612754.0,Brooks,MISS Brooks 27' 3PT Pullup Jump Shot,2pt made,rebound,3,Low
+21600249,175,rebound,2,PT07M35.00S,07:35,Q2 07:35,30,27,1610612746.0,Speights,Speights REBOUND (Off:1 Def:3),3pt missed,2pt missed,3,Low
+21600249,176,2pt,2,PT07M22.00S,07:22,Q2 07:22,30,27,1610612746.0,Crawford,MISS Crawford 20' Jump Shot,rebound,rebound,3,Low
+21600249,177,rebound,2,PT07M21.00S,07:21,Q2 07:21,30,27,1610612754.0,Stuckey,Stuckey REBOUND (Off:0 Def:1),2pt missed,turnover,3,Low
+21600249,178,turnover,2,PT07M16.00S,07:16,Q2 07:16,30,27,1610612754.0,Robinson III,Robinson III Lost Ball Turnover (P1.T4),rebound,steal,3,Low
+21600249,178,steal,2,PT07M16.00S,07:16,Q2 07:16,30,27,1610612746.0,Felton,Felton STEAL (1 STL),turnover,2pt missed,3,Low
+21600249,179,2pt,2,PT07M10.00S,07:10,Q2 07:10,30,27,1610612746.0,Felton,MISS Felton 8' Driving Floating Jump Shot,steal,rebound,3,Low
+21600249,180,rebound,2,PT07M10.00S,07:10,Q2 07:10,30,27,1610612754.0,Turner,Turner REBOUND (Off:2 Def:2),2pt missed,2pt missed,3,Low
+21600249,181,2pt,2,PT06M54.00S,06:54,Q2 06:54,30,27,1610612754.0,Robinson III,MISS Robinson III 19' Pullup Jump Shot,rebound,2pt missed,3,Low
+21600249,182,2pt,2,PT06M53.00S,06:53,Q2 06:53,30,27,1610612754.0,Young,MISS T. Young 1' Tip Layup Shot,2pt missed,rebound,3,Low
+21600249,183,rebound,2,PT06M53.00S,06:53,Q2 06:53,30,27,1610612754.0,Young,T. Young REBOUND (Off:1 Def:1),2pt missed,rebound,3,Low
+21600249,184,rebound,2,PT06M52.00S,06:52,Q2 06:52,30,27,1610612746.0,,TEAM defensive REBOUND,rebound,substitution,3,Low
+21600249,185,substitution,2,PT06M52.00S,06:52,Q2 06:52,30,27,1610612746.0,Speights,SUB out: M. Speights,rebound,substitution,3,Low
+21600249,186,substitution,2,PT06M52.00S,06:52,Q2 06:52,30,27,1610612746.0,Felton,SUB out: R. Felton,substitution,substitution,3,Low
+21600249,187,substitution,2,PT06M52.00S,06:52,Q2 06:52,30,27,1610612746.0,Johnson,SUB out: W. Johnson,substitution,substitution,3,Low
+21600249,188,substitution,2,PT06M52.00S,06:52,Q2 06:52,30,27,1610612746.0,Jordan,SUB in: D. Jordan,substitution,substitution,3,Low
+21600249,189,substitution,2,PT06M52.00S,06:52,Q2 06:52,30,27,1610612746.0,Paul,SUB in: C. Paul,substitution,substitution,3,Low
+21600249,190,substitution,2,PT06M52.00S,06:52,Q2 06:52,30,27,1610612746.0,Griffin,SUB in: B. Griffin,substitution,3pt missed,3,Low
+21600249,187,3pt,2,PT06M31.00S,06:31,Q2 06:31,30,27,1610612746.0,Griffin,MISS Griffin 25' 3PT Jump Shot,substitution,rebound,3,Low
+21600249,188,rebound,2,PT06M31.00S,06:31,Q2 06:31,30,27,1610612754.0,Turner,Turner REBOUND (Off:2 Def:3),3pt missed,3pt made,3,Low
+21600249,190,3pt,2,PT06M14.00S,06:14,Q2 06:14,33,27,1610612754.0,Young,T. Young 28' 3PT Jump Shot (3 PTS) (Brooks 1 AST),rebound,3pt missed,6,Low
+21600249,191,3pt,2,PT05M51.00S,05:51,Q2 05:51,33,27,1610612746.0,Rivers,MISS Rivers 24' 3PT Jump Shot,3pt made,rebound,6,Low
+21600249,192,rebound,2,PT05M50.00S,05:50,Q2 05:50,33,27,1610612746.0,,TEAM offensive REBOUND,3pt missed,timeout,6,Low
+21600249,193,timeout,2,PT05M50.00S,05:50,Q2 05:50,33,27,0.0,,Timeout: Official,rebound,substitution,6,Low
+21600249,195,substitution,2,PT05M50.00S,05:50,Q2 05:50,33,27,1610612746.0,Rivers,SUB out: A. Rivers,timeout,substitution,6,Low
+21600249,196,substitution,2,PT05M50.00S,05:50,Q2 05:50,33,27,1610612754.0,Stuckey,SUB out: R. Stuckey,substitution,substitution,6,Low
+21600249,197,substitution,2,PT05M50.00S,05:50,Q2 05:50,33,27,1610612754.0,Brooks,SUB out: A. Brooks,substitution,substitution,6,Low
+21600249,198,substitution,2,PT05M50.00S,05:50,Q2 05:50,33,27,1610612746.0,Redick,SUB in: J. Redick,substitution,substitution,6,Low
+21600249,199,substitution,2,PT05M50.00S,05:50,Q2 05:50,33,27,1610612754.0,Ellis,SUB in: M. Ellis,substitution,substitution,6,Low
+21600249,200,substitution,2,PT05M50.00S,05:50,Q2 05:50,33,27,1610612754.0,Teague,SUB in: J. Teague,substitution,3pt made,6,Low
+21600249,198,3pt,2,PT05M37.00S,05:37,Q2 05:37,33,30,1610612746.0,Crawford,Crawford 24' 3PT Jump Shot (8 PTS) (Paul 2 AST),substitution,turnover,3,Low
+21600249,199,turnover,2,PT05M15.00S,05:15,Q2 05:15,33,30,1610612754.0,Young,T. Young Lost Ball Turnover (P1.T5),3pt made,steal,3,Low
+21600249,199,steal,2,PT05M15.00S,05:15,Q2 05:15,33,30,1610612746.0,Jordan,Jordan STEAL (1 STL),turnover,3pt missed,3,Low
+21600249,200,3pt,2,PT05M06.00S,05:06,Q2 05:06,33,30,1610612746.0,Redick,MISS Redick 24' 3PT Jump Shot,steal,rebound,3,Low
+21600249,201,rebound,2,PT05M05.00S,05:05,Q2 05:05,33,30,1610612754.0,Robinson III,Robinson III REBOUND (Off:0 Def:2),3pt missed,3pt missed,3,Low
+21600249,202,3pt,2,PT04M54.00S,04:54,Q2 04:54,33,30,1610612754.0,Young,MISS T. Young 27' 3PT Jump Shot,rebound,rebound,3,Low
+21600249,203,rebound,2,PT04M53.00S,04:53,Q2 04:53,33,30,1610612746.0,Paul,Paul REBOUND (Off:0 Def:4),3pt missed,2pt made,3,Low
+21600249,204,2pt,2,PT04M35.00S,04:35,Q2 04:35,33,32,1610612746.0,Griffin,Griffin 19' Jump Shot (2 PTS) (Crawford 1 AST),rebound,2pt missed,1,Low
+21600249,205,2pt,2,PT04M27.00S,04:27,Q2 04:27,33,32,1610612754.0,Teague,MISS Teague 1' Driving Layup,2pt made,rebound,1,Low
+21600249,206,rebound,2,PT04M26.00S,04:26,Q2 04:26,33,32,1610612746.0,Jordan,Jordan REBOUND (Off:1 Def:6),2pt missed,3pt missed,1,Low
+21600249,207,3pt,2,PT04M20.00S,04:20,Q2 04:20,33,32,1610612746.0,Redick,MISS Redick 26' 3PT Jump Shot,rebound,rebound,1,Low
+21600249,208,rebound,2,PT04M20.00S,04:20,Q2 04:20,33,32,1610612754.0,Turner,Turner REBOUND (Off:2 Def:4),3pt missed,2pt made,1,Low
+21600249,209,2pt,2,PT04M09.00S,04:09,Q2 04:09,35,32,1610612754.0,Turner,Turner 19' Jump Shot (8 PTS) (Robinson III 1 AST),rebound,3pt missed,3,Low
+21600249,210,3pt,2,PT03M52.00S,03:52,Q2 03:52,35,32,1610612746.0,Paul,MISS Paul 27' 3PT Pullup Jump Shot,2pt made,rebound,3,Low
+21600249,211,rebound,2,PT03M51.00S,03:51,Q2 03:51,35,32,1610612754.0,Turner,Turner REBOUND (Off:2 Def:5),3pt missed,3pt made,3,Low
+21600249,212,3pt,2,PT03M42.00S,03:42,Q2 03:42,38,32,1610612754.0,Turner,Turner 27' 3PT Jump Shot (11 PTS) (Teague 5 AST),rebound,2pt made,6,Low
+21600249,213,2pt,2,PT03M21.00S,03:21,Q2 03:21,38,34,1610612746.0,Griffin,Griffin 3' Driving Dunk (4 PTS),3pt made,2pt made,4,Low
+21600249,214,2pt,2,PT03M07.00S,03:07,Q2 03:07,40,34,1610612754.0,Young,T. Young 2' Layup (5 PTS) (Teague 6 AST),2pt made,timeout,6,Low
+21600249,215,timeout,2,PT03M00.00S,03:00,Q2 03:00,40,34,1610612746.0,,Clippers Timeout: Regular (Reg.2 Short 0),2pt made,2pt made,6,Low
+21600249,217,2pt,2,PT02M43.00S,02:43,Q2 02:43,40,36,1610612746.0,Griffin,Griffin 18' Step Back Jump Shot (6 PTS) (Redick 1 AST),timeout,2pt made,4,Low
+21600249,218,2pt,2,PT02M23.00S,02:23,Q2 02:23,42,36,1610612754.0,Turner,Turner 3' Layup (13 PTS) (T. Young 1 AST),2pt made,2pt made,6,Low
+21600249,219,2pt,2,PT01M59.00S,01:59,Q2 01:59,42,38,1610612746.0,Griffin,Griffin 4' Turnaround Hook Shot (8 PTS),2pt made,3pt missed,4,Low
+21600249,220,3pt,2,PT01M48.00S,01:48,Q2 01:48,42,38,1610612754.0,Turner,MISS Turner 27' 3PT Jump Shot,2pt made,rebound,4,Low
+21600249,221,rebound,2,PT01M48.00S,01:48,Q2 01:48,42,38,1610612746.0,Griffin,Griffin REBOUND (Off:0 Def:3),3pt missed,2pt missed,4,Low
+21600249,222,2pt,2,PT01M40.00S,01:40,Q2 01:40,42,38,1610612746.0,Crawford,MISS Crawford 18' Pullup Jump Shot,rebound,rebound,4,Low
+21600249,223,rebound,2,PT01M40.00S,01:40,Q2 01:40,42,38,1610612754.0,Young,T. Young REBOUND (Off:1 Def:2),2pt missed,2pt made,4,Low
+21600249,224,2pt,2,PT01M29.00S,01:29,Q2 01:29,44,38,1610612754.0,Young,T. Young 8' Floating Jump Shot (7 PTS) (Teague 7 AST),rebound,2pt missed,6,Low
+21600249,225,2pt,2,PT01M11.00S,01:11,Q2 01:11,44,38,1610612746.0,Griffin,MISS Griffin 20' Step Back Jump Shot,2pt made,rebound,6,Low
+21600249,226,rebound,2,PT01M11.00S,01:11,Q2 01:11,44,38,1610612754.0,Teague,Teague REBOUND (Off:0 Def:1),2pt missed,foul,6,Low
+21600249,227,foul,2,PT01M00.00S,01:00,Q2 01:00,44,38,1610612746.0,Griffin,Griffin S.FOUL (P1.T4) (S.Corbin),rebound,freethrow,6,Low
+21600249,228,freethrow,2,PT01M00.00S,01:00,Q2 01:00,45,38,1610612754.0,Robinson III,Robinson III Free Throw 1 of 2 (9 PTS),foul,freethrow,7,Low
+21600249,231,freethrow,2,PT01M00.00S,01:00,Q2 01:00,46,38,1610612754.0,Robinson III,Robinson III Free Throw 2 of 2 (10 PTS),freethrow,substitution,8,Low
+21600249,230,substitution,2,PT01M00.00S,01:00,Q2 01:00,45,38,1610612754.0,Turner,SUB out: M. Turner,freethrow,substitution,7,Low
+21600249,231,substitution,2,PT01M00.00S,01:00,Q2 01:00,45,38,1610612754.0,Jefferson,SUB in: A. Jefferson,substitution,turnover,7,Low
+21600249,233,turnover,2,PT00M51.60S,00:51,Q2 00:51,46,38,1610612746.0,Redick,Redick Bad Pass Turnover (P2.T14),substitution,steal,8,Low
+21600249,233,steal,2,PT00M51.60S,00:51,Q2 00:51,46,38,1610612754.0,Young,T. Young STEAL (1 STL),turnover,2pt made,8,Low
+21600249,234,2pt,2,PT00M43.40S,00:43,Q2 00:43,48,38,1610612754.0,Jefferson,Jefferson 1' Layup (8 PTS) (Ellis 2 AST),steal,2pt made,10,Low
+21600249,235,2pt,2,PT00M33.60S,00:33,Q2 00:33,48,40,1610612746.0,Paul,Paul 9' Fadeaway Jumper (6 PTS),2pt made,2pt made,8,Low
+21600249,236,2pt,2,PT00M23.40S,00:23,Q2 00:23,50,40,1610612754.0,Jefferson,Jefferson 18' Jump Shot (10 PTS) (Teague 8 AST),2pt made,foul,10,Low
+21600249,237,foul,2,PT00M06.80S,00:06,Q2 00:06,50,40,1610612754.0,Teague,Teague Personal Take Foul (P2.T1) (J.Goldenberg),2pt made,substitution,10,Low
+21600249,238,substitution,2,PT00M06.80S,00:06,Q2 00:06,50,40,1610612754.0,Jefferson,SUB out: A. Jefferson,foul,substitution,10,Low
+21600249,239,substitution,2,PT00M06.80S,00:06,Q2 00:06,50,40,1610612754.0,Teague,SUB out: J. Teague,substitution,substitution,10,Low
+21600249,240,substitution,2,PT00M06.80S,00:06,Q2 00:06,50,40,1610612754.0,Allen,SUB in: L. Allen,substitution,substitution,10,Low
+21600249,241,substitution,2,PT00M06.80S,00:06,Q2 00:06,50,40,1610612754.0,Stuckey,SUB in: R. Stuckey,substitution,period,10,Low
+21600249,240,period,2,PT00M00.00S,00:00,Q2 00:00,50,40,1610612754.0,,End of 2nd Period (7:03 PM EST),substitution,period,10,Low
+21600249,242,period,3,PT12M00.00S,12:00,Q3 12:00,50,40,1610612754.0,,Start of 3rd Period (7:20 PM EST),period,substitution,10,Low
+21600249,243,3pt,3,PT11M48.00S,11:48,Q3 11:48,50,40,1610612754.0,Teague,MISS Teague 25' 3PT Jump Shot,substitution,rebound,10,Low
+21600249,244,rebound,3,PT11M47.00S,11:47,Q3 11:47,50,40,1610612746.0,Jordan,Jordan REBOUND (Off:1 Def:7),3pt missed,foul,10,Low
+21600249,245,foul,3,PT11M31.00S,11:31,Q3 11:31,50,40,1610612754.0,Teague,Teague S.FOUL (P3.T1) (J.Goldenberg),rebound,freethrow,10,Low
+21600249,246,freethrow,3,PT11M31.00S,11:31,Q3 11:31,50,41,1610612746.0,Griffin,Griffin Free Throw 1 of 2 (9 PTS),foul,freethrow,9,Low
+21600249,248,freethrow,3,PT11M31.00S,11:31,Q3 11:31,50,42,1610612746.0,Griffin,Griffin Free Throw 2 of 2 (10 PTS),freethrow,2pt made,8,Low
+21600249,250,2pt,3,PT11M09.00S,11:09,Q3 11:09,52,42,1610612754.0,Teague,Teague 1' Driving Finger Roll Layup (2 PTS),freethrow,2pt missed,10,Low
+21600249,251,2pt,3,PT10M52.00S,10:52,Q3 10:52,52,42,1610612746.0,Paul,MISS Paul 18' Jump Shot,2pt made,rebound,10,Low
+21600249,252,rebound,3,PT10M52.00S,10:52,Q3 10:52,52,42,1610612754.0,Robinson III,Robinson III REBOUND (Off:0 Def:3),2pt missed,turnover,10,Low
+21600249,253,turnover,3,PT10M38.00S,10:38,Q3 10:38,52,42,1610612754.0,Ellis,Ellis Lost Ball Turnover (P1.T6),rebound,steal,10,Low
+21600249,253,steal,3,PT10M38.00S,10:38,Q3 10:38,52,42,1610612746.0,Mbah a Moute,Mbah a Moute STEAL (1 STL),turnover,2pt missed,10,Low
+21600249,254,2pt,3,PT10M33.00S,10:33,Q3 10:33,52,42,1610612746.0,Redick,MISS Redick 1' Cutting Layup Shot,steal,block,10,Low
+21600249,254,block,3,PT10M33.00S,10:33,Q3 10:33,52,42,1610612754.0,Teague,Teague BLOCK (1 BLK),2pt missed,rebound,10,Low
+21600249,255,rebound,3,PT10M33.00S,10:33,Q3 10:33,52,42,1610612746.0,,TEAM offensive REBOUND,block,3pt missed,10,Low
+21600249,256,3pt,3,PT10M25.00S,10:25,Q3 10:25,52,42,1610612746.0,Redick,MISS Redick 27' 3PT Jump Shot,rebound,rebound,10,Low
+21600249,257,rebound,3,PT10M25.00S,10:25,Q3 10:25,52,42,1610612754.0,Turner,Turner REBOUND (Off:2 Def:6),3pt missed,3pt made,10,Low
+21600249,258,3pt,3,PT10M10.00S,10:10,Q3 10:10,55,42,1610612754.0,Teague,Teague 28' 3PT Jump Shot (5 PTS) (Turner 2 AST),rebound,3pt missed,13,Low
+21600249,259,3pt,3,PT09M47.00S,09:47,Q3 09:47,55,42,1610612746.0,Mbah a Moute,MISS Mbah a Moute 3PT Jump Shot,3pt made,rebound,13,Low
+21600249,260,rebound,3,PT09M47.00S,09:47,Q3 09:47,55,42,1610612754.0,Turner,Turner REBOUND (Off:2 Def:7),3pt missed,2pt made,13,Low
+21600249,261,2pt,3,PT09M33.00S,09:33,Q3 09:33,57,42,1610612754.0,Turner,Turner 8' Turnaround Jump Shot (15 PTS) (Teague 9 AST),rebound,turnover,15,Low
+21600249,262,turnover,3,PT09M23.00S,09:23,Q3 09:23,57,42,1610612746.0,Redick,Redick Lost Ball Turnover (P3.T15),2pt made,steal,15,Low
+21600249,262,steal,3,PT09M23.00S,09:23,Q3 09:23,57,42,1610612754.0,Ellis,Ellis STEAL (1 STL),turnover,foul,15,Low
+21600249,263,foul,3,PT09M21.00S,09:21,Q3 09:21,57,42,1610612746.0,Jordan,Jordan Personal Take Foul (P1.T1) (J.Goldenberg),steal,instant replay,15,Low
+21600249,265,2pt,3,PT09M12.00S,09:12,Q3 09:12,57,42,1610612754.0,Turner,MISS Turner 21' Jump Shot,instant replay,rebound,15,Low
+21600249,266,rebound,3,PT09M12.00S,09:12,Q3 09:12,57,42,1610612746.0,Jordan,Jordan REBOUND (Off:1 Def:8),2pt missed,2pt made,15,Low
+21600249,267,2pt,3,PT08M56.00S,08:56,Q3 08:56,57,44,1610612746.0,Paul,Paul 13' Jump Shot (8 PTS),rebound,2pt made,13,Low
+21600249,268,2pt,3,PT08M30.00S,08:30,Q3 08:30,59,44,1610612754.0,Ellis,Ellis 2' Driving Layup (2 PTS),2pt made,foul,15,Low
+21600249,269,foul,3,PT08M24.00S,08:24,Q3 08:24,59,44,1610612754.0,Teague,Teague Personal Block Foul (P4.T2) (S.Corbin),2pt made,substitution,15,Low
+21600249,270,substitution,3,PT08M24.00S,08:24,Q3 08:24,59,44,1610612754.0,Teague,SUB out: J. Teague,foul,substitution,15,Low
+21600249,271,substitution,3,PT08M24.00S,08:24,Q3 08:24,59,44,1610612754.0,Stuckey,SUB in: R. Stuckey,substitution,foul,15,Low
+21600249,271,foul,3,PT08M08.00S,08:08,Q3 08:08,59,44,1610612754.0,Young,T. Young Personal Block Foul (P2.T3) (J.Goldenberg),substitution,substitution,15,Low
+21600249,272,substitution,3,PT08M08.00S,08:08,Q3 08:08,59,44,1610612746.0,Mbah a Moute,SUB out: L. Mbah a Moute,foul,substitution,15,Low
+21600249,273,substitution,3,PT08M08.00S,08:08,Q3 08:08,59,44,1610612746.0,Crawford,SUB in: J. Crawford,substitution,turnover,15,Low
+21600249,273,turnover,3,PT08M04.00S,08:04,Q3 08:04,59,44,1610612746.0,Griffin,Griffin Traveling Turnover (P3.T16),substitution,2pt missed,15,Low
+21600249,274,2pt,3,PT07M49.00S,07:49,Q3 07:49,59,44,1610612754.0,Turner,MISS Turner 20' Jump Shot,turnover,rebound,15,Low
+21600249,275,rebound,3,PT07M48.00S,07:48,Q3 07:48,59,44,1610612746.0,Jordan,Jordan REBOUND (Off:1 Def:9),2pt missed,2pt missed,15,Low
+21600249,276,2pt,3,PT07M38.00S,07:38,Q3 07:38,59,44,1610612746.0,Griffin,MISS Griffin 18' Jump Shot,rebound,rebound,15,Low
+21600249,277,rebound,3,PT07M34.00S,07:34,Q3 07:34,59,44,1610612754.0,Stuckey,Stuckey REBOUND (Off:0 Def:2),2pt missed,turnover,15,Low
+21600249,278,turnover,3,PT07M30.00S,07:30,Q3 07:30,59,44,1610612754.0,Stuckey,Stuckey Lost Ball Turnover (P2.T7),rebound,steal,15,Low
+21600249,278,steal,3,PT07M30.00S,07:30,Q3 07:30,59,44,1610612746.0,Paul,Paul STEAL (2 STL),turnover,3pt missed,15,Low
+21600249,279,3pt,3,PT07M17.00S,07:17,Q3 07:17,59,44,1610612746.0,Paul,MISS Paul 26' 3PT Jump Shot,steal,rebound,15,Low
+21600249,280,rebound,3,PT07M16.00S,07:16,Q3 07:16,59,44,1610612746.0,Griffin,Griffin REBOUND (Off:1 Def:3),3pt missed,3pt missed,15,Low
+21600249,281,3pt,3,PT07M03.00S,07:03,Q3 07:03,59,44,1610612746.0,Crawford,MISS Crawford 3PT Jump Shot,rebound,rebound,15,Low
+21600249,282,rebound,3,PT07M01.00S,07:01,Q3 07:01,59,44,1610612754.0,Turner,Turner REBOUND (Off:2 Def:8),3pt missed,3pt made,15,Low
+21600249,283,3pt,3,PT06M47.00S,06:47,Q3 06:47,62,44,1610612754.0,Robinson III,Robinson III 24' 3PT Jump Shot (13 PTS) (Turner 3 AST),rebound,timeout,18,Low
+21600249,284,timeout,3,PT06M46.00S,06:46,Q3 06:46,62,44,1610612746.0,,Clippers Timeout: Regular (Reg.3 Short 0),3pt made,2pt made,18,Low
+21600249,286,2pt,3,PT06M32.00S,06:32,Q3 06:32,62,46,1610612746.0,Griffin,Griffin 19' Jump Shot (12 PTS) (Paul 3 AST),timeout,3pt missed,16,Low
+21600249,287,3pt,3,PT06M11.00S,06:11,Q3 06:11,62,46,1610612754.0,Young,MISS T. Young 25' 3PT Jump Shot,2pt made,rebound,16,Low
+21600249,288,rebound,3,PT06M10.00S,06:10,Q3 06:10,62,46,1610612746.0,Redick,Redick REBOUND (Off:0 Def:2),3pt missed,2pt missed,16,Low
+21600249,289,2pt,3,PT06M00.00S,06:00,Q3 06:00,62,46,1610612746.0,Griffin,MISS Griffin 3' Layup,rebound,rebound,16,Low
+21600249,290,rebound,3,PT06M00.00S,06:00,Q3 06:00,62,46,1610612746.0,Griffin,Griffin REBOUND (Off:2 Def:3),2pt missed,foul,16,Low
+21600249,291,foul,3,PT06M00.00S,06:00,Q3 06:00,62,46,1610612754.0,Turner,Turner S.FOUL (P3.T4) (B.Kennedy),rebound,freethrow,16,Low
+21600249,292,freethrow,3,PT06M00.00S,06:00,Q3 06:00,62,47,1610612746.0,Griffin,Griffin Free Throw 1 of 2 (13 PTS),foul,freethrow,15,Low
+21600249,294,freethrow,3,PT06M00.00S,06:00,Q3 06:00,62,48,1610612746.0,Griffin,Griffin Free Throw 2 of 2 (14 PTS),freethrow,2pt made,14,Low
+21600249,296,2pt,3,PT05M39.00S,05:39,Q3 05:39,64,48,1610612754.0,Robinson III,Robinson III 22' Pullup Jump Shot (15 PTS),freethrow,3pt missed,16,Low
+21600249,297,3pt,3,PT05M19.00S,05:19,Q3 05:19,64,48,1610612746.0,Crawford,MISS Crawford 24' 3PT Jump Shot,2pt made,rebound,16,Low
+21600249,298,rebound,3,PT05M19.00S,05:19,Q3 05:19,64,48,1610612754.0,Young,T. Young REBOUND (Off:1 Def:3),3pt missed,foul,16,Low
+21600249,299,foul,3,PT05M09.00S,05:09,Q3 05:09,64,48,1610612754.0,Young,T. Young OFF.Foul (P3) (B.Kennedy),rebound,turnover,16,Low
+21600249,300,turnover,3,PT05M09.00S,05:09,Q3 05:09,64,48,1610612754.0,Young,T. Young Foul Turnover (P2.T8),foul,substitution,16,Low
+21600249,301,substitution,3,PT05M09.00S,05:09,Q3 05:09,64,48,1610612754.0,Turner,SUB out: M. Turner,turnover,substitution,16,Low
+21600249,302,substitution,3,PT05M09.00S,05:09,Q3 05:09,64,48,1610612754.0,Jefferson,SUB in: A. Jefferson,substitution,2pt missed,16,Low
+21600249,302,2pt,3,PT04M55.00S,04:55,Q3 04:55,64,48,1610612746.0,Griffin,MISS Griffin 20' Jump Shot,substitution,rebound,16,Low
+21600249,303,rebound,3,PT04M54.00S,04:54,Q3 04:54,64,48,1610612746.0,Jordan,Jordan REBOUND (Off:2 Def:9),2pt missed,2pt missed,16,Low
+21600249,304,2pt,3,PT04M50.00S,04:50,Q3 04:50,64,48,1610612746.0,Crawford,MISS Crawford 13' Driving Bank Shot,rebound,rebound,16,Low
+21600249,305,rebound,3,PT04M49.00S,04:49,Q3 04:49,64,48,1610612754.0,,TEAM defensive REBOUND,2pt missed,2pt missed,16,Low
+21600249,306,2pt,3,PT04M35.00S,04:35,Q3 04:35,64,48,1610612754.0,Ellis,MISS Ellis 19' Pullup Jump Shot,rebound,rebound,16,Low
+21600249,307,rebound,3,PT04M34.00S,04:34,Q3 04:34,64,48,1610612746.0,Jordan,Jordan REBOUND (Off:2 Def:10),2pt missed,3pt missed,16,Low
+21600249,308,3pt,3,PT04M16.00S,04:16,Q3 04:16,64,48,1610612746.0,Paul,MISS Paul 27' 3PT Jump Shot,rebound,rebound,16,Low
+21600249,309,rebound,3,PT04M15.00S,04:15,Q3 04:15,64,48,1610612754.0,Young,T. Young REBOUND (Off:1 Def:4),3pt missed,2pt made,16,Low
+21600249,310,2pt,3,PT03M58.00S,03:58,Q3 03:58,66,48,1610612754.0,Stuckey,Stuckey 17' Turnaround Fadeaway (6 PTS),rebound,foul,18,Low
+21600249,311,foul,3,PT03M43.00S,03:43,Q3 03:43,66,48,1610612754.0,Stuckey,PACERS T.Foul (Def. 3 Sec Stuckey ) (S.Corbin),2pt made,freethrow,18,Low
+21600249,312,freethrow,3,PT03M43.00S,03:43,Q3 03:43,66,49,1610612746.0,Paul,Paul Free Throw Technical (9 PTS),foul,substitution,17,Low
+21600249,314,substitution,3,PT03M43.00S,03:43,Q3 03:43,66,49,1610612746.0,Redick,SUB out: J. Redick,freethrow,substitution,17,Low
+21600249,315,substitution,3,PT03M43.00S,03:43,Q3 03:43,66,49,1610612746.0,Rivers,SUB in: A. Rivers,substitution,foul,17,Low
+21600249,315,foul,3,PT03M38.00S,03:38,Q3 03:38,66,49,1610612754.0,Jefferson,Jefferson P.FOUL (P1.PN) (S.Corbin),substitution,freethrow,17,Low
+21600249,316,freethrow,3,PT03M38.00S,03:38,Q3 03:38,66,50,1610612746.0,Paul,Paul Free Throw 1 of 2 (10 PTS),foul,freethrow,16,Low
+21600249,318,freethrow,3,PT03M38.00S,03:38,Q3 03:38,66,51,1610612746.0,Paul,Paul Free Throw 2 of 2 (11 PTS),freethrow,foul,15,Low
+21600249,320,foul,3,PT03M28.00S,03:28,Q3 03:28,66,51,1610612746.0,Jordan,Jordan S.FOUL (P2.T2) (S.Corbin),freethrow,freethrow,15,Low
+21600249,321,freethrow,3,PT03M28.00S,03:28,Q3 03:28,67,51,1610612754.0,Stuckey,Stuckey Free Throw 1 of 2 (7 PTS),foul,freethrow,16,Low
+21600249,324,freethrow,3,PT03M28.00S,03:28,Q3 03:28,68,51,1610612754.0,Stuckey,Stuckey Free Throw 2 of 2 (8 PTS),freethrow,substitution,17,Low
+21600249,323,substitution,3,PT03M28.00S,03:28,Q3 03:28,67,51,1610612754.0,Young,SUB out: T. Young,freethrow,substitution,16,Low
+21600249,324,substitution,3,PT03M28.00S,03:28,Q3 03:28,67,51,1610612754.0,Allen,SUB in: L. Allen,substitution,2pt made,16,Low
+21600249,326,2pt,3,PT03M20.00S,03:20,Q3 03:20,68,53,1610612746.0,Jordan,Jordan Dunk (5 PTS) (Paul 4 AST),substitution,foul,15,Low
+21600249,327,foul,3,PT03M20.00S,03:20,Q3 03:20,68,53,1610612754.0,Ellis,Ellis S.FOUL (P2.PN) (S.Corbin),2pt made,freethrow,15,Low
+21600249,328,freethrow,3,PT03M20.00S,03:20,Q3 03:20,68,53,1610612746.0,Jordan,MISS Jordan Free Throw 1 of 1,foul,rebound,15,Low
+21600249,330,rebound,3,PT03M20.00S,03:20,Q3 03:20,68,53,1610612754.0,Jefferson,Jefferson REBOUND (Off:2 Def:3),freethrow,timeout,15,Low
+21600249,331,timeout,3,PT03M19.00S,03:19,Q3 03:19,68,53,1610612754.0,,PACERS Timeout: Regular (Full 3 Short 0),rebound,substitution,15,Low
+21600249,333,substitution,3,PT03M19.00S,03:19,Q3 03:19,68,53,1610612754.0,Ellis,SUB out: M. Ellis,timeout,substitution,15,Low
+21600249,334,substitution,3,PT03M19.00S,03:19,Q3 03:19,68,53,1610612754.0,Brooks,SUB in: A. Brooks,substitution,2pt missed,15,Low
+21600249,334,2pt,3,PT03M00.00S,03:00,Q3 03:00,68,53,1610612754.0,Jefferson,MISS Jefferson 10' Jump Shot,substitution,block,15,Low
+21600249,334,block,3,PT03M00.00S,03:00,Q3 03:00,68,53,1610612746.0,Jordan,Jordan BLOCK (2 BLK),2pt missed,rebound,15,Low
+21600249,335,rebound,3,PT02M59.00S,02:59,Q3 02:59,68,53,1610612754.0,,TEAM offensive REBOUND,block,3pt missed,15,Low
+21600249,336,3pt,3,PT02M54.00S,02:54,Q3 02:54,68,53,1610612754.0,Stuckey,MISS Stuckey 26' 3PT Jump Shot,rebound,rebound,15,Low
+21600249,337,rebound,3,PT02M54.00S,02:54,Q3 02:54,68,53,1610612746.0,Jordan,Jordan REBOUND (Off:2 Def:11),3pt missed,2pt made,15,Low
+21600249,338,2pt,3,PT02M44.00S,02:44,Q3 02:44,68,55,1610612746.0,Jordan,Jordan 1' Alley Oop Layup (7 PTS) (Griffin 2 AST),rebound,2pt made,13,Low
+21600249,339,2pt,3,PT02M25.00S,02:25,Q3 02:25,70,55,1610612754.0,Jefferson,Jefferson 18' Jump Shot (12 PTS) (Brooks 2 AST),2pt made,foul,15,Low
+21600249,340,foul,3,PT02M11.00S,02:11,Q3 02:11,70,55,1610612754.0,Stuckey,Stuckey S.FOUL (P1.PN) (J.Goldenberg),2pt made,freethrow,15,Low
+21600249,341,freethrow,3,PT02M11.00S,02:11,Q3 02:11,70,56,1610612746.0,Paul,Paul Free Throw 1 of 2 (12 PTS),foul,freethrow,14,Low
+21600249,343,freethrow,3,PT02M11.00S,02:11,Q3 02:11,70,57,1610612746.0,Paul,Paul Free Throw 2 of 2 (13 PTS),freethrow,2pt made,13,Low
+21600249,345,2pt,3,PT01M57.00S,01:57,Q3 01:57,72,57,1610612754.0,Stuckey,Stuckey 1' Cutting Layup Shot (10 PTS) (Allen 2 AST),freethrow,2pt missed,15,Low
+21600249,346,2pt,3,PT01M39.00S,01:39,Q3 01:39,72,57,1610612746.0,Crawford,MISS Crawford 1' Driving Layup,2pt made,rebound,15,Low
+21600249,347,rebound,3,PT01M38.00S,01:38,Q3 01:38,72,57,1610612754.0,Jefferson,Jefferson REBOUND (Off:2 Def:4),2pt missed,2pt made,15,Low
+21600249,348,2pt,3,PT01M25.00S,01:25,Q3 01:25,74,57,1610612754.0,Jefferson,Jefferson 9' Turnaround Jump Shot (14 PTS) (Stuckey 2 AST),rebound,foul,17,Low
+21600249,349,foul,3,PT01M06.00S,01:06,Q3 01:06,74,57,1610612754.0,Robinson III,Robinson III S.FOUL (P2.PN) (B.Kennedy),2pt made,freethrow,17,Low
+21600249,350,freethrow,3,PT01M06.00S,01:06,Q3 01:06,74,57,1610612746.0,Jordan,MISS Jordan Free Throw 1 of 2,foul,rebound,17,Low
+21600249,351,rebound,3,PT01M06.00S,01:06,Q3 01:06,74,57,1610612746.0,,TEAM offensive REBOUND,freethrow,freethrow,17,Low
+21600249,354,freethrow,3,PT01M06.00S,01:06,Q3 01:06,74,58,1610612746.0,Jordan,Jordan Free Throw 2 of 2 (8 PTS),rebound,substitution,16,Low
+21600249,352,substitution,3,PT01M06.00S,01:06,Q3 01:06,74,57,1610612746.0,Griffin,SUB out: B. Griffin,freethrow,substitution,17,Low
+21600249,353,substitution,3,PT01M06.00S,01:06,Q3 01:06,74,57,1610612746.0,Crawford,SUB out: J. Crawford,substitution,substitution,17,Low
+21600249,354,substitution,3,PT01M06.00S,01:06,Q3 01:06,74,57,1610612746.0,Speights,SUB in: M. Speights,substitution,substitution,17,Low
+21600249,355,substitution,3,PT01M06.00S,01:06,Q3 01:06,74,57,1610612746.0,Felton,SUB in: R. Felton,substitution,2pt missed,17,Low
+21600249,356,2pt,3,PT00M52.90S,00:52,Q3 00:52,74,58,1610612754.0,Allen,MISS Allen 1' Layup,substitution,2pt missed,16,Low
+21600249,357,2pt,3,PT00M51.80S,00:51,Q3 00:51,74,58,1610612754.0,Jefferson,MISS Jefferson 1' Tip Layup Shot,2pt missed,rebound,16,Low
+21600249,358,rebound,3,PT00M51.80S,00:51,Q3 00:51,74,58,1610612754.0,Jefferson,Jefferson REBOUND (Off:3 Def:4),2pt missed,rebound,16,Low
+21600249,359,rebound,3,PT00M50.90S,00:50,Q3 00:50,74,58,1610612754.0,Stuckey,Stuckey REBOUND (Off:1 Def:2),rebound,2pt made,16,Low
+21600249,360,2pt,3,PT00M47.60S,00:47,Q3 00:47,76,58,1610612754.0,Stuckey,Stuckey 11' Jump Shot (12 PTS),rebound,2pt missed,18,Low
+21600249,361,2pt,3,PT00M37.90S,00:37,Q3 00:37,76,58,1610612746.0,Felton,MISS Felton 20' Jump Shot,2pt made,rebound,18,Low
+21600249,362,rebound,3,PT00M37.60S,00:37,Q3 00:37,76,58,1610612754.0,Robinson III,Robinson III REBOUND (Off:0 Def:4),2pt missed,2pt missed,18,Low
+21600249,363,2pt,3,PT00M15.90S,00:15,Q3 00:15,76,58,1610612754.0,Brooks,MISS Brooks 11' Running Jump Shot,rebound,rebound,18,Low
+21600249,364,rebound,3,PT00M14.90S,00:14,Q3 00:14,76,58,1610612754.0,Brooks,Brooks REBOUND (Off:1 Def:0),2pt missed,2pt missed,18,Low
+21600249,365,2pt,3,PT00M00.00S,00:00,Q3 00:00,76,58,1610612754.0,Stuckey,MISS Stuckey 11' Turnaround Jump Shot,rebound,block,18,Low
+21600249,365,block,3,PT00M00.00S,00:00,Q3 00:00,76,58,1610612746.0,Jordan,Jordan BLOCK (3 BLK),2pt missed,rebound,18,Low
+21600249,366,rebound,3,PT00M00.00S,00:00,Q3 00:00,76,58,1610612754.0,,TEAM offensive REBOUND,block,period,18,Low
+21600249,367,period,3,PT00M00.00S,00:00,Q3 00:00,76,58,1610612754.0,,End of 3rd Period (7:48 PM EST),rebound,period,18,Low
+21600249,369,period,4,PT12M00.00S,12:00,Q4 12:00,76,58,1610612754.0,,Start of 4th Period (7:50 PM EST),period,substitution,18,Low
+21600249,370,3pt,4,PT11M47.00S,11:47,Q4 11:47,76,58,1610612746.0,Speights,MISS Speights 27' 3PT Jump Shot,substitution,rebound,18,Low
+21600249,371,rebound,4,PT11M47.00S,11:47,Q4 11:47,76,58,1610612754.0,Stuckey,Stuckey REBOUND (Off:1 Def:3),3pt missed,3pt made,18,Low
+21600249,372,3pt,4,PT11M25.00S,11:25,Q4 11:25,79,58,1610612754.0,Ellis,Ellis 26' 3PT Pullup Jump Shot (5 PTS),rebound,foul,21,Low
+21600249,373,foul,4,PT11M11.00S,11:11,Q4 11:11,79,58,1610612754.0,Jefferson,Jefferson S.FOUL (P2.T1) (S.Corbin),3pt made,freethrow,21,Low
+21600249,374,freethrow,4,PT11M11.00S,11:11,Q4 11:11,79,59,1610612746.0,Rivers,Rivers Free Throw 1 of 2 (4 PTS),foul,freethrow,20,Low
+21600249,376,freethrow,4,PT11M11.00S,11:11,Q4 11:11,79,60,1610612746.0,Rivers,Rivers Free Throw 2 of 2 (5 PTS),freethrow,2pt made,19,Low
+21600249,378,2pt,4,PT10M49.00S,10:49,Q4 10:49,81,60,1610612754.0,Jefferson,Jefferson 4' Turnaround Jump Shot (16 PTS),freethrow,foul,21,Low
+21600249,379,foul,4,PT10M38.00S,10:38,Q4 10:38,81,60,1610612754.0,Jefferson,Jefferson P.FOUL (P3.T2) (S.Corbin),2pt made,2pt missed,21,Low
+21600249,380,2pt,4,PT10M33.00S,10:33,Q4 10:33,81,60,1610612746.0,Rivers,MISS Rivers 9' Floating Jump Shot,foul,rebound,21,Low
+21600249,381,rebound,4,PT10M32.00S,10:32,Q4 10:32,81,60,1610612754.0,Jefferson,Jefferson REBOUND (Off:3 Def:5),2pt missed,2pt missed,21,Low
+21600249,382,2pt,4,PT10M21.00S,10:21,Q4 10:21,81,60,1610612754.0,Jefferson,MISS Jefferson 20' Jump Shot,rebound,rebound,21,Low
+21600249,383,rebound,4,PT10M21.00S,10:21,Q4 10:21,81,60,1610612746.0,,TEAM defensive REBOUND,2pt missed,2pt made,21,Low
+21600249,384,2pt,4,PT10M13.00S,10:13,Q4 10:13,81,62,1610612746.0,Crawford,Crawford 17' Pullup Jump Shot (10 PTS),rebound,2pt missed,19,Low
+21600249,385,2pt,4,PT09M45.00S,09:45,Q4 09:45,81,62,1610612754.0,Jefferson,MISS Jefferson 16' Jump Shot,2pt made,rebound,19,Low
+21600249,386,rebound,4,PT09M44.00S,09:44,Q4 09:44,81,62,1610612754.0,Brooks,Brooks REBOUND (Off:2 Def:0),2pt missed,foul,19,Low
+21600249,387,foul,4,PT09M39.00S,09:39,Q4 09:39,81,62,1610612746.0,Felton,Felton P.FOUL (P2.T1) (B.Kennedy),rebound,substitution,19,Low
+21600249,388,substitution,4,PT09M39.00S,09:39,Q4 09:39,81,62,1610612754.0,Jefferson,SUB out: A. Jefferson,foul,substitution,19,Low
+21600249,389,substitution,4,PT09M39.00S,09:39,Q4 09:39,81,62,1610612754.0,Turner,SUB in: M. Turner,substitution,turnover,19,Low
+21600249,389,turnover,4,PT09M27.00S,09:27,Q4 09:27,81,62,1610612754.0,Stuckey,Stuckey Bad Pass Turnover (P3.T9),substitution,steal,19,Low
+21600249,389,steal,4,PT09M27.00S,09:27,Q4 09:27,81,62,1610612746.0,Rivers,Rivers STEAL (2 STL),turnover,2pt missed,19,Low
+21600249,390,2pt,4,PT09M22.00S,09:22,Q4 09:22,81,62,1610612746.0,Speights,MISS Speights 4' Layup,steal,block,19,Low
+21600249,390,block,4,PT09M22.00S,09:22,Q4 09:22,81,62,1610612754.0,Ellis,Ellis BLOCK (1 BLK),2pt missed,rebound,19,Low
+21600249,391,rebound,4,PT09M22.00S,09:22,Q4 09:22,81,62,1610612746.0,,TEAM offensive REBOUND,block,2pt missed,19,Low
+21600249,392,2pt,4,PT09M19.00S,09:19,Q4 09:19,81,62,1610612746.0,Johnson,MISS Johnson 17' Jump Shot,rebound,rebound,19,Low
+21600249,393,rebound,4,PT09M18.00S,09:18,Q4 09:18,81,62,1610612754.0,Ellis,Ellis REBOUND (Off:0 Def:3),2pt missed,turnover,19,Low
+21600249,394,turnover,4,PT09M04.00S,09:04,Q4 09:04,81,62,1610612754.0,Brooks,Brooks Bad Pass Turnover (P1.T10),rebound,steal,19,Low
+21600249,394,steal,4,PT09M04.00S,09:04,Q4 09:04,81,62,1610612746.0,Speights,Speights STEAL (1 STL),turnover,turnover,19,Low
+21600249,395,turnover,4,PT08M58.00S,08:58,Q4 08:58,81,62,1610612746.0,Johnson,Johnson Out of Bounds - Bad Pass Turnover Turnover (P1.T17),steal,timeout,19,Low
+21600249,396,timeout,4,PT08M58.00S,08:58,Q4 08:58,81,62,0.0,,Timeout: Official,turnover,substitution,19,Low
+21600249,398,substitution,4,PT08M58.00S,08:58,Q4 08:58,81,62,1610612746.0,Johnson,SUB out: W. Johnson,timeout,substitution,19,Low
+21600249,399,substitution,4,PT08M58.00S,08:58,Q4 08:58,81,62,1610612754.0,Allen,SUB out: L. Allen,substitution,substitution,19,Low
+21600249,400,substitution,4,PT08M58.00S,08:58,Q4 08:58,81,62,1610612754.0,Brooks,SUB out: A. Brooks,substitution,substitution,19,Low
+21600249,401,substitution,4,PT08M58.00S,08:58,Q4 08:58,81,62,1610612746.0,Griffin,SUB in: B. Griffin,substitution,substitution,19,Low
+21600249,402,substitution,4,PT08M58.00S,08:58,Q4 08:58,81,62,1610612754.0,Young,SUB in: T. Young,substitution,substitution,19,Low
+21600249,403,substitution,4,PT08M58.00S,08:58,Q4 08:58,81,62,1610612754.0,Teague,SUB in: J. Teague,substitution,2pt missed,19,Low
+21600249,401,2pt,4,PT08M39.00S,08:39,Q4 08:39,81,62,1610612754.0,Turner,MISS Turner 11' Driving Bank Shot,substitution,rebound,19,Low
+21600249,402,rebound,4,PT08M38.00S,08:38,Q4 08:38,81,62,1610612746.0,Speights,Speights REBOUND (Off:1 Def:4),2pt missed,foul,19,Low
+21600249,403,foul,4,PT08M35.00S,08:35,Q4 08:35,81,62,1610612754.0,Ellis,Ellis P.FOUL (P3.T3) (J.Goldenberg),rebound,2pt made,19,Low
+21600249,406,2pt,4,PT08M14.00S,08:14,Q4 08:14,81,64,1610612746.0,Crawford,Crawford 14' Running Jump Shot (12 PTS),foul,foul,17,Low
+21600249,407,foul,4,PT08M04.00S,08:04,Q4 08:04,81,64,1610612746.0,Felton,Felton P.FOUL (P3.T2) (S.Corbin),2pt made,foul,17,Low
+21600249,408,foul,4,PT07M57.00S,07:57,Q4 07:57,81,64,1610612746.0,Felton,Felton P.FOUL (P4.T3) (B.Kennedy),foul,3pt missed,17,Low
+21600249,409,3pt,4,PT07M46.00S,07:46,Q4 07:46,81,64,1610612754.0,Turner,MISS Turner 27' 3PT Jump Shot,foul,rebound,17,Low
+21600249,410,rebound,4,PT07M45.00S,07:45,Q4 07:45,81,64,1610612746.0,Griffin,Griffin REBOUND (Off:2 Def:4),3pt missed,2pt missed,17,Low
+21600249,411,2pt,4,PT07M36.00S,07:36,Q4 07:36,81,64,1610612746.0,Crawford,MISS Crawford 20' Pullup Jump Shot,rebound,rebound,17,Low
+21600249,412,rebound,4,PT07M36.00S,07:36,Q4 07:36,81,64,1610612754.0,Turner,Turner REBOUND (Off:2 Def:9),2pt missed,2pt missed,17,Low
+21600249,413,2pt,4,PT07M28.00S,07:28,Q4 07:28,81,64,1610612754.0,Stuckey,MISS Stuckey 19' Pullup Jump Shot,rebound,rebound,17,Low
+21600249,414,rebound,4,PT07M27.00S,07:27,Q4 07:27,81,64,1610612746.0,Griffin,Griffin REBOUND (Off:2 Def:5),2pt missed,2pt made,17,Low
+21600249,415,2pt,4,PT07M21.00S,07:21,Q4 07:21,81,66,1610612746.0,Speights,Speights Layup (2 PTS) (Griffin 3 AST),rebound,2pt missed,15,Low
+21600249,416,2pt,4,PT07M05.00S,07:05,Q4 07:05,81,66,1610612754.0,Young,MISS T. Young 2' Layup,2pt made,2pt made,15,Low
+21600249,417,2pt,4,PT07M04.00S,07:04,Q4 07:04,83,66,1610612754.0,Turner,Turner Putback Dunk (17 PTS),2pt missed,rebound,17,Low
+21600249,418,rebound,4,PT07M04.00S,07:04,Q4 07:04,81,66,1610612754.0,Turner,Turner REBOUND (Off:3 Def:9),2pt made,timeout,15,Low
+21600249,419,timeout,4,PT07M04.00S,07:04,Q4 07:04,83,66,1610612746.0,,Clippers Timeout: Regular (Reg.4 Short 0),rebound,substitution,17,Low
+21600249,421,substitution,4,PT07M04.00S,07:04,Q4 07:04,83,66,1610612754.0,Stuckey,SUB out: R. Stuckey,timeout,substitution,17,Low
+21600249,422,substitution,4,PT07M04.00S,07:04,Q4 07:04,83,66,1610612746.0,Felton,SUB out: R. Felton,substitution,substitution,17,Low
+21600249,423,substitution,4,PT07M04.00S,07:04,Q4 07:04,83,66,1610612746.0,Speights,SUB out: M. Speights,substitution,substitution,17,Low
+21600249,424,substitution,4,PT07M04.00S,07:04,Q4 07:04,83,66,1610612754.0,Robinson III,SUB in: G. Robinson III,substitution,substitution,17,Low
+21600249,425,substitution,4,PT07M04.00S,07:04,Q4 07:04,83,66,1610612746.0,Paul,SUB in: C. Paul,substitution,substitution,17,Low
+21600249,426,substitution,4,PT07M04.00S,07:04,Q4 07:04,83,66,1610612746.0,Jordan,SUB in: D. Jordan,substitution,2pt missed,17,Low
+21600249,424,2pt,4,PT06M48.00S,06:48,Q4 06:48,83,66,1610612746.0,Griffin,MISS Griffin 18' Pullup Jump Shot,substitution,rebound,17,Low
+21600249,425,rebound,4,PT06M48.00S,06:48,Q4 06:48,83,66,1610612754.0,Ellis,Ellis REBOUND (Off:0 Def:4),2pt missed,turnover,17,Low
+21600249,426,turnover,4,PT06M35.00S,06:35,Q4 06:35,83,66,1610612754.0,Turner,Turner Bad Pass Turnover (P1.T11),rebound,2pt made,17,Low
+21600249,427,2pt,4,PT06M19.00S,06:19,Q4 06:19,83,68,1610612746.0,Griffin,Griffin 19' Jump Shot (16 PTS) (Crawford 2 AST),turnover,turnover,15,Low
+21600249,428,turnover,4,PT06M04.00S,06:04,Q4 06:04,83,68,1610612754.0,Young,T. Young Traveling Turnover (P3.T12),2pt made,2pt missed,15,Low
+21600249,429,2pt,4,PT05M54.00S,05:54,Q4 05:54,83,68,1610612746.0,Griffin,MISS Griffin 19' Jump Shot,turnover,rebound,15,Low
+21600249,430,rebound,4,PT05M53.00S,05:53,Q4 05:53,83,68,1610612754.0,Ellis,Ellis REBOUND (Off:0 Def:5),2pt missed,2pt made,15,Low
+21600249,431,2pt,4,PT05M47.00S,05:47,Q4 05:47,85,68,1610612754.0,Young,T. Young 1' Reverse Layup (9 PTS) (Teague 10 AST),rebound,2pt missed,17,Low
+21600249,432,2pt,4,PT05M32.00S,05:32,Q4 05:32,85,68,1610612746.0,Paul,MISS Paul 18' Pullup Jump Shot,2pt made,rebound,17,Low
+21600249,433,rebound,4,PT05M31.00S,05:31,Q4 05:31,85,68,1610612754.0,Teague,Teague REBOUND (Off:0 Def:2),2pt missed,2pt made,17,Low
+21600249,434,2pt,4,PT05M21.00S,05:21,Q4 05:21,87,68,1610612754.0,Teague,Teague 13' Driving Floating Jump Shot (7 PTS),rebound,foul,19,Low
+21600249,435,foul,4,PT04M58.00S,04:58,Q4 04:58,87,68,1610612746.0,Jordan,Jordan OFF.Foul (P3) (B.Kennedy),2pt made,turnover,19,Low
+21600249,436,turnover,4,PT04M58.00S,04:58,Q4 04:58,87,68,1610612746.0,Jordan,Jordan Foul Turnover (P1.T18),foul,substitution,19,Low
+21600249,437,substitution,4,PT04M58.00S,04:58,Q4 04:58,87,68,1610612746.0,Crawford,SUB out: J. Crawford,turnover,substitution,19,Low
+21600249,438,substitution,4,PT04M58.00S,04:58,Q4 04:58,87,68,1610612746.0,Felton,SUB in: R. Felton,substitution,2pt missed,19,Low
+21600249,438,2pt,4,PT04M44.00S,04:44,Q4 04:44,87,68,1610612754.0,Robinson III,MISS Robinson III 19' Jump Shot,substitution,rebound,19,Low
+21600249,439,rebound,4,PT04M44.00S,04:44,Q4 04:44,87,68,1610612746.0,Griffin,Griffin REBOUND (Off:2 Def:6),2pt missed,2pt missed,19,Low
+21600249,440,2pt,4,PT04M33.00S,04:33,Q4 04:33,87,68,1610612746.0,Griffin,MISS Griffin 3' Jump Shot,rebound,rebound,19,Low
+21600249,441,rebound,4,PT04M33.00S,04:33,Q4 04:33,87,68,1610612754.0,Young,T. Young REBOUND (Off:1 Def:5),2pt missed,3pt missed,19,Low
+21600249,442,3pt,4,PT04M26.00S,04:26,Q4 04:26,87,68,1610612754.0,Ellis,MISS Ellis 24' 3PT Jump Shot,rebound,rebound,19,Low
+21600249,443,rebound,4,PT04M25.00S,04:25,Q4 04:25,87,68,1610612746.0,Jordan,Jordan REBOUND (Off:2 Def:12),3pt missed,3pt missed,19,Low
+21600249,444,3pt,4,PT04M06.00S,04:06,Q4 04:06,87,68,1610612746.0,Paul,MISS Paul 28' 3PT Jump Shot,rebound,rebound,19,Low
+21600249,445,rebound,4,PT04M05.00S,04:05,Q4 04:05,87,68,1610612746.0,Griffin,Griffin REBOUND (Off:3 Def:6),3pt missed,foul,19,Low
+21600249,446,foul,4,PT04M05.00S,04:05,Q4 04:05,87,68,1610612754.0,Teague,Teague P.FOUL (P5.T4) (S.Corbin),rebound,substitution,19,Low
+21600249,447,substitution,4,PT04M05.00S,04:05,Q4 04:05,87,68,1610612746.0,Griffin,SUB out: B. Griffin,foul,substitution,19,Low
+21600249,448,substitution,4,PT04M05.00S,04:05,Q4 04:05,87,68,1610612746.0,Jordan,SUB out: D. Jordan,substitution,substitution,19,Low
+21600249,449,substitution,4,PT04M05.00S,04:05,Q4 04:05,87,68,1610612746.0,Paul,SUB out: C. Paul,substitution,substitution,19,Low
+21600249,450,substitution,4,PT04M05.00S,04:05,Q4 04:05,87,68,1610612754.0,Turner,SUB out: M. Turner,substitution,substitution,19,Low
+21600249,451,substitution,4,PT04M05.00S,04:05,Q4 04:05,87,68,1610612754.0,Teague,SUB out: J. Teague,substitution,substitution,19,Low
+21600249,452,substitution,4,PT04M05.00S,04:05,Q4 04:05,87,68,1610612746.0,Crawford,SUB in: J. Crawford,substitution,substitution,19,Low
+21600249,453,substitution,4,PT04M05.00S,04:05,Q4 04:05,87,68,1610612746.0,Johnson,SUB in: W. Johnson,substitution,substitution,19,Low
+21600249,454,substitution,4,PT04M05.00S,04:05,Q4 04:05,87,68,1610612746.0,Speights,SUB in: M. Speights,substitution,substitution,19,Low
+21600249,455,substitution,4,PT04M05.00S,04:05,Q4 04:05,87,68,1610612754.0,Stuckey,SUB in: R. Stuckey,substitution,substitution,19,Low
+21600249,456,substitution,4,PT04M05.00S,04:05,Q4 04:05,87,68,1610612754.0,Jefferson,SUB in: A. Jefferson,substitution,3pt missed,19,Low
+21600249,452,3pt,4,PT03M57.00S,03:57,Q4 03:57,87,68,1610612746.0,Johnson,MISS Johnson 3PT Jump Shot,substitution,rebound,19,Low
+21600249,453,rebound,4,PT03M56.00S,03:56,Q4 03:56,87,68,1610612754.0,Ellis,Ellis REBOUND (Off:0 Def:6),3pt missed,2pt made,19,Low
+21600249,454,2pt,4,PT03M36.00S,03:36,Q4 03:36,89,68,1610612754.0,Young,T. Young 3' Driving Dunk (11 PTS) (Jefferson 2 AST),rebound,3pt missed,21,Low
+21600249,455,3pt,4,PT03M19.00S,03:19,Q4 03:19,89,68,1610612746.0,Speights,MISS Speights 27' 3PT Jump Shot,2pt made,rebound,21,Low
+21600249,456,rebound,4,PT03M19.00S,03:19,Q4 03:19,89,68,1610612754.0,Robinson III,Robinson III REBOUND (Off:0 Def:5),3pt missed,2pt missed,21,Low
+21600249,457,2pt,4,PT03M04.00S,03:04,Q4 03:04,89,68,1610612754.0,Jefferson,MISS Jefferson 15' Turnaround Jump Shot,rebound,rebound,21,Low
+21600249,458,rebound,4,PT03M04.00S,03:04,Q4 03:04,89,68,1610612746.0,Johnson,Johnson REBOUND (Off:0 Def:2),2pt missed,turnover,21,Low
+21600249,459,turnover,4,PT02M57.00S,02:57,Q4 02:57,89,68,1610612746.0,Rivers,Rivers Out of Bounds Lost Ball Turnover (P2.T19),rebound,timeout,21,Low
+21600249,460,timeout,4,PT02M57.00S,02:57,Q4 02:57,89,68,1610612754.0,,PACERS Timeout: Regular (Full 4 Short 0),turnover,substitution,21,Low
+21600249,462,substitution,4,PT02M57.00S,02:57,Q4 02:57,89,68,1610612746.0,Johnson,SUB: Bass FOR Johnson,substitution,2pt missed,21,Low
+21600249,464,2pt,4,PT02M42.00S,02:42,Q4 02:42,89,68,1610612754.0,Ellis,MISS Ellis 14' Fadeaway Jumper,substitution,rebound,21,Low
+21600249,465,rebound,4,PT02M41.00S,02:41,Q4 02:41,89,68,1610612746.0,Speights,Speights REBOUND (Off:1 Def:5),2pt missed,2pt missed,21,Low
+21600249,466,2pt,4,PT02M28.00S,02:28,Q4 02:28,89,68,1610612746.0,Felton,MISS Felton 2' Driving Layup,rebound,rebound,21,Low
+21600249,467,rebound,4,PT02M27.00S,02:27,Q4 02:27,89,68,1610612754.0,Stuckey,Stuckey REBOUND (Off:1 Def:4),2pt missed,turnover,21,Low
+21600249,468,turnover,4,PT02M11.00S,02:11,Q4 02:11,89,68,1610612754.0,Stuckey,Stuckey Step Out of Bounds Turnover (P4.T13),rebound,substitution,21,Low
+21600249,469,substitution,4,PT02M11.00S,02:11,Q4 02:11,89,68,1610612754.0,Ellis,SUB out: M. Ellis,substitution,substitution,21,Low
+21600249,470,substitution,4,PT02M11.00S,02:11,Q4 02:11,89,68,1610612754.0,Jefferson,SUB out: A. Jefferson,substitution,substitution,21,Low
+21600249,471,substitution,4,PT02M11.00S,02:11,Q4 02:11,89,68,1610612754.0,Niang,SUB in: G. Niang,substitution,substitution,21,Low
+21600249,472,substitution,4,PT02M11.00S,02:11,Q4 02:11,89,68,1610612754.0,Young,SUB in: T. Young,substitution,2pt made,21,Low
+21600249,471,2pt,4,PT01M51.00S,01:51,Q4 01:51,89,70,1610612746.0,Rivers,Rivers 1' Driving Layup (7 PTS),substitution,foul,19,Low
+21600249,472,foul,4,PT01M51.00S,01:51,Q4 01:51,89,70,1610612754.0,Young,J. Young S.FOUL (P1.PN) (B.Kennedy),2pt made,freethrow,19,Low
+21600249,475,freethrow,4,PT01M51.00S,01:51,Q4 01:51,89,70,1610612746.0,Rivers,MISS Rivers Free Throw 1 of 1,foul,rebound,19,Low
+21600249,477,rebound,4,PT01M51.00S,01:51,Q4 01:51,89,70,1610612754.0,Brooks,Brooks REBOUND (Off:2 Def:1),freethrow,substitution,19,Low
+21600249,473,substitution,4,PT01M51.00S,01:51,Q4 01:51,89,70,1610612754.0,Young,SUB out: T. Young,rebound,substitution,19,Low
+21600249,474,substitution,4,PT01M51.00S,01:51,Q4 01:51,89,70,1610612754.0,Stuckey,SUB out: R. Stuckey,substitution,substitution,19,Low
+21600249,475,substitution,4,PT01M51.00S,01:51,Q4 01:51,89,70,1610612754.0,Allen,SUB in: L. Allen,substitution,substitution,19,Low
+21600249,476,substitution,4,PT01M51.00S,01:51,Q4 01:51,89,70,1610612754.0,Brooks,SUB in: A. Brooks,substitution,3pt missed,19,Low
+21600249,478,3pt,4,PT01M30.00S,01:30,Q4 01:30,89,70,1610612754.0,Niang,MISS Niang 27' 3PT Jump Shot,substitution,rebound,19,Low
+21600249,479,rebound,4,PT01M28.00S,01:28,Q4 01:28,89,70,1610612746.0,Speights,Speights REBOUND (Off:1 Def:6),3pt missed,2pt missed,19,Low
+21600249,480,2pt,4,PT01M16.00S,01:16,Q4 01:16,89,70,1610612746.0,Speights,MISS Speights 1' Cutting Layup Shot,rebound,block,19,Low
+21600249,480,block,4,PT01M16.00S,01:16,Q4 01:16,89,70,1610612754.0,Brooks,Brooks BLOCK (1 BLK),2pt missed,rebound,19,Low
+21600249,481,rebound,4,PT01M14.00S,01:14,Q4 01:14,89,70,1610612754.0,Brooks,Brooks REBOUND (Off:2 Def:2),block,2pt made,19,Low
+21600249,482,2pt,4,PT00M55.90S,00:55,Q4 00:55,91,70,1610612754.0,Robinson III,Robinson III 1' Finger Roll Layup (17 PTS) (Brooks 3 AST),rebound,3pt missed,21,Low
+21600249,483,3pt,4,PT00M37.90S,00:37,Q4 00:37,91,70,1610612746.0,Felton,MISS Felton 28' 3PT Jump Shot,2pt made,rebound,21,Low
+21600249,484,rebound,4,PT00M36.90S,00:36,Q4 00:36,91,70,1610612754.0,Robinson III,Robinson III REBOUND (Off:0 Def:6),3pt missed,turnover,21,Low
+21600249,485,turnover,4,PT00M20.70S,00:20,Q4 00:20,91,70,1610612754.0,Young,J. Young Bad Pass Turnover (P1.T14),rebound,steal,21,Low
+21600249,485,steal,4,PT00M20.70S,00:20,Q4 00:20,91,70,1610612746.0,Rivers,Rivers STEAL (3 STL),turnover,turnover,21,Low
+21600249,486,turnover,4,PT00M17.90S,00:17,Q4 00:17,91,70,1610612746.0,Rivers,Rivers Bad Pass Turnover (P3.T20),steal,steal,21,Low
+21600249,486,steal,4,PT00M17.90S,00:17,Q4 00:17,91,70,1610612754.0,Brooks,Brooks STEAL (2 STL),turnover,period,21,Low
+21600249,487,period,4,PT00M00.00S,00:00,Q4 00:00,91,70,1610612754.0,,End of 4th Period (8:16 PM EST),steal,,21,Low

@@ -1,0 +1,512 @@
+game_id,actionNumber,actionType,period,clock,clock_display,game_clock,scoreHome,scoreAway,teamId,playerName,description,previous_action,next_action,score_margin,leverage_bucket
+22400314,7,turnover,1,PT11M57.00S,11:57,Q1 11:57,0,0,1610612746.0,Zubac,I. Zubac backcourt TURNOVER (1 TO),,turnover,0,Medium
+22400314,8,turnover,1,PT11M34.00S,11:34,Q1 11:34,0,0,1610612743.0,Murray,J. Murray bad pass TURNOVER (1 TO),turnover,steal,0,Medium
+22400314,9,steal,1,PT11M34.00S,11:34,Q1 11:34,0,0,1610612746.0,Dunn,K. Dunn STEAL (1 STL),turnover,2pt missed,0,Medium
+22400314,10,2pt,1,PT11M30.00S,11:30,Q1 11:30,0,0,1610612746.0,Jones Jr.,MISS D. Jones Jr. running Layup,steal,rebound,0,Medium
+22400314,11,rebound,1,PT11M27.00S,11:27,Q1 11:27,0,0,1610612743.0,Watson,P. Watson REBOUND (Off:0 Def:1),2pt missed,2pt missed,0,Medium
+22400314,12,2pt,1,PT11M23.00S,11:23,Q1 11:23,0,0,1610612743.0,Watson,MISS P. Watson driving floating Shot,rebound,rebound,0,Medium
+22400314,13,rebound,1,PT11M21.00S,11:21,Q1 11:21,0,0,1610612746.0,Zubac,I. Zubac REBOUND (Off:0 Def:1),2pt missed,2pt missed,0,Medium
+22400314,14,2pt,1,PT11M17.00S,11:17,Q1 11:17,0,0,1610612746.0,Jones Jr.,MISS D. Jones Jr. running Layup - blocked,rebound,block,0,Medium
+22400314,15,block,1,PT11M17.00S,11:17,Q1 11:17,0,0,1610612743.0,Jokić,N. Jokić BLOCK (1 BLK),2pt missed,rebound,0,Medium
+22400314,16,rebound,1,PT11M13.00S,11:13,Q1 11:13,0,0,1610612743.0,Jokić,N. Jokić REBOUND (Off:0 Def:1),block,2pt missed,0,Medium
+22400314,17,2pt,1,PT11M09.00S,11:09,Q1 11:09,0,0,1610612743.0,Porter Jr.,MISS M. Porter Jr. driving floating Shot - blocked,rebound,block,0,Medium
+22400314,18,block,1,PT11M09.00S,11:09,Q1 11:09,0,0,1610612746.0,Dunn,K. Dunn BLOCK (1 BLK),2pt missed,rebound,0,Medium
+22400314,19,rebound,1,PT11M06.00S,11:06,Q1 11:06,0,0,1610612746.0,Dunn,K. Dunn REBOUND (Off:0 Def:1),block,3pt made,0,Medium
+22400314,21,3pt,1,PT11M04.00S,11:04,Q1 11:04,3,0,1610612746.0,Powell,N. Powell 27' 3PT running (3 PTS) (K. Dunn 1 AST),rebound,turnover,3,Medium
+22400314,23,turnover,1,PT10M45.00S,10:45,Q1 10:45,3,0,1610612743.0,Murray,J. Murray traveling TURNOVER (2 TO),3pt made,2pt made,3,Medium
+22400314,24,2pt,1,PT10M33.00S,10:33,Q1 10:33,5,0,1610612746.0,Powell,N. Powell driving Layup (5 PTS) (J. Harden 1 AST),turnover,2pt missed,5,Medium
+22400314,26,2pt,1,PT10M21.00S,10:21,Q1 10:21,5,0,1610612743.0,Watson,MISS P. Watson driving reverse Layup,2pt made,rebound,5,Medium
+22400314,27,rebound,1,PT10M20.00S,10:20,Q1 10:20,5,0,1610612746.0,Dunn,K. Dunn REBOUND (Off:0 Def:2),2pt missed,3pt missed,5,Medium
+22400314,28,3pt,1,PT10M14.00S,10:14,Q1 10:14,5,0,1610612746.0,Harden,MISS J. Harden 27' step back 3PT,rebound,rebound,5,Medium
+22400314,29,rebound,1,PT10M11.00S,10:11,Q1 10:11,5,0,1610612743.0,Porter Jr.,M. Porter Jr. REBOUND (Off:0 Def:1),3pt missed,2pt made,5,Medium
+22400314,30,2pt,1,PT10M02.00S,10:02,Q1 10:02,5,2,1610612743.0,Murray,J. Murray driving Layup (2 PTS) (C. Braun 1 AST),rebound,2pt missed,3,Medium
+22400314,32,2pt,1,PT09M37.00S,09:37,Q1 09:37,5,2,1610612746.0,Zubac,MISS I. Zubac 10' driving Hook,2pt made,rebound,3,Medium
+22400314,33,rebound,1,PT09M36.00S,09:36,Q1 09:36,5,2,1610612743.0,Watson,P. Watson REBOUND (Off:0 Def:2),2pt missed,2pt missed,3,Medium
+22400314,34,2pt,1,PT09M19.00S,09:19,Q1 09:19,5,2,1610612743.0,Porter Jr.,MISS M. Porter Jr. 13' driving floating Shot,rebound,rebound,3,Medium
+22400314,35,rebound,1,PT09M19.00S,09:19,Q1 09:19,5,2,1610612746.0,,TEAM defensive REBOUND,2pt missed,3pt missed,3,Medium
+22400314,37,3pt,1,PT09M01.00S,09:01,Q1 09:01,5,2,1610612746.0,Dunn,MISS K. Dunn 24' 3PT,rebound,rebound,3,Medium
+22400314,38,rebound,1,PT08M57.00S,08:57,Q1 08:57,5,2,1610612743.0,Jokić,N. Jokić REBOUND (Off:0 Def:2),3pt missed,2pt missed,3,Medium
+22400314,39,2pt,1,PT08M37.00S,08:37,Q1 08:37,5,2,1610612743.0,Porter Jr.,MISS M. Porter Jr. 16' Jump Shot,rebound,rebound,3,Medium
+22400314,40,rebound,1,PT08M34.00S,08:34,Q1 08:34,5,2,1610612746.0,Jones Jr.,D. Jones Jr. REBOUND (Off:0 Def:1),2pt missed,3pt missed,3,Medium
+22400314,41,3pt,1,PT08M22.00S,08:22,Q1 08:22,5,2,1610612746.0,Powell,MISS N. Powell 3PT,rebound,rebound,3,Medium
+22400314,42,rebound,1,PT08M22.00S,08:22,Q1 08:22,5,2,1610612746.0,,TEAM offensive REBOUND,3pt missed,foul,3,Medium
+22400314,43,foul,1,PT08M22.00S,08:22,Q1 08:22,5,2,1610612743.0,Murray,J. Murray loose ball personal FOUL (1 PF),rebound,foul,3,Medium
+22400314,45,foul,1,PT08M19.00S,08:19,Q1 08:19,5,2,1610612743.0,Porter Jr.,M. Porter Jr. personal FOUL (1 PF),foul,2pt made,3,Medium
+22400314,47,2pt,1,PT08M13.00S,08:13,Q1 08:13,7,2,1610612746.0,Jones Jr.,D. Jones Jr. DUNK (2 PTS) (J. Harden 2 AST),foul,timeout,5,Medium
+22400314,49,timeout,1,PT08M12.00S,08:12,Q1 08:12,7,2,1610612743.0,,DEN Timeout,2pt made,3pt missed,5,Medium
+22400314,50,3pt,1,PT07M57.00S,07:57,Q1 07:57,7,2,1610612743.0,Jokić,MISS N. Jokić 24' 3PT,timeout,rebound,5,Medium
+22400314,51,rebound,1,PT07M54.00S,07:54,Q1 07:54,7,2,1610612746.0,Harden,J. Harden REBOUND (Off:0 Def:1),3pt missed,2pt made,5,Medium
+22400314,52,2pt,1,PT07M47.00S,07:47,Q1 07:47,9,2,1610612746.0,Jones Jr.,D. Jones Jr. cutting DUNK (4 PTS) (I. Zubac 1 AST),rebound,turnover,7,Medium
+22400314,54,turnover,1,PT07M23.00S,07:23,Q1 07:23,9,2,1610612743.0,Watson,P. Watson bad pass TURNOVER (1 TO),2pt made,steal,7,Medium
+22400314,55,steal,1,PT07M23.00S,07:23,Q1 07:23,9,2,1610612746.0,Dunn,K. Dunn STEAL (2 STL),turnover,2pt made,7,Medium
+22400314,56,2pt,1,PT07M19.00S,07:19,Q1 07:19,11,2,1610612746.0,Powell,N. Powell driving floating bank Jump Shot (7 PTS),steal,2pt made,9,Medium
+22400314,57,2pt,1,PT07M00.00S,07:00,Q1 07:00,11,4,1610612743.0,Jokić,N. Jokić Hook (2 PTS) (J. Murray 1 AST),2pt made,2pt missed,7,Medium
+22400314,59,2pt,1,PT06M31.00S,06:31,Q1 06:31,11,4,1610612746.0,Zubac,MISS I. Zubac 15' turnaround Hook,2pt made,rebound,7,Medium
+22400314,60,rebound,1,PT06M29.00S,06:29,Q1 06:29,11,4,1610612743.0,Porter Jr.,M. Porter Jr. REBOUND (Off:0 Def:2),2pt missed,3pt made,7,Medium
+22400314,61,3pt,1,PT06M20.00S,06:20,Q1 06:20,11,7,1610612743.0,Jokić,N. Jokić 25' 3PT  (5 PTS) (M. Porter Jr. 1 AST),rebound,foul,4,Medium
+22400314,62,foul,1,PT06M06.00S,06:06,Q1 06:06,11,7,1610612743.0,Watson,P. Watson shooting personal FOUL (1 PF) (Harden 2 FT),3pt made,freethrow,4,Medium
+22400314,64,freethrow,1,PT06M06.00S,06:06,Q1 06:06,12,7,1610612746.0,Harden,J. Harden Free Throw 1 of 2 (1 PTS),foul,freethrow,5,Medium
+22400314,70,freethrow,1,PT06M06.00S,06:06,Q1 06:06,13,7,1610612746.0,Harden,J. Harden Free Throw 2 of 2 (2 PTS),freethrow,substitution,6,Medium
+22400314,66,substitution,1,PT06M06.00S,06:06,Q1 06:06,12,7,1610612746.0,Powell,SUB out: N. Powell,freethrow,substitution,5,Medium
+22400314,67,substitution,1,PT06M06.00S,06:06,Q1 06:06,12,7,1610612743.0,Watson,SUB out: P. Watson,substitution,substitution,5,Medium
+22400314,68,substitution,1,PT06M06.00S,06:06,Q1 06:06,12,7,1610612746.0,Coffey,SUB in: A. Coffey,substitution,substitution,5,Medium
+22400314,69,substitution,1,PT06M06.00S,06:06,Q1 06:06,12,7,1610612743.0,Westbrook,SUB in: R. Westbrook,substitution,2pt made,5,Medium
+22400314,71,2pt,1,PT05M52.00S,05:52,Q1 05:52,13,9,1610612743.0,Jokić,N. Jokić 7' driving floating Jump Shot (7 PTS) (J. Murray 2 AST),substitution,3pt made,4,Medium
+22400314,73,3pt,1,PT05M34.00S,05:34,Q1 05:34,16,9,1610612746.0,Coffey,A. Coffey 24' 3PT  (3 PTS) (J. Harden 3 AST),2pt made,2pt missed,7,Medium
+22400314,75,2pt,1,PT05M15.00S,05:15,Q1 05:15,16,9,1610612743.0,Westbrook,MISS R. Westbrook driving reverse Layup,3pt made,rebound,7,Medium
+22400314,76,rebound,1,PT05M11.00S,05:11,Q1 05:11,16,9,1610612743.0,Jokić,N. Jokić REBOUND (Off:1 Def:2),2pt missed,2pt made,7,Medium
+22400314,77,2pt,1,PT05M11.00S,05:11,Q1 05:11,16,11,1610612743.0,Jokić,N. Jokić tip Layup (9 PTS),rebound,2pt missed,5,Medium
+22400314,78,2pt,1,PT04M52.00S,04:52,Q1 04:52,16,11,1610612746.0,Harden,MISS J. Harden 7' driving floating Shot,2pt made,rebound,5,Medium
+22400314,79,rebound,1,PT04M48.00S,04:48,Q1 04:48,16,11,1610612746.0,Harden,J. Harden REBOUND (Off:1 Def:1),2pt missed,2pt missed,5,Medium
+22400314,80,2pt,1,PT04M48.00S,04:48,Q1 04:48,16,11,1610612746.0,Harden,MISS J. Harden tip Layup,rebound,rebound,5,Medium
+22400314,81,rebound,1,PT04M47.00S,04:47,Q1 04:47,16,11,1610612743.0,Porter Jr.,M. Porter Jr. REBOUND (Off:0 Def:3),2pt missed,2pt made,5,Medium
+22400314,82,2pt,1,PT04M46.00S,04:46,Q1 04:46,16,13,1610612743.0,Porter Jr.,M. Porter Jr. running Layup (2 PTS) (R. Westbrook 1 AST),rebound,foul,3,Medium
+22400314,84,foul,1,PT04M34.00S,04:34,Q1 04:34,16,13,1610612743.0,Porter Jr.,M. Porter Jr. personal FOUL (2 PF),2pt made,substitution,3,Medium
+22400314,86,substitution,1,PT04M34.00S,04:34,Q1 04:34,16,13,1610612746.0,Dunn,SUB out: K. Dunn,foul,substitution,3,Medium
+22400314,87,substitution,1,PT04M34.00S,04:34,Q1 04:34,16,13,1610612743.0,Porter Jr.,SUB out: M. Porter Jr.,substitution,substitution,3,Medium
+22400314,88,substitution,1,PT04M34.00S,04:34,Q1 04:34,16,13,1610612743.0,Murray,SUB out: J. Murray,substitution,substitution,3,Medium
+22400314,89,substitution,1,PT04M34.00S,04:34,Q1 04:34,16,13,1610612746.0,Mann,SUB in: T. Mann,substitution,substitution,3,Medium
+22400314,90,substitution,1,PT04M34.00S,04:34,Q1 04:34,16,13,1610612743.0,Gordon,SUB in: A. Gordon,substitution,substitution,3,Medium
+22400314,91,substitution,1,PT04M34.00S,04:34,Q1 04:34,16,13,1610612743.0,Strawther,SUB in: J. Strawther,substitution,3pt missed,3,Medium
+22400314,93,3pt,1,PT04M20.00S,04:20,Q1 04:20,16,13,1610612746.0,Harden,MISS J. Harden 28' step back 3PT,substitution,rebound,3,Medium
+22400314,94,rebound,1,PT04M20.00S,04:20,Q1 04:20,16,13,1610612743.0,,TEAM defensive REBOUND,3pt missed,3pt missed,3,Medium
+22400314,95,3pt,1,PT04M08.00S,04:08,Q1 04:08,16,13,1610612743.0,Westbrook,MISS R. Westbrook 24' 3PT,rebound,rebound,3,Medium
+22400314,96,rebound,1,PT04M05.00S,04:05,Q1 04:05,16,13,1610612746.0,Harden,J. Harden REBOUND (Off:1 Def:2),3pt missed,turnover,3,Medium
+22400314,97,turnover,1,PT03M56.00S,03:56,Q1 03:56,16,13,1610612746.0,Harden,J. Harden bad pass TURNOVER (1 TO),rebound,steal,3,Medium
+22400314,98,steal,1,PT03M56.00S,03:56,Q1 03:56,16,13,1610612743.0,Braun,C. Braun STEAL (1 STL),turnover,foul,3,Medium
+22400314,99,foul,1,PT03M53.00S,03:53,Q1 03:53,16,13,1610612746.0,Mann,T. Mann shooting personal FOUL (1 PF) (Westbrook 2 FT),steal,freethrow,3,Medium
+22400314,101,freethrow,1,PT03M53.00S,03:53,Q1 03:53,16,14,1610612743.0,Westbrook,R. Westbrook Free Throw 1 of 2 (1 PTS),foul,freethrow,2,Medium
+22400314,104,freethrow,1,PT03M53.00S,03:53,Q1 03:53,16,15,1610612743.0,Westbrook,R. Westbrook Free Throw 2 of 2 (2 PTS),freethrow,substitution,1,Medium
+22400314,102,substitution,1,PT03M53.00S,03:53,Q1 03:53,16,14,1610612746.0,Jones Jr.,SUB out: D. Jones Jr.,freethrow,substitution,2,Medium
+22400314,103,substitution,1,PT03M53.00S,03:53,Q1 03:53,16,14,1610612746.0,Batum,SUB in: N. Batum,substitution,2pt made,2,Medium
+22400314,107,2pt,1,PT03M31.00S,03:31,Q1 03:31,18,15,1610612746.0,Harden,J. Harden driving Layup (4 PTS),substitution,2pt missed,3,Medium
+22400314,108,2pt,1,PT03M13.00S,03:13,Q1 03:13,18,15,1610612743.0,Jokić,MISS N. Jokić 10' pullup Shot,2pt made,rebound,3,Medium
+22400314,109,rebound,1,PT03M11.00S,03:11,Q1 03:11,18,15,1610612746.0,Zubac,I. Zubac REBOUND (Off:0 Def:2),2pt missed,3pt missed,3,Medium
+22400314,110,3pt,1,PT02M59.00S,02:59,Q1 02:59,18,15,1610612746.0,Harden,MISS J. Harden 26' step back 3PT,rebound,rebound,3,Medium
+22400314,111,rebound,1,PT02M58.00S,02:58,Q1 02:58,18,15,1610612746.0,Coffey,A. Coffey REBOUND (Off:1 Def:0),3pt missed,2pt made,3,Medium
+22400314,112,2pt,1,PT02M57.00S,02:57,Q1 02:57,20,15,1610612746.0,Coffey,A. Coffey 9' Jump Shot (5 PTS),rebound,2pt made,5,Medium
+22400314,113,2pt,1,PT02M42.00S,02:42,Q1 02:42,20,17,1610612743.0,Gordon,A. Gordon driving Layup (2 PTS),2pt made,3pt made,3,Medium
+22400314,114,3pt,1,PT02M29.00S,02:29,Q1 02:29,23,17,1610612746.0,Harden,J. Harden 25' 3PT pullup (7 PTS),2pt made,foul,6,Medium
+22400314,115,foul,1,PT02M29.00S,02:29,Q1 02:29,23,17,1610612743.0,Gordon,A. Gordon shooting personal FOUL (1 PF) (Harden 1 FT),3pt made,timeout,6,Medium
+22400314,117,timeout,1,PT02M29.00S,02:29,Q1 02:29,23,17,1610612746.0,,LAC Timeout,foul,freethrow,6,Medium
+22400314,122,freethrow,1,PT02M29.00S,02:29,Q1 02:29,24,17,1610612746.0,Harden,J. Harden Free Throw 1 of 1 (8 PTS),timeout,substitution,7,Medium
+22400314,118,substitution,1,PT02M29.00S,02:29,Q1 02:29,23,17,1610612746.0,Zubac,SUB out: I. Zubac,freethrow,substitution,6,Medium
+22400314,119,substitution,1,PT02M29.00S,02:29,Q1 02:29,23,17,1610612743.0,Braun,SUB out: C. Braun,substitution,substitution,6,Medium
+22400314,120,substitution,1,PT02M29.00S,02:29,Q1 02:29,23,17,1610612746.0,Bamba,SUB in: M. Bamba,substitution,substitution,6,Medium
+22400314,121,substitution,1,PT02M29.00S,02:29,Q1 02:29,23,17,1610612743.0,Murray,SUB in: J. Murray,substitution,foul,6,Medium
+22400314,123,foul,1,PT02M16.00S,02:16,Q1 02:16,24,17,1610612746.0,Coffey,A. Coffey personal FOUL (1 PF),substitution,3pt missed,7,Medium
+22400314,125,3pt,1,PT02M10.00S,02:10,Q1 02:10,24,17,1610612743.0,Westbrook,MISS R. Westbrook 25' 3PT,foul,rebound,7,Medium
+22400314,126,rebound,1,PT02M07.00S,02:07,Q1 02:07,24,17,1610612746.0,Bamba,M. Bamba REBOUND (Off:0 Def:1),3pt missed,3pt missed,7,Medium
+22400314,127,3pt,1,PT01M50.00S,01:50,Q1 01:50,24,17,1610612746.0,Harden,MISS J. Harden 28' step back 3PT,rebound,rebound,7,Medium
+22400314,128,rebound,1,PT01M48.00S,01:48,Q1 01:48,24,17,1610612743.0,Gordon,A. Gordon REBOUND (Off:0 Def:1),3pt missed,turnover,7,Medium
+22400314,129,turnover,1,PT01M45.00S,01:45,Q1 01:45,24,17,1610612743.0,Strawther,J. Strawther lost ball out-of-bounds TURNOVER (1 TO),rebound,turnover,7,Medium
+22400314,130,turnover,1,PT01M35.00S,01:35,Q1 01:35,24,17,1610612746.0,Harden,J. Harden palming TURNOVER (2 TO),turnover,turnover,7,Medium
+22400314,131,turnover,1,PT01M17.00S,01:17,Q1 01:17,24,17,1610612743.0,Jokić,N. Jokić lost ball TURNOVER (1 TO),turnover,steal,7,Medium
+22400314,132,steal,1,PT01M17.00S,01:17,Q1 01:17,24,17,1610612746.0,Bamba,M. Bamba STEAL (1 STL),turnover,2pt made,7,Medium
+22400314,133,2pt,1,PT01M13.00S,01:13,Q1 01:13,26,17,1610612746.0,Mann,T. Mann running Layup (2 PTS) (J. Harden 4 AST),steal,2pt missed,9,Medium
+22400314,135,2pt,1,PT01M02.00S,01:02,Q1 01:02,26,17,1610612743.0,Jokić,MISS N. Jokić 8' driving floating Shot,2pt made,rebound,9,Medium
+22400314,136,rebound,1,PT01M02.00S,01:02,Q1 01:02,26,17,1610612746.0,,TEAM defensive REBOUND,2pt missed,foul,9,Medium
+22400314,137,foul,1,PT01M02.00S,01:02,Q1 01:02,26,17,1610612743.0,Jokić,N. Jokić loose ball personal FOUL (1 PF) (Mann 2 FT),rebound,freethrow,9,Medium
+22400314,139,freethrow,1,PT01M02.00S,01:02,Q1 01:02,27,17,1610612746.0,Mann,T. Mann Free Throw 1 of 2 (3 PTS),foul,freethrow,10,Medium
+22400314,142,freethrow,1,PT01M02.00S,01:02,Q1 01:02,27,17,1610612746.0,Mann,MISS T. Mann Free Throw 2 of 2,freethrow,substitution,10,Medium
+22400314,140,substitution,1,PT01M02.00S,01:02,Q1 01:02,27,17,1610612746.0,Harden,SUB out: J. Harden,freethrow,substitution,10,Medium
+22400314,141,substitution,1,PT01M02.00S,01:02,Q1 01:02,27,17,1610612746.0,Miller,SUB in: J. Miller,substitution,rebound,10,Medium
+22400314,143,rebound,1,PT01M00.00S,01:00,Q1 01:00,27,17,1610612743.0,Jokić,N. Jokić REBOUND (Off:1 Def:3),substitution,2pt made,10,Medium
+22400314,144,2pt,1,PT00M54.20S,00:54,Q1 00:54,27,19,1610612743.0,Jokić,N. Jokić cutting Layup (11 PTS) (R. Westbrook 2 AST),rebound,2pt made,8,Medium
+22400314,146,2pt,1,PT00M42.80S,00:42,Q1 00:42,29,19,1610612746.0,Mann,T. Mann cutting DUNK (5 PTS) (J. Miller 1 AST),2pt made,2pt missed,10,Medium
+22400314,148,2pt,1,PT00M33.60S,00:33,Q1 00:33,29,19,1610612743.0,Murray,MISS J. Murray driving floating Shot,2pt made,rebound,10,Medium
+22400314,150,rebound,1,PT00M32.60S,00:32,Q1 00:32,29,19,1610612743.0,Jokić,N. Jokić REBOUND (Off:2 Def:3),2pt missed,2pt made,10,Medium
+22400314,151,2pt,1,PT00M32.60S,00:32,Q1 00:32,29,21,1610612743.0,Jokić,N. Jokić putback Layup (13 PTS),rebound,3pt made,8,Medium
+22400314,153,3pt,1,PT00M19.50S,00:19,Q1 00:19,32,21,1610612746.0,Coffey,A. Coffey 25' 3PT  (8 PTS) (J. Miller 2 AST),2pt made,2pt made,11,Medium
+22400314,155,2pt,1,PT00M03.80S,00:03,Q1 00:03,32,23,1610612743.0,Jokić,N. Jokić cutting Layup (15 PTS) (J. Murray 3 AST),3pt made,3pt missed,9,Medium
+22400314,157,3pt,1,PT00M02.00S,00:02,Q1 00:02,32,23,1610612746.0,Coffey,MISS A. Coffey 41' floating 3PT,2pt made,rebound,9,Medium
+22400314,158,rebound,1,PT00M00.10S,00:00,Q1 00:00,32,23,1610612746.0,,TEAM offensive REBOUND,3pt missed,substitution,9,Medium
+22400314,160,substitution,2,PT12M00.00S,12:00,Q2 12:00,32,23,1610612743.0,Jokić,SUB out: N. Jokić,rebound,substitution,9,Medium
+22400314,161,substitution,2,PT12M00.00S,12:00,Q2 12:00,32,23,1610612743.0,Watson,SUB in: P. Watson,substitution,2pt missed,9,Medium
+22400314,163,2pt,2,PT11M45.00S,11:45,Q2 11:45,32,23,1610612743.0,Gordon,MISS A. Gordon 17' step back Shot,substitution,rebound,9,Medium
+22400314,164,rebound,2,PT11M41.00S,11:41,Q2 11:41,32,23,1610612746.0,Coffey,A. Coffey REBOUND (Off:1 Def:1),2pt missed,2pt made,9,Medium
+22400314,165,2pt,2,PT11M22.00S,11:22,Q2 11:22,34,23,1610612746.0,Miller,J. Miller driving floating Jump Shot (2 PTS) (A. Coffey 1 AST),rebound,3pt made,11,Medium
+22400314,167,3pt,2,PT11M09.00S,11:09,Q2 11:09,34,26,1610612743.0,Murray,J. Murray 25' 3PT  (5 PTS) (A. Gordon 1 AST),2pt made,2pt made,8,Medium
+22400314,169,2pt,2,PT10M54.00S,10:54,Q2 10:54,36,26,1610612746.0,Miller,J. Miller driving Layup (4 PTS) (T. Mann 1 AST),3pt made,2pt made,10,Medium
+22400314,171,2pt,2,PT10M46.00S,10:46,Q2 10:46,36,28,1610612743.0,Murray,J. Murray 20' fadeaway Jump Shot (7 PTS),2pt made,3pt made,8,Medium
+22400314,172,3pt,2,PT10M30.00S,10:30,Q2 10:30,39,28,1610612746.0,Coffey,A. Coffey 28' 3PT  (11 PTS) (N. Batum 1 AST),2pt made,3pt missed,11,Medium
+22400314,174,3pt,2,PT10M19.00S,10:19,Q2 10:19,39,28,1610612743.0,Murray,MISS J. Murray 26' pullup 3PT,3pt made,rebound,11,Medium
+22400314,175,rebound,2,PT10M16.00S,10:16,Q2 10:16,39,28,1610612746.0,Bamba,M. Bamba REBOUND (Off:0 Def:2),3pt missed,turnover,11,Medium
+22400314,177,turnover,2,PT10M11.00S,10:11,Q2 10:11,39,28,1610612746.0,Coffey,A. Coffey bad pass out-of-bounds TURNOVER (1 TO),rebound,2pt made,11,Medium
+22400314,178,2pt,2,PT10M00.00S,10:00,Q2 10:00,39,30,1610612743.0,Strawther,J. Strawther 9' driving floating Jump Shot (2 PTS) (R. Westbrook 3 AST),turnover,2pt made,9,Medium
+22400314,179,2pt,2,PT09M46.00S,09:46,Q2 09:46,41,30,1610612746.0,Miller,J. Miller 8' driving floating Jump Shot (6 PTS),2pt made,timeout,11,Medium
+22400314,180,timeout,2,PT09M46.00S,09:46,Q2 09:46,41,30,1610612743.0,,DEN Timeout,2pt made,foul,11,Medium
+22400314,181,foul,2,PT09M37.00S,09:37,Q2 09:37,41,30,1610612746.0,Coffey,A. Coffey personal FOUL (2 PF),timeout,turnover,11,Medium
+22400314,183,turnover,2,PT09M30.00S,09:30,Q2 09:30,41,30,1610612743.0,Murray,J. Murray bad pass out-of-bounds TURNOVER (3 TO),foul,turnover,11,Medium
+22400314,306,turnover,2,PT09M11.00S,09:11,Q2 09:11,41,30,1610612746.0,Miller,J. Miller lost ball TURNOVER (1 TO),turnover,steal,11,Medium
+22400314,307,steal,2,PT09M11.00S,09:11,Q2 09:11,41,30,1610612743.0,Westbrook,R. Westbrook STEAL (1 STL),turnover,2pt missed,11,Medium
+22400314,187,2pt,2,PT09M05.00S,09:05,Q2 09:05,41,30,1610612743.0,Westbrook,MISS R. Westbrook running Layup - blocked,steal,block,11,Medium
+22400314,188,block,2,PT09M05.00S,09:05,Q2 09:05,41,30,1610612746.0,Bamba,M. Bamba BLOCK (1 BLK),2pt missed,rebound,11,Medium
+22400314,189,rebound,2,PT09M05.00S,09:05,Q2 09:05,41,30,1610612743.0,Strawther,J. Strawther REBOUND (Off:1 Def:0),block,2pt made,11,Medium
+22400314,190,2pt,2,PT09M00.00S,09:00,Q2 09:00,41,32,1610612743.0,Strawther,J. Strawther putback DUNK (4 PTS),rebound,3pt missed,9,Medium
+22400314,191,3pt,2,PT08M44.00S,08:44,Q2 08:44,41,32,1610612746.0,Coffey,MISS A. Coffey 25' 3PT,2pt made,rebound,9,Medium
+22400314,192,rebound,2,PT08M41.00S,08:41,Q2 08:41,41,32,1610612743.0,Westbrook,R. Westbrook REBOUND (Off:0 Def:1),3pt missed,2pt missed,9,Medium
+22400314,193,2pt,2,PT08M36.00S,08:36,Q2 08:36,41,32,1610612743.0,Westbrook,MISS R. Westbrook running Layup,rebound,rebound,9,Medium
+22400314,194,rebound,2,PT08M34.00S,08:34,Q2 08:34,41,32,1610612746.0,Bamba,M. Bamba REBOUND (Off:0 Def:3),2pt missed,2pt missed,9,Medium
+22400314,195,2pt,2,PT08M30.00S,08:30,Q2 08:30,41,32,1610612746.0,Coffey,MISS A. Coffey running Layup,rebound,rebound,9,Medium
+22400314,196,rebound,2,PT08M29.00S,08:29,Q2 08:29,41,32,1610612746.0,Coffey,A. Coffey REBOUND (Off:2 Def:1),2pt missed,2pt missed,9,Medium
+22400314,197,2pt,2,PT08M28.00S,08:28,Q2 08:28,41,32,1610612746.0,Coffey,MISS A. Coffey putback Layup,rebound,rebound,9,Medium
+22400314,198,rebound,2,PT08M27.00S,08:27,Q2 08:27,41,32,1610612746.0,Mann,T. Mann REBOUND (Off:1 Def:0),2pt missed,turnover,9,Medium
+22400314,303,turnover,2,PT08M26.00S,08:26,Q2 08:26,41,32,1610612746.0,Mann,T. Mann bad pass TURNOVER (1 TO),rebound,steal,9,Medium
+22400314,304,steal,2,PT08M26.00S,08:26,Q2 08:26,41,32,1610612743.0,Gordon,A. Gordon STEAL (1 STL),turnover,2pt made,9,Medium
+22400314,199,2pt,2,PT08M18.00S,08:18,Q2 08:18,41,34,1610612743.0,Strawther,J. Strawther driving Layup (6 PTS) (A. Gordon 2 AST),steal,foul,7,Medium
+22400314,200,foul,2,PT08M18.00S,08:18,Q2 08:18,41,34,1610612746.0,Bamba,M. Bamba shooting personal FOUL (1 PF) (Strawther 1 FT),2pt made,freethrow,7,Medium
+22400314,206,freethrow,2,PT08M18.00S,08:18,Q2 08:18,41,35,1610612743.0,Strawther,J. Strawther Free Throw 1 of 1 (7 PTS),foul,substitution,6,Medium
+22400314,202,substitution,2,PT08M18.00S,08:18,Q2 08:18,41,34,1610612746.0,Bamba,SUB out: M. Bamba,freethrow,substitution,7,Medium
+22400314,203,substitution,2,PT08M18.00S,08:18,Q2 08:18,41,34,1610612746.0,Coffey,SUB out: A. Coffey,substitution,substitution,7,Medium
+22400314,204,substitution,2,PT08M18.00S,08:18,Q2 08:18,41,34,1610612746.0,Zubac,SUB in: I. Zubac,substitution,substitution,7,Medium
+22400314,205,substitution,2,PT08M18.00S,08:18,Q2 08:18,41,34,1610612746.0,Powell,SUB in: N. Powell,substitution,substitution,7,Medium
+22400314,207,substitution,2,PT08M18.00S,08:18,Q2 08:18,41,34,1610612743.0,Westbrook,SUB out: R. Westbrook,substitution,substitution,7,Medium
+22400314,208,substitution,2,PT08M18.00S,08:18,Q2 08:18,41,34,1610612743.0,Porter Jr.,SUB in: M. Porter Jr.,substitution,2pt missed,7,Medium
+22400314,209,2pt,2,PT08M01.00S,08:01,Q2 08:01,41,35,1610612746.0,Zubac,MISS I. Zubac 7' turnaround Hook,substitution,rebound,6,Medium
+22400314,210,rebound,2,PT07M58.00S,07:58,Q2 07:58,41,35,1610612746.0,Miller,J. Miller REBOUND (Off:1 Def:0),2pt missed,2pt made,6,Medium
+22400314,211,2pt,2,PT07M58.00S,07:58,Q2 07:58,43,35,1610612746.0,Miller,J. Miller tip Layup (8 PTS),rebound,2pt made,8,Medium
+22400314,212,2pt,2,PT07M45.00S,07:45,Q2 07:45,43,37,1610612743.0,Watson,P. Watson 14' pullup Jump Shot (2 PTS),2pt made,2pt missed,6,Medium
+22400314,213,2pt,2,PT07M25.00S,07:25,Q2 07:25,43,37,1610612746.0,Zubac,MISS I. Zubac 11' driving Hook,2pt made,rebound,6,Medium
+22400314,214,rebound,2,PT07M23.00S,07:23,Q2 07:23,43,37,1610612743.0,Porter Jr.,M. Porter Jr. REBOUND (Off:0 Def:4),2pt missed,3pt made,6,Medium
+22400314,215,3pt,2,PT07M15.00S,07:15,Q2 07:15,43,40,1610612743.0,Gordon,A. Gordon 25' 3PT  (5 PTS) (J. Murray 4 AST),rebound,timeout,3,Medium
+22400314,217,timeout,2,PT07M14.00S,07:14,Q2 07:14,43,40,1610612746.0,,LAC Timeout,3pt made,substitution,3,Medium
+22400314,218,substitution,2,PT07M14.00S,07:14,Q2 07:14,43,40,1610612746.0,Mann,SUB out: T. Mann,timeout,substitution,3,Medium
+22400314,219,substitution,2,PT07M14.00S,07:14,Q2 07:14,43,40,1610612746.0,Batum,SUB out: N. Batum,substitution,substitution,3,Medium
+22400314,220,substitution,2,PT07M14.00S,07:14,Q2 07:14,43,40,1610612743.0,Strawther,SUB out: J. Strawther,substitution,substitution,3,Medium
+22400314,221,substitution,2,PT07M14.00S,07:14,Q2 07:14,43,40,1610612743.0,Gordon,SUB out: A. Gordon,substitution,substitution,3,Medium
+22400314,222,substitution,2,PT07M14.00S,07:14,Q2 07:14,43,40,1610612746.0,Dunn,SUB in: K. Dunn,substitution,substitution,3,Medium
+22400314,223,substitution,2,PT07M14.00S,07:14,Q2 07:14,43,40,1610612746.0,Jones Jr.,SUB in: D. Jones Jr.,substitution,substitution,3,Medium
+22400314,224,substitution,2,PT07M14.00S,07:14,Q2 07:14,43,40,1610612743.0,Jokić,SUB in: N. Jokić,substitution,substitution,3,Medium
+22400314,225,substitution,2,PT07M14.00S,07:14,Q2 07:14,43,40,1610612743.0,Braun,SUB in: C. Braun,substitution,2pt missed,3,Medium
+22400314,226,2pt,2,PT06M54.00S,06:54,Q2 06:54,43,40,1610612746.0,Powell,MISS N. Powell driving Layup,substitution,rebound,3,Medium
+22400314,227,rebound,2,PT06M51.00S,06:51,Q2 06:51,43,40,1610612743.0,Braun,C. Braun REBOUND (Off:0 Def:1),2pt missed,2pt made,3,Medium
+22400314,228,2pt,2,PT06M40.00S,06:40,Q2 06:40,43,42,1610612743.0,Jokić,N. Jokić driving Layup (17 PTS),rebound,2pt missed,1,Medium
+22400314,229,2pt,2,PT06M19.00S,06:19,Q2 06:19,43,42,1610612746.0,Powell,MISS N. Powell driving Layup,2pt made,rebound,1,Medium
+22400314,230,rebound,2,PT06M18.00S,06:18,Q2 06:18,43,42,1610612743.0,Jokić,N. Jokić REBOUND (Off:2 Def:4),2pt missed,2pt made,1,Medium
+22400314,231,2pt,2,PT06M14.00S,06:14,Q2 06:14,43,44,1610612743.0,Murray,J. Murray running Layup (9 PTS) (N. Jokić 1 AST),rebound,2pt missed,1,Medium
+22400314,233,2pt,2,PT05M54.00S,05:54,Q2 05:54,43,44,1610612746.0,Dunn,MISS K. Dunn 19' pullup Shot,2pt made,rebound,1,Medium
+22400314,234,rebound,2,PT05M52.00S,05:52,Q2 05:52,43,44,1610612743.0,Porter Jr.,M. Porter Jr. REBOUND (Off:0 Def:5),2pt missed,2pt made,1,Medium
+22400314,235,2pt,2,PT05M39.00S,05:39,Q2 05:39,43,46,1610612743.0,Porter Jr.,M. Porter Jr. 21' Jump Shot (4 PTS) (J. Murray 5 AST),rebound,3pt missed,3,Medium
+22400314,237,3pt,2,PT05M17.00S,05:17,Q2 05:17,43,46,1610612746.0,Powell,MISS N. Powell 26' pullup 3PT,2pt made,rebound,3,Medium
+22400314,238,rebound,2,PT05M14.00S,05:14,Q2 05:14,43,46,1610612746.0,Zubac,I. Zubac REBOUND (Off:1 Def:2),3pt missed,2pt missed,3,Medium
+22400314,239,2pt,2,PT05M14.00S,05:14,Q2 05:14,43,46,1610612746.0,Zubac,MISS I. Zubac tip Layup,rebound,rebound,3,Medium
+22400314,240,rebound,2,PT05M14.00S,05:14,Q2 05:14,43,46,1610612743.0,Jokić,N. Jokić REBOUND (Off:2 Def:5),2pt missed,2pt missed,3,Medium
+22400314,241,2pt,2,PT05M05.00S,05:05,Q2 05:05,43,46,1610612743.0,Murray,MISS J. Murray 13' driving floating Shot,rebound,rebound,3,Medium
+22400314,242,rebound,2,PT05M03.00S,05:03,Q2 05:03,43,46,1610612746.0,Miller,J. Miller REBOUND (Off:1 Def:1),2pt missed,2pt missed,3,Medium
+22400314,243,2pt,2,PT04M59.00S,04:59,Q2 04:59,43,46,1610612746.0,Powell,MISS N. Powell running Layup,rebound,rebound,3,Medium
+22400314,244,rebound,2,PT04M57.00S,04:57,Q2 04:57,43,46,1610612743.0,Porter Jr.,M. Porter Jr. REBOUND (Off:0 Def:6),2pt missed,turnover,3,Medium
+22400314,245,turnover,2,PT04M52.00S,04:52,Q2 04:52,43,46,1610612743.0,Braun,C. Braun lost ball TURNOVER (1 TO),rebound,steal,3,Medium
+22400314,246,steal,2,PT04M52.00S,04:52,Q2 04:52,43,46,1610612746.0,Dunn,K. Dunn STEAL (3 STL),turnover,2pt made,3,Medium
+22400314,247,2pt,2,PT04M45.00S,04:45,Q2 04:45,45,46,1610612746.0,Dunn,K. Dunn 11' driving floating Jump Shot (2 PTS),steal,2pt made,1,Medium
+22400314,248,2pt,2,PT04M23.00S,04:23,Q2 04:23,45,48,1610612743.0,Porter Jr.,M. Porter Jr. Layup (6 PTS) (N. Jokić 2 AST),2pt made,3pt missed,3,Medium
+22400314,250,3pt,2,PT04M05.00S,04:05,Q2 04:05,45,48,1610612746.0,Miller,MISS J. Miller step back 3PT,2pt made,rebound,3,Medium
+22400314,251,rebound,2,PT04M03.00S,04:03,Q2 04:03,45,48,1610612743.0,Braun,C. Braun REBOUND (Off:0 Def:2),3pt missed,turnover,3,Medium
+22400314,252,turnover,2,PT03M59.00S,03:59,Q2 03:59,45,48,1610612743.0,Jokić,N. Jokić bad pass TURNOVER (2 TO),rebound,steal,3,Medium
+22400314,253,steal,2,PT03M59.00S,03:59,Q2 03:59,45,48,1610612746.0,Jones Jr.,D. Jones Jr. STEAL (1 STL),turnover,3pt made,3,Medium
+22400314,254,3pt,2,PT03M53.00S,03:53,Q2 03:53,48,48,1610612746.0,Powell,N. Powell 26' 3PT  (10 PTS) (K. Dunn 2 AST),steal,3pt made,0,Medium
+22400314,256,3pt,2,PT03M37.00S,03:37,Q2 03:37,48,51,1610612743.0,Porter Jr.,M. Porter Jr. 26' 3PT pullup (9 PTS),3pt made,2pt made,3,Medium
+22400314,259,2pt,2,PT03M27.00S,03:27,Q2 03:27,50,51,1610612746.0,Zubac,I. Zubac cutting DUNK (2 PTS) (N. Powell 1 AST),3pt made,foul,1,Medium
+22400314,261,foul,2,PT03M27.00S,03:27,Q2 03:27,50,51,1610612743.0,Watson,P. Watson shooting personal FOUL (2 PF) (Zubac 1 FT),2pt made,freethrow,1,Medium
+22400314,265,freethrow,2,PT03M27.00S,03:27,Q2 03:27,51,51,1610612746.0,Zubac,I. Zubac Free Throw 1 of 1 (3 PTS),foul,substitution,0,Medium
+22400314,263,substitution,2,PT03M27.00S,03:27,Q2 03:27,50,51,1610612746.0,Miller,SUB out: J. Miller,freethrow,substitution,1,Medium
+22400314,264,substitution,2,PT03M27.00S,03:27,Q2 03:27,50,51,1610612746.0,Harden,SUB in: J. Harden,substitution,3pt missed,1,Medium
+22400314,266,3pt,2,PT03M04.00S,03:04,Q2 03:04,51,51,1610612743.0,Murray,MISS J. Murray fadeaway 3PT,substitution,rebound,0,Medium
+22400314,267,rebound,2,PT03M02.00S,03:02,Q2 03:02,51,51,1610612746.0,Jones Jr.,D. Jones Jr. REBOUND (Off:0 Def:2),3pt missed,turnover,0,Medium
+22400314,268,turnover,2,PT02M54.00S,02:54,Q2 02:54,51,51,1610612746.0,Powell,N. Powell lost ball TURNOVER (1 TO),rebound,steal,0,Medium
+22400314,269,steal,2,PT02M54.00S,02:54,Q2 02:54,51,51,1610612743.0,Watson,P. Watson STEAL (1 STL),turnover,2pt made,0,Medium
+22400314,270,2pt,2,PT02M43.00S,02:43,Q2 02:43,51,53,1610612743.0,Braun,C. Braun Layup (2 PTS) (N. Jokić 3 AST),steal,timeout,2,Medium
+22400314,272,timeout,2,PT02M43.00S,02:43,Q2 02:43,51,53,1610612746.0,,LAC Timeout,2pt made,substitution,2,Medium
+22400314,274,substitution,2,PT02M43.00S,02:43,Q2 02:43,51,53,1610612746.0,Powell,SUB out: N. Powell,timeout,substitution,2,Medium
+22400314,275,substitution,2,PT02M43.00S,02:43,Q2 02:43,51,53,1610612746.0,Coffey,SUB in: A. Coffey,substitution,3pt made,2,Medium
+22400314,276,3pt,2,PT02M29.00S,02:29,Q2 02:29,54,53,1610612746.0,Harden,J. Harden 25' 3PT step back (11 PTS),substitution,2pt made,1,Medium
+22400314,277,2pt,2,PT02M11.00S,02:11,Q2 02:11,54,55,1610612743.0,Jokić,N. Jokić 15' Jump Shot (19 PTS) (J. Murray 6 AST),3pt made,2pt made,1,Medium
+22400314,280,2pt,2,PT01M50.00S,01:50,Q2 01:50,56,55,1610612746.0,Harden,J. Harden driving Layup (13 PTS),2pt made,3pt missed,1,Medium
+22400314,281,3pt,2,PT01M32.00S,01:32,Q2 01:32,56,55,1610612743.0,Jokić,MISS N. Jokić 27' 3PT,2pt made,rebound,1,Medium
+22400314,282,rebound,2,PT01M29.00S,01:29,Q2 01:29,56,55,1610612746.0,Coffey,A. Coffey REBOUND (Off:2 Def:2),3pt missed,2pt missed,1,Medium
+22400314,283,2pt,2,PT01M15.00S,01:15,Q2 01:15,56,55,1610612746.0,Jones Jr.,MISS D. Jones Jr. driving Layup,rebound,rebound,1,Medium
+22400314,284,rebound,2,PT01M14.00S,01:14,Q2 01:14,56,55,1610612746.0,Zubac,I. Zubac REBOUND (Off:2 Def:2),2pt missed,foul,1,Medium
+22400314,285,foul,2,PT01M14.00S,01:14,Q2 01:14,56,55,1610612743.0,Jokić,N. Jokić shooting personal FOUL (2 PF) (Zubac 2 FT),rebound,freethrow,1,Medium
+22400314,287,freethrow,2,PT01M14.00S,01:14,Q2 01:14,56,55,1610612746.0,Zubac,MISS I. Zubac Free Throw 1 of 2,foul,rebound,1,Medium
+22400314,288,rebound,2,PT01M14.00S,01:14,Q2 01:14,56,55,1610612746.0,,TEAM offensive REBOUND,freethrow,freethrow,1,Medium
+22400314,289,freethrow,2,PT01M14.00S,01:14,Q2 01:14,56,55,1610612746.0,Zubac,MISS I. Zubac Free Throw 2 of 2,rebound,rebound,1,Medium
+22400314,290,rebound,2,PT01M12.00S,01:12,Q2 01:12,56,55,1610612743.0,Watson,P. Watson REBOUND (Off:0 Def:3),freethrow,2pt made,1,Medium
+22400314,291,2pt,2,PT01M02.00S,01:02,Q2 01:02,56,57,1610612743.0,Watson,P. Watson cutting DUNK (4 PTS) (N. Jokić 4 AST),rebound,3pt missed,1,Medium
+22400314,293,3pt,2,PT00M40.50S,00:40,Q2 00:40,56,57,1610612746.0,Harden,MISS J. Harden 27' step back 3PT,2pt made,rebound,1,Medium
+22400314,294,rebound,2,PT00M39.00S,00:39,Q2 00:39,56,57,1610612746.0,Zubac,I. Zubac REBOUND (Off:3 Def:2),3pt missed,2pt missed,1,Medium
+22400314,295,2pt,2,PT00M38.40S,00:38,Q2 00:38,56,57,1610612746.0,Zubac,MISS I. Zubac putback Layup,rebound,rebound,1,Medium
+22400314,296,rebound,2,PT00M38.40S,00:38,Q2 00:38,56,57,1610612743.0,Jokić,N. Jokić REBOUND (Off:2 Def:6),2pt missed,2pt made,1,Medium
+22400314,297,2pt,2,PT00M35.70S,00:35,Q2 00:35,56,59,1610612743.0,Watson,P. Watson running Layup (6 PTS) (N. Jokić 5 AST),rebound,3pt made,3,Medium
+22400314,299,3pt,2,PT00M22.80S,00:22,Q2 00:22,59,59,1610612746.0,Harden,J. Harden 26' 3PT pullup (16 PTS),2pt made,2pt missed,0,Medium
+22400314,300,2pt,2,PT00M03.00S,00:03,Q2 00:03,59,59,1610612743.0,Jokić,MISS N. Jokić 19' step back Shot,3pt made,rebound,0,Medium
+22400314,301,rebound,2,PT00M00.10S,00:00,Q2 00:00,59,59,1610612746.0,Dunn,K. Dunn REBOUND (Off:0 Def:3),2pt missed,2pt made,0,Medium
+22400314,309,2pt,3,PT11M46.00S,11:46,Q3 11:46,59,61,1610612743.0,Watson,P. Watson 7' Layup (8 PTS) (N. Jokić 6 AST),rebound,turnover,2,Medium
+22400314,311,turnover,3,PT11M30.00S,11:30,Q3 11:30,59,61,1610612746.0,Zubac,I. Zubac lost ball out-of-bounds TURNOVER (2 TO),2pt made,3pt missed,2,Medium
+22400314,312,3pt,3,PT11M13.00S,11:13,Q3 11:13,59,61,1610612743.0,Jokić,MISS N. Jokić 25' 3PT,turnover,rebound,2,Medium
+22400314,313,rebound,3,PT11M11.00S,11:11,Q3 11:11,59,61,1610612743.0,Watson,P. Watson REBOUND (Off:1 Def:3),3pt missed,2pt made,2,Medium
+22400314,314,2pt,3,PT11M09.00S,11:09,Q3 11:09,59,63,1610612743.0,Jokić,N. Jokić driving Hook (21 PTS) (P. Watson 1 AST),rebound,foul,4,Medium
+22400314,316,foul,3,PT10M55.00S,10:55,Q3 10:55,59,63,1610612743.0,Porter Jr.,M. Porter Jr. shooting personal FOUL (3 PF) (Harden 3 FT),2pt made,freethrow,4,Medium
+22400314,318,freethrow,3,PT10M55.00S,10:55,Q3 10:55,60,63,1610612746.0,Harden,J. Harden Free Throw 1 of 3 (17 PTS),foul,freethrow,3,Medium
+22400314,319,freethrow,3,PT10M55.00S,10:55,Q3 10:55,61,63,1610612746.0,Harden,J. Harden Free Throw 2 of 3 (18 PTS),freethrow,freethrow,2,Medium
+22400314,320,freethrow,3,PT10M55.00S,10:55,Q3 10:55,62,63,1610612746.0,Harden,J. Harden Free Throw 3 of 3 (19 PTS),freethrow,2pt made,1,Medium
+22400314,321,2pt,3,PT10M40.00S,10:40,Q3 10:40,62,65,1610612743.0,Porter Jr.,M. Porter Jr. 22' step back Jump Shot (11 PTS) (P. Watson 2 AST),freethrow,turnover,3,Medium
+22400314,323,turnover,3,PT10M24.00S,10:24,Q3 10:24,62,65,1610612746.0,Jones Jr.,D. Jones Jr. traveling TURNOVER (1 TO),2pt made,2pt missed,3,Medium
+22400314,324,2pt,3,PT10M08.00S,10:08,Q3 10:08,62,65,1610612743.0,Murray,MISS J. Murray 21' step back Shot,turnover,rebound,3,Medium
+22400314,325,rebound,3,PT10M05.00S,10:05,Q3 10:05,62,65,1610612743.0,Watson,P. Watson REBOUND (Off:2 Def:3),2pt missed,2pt made,3,Medium
+22400314,326,2pt,3,PT09M59.00S,09:59,Q3 09:59,62,67,1610612743.0,Porter Jr.,M. Porter Jr. 14' bank Jump Shot (13 PTS),rebound,2pt made,5,Medium
+22400314,328,2pt,3,PT09M42.00S,09:42,Q3 09:42,64,67,1610612746.0,Zubac,I. Zubac alley-oop Layup (5 PTS) (J. Harden 5 AST),2pt made,2pt made,3,Medium
+22400314,330,2pt,3,PT09M20.00S,09:20,Q3 09:20,64,69,1610612743.0,Braun,C. Braun cutting Layup (4 PTS) (N. Jokić 7 AST),2pt made,3pt missed,5,Medium
+22400314,332,3pt,3,PT09M05.00S,09:05,Q3 09:05,64,69,1610612746.0,Coffey,MISS A. Coffey 3PT,2pt made,rebound,5,Medium
+22400314,333,rebound,3,PT09M02.00S,09:02,Q3 09:02,64,69,1610612743.0,Braun,C. Braun REBOUND (Off:0 Def:3),3pt missed,foul,5,Medium
+22400314,334,foul,3,PT08M55.00S,08:55,Q3 08:55,64,69,1610612746.0,Dunn,K. Dunn shooting personal FOUL (1 PF) (Braun 2 FT),rebound,freethrow,5,Medium
+22400314,336,freethrow,3,PT08M55.00S,08:55,Q3 08:55,64,69,1610612743.0,Braun,MISS C. Braun Free Throw 1 of 2,foul,rebound,5,Medium
+22400314,337,rebound,3,PT08M55.00S,08:55,Q3 08:55,64,69,1610612743.0,,TEAM offensive REBOUND,freethrow,freethrow,5,Medium
+22400314,338,freethrow,3,PT08M55.00S,08:55,Q3 08:55,64,70,1610612743.0,Braun,C. Braun Free Throw 2 of 2 (5 PTS),rebound,2pt missed,6,Medium
+22400314,339,2pt,3,PT08M34.00S,08:34,Q3 08:34,64,70,1610612746.0,Harden,MISS J. Harden 9' driving floating Shot - blocked,freethrow,block,6,Medium
+22400314,340,block,3,PT08M34.00S,08:34,Q3 08:34,64,70,1610612743.0,Watson,P. Watson BLOCK (1 BLK),2pt missed,rebound,6,Medium
+22400314,341,rebound,3,PT08M30.00S,08:30,Q3 08:30,64,70,1610612746.0,Coffey,A. Coffey REBOUND (Off:3 Def:2),block,3pt missed,6,Medium
+22400314,342,3pt,3,PT08M29.00S,08:29,Q3 08:29,64,70,1610612746.0,Coffey,MISS A. Coffey 24' 3PT,rebound,rebound,6,Medium
+22400314,343,rebound,3,PT08M27.00S,08:27,Q3 08:27,64,70,1610612743.0,Porter Jr.,M. Porter Jr. REBOUND (Off:0 Def:7),3pt missed,turnover,6,Medium
+22400314,344,turnover,3,PT08M14.00S,08:14,Q3 08:14,64,70,1610612743.0,Braun,C. Braun bad pass TURNOVER (2 TO),rebound,steal,6,Medium
+22400314,345,steal,3,PT08M14.00S,08:14,Q3 08:14,64,70,1610612746.0,Dunn,K. Dunn STEAL (4 STL),turnover,2pt made,6,Medium
+22400314,346,2pt,3,PT08M08.00S,08:08,Q3 08:08,66,70,1610612746.0,Dunn,K. Dunn 10' driving floating Jump Shot (4 PTS),steal,2pt missed,4,Medium
+22400314,347,2pt,3,PT07M46.00S,07:46,Q3 07:46,66,70,1610612743.0,Jokić,MISS N. Jokić 12' driving floating Shot - blocked,2pt made,block,4,Medium
+22400314,348,block,3,PT07M46.00S,07:46,Q3 07:46,66,70,1610612746.0,Dunn,K. Dunn BLOCK (2 BLK),2pt missed,rebound,4,Medium
+22400314,349,rebound,3,PT07M43.00S,07:43,Q3 07:43,66,70,1610612743.0,Braun,C. Braun REBOUND (Off:1 Def:3),block,2pt missed,4,Medium
+22400314,350,2pt,3,PT07M40.00S,07:40,Q3 07:40,66,70,1610612743.0,Jokić,MISS N. Jokić 11' driving Hook,rebound,rebound,4,Medium
+22400314,351,rebound,3,PT07M35.00S,07:35,Q3 07:35,66,70,1610612743.0,Jokić,N. Jokić REBOUND (Off:3 Def:6),2pt missed,2pt missed,4,Medium
+22400314,352,2pt,3,PT07M35.00S,07:35,Q3 07:35,66,70,1610612743.0,Jokić,MISS N. Jokić tip Layup,rebound,rebound,4,Medium
+22400314,353,rebound,3,PT07M35.00S,07:35,Q3 07:35,66,70,1610612746.0,Zubac,I. Zubac REBOUND (Off:3 Def:3),2pt missed,2pt made,4,Medium
+22400314,354,2pt,3,PT07M30.00S,07:30,Q3 07:30,68,70,1610612746.0,Coffey,A. Coffey running Layup (13 PTS) (J. Harden 6 AST),rebound,2pt made,2,Medium
+22400314,356,2pt,3,PT07M17.00S,07:17,Q3 07:17,68,72,1610612743.0,Murray,J. Murray 15' pullup Jump Shot (11 PTS),2pt made,foul,4,Medium
+22400314,357,foul,3,PT07M17.00S,07:17,Q3 07:17,68,72,1610612746.0,Dunn,K. Dunn shooting personal FOUL (2 PF) (Murray 1 FT),2pt made,freethrow,4,Medium
+22400314,359,freethrow,3,PT07M17.00S,07:17,Q3 07:17,68,73,1610612743.0,Murray,J. Murray Free Throw 1 of 1 (12 PTS),foul,3pt missed,5,Medium
+22400314,360,3pt,3,PT07M04.00S,07:04,Q3 07:04,68,73,1610612746.0,Dunn,MISS K. Dunn 26' 3PT,freethrow,rebound,5,Medium
+22400314,361,rebound,3,PT07M03.00S,07:03,Q3 07:03,68,73,1610612743.0,,TEAM defensive REBOUND,3pt missed,3pt missed,5,Medium
+22400314,363,3pt,3,PT06M48.00S,06:48,Q3 06:48,68,73,1610612743.0,Watson,MISS P. Watson 27' 3PT,rebound,rebound,5,Medium
+22400314,364,rebound,3,PT06M46.00S,06:46,Q3 06:46,68,73,1610612746.0,Jones Jr.,D. Jones Jr. REBOUND (Off:0 Def:3),3pt missed,2pt made,5,Medium
+22400314,365,2pt,3,PT06M28.00S,06:28,Q3 06:28,70,73,1610612746.0,Harden,J. Harden driving floating Jump Shot (21 PTS),rebound,2pt missed,3,Medium
+22400314,366,2pt,3,PT06M21.00S,06:21,Q3 06:21,70,73,1610612743.0,Braun,MISS C. Braun driving Layup,2pt made,rebound,3,Medium
+22400314,367,rebound,3,PT06M19.00S,06:19,Q3 06:19,70,73,1610612746.0,Jones Jr.,D. Jones Jr. REBOUND (Off:0 Def:4),2pt missed,2pt missed,3,Medium
+22400314,368,2pt,3,PT06M09.00S,06:09,Q3 06:09,70,73,1610612746.0,Harden,MISS J. Harden 11' driving floating Shot,rebound,rebound,3,Medium
+22400314,369,rebound,3,PT06M07.00S,06:07,Q3 06:07,70,73,1610612743.0,Jokić,N. Jokić REBOUND (Off:3 Def:7),2pt missed,foul,3,Medium
+22400314,370,foul,3,PT06M07.00S,06:07,Q3 06:07,70,73,1610612746.0,Zubac,I. Zubac transition take personal FOUL (1 PF) (Jokić 1 FT),rebound,timeout,3,Medium
+22400314,372,timeout,3,PT06M07.00S,06:07,Q3 06:07,70,73,1610612746.0,,LAC Timeout,foul,freethrow,3,Medium
+22400314,375,freethrow,3,PT06M07.00S,06:07,Q3 06:07,70,74,1610612743.0,Murray,J. Murray transition take Free Throw 1 of 1 (13 PTS),timeout,substitution,4,Medium
+22400314,373,substitution,3,PT06M07.00S,06:07,Q3 06:07,70,73,1610612746.0,Coffey,SUB out: A. Coffey,freethrow,substitution,3,Medium
+22400314,374,substitution,3,PT06M07.00S,06:07,Q3 06:07,70,73,1610612746.0,Powell,SUB in: N. Powell,substitution,substitution,3,Medium
+22400314,377,substitution,3,PT06M07.00S,06:07,Q3 06:07,70,74,1610612743.0,Westbrook,SUB in: R. Westbrook,substitution,substitution,4,Medium
+22400314,378,substitution,3,PT06M07.00S,06:07,Q3 06:07,70,74,1610612743.0,Murray,SUB out: J. Murray,substitution,2pt made,4,Medium
+22400314,379,2pt,3,PT05M53.00S,05:53,Q3 05:53,70,76,1610612743.0,Porter Jr.,M. Porter Jr. 19' step back Jump Shot (15 PTS) (R. Westbrook 4 AST),substitution,2pt missed,6,Medium
+22400314,381,2pt,3,PT05M26.00S,05:26,Q3 05:26,70,76,1610612746.0,Powell,MISS N. Powell driving floating Shot,2pt made,rebound,6,Medium
+22400314,382,rebound,3,PT05M24.00S,05:24,Q3 05:24,70,76,1610612743.0,Braun,C. Braun REBOUND (Off:1 Def:4),2pt missed,2pt made,6,Medium
+22400314,383,2pt,3,PT05M13.00S,05:13,Q3 05:13,70,78,1610612743.0,Porter Jr.,M. Porter Jr. driving floating Jump Shot (17 PTS) (N. Jokić 8 AST),rebound,2pt missed,8,Medium
+22400314,385,2pt,3,PT04M58.00S,04:58,Q3 04:58,70,78,1610612746.0,Harden,MISS J. Harden 6' floating Shot,2pt made,rebound,8,Medium
+22400314,386,rebound,3,PT04M56.00S,04:56,Q3 04:56,70,78,1610612743.0,Jokić,N. Jokić REBOUND (Off:3 Def:8),2pt missed,2pt made,8,Medium
+22400314,387,2pt,3,PT04M52.00S,04:52,Q3 04:52,70,80,1610612743.0,Braun,C. Braun running Layup (7 PTS) (N. Jokić 9 AST),rebound,3pt made,10,Medium
+22400314,389,3pt,3,PT04M32.00S,04:32,Q3 04:32,73,80,1610612746.0,Powell,N. Powell 25' 3PT pullup (13 PTS),2pt made,3pt made,7,Medium
+22400314,390,3pt,3,PT04M10.00S,04:10,Q3 04:10,73,83,1610612743.0,Watson,P. Watson 24' 3PT  (11 PTS) (R. Westbrook 5 AST),3pt made,3pt made,10,Medium
+22400314,392,3pt,3,PT03M56.00S,03:56,Q3 03:56,76,83,1610612746.0,Powell,N. Powell 25' 3PT  (16 PTS) (I. Zubac 2 AST),3pt made,turnover,7,Medium
+22400314,394,turnover,3,PT03M36.00S,03:36,Q3 03:36,76,83,1610612743.0,Jokić,N. Jokić bad pass out-of-bounds TURNOVER (3 TO),3pt made,substitution,7,Medium
+22400314,395,substitution,3,PT03M36.00S,03:36,Q3 03:36,76,83,1610612746.0,Dunn,SUB out: K. Dunn,turnover,substitution,7,Medium
+22400314,396,substitution,3,PT03M36.00S,03:36,Q3 03:36,76,83,1610612746.0,Mann,SUB in: T. Mann,substitution,3pt made,7,Medium
+22400314,397,3pt,3,PT03M23.00S,03:23,Q3 03:23,79,83,1610612746.0,Harden,J. Harden 27' 3PT  (24 PTS) (I. Zubac 3 AST),substitution,3pt missed,4,Medium
+22400314,399,3pt,3,PT03M09.00S,03:09,Q3 03:09,79,83,1610612743.0,Westbrook,MISS R. Westbrook 26' 3PT,3pt made,rebound,4,Medium
+22400314,400,rebound,3,PT03M06.00S,03:06,Q3 03:06,79,83,1610612746.0,Harden,J. Harden REBOUND (Off:1 Def:3),3pt missed,turnover,4,Medium
+22400314,401,turnover,3,PT02M59.00S,02:59,Q3 02:59,79,83,1610612746.0,Harden,J. Harden bad pass TURNOVER (3 TO),rebound,steal,4,Medium
+22400314,402,steal,3,PT02M59.00S,02:59,Q3 02:59,79,83,1610612743.0,Jokić,N. Jokić STEAL (1 STL),turnover,2pt made,4,Medium
+22400314,403,2pt,3,PT02M55.00S,02:55,Q3 02:55,79,85,1610612743.0,Watson,P. Watson running DUNK (13 PTS) (N. Jokić 10 AST),steal,3pt made,6,Medium
+22400314,405,3pt,3,PT02M30.00S,02:30,Q3 02:30,82,85,1610612746.0,Harden,J. Harden 26' 3PT  (27 PTS) (I. Zubac 4 AST),2pt made,timeout,3,Medium
+22400314,407,timeout,3,PT02M28.00S,02:28,Q3 02:28,82,85,1610612743.0,,DEN Timeout,3pt made,substitution,3,Medium
+22400314,408,substitution,3,PT02M28.00S,02:28,Q3 02:28,82,85,1610612746.0,Jones Jr.,SUB out: D. Jones Jr.,timeout,substitution,3,Medium
+22400314,409,substitution,3,PT02M28.00S,02:28,Q3 02:28,82,85,1610612743.0,Braun,SUB out: C. Braun,substitution,substitution,3,Medium
+22400314,410,substitution,3,PT02M28.00S,02:28,Q3 02:28,82,85,1610612743.0,Watson,SUB out: P. Watson,substitution,substitution,3,Medium
+22400314,411,substitution,3,PT02M28.00S,02:28,Q3 02:28,82,85,1610612746.0,Batum,SUB in: N. Batum,substitution,substitution,3,Medium
+22400314,412,substitution,3,PT02M28.00S,02:28,Q3 02:28,82,85,1610612743.0,Gordon,SUB in: A. Gordon,substitution,substitution,3,Medium
+22400314,413,substitution,3,PT02M28.00S,02:28,Q3 02:28,82,85,1610612743.0,Murray,SUB in: J. Murray,substitution,turnover,3,Medium
+22400314,414,turnover,3,PT02M14.00S,02:14,Q3 02:14,82,85,1610612743.0,Gordon,A. Gordon bad pass TURNOVER (1 TO),substitution,steal,3,Medium
+22400314,415,steal,3,PT02M14.00S,02:14,Q3 02:14,82,85,1610612746.0,Powell,N. Powell STEAL (1 STL),turnover,2pt made,3,Medium
+22400314,416,2pt,3,PT02M09.00S,02:09,Q3 02:09,84,85,1610612746.0,Powell,N. Powell running Layup (18 PTS) (N. Batum 2 AST),steal,foul,1,Medium
+22400314,418,foul,3,PT01M55.00S,01:55,Q3 01:55,84,85,1610612746.0,Harden,J. Harden shooting personal FOUL (1 PF) (Porter Jr. 2 FT),2pt made,freethrow,1,Medium
+22400314,420,freethrow,3,PT01M55.00S,01:55,Q3 01:55,84,85,1610612743.0,Porter Jr.,MISS M. Porter Jr. Free Throw 1 of 2,foul,rebound,1,Medium
+22400314,421,rebound,3,PT01M55.00S,01:55,Q3 01:55,84,85,1610612743.0,,TEAM offensive REBOUND,freethrow,freethrow,1,Medium
+22400314,422,freethrow,3,PT01M55.00S,01:55,Q3 01:55,84,85,1610612743.0,Porter Jr.,MISS M. Porter Jr. Free Throw 2 of 2,rebound,rebound,1,Medium
+22400314,423,rebound,3,PT01M52.00S,01:52,Q3 01:52,84,85,1610612746.0,Harden,J. Harden REBOUND (Off:1 Def:4),freethrow,3pt made,1,Medium
+22400314,424,3pt,3,PT01M39.00S,01:39,Q3 01:39,87,85,1610612746.0,Powell,N. Powell 25' 3PT  (21 PTS) (J. Harden 7 AST),rebound,3pt made,2,Medium
+22400314,426,3pt,3,PT01M21.00S,01:21,Q3 01:21,87,88,1610612743.0,Westbrook,R. Westbrook 3PT  (5 PTS) (A. Gordon 3 AST),3pt made,foul,1,Medium
+22400314,428,foul,3,PT00M59.60S,00:59,Q3 00:59,87,88,1610612746.0,Zubac,I. Zubac offensive FOUL (2 PF),3pt made,turnover,1,Medium
+22400314,430,turnover,3,PT00M59.60S,00:59,Q3 00:59,87,88,1610612746.0,Zubac,I. Zubac offensive foul TURNOVER (3 TO),foul,substitution,1,Medium
+22400314,431,substitution,3,PT00M59.60S,00:59,Q3 00:59,87,88,1610612743.0,Porter Jr.,SUB out: M. Porter Jr.,turnover,substitution,1,Medium
+22400314,432,substitution,3,PT00M59.60S,00:59,Q3 00:59,87,88,1610612743.0,Strawther,SUB in: J. Strawther,substitution,turnover,1,Medium
+22400314,433,turnover,3,PT00M47.40S,00:47,Q3 00:47,87,88,1610612743.0,Jokić,N. Jokić bad pass out-of-bounds TURNOVER (4 TO),substitution,3pt made,1,Medium
+22400314,434,3pt,3,PT00M33.20S,00:33,Q3 00:33,90,88,1610612746.0,Harden,J. Harden 25' 3PT step back (30 PTS),turnover,2pt made,2,Medium
+22400314,435,2pt,3,PT00M11.90S,00:11,Q3 00:11,90,90,1610612743.0,Jokić,N. Jokić cutting Layup (23 PTS) (J. Strawther 1 AST),3pt made,foul,0,Medium
+22400314,437,foul,3,PT00M04.80S,00:04,Q3 00:04,90,90,1610612743.0,Westbrook,R. Westbrook take personal FOUL (1 PF),2pt made,substitution,0,Medium
+22400314,439,substitution,3,PT00M04.80S,00:04,Q3 00:04,90,90,1610612743.0,Strawther,SUB out: J. Strawther,foul,substitution,0,Medium
+22400314,440,substitution,3,PT00M04.80S,00:04,Q3 00:04,90,90,1610612743.0,Braun,SUB in: C. Braun,substitution,2pt made,0,Medium
+22400314,441,2pt,3,PT00M00.80S,00:00,Q3 00:00,92,90,1610612746.0,Mann,T. Mann 11' turnaround fadeaway Jump Shot (7 PTS) (N. Batum 3 AST),substitution,3pt missed,2,Medium
+22400314,443,3pt,3,PT00M00.30S,00:00,Q3 00:00,92,90,1610612743.0,Jokić,MISS N. Jokić 63' 3PT,2pt made,rebound,2,Medium
+22400314,444,rebound,3,PT00M00.10S,00:00,Q3 00:00,92,90,1610612743.0,,TEAM offensive REBOUND,3pt missed,substitution,2,Medium
+22400314,446,substitution,4,PT12M00.00S,12:00,Q4 12:00,92,90,1610612746.0,Powell,SUB out: N. Powell,rebound,substitution,2,Medium
+22400314,447,substitution,4,PT12M00.00S,12:00,Q4 12:00,92,90,1610612746.0,Zubac,SUB out: I. Zubac,substitution,substitution,2,Medium
+22400314,448,substitution,4,PT12M00.00S,12:00,Q4 12:00,92,90,1610612743.0,Jokić,SUB out: N. Jokić,substitution,substitution,2,Medium
+22400314,449,substitution,4,PT12M00.00S,12:00,Q4 12:00,92,90,1610612743.0,Braun,SUB out: C. Braun,substitution,substitution,2,Medium
+22400314,450,substitution,4,PT12M00.00S,12:00,Q4 12:00,92,90,1610612746.0,Bamba,SUB in: M. Bamba,substitution,substitution,2,Medium
+22400314,451,substitution,4,PT12M00.00S,12:00,Q4 12:00,92,90,1610612746.0,Miller,SUB in: J. Miller,substitution,substitution,2,Medium
+22400314,452,substitution,4,PT12M00.00S,12:00,Q4 12:00,92,90,1610612743.0,Porter Jr.,SUB in: M. Porter Jr.,substitution,substitution,2,Medium
+22400314,453,substitution,4,PT12M00.00S,12:00,Q4 12:00,92,90,1610612743.0,Strawther,SUB in: J. Strawther,substitution,3pt missed,2,Medium
+22400314,455,3pt,4,PT11M40.00S,11:40,Q4 11:40,92,90,1610612746.0,Miller,MISS J. Miller 24' 3PT,substitution,rebound,2,Medium
+22400314,456,rebound,4,PT11M38.00S,11:38,Q4 11:38,92,90,1610612746.0,Batum,N. Batum REBOUND (Off:1 Def:0),3pt missed,turnover,2,Medium
+22400314,457,turnover,4,PT11M30.00S,11:30,Q4 11:30,92,90,1610612746.0,Harden,J. Harden bad pass TURNOVER (4 TO),rebound,steal,2,Medium
+22400314,458,steal,4,PT11M30.00S,11:30,Q4 11:30,92,90,1610612743.0,Westbrook,R. Westbrook STEAL (2 STL),turnover,turnover,2,Medium
+22400314,459,turnover,4,PT11M27.00S,11:27,Q4 11:27,92,90,1610612743.0,Porter Jr.,M. Porter Jr. bad pass TURNOVER (1 TO),steal,steal,2,Medium
+22400314,460,steal,4,PT11M27.00S,11:27,Q4 11:27,92,90,1610612746.0,Harden,J. Harden STEAL (1 STL),turnover,foul,2,Medium
+22400314,461,foul,4,PT11M25.00S,11:25,Q4 11:25,92,90,1610612743.0,Gordon,A. Gordon shooting personal FOUL (2 PF) (Harden 2 FT),steal,freethrow,2,Medium
+22400314,463,freethrow,4,PT11M25.00S,11:25,Q4 11:25,93,90,1610612746.0,Harden,J. Harden Free Throw 1 of 2 (31 PTS),foul,freethrow,3,Medium
+22400314,464,freethrow,4,PT11M25.00S,11:25,Q4 11:25,94,90,1610612746.0,Harden,J. Harden Free Throw 2 of 2 (32 PTS),freethrow,2pt missed,4,Medium
+22400314,465,2pt,4,PT11M11.00S,11:11,Q4 11:11,94,90,1610612743.0,Gordon,MISS A. Gordon 18' step back Shot,freethrow,rebound,4,Medium
+22400314,466,rebound,4,PT11M09.00S,11:09,Q4 11:09,94,90,1610612746.0,Bamba,M. Bamba REBOUND (Off:0 Def:4),2pt missed,2pt missed,4,Medium
+22400314,467,2pt,4,PT10M54.00S,10:54,Q4 10:54,94,90,1610612746.0,Mann,MISS T. Mann Layup - blocked,rebound,block,4,Medium
+22400314,468,block,4,PT10M54.00S,10:54,Q4 10:54,94,90,1610612743.0,Westbrook,R. Westbrook BLOCK (1 BLK),2pt missed,rebound,4,Medium
+22400314,469,rebound,4,PT10M51.00S,10:51,Q4 10:51,94,90,1610612746.0,Harden,J. Harden REBOUND (Off:2 Def:4),block,2pt missed,4,Medium
+22400314,470,2pt,4,PT10M51.00S,10:51,Q4 10:51,94,90,1610612746.0,Harden,MISS J. Harden driving floating Shot,rebound,rebound,4,Medium
+22400314,472,rebound,4,PT10M51.00S,10:51,Q4 10:51,94,90,1610612746.0,,TEAM offensive REBOUND,2pt missed,3pt missed,4,Medium
+22400314,473,3pt,4,PT10M45.00S,10:45,Q4 10:45,94,90,1610612746.0,Harden,MISS J. Harden step back 3PT,rebound,rebound,4,Medium
+22400314,474,rebound,4,PT10M43.00S,10:43,Q4 10:43,94,90,1610612746.0,Batum,N. Batum REBOUND (Off:2 Def:0),3pt missed,2pt made,4,Medium
+22400314,475,2pt,4,PT10M39.00S,10:39,Q4 10:39,96,90,1610612746.0,Bamba,M. Bamba cutting Layup (2 PTS) (J. Harden 8 AST),rebound,3pt made,6,Medium
+22400314,477,3pt,4,PT10M22.00S,10:22,Q4 10:22,96,93,1610612743.0,Strawther,J. Strawther 24' 3PT  (10 PTS) (J. Murray 7 AST),2pt made,3pt made,3,Medium
+22400314,479,3pt,4,PT10M04.00S,10:04,Q4 10:04,99,93,1610612746.0,Mann,T. Mann 3PT  (10 PTS) (N. Batum 4 AST),3pt made,2pt made,6,Medium
+22400314,481,2pt,4,PT09M55.00S,09:55,Q4 09:55,99,95,1610612743.0,Gordon,A. Gordon cutting Layup (7 PTS) (R. Westbrook 6 AST),3pt made,foul,4,Medium
+22400314,483,foul,4,PT09M55.00S,09:55,Q4 09:55,99,95,1610612746.0,Batum,N. Batum shooting personal FOUL (1 PF) (Gordon 1 FT),2pt made,freethrow,4,Medium
+22400314,485,freethrow,4,PT09M55.00S,09:55,Q4 09:55,99,96,1610612743.0,Gordon,A. Gordon Free Throw 1 of 1 (8 PTS),foul,3pt made,3,Medium
+22400314,486,3pt,4,PT09M40.00S,09:40,Q4 09:40,102,96,1610612746.0,Batum,N. Batum 26' 3PT  (3 PTS) (J. Harden 9 AST),freethrow,2pt made,6,Medium
+22400314,488,2pt,4,PT09M32.00S,09:32,Q4 09:32,102,98,1610612743.0,Westbrook,R. Westbrook driving Layup (7 PTS),3pt made,3pt made,4,Medium
+22400314,489,3pt,4,PT09M12.00S,09:12,Q4 09:12,105,98,1610612746.0,Bamba,M. Bamba 3PT  (5 PTS) (N. Batum 5 AST),2pt made,timeout,7,Medium
+22400314,491,timeout,4,PT09M12.00S,09:12,Q4 09:12,105,98,1610612743.0,,DEN Timeout,3pt made,substitution,7,Medium
+22400314,492,substitution,4,PT09M12.00S,09:12,Q4 09:12,105,98,1610612743.0,Porter Jr.,SUB out: M. Porter Jr.,timeout,substitution,7,Medium
+22400314,493,substitution,4,PT09M12.00S,09:12,Q4 09:12,105,98,1610612743.0,Braun,SUB in: C. Braun,substitution,3pt made,7,Medium
+22400314,494,3pt,4,PT08M59.00S,08:59,Q4 08:59,105,101,1610612743.0,Strawther,J. Strawther 26' 3PT  (13 PTS) (R. Westbrook 7 AST),substitution,foul,4,Medium
+22400314,496,foul,4,PT08M38.00S,08:38,Q4 08:38,105,101,1610612743.0,Strawther,J. Strawther shooting personal FOUL (1 PF) (Harden 3 FT),3pt made,freethrow,4,Medium
+22400314,498,freethrow,4,PT08M38.00S,08:38,Q4 08:38,106,101,1610612746.0,Harden,J. Harden Free Throw 1 of 3 (33 PTS),foul,freethrow,5,Medium
+22400314,499,freethrow,4,PT08M38.00S,08:38,Q4 08:38,107,101,1610612746.0,Harden,J. Harden Free Throw 2 of 3 (34 PTS),freethrow,freethrow,6,Medium
+22400314,500,freethrow,4,PT08M38.00S,08:38,Q4 08:38,108,101,1610612746.0,Harden,J. Harden Free Throw 3 of 3 (35 PTS),freethrow,foul,7,Medium
+22400314,501,foul,4,PT08M30.00S,08:30,Q4 08:30,108,101,1610612746.0,Harden,J. Harden personal FOUL (2 PF),freethrow,2pt missed,7,Medium
+22400314,503,2pt,4,PT08M19.00S,08:19,Q4 08:19,108,101,1610612743.0,Braun,MISS C. Braun Layup - blocked,foul,block,7,Medium
+22400314,504,block,4,PT08M19.00S,08:19,Q4 08:19,108,101,1610612746.0,Bamba,M. Bamba BLOCK (2 BLK),2pt missed,rebound,7,Medium
+22400314,505,rebound,4,PT08M16.00S,08:16,Q4 08:16,108,101,1610612746.0,Mann,T. Mann REBOUND (Off:1 Def:1),block,3pt missed,7,Medium
+22400314,506,3pt,4,PT07M55.00S,07:55,Q4 07:55,108,101,1610612746.0,Batum,MISS N. Batum 28' 3PT,rebound,rebound,7,Medium
+22400314,507,rebound,4,PT07M52.00S,07:52,Q4 07:52,108,101,1610612743.0,Westbrook,R. Westbrook REBOUND (Off:0 Def:2),3pt missed,2pt made,7,Medium
+22400314,508,2pt,4,PT07M50.00S,07:50,Q4 07:50,108,103,1610612743.0,Braun,C. Braun running Layup (9 PTS) (R. Westbrook 8 AST),rebound,foul,5,Medium
+22400314,510,foul,4,PT07M50.00S,07:50,Q4 07:50,108,103,1610612746.0,Mann,T. Mann shooting personal FOUL (2 PF) (Braun 1 FT),2pt made,freethrow,5,Medium
+22400314,514,freethrow,4,PT07M50.00S,07:50,Q4 07:50,108,103,1610612743.0,Braun,MISS C. Braun Free Throw 1 of 1,foul,substitution,5,Medium
+22400314,512,substitution,4,PT07M50.00S,07:50,Q4 07:50,108,103,1610612743.0,Murray,SUB out: J. Murray,freethrow,substitution,5,Medium
+22400314,513,substitution,4,PT07M50.00S,07:50,Q4 07:50,108,103,1610612743.0,Jokić,SUB in: N. Jokić,substitution,rebound,5,Medium
+22400314,515,rebound,4,PT07M48.00S,07:48,Q4 07:48,108,103,1610612746.0,Batum,N. Batum REBOUND (Off:2 Def:1),substitution,3pt missed,5,Medium
+22400314,516,3pt,4,PT07M28.00S,07:28,Q4 07:28,108,103,1610612746.0,Harden,MISS J. Harden 25' step back 3PT,rebound,rebound,5,Medium
+22400314,517,rebound,4,PT07M26.00S,07:26,Q4 07:26,108,103,1610612743.0,Westbrook,R. Westbrook REBOUND (Off:0 Def:3),3pt missed,foul,5,Medium
+22400314,518,foul,4,PT07M23.00S,07:23,Q4 07:23,108,103,1610612746.0,Harden,J. Harden shooting personal FOUL (3 PF) (Westbrook 2 FT),rebound,freethrow,5,Medium
+22400314,520,freethrow,4,PT07M23.00S,07:23,Q4 07:23,108,103,1610612743.0,Westbrook,MISS R. Westbrook Free Throw 1 of 2,foul,rebound,5,Medium
+22400314,521,rebound,4,PT07M23.00S,07:23,Q4 07:23,108,103,1610612743.0,,TEAM offensive REBOUND,freethrow,freethrow,5,Medium
+22400314,522,freethrow,4,PT07M23.00S,07:23,Q4 07:23,108,103,1610612743.0,Westbrook,MISS R. Westbrook Free Throw 2 of 2,rebound,rebound,5,Medium
+22400314,523,rebound,4,PT07M20.00S,07:20,Q4 07:20,108,103,1610612746.0,,TEAM defensive REBOUND,freethrow,foul,5,Medium
+22400314,525,foul,4,PT07M10.00S,07:10,Q4 07:10,108,103,1610612743.0,Strawther,J. Strawther shooting personal FOUL (2 PF) (Bamba 2 FT),rebound,freethrow,5,Medium
+22400314,527,freethrow,4,PT07M10.00S,07:10,Q4 07:10,108,103,1610612746.0,Bamba,MISS M. Bamba Free Throw 1 of 2,foul,rebound,5,Medium
+22400314,528,rebound,4,PT07M10.00S,07:10,Q4 07:10,108,103,1610612746.0,,TEAM offensive REBOUND,freethrow,freethrow,5,Medium
+22400314,529,freethrow,4,PT07M10.00S,07:10,Q4 07:10,109,103,1610612746.0,Bamba,M. Bamba Free Throw 2 of 2 (6 PTS),rebound,3pt missed,6,Medium
+22400314,530,3pt,4,PT06M57.00S,06:57,Q4 06:57,109,103,1610612743.0,Westbrook,MISS R. Westbrook 28' 3PT,freethrow,rebound,6,High
+22400314,531,rebound,4,PT06M55.00S,06:55,Q4 06:55,109,103,1610612746.0,Bamba,M. Bamba REBOUND (Off:0 Def:5),3pt missed,turnover,6,High
+22400314,532,turnover,4,PT06M55.00S,06:55,Q4 06:55,109,103,1610612746.0,Bamba,M. Bamba step out-of-bounds TURNOVER (1 TO),rebound,substitution,6,High
+22400314,533,substitution,4,PT06M55.00S,06:55,Q4 06:55,109,103,1610612746.0,Miller,SUB out: J. Miller,turnover,substitution,6,High
+22400314,534,substitution,4,PT06M55.00S,06:55,Q4 06:55,109,103,1610612746.0,Powell,SUB in: N. Powell,substitution,2pt made,6,High
+22400314,535,2pt,4,PT06M43.00S,06:43,Q4 06:43,109,105,1610612743.0,Westbrook,R. Westbrook driving reverse Layup (9 PTS),substitution,2pt made,4,High
+22400314,537,2pt,4,PT06M18.00S,06:18,Q4 06:18,111,105,1610612746.0,Mann,T. Mann 12' pullup Jump Shot (12 PTS) (J. Harden 10 AST),2pt made,3pt made,6,High
+22400314,539,3pt,4,PT06M06.00S,06:06,Q4 06:06,111,108,1610612743.0,Jokić,N. Jokić 26' 3PT  (26 PTS) (J. Strawther 2 AST),2pt made,2pt missed,3,High
+22400314,541,2pt,4,PT05M46.00S,05:46,Q4 05:46,111,108,1610612746.0,Powell,MISS N. Powell driving Layup,3pt made,rebound,3,High
+22400314,543,rebound,4,PT05M42.00S,05:42,Q4 05:42,111,108,1610612743.0,Braun,C. Braun REBOUND (Off:1 Def:5),2pt missed,2pt made,3,High
+22400314,544,2pt,4,PT05M38.00S,05:38,Q4 05:38,111,110,1610612743.0,Gordon,A. Gordon DUNK (10 PTS) (N. Jokić 11 AST),rebound,timeout,1,High
+22400314,546,timeout,4,PT05M36.00S,05:36,Q4 05:36,111,110,1610612746.0,,LAC Timeout,2pt made,substitution,1,High
+22400314,547,substitution,4,PT05M36.00S,05:36,Q4 05:36,111,110,1610612746.0,Bamba,SUB out: M. Bamba,timeout,substitution,1,High
+22400314,548,substitution,4,PT05M36.00S,05:36,Q4 05:36,111,110,1610612746.0,Zubac,SUB in: I. Zubac,substitution,2pt missed,1,High
+22400314,549,2pt,4,PT05M19.00S,05:19,Q4 05:19,111,110,1610612746.0,Zubac,MISS I. Zubac 7' floating Shot,substitution,rebound,1,High
+22400314,550,rebound,4,PT05M19.00S,05:19,Q4 05:19,111,110,1610612743.0,Jokić,N. Jokić REBOUND (Off:3 Def:9),2pt missed,3pt missed,1,High
+22400314,551,3pt,4,PT05M10.00S,05:10,Q4 05:10,111,110,1610612743.0,Strawther,MISS J. Strawther 27' pullup 3PT,rebound,rebound,1,High
+22400314,552,rebound,4,PT05M07.00S,05:07,Q4 05:07,111,110,1610612746.0,Harden,J. Harden REBOUND (Off:2 Def:5),3pt missed,2pt made,1,High
+22400314,553,2pt,4,PT04M51.00S,04:51,Q4 04:51,113,110,1610612746.0,Powell,N. Powell 15' pullup Jump Shot (23 PTS) (I. Zubac 5 AST),rebound,2pt missed,3,High
+22400314,555,2pt,4,PT04M30.00S,04:30,Q4 04:30,113,110,1610612743.0,Jokić,MISS N. Jokić 11' driving floating Shot,2pt made,rebound,3,High
+22400314,556,rebound,4,PT04M29.00S,04:29,Q4 04:29,113,110,1610612746.0,Zubac,I. Zubac REBOUND (Off:3 Def:4),2pt missed,3pt missed,3,High
+22400314,557,3pt,4,PT04M12.00S,04:12,Q4 04:12,113,110,1610612746.0,Harden,MISS J. Harden 27' pullup 3PT,rebound,rebound,3,High
+22400314,558,rebound,4,PT04M10.00S,04:10,Q4 04:10,113,110,1610612743.0,Strawther,J. Strawther REBOUND (Off:1 Def:1),3pt missed,2pt missed,3,High
+22400314,559,2pt,4,PT04M04.00S,04:04,Q4 04:04,113,110,1610612743.0,Westbrook,MISS R. Westbrook 6' driving floating Shot,rebound,rebound,3,High
+22400314,560,rebound,4,PT04M03.00S,04:03,Q4 04:03,113,110,1610612746.0,Zubac,I. Zubac REBOUND (Off:3 Def:5),2pt missed,3pt missed,3,High
+22400314,561,3pt,4,PT03M48.00S,03:48,Q4 03:48,113,110,1610612746.0,Powell,MISS N. Powell 25' pullup 3PT,rebound,rebound,3,High
+22400314,562,rebound,4,PT03M46.00S,03:46,Q4 03:46,113,110,1610612743.0,Jokić,N. Jokić REBOUND (Off:3 Def:10),3pt missed,2pt made,3,High
+22400314,563,2pt,4,PT03M34.00S,03:34,Q4 03:34,113,112,1610612743.0,Strawther,J. Strawther 8' driving floating Jump Shot (15 PTS) (C. Braun 2 AST),rebound,foul,1,High
+22400314,565,foul,4,PT03M17.00S,03:17,Q4 03:17,113,112,1610612743.0,Westbrook,R. Westbrook shooting personal FOUL (2 PF) (Powell 2 FT),2pt made,timeout,1,High
+22400314,567,timeout,4,PT03M17.00S,03:17,Q4 03:17,113,112,1610612743.0,,DEN Timeout,foul,freethrow,1,High
+22400314,572,freethrow,4,PT03M17.00S,03:17,Q4 03:17,114,112,1610612746.0,Powell,N. Powell Free Throw 1 of 2 (24 PTS),timeout,freethrow,2,High
+22400314,573,freethrow,4,PT03M17.00S,03:17,Q4 03:17,115,112,1610612746.0,Powell,N. Powell Free Throw 2 of 2 (25 PTS),freethrow,substitution,3,High
+22400314,568,substitution,4,PT03M17.00S,03:17,Q4 03:17,113,112,1610612743.0,Strawther,SUB out: J. Strawther,freethrow,substitution,1,High
+22400314,569,substitution,4,PT03M17.00S,03:17,Q4 03:17,113,112,1610612743.0,Westbrook,SUB out: R. Westbrook,substitution,substitution,1,High
+22400314,570,substitution,4,PT03M17.00S,03:17,Q4 03:17,113,112,1610612743.0,Porter Jr.,SUB in: M. Porter Jr.,substitution,substitution,1,High
+22400314,571,substitution,4,PT03M17.00S,03:17,Q4 03:17,113,112,1610612743.0,Murray,SUB in: J. Murray,substitution,turnover,1,High
+22400314,574,turnover,4,PT03M05.00S,03:05,Q4 03:05,115,112,1610612743.0,Jokić,N. Jokić bad pass out-of-bounds TURNOVER (5 TO),substitution,2pt missed,3,High
+22400314,575,2pt,4,PT02M47.00S,02:47,Q4 02:47,115,112,1610612746.0,Harden,MISS J. Harden driving floating Shot,turnover,rebound,3,High
+22400314,576,rebound,4,PT02M47.00S,02:47,Q4 02:47,115,112,1610612743.0,,TEAM defensive REBOUND,2pt missed,foul,3,High
+22400314,577,foul,4,PT02M47.00S,02:47,Q4 02:47,115,112,1610612746.0,Harden,J. Harden loose ball personal FOUL (4 PF) (Porter Jr. 2 FT),rebound,freethrow,3,High
+22400314,581,freethrow,4,PT02M47.00S,02:47,Q4 02:47,115,112,1610612743.0,Porter Jr.,MISS M. Porter Jr. Free Throw 1 of 2,foul,rebound,3,High
+22400314,582,rebound,4,PT02M47.00S,02:47,Q4 02:47,115,112,1610612743.0,,TEAM offensive REBOUND,freethrow,freethrow,3,High
+22400314,583,freethrow,4,PT02M47.00S,02:47,Q4 02:47,115,113,1610612743.0,Porter Jr.,M. Porter Jr. Free Throw 2 of 2 (18 PTS),rebound,foul,2,High
+22400314,585,foul,4,PT02M24.00S,02:24,Q4 02:24,115,113,1610612743.0,Braun,C. Braun shooting personal FOUL (1 PF) (Powell 3 FT),freethrow,freethrow,2,High
+22400314,587,freethrow,4,PT02M24.00S,02:24,Q4 02:24,116,113,1610612746.0,Powell,N. Powell Free Throw 1 of 3 (26 PTS),foul,freethrow,3,High
+22400314,588,freethrow,4,PT02M24.00S,02:24,Q4 02:24,117,113,1610612746.0,Powell,N. Powell Free Throw 2 of 3 (27 PTS),freethrow,freethrow,4,High
+22400314,589,freethrow,4,PT02M24.00S,02:24,Q4 02:24,118,113,1610612746.0,Powell,N. Powell Free Throw 3 of 3 (28 PTS),freethrow,foul,5,High
+22400314,590,foul,4,PT02M16.00S,02:16,Q4 02:16,118,113,1610612746.0,Batum,N. Batum personal FOUL (2 PF) (Jokić 2 FT),freethrow,timeout,5,High
+22400314,592,timeout,4,PT02M16.00S,02:16,Q4 02:16,118,113,1610612746.0,,LAC Timeout,foul,freethrow,5,High
+22400314,594,freethrow,4,PT02M16.00S,02:16,Q4 02:16,118,114,1610612743.0,Jokić,N. Jokić Free Throw 1 of 2 (27 PTS),timeout,freethrow,4,High
+22400314,597,freethrow,4,PT02M16.00S,02:16,Q4 02:16,118,114,1610612743.0,Jokić,MISS N. Jokić Free Throw 2 of 2,freethrow,substitution,4,High
+22400314,595,substitution,4,PT02M16.00S,02:16,Q4 02:16,118,114,1610612743.0,Porter Jr.,SUB out: M. Porter Jr.,freethrow,substitution,4,High
+22400314,596,substitution,4,PT02M16.00S,02:16,Q4 02:16,118,114,1610612743.0,Watson,SUB in: P. Watson,substitution,rebound,4,High
+22400314,598,rebound,4,PT02M14.00S,02:14,Q4 02:14,118,114,1610612746.0,Harden,J. Harden REBOUND (Off:2 Def:6),substitution,2pt made,4,High
+22400314,599,2pt,4,PT01M57.00S,01:57,Q4 01:57,120,114,1610612746.0,Harden,J. Harden 16' pullup Jump Shot (37 PTS),rebound,2pt made,6,High
+22400314,600,2pt,4,PT01M44.00S,01:44,Q4 01:44,120,116,1610612743.0,Murray,J. Murray 19' pullup Jump Shot (15 PTS),2pt made,3pt missed,4,Very High
+22400314,601,3pt,4,PT01M21.00S,01:21,Q4 01:21,120,116,1610612746.0,Harden,MISS J. Harden 25' step back 3PT,2pt made,rebound,4,Very High
+22400314,602,rebound,4,PT01M18.00S,01:18,Q4 01:18,120,116,1610612746.0,Mann,T. Mann REBOUND (Off:2 Def:1),3pt missed,3pt made,4,Very High
+22400314,603,3pt,4,PT01M07.00S,01:07,Q4 01:07,123,116,1610612746.0,Mann,T. Mann 3PT  (15 PTS) (J. Harden 11 AST),rebound,timeout,7,High
+22400314,605,timeout,4,PT01M07.00S,01:07,Q4 01:07,123,116,1610612743.0,,DEN Timeout,3pt made,substitution,7,High
+22400314,606,substitution,4,PT01M07.00S,01:07,Q4 01:07,123,116,1610612743.0,Watson,SUB out: P. Watson,timeout,substitution,7,High
+22400314,607,substitution,4,PT01M07.00S,01:07,Q4 01:07,123,116,1610612743.0,Porter Jr.,SUB in: M. Porter Jr.,substitution,substitution,7,High
+22400314,608,substitution,4,PT01M07.00S,01:07,Q4 01:07,123,116,1610612746.0,Zubac,SUB out: I. Zubac,substitution,substitution,7,High
+22400314,609,substitution,4,PT01M07.00S,01:07,Q4 01:07,123,116,1610612746.0,Dunn,SUB in: K. Dunn,substitution,3pt made,7,High
+22400314,610,3pt,4,PT01M00.00S,01:00,Q4 01:00,123,119,1610612743.0,Murray,J. Murray 27' 3PT  (18 PTS) (A. Gordon 4 AST),substitution,timeout,4,Very High
+22400314,612,timeout,4,PT01M00.00S,01:00,Q4 01:00,123,119,1610612746.0,,LAC Timeout,3pt made,substitution,4,Very High
+22400314,613,substitution,4,PT01M00.00S,01:00,Q4 01:00,123,119,1610612746.0,Dunn,SUB out: K. Dunn,timeout,substitution,4,Very High
+22400314,614,substitution,4,PT01M00.00S,01:00,Q4 01:00,123,119,1610612746.0,Zubac,SUB in: I. Zubac,substitution,turnover,4,Very High
+22400314,616,turnover,4,PT00M26.80S,00:26,Q4 00:26,123,119,1610612746.0,Harden,J. Harden lost ball TURNOVER (5 TO),substitution,steal,4,Very High
+22400314,617,steal,4,PT00M26.80S,00:26,Q4 00:26,123,119,1610612743.0,Murray,J. Murray STEAL (1 STL),turnover,3pt missed,4,Very High
+22400314,618,3pt,4,PT00M22.90S,00:22,Q4 00:22,123,119,1610612743.0,Gordon,MISS A. Gordon 27' running 3PT,steal,rebound,4,Very High
+22400314,619,rebound,4,PT00M19.90S,00:19,Q4 00:19,123,119,1610612743.0,Braun,C. Braun REBOUND (Off:2 Def:5),3pt missed,2pt made,4,Very High
+22400314,620,2pt,4,PT00M19.90S,00:19,Q4 00:19,123,121,1610612743.0,Braun,C. Braun putback Layup (11 PTS),rebound,foul,2,Very High
+22400314,621,foul,4,PT00M12.50S,00:12,Q4 00:12,123,121,1610612743.0,Jokić,N. Jokić take personal FOUL (3 PF) (Zubac 2 FT),2pt made,freethrow,2,Very High
+22400314,623,freethrow,4,PT00M12.50S,00:12,Q4 00:12,124,121,1610612746.0,Zubac,I. Zubac Free Throw 1 of 2 (6 PTS),foul,freethrow,3,Very High
+22400314,624,freethrow,4,PT00M12.50S,00:12,Q4 00:12,124,121,1610612746.0,Zubac,MISS I. Zubac Free Throw 2 of 2,freethrow,rebound,3,Very High
+22400314,625,rebound,4,PT00M12.20S,00:12,Q4 00:12,124,121,1610612743.0,Jokić,N. Jokić REBOUND (Off:3 Def:11),freethrow,timeout,3,Very High
+22400314,626,timeout,4,PT00M12.20S,00:12,Q4 00:12,124,121,1610612743.0,,DEN Timeout,rebound,substitution,3,Very High
+22400314,627,substitution,4,PT00M12.20S,00:12,Q4 00:12,124,121,1610612746.0,Zubac,SUB out: I. Zubac,timeout,substitution,3,Very High
+22400314,628,substitution,4,PT00M12.20S,00:12,Q4 00:12,124,121,1610612746.0,Dunn,SUB in: K. Dunn,substitution,foul,3,Very High
+22400314,629,foul,4,PT00M09.40S,00:09,Q4 00:09,124,121,1610612746.0,Batum,N. Batum take personal FOUL (3 PF) (Jokić 2 FT),substitution,freethrow,3,Very High
+22400314,631,freethrow,4,PT00M09.40S,00:09,Q4 00:09,124,121,1610612743.0,Jokić,MISS N. Jokić Free Throw 1 of 2,foul,rebound,3,Very High
+22400314,632,rebound,4,PT00M09.40S,00:09,Q4 00:09,124,121,1610612743.0,,TEAM offensive REBOUND,freethrow,freethrow,3,Very High
+22400314,637,freethrow,4,PT00M09.40S,00:09,Q4 00:09,124,122,1610612743.0,Jokić,N. Jokić Free Throw 2 of 2 (28 PTS),rebound,substitution,2,Very High
+22400314,633,substitution,4,PT00M09.40S,00:09,Q4 00:09,124,121,1610612746.0,Dunn,SUB out: K. Dunn,freethrow,substitution,3,Very High
+22400314,634,substitution,4,PT00M09.40S,00:09,Q4 00:09,124,121,1610612743.0,Porter Jr.,SUB out: M. Porter Jr.,substitution,substitution,3,Very High
+22400314,635,substitution,4,PT00M09.40S,00:09,Q4 00:09,124,121,1610612746.0,Zubac,SUB in: I. Zubac,substitution,substitution,3,Very High
+22400314,636,substitution,4,PT00M09.40S,00:09,Q4 00:09,124,121,1610612743.0,Watson,SUB in: P. Watson,substitution,foul,3,Very High
+22400314,638,foul,4,PT00M08.60S,00:08,Q4 00:08,124,122,1610612743.0,Braun,C. Braun take personal FOUL (2 PF) (Harden 2 FT),substitution,freethrow,2,Very High
+22400314,640,freethrow,4,PT00M08.60S,00:08,Q4 00:08,125,122,1610612746.0,Harden,J. Harden Free Throw 1 of 2 (38 PTS),foul,freethrow,3,Very High
+22400314,645,freethrow,4,PT00M08.60S,00:08,Q4 00:08,126,122,1610612746.0,Harden,J. Harden Free Throw 2 of 2 (39 PTS),freethrow,substitution,4,Very High
+22400314,641,substitution,4,PT00M08.60S,00:08,Q4 00:08,125,122,1610612746.0,Zubac,SUB out: I. Zubac,freethrow,substitution,3,Very High
+22400314,642,substitution,4,PT00M08.60S,00:08,Q4 00:08,125,122,1610612743.0,Watson,SUB out: P. Watson,substitution,substitution,3,Very High
+22400314,643,substitution,4,PT00M08.60S,00:08,Q4 00:08,125,122,1610612746.0,Dunn,SUB in: K. Dunn,substitution,substitution,3,Very High
+22400314,644,substitution,4,PT00M08.60S,00:08,Q4 00:08,125,122,1610612743.0,Porter Jr.,SUB in: M. Porter Jr.,substitution,3pt missed,3,Very High
+22400314,646,3pt,4,PT00M02.40S,00:02,Q4 00:02,126,122,1610612743.0,Jokić,MISS N. Jokić 25' pullup 3PT,substitution,rebound,4,Very High
+22400314,647,rebound,4,PT00M02.40S,00:02,Q4 00:02,126,122,1610612746.0,Harden,J. Harden REBOUND (Off:2 Def:7),3pt missed,,4,Very High

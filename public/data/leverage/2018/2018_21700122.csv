@@ -1,0 +1,519 @@
+game_id,actionNumber,actionType,period,clock,clock_display,game_clock,scoreHome,scoreAway,teamId,playerName,description,previous_action,next_action,score_margin,leverage_bucket
+21700122,2,period,1,PT12M00.00S,12:00,Q1 12:00,0,0,1610612764.0,,Start of 1st Period (7:11 PM EST),,turnover,0,Low
+21700122,7,turnover,1,PT11M42.00S,11:42,Q1 11:42,0,0,1610612764.0,Morris,Morris Bad Pass Turnover (P1.T1),period,steal,0,Low
+21700122,7,steal,1,PT11M42.00S,11:42,Q1 11:42,0,0,1610612739.0,Smith,Smith STEAL (1 STL),turnover,foul,0,Low
+21700122,9,foul,1,PT11M34.00S,11:34,Q1 11:34,0,0,1610612764.0,Beal,Beal S.FOUL (P1.T1) (B.Kennedy),steal,freethrow,0,Low
+21700122,11,freethrow,1,PT11M34.00S,11:34,Q1 11:34,0,1,1610612739.0,Crowder,Crowder Free Throw 1 of 2 (1 PTS),foul,freethrow,1,Low
+21700122,12,freethrow,1,PT11M34.00S,11:34,Q1 11:34,0,2,1610612739.0,Crowder,Crowder Free Throw 2 of 2 (2 PTS),freethrow,turnover,2,Low
+21700122,14,turnover,1,PT11M18.00S,11:18,Q1 11:18,0,2,1610612764.0,Beal,Beal Lost Ball Turnover (P1.T2),freethrow,steal,2,Low
+21700122,14,steal,1,PT11M18.00S,11:18,Q1 11:18,0,2,1610612739.0,James,James STEAL (1 STL),turnover,2pt made,2,Low
+21700122,16,2pt,1,PT11M14.00S,11:14,Q1 11:14,0,4,1610612739.0,Rose,Rose 2' Layup (2 PTS) (James 1 AST),steal,2pt made,4,Low
+21700122,18,2pt,1,PT10M58.00S,10:58,Q1 10:58,2,4,1610612764.0,Morris,Morris 1' Layup (2 PTS),2pt made,3pt missed,2,Low
+21700122,19,3pt,1,PT10M34.00S,10:34,Q1 10:34,2,4,1610612739.0,Love,MISS Love 24' 3PT Jump Shot,2pt made,rebound,2,Low
+21700122,20,rebound,1,PT10M31.00S,10:31,Q1 10:31,2,4,1610612764.0,Morris,Morris REBOUND (Off:0 Def:1),3pt missed,3pt made,2,Low
+21700122,21,3pt,1,PT10M30.00S,10:30,Q1 10:30,5,4,1610612764.0,Porter Jr.,Porter Jr. 25' 3PT Jump Shot (3 PTS) (Wall 1 AST),rebound,3pt made,1,Low
+21700122,23,3pt,1,PT10M10.00S,10:10,Q1 10:10,5,7,1610612739.0,Love,Love 3PT Jump Shot (3 PTS) (James 2 AST),3pt made,2pt missed,2,Low
+21700122,25,2pt,1,PT09M48.00S,09:48,Q1 09:48,5,7,1610612764.0,Morris,MISS Morris 10' Turnaround Jump Shot,3pt made,rebound,2,Low
+21700122,26,rebound,1,PT09M47.00S,09:47,Q1 09:47,5,7,1610612764.0,Porter Jr.,Porter Jr. REBOUND (Off:1 Def:0),2pt missed,turnover,2,Low
+21700122,30,turnover,1,PT09M45.00S,09:45,Q1 09:45,5,7,1610612764.0,Porter Jr.,Porter Jr. Lost Ball Turnover (P1.T3),rebound,steal,2,Low
+21700122,30,steal,1,PT09M45.00S,09:45,Q1 09:45,5,7,1610612739.0,Love,Love STEAL (1 STL),turnover,2pt made,2,Low
+21700122,32,2pt,1,PT09M39.00S,09:39,Q1 09:39,5,9,1610612739.0,James,James 3' Running Layup (2 PTS),steal,2pt made,4,Low
+21700122,33,2pt,1,PT09M32.00S,09:32,Q1 09:32,7,9,1610612764.0,Gortat,Gortat 1' Cutting Layup Shot (2 PTS) (Wall 2 AST),2pt made,timeout,2,Low
+21700122,35,timeout,1,PT09M21.00S,09:21,Q1 09:21,7,9,1610612739.0,,Cavaliers Timeout: Regular (Reg.1 Short 0),2pt made,2pt made,2,Low
+21700122,36,2pt,1,PT09M11.00S,09:11,Q1 09:11,7,11,1610612739.0,James,James 1' Turnaround Hook Shot (4 PTS),timeout,3pt missed,4,Low
+21700122,37,3pt,1,PT08M58.00S,08:58,Q1 08:58,7,11,1610612764.0,Wall,MISS Wall 27' 3PT Pullup Jump Shot,2pt made,rebound,4,Low
+21700122,38,rebound,1,PT08M55.00S,08:55,Q1 08:55,7,11,1610612764.0,Porter Jr.,Porter Jr. REBOUND (Off:2 Def:0),3pt missed,2pt made,4,Low
+21700122,39,2pt,1,PT08M55.00S,08:55,Q1 08:55,9,11,1610612764.0,Porter Jr.,Porter Jr. 1' Layup (5 PTS),rebound,2pt made,2,Low
+21700122,40,2pt,1,PT08M47.00S,08:47,Q1 08:47,9,13,1610612739.0,Rose,Rose 2' Running Layup (4 PTS),2pt made,2pt made,4,Low
+21700122,41,2pt,1,PT08M26.00S,08:26,Q1 08:26,11,13,1610612764.0,Gortat,Gortat 10' Turnaround Hook Shot (4 PTS),2pt made,2pt missed,2,Low
+21700122,42,2pt,1,PT08M13.00S,08:13,Q1 08:13,11,13,1610612739.0,Crowder,MISS Crowder 19' Step Back Jump Shot,2pt made,rebound,2,Low
+21700122,43,rebound,1,PT08M11.00S,08:11,Q1 08:11,11,13,1610612764.0,Gortat,Gortat REBOUND (Off:0 Def:1),2pt missed,turnover,2,Low
+21700122,44,turnover,1,PT08M05.00S,08:05,Q1 08:05,11,13,1610612764.0,Gortat,Gortat Bad Pass Turnover (P1.T4),rebound,steal,2,Low
+21700122,44,steal,1,PT08M05.00S,08:05,Q1 08:05,11,13,1610612739.0,Crowder,Crowder STEAL (1 STL),turnover,2pt made,2,Low
+21700122,47,2pt,1,PT07M51.00S,07:51,Q1 07:51,11,15,1610612739.0,James,James 1' Driving Layup (6 PTS),steal,2pt made,4,Low
+21700122,48,2pt,1,PT07M37.00S,07:37,Q1 07:37,13,15,1610612764.0,Wall,Wall 1' Driving Layup (2 PTS) (Morris 1 AST),2pt made,2pt made,2,Low
+21700122,50,2pt,1,PT07M31.00S,07:31,Q1 07:31,13,17,1610612739.0,James,James 1' Driving Dunk (8 PTS) (Smith 1 AST),2pt made,2pt made,4,Low
+21700122,52,2pt,1,PT07M26.00S,07:26,Q1 07:26,15,17,1610612764.0,Beal,Beal 2' Running Layup (2 PTS),2pt made,foul,2,Low
+21700122,53,foul,1,PT07M26.00S,07:26,Q1 07:26,15,17,1610612739.0,Smith,Smith S.FOUL (P1.T1) (H.Workman),2pt made,freethrow,2,Low
+21700122,57,freethrow,1,PT07M26.00S,07:26,Q1 07:26,16,17,1610612764.0,Beal,Beal Free Throw 1 of 1 (3 PTS),foul,substitution,1,Low
+21700122,56,substitution,1,PT07M26.00S,07:26,Q1 07:26,15,17,1610612764.0,Morris,SUB out: M. Morris,freethrow,substitution,2,Low
+21700122,57,substitution,1,PT07M26.00S,07:26,Q1 07:26,15,17,1610612764.0,Oubre Jr.,SUB in: K. Oubre Jr.,substitution,3pt made,2,Low
+21700122,58,3pt,1,PT07M19.00S,07:19,Q1 07:19,16,20,1610612739.0,Rose,Rose 27' 3PT Pullup Jump Shot (7 PTS),substitution,2pt missed,4,Low
+21700122,59,2pt,1,PT07M09.00S,07:09,Q1 07:09,16,20,1610612764.0,Wall,MISS Wall 1' Layup,3pt made,rebound,4,Low
+21700122,60,rebound,1,PT07M06.00S,07:06,Q1 07:06,16,20,1610612739.0,Love,Love REBOUND (Off:0 Def:1),2pt missed,foul,4,Low
+21700122,61,foul,1,PT07M03.00S,07:03,Q1 07:03,16,20,1610612764.0,Porter Jr.,Porter Jr. S.FOUL (P1.T2) (H.Workman),rebound,freethrow,4,Low
+21700122,63,freethrow,1,PT07M03.00S,07:03,Q1 07:03,16,21,1610612739.0,James,James Free Throw 1 of 2 (9 PTS),foul,freethrow,5,Low
+21700122,64,freethrow,1,PT07M03.00S,07:03,Q1 07:03,16,22,1610612739.0,James,James Free Throw 2 of 2 (10 PTS),freethrow,3pt missed,6,Low
+21700122,65,3pt,1,PT06M53.00S,06:53,Q1 06:53,16,22,1610612764.0,Beal,MISS Beal 25' 3PT Running Pull-Up Jump Shot,freethrow,rebound,6,Low
+21700122,66,rebound,1,PT06M50.00S,06:50,Q1 06:50,16,22,1610612739.0,Crowder,Crowder REBOUND (Off:0 Def:1),3pt missed,2pt missed,6,Low
+21700122,67,2pt,1,PT06M37.00S,06:37,Q1 06:37,16,22,1610612739.0,Crowder,MISS Crowder 7' Fadeaway Jumper,rebound,rebound,6,Low
+21700122,68,rebound,1,PT06M34.00S,06:34,Q1 06:34,16,22,1610612764.0,Wall,Wall REBOUND (Off:0 Def:1),2pt missed,3pt made,6,Low
+21700122,69,3pt,1,PT06M30.00S,06:30,Q1 06:30,19,22,1610612764.0,Oubre Jr.,Oubre Jr. 25' 3PT Pullup Jump Shot (3 PTS) (Wall 3 AST),rebound,2pt made,3,Low
+21700122,71,2pt,1,PT06M13.00S,06:13,Q1 06:13,19,24,1610612739.0,Rose,Rose 5' Turnaround Fadeaway Bank Jump Shot (9 PTS),3pt made,2pt made,5,Low
+21700122,72,2pt,1,PT05M52.00S,05:52,Q1 05:52,21,24,1610612764.0,Porter Jr.,Porter Jr. 8' Turnaround Fadeaway (7 PTS),2pt made,turnover,3,Low
+21700122,73,turnover,1,PT05M38.00S,05:38,Q1 05:38,21,24,1610612739.0,Rose,Rose Bad Pass Turnover (P1.T1),2pt made,foul,3,Low
+21700122,74,foul,1,PT05M30.00S,05:30,Q1 05:30,21,24,1610612739.0,James,James S.FOUL (P1.T2) (H.Workman),turnover,freethrow,3,Low
+21700122,76,freethrow,1,PT05M30.00S,05:30,Q1 05:30,22,24,1610612764.0,Gortat,Gortat Free Throw 1 of 2 (5 PTS),foul,freethrow,2,Low
+21700122,79,freethrow,1,PT05M30.00S,05:30,Q1 05:30,23,24,1610612764.0,Gortat,Gortat Free Throw 2 of 2 (6 PTS),freethrow,substitution,1,Low
+21700122,78,substitution,1,PT05M30.00S,05:30,Q1 05:30,22,24,1610612739.0,Crowder,SUB out: J. Crowder,freethrow,substitution,2,Low
+21700122,79,substitution,1,PT05M30.00S,05:30,Q1 05:30,22,24,1610612739.0,Zizic,SUB in: A. Zizic,substitution,turnover,2,Low
+21700122,80,turnover,1,PT05M13.00S,05:13,Q1 05:13,23,24,1610612739.0,James,James Bad Pass Turnover (P1.T2),substitution,steal,1,Low
+21700122,80,steal,1,PT05M13.00S,05:13,Q1 05:13,23,24,1610612764.0,Gortat,Gortat STEAL (1 STL),turnover,2pt made,1,Low
+21700122,83,2pt,1,PT05M04.00S,05:04,Q1 05:04,25,24,1610612764.0,Gortat,Gortat 2' Driving Dunk (8 PTS) (Wall 4 AST),steal,timeout,1,Low
+21700122,85,timeout,1,PT05M04.00S,05:04,Q1 05:04,25,24,1610612739.0,,Cavaliers Timeout: Regular (Reg.2 Short 0),2pt made,2pt made,1,Low
+21700122,86,2pt,1,PT04M48.00S,04:48,Q1 04:48,25,26,1610612739.0,Rose,Rose 15' Running Pull-Up Jump Shot (11 PTS),timeout,2pt missed,1,Low
+21700122,87,2pt,1,PT04M29.00S,04:29,Q1 04:29,25,26,1610612764.0,Oubre Jr.,MISS Oubre Jr. 8' Running Layup,2pt made,rebound,1,Low
+21700122,88,rebound,1,PT04M26.00S,04:26,Q1 04:26,25,26,1610612739.0,James,James REBOUND (Off:0 Def:1),2pt missed,substitution,1,Low
+21700122,91,substitution,1,PT04M21.00S,04:21,Q1 04:21,25,26,1610612739.0,Love,SUB out: K. Love,rebound,substitution,1,Low
+21700122,92,substitution,1,PT04M21.00S,04:21,Q1 04:21,25,26,1610612764.0,Porter Jr.,SUB out: O. Porter Jr.,substitution,substitution,1,Low
+21700122,93,substitution,1,PT04M21.00S,04:21,Q1 04:21,25,26,1610612739.0,Green,SUB in: J. Green,substitution,substitution,1,Low
+21700122,94,substitution,1,PT04M21.00S,04:21,Q1 04:21,25,26,1610612764.0,Scott,SUB in: M. Scott,substitution,2pt missed,1,Low
+21700122,94,2pt,1,PT04M15.00S,04:15,Q1 04:15,25,26,1610612739.0,Rose,MISS Rose 18' Pullup Jump Shot,substitution,rebound,1,Low
+21700122,95,rebound,1,PT04M12.00S,04:12,Q1 04:12,25,26,1610612764.0,Oubre Jr.,Oubre Jr. REBOUND (Off:0 Def:1),2pt missed,2pt missed,1,Low
+21700122,96,2pt,1,PT04M04.00S,04:04,Q1 04:04,25,26,1610612764.0,Wall,MISS Wall 3' Driving Layup,rebound,block,1,Low
+21700122,96,block,1,PT04M04.00S,04:04,Q1 04:04,25,26,1610612739.0,Zizic,Zizic BLOCK (1 BLK),2pt missed,rebound,1,Low
+21700122,98,rebound,1,PT04M04.00S,04:04,Q1 04:04,25,26,1610612764.0,,TEAM offensive REBOUND,block,3pt made,1,Low
+21700122,99,3pt,1,PT03M55.00S,03:55,Q1 03:55,28,26,1610612764.0,Oubre Jr.,Oubre Jr. 24' 3PT Pullup Jump Shot (6 PTS) (Wall 5 AST),rebound,3pt made,2,Low
+21700122,101,3pt,1,PT03M28.00S,03:28,Q1 03:28,28,29,1610612739.0,Smith,Smith 26' 3PT Pullup Jump Shot (3 PTS) (Rose 1 AST),3pt made,turnover,1,Low
+21700122,103,turnover,1,PT03M04.00S,03:04,Q1 03:04,28,29,1610612764.0,Oubre Jr.,Oubre Jr. Bad Pass Turnover (P1.T5),3pt made,steal,1,Low
+21700122,103,steal,1,PT03M04.00S,03:04,Q1 03:04,28,29,1610612739.0,James,James STEAL (2 STL),turnover,2pt made,1,Low
+21700122,105,2pt,1,PT03M00.00S,03:00,Q1 03:00,28,31,1610612739.0,James,James 2' Driving Dunk (12 PTS),steal,foul,3,Low
+21700122,106,foul,1,PT02M48.00S,02:48,Q1 02:48,28,31,1610612739.0,Smith,Smith P.FOUL (P2.T3) (N.Buchert),2pt made,substitution,3,Low
+21700122,110,substitution,1,PT02M48.00S,02:48,Q1 02:48,28,31,1610612764.0,Beal,SUB out: B. Beal,foul,substitution,3,Low
+21700122,111,substitution,1,PT02M48.00S,02:48,Q1 02:48,28,31,1610612739.0,Smith,SUB out: J. Smith,substitution,substitution,3,Low
+21700122,112,substitution,1,PT02M48.00S,02:48,Q1 02:48,28,31,1610612764.0,Meeks,SUB in: J. Meeks,substitution,substitution,3,Low
+21700122,113,substitution,1,PT02M48.00S,02:48,Q1 02:48,28,31,1610612739.0,Korver,SUB in: K. Korver,substitution,2pt made,3,Low
+21700122,113,2pt,1,PT02M37.00S,02:37,Q1 02:37,30,31,1610612764.0,Meeks,Meeks 20' Pullup Jump Shot (2 PTS) (Oubre Jr. 1 AST),substitution,2pt made,1,Low
+21700122,115,2pt,1,PT02M26.00S,02:26,Q1 02:26,30,33,1610612739.0,Rose,Rose 1' Running Reverse Layup (13 PTS) (Green 1 AST),2pt made,foul,3,Low
+21700122,117,foul,1,PT02M21.00S,02:21,Q1 02:21,30,33,1610612739.0,Green,Green S.FOUL (P1.T4) (B.Kennedy),2pt made,freethrow,3,Low
+21700122,119,freethrow,1,PT02M21.00S,02:21,Q1 02:21,30,33,1610612764.0,Wall,MISS Wall Free Throw 1 of 2,foul,rebound,3,Low
+21700122,120,rebound,1,PT02M21.00S,02:21,Q1 02:21,30,33,1610612764.0,,TEAM offensive REBOUND,freethrow,freethrow,3,Low
+21700122,123,freethrow,1,PT02M21.00S,02:21,Q1 02:21,30,33,1610612764.0,Wall,MISS Wall Free Throw 2 of 2,rebound,substitution,3,Low
+21700122,122,substitution,1,PT02M21.00S,02:21,Q1 02:21,30,33,1610612739.0,Rose,SUB out: D. Rose,freethrow,substitution,3,Low
+21700122,123,substitution,1,PT02M21.00S,02:21,Q1 02:21,30,33,1610612739.0,Wade,SUB in: D. Wade,substitution,rebound,3,Low
+21700122,124,rebound,1,PT02M18.00S,02:18,Q1 02:18,30,33,1610612739.0,James,James REBOUND (Off:0 Def:2),substitution,2pt missed,3,Low
+21700122,125,2pt,1,PT02M08.00S,02:08,Q1 02:08,30,33,1610612739.0,James,MISS James 15' Turnaround Jump Shot,rebound,rebound,3,Low
+21700122,126,rebound,1,PT02M05.00S,02:05,Q1 02:05,30,33,1610612764.0,Gortat,Gortat REBOUND (Off:0 Def:2),2pt missed,3pt made,3,Low
+21700122,127,3pt,1,PT01M55.00S,01:55,Q1 01:55,33,33,1610612764.0,Scott,Scott 24' 3PT Pullup Jump Shot (3 PTS) (Wall 6 AST),rebound,2pt made,0,Low
+21700122,129,2pt,1,PT01M34.00S,01:34,Q1 01:34,33,35,1610612739.0,Zizic,Zizic 2' Alley Oop Dunk (2 PTS) (Wade 1 AST),3pt made,2pt made,2,Low
+21700122,131,2pt,1,PT01M11.00S,01:11,Q1 01:11,35,35,1610612764.0,Gortat,Gortat 1' Driving Layup (10 PTS) (Wall 7 AST),2pt made,3pt made,0,Low
+21700122,133,3pt,1,PT00M51.00S,00:51,Q1 00:51,35,38,1610612739.0,James,James 27' 3PT Pullup Jump Shot (15 PTS),2pt made,foul,3,Low
+21700122,134,foul,1,PT00M41.90S,00:41,Q1 00:41,35,38,1610612739.0,Wade,Wade S.FOUL (P1.PN) (N.Buchert),3pt made,freethrow,3,Low
+21700122,136,freethrow,1,PT00M41.90S,00:41,Q1 00:41,35,38,1610612764.0,Gortat,MISS Gortat Free Throw 1 of 2,foul,rebound,3,Low
+21700122,137,rebound,1,PT00M41.90S,00:41,Q1 00:41,35,38,1610612764.0,,TEAM offensive REBOUND,freethrow,freethrow,3,Low
+21700122,140,freethrow,1,PT00M41.90S,00:41,Q1 00:41,36,38,1610612764.0,Gortat,Gortat Free Throw 2 of 2 (11 PTS),rebound,substitution,2,Low
+21700122,139,substitution,1,PT00M41.90S,00:41,Q1 00:41,35,38,1610612739.0,James,SUB out: L. James,freethrow,substitution,3,Low
+21700122,140,substitution,1,PT00M41.90S,00:41,Q1 00:41,35,38,1610612739.0,Crowder,SUB in: J. Crowder,substitution,2pt made,3,Low
+21700122,141,2pt,1,PT00M32.60S,00:32,Q1 00:32,36,40,1610612739.0,Korver,Korver 14' Fadeaway Jumper (2 PTS) (Wade 2 AST),substitution,2pt missed,4,Low
+21700122,143,2pt,1,PT00M09.20S,00:09,Q1 00:09,36,40,1610612764.0,Meeks,MISS Meeks 16' Pullup Jump Shot,2pt made,rebound,4,Low
+21700122,144,rebound,1,PT00M06.40S,00:06,Q1 00:06,36,40,1610612739.0,Wade,Wade REBOUND (Off:0 Def:1),2pt missed,2pt made,4,Low
+21700122,146,2pt,1,PT00M03.00S,00:03,Q1 00:03,36,42,1610612739.0,Green,Green 20' Pullup Jump Shot (2 PTS),rebound,period,6,Low
+21700122,147,period,1,PT00M00.00S,00:00,Q1 00:00,36,42,1610612764.0,,End of 1st Period (7:38 PM EST),2pt made,period,6,Low
+21700122,154,period,2,PT12M00.00S,12:00,Q2 12:00,36,42,1610612764.0,,Start of 2nd Period (7:41 PM EST),period,substitution,6,Low
+21700122,155,turnover,2,PT11M48.00S,11:48,Q2 11:48,36,42,1610612739.0,Korver,Korver Bad Pass Turnover (P1.T3),substitution,2pt made,6,Low
+21700122,156,2pt,2,PT11M25.00S,11:25,Q2 11:25,38,42,1610612764.0,Scott,Scott 12' Turnaround Hook Shot (5 PTS),turnover,2pt missed,4,Low
+21700122,157,2pt,2,PT11M14.00S,11:14,Q2 11:14,38,42,1610612739.0,Wade,MISS Wade 14' Jump Shot,2pt made,rebound,4,Low
+21700122,158,rebound,2,PT11M12.00S,11:12,Q2 11:12,38,42,1610612739.0,Crowder,Crowder REBOUND (Off:1 Def:1),2pt missed,foul,4,Low
+21700122,159,foul,2,PT11M12.00S,11:12,Q2 11:12,38,42,1610612764.0,Mahinmi,Mahinmi S.FOUL (P1.T1) (H.Workman),rebound,freethrow,4,Low
+21700122,161,freethrow,2,PT11M12.00S,11:12,Q2 11:12,38,43,1610612739.0,Crowder,Crowder Free Throw 1 of 2 (3 PTS),foul,freethrow,5,Low
+21700122,162,freethrow,2,PT11M12.00S,11:12,Q2 11:12,38,44,1610612739.0,Crowder,Crowder Free Throw 2 of 2 (4 PTS),freethrow,2pt missed,6,Low
+21700122,163,2pt,2,PT10M56.00S,10:56,Q2 10:56,38,44,1610612764.0,Mahinmi,MISS Mahinmi 1' Dunk,freethrow,rebound,6,Low
+21700122,164,rebound,2,PT10M54.00S,10:54,Q2 10:54,38,44,1610612764.0,,TEAM offensive REBOUND,2pt missed,2pt made,6,Low
+21700122,165,2pt,2,PT10M40.00S,10:40,Q2 10:40,40,44,1610612764.0,Scott,Scott 11' Turnaround Fadeaway (7 PTS),rebound,foul,4,Low
+21700122,166,foul,2,PT10M24.00S,10:24,Q2 10:24,40,44,1610612764.0,Meeks,Meeks P.FOUL (P1.T2) (N.Buchert),2pt made,2pt made,4,Low
+21700122,168,2pt,2,PT10M09.00S,10:09,Q2 10:09,40,46,1610612739.0,Crowder,Crowder 1' Running Finger Roll Layup (6 PTS) (Wade 3 AST),foul,turnover,6,Low
+21700122,170,turnover,2,PT10M05.00S,10:05,Q2 10:05,40,46,1610612764.0,Mahinmi,Mahinmi Bad Pass Turnover (P1.T6),2pt made,steal,6,Low
+21700122,170,steal,2,PT10M05.00S,10:05,Q2 10:05,40,46,1610612739.0,Wade,Wade STEAL (1 STL),turnover,foul,6,Low
+21700122,172,foul,2,PT10M04.00S,10:04,Q2 10:04,40,46,1610612764.0,Mahinmi,Mahinmi S.FOUL (P2.T3) (H.Workman),steal,freethrow,6,Low
+21700122,174,freethrow,2,PT10M04.00S,10:04,Q2 10:04,40,47,1610612739.0,Crowder,Crowder Free Throw 1 of 2 (7 PTS),foul,freethrow,7,Low
+21700122,175,freethrow,2,PT10M04.00S,10:04,Q2 10:04,40,48,1610612739.0,Crowder,Crowder Free Throw 2 of 2 (8 PTS),freethrow,foul,8,Low
+21700122,179,foul,2,PT09M46.00S,09:46,Q2 09:46,40,48,1610612739.0,Frye,Frye S.FOUL (P1.T1) (H.Workman),freethrow,instant replay,8,Low
+21700122,182,freethrow,2,PT09M46.00S,09:46,Q2 09:46,41,48,1610612764.0,Oubre Jr.,Oubre Jr. Free Throw 1 of 2 (7 PTS),instant replay,freethrow,7,Low
+21700122,183,freethrow,2,PT09M46.00S,09:46,Q2 09:46,42,48,1610612764.0,Oubre Jr.,Oubre Jr. Free Throw 2 of 2 (8 PTS),freethrow,3pt missed,6,Low
+21700122,184,3pt,2,PT09M32.00S,09:32,Q2 09:32,42,48,1610612739.0,Green,MISS Green 25' 3PT Pullup Jump Shot,freethrow,rebound,6,Low
+21700122,185,rebound,2,PT09M27.00S,09:27,Q2 09:27,42,48,1610612764.0,Oubre Jr.,Oubre Jr. REBOUND (Off:0 Def:2),3pt missed,2pt missed,6,Low
+21700122,186,2pt,2,PT09M24.00S,09:24,Q2 09:24,42,48,1610612764.0,Oubre Jr.,MISS Oubre Jr. 11' Pullup Jump Shot,rebound,rebound,6,Low
+21700122,187,rebound,2,PT09M22.00S,09:22,Q2 09:22,42,48,1610612739.0,Crowder,Crowder REBOUND (Off:1 Def:2),2pt missed,foul,6,Low
+21700122,188,foul,2,PT09M22.00S,09:22,Q2 09:22,42,48,1610612764.0,Oubre Jr.,Oubre Jr. P.FOUL (P1.T4) (B.Kennedy),rebound,3pt missed,6,Low
+21700122,190,3pt,2,PT09M11.00S,09:11,Q2 09:11,42,48,1610612739.0,Frye,MISS Frye 24' 3PT Jump Shot,foul,rebound,6,Low
+21700122,191,rebound,2,PT09M08.00S,09:08,Q2 09:08,42,48,1610612764.0,Scott,Scott REBOUND (Off:0 Def:1),3pt missed,2pt missed,6,Low
+21700122,192,2pt,2,PT08M55.00S,08:55,Q2 08:55,42,48,1610612764.0,Scott,MISS Scott 15' Fadeaway Jumper,rebound,rebound,6,Low
+21700122,193,rebound,2,PT08M51.00S,08:51,Q2 08:51,42,48,1610612739.0,Frye,Frye REBOUND (Off:0 Def:1),2pt missed,2pt missed,6,Low
+21700122,194,2pt,2,PT08M47.00S,08:47,Q2 08:47,42,48,1610612739.0,Wade,MISS Wade 17' Jump Shot,rebound,rebound,6,Low
+21700122,195,rebound,2,PT08M47.00S,08:47,Q2 08:47,42,48,1610612764.0,Frazier,Frazier REBOUND (Off:0 Def:1),2pt missed,2pt made,6,Low
+21700122,196,2pt,2,PT08M37.00S,08:37,Q2 08:37,44,48,1610612764.0,Meeks,Meeks 7' Driving Floating Bank Jump Shot (4 PTS) (Frazier 1 AST),rebound,timeout,4,Low
+21700122,198,timeout,2,PT08M37.00S,08:37,Q2 08:37,44,48,1610612739.0,,Cavaliers Timeout: Regular (Reg.3 Short 0),2pt made,foul,4,Low
+21700122,199,foul,2,PT08M23.00S,08:23,Q2 08:23,44,48,1610612764.0,Scott,Scott S.FOUL (P1.PN) (H.Workman),timeout,freethrow,4,Low
+21700122,201,freethrow,2,PT08M23.00S,08:23,Q2 08:23,44,48,1610612739.0,Green,MISS Green Free Throw 1 of 2,foul,rebound,4,Low
+21700122,202,rebound,2,PT08M23.00S,08:23,Q2 08:23,44,48,1610612739.0,,TEAM offensive REBOUND,freethrow,freethrow,4,Low
+21700122,203,freethrow,2,PT08M23.00S,08:23,Q2 08:23,44,48,1610612739.0,Green,MISS Green Free Throw 2 of 2,rebound,rebound,4,Low
+21700122,204,rebound,2,PT08M20.00S,08:20,Q2 08:20,44,48,1610612764.0,Scott,Scott REBOUND (Off:0 Def:2),freethrow,2pt missed,4,Low
+21700122,205,2pt,2,PT08M00.00S,08:00,Q2 08:00,44,48,1610612764.0,Oubre Jr.,MISS Oubre Jr. 2' Running Jump Shot,rebound,block,4,Low
+21700122,205,block,2,PT08M00.00S,08:00,Q2 08:00,44,48,1610612739.0,Wade,Wade BLOCK (1 BLK),2pt missed,rebound,4,Low
+21700122,207,rebound,2,PT07M56.00S,07:56,Q2 07:56,44,48,1610612739.0,Green,Green REBOUND (Off:0 Def:1),block,2pt made,4,Low
+21700122,208,2pt,2,PT07M53.00S,07:53,Q2 07:53,44,50,1610612739.0,Wade,Wade 1' Layup (2 PTS) (Green 2 AST),rebound,3pt missed,6,Low
+21700122,210,3pt,2,PT07M34.00S,07:34,Q2 07:34,44,50,1610612764.0,Oubre Jr.,MISS Oubre Jr. 25' 3PT Pullup Jump Shot,2pt made,rebound,6,Low
+21700122,211,rebound,2,PT07M30.00S,07:30,Q2 07:30,44,50,1610612764.0,Mahinmi,Mahinmi REBOUND (Off:1 Def:0),3pt missed,2pt made,6,Low
+21700122,212,2pt,2,PT07M27.00S,07:27,Q2 07:27,46,50,1610612764.0,Oubre Jr.,Oubre Jr. 2' Layup (10 PTS),rebound,foul,4,Low
+21700122,213,foul,2,PT07M23.00S,07:23,Q2 07:23,46,50,1610612739.0,Green,Green Offensive Charge Foul (P2.T2) (N.Buchert),2pt made,turnover,4,Low
+21700122,215,turnover,2,PT07M23.00S,07:23,Q2 07:23,46,50,1610612739.0,Green,Green Offensive Foul Turnover (P1.T4),foul,substitution,4,Low
+21700122,221,substitution,2,PT07M23.00S,07:23,Q2 07:23,46,50,1610612764.0,Meeks,SUB out: J. Meeks,turnover,substitution,4,Low
+21700122,222,substitution,2,PT07M23.00S,07:23,Q2 07:23,46,50,1610612764.0,Mahinmi,SUB out: I. Mahinmi,substitution,substitution,4,Low
+21700122,223,substitution,2,PT07M23.00S,07:23,Q2 07:23,46,50,1610612739.0,Wade,SUB out: D. Wade,substitution,substitution,4,Low
+21700122,224,substitution,2,PT07M23.00S,07:23,Q2 07:23,46,50,1610612739.0,Green,SUB out: J. Green,substitution,substitution,4,Low
+21700122,225,substitution,2,PT07M23.00S,07:23,Q2 07:23,46,50,1610612739.0,Frye,SUB out: C. Frye,substitution,substitution,4,Low
+21700122,226,substitution,2,PT07M23.00S,07:23,Q2 07:23,46,50,1610612764.0,Gortat,SUB in: M. Gortat,substitution,substitution,4,Low
+21700122,227,substitution,2,PT07M23.00S,07:23,Q2 07:23,46,50,1610612764.0,Beal,SUB in: B. Beal,substitution,substitution,4,Low
+21700122,228,substitution,2,PT07M23.00S,07:23,Q2 07:23,46,50,1610612739.0,Love,SUB in: K. Love,substitution,substitution,4,Low
+21700122,229,substitution,2,PT07M23.00S,07:23,Q2 07:23,46,50,1610612739.0,James,SUB in: L. James,substitution,substitution,4,Low
+21700122,230,substitution,2,PT07M23.00S,07:23,Q2 07:23,46,50,1610612739.0,Smith,SUB in: J. Smith,substitution,3pt missed,4,Low
+21700122,226,3pt,2,PT07M10.00S,07:10,Q2 07:10,46,50,1610612764.0,Frazier,MISS Frazier 25' 3PT Pullup Jump Shot,substitution,rebound,4,Low
+21700122,227,rebound,2,PT07M05.00S,07:05,Q2 07:05,46,50,1610612764.0,Beal,Beal REBOUND (Off:1 Def:0),3pt missed,3pt missed,4,Low
+21700122,228,3pt,2,PT06M55.00S,06:55,Q2 06:55,46,50,1610612764.0,Oubre Jr.,MISS Oubre Jr. 3PT Jump Shot,rebound,rebound,4,Low
+21700122,229,rebound,2,PT06M52.00S,06:52,Q2 06:52,46,50,1610612739.0,Crowder,Crowder REBOUND (Off:1 Def:3),3pt missed,turnover,4,Low
+21700122,230,turnover,2,PT06M51.00S,06:51,Q2 06:51,46,50,1610612739.0,James,James Lost Ball Turnover (P2.T5),rebound,substitution,4,Low
+21700122,232,substitution,2,PT06M51.00S,06:51,Q2 06:51,46,50,1610612764.0,Frazier,SUB out: T. Frazier,turnover,substitution,4,Low
+21700122,233,substitution,2,PT06M51.00S,06:51,Q2 06:51,46,50,1610612764.0,Wall,SUB in: J. Wall,substitution,turnover,4,Low
+21700122,233,turnover,2,PT06M37.00S,06:37,Q2 06:37,46,50,1610612764.0,Scott,Scott Lost Ball Turnover (P1.T7),substitution,steal,4,Low
+21700122,233,steal,2,PT06M37.00S,06:37,Q2 06:37,46,50,1610612739.0,Korver,Korver STEAL (1 STL),turnover,turnover,4,Low
+21700122,235,turnover,2,PT06M16.00S,06:16,Q2 06:16,46,50,1610612739.0,Love,Love Lost Ball Turnover (P1.T6),steal,steal,4,Low
+21700122,235,steal,2,PT06M16.00S,06:16,Q2 06:16,46,50,1610612764.0,Wall,Wall STEAL (1 STL),turnover,2pt missed,4,Low
+21700122,237,2pt,2,PT06M12.00S,06:12,Q2 06:12,46,50,1610612764.0,Wall,MISS Wall 1' Layup,steal,rebound,4,Low
+21700122,238,rebound,2,PT06M10.00S,06:10,Q2 06:10,46,50,1610612739.0,James,James REBOUND (Off:0 Def:3),2pt missed,3pt made,4,Low
+21700122,239,3pt,2,PT06M06.00S,06:06,Q2 06:06,46,53,1610612739.0,Love,Love 3PT Jump Shot (6 PTS) (James 3 AST),rebound,3pt missed,7,Low
+21700122,241,3pt,2,PT05M53.00S,05:53,Q2 05:53,46,53,1610612764.0,Beal,MISS Beal 28' 3PT Jump Shot,3pt made,rebound,7,Low
+21700122,242,rebound,2,PT05M50.00S,05:50,Q2 05:50,46,53,1610612739.0,Love,Love REBOUND (Off:0 Def:2),3pt missed,3pt missed,7,Low
+21700122,243,3pt,2,PT05M44.00S,05:44,Q2 05:44,46,53,1610612739.0,Love,MISS Love 26' 3PT Jump Shot,rebound,rebound,7,Low
+21700122,244,rebound,2,PT05M39.00S,05:39,Q2 05:39,46,53,1610612764.0,Beal,Beal REBOUND (Off:1 Def:1),3pt missed,2pt made,7,Low
+21700122,245,2pt,2,PT05M34.00S,05:34,Q2 05:34,48,53,1610612764.0,Beal,Beal Driving Layup (5 PTS),rebound,foul,5,Low
+21700122,246,foul,2,PT05M15.00S,05:15,Q2 05:15,48,53,1610612764.0,Scott,Scott P.FOUL (P2.PN) (N.Buchert),2pt made,freethrow,5,Low
+21700122,248,freethrow,2,PT05M15.00S,05:15,Q2 05:15,48,54,1610612739.0,Love,Love Free Throw 1 of 2 (7 PTS),foul,freethrow,6,Low
+21700122,255,freethrow,2,PT05M15.00S,05:15,Q2 05:15,48,55,1610612739.0,Love,Love Free Throw 2 of 2 (8 PTS),freethrow,substitution,7,Low
+21700122,252,substitution,2,PT05M15.00S,05:15,Q2 05:15,48,54,1610612764.0,Oubre Jr.,SUB out: K. Oubre Jr.,freethrow,substitution,6,Low
+21700122,253,substitution,2,PT05M15.00S,05:15,Q2 05:15,48,54,1610612764.0,Scott,SUB out: M. Scott,substitution,substitution,6,Low
+21700122,254,substitution,2,PT05M15.00S,05:15,Q2 05:15,48,54,1610612739.0,Korver,SUB out: K. Korver,substitution,substitution,6,Low
+21700122,255,substitution,2,PT05M15.00S,05:15,Q2 05:15,48,54,1610612764.0,Morris,SUB in: M. Morris,substitution,substitution,6,Low
+21700122,256,substitution,2,PT05M15.00S,05:15,Q2 05:15,48,54,1610612764.0,Porter Jr.,SUB in: O. Porter Jr.,substitution,substitution,6,Low
+21700122,257,substitution,2,PT05M15.00S,05:15,Q2 05:15,48,54,1610612739.0,Rose,SUB in: D. Rose,substitution,foul,6,Low
+21700122,256,foul,2,PT05M06.00S,05:06,Q2 05:06,48,55,1610612764.0,Gortat,Gortat Offensive Charge Foul (P1.PN) (N.Buchert),substitution,turnover,7,Low
+21700122,258,turnover,2,PT05M06.00S,05:06,Q2 05:06,48,55,1610612764.0,Gortat,Gortat Offensive Foul Turnover (P2.T8),foul,foul,7,Low
+21700122,259,foul,2,PT04M58.00S,04:58,Q2 04:58,48,55,1610612764.0,Morris,Morris S.FOUL (P1.PN) (H.Workman),turnover,freethrow,7,Low
+21700122,261,freethrow,2,PT04M58.00S,04:58,Q2 04:58,48,56,1610612739.0,Rose,Rose Free Throw 1 of 2 (14 PTS),foul,timeout,8,Low
+21700122,262,timeout,2,PT04M58.00S,04:58,Q2 04:58,48,56,1610612764.0,,WIZARDS Timeout: Regular (Full 1 Short 0),freethrow,freethrow,8,Low
+21700122,263,freethrow,2,PT04M58.00S,04:58,Q2 04:58,48,57,1610612739.0,Rose,Rose Free Throw 2 of 2 (15 PTS),timeout,2pt made,9,Low
+21700122,264,2pt,2,PT04M48.00S,04:48,Q2 04:48,50,57,1610612764.0,Gortat,Gortat 1' Layup (13 PTS) (Morris 2 AST),freethrow,foul,7,Low
+21700122,266,foul,2,PT04M37.00S,04:37,Q2 04:37,50,57,1610612764.0,Gortat,Gortat P.FOUL (P2.PN) (B.Kennedy),2pt made,freethrow,7,Low
+21700122,268,freethrow,2,PT04M37.00S,04:37,Q2 04:37,50,58,1610612739.0,Love,Love Free Throw 1 of 2 (9 PTS),foul,freethrow,8,Low
+21700122,269,freethrow,2,PT04M37.00S,04:37,Q2 04:37,50,59,1610612739.0,Love,Love Free Throw 2 of 2 (10 PTS),freethrow,2pt made,9,Low
+21700122,270,2pt,2,PT04M24.00S,04:24,Q2 04:24,52,59,1610612764.0,Beal,Beal 3' Running Layup (7 PTS),freethrow,2pt made,7,Low
+21700122,271,2pt,2,PT03M59.00S,03:59,Q2 03:59,52,61,1610612739.0,James,James 22' Step Back Jump Shot (17 PTS),2pt made,3pt missed,9,Low
+21700122,272,3pt,2,PT03M46.00S,03:46,Q2 03:46,52,61,1610612764.0,Morris,MISS Morris 3PT Jump Shot,2pt made,rebound,9,Low
+21700122,273,rebound,2,PT03M46.00S,03:46,Q2 03:46,52,61,1610612764.0,,TEAM offensive REBOUND,3pt missed,foul,9,Low
+21700122,274,foul,2,PT03M40.00S,03:40,Q2 03:40,52,61,1610612739.0,Crowder,Crowder P.FOUL (P1.T3) (N.Buchert),rebound,foul,9,Low
+21700122,276,foul,2,PT03M38.00S,03:38,Q2 03:38,52,61,1610612739.0,Love,Love P.FOUL (P1.T4) (N.Buchert),foul,substitution,9,Low
+21700122,279,substitution,2,PT03M38.00S,03:38,Q2 03:38,52,61,1610612739.0,Crowder,SUB out: J. Crowder,foul,substitution,9,Low
+21700122,280,substitution,2,PT03M38.00S,03:38,Q2 03:38,52,61,1610612739.0,Green,SUB in: J. Green,substitution,3pt missed,9,Low
+21700122,280,3pt,2,PT03M32.00S,03:32,Q2 03:32,52,61,1610612764.0,Morris,MISS Morris 24' 3PT Pullup Jump Shot,substitution,rebound,9,Low
+21700122,281,rebound,2,PT03M28.00S,03:28,Q2 03:28,52,61,1610612739.0,Love,Love REBOUND (Off:0 Def:3),3pt missed,2pt missed,9,Low
+21700122,282,2pt,2,PT03M24.00S,03:24,Q2 03:24,52,61,1610612739.0,James,MISS James 20' Pullup Jump Shot,rebound,rebound,9,Low
+21700122,283,rebound,2,PT03M21.00S,03:21,Q2 03:21,52,61,1610612764.0,Morris,Morris REBOUND (Off:0 Def:2),2pt missed,2pt made,9,Low
+21700122,284,2pt,2,PT03M17.00S,03:17,Q2 03:17,54,61,1610612764.0,Wall,Wall 1' Driving Layup (4 PTS),rebound,turnover,7,Low
+21700122,285,turnover,2,PT03M06.00S,03:06,Q2 03:06,54,61,1610612739.0,Rose,Rose Out of Bounds Lost Ball Turnover (P2.T7),2pt made,2pt made,7,Low
+21700122,287,2pt,2,PT02M51.00S,02:51,Q2 02:51,56,61,1610612764.0,Beal,Beal Layup (9 PTS) (Morris 3 AST),turnover,2pt missed,5,Low
+21700122,289,2pt,2,PT02M36.00S,02:36,Q2 02:36,56,61,1610612739.0,James,MISS James 17' Pullup Jump Shot,2pt made,rebound,5,Low
+21700122,290,rebound,2,PT02M34.00S,02:34,Q2 02:34,56,61,1610612764.0,Porter Jr.,Porter Jr. REBOUND (Off:2 Def:1),2pt missed,2pt missed,5,Low
+21700122,291,2pt,2,PT02M27.00S,02:27,Q2 02:27,56,61,1610612764.0,Morris,MISS Morris 7' Layup,rebound,rebound,5,Low
+21700122,292,rebound,2,PT02M24.00S,02:24,Q2 02:24,56,61,1610612739.0,Love,Love REBOUND (Off:0 Def:4),2pt missed,2pt made,5,Low
+21700122,293,2pt,2,PT02M19.00S,02:19,Q2 02:19,56,63,1610612739.0,James,James 2' Layup (19 PTS),rebound,2pt made,7,Low
+21700122,294,2pt,2,PT02M02.00S,02:02,Q2 02:02,58,63,1610612764.0,Wall,Wall 1' Running Layup (6 PTS),2pt made,foul,5,Low
+21700122,295,foul,2,PT01M58.00S,01:58,Q2 01:58,58,63,1610612764.0,Morris,Morris P.FOUL (P2.PN) (N.Buchert),2pt made,freethrow,5,Low
+21700122,297,freethrow,2,PT01M58.00S,01:58,Q2 01:58,58,64,1610612739.0,James,James Free Throw 1 of 2 (20 PTS),foul,freethrow,6,Low
+21700122,298,freethrow,2,PT01M58.00S,01:58,Q2 01:58,58,65,1610612739.0,James,James Free Throw 2 of 2 (21 PTS),freethrow,foul,7,Low
+21700122,299,foul,2,PT01M46.00S,01:46,Q2 01:46,58,65,1610612739.0,Green,Green S.FOUL (P3.PN) (N.Buchert),freethrow,freethrow,7,Low
+21700122,301,freethrow,2,PT01M46.00S,01:46,Q2 01:46,59,65,1610612764.0,Beal,Beal Free Throw 1 of 2 (10 PTS),foul,freethrow,6,Low
+21700122,306,freethrow,2,PT01M46.00S,01:46,Q2 01:46,60,65,1610612764.0,Beal,Beal Free Throw 2 of 2 (11 PTS),freethrow,substitution,5,Low
+21700122,304,substitution,2,PT01M46.00S,01:46,Q2 01:46,59,65,1610612739.0,Smith,SUB out: J. Smith,freethrow,substitution,6,Low
+21700122,305,substitution,2,PT01M46.00S,01:46,Q2 01:46,59,65,1610612739.0,Green,SUB out: J. Green,substitution,substitution,6,Low
+21700122,306,substitution,2,PT01M46.00S,01:46,Q2 01:46,59,65,1610612739.0,Crowder,SUB in: J. Crowder,substitution,substitution,6,Low
+21700122,307,substitution,2,PT01M46.00S,01:46,Q2 01:46,59,65,1610612739.0,Korver,SUB in: K. Korver,substitution,3pt made,6,Low
+21700122,307,3pt,2,PT01M34.00S,01:34,Q2 01:34,60,68,1610612739.0,Crowder,Crowder 25' 3PT Pullup Jump Shot (11 PTS) (James 4 AST),substitution,2pt made,8,Low
+21700122,309,2pt,2,PT01M16.00S,01:16,Q2 01:16,62,68,1610612764.0,Porter Jr.,Porter Jr. 15' Fadeaway Jumper (9 PTS) (Wall 8 AST),3pt made,3pt made,6,Low
+21700122,311,3pt,2,PT01M04.00S,01:04,Q2 01:04,62,71,1610612739.0,Rose,Rose 26' 3PT Step Back Jump Shot (18 PTS),2pt made,foul,9,Low
+21700122,312,foul,2,PT00M45.80S,00:45,Q2 00:45,62,71,1610612739.0,Rose,Rose P.FOUL (P1.PN) (N.Buchert),3pt made,freethrow,9,Low
+21700122,314,freethrow,2,PT00M45.80S,00:45,Q2 00:45,63,71,1610612764.0,Wall,Wall Free Throw 1 of 2 (7 PTS),foul,freethrow,8,Low
+21700122,317,freethrow,2,PT00M45.80S,00:45,Q2 00:45,64,71,1610612764.0,Wall,Wall Free Throw 2 of 2 (8 PTS),freethrow,substitution,7,Low
+21700122,316,substitution,2,PT00M45.80S,00:45,Q2 00:45,63,71,1610612764.0,Morris,SUB out: M. Morris,freethrow,substitution,8,Low
+21700122,317,substitution,2,PT00M45.80S,00:45,Q2 00:45,63,71,1610612764.0,Oubre Jr.,SUB in: K. Oubre Jr.,substitution,2pt made,8,Low
+21700122,318,2pt,2,PT00M38.80S,00:38,Q2 00:38,64,73,1610612739.0,James,James 1' Driving Layup (23 PTS),substitution,foul,9,Low
+21700122,319,foul,2,PT00M38.80S,00:38,Q2 00:38,64,73,1610612764.0,Porter Jr.,Porter Jr. S.FOUL (P2.PN) (N.Buchert),2pt made,freethrow,9,Low
+21700122,321,freethrow,2,PT00M38.80S,00:38,Q2 00:38,64,74,1610612739.0,James,James Free Throw 1 of 1 (24 PTS),foul,3pt missed,10,Low
+21700122,322,3pt,2,PT00M32.90S,00:32,Q2 00:32,64,74,1610612764.0,Beal,MISS Beal 25' 3PT Pullup Jump Shot,freethrow,rebound,10,Low
+21700122,323,rebound,2,PT00M29.40S,00:29,Q2 00:29,64,74,1610612764.0,Beal,Beal REBOUND (Off:2 Def:1),3pt missed,foul,10,Low
+21700122,324,foul,2,PT00M28.70S,00:28,Q2 00:28,64,74,1610612739.0,Korver,Korver S.FOUL (P1.PN) (B.Kennedy),rebound,freethrow,10,Low
+21700122,326,freethrow,2,PT00M28.70S,00:28,Q2 00:28,64,74,1610612764.0,Beal,MISS Beal Free Throw 1 of 3,foul,rebound,10,Low
+21700122,327,rebound,2,PT00M28.70S,00:28,Q2 00:28,64,74,1610612764.0,,TEAM offensive REBOUND,freethrow,freethrow,10,Low
+21700122,328,freethrow,2,PT00M28.70S,00:28,Q2 00:28,65,74,1610612764.0,Beal,Beal Free Throw 2 of 3 (12 PTS),rebound,freethrow,9,Low
+21700122,329,freethrow,2,PT00M28.70S,00:28,Q2 00:28,66,74,1610612764.0,Beal,Beal Free Throw 3 of 3 (13 PTS),freethrow,2pt missed,8,Low
+21700122,330,2pt,2,PT00M06.20S,00:06,Q2 00:06,66,74,1610612739.0,James,MISS James 12' Hook Shot,freethrow,rebound,8,Low
+21700122,331,rebound,2,PT00M03.40S,00:03,Q2 00:03,66,74,1610612764.0,Porter Jr.,Porter Jr. REBOUND (Off:2 Def:2),2pt missed,turnover,8,Low
+21700122,332,turnover,2,PT00M01.20S,00:01,Q2 00:01,66,74,1610612764.0,Porter Jr.,Porter Jr. Bad Pass Turnover (P2.T9),rebound,steal,8,Low
+21700122,332,steal,2,PT00M01.20S,00:01,Q2 00:01,66,74,1610612739.0,Korver,Korver STEAL (2 STL),turnover,period,8,Low
+21700122,334,period,2,PT00M00.00S,00:00,Q2 00:00,66,74,1610612764.0,,End of 2nd Period (8:16 PM EST),steal,period,8,Low
+21700122,339,period,3,PT12M00.00S,12:00,Q3 12:00,66,74,1610612764.0,,Start of 3rd Period (8:31 PM EST),period,substitution,8,Low
+21700122,340,3pt,3,PT11M48.00S,11:48,Q3 11:48,66,74,1610612739.0,Smith,MISS Smith 25' 3PT Pullup Jump Shot,substitution,rebound,8,Low
+21700122,341,rebound,3,PT11M45.00S,11:45,Q3 11:45,66,74,1610612764.0,Wall,Wall REBOUND (Off:0 Def:2),3pt missed,2pt made,8,Low
+21700122,342,2pt,3,PT11M35.00S,11:35,Q3 11:35,68,74,1610612764.0,Beal,Beal 2' Running Alley Oop Layup Shot (15 PTS) (Wall 9 AST),rebound,3pt missed,6,Low
+21700122,344,3pt,3,PT11M21.00S,11:21,Q3 11:21,68,74,1610612739.0,James,MISS James 25' 3PT Pullup Jump Shot,2pt made,rebound,6,Low
+21700122,345,rebound,3,PT11M17.00S,11:17,Q3 11:17,68,74,1610612764.0,Gortat,Gortat REBOUND (Off:0 Def:3),3pt missed,foul,6,Low
+21700122,346,foul,3,PT10M58.00S,10:58,Q3 10:58,68,74,1610612739.0,Rose,Rose P.FOUL (P2.T1) (B.Kennedy),rebound,3pt missed,6,Low
+21700122,348,3pt,3,PT10M54.00S,10:54,Q3 10:54,68,74,1610612764.0,Porter Jr.,MISS Porter Jr. 28' 3PT Pullup Jump Shot,foul,rebound,6,Low
+21700122,349,rebound,3,PT10M47.00S,10:47,Q3 10:47,68,74,1610612764.0,Morris,Morris REBOUND (Off:1 Def:2),3pt missed,2pt missed,6,Low
+21700122,350,2pt,3,PT10M47.00S,10:47,Q3 10:47,68,74,1610612764.0,Morris,MISS Morris 1' Putback Layup,rebound,rebound,6,Low
+21700122,351,rebound,3,PT10M47.00S,10:47,Q3 10:47,68,74,1610612739.0,Crowder,Crowder REBOUND (Off:1 Def:4),2pt missed,2pt made,6,Low
+21700122,352,2pt,3,PT10M42.00S,10:42,Q3 10:42,68,76,1610612739.0,James,James 1' Layup (26 PTS),rebound,foul,8,Low
+21700122,354,foul,3,PT10M31.00S,10:31,Q3 10:31,68,76,1610612739.0,James,James P.FOUL (P2.T2) (H.Workman),2pt made,timeout,8,Low
+21700122,356,timeout,3,PT10M24.00S,10:24,Q3 10:24,68,76,1610612764.0,,WIZARDS Timeout: Regular (Full 2 Short 0),foul,2pt missed,8,Low
+21700122,357,2pt,3,PT10M17.00S,10:17,Q3 10:17,68,76,1610612764.0,Gortat,MISS Gortat 17' Pullup Jump Shot,timeout,rebound,8,Low
+21700122,358,rebound,3,PT10M13.00S,10:13,Q3 10:13,68,76,1610612739.0,James,James REBOUND (Off:0 Def:4),2pt missed,turnover,8,Low
+21700122,359,turnover,3,PT10M04.00S,10:04,Q3 10:04,68,76,1610612739.0,Smith,Smith Out of Bounds - Bad Pass Turnover Turnover (P1.T8),rebound,foul,8,Low
+21700122,360,foul,3,PT09M53.00S,09:53,Q3 09:53,68,76,1610612739.0,Smith,Smith P.FOUL (P3.T3) (H.Workman),turnover,2pt made,8,Low
+21700122,362,2pt,3,PT09M43.00S,09:43,Q3 09:43,70,76,1610612764.0,Wall,Wall 2' Layup (10 PTS),foul,3pt missed,6,Low
+21700122,363,3pt,3,PT09M30.00S,09:30,Q3 09:30,70,76,1610612739.0,Rose,MISS Rose 26' 3PT Jump Shot,2pt made,rebound,6,Low
+21700122,364,rebound,3,PT09M30.00S,09:30,Q3 09:30,70,76,1610612764.0,Wall,Wall REBOUND (Off:0 Def:3),3pt missed,3pt missed,6,Low
+21700122,365,3pt,3,PT09M25.00S,09:25,Q3 09:25,70,76,1610612764.0,Wall,MISS Wall 25' 3PT Jump Shot,rebound,rebound,6,Low
+21700122,366,rebound,3,PT09M25.00S,09:25,Q3 09:25,70,76,1610612764.0,Gortat,Gortat REBOUND (Off:1 Def:3),3pt missed,2pt missed,6,Low
+21700122,367,2pt,3,PT09M20.00S,09:20,Q3 09:20,70,76,1610612764.0,Wall,MISS Wall 2' Layup,rebound,rebound,6,Low
+21700122,368,rebound,3,PT09M20.00S,09:20,Q3 09:20,70,76,1610612739.0,,TEAM defensive REBOUND,2pt missed,foul,6,Low
+21700122,369,foul,3,PT09M16.00S,09:16,Q3 09:16,70,76,1610612764.0,Morris,Morris FLAGRANT.FOUL.TYPE1 (P3.T1) (H.Workman),rebound,instant replay,6,Low
+21700122,372,freethrow,3,PT09M16.00S,09:16,Q3 09:16,70,77,1610612739.0,Crowder,Crowder Free Throw 1 of 2 (12 PTS),instant replay,freethrow,7,Low
+21700122,373,freethrow,3,PT09M16.00S,09:16,Q3 09:16,70,78,1610612739.0,Crowder,Crowder Free Throw 2 of 2 (13 PTS),freethrow,2pt missed,8,Low
+21700122,374,2pt,3,PT09M04.00S,09:04,Q3 09:04,70,78,1610612739.0,Rose,MISS Rose 20' Jump Shot,freethrow,rebound,8,Low
+21700122,375,rebound,3,PT09M02.00S,09:02,Q3 09:02,70,78,1610612764.0,Porter Jr.,Porter Jr. REBOUND (Off:2 Def:3),2pt missed,turnover,8,Low
+21700122,376,turnover,3,PT08M52.00S,08:52,Q3 08:52,70,78,1610612764.0,Beal,Beal Lost Ball Turnover (P2.T10),rebound,steal,8,Low
+21700122,376,steal,3,PT08M52.00S,08:52,Q3 08:52,70,78,1610612739.0,Crowder,Crowder STEAL (2 STL),turnover,foul,8,Low
+21700122,378,foul,3,PT08M44.00S,08:44,Q3 08:44,70,78,1610612739.0,Love,Love P.FOUL (P2.T4) (N.Buchert),steal,turnover,8,Low
+21700122,380,turnover,3,PT08M44.00S,08:44,Q3 08:44,70,78,1610612739.0,Love,Love No Turnover (P2.T9),foul,3pt missed,8,Low
+21700122,381,3pt,3,PT08M20.00S,08:20,Q3 08:20,70,78,1610612764.0,Porter Jr.,MISS Porter Jr. 24' 3PT Jump Shot,turnover,rebound,8,Low
+21700122,382,rebound,3,PT08M18.00S,08:18,Q3 08:18,70,78,1610612739.0,Love,Love REBOUND (Off:0 Def:5),3pt missed,3pt missed,8,Low
+21700122,383,3pt,3,PT08M01.00S,08:01,Q3 08:01,70,78,1610612739.0,Crowder,MISS Crowder 24' 3PT Pullup Jump Shot,rebound,foul,8,Low
+21700122,387,foul,3,PT07M54.00S,07:54,Q3 07:54,70,78,1610612739.0,Crowder,Crowder P.FOUL (P2.PN) (N.Buchert),3pt missed,instant replay,8,Low
+21700122,384,rebound,3,PT07M53.00S,07:53,Q3 07:53,70,80,1610612739.0,James,James REBOUND (Off:1 Def:4),instant replay,2pt made,10,Low
+21700122,385,2pt,3,PT07M53.00S,07:53,Q3 07:53,70,80,1610612739.0,James,James 1' Putback Layup (28 PTS),rebound,foul,10,Low
+21700122,390,foul,3,PT07M52.00S,07:52,Q3 07:52,70,80,1610612739.0,Smith,Smith P.FOUL (P4.PN) (N.Buchert),2pt made,3pt made,10,Low
+21700122,392,3pt,3,PT07M39.00S,07:39,Q3 07:39,73,80,1610612764.0,Porter Jr.,Porter Jr. 26' 3PT Pullup Jump Shot (12 PTS) (Wall 10 AST),foul,2pt missed,7,Low
+21700122,394,2pt,3,PT07M24.00S,07:24,Q3 07:24,73,80,1610612739.0,Rose,MISS Rose 6' Layup,3pt made,rebound,7,Low
+21700122,395,rebound,3,PT07M21.00S,07:21,Q3 07:21,73,80,1610612764.0,Morris,Morris REBOUND (Off:1 Def:3),2pt missed,2pt missed,7,Low
+21700122,396,2pt,3,PT07M19.00S,07:19,Q3 07:19,73,80,1610612764.0,Wall,MISS Wall 2' Layup,rebound,block,7,Low
+21700122,396,block,3,PT07M19.00S,07:19,Q3 07:19,73,80,1610612739.0,James,James BLOCK (1 BLK),2pt missed,rebound,7,Low
+21700122,398,rebound,3,PT07M19.00S,07:19,Q3 07:19,73,80,1610612739.0,Love,Love REBOUND (Off:0 Def:6),block,2pt missed,7,Low
+21700122,399,2pt,3,PT07M13.00S,07:13,Q3 07:13,73,80,1610612739.0,Rose,MISS Rose 3' Layup,rebound,rebound,7,Low
+21700122,400,rebound,3,PT07M13.00S,07:13,Q3 07:13,73,80,1610612739.0,Crowder,Crowder REBOUND (Off:2 Def:4),2pt missed,2pt made,7,Low
+21700122,401,2pt,3,PT07M09.00S,07:09,Q3 07:09,73,82,1610612739.0,Crowder,Crowder 1' Putback Layup (15 PTS),rebound,2pt made,9,Low
+21700122,441,2pt,3,PT07M09.00S,07:09,Q3 07:09,75,82,1610612764.0,Beal,Beal 4' Layup (17 PTS),2pt made,foul,7,Low
+21700122,404,foul,3,PT06M46.00S,06:46,Q3 06:46,75,82,1610612764.0,Morris,WIZARDS T.Foul (Def. 3 Sec Morris ) (H.Workman),2pt made,freethrow,7,Low
+21700122,405,freethrow,3,PT06M46.00S,06:46,Q3 06:46,75,83,1610612739.0,Love,Love Free Throw Technical (11 PTS),foul,substitution,8,Low
+21700122,424,substitution,3,PT06M46.00S,06:46,Q3 06:46,75,83,1610612739.0,Smith,SUB out: J. Smith,freethrow,substitution,8,Low
+21700122,425,substitution,3,PT06M46.00S,06:46,Q3 06:46,75,83,1610612764.0,Morris,SUB out: M. Morris,substitution,substitution,8,Low
+21700122,426,substitution,3,PT06M46.00S,06:46,Q3 06:46,75,83,1610612739.0,Korver,SUB in: K. Korver,substitution,substitution,8,Low
+21700122,427,substitution,3,PT06M46.00S,06:46,Q3 06:46,75,83,1610612764.0,Oubre Jr.,SUB in: K. Oubre Jr.,substitution,2pt made,8,Low
+21700122,408,2pt,3,PT06M35.00S,06:35,Q3 06:35,75,85,1610612739.0,James,James 1' Fadeaway Jumper (30 PTS),substitution,2pt missed,10,Low
+21700122,409,2pt,3,PT06M13.00S,06:13,Q3 06:13,75,85,1610612764.0,Beal,MISS Beal 4' Layup,2pt made,rebound,10,Low
+21700122,410,rebound,3,PT06M10.00S,06:10,Q3 06:10,75,85,1610612739.0,Love,Love REBOUND (Off:0 Def:7),2pt missed,3pt missed,10,Low
+21700122,411,3pt,3,PT06M05.00S,06:05,Q3 06:05,75,85,1610612739.0,Love,MISS Love 25' 3PT Jump Shot,rebound,rebound,10,Low
+21700122,412,rebound,3,PT06M01.00S,06:01,Q3 06:01,75,85,1610612764.0,Wall,Wall REBOUND (Off:0 Def:4),3pt missed,turnover,10,Low
+21700122,413,turnover,3,PT05M58.00S,05:58,Q3 05:58,75,85,1610612764.0,Wall,Wall Bad Pass Turnover (P1.T11),rebound,2pt missed,10,Low
+21700122,414,2pt,3,PT05M39.00S,05:39,Q3 05:39,75,85,1610612739.0,Rose,MISS Rose 3' Hook Shot,turnover,block,10,Low
+21700122,414,block,3,PT05M39.00S,05:39,Q3 05:39,75,85,1610612764.0,Gortat,Gortat BLOCK (1 BLK),2pt missed,rebound,10,Low
+21700122,416,rebound,3,PT05M32.00S,05:32,Q3 05:32,75,85,1610612739.0,Rose,Rose REBOUND (Off:1 Def:0),block,2pt made,10,Low
+21700122,417,2pt,3,PT05M32.00S,05:32,Q3 05:32,75,87,1610612739.0,Rose,Rose 1' Putback Layup (20 PTS),rebound,foul,12,Low
+21700122,418,foul,3,PT05M24.00S,05:24,Q3 05:24,75,87,1610612739.0,Love,Love P.FOUL (P3.PN) (N.Buchert),2pt made,freethrow,12,Low
+21700122,420,freethrow,3,PT05M24.00S,05:24,Q3 05:24,76,87,1610612764.0,Beal,Beal Free Throw 1 of 2 (18 PTS),foul,freethrow,11,Low
+21700122,425,freethrow,3,PT05M24.00S,05:24,Q3 05:24,77,87,1610612764.0,Beal,Beal Free Throw 2 of 2 (19 PTS),freethrow,foul,10,Low
+21700122,426,foul,3,PT05M14.00S,05:14,Q3 05:14,77,87,1610612764.0,Oubre Jr.,Oubre Jr. S.FOUL (P2.T2) (N.Buchert),freethrow,freethrow,10,Low
+21700122,428,freethrow,3,PT05M14.00S,05:14,Q3 05:14,77,88,1610612739.0,James,James Free Throw 1 of 2 (31 PTS),foul,freethrow,11,Low
+21700122,431,freethrow,3,PT05M14.00S,05:14,Q3 05:14,77,89,1610612739.0,James,James Free Throw 2 of 2 (32 PTS),freethrow,substitution,12,Low
+21700122,675,substitution,3,PT05M14.00S,05:14,Q3 05:14,77,87,1610612764.0,Porter Jr.,SUB out: O. Porter Jr.,freethrow,substitution,10,Low
+21700122,676,substitution,3,PT05M14.00S,05:14,Q3 05:14,77,87,1610612764.0,Scott,SUB in: M. Scott,substitution,2pt missed,10,Low
+21700122,432,2pt,3,PT05M03.00S,05:03,Q3 05:03,77,89,1610612764.0,Beal,MISS Beal 1' Layup,substitution,rebound,12,Low
+21700122,433,rebound,3,PT04M59.00S,04:59,Q3 04:59,77,89,1610612739.0,James,James REBOUND (Off:1 Def:5),2pt missed,3pt made,12,Low
+21700122,434,3pt,3,PT04M55.00S,04:55,Q3 04:55,77,92,1610612739.0,Korver,Korver 26' 3PT Jump Shot (5 PTS) (Crowder 1 AST),rebound,timeout,15,Low
+21700122,436,timeout,3,PT04M54.00S,04:54,Q3 04:54,77,92,1610612764.0,,WIZARDS Timeout: Regular (Full 3 Short 0),3pt made,2pt made,15,Low
+21700122,442,2pt,3,PT04M46.00S,04:46,Q3 04:46,79,92,1610612764.0,Gortat,Gortat 1' Layup (15 PTS) (Wall 11 AST),timeout,3pt missed,13,Low
+21700122,445,3pt,3,PT04M20.00S,04:20,Q3 04:20,79,92,1610612739.0,Korver,MISS Korver 26' 3PT Jump Shot,2pt made,rebound,13,Low
+21700122,446,rebound,3,PT04M17.00S,04:17,Q3 04:17,79,92,1610612764.0,Oubre Jr.,Oubre Jr. REBOUND (Off:0 Def:3),3pt missed,3pt made,13,Low
+21700122,448,3pt,3,PT03M56.00S,03:56,Q3 03:56,82,92,1610612764.0,Beal,Beal 30' 3PT Pullup Jump Shot (22 PTS) (Oubre Jr. 2 AST),rebound,2pt missed,10,Low
+21700122,450,2pt,3,PT03M44.00S,03:44,Q3 03:44,82,92,1610612739.0,Rose,MISS Rose 18' Jump Shot,3pt made,rebound,10,Low
+21700122,451,rebound,3,PT03M40.00S,03:40,Q3 03:40,82,92,1610612764.0,Gortat,Gortat REBOUND (Off:1 Def:4),2pt missed,2pt missed,10,Low
+21700122,452,2pt,3,PT03M30.00S,03:30,Q3 03:30,82,92,1610612764.0,Wall,MISS Wall 3' Running Layup,rebound,block,10,Low
+21700122,452,block,3,PT03M30.00S,03:30,Q3 03:30,82,92,1610612739.0,James,James BLOCK (2 BLK),2pt missed,rebound,10,Low
+21700122,454,rebound,3,PT03M30.00S,03:30,Q3 03:30,82,92,1610612764.0,,TEAM offensive REBOUND,block,substitution,10,Low
+21700122,456,substitution,3,PT03M30.00S,03:30,Q3 03:30,82,92,1610612739.0,Love,SUB out: K. Love,rebound,substitution,10,Low
+21700122,457,substitution,3,PT03M30.00S,03:30,Q3 03:30,82,92,1610612739.0,Zizic,SUB in: A. Zizic,substitution,2pt made,10,Low
+21700122,457,2pt,3,PT03M23.00S,03:23,Q3 03:23,84,92,1610612764.0,Beal,Beal 16' Pullup Jump Shot (24 PTS),substitution,3pt missed,8,Low
+21700122,458,3pt,3,PT03M09.00S,03:09,Q3 03:09,84,92,1610612739.0,James,MISS James 3PT Fadeaway Jumper,2pt made,rebound,8,Low
+21700122,459,rebound,3,PT03M04.00S,03:04,Q3 03:04,84,92,1610612764.0,Oubre Jr.,Oubre Jr. REBOUND (Off:0 Def:4),3pt missed,turnover,8,Low
+21700122,461,turnover,3,PT03M00.00S,03:00,Q3 03:00,84,92,1610612764.0,Oubre Jr.,Oubre Jr. Bad Pass Turnover (P2.T12),rebound,steal,8,Low
+21700122,461,steal,3,PT03M00.00S,03:00,Q3 03:00,84,92,1610612739.0,James,James STEAL (3 STL),turnover,turnover,8,Low
+21700122,463,turnover,3,PT03M00.00S,03:00,Q3 03:00,84,92,1610612739.0,Crowder,Crowder Out of Bounds Lost Ball Turnover (P1.T10),steal,timeout,8,Low
+21700122,464,timeout,3,PT03M00.00S,03:00,Q3 03:00,84,92,1610612739.0,,Cavaliers Timeout: Regular (Reg.4 Short 0),turnover,substitution,8,Low
+21700122,467,substitution,3,PT03M00.00S,03:00,Q3 03:00,84,92,1610612764.0,Gortat,SUB out: M. Gortat,timeout,substitution,8,Low
+21700122,468,substitution,3,PT03M00.00S,03:00,Q3 03:00,84,92,1610612739.0,Rose,SUB out: D. Rose,substitution,substitution,8,Low
+21700122,469,substitution,3,PT03M00.00S,03:00,Q3 03:00,84,92,1610612764.0,Mahinmi,SUB in: I. Mahinmi,substitution,substitution,8,Low
+21700122,470,substitution,3,PT03M00.00S,03:00,Q3 03:00,84,92,1610612739.0,Green,SUB in: J. Green,substitution,turnover,8,Low
+21700122,469,turnover,3,PT02M50.00S,02:50,Q3 02:50,84,92,1610612764.0,Beal,Beal Bad Pass Turnover (P3.T13),substitution,steal,8,Low
+21700122,469,steal,3,PT02M50.00S,02:50,Q3 02:50,84,92,1610612739.0,Green,Green STEAL (1 STL),turnover,3pt missed,8,Low
+21700122,472,3pt,3,PT02M34.00S,02:34,Q3 02:34,84,92,1610612739.0,Korver,MISS Korver 25' 3PT Jump Shot,steal,rebound,8,Low
+21700122,473,rebound,3,PT02M32.00S,02:32,Q3 02:32,84,92,1610612764.0,Scott,Scott REBOUND (Off:0 Def:3),3pt missed,foul,8,Low
+21700122,474,foul,3,PT02M27.00S,02:27,Q3 02:27,84,92,1610612739.0,Zizic,Zizic S.FOUL (P1.PN) (N.Buchert),rebound,freethrow,8,Low
+21700122,476,freethrow,3,PT02M27.00S,02:27,Q3 02:27,84,92,1610612764.0,Wall,MISS Wall Free Throw 1 of 2,foul,rebound,8,Low
+21700122,477,rebound,3,PT02M27.00S,02:27,Q3 02:27,84,92,1610612764.0,,TEAM offensive REBOUND,freethrow,freethrow,8,Low
+21700122,482,freethrow,3,PT02M27.00S,02:27,Q3 02:27,84,92,1610612764.0,Wall,MISS Wall Free Throw 2 of 2,rebound,substitution,8,Low
+21700122,480,substitution,3,PT02M27.00S,02:27,Q3 02:27,84,92,1610612764.0,Beal,SUB out: B. Beal,freethrow,substitution,8,Low
+21700122,481,substitution,3,PT02M27.00S,02:27,Q3 02:27,84,92,1610612739.0,Zizic,SUB out: A. Zizic,substitution,substitution,8,Low
+21700122,482,substitution,3,PT02M27.00S,02:27,Q3 02:27,84,92,1610612764.0,Meeks,SUB in: J. Meeks,substitution,substitution,8,Low
+21700122,483,substitution,3,PT02M27.00S,02:27,Q3 02:27,84,92,1610612739.0,Frye,SUB in: C. Frye,substitution,rebound,8,Low
+21700122,483,rebound,3,PT02M26.00S,02:26,Q3 02:26,84,92,1610612739.0,,TEAM defensive REBOUND,substitution,foul,8,Low
+21700122,484,foul,3,PT02M26.00S,02:26,Q3 02:26,84,92,1610612764.0,Scott,Scott P.FOUL (P3.T3) (B.Kennedy),rebound,foul,8,Low
+21700122,486,foul,3,PT02M10.00S,02:10,Q3 02:10,84,92,1610612764.0,Scott,Scott P.FOUL (P4.T4) (N.Buchert),foul,3pt made,8,Low
+21700122,488,3pt,3,PT02M05.00S,02:05,Q3 02:05,84,95,1610612739.0,Frye,Frye 27' 3PT Pullup Jump Shot (3 PTS) (James 5 AST),foul,2pt made,11,Low
+21700122,490,2pt,3,PT01M43.00S,01:43,Q3 01:43,86,95,1610612764.0,Scott,Scott 17' Step Back Jump Shot (9 PTS) (Wall 12 AST),3pt made,2pt made,9,Low
+21700122,492,2pt,3,PT01M24.00S,01:24,Q3 01:24,86,97,1610612739.0,James,James 13' Turnaround Fadeaway (34 PTS),2pt made,3pt made,11,Low
+21700122,493,3pt,3,PT01M10.00S,01:10,Q3 01:10,89,97,1610612764.0,Scott,Scott 26' 3PT Pullup Jump Shot (12 PTS) (Wall 13 AST),2pt made,turnover,8,Low
+21700122,495,turnover,3,PT00M56.10S,00:56,Q3 00:56,89,97,1610612739.0,Korver,Korver Bad Pass Turnover (P2.T11),3pt made,steal,8,Low
+21700122,495,steal,3,PT00M56.10S,00:56,Q3 00:56,89,97,1610612764.0,Oubre Jr.,Oubre Jr. STEAL (1 STL),turnover,2pt made,8,Low
+21700122,497,2pt,3,PT00M53.50S,00:53,Q3 00:53,91,97,1610612764.0,Oubre Jr.,Oubre Jr. 1' Driving Dunk (12 PTS),steal,3pt made,6,Low
+21700122,498,3pt,3,PT00M45.00S,00:45,Q3 00:45,91,100,1610612739.0,Korver,Korver 25' 3PT Jump Shot (8 PTS) (Green 3 AST),2pt made,foul,9,Low
+21700122,500,foul,3,PT00M39.90S,00:39,Q3 00:39,91,100,1610612739.0,Green,Green P.FOUL (P4.PN) (B.Kennedy),3pt made,freethrow,9,Low
+21700122,502,freethrow,3,PT00M39.90S,00:39,Q3 00:39,91,100,1610612764.0,Wall,MISS Wall Free Throw 1 of 2,foul,rebound,9,Low
+21700122,503,rebound,3,PT00M39.90S,00:39,Q3 00:39,91,100,1610612764.0,,TEAM offensive REBOUND,freethrow,freethrow,9,Low
+21700122,504,freethrow,3,PT00M39.90S,00:39,Q3 00:39,92,100,1610612764.0,Wall,Wall Free Throw 2 of 2 (11 PTS),rebound,2pt made,8,Low
+21700122,505,2pt,3,PT00M31.10S,00:31,Q3 00:31,92,102,1610612739.0,James,James 15' Turnaround Fadeaway (36 PTS),freethrow,foul,10,Low
+21700122,506,foul,3,PT00M10.60S,00:10,Q3 00:10,92,102,1610612739.0,Frye,Frye P.FOUL (P2.PN) (H.Workman),2pt made,timeout,10,Low
+21700122,508,timeout,3,PT00M10.60S,00:10,Q3 00:10,92,102,1610612764.0,,WIZARDS Timeout: Regular (Full 4 Short 0),foul,freethrow,10,Low
+21700122,511,freethrow,3,PT00M10.60S,00:10,Q3 00:10,93,102,1610612764.0,Wall,Wall Free Throw 1 of 2 (12 PTS),timeout,freethrow,9,Low
+21700122,512,freethrow,3,PT00M10.60S,00:10,Q3 00:10,93,102,1610612764.0,Wall,MISS Wall Free Throw 2 of 2,freethrow,substitution,9,Low
+21700122,510,substitution,3,PT00M10.60S,00:10,Q3 00:10,92,102,1610612764.0,Mahinmi,SUB out: I. Mahinmi,freethrow,substitution,10,Low
+21700122,511,substitution,3,PT00M10.60S,00:10,Q3 00:10,92,102,1610612764.0,Porter Jr.,SUB in: O. Porter Jr.,substitution,rebound,10,Low
+21700122,513,rebound,3,PT00M08.00S,00:08,Q3 00:08,93,102,1610612739.0,Crowder,Crowder REBOUND (Off:2 Def:5),substitution,2pt made,9,Low
+21700122,514,2pt,3,PT00M02.50S,00:02,Q3 00:02,93,104,1610612739.0,James,James 18' Step Back Jump Shot (38 PTS) (Green 4 AST),rebound,3pt missed,11,Low
+21700122,516,3pt,3,PT00M00.00S,00:00,Q3 00:00,93,104,1610612764.0,Porter Jr.,MISS Porter Jr. 51' 3PT Jump Shot,2pt made,rebound,11,Low
+21700122,517,rebound,3,PT00M00.00S,00:00,Q3 00:00,93,104,1610612739.0,,TEAM defensive REBOUND,3pt missed,period,11,Low
+21700122,518,period,3,PT00M00.00S,00:00,Q3 00:00,93,104,1610612764.0,,End of 3rd Period (9:11 PM EST),rebound,period,11,Low
+21700122,525,period,4,PT12M00.00S,12:00,Q4 12:00,93,104,1610612764.0,,Start of 4th Period (9:14 PM EST),period,substitution,11,Low
+21700122,526,2pt,4,PT11M38.00S,11:38,Q4 11:38,93,104,1610612764.0,Scott,MISS Scott 9' Turnaround Hook Shot,substitution,rebound,11,Low
+21700122,527,rebound,4,PT11M36.00S,11:36,Q4 11:36,93,104,1610612739.0,Wade,Wade REBOUND (Off:0 Def:2),2pt missed,2pt missed,11,Low
+21700122,528,2pt,4,PT11M19.00S,11:19,Q4 11:19,93,104,1610612739.0,Frye,MISS Frye 22' Pullup Jump Shot,rebound,rebound,11,Low
+21700122,529,rebound,4,PT11M17.00S,11:17,Q4 11:17,93,104,1610612739.0,James,James REBOUND (Off:2 Def:5),2pt missed,3pt missed,11,Low
+21700122,530,3pt,4,PT11M03.00S,11:03,Q4 11:03,93,104,1610612739.0,Korver,MISS Korver 25' 3PT Pullup Jump Shot,rebound,rebound,11,Low
+21700122,531,rebound,4,PT11M01.00S,11:01,Q4 11:01,93,104,1610612739.0,James,James REBOUND (Off:3 Def:5),3pt missed,foul,11,Low
+21700122,532,foul,4,PT11M01.00S,11:01,Q4 11:01,93,104,1610612764.0,Scott,Scott P.FOUL (P5.T1) (H.Workman),rebound,substitution,11,Low
+21700122,535,substitution,4,PT11M01.00S,11:01,Q4 11:01,93,104,1610612764.0,Scott,SUB out: M. Scott,foul,substitution,11,Low
+21700122,536,substitution,4,PT11M01.00S,11:01,Q4 11:01,93,104,1610612764.0,Porter Jr.,SUB in: O. Porter Jr.,substitution,2pt made,11,Low
+21700122,537,2pt,4,PT10M42.00S,10:42,Q4 10:42,93,106,1610612739.0,James,James Running Reverse Layup (40 PTS) (Green 5 AST),substitution,foul,13,Low
+21700122,539,foul,4,PT10M42.00S,10:42,Q4 10:42,93,106,1610612764.0,Mahinmi,Mahinmi S.FOUL (P3.T2) (N.Buchert),2pt made,freethrow,13,Low
+21700122,543,freethrow,4,PT10M42.00S,10:42,Q4 10:42,93,107,1610612739.0,James,James Free Throw 1 of 1 (41 PTS),foul,substitution,14,Low
+21700122,542,substitution,4,PT10M42.00S,10:42,Q4 10:42,93,106,1610612764.0,Frazier,SUB out: T. Frazier,freethrow,substitution,13,Low
+21700122,543,substitution,4,PT10M42.00S,10:42,Q4 10:42,93,106,1610612764.0,Beal,SUB in: B. Beal,substitution,foul,13,Low
+21700122,544,foul,4,PT10M30.00S,10:30,Q4 10:30,93,107,1610612764.0,Mahinmi,Mahinmi OFF.Foul (P4) (B.Kennedy),substitution,turnover,14,Low
+21700122,546,turnover,4,PT10M30.00S,10:30,Q4 10:30,93,107,1610612764.0,Mahinmi,Mahinmi Offensive Foul Turnover (P2.T14),foul,turnover,14,Low
+21700122,547,turnover,4,PT10M21.00S,10:21,Q4 10:21,93,107,1610612739.0,James,James Out of Bounds - Bad Pass Turnover Turnover (P3.T12),turnover,foul,14,Low
+21700122,548,foul,4,PT10M05.00S,10:05,Q4 10:05,93,107,1610612739.0,Korver,Korver S.FOUL (P2.T1) (N.Buchert),turnover,freethrow,14,Low
+21700122,550,freethrow,4,PT10M05.00S,10:05,Q4 10:05,94,107,1610612764.0,Beal,Beal Free Throw 1 of 2 (25 PTS),foul,freethrow,13,Low
+21700122,551,freethrow,4,PT10M05.00S,10:05,Q4 10:05,94,107,1610612764.0,Beal,MISS Beal Free Throw 2 of 2,freethrow,rebound,13,Low
+21700122,552,rebound,4,PT10M01.00S,10:01,Q4 10:01,94,107,1610612739.0,Wade,Wade REBOUND (Off:0 Def:3),freethrow,3pt missed,13,Low
+21700122,553,3pt,4,PT09M53.00S,09:53,Q4 09:53,94,107,1610612739.0,Wade,MISS Wade 27' 3PT Pullup Jump Shot,rebound,rebound,13,Low
+21700122,554,rebound,4,PT09M50.00S,09:50,Q4 09:50,94,107,1610612764.0,Mahinmi,Mahinmi REBOUND (Off:1 Def:1),3pt missed,foul,13,Low
+21700122,555,foul,4,PT09M46.00S,09:46,Q4 09:46,94,107,1610612739.0,Korver,Korver P.FOUL (P3.T2) (H.Workman),rebound,substitution,13,Low
+21700122,558,substitution,4,PT09M46.00S,09:46,Q4 09:46,94,107,1610612739.0,Korver,SUB out: K. Korver,foul,substitution,13,Low
+21700122,559,substitution,4,PT09M46.00S,09:46,Q4 09:46,94,107,1610612739.0,Smith,SUB in: J. Smith,substitution,3pt made,13,Low
+21700122,559,3pt,4,PT09M30.00S,09:30,Q4 09:30,97,107,1610612764.0,Oubre Jr.,Oubre Jr. 26' 3PT Pullup Jump Shot (15 PTS) (Beal 1 AST),substitution,3pt made,10,Low
+21700122,561,3pt,4,PT09M07.00S,09:07,Q4 09:07,97,110,1610612739.0,Green,Green 24' 3PT Pullup Jump Shot (5 PTS) (James 6 AST),3pt made,3pt missed,13,Low
+21700122,563,3pt,4,PT08M50.00S,08:50,Q4 08:50,97,110,1610612764.0,Meeks,MISS Meeks 3PT Jump Shot,3pt made,rebound,13,Low
+21700122,564,rebound,4,PT08M47.00S,08:47,Q4 08:47,97,110,1610612764.0,Oubre Jr.,Oubre Jr. REBOUND (Off:1 Def:4),3pt missed,2pt missed,13,Low
+21700122,565,2pt,4,PT08M47.00S,08:47,Q4 08:47,97,110,1610612764.0,Oubre Jr.,MISS Oubre Jr. 1' Putback Layup,rebound,rebound,13,Low
+21700122,566,rebound,4,PT08M47.00S,08:47,Q4 08:47,97,110,1610612764.0,Mahinmi,Mahinmi REBOUND (Off:2 Def:1),2pt missed,2pt made,13,Low
+21700122,567,2pt,4,PT08M42.00S,08:42,Q4 08:42,99,110,1610612764.0,Mahinmi,Mahinmi 2' Putback Layup (2 PTS),rebound,turnover,11,Low
+21700122,568,turnover,4,PT08M30.00S,08:30,Q4 08:30,99,110,1610612739.0,Green,Green Bad Pass Turnover (P2.T13),2pt made,steal,11,Low
+21700122,568,steal,4,PT08M30.00S,08:30,Q4 08:30,99,110,1610612764.0,Meeks,Meeks STEAL (1 STL),turnover,3pt missed,11,Low
+21700122,570,3pt,4,PT08M24.00S,08:24,Q4 08:24,99,110,1610612764.0,Porter Jr.,MISS Porter Jr. 25' 3PT Jump Shot,steal,rebound,11,Low
+21700122,571,rebound,4,PT08M20.00S,08:20,Q4 08:20,99,110,1610612739.0,Frye,Frye REBOUND (Off:0 Def:2),3pt missed,2pt made,11,Low
+21700122,572,2pt,4,PT08M07.00S,08:07,Q4 08:07,99,112,1610612739.0,James,James 15' Turnaround Jump Shot (43 PTS),rebound,2pt made,13,Low
+21700122,573,2pt,4,PT07M51.00S,07:51,Q4 07:51,101,112,1610612764.0,Beal,Beal 1' Driving Layup (27 PTS),2pt made,foul,11,Low
+21700122,574,foul,4,PT07M37.00S,07:37,Q4 07:37,101,112,1610612764.0,Porter Jr.,Porter Jr. S.FOUL (P3.T3) (B.Kennedy),2pt made,freethrow,11,Low
+21700122,576,freethrow,4,PT07M37.00S,07:37,Q4 07:37,101,113,1610612739.0,Green,Green Free Throw 1 of 2 (6 PTS),foul,freethrow,12,Low
+21700122,581,freethrow,4,PT07M37.00S,07:37,Q4 07:37,101,114,1610612739.0,Green,Green Free Throw 2 of 2 (7 PTS),freethrow,substitution,13,Low
+21700122,579,substitution,4,PT07M37.00S,07:37,Q4 07:37,101,113,1610612764.0,Mahinmi,SUB out: I. Mahinmi,freethrow,substitution,12,Low
+21700122,580,substitution,4,PT07M37.00S,07:37,Q4 07:37,101,113,1610612739.0,Frye,SUB out: C. Frye,substitution,substitution,12,Low
+21700122,581,substitution,4,PT07M37.00S,07:37,Q4 07:37,101,113,1610612764.0,Wall,SUB in: J. Wall,substitution,substitution,12,Low
+21700122,582,substitution,4,PT07M37.00S,07:37,Q4 07:37,101,113,1610612739.0,Love,SUB in: K. Love,substitution,timeout,12,Low
+21700122,584,timeout,4,PT07M24.00S,07:24,Q4 07:24,101,114,1610612739.0,,Cavaliers Timeout: Regular (Reg.5 Short 0),substitution,2pt made,13,Low
+21700122,582,2pt,4,PT07M23.00S,07:23,Q4 07:23,103,114,1610612764.0,Meeks,Meeks 8' Floating Jump Shot (6 PTS) (Beal 2 AST),timeout,turnover,11,Low
+21700122,585,turnover,4,PT07M13.00S,07:13,Q4 07:13,103,114,1610612739.0,Green,Green Lost Ball Turnover (P3.T14),2pt made,steal,11,Low
+21700122,585,steal,4,PT07M13.00S,07:13,Q4 07:13,103,114,1610612764.0,Beal,Beal STEAL (1 STL),turnover,3pt made,11,Low
+21700122,587,3pt,4,PT06M58.00S,06:58,Q4 06:58,106,114,1610612764.0,Porter Jr.,Porter Jr. 26' 3PT Step Back Jump Shot (15 PTS) (Wall 14 AST),steal,2pt made,8,Medium
+21700122,589,2pt,4,PT06M41.00S,06:41,Q4 06:41,106,116,1610612739.0,James,James 1' Driving Layup (45 PTS) (Wade 4 AST),3pt made,2pt made,10,Low
+21700122,591,2pt,4,PT06M29.00S,06:29,Q4 06:29,108,116,1610612764.0,Beal,Beal 1' Driving Layup (29 PTS),2pt made,2pt made,8,Medium
+21700122,592,2pt,4,PT06M02.00S,06:02,Q4 06:02,108,118,1610612739.0,James,James 14' Turnaround Fadeaway (47 PTS),2pt made,2pt missed,10,Low
+21700122,593,2pt,4,PT05M46.00S,05:46,Q4 05:46,108,118,1610612764.0,Beal,MISS Beal 11' Turnaround Jump Shot,2pt made,rebound,10,Medium
+21700122,594,rebound,4,PT05M44.00S,05:44,Q4 05:44,108,118,1610612739.0,Love,Love REBOUND (Off:0 Def:8),2pt missed,2pt missed,10,Medium
+21700122,595,2pt,4,PT05M25.00S,05:25,Q4 05:25,108,118,1610612739.0,James,MISS James 17' Turnaround Fadeaway Shot,rebound,rebound,10,Medium
+21700122,596,rebound,4,PT05M21.00S,05:21,Q4 05:21,108,118,1610612764.0,Beal,Beal REBOUND (Off:2 Def:2),2pt missed,3pt made,10,Medium
+21700122,597,3pt,4,PT05M18.00S,05:18,Q4 05:18,111,118,1610612764.0,Oubre Jr.,Oubre Jr. 26' 3PT Pullup Jump Shot (18 PTS) (Beal 3 AST),rebound,2pt missed,7,Medium
+21700122,599,2pt,4,PT04M44.00S,04:44,Q4 04:44,111,118,1610612739.0,James,MISS James 2' Layup,3pt made,rebound,7,High
+21700122,600,rebound,4,PT04M40.00S,04:40,Q4 04:40,111,118,1610612739.0,James,James REBOUND (Off:4 Def:5),2pt missed,2pt missed,7,High
+21700122,601,2pt,4,PT04M40.00S,04:40,Q4 04:40,111,118,1610612739.0,James,MISS James 1' Putback Layup,rebound,block,7,High
+21700122,601,block,4,PT04M40.00S,04:40,Q4 04:40,111,118,1610612764.0,Wall,Wall BLOCK (1 BLK),2pt missed,rebound,7,High
+21700122,603,rebound,4,PT04M40.00S,04:40,Q4 04:40,111,118,1610612764.0,Wall,Wall REBOUND (Off:0 Def:5),block,foul,7,High
+21700122,604,foul,4,PT04M39.00S,04:39,Q4 04:39,111,118,1610612764.0,Oubre Jr.,Oubre Jr. Offensive Charge Foul (P3.T4) (N.Buchert),rebound,turnover,7,High
+21700122,606,turnover,4,PT04M39.00S,04:39,Q4 04:39,111,118,1610612764.0,Oubre Jr.,Oubre Jr. Offensive Foul Turnover (P3.T15),foul,substitution,7,High
+21700122,609,substitution,4,PT04M39.00S,04:39,Q4 04:39,111,118,1610612739.0,Wade,SUB out: D. Wade,turnover,substitution,7,High
+21700122,610,substitution,4,PT04M39.00S,04:39,Q4 04:39,111,118,1610612739.0,Love,SUB out: K. Love,substitution,substitution,7,High
+21700122,611,substitution,4,PT04M39.00S,04:39,Q4 04:39,111,118,1610612739.0,Crowder,SUB in: J. Crowder,substitution,substitution,7,High
+21700122,612,substitution,4,PT04M39.00S,04:39,Q4 04:39,111,118,1610612739.0,Rose,SUB in: D. Rose,substitution,2pt missed,7,High
+21700122,611,2pt,4,PT04M21.00S,04:21,Q4 04:21,111,118,1610612739.0,Smith,MISS Smith 17' Turnaround Jump Shot,substitution,rebound,7,High
+21700122,612,rebound,4,PT04M16.00S,04:16,Q4 04:16,111,118,1610612764.0,Wall,Wall REBOUND (Off:0 Def:6),2pt missed,3pt missed,7,High
+21700122,613,3pt,4,PT04M07.00S,04:07,Q4 04:07,111,118,1610612764.0,Wall,MISS Wall 26' 3PT Pullup Jump Shot,rebound,rebound,7,High
+21700122,614,rebound,4,PT04M02.00S,04:02,Q4 04:02,111,118,1610612739.0,James,James REBOUND (Off:4 Def:6),3pt missed,2pt made,7,High
+21700122,615,2pt,4,PT03M43.00S,03:43,Q4 03:43,111,120,1610612739.0,James,James 1' Reverse Layup (49 PTS),rebound,timeout,9,Medium
+21700122,616,timeout,4,PT03M43.00S,03:43,Q4 03:43,111,120,1610612764.0,,WIZARDS Timeout: Regular (Full 5 Short 0),2pt made,foul,9,Medium
+21700122,617,foul,4,PT03M34.00S,03:34,Q4 03:34,111,120,1610612739.0,Crowder,Crowder S.FOUL (P3.T3) (H.Workman),timeout,freethrow,9,Medium
+21700122,619,freethrow,4,PT03M34.00S,03:34,Q4 03:34,112,120,1610612764.0,Beal,Beal Free Throw 1 of 2 (30 PTS),foul,freethrow,8,High
+21700122,620,freethrow,4,PT03M34.00S,03:34,Q4 03:34,113,120,1610612764.0,Beal,Beal Free Throw 2 of 2 (31 PTS),freethrow,3pt missed,7,High
+21700122,621,3pt,4,PT03M12.00S,03:12,Q4 03:12,113,120,1610612739.0,Rose,MISS Rose 3PT Pullup Jump Shot,freethrow,rebound,7,High
+21700122,622,rebound,4,PT03M10.00S,03:10,Q4 03:10,113,120,1610612739.0,James,James REBOUND (Off:5 Def:6),3pt missed,foul,7,High
+21700122,623,foul,4,PT03M10.00S,03:10,Q4 03:10,113,120,1610612764.0,Oubre Jr.,Oubre Jr. P.FOUL (P4.PN) (H.Workman),rebound,3pt made,7,High
+21700122,625,3pt,4,PT02M53.00S,02:53,Q4 02:53,113,123,1610612739.0,James,James 30' 3PT Pullup Jump Shot (52 PTS),foul,turnover,10,Medium
+21700122,626,turnover,4,PT02M41.00S,02:41,Q4 02:41,113,123,1610612764.0,Beal,Beal Out of Bounds - Bad Pass Turnover Turnover (P4.T16),3pt made,2pt made,10,Medium
+21700122,627,2pt,4,PT02M18.00S,02:18,Q4 02:18,113,125,1610612739.0,James,James 1' Driving Finger Roll Layup (54 PTS),turnover,2pt missed,12,Medium
+21700122,628,2pt,4,PT02M13.00S,02:13,Q4 02:13,113,125,1610612764.0,Oubre Jr.,MISS Oubre Jr. 2' Layup,2pt made,rebound,12,Medium
+21700122,629,rebound,4,PT02M13.00S,02:13,Q4 02:13,113,125,1610612764.0,,TEAM offensive REBOUND,2pt missed,2pt made,12,Medium
+21700122,630,2pt,4,PT02M05.00S,02:05,Q4 02:05,115,125,1610612764.0,Beal,Beal 14' Pullup Jump Shot (33 PTS),rebound,foul,10,Medium
+21700122,631,foul,4,PT02M05.00S,02:05,Q4 02:05,115,125,1610612739.0,Smith,Smith S.FOUL (P5.T4) (H.Workman),2pt made,freethrow,10,Medium
+21700122,633,freethrow,4,PT02M05.00S,02:05,Q4 02:05,116,125,1610612764.0,Beal,Beal Free Throw 1 of 1 (34 PTS),foul,2pt missed,9,Medium
+21700122,634,2pt,4,PT01M45.00S,01:45,Q4 01:45,116,125,1610612739.0,James,MISS James 18' Turnaround Jump Shot,freethrow,rebound,9,Medium
+21700122,635,rebound,4,PT01M42.00S,01:42,Q4 01:42,116,125,1610612764.0,Oubre Jr.,Oubre Jr. REBOUND (Off:1 Def:5),2pt missed,2pt made,9,Medium
+21700122,636,2pt,4,PT01M33.00S,01:33,Q4 01:33,118,125,1610612764.0,Beal,Beal 1' Driving Layup (36 PTS) (Wall 15 AST),rebound,timeout,7,High
+21700122,638,timeout,4,PT01M33.00S,01:33,Q4 01:33,118,125,1610612739.0,,Cavaliers Timeout: Regular (Reg.6 Short 0),2pt made,substitution,7,High
+21700122,640,substitution,4,PT01M33.00S,01:33,Q4 01:33,118,125,1610612739.0,Green,SUB out: J. Green,timeout,substitution,7,High
+21700122,641,substitution,4,PT01M33.00S,01:33,Q4 01:33,118,125,1610612739.0,Korver,SUB in: K. Korver,substitution,2pt missed,7,High
+21700122,641,2pt,4,PT01M09.00S,01:09,Q4 01:09,118,125,1610612739.0,James,MISS James 12' Turnaround Jump Shot,substitution,rebound,7,High
+21700122,642,rebound,4,PT01M09.00S,01:09,Q4 01:09,118,125,1610612739.0,,TEAM offensive REBOUND,2pt missed,turnover,7,High
+21700122,643,turnover,4,PT01M09.00S,01:09,Q4 01:09,118,125,0.0,,Cavaliers Turnover: Shot Clock (T#15),rebound,substitution,7,High
+21700122,645,substitution,4,PT01M09.00S,01:09,Q4 01:09,118,125,1610612739.0,Korver,SUB out: K. Korver,turnover,substitution,7,High
+21700122,646,substitution,4,PT01M09.00S,01:09,Q4 01:09,118,125,1610612739.0,Green,SUB in: J. Green,substitution,foul,7,High
+21700122,646,foul,4,PT01M03.00S,01:03,Q4 01:03,118,125,1610612739.0,Crowder,Crowder S.FOUL (P4.PN) (N.Buchert),substitution,freethrow,7,High
+21700122,648,freethrow,4,PT01M03.00S,01:03,Q4 01:03,118,125,1610612764.0,Wall,MISS Wall Free Throw 1 of 2,foul,rebound,7,High
+21700122,649,rebound,4,PT01M03.00S,01:03,Q4 01:03,118,125,1610612764.0,,TEAM offensive REBOUND,freethrow,freethrow,7,High
+21700122,652,freethrow,4,PT01M03.00S,01:03,Q4 01:03,119,125,1610612764.0,Wall,Wall Free Throw 2 of 2 (13 PTS),rebound,substitution,6,High
+21700122,651,substitution,4,PT01M03.00S,01:03,Q4 01:03,118,125,1610612739.0,Green,SUB out: J. Green,freethrow,substitution,7,High
+21700122,652,substitution,4,PT01M03.00S,01:03,Q4 01:03,118,125,1610612739.0,Korver,SUB in: K. Korver,substitution,2pt made,7,High
+21700122,653,2pt,4,PT00M52.50S,00:52,Q4 00:52,119,127,1610612739.0,James,James 7' Turnaround Fadeaway (56 PTS) (Rose 2 AST),substitution,foul,8,High
+21700122,655,foul,4,PT00M52.50S,00:52,Q4 00:52,119,127,1610612764.0,Porter Jr.,Porter Jr. S.FOUL (P4.PN) (H.Workman),2pt made,freethrow,8,High
+21700122,659,freethrow,4,PT00M52.50S,00:52,Q4 00:52,119,128,1610612739.0,James,James Free Throw 1 of 1 (57 PTS),foul,substitution,9,Medium
+21700122,658,substitution,4,PT00M52.50S,00:52,Q4 00:52,119,127,1610612739.0,Korver,SUB out: K. Korver,freethrow,substitution,8,High
+21700122,659,substitution,4,PT00M52.50S,00:52,Q4 00:52,119,127,1610612739.0,Green,SUB in: J. Green,substitution,3pt missed,8,High
+21700122,660,3pt,4,PT00M47.00S,00:47,Q4 00:47,119,128,1610612764.0,Beal,MISS Beal 26' 3PT Pullup Jump Shot,substitution,rebound,9,Medium
+21700122,661,rebound,4,PT00M42.90S,00:42,Q4 00:42,119,128,1610612739.0,Green,Green REBOUND (Off:0 Def:2),3pt missed,2pt made,9,Medium
+21700122,662,2pt,4,PT00M39.20S,00:39,Q4 00:39,119,130,1610612739.0,Crowder,Crowder Layup (17 PTS) (James 7 AST),rebound,3pt made,11,Medium
+21700122,664,3pt,4,PT00M23.60S,00:23,Q4 00:23,122,130,1610612764.0,Oubre Jr.,Oubre Jr. 27' 3PT Pullup Jump Shot (21 PTS) (Beal 4 AST),2pt made,period,8,High
+21700122,666,period,4,PT00M00.00S,00:00,Q4 00:00,122,130,1610612764.0,,End of 4th Period (9:44 PM EST),3pt made,,8,High

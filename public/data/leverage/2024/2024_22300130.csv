@@ -1,0 +1,602 @@
+game_id,actionNumber,actionType,period,clock,clock_display,game_clock,scoreHome,scoreAway,teamId,playerName,description,previous_action,next_action,score_margin,leverage_bucket
+22300130,7,turnover,1,PT11M47.00S,11:47,Q1 11:47,0,0,1610612762.0,Clarkson,J. Clarkson bad pass TURNOVER (1 TO),,steal,0,Medium
+22300130,8,steal,1,PT11M47.00S,11:47,Q1 11:47,0,0,1610612753.0,Suggs,J. Suggs STEAL (1 STL),turnover,2pt missed,0,Medium
+22300130,9,2pt,1,PT11M43.00S,11:43,Q1 11:43,0,0,1610612753.0,Suggs,MISS J. Suggs running Layup - blocked,steal,block,0,Medium
+22300130,10,block,1,PT11M43.00S,11:43,Q1 11:43,0,0,1610612762.0,Kessler,W. Kessler BLOCK (1 BLK),2pt missed,rebound,0,Medium
+22300130,11,rebound,1,PT11M40.00S,11:40,Q1 11:40,0,0,1610612753.0,Carter Jr.,W. Carter Jr. REBOUND (Off:1 Def:0),block,2pt made,0,Medium
+22300130,12,2pt,1,PT11M40.00S,11:40,Q1 11:40,0,2,1610612753.0,Carter Jr.,W. Carter Jr. putback Layup (2 PTS),rebound,foul,2,Medium
+22300130,13,foul,1,PT11M17.00S,11:17,Q1 11:17,0,2,1610612753.0,Suggs,J. Suggs shooting personal FOUL (1 PF) (Collins 2 FT),2pt made,freethrow,2,Medium
+22300130,15,freethrow,1,PT11M17.00S,11:17,Q1 11:17,0,2,1610612762.0,Collins,MISS J. Collins Free Throw 1 of 2,foul,rebound,2,Medium
+22300130,16,rebound,1,PT11M17.00S,11:17,Q1 11:17,0,2,1610612762.0,,TEAM offensive REBOUND,freethrow,freethrow,2,Medium
+22300130,17,freethrow,1,PT11M17.00S,11:17,Q1 11:17,1,2,1610612762.0,Collins,J. Collins Free Throw 2 of 2 (1 PTS),rebound,2pt missed,1,Medium
+22300130,18,2pt,1,PT11M00.00S,11:00,Q1 11:00,1,2,1610612753.0,Carter Jr.,MISS W. Carter Jr. cutting Layup - blocked,freethrow,block,1,Medium
+22300130,33,block,1,PT11M00.00S,11:00,Q1 11:00,1,2,1610612762.0,Horton-Tucker,T. Horton-Tucker BLOCK (1 BLK),2pt missed,rebound,1,Medium
+22300130,19,rebound,1,PT10M57.00S,10:57,Q1 10:57,1,2,1610612753.0,Banchero,P. Banchero REBOUND (Off:1 Def:0),block,3pt missed,1,Medium
+22300130,20,3pt,1,PT10M51.00S,10:51,Q1 10:51,1,2,1610612753.0,Harris,MISS G. Harris 26' 3PT,rebound,rebound,1,Medium
+22300130,21,rebound,1,PT10M49.00S,10:49,Q1 10:49,1,2,1610612762.0,,TEAM defensive REBOUND,3pt missed,3pt made,1,Medium
+22300130,23,3pt,1,PT10M36.00S,10:36,Q1 10:36,4,2,1610612762.0,Collins,J. Collins 3PT  (4 PTS) (J. Clarkson 1 AST),rebound,3pt missed,2,Medium
+22300130,25,3pt,1,PT10M18.00S,10:18,Q1 10:18,4,2,1610612753.0,Harris,MISS G. Harris 25' 3PT,3pt made,rebound,2,Medium
+22300130,26,rebound,1,PT10M16.00S,10:16,Q1 10:16,4,2,1610612762.0,Collins,J. Collins REBOUND (Off:0 Def:1),3pt missed,3pt missed,2,Medium
+22300130,27,3pt,1,PT10M12.00S,10:12,Q1 10:12,4,2,1610612762.0,Clarkson,MISS J. Clarkson 26' running 3PT,rebound,rebound,2,Medium
+22300130,28,rebound,1,PT10M09.00S,10:09,Q1 10:09,4,2,1610612753.0,Wagner,F. Wagner REBOUND (Off:0 Def:1),3pt missed,2pt missed,2,Medium
+22300130,29,2pt,1,PT10M02.00S,10:02,Q1 10:02,4,2,1610612753.0,Wagner,MISS F. Wagner driving finger roll Layup,rebound,rebound,2,Medium
+22300130,30,rebound,1,PT10M01.00S,10:01,Q1 10:01,4,2,1610612753.0,Banchero,P. Banchero REBOUND (Off:2 Def:0),2pt missed,foul,2,Medium
+22300130,31,foul,1,PT10M01.00S,10:01,Q1 10:01,4,2,1610612762.0,Horton-Tucker,T. Horton-Tucker personal FOUL (1 PF),rebound,3pt made,2,Medium
+22300130,34,3pt,1,PT09M55.00S,09:55,Q1 09:55,4,5,1610612753.0,Carter Jr.,W. Carter Jr. 25' 3PT  (5 PTS) (F. Wagner 1 AST),foul,3pt made,1,Medium
+22300130,36,3pt,1,PT09M39.00S,09:39,Q1 09:39,7,5,1610612762.0,Markkanen,L. Markkanen 26' 3PT  (3 PTS) (T. Horton-Tucker 1 AST),3pt made,2pt missed,2,Medium
+22300130,38,2pt,1,PT09M23.00S,09:23,Q1 09:23,7,5,1610612753.0,Carter Jr.,MISS W. Carter Jr. 6' turnaround Hook - blocked,3pt made,block,2,Medium
+22300130,39,block,1,PT09M23.00S,09:23,Q1 09:23,7,5,1610612762.0,Kessler,W. Kessler BLOCK (2 BLK),2pt missed,rebound,2,Medium
+22300130,40,rebound,1,PT09M19.00S,09:19,Q1 09:19,7,5,1610612762.0,Kessler,W. Kessler REBOUND (Off:0 Def:1),block,foul,2,Medium
+22300130,41,foul,1,PT09M18.00S,09:18,Q1 09:18,7,5,1610612753.0,Carter Jr.,W. Carter Jr. personal FOUL (1 PF),rebound,2pt missed,2,Medium
+22300130,43,2pt,1,PT09M01.00S,09:01,Q1 09:01,7,5,1610612762.0,Markkanen,MISS L. Markkanen 20' step back Shot,foul,rebound,2,Medium
+22300130,44,rebound,1,PT08M58.00S,08:58,Q1 08:58,7,5,1610612753.0,Banchero,P. Banchero REBOUND (Off:2 Def:1),2pt missed,turnover,2,Medium
+22300130,45,turnover,1,PT08M53.00S,08:53,Q1 08:53,7,5,1610612753.0,Banchero,P. Banchero lost ball out-of-bounds TURNOVER (1 TO),rebound,foul,2,Medium
+22300130,46,foul,1,PT08M47.00S,08:47,Q1 08:47,7,5,1610612753.0,Wagner,F. Wagner personal FOUL (1 PF),turnover,2pt missed,2,Medium
+22300130,48,2pt,1,PT08M41.00S,08:41,Q1 08:41,7,5,1610612762.0,Clarkson,MISS J. Clarkson 8' Jump Shot - blocked,foul,block,2,Medium
+22300130,49,block,1,PT08M41.00S,08:41,Q1 08:41,7,5,1610612753.0,Harris,G. Harris BLOCK (1 BLK),2pt missed,rebound,2,Medium
+22300130,50,rebound,1,PT08M39.00S,08:39,Q1 08:39,7,5,1610612753.0,Carter Jr.,W. Carter Jr. REBOUND (Off:1 Def:1),block,3pt missed,2,Medium
+22300130,51,3pt,1,PT08M36.00S,08:36,Q1 08:36,7,5,1610612753.0,Wagner,MISS F. Wagner 26' running 3PT,rebound,rebound,2,Medium
+22300130,52,rebound,1,PT08M32.00S,08:32,Q1 08:32,7,5,1610612762.0,Collins,J. Collins REBOUND (Off:0 Def:2),3pt missed,turnover,2,Medium
+22300130,53,turnover,1,PT08M24.00S,08:24,Q1 08:24,7,5,1610612762.0,Horton-Tucker,T. Horton-Tucker lost ball TURNOVER (1 TO),rebound,steal,2,Medium
+22300130,54,steal,1,PT08M24.00S,08:24,Q1 08:24,7,5,1610612753.0,Suggs,J. Suggs STEAL (2 STL),turnover,turnover,2,Medium
+22300130,55,turnover,1,PT08M20.00S,08:20,Q1 08:20,7,5,1610612753.0,Wagner,F. Wagner step out-of-bounds TURNOVER (1 TO),steal,2pt made,2,Medium
+22300130,56,2pt,1,PT08M04.00S,08:04,Q1 08:04,9,5,1610612762.0,Collins,J. Collins driving Layup (6 PTS) (J. Clarkson 2 AST),turnover,turnover,4,Medium
+22300130,57,turnover,1,PT07M48.00S,07:48,Q1 07:48,9,5,1610612753.0,Banchero,P. Banchero lost ball TURNOVER (2 TO),2pt made,steal,4,Medium
+22300130,58,steal,1,PT07M48.00S,07:48,Q1 07:48,9,5,1610612762.0,Clarkson,J. Clarkson STEAL (1 STL),turnover,turnover,4,Medium
+22300130,59,turnover,1,PT07M46.00S,07:46,Q1 07:46,9,5,1610612762.0,Clarkson,J. Clarkson lost ball TURNOVER (2 TO),steal,steal,4,Medium
+22300130,60,steal,1,PT07M46.00S,07:46,Q1 07:46,9,5,1610612753.0,Wagner,F. Wagner STEAL (1 STL),turnover,foul,4,Medium
+22300130,61,foul,1,PT07M46.00S,07:46,Q1 07:46,9,5,1610612762.0,Kessler,W. Kessler personal FOUL (1 PF),steal,substitution,4,Medium
+22300130,63,substitution,1,PT07M46.00S,07:46,Q1 07:46,9,5,1610612762.0,Kessler,SUB out: W. Kessler,foul,substitution,4,Medium
+22300130,64,substitution,1,PT07M46.00S,07:46,Q1 07:46,9,5,1610612762.0,Olynyk,SUB in: K. Olynyk,substitution,foul,4,Medium
+22300130,65,foul,1,PT07M37.00S,07:37,Q1 07:37,9,5,1610612753.0,Carter Jr.,W. Carter Jr. offensive FOUL (2 PF),substitution,turnover,4,Medium
+22300130,67,turnover,1,PT07M37.00S,07:37,Q1 07:37,9,5,1610612753.0,Carter Jr.,W. Carter Jr. offensive foul TURNOVER (1 TO),foul,foul,4,Medium
+22300130,68,foul,1,PT07M22.00S,07:22,Q1 07:22,9,5,1610612753.0,Suggs,J. Suggs shooting personal FOUL (2 PF) (Collins 2 FT),turnover,freethrow,4,Medium
+22300130,70,freethrow,1,PT07M22.00S,07:22,Q1 07:22,10,5,1610612762.0,Collins,J. Collins Free Throw 1 of 2 (7 PTS),foul,freethrow,5,Medium
+22300130,72,freethrow,1,PT07M22.00S,07:22,Q1 07:22,11,5,1610612762.0,Collins,J. Collins Free Throw 2 of 2 (8 PTS),freethrow,2pt missed,6,Medium
+22300130,73,2pt,1,PT07M12.00S,07:12,Q1 07:12,11,5,1610612753.0,Suggs,MISS J. Suggs driving reverse Layup - blocked,freethrow,block,6,Medium
+22300130,74,block,1,PT07M12.00S,07:12,Q1 07:12,11,5,1610612762.0,Collins,J. Collins BLOCK (1 BLK),2pt missed,rebound,6,Medium
+22300130,75,rebound,1,PT07M12.00S,07:12,Q1 07:12,11,5,1610612753.0,Carter Jr.,W. Carter Jr. REBOUND (Off:2 Def:1),block,foul,6,Medium
+22300130,76,foul,1,PT07M12.00S,07:12,Q1 07:12,11,5,1610612762.0,Olynyk,K. Olynyk shooting personal FOUL (1 PF) (Carter Jr. 2 FT),rebound,freethrow,6,Medium
+22300130,78,freethrow,1,PT07M12.00S,07:12,Q1 07:12,11,6,1610612753.0,Carter Jr.,W. Carter Jr. Free Throw 1 of 2 (6 PTS),foul,freethrow,5,Medium
+22300130,79,freethrow,1,PT07M12.00S,07:12,Q1 07:12,11,6,1610612753.0,Carter Jr.,MISS W. Carter Jr. Free Throw 2 of 2,freethrow,rebound,5,Medium
+22300130,80,rebound,1,PT07M08.00S,07:08,Q1 07:08,11,6,1610612753.0,Suggs,J. Suggs REBOUND (Off:1 Def:0),freethrow,2pt missed,5,Medium
+22300130,81,2pt,1,PT07M08.00S,07:08,Q1 07:08,11,6,1610612753.0,Suggs,MISS J. Suggs tip Layup,rebound,rebound,5,Medium
+22300130,82,rebound,1,PT07M07.00S,07:07,Q1 07:07,11,6,1610612753.0,Suggs,J. Suggs REBOUND (Off:2 Def:0),2pt missed,foul,5,Medium
+22300130,83,foul,1,PT07M07.00S,07:07,Q1 07:07,11,6,1610612762.0,Collins,J. Collins shooting personal FOUL (1 PF) (Suggs 2 FT),rebound,freethrow,5,Medium
+22300130,85,freethrow,1,PT07M07.00S,07:07,Q1 07:07,11,7,1610612753.0,Suggs,J. Suggs Free Throw 1 of 2 (1 PTS),foul,freethrow,4,Medium
+22300130,86,freethrow,1,PT07M07.00S,07:07,Q1 07:07,11,8,1610612753.0,Suggs,J. Suggs Free Throw 2 of 2 (2 PTS),freethrow,2pt made,3,Medium
+22300130,87,2pt,1,PT06M58.00S,06:58,Q1 06:58,13,8,1610612762.0,Horton-Tucker,T. Horton-Tucker driving Layup (2 PTS) (K. Olynyk 1 AST),freethrow,foul,5,Medium
+22300130,88,foul,1,PT06M53.00S,06:53,Q1 06:53,13,8,1610612762.0,Markkanen,L. Markkanen shooting personal FOUL (1 PF) (Suggs 2 FT),2pt made,timeout,5,Medium
+22300130,90,timeout,1,PT06M53.00S,06:53,Q1 06:53,13,8,1610612762.0,,UTA Timeout,foul,freethrow,5,Medium
+22300130,100,freethrow,1,PT06M53.00S,06:53,Q1 06:53,13,9,1610612753.0,Suggs,J. Suggs Free Throw 1 of 2 (3 PTS),timeout,freethrow,4,Medium
+22300130,101,freethrow,1,PT06M53.00S,06:53,Q1 06:53,13,10,1610612753.0,Suggs,J. Suggs Free Throw 2 of 2 (4 PTS),freethrow,substitution,3,Medium
+22300130,92,substitution,1,PT06M53.00S,06:53,Q1 06:53,13,8,1610612762.0,Horton-Tucker,SUB out: T. Horton-Tucker,freethrow,substitution,5,Medium
+22300130,93,substitution,1,PT06M53.00S,06:53,Q1 06:53,13,8,1610612762.0,Markkanen,SUB out: L. Markkanen,substitution,substitution,5,Medium
+22300130,94,substitution,1,PT06M53.00S,06:53,Q1 06:53,13,8,1610612753.0,Wagner,SUB out: F. Wagner,substitution,substitution,5,Medium
+22300130,95,substitution,1,PT06M53.00S,06:53,Q1 06:53,13,8,1610612753.0,Carter Jr.,SUB out: W. Carter Jr.,substitution,substitution,5,Medium
+22300130,96,substitution,1,PT06M53.00S,06:53,Q1 06:53,13,8,1610612762.0,George,SUB in: K. George,substitution,substitution,5,Medium
+22300130,97,substitution,1,PT06M53.00S,06:53,Q1 06:53,13,8,1610612762.0,Sexton,SUB in: C. Sexton,substitution,substitution,5,Medium
+22300130,98,substitution,1,PT06M53.00S,06:53,Q1 06:53,13,8,1610612753.0,Ingles,SUB in: J. Ingles,substitution,substitution,5,Medium
+22300130,99,substitution,1,PT06M53.00S,06:53,Q1 06:53,13,8,1610612753.0,Wagner,SUB in: M. Wagner,substitution,3pt made,5,Medium
+22300130,102,3pt,1,PT06M41.00S,06:41,Q1 06:41,16,10,1610612762.0,Clarkson,J. Clarkson 25' 3PT pullup (3 PTS),substitution,foul,6,Medium
+22300130,103,foul,1,PT06M29.00S,06:29,Q1 06:29,16,10,1610612762.0,Sexton,C. Sexton shooting personal FOUL (1 PF) (Banchero 2 FT),3pt made,freethrow,6,Medium
+22300130,105,freethrow,1,PT06M29.00S,06:29,Q1 06:29,16,11,1610612753.0,Banchero,P. Banchero Free Throw 1 of 2 (1 PTS),foul,freethrow,5,Medium
+22300130,108,freethrow,1,PT06M29.00S,06:29,Q1 06:29,16,12,1610612753.0,Banchero,P. Banchero Free Throw 2 of 2 (2 PTS),freethrow,substitution,4,Medium
+22300130,106,substitution,1,PT06M29.00S,06:29,Q1 06:29,16,11,1610612753.0,Suggs,SUB out: J. Suggs,freethrow,substitution,5,Medium
+22300130,107,substitution,1,PT06M29.00S,06:29,Q1 06:29,16,11,1610612753.0,Anthony,SUB in: C. Anthony,substitution,3pt missed,5,Medium
+22300130,109,3pt,1,PT06M14.00S,06:14,Q1 06:14,16,12,1610612762.0,Clarkson,MISS J. Clarkson 26' pullup 3PT,substitution,rebound,4,Medium
+22300130,110,rebound,1,PT06M10.00S,06:10,Q1 06:10,16,12,1610612762.0,Clarkson,J. Clarkson REBOUND (Off:1 Def:0),3pt missed,2pt made,4,Medium
+22300130,111,2pt,1,PT06M10.00S,06:10,Q1 06:10,18,12,1610612762.0,Clarkson,J. Clarkson tip Layup (5 PTS),rebound,3pt missed,6,Medium
+22300130,112,3pt,1,PT05M52.00S,05:52,Q1 05:52,18,12,1610612753.0,Ingles,MISS J. Ingles 3PT,2pt made,rebound,6,Medium
+22300130,113,rebound,1,PT05M49.00S,05:49,Q1 05:49,18,12,1610612762.0,Collins,J. Collins REBOUND (Off:0 Def:3),3pt missed,foul,6,Medium
+22300130,114,foul,1,PT05M46.00S,05:46,Q1 05:46,18,12,1610612753.0,Banchero,P. Banchero shooting personal FOUL (1 PF) (Clarkson 2 FT),rebound,freethrow,6,Medium
+22300130,116,freethrow,1,PT05M46.00S,05:46,Q1 05:46,19,12,1610612762.0,Clarkson,J. Clarkson Free Throw 1 of 2 (6 PTS),foul,freethrow,7,Medium
+22300130,117,freethrow,1,PT05M46.00S,05:46,Q1 05:46,20,12,1610612762.0,Clarkson,J. Clarkson Free Throw 2 of 2 (7 PTS),freethrow,2pt made,8,Medium
+22300130,118,2pt,1,PT05M28.00S,05:28,Q1 05:28,20,14,1610612753.0,Wagner,M. Wagner Layup (2 PTS) (G. Harris 1 AST),freethrow,turnover,6,Medium
+22300130,120,turnover,1,PT05M16.00S,05:16,Q1 05:16,20,14,1610612762.0,Sexton,C. Sexton lost ball TURNOVER (1 TO),2pt made,steal,6,Medium
+22300130,121,steal,1,PT05M16.00S,05:16,Q1 05:16,20,14,1610612753.0,Anthony,C. Anthony STEAL (1 STL),turnover,foul,6,Medium
+22300130,122,foul,1,PT05M11.00S,05:11,Q1 05:11,20,14,1610612762.0,George,K. George shooting personal FOUL (1 PF) (Anthony 2 FT),steal,freethrow,6,Medium
+22300130,125,freethrow,1,PT05M11.00S,05:11,Q1 05:11,20,15,1610612753.0,Anthony,C. Anthony Free Throw 1 of 2 (1 PTS),foul,freethrow,5,Medium
+22300130,126,freethrow,1,PT05M11.00S,05:11,Q1 05:11,20,16,1610612753.0,Anthony,C. Anthony Free Throw 2 of 2 (2 PTS),freethrow,3pt made,4,Medium
+22300130,128,3pt,1,PT04M57.00S,04:57,Q1 04:57,23,16,1610612762.0,George,K. George 25' 3PT  (3 PTS) (J. Clarkson 3 AST),freethrow,turnover,7,Medium
+22300130,134,turnover,1,PT04M41.00S,04:41,Q1 04:41,23,16,1610612753.0,Anthony,C. Anthony lost ball TURNOVER (1 TO),3pt made,steal,7,Medium
+22300130,135,steal,1,PT04M41.00S,04:41,Q1 04:41,23,16,1610612762.0,Olynyk,K. Olynyk STEAL (1 STL),turnover,timeout,7,Medium
+22300130,132,timeout,1,PT04M41.00S,04:41,Q1 04:41,23,16,1610612762.0,,UTA Timeout,steal,2pt missed,7,Medium
+22300130,136,2pt,1,PT04M28.00S,04:28,Q1 04:28,23,16,1610612762.0,Sexton,MISS C. Sexton cutting Layup - blocked,timeout,block,7,Medium
+22300130,137,block,1,PT04M28.00S,04:28,Q1 04:28,23,16,1610612753.0,Banchero,P. Banchero BLOCK (1 BLK),2pt missed,rebound,7,Medium
+22300130,138,rebound,1,PT04M24.00S,04:24,Q1 04:24,23,16,1610612762.0,Collins,J. Collins REBOUND (Off:1 Def:3),block,2pt made,7,Medium
+22300130,139,2pt,1,PT04M24.00S,04:24,Q1 04:24,25,16,1610612762.0,Collins,J. Collins putback Layup (10 PTS),rebound,2pt made,9,Medium
+22300130,140,2pt,1,PT04M11.00S,04:11,Q1 04:11,25,18,1610612753.0,Banchero,P. Banchero Layup (4 PTS) (C. Anthony 1 AST),2pt made,2pt made,7,Medium
+22300130,142,2pt,1,PT03M55.00S,03:55,Q1 03:55,27,18,1610612762.0,Olynyk,K. Olynyk driving Layup (2 PTS) (J. Clarkson 4 AST),2pt made,3pt missed,9,Medium
+22300130,143,3pt,1,PT03M48.00S,03:48,Q1 03:48,27,18,1610612753.0,Wagner,MISS M. Wagner 3PT,2pt made,rebound,9,Medium
+22300130,144,rebound,1,PT03M47.00S,03:47,Q1 03:47,27,18,1610612762.0,,TEAM defensive REBOUND,3pt missed,foul,9,Medium
+22300130,146,foul,1,PT03M39.00S,03:39,Q1 03:39,27,18,1610612753.0,Anthony,C. Anthony shooting personal FOUL (1 PF) (George 2 FT),rebound,freethrow,9,Medium
+22300130,149,freethrow,1,PT03M39.00S,03:39,Q1 03:39,27,18,1610612762.0,George,MISS K. George Free Throw 1 of 2,foul,rebound,9,Medium
+22300130,150,rebound,1,PT03M39.00S,03:39,Q1 03:39,27,18,1610612762.0,,TEAM offensive REBOUND,freethrow,freethrow,9,Medium
+22300130,151,freethrow,1,PT03M39.00S,03:39,Q1 03:39,28,18,1610612762.0,George,K. George Free Throw 2 of 2 (4 PTS),rebound,2pt made,10,Medium
+22300130,152,2pt,1,PT03M27.00S,03:27,Q1 03:27,28,20,1610612753.0,Wagner,M. Wagner cutting Layup (4 PTS) (C. Anthony 2 AST),freethrow,foul,8,Medium
+22300130,154,foul,1,PT03M27.00S,03:27,Q1 03:27,28,20,1610612762.0,Olynyk,K. Olynyk shooting personal FOUL (2 PF) (Wagner 1 FT),2pt made,freethrow,8,Medium
+22300130,156,freethrow,1,PT03M27.00S,03:27,Q1 03:27,28,21,1610612753.0,Wagner,M. Wagner Free Throw 1 of 1 (5 PTS),foul,3pt missed,7,Medium
+22300130,158,3pt,1,PT03M14.00S,03:14,Q1 03:14,28,21,1610612762.0,Olynyk,MISS K. Olynyk 25' 3PT,freethrow,rebound,7,Medium
+22300130,159,rebound,1,PT03M12.00S,03:12,Q1 03:12,28,21,1610612753.0,Banchero,P. Banchero REBOUND (Off:2 Def:2),3pt missed,2pt made,7,Medium
+22300130,160,2pt,1,PT03M06.00S,03:06,Q1 03:06,28,23,1610612753.0,Anthony,C. Anthony 22' running Jump Shot (4 PTS) (P. Banchero 1 AST),rebound,2pt missed,5,Medium
+22300130,162,2pt,1,PT02M43.00S,02:43,Q1 02:43,28,23,1610612762.0,Olynyk,MISS K. Olynyk reverse Layup - blocked,2pt made,block,5,Medium
+22300130,163,block,1,PT02M43.00S,02:43,Q1 02:43,28,23,1610612753.0,Wagner,M. Wagner BLOCK (1 BLK),2pt missed,rebound,5,Medium
+22300130,164,rebound,1,PT02M43.00S,02:43,Q1 02:43,28,23,1610612762.0,,TEAM offensive REBOUND,block,substitution,5,Medium
+22300130,166,substitution,1,PT02M43.00S,02:43,Q1 02:43,28,23,1610612762.0,Clarkson,SUB out: J. Clarkson,rebound,substitution,5,Medium
+22300130,167,substitution,1,PT02M43.00S,02:43,Q1 02:43,28,23,1610612762.0,Collins,SUB out: J. Collins,substitution,substitution,5,Medium
+22300130,168,substitution,1,PT02M43.00S,02:43,Q1 02:43,28,23,1610612753.0,Harris,SUB out: G. Harris,substitution,substitution,5,Medium
+22300130,169,substitution,1,PT02M43.00S,02:43,Q1 02:43,28,23,1610612762.0,Agbaji,SUB in: O. Agbaji,substitution,substitution,5,Medium
+22300130,170,substitution,1,PT02M43.00S,02:43,Q1 02:43,28,23,1610612762.0,Markkanen,SUB in: L. Markkanen,substitution,substitution,5,Medium
+22300130,171,substitution,1,PT02M43.00S,02:43,Q1 02:43,28,23,1610612753.0,Wagner,SUB in: F. Wagner,substitution,3pt missed,5,Medium
+22300130,172,3pt,1,PT02M40.00S,02:40,Q1 02:40,28,23,1610612762.0,Sexton,MISS C. Sexton 24' 3PT,substitution,rebound,5,Medium
+22300130,173,rebound,1,PT02M38.00S,02:38,Q1 02:38,28,23,1610612753.0,Anthony,C. Anthony REBOUND (Off:0 Def:1),3pt missed,2pt made,5,Medium
+22300130,174,2pt,1,PT02M33.00S,02:33,Q1 02:33,28,25,1610612753.0,Banchero,P. Banchero running Layup (6 PTS),rebound,foul,3,Medium
+22300130,175,foul,1,PT02M33.00S,02:33,Q1 02:33,28,25,1610612762.0,Olynyk,K. Olynyk shooting personal FOUL (3 PF) (Banchero 1 FT),2pt made,freethrow,3,Medium
+22300130,179,freethrow,1,PT02M33.00S,02:33,Q1 02:33,28,25,1610612753.0,Banchero,MISS P. Banchero Free Throw 1 of 1,foul,substitution,3,Medium
+22300130,177,substitution,1,PT02M33.00S,02:33,Q1 02:33,28,25,1610612762.0,Olynyk,SUB out: K. Olynyk,freethrow,substitution,3,Medium
+22300130,178,substitution,1,PT02M33.00S,02:33,Q1 02:33,28,25,1610612762.0,Kessler,SUB in: W. Kessler,substitution,rebound,3,Medium
+22300130,180,rebound,1,PT02M32.00S,02:32,Q1 02:32,28,25,1610612762.0,Kessler,W. Kessler REBOUND (Off:0 Def:2),substitution,2pt made,3,Medium
+22300130,181,2pt,1,PT02M15.00S,02:15,Q1 02:15,30,25,1610612762.0,Sexton,C. Sexton floating Jump Shot (2 PTS) (O. Agbaji 1 AST),rebound,2pt missed,5,Medium
+22300130,183,2pt,1,PT01M59.00S,01:59,Q1 01:59,30,25,1610612753.0,Ingles,MISS J. Ingles driving Layup,2pt made,rebound,5,Medium
+22300130,184,rebound,1,PT01M57.00S,01:57,Q1 01:57,30,25,1610612762.0,George,K. George REBOUND (Off:0 Def:1),2pt missed,turnover,5,Medium
+22300130,185,turnover,1,PT01M48.00S,01:48,Q1 01:48,30,25,1610612762.0,Sexton,C. Sexton traveling TURNOVER (2 TO),rebound,substitution,5,Medium
+22300130,186,substitution,1,PT01M48.00S,01:48,Q1 01:48,30,25,1610612753.0,Banchero,SUB out: P. Banchero,turnover,substitution,5,Medium
+22300130,187,substitution,1,PT01M48.00S,01:48,Q1 01:48,30,25,1610612753.0,Isaac,SUB in: J. Isaac,substitution,2pt made,5,Medium
+22300130,188,2pt,1,PT01M32.00S,01:32,Q1 01:32,30,27,1610612753.0,Wagner,F. Wagner Hook (2 PTS),substitution,2pt made,3,Medium
+22300130,189,2pt,1,PT01M15.00S,01:15,Q1 01:15,32,27,1610612762.0,Sexton,C. Sexton 7' floating Jump Shot (4 PTS),2pt made,3pt missed,5,Medium
+22300130,190,3pt,1,PT00M58.70S,00:58,Q1 00:58,32,27,1610612753.0,Isaac,MISS J. Isaac 3PT,2pt made,rebound,5,Medium
+22300130,191,rebound,1,PT00M56.90S,00:56,Q1 00:56,32,27,1610612762.0,George,K. George REBOUND (Off:0 Def:2),3pt missed,2pt made,5,Medium
+22300130,192,2pt,1,PT00M44.30S,00:44,Q1 00:44,34,27,1610612762.0,Markkanen,L. Markkanen cutting Layup (5 PTS) (K. George 1 AST),rebound,3pt missed,7,Medium
+22300130,194,3pt,1,PT00M29.70S,00:29,Q1 00:29,34,27,1610612753.0,Anthony,MISS C. Anthony 25' 3PT,2pt made,rebound,7,Medium
+22300130,195,rebound,1,PT00M25.20S,00:25,Q1 00:25,34,27,1610612762.0,Markkanen,L. Markkanen REBOUND (Off:0 Def:1),3pt missed,foul,7,Medium
+22300130,196,foul,1,PT00M07.40S,00:07,Q1 00:07,34,27,1610612753.0,Wagner,M. Wagner personal FOUL (1 PF) (Markkanen 2 FT),rebound,freethrow,7,Medium
+22300130,198,freethrow,1,PT00M07.40S,00:07,Q1 00:07,34,27,1610612762.0,Markkanen,MISS L. Markkanen Free Throw 1 of 2,foul,rebound,7,Medium
+22300130,199,rebound,1,PT00M07.40S,00:07,Q1 00:07,34,27,1610612762.0,,TEAM offensive REBOUND,freethrow,freethrow,7,Medium
+22300130,200,freethrow,1,PT00M07.40S,00:07,Q1 00:07,34,27,1610612762.0,Markkanen,MISS L. Markkanen Free Throw 2 of 2,rebound,rebound,7,Medium
+22300130,201,rebound,1,PT00M05.80S,00:05,Q1 00:05,34,27,1610612753.0,Wagner,M. Wagner REBOUND (Off:0 Def:1),freethrow,3pt made,7,Medium
+22300130,202,3pt,1,PT00M00.80S,00:00,Q1 00:00,34,30,1610612753.0,Wagner,M. Wagner 25' 3PT  (8 PTS) (C. Anthony 3 AST),rebound,substitution,4,Medium
+22300130,207,substitution,2,PT12M00.00S,12:00,Q2 12:00,34,30,1610612762.0,Sexton,SUB out: C. Sexton,3pt made,substitution,4,Medium
+22300130,208,substitution,2,PT12M00.00S,12:00,Q2 12:00,34,30,1610612762.0,Horton-Tucker,SUB in: T. Horton-Tucker,substitution,2pt made,4,Medium
+22300130,210,2pt,2,PT11M47.00S,11:47,Q2 11:47,34,32,1610612753.0,Isaac,J. Isaac cutting Layup (2 PTS) (C. Anthony 4 AST),substitution,foul,2,Medium
+22300130,212,foul,2,PT11M47.00S,11:47,Q2 11:47,34,32,1610612762.0,Markkanen,L. Markkanen shooting personal FOUL (2 PF) (Isaac 1 FT),2pt made,freethrow,2,Medium
+22300130,214,freethrow,2,PT11M47.00S,11:47,Q2 11:47,34,33,1610612753.0,Isaac,J. Isaac Free Throw 1 of 1 (3 PTS),foul,2pt made,1,Medium
+22300130,215,2pt,2,PT11M35.00S,11:35,Q2 11:35,36,33,1610612762.0,Horton-Tucker,T. Horton-Tucker driving Layup (4 PTS),freethrow,foul,3,Medium
+22300130,216,foul,2,PT11M20.00S,11:20,Q2 11:20,36,33,1610612762.0,Agbaji,O. Agbaji shooting personal FOUL (1 PF) (Ingles 2 FT),2pt made,freethrow,3,Medium
+22300130,218,freethrow,2,PT11M20.00S,11:20,Q2 11:20,36,34,1610612753.0,Ingles,J. Ingles Free Throw 1 of 2 (1 PTS),foul,freethrow,2,Medium
+22300130,219,freethrow,2,PT11M20.00S,11:20,Q2 11:20,36,34,1610612753.0,Ingles,MISS J. Ingles Free Throw 2 of 2,freethrow,rebound,2,Medium
+22300130,220,rebound,2,PT11M18.00S,11:18,Q2 11:18,36,34,1610612762.0,Kessler,W. Kessler REBOUND (Off:0 Def:3),freethrow,2pt missed,2,Medium
+22300130,221,2pt,2,PT11M07.00S,11:07,Q2 11:07,36,34,1610612762.0,Kessler,MISS W. Kessler alley-oop Layup,rebound,rebound,2,Medium
+22300130,222,rebound,2,PT11M05.00S,11:05,Q2 11:05,36,34,1610612762.0,Kessler,W. Kessler REBOUND (Off:1 Def:3),2pt missed,turnover,2,Medium
+22300130,223,turnover,2,PT11M01.00S,11:01,Q2 11:01,36,34,1610612762.0,Kessler,W. Kessler bad pass TURNOVER (1 TO),rebound,steal,2,Medium
+22300130,224,steal,2,PT11M01.00S,11:01,Q2 11:01,36,34,1610612753.0,Wagner,F. Wagner STEAL (2 STL),turnover,2pt made,2,Medium
+22300130,225,2pt,2,PT10M53.00S,10:53,Q2 10:53,36,36,1610612753.0,Wagner,M. Wagner driving reverse Layup (10 PTS) (F. Wagner 2 AST),steal,2pt made,0,Medium
+22300130,227,2pt,2,PT10M38.00S,10:38,Q2 10:38,38,36,1610612762.0,Markkanen,L. Markkanen 9' driving floating Jump Shot (7 PTS) (T. Horton-Tucker 2 AST),2pt made,2pt missed,2,Medium
+22300130,229,2pt,2,PT10M16.00S,10:16,Q2 10:16,38,36,1610612753.0,Wagner,MISS F. Wagner reverse Layup - blocked,2pt made,block,2,Medium
+22300130,230,block,2,PT10M16.00S,10:16,Q2 10:16,38,36,1610612762.0,Kessler,W. Kessler BLOCK (3 BLK),2pt missed,rebound,2,Medium
+22300130,231,rebound,2,PT10M14.00S,10:14,Q2 10:14,38,36,1610612762.0,Horton-Tucker,T. Horton-Tucker REBOUND (Off:0 Def:1),block,3pt missed,2,Medium
+22300130,232,3pt,2,PT10M11.00S,10:11,Q2 10:11,38,36,1610612762.0,Agbaji,MISS O. Agbaji 25' 3PT,rebound,rebound,2,Medium
+22300130,233,rebound,2,PT10M08.00S,10:08,Q2 10:08,38,36,1610612753.0,Anthony,C. Anthony REBOUND (Off:0 Def:2),3pt missed,2pt made,2,Medium
+22300130,234,2pt,2,PT09M58.00S,09:58,Q2 09:58,38,38,1610612753.0,Anthony,C. Anthony driving Layup (6 PTS),rebound,foul,0,Medium
+22300130,235,foul,2,PT09M58.00S,09:58,Q2 09:58,38,38,1610612762.0,Agbaji,O. Agbaji shooting personal FOUL (2 PF) (Anthony 1 FT),2pt made,timeout,0,Medium
+22300130,237,timeout,2,PT09M58.00S,09:58,Q2 09:58,38,38,1610612762.0,,UTA Timeout,foul,freethrow,0,Medium
+22300130,240,freethrow,2,PT09M58.00S,09:58,Q2 09:58,38,39,1610612753.0,Anthony,C. Anthony Free Throw 1 of 1 (7 PTS),timeout,substitution,1,Medium
+22300130,238,substitution,2,PT09M58.00S,09:58,Q2 09:58,38,38,1610612762.0,George,SUB out: K. George,freethrow,substitution,0,Medium
+22300130,239,substitution,2,PT09M58.00S,09:58,Q2 09:58,38,38,1610612762.0,Dunn,SUB in: K. Dunn,substitution,2pt made,0,Medium
+22300130,241,2pt,2,PT09M46.00S,09:46,Q2 09:46,40,39,1610612762.0,Markkanen,L. Markkanen 11' fadeaway Jump Shot (9 PTS) (T. Horton-Tucker 3 AST),substitution,2pt missed,1,Medium
+22300130,243,2pt,2,PT09M29.00S,09:29,Q2 09:29,40,39,1610612753.0,Wagner,MISS F. Wagner Layup - blocked,2pt made,block,1,Medium
+22300130,244,block,2,PT09M29.00S,09:29,Q2 09:29,40,39,1610612762.0,Kessler,W. Kessler BLOCK (4 BLK),2pt missed,rebound,1,Medium
+22300130,245,rebound,2,PT09M26.00S,09:26,Q2 09:26,40,39,1610612753.0,Isaac,J. Isaac REBOUND (Off:1 Def:0),block,3pt missed,1,Medium
+22300130,246,3pt,2,PT09M22.00S,09:22,Q2 09:22,40,39,1610612753.0,Ingles,MISS J. Ingles 26' 3PT,rebound,rebound,1,Medium
+22300130,247,rebound,2,PT09M20.00S,09:20,Q2 09:20,40,39,1610612762.0,Dunn,K. Dunn REBOUND (Off:0 Def:1),3pt missed,2pt made,1,Medium
+22300130,248,2pt,2,PT09M13.00S,09:13,Q2 09:13,42,39,1610612762.0,Horton-Tucker,T. Horton-Tucker driving reverse Layup (6 PTS) (K. Dunn 1 AST),rebound,turnover,3,Medium
+22300130,250,turnover,2,PT09M02.00S,09:02,Q2 09:02,42,39,1610612753.0,Anthony,C. Anthony bad pass TURNOVER (2 TO),2pt made,steal,3,Medium
+22300130,251,steal,2,PT09M02.00S,09:02,Q2 09:02,42,39,1610612762.0,Markkanen,L. Markkanen STEAL (1 STL),turnover,turnover,3,Medium
+22300130,252,turnover,2,PT08M57.00S,08:57,Q2 08:57,42,39,1610612762.0,Markkanen,L. Markkanen lost ball TURNOVER (1 TO),steal,steal,3,Medium
+22300130,253,steal,2,PT08M57.00S,08:57,Q2 08:57,42,39,1610612753.0,Anthony,C. Anthony STEAL (2 STL),turnover,3pt missed,3,Medium
+22300130,254,3pt,2,PT08M48.00S,08:48,Q2 08:48,42,39,1610612753.0,Ingles,MISS J. Ingles 25' 3PT,steal,rebound,3,Medium
+22300130,255,rebound,2,PT08M45.00S,08:45,Q2 08:45,42,39,1610612762.0,Kessler,W. Kessler REBOUND (Off:1 Def:4),3pt missed,3pt missed,3,Medium
+22300130,256,3pt,2,PT08M32.00S,08:32,Q2 08:32,42,39,1610612762.0,Markkanen,MISS L. Markkanen 26' 3PT,rebound,rebound,3,Medium
+22300130,257,rebound,2,PT08M28.00S,08:28,Q2 08:28,42,39,1610612753.0,Wagner,F. Wagner REBOUND (Off:0 Def:2),3pt missed,3pt missed,3,Medium
+22300130,258,3pt,2,PT08M23.00S,08:23,Q2 08:23,42,39,1610612753.0,Wagner,MISS F. Wagner 27' running pullup 3PT,rebound,rebound,3,Medium
+22300130,259,rebound,2,PT08M21.00S,08:21,Q2 08:21,42,39,1610612753.0,Wagner,F. Wagner REBOUND (Off:1 Def:2),3pt missed,3pt made,3,Medium
+22300130,260,3pt,2,PT08M19.00S,08:19,Q2 08:19,42,42,1610612753.0,Ingles,J. Ingles 24' 3PT  (4 PTS) (F. Wagner 3 AST),rebound,2pt made,0,Medium
+22300130,262,2pt,2,PT07M59.00S,07:59,Q2 07:59,44,42,1610612762.0,Dunn,K. Dunn 10' floating Jump Shot (2 PTS),3pt made,2pt missed,2,Medium
+22300130,264,2pt,2,PT07M49.00S,07:49,Q2 07:49,44,42,1610612753.0,Anthony,MISS C. Anthony driving Layup - blocked,2pt made,block,2,Medium
+22300130,265,block,2,PT07M49.00S,07:49,Q2 07:49,44,42,1610612762.0,Kessler,W. Kessler BLOCK (5 BLK),2pt missed,rebound,2,Medium
+22300130,266,rebound,2,PT07M47.00S,07:47,Q2 07:47,44,42,1610612762.0,Dunn,K. Dunn REBOUND (Off:0 Def:2),block,2pt made,2,Medium
+22300130,267,2pt,2,PT07M44.00S,07:44,Q2 07:44,46,42,1610612762.0,Agbaji,O. Agbaji running DUNK (2 PTS) (K. Dunn 2 AST),rebound,timeout,4,Medium
+22300130,269,timeout,2,PT07M44.00S,07:44,Q2 07:44,46,42,1610612753.0,,ORL Timeout,2pt made,substitution,4,Medium
+22300130,270,substitution,2,PT07M44.00S,07:44,Q2 07:44,46,42,1610612762.0,Markkanen,SUB out: L. Markkanen,timeout,substitution,4,Medium
+22300130,271,substitution,2,PT07M44.00S,07:44,Q2 07:44,46,42,1610612762.0,Agbaji,SUB out: O. Agbaji,substitution,substitution,4,Medium
+22300130,272,substitution,2,PT07M44.00S,07:44,Q2 07:44,46,42,1610612753.0,Isaac,SUB out: J. Isaac,substitution,substitution,4,Medium
+22300130,273,substitution,2,PT07M44.00S,07:44,Q2 07:44,46,42,1610612753.0,Wagner,SUB out: M. Wagner,substitution,substitution,4,Medium
+22300130,274,substitution,2,PT07M44.00S,07:44,Q2 07:44,46,42,1610612753.0,Wagner,SUB out: F. Wagner,substitution,substitution,4,Medium
+22300130,275,substitution,2,PT07M44.00S,07:44,Q2 07:44,46,42,1610612753.0,Anthony,SUB out: C. Anthony,substitution,substitution,4,Medium
+22300130,276,substitution,2,PT07M44.00S,07:44,Q2 07:44,46,42,1610612762.0,Clarkson,SUB in: J. Clarkson,substitution,substitution,4,Medium
+22300130,277,substitution,2,PT07M44.00S,07:44,Q2 07:44,46,42,1610612762.0,Collins,SUB in: J. Collins,substitution,substitution,4,Medium
+22300130,278,substitution,2,PT07M44.00S,07:44,Q2 07:44,46,42,1610612753.0,Carter Jr.,SUB in: W. Carter Jr.,substitution,substitution,4,Medium
+22300130,279,substitution,2,PT07M44.00S,07:44,Q2 07:44,46,42,1610612753.0,Banchero,SUB in: P. Banchero,substitution,substitution,4,Medium
+22300130,280,substitution,2,PT07M44.00S,07:44,Q2 07:44,46,42,1610612753.0,Suggs,SUB in: J. Suggs,substitution,substitution,4,Medium
+22300130,281,substitution,2,PT07M44.00S,07:44,Q2 07:44,46,42,1610612753.0,Harris,SUB in: G. Harris,substitution,turnover,4,Medium
+22300130,282,turnover,2,PT07M33.00S,07:33,Q2 07:33,46,42,1610612753.0,Suggs,J. Suggs lost ball TURNOVER (1 TO),substitution,steal,4,Medium
+22300130,283,steal,2,PT07M33.00S,07:33,Q2 07:33,46,42,1610612762.0,Horton-Tucker,T. Horton-Tucker STEAL (1 STL),turnover,2pt made,4,Medium
+22300130,284,2pt,2,PT07M28.00S,07:28,Q2 07:28,48,42,1610612762.0,Collins,J. Collins running Layup (12 PTS) (K. Dunn 3 AST),steal,2pt missed,6,Medium
+22300130,286,2pt,2,PT07M15.00S,07:15,Q2 07:15,48,42,1610612753.0,Banchero,MISS P. Banchero 14' turnaround fadeaway Shot,2pt made,rebound,6,Medium
+22300130,287,rebound,2,PT07M13.00S,07:13,Q2 07:13,48,42,1610612762.0,,TEAM defensive REBOUND,2pt missed,2pt missed,6,Medium
+22300130,289,2pt,2,PT07M00.00S,07:00,Q2 07:00,48,42,1610612762.0,Clarkson,MISS J. Clarkson 9' fadeaway Shot,rebound,rebound,6,Medium
+22300130,290,rebound,2,PT06M57.00S,06:57,Q2 06:57,48,42,1610612753.0,Carter Jr.,W. Carter Jr. REBOUND (Off:2 Def:2),2pt missed,3pt made,6,Medium
+22300130,291,3pt,2,PT06M51.00S,06:51,Q2 06:51,48,45,1610612753.0,Carter Jr.,W. Carter Jr. 3PT  (9 PTS) (J. Suggs 1 AST),rebound,3pt made,3,Medium
+22300130,293,3pt,2,PT06M35.00S,06:35,Q2 06:35,51,45,1610612762.0,Collins,J. Collins 3PT  (15 PTS) (J. Clarkson 5 AST),3pt made,foul,6,Medium
+22300130,295,foul,2,PT06M20.00S,06:20,Q2 06:20,51,45,1610612762.0,Kessler,W. Kessler shooting personal FOUL (2 PF) (Banchero 2 FT),3pt made,freethrow,6,Medium
+22300130,297,freethrow,2,PT06M20.00S,06:20,Q2 06:20,51,46,1610612753.0,Banchero,P. Banchero Free Throw 1 of 2 (7 PTS),foul,freethrow,5,Medium
+22300130,300,freethrow,2,PT06M20.00S,06:20,Q2 06:20,51,47,1610612753.0,Banchero,P. Banchero Free Throw 2 of 2 (8 PTS),freethrow,substitution,4,Medium
+22300130,298,substitution,2,PT06M20.00S,06:20,Q2 06:20,51,46,1610612762.0,Kessler,SUB out: W. Kessler,freethrow,substitution,5,Medium
+22300130,299,substitution,2,PT06M20.00S,06:20,Q2 06:20,51,46,1610612762.0,Olynyk,SUB in: K. Olynyk,substitution,2pt missed,5,Medium
+22300130,301,2pt,2,PT06M09.00S,06:09,Q2 06:09,51,47,1610612762.0,Horton-Tucker,MISS T. Horton-Tucker 7' driving floating Shot,substitution,rebound,4,Medium
+22300130,302,rebound,2,PT06M06.00S,06:06,Q2 06:06,51,47,1610612762.0,Collins,J. Collins REBOUND (Off:2 Def:3),2pt missed,3pt missed,4,Medium
+22300130,303,3pt,2,PT06M05.00S,06:05,Q2 06:05,51,47,1610612762.0,Horton-Tucker,MISS T. Horton-Tucker 3PT,rebound,rebound,4,Medium
+22300130,304,rebound,2,PT06M03.00S,06:03,Q2 06:03,51,47,1610612753.0,Ingles,J. Ingles REBOUND (Off:0 Def:1),3pt missed,3pt made,4,Medium
+22300130,305,3pt,2,PT05M51.00S,05:51,Q2 05:51,51,50,1610612753.0,Carter Jr.,W. Carter Jr. 24' 3PT  (12 PTS) (P. Banchero 2 AST),rebound,2pt missed,1,Medium
+22300130,307,2pt,2,PT05M36.00S,05:36,Q2 05:36,51,50,1610612762.0,Dunn,MISS K. Dunn driving Layup,3pt made,rebound,1,Medium
+22300130,308,rebound,2,PT05M34.00S,05:34,Q2 05:34,51,50,1610612753.0,Banchero,P. Banchero REBOUND (Off:2 Def:3),2pt missed,2pt missed,1,Medium
+22300130,309,2pt,2,PT05M29.00S,05:29,Q2 05:29,51,50,1610612753.0,Suggs,MISS J. Suggs running reverse Layup,rebound,rebound,1,Medium
+22300130,310,rebound,2,PT05M27.00S,05:27,Q2 05:27,51,50,1610612762.0,Clarkson,J. Clarkson REBOUND (Off:1 Def:1),2pt missed,foul,1,Medium
+22300130,311,foul,2,PT05M22.00S,05:22,Q2 05:22,51,50,1610612753.0,Banchero,P. Banchero shooting personal FOUL (2 PF) (Clarkson 2 FT),rebound,freethrow,1,Medium
+22300130,313,freethrow,2,PT05M22.00S,05:22,Q2 05:22,52,50,1610612762.0,Clarkson,J. Clarkson Free Throw 1 of 2 (8 PTS),foul,freethrow,2,Medium
+22300130,316,freethrow,2,PT05M22.00S,05:22,Q2 05:22,53,50,1610612762.0,Clarkson,J. Clarkson Free Throw 2 of 2 (9 PTS),freethrow,substitution,3,Medium
+22300130,314,substitution,2,PT05M22.00S,05:22,Q2 05:22,52,50,1610612753.0,Ingles,SUB out: J. Ingles,freethrow,substitution,2,Medium
+22300130,315,substitution,2,PT05M22.00S,05:22,Q2 05:22,52,50,1610612753.0,Wagner,SUB in: F. Wagner,substitution,3pt made,2,Medium
+22300130,317,3pt,2,PT05M10.00S,05:10,Q2 05:10,53,53,1610612753.0,Wagner,F. Wagner 24' 3PT  (5 PTS) (J. Suggs 2 AST),substitution,foul,0,Medium
+22300130,319,foul,2,PT04M56.00S,04:56,Q2 04:56,53,53,1610612762.0,Olynyk,K. Olynyk offensive FOUL (4 PF),3pt made,turnover,0,Medium
+22300130,321,turnover,2,PT04M56.00S,04:56,Q2 04:56,53,53,1610612762.0,Olynyk,K. Olynyk offensive foul TURNOVER (1 TO),foul,substitution,0,Medium
+22300130,322,substitution,2,PT04M56.00S,04:56,Q2 04:56,53,53,1610612762.0,Olynyk,SUB out: K. Olynyk,turnover,substitution,0,Medium
+22300130,323,substitution,2,PT04M56.00S,04:56,Q2 04:56,53,53,1610612762.0,Kessler,SUB in: W. Kessler,substitution,2pt made,0,Medium
+22300130,324,2pt,2,PT04M42.00S,04:42,Q2 04:42,53,55,1610612753.0,Wagner,F. Wagner cutting DUNK (7 PTS) (W. Carter Jr. 1 AST),substitution,foul,2,Medium
+22300130,326,foul,2,PT04M28.00S,04:28,Q2 04:28,53,55,1610612753.0,Harris,G. Harris personal FOUL (1 PF),2pt made,substitution,2,Medium
+22300130,328,substitution,2,PT04M28.00S,04:28,Q2 04:28,53,55,1610612762.0,Horton-Tucker,SUB out: T. Horton-Tucker,foul,substitution,2,Medium
+22300130,329,substitution,2,PT04M28.00S,04:28,Q2 04:28,53,55,1610612762.0,Dunn,SUB out: K. Dunn,substitution,substitution,2,Medium
+22300130,330,substitution,2,PT04M28.00S,04:28,Q2 04:28,53,55,1610612762.0,Sexton,SUB in: C. Sexton,substitution,substitution,2,Medium
+22300130,331,substitution,2,PT04M28.00S,04:28,Q2 04:28,53,55,1610612762.0,Markkanen,SUB in: L. Markkanen,substitution,2pt missed,2,Medium
+22300130,332,2pt,2,PT04M18.00S,04:18,Q2 04:18,53,55,1610612762.0,Kessler,MISS W. Kessler Layup,substitution,rebound,2,Medium
+22300130,333,rebound,2,PT04M16.00S,04:16,Q2 04:16,53,55,1610612753.0,Carter Jr.,W. Carter Jr. REBOUND (Off:2 Def:3),2pt missed,3pt missed,2,Medium
+22300130,334,3pt,2,PT04M02.00S,04:02,Q2 04:02,53,55,1610612753.0,Carter Jr.,MISS W. Carter Jr. 3PT,rebound,rebound,2,Medium
+22300130,335,rebound,2,PT04M00.00S,04:00,Q2 04:00,53,55,1610612762.0,Markkanen,L. Markkanen REBOUND (Off:0 Def:2),3pt missed,turnover,2,Medium
+22300130,336,turnover,2,PT03M54.00S,03:54,Q2 03:54,53,55,1610612762.0,Markkanen,L. Markkanen bad pass TURNOVER (2 TO),rebound,steal,2,Medium
+22300130,337,steal,2,PT03M54.00S,03:54,Q2 03:54,53,55,1610612753.0,Banchero,P. Banchero STEAL (1 STL),turnover,2pt made,2,Medium
+22300130,338,2pt,2,PT03M51.00S,03:51,Q2 03:51,53,57,1610612753.0,Banchero,P. Banchero running DUNK (10 PTS),steal,foul,4,Medium
+22300130,339,foul,2,PT03M28.00S,03:28,Q2 03:28,53,57,1610612753.0,Suggs,J. Suggs shooting personal FOUL (3 PF) (Sexton 2 FT),2pt made,freethrow,4,Medium
+22300130,341,freethrow,2,PT03M28.00S,03:28,Q2 03:28,54,57,1610612762.0,Sexton,C. Sexton Free Throw 1 of 2 (5 PTS),foul,freethrow,3,Medium
+22300130,344,freethrow,2,PT03M28.00S,03:28,Q2 03:28,54,57,1610612762.0,Sexton,MISS C. Sexton Free Throw 2 of 2,freethrow,substitution,3,Medium
+22300130,342,substitution,2,PT03M28.00S,03:28,Q2 03:28,54,57,1610612753.0,Suggs,SUB out: J. Suggs,freethrow,substitution,3,Medium
+22300130,343,substitution,2,PT03M28.00S,03:28,Q2 03:28,54,57,1610612753.0,Black,SUB in: A. Black,substitution,rebound,3,Medium
+22300130,345,rebound,2,PT03M27.00S,03:27,Q2 03:27,54,57,1610612762.0,Sexton,C. Sexton REBOUND (Off:1 Def:0),substitution,3pt missed,3,Medium
+22300130,346,3pt,2,PT03M23.00S,03:23,Q2 03:23,54,57,1610612762.0,Markkanen,MISS L. Markkanen 28' 3PT,rebound,rebound,3,Medium
+22300130,347,rebound,2,PT03M18.00S,03:18,Q2 03:18,54,57,1610612753.0,Banchero,P. Banchero REBOUND (Off:2 Def:4),3pt missed,2pt made,3,Medium
+22300130,348,2pt,2,PT03M12.00S,03:12,Q2 03:12,54,59,1610612753.0,Carter Jr.,W. Carter Jr. cutting DUNK (14 PTS) (F. Wagner 4 AST),rebound,3pt missed,5,Medium
+22300130,351,3pt,2,PT02M55.00S,02:55,Q2 02:55,54,59,1610612762.0,Clarkson,MISS J. Clarkson 27' 3PT,2pt made,rebound,5,Medium
+22300130,352,rebound,2,PT02M50.00S,02:50,Q2 02:50,54,59,1610612762.0,Kessler,W. Kessler REBOUND (Off:2 Def:4),3pt missed,2pt missed,5,Medium
+22300130,353,2pt,2,PT02M50.00S,02:50,Q2 02:50,54,59,1610612762.0,Kessler,MISS W. Kessler tip Layup,rebound,rebound,5,Medium
+22300130,354,rebound,2,PT02M50.00S,02:50,Q2 02:50,54,59,1610612753.0,Carter Jr.,W. Carter Jr. REBOUND (Off:2 Def:4),2pt missed,2pt made,5,Medium
+22300130,355,2pt,2,PT02M44.00S,02:44,Q2 02:44,54,61,1610612753.0,Wagner,F. Wagner driving Hook (9 PTS),rebound,foul,7,Medium
+22300130,356,foul,2,PT02M33.00S,02:33,Q2 02:33,54,61,1610612753.0,Wagner,F. Wagner personal FOUL (2 PF),2pt made,substitution,7,Medium
+22300130,359,substitution,2,PT02M33.00S,02:33,Q2 02:33,54,61,1610612753.0,Anthony,SUB in: C. Anthony,foul,substitution,7,Medium
+22300130,360,substitution,2,PT02M33.00S,02:33,Q2 02:33,54,61,1610612753.0,Harris,SUB out: G. Harris,substitution,2pt missed,7,Medium
+22300130,361,2pt,2,PT02M26.00S,02:26,Q2 02:26,54,61,1610612762.0,Clarkson,MISS J. Clarkson 12' Jump Shot,substitution,rebound,7,Medium
+22300130,362,rebound,2,PT02M23.00S,02:23,Q2 02:23,54,61,1610612753.0,Black,A. Black REBOUND (Off:0 Def:1),2pt missed,2pt missed,7,Medium
+22300130,363,2pt,2,PT02M13.00S,02:13,Q2 02:13,54,61,1610612753.0,Wagner,MISS F. Wagner Layup,rebound,rebound,7,Medium
+22300130,364,rebound,2,PT02M11.00S,02:11,Q2 02:11,54,61,1610612762.0,Collins,J. Collins REBOUND (Off:2 Def:4),2pt missed,turnover,7,Medium
+22300130,365,turnover,2,PT02M06.00S,02:06,Q2 02:06,54,61,1610612762.0,Collins,J. Collins bad pass TURNOVER (1 TO),rebound,steal,7,Medium
+22300130,366,steal,2,PT02M06.00S,02:06,Q2 02:06,54,61,1610612753.0,Banchero,P. Banchero STEAL (2 STL),turnover,turnover,7,Medium
+22300130,367,turnover,2,PT02M04.00S,02:04,Q2 02:04,54,61,1610612753.0,Anthony,C. Anthony bad pass out-of-bounds TURNOVER (3 TO),steal,turnover,7,Medium
+22300130,368,turnover,2,PT01M52.00S,01:52,Q2 01:52,54,61,1610612762.0,Clarkson,J. Clarkson lost ball TURNOVER (3 TO),turnover,steal,7,Medium
+22300130,369,steal,2,PT01M52.00S,01:52,Q2 01:52,54,61,1610612753.0,Black,A. Black STEAL (1 STL),turnover,2pt made,7,Medium
+22300130,370,2pt,2,PT01M47.00S,01:47,Q2 01:47,54,63,1610612753.0,Banchero,P. Banchero reverse Layup (12 PTS),steal,2pt made,9,Medium
+22300130,371,2pt,2,PT01M32.00S,01:32,Q2 01:32,56,63,1610612762.0,Kessler,W. Kessler alley-oop DUNK (2 PTS) (C. Sexton 1 AST),2pt made,2pt missed,7,Medium
+22300130,373,2pt,2,PT01M18.00S,01:18,Q2 01:18,56,63,1610612753.0,Wagner,MISS F. Wagner 7' cutting Layup,2pt made,rebound,7,Medium
+22300130,374,rebound,2,PT01M16.00S,01:16,Q2 01:16,56,63,1610612762.0,Kessler,W. Kessler REBOUND (Off:2 Def:5),2pt missed,2pt missed,7,Medium
+22300130,375,2pt,2,PT01M11.00S,01:11,Q2 01:11,56,63,1610612762.0,Clarkson,MISS J. Clarkson 14' driving floating Shot,rebound,rebound,7,Medium
+22300130,376,rebound,2,PT01M07.00S,01:07,Q2 01:07,56,63,1610612762.0,Kessler,W. Kessler REBOUND (Off:3 Def:5),2pt missed,2pt missed,7,Medium
+22300130,377,2pt,2,PT01M07.00S,01:07,Q2 01:07,56,63,1610612762.0,Kessler,MISS W. Kessler tip Layup,rebound,rebound,7,Medium
+22300130,378,rebound,2,PT01M07.00S,01:07,Q2 01:07,56,63,1610612762.0,Markkanen,L. Markkanen REBOUND (Off:1 Def:2),2pt missed,2pt missed,7,Medium
+22300130,379,2pt,2,PT01M03.00S,01:03,Q2 01:03,56,63,1610612762.0,Markkanen,MISS L. Markkanen putback Layup,rebound,rebound,7,Medium
+22300130,380,rebound,2,PT01M01.00S,01:01,Q2 01:01,56,63,1610612753.0,Anthony,C. Anthony REBOUND (Off:0 Def:3),2pt missed,foul,7,Medium
+22300130,382,foul,2,PT01M00.00S,01:00,Q2 01:00,56,63,1610612762.0,,TEAM foul technical,rebound,freethrow,7,Medium
+22300130,383,freethrow,2,PT01M00.00S,01:00,Q2 01:00,56,64,1610612753.0,Anthony,C. Anthony technical Free Throw 1 of 1 (8 PTS),foul,substitution,8,Medium
+22300130,384,substitution,2,PT01M00.00S,01:00,Q2 01:00,56,64,1610612762.0,Markkanen,SUB out: L. Markkanen,freethrow,substitution,8,Medium
+22300130,385,substitution,2,PT01M00.00S,01:00,Q2 01:00,56,64,1610612762.0,Agbaji,SUB in: O. Agbaji,substitution,2pt made,8,Medium
+22300130,386,2pt,2,PT00M44.70S,00:44,Q2 00:44,56,66,1610612753.0,Black,A. Black cutting Layup (2 PTS) (F. Wagner 5 AST),substitution,2pt made,10,Medium
+22300130,388,2pt,2,PT00M35.00S,00:35,Q2 00:35,58,66,1610612762.0,Sexton,C. Sexton driving Layup (7 PTS),2pt made,2pt missed,8,Medium
+22300130,389,2pt,2,PT00M11.60S,00:11,Q2 00:11,58,66,1610612753.0,Wagner,MISS F. Wagner 7' driving Layup,2pt made,rebound,8,Medium
+22300130,390,rebound,2,PT00M10.80S,00:10,Q2 00:10,58,66,1610612762.0,,TEAM defensive REBOUND,2pt missed,substitution,8,Medium
+22300130,391,substitution,2,PT00M10.80S,00:10,Q2 00:10,58,66,1610612762.0,Agbaji,SUB out: O. Agbaji,rebound,substitution,8,Medium
+22300130,392,substitution,2,PT00M10.80S,00:10,Q2 00:10,58,66,1610612762.0,Markkanen,SUB in: L. Markkanen,substitution,2pt missed,8,Medium
+22300130,393,2pt,2,PT00M00.00S,00:00,Q2 00:00,58,66,1610612762.0,Clarkson,MISS J. Clarkson 8' Jump Shot,substitution,rebound,8,Medium
+22300130,394,rebound,2,PT00M00.00S,00:00,Q2 00:00,58,66,1610612762.0,,TEAM offensive REBOUND,2pt missed,substitution,8,Medium
+22300130,396,substitution,3,PT12M00.00S,12:00,Q3 12:00,58,66,1610612762.0,Sexton,SUB out: C. Sexton,rebound,substitution,8,Medium
+22300130,397,substitution,3,PT12M00.00S,12:00,Q3 12:00,58,66,1610612753.0,Black,SUB out: A. Black,substitution,substitution,8,Medium
+22300130,398,substitution,3,PT12M00.00S,12:00,Q3 12:00,58,66,1610612753.0,Anthony,SUB out: C. Anthony,substitution,substitution,8,Medium
+22300130,399,substitution,3,PT12M00.00S,12:00,Q3 12:00,58,66,1610612762.0,Horton-Tucker,SUB in: T. Horton-Tucker,substitution,substitution,8,Medium
+22300130,400,substitution,3,PT12M00.00S,12:00,Q3 12:00,58,66,1610612753.0,Suggs,SUB in: J. Suggs,substitution,substitution,8,Medium
+22300130,401,substitution,3,PT12M00.00S,12:00,Q3 12:00,58,66,1610612753.0,Ingles,SUB in: J. Ingles,substitution,2pt made,8,Medium
+22300130,403,2pt,3,PT11M45.00S,11:45,Q3 11:45,58,68,1610612753.0,Suggs,J. Suggs reverse DUNK (6 PTS) (P. Banchero 3 AST),substitution,2pt missed,10,Medium
+22300130,405,2pt,3,PT11M24.00S,11:24,Q3 11:24,58,68,1610612762.0,Collins,MISS J. Collins 9' floating Shot,2pt made,rebound,10,Medium
+22300130,406,rebound,3,PT11M22.00S,11:22,Q3 11:22,58,68,1610612753.0,Banchero,P. Banchero REBOUND (Off:2 Def:5),2pt missed,2pt missed,10,Medium
+22300130,407,2pt,3,PT11M14.00S,11:14,Q3 11:14,58,68,1610612753.0,Banchero,MISS P. Banchero 17' pullup Shot,rebound,rebound,10,Medium
+22300130,408,rebound,3,PT11M11.00S,11:11,Q3 11:11,58,68,1610612762.0,Kessler,W. Kessler REBOUND (Off:3 Def:6),2pt missed,3pt made,10,Medium
+22300130,409,3pt,3,PT10M58.00S,10:58,Q3 10:58,61,68,1610612762.0,Horton-Tucker,T. Horton-Tucker 25' 3PT  (9 PTS) (W. Kessler 1 AST),rebound,2pt made,7,Medium
+22300130,411,2pt,3,PT10M36.00S,10:36,Q3 10:36,61,70,1610612753.0,Wagner,F. Wagner driving Layup (11 PTS) (P. Banchero 4 AST),3pt made,3pt missed,9,Medium
+22300130,413,3pt,3,PT10M21.00S,10:21,Q3 10:21,61,70,1610612762.0,Markkanen,MISS L. Markkanen 26' 3PT,2pt made,rebound,9,Medium
+22300130,414,rebound,3,PT10M19.00S,10:19,Q3 10:19,61,70,1610612753.0,Banchero,P. Banchero REBOUND (Off:2 Def:6),3pt missed,foul,9,Medium
+22300130,415,foul,3,PT10M15.00S,10:15,Q3 10:15,61,70,1610612762.0,Markkanen,L. Markkanen shooting personal FOUL (3 PF) (Banchero 2 FT),rebound,freethrow,9,Medium
+22300130,417,freethrow,3,PT10M15.00S,10:15,Q3 10:15,61,71,1610612753.0,Banchero,P. Banchero Free Throw 1 of 2 (13 PTS),foul,freethrow,10,Medium
+22300130,418,freethrow,3,PT10M15.00S,10:15,Q3 10:15,61,72,1610612753.0,Banchero,P. Banchero Free Throw 2 of 2 (14 PTS),freethrow,turnover,11,Medium
+22300130,419,turnover,3,PT10M10.00S,10:10,Q3 10:10,61,72,1610612762.0,Markkanen,L. Markkanen lost ball TURNOVER (3 TO),freethrow,steal,11,Medium
+22300130,420,steal,3,PT10M10.00S,10:10,Q3 10:10,61,72,1610612753.0,Suggs,J. Suggs STEAL (3 STL),turnover,turnover,11,Medium
+22300130,421,turnover,3,PT10M08.00S,10:08,Q3 10:08,61,72,1610612753.0,Suggs,J. Suggs bad pass TURNOVER (2 TO),steal,steal,11,Medium
+22300130,422,steal,3,PT10M08.00S,10:08,Q3 10:08,61,72,1610612762.0,Horton-Tucker,T. Horton-Tucker STEAL (2 STL),turnover,foul,11,Medium
+22300130,423,foul,3,PT10M08.00S,10:08,Q3 10:08,61,72,1610612753.0,Banchero,P. Banchero personal FOUL (3 PF),steal,3pt missed,11,Medium
+22300130,425,3pt,3,PT09M55.00S,09:55,Q3 09:55,61,72,1610612762.0,Markkanen,MISS L. Markkanen step back 3PT,foul,rebound,11,Medium
+22300130,426,rebound,3,PT09M53.00S,09:53,Q3 09:53,61,72,1610612753.0,Suggs,J. Suggs REBOUND (Off:2 Def:1),3pt missed,foul,11,Medium
+22300130,427,foul,3,PT09M46.00S,09:46,Q3 09:46,61,72,1610612762.0,Collins,J. Collins shooting personal FOUL (2 PF) (Banchero 2 FT),rebound,freethrow,11,Medium
+22300130,429,freethrow,3,PT09M46.00S,09:46,Q3 09:46,61,73,1610612753.0,Banchero,P. Banchero Free Throw 1 of 2 (15 PTS),foul,freethrow,12,Medium
+22300130,430,freethrow,3,PT09M46.00S,09:46,Q3 09:46,61,73,1610612753.0,Banchero,MISS P. Banchero Free Throw 2 of 2,freethrow,rebound,12,Medium
+22300130,431,rebound,3,PT09M44.00S,09:44,Q3 09:44,61,73,1610612762.0,Kessler,W. Kessler REBOUND (Off:3 Def:7),freethrow,2pt missed,12,Medium
+22300130,433,2pt,3,PT09M24.00S,09:24,Q3 09:24,61,73,1610612762.0,Horton-Tucker,MISS T. Horton-Tucker 7' fadeaway Shot,rebound,rebound,12,Medium
+22300130,434,rebound,3,PT09M21.00S,09:21,Q3 09:21,61,73,1610612753.0,Banchero,P. Banchero REBOUND (Off:2 Def:7),2pt missed,3pt missed,12,Medium
+22300130,435,3pt,3,PT09M16.00S,09:16,Q3 09:16,61,73,1610612753.0,Carter Jr.,MISS W. Carter Jr. 3PT,rebound,rebound,12,Medium
+22300130,436,rebound,3,PT09M11.00S,09:11,Q3 09:11,61,73,1610612762.0,Clarkson,J. Clarkson REBOUND (Off:1 Def:2),3pt missed,3pt missed,12,Medium
+22300130,437,3pt,3,PT09M02.00S,09:02,Q3 09:02,61,73,1610612762.0,Horton-Tucker,MISS T. Horton-Tucker 3PT,rebound,rebound,12,Medium
+22300130,438,rebound,3,PT09M00.00S,09:00,Q3 09:00,61,73,1610612753.0,Carter Jr.,W. Carter Jr. REBOUND (Off:2 Def:5),3pt missed,2pt made,12,Medium
+22300130,439,2pt,3,PT08M41.00S,08:41,Q3 08:41,61,75,1610612753.0,Wagner,F. Wagner driving Layup (13 PTS),rebound,2pt made,14,Medium
+22300130,440,2pt,3,PT08M24.00S,08:24,Q3 08:24,63,75,1610612762.0,Markkanen,L. Markkanen cutting DUNK (11 PTS) (T. Horton-Tucker 4 AST),2pt made,2pt missed,12,Medium
+22300130,442,2pt,3,PT08M01.00S,08:01,Q3 08:01,63,75,1610612753.0,Suggs,MISS J. Suggs 23' step back Shot,2pt made,rebound,12,Medium
+22300130,443,rebound,3,PT08M00.00S,08:00,Q3 08:00,63,75,1610612762.0,,TEAM defensive REBOUND,2pt missed,substitution,12,Medium
+22300130,445,substitution,3,PT08M00.00S,08:00,Q3 08:00,63,75,1610612762.0,Kessler,SUB out: W. Kessler,rebound,substitution,12,Medium
+22300130,446,substitution,3,PT08M00.00S,08:00,Q3 08:00,63,75,1610612762.0,Yurtseven,SUB in: O. Yurtseven,substitution,3pt missed,12,Medium
+22300130,447,3pt,3,PT07M50.00S,07:50,Q3 07:50,63,75,1610612762.0,Clarkson,MISS J. Clarkson 25' 3PT,substitution,rebound,12,Medium
+22300130,448,rebound,3,PT07M49.00S,07:49,Q3 07:49,63,75,1610612753.0,,TEAM defensive REBOUND,3pt missed,foul,12,Medium
+22300130,449,foul,3,PT07M49.00S,07:49,Q3 07:49,63,75,1610612762.0,Yurtseven,O. Yurtseven loose ball personal FOUL (1 PF),rebound,turnover,12,Medium
+22300130,451,turnover,3,PT07M32.00S,07:32,Q3 07:32,63,75,1610612753.0,Banchero,P. Banchero lost ball TURNOVER (3 TO),foul,steal,12,Medium
+22300130,452,steal,3,PT07M32.00S,07:32,Q3 07:32,63,75,1610612762.0,Markkanen,L. Markkanen STEAL (2 STL),turnover,3pt made,12,Medium
+22300130,453,3pt,3,PT07M26.00S,07:26,Q3 07:26,66,75,1610612762.0,Collins,J. Collins 3PT  (18 PTS) (T. Horton-Tucker 5 AST),steal,2pt missed,9,Medium
+22300130,455,2pt,3,PT07M01.00S,07:01,Q3 07:01,66,75,1610612753.0,Carter Jr.,MISS W. Carter Jr. alley-oop Layup,3pt made,rebound,9,Medium
+22300130,456,rebound,3,PT07M00.00S,07:00,Q3 07:00,66,75,1610612762.0,Horton-Tucker,T. Horton-Tucker REBOUND (Off:0 Def:2),2pt missed,turnover,9,Medium
+22300130,457,turnover,3,PT06M53.00S,06:53,Q3 06:53,66,75,1610612762.0,Clarkson,J. Clarkson bad pass TURNOVER (4 TO),rebound,steal,9,Medium
+22300130,458,steal,3,PT06M53.00S,06:53,Q3 06:53,66,75,1610612753.0,Suggs,J. Suggs STEAL (4 STL),turnover,turnover,9,Medium
+22300130,459,turnover,3,PT06M48.00S,06:48,Q3 06:48,66,75,1610612753.0,Suggs,J. Suggs traveling TURNOVER (3 TO),steal,timeout,9,Medium
+22300130,460,timeout,3,PT06M48.00S,06:48,Q3 06:48,66,75,1610612762.0,,UTA Timeout,turnover,substitution,9,Medium
+22300130,461,substitution,3,PT06M48.00S,06:48,Q3 06:48,66,75,1610612762.0,Markkanen,SUB out: L. Markkanen,timeout,substitution,9,Medium
+22300130,462,substitution,3,PT06M48.00S,06:48,Q3 06:48,66,75,1610612753.0,Wagner,SUB out: F. Wagner,substitution,substitution,9,Medium
+22300130,463,substitution,3,PT06M48.00S,06:48,Q3 06:48,66,75,1610612762.0,Fontecchio,SUB in: S. Fontecchio,substitution,substitution,9,Medium
+22300130,464,substitution,3,PT06M48.00S,06:48,Q3 06:48,66,75,1610612753.0,Anthony,SUB in: C. Anthony,substitution,2pt made,9,Medium
+22300130,465,2pt,3,PT06M35.00S,06:35,Q3 06:35,68,75,1610612762.0,Yurtseven,O. Yurtseven alley-oop DUNK (2 PTS) (T. Horton-Tucker 6 AST),substitution,foul,7,Medium
+22300130,467,foul,3,PT06M22.00S,06:22,Q3 06:22,68,75,1610612762.0,Collins,J. Collins personal FOUL (3 PF),2pt made,2pt missed,7,Medium
+22300130,469,2pt,3,PT06M11.00S,06:11,Q3 06:11,68,75,1610612753.0,Carter Jr.,MISS W. Carter Jr. Layup,foul,rebound,7,Medium
+22300130,470,rebound,3,PT06M08.00S,06:08,Q3 06:08,68,75,1610612762.0,Fontecchio,S. Fontecchio REBOUND (Off:0 Def:1),2pt missed,3pt missed,7,Medium
+22300130,471,3pt,3,PT06M00.00S,06:00,Q3 06:00,68,75,1610612762.0,Fontecchio,MISS S. Fontecchio 3PT,rebound,rebound,7,Medium
+22300130,472,rebound,3,PT05M57.00S,05:57,Q3 05:57,68,75,1610612753.0,Carter Jr.,W. Carter Jr. REBOUND (Off:2 Def:6),3pt missed,foul,7,Medium
+22300130,473,foul,3,PT05M53.00S,05:53,Q3 05:53,68,75,1610612762.0,Horton-Tucker,T. Horton-Tucker personal FOUL (2 PF) (Banchero 2 FT),rebound,freethrow,7,Medium
+22300130,475,freethrow,3,PT05M53.00S,05:53,Q3 05:53,68,76,1610612753.0,Banchero,P. Banchero Free Throw 1 of 2 (16 PTS),foul,freethrow,8,Medium
+22300130,476,freethrow,3,PT05M53.00S,05:53,Q3 05:53,68,76,1610612753.0,Banchero,MISS P. Banchero Free Throw 2 of 2,freethrow,rebound,8,Medium
+22300130,477,rebound,3,PT05M49.00S,05:49,Q3 05:49,68,76,1610612762.0,Fontecchio,S. Fontecchio REBOUND (Off:0 Def:2),freethrow,2pt made,8,Medium
+22300130,478,2pt,3,PT05M36.00S,05:36,Q3 05:36,70,76,1610612762.0,Clarkson,J. Clarkson 12' driving floating Jump Shot (11 PTS),rebound,3pt made,6,Medium
+22300130,479,3pt,3,PT05M26.00S,05:26,Q3 05:26,70,79,1610612753.0,Anthony,C. Anthony 27' 3PT  (11 PTS) (J. Suggs 3 AST),2pt made,2pt made,9,Medium
+22300130,482,2pt,3,PT05M02.00S,05:02,Q3 05:02,72,79,1610612762.0,Clarkson,J. Clarkson 13' pullup Jump Shot (13 PTS) (T. Horton-Tucker 7 AST),3pt made,2pt missed,7,Medium
+22300130,484,2pt,3,PT04M46.00S,04:46,Q3 04:46,72,79,1610612753.0,Suggs,MISS J. Suggs cutting Layup,2pt made,rebound,7,Medium
+22300130,485,rebound,3,PT04M45.00S,04:45,Q3 04:45,72,79,1610612762.0,Collins,J. Collins REBOUND (Off:2 Def:5),2pt missed,2pt missed,7,Medium
+22300130,486,2pt,3,PT04M38.00S,04:38,Q3 04:38,72,79,1610612762.0,Clarkson,MISS J. Clarkson 8' driving floating bank Shot,rebound,rebound,7,Medium
+22300130,487,rebound,3,PT04M34.00S,04:34,Q3 04:34,72,79,1610612762.0,Clarkson,J. Clarkson REBOUND (Off:2 Def:2),2pt missed,2pt missed,7,Medium
+22300130,488,2pt,3,PT04M34.00S,04:34,Q3 04:34,72,79,1610612762.0,Clarkson,MISS J. Clarkson tip Layup,rebound,rebound,7,Medium
+22300130,489,rebound,3,PT04M34.00S,04:34,Q3 04:34,72,79,1610612753.0,Carter Jr.,W. Carter Jr. REBOUND (Off:2 Def:7),2pt missed,2pt made,7,Medium
+22300130,490,2pt,3,PT04M26.00S,04:26,Q3 04:26,72,81,1610612753.0,Banchero,P. Banchero 6' Layup (18 PTS) (J. Ingles 1 AST),rebound,3pt made,9,Medium
+22300130,492,3pt,3,PT04M02.00S,04:02,Q3 04:02,75,81,1610612762.0,Yurtseven,O. Yurtseven 3PT  (5 PTS) (J. Clarkson 6 AST),2pt made,timeout,6,Medium
+22300130,494,timeout,3,PT04M00.00S,04:00,Q3 04:00,75,81,1610612753.0,,ORL Timeout,3pt made,substitution,6,Medium
+22300130,495,substitution,3,PT04M00.00S,04:00,Q3 04:00,75,81,1610612762.0,Clarkson,SUB out: J. Clarkson,timeout,substitution,6,Medium
+22300130,496,substitution,3,PT04M00.00S,04:00,Q3 04:00,75,81,1610612762.0,Horton-Tucker,SUB out: T. Horton-Tucker,substitution,substitution,6,Medium
+22300130,497,substitution,3,PT04M00.00S,04:00,Q3 04:00,75,81,1610612762.0,Collins,SUB out: J. Collins,substitution,substitution,6,Medium
+22300130,498,substitution,3,PT04M00.00S,04:00,Q3 04:00,75,81,1610612753.0,Suggs,SUB out: J. Suggs,substitution,substitution,6,Medium
+22300130,499,substitution,3,PT04M00.00S,04:00,Q3 04:00,75,81,1610612753.0,Ingles,SUB out: J. Ingles,substitution,substitution,6,Medium
+22300130,500,substitution,3,PT04M00.00S,04:00,Q3 04:00,75,81,1610612753.0,Carter Jr.,SUB out: W. Carter Jr.,substitution,substitution,6,Medium
+22300130,501,substitution,3,PT04M00.00S,04:00,Q3 04:00,75,81,1610612762.0,Markkanen,SUB in: L. Markkanen,substitution,substitution,6,Medium
+22300130,502,substitution,3,PT04M00.00S,04:00,Q3 04:00,75,81,1610612762.0,Sexton,SUB in: C. Sexton,substitution,substitution,6,Medium
+22300130,503,substitution,3,PT04M00.00S,04:00,Q3 04:00,75,81,1610612762.0,George,SUB in: K. George,substitution,substitution,6,Medium
+22300130,504,substitution,3,PT04M00.00S,04:00,Q3 04:00,75,81,1610612753.0,Black,SUB in: A. Black,substitution,substitution,6,Medium
+22300130,505,substitution,3,PT04M00.00S,04:00,Q3 04:00,75,81,1610612753.0,Wagner,SUB in: M. Wagner,substitution,substitution,6,Medium
+22300130,506,substitution,3,PT04M00.00S,04:00,Q3 04:00,75,81,1610612753.0,Wagner,SUB in: F. Wagner,substitution,2pt made,6,Medium
+22300130,507,2pt,3,PT03M43.00S,03:43,Q3 03:43,75,83,1610612753.0,Banchero,P. Banchero driving DUNK (20 PTS),substitution,2pt missed,8,Medium
+22300130,508,2pt,3,PT03M20.00S,03:20,Q3 03:20,75,83,1610612762.0,Sexton,MISS C. Sexton driving Layup - blocked,2pt made,block,8,Medium
+22300130,509,block,3,PT03M20.00S,03:20,Q3 03:20,75,83,1610612753.0,Wagner,M. Wagner BLOCK (2 BLK),2pt missed,rebound,8,Medium
+22300130,510,rebound,3,PT03M18.00S,03:18,Q3 03:18,75,83,1610612762.0,Yurtseven,O. Yurtseven REBOUND (Off:1 Def:0),block,foul,8,Medium
+22300130,513,foul,3,PT03M13.00S,03:13,Q3 03:13,75,83,1610612753.0,Black,A. Black personal FOUL (1 PF),rebound,2pt made,8,Medium
+22300130,517,2pt,3,PT03M04.00S,03:04,Q3 03:04,77,83,1610612762.0,Yurtseven,O. Yurtseven turnaround Hook (7 PTS) (L. Markkanen 1 AST),foul,foul,6,Medium
+22300130,519,foul,3,PT02M55.00S,02:55,Q3 02:55,77,83,1610612753.0,Banchero,P. Banchero offensive FOUL (4 PF),2pt made,turnover,6,Medium
+22300130,521,turnover,3,PT02M55.00S,02:55,Q3 02:55,77,83,1610612753.0,Banchero,P. Banchero offensive foul TURNOVER (4 TO),foul,3pt made,6,Medium
+22300130,522,3pt,3,PT02M43.00S,02:43,Q3 02:43,80,83,1610612762.0,Markkanen,L. Markkanen 25' 3PT  (14 PTS) (K. George 2 AST),turnover,2pt missed,3,Medium
+22300130,524,2pt,3,PT02M33.00S,02:33,Q3 02:33,80,83,1610612753.0,Anthony,MISS C. Anthony driving Layup,3pt made,rebound,3,Medium
+22300130,525,rebound,3,PT02M31.00S,02:31,Q3 02:31,80,83,1610612762.0,Yurtseven,O. Yurtseven REBOUND (Off:1 Def:1),2pt missed,foul,3,Medium
+22300130,526,foul,3,PT02M24.00S,02:24,Q3 02:24,80,83,1610612753.0,Wagner,M. Wagner shooting personal FOUL (2 PF) (George 3 FT),rebound,freethrow,3,Medium
+22300130,529,freethrow,3,PT02M24.00S,02:24,Q3 02:24,81,83,1610612762.0,George,K. George Free Throw 1 of 3 (5 PTS),foul,freethrow,2,Medium
+22300130,530,freethrow,3,PT02M24.00S,02:24,Q3 02:24,81,83,1610612762.0,George,MISS K. George Free Throw 2 of 3,freethrow,rebound,2,Medium
+22300130,531,rebound,3,PT02M24.00S,02:24,Q3 02:24,81,83,1610612762.0,,TEAM offensive REBOUND,freethrow,freethrow,2,Medium
+22300130,532,freethrow,3,PT02M24.00S,02:24,Q3 02:24,82,83,1610612762.0,George,K. George Free Throw 3 of 3 (6 PTS),rebound,substitution,1,Medium
+22300130,540,substitution,3,PT02M24.00S,02:24,Q3 02:24,82,83,1610612753.0,Banchero,SUB out: P. Banchero,freethrow,substitution,1,Medium
+22300130,541,substitution,3,PT02M24.00S,02:24,Q3 02:24,82,83,1610612753.0,Isaac,SUB in: J. Isaac,substitution,2pt missed,1,Medium
+22300130,533,2pt,3,PT02M11.00S,02:11,Q3 02:11,82,83,1610612753.0,Wagner,MISS F. Wagner driving Layup,substitution,rebound,1,Medium
+22300130,534,rebound,3,PT02M09.00S,02:09,Q3 02:09,82,83,1610612762.0,Markkanen,L. Markkanen REBOUND (Off:1 Def:3),2pt missed,2pt missed,1,Medium
+22300130,535,2pt,3,PT02M00.00S,02:00,Q3 02:00,82,83,1610612762.0,George,MISS K. George driving Layup - blocked,rebound,block,1,Medium
+22300130,536,block,3,PT02M00.00S,02:00,Q3 02:00,82,83,1610612753.0,Isaac,J. Isaac BLOCK (1 BLK),2pt missed,rebound,1,Medium
+22300130,537,rebound,3,PT01M56.00S,01:56,Q3 01:56,82,83,1610612753.0,Black,A. Black REBOUND (Off:0 Def:2),block,2pt made,1,Medium
+22300130,538,2pt,3,PT01M54.00S,01:54,Q3 01:54,82,85,1610612753.0,Anthony,C. Anthony running Layup (13 PTS) (M. Wagner 1 AST),rebound,2pt made,3,Medium
+22300130,542,2pt,3,PT01M39.00S,01:39,Q3 01:39,84,85,1610612762.0,Markkanen,L. Markkanen driving DUNK (16 PTS) (K. George 3 AST),2pt made,foul,1,Medium
+22300130,544,foul,3,PT01M25.00S,01:25,Q3 01:25,84,85,1610612762.0,Yurtseven,O. Yurtseven shooting personal FOUL (2 PF) (Wagner 2 FT),2pt made,freethrow,1,Medium
+22300130,546,freethrow,3,PT01M25.00S,01:25,Q3 01:25,84,86,1610612753.0,Wagner,F. Wagner Free Throw 1 of 2 (14 PTS),foul,freethrow,2,Medium
+22300130,547,freethrow,3,PT01M25.00S,01:25,Q3 01:25,84,86,1610612753.0,Wagner,MISS F. Wagner Free Throw 2 of 2,freethrow,rebound,2,Medium
+22300130,548,rebound,3,PT01M23.00S,01:23,Q3 01:23,84,86,1610612762.0,Yurtseven,O. Yurtseven REBOUND (Off:1 Def:2),freethrow,foul,2,Medium
+22300130,549,foul,3,PT01M07.00S,01:07,Q3 01:07,84,86,1610612753.0,Wagner,F. Wagner personal FOUL (3 PF),rebound,turnover,2,Medium
+22300130,551,turnover,3,PT01M00.00S,01:00,Q3 01:00,84,86,1610612762.0,George,K. George bad pass TURNOVER (1 TO),foul,steal,2,Medium
+22300130,552,steal,3,PT01M00.00S,01:00,Q3 01:00,84,86,1610612753.0,Isaac,J. Isaac STEAL (1 STL),turnover,2pt made,2,Medium
+22300130,553,2pt,3,PT00M58.70S,00:58,Q3 00:58,84,88,1610612753.0,Black,A. Black running DUNK (4 PTS) (J. Isaac 1 AST),steal,foul,4,Medium
+22300130,555,foul,3,PT00M49.60S,00:49,Q3 00:49,84,88,1610612753.0,Anthony,C. Anthony personal FOUL (2 PF) (Sexton 2 FT),2pt made,freethrow,4,Medium
+22300130,557,freethrow,3,PT00M49.60S,00:49,Q3 00:49,85,88,1610612762.0,Sexton,C. Sexton Free Throw 1 of 2 (8 PTS),foul,freethrow,3,Medium
+22300130,558,freethrow,3,PT00M49.60S,00:49,Q3 00:49,86,88,1610612762.0,Sexton,C. Sexton Free Throw 2 of 2 (9 PTS),freethrow,3pt missed,2,Medium
+22300130,559,3pt,3,PT00M36.30S,00:36,Q3 00:36,86,88,1610612753.0,Isaac,MISS J. Isaac 24' 3PT,freethrow,rebound,2,Medium
+22300130,560,rebound,3,PT00M33.10S,00:33,Q3 00:33,86,88,1610612762.0,Markkanen,L. Markkanen REBOUND (Off:1 Def:4),3pt missed,2pt missed,2,Medium
+22300130,561,2pt,3,PT00M13.70S,00:13,Q3 00:13,86,88,1610612762.0,Sexton,MISS C. Sexton driving Layup - blocked,rebound,block,2,Medium
+22300130,562,block,3,PT00M13.70S,00:13,Q3 00:13,86,88,1610612753.0,Isaac,J. Isaac BLOCK (2 BLK),2pt missed,rebound,2,Medium
+22300130,563,rebound,3,PT00M11.30S,00:11,Q3 00:11,86,88,1610612753.0,Anthony,C. Anthony REBOUND (Off:0 Def:4),block,foul,2,Medium
+22300130,564,foul,3,PT00M10.20S,00:10,Q3 00:10,86,88,1610612762.0,Markkanen,L. Markkanen shooting personal FOUL (4 PF) (Anthony 2 FT),rebound,freethrow,2,Medium
+22300130,566,freethrow,3,PT00M10.20S,00:10,Q3 00:10,86,89,1610612753.0,Anthony,C. Anthony Free Throw 1 of 2 (14 PTS),foul,freethrow,3,Medium
+22300130,567,freethrow,3,PT00M10.20S,00:10,Q3 00:10,86,90,1610612753.0,Anthony,C. Anthony Free Throw 2 of 2 (15 PTS),freethrow,turnover,4,Medium
+22300130,568,turnover,3,PT00M01.50S,00:01,Q3 00:01,86,90,1610612762.0,George,K. George bad pass TURNOVER (2 TO),freethrow,steal,4,Medium
+22300130,569,steal,3,PT00M01.50S,00:01,Q3 00:01,86,90,1610612753.0,Wagner,F. Wagner STEAL (3 STL),turnover,3pt missed,4,Medium
+22300130,570,3pt,3,PT00M00.00S,00:00,Q3 00:00,86,90,1610612753.0,Isaac,MISS J. Isaac 42' 3PT,steal,rebound,4,Medium
+22300130,571,rebound,3,PT00M00.00S,00:00,Q3 00:00,86,90,1610612753.0,,TEAM offensive REBOUND,3pt missed,substitution,4,Medium
+22300130,573,substitution,4,PT12M00.00S,12:00,Q4 12:00,86,90,1610612762.0,Fontecchio,SUB out: S. Fontecchio,rebound,substitution,4,Medium
+22300130,574,substitution,4,PT12M00.00S,12:00,Q4 12:00,86,90,1610612762.0,Yurtseven,SUB out: O. Yurtseven,substitution,substitution,4,Medium
+22300130,575,substitution,4,PT12M00.00S,12:00,Q4 12:00,86,90,1610612762.0,Markkanen,SUB out: L. Markkanen,substitution,substitution,4,Medium
+22300130,576,substitution,4,PT12M00.00S,12:00,Q4 12:00,86,90,1610612762.0,Clarkson,SUB in: J. Clarkson,substitution,substitution,4,Medium
+22300130,577,substitution,4,PT12M00.00S,12:00,Q4 12:00,86,90,1610612762.0,Kessler,SUB in: W. Kessler,substitution,substitution,4,Medium
+22300130,578,substitution,4,PT12M00.00S,12:00,Q4 12:00,86,90,1610612762.0,Olynyk,SUB in: K. Olynyk,substitution,turnover,4,Medium
+22300130,580,turnover,4,PT11M36.00S,11:36,Q4 11:36,86,90,1610612762.0,Clarkson,J. Clarkson bad pass TURNOVER (5 TO),substitution,steal,4,Medium
+22300130,581,steal,4,PT11M36.00S,11:36,Q4 11:36,86,90,1610612753.0,Black,A. Black STEAL (2 STL),turnover,timeout,4,Medium
+22300130,583,timeout,4,PT11M32.00S,11:32,Q4 11:32,86,90,1610612762.0,,UTA Timeout,steal,turnover,4,Medium
+22300130,586,turnover,4,PT11M32.00S,11:32,Q4 11:32,86,90,1610612753.0,Black,A. Black bad pass out-of-bounds TURNOVER (1 TO),timeout,foul,4,Medium
+22300130,587,foul,4,PT11M23.00S,11:23,Q4 11:23,86,90,1610612753.0,Black,A. Black shooting personal FOUL (2 PF) (Sexton 2 FT),turnover,freethrow,4,Medium
+22300130,589,freethrow,4,PT11M23.00S,11:23,Q4 11:23,87,90,1610612762.0,Sexton,C. Sexton Free Throw 1 of 2 (10 PTS),foul,freethrow,3,Medium
+22300130,590,freethrow,4,PT11M23.00S,11:23,Q4 11:23,87,90,1610612762.0,Sexton,MISS C. Sexton Free Throw 2 of 2,freethrow,rebound,3,Medium
+22300130,591,rebound,4,PT11M21.00S,11:21,Q4 11:21,87,90,1610612753.0,Isaac,J. Isaac REBOUND (Off:1 Def:1),freethrow,2pt made,3,Medium
+22300130,592,2pt,4,PT11M04.00S,11:04,Q4 11:04,87,92,1610612753.0,Wagner,F. Wagner 12' driving floating Jump Shot (16 PTS) (C. Anthony 5 AST),rebound,3pt missed,5,Medium
+22300130,594,3pt,4,PT10M44.00S,10:44,Q4 10:44,87,92,1610612762.0,Sexton,MISS C. Sexton 24' 3PT,2pt made,rebound,5,Medium
+22300130,595,rebound,4,PT10M42.00S,10:42,Q4 10:42,87,92,1610612753.0,Isaac,J. Isaac REBOUND (Off:1 Def:2),3pt missed,2pt made,5,Medium
+22300130,596,2pt,4,PT10M32.00S,10:32,Q4 10:32,87,94,1610612753.0,Black,A. Black cutting DUNK (6 PTS) (C. Anthony 6 AST),rebound,foul,7,Medium
+22300130,598,foul,4,PT10M28.00S,10:28,Q4 10:28,87,94,1610612753.0,Banchero,P. Banchero technical FOUL (1 Tech),2pt made,freethrow,7,Medium
+22300130,599,freethrow,4,PT10M28.00S,10:28,Q4 10:28,88,94,1610612762.0,Clarkson,J. Clarkson technical Free Throw 1 of 1 (14 PTS),foul,substitution,6,Medium
+22300130,600,substitution,4,PT10M28.00S,10:28,Q4 10:28,88,94,1610612762.0,Sexton,SUB out: C. Sexton,freethrow,substitution,6,Medium
+22300130,601,substitution,4,PT10M28.00S,10:28,Q4 10:28,88,94,1610612762.0,Horton-Tucker,SUB in: T. Horton-Tucker,substitution,3pt missed,6,Medium
+22300130,603,3pt,4,PT10M05.00S,10:05,Q4 10:05,88,94,1610612762.0,Clarkson,MISS J. Clarkson 24' step back 3PT,substitution,rebound,6,Medium
+22300130,604,rebound,4,PT10M01.00S,10:01,Q4 10:01,88,94,1610612753.0,Anthony,C. Anthony REBOUND (Off:0 Def:5),3pt missed,2pt made,6,Medium
+22300130,605,2pt,4,PT09M50.00S,09:50,Q4 09:50,88,96,1610612753.0,Wagner,F. Wagner 10' driving floating Jump Shot (18 PTS),rebound,foul,8,Medium
+22300130,606,foul,4,PT09M39.00S,09:39,Q4 09:39,88,96,1610612753.0,Isaac,J. Isaac personal FOUL (1 PF),2pt made,2pt made,8,Medium
+22300130,608,2pt,4,PT09M24.00S,09:24,Q4 09:24,90,96,1610612762.0,Horton-Tucker,T. Horton-Tucker driving DUNK (11 PTS),foul,3pt made,6,Medium
+22300130,609,3pt,4,PT09M12.00S,09:12,Q4 09:12,90,99,1610612753.0,Anthony,C. Anthony 25' 3PT pullup (18 PTS),2pt made,2pt missed,9,Medium
+22300130,610,2pt,4,PT08M51.00S,08:51,Q4 08:51,90,99,1610612762.0,Clarkson,MISS J. Clarkson driving Layup - blocked,3pt made,block,9,Medium
+22300130,611,block,4,PT08M51.00S,08:51,Q4 08:51,90,99,1610612753.0,Isaac,J. Isaac BLOCK (3 BLK),2pt missed,rebound,9,Medium
+22300130,612,rebound,4,PT08M51.00S,08:51,Q4 08:51,90,99,1610612753.0,,TEAM defensive REBOUND,block,2pt missed,9,Medium
+22300130,614,2pt,4,PT08M32.00S,08:32,Q4 08:32,90,99,1610612753.0,Wagner,MISS M. Wagner Layup,rebound,rebound,9,Medium
+22300130,615,rebound,4,PT08M30.00S,08:30,Q4 08:30,90,99,1610612762.0,Horton-Tucker,T. Horton-Tucker REBOUND (Off:0 Def:3),2pt missed,2pt made,9,Medium
+22300130,616,2pt,4,PT08M23.00S,08:23,Q4 08:23,92,99,1610612762.0,Kessler,W. Kessler Layup (4 PTS) (K. Olynyk 2 AST),rebound,timeout,7,Medium
+22300130,618,timeout,4,PT08M13.00S,08:13,Q4 08:13,92,99,1610612753.0,,ORL Timeout,2pt made,substitution,7,Medium
+22300130,619,substitution,4,PT08M13.00S,08:13,Q4 08:13,92,99,1610612762.0,George,SUB out: K. George,timeout,substitution,7,Medium
+22300130,620,substitution,4,PT08M13.00S,08:13,Q4 08:13,92,99,1610612762.0,Kessler,SUB out: W. Kessler,substitution,substitution,7,Medium
+22300130,621,substitution,4,PT08M13.00S,08:13,Q4 08:13,92,99,1610612753.0,Isaac,SUB out: J. Isaac,substitution,substitution,7,Medium
+22300130,622,substitution,4,PT08M13.00S,08:13,Q4 08:13,92,99,1610612753.0,Wagner,SUB out: M. Wagner,substitution,substitution,7,Medium
+22300130,623,substitution,4,PT08M13.00S,08:13,Q4 08:13,92,99,1610612762.0,Collins,SUB in: J. Collins,substitution,substitution,7,Medium
+22300130,624,substitution,4,PT08M13.00S,08:13,Q4 08:13,92,99,1610612762.0,Markkanen,SUB in: L. Markkanen,substitution,substitution,7,Medium
+22300130,625,substitution,4,PT08M13.00S,08:13,Q4 08:13,92,99,1610612753.0,Banchero,SUB in: P. Banchero,substitution,substitution,7,Medium
+22300130,626,substitution,4,PT08M13.00S,08:13,Q4 08:13,92,99,1610612753.0,Carter Jr.,SUB in: W. Carter Jr.,substitution,2pt missed,7,Medium
+22300130,627,2pt,4,PT08M07.00S,08:07,Q4 08:07,92,99,1610612753.0,Wagner,MISS F. Wagner driving Layup,substitution,rebound,7,Medium
+22300130,628,rebound,4,PT08M05.00S,08:05,Q4 08:05,92,99,1610612762.0,,TEAM defensive REBOUND,2pt missed,3pt missed,7,Medium
+22300130,630,3pt,4,PT07M55.00S,07:55,Q4 07:55,92,99,1610612762.0,Markkanen,MISS L. Markkanen 24' 3PT,rebound,rebound,7,Medium
+22300130,631,rebound,4,PT07M51.00S,07:51,Q4 07:51,92,99,1610612753.0,Wagner,F. Wagner REBOUND (Off:1 Def:3),3pt missed,3pt missed,7,Medium
+22300130,632,3pt,4,PT07M41.00S,07:41,Q4 07:41,92,99,1610612753.0,Carter Jr.,MISS W. Carter Jr. 27' 3PT,rebound,rebound,7,Medium
+22300130,633,rebound,4,PT07M39.00S,07:39,Q4 07:39,92,99,1610612762.0,Olynyk,K. Olynyk REBOUND (Off:0 Def:1),3pt missed,2pt made,7,Medium
+22300130,634,2pt,4,PT07M30.00S,07:30,Q4 07:30,94,99,1610612762.0,Horton-Tucker,T. Horton-Tucker running Layup (13 PTS),rebound,foul,5,Medium
+22300130,635,foul,4,PT07M10.00S,07:10,Q4 07:10,94,99,1610612762.0,Clarkson,J. Clarkson personal FOUL (1 PF),2pt made,3pt made,5,Medium
+22300130,637,3pt,4,PT07M04.00S,07:04,Q4 07:04,94,102,1610612753.0,Wagner,F. Wagner 26' 3PT  (21 PTS) (W. Carter Jr. 2 AST),foul,foul,8,Medium
+22300130,639,foul,4,PT06M52.00S,06:52,Q4 06:52,94,102,1610612753.0,Wagner,F. Wagner personal FOUL (4 PF),3pt made,turnover,8,Medium
+22300130,641,turnover,4,PT06M43.00S,06:43,Q4 06:43,94,102,1610612762.0,Collins,J. Collins lost ball TURNOVER (2 TO),foul,steal,8,Medium
+22300130,642,steal,4,PT06M43.00S,06:43,Q4 06:43,94,102,1610612753.0,Banchero,P. Banchero STEAL (3 STL),turnover,2pt made,8,Medium
+22300130,643,2pt,4,PT06M39.00S,06:39,Q4 06:39,94,104,1610612753.0,Black,A. Black running reverse Layup (8 PTS) (P. Banchero 5 AST),steal,foul,10,Medium
+22300130,645,foul,4,PT06M39.00S,06:39,Q4 06:39,94,104,1610612762.0,Horton-Tucker,T. Horton-Tucker shooting personal FOUL (3 PF) (Black 1 FT),2pt made,freethrow,10,Medium
+22300130,647,freethrow,4,PT06M39.00S,06:39,Q4 06:39,94,104,1610612753.0,Black,MISS A. Black Free Throw 1 of 1,foul,rebound,10,Medium
+22300130,648,rebound,4,PT06M38.00S,06:38,Q4 06:38,94,104,1610612762.0,Collins,J. Collins REBOUND (Off:2 Def:6),freethrow,2pt made,10,Medium
+22300130,649,2pt,4,PT06M24.00S,06:24,Q4 06:24,96,104,1610612762.0,Olynyk,K. Olynyk driving Layup (4 PTS),rebound,3pt missed,8,Medium
+22300130,650,3pt,4,PT06M05.00S,06:05,Q4 06:05,96,104,1610612753.0,Wagner,MISS F. Wagner 30' 3PT,2pt made,rebound,8,Medium
+22300130,651,rebound,4,PT06M02.00S,06:02,Q4 06:02,96,104,1610612762.0,Clarkson,J. Clarkson REBOUND (Off:2 Def:3),3pt missed,3pt made,8,Medium
+22300130,652,3pt,4,PT05M57.00S,05:57,Q4 05:57,99,104,1610612762.0,Clarkson,J. Clarkson 26' 3PT step back (17 PTS),rebound,3pt made,5,High
+22300130,653,3pt,4,PT05M29.00S,05:29,Q4 05:29,99,107,1610612753.0,Banchero,P. Banchero 26' 3PT step back (23 PTS) (A. Black 1 AST),3pt made,2pt missed,8,Medium
+22300130,655,2pt,4,PT05M13.00S,05:13,Q4 05:13,99,107,1610612762.0,Horton-Tucker,MISS T. Horton-Tucker driving Layup,3pt made,rebound,8,Medium
+22300130,656,rebound,4,PT05M11.00S,05:11,Q4 05:11,99,107,1610612762.0,Collins,J. Collins REBOUND (Off:3 Def:6),2pt missed,2pt made,8,Medium
+22300130,657,2pt,4,PT05M11.00S,05:11,Q4 05:11,101,107,1610612762.0,Collins,J. Collins tip DUNK (20 PTS),rebound,3pt missed,6,High
+22300130,659,3pt,4,PT04M57.00S,04:57,Q4 04:57,101,107,1610612753.0,Banchero,MISS P. Banchero 25' step back 3PT,2pt made,rebound,6,High
+22300130,660,rebound,4,PT04M54.00S,04:54,Q4 04:54,101,107,1610612753.0,Black,A. Black REBOUND (Off:1 Def:2),3pt missed,2pt missed,6,High
+22300130,661,2pt,4,PT04M42.00S,04:42,Q4 04:42,101,107,1610612753.0,Wagner,MISS F. Wagner 8' driving Layup,rebound,rebound,6,High
+22300130,662,rebound,4,PT04M41.00S,04:41,Q4 04:41,101,107,1610612762.0,Markkanen,L. Markkanen REBOUND (Off:1 Def:5),2pt missed,3pt missed,6,High
+22300130,663,3pt,4,PT04M35.00S,04:35,Q4 04:35,101,107,1610612762.0,Clarkson,MISS J. Clarkson 26' pullup 3PT,rebound,rebound,6,High
+22300130,664,rebound,4,PT04M31.00S,04:31,Q4 04:31,101,107,1610612753.0,Anthony,C. Anthony REBOUND (Off:0 Def:6),3pt missed,foul,6,High
+22300130,665,foul,4,PT04M25.00S,04:25,Q4 04:25,101,107,1610612762.0,Collins,J. Collins shooting personal FOUL (4 PF) (Banchero 2 FT),rebound,freethrow,6,High
+22300130,667,freethrow,4,PT04M25.00S,04:25,Q4 04:25,101,107,1610612753.0,Banchero,MISS P. Banchero Free Throw 1 of 2,foul,rebound,6,High
+22300130,668,rebound,4,PT04M25.00S,04:25,Q4 04:25,101,107,1610612753.0,,TEAM offensive REBOUND,freethrow,freethrow,6,High
+22300130,671,freethrow,4,PT04M25.00S,04:25,Q4 04:25,101,108,1610612753.0,Banchero,P. Banchero Free Throw 2 of 2 (24 PTS),rebound,substitution,7,High
+22300130,669,substitution,4,PT04M25.00S,04:25,Q4 04:25,101,107,1610612753.0,Wagner,SUB out: F. Wagner,freethrow,substitution,6,High
+22300130,670,substitution,4,PT04M25.00S,04:25,Q4 04:25,101,107,1610612753.0,Ingles,SUB in: J. Ingles,substitution,2pt missed,6,High
+22300130,673,2pt,4,PT04M13.00S,04:13,Q4 04:13,101,108,1610612762.0,Clarkson,MISS J. Clarkson Layup,substitution,rebound,7,High
+22300130,674,rebound,4,PT04M13.00S,04:13,Q4 04:13,101,108,1610612762.0,Olynyk,K. Olynyk REBOUND (Off:1 Def:1),2pt missed,foul,7,High
+22300130,675,foul,4,PT04M13.00S,04:13,Q4 04:13,101,108,1610612753.0,Carter Jr.,W. Carter Jr. personal FOUL (3 PF),rebound,2pt made,7,High
+22300130,677,2pt,4,PT04M07.00S,04:07,Q4 04:07,103,108,1610612762.0,Horton-Tucker,T. Horton-Tucker driving Layup (15 PTS),foul,3pt missed,5,High
+22300130,678,3pt,4,PT03M51.00S,03:51,Q4 03:51,103,108,1610612753.0,Anthony,MISS C. Anthony 27' 3PT,2pt made,rebound,5,High
+22300130,679,rebound,4,PT03M47.00S,03:47,Q4 03:47,103,108,1610612753.0,Ingles,J. Ingles REBOUND (Off:1 Def:1),3pt missed,foul,5,High
+22300130,680,foul,4,PT03M42.00S,03:42,Q4 03:42,103,108,1610612762.0,Collins,J. Collins shooting personal FOUL (5 PF) (Banchero 2 FT),rebound,freethrow,5,High
+22300130,682,freethrow,4,PT03M42.00S,03:42,Q4 03:42,103,109,1610612753.0,Banchero,P. Banchero Free Throw 1 of 2 (25 PTS),foul,freethrow,6,High
+22300130,685,freethrow,4,PT03M42.00S,03:42,Q4 03:42,103,110,1610612753.0,Banchero,P. Banchero Free Throw 2 of 2 (26 PTS),freethrow,substitution,7,High
+22300130,683,substitution,4,PT03M42.00S,03:42,Q4 03:42,103,109,1610612753.0,Black,SUB out: A. Black,freethrow,substitution,6,High
+22300130,684,substitution,4,PT03M42.00S,03:42,Q4 03:42,103,109,1610612753.0,Suggs,SUB in: J. Suggs,substitution,2pt missed,6,High
+22300130,687,2pt,4,PT03M27.00S,03:27,Q4 03:27,103,110,1610612762.0,Collins,MISS J. Collins 6' driving Layup - blocked,substitution,block,7,High
+22300130,688,block,4,PT03M27.00S,03:27,Q4 03:27,103,110,1610612753.0,Banchero,P. Banchero BLOCK (2 BLK),2pt missed,rebound,7,High
+22300130,689,rebound,4,PT03M27.00S,03:27,Q4 03:27,103,110,1610612762.0,,TEAM offensive REBOUND,block,foul,7,High
+22300130,691,foul,4,PT03M25.00S,03:25,Q4 03:25,103,110,1610612753.0,Suggs,J. Suggs personal FOUL (4 PF) (Clarkson 2 FT),rebound,freethrow,7,High
+22300130,693,freethrow,4,PT03M25.00S,03:25,Q4 03:25,104,110,1610612762.0,Clarkson,J. Clarkson Free Throw 1 of 2 (18 PTS),foul,freethrow,6,High
+22300130,694,freethrow,4,PT03M25.00S,03:25,Q4 03:25,105,110,1610612762.0,Clarkson,J. Clarkson Free Throw 2 of 2 (19 PTS),freethrow,timeout,5,High
+22300130,695,timeout,4,PT03M22.00S,03:22,Q4 03:22,105,110,1610612753.0,,ORL Timeout,freethrow,substitution,5,High
+22300130,696,substitution,4,PT03M22.00S,03:22,Q4 03:22,105,110,1610612753.0,Anthony,SUB out: C. Anthony,timeout,substitution,5,High
+22300130,697,substitution,4,PT03M22.00S,03:22,Q4 03:22,105,110,1610612753.0,Wagner,SUB in: F. Wagner,substitution,turnover,5,High
+22300130,698,turnover,4,PT03M11.00S,03:11,Q4 03:11,105,110,1610612753.0,Banchero,P. Banchero bad pass TURNOVER (5 TO),substitution,steal,5,High
+22300130,699,steal,4,PT03M11.00S,03:11,Q4 03:11,105,110,1610612762.0,Olynyk,K. Olynyk STEAL (2 STL),turnover,3pt missed,5,High
+22300130,700,3pt,4,PT02M55.00S,02:55,Q4 02:55,105,110,1610612762.0,Markkanen,MISS L. Markkanen 24' 3PT,steal,rebound,5,High
+22300130,701,rebound,4,PT02M54.00S,02:54,Q4 02:54,105,110,1610612762.0,Clarkson,J. Clarkson REBOUND (Off:3 Def:3),3pt missed,foul,5,High
+22300130,702,foul,4,PT02M49.00S,02:49,Q4 02:49,105,110,1610612762.0,Horton-Tucker,T. Horton-Tucker charge offensive FOUL (4 PF),rebound,turnover,5,High
+22300130,704,turnover,4,PT02M49.00S,02:49,Q4 02:49,105,110,1610612762.0,Horton-Tucker,T. Horton-Tucker offensive foul TURNOVER (2 TO),foul,turnover,5,High
+22300130,705,turnover,4,PT02M32.00S,02:32,Q4 02:32,105,110,1610612753.0,Wagner,F. Wagner lost ball TURNOVER (2 TO),turnover,steal,5,High
+22300130,706,steal,4,PT02M32.00S,02:32,Q4 02:32,105,110,1610612762.0,Horton-Tucker,T. Horton-Tucker STEAL (3 STL),turnover,turnover,5,High
+22300130,711,turnover,4,PT02M26.00S,02:26,Q4 02:26,105,110,1610612762.0,Clarkson,J. Clarkson bad pass out-of-bounds TURNOVER (6 TO),steal,timeout,5,High
+22300130,709,timeout,4,PT02M26.00S,02:26,Q4 02:26,105,110,1610612753.0,,ORL Timeout,turnover,substitution,5,High
+22300130,713,substitution,4,PT02M26.00S,02:26,Q4 02:26,105,110,1610612753.0,Ingles,SUB out: J. Ingles,timeout,substitution,5,High
+22300130,714,substitution,4,PT02M26.00S,02:26,Q4 02:26,105,110,1610612753.0,Anthony,SUB in: C. Anthony,substitution,2pt made,5,High
+22300130,712,2pt,4,PT02M17.00S,02:17,Q4 02:17,105,112,1610612753.0,Banchero,P. Banchero driving Layup (28 PTS),substitution,2pt missed,7,High
+22300130,715,2pt,4,PT02M03.00S,02:03,Q4 02:03,105,112,1610612762.0,Horton-Tucker,MISS T. Horton-Tucker driving reverse Layup - blocked,2pt made,block,7,High
+22300130,716,block,4,PT02M03.00S,02:03,Q4 02:03,105,112,1610612753.0,Carter Jr.,W. Carter Jr. BLOCK (1 BLK),2pt missed,rebound,7,High
+22300130,717,rebound,4,PT02M01.00S,02:01,Q4 02:01,105,112,1610612753.0,Anthony,C. Anthony REBOUND (Off:0 Def:7),block,2pt missed,7,High
+22300130,718,2pt,4,PT01M48.00S,01:48,Q4 01:48,105,112,1610612753.0,Banchero,MISS P. Banchero 21' step back Shot,rebound,rebound,7,High
+22300130,719,rebound,4,PT01M45.00S,01:45,Q4 01:45,105,112,1610612762.0,Markkanen,L. Markkanen REBOUND (Off:1 Def:6),2pt missed,foul,7,High
+22300130,720,foul,4,PT01M41.00S,01:41,Q4 01:41,105,112,1610612753.0,Anthony,C. Anthony personal FOUL (3 PF) (Clarkson 2 FT),rebound,freethrow,7,High
+22300130,722,freethrow,4,PT01M41.00S,01:41,Q4 01:41,106,112,1610612762.0,Clarkson,J. Clarkson Free Throw 1 of 2 (20 PTS),foul,freethrow,6,High
+22300130,723,freethrow,4,PT01M41.00S,01:41,Q4 01:41,107,112,1610612762.0,Clarkson,J. Clarkson Free Throw 2 of 2 (21 PTS),freethrow,turnover,5,Very High
+22300130,724,turnover,4,PT01M26.00S,01:26,Q4 01:26,107,112,1610612753.0,Banchero,P. Banchero lost ball TURNOVER (6 TO),freethrow,steal,5,Very High
+22300130,725,steal,4,PT01M26.00S,01:26,Q4 01:26,107,112,1610612762.0,Olynyk,K. Olynyk STEAL (3 STL),turnover,3pt made,5,Very High
+22300130,726,3pt,4,PT01M15.00S,01:15,Q4 01:15,110,112,1610612762.0,Markkanen,L. Markkanen 24' 3PT  (19 PTS) (T. Horton-Tucker 8 AST),steal,foul,2,Very High
+22300130,728,foul,4,PT01M04.00S,01:04,Q4 01:04,110,112,1610612753.0,Carter Jr.,W. Carter Jr. offensive FOUL (4 PF),3pt made,turnover,2,Very High
+22300130,730,turnover,4,PT01M04.00S,01:04,Q4 01:04,110,112,1610612753.0,Carter Jr.,W. Carter Jr. offensive foul TURNOVER (2 TO),foul,3pt missed,2,Very High
+22300130,731,3pt,4,PT00M53.10S,00:53,Q4 00:53,110,112,1610612762.0,Collins,MISS J. Collins 3PT,turnover,rebound,2,Very High
+22300130,732,rebound,4,PT00M50.50S,00:50,Q4 00:50,110,112,1610612753.0,Suggs,J. Suggs REBOUND (Off:2 Def:2),3pt missed,2pt missed,2,Very High
+22300130,733,2pt,4,PT00M33.00S,00:33,Q4 00:33,110,112,1610612753.0,Anthony,MISS C. Anthony 14' step back Shot,rebound,rebound,2,Very High
+22300130,734,rebound,4,PT00M30.90S,00:30,Q4 00:30,110,112,1610612762.0,Collins,J. Collins REBOUND (Off:3 Def:7),2pt missed,3pt made,2,Very High
+22300130,735,3pt,4,PT00M20.30S,00:20,Q4 00:20,113,112,1610612762.0,Markkanen,L. Markkanen 26' 3PT  (22 PTS) (K. Olynyk 3 AST),rebound,timeout,1,Very High
+22300130,737,timeout,4,PT00M19.20S,00:19,Q4 00:19,113,112,1610612753.0,,ORL Timeout,3pt made,2pt made,1,Very High
+22300130,738,2pt,4,PT00M14.10S,00:14,Q4 00:14,113,114,1610612753.0,Banchero,P. Banchero 6' driving Layup (30 PTS) (C. Anthony 7 AST),timeout,timeout,1,Very High
+22300130,739,timeout,4,PT00M14.10S,00:14,Q4 00:14,113,114,1610612762.0,,UTA Timeout,2pt made,substitution,1,Very High
+22300130,740,substitution,4,PT00M14.10S,00:14,Q4 00:14,113,114,1610612753.0,Anthony,SUB out: C. Anthony,timeout,substitution,1,Very High
+22300130,741,substitution,4,PT00M14.10S,00:14,Q4 00:14,113,114,1610612753.0,Isaac,SUB in: J. Isaac,substitution,3pt missed,1,Very High
+22300130,743,3pt,4,PT00M04.30S,00:04,Q4 00:04,113,114,1610612762.0,Horton-Tucker,MISS T. Horton-Tucker 24' 3PT,substitution,rebound,1,Very High
+22300130,744,rebound,4,PT00M01.30S,00:01,Q4 00:01,113,114,1610612753.0,Carter Jr.,W. Carter Jr. REBOUND (Off:2 Def:8),3pt missed,foul,1,Very High
+22300130,745,foul,4,PT00M01.30S,00:01,Q4 00:01,113,114,1610612762.0,Olynyk,K. Olynyk personal FOUL (5 PF) (Carter Jr. 2 FT),rebound,freethrow,1,Very High
+22300130,749,freethrow,4,PT00M01.30S,00:01,Q4 00:01,113,114,1610612753.0,Black,MISS A. Black Free Throw 1 of 2,foul,rebound,1,Very High
+22300130,750,rebound,4,PT00M01.30S,00:01,Q4 00:01,113,114,1610612753.0,,TEAM offensive REBOUND,freethrow,freethrow,1,Very High
+22300130,751,freethrow,4,PT00M01.30S,00:01,Q4 00:01,113,115,1610612753.0,Black,A. Black Free Throw 2 of 2 (9 PTS),rebound,timeout,2,Very High
+22300130,752,timeout,4,PT00M01.30S,00:01,Q4 00:01,113,115,1610612762.0,,UTA Timeout,freethrow,substitution,2,Very High
+22300130,747,substitution,4,PT00M01.30S,00:01,Q4 00:01,113,114,1610612753.0,Carter Jr.,SUB out: W. Carter Jr.,timeout,substitution,1,Very High
+22300130,748,substitution,4,PT00M01.30S,00:01,Q4 00:01,113,114,1610612753.0,Black,SUB in: A. Black,substitution,substitution,1,Very High
+22300130,753,substitution,4,PT00M01.30S,00:01,Q4 00:01,113,115,1610612762.0,Horton-Tucker,SUB out: T. Horton-Tucker,substitution,substitution,2,Very High
+22300130,754,substitution,4,PT00M01.30S,00:01,Q4 00:01,113,115,1610612762.0,George,SUB in: K. George,substitution,turnover,2,Very High
+22300130,755,turnover,4,PT00M00.00S,00:00,Q4 00:00,113,115,1610612762.0,Olynyk,K. Olynyk bad pass TURNOVER (2 TO),substitution,steal,2,Very High
+22300130,756,steal,4,PT00M00.00S,00:00,Q4 00:00,113,115,1610612753.0,Wagner,F. Wagner STEAL (4 STL),turnover,,2,Very High

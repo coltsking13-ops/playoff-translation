@@ -1,0 +1,557 @@
+game_id,actionNumber,actionType,period,clock,clock_display,game_clock,scoreHome,scoreAway,teamId,playerName,description,previous_action,next_action,score_margin,leverage_bucket
+21800440,2,period,1,PT12M00.00S,12:00,Q1 12:00,0,0,1610612742.0,,Start of 1st Period (7:12 PM EST),,foul,0,Low
+21800440,7,foul,1,PT11M40.00S,11:40,Q1 11:40,0,0,1610612758.0,Cauley-Stein,Cauley-Stein S.FOUL (P1.T1) (M.Boland),period,freethrow,0,Low
+21800440,9,freethrow,1,PT11M40.00S,11:40,Q1 11:40,1,0,1610612742.0,Barnes,Barnes Free Throw 1 of 2 (1 PTS),foul,freethrow,1,Low
+21800440,10,freethrow,1,PT11M40.00S,11:40,Q1 11:40,2,0,1610612742.0,Barnes,Barnes Free Throw 2 of 2 (2 PTS),freethrow,foul,2,Low
+21800440,11,foul,1,PT11M27.00S,11:27,Q1 11:27,2,0,1610612742.0,Barnes,Barnes S.FOUL (P1.T1) (M.Boland),freethrow,freethrow,2,Low
+21800440,13,freethrow,1,PT11M27.00S,11:27,Q1 11:27,2,1,1610612758.0,Cauley-Stein,Cauley-Stein Free Throw 1 of 2 (1 PTS),foul,freethrow,1,Low
+21800440,14,freethrow,1,PT11M27.00S,11:27,Q1 11:27,2,2,1610612758.0,Cauley-Stein,Cauley-Stein Free Throw 2 of 2 (2 PTS),freethrow,3pt missed,0,Low
+21800440,15,3pt,1,PT11M06.00S,11:06,Q1 11:06,2,2,1610612742.0,Barnes,MISS Barnes 3PT Jump Shot,freethrow,rebound,0,Low
+21800440,16,rebound,1,PT11M03.00S,11:03,Q1 11:03,2,2,1610612742.0,Jordan,Jordan REBOUND (Off:1 Def:0),3pt missed,3pt missed,0,Low
+21800440,17,3pt,1,PT11M00.00S,11:00,Q1 11:00,2,2,1610612742.0,Doncic,MISS Doncic 26' 3PT Jump Shot,rebound,rebound,0,Low
+21800440,18,rebound,1,PT10M57.00S,10:57,Q1 10:57,2,2,1610612758.0,Bjelica,Bjelica REBOUND (Off:0 Def:1),3pt missed,2pt made,0,Low
+21800440,19,2pt,1,PT10M52.00S,10:52,Q1 10:52,2,4,1610612758.0,Hield,Hield 6' Driving Floating Bank Jump Shot (2 PTS),rebound,2pt made,2,Low
+21800440,20,2pt,1,PT10M37.00S,10:37,Q1 10:37,4,4,1610612742.0,Doncic,Doncic 5' Driving Floating Bank Jump Shot (2 PTS),2pt made,foul,0,Low
+21800440,22,foul,1,PT10M37.00S,10:37,Q1 10:37,4,4,1610612758.0,Bogdanovic,Bogdanovic S.FOUL (P1.T2) (T.Brown),2pt made,freethrow,0,Low
+21800440,24,freethrow,1,PT10M37.00S,10:37,Q1 10:37,4,4,1610612742.0,Doncic,MISS Doncic Free Throw 1 of 1,foul,rebound,0,Low
+21800440,25,rebound,1,PT10M35.00S,10:35,Q1 10:35,4,4,1610612758.0,Bjelica,Bjelica REBOUND (Off:0 Def:2),freethrow,2pt made,0,Low
+21800440,26,2pt,1,PT10M21.00S,10:21,Q1 10:21,4,6,1610612758.0,Hield,Hield 17' Jump Shot (4 PTS) (Cauley-Stein 1 AST),rebound,turnover,2,Low
+21800440,28,turnover,1,PT09M56.00S,09:56,Q1 09:56,4,6,1610612742.0,Doncic,Doncic Out of Bounds - Bad Pass Turnover Turnover (P1.T1),2pt made,2pt made,2,Low
+21800440,29,2pt,1,PT09M50.00S,09:50,Q1 09:50,4,8,1610612758.0,Fox,Fox 15' Pullup Jump Shot (2 PTS),turnover,2pt missed,4,Low
+21800440,30,2pt,1,PT09M25.00S,09:25,Q1 09:25,4,8,1610612742.0,Barnes,MISS Barnes 7' Turnaround Fadeaway Shot,2pt made,rebound,4,Low
+21800440,31,rebound,1,PT09M23.00S,09:23,Q1 09:23,4,8,1610612758.0,Hield,Hield REBOUND (Off:0 Def:1),2pt missed,3pt missed,4,Low
+21800440,32,3pt,1,PT09M19.00S,09:19,Q1 09:19,4,8,1610612758.0,Hield,MISS Hield 25' 3PT Jump Shot,rebound,rebound,4,Low
+21800440,33,rebound,1,PT09M15.00S,09:15,Q1 09:15,4,8,1610612742.0,Jordan,Jordan REBOUND (Off:1 Def:1),3pt missed,2pt missed,4,Low
+21800440,34,2pt,1,PT08M59.00S,08:59,Q1 08:59,4,8,1610612742.0,Matthews,MISS Matthews 9' Fadeaway Jumper,rebound,rebound,4,Low
+21800440,35,rebound,1,PT08M56.00S,08:56,Q1 08:56,4,8,1610612758.0,Hield,Hield REBOUND (Off:0 Def:2),2pt missed,3pt made,4,Low
+21800440,36,3pt,1,PT08M50.00S,08:50,Q1 08:50,4,11,1610612758.0,Bogdanovic,Bogdanovic 26' 3PT Jump Shot (3 PTS) (Bjelica 1 AST),rebound,2pt missed,7,Low
+21800440,38,2pt,1,PT08M31.00S,08:31,Q1 08:31,4,11,1610612742.0,Matthews,MISS Matthews 7' Turnaround Hook Shot,3pt made,rebound,7,Low
+21800440,39,rebound,1,PT08M28.00S,08:28,Q1 08:28,4,11,1610612758.0,Bjelica,Bjelica REBOUND (Off:0 Def:3),2pt missed,2pt made,7,Low
+21800440,40,2pt,1,PT08M21.00S,08:21,Q1 08:21,4,13,1610612758.0,Bogdanovic,Bogdanovic 3' Driving Layup (5 PTS),rebound,timeout,9,Low
+21800440,41,timeout,1,PT08M21.00S,08:21,Q1 08:21,4,13,1610612742.0,,MAVERICKS Timeout: Regular (Full 1 Short 0),2pt made,2pt made,9,Low
+21800440,42,2pt,1,PT08M05.00S,08:05,Q1 08:05,6,13,1610612742.0,Brunson,Brunson 15' Pullup Jump Shot (2 PTS) (Doncic 1 AST),timeout,2pt missed,7,Low
+21800440,44,2pt,1,PT07M51.00S,07:51,Q1 07:51,6,13,1610612758.0,Cauley-Stein,MISS Cauley-Stein 10' Turnaround Hook Shot,2pt made,rebound,7,Low
+21800440,45,rebound,1,PT07M49.00S,07:49,Q1 07:49,6,13,1610612742.0,Doncic,Doncic REBOUND (Off:0 Def:1),2pt missed,2pt made,7,Low
+21800440,46,2pt,1,PT07M44.00S,07:44,Q1 07:44,8,13,1610612742.0,Doncic,Doncic 9' Fadeaway Jumper (4 PTS),rebound,foul,5,Low
+21800440,47,foul,1,PT07M44.00S,07:44,Q1 07:44,8,13,1610612758.0,Bjelica,Bjelica S.FOUL (P1.T3) (T.Brown),2pt made,freethrow,5,Low
+21800440,51,freethrow,1,PT07M44.00S,07:44,Q1 07:44,8,13,1610612742.0,Doncic,MISS Doncic Free Throw 1 of 1,foul,substitution,5,Low
+21800440,49,substitution,1,PT07M44.00S,07:44,Q1 07:44,8,13,1610612742.0,Brunson,SUB out: J. Brunson,freethrow,substitution,5,Low
+21800440,50,substitution,1,PT07M44.00S,07:44,Q1 07:44,8,13,1610612742.0,Finney-Smith,SUB in: D. Finney-Smith,substitution,rebound,5,Low
+21800440,52,rebound,1,PT07M42.00S,07:42,Q1 07:42,8,13,1610612758.0,Bjelica,Bjelica REBOUND (Off:0 Def:4),substitution,3pt missed,5,Low
+21800440,53,3pt,1,PT07M35.00S,07:35,Q1 07:35,8,13,1610612758.0,Hield,MISS Hield 26' 3PT Jump Shot,rebound,rebound,5,Low
+21800440,54,rebound,1,PT07M31.00S,07:31,Q1 07:31,8,13,1610612742.0,Jordan,Jordan REBOUND (Off:1 Def:2),3pt missed,3pt missed,5,Low
+21800440,55,3pt,1,PT07M24.00S,07:24,Q1 07:24,8,13,1610612742.0,Doncic,MISS Doncic 25' 3PT Jump Shot,rebound,rebound,5,Low
+21800440,56,rebound,1,PT07M21.00S,07:21,Q1 07:21,8,13,1610612758.0,Cauley-Stein,Cauley-Stein REBOUND (Off:0 Def:1),3pt missed,3pt missed,5,Low
+21800440,57,3pt,1,PT07M16.00S,07:16,Q1 07:16,8,13,1610612758.0,Fox,MISS Fox 25' 3PT Jump Shot,rebound,rebound,5,Low
+21800440,58,rebound,1,PT07M13.00S,07:13,Q1 07:13,8,13,1610612742.0,Doncic,Doncic REBOUND (Off:0 Def:2),3pt missed,2pt missed,5,Low
+21800440,59,2pt,1,PT06M55.00S,06:55,Q1 06:55,8,13,1610612742.0,Barnes,MISS Barnes 18' Jump Shot,rebound,rebound,5,Low
+21800440,60,rebound,1,PT06M53.00S,06:53,Q1 06:53,8,13,1610612758.0,Bogdanovic,Bogdanovic REBOUND (Off:0 Def:1),2pt missed,2pt missed,5,Low
+21800440,61,2pt,1,PT06M41.00S,06:41,Q1 06:41,8,13,1610612758.0,Bjelica,MISS Bjelica 8' Turnaround Hook Shot,rebound,rebound,5,Low
+21800440,62,rebound,1,PT06M38.00S,06:38,Q1 06:38,8,13,1610612742.0,Jordan,Jordan REBOUND (Off:1 Def:3),2pt missed,2pt made,5,Low
+21800440,63,2pt,1,PT06M33.00S,06:33,Q1 06:33,10,13,1610612742.0,Barnes,Barnes 4' Driving Finger Roll Layup (4 PTS),rebound,turnover,3,Low
+21800440,64,turnover,1,PT06M25.00S,06:25,Q1 06:25,10,13,1610612758.0,Hield,Hield Bad Pass Turnover (P1.T1),2pt made,steal,3,Low
+21800440,64,steal,1,PT06M25.00S,06:25,Q1 06:25,10,13,1610612742.0,Matthews,Matthews STEAL (1 STL),turnover,2pt made,3,Low
+21800440,66,2pt,1,PT06M20.00S,06:20,Q1 06:20,12,13,1610612742.0,Doncic,Doncic 6' Pullup Jump Shot (6 PTS),steal,2pt made,1,Low
+21800440,67,2pt,1,PT06M06.00S,06:06,Q1 06:06,12,15,1610612758.0,Fox,Fox 2' Cutting Layup Shot (4 PTS) (Bogdanovic 1 AST),2pt made,foul,3,Low
+21800440,69,foul,1,PT05M55.00S,05:55,Q1 05:55,12,15,1610612758.0,Hield,Hield P.FOUL (P1.T4) (T.Brown),2pt made,substitution,3,Low
+21800440,71,substitution,1,PT05M55.00S,05:55,Q1 05:55,12,15,1610612758.0,Cauley-Stein,SUB out: W. Cauley-Stein,foul,substitution,3,Low
+21800440,72,substitution,1,PT05M55.00S,05:55,Q1 05:55,12,15,1610612758.0,Hield,SUB out: B. Hield,substitution,substitution,3,Low
+21800440,73,substitution,1,PT05M55.00S,05:55,Q1 05:55,12,15,1610612758.0,Jackson,SUB in: J. Jackson,substitution,substitution,3,Low
+21800440,74,substitution,1,PT05M55.00S,05:55,Q1 05:55,12,15,1610612758.0,Koufos,SUB in: K. Koufos,substitution,3pt made,3,Low
+21800440,75,3pt,1,PT05M49.00S,05:49,Q1 05:49,15,15,1610612742.0,Matthews,Matthews 3PT Jump Shot (3 PTS) (Doncic 2 AST),substitution,2pt made,0,Low
+21800440,77,2pt,1,PT05M39.00S,05:39,Q1 05:39,15,17,1610612758.0,Fox,Fox 11' Turnaround Fadeaway Bank Jump Shot (6 PTS),3pt made,3pt missed,2,Low
+21800440,79,3pt,1,PT05M23.00S,05:23,Q1 05:23,15,17,1610612742.0,Matthews,MISS Matthews 26' 3PT Jump Shot,2pt made,rebound,2,Low
+21800440,80,rebound,1,PT05M19.00S,05:19,Q1 05:19,15,17,1610612758.0,Bjelica,Bjelica REBOUND (Off:0 Def:5),3pt missed,2pt made,2,Low
+21800440,81,2pt,1,PT05M07.00S,05:07,Q1 05:07,15,19,1610612758.0,Fox,Fox 14' Pullup Jump Shot (8 PTS),rebound,foul,4,Low
+21800440,82,foul,1,PT04M51.00S,04:51,Q1 04:51,15,19,1610612758.0,Bogdanovic,Bogdanovic P.FOUL (P2.PN) (R.Garretson),2pt made,freethrow,4,Low
+21800440,84,freethrow,1,PT04M51.00S,04:51,Q1 04:51,16,19,1610612742.0,Doncic,Doncic Free Throw 1 of 2 (7 PTS),foul,freethrow,3,Low
+21800440,85,freethrow,1,PT04M51.00S,04:51,Q1 04:51,17,19,1610612742.0,Doncic,Doncic Free Throw 2 of 2 (8 PTS),freethrow,2pt missed,2,Low
+21800440,86,2pt,1,PT04M38.00S,04:38,Q1 04:38,17,19,1610612758.0,Fox,MISS Fox 14' Fadeaway Jumper,freethrow,rebound,2,Low
+21800440,87,rebound,1,PT04M35.00S,04:35,Q1 04:35,17,19,1610612742.0,Jordan,Jordan REBOUND (Off:1 Def:4),2pt missed,2pt made,2,Low
+21800440,88,2pt,1,PT04M27.00S,04:27,Q1 04:27,19,19,1610612742.0,Jordan,Jordan 2' Alley Oop Dunk (2 PTS) (Doncic 3 AST),rebound,foul,0,Low
+21800440,90,foul,1,PT04M21.00S,04:21,Q1 04:21,19,19,1610612742.0,Matthews,Matthews P.FOUL (P1.T2) (M.Boland),2pt made,substitution,0,Low
+21800440,92,substitution,1,PT04M21.00S,04:21,Q1 04:21,19,19,1610612758.0,Bogdanovic,SUB out: B. Bogdanovic,foul,substitution,0,Low
+21800440,93,substitution,1,PT04M21.00S,04:21,Q1 04:21,19,19,1610612758.0,Williams,SUB in: T. Williams,substitution,turnover,0,Low
+21800440,94,turnover,1,PT04M15.00S,04:15,Q1 04:15,19,19,1610612758.0,Fox,Fox Bad Pass Turnover (P1.T2),substitution,steal,0,Low
+21800440,94,steal,1,PT04M15.00S,04:15,Q1 04:15,19,19,1610612742.0,Matthews,Matthews STEAL (2 STL),turnover,2pt made,0,Low
+21800440,96,2pt,1,PT04M12.00S,04:12,Q1 04:12,21,19,1610612742.0,Finney-Smith,Finney-Smith 3' Running Finger Roll Layup (2 PTS) (Matthews 1 AST),steal,foul,2,Low
+21800440,98,foul,1,PT04M12.00S,04:12,Q1 04:12,21,19,1610612758.0,Jackson,Jackson S.FOUL (P1.PN) (M.Boland),2pt made,timeout,2,Low
+21800440,100,timeout,1,PT04M12.00S,04:12,Q1 04:12,21,19,1610612758.0,,Kings Timeout: Regular (Reg.1 Short 0),foul,freethrow,2,Low
+21800440,103,freethrow,1,PT04M12.00S,04:12,Q1 04:12,22,19,1610612742.0,Finney-Smith,Finney-Smith Free Throw 1 of 1 (3 PTS),timeout,substitution,3,Low
+21800440,101,substitution,1,PT04M12.00S,04:12,Q1 04:12,21,19,1610612758.0,Bjelica,SUB out: N. Bjelica,freethrow,substitution,2,Low
+21800440,102,substitution,1,PT04M12.00S,04:12,Q1 04:12,21,19,1610612758.0,Hield,SUB in: B. Hield,substitution,foul,2,Low
+21800440,104,foul,1,PT04M01.00S,04:01,Q1 04:01,22,19,1610612742.0,Finney-Smith,Finney-Smith S.FOUL (P1.T3) (T.Brown),substitution,freethrow,3,Low
+21800440,106,freethrow,1,PT04M01.00S,04:01,Q1 04:01,22,20,1610612758.0,Fox,Fox Free Throw 1 of 2 (9 PTS),foul,freethrow,2,Low
+21800440,107,freethrow,1,PT04M01.00S,04:01,Q1 04:01,22,21,1610612758.0,Fox,Fox Free Throw 2 of 2 (10 PTS),freethrow,3pt made,1,Low
+21800440,108,3pt,1,PT03M48.00S,03:48,Q1 03:48,25,21,1610612742.0,Barnes,Barnes 3PT Jump Shot (7 PTS) (Jordan 1 AST),freethrow,3pt missed,4,Low
+21800440,110,3pt,1,PT03M33.00S,03:33,Q1 03:33,25,21,1610612758.0,Jackson,MISS Jackson 27' 3PT Jump Shot,3pt made,rebound,4,Low
+21800440,111,rebound,1,PT03M31.00S,03:31,Q1 03:31,25,21,1610612742.0,Jordan,Jordan REBOUND (Off:1 Def:5),3pt missed,3pt missed,4,Low
+21800440,112,3pt,1,PT03M23.00S,03:23,Q1 03:23,25,21,1610612742.0,Finney-Smith,MISS Finney-Smith 25' 3PT Jump Shot,rebound,rebound,4,Low
+21800440,113,rebound,1,PT03M19.00S,03:19,Q1 03:19,25,21,1610612758.0,Jackson,Jackson REBOUND (Off:0 Def:1),3pt missed,foul,4,Low
+21800440,114,foul,1,PT03M17.00S,03:17,Q1 03:17,25,21,1610612742.0,Doncic,Doncic S.FOUL (P1.T4) (R.Garretson),rebound,freethrow,4,Low
+21800440,116,freethrow,1,PT03M17.00S,03:17,Q1 03:17,25,22,1610612758.0,Jackson,Jackson Free Throw 1 of 2 (1 PTS),foul,freethrow,3,Low
+21800440,123,freethrow,1,PT03M17.00S,03:17,Q1 03:17,25,23,1610612758.0,Jackson,Jackson Free Throw 2 of 2 (2 PTS),freethrow,substitution,2,Low
+21800440,117,substitution,1,PT03M17.00S,03:17,Q1 03:17,25,22,1610612742.0,Jordan,SUB out: D. Jordan,freethrow,substitution,3,Low
+21800440,118,substitution,1,PT03M17.00S,03:17,Q1 03:17,25,22,1610612742.0,Matthews,SUB out: W. Matthews,substitution,substitution,3,Low
+21800440,119,substitution,1,PT03M17.00S,03:17,Q1 03:17,25,22,1610612742.0,Barnes,SUB out: H. Barnes,substitution,substitution,3,Low
+21800440,120,substitution,1,PT03M17.00S,03:17,Q1 03:17,25,22,1610612742.0,Powell,SUB in: D. Powell,substitution,substitution,3,Low
+21800440,121,substitution,1,PT03M17.00S,03:17,Q1 03:17,25,22,1610612742.0,Nowitzki,SUB in: D. Nowitzki,substitution,substitution,3,Low
+21800440,122,substitution,1,PT03M17.00S,03:17,Q1 03:17,25,22,1610612742.0,Harris,SUB in: D. Harris,substitution,3pt missed,3,Low
+21800440,124,3pt,1,PT03M00.00S,03:00,Q1 03:00,25,23,1610612742.0,Harris,MISS Harris 25' 3PT Jump Shot,substitution,rebound,2,Low
+21800440,125,rebound,1,PT02M58.00S,02:58,Q1 02:58,25,23,1610612742.0,Finney-Smith,Finney-Smith REBOUND (Off:1 Def:0),3pt missed,foul,2,Low
+21800440,126,foul,1,PT02M53.00S,02:53,Q1 02:53,25,23,1610612758.0,Williams,Williams P.FOUL (P1.PN) (R.Garretson),rebound,freethrow,2,Low
+21800440,128,freethrow,1,PT02M53.00S,02:53,Q1 02:53,26,23,1610612742.0,Harris,Harris Free Throw 1 of 2 (1 PTS),foul,freethrow,3,Low
+21800440,131,freethrow,1,PT02M53.00S,02:53,Q1 02:53,27,23,1610612742.0,Harris,Harris Free Throw 2 of 2 (2 PTS),freethrow,substitution,4,Low
+21800440,129,substitution,1,PT02M53.00S,02:53,Q1 02:53,26,23,1610612742.0,Doncic,SUB out: L. Doncic,freethrow,substitution,3,Low
+21800440,130,substitution,1,PT02M53.00S,02:53,Q1 02:53,26,23,1610612742.0,Brunson,SUB in: J. Brunson,substitution,2pt made,3,Low
+21800440,133,2pt,1,PT02M38.00S,02:38,Q1 02:38,27,25,1610612758.0,Fox,Fox 9' Driving Floating Jump Shot (12 PTS),substitution,3pt missed,2,Low
+21800440,134,3pt,1,PT02M28.00S,02:28,Q1 02:28,27,25,1610612742.0,Nowitzki,MISS Nowitzki 26' 3PT Jump Shot,2pt made,rebound,2,Low
+21800440,135,rebound,1,PT02M24.00S,02:24,Q1 02:24,27,25,1610612758.0,Koufos,Koufos REBOUND (Off:0 Def:1),3pt missed,2pt made,2,Low
+21800440,136,2pt,1,PT02M18.00S,02:18,Q1 02:18,27,27,1610612758.0,Koufos,Koufos 5' Cutting Layup Shot (2 PTS) (Hield 1 AST),rebound,2pt missed,0,Low
+21800440,138,2pt,1,PT01M59.00S,01:59,Q1 01:59,27,27,1610612742.0,Nowitzki,MISS Nowitzki 20' Jump Shot,2pt made,rebound,0,Low
+21800440,139,rebound,1,PT01M56.00S,01:56,Q1 01:56,27,27,1610612742.0,Powell,Powell REBOUND (Off:1 Def:0),2pt missed,turnover,0,Low
+21800440,140,turnover,1,PT01M56.00S,01:56,Q1 01:56,27,27,1610612742.0,Nowitzki,Nowitzki Backcourt Turnover (P1.T2),rebound,substitution,0,Low
+21800440,141,substitution,1,PT01M56.00S,01:56,Q1 01:56,27,27,1610612758.0,Fox,SUB out: D. Fox,turnover,substitution,0,Low
+21800440,142,substitution,1,PT01M56.00S,01:56,Q1 01:56,27,27,1610612758.0,Ferrell,SUB in: Y. Ferrell,substitution,3pt made,0,Low
+21800440,143,3pt,1,PT01M47.00S,01:47,Q1 01:47,27,30,1610612758.0,Hield,Hield 3PT Jump Shot (7 PTS) (Ferrell 1 AST),substitution,2pt made,3,Low
+21800440,145,2pt,1,PT01M28.00S,01:28,Q1 01:28,29,30,1610612742.0,Harris,Harris 1' Cutting Layup Shot (4 PTS) (Powell 1 AST),3pt made,2pt missed,1,Low
+21800440,147,2pt,1,PT01M21.00S,01:21,Q1 01:21,29,30,1610612758.0,Hield,MISS Hield 6' Running Layup,2pt made,rebound,1,Low
+21800440,148,rebound,1,PT01M19.00S,01:19,Q1 01:19,29,30,1610612758.0,Koufos,Koufos REBOUND (Off:1 Def:1),2pt missed,2pt made,1,Low
+21800440,149,2pt,1,PT01M19.00S,01:19,Q1 01:19,29,32,1610612758.0,Koufos,Koufos 1' Tip Layup Shot (4 PTS),rebound,turnover,3,Low
+21800440,151,turnover,1,PT01M02.00S,01:02,Q1 01:02,29,32,1610612742.0,Finney-Smith,Finney-Smith Lost Ball Turnover (P1.T3),2pt made,steal,3,Low
+21800440,151,steal,1,PT01M02.00S,01:02,Q1 01:02,29,32,1610612758.0,Koufos,Koufos STEAL (1 STL),turnover,2pt made,3,Low
+21800440,153,2pt,1,PT00M57.80S,00:57,Q1 00:57,29,34,1610612758.0,Jackson,Jackson 6' Running Layup (4 PTS),steal,foul,5,Low
+21800440,154,foul,1,PT00M45.10S,00:45,Q1 00:45,29,34,1610612758.0,Koufos,Koufos S.FOUL (P1.PN) (R.Garretson),2pt made,freethrow,5,Low
+21800440,156,freethrow,1,PT00M45.10S,00:45,Q1 00:45,30,34,1610612742.0,Powell,Powell Free Throw 1 of 2 (1 PTS),foul,freethrow,4,Low
+21800440,157,freethrow,1,PT00M45.10S,00:45,Q1 00:45,31,34,1610612742.0,Powell,Powell Free Throw 2 of 2 (2 PTS),freethrow,2pt missed,3,Low
+21800440,158,2pt,1,PT00M33.20S,00:33,Q1 00:33,31,34,1610612758.0,Hield,MISS Hield 3' Driving Layup,freethrow,rebound,3,Low
+21800440,159,rebound,1,PT00M31.30S,00:31,Q1 00:31,31,34,1610612742.0,Nowitzki,Nowitzki REBOUND (Off:0 Def:1),2pt missed,turnover,3,Low
+21800440,160,turnover,1,PT00M12.90S,00:12,Q1 00:12,31,34,1610612742.0,Harris,Harris Traveling Turnover (P1.T4),rebound,2pt missed,3,Low
+21800440,161,2pt,1,PT00M05.20S,00:05,Q1 00:05,31,34,1610612758.0,Ferrell,MISS Ferrell 10' Driving Floating Jump Shot,turnover,rebound,3,Low
+21800440,162,rebound,1,PT00M01.70S,00:01,Q1 00:01,31,34,1610612742.0,Brunson,Brunson REBOUND (Off:0 Def:1),2pt missed,3pt missed,3,Low
+21800440,163,3pt,1,PT00M00.50S,00:00,Q1 00:00,31,34,1610612742.0,Brunson,MISS Brunson 32' 3PT Running Jump Shot,rebound,rebound,3,Low
+21800440,164,rebound,1,PT00M00.10S,00:00,Q1 00:00,31,34,1610612742.0,,TEAM offensive REBOUND,3pt missed,period,3,Low
+21800440,165,period,1,PT00M00.00S,00:00,Q1 00:00,31,34,1610612742.0,,End of 1st Period (7:39 PM EST),rebound,period,3,Low
+21800440,170,period,2,PT12M00.00S,12:00,Q2 12:00,31,34,1610612742.0,,Start of 2nd Period (7:41 PM EST),period,substitution,3,Low
+21800440,171,2pt,2,PT11M45.00S,11:45,Q2 11:45,31,36,1610612758.0,Ferrell,Ferrell 17' Jump Shot (2 PTS),substitution,foul,5,Low
+21800440,172,foul,2,PT11M32.00S,11:32,Q2 11:32,31,36,1610612758.0,Jackson,Jackson P.FOUL (P2.T1) (M.Boland),2pt made,2pt missed,5,Low
+21800440,174,2pt,2,PT11M27.00S,11:27,Q2 11:27,31,36,1610612742.0,Brunson,MISS Brunson 12' Driving Floating Jump Shot,foul,rebound,5,Low
+21800440,175,rebound,2,PT11M24.00S,11:24,Q2 11:24,31,36,1610612758.0,Cauley-Stein,Cauley-Stein REBOUND (Off:0 Def:2),2pt missed,3pt missed,5,Low
+21800440,176,3pt,2,PT11M20.00S,11:20,Q2 11:20,31,36,1610612758.0,Ferrell,MISS Ferrell 26' 3PT Jump Shot,rebound,rebound,5,Low
+21800440,177,rebound,2,PT11M17.00S,11:17,Q2 11:17,31,36,1610612742.0,Broekhoff,Broekhoff REBOUND (Off:0 Def:1),3pt missed,2pt made,5,Low
+21800440,178,2pt,2,PT11M13.00S,11:13,Q2 11:13,33,36,1610612742.0,Powell,Powell 1' Alley Oop Dunk (4 PTS) (Brunson 1 AST),rebound,foul,3,Low
+21800440,180,foul,2,PT10M58.00S,10:58,Q2 10:58,33,36,1610612742.0,Powell,Powell S.FOUL (P1.T1) (T.Brown),2pt made,freethrow,3,Low
+21800440,182,freethrow,2,PT10M58.00S,10:58,Q2 10:58,33,37,1610612758.0,Cauley-Stein,Cauley-Stein Free Throw 1 of 2 (3 PTS),foul,freethrow,4,Low
+21800440,185,freethrow,2,PT10M58.00S,10:58,Q2 10:58,33,38,1610612758.0,Cauley-Stein,Cauley-Stein Free Throw 2 of 2 (4 PTS),freethrow,substitution,5,Low
+21800440,183,substitution,2,PT10M58.00S,10:58,Q2 10:58,33,37,1610612758.0,Williams,SUB out: T. Williams,freethrow,substitution,4,Low
+21800440,184,substitution,2,PT10M58.00S,10:58,Q2 10:58,33,37,1610612758.0,Bogdanovic,SUB in: B. Bogdanovic,substitution,turnover,4,Low
+21800440,186,turnover,2,PT10M48.00S,10:48,Q2 10:48,33,38,1610612742.0,Brunson,Brunson Out of Bounds - Bad Pass Turnover Turnover (P1.T5),substitution,2pt missed,5,Low
+21800440,187,2pt,2,PT10M37.00S,10:37,Q2 10:37,33,38,1610612758.0,Cauley-Stein,MISS Cauley-Stein 18' Jump Shot,turnover,rebound,5,Low
+21800440,188,rebound,2,PT10M34.00S,10:34,Q2 10:34,33,38,1610612742.0,Powell,Powell REBOUND (Off:1 Def:1),2pt missed,2pt missed,5,Low
+21800440,189,2pt,2,PT10M19.00S,10:19,Q2 10:19,33,38,1610612742.0,Nowitzki,MISS Nowitzki 14' Turnaround Fadeaway Shot,rebound,rebound,5,Low
+21800440,190,rebound,2,PT10M16.00S,10:16,Q2 10:16,33,38,1610612758.0,Bogdanovic,Bogdanovic REBOUND (Off:0 Def:2),2pt missed,turnover,5,Low
+21800440,191,turnover,2,PT10M08.00S,10:08,Q2 10:08,33,38,1610612758.0,Jackson,Jackson Bad Pass Turnover (P1.T3),rebound,steal,5,Low
+21800440,191,steal,2,PT10M08.00S,10:08,Q2 10:08,33,38,1610612742.0,Powell,Powell STEAL (1 STL),turnover,2pt missed,5,Low
+21800440,193,2pt,2,PT10M04.00S,10:04,Q2 10:04,33,38,1610612742.0,Harris,MISS Harris 2' Running Finger Roll Layup,steal,rebound,5,Low
+21800440,194,rebound,2,PT10M02.00S,10:02,Q2 10:02,33,38,1610612742.0,Broekhoff,Broekhoff REBOUND (Off:1 Def:1),2pt missed,3pt made,5,Low
+21800440,195,3pt,2,PT09M59.00S,09:59,Q2 09:59,36,38,1610612742.0,Harris,Harris 3PT Jump Shot (7 PTS) (Brunson 2 AST),rebound,3pt missed,2,Low
+21800440,198,3pt,2,PT09M43.00S,09:43,Q2 09:43,36,38,1610612758.0,Ferrell,MISS Ferrell 25' 3PT Jump Shot,3pt made,rebound,2,Low
+21800440,199,rebound,2,PT09M41.00S,09:41,Q2 09:41,36,38,1610612742.0,Nowitzki,Nowitzki REBOUND (Off:0 Def:2),3pt missed,2pt made,2,Low
+21800440,200,2pt,2,PT09M25.00S,09:25,Q2 09:25,38,38,1610612742.0,Brunson,Brunson 10' Driving Floating Jump Shot (4 PTS),rebound,3pt missed,0,Low
+21800440,201,3pt,2,PT09M18.00S,09:18,Q2 09:18,38,38,1610612758.0,Hield,MISS Hield 27' 3PT Jump Shot,2pt made,rebound,0,Low
+21800440,202,rebound,2,PT09M15.00S,09:15,Q2 09:15,38,38,1610612742.0,Nowitzki,Nowitzki REBOUND (Off:0 Def:3),3pt missed,2pt made,0,Low
+21800440,203,2pt,2,PT09M04.00S,09:04,Q2 09:04,40,38,1610612742.0,Broekhoff,Broekhoff 18' Pullup Jump Shot (2 PTS) (Powell 2 AST),rebound,timeout,2,Low
+21800440,205,timeout,2,PT08M59.00S,08:59,Q2 08:59,40,38,1610612758.0,,Kings Timeout: Regular (Reg.2 Short 0),2pt made,3pt missed,2,Low
+21800440,206,3pt,2,PT08M50.00S,08:50,Q2 08:50,40,38,1610612758.0,Ferrell,MISS Ferrell 25' 3PT Jump Shot,timeout,rebound,2,Low
+21800440,207,rebound,2,PT08M48.00S,08:48,Q2 08:48,40,38,1610612758.0,Cauley-Stein,Cauley-Stein REBOUND (Off:1 Def:2),3pt missed,3pt missed,2,Low
+21800440,208,3pt,2,PT08M46.00S,08:46,Q2 08:46,40,38,1610612758.0,Ferrell,MISS Ferrell 3PT Jump Shot,rebound,rebound,2,Low
+21800440,209,rebound,2,PT08M41.00S,08:41,Q2 08:41,40,38,1610612742.0,Broekhoff,Broekhoff REBOUND (Off:1 Def:2),3pt missed,2pt missed,2,Low
+21800440,210,2pt,2,PT08M35.00S,08:35,Q2 08:35,40,38,1610612742.0,Harris,MISS Harris 4' Layup,rebound,rebound,2,Low
+21800440,211,rebound,2,PT08M32.00S,08:32,Q2 08:32,40,38,1610612742.0,Powell,Powell REBOUND (Off:2 Def:1),2pt missed,2pt made,2,Low
+21800440,212,2pt,2,PT08M32.00S,08:32,Q2 08:32,42,38,1610612742.0,Powell,Powell 1' Tip Dunk Shot (6 PTS),rebound,2pt missed,4,Low
+21800440,213,2pt,2,PT08M18.00S,08:18,Q2 08:18,42,38,1610612758.0,Cauley-Stein,MISS Cauley-Stein 9' Turnaround Fadeaway Shot,2pt made,rebound,4,Low
+21800440,214,rebound,2,PT08M16.00S,08:16,Q2 08:16,42,38,1610612742.0,Nowitzki,Nowitzki REBOUND (Off:0 Def:4),2pt missed,3pt missed,4,Low
+21800440,215,3pt,2,PT08M07.00S,08:07,Q2 08:07,42,38,1610612742.0,Broekhoff,MISS Broekhoff 24' 3PT Jump Shot,rebound,rebound,4,Low
+21800440,216,rebound,2,PT08M07.00S,08:07,Q2 08:07,42,38,1610612758.0,Bogdanovic,Bogdanovic REBOUND (Off:0 Def:3),3pt missed,foul,4,Low
+21800440,217,foul,2,PT07M58.00S,07:58,Q2 07:58,42,38,1610612742.0,Broekhoff,Broekhoff S.FOUL (P1.T2) (M.Boland),rebound,freethrow,4,Low
+21800440,219,freethrow,2,PT07M58.00S,07:58,Q2 07:58,42,39,1610612758.0,Bogdanovic,Bogdanovic Free Throw 1 of 2 (6 PTS),foul,freethrow,3,Low
+21800440,228,freethrow,2,PT07M58.00S,07:58,Q2 07:58,42,40,1610612758.0,Bogdanovic,Bogdanovic Free Throw 2 of 2 (7 PTS),freethrow,substitution,2,Low
+21800440,220,substitution,2,PT07M58.00S,07:58,Q2 07:58,42,39,1610612742.0,Brunson,SUB out: J. Brunson,freethrow,substitution,3,Low
+21800440,221,substitution,2,PT07M58.00S,07:58,Q2 07:58,42,39,1610612742.0,Harris,SUB out: D. Harris,substitution,substitution,3,Low
+21800440,222,substitution,2,PT07M58.00S,07:58,Q2 07:58,42,39,1610612758.0,Ferrell,SUB out: Y. Ferrell,substitution,substitution,3,Low
+21800440,223,substitution,2,PT07M58.00S,07:58,Q2 07:58,42,39,1610612758.0,Jackson,SUB out: J. Jackson,substitution,substitution,3,Low
+21800440,224,substitution,2,PT07M58.00S,07:58,Q2 07:58,42,39,1610612742.0,Matthews,SUB in: W. Matthews,substitution,substitution,3,Low
+21800440,225,substitution,2,PT07M58.00S,07:58,Q2 07:58,42,39,1610612742.0,Doncic,SUB in: L. Doncic,substitution,substitution,3,Low
+21800440,226,substitution,2,PT07M58.00S,07:58,Q2 07:58,42,39,1610612758.0,Bjelica,SUB in: N. Bjelica,substitution,substitution,3,Low
+21800440,227,substitution,2,PT07M58.00S,07:58,Q2 07:58,42,39,1610612758.0,Fox,SUB in: D. Fox,substitution,foul,3,Low
+21800440,229,foul,2,PT07M48.00S,07:48,Q2 07:48,42,40,1610612758.0,Cauley-Stein,Kings T.Foul (Def. 3 Sec Cauley-Stein ) (R.Garretson),substitution,freethrow,2,Low
+21800440,230,freethrow,2,PT07M48.00S,07:48,Q2 07:48,43,40,1610612742.0,Nowitzki,Nowitzki Free Throw Technical (1 PTS),foul,2pt made,3,Low
+21800440,231,2pt,2,PT07M40.00S,07:40,Q2 07:40,45,40,1610612742.0,Nowitzki,Nowitzki 18' Jump Shot (3 PTS) (Matthews 2 AST),freethrow,turnover,5,Low
+21800440,233,turnover,2,PT07M26.00S,07:26,Q2 07:26,45,40,1610612758.0,Cauley-Stein,Cauley-Stein Out of Bounds Lost Ball Turnover (P1.T4),2pt made,2pt made,5,Low
+21800440,234,2pt,2,PT07M17.00S,07:17,Q2 07:17,47,40,1610612742.0,Doncic,Doncic 4' Driving Finger Roll Layup (10 PTS),turnover,3pt made,7,Low
+21800440,235,3pt,2,PT07M07.00S,07:07,Q2 07:07,47,43,1610612758.0,Bjelica,Bjelica 28' 3PT Jump Shot (3 PTS),2pt made,2pt made,4,Low
+21800440,236,2pt,2,PT06M55.00S,06:55,Q2 06:55,49,43,1610612742.0,Powell,Powell 2' Cutting Finger Roll Layup Shot (8 PTS) (Doncic 4 AST),3pt made,timeout,6,Low
+21800440,238,timeout,2,PT06M55.00S,06:55,Q2 06:55,49,43,1610612758.0,,Kings Timeout: Regular (Reg.3 Short 0),2pt made,substitution,6,Low
+21800440,239,substitution,2,PT06M55.00S,06:55,Q2 06:55,49,43,1610612742.0,Powell,SUB out: D. Powell,timeout,substitution,6,Low
+21800440,240,substitution,2,PT06M55.00S,06:55,Q2 06:55,49,43,1610612742.0,Nowitzki,SUB out: D. Nowitzki,substitution,substitution,6,Low
+21800440,241,substitution,2,PT06M55.00S,06:55,Q2 06:55,49,43,1610612742.0,Jordan,SUB in: D. Jordan,substitution,substitution,6,Low
+21800440,242,substitution,2,PT06M55.00S,06:55,Q2 06:55,49,43,1610612742.0,Barnes,SUB in: H. Barnes,substitution,2pt missed,6,Low
+21800440,243,2pt,2,PT06M41.00S,06:41,Q2 06:41,49,43,1610612758.0,Fox,MISS Fox 8' Driving Floating Jump Shot,substitution,block,6,Low
+21800440,243,block,2,PT06M41.00S,06:41,Q2 06:41,49,43,1610612742.0,Jordan,Jordan BLOCK (1 BLK),2pt missed,rebound,6,Low
+21800440,245,rebound,2,PT06M39.00S,06:39,Q2 06:39,49,43,1610612758.0,Fox,Fox REBOUND (Off:1 Def:0),block,2pt made,6,Low
+21800440,246,2pt,2,PT06M37.00S,06:37,Q2 06:37,49,45,1610612758.0,Fox,Fox 1' Putback Dunk (14 PTS),rebound,foul,4,Low
+21800440,247,foul,2,PT06M29.00S,06:29,Q2 06:29,49,45,1610612758.0,Fox,Fox P.FOUL (P1.T2) (R.Garretson),2pt made,2pt made,4,Low
+21800440,249,2pt,2,PT06M24.00S,06:24,Q2 06:24,51,45,1610612742.0,Jordan,Jordan 2' Cutting Dunk Shot (4 PTS) (Doncic 5 AST),foul,3pt made,6,Low
+21800440,251,3pt,2,PT06M15.00S,06:15,Q2 06:15,51,48,1610612758.0,Hield,Hield 3PT Jump Shot (10 PTS) (Bogdanovic 2 AST),2pt made,3pt made,3,Low
+21800440,253,3pt,2,PT05M51.00S,05:51,Q2 05:51,54,48,1610612742.0,Doncic,Doncic 3PT Step Back Jump Shot (13 PTS),3pt made,2pt missed,6,Low
+21800440,254,2pt,2,PT05M35.00S,05:35,Q2 05:35,54,48,1610612758.0,Hield,MISS Hield 16' Jump Shot,3pt made,rebound,6,Low
+21800440,255,rebound,2,PT05M32.00S,05:32,Q2 05:32,54,48,1610612742.0,Doncic,Doncic REBOUND (Off:0 Def:3),2pt missed,turnover,6,Low
+21800440,256,turnover,2,PT05M27.00S,05:27,Q2 05:27,54,48,1610612742.0,Doncic,Doncic Bad Pass Turnover (P2.T6),rebound,steal,6,Low
+21800440,256,steal,2,PT05M27.00S,05:27,Q2 05:27,54,48,1610612758.0,Fox,Fox STEAL (1 STL),turnover,foul,6,Low
+21800440,258,foul,2,PT05M25.00S,05:25,Q2 05:25,54,48,1610612742.0,Broekhoff,Broekhoff Personal Take Foul (P2.T3) (T.Brown),steal,substitution,6,Low
+21800440,260,substitution,2,PT05M25.00S,05:25,Q2 05:25,54,48,1610612742.0,Broekhoff,SUB out: R. Broekhoff,foul,substitution,6,Low
+21800440,261,substitution,2,PT05M25.00S,05:25,Q2 05:25,54,48,1610612742.0,Finney-Smith,SUB in: D. Finney-Smith,substitution,2pt made,6,Low
+21800440,262,2pt,2,PT05M20.00S,05:20,Q2 05:20,54,50,1610612758.0,Hield,Hield 5' Driving Layup (12 PTS) (Cauley-Stein 2 AST),substitution,foul,4,Low
+21800440,264,foul,2,PT05M20.00S,05:20,Q2 05:20,54,50,1610612742.0,Jordan,Jordan S.FOUL (P1.T4) (M.Boland),2pt made,freethrow,4,Low
+21800440,266,freethrow,2,PT05M20.00S,05:20,Q2 05:20,54,51,1610612758.0,Hield,Hield Free Throw 1 of 1 (13 PTS),foul,foul,3,Low
+21800440,267,foul,2,PT05M10.00S,05:10,Q2 05:10,54,51,1610612758.0,Hield,Hield P.FOUL (P2.T3) (M.Boland),freethrow,2pt missed,3,Low
+21800440,269,2pt,2,PT05M01.00S,05:01,Q2 05:01,54,51,1610612742.0,Matthews,MISS Matthews 6' Turnaround Hook Shot,foul,rebound,3,Low
+21800440,270,rebound,2,PT04M59.00S,04:59,Q2 04:59,54,51,1610612758.0,Cauley-Stein,Cauley-Stein REBOUND (Off:1 Def:3),2pt missed,2pt made,3,Low
+21800440,271,2pt,2,PT04M52.00S,04:52,Q2 04:52,54,53,1610612758.0,Bjelica,Bjelica 8' Driving Hook Shot (5 PTS),rebound,timeout,1,Low
+21800440,272,timeout,2,PT04M52.00S,04:52,Q2 04:52,54,53,1610612742.0,,MAVERICKS Timeout: Regular (Full 2 Short 0),2pt made,2pt missed,1,Low
+21800440,273,2pt,2,PT04M30.00S,04:30,Q2 04:30,54,53,1610612742.0,Barnes,MISS Barnes 7' Hook Shot,timeout,rebound,1,Low
+21800440,274,rebound,2,PT04M28.00S,04:28,Q2 04:28,54,53,1610612742.0,Jordan,Jordan REBOUND (Off:2 Def:5),2pt missed,2pt missed,1,Low
+21800440,275,2pt,2,PT04M26.00S,04:26,Q2 04:26,54,53,1610612742.0,Jordan,MISS Jordan 2' Reverse Dunk,rebound,block,1,Low
+21800440,275,block,2,PT04M26.00S,04:26,Q2 04:26,54,53,1610612758.0,Bjelica,Bjelica BLOCK (1 BLK),2pt missed,rebound,1,Low
+21800440,277,rebound,2,PT04M26.00S,04:26,Q2 04:26,54,53,1610612758.0,Bjelica,Bjelica REBOUND (Off:0 Def:6),block,2pt missed,1,Low
+21800440,278,2pt,2,PT04M18.00S,04:18,Q2 04:18,54,53,1610612758.0,Cauley-Stein,MISS Cauley-Stein 2' Layup,rebound,rebound,1,Low
+21800440,279,rebound,2,PT04M15.00S,04:15,Q2 04:15,54,53,1610612742.0,Jordan,Jordan REBOUND (Off:2 Def:6),2pt missed,3pt missed,1,Low
+21800440,280,3pt,2,PT04M10.00S,04:10,Q2 04:10,54,53,1610612742.0,Doncic,MISS Doncic 27' 3PT Jump Shot,rebound,rebound,1,Low
+21800440,281,rebound,2,PT04M07.00S,04:07,Q2 04:07,54,53,1610612758.0,Bogdanovic,Bogdanovic REBOUND (Off:0 Def:4),3pt missed,3pt missed,1,Low
+21800440,282,3pt,2,PT03M57.00S,03:57,Q2 03:57,54,53,1610612758.0,Bjelica,MISS Bjelica 31' 3PT Jump Shot,rebound,rebound,1,Low
+21800440,283,rebound,2,PT03M55.00S,03:55,Q2 03:55,54,53,1610612742.0,Jordan,Jordan REBOUND (Off:2 Def:7),3pt missed,2pt missed,1,Low
+21800440,284,2pt,2,PT03M48.00S,03:48,Q2 03:48,54,53,1610612742.0,Barnes,MISS Barnes 2' Driving Reverse Layup,rebound,block,1,Low
+21800440,284,block,2,PT03M48.00S,03:48,Q2 03:48,54,53,1610612758.0,Bjelica,Bjelica BLOCK (2 BLK),2pt missed,rebound,1,Low
+21800440,286,rebound,2,PT03M45.00S,03:45,Q2 03:45,54,53,1610612758.0,Fox,Fox REBOUND (Off:1 Def:1),block,2pt made,1,Low
+21800440,287,2pt,2,PT03M36.00S,03:36,Q2 03:36,54,55,1610612758.0,Bogdanovic,Bogdanovic 3' Driving Layup (9 PTS) (Hield 2 AST),rebound,2pt made,1,Low
+21800440,289,2pt,2,PT03M22.00S,03:22,Q2 03:22,56,55,1610612742.0,Barnes,Barnes 2' Cutting Dunk Shot (9 PTS) (Matthews 3 AST),2pt made,2pt missed,1,Low
+21800440,291,2pt,2,PT03M15.00S,03:15,Q2 03:15,56,55,1610612758.0,Hield,MISS Hield 9' Driving Layup,2pt made,rebound,1,Low
+21800440,292,rebound,2,PT03M13.00S,03:13,Q2 03:13,56,55,1610612758.0,Bjelica,Bjelica REBOUND (Off:1 Def:6),2pt missed,3pt missed,1,Low
+21800440,293,3pt,2,PT03M08.00S,03:08,Q2 03:08,56,55,1610612758.0,Hield,MISS Hield 3PT Jump Shot,rebound,rebound,1,Low
+21800440,294,rebound,2,PT03M03.00S,03:03,Q2 03:03,56,55,1610612742.0,Finney-Smith,Finney-Smith REBOUND (Off:1 Def:1),3pt missed,2pt missed,1,Low
+21800440,295,2pt,2,PT02M47.00S,02:47,Q2 02:47,56,55,1610612742.0,Doncic,MISS Doncic 2' Dunk,rebound,block,1,Low
+21800440,295,block,2,PT02M47.00S,02:47,Q2 02:47,56,55,1610612758.0,Fox,Fox BLOCK (1 BLK),2pt missed,rebound,1,Low
+21800440,297,rebound,2,PT02M44.00S,02:44,Q2 02:44,56,55,1610612742.0,Jordan,Jordan REBOUND (Off:3 Def:7),block,3pt missed,1,Low
+21800440,298,3pt,2,PT02M42.00S,02:42,Q2 02:42,56,55,1610612742.0,Barnes,MISS Barnes 3PT Jump Shot,rebound,rebound,1,Low
+21800440,299,rebound,2,PT02M40.00S,02:40,Q2 02:40,56,55,1610612758.0,Cauley-Stein,Cauley-Stein REBOUND (Off:1 Def:4),3pt missed,turnover,1,Low
+21800440,300,turnover,2,PT02M30.00S,02:30,Q2 02:30,56,55,1610612758.0,Fox,Fox Bad Pass Turnover (P2.T5),rebound,steal,1,Low
+21800440,300,steal,2,PT02M30.00S,02:30,Q2 02:30,56,55,1610612742.0,Barnes,Barnes STEAL (1 STL),turnover,turnover,1,Low
+21800440,302,turnover,2,PT02M15.00S,02:15,Q2 02:15,56,55,1610612742.0,Barnes,Barnes Bad Pass Turnover (P1.T7),steal,steal,1,Low
+21800440,302,steal,2,PT02M15.00S,02:15,Q2 02:15,56,55,1610612758.0,Cauley-Stein,Cauley-Stein STEAL (1 STL),turnover,2pt missed,1,Low
+21800440,304,2pt,2,PT02M11.00S,02:11,Q2 02:11,56,55,1610612758.0,Bogdanovic,MISS Bogdanovic 3' Running Reverse Layup,steal,rebound,1,Low
+21800440,305,rebound,2,PT02M08.00S,02:08,Q2 02:08,56,55,1610612742.0,Doncic,Doncic REBOUND (Off:0 Def:4),2pt missed,2pt missed,1,Low
+21800440,306,2pt,2,PT01M52.00S,01:52,Q2 01:52,56,55,1610612742.0,Doncic,MISS Doncic 12' Fadeaway Jumper,rebound,rebound,1,Low
+21800440,307,rebound,2,PT01M49.00S,01:49,Q2 01:49,56,55,1610612742.0,Jordan,Jordan REBOUND (Off:4 Def:7),2pt missed,3pt missed,1,Low
+21800440,308,3pt,2,PT01M47.00S,01:47,Q2 01:47,56,55,1610612742.0,Matthews,MISS Matthews 26' 3PT Jump Shot,rebound,rebound,1,Low
+21800440,309,rebound,2,PT01M44.00S,01:44,Q2 01:44,56,55,1610612758.0,Bogdanovic,Bogdanovic REBOUND (Off:0 Def:5),3pt missed,2pt made,1,Low
+21800440,310,2pt,2,PT01M42.00S,01:42,Q2 01:42,56,57,1610612758.0,Hield,Hield 3' Running Layup (15 PTS) (Bogdanovic 3 AST),rebound,2pt missed,1,Low
+21800440,312,2pt,2,PT01M18.00S,01:18,Q2 01:18,56,57,1610612742.0,Barnes,MISS Barnes 5' Jump Shot,2pt made,rebound,1,Low
+21800440,313,rebound,2,PT01M18.00S,01:18,Q2 01:18,56,57,1610612758.0,,TEAM defensive REBOUND,2pt missed,substitution,1,Low
+21800440,315,substitution,2,PT01M18.00S,01:18,Q2 01:18,56,57,1610612758.0,Cauley-Stein,SUB out: W. Cauley-Stein,rebound,substitution,1,Low
+21800440,316,substitution,2,PT01M18.00S,01:18,Q2 01:18,56,57,1610612758.0,Bogdanovic,SUB out: B. Bogdanovic,substitution,substitution,1,Low
+21800440,317,substitution,2,PT01M18.00S,01:18,Q2 01:18,56,57,1610612758.0,Jackson,SUB in: J. Jackson,substitution,substitution,1,Low
+21800440,318,substitution,2,PT01M18.00S,01:18,Q2 01:18,56,57,1610612758.0,Koufos,SUB in: K. Koufos,substitution,2pt missed,1,Low
+21800440,319,2pt,2,PT01M01.00S,01:01,Q2 01:01,56,57,1610612758.0,Jackson,MISS Jackson 7' Driving Floating Bank Jump Shot,substitution,rebound,1,Low
+21800440,320,rebound,2,PT00M58.10S,00:58,Q2 00:58,56,57,1610612758.0,Jackson,Jackson REBOUND (Off:1 Def:1),2pt missed,2pt made,1,Low
+21800440,321,2pt,2,PT00M58.00S,00:58,Q2 00:58,56,59,1610612758.0,Jackson,Jackson 4' Putback Layup (6 PTS),rebound,2pt missed,3,Low
+21800440,322,2pt,2,PT00M47.10S,00:47,Q2 00:47,56,59,1610612742.0,Matthews,MISS Matthews 3' Driving Layup,2pt made,rebound,3,Low
+21800440,323,rebound,2,PT00M45.80S,00:45,Q2 00:45,56,59,1610612742.0,Jordan,Jordan REBOUND (Off:5 Def:7),2pt missed,2pt made,3,Low
+21800440,324,2pt,2,PT00M45.80S,00:45,Q2 00:45,58,59,1610612742.0,Jordan,Jordan 1' Tip Layup Shot (6 PTS),rebound,2pt missed,1,Low
+21800440,325,2pt,2,PT00M35.10S,00:35,Q2 00:35,58,59,1610612758.0,Fox,MISS Fox 23' Jump Shot,2pt made,rebound,1,Low
+21800440,326,rebound,2,PT00M35.10S,00:35,Q2 00:35,58,59,1610612742.0,Jordan,Jordan REBOUND (Off:5 Def:8),2pt missed,3pt missed,1,Low
+21800440,327,3pt,2,PT00M10.30S,00:10,Q2 00:10,58,59,1610612742.0,Doncic,MISS Doncic 25' 3PT Step Back Jump Shot,rebound,rebound,1,Low
+21800440,328,rebound,2,PT00M07.00S,00:07,Q2 00:07,58,59,1610612758.0,Koufos,Koufos REBOUND (Off:1 Def:2),3pt missed,2pt made,1,Low
+21800440,329,2pt,2,PT00M01.10S,00:01,Q2 00:01,58,61,1610612758.0,Hield,Hield 15' Step Back Jump Shot (17 PTS),rebound,period,3,Low
+21800440,330,period,2,PT00M00.00S,00:00,Q2 00:00,58,61,1610612742.0,,End of 2nd Period (8:06 PM EST),2pt made,period,3,Low
+21800440,337,period,3,PT12M00.00S,12:00,Q3 12:00,58,61,1610612742.0,,Start of 3rd Period (8:22 PM EST),period,substitution,3,Low
+21800440,338,2pt,3,PT11M44.00S,11:44,Q3 11:44,58,63,1610612758.0,Cauley-Stein,Cauley-Stein 3' Alley Oop Dunk (6 PTS) (Bogdanovic 4 AST),substitution,3pt made,5,Low
+21800440,340,3pt,3,PT11M22.00S,11:22,Q3 11:22,61,63,1610612742.0,Matthews,Matthews 27' 3PT Jump Shot (6 PTS) (Brunson 3 AST),2pt made,foul,2,Low
+21800440,342,foul,3,PT11M09.00S,11:09,Q3 11:09,61,63,1610612742.0,Doncic,Doncic S.FOUL (P2.T1) (T.Brown),3pt made,freethrow,2,Low
+21800440,344,freethrow,3,PT11M09.00S,11:09,Q3 11:09,61,63,1610612758.0,Bogdanovic,MISS Bogdanovic Free Throw 1 of 2,foul,rebound,2,Low
+21800440,345,rebound,3,PT11M09.00S,11:09,Q3 11:09,61,63,1610612758.0,,TEAM offensive REBOUND,freethrow,freethrow,2,Low
+21800440,346,freethrow,3,PT11M09.00S,11:09,Q3 11:09,61,64,1610612758.0,Bogdanovic,Bogdanovic Free Throw 2 of 2 (10 PTS),rebound,turnover,3,Low
+21800440,347,turnover,3,PT10M59.00S,10:59,Q3 10:59,61,64,1610612742.0,Matthews,Matthews Lost Ball Turnover (P1.T8),freethrow,steal,3,Low
+21800440,347,steal,3,PT10M59.00S,10:59,Q3 10:59,61,64,1610612758.0,Fox,Fox STEAL (2 STL),turnover,2pt made,3,Low
+21800440,349,2pt,3,PT10M55.00S,10:55,Q3 10:55,61,66,1610612758.0,Hield,Hield 2' Running Dunk (19 PTS) (Fox 1 AST),steal,timeout,5,Low
+21800440,351,timeout,3,PT10M54.00S,10:54,Q3 10:54,61,66,1610612742.0,,MAVERICKS Timeout: Regular (Full 3 Short 0),2pt made,2pt made,5,Low
+21800440,352,2pt,3,PT10M34.00S,10:34,Q3 10:34,63,66,1610612742.0,Matthews,Matthews 8' Jump Bank Shot (8 PTS),timeout,3pt missed,3,Low
+21800440,353,3pt,3,PT10M17.00S,10:17,Q3 10:17,63,66,1610612758.0,Fox,MISS Fox 24' 3PT Jump Shot,2pt made,rebound,3,Low
+21800440,354,rebound,3,PT10M14.00S,10:14,Q3 10:14,63,66,1610612742.0,Jordan,Jordan REBOUND (Off:5 Def:9),3pt missed,2pt missed,3,Low
+21800440,355,2pt,3,PT10M08.00S,10:08,Q3 10:08,63,66,1610612742.0,Brunson,MISS Brunson 11' Turnaround Jump Shot,rebound,rebound,3,Low
+21800440,356,rebound,3,PT10M06.00S,10:06,Q3 10:06,63,66,1610612758.0,Bjelica,Bjelica REBOUND (Off:1 Def:7),2pt missed,foul,3,Low
+21800440,357,foul,3,PT10M01.00S,10:01,Q3 10:01,63,66,1610612742.0,Matthews,Matthews S.FOUL (P2.T2) (R.Garretson),rebound,freethrow,3,Low
+21800440,359,freethrow,3,PT10M01.00S,10:01,Q3 10:01,63,67,1610612758.0,Fox,Fox Free Throw 1 of 2 (15 PTS),foul,freethrow,4,Low
+21800440,360,freethrow,3,PT10M01.00S,10:01,Q3 10:01,63,68,1610612758.0,Fox,Fox Free Throw 2 of 2 (16 PTS),freethrow,2pt missed,5,Low
+21800440,361,2pt,3,PT09M40.00S,09:40,Q3 09:40,63,68,1610612742.0,Barnes,MISS Barnes 3' Driving Dunk,freethrow,block,5,Low
+21800440,361,block,3,PT09M40.00S,09:40,Q3 09:40,63,68,1610612758.0,Bjelica,Bjelica BLOCK (3 BLK),2pt missed,rebound,5,Low
+21800440,363,rebound,3,PT09M36.00S,09:36,Q3 09:36,63,68,1610612758.0,Bogdanovic,Bogdanovic REBOUND (Off:0 Def:6),block,3pt missed,5,Low
+21800440,364,3pt,3,PT09M34.00S,09:34,Q3 09:34,63,68,1610612758.0,Fox,MISS Fox 25' 3PT Jump Shot,rebound,rebound,5,Low
+21800440,365,rebound,3,PT09M31.00S,09:31,Q3 09:31,63,68,1610612742.0,Jordan,Jordan REBOUND (Off:5 Def:10),3pt missed,foul,5,Low
+21800440,366,foul,3,PT09M21.00S,09:21,Q3 09:21,63,68,1610612758.0,Cauley-Stein,Cauley-Stein S.FOUL (P2.T1) (M.Boland),rebound,freethrow,5,Low
+21800440,368,freethrow,3,PT09M21.00S,09:21,Q3 09:21,64,68,1610612742.0,Doncic,Doncic Free Throw 1 of 2 (14 PTS),foul,freethrow,4,Low
+21800440,371,freethrow,3,PT09M21.00S,09:21,Q3 09:21,65,68,1610612742.0,Doncic,Doncic Free Throw 2 of 2 (15 PTS),freethrow,substitution,3,Low
+21800440,369,substitution,3,PT09M21.00S,09:21,Q3 09:21,64,68,1610612742.0,Barnes,SUB out: H. Barnes,freethrow,substitution,4,Low
+21800440,370,substitution,3,PT09M21.00S,09:21,Q3 09:21,64,68,1610612742.0,Kleber,SUB in: M. Kleber,substitution,2pt missed,4,Low
+21800440,372,2pt,3,PT09M11.00S,09:11,Q3 09:11,65,68,1610612758.0,Hield,MISS Hield 4' Alley Oop Layup,substitution,rebound,3,Low
+21800440,373,rebound,3,PT09M09.00S,09:09,Q3 09:09,65,68,1610612758.0,Cauley-Stein,Cauley-Stein REBOUND (Off:2 Def:4),2pt missed,foul,3,Low
+21800440,374,foul,3,PT09M09.00S,09:09,Q3 09:09,65,68,1610612742.0,Matthews,Matthews P.FOUL (P3.T3) (M.Boland),rebound,2pt made,3,Low
+21800440,376,2pt,3,PT09M04.00S,09:04,Q3 09:04,65,70,1610612758.0,Fox,Fox 1' Driving Finger Roll Layup (18 PTS),foul,2pt made,5,Low
+21800440,377,2pt,3,PT08M45.00S,08:45,Q3 08:45,67,70,1610612742.0,Kleber,Kleber 7' Driving Floating Bank Jump Shot (2 PTS) (Doncic 6 AST),2pt made,foul,3,Low
+21800440,379,foul,3,PT08M45.00S,08:45,Q3 08:45,67,70,1610612758.0,Bogdanovic,Bogdanovic S.FOUL (P3.T2) (M.Boland),2pt made,freethrow,3,Low
+21800440,381,freethrow,3,PT08M45.00S,08:45,Q3 08:45,67,70,1610612742.0,Kleber,MISS Kleber Free Throw 1 of 1,foul,rebound,3,Low
+21800440,382,rebound,3,PT08M43.00S,08:43,Q3 08:43,67,70,1610612758.0,Bjelica,Bjelica REBOUND (Off:1 Def:8),freethrow,3pt missed,3,Low
+21800440,383,3pt,3,PT08M33.00S,08:33,Q3 08:33,67,70,1610612758.0,Bjelica,MISS Bjelica 26' 3PT Jump Shot,rebound,rebound,3,Low
+21800440,384,rebound,3,PT08M31.00S,08:31,Q3 08:31,67,70,1610612758.0,Cauley-Stein,Cauley-Stein REBOUND (Off:3 Def:4),3pt missed,3pt missed,3,Low
+21800440,385,3pt,3,PT08M29.00S,08:29,Q3 08:29,67,70,1610612758.0,Bogdanovic,MISS Bogdanovic 26' 3PT Jump Shot,rebound,rebound,3,Low
+21800440,386,rebound,3,PT08M26.00S,08:26,Q3 08:26,67,70,1610612742.0,,TEAM defensive REBOUND,3pt missed,3pt missed,3,Low
+21800440,388,3pt,3,PT08M12.00S,08:12,Q3 08:12,67,70,1610612742.0,Kleber,MISS Kleber 26' 3PT Jump Shot,rebound,rebound,3,Low
+21800440,389,rebound,3,PT08M09.00S,08:09,Q3 08:09,67,70,1610612742.0,Jordan,Jordan REBOUND (Off:6 Def:10),3pt missed,2pt made,3,Low
+21800440,390,2pt,3,PT08M06.00S,08:06,Q3 08:06,69,70,1610612742.0,Kleber,Kleber 4' Driving Finger Roll Layup (4 PTS) (Jordan 2 AST),rebound,2pt made,1,Low
+21800440,391,2pt,3,PT07M58.00S,07:58,Q3 07:58,69,72,1610612758.0,Cauley-Stein,Cauley-Stein Running Dunk (8 PTS) (Fox 2 AST),2pt made,3pt missed,3,Low
+21800440,392,3pt,3,PT07M44.00S,07:44,Q3 07:44,69,72,1610612742.0,Kleber,MISS Kleber 24' 3PT Jump Shot,2pt made,rebound,3,Low
+21800440,393,rebound,3,PT07M40.00S,07:40,Q3 07:40,69,72,1610612758.0,Cauley-Stein,Cauley-Stein REBOUND (Off:3 Def:5),3pt missed,2pt missed,3,Low
+21800440,394,2pt,3,PT07M25.00S,07:25,Q3 07:25,69,72,1610612758.0,Fox,MISS Fox 14' Step Back Jump Shot,rebound,rebound,3,Low
+21800440,396,rebound,3,PT07M25.00S,07:25,Q3 07:25,69,72,1610612742.0,Jordan,Jordan REBOUND (Off:6 Def:11),2pt missed,3pt missed,3,Low
+21800440,397,3pt,3,PT07M10.00S,07:10,Q3 07:10,69,72,1610612742.0,Matthews,MISS Matthews 26' 3PT Jump Shot,rebound,rebound,3,Low
+21800440,398,rebound,3,PT07M07.00S,07:07,Q3 07:07,69,72,1610612742.0,Brunson,Brunson REBOUND (Off:1 Def:1),3pt missed,3pt missed,3,Low
+21800440,399,3pt,3,PT06M54.00S,06:54,Q3 06:54,69,72,1610612742.0,Kleber,MISS Kleber 24' 3PT Jump Shot,rebound,rebound,3,Low
+21800440,400,rebound,3,PT06M50.00S,06:50,Q3 06:50,69,72,1610612758.0,Bogdanovic,Bogdanovic REBOUND (Off:0 Def:7),3pt missed,3pt made,3,Low
+21800440,401,3pt,3,PT06M47.00S,06:47,Q3 06:47,69,75,1610612758.0,Hield,Hield 25' 3PT Running Jump Shot (22 PTS) (Bogdanovic 5 AST),rebound,3pt made,6,Low
+21800440,403,3pt,3,PT06M24.00S,06:24,Q3 06:24,72,75,1610612742.0,Kleber,Kleber 25' 3PT Jump Shot (7 PTS) (Matthews 4 AST),3pt made,2pt missed,3,Low
+21800440,405,2pt,3,PT06M14.00S,06:14,Q3 06:14,72,75,1610612758.0,Bogdanovic,MISS Bogdanovic 17' Step Back Jump Shot,3pt made,rebound,3,Low
+21800440,406,rebound,3,PT06M11.00S,06:11,Q3 06:11,72,75,1610612742.0,Jordan,Jordan REBOUND (Off:6 Def:12),2pt missed,substitution,3,Low
+21800440,408,substitution,3,PT06M09.00S,06:09,Q3 06:09,72,75,1610612758.0,Cauley-Stein,SUB out: W. Cauley-Stein,rebound,substitution,3,Low
+21800440,409,substitution,3,PT06M09.00S,06:09,Q3 06:09,72,75,1610612758.0,Bogdanovic,SUB out: B. Bogdanovic,substitution,substitution,3,Low
+21800440,410,substitution,3,PT06M09.00S,06:09,Q3 06:09,72,75,1610612758.0,Jackson,SUB in: J. Jackson,substitution,substitution,3,Low
+21800440,411,substitution,3,PT06M09.00S,06:09,Q3 06:09,72,75,1610612758.0,Koufos,SUB in: K. Koufos,substitution,2pt missed,3,Low
+21800440,412,2pt,3,PT06M04.00S,06:04,Q3 06:04,72,75,1610612742.0,Brunson,MISS Brunson 18' Step Back Jump Shot,substitution,rebound,3,Low
+21800440,413,rebound,3,PT06M00.00S,06:00,Q3 06:00,72,75,1610612742.0,Jordan,Jordan REBOUND (Off:7 Def:12),2pt missed,2pt missed,3,Low
+21800440,414,2pt,3,PT05M58.00S,05:58,Q3 05:58,72,75,1610612742.0,Matthews,MISS Matthews 10' Floating Jump Shot,rebound,rebound,3,Low
+21800440,415,rebound,3,PT05M56.00S,05:56,Q3 05:56,72,75,1610612742.0,Jordan,Jordan REBOUND (Off:8 Def:12),2pt missed,2pt missed,3,Low
+21800440,416,2pt,3,PT05M56.00S,05:56,Q3 05:56,72,75,1610612742.0,Jordan,MISS Jordan 2' Tip Layup Shot,rebound,rebound,3,Low
+21800440,417,rebound,3,PT05M55.00S,05:55,Q3 05:55,72,75,1610612758.0,Hield,Hield REBOUND (Off:0 Def:3),2pt missed,turnover,3,Low
+21800440,418,turnover,3,PT05M54.00S,05:54,Q3 05:54,72,75,1610612758.0,Hield,Hield Lost Ball Turnover (P2.T6),rebound,steal,3,Low
+21800440,418,steal,3,PT05M54.00S,05:54,Q3 05:54,72,75,1610612742.0,Doncic,Doncic STEAL (1 STL),turnover,foul,3,Low
+21800440,421,foul,3,PT05M53.00S,05:53,Q3 05:53,72,75,1610612758.0,Hield,Hield S.FOUL (P3.T3) (R.Garretson),steal,freethrow,3,Low
+21800440,423,freethrow,3,PT05M53.00S,05:53,Q3 05:53,73,75,1610612742.0,Doncic,Doncic Free Throw 1 of 2 (16 PTS),foul,freethrow,2,Low
+21800440,428,freethrow,3,PT05M53.00S,05:53,Q3 05:53,74,75,1610612742.0,Doncic,Doncic Free Throw 2 of 2 (17 PTS),freethrow,substitution,1,Low
+21800440,424,substitution,3,PT05M53.00S,05:53,Q3 05:53,73,75,1610612742.0,Brunson,SUB out: J. Brunson,freethrow,substitution,2,Low
+21800440,425,substitution,3,PT05M53.00S,05:53,Q3 05:53,73,75,1610612742.0,Kleber,SUB out: M. Kleber,substitution,substitution,2,Low
+21800440,426,substitution,3,PT05M53.00S,05:53,Q3 05:53,73,75,1610612742.0,Harris,SUB in: D. Harris,substitution,substitution,2,Low
+21800440,427,substitution,3,PT05M53.00S,05:53,Q3 05:53,73,75,1610612742.0,Barnes,SUB in: H. Barnes,substitution,2pt made,2,Low
+21800440,429,2pt,3,PT05M36.00S,05:36,Q3 05:36,74,77,1610612758.0,Fox,Fox 4' Driving Floating Bank Jump Shot (20 PTS) (Koufos 1 AST),substitution,2pt missed,3,Low
+21800440,431,2pt,3,PT05M10.00S,05:10,Q3 05:10,74,77,1610612742.0,Jordan,MISS Jordan 7' Turnaround Hook Shot,2pt made,rebound,3,Low
+21800440,432,rebound,3,PT05M07.00S,05:07,Q3 05:07,74,77,1610612758.0,Bjelica,Bjelica REBOUND (Off:1 Def:9),2pt missed,2pt made,3,Low
+21800440,433,2pt,3,PT04M57.00S,04:57,Q3 04:57,74,79,1610612758.0,Hield,Hield 14' Fadeaway Jumper (24 PTS),rebound,timeout,5,Low
+21800440,434,timeout,3,PT04M56.00S,04:56,Q3 04:56,74,79,1610612742.0,,MAVERICKS Timeout: Regular (Full 4 Short 0),2pt made,2pt made,5,Low
+21800440,436,2pt,3,PT04M42.00S,04:42,Q3 04:42,76,79,1610612742.0,Doncic,Doncic 6' Turnaround Jump Shot (19 PTS),timeout,foul,3,Low
+21800440,437,foul,3,PT04M30.00S,04:30,Q3 04:30,76,79,1610612742.0,Jordan,Jordan S.FOUL (P2.T4) (M.Boland),2pt made,freethrow,3,Low
+21800440,439,freethrow,3,PT04M30.00S,04:30,Q3 04:30,76,80,1610612758.0,Bjelica,Bjelica Free Throw 1 of 2 (6 PTS),foul,freethrow,4,Low
+21800440,446,freethrow,3,PT04M30.00S,04:30,Q3 04:30,76,80,1610612758.0,Bjelica,MISS Bjelica Free Throw 2 of 2,freethrow,substitution,4,Low
+21800440,440,substitution,3,PT04M30.00S,04:30,Q3 04:30,76,80,1610612742.0,Jordan,SUB out: D. Jordan,freethrow,substitution,4,Low
+21800440,441,substitution,3,PT04M30.00S,04:30,Q3 04:30,76,80,1610612742.0,Matthews,SUB out: W. Matthews,substitution,substitution,4,Low
+21800440,442,substitution,3,PT04M30.00S,04:30,Q3 04:30,76,80,1610612758.0,Fox,SUB out: D. Fox,substitution,substitution,4,Low
+21800440,443,substitution,3,PT04M30.00S,04:30,Q3 04:30,76,80,1610612742.0,Powell,SUB in: D. Powell,substitution,substitution,4,Low
+21800440,444,substitution,3,PT04M30.00S,04:30,Q3 04:30,76,80,1610612742.0,Finney-Smith,SUB in: D. Finney-Smith,substitution,substitution,4,Low
+21800440,445,substitution,3,PT04M30.00S,04:30,Q3 04:30,76,80,1610612758.0,Ferrell,SUB in: Y. Ferrell,substitution,rebound,4,Low
+21800440,447,rebound,3,PT04M27.00S,04:27,Q3 04:27,76,80,1610612742.0,Barnes,Barnes REBOUND (Off:0 Def:1),substitution,foul,4,Low
+21800440,448,foul,3,PT04M19.00S,04:19,Q3 04:19,76,80,1610612758.0,Jackson,Jackson P.FOUL (P3.T4) (M.Boland),rebound,3pt missed,4,Low
+21800440,450,3pt,3,PT04M04.00S,04:04,Q3 04:04,76,80,1610612742.0,Harris,MISS Harris 28' 3PT Jump Shot,foul,rebound,4,Low
+21800440,451,rebound,3,PT04M02.00S,04:02,Q3 04:02,76,80,1610612758.0,,TEAM defensive REBOUND,3pt missed,2pt made,4,Low
+21800440,453,2pt,3,PT03M47.00S,03:47,Q3 03:47,76,82,1610612758.0,Hield,Hield 19' Pullup Jump Shot (26 PTS),rebound,foul,6,Low
+21800440,454,foul,3,PT03M39.00S,03:39,Q3 03:39,76,82,1610612742.0,Doncic,Doncic OFF.Foul (P3) (R.Garretson),2pt made,turnover,6,Low
+21800440,456,turnover,3,PT03M39.00S,03:39,Q3 03:39,76,82,1610612742.0,Doncic,Doncic Offensive Foul Turnover (P3.T9),foul,3pt missed,6,Low
+21800440,457,3pt,3,PT03M24.00S,03:24,Q3 03:24,76,82,1610612758.0,Hield,MISS Hield 26' 3PT Step Back Jump Shot,turnover,rebound,6,Low
+21800440,458,rebound,3,PT03M21.00S,03:21,Q3 03:21,76,82,1610612742.0,Doncic,Doncic REBOUND (Off:0 Def:5),3pt missed,3pt made,6,Low
+21800440,459,3pt,3,PT03M16.00S,03:16,Q3 03:16,79,82,1610612742.0,Barnes,Barnes 25' 3PT Jump Shot (12 PTS) (Harris 1 AST),rebound,3pt made,3,Low
+21800440,461,3pt,3,PT02M59.00S,02:59,Q3 02:59,79,85,1610612758.0,Bjelica,Bjelica 28' 3PT Jump Shot (9 PTS) (Ferrell 2 AST),3pt made,2pt made,6,Low
+21800440,463,2pt,3,PT02M42.00S,02:42,Q3 02:42,81,85,1610612742.0,Finney-Smith,Finney-Smith 1' Driving Dunk (5 PTS) (Doncic 7 AST),3pt made,2pt missed,4,Low
+21800440,465,2pt,3,PT02M26.00S,02:26,Q3 02:26,81,85,1610612758.0,Jackson,MISS Jackson 14' Floating Jump Shot,2pt made,rebound,4,Low
+21800440,466,rebound,3,PT02M22.00S,02:22,Q3 02:22,81,85,1610612758.0,Koufos,Koufos REBOUND (Off:2 Def:2),2pt missed,2pt made,4,Low
+21800440,467,2pt,3,PT02M16.00S,02:16,Q3 02:16,81,87,1610612758.0,Koufos,Koufos 11' Turnaround Hook Shot (6 PTS),rebound,2pt missed,6,Low
+21800440,468,2pt,3,PT02M01.00S,02:01,Q3 02:01,81,87,1610612742.0,Powell,MISS Powell 5' Alley Oop Layup,2pt made,rebound,6,Low
+21800440,469,rebound,3,PT01M58.00S,01:58,Q3 01:58,81,87,1610612758.0,Koufos,Koufos REBOUND (Off:2 Def:3),2pt missed,2pt made,6,Low
+21800440,470,2pt,3,PT01M55.00S,01:55,Q3 01:55,81,89,1610612758.0,Ferrell,Ferrell 3' Running Layup (4 PTS),rebound,timeout,8,Low
+21800440,471,timeout,3,PT01M54.00S,01:54,Q3 01:54,81,89,1610612742.0,,MAVERICKS Timeout: Regular (Full 5 Short 0),2pt made,substitution,8,Low
+21800440,472,substitution,3,PT01M54.00S,01:54,Q3 01:54,81,89,1610612742.0,Barnes,SUB out: H. Barnes,timeout,substitution,8,Low
+21800440,473,substitution,3,PT01M54.00S,01:54,Q3 01:54,81,89,1610612742.0,Doncic,SUB out: L. Doncic,substitution,substitution,8,Low
+21800440,474,substitution,3,PT01M54.00S,01:54,Q3 01:54,81,89,1610612758.0,Hield,SUB out: B. Hield,substitution,substitution,8,Low
+21800440,475,substitution,3,PT01M54.00S,01:54,Q3 01:54,81,89,1610612742.0,Brunson,SUB in: J. Brunson,substitution,substitution,8,Low
+21800440,476,substitution,3,PT01M54.00S,01:54,Q3 01:54,81,89,1610612742.0,Kleber,SUB in: M. Kleber,substitution,substitution,8,Low
+21800440,477,substitution,3,PT01M54.00S,01:54,Q3 01:54,81,89,1610612758.0,Bogdanovic,SUB in: B. Bogdanovic,substitution,turnover,8,Low
+21800440,478,turnover,3,PT01M41.00S,01:41,Q3 01:41,81,89,1610612742.0,Harris,Harris Out of Bounds - Bad Pass Turnover Turnover (P2.T10),substitution,3pt missed,8,Low
+21800440,479,3pt,3,PT01M30.00S,01:30,Q3 01:30,81,89,1610612758.0,Bjelica,MISS Bjelica 26' 3PT Jump Shot,turnover,rebound,8,Low
+21800440,480,rebound,3,PT01M27.00S,01:27,Q3 01:27,81,89,1610612742.0,Finney-Smith,Finney-Smith REBOUND (Off:1 Def:2),3pt missed,3pt missed,8,Low
+21800440,481,3pt,3,PT01M09.00S,01:09,Q3 01:09,81,89,1610612742.0,Powell,MISS Powell 26' 3PT Jump Shot,rebound,rebound,8,Low
+21800440,482,rebound,3,PT01M06.00S,01:06,Q3 01:06,81,89,1610612758.0,Ferrell,Ferrell REBOUND (Off:0 Def:1),3pt missed,2pt missed,8,Low
+21800440,483,2pt,3,PT01M01.00S,01:01,Q3 01:01,81,89,1610612758.0,Koufos,MISS Koufos 6' Floating Jump Shot,rebound,rebound,8,Low
+21800440,484,rebound,3,PT01M00.00S,01:00,Q3 01:00,81,89,1610612758.0,Koufos,Koufos REBOUND (Off:3 Def:3),2pt missed,2pt made,8,Low
+21800440,485,2pt,3,PT00M59.00S,00:59,Q3 00:59,81,91,1610612758.0,Koufos,Koufos 4' Putback Layup (8 PTS),rebound,foul,10,Low
+21800440,486,foul,3,PT00M47.00S,00:47,Q3 00:47,81,91,1610612742.0,Brunson,Brunson OFF.Foul (P1) (R.Garretson),2pt made,turnover,10,Low
+21800440,488,turnover,3,PT00M47.00S,00:47,Q3 00:47,81,91,1610612742.0,Brunson,Brunson Offensive Foul Turnover (P2.T11),foul,2pt made,10,Low
+21800440,489,2pt,3,PT00M35.40S,00:35,Q3 00:35,81,93,1610612758.0,Ferrell,Ferrell 13' Pullup Jump Shot (6 PTS),turnover,turnover,12,Low
+21800440,490,turnover,3,PT00M23.30S,00:23,Q3 00:23,81,93,1610612742.0,Finney-Smith,Finney-Smith Bad Pass Turnover (P2.T12),2pt made,steal,12,Low
+21800440,490,steal,3,PT00M23.30S,00:23,Q3 00:23,81,93,1610612758.0,Jackson,Jackson STEAL (1 STL),turnover,foul,12,Low
+21800440,492,foul,3,PT00M20.20S,00:20,Q3 00:20,81,93,1610612758.0,Jackson,Jackson Offensive Charge Foul (P4.PN) (M.Boland),steal,turnover,12,Low
+21800440,494,turnover,3,PT00M20.20S,00:20,Q3 00:20,81,93,1610612758.0,Jackson,Jackson Offensive Foul Turnover (P2.T7),foul,foul,12,Low
+21800440,495,foul,3,PT00M02.70S,00:02,Q3 00:02,81,93,1610612758.0,Koufos,Koufos S.FOUL (P2.PN) (M.Boland),turnover,freethrow,12,Low
+21800440,497,freethrow,3,PT00M02.70S,00:02,Q3 00:02,82,93,1610612742.0,Kleber,Kleber Free Throw 1 of 2 (8 PTS),foul,freethrow,11,Low
+21800440,498,freethrow,3,PT00M02.70S,00:02,Q3 00:02,83,93,1610612742.0,Kleber,Kleber Free Throw 2 of 2 (9 PTS),freethrow,turnover,10,Low
+21800440,499,turnover,3,PT00M01.30S,00:01,Q3 00:01,83,93,1610612758.0,Bjelica,Bjelica Bad Pass Turnover (P1.T8),freethrow,steal,10,Low
+21800440,499,steal,3,PT00M01.30S,00:01,Q3 00:01,83,93,1610612742.0,Harris,Harris STEAL (1 STL),turnover,3pt missed,10,Low
+21800440,501,3pt,3,PT00M00.40S,00:00,Q3 00:00,83,93,1610612742.0,Harris,MISS Harris 30' 3PT Jump Shot,steal,rebound,10,Low
+21800440,502,rebound,3,PT00M00.10S,00:00,Q3 00:00,83,93,1610612742.0,,TEAM offensive REBOUND,3pt missed,period,10,Low
+21800440,503,period,3,PT00M00.00S,00:00,Q3 00:00,83,93,1610612742.0,,End of 3rd Period (8:50 PM EST),rebound,period,10,Low
+21800440,506,period,4,PT12M00.00S,12:00,Q4 12:00,83,93,1610612742.0,,Start of 4th Period (8:52 PM EST),period,substitution,10,Low
+21800440,507,2pt,4,PT11M47.00S,11:47,Q4 11:47,85,93,1610612742.0,Kleber,Kleber 4' Turnaround Fadeaway Bank Jump Shot (11 PTS),substitution,2pt missed,8,Medium
+21800440,509,2pt,4,PT11M27.00S,11:27,Q4 11:27,85,93,1610612758.0,Bogdanovic,MISS Bogdanovic 4' Driving Finger Roll Layup,2pt made,rebound,8,Medium
+21800440,510,rebound,4,PT11M25.00S,11:25,Q4 11:25,85,93,1610612758.0,Koufos,Koufos REBOUND (Off:4 Def:3),2pt missed,2pt missed,8,Medium
+21800440,511,2pt,4,PT11M24.00S,11:24,Q4 11:24,85,93,1610612758.0,Koufos,MISS Koufos 5' Tip Layup Shot,rebound,rebound,8,Medium
+21800440,512,rebound,4,PT11M22.00S,11:22,Q4 11:22,85,93,1610612742.0,Finney-Smith,Finney-Smith REBOUND (Off:1 Def:3),2pt missed,foul,8,Medium
+21800440,513,foul,4,PT11M19.00S,11:19,Q4 11:19,85,93,1610612758.0,Ferrell,Ferrell P.FOUL (P1.T1) (R.Garretson),rebound,2pt missed,8,Medium
+21800440,515,2pt,4,PT11M06.00S,11:06,Q4 11:06,85,93,1610612742.0,Kleber,MISS Kleber 11' Turnaround Bank Hook Shot,foul,rebound,8,Medium
+21800440,516,rebound,4,PT11M04.00S,11:04,Q4 11:04,85,93,1610612758.0,,TEAM defensive REBOUND,2pt missed,2pt missed,8,Medium
+21800440,518,2pt,4,PT10M46.00S,10:46,Q4 10:46,85,93,1610612758.0,Williams,MISS Williams 9' Driving Floating Jump Shot,rebound,rebound,8,Medium
+21800440,519,rebound,4,PT10M43.00S,10:43,Q4 10:43,85,93,1610612742.0,Finney-Smith,Finney-Smith REBOUND (Off:1 Def:4),2pt missed,2pt missed,8,Medium
+21800440,520,2pt,4,PT10M39.00S,10:39,Q4 10:39,85,93,1610612742.0,Finney-Smith,MISS Finney-Smith 5' Driving Layup,rebound,block,8,Medium
+21800440,520,block,4,PT10M39.00S,10:39,Q4 10:39,85,93,1610612758.0,Williams,Williams BLOCK (1 BLK),2pt missed,rebound,8,Medium
+21800440,522,rebound,4,PT10M34.00S,10:34,Q4 10:34,85,93,1610612758.0,Williams,Williams REBOUND (Off:0 Def:1),block,3pt missed,8,Medium
+21800440,523,3pt,4,PT10M25.00S,10:25,Q4 10:25,85,93,1610612758.0,Ferrell,MISS Ferrell 25' 3PT Step Back Jump Shot,rebound,rebound,8,Medium
+21800440,524,rebound,4,PT10M23.00S,10:23,Q4 10:23,85,93,1610612758.0,Koufos,Koufos REBOUND (Off:5 Def:3),3pt missed,3pt missed,8,Medium
+21800440,525,3pt,4,PT10M22.00S,10:22,Q4 10:22,85,93,1610612758.0,Bogdanovic,MISS Bogdanovic 26' 3PT Jump Shot,rebound,rebound,8,Medium
+21800440,526,rebound,4,PT10M19.00S,10:19,Q4 10:19,85,93,1610612742.0,Kleber,Kleber REBOUND (Off:0 Def:1),3pt missed,foul,8,Medium
+21800440,527,foul,4,PT10M14.00S,10:14,Q4 10:14,85,93,1610612758.0,Koufos,Koufos S.FOUL (P3.T2) (R.Garretson),rebound,freethrow,8,Medium
+21800440,529,freethrow,4,PT10M14.00S,10:14,Q4 10:14,86,93,1610612742.0,Finney-Smith,Finney-Smith Free Throw 1 of 2 (6 PTS),foul,freethrow,7,Medium
+21800440,530,freethrow,4,PT10M14.00S,10:14,Q4 10:14,86,93,1610612742.0,Finney-Smith,MISS Finney-Smith Free Throw 2 of 2,freethrow,rebound,7,Medium
+21800440,531,rebound,4,PT10M11.00S,10:11,Q4 10:11,86,93,1610612758.0,Williams,Williams REBOUND (Off:0 Def:2),freethrow,3pt made,7,Medium
+21800440,532,3pt,4,PT09M56.00S,09:56,Q4 09:56,86,96,1610612758.0,Bogdanovic,Bogdanovic 25' 3PT Jump Shot (13 PTS) (Ferrell 3 AST),rebound,2pt made,10,Low
+21800440,534,2pt,4,PT09M38.00S,09:38,Q4 09:38,88,96,1610612742.0,Brunson,Brunson 2' Driving Layup (6 PTS),3pt made,timeout,8,Medium
+21800440,536,timeout,4,PT09M33.00S,09:33,Q4 09:33,88,96,1610612758.0,,Kings Timeout: Regular (Reg.4 Short 0),2pt made,substitution,8,Medium
+21800440,537,substitution,4,PT09M33.00S,09:33,Q4 09:33,88,96,1610612758.0,Koufos,SUB out: K. Koufos,timeout,substitution,8,Medium
+21800440,538,substitution,4,PT09M33.00S,09:33,Q4 09:33,88,96,1610612758.0,Cauley-Stein,SUB in: W. Cauley-Stein,substitution,2pt missed,8,Medium
+21800440,539,2pt,4,PT09M12.00S,09:12,Q4 09:12,88,96,1610612758.0,Cauley-Stein,MISS Cauley-Stein 4' Turnaround Bank Hook Shot,substitution,rebound,8,Medium
+21800440,540,rebound,4,PT09M11.00S,09:11,Q4 09:11,88,96,1610612742.0,Harris,Harris REBOUND (Off:0 Def:1),2pt missed,foul,8,Medium
+21800440,541,foul,4,PT09M09.00S,09:09,Q4 09:09,88,96,1610612758.0,Williams,Williams P.FOUL (P2.T3) (T.Brown),rebound,2pt missed,8,Medium
+21800440,543,2pt,4,PT08M57.00S,08:57,Q4 08:57,88,96,1610612742.0,Harris,MISS Harris 7' Driving Floating Jump Shot,foul,rebound,8,Medium
+21800440,544,rebound,4,PT08M57.00S,08:57,Q4 08:57,88,96,1610612758.0,,TEAM defensive REBOUND,2pt missed,2pt made,8,Medium
+21800440,546,2pt,4,PT08M44.00S,08:44,Q4 08:44,88,98,1610612758.0,Ferrell,Ferrell 4' Driving Floating Bank Jump Shot (8 PTS),rebound,3pt missed,10,Low
+21800440,547,3pt,4,PT08M32.00S,08:32,Q4 08:32,88,98,1610612742.0,Brunson,MISS Brunson 29' 3PT Jump Shot,2pt made,rebound,10,Low
+21800440,548,rebound,4,PT08M29.00S,08:29,Q4 08:29,88,98,1610612758.0,Jackson,Jackson REBOUND (Off:1 Def:2),3pt missed,3pt missed,10,Low
+21800440,549,3pt,4,PT08M23.00S,08:23,Q4 08:23,88,98,1610612758.0,Williams,MISS Williams 24' 3PT Jump Shot,rebound,rebound,10,Low
+21800440,550,rebound,4,PT08M21.00S,08:21,Q4 08:21,88,98,1610612742.0,Brunson,Brunson REBOUND (Off:1 Def:2),3pt missed,3pt missed,10,Low
+21800440,551,3pt,4,PT08M12.00S,08:12,Q4 08:12,88,98,1610612742.0,Harris,MISS Harris 26' 3PT Jump Shot,rebound,rebound,10,Low
+21800440,552,rebound,4,PT08M08.00S,08:08,Q4 08:08,88,98,1610612758.0,Williams,Williams REBOUND (Off:0 Def:3),3pt missed,2pt missed,10,Low
+21800440,553,2pt,4,PT07M51.00S,07:51,Q4 07:51,88,98,1610612758.0,Ferrell,MISS Ferrell 5' Layup,rebound,block,10,Low
+21800440,553,block,4,PT07M51.00S,07:51,Q4 07:51,88,98,1610612742.0,Powell,Powell BLOCK (1 BLK),2pt missed,rebound,10,Low
+21800440,555,rebound,4,PT07M51.00S,07:51,Q4 07:51,88,98,1610612758.0,,TEAM offensive REBOUND,block,substitution,10,Low
+21800440,557,substitution,4,PT07M51.00S,07:51,Q4 07:51,88,98,1610612742.0,Finney-Smith,SUB out: D. Finney-Smith,rebound,substitution,10,Low
+21800440,558,substitution,4,PT07M51.00S,07:51,Q4 07:51,88,98,1610612742.0,Brunson,SUB out: J. Brunson,substitution,substitution,10,Low
+21800440,559,substitution,4,PT07M51.00S,07:51,Q4 07:51,88,98,1610612742.0,Matthews,SUB in: W. Matthews,substitution,substitution,10,Low
+21800440,560,substitution,4,PT07M51.00S,07:51,Q4 07:51,88,98,1610612742.0,Doncic,SUB in: L. Doncic,substitution,foul,10,Low
+21800440,561,foul,4,PT07M49.00S,07:49,Q4 07:49,88,98,1610612742.0,Powell,Powell P.FOUL (P2.T1) (T.Brown),substitution,substitution,10,Low
+21800440,563,substitution,4,PT07M49.00S,07:49,Q4 07:49,88,98,1610612758.0,Ferrell,SUB out: Y. Ferrell,foul,substitution,10,Low
+21800440,564,substitution,4,PT07M49.00S,07:49,Q4 07:49,88,98,1610612758.0,Fox,SUB in: D. Fox,substitution,3pt missed,10,Low
+21800440,565,3pt,4,PT07M42.00S,07:42,Q4 07:42,88,98,1610612758.0,Bogdanovic,MISS Bogdanovic 25' 3PT Jump Shot,substitution,rebound,10,Low
+21800440,566,rebound,4,PT07M40.00S,07:40,Q4 07:40,88,98,1610612742.0,Kleber,Kleber REBOUND (Off:0 Def:2),3pt missed,2pt made,10,Low
+21800440,567,2pt,4,PT07M21.00S,07:21,Q4 07:21,90,98,1610612742.0,Doncic,Doncic 18' Step Back Jump Shot (21 PTS),rebound,2pt missed,8,Medium
+21800440,568,2pt,4,PT07M10.00S,07:10,Q4 07:10,90,98,1610612758.0,Jackson,MISS Jackson 8' Driving Floating Bank Jump Shot,2pt made,rebound,8,Medium
+21800440,569,rebound,4,PT07M08.00S,07:08,Q4 07:08,90,98,1610612742.0,,TEAM defensive REBOUND,2pt missed,foul,8,Medium
+21800440,570,foul,4,PT07M08.00S,07:08,Q4 07:08,90,98,1610612758.0,Cauley-Stein,Cauley-Stein L.B.FOUL (P3.T4) (M.Boland),rebound,foul,8,Medium
+21800440,572,foul,4,PT07M03.00S,07:03,Q4 07:03,90,98,1610612758.0,Fox,Fox P.FOUL (P2.PN) (M.Boland),foul,freethrow,8,Medium
+21800440,574,freethrow,4,PT07M03.00S,07:03,Q4 07:03,90,98,1610612742.0,Doncic,MISS Doncic Free Throw 1 of 2,foul,rebound,8,Medium
+21800440,575,rebound,4,PT07M03.00S,07:03,Q4 07:03,90,98,1610612742.0,,TEAM offensive REBOUND,freethrow,freethrow,8,Medium
+21800440,576,freethrow,4,PT07M03.00S,07:03,Q4 07:03,91,98,1610612742.0,Doncic,Doncic Free Throw 2 of 2 (22 PTS),rebound,substitution,7,Medium
+21800440,578,substitution,4,PT06M50.00S,06:50,Q4 06:50,91,98,1610612742.0,Powell,SUB out: D. Powell,freethrow,substitution,7,Medium
+21800440,579,substitution,4,PT06M50.00S,06:50,Q4 06:50,91,98,1610612742.0,Harris,SUB out: D. Harris,substitution,substitution,7,Medium
+21800440,580,substitution,4,PT06M50.00S,06:50,Q4 06:50,91,98,1610612742.0,Kleber,SUB out: M. Kleber,substitution,substitution,7,Medium
+21800440,581,substitution,4,PT06M50.00S,06:50,Q4 06:50,91,98,1610612758.0,Williams,SUB out: T. Williams,substitution,substitution,7,Medium
+21800440,582,substitution,4,PT06M50.00S,06:50,Q4 06:50,91,98,1610612758.0,Jackson,SUB out: J. Jackson,substitution,substitution,7,Medium
+21800440,583,substitution,4,PT06M50.00S,06:50,Q4 06:50,91,98,1610612742.0,Jordan,SUB in: D. Jordan,substitution,substitution,7,Medium
+21800440,584,substitution,4,PT06M50.00S,06:50,Q4 06:50,91,98,1610612742.0,Barnes,SUB in: H. Barnes,substitution,substitution,7,Medium
+21800440,585,substitution,4,PT06M50.00S,06:50,Q4 06:50,91,98,1610612742.0,Brunson,SUB in: J. Brunson,substitution,substitution,7,Medium
+21800440,586,substitution,4,PT06M50.00S,06:50,Q4 06:50,91,98,1610612758.0,Hield,SUB in: B. Hield,substitution,substitution,7,Medium
+21800440,587,substitution,4,PT06M50.00S,06:50,Q4 06:50,91,98,1610612758.0,Bjelica,SUB in: N. Bjelica,substitution,2pt missed,7,Medium
+21800440,588,2pt,4,PT06M45.00S,06:45,Q4 06:45,91,98,1610612758.0,Bogdanovic,MISS Bogdanovic 3' Layup,substitution,block,7,Medium
+21800440,588,block,4,PT06M45.00S,06:45,Q4 06:45,91,98,1610612742.0,Barnes,Barnes BLOCK (1 BLK),2pt missed,rebound,7,Medium
+21800440,590,rebound,4,PT06M42.00S,06:42,Q4 06:42,91,98,1610612742.0,Jordan,Jordan REBOUND (Off:8 Def:13),block,3pt missed,7,Medium
+21800440,592,3pt,4,PT06M38.00S,06:38,Q4 06:38,91,98,1610612742.0,Barnes,MISS Barnes 24' 3PT Jump Shot,rebound,rebound,7,Medium
+21800440,593,rebound,4,PT06M34.00S,06:34,Q4 06:34,91,98,1610612758.0,Fox,Fox REBOUND (Off:1 Def:2),3pt missed,2pt made,7,Medium
+21800440,594,2pt,4,PT06M30.00S,06:30,Q4 06:30,91,100,1610612758.0,Fox,Fox 2' Running Layup (22 PTS),rebound,foul,9,Low
+21800440,595,foul,4,PT06M15.00S,06:15,Q4 06:15,91,100,1610612758.0,Fox,Fox S.FOUL (P3.PN) (R.Garretson),2pt made,freethrow,9,Low
+21800440,597,freethrow,4,PT06M15.00S,06:15,Q4 06:15,92,100,1610612742.0,Matthews,Matthews Free Throw 1 of 2 (9 PTS),foul,freethrow,8,Medium
+21800440,598,freethrow,4,PT06M15.00S,06:15,Q4 06:15,93,100,1610612742.0,Matthews,Matthews Free Throw 2 of 2 (10 PTS),freethrow,3pt made,7,Medium
+21800440,599,3pt,4,PT06M05.00S,06:05,Q4 06:05,93,103,1610612758.0,Bjelica,Bjelica 25' 3PT Jump Shot (12 PTS) (Fox 3 AST),freethrow,2pt missed,10,Low
+21800440,601,2pt,4,PT05M48.00S,05:48,Q4 05:48,93,103,1610612742.0,Matthews,MISS Matthews 3' Driving Layup,3pt made,rebound,10,Medium
+21800440,602,rebound,4,PT05M46.00S,05:46,Q4 05:46,93,103,1610612758.0,,TEAM defensive REBOUND,2pt missed,2pt missed,10,Medium
+21800440,604,2pt,4,PT05M33.00S,05:33,Q4 05:33,93,103,1610612758.0,Fox,MISS Fox 12' Step Back Jump Shot,rebound,rebound,10,Medium
+21800440,605,rebound,4,PT05M31.00S,05:31,Q4 05:31,93,103,1610612742.0,Doncic,Doncic REBOUND (Off:0 Def:6),2pt missed,2pt made,10,Medium
+21800440,606,2pt,4,PT05M25.00S,05:25,Q4 05:25,95,103,1610612742.0,Doncic,Doncic 1' Driving Finger Roll Layup (24 PTS),rebound,3pt made,8,Medium
+21800440,607,3pt,4,PT05M12.00S,05:12,Q4 05:12,95,106,1610612758.0,Bjelica,Bjelica 25' 3PT Jump Shot (15 PTS) (Cauley-Stein 3 AST),2pt made,2pt made,11,Medium
+21800440,609,2pt,4,PT05M01.00S,05:01,Q4 05:01,97,106,1610612742.0,Brunson,Brunson 1' Driving Layup (8 PTS),3pt made,foul,9,Medium
+21800440,610,foul,4,PT04M54.00S,04:54,Q4 04:54,97,106,1610612742.0,Matthews,Matthews S.FOUL (P4.T2) (R.Garretson),2pt made,freethrow,9,Medium
+21800440,612,freethrow,4,PT04M54.00S,04:54,Q4 04:54,97,107,1610612758.0,Fox,Fox Free Throw 1 of 2 (23 PTS),foul,freethrow,10,Medium
+21800440,613,freethrow,4,PT04M54.00S,04:54,Q4 04:54,97,108,1610612758.0,Fox,Fox Free Throw 2 of 2 (24 PTS),freethrow,2pt missed,11,Medium
+21800440,614,2pt,4,PT04M44.00S,04:44,Q4 04:44,97,108,1610612742.0,Barnes,MISS Barnes 3' Cutting Dunk Shot,freethrow,block,11,Medium
+21800440,614,block,4,PT04M44.00S,04:44,Q4 04:44,97,108,1610612758.0,Bjelica,Bjelica BLOCK (4 BLK),2pt missed,rebound,11,Medium
+21800440,616,rebound,4,PT04M44.00S,04:44,Q4 04:44,97,108,1610612758.0,,TEAM defensive REBOUND,block,turnover,11,Medium
+21800440,618,turnover,4,PT04M30.00S,04:30,Q4 04:30,97,108,1610612758.0,Bogdanovic,Bogdanovic Traveling Turnover (P1.T9),rebound,turnover,11,Medium
+21800440,619,turnover,4,PT04M17.00S,04:17,Q4 04:17,97,108,1610612742.0,Doncic,Doncic Bad Pass Turnover (P4.T13),turnover,steal,11,Medium
+21800440,619,steal,4,PT04M17.00S,04:17,Q4 04:17,97,108,1610612758.0,Fox,Fox STEAL (3 STL),turnover,3pt missed,11,Medium
+21800440,621,3pt,4,PT04M10.00S,04:10,Q4 04:10,97,108,1610612758.0,Hield,MISS Hield 3PT Jump Shot,steal,rebound,11,Medium
+21800440,622,rebound,4,PT04M09.00S,04:09,Q4 04:09,97,108,1610612742.0,,TEAM defensive REBOUND,3pt missed,2pt missed,11,Medium
+21800440,624,2pt,4,PT04M01.00S,04:01,Q4 04:01,97,108,1610612742.0,Brunson,MISS Brunson 6' Driving Floating Jump Shot,rebound,block,11,Medium
+21800440,624,block,4,PT04M01.00S,04:01,Q4 04:01,97,108,1610612758.0,Cauley-Stein,Cauley-Stein BLOCK (1 BLK),2pt missed,rebound,11,Medium
+21800440,626,rebound,4,PT04M01.00S,04:01,Q4 04:01,97,108,1610612742.0,Brunson,Brunson REBOUND (Off:2 Def:2),block,foul,11,Medium
+21800440,627,foul,4,PT04M01.00S,04:01,Q4 04:01,97,108,1610612758.0,Cauley-Stein,Cauley-Stein S.FOUL (P4.PN) (R.Garretson),rebound,freethrow,11,Medium
+21800440,629,freethrow,4,PT04M01.00S,04:01,Q4 04:01,98,108,1610612742.0,Brunson,Brunson Free Throw 1 of 2 (9 PTS),foul,freethrow,10,Medium
+21800440,630,freethrow,4,PT04M01.00S,04:01,Q4 04:01,99,108,1610612742.0,Brunson,Brunson Free Throw 2 of 2 (10 PTS),freethrow,2pt made,9,Medium
+21800440,631,2pt,4,PT03M36.00S,03:36,Q4 03:36,99,110,1610612758.0,Hield,Hield 5' Driving Finger Roll Layup (28 PTS),freethrow,2pt made,11,Medium
+21800440,632,2pt,4,PT03M24.00S,03:24,Q4 03:24,101,110,1610612742.0,Jordan,Jordan 1' Cutting Dunk Shot (8 PTS) (Doncic 8 AST),2pt made,2pt missed,9,Medium
+21800440,634,2pt,4,PT03M07.00S,03:07,Q4 03:07,101,110,1610612758.0,Cauley-Stein,MISS Cauley-Stein 4' Driving Layup,2pt made,block,9,Medium
+21800440,634,block,4,PT03M07.00S,03:07,Q4 03:07,101,110,1610612742.0,Jordan,Jordan BLOCK (2 BLK),2pt missed,rebound,9,Medium
+21800440,636,rebound,4,PT03M06.00S,03:06,Q4 03:06,101,110,1610612742.0,,TEAM defensive REBOUND,block,3pt missed,9,Medium
+21800440,638,3pt,4,PT02M54.00S,02:54,Q4 02:54,101,110,1610612742.0,Barnes,MISS Barnes 25' 3PT Jump Shot,rebound,rebound,9,Medium
+21800440,639,rebound,4,PT02M51.00S,02:51,Q4 02:51,101,110,1610612742.0,Jordan,Jordan REBOUND (Off:9 Def:13),3pt missed,3pt missed,9,Medium
+21800440,640,3pt,4,PT02M49.00S,02:49,Q4 02:49,101,110,1610612742.0,Brunson,MISS Brunson 3PT Jump Shot,rebound,rebound,9,Medium
+21800440,641,rebound,4,PT02M49.00S,02:49,Q4 02:49,101,110,1610612758.0,Hield,Hield REBOUND (Off:0 Def:4),3pt missed,2pt made,9,Medium
+21800440,642,2pt,4,PT02M36.00S,02:36,Q4 02:36,101,112,1610612758.0,Fox,Fox 4' Layup (26 PTS),rebound,timeout,11,Medium
+21800440,643,timeout,4,PT02M35.00S,02:35,Q4 02:35,101,112,1610612742.0,,MAVERICKS Timeout: Regular (Full 6 Short 0),2pt made,2pt made,11,Medium
+21800440,645,2pt,4,PT02M23.00S,02:23,Q4 02:23,103,112,1610612742.0,Doncic,Doncic 12' Jump Shot (26 PTS),timeout,foul,9,Medium
+21800440,646,foul,4,PT02M23.00S,02:23,Q4 02:23,103,112,1610612758.0,Cauley-Stein,Cauley-Stein S.FOUL (P5.PN) (T.Brown),2pt made,freethrow,9,Medium
+21800440,648,freethrow,4,PT02M23.00S,02:23,Q4 02:23,104,112,1610612742.0,Doncic,Doncic Free Throw 1 of 1 (27 PTS),foul,2pt missed,8,High
+21800440,649,2pt,4,PT02M08.00S,02:08,Q4 02:08,104,112,1610612758.0,Bjelica,MISS Bjelica 6' Hook Shot,freethrow,block,8,High
+21800440,649,block,4,PT02M08.00S,02:08,Q4 02:08,104,112,1610612742.0,Jordan,Jordan BLOCK (3 BLK),2pt missed,rebound,8,High
+21800440,651,rebound,4,PT02M05.00S,02:05,Q4 02:05,104,112,1610612742.0,Barnes,Barnes REBOUND (Off:0 Def:2),block,3pt missed,8,High
+21800440,652,3pt,4,PT01M51.00S,01:51,Q4 01:51,104,112,1610612742.0,Brunson,MISS Brunson 24' 3PT Jump Shot,rebound,rebound,8,High
+21800440,653,rebound,4,PT01M48.00S,01:48,Q4 01:48,104,112,1610612742.0,Jordan,Jordan REBOUND (Off:10 Def:13),3pt missed,3pt made,8,High
+21800440,654,3pt,4,PT01M46.00S,01:46,Q4 01:46,107,112,1610612742.0,Matthews,Matthews 25' 3PT Jump Shot (13 PTS) (Jordan 3 AST),rebound,2pt made,5,Very High
+21800440,656,2pt,4,PT01M21.00S,01:21,Q4 01:21,107,114,1610612758.0,Fox,Fox 5' Driving Floating Jump Shot (28 PTS),3pt made,instant replay,7,High
+21800440,658,turnover,4,PT01M10.00S,01:10,Q4 01:10,107,114,1610612742.0,Doncic,Doncic Out of Bounds Lost Ball Turnover (P5.T14),instant replay,2pt made,7,High
+21800440,659,2pt,4,PT00M51.60S,00:51,Q4 00:51,107,116,1610612758.0,Cauley-Stein,Cauley-Stein 2' Cutting Dunk Shot (10 PTS) (Fox 4 AST),turnover,foul,9,Medium
+21800440,661,foul,4,PT00M45.40S,00:45,Q4 00:45,107,116,1610612758.0,Fox,Fox S.FOUL (P4.PN) (M.Boland),2pt made,freethrow,9,Medium
+21800440,663,freethrow,4,PT00M45.40S,00:45,Q4 00:45,107,116,1610612742.0,Doncic,MISS Doncic Free Throw 1 of 3,foul,rebound,9,Medium
+21800440,664,rebound,4,PT00M45.40S,00:45,Q4 00:45,107,116,1610612742.0,,TEAM offensive REBOUND,freethrow,freethrow,9,Medium
+21800440,665,freethrow,4,PT00M45.40S,00:45,Q4 00:45,107,116,1610612742.0,Doncic,MISS Doncic Free Throw 2 of 3,rebound,rebound,9,Medium
+21800440,666,rebound,4,PT00M45.40S,00:45,Q4 00:45,107,116,1610612742.0,,TEAM offensive REBOUND,freethrow,freethrow,9,Medium
+21800440,667,freethrow,4,PT00M45.40S,00:45,Q4 00:45,108,116,1610612742.0,Doncic,Doncic Free Throw 3 of 3 (28 PTS),rebound,2pt made,8,High
+21800440,668,2pt,4,PT00M37.90S,00:37,Q4 00:37,108,118,1610612758.0,Cauley-Stein,Cauley-Stein 1' Alley Oop Dunk (12 PTS) (Fox 5 AST),freethrow,timeout,10,Medium
+21800440,670,timeout,4,PT00M37.90S,00:37,Q4 00:37,108,118,1610612742.0,,MAVERICKS Timeout: Regular (Full 7 Short 0),2pt made,3pt made,10,Medium
+21800440,673,3pt,4,PT00M28.70S,00:28,Q4 00:28,111,118,1610612742.0,Barnes,Barnes 25' 3PT Jump Shot (15 PTS) (Doncic 9 AST),timeout,foul,7,High
+21800440,675,foul,4,PT00M22.50S,00:22,Q4 00:22,111,118,1610612742.0,Brunson,Brunson Personal Take Foul (P2.T3) (T.Brown),3pt made,substitution,7,High
+21800440,677,substitution,4,PT00M22.50S,00:22,Q4 00:22,111,118,1610612742.0,Jordan,SUB out: D. Jordan,foul,substitution,7,High
+21800440,678,substitution,4,PT00M22.50S,00:22,Q4 00:22,111,118,1610612742.0,Powell,SUB in: D. Powell,substitution,foul,7,High
+21800440,679,foul,4,PT00M21.70S,00:21,Q4 00:21,111,118,1610612742.0,Matthews,Matthews P.FOUL (P5.PN) (T.Brown),substitution,freethrow,7,High
+21800440,681,freethrow,4,PT00M21.70S,00:21,Q4 00:21,111,119,1610612758.0,Bogdanovic,Bogdanovic Free Throw 1 of 2 (14 PTS),foul,freethrow,8,High
+21800440,682,freethrow,4,PT00M21.70S,00:21,Q4 00:21,111,120,1610612758.0,Bogdanovic,Bogdanovic Free Throw 2 of 2 (15 PTS),freethrow,2pt made,9,Medium
+21800440,683,2pt,4,PT00M17.10S,00:17,Q4 00:17,113,120,1610612742.0,Brunson,Brunson 1' Running Layup (12 PTS),freethrow,period,7,High
+21800440,684,period,4,PT00M00.00S,00:00,Q4 00:00,113,120,1610612742.0,,End of 4th Period (9:26 PM EST),2pt made,,7,High

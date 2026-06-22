@@ -1,0 +1,506 @@
+game_id,actionNumber,actionType,period,clock,clock_display,game_clock,scoreHome,scoreAway,teamId,playerName,description,previous_action,next_action,score_margin,leverage_bucket
+21700024,2,period,1,PT12M00.00S,12:00,Q1 12:00,0,0,1610612742.0,,Start of 1st Period (8:41 PM EST),,2pt made,0,Low
+21700024,7,2pt,1,PT11M37.00S,11:37,Q1 11:37,0,2,1610612758.0,Randolph,Randolph 17' Jump Shot (2 PTS) (Hield 1 AST),period,2pt made,2,Low
+21700024,9,2pt,1,PT11M24.00S,11:24,Q1 11:24,2,2,1610612742.0,Nowitzki,Nowitzki 15' Jump Shot (2 PTS) (Barea 1 AST),2pt made,turnover,0,Low
+21700024,11,turnover,1,PT11M02.00S,11:02,Q1 11:02,2,2,1610612758.0,Hield,Hield Bad Pass Turnover (P1.T1),2pt made,steal,0,Low
+21700024,11,steal,1,PT11M02.00S,11:02,Q1 11:02,2,2,1610612742.0,Matthews,Matthews STEAL (1 STL),turnover,turnover,0,Low
+21700024,13,turnover,1,PT10M58.00S,10:58,Q1 10:58,2,2,1610612742.0,Matthews,Matthews Out of Bounds - Bad Pass Turnover Turnover (P1.T1),steal,2pt missed,0,Low
+21700024,14,2pt,1,PT10M42.00S,10:42,Q1 10:42,2,2,1610612758.0,Jackson,MISS Jackson 16' Jump Shot,turnover,rebound,0,Low
+21700024,15,rebound,1,PT10M40.00S,10:40,Q1 10:40,2,2,1610612742.0,Nowitzki,Nowitzki REBOUND (Off:0 Def:1),2pt missed,3pt made,0,Low
+21700024,16,3pt,1,PT10M31.00S,10:31,Q1 10:31,5,2,1610612742.0,Nowitzki,Nowitzki 26' 3PT Jump Shot (5 PTS) (Barea 2 AST),rebound,2pt made,3,Low
+21700024,18,2pt,1,PT10M16.00S,10:16,Q1 10:16,5,4,1610612758.0,Jackson,Jackson 13' Jump Shot (2 PTS) (Hield 2 AST),3pt made,3pt missed,1,Low
+21700024,20,3pt,1,PT10M00.00S,10:00,Q1 10:00,5,4,1610612742.0,Matthews,MISS Matthews 25' 3PT Jump Shot,2pt made,rebound,1,Low
+21700024,21,rebound,1,PT10M00.00S,10:00,Q1 10:00,5,4,1610612758.0,Cauley-Stein,Cauley-Stein REBOUND (Off:0 Def:1),3pt missed,2pt missed,1,Low
+21700024,22,2pt,1,PT09M38.00S,09:38,Q1 09:38,5,4,1610612758.0,Hill,MISS G. Hill 4' Layup,rebound,rebound,1,Low
+21700024,23,rebound,1,PT09M35.00S,09:35,Q1 09:35,5,4,1610612742.0,Nowitzki,Nowitzki REBOUND (Off:0 Def:2),2pt missed,3pt missed,1,Low
+21700024,24,3pt,1,PT09M32.00S,09:32,Q1 09:32,5,4,1610612742.0,Barea,MISS Barea 26' 3PT Jump Shot,rebound,rebound,1,Low
+21700024,25,rebound,1,PT09M32.00S,09:32,Q1 09:32,5,4,1610612758.0,Cauley-Stein,Cauley-Stein REBOUND (Off:0 Def:2),3pt missed,2pt missed,1,Low
+21700024,26,2pt,1,PT09M20.00S,09:20,Q1 09:20,5,4,1610612758.0,Randolph,MISS Randolph 2' Layup,rebound,rebound,1,Low
+21700024,27,rebound,1,PT09M20.00S,09:20,Q1 09:20,5,4,1610612742.0,Nowitzki,Nowitzki REBOUND (Off:0 Def:3),2pt missed,2pt made,1,Low
+21700024,29,2pt,1,PT08M56.00S,08:56,Q1 08:56,7,4,1610612742.0,Barnes,Barnes 17' Jump Shot (2 PTS) (Barea 3 AST),rebound,foul,3,Low
+21700024,31,foul,1,PT08M33.00S,08:33,Q1 08:33,7,4,1610612742.0,Nowitzki,Nowitzki S.FOUL (P1.T1) (S.Twardoski),2pt made,freethrow,3,Low
+21700024,33,freethrow,1,PT08M33.00S,08:33,Q1 08:33,7,5,1610612758.0,Cauley-Stein,Cauley-Stein Free Throw 1 of 2 (1 PTS),foul,freethrow,2,Low
+21700024,34,freethrow,1,PT08M33.00S,08:33,Q1 08:33,7,6,1610612758.0,Cauley-Stein,Cauley-Stein Free Throw 2 of 2 (2 PTS),freethrow,turnover,1,Low
+21700024,35,turnover,1,PT08M18.00S,08:18,Q1 08:18,7,6,1610612742.0,Barea,Barea Bad Pass Turnover (P1.T2),freethrow,steal,1,Low
+21700024,35,steal,1,PT08M18.00S,08:18,Q1 08:18,7,6,1610612758.0,Hill,G. Hill STEAL (1 STL),turnover,2pt made,1,Low
+21700024,37,2pt,1,PT08M14.00S,08:14,Q1 08:14,7,8,1610612758.0,Hill,G. Hill 2' Running Finger Roll Layup (2 PTS),steal,2pt made,1,Low
+21700024,38,2pt,1,PT08M04.00S,08:04,Q1 08:04,9,8,1610612742.0,Noel,Noel 1' Driving Reverse Dunk Shot (2 PTS) (Barnes 1 AST),2pt made,turnover,1,Low
+21700024,40,turnover,1,PT07M44.00S,07:44,Q1 07:44,9,8,1610612758.0,Hill,G. Hill Out of Bounds - Bad Pass Turnover Turnover (P1.T2),2pt made,2pt made,1,Low
+21700024,41,2pt,1,PT07M30.00S,07:30,Q1 07:30,11,8,1610612742.0,Noel,Noel 1' Alley Oop Dunk (4 PTS) (Barea 4 AST),turnover,3pt missed,3,Low
+21700024,43,3pt,1,PT07M15.00S,07:15,Q1 07:15,11,8,1610612758.0,Randolph,MISS Randolph 25' 3PT Jump Shot,2pt made,rebound,3,Low
+21700024,44,rebound,1,PT07M12.00S,07:12,Q1 07:12,11,8,1610612758.0,Cauley-Stein,Cauley-Stein REBOUND (Off:1 Def:2),3pt missed,3pt missed,3,Low
+21700024,45,3pt,1,PT07M11.00S,07:11,Q1 07:11,11,8,1610612758.0,Hield,MISS Hield 25' 3PT Jump Shot,rebound,rebound,3,Low
+21700024,46,rebound,1,PT07M10.00S,07:10,Q1 07:10,11,8,1610612742.0,,TEAM defensive REBOUND,3pt missed,substitution,3,Low
+21700024,49,substitution,1,PT07M10.00S,07:10,Q1 07:10,11,8,1610612742.0,Nowitzki,SUB out: D. Nowitzki,rebound,substitution,3,Low
+21700024,50,substitution,1,PT07M10.00S,07:10,Q1 07:10,11,8,1610612742.0,Barea,SUB out: J. Barea,substitution,substitution,3,Low
+21700024,51,substitution,1,PT07M10.00S,07:10,Q1 07:10,11,8,1610612742.0,Ferrell,SUB in: Y. Ferrell,substitution,substitution,3,Low
+21700024,52,substitution,1,PT07M10.00S,07:10,Q1 07:10,11,8,1610612742.0,Powell,SUB in: D. Powell,substitution,3pt made,3,Low
+21700024,51,3pt,1,PT06M53.00S,06:53,Q1 06:53,14,8,1610612742.0,Powell,Powell 24' 3PT Jump Shot (3 PTS) (Matthews 1 AST),substitution,foul,6,Low
+21700024,53,foul,1,PT06M35.00S,06:35,Q1 06:35,14,8,1610612742.0,Matthews,Matthews P.FOUL (P1.T2) (M.Smith),3pt made,timeout,6,Low
+21700024,55,timeout,1,PT06M35.00S,06:35,Q1 06:35,14,8,1610612742.0,,MAVERICKS Timeout: Regular (Full 1 Short 0),foul,2pt missed,6,Low
+21700024,56,2pt,1,PT06M28.00S,06:28,Q1 06:28,14,8,1610612758.0,Randolph,MISS Randolph 4' Layup,timeout,block,6,Low
+21700024,56,block,1,PT06M28.00S,06:28,Q1 06:28,14,8,1610612742.0,Noel,Noel BLOCK (1 BLK),2pt missed,rebound,6,Low
+21700024,58,rebound,1,PT06M24.00S,06:24,Q1 06:24,14,8,1610612742.0,Noel,Noel REBOUND (Off:0 Def:1),block,3pt missed,6,Low
+21700024,59,3pt,1,PT06M22.00S,06:22,Q1 06:22,14,8,1610612742.0,Ferrell,MISS Ferrell 26' 3PT Jump Shot,rebound,rebound,6,Low
+21700024,60,rebound,1,PT06M22.00S,06:22,Q1 06:22,14,8,1610612742.0,Powell,Powell REBOUND (Off:1 Def:0),3pt missed,3pt missed,6,Low
+21700024,61,3pt,1,PT06M07.00S,06:07,Q1 06:07,14,8,1610612742.0,Powell,MISS Powell 25' 3PT Jump Shot,rebound,rebound,6,Low
+21700024,62,rebound,1,PT06M04.00S,06:04,Q1 06:04,14,8,1610612758.0,Hield,Hield REBOUND (Off:0 Def:1),3pt missed,2pt made,6,Low
+21700024,63,2pt,1,PT05M51.00S,05:51,Q1 05:51,14,10,1610612758.0,Hield,Hield 13' Fadeaway Jumper (2 PTS),rebound,2pt made,4,Low
+21700024,64,2pt,1,PT05M28.00S,05:28,Q1 05:28,16,10,1610612742.0,Barnes,Barnes 2' Cutting Layup Shot (4 PTS) (Powell 1 AST),2pt made,turnover,6,Low
+21700024,66,turnover,1,PT05M01.00S,05:01,Q1 05:01,16,10,1610612758.0,Hill,G. Hill Bad Pass Turnover (P2.T3),2pt made,steal,6,Low
+21700024,66,steal,1,PT05M01.00S,05:01,Q1 05:01,16,10,1610612742.0,Noel,Noel STEAL (1 STL),turnover,3pt missed,6,Low
+21700024,68,3pt,1,PT04M52.00S,04:52,Q1 04:52,16,10,1610612742.0,Powell,MISS Powell 27' 3PT Jump Shot,steal,rebound,6,Low
+21700024,69,rebound,1,PT04M48.00S,04:48,Q1 04:48,16,10,1610612758.0,Jackson,Jackson REBOUND (Off:0 Def:1),3pt missed,turnover,6,Low
+21700024,70,turnover,1,PT04M36.00S,04:36,Q1 04:36,16,10,1610612758.0,Hill,G. Hill Traveling Turnover (P3.T4),rebound,substitution,6,Low
+21700024,72,substitution,1,PT04M36.00S,04:36,Q1 04:36,16,10,1610612758.0,Jackson,SUB out: J. Jackson,turnover,substitution,6,Low
+21700024,73,substitution,1,PT04M36.00S,04:36,Q1 04:36,16,10,1610612758.0,Temple,SUB in: G. Temple,substitution,turnover,6,Low
+21700024,101,turnover,1,PT04M26.00S,04:26,Q1 04:26,16,10,1610612742.0,Ferrell,Ferrell Bad Pass Turnover (P1.T3),substitution,steal,6,Low
+21700024,101,steal,1,PT04M26.00S,04:26,Q1 04:26,16,10,1610612758.0,Randolph,Randolph STEAL (1 STL),turnover,turnover,6,Low
+21700024,75,turnover,1,PT04M19.00S,04:19,Q1 04:19,16,10,1610612758.0,Hill,G. Hill Step Out of Bounds Turnover (P4.T5),steal,substitution,6,Low
+21700024,77,substitution,1,PT04M19.00S,04:19,Q1 04:19,16,10,1610612742.0,Noel,SUB out: N. Noel,turnover,substitution,6,Low
+21700024,78,substitution,1,PT04M19.00S,04:19,Q1 04:19,16,10,1610612742.0,Mejri,SUB in: S. Mejri,substitution,2pt made,6,Low
+21700024,78,2pt,1,PT04M03.00S,04:03,Q1 04:03,18,10,1610612742.0,Ferrell,Ferrell 2' Layup (2 PTS),substitution,timeout,8,Low
+21700024,79,timeout,1,PT03M56.00S,03:56,Q1 03:56,18,10,1610612758.0,,Kings Timeout: Regular (Reg.1 Short 0),2pt made,substitution,8,Low
+21700024,82,substitution,1,PT03M56.00S,03:56,Q1 03:56,18,10,1610612758.0,Cauley-Stein,SUB out: W. Cauley-Stein,timeout,substitution,8,Low
+21700024,83,substitution,1,PT03M56.00S,03:56,Q1 03:56,18,10,1610612758.0,Hill,SUB out: G. Hill,substitution,substitution,8,Low
+21700024,84,substitution,1,PT03M56.00S,03:56,Q1 03:56,18,10,1610612758.0,Fox,SUB in: D. Fox,substitution,substitution,8,Low
+21700024,85,substitution,1,PT03M56.00S,03:56,Q1 03:56,18,10,1610612758.0,Koufos,SUB in: K. Koufos,substitution,2pt missed,8,Low
+21700024,84,2pt,1,PT03M50.00S,03:50,Q1 03:50,18,10,1610612758.0,Temple,MISS Temple 17' Pullup Jump Shot,substitution,rebound,8,Low
+21700024,85,rebound,1,PT03M46.00S,03:46,Q1 03:46,18,10,1610612742.0,Mejri,Mejri REBOUND (Off:0 Def:1),2pt missed,2pt missed,8,Low
+21700024,86,2pt,1,PT03M26.00S,03:26,Q1 03:26,18,10,1610612742.0,Barnes,MISS Barnes 3' Layup,rebound,block,8,Low
+21700024,86,block,1,PT03M26.00S,03:26,Q1 03:26,18,10,1610612758.0,Koufos,Koufos BLOCK (1 BLK),2pt missed,rebound,8,Low
+21700024,88,rebound,1,PT03M23.00S,03:23,Q1 03:23,18,10,1610612758.0,Temple,Temple REBOUND (Off:0 Def:1),block,2pt missed,8,Low
+21700024,89,2pt,1,PT03M21.00S,03:21,Q1 03:21,18,10,1610612758.0,Fox,MISS Fox 20' Pullup Jump Shot,rebound,rebound,8,Low
+21700024,90,rebound,1,PT03M16.00S,03:16,Q1 03:16,18,10,1610612758.0,Randolph,Randolph REBOUND (Off:1 Def:0),2pt missed,2pt missed,8,Low
+21700024,91,2pt,1,PT03M16.00S,03:16,Q1 03:16,18,10,1610612758.0,Randolph,MISS Randolph 1' Putback Layup,rebound,rebound,8,Low
+21700024,92,rebound,1,PT03M15.00S,03:15,Q1 03:15,18,10,1610612742.0,Powell,Powell REBOUND (Off:1 Def:1),2pt missed,2pt missed,8,Low
+21700024,93,2pt,1,PT03M03.00S,03:03,Q1 03:03,18,10,1610612742.0,Ferrell,MISS Ferrell 6' Jump Shot,rebound,rebound,8,Low
+21700024,94,rebound,1,PT03M01.00S,03:01,Q1 03:01,18,10,1610612758.0,Fox,Fox REBOUND (Off:0 Def:1),2pt missed,3pt made,8,Low
+21700024,95,3pt,1,PT02M43.00S,02:43,Q1 02:43,18,13,1610612758.0,Temple,Temple 24' 3PT Jump Shot (3 PTS) (Fox 1 AST),rebound,foul,5,Low
+21700024,97,foul,1,PT02M24.00S,02:24,Q1 02:24,18,13,1610612758.0,Koufos,Koufos S.FOUL (P1.T1) (S.Twardoski),3pt made,freethrow,5,Low
+21700024,99,freethrow,1,PT02M24.00S,02:24,Q1 02:24,19,13,1610612742.0,Ferrell,Ferrell Free Throw 1 of 2 (3 PTS),foul,freethrow,6,Low
+21700024,100,freethrow,1,PT02M24.00S,02:24,Q1 02:24,20,13,1610612742.0,Ferrell,Ferrell Free Throw 2 of 2 (4 PTS),freethrow,substitution,7,Low
+21700024,148,substitution,1,PT02M24.00S,02:24,Q1 02:24,20,13,1610612742.0,Powell,SUB out: D. Powell,freethrow,substitution,7,Low
+21700024,149,substitution,1,PT02M24.00S,02:24,Q1 02:24,20,13,1610612742.0,Matthews,SUB out: W. Matthews,substitution,substitution,7,Low
+21700024,150,substitution,1,PT02M24.00S,02:24,Q1 02:24,20,13,1610612742.0,Barnes,SUB out: H. Barnes,substitution,substitution,7,Low
+21700024,151,substitution,1,PT02M24.00S,02:24,Q1 02:24,20,13,1610612758.0,Randolph,SUB out: Z. Randolph,substitution,substitution,7,Low
+21700024,152,substitution,1,PT02M24.00S,02:24,Q1 02:24,20,13,1610612742.0,Finney-Smith,SUB in: D. Finney-Smith,substitution,substitution,7,Low
+21700024,153,substitution,1,PT02M24.00S,02:24,Q1 02:24,20,13,1610612742.0,Barea,SUB in: J. Barea,substitution,substitution,7,Low
+21700024,154,substitution,1,PT02M24.00S,02:24,Q1 02:24,20,13,1610612742.0,Nowitzki,SUB in: D. Nowitzki,substitution,substitution,7,Low
+21700024,155,substitution,1,PT02M24.00S,02:24,Q1 02:24,20,13,1610612758.0,Labissiere,SUB in: S. Labissiere,substitution,2pt made,7,Low
+21700024,105,2pt,1,PT02M11.00S,02:11,Q1 02:11,20,15,1610612758.0,Labissiere,Labissiere 13' Jump Shot (2 PTS) (Fox 2 AST),substitution,3pt missed,5,Low
+21700024,113,3pt,1,PT01M49.00S,01:49,Q1 01:49,20,15,1610612742.0,Nowitzki,MISS Nowitzki 25' 3PT Jump Shot,2pt made,rebound,5,Low
+21700024,114,rebound,1,PT01M47.00S,01:47,Q1 01:47,20,15,1610612758.0,Hield,Hield REBOUND (Off:0 Def:2),3pt missed,2pt missed,5,Low
+21700024,115,2pt,1,PT01M38.00S,01:38,Q1 01:38,20,15,1610612758.0,Fox,MISS Fox 6' Jump Shot,rebound,block,5,Low
+21700024,115,block,1,PT01M38.00S,01:38,Q1 01:38,20,15,1610612742.0,Mejri,Mejri BLOCK (1 BLK),2pt missed,rebound,5,Low
+21700024,117,rebound,1,PT01M35.00S,01:35,Q1 01:35,20,15,1610612742.0,Mejri,Mejri REBOUND (Off:0 Def:2),block,foul,5,Low
+21700024,118,foul,1,PT01M28.00S,01:28,Q1 01:28,20,15,1610612758.0,Fox,Fox S.FOUL (P1.T2) (B.Kennedy),rebound,freethrow,5,Low
+21700024,120,freethrow,1,PT01M28.00S,01:28,Q1 01:28,21,15,1610612742.0,Finney-Smith,Finney-Smith Free Throw 1 of 2 (1 PTS),foul,freethrow,6,Low
+21700024,121,freethrow,1,PT01M28.00S,01:28,Q1 01:28,21,15,1610612742.0,Finney-Smith,MISS Finney-Smith Free Throw 2 of 2,freethrow,rebound,6,Low
+21700024,122,rebound,1,PT01M25.00S,01:25,Q1 01:25,21,15,1610612758.0,Koufos,Koufos REBOUND (Off:0 Def:1),freethrow,2pt missed,6,Low
+21700024,123,2pt,1,PT01M19.00S,01:19,Q1 01:19,21,15,1610612758.0,Fox,MISS Fox 24' Jump Shot,rebound,rebound,6,Low
+21700024,124,rebound,1,PT01M19.00S,01:19,Q1 01:19,21,15,1610612758.0,Labissiere,Labissiere REBOUND (Off:1 Def:0),2pt missed,2pt made,6,Low
+21700024,125,2pt,1,PT01M09.00S,01:09,Q1 01:09,21,17,1610612758.0,Labissiere,Labissiere 4' Hook Shot (4 PTS) (Fox 3 AST),rebound,2pt missed,4,Low
+21700024,127,2pt,1,PT00M44.90S,00:44,Q1 00:44,21,17,1610612742.0,Barea,MISS Barea 12' Jump Shot,2pt made,rebound,4,Low
+21700024,128,rebound,1,PT00M42.10S,00:42,Q1 00:42,21,17,1610612742.0,Finney-Smith,Finney-Smith REBOUND (Off:1 Def:0),2pt missed,2pt made,4,Low
+21700024,129,2pt,1,PT00M34.50S,00:34,Q1 00:34,23,17,1610612742.0,Barea,Barea 5' Layup (2 PTS),rebound,2pt made,6,Low
+21700024,130,2pt,1,PT00M29.10S,00:29,Q1 00:29,23,19,1610612758.0,Labissiere,Labissiere 13' Jump Shot (6 PTS) (Fox 4 AST),2pt made,2pt missed,4,Low
+21700024,132,2pt,1,PT00M06.60S,00:06,Q1 00:06,23,19,1610612742.0,Barea,MISS Barea 3' Driving Layup,2pt made,block,4,Low
+21700024,132,block,1,PT00M06.60S,00:06,Q1 00:06,23,19,1610612758.0,Labissiere,Labissiere BLOCK (1 BLK),2pt missed,rebound,4,Low
+21700024,134,rebound,1,PT00M06.60S,00:06,Q1 00:06,23,19,1610612742.0,,TEAM offensive REBOUND,block,substitution,4,Low
+21700024,136,substitution,1,PT00M06.60S,00:06,Q1 00:06,23,19,1610612742.0,Finney-Smith,SUB out: D. Finney-Smith,rebound,substitution,4,Low
+21700024,137,substitution,1,PT00M06.60S,00:06,Q1 00:06,23,19,1610612742.0,Nowitzki,SUB out: D. Nowitzki,substitution,substitution,4,Low
+21700024,138,substitution,1,PT00M06.60S,00:06,Q1 00:06,23,19,1610612742.0,Matthews,SUB in: W. Matthews,substitution,substitution,4,Low
+21700024,139,substitution,1,PT00M06.60S,00:06,Q1 00:06,23,19,1610612742.0,Powell,SUB in: D. Powell,substitution,2pt missed,4,Low
+21700024,140,2pt,1,PT00M04.00S,00:04,Q1 00:04,23,19,1610612742.0,Powell,MISS Powell 23' Jump Shot,substitution,3pt missed,4,Low
+21700024,142,3pt,1,PT00M01.00S,00:01,Q1 00:01,23,19,1610612758.0,Hield,MISS Hield 51' 3PT Running Jump Shot,2pt missed,rebound,4,Low
+21700024,143,rebound,1,PT00M01.00S,00:01,Q1 00:01,23,19,1610612758.0,,TEAM offensive REBOUND,3pt missed,rebound,4,Low
+21700024,141,rebound,1,PT00M00.20S,00:00,Q1 00:00,23,19,1610612758.0,Hield,Hield REBOUND (Off:0 Def:3),rebound,period,4,Low
+21700024,152,period,1,PT00M00.00S,00:00,Q1 00:00,23,19,1610612742.0,,End of 1st Period (9:06 PM EST),rebound,period,4,Low
+21700024,161,period,2,PT12M00.00S,12:00,Q2 12:00,23,19,1610612742.0,,Start of 2nd Period (9:07 PM EST),period,substitution,4,Low
+21700024,162,2pt,2,PT11M48.00S,11:48,Q2 11:48,25,19,1610612742.0,Mejri,Mejri 2' Cutting Dunk Shot (2 PTS) (Finney-Smith 1 AST),substitution,foul,6,Low
+21700024,164,foul,2,PT11M35.00S,11:35,Q2 11:35,25,19,1610612742.0,Finney-Smith,Finney-Smith Personal Block Foul (P1.T1) (M.Smith),2pt made,3pt missed,6,Low
+21700024,166,3pt,2,PT11M28.00S,11:28,Q2 11:28,25,19,1610612758.0,Carter,MISS Carter 26' 3PT Jump Shot,foul,rebound,6,Low
+21700024,167,rebound,2,PT11M25.00S,11:25,Q2 11:25,25,19,1610612758.0,Koufos,Koufos REBOUND (Off:1 Def:1),3pt missed,foul,6,Low
+21700024,168,foul,2,PT11M25.00S,11:25,Q2 11:25,25,19,1610612742.0,Barea,Barea P.FOUL (P1.T2) (M.Smith),rebound,2pt missed,6,Low
+21700024,170,2pt,2,PT11M12.00S,11:12,Q2 11:12,25,19,1610612758.0,Labissiere,MISS Labissiere 13' Jump Shot,foul,rebound,6,Low
+21700024,171,rebound,2,PT11M09.00S,11:09,Q2 11:09,25,19,1610612742.0,Barea,Barea REBOUND (Off:0 Def:1),2pt missed,2pt missed,6,Low
+21700024,172,2pt,2,PT11M00.00S,11:00,Q2 11:00,25,19,1610612742.0,Nowitzki,MISS Nowitzki 20' Jump Shot,rebound,rebound,6,Low
+21700024,173,rebound,2,PT10M56.00S,10:56,Q2 10:56,25,19,1610612758.0,Labissiere,Labissiere REBOUND (Off:1 Def:1),2pt missed,2pt made,6,Low
+21700024,174,2pt,2,PT10M52.00S,10:52,Q2 10:52,25,21,1610612758.0,Fox,Fox 2' Layup (2 PTS),rebound,2pt missed,4,Low
+21700024,175,2pt,2,PT10M39.00S,10:39,Q2 10:39,25,21,1610612742.0,Barea,MISS Barea 6' Layup,2pt made,rebound,4,Low
+21700024,176,rebound,2,PT10M38.00S,10:38,Q2 10:38,25,21,1610612758.0,Fox,Fox REBOUND (Off:0 Def:2),2pt missed,2pt missed,4,Low
+21700024,177,2pt,2,PT10M28.00S,10:28,Q2 10:28,25,21,1610612758.0,Labissiere,MISS Labissiere 4' Layup,rebound,rebound,4,Low
+21700024,178,rebound,2,PT10M28.00S,10:28,Q2 10:28,25,21,1610612758.0,Fox,Fox REBOUND (Off:1 Def:2),2pt missed,3pt made,4,Low
+21700024,179,3pt,2,PT10M25.00S,10:25,Q2 10:25,25,24,1610612758.0,Carter,Carter 26' 3PT Jump Shot (3 PTS) (Fox 5 AST),rebound,2pt made,1,Low
+21700024,181,2pt,2,PT09M58.00S,09:58,Q2 09:58,27,24,1610612742.0,Finney-Smith,Finney-Smith 22' Jump Shot (3 PTS) (Barea 5 AST),3pt made,2pt made,3,Low
+21700024,183,2pt,2,PT09M45.00S,09:45,Q2 09:45,27,26,1610612758.0,Fox,Fox 18' Jump Shot (4 PTS),2pt made,foul,1,Low
+21700024,184,foul,2,PT09M26.00S,09:26,Q2 09:26,27,26,1610612758.0,Labissiere,Labissiere P.FOUL (P1.T1) (M.Smith),2pt made,substitution,1,Low
+21700024,187,substitution,2,PT09M26.00S,09:26,Q2 09:26,27,26,1610612742.0,Barea,SUB out: J. Barea,foul,substitution,1,Low
+21700024,188,substitution,2,PT09M26.00S,09:26,Q2 09:26,27,26,1610612742.0,Ferrell,SUB in: Y. Ferrell,substitution,2pt made,1,Low
+21700024,188,2pt,2,PT09M20.00S,09:20,Q2 09:20,29,26,1610612742.0,Mejri,Mejri 2' Alley Oop Dunk (4 PTS) (Ferrell 1 AST),substitution,turnover,3,Low
+21700024,191,turnover,2,PT09M09.00S,09:09,Q2 09:09,29,26,1610612758.0,Koufos,Koufos Lost Ball Turnover (P1.T6),2pt made,steal,3,Low
+21700024,191,steal,2,PT09M09.00S,09:09,Q2 09:09,29,26,1610612742.0,Clavell,Clavell STEAL (1 STL),turnover,foul,3,Low
+21700024,193,foul,2,PT09M04.00S,09:04,Q2 09:04,29,26,1610612758.0,Koufos,Koufos P.FOUL (P2.T2) (S.Twardoski),steal,3pt made,3,Low
+21700024,195,3pt,2,PT08M59.00S,08:59,Q2 08:59,32,26,1610612742.0,Clavell,Clavell 3PT Jump Shot (3 PTS) (Ferrell 2 AST),foul,timeout,6,Low
+21700024,197,timeout,2,PT08M52.00S,08:52,Q2 08:52,32,26,1610612758.0,,Kings Timeout: Regular (Reg.2 Short 0),3pt made,2pt missed,6,Low
+21700024,198,2pt,2,PT08M39.00S,08:39,Q2 08:39,32,26,1610612758.0,Fox,MISS Fox 15' Fadeaway Jumper,timeout,rebound,6,Low
+21700024,199,rebound,2,PT08M36.00S,08:36,Q2 08:36,32,26,1610612742.0,Nowitzki,Nowitzki REBOUND (Off:0 Def:4),2pt missed,3pt missed,6,Low
+21700024,200,3pt,2,PT08M23.00S,08:23,Q2 08:23,32,26,1610612742.0,Finney-Smith,MISS Finney-Smith 27' 3PT Jump Shot,rebound,rebound,6,Low
+21700024,201,rebound,2,PT08M19.00S,08:19,Q2 08:19,32,26,1610612742.0,Clavell,Clavell REBOUND (Off:1 Def:0),3pt missed,3pt missed,6,Low
+21700024,202,3pt,2,PT08M18.00S,08:18,Q2 08:18,32,26,1610612742.0,Clavell,MISS Clavell 24' 3PT Jump Shot,rebound,rebound,6,Low
+21700024,203,rebound,2,PT08M18.00S,08:18,Q2 08:18,32,26,1610612758.0,Carter,Carter REBOUND (Off:0 Def:1),3pt missed,2pt missed,6,Low
+21700024,204,2pt,2,PT08M06.00S,08:06,Q2 08:06,32,26,1610612758.0,Labissiere,MISS Labissiere 15' Jump Shot,rebound,rebound,6,Low
+21700024,205,rebound,2,PT08M02.00S,08:02,Q2 08:02,32,26,1610612742.0,Ferrell,Ferrell REBOUND (Off:0 Def:1),2pt missed,turnover,6,Low
+21700024,206,turnover,2,PT07M53.00S,07:53,Q2 07:53,32,26,1610612742.0,Ferrell,Ferrell Bad Pass Turnover (P2.T4),rebound,steal,6,Low
+21700024,206,steal,2,PT07M53.00S,07:53,Q2 07:53,32,26,1610612758.0,Fox,Fox STEAL (1 STL),turnover,2pt missed,6,Low
+21700024,208,2pt,2,PT07M50.00S,07:50,Q2 07:50,32,26,1610612758.0,Fox,MISS Fox 2' Layup,steal,rebound,6,Low
+21700024,209,rebound,2,PT07M47.00S,07:47,Q2 07:47,32,26,1610612758.0,Temple,Temple REBOUND (Off:1 Def:1),2pt missed,2pt missed,6,Low
+21700024,210,2pt,2,PT07M36.00S,07:36,Q2 07:36,32,26,1610612758.0,Labissiere,MISS Labissiere 2' Layup,rebound,block,6,Low
+21700024,210,block,2,PT07M36.00S,07:36,Q2 07:36,32,26,1610612742.0,Mejri,Mejri BLOCK (2 BLK),2pt missed,rebound,6,Low
+21700024,212,rebound,2,PT07M33.00S,07:33,Q2 07:33,32,26,1610612742.0,Nowitzki,Nowitzki REBOUND (Off:0 Def:5),block,3pt made,6,Low
+21700024,213,3pt,2,PT07M30.00S,07:30,Q2 07:30,35,26,1610612742.0,Finney-Smith,Finney-Smith 3PT Jump Shot (6 PTS) (Nowitzki 1 AST),rebound,turnover,9,Low
+21700024,215,turnover,2,PT07M15.00S,07:15,Q2 07:15,35,26,1610612758.0,Fox,Fox Traveling Turnover (P1.T7),3pt made,substitution,9,Low
+21700024,220,substitution,2,PT07M15.00S,07:15,Q2 07:15,35,26,1610612742.0,Clavell,SUB out: G. Clavell,turnover,substitution,9,Low
+21700024,221,substitution,2,PT07M15.00S,07:15,Q2 07:15,35,26,1610612742.0,Nowitzki,SUB out: D. Nowitzki,substitution,substitution,9,Low
+21700024,222,substitution,2,PT07M15.00S,07:15,Q2 07:15,35,26,1610612742.0,Mejri,SUB out: S. Mejri,substitution,substitution,9,Low
+21700024,223,substitution,2,PT07M15.00S,07:15,Q2 07:15,35,26,1610612758.0,Labissiere,SUB out: S. Labissiere,substitution,substitution,9,Low
+21700024,224,substitution,2,PT07M15.00S,07:15,Q2 07:15,35,26,1610612742.0,Noel,SUB in: N. Noel,substitution,substitution,9,Low
+21700024,225,substitution,2,PT07M15.00S,07:15,Q2 07:15,35,26,1610612742.0,Barnes,SUB in: H. Barnes,substitution,substitution,9,Low
+21700024,226,substitution,2,PT07M15.00S,07:15,Q2 07:15,35,26,1610612742.0,Matthews,SUB in: W. Matthews,substitution,substitution,9,Low
+21700024,227,substitution,2,PT07M15.00S,07:15,Q2 07:15,35,26,1610612758.0,Hill,SUB in: G. Hill,substitution,turnover,9,Low
+21700024,224,turnover,2,PT06M54.00S,06:54,Q2 06:54,35,26,1610612742.0,Matthews,Matthews Lost Ball Turnover (P2.T5),substitution,steal,9,Low
+21700024,224,steal,2,PT06M54.00S,06:54,Q2 06:54,35,26,1610612758.0,Temple,Temple STEAL (1 STL),turnover,3pt missed,9,Low
+21700024,226,3pt,2,PT06M45.00S,06:45,Q2 06:45,35,26,1610612758.0,Temple,MISS Temple 25' 3PT Jump Shot,steal,rebound,9,Low
+21700024,227,rebound,2,PT06M39.00S,06:39,Q2 06:39,35,26,1610612758.0,Koufos,Koufos REBOUND (Off:2 Def:1),3pt missed,2pt missed,9,Low
+21700024,228,2pt,2,PT06M39.00S,06:39,Q2 06:39,35,26,1610612758.0,Koufos,MISS Koufos 1' Tip Layup Shot,rebound,rebound,9,Low
+21700024,229,rebound,2,PT06M38.00S,06:38,Q2 06:38,35,26,1610612742.0,Noel,Noel REBOUND (Off:0 Def:2),2pt missed,3pt made,9,Low
+21700024,230,3pt,2,PT06M33.00S,06:33,Q2 06:33,38,26,1610612742.0,Ferrell,Ferrell 25' 3PT Jump Shot (7 PTS),rebound,3pt made,12,Low
+21700024,231,3pt,2,PT06M12.00S,06:12,Q2 06:12,38,29,1610612758.0,Fox,Fox 3PT Jump Shot (7 PTS) (Temple 1 AST),3pt made,2pt missed,9,Low
+21700024,233,2pt,2,PT05M50.00S,05:50,Q2 05:50,38,29,1610612742.0,Barnes,MISS Barnes 9' Jump Shot,3pt made,rebound,9,Low
+21700024,234,rebound,2,PT05M47.00S,05:47,Q2 05:47,38,29,1610612742.0,Finney-Smith,Finney-Smith REBOUND (Off:2 Def:0),2pt missed,2pt made,9,Low
+21700024,235,2pt,2,PT05M47.00S,05:47,Q2 05:47,40,29,1610612742.0,Finney-Smith,Finney-Smith 1' Tip Layup Shot (8 PTS),rebound,3pt missed,11,Low
+21700024,236,3pt,2,PT05M27.00S,05:27,Q2 05:27,40,29,1610612758.0,Carter,MISS Carter 3PT Jump Shot,2pt made,rebound,11,Low
+21700024,237,rebound,2,PT05M23.00S,05:23,Q2 05:23,40,29,1610612742.0,Ferrell,Ferrell REBOUND (Off:0 Def:2),3pt missed,3pt missed,11,Low
+21700024,238,3pt,2,PT05M20.00S,05:20,Q2 05:20,40,29,1610612742.0,Ferrell,MISS Ferrell 26' 3PT Jump Shot,rebound,rebound,11,Low
+21700024,239,rebound,2,PT05M15.00S,05:15,Q2 05:15,40,29,1610612742.0,Barnes,Barnes REBOUND (Off:1 Def:0),3pt missed,3pt missed,11,Low
+21700024,240,3pt,2,PT05M13.00S,05:13,Q2 05:13,40,29,1610612742.0,Matthews,MISS Matthews 26' 3PT Jump Shot,rebound,rebound,11,Low
+21700024,241,rebound,2,PT05M13.00S,05:13,Q2 05:13,40,29,1610612758.0,Temple,Temple REBOUND (Off:1 Def:2),3pt missed,3pt made,11,Low
+21700024,242,3pt,2,PT04M54.00S,04:54,Q2 04:54,40,32,1610612758.0,Temple,Temple 3PT Jump Shot (6 PTS) (Fox 6 AST),rebound,3pt missed,8,Low
+21700024,244,3pt,2,PT04M37.00S,04:37,Q2 04:37,40,32,1610612742.0,Matthews,MISS Matthews 26' 3PT Jump Shot,3pt made,rebound,8,Low
+21700024,245,rebound,2,PT04M35.00S,04:35,Q2 04:35,40,32,1610612758.0,Temple,Temple REBOUND (Off:1 Def:3),3pt missed,foul,8,Low
+21700024,247,foul,2,PT04M32.00S,04:32,Q2 04:32,40,32,1610612742.0,Finney-Smith,Finney-Smith P.FOUL (P2.T3) (S.Twardoski),rebound,substitution,8,Low
+21700024,252,substitution,2,PT04M32.00S,04:32,Q2 04:32,40,32,1610612742.0,Finney-Smith,SUB out: D. Finney-Smith,foul,substitution,8,Low
+21700024,253,substitution,2,PT04M32.00S,04:32,Q2 04:32,40,32,1610612758.0,Temple,SUB out: G. Temple,substitution,substitution,8,Low
+21700024,254,substitution,2,PT04M32.00S,04:32,Q2 04:32,40,32,1610612758.0,Koufos,SUB out: K. Koufos,substitution,substitution,8,Low
+21700024,255,substitution,2,PT04M32.00S,04:32,Q2 04:32,40,32,1610612742.0,Barea,SUB in: J. Barea,substitution,substitution,8,Low
+21700024,256,substitution,2,PT04M32.00S,04:32,Q2 04:32,40,32,1610612758.0,Cauley-Stein,SUB in: W. Cauley-Stein,substitution,substitution,8,Low
+21700024,257,substitution,2,PT04M32.00S,04:32,Q2 04:32,40,32,1610612758.0,Randolph,SUB in: Z. Randolph,substitution,2pt missed,8,Low
+21700024,255,2pt,2,PT04M24.00S,04:24,Q2 04:24,40,32,1610612758.0,Fox,MISS Fox 19' Jump Shot,substitution,rebound,8,Low
+21700024,256,rebound,2,PT04M24.00S,04:24,Q2 04:24,40,32,1610612758.0,Cauley-Stein,Cauley-Stein REBOUND (Off:2 Def:2),2pt missed,2pt missed,8,Low
+21700024,258,2pt,2,PT04M11.00S,04:11,Q2 04:11,40,32,1610612758.0,Randolph,MISS Randolph 7' Jump Shot,rebound,block,8,Low
+21700024,258,block,2,PT04M11.00S,04:11,Q2 04:11,40,32,1610612742.0,Noel,Noel BLOCK (2 BLK),2pt missed,rebound,8,Low
+21700024,260,rebound,2,PT04M09.00S,04:09,Q2 04:09,40,32,1610612758.0,Hill,G. Hill REBOUND (Off:1 Def:0),block,2pt made,8,Low
+21700024,261,2pt,2,PT04M07.00S,04:07,Q2 04:07,40,34,1610612758.0,Cauley-Stein,Cauley-Stein 18' Jump Shot (4 PTS) (G. Hill 1 AST),rebound,foul,6,Low
+21700024,263,foul,2,PT03M51.00S,03:51,Q2 03:51,40,34,1610612758.0,Cauley-Stein,Cauley-Stein Personal Block Foul (P1.T3) (S.Twardoski),2pt made,timeout,6,Low
+21700024,265,timeout,2,PT03M51.00S,03:51,Q2 03:51,40,34,1610612742.0,,MAVERICKS Timeout: Regular (Full 2 Short 0),foul,foul,6,Low
+21700024,266,foul,2,PT03M47.00S,03:47,Q2 03:47,40,34,1610612758.0,Carter,Carter P.FOUL (P1.T4) (S.Twardoski),timeout,2pt missed,6,Low
+21700024,268,2pt,2,PT03M38.00S,03:38,Q2 03:38,40,34,1610612742.0,Barnes,MISS Barnes 2' Layup,foul,rebound,6,Low
+21700024,269,rebound,2,PT03M36.00S,03:36,Q2 03:36,40,34,1610612742.0,Noel,Noel REBOUND (Off:1 Def:2),2pt missed,2pt made,6,Low
+21700024,270,2pt,2,PT03M34.00S,03:34,Q2 03:34,42,34,1610612742.0,Noel,Noel 2' Layup (6 PTS),rebound,2pt made,8,Low
+21700024,271,2pt,2,PT03M18.00S,03:18,Q2 03:18,42,36,1610612758.0,Hill,G. Hill 21' Jump Shot (4 PTS) (Fox 7 AST),2pt made,foul,6,Low
+21700024,273,foul,2,PT03M07.00S,03:07,Q2 03:07,42,36,1610612758.0,Fox,Fox P.FOUL (P2.PN) (M.Smith),2pt made,freethrow,6,Low
+21700024,275,freethrow,2,PT03M07.00S,03:07,Q2 03:07,43,36,1610612742.0,Ferrell,Ferrell Free Throw 1 of 2 (8 PTS),foul,freethrow,7,Low
+21700024,278,freethrow,2,PT03M07.00S,03:07,Q2 03:07,43,36,1610612742.0,Ferrell,MISS Ferrell Free Throw 2 of 2,freethrow,substitution,7,Low
+21700024,277,substitution,2,PT03M07.00S,03:07,Q2 03:07,43,36,1610612758.0,Fox,SUB out: D. Fox,freethrow,substitution,7,Low
+21700024,278,substitution,2,PT03M07.00S,03:07,Q2 03:07,43,36,1610612758.0,Hield,SUB in: B. Hield,substitution,rebound,7,Low
+21700024,279,rebound,2,PT03M05.00S,03:05,Q2 03:05,43,36,1610612758.0,Cauley-Stein,Cauley-Stein REBOUND (Off:2 Def:3),substitution,2pt missed,7,Low
+21700024,280,2pt,2,PT02M47.00S,02:47,Q2 02:47,43,36,1610612758.0,Carter,MISS Carter 9' Turnaround Fadeaway Shot,rebound,rebound,7,Low
+21700024,281,rebound,2,PT02M43.00S,02:43,Q2 02:43,43,36,1610612742.0,Noel,Noel REBOUND (Off:1 Def:3),2pt missed,2pt missed,7,Low
+21700024,282,2pt,2,PT02M33.00S,02:33,Q2 02:33,43,36,1610612742.0,Barnes,MISS Barnes 7' Jump Shot,rebound,rebound,7,Low
+21700024,283,rebound,2,PT02M30.00S,02:30,Q2 02:30,43,36,1610612758.0,Carter,Carter REBOUND (Off:0 Def:2),2pt missed,2pt made,7,Low
+21700024,284,2pt,2,PT02M26.00S,02:26,Q2 02:26,43,38,1610612758.0,Hield,Hield 21' Jump Shot (4 PTS),rebound,foul,5,Low
+21700024,285,foul,2,PT02M13.00S,02:13,Q2 02:13,43,38,1610612758.0,Cauley-Stein,Cauley-Stein P.FOUL (P2.PN) (M.Smith),2pt made,freethrow,5,Low
+21700024,287,freethrow,2,PT02M13.00S,02:13,Q2 02:13,44,38,1610612742.0,Barnes,Barnes Free Throw 1 of 2 (5 PTS),foul,freethrow,6,Low
+21700024,292,freethrow,2,PT02M13.00S,02:13,Q2 02:13,44,38,1610612742.0,Barnes,MISS Barnes Free Throw 2 of 2,freethrow,substitution,6,Low
+21700024,290,substitution,2,PT02M13.00S,02:13,Q2 02:13,44,38,1610612742.0,Barea,SUB out: J. Barea,freethrow,substitution,6,Low
+21700024,291,substitution,2,PT02M13.00S,02:13,Q2 02:13,44,38,1610612758.0,Carter,SUB out: V. Carter,substitution,substitution,6,Low
+21700024,292,substitution,2,PT02M13.00S,02:13,Q2 02:13,44,38,1610612742.0,Nowitzki,SUB in: D. Nowitzki,substitution,substitution,6,Low
+21700024,293,substitution,2,PT02M13.00S,02:13,Q2 02:13,44,38,1610612758.0,Temple,SUB in: G. Temple,substitution,rebound,6,Low
+21700024,293,rebound,2,PT02M11.00S,02:11,Q2 02:11,44,38,1610612758.0,Cauley-Stein,Cauley-Stein REBOUND (Off:2 Def:4),substitution,2pt made,6,Low
+21700024,294,2pt,2,PT01M59.00S,01:59,Q2 01:59,44,40,1610612758.0,Cauley-Stein,Cauley-Stein 3' Driving Layup (6 PTS),rebound,turnover,4,Low
+21700024,295,turnover,2,PT01M40.00S,01:40,Q2 01:40,44,40,1610612742.0,Matthews,Matthews Out of Bounds - Bad Pass Turnover Turnover (P3.T6),2pt made,foul,4,Low
+21700024,296,foul,2,PT01M33.00S,01:33,Q2 01:33,44,40,1610612742.0,Ferrell,Ferrell Personal Block Foul (P1.T4) (M.Smith),turnover,foul,4,Low
+21700024,299,foul,2,PT01M27.00S,01:27,Q2 01:27,44,40,1610612742.0,Nowitzki,MAVERICKS T.Foul (Def. 3 Sec Nowitzki ) (B.Kennedy),foul,freethrow,4,Low
+21700024,300,freethrow,2,PT01M27.00S,01:27,Q2 01:27,44,41,1610612758.0,Hield,Hield Free Throw Technical (5 PTS),foul,3pt missed,3,Low
+21700024,301,3pt,2,PT01M14.00S,01:14,Q2 01:14,44,41,1610612758.0,Hield,MISS Hield 29' 3PT Jump Shot,freethrow,rebound,3,Low
+21700024,302,rebound,2,PT01M13.00S,01:13,Q2 01:13,44,41,1610612758.0,Randolph,Randolph REBOUND (Off:2 Def:0),3pt missed,turnover,3,Low
+21700024,303,turnover,2,PT01M13.00S,01:13,Q2 01:13,44,41,0.0,,Kings Turnover: Shot Clock (T#8),rebound,foul,3,Low
+21700024,304,foul,2,PT00M59.90S,00:59,Q2 00:59,44,41,1610612758.0,Hill,G. Hill S.FOUL (P1.PN) (B.Kennedy),turnover,freethrow,3,Low
+21700024,306,freethrow,2,PT00M59.90S,00:59,Q2 00:59,45,41,1610612742.0,Ferrell,Ferrell Free Throw 1 of 2 (9 PTS),foul,freethrow,4,Low
+21700024,307,freethrow,2,PT00M59.90S,00:59,Q2 00:59,46,41,1610612742.0,Ferrell,Ferrell Free Throw 2 of 2 (10 PTS),freethrow,2pt missed,5,Low
+21700024,308,2pt,2,PT00M50.90S,00:50,Q2 00:50,46,41,1610612758.0,Hill,MISS G. Hill 12' Jump Shot,freethrow,rebound,5,Low
+21700024,309,rebound,2,PT00M47.60S,00:47,Q2 00:47,46,41,1610612758.0,Cauley-Stein,Cauley-Stein REBOUND (Off:3 Def:4),2pt missed,2pt missed,5,Low
+21700024,310,2pt,2,PT00M46.60S,00:46,Q2 00:46,46,41,1610612758.0,Cauley-Stein,MISS Cauley-Stein 2' Putback Layup,rebound,rebound,5,Low
+21700024,311,rebound,2,PT00M46.60S,00:46,Q2 00:46,46,41,1610612758.0,Cauley-Stein,Cauley-Stein REBOUND (Off:4 Def:4),2pt missed,2pt made,5,Low
+21700024,312,2pt,2,PT00M37.30S,00:37,Q2 00:37,46,43,1610612758.0,Randolph,Randolph 3' Hook Shot (4 PTS),rebound,3pt missed,3,Low
+21700024,313,3pt,2,PT00M33.00S,00:33,Q2 00:33,46,43,1610612742.0,Ferrell,MISS Ferrell 28' 3PT Jump Shot,2pt made,rebound,3,Low
+21700024,314,rebound,2,PT00M30.70S,00:30,Q2 00:30,46,43,1610612758.0,Cauley-Stein,Cauley-Stein REBOUND (Off:4 Def:5),3pt missed,turnover,3,Low
+21700024,315,turnover,2,PT00M18.10S,00:18,Q2 00:18,46,43,1610612758.0,Hill,G. Hill Lost Ball Turnover (P5.T9),rebound,steal,3,Low
+21700024,315,steal,2,PT00M18.10S,00:18,Q2 00:18,46,43,1610612742.0,Noel,Noel STEAL (2 STL),turnover,turnover,3,Low
+21700024,317,turnover,2,PT00M11.20S,00:11,Q2 00:11,46,43,1610612742.0,Noel,Noel Lost Ball Turnover (P1.T7),steal,steal,3,Low
+21700024,317,steal,2,PT00M11.20S,00:11,Q2 00:11,46,43,1610612758.0,Hill,G. Hill STEAL (2 STL),turnover,3pt made,3,Low
+21700024,319,3pt,2,PT00M01.20S,00:01,Q2 00:01,46,46,1610612758.0,Hill,G. Hill 26' 3PT Jump Shot (7 PTS),steal,period,0,Low
+21700024,320,period,2,PT00M00.00S,00:00,Q2 00:00,46,46,1610612742.0,,End of 2nd Period (9:31 PM EST),3pt made,period,0,Low
+21700024,325,period,3,PT12M00.00S,12:00,Q3 12:00,46,46,1610612742.0,,Start of 3rd Period (9:47 PM EST),period,substitution,0,Low
+21700024,326,3pt,3,PT11M41.00S,11:41,Q3 11:41,46,46,1610612742.0,Nowitzki,MISS Nowitzki 24' 3PT Jump Shot,substitution,rebound,0,Low
+21700024,327,rebound,3,PT11M38.00S,11:38,Q3 11:38,46,46,1610612758.0,Randolph,Randolph REBOUND (Off:2 Def:1),3pt missed,2pt missed,0,Low
+21700024,328,2pt,3,PT11M18.00S,11:18,Q3 11:18,46,46,1610612758.0,Hield,MISS Hield 17' Jump Shot,rebound,block,0,Low
+21700024,328,block,3,PT11M18.00S,11:18,Q3 11:18,46,46,1610612742.0,Matthews,Matthews BLOCK (1 BLK),2pt missed,rebound,0,Low
+21700024,330,rebound,3,PT11M14.00S,11:14,Q3 11:14,46,46,1610612742.0,Noel,Noel REBOUND (Off:1 Def:4),block,2pt made,0,Low
+21700024,331,2pt,3,PT11M08.00S,11:08,Q3 11:08,48,46,1610612742.0,Barea,Barea 2' Driving Layup (4 PTS),rebound,foul,2,Low
+21700024,332,foul,3,PT10M53.00S,10:53,Q3 10:53,48,46,1610612742.0,Barnes,Barnes P.FOUL (P1.T1) (B.Kennedy),2pt made,2pt made,2,Low
+21700024,334,2pt,3,PT10M44.00S,10:44,Q3 10:44,48,48,1610612758.0,Cauley-Stein,Cauley-Stein 18' Jump Shot (8 PTS),foul,2pt missed,0,Low
+21700024,335,2pt,3,PT10M28.00S,10:28,Q3 10:28,48,48,1610612742.0,Barnes,MISS Barnes 15' Jump Shot,2pt made,rebound,0,Low
+21700024,336,rebound,3,PT10M25.00S,10:25,Q3 10:25,48,48,1610612758.0,Cauley-Stein,Cauley-Stein REBOUND (Off:4 Def:6),2pt missed,2pt made,0,Low
+21700024,337,2pt,3,PT10M15.00S,10:15,Q3 10:15,48,50,1610612758.0,Hill,G. Hill 4' Driving Layup (9 PTS),rebound,3pt made,2,Low
+21700024,338,3pt,3,PT10M02.00S,10:02,Q3 10:02,51,50,1610612742.0,Nowitzki,Nowitzki 26' 3PT Jump Shot (8 PTS) (Barea 6 AST),2pt made,3pt made,1,Low
+21700024,340,3pt,3,PT09M46.00S,09:46,Q3 09:46,51,53,1610612758.0,Randolph,Randolph 26' 3PT Jump Shot (7 PTS) (G. Hill 2 AST),3pt made,foul,2,Low
+21700024,342,foul,3,PT09M38.00S,09:38,Q3 09:38,51,53,1610612758.0,Cauley-Stein,Cauley-Stein Personal Block Foul (P3.T1) (M.Smith),3pt made,2pt missed,2,Low
+21700024,344,2pt,3,PT09M24.00S,09:24,Q3 09:24,51,53,1610612742.0,Barnes,MISS Barnes 18' Jump Shot,foul,rebound,2,Low
+21700024,345,rebound,3,PT09M21.00S,09:21,Q3 09:21,51,53,1610612758.0,Randolph,Randolph REBOUND (Off:2 Def:2),2pt missed,2pt made,2,Low
+21700024,346,2pt,3,PT09M16.00S,09:16,Q3 09:16,51,55,1610612758.0,Hill,G. Hill 19' Jump Shot (11 PTS),rebound,3pt made,4,Low
+21700024,347,3pt,3,PT09M01.00S,09:01,Q3 09:01,54,55,1610612742.0,Barea,Barea 26' 3PT Jump Shot (7 PTS),2pt made,2pt missed,1,Low
+21700024,348,2pt,3,PT08M40.00S,08:40,Q3 08:40,54,55,1610612758.0,Randolph,MISS Randolph 2' Layup,3pt made,rebound,1,Low
+21700024,349,rebound,3,PT08M38.00S,08:38,Q3 08:38,54,55,1610612758.0,Jackson,Jackson REBOUND (Off:1 Def:1),2pt missed,2pt made,1,Low
+21700024,350,2pt,3,PT08M30.00S,08:30,Q3 08:30,54,57,1610612758.0,Randolph,Randolph 3' Hook Shot (9 PTS) (Hield 3 AST),rebound,2pt made,3,Low
+21700024,352,2pt,3,PT08M14.00S,08:14,Q3 08:14,56,57,1610612742.0,Barnes,Barnes 14' Jump Shot (7 PTS) (Barea 7 AST),2pt made,turnover,1,Low
+21700024,354,turnover,3,PT07M48.00S,07:48,Q3 07:48,56,57,1610612758.0,Jackson,Jackson Bad Pass Turnover (P1.T10),2pt made,steal,1,Low
+21700024,354,steal,3,PT07M48.00S,07:48,Q3 07:48,56,57,1610612742.0,Matthews,Matthews STEAL (2 STL),turnover,foul,1,Low
+21700024,356,foul,3,PT07M39.00S,07:39,Q3 07:39,56,57,1610612758.0,Hield,Hield S.FOUL (P1.T2) (M.Smith),steal,freethrow,1,Low
+21700024,358,freethrow,3,PT07M39.00S,07:39,Q3 07:39,56,57,1610612742.0,Noel,MISS Noel Free Throw 1 of 2,foul,rebound,1,Low
+21700024,359,rebound,3,PT07M39.00S,07:39,Q3 07:39,56,57,1610612742.0,,TEAM offensive REBOUND,freethrow,freethrow,1,Low
+21700024,360,freethrow,3,PT07M39.00S,07:39,Q3 07:39,57,57,1610612742.0,Noel,Noel Free Throw 2 of 2 (7 PTS),rebound,3pt made,0,Low
+21700024,361,3pt,3,PT07M27.00S,07:27,Q3 07:27,57,60,1610612758.0,Hill,G. Hill 25' 3PT Jump Shot (14 PTS),freethrow,3pt missed,3,Low
+21700024,362,3pt,3,PT07M13.00S,07:13,Q3 07:13,57,60,1610612742.0,Barea,MISS Barea 25' 3PT Jump Shot,3pt made,rebound,3,Low
+21700024,363,rebound,3,PT07M10.00S,07:10,Q3 07:10,57,60,1610612758.0,Randolph,Randolph REBOUND (Off:2 Def:3),3pt missed,foul,3,Low
+21700024,364,foul,3,PT06M58.00S,06:58,Q3 06:58,57,60,1610612742.0,Matthews,MAVERICKS T.Foul (Def. 3 Sec Matthews ) (S.Twardoski),rebound,timeout,3,Low
+21700024,365,timeout,3,PT06M58.00S,06:58,Q3 06:58,57,60,1610612742.0,,MAVERICKS Timeout: Regular (Full 3 Short 0),foul,freethrow,3,Low
+21700024,370,freethrow,3,PT06M58.00S,06:58,Q3 06:58,57,61,1610612758.0,Hield,Hield Free Throw Technical (6 PTS),timeout,substitution,4,Low
+21700024,368,substitution,3,PT06M58.00S,06:58,Q3 06:58,57,60,1610612742.0,Nowitzki,SUB out: D. Nowitzki,freethrow,substitution,3,Low
+21700024,369,substitution,3,PT06M58.00S,06:58,Q3 06:58,57,60,1610612742.0,Barea,SUB out: J. Barea,substitution,substitution,3,Low
+21700024,370,substitution,3,PT06M58.00S,06:58,Q3 06:58,57,60,1610612742.0,Powell,SUB in: D. Powell,substitution,substitution,3,Low
+21700024,371,substitution,3,PT06M58.00S,06:58,Q3 06:58,57,60,1610612742.0,Ferrell,SUB in: Y. Ferrell,substitution,2pt missed,3,Low
+21700024,371,2pt,3,PT06M48.00S,06:48,Q3 06:48,57,61,1610612758.0,Randolph,MISS Randolph 11' Jump Shot,substitution,rebound,4,Low
+21700024,372,rebound,3,PT06M45.00S,06:45,Q3 06:45,57,61,1610612742.0,Ferrell,Ferrell REBOUND (Off:0 Def:3),2pt missed,3pt missed,4,Low
+21700024,373,3pt,3,PT06M31.00S,06:31,Q3 06:31,57,61,1610612742.0,Matthews,MISS Matthews 26' 3PT Jump Shot,rebound,rebound,4,Low
+21700024,374,rebound,3,PT06M25.00S,06:25,Q3 06:25,57,61,1610612742.0,Powell,Powell REBOUND (Off:2 Def:1),3pt missed,2pt missed,4,Low
+21700024,375,2pt,3,PT06M25.00S,06:25,Q3 06:25,57,61,1610612742.0,Powell,MISS Powell 1' Putback Layup,rebound,rebound,4,Low
+21700024,376,rebound,3,PT06M24.00S,06:24,Q3 06:24,57,61,1610612758.0,Hield,Hield REBOUND (Off:0 Def:4),2pt missed,3pt missed,4,Low
+21700024,377,3pt,3,PT06M20.00S,06:20,Q3 06:20,57,61,1610612758.0,Randolph,MISS Randolph 26' 3PT Jump Shot,rebound,rebound,4,Low
+21700024,378,rebound,3,PT06M17.00S,06:17,Q3 06:17,57,61,1610612742.0,,TEAM defensive REBOUND,3pt missed,2pt missed,4,Low
+21700024,379,2pt,3,PT05M58.00S,05:58,Q3 05:58,57,61,1610612742.0,Ferrell,MISS Ferrell 2' Layup,rebound,block,4,Low
+21700024,379,block,3,PT05M58.00S,05:58,Q3 05:58,57,61,1610612758.0,Cauley-Stein,Cauley-Stein BLOCK (1 BLK),2pt missed,rebound,4,Low
+21700024,380,rebound,3,PT05M58.00S,05:58,Q3 05:58,57,61,1610612758.0,Hill,G. Hill REBOUND (Off:1 Def:1),block,3pt made,4,Low
+21700024,381,3pt,3,PT05M45.00S,05:45,Q3 05:45,57,64,1610612758.0,Hield,Hield 25' 3PT Jump Shot (9 PTS) (Randolph 1 AST),rebound,3pt missed,7,Low
+21700024,383,3pt,3,PT05M27.00S,05:27,Q3 05:27,57,64,1610612742.0,Matthews,MISS Matthews 26' 3PT Jump Shot,3pt made,rebound,7,Low
+21700024,384,rebound,3,PT05M24.00S,05:24,Q3 05:24,57,64,1610612758.0,Jackson,Jackson REBOUND (Off:1 Def:2),3pt missed,2pt missed,7,Low
+21700024,387,2pt,3,PT05M03.00S,05:03,Q3 05:03,57,64,1610612758.0,Randolph,MISS Randolph 9' Turnaround Hook Shot,rebound,rebound,7,Low
+21700024,388,rebound,3,PT05M00.00S,05:00,Q3 05:00,57,64,1610612742.0,Powell,Powell REBOUND (Off:2 Def:2),2pt missed,foul,7,Low
+21700024,389,foul,3,PT04M45.00S,04:45,Q3 04:45,57,64,1610612758.0,Jackson,Jackson S.FOUL (P1.T3) (S.Twardoski),rebound,freethrow,7,Low
+21700024,391,freethrow,3,PT04M45.00S,04:45,Q3 04:45,58,64,1610612742.0,Barnes,Barnes Free Throw 1 of 2 (8 PTS),foul,freethrow,6,Low
+21700024,392,freethrow,3,PT04M45.00S,04:45,Q3 04:45,58,64,1610612742.0,Barnes,MISS Barnes Free Throw 2 of 2,freethrow,rebound,6,Low
+21700024,393,rebound,3,PT04M42.00S,04:42,Q3 04:42,58,64,1610612758.0,Hield,Hield REBOUND (Off:0 Def:5),freethrow,foul,6,Low
+21700024,394,foul,3,PT04M27.00S,04:27,Q3 04:27,58,64,1610612742.0,Noel,Noel S.FOUL (P1.T2) (S.Twardoski),rebound,freethrow,6,Low
+21700024,396,freethrow,3,PT04M27.00S,04:27,Q3 04:27,58,65,1610612758.0,Hield,Hield Free Throw 1 of 2 (10 PTS),foul,freethrow,7,Low
+21700024,397,freethrow,3,PT04M27.00S,04:27,Q3 04:27,58,66,1610612758.0,Hield,Hield Free Throw 2 of 2 (11 PTS),freethrow,3pt missed,8,Low
+21700024,398,3pt,3,PT04M09.00S,04:09,Q3 04:09,58,66,1610612742.0,Matthews,MISS Matthews 3PT Jump Shot,freethrow,rebound,8,Low
+21700024,399,rebound,3,PT04M04.00S,04:04,Q3 04:04,58,66,1610612758.0,Jackson,Jackson REBOUND (Off:1 Def:3),3pt missed,2pt missed,8,Low
+21700024,400,2pt,3,PT03M45.00S,03:45,Q3 03:45,58,66,1610612758.0,Hield,MISS Hield 13' Fadeaway Jumper,rebound,rebound,8,Low
+21700024,401,rebound,3,PT03M44.00S,03:44,Q3 03:44,58,66,1610612758.0,,TEAM offensive REBOUND,2pt missed,timeout,8,Low
+21700024,402,timeout,3,PT03M44.00S,03:44,Q3 03:44,58,66,1610612758.0,,Kings Timeout: Regular (Reg.3 Short 0),rebound,substitution,8,Low
+21700024,404,substitution,3,PT03M44.00S,03:44,Q3 03:44,58,66,1610612742.0,Noel,SUB out: N. Noel,timeout,substitution,8,Low
+21700024,405,substitution,3,PT03M44.00S,03:44,Q3 03:44,58,66,1610612742.0,Mejri,SUB in: S. Mejri,substitution,turnover,8,Low
+21700024,405,turnover,3,PT03M35.00S,03:35,Q3 03:35,58,66,1610612758.0,Randolph,Randolph Lost Ball Turnover (P1.T11),substitution,steal,8,Low
+21700024,405,steal,3,PT03M35.00S,03:35,Q3 03:35,58,66,1610612742.0,Ferrell,Ferrell STEAL (1 STL),turnover,turnover,8,Low
+21700024,407,turnover,3,PT03M31.00S,03:31,Q3 03:31,58,66,1610612742.0,Ferrell,Ferrell Out of Bounds - Bad Pass Turnover Turnover (P3.T8),steal,3pt missed,8,Low
+21700024,408,3pt,3,PT03M08.00S,03:08,Q3 03:08,58,66,1610612758.0,Hield,MISS Hield 26' 3PT Jump Shot,turnover,rebound,8,Low
+21700024,409,rebound,3,PT03M03.00S,03:03,Q3 03:03,58,66,1610612742.0,Barnes,Barnes REBOUND (Off:1 Def:1),3pt missed,turnover,8,Low
+21700024,410,turnover,3,PT02M56.00S,02:56,Q3 02:56,58,66,1610612742.0,Mejri,Mejri Step Out of Bounds Turnover (P1.T9),rebound,3pt missed,8,Low
+21700024,412,3pt,3,PT02M35.00S,02:35,Q3 02:35,58,66,1610612758.0,Jackson,MISS Jackson 3PT Jump Shot,turnover,rebound,8,Low
+21700024,413,rebound,3,PT02M31.00S,02:31,Q3 02:31,58,66,1610612742.0,Matthews,Matthews REBOUND (Off:0 Def:1),3pt missed,turnover,8,Low
+21700024,414,turnover,3,PT02M25.00S,02:25,Q3 02:25,58,66,1610612742.0,Ferrell,Ferrell Lost Ball Turnover (P4.T10),rebound,steal,8,Low
+21700024,414,steal,3,PT02M25.00S,02:25,Q3 02:25,58,66,1610612758.0,Randolph,Randolph STEAL (2 STL),turnover,3pt missed,8,Low
+21700024,416,3pt,3,PT02M15.00S,02:15,Q3 02:15,58,66,1610612758.0,Jackson,MISS Jackson 3PT Jump Shot,steal,rebound,8,Low
+21700024,417,rebound,3,PT02M12.00S,02:12,Q3 02:12,58,66,1610612758.0,Randolph,Randolph REBOUND (Off:3 Def:3),3pt missed,foul,8,Low
+21700024,418,foul,3,PT02M12.00S,02:12,Q3 02:12,58,66,1610612742.0,Powell,Powell S.FOUL (P1.T3) (M.Smith),rebound,freethrow,8,Low
+21700024,420,freethrow,3,PT02M12.00S,02:12,Q3 02:12,58,66,1610612758.0,Randolph,MISS Randolph Free Throw 1 of 2,foul,rebound,8,Low
+21700024,421,rebound,3,PT02M12.00S,02:12,Q3 02:12,58,66,1610612758.0,,TEAM offensive REBOUND,freethrow,freethrow,8,Low
+21700024,432,freethrow,3,PT02M12.00S,02:12,Q3 02:12,58,67,1610612758.0,Randolph,Randolph Free Throw 2 of 2 (10 PTS),rebound,substitution,9,Low
+21700024,427,substitution,3,PT02M12.00S,02:12,Q3 02:12,58,66,1610612742.0,Powell,SUB out: D. Powell,freethrow,substitution,8,Low
+21700024,428,substitution,3,PT02M12.00S,02:12,Q3 02:12,58,66,1610612742.0,Matthews,SUB out: W. Matthews,substitution,substitution,8,Low
+21700024,429,substitution,3,PT02M12.00S,02:12,Q3 02:12,58,66,1610612742.0,Barnes,SUB out: H. Barnes,substitution,substitution,8,Low
+21700024,430,substitution,3,PT02M12.00S,02:12,Q3 02:12,58,66,1610612758.0,Hield,SUB out: B. Hield,substitution,substitution,8,Low
+21700024,431,substitution,3,PT02M12.00S,02:12,Q3 02:12,58,66,1610612758.0,Jackson,SUB out: J. Jackson,substitution,substitution,8,Low
+21700024,432,substitution,3,PT02M12.00S,02:12,Q3 02:12,58,66,1610612742.0,Nowitzki,SUB in: D. Nowitzki,substitution,substitution,8,Low
+21700024,433,substitution,3,PT02M12.00S,02:12,Q3 02:12,58,66,1610612742.0,Finney-Smith,SUB in: D. Finney-Smith,substitution,substitution,8,Low
+21700024,434,substitution,3,PT02M12.00S,02:12,Q3 02:12,58,66,1610612742.0,Barea,SUB in: J. Barea,substitution,substitution,8,Low
+21700024,435,substitution,3,PT02M12.00S,02:12,Q3 02:12,58,66,1610612758.0,Fox,SUB in: D. Fox,substitution,substitution,8,Low
+21700024,436,substitution,3,PT02M12.00S,02:12,Q3 02:12,58,66,1610612758.0,Temple,SUB in: G. Temple,substitution,2pt missed,8,Low
+21700024,433,2pt,3,PT02M03.00S,02:03,Q3 02:03,58,67,1610612742.0,Nowitzki,MISS Nowitzki 16' Jump Shot,substitution,rebound,9,Low
+21700024,434,rebound,3,PT02M00.00S,02:00,Q3 02:00,58,67,1610612758.0,Hill,G. Hill REBOUND (Off:1 Def:2),2pt missed,2pt missed,9,Low
+21700024,435,2pt,3,PT01M44.00S,01:44,Q3 01:44,58,67,1610612758.0,Cauley-Stein,MISS Cauley-Stein 8' Jump Shot,rebound,block,9,Low
+21700024,435,block,3,PT01M44.00S,01:44,Q3 01:44,58,67,1610612742.0,Mejri,Mejri BLOCK (3 BLK),2pt missed,rebound,9,Low
+21700024,437,rebound,3,PT01M40.00S,01:40,Q3 01:40,58,67,1610612742.0,Mejri,Mejri REBOUND (Off:0 Def:3),block,2pt made,9,Low
+21700024,438,2pt,3,PT01M33.00S,01:33,Q3 01:33,60,67,1610612742.0,Ferrell,Ferrell 17' Pullup Jump Shot (12 PTS),rebound,2pt made,7,Low
+21700024,439,2pt,3,PT01M12.00S,01:12,Q3 01:12,60,69,1610612758.0,Temple,Temple 19' Pullup Jump Shot (8 PTS) (Cauley-Stein 1 AST),2pt made,2pt missed,9,Low
+21700024,441,2pt,3,PT00M59.70S,00:59,Q3 00:59,60,69,1610612742.0,Nowitzki,MISS Nowitzki 19' Jump Shot,2pt made,rebound,9,Low
+21700024,442,rebound,3,PT00M56.30S,00:56,Q3 00:56,60,69,1610612758.0,Cauley-Stein,Cauley-Stein REBOUND (Off:4 Def:7),2pt missed,foul,9,Low
+21700024,443,foul,3,PT00M45.10S,00:45,Q3 00:45,60,69,1610612742.0,Ferrell,Ferrell Personal Block Foul (P2.T4) (M.Smith),rebound,2pt missed,9,Low
+21700024,445,2pt,3,PT00M42.10S,00:42,Q3 00:42,60,69,1610612758.0,Hill,MISS G. Hill 21' Jump Shot,foul,rebound,9,Low
+21700024,446,rebound,3,PT00M39.30S,00:39,Q3 00:39,60,69,1610612742.0,Ferrell,Ferrell REBOUND (Off:0 Def:4),2pt missed,2pt missed,9,Low
+21700024,447,2pt,3,PT00M31.20S,00:31,Q3 00:31,60,69,1610612742.0,Barea,MISS Barea 5' Driving Floating Bank Jump Shot,rebound,rebound,9,Low
+21700024,448,rebound,3,PT00M29.10S,00:29,Q3 00:29,60,69,1610612758.0,Hill,G. Hill REBOUND (Off:1 Def:3),2pt missed,substitution,9,Low
+21700024,453,substitution,3,PT00M10.90S,00:10,Q3 00:10,60,69,1610612742.0,Nowitzki,SUB out: D. Nowitzki,rebound,substitution,9,Low
+21700024,454,substitution,3,PT00M10.90S,00:10,Q3 00:10,60,69,1610612758.0,Randolph,SUB out: Z. Randolph,substitution,substitution,9,Low
+21700024,455,substitution,3,PT00M10.90S,00:10,Q3 00:10,60,69,1610612758.0,Fox,SUB out: D. Fox,substitution,substitution,9,Low
+21700024,456,substitution,3,PT00M10.90S,00:10,Q3 00:10,60,69,1610612742.0,Barnes,SUB in: H. Barnes,substitution,substitution,9,Low
+21700024,457,substitution,3,PT00M10.90S,00:10,Q3 00:10,60,69,1610612758.0,Carter,SUB in: V. Carter,substitution,substitution,9,Low
+21700024,458,substitution,3,PT00M10.90S,00:10,Q3 00:10,60,69,1610612758.0,Hield,SUB in: B. Hield,substitution,2pt made,9,Low
+21700024,456,2pt,3,PT00M08.20S,00:08,Q3 00:08,60,71,1610612758.0,Hield,Hield 23' Jump Shot (13 PTS) (Temple 2 AST),substitution,instant replay,11,Low
+21700024,457,turnover,3,PT00M01.60S,00:01,Q3 00:01,60,71,1610612742.0,Barnes,Barnes Lost Ball Turnover (P1.T11),instant replay,steal,11,Low
+21700024,457,steal,3,PT00M01.60S,00:01,Q3 00:01,60,71,1610612758.0,Temple,Temple STEAL (2 STL),turnover,3pt missed,11,Low
+21700024,459,3pt,3,PT00M01.00S,00:01,Q3 00:01,60,71,1610612758.0,Cauley-Stein,MISS Cauley-Stein 57' 3PT Running Jump Shot,steal,rebound,11,Low
+21700024,460,rebound,3,PT00M01.00S,00:01,Q3 00:01,60,71,1610612758.0,,TEAM offensive REBOUND,3pt missed,period,11,Low
+21700024,462,period,3,PT00M00.00S,00:00,Q3 00:00,60,71,1610612742.0,,End of 3rd Period (10:13 PM EST),rebound,period,11,Low
+21700024,471,period,4,PT12M00.00S,12:00,Q4 12:00,60,71,1610612742.0,,Start of 4th Period (10:14 PM EST),period,substitution,11,Low
+21700024,472,turnover,4,PT11M48.00S,11:48,Q4 11:48,60,71,1610612758.0,Koufos,Koufos Lost Ball Turnover (P2.T12),substitution,steal,11,Low
+21700024,472,steal,4,PT11M48.00S,11:48,Q4 11:48,60,71,1610612742.0,Barea,Barea STEAL (1 STL),turnover,foul,11,Low
+21700024,475,foul,4,PT11M36.00S,11:36,Q4 11:36,60,71,1610612758.0,Carter,Carter S.FOUL (P2.T1) (S.Twardoski),steal,freethrow,11,Low
+21700024,477,freethrow,4,PT11M36.00S,11:36,Q4 11:36,61,71,1610612742.0,Barnes,Barnes Free Throw 1 of 2 (9 PTS),foul,freethrow,10,Low
+21700024,478,freethrow,4,PT11M36.00S,11:36,Q4 11:36,62,71,1610612742.0,Barnes,Barnes Free Throw 2 of 2 (10 PTS),freethrow,2pt missed,9,Low
+21700024,479,2pt,4,PT11M28.00S,11:28,Q4 11:28,62,71,1610612758.0,Fox,MISS Fox 8' Jump Shot,freethrow,rebound,9,Low
+21700024,480,rebound,4,PT11M23.00S,11:23,Q4 11:23,62,71,1610612742.0,Clavell,Clavell REBOUND (Off:1 Def:1),2pt missed,2pt made,9,Low
+21700024,481,2pt,4,PT11M16.00S,11:16,Q4 11:16,64,71,1610612742.0,Barea,Barea 6' Driving Floating Bank Jump Shot (9 PTS),rebound,3pt missed,7,Medium
+21700024,482,3pt,4,PT11M11.00S,11:11,Q4 11:11,64,71,1610612758.0,Hield,MISS Hield 27' 3PT Jump Shot,2pt made,rebound,7,Medium
+21700024,483,rebound,4,PT11M08.00S,11:08,Q4 11:08,64,71,1610612742.0,,TEAM defensive REBOUND,3pt missed,2pt made,7,Medium
+21700024,484,2pt,4,PT10M58.00S,10:58,Q4 10:58,66,71,1610612742.0,Nowitzki,Nowitzki 17' Fadeaway Jumper (10 PTS) (Barea 8 AST),rebound,2pt missed,5,Medium
+21700024,486,2pt,4,PT10M36.00S,10:36,Q4 10:36,66,71,1610612758.0,Carter,MISS Carter 8' Fadeaway Jumper,2pt made,rebound,5,Medium
+21700024,487,rebound,4,PT10M31.00S,10:31,Q4 10:31,66,71,1610612758.0,Koufos,Koufos REBOUND (Off:3 Def:1),2pt missed,2pt missed,5,Medium
+21700024,488,2pt,4,PT10M31.00S,10:31,Q4 10:31,66,71,1610612758.0,Koufos,MISS Koufos 1' Tip Layup Shot,rebound,rebound,5,Medium
+21700024,489,rebound,4,PT10M31.00S,10:31,Q4 10:31,66,71,1610612742.0,Nowitzki,Nowitzki REBOUND (Off:0 Def:6),2pt missed,3pt made,5,Medium
+21700024,490,3pt,4,PT10M26.00S,10:26,Q4 10:26,69,71,1610612742.0,Finney-Smith,Finney-Smith 3PT Jump Shot (11 PTS) (Barea 9 AST),rebound,timeout,2,Medium
+21700024,492,timeout,4,PT10M25.00S,10:25,Q4 10:25,69,71,1610612758.0,,Kings Timeout: Regular (Reg.4 Short 0),3pt made,substitution,2,Medium
+21700024,494,substitution,4,PT10M25.00S,10:25,Q4 10:25,69,71,1610612758.0,Hield,SUB out: B. Hield,timeout,substitution,2,Medium
+21700024,495,substitution,4,PT10M25.00S,10:25,Q4 10:25,69,71,1610612758.0,Labissiere,SUB in: S. Labissiere,substitution,2pt missed,2,Medium
+21700024,495,2pt,4,PT10M10.00S,10:10,Q4 10:10,69,71,1610612758.0,Labissiere,MISS Labissiere 9' Hook Shot,substitution,rebound,2,Medium
+21700024,496,rebound,4,PT10M07.00S,10:07,Q4 10:07,69,71,1610612742.0,Barnes,Barnes REBOUND (Off:1 Def:2),2pt missed,3pt missed,2,Medium
+21700024,497,3pt,4,PT09M53.00S,09:53,Q4 09:53,69,71,1610612742.0,Clavell,MISS Clavell 27' 3PT Jump Shot,rebound,rebound,2,Medium
+21700024,498,rebound,4,PT09M49.00S,09:49,Q4 09:49,69,71,1610612758.0,Fox,Fox REBOUND (Off:1 Def:3),3pt missed,2pt missed,2,Medium
+21700024,499,2pt,4,PT09M44.00S,09:44,Q4 09:44,69,71,1610612758.0,Fox,MISS Fox 4' Driving Layup,rebound,rebound,2,Medium
+21700024,500,rebound,4,PT09M42.00S,09:42,Q4 09:42,69,71,1610612742.0,Nowitzki,Nowitzki REBOUND (Off:0 Def:7),2pt missed,3pt made,2,Medium
+21700024,501,3pt,4,PT09M38.00S,09:38,Q4 09:38,72,71,1610612742.0,Barnes,Barnes 26' 3PT Jump Shot (13 PTS) (Barea 10 AST),rebound,turnover,1,Medium
+21700024,503,turnover,4,PT09M15.00S,09:15,Q4 09:15,72,71,1610612758.0,Labissiere,Labissiere Traveling Turnover (P1.T13),3pt made,2pt missed,1,Medium
+21700024,504,2pt,4,PT08M56.00S,08:56,Q4 08:56,72,71,1610612742.0,Barea,MISS Barea 4' Driving Layup,turnover,rebound,1,Medium
+21700024,505,rebound,4,PT08M55.00S,08:55,Q4 08:55,72,71,1610612758.0,Labissiere,Labissiere REBOUND (Off:1 Def:2),2pt missed,2pt made,1,Medium
+21700024,506,2pt,4,PT08M46.00S,08:46,Q4 08:46,72,73,1610612758.0,Labissiere,Labissiere 19' Jump Shot (8 PTS) (Fox 8 AST),rebound,2pt missed,1,Medium
+21700024,508,2pt,4,PT08M24.00S,08:24,Q4 08:24,72,73,1610612742.0,Barnes,MISS Barnes 4' Jump Shot,2pt made,rebound,1,Medium
+21700024,509,rebound,4,PT08M22.00S,08:22,Q4 08:22,72,73,1610612758.0,Carter,Carter REBOUND (Off:0 Def:3),2pt missed,2pt missed,1,Medium
+21700024,510,2pt,4,PT08M09.00S,08:09,Q4 08:09,72,73,1610612758.0,Koufos,MISS Koufos 6' Jump Shot,rebound,rebound,1,Medium
+21700024,511,rebound,4,PT08M06.00S,08:06,Q4 08:06,72,73,1610612742.0,Barnes,Barnes REBOUND (Off:1 Def:3),2pt missed,foul,1,Medium
+21700024,512,foul,4,PT07M58.00S,07:58,Q4 07:58,72,73,1610612758.0,Koufos,Koufos P.FOUL (P3.T2) (S.Twardoski),rebound,3pt missed,1,Medium
+21700024,514,3pt,4,PT07M47.00S,07:47,Q4 07:47,72,73,1610612742.0,Barea,MISS Barea 26' 3PT Jump Shot,foul,rebound,1,Medium
+21700024,515,rebound,4,PT07M42.00S,07:42,Q4 07:42,72,73,1610612758.0,Labissiere,Labissiere REBOUND (Off:1 Def:3),3pt missed,2pt made,1,Medium
+21700024,516,2pt,4,PT07M35.00S,07:35,Q4 07:35,72,75,1610612758.0,Fox,Fox 13' Pullup Jump Shot (9 PTS),rebound,2pt missed,3,Medium
+21700024,518,2pt,4,PT07M10.00S,07:10,Q4 07:10,72,75,1610612742.0,Barea,MISS Barea 2' Driving Finger Roll Layup,2pt made,rebound,3,Medium
+21700024,519,rebound,4,PT07M08.00S,07:08,Q4 07:08,72,75,1610612758.0,Labissiere,Labissiere REBOUND (Off:1 Def:4),2pt missed,turnover,3,Medium
+21700024,520,turnover,4,PT06M59.00S,06:59,Q4 06:59,72,75,1610612758.0,Temple,Temple Traveling Turnover (P1.T14),rebound,foul,3,High
+21700024,521,foul,4,PT06M47.00S,06:47,Q4 06:47,72,75,1610612758.0,Fox,Fox P.FOUL (P3.T3) (M.Smith),turnover,substitution,3,High
+21700024,525,substitution,4,PT06M47.00S,06:47,Q4 06:47,72,75,1610612742.0,Clavell,SUB out: G. Clavell,foul,substitution,3,High
+21700024,526,substitution,4,PT06M47.00S,06:47,Q4 06:47,72,75,1610612742.0,Nowitzki,SUB out: D. Nowitzki,substitution,substitution,3,High
+21700024,527,substitution,4,PT06M47.00S,06:47,Q4 06:47,72,75,1610612742.0,Barea,SUB out: J. Barea,substitution,substitution,3,High
+21700024,528,substitution,4,PT06M47.00S,06:47,Q4 06:47,72,75,1610612742.0,Matthews,SUB in: W. Matthews,substitution,substitution,3,High
+21700024,529,substitution,4,PT06M47.00S,06:47,Q4 06:47,72,75,1610612742.0,Noel,SUB in: N. Noel,substitution,substitution,3,High
+21700024,530,substitution,4,PT06M47.00S,06:47,Q4 06:47,72,75,1610612742.0,Ferrell,SUB in: Y. Ferrell,substitution,2pt made,3,High
+21700024,529,2pt,4,PT06M34.00S,06:34,Q4 06:34,74,75,1610612742.0,Barnes,Barnes 3' Driving Finger Roll Layup (15 PTS),substitution,2pt missed,1,High
+21700024,530,2pt,4,PT06M20.00S,06:20,Q4 06:20,74,75,1610612758.0,Fox,MISS Fox 8' Jump Shot,2pt made,rebound,1,High
+21700024,531,rebound,4,PT06M17.00S,06:17,Q4 06:17,74,75,1610612742.0,Noel,Noel REBOUND (Off:1 Def:5),2pt missed,3pt missed,1,High
+21700024,532,3pt,4,PT06M12.00S,06:12,Q4 06:12,74,75,1610612742.0,Barnes,MISS Barnes 26' 3PT Pullup Jump Shot,rebound,rebound,1,High
+21700024,533,rebound,4,PT06M09.00S,06:09,Q4 06:09,74,75,1610612758.0,Koufos,Koufos REBOUND (Off:3 Def:2),3pt missed,3pt made,1,High
+21700024,534,3pt,4,PT05M55.00S,05:55,Q4 05:55,74,78,1610612758.0,Carter,Carter 24' 3PT Jump Shot (6 PTS) (Fox 9 AST),rebound,3pt made,4,High
+21700024,537,3pt,4,PT05M33.00S,05:33,Q4 05:33,77,78,1610612742.0,Finney-Smith,Finney-Smith 3PT Jump Shot (14 PTS) (Matthews 2 AST),3pt made,2pt made,1,High
+21700024,539,2pt,4,PT05M12.00S,05:12,Q4 05:12,77,80,1610612758.0,Koufos,Koufos 2' Alley Oop Layup (2 PTS) (Fox 10 AST),3pt made,turnover,3,High
+21700024,541,turnover,4,PT04M51.00S,04:51,Q4 04:51,77,80,1610612742.0,Matthews,Matthews Bad Pass Turnover (P4.T12),2pt made,steal,3,High
+21700024,541,steal,4,PT04M51.00S,04:51,Q4 04:51,77,80,1610612758.0,Koufos,Koufos STEAL (1 STL),turnover,turnover,3,High
+21700024,543,turnover,4,PT04M43.00S,04:43,Q4 04:43,77,80,1610612758.0,Fox,Fox Bad Pass Turnover (P2.T15),steal,steal,3,High
+21700024,543,steal,4,PT04M43.00S,04:43,Q4 04:43,77,80,1610612742.0,Noel,Noel STEAL (3 STL),turnover,timeout,3,High
+21700024,545,timeout,4,PT04M37.00S,04:37,Q4 04:37,77,80,1610612742.0,,MAVERICKS Timeout: Regular (Full 4 Short 0),steal,substitution,3,High
+21700024,548,substitution,4,PT04M37.00S,04:37,Q4 04:37,77,80,1610612758.0,Labissiere,SUB out: S. Labissiere,timeout,substitution,3,High
+21700024,549,substitution,4,PT04M37.00S,04:37,Q4 04:37,77,80,1610612758.0,Carter,SUB out: V. Carter,substitution,substitution,3,High
+21700024,550,substitution,4,PT04M37.00S,04:37,Q4 04:37,77,80,1610612758.0,Hill,SUB in: G. Hill,substitution,substitution,3,High
+21700024,551,substitution,4,PT04M37.00S,04:37,Q4 04:37,77,80,1610612758.0,Randolph,SUB in: Z. Randolph,substitution,2pt missed,3,High
+21700024,551,2pt,4,PT04M29.00S,04:29,Q4 04:29,77,80,1610612742.0,Barnes,MISS Barnes 18' Jump Shot,substitution,rebound,3,High
+21700024,552,rebound,4,PT04M27.00S,04:27,Q4 04:27,77,80,1610612758.0,Fox,Fox REBOUND (Off:1 Def:4),2pt missed,2pt made,3,High
+21700024,553,2pt,4,PT04M07.00S,04:07,Q4 04:07,77,82,1610612758.0,Hill,G. Hill 6' Floating Jump Shot (16 PTS),rebound,2pt missed,5,High
+21700024,554,2pt,4,PT03M46.00S,03:46,Q4 03:46,77,82,1610612742.0,Barnes,MISS Barnes 15' Jump Shot,2pt made,rebound,5,High
+21700024,555,rebound,4,PT03M43.00S,03:43,Q4 03:43,77,82,1610612758.0,Hill,G. Hill REBOUND (Off:1 Def:4),2pt missed,foul,5,High
+21700024,556,foul,4,PT03M23.00S,03:23,Q4 03:23,77,82,1610612742.0,Barnes,Barnes S.FOUL (P2.T1) (M.Smith),rebound,freethrow,5,High
+21700024,558,freethrow,4,PT03M23.00S,03:23,Q4 03:23,77,83,1610612758.0,Koufos,Koufos Free Throw 1 of 2 (3 PTS),foul,freethrow,6,High
+21700024,563,freethrow,4,PT03M23.00S,03:23,Q4 03:23,77,83,1610612758.0,Koufos,MISS Koufos Free Throw 2 of 2,freethrow,substitution,6,High
+21700024,561,substitution,4,PT03M23.00S,03:23,Q4 03:23,77,83,1610612742.0,Noel,SUB out: N. Noel,freethrow,substitution,6,High
+21700024,562,substitution,4,PT03M23.00S,03:23,Q4 03:23,77,83,1610612742.0,Finney-Smith,SUB out: D. Finney-Smith,substitution,substitution,6,High
+21700024,563,substitution,4,PT03M23.00S,03:23,Q4 03:23,77,83,1610612742.0,Nowitzki,SUB in: D. Nowitzki,substitution,substitution,6,High
+21700024,564,substitution,4,PT03M23.00S,03:23,Q4 03:23,77,83,1610612742.0,Barea,SUB in: J. Barea,substitution,rebound,6,High
+21700024,564,rebound,4,PT03M20.00S,03:20,Q4 03:20,77,83,1610612742.0,Nowitzki,Nowitzki REBOUND (Off:0 Def:8),substitution,3pt made,6,High
+21700024,565,3pt,4,PT02M59.00S,02:59,Q4 02:59,80,83,1610612742.0,Barnes,Barnes 3PT Jump Shot (18 PTS) (Nowitzki 2 AST),rebound,2pt made,3,High
+21700024,568,2pt,4,PT02M38.00S,02:38,Q4 02:38,80,85,1610612758.0,Randolph,Randolph 5' Turnaround Hook Shot (12 PTS),3pt made,2pt made,5,High
+21700024,569,2pt,4,PT02M15.00S,02:15,Q4 02:15,82,85,1610612742.0,Barnes,Barnes 2' Driving Reverse Layup (20 PTS),2pt made,foul,3,High
+21700024,570,foul,4,PT02M15.00S,02:15,Q4 02:15,82,85,1610612758.0,Randolph,Randolph S.FOUL (P1.T4) (B.Kennedy),2pt made,freethrow,3,High
+21700024,574,freethrow,4,PT02M15.00S,02:15,Q4 02:15,83,85,1610612742.0,Barnes,Barnes Free Throw 1 of 1 (21 PTS),foul,2pt missed,2,High
+21700024,605,2pt,4,PT02M15.00S,02:15,Q4 02:15,83,85,1610612758.0,Temple,MISS Temple 7' Driving Layup,freethrow,block,2,High
+21700024,605,block,4,PT02M15.00S,02:15,Q4 02:15,83,85,1610612742.0,Barea,Barea BLOCK (1 BLK),2pt missed,substitution,2,High
+21700024,573,substitution,4,PT02M15.00S,02:15,Q4 02:15,82,85,1610612758.0,Koufos,SUB out: K. Koufos,block,substitution,3,High
+21700024,574,substitution,4,PT02M15.00S,02:15,Q4 02:15,82,85,1610612758.0,Cauley-Stein,SUB in: W. Cauley-Stein,substitution,rebound,3,High
+21700024,607,rebound,4,PT02M00.00S,02:00,Q4 02:00,83,85,1610612758.0,,TEAM offensive REBOUND,substitution,instant replay,2,Very High
+21700024,578,3pt,4,PT01M39.00S,01:39,Q4 01:39,83,85,1610612742.0,Barea,MISS Barea 25' 3PT Jump Shot,instant replay,rebound,2,Very High
+21700024,579,rebound,4,PT01M33.00S,01:33,Q4 01:33,83,85,1610612758.0,Temple,Temple REBOUND (Off:1 Def:4),3pt missed,foul,2,Very High
+21700024,581,foul,4,PT01M25.00S,01:25,Q4 01:25,83,85,1610612742.0,Barnes,Barnes S.FOUL (P3.T2) (M.Smith),rebound,freethrow,2,Very High
+21700024,584,freethrow,4,PT01M25.00S,01:25,Q4 01:25,83,85,1610612758.0,Hill,MISS G. Hill Free Throw 1 of 1,foul,3pt made,2,Very High
+21700024,580,3pt,4,PT01M24.00S,01:24,Q4 01:24,83,88,1610612758.0,Hill,G. Hill 28' 3PT Jump Shot (19 PTS),freethrow,rebound,5,Very High
+21700024,585,rebound,4,PT01M23.00S,01:23,Q4 01:23,83,88,1610612742.0,Nowitzki,Nowitzki REBOUND (Off:0 Def:9),3pt made,foul,5,Very High
+21700024,586,foul,4,PT01M17.00S,01:17,Q4 01:17,83,88,1610612758.0,Cauley-Stein,Cauley-Stein S.FOUL (P4.PN) (M.Smith),rebound,freethrow,5,Very High
+21700024,588,freethrow,4,PT01M17.00S,01:17,Q4 01:17,84,88,1610612742.0,Ferrell,Ferrell Free Throw 1 of 2 (13 PTS),foul,freethrow,4,Very High
+21700024,589,freethrow,4,PT01M17.00S,01:17,Q4 01:17,85,88,1610612742.0,Ferrell,Ferrell Free Throw 2 of 2 (14 PTS),freethrow,foul,3,Very High
+21700024,590,foul,4,PT00M58.70S,00:58,Q4 00:58,85,88,1610612742.0,Ferrell,Ferrell S.FOUL (P3.PN) (B.Kennedy),freethrow,freethrow,3,Very High
+21700024,592,freethrow,4,PT00M58.70S,00:58,Q4 00:58,85,88,1610612758.0,Randolph,MISS Randolph Free Throw 1 of 2,foul,rebound,3,Very High
+21700024,593,rebound,4,PT00M58.70S,00:58,Q4 00:58,85,88,1610612758.0,,TEAM offensive REBOUND,freethrow,freethrow,3,Very High
+21700024,594,freethrow,4,PT00M58.70S,00:58,Q4 00:58,85,89,1610612758.0,Randolph,Randolph Free Throw 2 of 2 (13 PTS),rebound,foul,4,Very High
+21700024,595,foul,4,PT00M49.80S,00:49,Q4 00:49,85,89,1610612758.0,Cauley-Stein,Cauley-Stein S.FOUL (P5.PN) (M.Smith),freethrow,freethrow,4,Very High
+21700024,597,freethrow,4,PT00M49.80S,00:49,Q4 00:49,86,89,1610612742.0,Barnes,Barnes Free Throw 1 of 2 (22 PTS),foul,freethrow,3,Very High
+21700024,602,freethrow,4,PT00M49.80S,00:49,Q4 00:49,86,89,1610612742.0,Barnes,MISS Barnes Free Throw 2 of 2,freethrow,substitution,3,Very High
+21700024,599,substitution,4,PT00M49.80S,00:49,Q4 00:49,86,89,1610612742.0,Nowitzki,SUB out: D. Nowitzki,freethrow,substitution,3,Very High
+21700024,600,substitution,4,PT00M49.80S,00:49,Q4 00:49,86,89,1610612742.0,Barea,SUB out: J. Barea,substitution,substitution,3,Very High
+21700024,601,substitution,4,PT00M49.80S,00:49,Q4 00:49,86,89,1610612742.0,Noel,SUB in: N. Noel,substitution,substitution,3,Very High
+21700024,602,substitution,4,PT00M49.80S,00:49,Q4 00:49,86,89,1610612742.0,Finney-Smith,SUB in: D. Finney-Smith,substitution,rebound,3,Very High
+21700024,603,rebound,4,PT00M48.80S,00:48,Q4 00:48,86,89,1610612758.0,Temple,Temple REBOUND (Off:1 Def:5),substitution,timeout,3,Very High
+21700024,604,timeout,4,PT00M48.80S,00:48,Q4 00:48,86,89,1610612758.0,,Kings Timeout: Regular (Reg.5 Short 0),rebound,substitution,3,Very High
+21700024,609,substitution,4,PT00M48.80S,00:48,Q4 00:48,86,89,1610612758.0,Fox,SUB out: D. Fox,timeout,substitution,3,Very High
+21700024,610,substitution,4,PT00M48.80S,00:48,Q4 00:48,86,89,1610612758.0,Hield,SUB in: B. Hield,substitution,2pt missed,3,Very High
+21700024,610,2pt,4,PT00M34.90S,00:34,Q4 00:34,86,89,1610612758.0,Randolph,MISS Randolph 16' Fadeaway Jumper,substitution,rebound,3,Very High
+21700024,611,rebound,4,PT00M30.70S,00:30,Q4 00:30,86,89,1610612758.0,Hield,Hield REBOUND (Off:1 Def:5),2pt missed,2pt made,3,Very High
+21700024,612,2pt,4,PT00M17.00S,00:17,Q4 00:17,86,91,1610612758.0,Hill,G. Hill 17' Pullup Jump Shot (21 PTS),rebound,timeout,5,Very High
+21700024,613,timeout,4,PT00M16.40S,00:16,Q4 00:16,86,91,1610612742.0,,MAVERICKS Timeout: Regular (Full 5 Short 0),2pt made,substitution,5,Very High
+21700024,617,substitution,4,PT00M16.40S,00:16,Q4 00:16,86,91,1610612742.0,Noel,SUB out: N. Noel,timeout,substitution,5,Very High
+21700024,618,substitution,4,PT00M16.40S,00:16,Q4 00:16,86,91,1610612742.0,Finney-Smith,SUB out: D. Finney-Smith,substitution,substitution,5,Very High
+21700024,619,substitution,4,PT00M16.40S,00:16,Q4 00:16,86,91,1610612758.0,Randolph,SUB out: Z. Randolph,substitution,substitution,5,Very High
+21700024,620,substitution,4,PT00M16.40S,00:16,Q4 00:16,86,91,1610612742.0,Nowitzki,SUB in: D. Nowitzki,substitution,substitution,5,Very High
+21700024,621,substitution,4,PT00M16.40S,00:16,Q4 00:16,86,91,1610612742.0,Barea,SUB in: J. Barea,substitution,substitution,5,Very High
+21700024,622,substitution,4,PT00M16.40S,00:16,Q4 00:16,86,91,1610612758.0,Fox,SUB in: D. Fox,substitution,2pt made,5,Very High
+21700024,620,2pt,4,PT00M12.50S,00:12,Q4 00:12,88,91,1610612742.0,Barnes,Barnes 2' Driving Floating Bank Jump Shot (24 PTS),substitution,2pt made,3,Very High
+21700024,621,2pt,4,PT00M06.50S,00:06,Q4 00:06,88,93,1610612758.0,Cauley-Stein,Cauley-Stein 2' Layup (10 PTS) (Temple 3 AST),2pt made,timeout,5,Very High
+21700024,623,timeout,4,PT00M06.50S,00:06,Q4 00:06,88,93,1610612742.0,,MAVERICKS Timeout: Regular (Full 6 Short 0),2pt made,substitution,5,Very High
+21700024,625,substitution,4,PT00M06.50S,00:06,Q4 00:06,88,93,1610612742.0,Barea,SUB out: J. Barea,timeout,substitution,5,Very High
+21700024,626,substitution,4,PT00M06.50S,00:06,Q4 00:06,88,93,1610612742.0,Powell,SUB in: D. Powell,substitution,3pt missed,5,Very High
+21700024,626,3pt,4,PT00M03.00S,00:03,Q4 00:03,88,93,1610612742.0,Matthews,MISS Matthews 3PT Jump Shot,substitution,rebound,5,Very High
+21700024,627,rebound,4,PT00M03.00S,00:03,Q4 00:03,88,93,1610612758.0,Fox,Fox REBOUND (Off:1 Def:5),3pt missed,period,5,Very High
+21700024,628,period,4,PT00M00.00S,00:00,Q4 00:00,88,93,1610612742.0,,End of 4th Period (10:48 PM EST),rebound,,5,Very High

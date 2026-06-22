@@ -1,0 +1,586 @@
+game_id,actionNumber,actionType,period,clock,clock_display,game_clock,scoreHome,scoreAway,teamId,playerName,description,previous_action,next_action,score_margin,leverage_bucket
+21900011,2,period,1,PT12M00.00S,12:00,Q1 12:00,0,0,1610612762.0,,Start of 1st Period (9:13 PM EST),,turnover,0,Low
+21900011,7,turnover,1,PT11M39.00S,11:39,Q1 11:39,0,0,1610612760.0,Gallinari,Gallinari Traveling Turnover (P1.T1),period,2pt missed,0,Low
+21900011,8,2pt,1,PT11M29.00S,11:29,Q1 11:29,0,0,1610612762.0,Gobert,MISS Gobert 2' Cutting Layup Shot,turnover,rebound,0,Low
+21900011,9,rebound,1,PT11M28.00S,11:28,Q1 11:28,0,0,1610612760.0,Adams,Adams REBOUND (Off:0 Def:1),2pt missed,2pt missed,0,Low
+21900011,10,2pt,1,PT11M23.00S,11:23,Q1 11:23,0,0,1610612760.0,Adams,MISS Adams 2' Layup,rebound,rebound,0,Low
+21900011,11,rebound,1,PT11M19.00S,11:19,Q1 11:19,0,0,1610612762.0,Gobert,Gobert REBOUND (Off:0 Def:1),2pt missed,2pt made,0,Low
+21900011,12,2pt,1,PT11M17.00S,11:17,Q1 11:17,2,0,1610612762.0,O'Neale,O'Neale 2' Driving Layup (2 PTS) (Conley 1 AST),rebound,turnover,2,Low
+21900011,14,turnover,1,PT10M51.00S,10:51,Q1 10:51,2,0,0.0,,Thunder Turnover: Shot Clock (T#2),2pt made,3pt missed,2,Low
+21900011,15,3pt,1,PT10M41.00S,10:41,Q1 10:41,2,0,1610612762.0,Conley,MISS Conley 3PT Jump Shot,turnover,rebound,2,Low
+21900011,16,rebound,1,PT10M36.00S,10:36,Q1 10:36,2,0,1610612762.0,Gobert,Gobert REBOUND (Off:1 Def:1),3pt missed,2pt made,2,Low
+21900011,17,2pt,1,PT10M36.00S,10:36,Q1 10:36,4,0,1610612762.0,Gobert,Gobert 1' Tip Dunk Shot (2 PTS),rebound,foul,4,Low
+21900011,18,foul,1,PT10M16.00S,10:16,Q1 10:16,4,0,1610612762.0,O'Neale,O'Neale S.FOUL (P1.T1) (K.Fitzgerald),2pt made,freethrow,4,Low
+21900011,20,freethrow,1,PT10M16.00S,10:16,Q1 10:16,4,0,1610612760.0,Gilgeous-Alexander,MISS Gilgeous-Alexander Free Throw 1 of 2,foul,rebound,4,Low
+21900011,21,rebound,1,PT10M16.00S,10:16,Q1 10:16,4,0,1610612760.0,,TEAM offensive REBOUND,freethrow,freethrow,4,Low
+21900011,22,freethrow,1,PT10M16.00S,10:16,Q1 10:16,4,1,1610612760.0,Gilgeous-Alexander,Gilgeous-Alexander Free Throw 2 of 2 (1 PTS),rebound,turnover,3,Low
+21900011,23,turnover,1,PT10M07.00S,10:07,Q1 10:07,4,1,1610612762.0,Conley,Conley Bad Pass Turnover (P1.T1),freethrow,steal,3,Low
+21900011,23,steal,1,PT10M07.00S,10:07,Q1 10:07,4,1,1610612760.0,Gallinari,Gallinari STEAL (1 STL),turnover,2pt missed,3,Low
+21900011,25,2pt,1,PT10M01.00S,10:01,Q1 10:01,4,1,1610612760.0,Gallinari,MISS Gallinari 5' Jump Shot,steal,rebound,3,Low
+21900011,26,rebound,1,PT09M58.00S,09:58,Q1 09:58,4,1,1610612762.0,Bogdanovic,Bogdanovic REBOUND (Off:0 Def:1),2pt missed,3pt missed,3,Low
+21900011,27,3pt,1,PT09M51.00S,09:51,Q1 09:51,4,1,1610612762.0,Conley,MISS Conley 25' 3PT Jump Shot,rebound,rebound,3,Low
+21900011,28,rebound,1,PT09M48.00S,09:48,Q1 09:48,4,1,1610612760.0,Gallinari,Gallinari REBOUND (Off:0 Def:1),3pt missed,2pt missed,3,Low
+21900011,29,2pt,1,PT09M38.00S,09:38,Q1 09:38,4,1,1610612760.0,Paul,MISS Paul 13' Pullup Jump Shot,rebound,rebound,3,Low
+21900011,30,rebound,1,PT09M34.00S,09:34,Q1 09:34,4,1,1610612762.0,Mitchell,Mitchell REBOUND (Off:0 Def:1),2pt missed,turnover,3,Low
+21900011,31,turnover,1,PT09M24.00S,09:24,Q1 09:24,4,1,1610612762.0,O'Neale,O'Neale Lost Ball Turnover (P1.T2),rebound,steal,3,Low
+21900011,31,steal,1,PT09M24.00S,09:24,Q1 09:24,4,1,1610612760.0,Paul,Paul STEAL (1 STL),turnover,foul,3,Low
+21900011,33,foul,1,PT09M22.00S,09:22,Q1 09:22,4,1,1610612762.0,Conley,Conley Personal Take Foul (P1.T2) (D.Taylor),steal,2pt missed,3,Low
+21900011,35,2pt,1,PT09M07.00S,09:07,Q1 09:07,4,1,1610612760.0,Adams,MISS Adams 7' Hook Shot,foul,rebound,3,Low
+21900011,36,rebound,1,PT09M06.00S,09:06,Q1 09:06,4,1,1610612762.0,O'Neale,O'Neale REBOUND (Off:0 Def:1),2pt missed,2pt missed,3,Low
+21900011,37,2pt,1,PT09M00.00S,09:00,Q1 09:00,4,1,1610612762.0,Conley,MISS Conley 16' Pullup Jump Shot,rebound,rebound,3,Low
+21900011,38,rebound,1,PT08M56.00S,08:56,Q1 08:56,4,1,1610612760.0,Paul,Paul REBOUND (Off:0 Def:1),2pt missed,2pt made,3,Low
+21900011,39,2pt,1,PT08M46.00S,08:46,Q1 08:46,4,3,1610612760.0,Paul,Paul 8' Step Back Jump Shot (2 PTS),rebound,2pt made,1,Low
+21900011,40,2pt,1,PT08M29.00S,08:29,Q1 08:29,6,3,1610612762.0,Bogdanovic,Bogdanovic 1' Driving Layup (2 PTS),2pt made,foul,3,Low
+21900011,41,foul,1,PT08M16.00S,08:16,Q1 08:16,6,3,1610612760.0,Adams,Adams OFF.Foul (P1) (K.Fitzgerald),2pt made,turnover,3,Low
+21900011,43,turnover,1,PT08M16.00S,08:16,Q1 08:16,6,3,1610612760.0,Adams,Adams Offensive Foul Turnover (P1.T3),foul,2pt made,3,Low
+21900011,44,2pt,1,PT08M06.00S,08:06,Q1 08:06,8,3,1610612762.0,Bogdanovic,Bogdanovic 2' Driving Layup (4 PTS) (Conley 2 AST),turnover,foul,5,Low
+21900011,46,foul,1,PT08M06.00S,08:06,Q1 08:06,8,3,1610612760.0,Gilgeous-Alexander,Gilgeous-Alexander S.FOUL (P1.T1) (K.Fitzgerald),2pt made,freethrow,5,Low
+21900011,48,freethrow,1,PT08M06.00S,08:06,Q1 08:06,9,3,1610612762.0,Bogdanovic,Bogdanovic Free Throw 1 of 1 (5 PTS),foul,2pt made,6,Low
+21900011,49,2pt,1,PT07M49.00S,07:49,Q1 07:49,9,5,1610612760.0,Gallinari,Gallinari 8' Jump Shot (2 PTS),freethrow,foul,4,Low
+21900011,50,foul,1,PT07M40.00S,07:40,Q1 07:40,9,5,1610612760.0,Gallinari,Gallinari S.FOUL (P1.T2) (D.Taylor),2pt made,freethrow,4,Low
+21900011,52,freethrow,1,PT07M40.00S,07:40,Q1 07:40,10,5,1610612762.0,Mitchell,Mitchell Free Throw 1 of 2 (1 PTS),foul,freethrow,5,Low
+21900011,53,freethrow,1,PT07M40.00S,07:40,Q1 07:40,10,5,1610612762.0,Mitchell,MISS Mitchell Free Throw 2 of 2,freethrow,rebound,5,Low
+21900011,54,rebound,1,PT07M38.00S,07:38,Q1 07:38,10,5,1610612760.0,Gallinari,Gallinari REBOUND (Off:0 Def:2),freethrow,3pt missed,5,Low
+21900011,55,3pt,1,PT07M30.00S,07:30,Q1 07:30,10,5,1610612760.0,Gallinari,MISS Gallinari 25' 3PT Jump Shot,rebound,rebound,5,Low
+21900011,56,rebound,1,PT07M27.00S,07:27,Q1 07:27,10,5,1610612762.0,,TEAM defensive REBOUND,3pt missed,foul,5,Low
+21900011,58,foul,1,PT07M20.00S,07:20,Q1 07:20,10,5,1610612760.0,Paul,Paul P.FOUL (P1.T3) (K.Fitzgerald),rebound,substitution,5,Low
+21900011,60,substitution,1,PT07M20.00S,07:20,Q1 07:20,10,5,1610612762.0,O'Neale,SUB out: R. O'Neale,foul,substitution,5,Low
+21900011,61,substitution,1,PT07M20.00S,07:20,Q1 07:20,10,5,1610612762.0,Ingles,SUB in: J. Ingles,substitution,2pt made,5,Low
+21900011,62,2pt,1,PT07M11.00S,07:11,Q1 07:11,12,5,1610612762.0,Bogdanovic,Bogdanovic 2' Driving Layup (7 PTS),substitution,foul,7,Low
+21900011,63,foul,1,PT07M01.00S,07:01,Q1 07:01,12,5,1610612762.0,Ingles,Ingles P.FOUL (P1.T3) (T.Maddox),2pt made,2pt missed,7,Low
+21900011,65,2pt,1,PT06M53.00S,06:53,Q1 06:53,12,5,1610612760.0,Adams,MISS Adams 4' Driving Layup,foul,rebound,7,Low
+21900011,66,rebound,1,PT06M49.00S,06:49,Q1 06:49,12,5,1610612760.0,Adams,Adams REBOUND (Off:2 Def:1),2pt missed,2pt missed,7,Low
+21900011,67,2pt,1,PT06M49.00S,06:49,Q1 06:49,12,5,1610612760.0,Adams,MISS Adams 1' Tip Layup Shot,rebound,rebound,7,Low
+21900011,68,rebound,1,PT06M48.00S,06:48,Q1 06:48,12,5,1610612760.0,Adams,Adams REBOUND (Off:2 Def:1),2pt missed,2pt missed,7,Low
+21900011,69,2pt,1,PT06M43.00S,06:43,Q1 06:43,12,5,1610612760.0,Adams,MISS Adams 7' Hook Shot,rebound,rebound,7,Low
+21900011,70,rebound,1,PT06M42.00S,06:42,Q1 06:42,12,5,1610612762.0,Gobert,Gobert REBOUND (Off:1 Def:2),2pt missed,2pt missed,7,Low
+21900011,71,2pt,1,PT06M31.00S,06:31,Q1 06:31,12,5,1610612762.0,Gobert,MISS Gobert 8' Cutting Layup Shot,rebound,rebound,7,Low
+21900011,72,rebound,1,PT06M29.00S,06:29,Q1 06:29,12,5,1610612760.0,Adams,Adams REBOUND (Off:2 Def:2),2pt missed,foul,7,Low
+21900011,73,foul,1,PT06M17.00S,06:17,Q1 06:17,12,5,1610612762.0,Mitchell,Mitchell S.FOUL (P1.T4) (K.Fitzgerald),rebound,timeout,7,Low
+21900011,75,timeout,1,PT06M17.00S,06:17,Q1 06:17,12,5,1610612762.0,,JAZZ Timeout: Regular (Full 1 Short 0),foul,freethrow,7,Low
+21900011,80,freethrow,1,PT06M17.00S,06:17,Q1 06:17,12,5,1610612760.0,Gilgeous-Alexander,MISS Gilgeous-Alexander Free Throw 1 of 2,timeout,rebound,7,Low
+21900011,81,rebound,1,PT06M17.00S,06:17,Q1 06:17,12,5,1610612760.0,,TEAM offensive REBOUND,freethrow,freethrow,7,Low
+21900011,82,freethrow,1,PT06M17.00S,06:17,Q1 06:17,12,6,1610612760.0,Gilgeous-Alexander,Gilgeous-Alexander Free Throw 2 of 2 (2 PTS),rebound,substitution,6,Low
+21900011,76,substitution,1,PT06M17.00S,06:17,Q1 06:17,12,5,1610612762.0,Conley,SUB out: M. Conley,freethrow,substitution,7,Low
+21900011,77,substitution,1,PT06M17.00S,06:17,Q1 06:17,12,5,1610612760.0,Paul,SUB out: C. Paul,substitution,substitution,7,Low
+21900011,78,substitution,1,PT06M17.00S,06:17,Q1 06:17,12,5,1610612762.0,Mudiay,SUB in: E. Mudiay,substitution,substitution,7,Low
+21900011,79,substitution,1,PT06M17.00S,06:17,Q1 06:17,12,5,1610612760.0,Schroder,SUB in: D. Schroder,substitution,foul,7,Low
+21900011,83,foul,1,PT06M05.00S,06:05,Q1 06:05,12,6,1610612760.0,Schroder,Schroder P.FOUL (P1.T4) (D.Taylor),substitution,3pt missed,6,Low
+21900011,85,3pt,1,PT05M58.00S,05:58,Q1 05:58,12,6,1610612762.0,Ingles,MISS Ingles 25' 3PT Jump Shot,foul,rebound,6,Low
+21900011,86,rebound,1,PT05M55.00S,05:55,Q1 05:55,12,6,1610612760.0,Schroder,Schroder REBOUND (Off:0 Def:1),3pt missed,2pt missed,6,Low
+21900011,87,2pt,1,PT05M49.00S,05:49,Q1 05:49,12,6,1610612760.0,Schroder,MISS Schroder 15' Pullup Jump Shot,rebound,rebound,6,Low
+21900011,88,rebound,1,PT05M46.00S,05:46,Q1 05:46,12,6,1610612760.0,Adams,Adams REBOUND (Off:3 Def:2),2pt missed,timeout,6,Low
+21900011,89,timeout,1,PT05M45.00S,05:45,Q1 05:45,12,6,1610612760.0,,Thunder Timeout: Regular (Reg.1 Short 0),rebound,2pt made,6,Low
+21900011,90,2pt,1,PT05M40.00S,05:40,Q1 05:40,12,8,1610612760.0,Gilgeous-Alexander,Gilgeous-Alexander 4' Driving Layup (4 PTS) (Adams 1 AST),timeout,2pt made,4,Low
+21900011,93,2pt,1,PT05M20.00S,05:20,Q1 05:20,14,8,1610612762.0,Gobert,Gobert 2' Cutting Layup Shot (4 PTS) (Mitchell 1 AST),2pt made,foul,6,Low
+21900011,95,foul,1,PT05M20.00S,05:20,Q1 05:20,14,8,1610612760.0,Adams,Adams S.FOUL (P2.PN) (K.Fitzgerald),2pt made,freethrow,6,Low
+21900011,97,freethrow,1,PT05M20.00S,05:20,Q1 05:20,14,8,1610612762.0,Gobert,MISS Gobert Free Throw 1 of 1,foul,rebound,6,Low
+21900011,98,rebound,1,PT05M16.00S,05:16,Q1 05:16,14,8,1610612760.0,Gilgeous-Alexander,Gilgeous-Alexander REBOUND (Off:0 Def:1),freethrow,foul,6,Low
+21900011,99,foul,1,PT04M58.00S,04:58,Q1 04:58,14,8,1610612760.0,Ferguson,Ferguson Offensive Charge Foul (P1.PN) (T.Maddox),rebound,turnover,6,Low
+21900011,101,turnover,1,PT04M58.00S,04:58,Q1 04:58,14,8,1610612760.0,Ferguson,Ferguson Offensive Foul Turnover (P1.T4),foul,substitution,6,Low
+21900011,102,substitution,1,PT04M58.00S,04:58,Q1 04:58,14,8,1610612760.0,Gallinari,SUB out: D. Gallinari,turnover,substitution,6,Low
+21900011,103,substitution,1,PT04M58.00S,04:58,Q1 04:58,14,8,1610612760.0,Adams,SUB out: S. Adams,substitution,substitution,6,Low
+21900011,104,substitution,1,PT04M58.00S,04:58,Q1 04:58,14,8,1610612760.0,Noel,SUB in: N. Noel,substitution,substitution,6,Low
+21900011,105,substitution,1,PT04M58.00S,04:58,Q1 04:58,14,8,1610612760.0,Bazley,SUB in: D. Bazley,substitution,2pt missed,6,Low
+21900011,106,2pt,1,PT04M41.00S,04:41,Q1 04:41,14,8,1610612762.0,Bogdanovic,MISS Bogdanovic 15' Pullup Jump Shot,substitution,rebound,6,Low
+21900011,107,rebound,1,PT04M38.00S,04:38,Q1 04:38,14,8,1610612760.0,Bazley,Bazley REBOUND (Off:0 Def:1),2pt missed,2pt missed,6,Low
+21900011,108,2pt,1,PT04M33.00S,04:33,Q1 04:33,14,8,1610612760.0,Gilgeous-Alexander,MISS Gilgeous-Alexander 17' Pullup Jump Shot,rebound,rebound,6,Low
+21900011,109,rebound,1,PT04M30.00S,04:30,Q1 04:30,14,8,1610612762.0,Gobert,Gobert REBOUND (Off:1 Def:3),2pt missed,2pt missed,6,Low
+21900011,110,2pt,1,PT04M23.00S,04:23,Q1 04:23,14,8,1610612762.0,Mudiay,MISS Mudiay 4' Driving Layup,rebound,block,6,Low
+21900011,110,block,1,PT04M23.00S,04:23,Q1 04:23,14,8,1610612760.0,Bazley,Bazley BLOCK (1 BLK),2pt missed,rebound,6,Low
+21900011,111,rebound,1,PT04M18.00S,04:18,Q1 04:18,14,8,1610612760.0,Noel,Noel REBOUND (Off:0 Def:1),block,turnover,6,Low
+21900011,112,turnover,1,PT04M17.00S,04:17,Q1 04:17,14,8,1610612760.0,Bazley,Bazley Traveling Turnover (P1.T5),rebound,3pt missed,6,Low
+21900011,113,3pt,1,PT04M01.00S,04:01,Q1 04:01,14,8,1610612762.0,Ingles,MISS Ingles 25' 3PT Jump Shot,turnover,rebound,6,Low
+21900011,114,rebound,1,PT03M59.00S,03:59,Q1 03:59,14,8,1610612762.0,Gobert,Gobert REBOUND (Off:2 Def:3),3pt missed,foul,6,Low
+21900011,115,foul,1,PT03M54.00S,03:54,Q1 03:54,14,8,1610612762.0,Gobert,Gobert OFF.Foul (P1) (T.Maddox),rebound,turnover,6,Low
+21900011,117,turnover,1,PT03M54.00S,03:54,Q1 03:54,14,8,1610612762.0,Gobert,Gobert Offensive Foul Turnover (P1.T3),foul,substitution,6,Low
+21900011,118,substitution,1,PT03M54.00S,03:54,Q1 03:54,14,8,1610612762.0,Bogdanovic,SUB out: B. Bogdanovic,turnover,substitution,6,Low
+21900011,119,substitution,1,PT03M54.00S,03:54,Q1 03:54,14,8,1610612762.0,Green,SUB in: J. Green,substitution,2pt missed,6,Low
+21900011,120,2pt,1,PT03M39.00S,03:39,Q1 03:39,14,8,1610612760.0,Gilgeous-Alexander,MISS Gilgeous-Alexander 8' Driving Floating Bank Jump Shot,substitution,rebound,6,Low
+21900011,121,rebound,1,PT03M37.00S,03:37,Q1 03:37,14,8,1610612762.0,Gobert,Gobert REBOUND (Off:2 Def:4),2pt missed,2pt made,6,Low
+21900011,123,2pt,1,PT03M18.00S,03:18,Q1 03:18,16,8,1610612762.0,Ingles,Ingles 14' Jump Shot (2 PTS),rebound,2pt missed,8,Low
+21900011,125,2pt,1,PT02M59.00S,02:59,Q1 02:59,16,8,1610612760.0,Gilgeous-Alexander,MISS Gilgeous-Alexander 9' Driving Layup,2pt made,rebound,8,Low
+21900011,126,rebound,1,PT02M57.00S,02:57,Q1 02:57,16,8,1610612762.0,Gobert,Gobert REBOUND (Off:2 Def:5),2pt missed,3pt made,8,Low
+21900011,127,3pt,1,PT02M51.00S,02:51,Q1 02:51,19,8,1610612762.0,Green,Green 3PT Step Back Jump Shot (3 PTS) (Mudiay 1 AST),rebound,2pt made,11,Low
+21900011,129,2pt,1,PT02M37.00S,02:37,Q1 02:37,19,10,1610612760.0,Noel,Noel 15' Step Back Jump Shot (2 PTS) (Schroder 1 AST),3pt made,2pt made,9,Low
+21900011,131,2pt,1,PT02M21.00S,02:21,Q1 02:21,21,10,1610612762.0,Ingles,Ingles 3' Driving Layup (4 PTS),2pt made,2pt missed,11,Low
+21900011,132,2pt,1,PT02M10.00S,02:10,Q1 02:10,21,10,1610612760.0,Schroder,MISS Schroder 16' Pullup Jump Shot,2pt made,rebound,11,Low
+21900011,133,rebound,1,PT02M06.00S,02:06,Q1 02:06,21,10,1610612762.0,Mudiay,Mudiay REBOUND (Off:0 Def:1),2pt missed,2pt made,11,Low
+21900011,134,2pt,1,PT02M02.00S,02:02,Q1 02:02,23,10,1610612762.0,Mudiay,Mudiay 3' Running Layup (2 PTS),rebound,2pt missed,13,Low
+21900011,135,2pt,1,PT01M39.00S,01:39,Q1 01:39,23,10,1610612760.0,Bazley,MISS Bazley 4' Driving Layup,2pt made,block,13,Low
+21900011,135,block,1,PT01M39.00S,01:39,Q1 01:39,23,10,1610612762.0,Gobert,Gobert BLOCK (1 BLK),2pt missed,rebound,13,Low
+21900011,137,rebound,1,PT01M36.00S,01:36,Q1 01:36,23,10,1610612762.0,Mitchell,Mitchell REBOUND (Off:0 Def:2),block,3pt missed,13,Low
+21900011,138,3pt,1,PT01M28.00S,01:28,Q1 01:28,23,10,1610612762.0,Green,MISS Green 24' 3PT Jump Shot,rebound,rebound,13,Low
+21900011,139,rebound,1,PT01M26.00S,01:26,Q1 01:26,23,10,1610612760.0,Schroder,Schroder REBOUND (Off:0 Def:2),3pt missed,2pt missed,13,Low
+21900011,141,2pt,1,PT01M21.00S,01:21,Q1 01:21,23,10,1610612760.0,Gilgeous-Alexander,MISS Gilgeous-Alexander 9' Jump Shot,rebound,block,13,Low
+21900011,141,block,1,PT01M21.00S,01:21,Q1 01:21,23,10,1610612762.0,Green,Green BLOCK (1 BLK),2pt missed,rebound,13,Low
+21900011,143,rebound,1,PT01M21.00S,01:21,Q1 01:21,23,10,1610612760.0,,TEAM offensive REBOUND,block,substitution,13,Low
+21900011,145,substitution,1,PT01M21.00S,01:21,Q1 01:21,23,10,1610612762.0,Mudiay,SUB out: E. Mudiay,rebound,substitution,13,Low
+21900011,146,substitution,1,PT01M21.00S,01:21,Q1 01:21,23,10,1610612762.0,Gobert,SUB out: R. Gobert,substitution,substitution,13,Low
+21900011,147,substitution,1,PT01M21.00S,01:21,Q1 01:21,23,10,1610612762.0,Mitchell,SUB out: D. Mitchell,substitution,substitution,13,Low
+21900011,148,substitution,1,PT01M21.00S,01:21,Q1 01:21,23,10,1610612760.0,Gilgeous-Alexander,SUB out: S. Gilgeous-Alexander,substitution,substitution,13,Low
+21900011,149,substitution,1,PT01M21.00S,01:21,Q1 01:21,23,10,1610612760.0,Ferguson,SUB out: T. Ferguson,substitution,substitution,13,Low
+21900011,150,substitution,1,PT01M21.00S,01:21,Q1 01:21,23,10,1610612762.0,Davis,SUB in: E. Davis,substitution,substitution,13,Low
+21900011,151,substitution,1,PT01M21.00S,01:21,Q1 01:21,23,10,1610612762.0,O'Neale,SUB in: R. O'Neale,substitution,substitution,13,Low
+21900011,152,substitution,1,PT01M21.00S,01:21,Q1 01:21,23,10,1610612762.0,Conley,SUB in: M. Conley,substitution,substitution,13,Low
+21900011,153,substitution,1,PT01M21.00S,01:21,Q1 01:21,23,10,1610612760.0,Paul,SUB in: C. Paul,substitution,substitution,13,Low
+21900011,154,substitution,1,PT01M21.00S,01:21,Q1 01:21,23,10,1610612760.0,Diallo,SUB in: H. Diallo,substitution,3pt missed,13,Low
+21900011,155,3pt,1,PT01M07.00S,01:07,Q1 01:07,23,10,1610612760.0,Schroder,MISS Schroder 27' 3PT Jump Shot,substitution,rebound,13,Low
+21900011,156,rebound,1,PT01M04.00S,01:04,Q1 01:04,23,10,1610612762.0,O'Neale,O'Neale REBOUND (Off:0 Def:2),3pt missed,3pt missed,13,Low
+21900011,157,3pt,1,PT00M57.40S,00:57,Q1 00:57,23,10,1610612762.0,Conley,MISS Conley 25' 3PT Jump Shot,rebound,rebound,13,Low
+21900011,158,rebound,1,PT00M54.10S,00:54,Q1 00:54,23,10,1610612760.0,Noel,Noel REBOUND (Off:0 Def:2),3pt missed,2pt made,13,Low
+21900011,159,2pt,1,PT00M34.70S,00:34,Q1 00:34,23,12,1610612760.0,Paul,Paul 11' Step Back Jump Shot (4 PTS),rebound,2pt missed,11,Low
+21900011,160,2pt,1,PT00M20.00S,00:20,Q1 00:20,23,12,1610612762.0,Davis,MISS Davis 5' Driving Layup,2pt made,rebound,11,Low
+21900011,161,rebound,1,PT00M16.10S,00:16,Q1 00:16,23,12,1610612762.0,Davis,Davis REBOUND (Off:1 Def:0),2pt missed,2pt missed,11,Low
+21900011,162,2pt,1,PT00M16.10S,00:16,Q1 00:16,23,12,1610612762.0,Davis,MISS Davis 1' Putback Layup,rebound,block,11,Low
+21900011,162,block,1,PT00M16.10S,00:16,Q1 00:16,23,12,1610612760.0,Noel,Noel BLOCK (1 BLK),2pt missed,rebound,11,Low
+21900011,164,rebound,1,PT00M16.10S,00:16,Q1 00:16,23,12,1610612760.0,Schroder,Schroder REBOUND (Off:0 Def:3),block,turnover,11,Low
+21900011,205,turnover,1,PT00M16.10S,00:16,Q1 00:16,23,12,1610612760.0,Schroder,Schroder Out of Bounds Lost Ball Turnover (P1.T6),rebound,substitution,11,Low
+21900011,166,substitution,1,PT00M16.10S,00:16,Q1 00:16,23,12,1610612760.0,Noel,SUB out: N. Noel,turnover,substitution,11,Low
+21900011,167,substitution,1,PT00M16.10S,00:16,Q1 00:16,23,12,1610612760.0,Muscala,SUB in: M. Muscala,substitution,2pt missed,11,Low
+21900011,168,2pt,1,PT00M02.00S,00:02,Q1 00:02,23,12,1610612762.0,Conley,MISS Conley 8' Floating Jump Shot,substitution,rebound,11,Low
+21900011,169,rebound,1,PT00M02.00S,00:02,Q1 00:02,23,12,1610612760.0,Diallo,Diallo REBOUND (Off:0 Def:1),2pt missed,turnover,11,Low
+21900011,249,turnover,1,PT00M02.00S,00:02,Q1 00:02,23,12,1610612760.0,Diallo,Diallo Bad Pass Turnover (P1.T7),rebound,steal,11,Low
+21900011,249,steal,1,PT00M02.00S,00:02,Q1 00:02,23,12,1610612762.0,O'Neale,O'Neale STEAL (1 STL),turnover,period,11,Low
+21900011,170,period,1,PT00M00.00S,00:00,Q1 00:00,23,12,1610612762.0,,End of 1st Period (9:39 PM EST),steal,period,11,Low
+21900011,171,period,2,PT12M00.00S,12:00,Q2 12:00,23,12,1610612762.0,,Start of 2nd Period (9:42 PM EST),period,turnover,11,Low
+21900011,172,turnover,2,PT11M49.00S,11:49,Q2 11:49,23,12,1610612762.0,Conley,Conley Lost Ball Turnover (P2.T4),period,steal,11,Low
+21900011,172,steal,2,PT11M49.00S,11:49,Q2 11:49,23,12,1610612760.0,Diallo,Diallo STEAL (1 STL),turnover,2pt made,11,Low
+21900011,174,2pt,2,PT11M45.00S,11:45,Q2 11:45,23,14,1610612760.0,Diallo,Diallo 2' Running Layup (2 PTS),steal,2pt missed,9,Low
+21900011,175,2pt,2,PT11M25.00S,11:25,Q2 11:25,23,14,1610612762.0,Davis,MISS Davis 5' Layup,2pt made,rebound,9,Low
+21900011,176,rebound,2,PT11M22.00S,11:22,Q2 11:22,23,14,1610612760.0,Muscala,Muscala REBOUND (Off:0 Def:1),2pt missed,3pt made,9,Low
+21900011,177,3pt,2,PT11M03.00S,11:03,Q2 11:03,23,17,1610612760.0,Paul,Paul 32' 3PT Jump Shot (7 PTS) (Muscala 1 AST),rebound,2pt missed,6,Low
+21900011,179,2pt,2,PT10M46.00S,10:46,Q2 10:46,23,17,1610612762.0,Conley,MISS Conley 13' Driving Floating Jump Shot,3pt made,rebound,6,Low
+21900011,180,rebound,2,PT10M44.00S,10:44,Q2 10:44,23,17,1610612760.0,Muscala,Muscala REBOUND (Off:0 Def:2),2pt missed,3pt made,6,Low
+21900011,181,3pt,2,PT10M27.00S,10:27,Q2 10:27,23,20,1610612760.0,Paul,Paul 26' 3PT Step Back Jump Shot (10 PTS),rebound,timeout,3,Low
+21900011,182,timeout,2,PT10M24.00S,10:24,Q2 10:24,23,20,1610612762.0,,JAZZ Timeout: Regular (Full 2 Short 0),3pt made,foul,3,Low
+21900011,183,foul,2,PT10M12.00S,10:12,Q2 10:12,23,20,1610612760.0,Bazley,Bazley S.FOUL (P1.T1) (K.Fitzgerald),timeout,freethrow,3,Low
+21900011,185,freethrow,2,PT10M12.00S,10:12,Q2 10:12,24,20,1610612762.0,Green,Green Free Throw 1 of 2 (4 PTS),foul,freethrow,4,Low
+21900011,186,freethrow,2,PT10M12.00S,10:12,Q2 10:12,25,20,1610612762.0,Green,Green Free Throw 2 of 2 (5 PTS),freethrow,3pt missed,5,Low
+21900011,187,3pt,2,PT09M59.00S,09:59,Q2 09:59,25,20,1610612760.0,Muscala,MISS Muscala 26' 3PT Jump Shot,freethrow,rebound,5,Low
+21900011,188,rebound,2,PT09M55.00S,09:55,Q2 09:55,25,20,1610612762.0,Green,Green REBOUND (Off:0 Def:1),3pt missed,foul,5,Low
+21900011,189,foul,2,PT09M52.00S,09:52,Q2 09:52,25,20,1610612760.0,Bazley,Bazley P.FOUL (P2.T2) (K.Fitzgerald),rebound,2pt missed,5,Low
+21900011,191,2pt,2,PT09M44.00S,09:44,Q2 09:44,25,20,1610612762.0,Conley,MISS Conley 16' Driving Floating Jump Shot,foul,rebound,5,Low
+21900011,192,rebound,2,PT09M41.00S,09:41,Q2 09:41,25,20,1610612760.0,Paul,Paul REBOUND (Off:0 Def:2),2pt missed,foul,5,Low
+21900011,193,foul,2,PT09M31.00S,09:31,Q2 09:31,25,20,1610612760.0,Muscala,Muscala OFF.Foul (P1) (K.Fitzgerald),rebound,turnover,5,Low
+21900011,195,turnover,2,PT09M31.00S,09:31,Q2 09:31,25,20,1610612760.0,Muscala,Muscala Offensive Foul Turnover (P1.T8),foul,foul,5,Low
+21900011,196,foul,2,PT09M20.00S,09:20,Q2 09:20,25,20,1610612760.0,Diallo,Diallo S.FOUL (P1.T3) (K.Fitzgerald),turnover,freethrow,5,Low
+21900011,198,freethrow,2,PT09M20.00S,09:20,Q2 09:20,26,20,1610612762.0,Conley,Conley Free Throw 1 of 2 (1 PTS),foul,freethrow,6,Low
+21900011,199,freethrow,2,PT09M20.00S,09:20,Q2 09:20,26,20,1610612762.0,Conley,MISS Conley Free Throw 2 of 2,freethrow,rebound,6,Low
+21900011,200,rebound,2,PT09M20.00S,09:20,Q2 09:20,26,20,1610612760.0,,TEAM defensive REBOUND,freethrow,foul,6,Low
+21900011,201,foul,2,PT09M19.00S,09:19,Q2 09:19,26,20,1610612762.0,Davis,Davis L.B.FOUL (P1.T1) (T.Maddox),rebound,turnover,6,Low
+21900011,203,turnover,2,PT09M09.00S,09:09,Q2 09:09,26,20,1610612760.0,Paul,Paul Bad Pass Turnover (P1.T9),foul,steal,6,Low
+21900011,203,steal,2,PT09M09.00S,09:09,Q2 09:09,26,20,1610612762.0,Conley,Conley STEAL (1 STL),turnover,3pt missed,6,Low
+21900011,206,3pt,2,PT09M02.00S,09:02,Q2 09:02,26,20,1610612762.0,Green,MISS Green 25' 3PT Jump Shot,steal,rebound,6,Low
+21900011,207,rebound,2,PT08M57.00S,08:57,Q2 08:57,26,20,1610612760.0,Bazley,Bazley REBOUND (Off:0 Def:2),3pt missed,turnover,6,Low
+21900011,208,turnover,2,PT08M55.00S,08:55,Q2 08:55,26,20,1610612760.0,Diallo,Diallo Out of Bounds Lost Ball Turnover (P2.T10),rebound,substitution,6,Low
+21900011,209,substitution,2,PT08M55.00S,08:55,Q2 08:55,26,20,1610612762.0,Conley,SUB out: M. Conley,turnover,substitution,6,Low
+21900011,210,substitution,2,PT08M55.00S,08:55,Q2 08:55,26,20,1610612762.0,Mudiay,SUB in: E. Mudiay,substitution,foul,6,Low
+21900011,211,foul,2,PT08M44.00S,08:44,Q2 08:44,26,20,1610612762.0,Davis,Davis OFF.Foul (P2) (K.Fitzgerald),substitution,turnover,6,Low
+21900011,213,turnover,2,PT08M44.00S,08:44,Q2 08:44,26,20,1610612762.0,Davis,Davis Offensive Foul Turnover (P1.T5),foul,substitution,6,Low
+21900011,214,substitution,2,PT08M44.00S,08:44,Q2 08:44,26,20,1610612762.0,Davis,SUB out: E. Davis,turnover,substitution,6,Low
+21900011,215,substitution,2,PT08M44.00S,08:44,Q2 08:44,26,20,1610612762.0,Gobert,SUB in: R. Gobert,substitution,3pt missed,6,Low
+21900011,216,3pt,2,PT08M27.00S,08:27,Q2 08:27,26,20,1610612760.0,Muscala,MISS Muscala 24' 3PT Jump Shot,substitution,rebound,6,Low
+21900011,217,rebound,2,PT08M24.00S,08:24,Q2 08:24,26,20,1610612762.0,Gobert,Gobert REBOUND (Off:2 Def:6),3pt missed,foul,6,Low
+21900011,218,foul,2,PT08M24.00S,08:24,Q2 08:24,26,20,1610612760.0,Paul,Paul P.FOUL (P2.T4) (K.Fitzgerald),rebound,substitution,6,Low
+21900011,220,substitution,2,PT08M24.00S,08:24,Q2 08:24,26,20,1610612760.0,Muscala,SUB out: M. Muscala,foul,substitution,6,Low
+21900011,221,substitution,2,PT08M24.00S,08:24,Q2 08:24,26,20,1610612760.0,Adams,SUB in: S. Adams,substitution,turnover,6,Low
+21900011,222,turnover,2,PT08M11.00S,08:11,Q2 08:11,26,20,1610612762.0,Ingles,Ingles Bad Pass Turnover (P1.T6),substitution,steal,6,Low
+21900011,222,steal,2,PT08M11.00S,08:11,Q2 08:11,26,20,1610612760.0,Adams,Adams STEAL (1 STL),turnover,3pt missed,6,Low
+21900011,224,3pt,2,PT08M05.00S,08:05,Q2 08:05,26,20,1610612760.0,Paul,MISS Paul 25' 3PT Step Back Jump Shot,steal,rebound,6,Low
+21900011,225,rebound,2,PT08M02.00S,08:02,Q2 08:02,26,20,1610612762.0,Green,Green REBOUND (Off:0 Def:2),3pt missed,2pt made,6,Low
+21900011,226,2pt,2,PT07M58.00S,07:58,Q2 07:58,28,20,1610612762.0,O'Neale,O'Neale 3' Driving Layup (4 PTS) (Green 1 AST),rebound,2pt missed,8,Low
+21900011,228,2pt,2,PT07M49.00S,07:49,Q2 07:49,28,20,1610612760.0,Schroder,MISS Schroder 2' Reverse Layup,2pt made,rebound,8,Low
+21900011,229,rebound,2,PT07M47.00S,07:47,Q2 07:47,28,20,1610612760.0,,TEAM offensive REBOUND,2pt missed,substitution,8,Low
+21900011,231,substitution,2,PT07M47.00S,07:47,Q2 07:47,28,20,1610612762.0,Ingles,SUB out: J. Ingles,rebound,substitution,8,Low
+21900011,232,substitution,2,PT07M47.00S,07:47,Q2 07:47,28,20,1610612762.0,Green,SUB out: J. Green,substitution,substitution,8,Low
+21900011,233,substitution,2,PT07M47.00S,07:47,Q2 07:47,28,20,1610612760.0,Paul,SUB out: C. Paul,substitution,substitution,8,Low
+21900011,234,substitution,2,PT07M47.00S,07:47,Q2 07:47,28,20,1610612760.0,Bazley,SUB out: D. Bazley,substitution,substitution,8,Low
+21900011,235,substitution,2,PT07M47.00S,07:47,Q2 07:47,28,20,1610612762.0,Bogdanovic,SUB in: B. Bogdanovic,substitution,substitution,8,Low
+21900011,236,substitution,2,PT07M47.00S,07:47,Q2 07:47,28,20,1610612762.0,Mitchell,SUB in: D. Mitchell,substitution,substitution,8,Low
+21900011,237,substitution,2,PT07M47.00S,07:47,Q2 07:47,28,20,1610612760.0,Gilgeous-Alexander,SUB in: S. Gilgeous-Alexander,substitution,substitution,8,Low
+21900011,238,substitution,2,PT07M47.00S,07:47,Q2 07:47,28,20,1610612760.0,Gallinari,SUB in: D. Gallinari,substitution,3pt made,8,Low
+21900011,239,3pt,2,PT07M41.00S,07:41,Q2 07:41,28,23,1610612760.0,Gallinari,Gallinari 25' 3PT Jump Shot (5 PTS) (Schroder 2 AST),substitution,2pt missed,5,Low
+21900011,241,2pt,2,PT07M27.00S,07:27,Q2 07:27,28,23,1610612762.0,Bogdanovic,MISS Bogdanovic 2' Driving Layup,3pt made,rebound,5,Low
+21900011,242,rebound,2,PT07M25.00S,07:25,Q2 07:25,28,23,1610612760.0,Gallinari,Gallinari REBOUND (Off:0 Def:3),2pt missed,3pt made,5,Low
+21900011,243,3pt,2,PT07M20.00S,07:20,Q2 07:20,28,26,1610612760.0,Gilgeous-Alexander,Gilgeous-Alexander 24' 3PT Jump Shot (7 PTS) (Gallinari 1 AST),rebound,turnover,2,Low
+21900011,245,turnover,2,PT07M07.00S,07:07,Q2 07:07,28,26,1610612762.0,Gobert,Gobert Illegal Assist Turnover (P2.T7),3pt made,2pt made,2,Low
+21900011,246,2pt,2,PT06M54.00S,06:54,Q2 06:54,28,28,1610612760.0,Gallinari,Gallinari 15' Step Back Jump Shot (7 PTS) (Adams 2 AST),turnover,timeout,0,Low
+21900011,247,timeout,2,PT06M33.00S,06:33,Q2 06:33,28,28,1610612762.0,,JAZZ Timeout: Regular (Full 3 Short 0),2pt made,substitution,0,Low
+21900011,251,substitution,2,PT06M33.00S,06:33,Q2 06:33,28,28,1610612762.0,Bogdanovic,SUB out: B. Bogdanovic,timeout,substitution,0,Low
+21900011,252,substitution,2,PT06M33.00S,06:33,Q2 06:33,28,28,1610612762.0,Ingles,SUB in: J. Ingles,substitution,3pt made,0,Low
+21900011,253,3pt,2,PT06M29.00S,06:29,Q2 06:29,31,28,1610612762.0,Mitchell,Mitchell 25' 3PT Jump Shot (4 PTS) (Ingles 1 AST),substitution,foul,3,Low
+21900011,255,foul,2,PT06M15.00S,06:15,Q2 06:15,31,28,1610612762.0,O'Neale,O'Neale P.FOUL (P2.T2) (T.Maddox),3pt made,2pt made,3,Low
+21900011,257,2pt,2,PT06M11.00S,06:11,Q2 06:11,31,30,1610612760.0,Diallo,Diallo 8' Jump Bank Shot (4 PTS),foul,foul,1,Low
+21900011,258,foul,2,PT06M11.00S,06:11,Q2 06:11,31,30,1610612762.0,Gobert,Gobert S.FOUL (P2.T3) (T.Maddox),2pt made,freethrow,1,Low
+21900011,262,freethrow,2,PT06M11.00S,06:11,Q2 06:11,31,30,1610612760.0,Diallo,MISS Diallo Free Throw 1 of 1,foul,substitution,1,Low
+21900011,260,substitution,2,PT06M11.00S,06:11,Q2 06:11,31,30,1610612762.0,O'Neale,SUB out: R. O'Neale,freethrow,substitution,1,Low
+21900011,261,substitution,2,PT06M11.00S,06:11,Q2 06:11,31,30,1610612762.0,Green,SUB in: J. Green,substitution,rebound,1,Low
+21900011,263,rebound,2,PT06M08.00S,06:08,Q2 06:08,31,30,1610612762.0,Mitchell,Mitchell REBOUND (Off:0 Def:3),substitution,foul,1,Low
+21900011,264,foul,2,PT06M06.00S,06:06,Q2 06:06,31,30,1610612760.0,Adams,Adams P.FOUL (P3.PN) (D.Taylor),rebound,freethrow,1,Low
+21900011,266,freethrow,2,PT06M06.00S,06:06,Q2 06:06,31,30,1610612762.0,Gobert,MISS Gobert Free Throw 1 of 2,foul,rebound,1,Low
+21900011,267,rebound,2,PT06M06.00S,06:06,Q2 06:06,31,30,1610612762.0,,TEAM offensive REBOUND,freethrow,freethrow,1,Low
+21900011,270,freethrow,2,PT06M06.00S,06:06,Q2 06:06,32,30,1610612762.0,Gobert,Gobert Free Throw 2 of 2 (5 PTS),rebound,substitution,2,Low
+21900011,268,substitution,2,PT06M06.00S,06:06,Q2 06:06,31,30,1610612760.0,Adams,SUB out: S. Adams,freethrow,substitution,1,Low
+21900011,269,substitution,2,PT06M06.00S,06:06,Q2 06:06,31,30,1610612760.0,Muscala,SUB in: M. Muscala,substitution,foul,1,Low
+21900011,271,foul,2,PT05M57.00S,05:57,Q2 05:57,32,30,1610612762.0,Green,Green P.FOUL (P1.T4) (T.Maddox),substitution,2pt missed,2,Low
+21900011,273,2pt,2,PT05M51.00S,05:51,Q2 05:51,32,30,1610612760.0,Gallinari,MISS Gallinari 1' Driving Layup,foul,rebound,2,Low
+21900011,274,rebound,2,PT05M48.00S,05:48,Q2 05:48,32,30,1610612762.0,Mitchell,Mitchell REBOUND (Off:0 Def:4),2pt missed,2pt made,2,Low
+21900011,275,2pt,2,PT05M45.00S,05:45,Q2 05:45,34,30,1610612762.0,Mudiay,Mudiay 2' Reverse Layup (4 PTS),rebound,foul,4,Low
+21900011,276,foul,2,PT05M39.00S,05:39,Q2 05:39,34,30,1610612762.0,Mudiay,Mudiay S.FOUL (P1.PN) (T.Maddox),2pt made,freethrow,4,Low
+21900011,278,freethrow,2,PT05M39.00S,05:39,Q2 05:39,34,31,1610612760.0,Gallinari,Gallinari Free Throw 1 of 2 (8 PTS),foul,freethrow,3,Low
+21900011,279,freethrow,2,PT05M39.00S,05:39,Q2 05:39,34,32,1610612760.0,Gallinari,Gallinari Free Throw 2 of 2 (9 PTS),freethrow,2pt missed,2,Low
+21900011,280,2pt,2,PT05M28.00S,05:28,Q2 05:28,34,32,1610612762.0,Mitchell,MISS Mitchell 2' Driving Dunk,freethrow,rebound,2,Low
+21900011,281,rebound,2,PT05M25.00S,05:25,Q2 05:25,34,32,1610612760.0,Diallo,Diallo REBOUND (Off:0 Def:2),2pt missed,2pt missed,2,Low
+21900011,282,2pt,2,PT05M23.00S,05:23,Q2 05:23,34,32,1610612760.0,Diallo,MISS Diallo 9' Jump Shot,rebound,block,2,Low
+21900011,282,block,2,PT05M23.00S,05:23,Q2 05:23,34,32,1610612762.0,Mudiay,Mudiay BLOCK (1 BLK),2pt missed,rebound,2,Low
+21900011,284,rebound,2,PT05M23.00S,05:23,Q2 05:23,34,32,1610612762.0,,TEAM defensive REBOUND,block,2pt made,2,Low
+21900011,286,2pt,2,PT05M11.00S,05:11,Q2 05:11,36,32,1610612762.0,Mudiay,Mudiay 15' Pullup Jump Shot (6 PTS),rebound,foul,4,Low
+21900011,287,foul,2,PT05M01.00S,05:01,Q2 05:01,36,32,1610612762.0,Mudiay,Mudiay P.FOUL (P2.PN) (D.Taylor),2pt made,freethrow,4,Low
+21900011,289,freethrow,2,PT05M01.00S,05:01,Q2 05:01,36,33,1610612760.0,Muscala,Muscala Free Throw 1 of 2 (1 PTS),foul,freethrow,3,Low
+21900011,290,freethrow,2,PT05M01.00S,05:01,Q2 05:01,36,34,1610612760.0,Muscala,Muscala Free Throw 2 of 2 (2 PTS),freethrow,2pt missed,2,Low
+21900011,291,2pt,2,PT04M53.00S,04:53,Q2 04:53,36,34,1610612762.0,Ingles,MISS Ingles 3' Driving Layup,freethrow,block,2,Low
+21900011,291,block,2,PT04M53.00S,04:53,Q2 04:53,36,34,1610612760.0,Muscala,Muscala BLOCK (1 BLK),2pt missed,rebound,2,Low
+21900011,292,rebound,2,PT04M49.00S,04:49,Q2 04:49,36,34,1610612760.0,Schroder,Schroder REBOUND (Off:0 Def:4),block,3pt missed,2,Low
+21900011,294,3pt,2,PT04M41.00S,04:41,Q2 04:41,36,34,1610612760.0,Gilgeous-Alexander,MISS Gilgeous-Alexander 25' 3PT Jump Shot,rebound,rebound,2,Low
+21900011,295,rebound,2,PT04M39.00S,04:39,Q2 04:39,36,34,1610612762.0,Gobert,Gobert REBOUND (Off:2 Def:7),3pt missed,2pt made,2,Low
+21900011,296,2pt,2,PT04M31.00S,04:31,Q2 04:31,38,34,1610612762.0,Mitchell,Mitchell 14' Pullup Jump Shot (6 PTS),rebound,3pt made,4,Low
+21900011,297,3pt,2,PT04M15.00S,04:15,Q2 04:15,38,37,1610612760.0,Schroder,Schroder 24' 3PT Jump Shot (3 PTS) (Muscala 2 AST),2pt made,2pt made,1,Low
+21900011,299,2pt,2,PT04M00.00S,04:00,Q2 04:00,40,37,1610612762.0,Mudiay,Mudiay 5' Driving Floating Jump Shot (8 PTS),3pt made,3pt missed,3,Low
+21900011,300,3pt,2,PT03M39.00S,03:39,Q2 03:39,40,37,1610612760.0,Gallinari,MISS Gallinari 26' 3PT Step Back Jump Shot,2pt made,rebound,3,Low
+21900011,301,rebound,2,PT03M36.00S,03:36,Q2 03:36,40,37,1610612762.0,Gobert,Gobert REBOUND (Off:2 Def:8),3pt missed,foul,3,Low
+21900011,302,foul,2,PT03M23.00S,03:23,Q2 03:23,40,37,1610612760.0,Schroder,Schroder S.FOUL (P2.PN) (D.Taylor),rebound,freethrow,3,Low
+21900011,304,freethrow,2,PT03M23.00S,03:23,Q2 03:23,40,37,1610612762.0,Green,MISS Green Free Throw 1 of 2,foul,rebound,3,Low
+21900011,305,rebound,2,PT03M23.00S,03:23,Q2 03:23,40,37,1610612762.0,,TEAM offensive REBOUND,freethrow,freethrow,3,Low
+21900011,312,freethrow,2,PT03M23.00S,03:23,Q2 03:23,40,37,1610612762.0,Green,MISS Green Free Throw 2 of 2,rebound,substitution,3,Low
+21900011,306,substitution,2,PT03M23.00S,03:23,Q2 03:23,40,37,1610612762.0,Mudiay,SUB out: E. Mudiay,freethrow,substitution,3,Low
+21900011,307,substitution,2,PT03M23.00S,03:23,Q2 03:23,40,37,1610612760.0,Diallo,SUB out: H. Diallo,substitution,substitution,3,Low
+21900011,308,substitution,2,PT03M23.00S,03:23,Q2 03:23,40,37,1610612760.0,Schroder,SUB out: D. Schroder,substitution,substitution,3,Low
+21900011,309,substitution,2,PT03M23.00S,03:23,Q2 03:23,40,37,1610612762.0,Conley,SUB in: M. Conley,substitution,substitution,3,Low
+21900011,310,substitution,2,PT03M23.00S,03:23,Q2 03:23,40,37,1610612760.0,Paul,SUB in: C. Paul,substitution,substitution,3,Low
+21900011,311,substitution,2,PT03M23.00S,03:23,Q2 03:23,40,37,1610612760.0,Ferguson,SUB in: T. Ferguson,substitution,rebound,3,Low
+21900011,313,rebound,2,PT03M22.00S,03:22,Q2 03:22,40,37,1610612760.0,Muscala,Muscala REBOUND (Off:0 Def:3),substitution,2pt made,3,Low
+21900011,314,2pt,2,PT03M09.00S,03:09,Q2 03:09,40,39,1610612760.0,Gilgeous-Alexander,Gilgeous-Alexander 5' Driving Layup (9 PTS),rebound,2pt missed,1,Low
+21900011,315,2pt,2,PT02M57.00S,02:57,Q2 02:57,40,39,1610612762.0,Gobert,MISS Gobert 9' Driving Layup,2pt made,rebound,1,Low
+21900011,316,rebound,2,PT02M56.00S,02:56,Q2 02:56,40,39,1610612762.0,Gobert,Gobert REBOUND (Off:3 Def:8),2pt missed,turnover,1,Low
+21900011,318,turnover,2,PT02M55.00S,02:55,Q2 02:55,40,39,1610612762.0,Gobert,Gobert Bad Pass Turnover (P3.T8),rebound,steal,1,Low
+21900011,318,steal,2,PT02M55.00S,02:55,Q2 02:55,40,39,1610612760.0,Gilgeous-Alexander,Gilgeous-Alexander STEAL (1 STL),turnover,2pt made,1,Low
+21900011,320,2pt,2,PT02M49.00S,02:49,Q2 02:49,40,41,1610612760.0,Gilgeous-Alexander,Gilgeous-Alexander 2' Driving Reverse Layup (11 PTS) (Gallinari 2 AST),steal,3pt missed,1,Low
+21900011,322,3pt,2,PT02M34.00S,02:34,Q2 02:34,40,41,1610612762.0,Mitchell,MISS Mitchell 25' 3PT Turnaround Fadeaway Shot,2pt made,rebound,1,Low
+21900011,323,rebound,2,PT02M31.00S,02:31,Q2 02:31,40,41,1610612760.0,Paul,Paul REBOUND (Off:0 Def:3),3pt missed,3pt made,1,Low
+21900011,324,3pt,2,PT02M17.00S,02:17,Q2 02:17,40,44,1610612760.0,Gilgeous-Alexander,Gilgeous-Alexander 24' 3PT Jump Shot (14 PTS) (Paul 1 AST),rebound,2pt made,4,Low
+21900011,326,2pt,2,PT01M50.00S,01:50,Q2 01:50,42,44,1610612762.0,Mitchell,Mitchell 13' Jump Bank Shot (8 PTS),3pt made,foul,2,Low
+21900011,327,foul,2,PT01M30.00S,01:30,Q2 01:30,42,44,1610612762.0,Conley,Conley P.FOUL (P2.PN) (T.Maddox),2pt made,freethrow,2,Low
+21900011,329,freethrow,2,PT01M30.00S,01:30,Q2 01:30,42,45,1610612760.0,Paul,Paul Free Throw 1 of 2 (11 PTS),foul,freethrow,3,Low
+21900011,332,freethrow,2,PT01M30.00S,01:30,Q2 01:30,42,46,1610612760.0,Paul,Paul Free Throw 2 of 2 (12 PTS),freethrow,substitution,4,Low
+21900011,330,substitution,2,PT01M30.00S,01:30,Q2 01:30,42,45,1610612762.0,Green,SUB out: J. Green,freethrow,substitution,3,Low
+21900011,331,substitution,2,PT01M30.00S,01:30,Q2 01:30,42,45,1610612762.0,O'Neale,SUB in: R. O'Neale,substitution,2pt made,3,Low
+21900011,333,2pt,2,PT01M15.00S,01:15,Q2 01:15,44,46,1610612762.0,O'Neale,O'Neale 2' Driving Dunk (6 PTS) (Conley 3 AST),substitution,2pt missed,2,Low
+21900011,335,2pt,2,PT01M00.00S,01:00,Q2 01:00,44,46,1610612760.0,Paul,MISS Paul 16' Step Back Jump Shot,2pt made,rebound,2,Low
+21900011,336,rebound,2,PT00M58.40S,00:58,Q2 00:58,44,46,1610612760.0,,TEAM offensive REBOUND,2pt missed,2pt missed,2,Low
+21900011,338,2pt,2,PT00M47.40S,00:47,Q2 00:47,44,46,1610612760.0,Paul,MISS Paul 17' Jump Shot,rebound,rebound,2,Low
+21900011,339,rebound,2,PT00M45.80S,00:45,Q2 00:45,44,46,1610612762.0,Ingles,Ingles REBOUND (Off:0 Def:1),2pt missed,3pt made,2,Low
+21900011,340,3pt,2,PT00M37.10S,00:37,Q2 00:37,47,46,1610612762.0,O'Neale,O'Neale 25' 3PT Jump Shot (9 PTS) (Mitchell 2 AST),rebound,2pt missed,1,Low
+21900011,342,2pt,2,PT00M28.90S,00:28,Q2 00:28,47,46,1610612760.0,Gilgeous-Alexander,MISS Gilgeous-Alexander 22' Pullup Jump Shot,3pt made,rebound,1,Low
+21900011,343,rebound,2,PT00M27.20S,00:27,Q2 00:27,47,46,1610612762.0,Gobert,Gobert REBOUND (Off:3 Def:9),2pt missed,2pt made,1,Low
+21900011,344,2pt,2,PT00M07.40S,00:07,Q2 00:07,49,46,1610612762.0,Mitchell,Mitchell 2' Driving Dunk (10 PTS),rebound,3pt missed,3,Low
+21900011,346,3pt,2,PT00M00.00S,00:00,Q2 00:00,49,46,1610612760.0,Gilgeous-Alexander,MISS Gilgeous-Alexander 27' 3PT Pullup Jump Shot,2pt made,rebound,3,Low
+21900011,347,rebound,2,PT00M00.00S,00:00,Q2 00:00,49,46,1610612760.0,,TEAM offensive REBOUND,3pt missed,period,3,Low
+21900011,348,period,2,PT00M00.00S,00:00,Q2 00:00,49,46,1610612762.0,,End of 2nd Period (10:11 PM EST),rebound,period,3,Low
+21900011,353,period,3,PT12M00.00S,12:00,Q3 12:00,49,46,1610612762.0,,Start of 3rd Period (10:27 PM EST),period,substitution,3,Low
+21900011,354,2pt,3,PT11M46.00S,11:46,Q3 11:46,49,46,1610612762.0,Conley,MISS Conley 9' Driving Floating Bank Jump Shot,substitution,rebound,3,Low
+21900011,355,rebound,3,PT11M43.00S,11:43,Q3 11:43,49,46,1610612760.0,Adams,Adams REBOUND (Off:3 Def:3),2pt missed,2pt missed,3,Low
+21900011,356,2pt,3,PT11M26.00S,11:26,Q3 11:26,49,46,1610612760.0,Adams,MISS Adams 6' Hook Shot,rebound,rebound,3,Low
+21900011,357,rebound,3,PT11M25.00S,11:25,Q3 11:25,49,46,1610612762.0,Mitchell,Mitchell REBOUND (Off:0 Def:5),2pt missed,2pt made,3,Low
+21900011,358,2pt,3,PT11M19.00S,11:19,Q3 11:19,51,46,1610612762.0,Mitchell,Mitchell 3' Driving Layup (12 PTS),rebound,foul,5,Low
+21900011,359,foul,3,PT10M56.00S,10:56,Q3 10:56,51,46,1610612762.0,Conley,Conley P.FOUL (P3.T1) (K.Fitzgerald),2pt made,3pt made,5,Low
+21900011,361,3pt,3,PT10M51.00S,10:51,Q3 10:51,51,49,1610612760.0,Gilgeous-Alexander,Gilgeous-Alexander 25' 3PT Jump Shot (17 PTS),foul,2pt made,2,Low
+21900011,362,2pt,3,PT10M36.00S,10:36,Q3 10:36,53,49,1610612762.0,Mitchell,Mitchell 3' Driving Reverse Layup (14 PTS),3pt made,2pt missed,4,Low
+21900011,363,2pt,3,PT10M14.00S,10:14,Q3 10:14,53,49,1610612760.0,Gilgeous-Alexander,MISS Gilgeous-Alexander 3' Driving Layup,2pt made,rebound,4,Low
+21900011,364,rebound,3,PT10M13.00S,10:13,Q3 10:13,53,49,1610612762.0,,TEAM defensive REBOUND,2pt missed,2pt made,4,Low
+21900011,366,2pt,3,PT10M03.00S,10:03,Q3 10:03,55,49,1610612762.0,Gobert,Gobert 3' Layup (7 PTS) (Conley 4 AST),rebound,foul,6,Low
+21900011,368,foul,3,PT09M49.00S,09:49,Q3 09:49,55,49,1610612762.0,Bogdanovic,Bogdanovic P.FOUL (P1.T2) (T.Maddox),2pt made,2pt made,6,Low
+21900011,370,2pt,3,PT09M42.00S,09:42,Q3 09:42,55,51,1610612760.0,Gallinari,Gallinari 23' Jump Shot (11 PTS),foul,2pt missed,4,Low
+21900011,371,2pt,3,PT09M20.00S,09:20,Q3 09:20,55,51,1610612762.0,Conley,MISS Conley 10' Floating Jump Shot,2pt made,rebound,4,Low
+21900011,372,rebound,3,PT09M17.00S,09:17,Q3 09:17,55,51,1610612760.0,Gallinari,Gallinari REBOUND (Off:0 Def:4),2pt missed,2pt made,4,Low
+21900011,373,2pt,3,PT08M58.00S,08:58,Q3 08:58,55,53,1610612760.0,Gilgeous-Alexander,Gilgeous-Alexander 2' Driving Dunk (19 PTS) (Paul 2 AST),rebound,foul,2,Low
+21900011,374,foul,3,PT08M42.00S,08:42,Q3 08:42,55,53,1610612760.0,Ferguson,Ferguson P.FOUL (P2.T1) (K.Fitzgerald),2pt made,3pt missed,2,Low
+21900011,376,3pt,3,PT08M37.00S,08:37,Q3 08:37,55,53,1610612762.0,Bogdanovic,MISS Bogdanovic 25' 3PT Jump Shot,foul,rebound,2,Low
+21900011,377,rebound,3,PT08M34.00S,08:34,Q3 08:34,55,53,1610612760.0,Paul,Paul REBOUND (Off:0 Def:4),3pt missed,3pt missed,2,Low
+21900011,378,3pt,3,PT08M26.00S,08:26,Q3 08:26,55,53,1610612760.0,Gallinari,MISS Gallinari 26' 3PT Jump Shot,rebound,rebound,2,Low
+21900011,379,rebound,3,PT08M23.00S,08:23,Q3 08:23,55,53,1610612762.0,Bogdanovic,Bogdanovic REBOUND (Off:0 Def:2),3pt missed,foul,2,Low
+21900011,380,foul,3,PT08M21.00S,08:21,Q3 08:21,55,53,1610612760.0,Paul,Paul P.FOUL (P3.T2) (D.Taylor),rebound,2pt missed,2,Low
+21900011,382,2pt,3,PT08M13.00S,08:13,Q3 08:13,55,53,1610612762.0,Mitchell,MISS Mitchell 16' Pullup Jump Shot,foul,rebound,2,Low
+21900011,383,rebound,3,PT08M10.00S,08:10,Q3 08:10,55,53,1610612760.0,Adams,Adams REBOUND (Off:3 Def:4),2pt missed,foul,2,Low
+21900011,384,foul,3,PT07M52.00S,07:52,Q3 07:52,55,53,1610612762.0,Conley,Conley P.FOUL (P4.T3) (T.Maddox),rebound,timeout,2,Low
+21900011,386,timeout,3,PT07M52.00S,07:52,Q3 07:52,55,53,1610612760.0,,Thunder Timeout: Regular (Reg.2 Short 0),foul,substitution,2,Low
+21900011,388,substitution,3,PT07M52.00S,07:52,Q3 07:52,55,53,1610612762.0,Conley,SUB out: M. Conley,timeout,substitution,2,Low
+21900011,389,substitution,3,PT07M52.00S,07:52,Q3 07:52,55,53,1610612762.0,O'Neale,SUB out: R. O'Neale,substitution,substitution,2,Low
+21900011,390,substitution,3,PT07M52.00S,07:52,Q3 07:52,55,53,1610612762.0,Mudiay,SUB in: E. Mudiay,substitution,substitution,2,Low
+21900011,391,substitution,3,PT07M52.00S,07:52,Q3 07:52,55,53,1610612762.0,Ingles,SUB in: J. Ingles,substitution,turnover,2,Low
+21900011,392,turnover,3,PT07M47.00S,07:47,Q3 07:47,55,53,1610612760.0,Gilgeous-Alexander,Gilgeous-Alexander Palming Turnover (P1.T11),substitution,3pt missed,2,Low
+21900011,393,3pt,3,PT07M34.00S,07:34,Q3 07:34,55,53,1610612762.0,Bogdanovic,MISS Bogdanovic 3PT Jump Shot,turnover,rebound,2,Low
+21900011,394,rebound,3,PT07M31.00S,07:31,Q3 07:31,55,53,1610612760.0,Paul,Paul REBOUND (Off:0 Def:5),3pt missed,foul,2,Low
+21900011,395,foul,3,PT07M28.00S,07:28,Q3 07:28,55,53,1610612762.0,Bogdanovic,Bogdanovic P.FOUL (P2.T4) (D.Taylor),rebound,foul,2,Low
+21900011,397,foul,3,PT07M27.00S,07:27,Q3 07:27,55,53,1610612762.0,Mitchell,Mitchell P.FOUL (P2.PN) (T.Maddox),foul,instant replay,2,Low
+21900011,400,freethrow,3,PT07M27.00S,07:27,Q3 07:27,55,54,1610612760.0,Ferguson,Ferguson Free Throw 1 of 2 (1 PTS),instant replay,freethrow,1,Low
+21900011,401,freethrow,3,PT07M27.00S,07:27,Q3 07:27,55,55,1610612760.0,Ferguson,Ferguson Free Throw 2 of 2 (2 PTS),freethrow,turnover,0,Low
+21900011,402,turnover,3,PT07M18.00S,07:18,Q3 07:18,55,55,1610612762.0,Gobert,Gobert Out of Bounds Lost Ball Turnover (P4.T9),freethrow,2pt made,0,Low
+21900011,403,2pt,3,PT07M04.00S,07:04,Q3 07:04,55,57,1610612760.0,Gallinari,Gallinari 17' Jump Shot (13 PTS) (Paul 3 AST),turnover,2pt made,2,Low
+21900011,405,2pt,3,PT06M49.00S,06:49,Q3 06:49,57,57,1610612762.0,Mitchell,Mitchell 3' Cutting Dunk Shot (16 PTS) (Mudiay 2 AST),2pt made,3pt missed,0,Low
+21900011,407,3pt,3,PT06M28.00S,06:28,Q3 06:28,57,57,1610612760.0,Gilgeous-Alexander,MISS Gilgeous-Alexander 25' 3PT Jump Shot,2pt made,rebound,0,Low
+21900011,408,rebound,3,PT06M25.00S,06:25,Q3 06:25,57,57,1610612760.0,Ferguson,Ferguson REBOUND (Off:1 Def:0),3pt missed,3pt made,0,Low
+21900011,409,3pt,3,PT06M23.00S,06:23,Q3 06:23,57,60,1610612760.0,Paul,Paul 26' 3PT Jump Shot (15 PTS) (Ferguson 1 AST),rebound,2pt made,3,Low
+21900011,411,2pt,3,PT06M10.00S,06:10,Q3 06:10,59,60,1610612762.0,Mitchell,Mitchell 14' Step Back Jump Shot (18 PTS),3pt made,2pt missed,1,Low
+21900011,412,2pt,3,PT05M56.00S,05:56,Q3 05:56,59,60,1610612760.0,Paul,MISS Paul 12' Fadeaway Jumper,2pt made,rebound,1,Low
+21900011,413,rebound,3,PT05M51.00S,05:51,Q3 05:51,59,60,1610612762.0,Ingles,Ingles REBOUND (Off:0 Def:2),2pt missed,3pt made,1,Low
+21900011,414,3pt,3,PT05M47.00S,05:47,Q3 05:47,62,60,1610612762.0,Ingles,Ingles 24' 3PT Jump Shot (7 PTS) (Mudiay 3 AST),rebound,2pt made,2,Low
+21900011,416,2pt,3,PT05M28.00S,05:28,Q3 05:28,62,62,1610612760.0,Gilgeous-Alexander,Gilgeous-Alexander 16' Driving Floating Bank Jump Shot (21 PTS),3pt made,substitution,0,Low
+21900011,418,substitution,3,PT05M21.00S,05:21,Q3 05:21,62,62,1610612762.0,Bogdanovic,SUB out: B. Bogdanovic,2pt made,substitution,0,Low
+21900011,419,substitution,3,PT05M21.00S,05:21,Q3 05:21,62,62,1610612760.0,Paul,SUB out: C. Paul,substitution,substitution,0,Low
+21900011,420,substitution,3,PT05M21.00S,05:21,Q3 05:21,62,62,1610612762.0,O'Neale,SUB in: R. O'Neale,substitution,substitution,0,Low
+21900011,421,substitution,3,PT05M21.00S,05:21,Q3 05:21,62,62,1610612760.0,Schroder,SUB in: D. Schroder,substitution,2pt missed,0,Low
+21900011,422,2pt,3,PT05M15.00S,05:15,Q3 05:15,62,62,1610612762.0,Mudiay,MISS Mudiay 19' Pullup Jump Shot,substitution,rebound,0,Low
+21900011,423,rebound,3,PT05M12.00S,05:12,Q3 05:12,62,62,1610612760.0,Adams,Adams REBOUND (Off:3 Def:5),2pt missed,2pt made,0,Low
+21900011,424,2pt,3,PT04M55.00S,04:55,Q3 04:55,62,64,1610612760.0,Gilgeous-Alexander,Gilgeous-Alexander 15' Step Back Jump Shot (23 PTS),rebound,3pt missed,2,Low
+21900011,425,3pt,3,PT04M36.00S,04:36,Q3 04:36,62,64,1610612762.0,Mudiay,MISS Mudiay 24' 3PT Jump Shot,2pt made,rebound,2,Low
+21900011,426,rebound,3,PT04M34.00S,04:34,Q3 04:34,62,64,1610612760.0,Gallinari,Gallinari REBOUND (Off:0 Def:5),3pt missed,2pt made,2,Low
+21900011,427,2pt,3,PT04M11.00S,04:11,Q3 04:11,62,66,1610612760.0,Gilgeous-Alexander,Gilgeous-Alexander 5' Driving Layup (25 PTS),rebound,substitution,4,Low
+21900011,429,substitution,3,PT04M08.00S,04:08,Q3 04:08,62,66,1610612760.0,Gilgeous-Alexander,SUB out: S. Gilgeous-Alexander,2pt made,substitution,4,Low
+21900011,430,substitution,3,PT04M08.00S,04:08,Q3 04:08,62,66,1610612760.0,Gallinari,SUB out: D. Gallinari,substitution,substitution,4,Low
+21900011,431,substitution,3,PT04M08.00S,04:08,Q3 04:08,62,66,1610612760.0,Diallo,SUB in: H. Diallo,substitution,substitution,4,Low
+21900011,432,substitution,3,PT04M08.00S,04:08,Q3 04:08,62,66,1610612760.0,Bazley,SUB in: D. Bazley,substitution,foul,4,Low
+21900011,433,foul,3,PT03M54.00S,03:54,Q3 03:54,62,66,1610612762.0,Mitchell,Mitchell OFF.Foul (P3) (D.Taylor),substitution,turnover,4,Low
+21900011,435,turnover,3,PT03M54.00S,03:54,Q3 03:54,62,66,1610612762.0,Mitchell,Mitchell Offensive Foul Turnover (P1.T10),foul,2pt missed,4,Low
+21900011,436,2pt,3,PT03M42.00S,03:42,Q3 03:42,62,66,1610612760.0,Schroder,MISS Schroder 17' Pullup Jump Shot,turnover,rebound,4,Low
+21900011,437,rebound,3,PT03M38.00S,03:38,Q3 03:38,62,66,1610612762.0,Gobert,Gobert REBOUND (Off:3 Def:10),2pt missed,2pt missed,4,Low
+21900011,438,2pt,3,PT03M29.00S,03:29,Q3 03:29,62,66,1610612762.0,Ingles,MISS Ingles 13' Driving Floating Jump Shot,rebound,rebound,4,Low
+21900011,439,rebound,3,PT03M25.00S,03:25,Q3 03:25,62,66,1610612760.0,Ferguson,Ferguson REBOUND (Off:1 Def:1),2pt missed,foul,4,Low
+21900011,440,foul,3,PT03M22.00S,03:22,Q3 03:22,62,66,1610612762.0,O'Neale,O'Neale S.FOUL (P3.PN) (K.Fitzgerald),rebound,freethrow,4,Low
+21900011,442,freethrow,3,PT03M22.00S,03:22,Q3 03:22,62,67,1610612760.0,Diallo,Diallo Free Throw 1 of 2 (5 PTS),foul,freethrow,5,Low
+21900011,449,freethrow,3,PT03M22.00S,03:22,Q3 03:22,62,67,1610612760.0,Diallo,MISS Diallo Free Throw 2 of 2,freethrow,substitution,5,Low
+21900011,443,substitution,3,PT03M22.00S,03:22,Q3 03:22,62,67,1610612762.0,Gobert,SUB out: R. Gobert,freethrow,substitution,5,Low
+21900011,444,substitution,3,PT03M22.00S,03:22,Q3 03:22,62,67,1610612762.0,Mitchell,SUB out: D. Mitchell,substitution,substitution,5,Low
+21900011,445,substitution,3,PT03M22.00S,03:22,Q3 03:22,62,67,1610612760.0,Adams,SUB out: S. Adams,substitution,substitution,5,Low
+21900011,446,substitution,3,PT03M22.00S,03:22,Q3 03:22,62,67,1610612762.0,Green,SUB in: J. Green,substitution,substitution,5,Low
+21900011,447,substitution,3,PT03M22.00S,03:22,Q3 03:22,62,67,1610612762.0,Davis,SUB in: E. Davis,substitution,substitution,5,Low
+21900011,448,substitution,3,PT03M22.00S,03:22,Q3 03:22,62,67,1610612760.0,Muscala,SUB in: M. Muscala,substitution,rebound,5,Low
+21900011,450,rebound,3,PT03M19.00S,03:19,Q3 03:19,62,67,1610612762.0,Davis,Davis REBOUND (Off:1 Def:1),substitution,2pt made,5,Low
+21900011,451,2pt,3,PT03M16.00S,03:16,Q3 03:16,64,67,1610612762.0,O'Neale,O'Neale 3' Layup (11 PTS) (Mudiay 4 AST),rebound,2pt missed,3,Low
+21900011,453,2pt,3,PT02M49.00S,02:49,Q3 02:49,64,67,1610612760.0,Muscala,MISS Muscala 1' Layup,2pt made,block,3,Low
+21900011,453,block,3,PT02M49.00S,02:49,Q3 02:49,64,67,1610612762.0,Davis,Davis BLOCK (1 BLK),2pt missed,rebound,3,Low
+21900011,455,rebound,3,PT02M49.00S,02:49,Q3 02:49,64,67,1610612760.0,,TEAM offensive REBOUND,block,turnover,3,Low
+21900011,456,turnover,3,PT02M49.00S,02:49,Q3 02:49,64,67,0.0,,Thunder Turnover: Shot Clock (T#12),rebound,timeout,3,Low
+21900011,457,timeout,3,PT02M49.00S,02:49,Q3 02:49,64,67,1610612762.0,,JAZZ Timeout: Regular (Full 4 Short 0),turnover,substitution,3,Low
+21900011,458,substitution,3,PT02M49.00S,02:49,Q3 02:49,64,67,1610612762.0,Mudiay,SUB out: E. Mudiay,timeout,substitution,3,Low
+21900011,459,substitution,3,PT02M49.00S,02:49,Q3 02:49,64,67,1610612760.0,Ferguson,SUB out: T. Ferguson,substitution,substitution,3,Low
+21900011,460,substitution,3,PT02M49.00S,02:49,Q3 02:49,64,67,1610612762.0,Conley,SUB in: M. Conley,substitution,substitution,3,Low
+21900011,461,substitution,3,PT02M49.00S,02:49,Q3 02:49,64,67,1610612760.0,Gilgeous-Alexander,SUB in: S. Gilgeous-Alexander,substitution,2pt missed,3,Low
+21900011,462,2pt,3,PT02M30.00S,02:30,Q3 02:30,64,67,1610612762.0,Conley,MISS Conley 14' Floating Jump Shot,substitution,rebound,3,Low
+21900011,463,rebound,3,PT02M29.00S,02:29,Q3 02:29,64,67,1610612762.0,Davis,Davis REBOUND (Off:2 Def:1),2pt missed,foul,3,Low
+21900011,464,foul,3,PT02M29.00S,02:29,Q3 02:29,64,67,1610612760.0,Muscala,Muscala S.FOUL (P2.T3) (D.Taylor),rebound,freethrow,3,Low
+21900011,466,freethrow,3,PT02M29.00S,02:29,Q3 02:29,65,67,1610612762.0,Davis,Davis Free Throw 1 of 2 (1 PTS),foul,freethrow,2,Low
+21900011,467,freethrow,3,PT02M29.00S,02:29,Q3 02:29,66,67,1610612762.0,Davis,Davis Free Throw 2 of 2 (2 PTS),freethrow,2pt missed,1,Low
+21900011,468,2pt,3,PT02M14.00S,02:14,Q3 02:14,66,67,1610612760.0,Bazley,MISS Bazley 5' Floating Jump Shot,freethrow,rebound,1,Low
+21900011,469,rebound,3,PT02M11.00S,02:11,Q3 02:11,66,67,1610612762.0,Ingles,Ingles REBOUND (Off:0 Def:3),2pt missed,3pt missed,1,Low
+21900011,470,3pt,3,PT02M03.00S,02:03,Q3 02:03,66,67,1610612762.0,Ingles,MISS Ingles 25' 3PT Step Back Jump Shot,rebound,rebound,1,Low
+21900011,471,rebound,3,PT01M59.00S,01:59,Q3 01:59,66,67,1610612762.0,Davis,Davis REBOUND (Off:3 Def:1),3pt missed,foul,1,Low
+21900011,472,foul,3,PT01M59.00S,01:59,Q3 01:59,66,67,1610612762.0,Green,Green Offensive Charge Foul (P2.PN) (K.Fitzgerald),rebound,turnover,1,Low
+21900011,474,turnover,3,PT01M59.00S,01:59,Q3 01:59,66,67,1610612762.0,Green,Green Offensive Foul Turnover (P1.T11),foul,substitution,1,Low
+21900011,475,substitution,3,PT01M59.00S,01:59,Q3 01:59,66,67,1610612760.0,Gilgeous-Alexander,SUB out: S. Gilgeous-Alexander,turnover,substitution,1,Low
+21900011,476,substitution,3,PT01M59.00S,01:59,Q3 01:59,66,67,1610612760.0,Paul,SUB in: C. Paul,substitution,3pt missed,1,Low
+21900011,477,3pt,3,PT01M45.00S,01:45,Q3 01:45,66,67,1610612760.0,Schroder,MISS Schroder 25' 3PT Jump Shot,substitution,rebound,1,Low
+21900011,478,rebound,3,PT01M43.00S,01:43,Q3 01:43,66,67,1610612762.0,Davis,Davis REBOUND (Off:3 Def:2),3pt missed,2pt missed,1,Low
+21900011,479,2pt,3,PT01M25.00S,01:25,Q3 01:25,66,67,1610612762.0,Green,MISS Green 15' Pullup Jump Shot,rebound,rebound,1,Low
+21900011,480,rebound,3,PT01M23.00S,01:23,Q3 01:23,66,67,1610612760.0,,TEAM defensive REBOUND,2pt missed,foul,1,Low
+21900011,481,foul,3,PT01M23.00S,01:23,Q3 01:23,66,67,1610612762.0,Davis,Davis L.B.FOUL (P3.PN) (T.Maddox),rebound,freethrow,1,Low
+21900011,483,freethrow,3,PT01M23.00S,01:23,Q3 01:23,66,68,1610612760.0,Muscala,Muscala Free Throw 1 of 2 (3 PTS),foul,freethrow,2,Low
+21900011,484,freethrow,3,PT01M23.00S,01:23,Q3 01:23,66,69,1610612760.0,Muscala,Muscala Free Throw 2 of 2 (4 PTS),freethrow,3pt missed,3,Low
+21900011,485,3pt,3,PT01M13.00S,01:13,Q3 01:13,66,69,1610612762.0,Conley,MISS Conley 25' 3PT Pullup Jump Shot,freethrow,rebound,3,Low
+21900011,486,rebound,3,PT01M09.00S,01:09,Q3 01:09,66,69,1610612760.0,Paul,Paul REBOUND (Off:0 Def:6),3pt missed,3pt missed,3,Low
+21900011,487,3pt,3,PT00M57.60S,00:57,Q3 00:57,66,69,1610612760.0,Muscala,MISS Muscala 25' 3PT Jump Shot,rebound,rebound,3,Low
+21900011,488,rebound,3,PT00M54.10S,00:54,Q3 00:54,66,69,1610612760.0,Schroder,Schroder REBOUND (Off:1 Def:4),3pt missed,3pt missed,3,Low
+21900011,489,3pt,3,PT00M49.30S,00:49,Q3 00:49,66,69,1610612760.0,Paul,MISS Paul 3PT Jump Shot,rebound,rebound,3,Low
+21900011,490,rebound,3,PT00M45.30S,00:45,Q3 00:45,66,69,1610612760.0,Diallo,Diallo REBOUND (Off:1 Def:2),3pt missed,2pt made,3,Low
+21900011,491,2pt,3,PT00M45.30S,00:45,Q3 00:45,66,71,1610612760.0,Diallo,Diallo 1' Layup (7 PTS),rebound,foul,5,Low
+21900011,492,foul,3,PT00M45.30S,00:45,Q3 00:45,66,71,1610612762.0,Davis,Davis S.FOUL (P4.PN) (D.Taylor),2pt made,freethrow,5,Low
+21900011,494,freethrow,3,PT00M45.30S,00:45,Q3 00:45,66,72,1610612760.0,Diallo,Diallo Free Throw 1 of 1 (8 PTS),foul,2pt missed,6,Low
+21900011,495,2pt,3,PT00M34.70S,00:34,Q3 00:34,66,72,1610612762.0,Conley,MISS Conley 10' Jump Shot,freethrow,block,6,Low
+21900011,495,block,3,PT00M34.70S,00:34,Q3 00:34,66,72,1610612760.0,Muscala,Muscala BLOCK (2 BLK),2pt missed,rebound,6,Low
+21900011,497,rebound,3,PT00M31.90S,00:31,Q3 00:31,66,72,1610612760.0,Paul,Paul REBOUND (Off:0 Def:7),block,2pt missed,6,Low
+21900011,498,2pt,3,PT00M27.80S,00:27,Q3 00:27,66,72,1610612760.0,Diallo,MISS Diallo 3' Driving Layup,rebound,rebound,6,Low
+21900011,499,rebound,3,PT00M26.40S,00:26,Q3 00:26,66,72,1610612762.0,Davis,Davis REBOUND (Off:3 Def:3),2pt missed,2pt made,6,Low
+21900011,500,2pt,3,PT00M05.90S,00:05,Q3 00:05,68,72,1610612762.0,Conley,Conley 7' Jump Shot (3 PTS),rebound,2pt made,4,Low
+21900011,501,2pt,3,PT00M00.00S,00:00,Q3 00:00,68,74,1610612760.0,Diallo,Diallo 9' Driving Floating Bank Jump Shot (10 PTS),2pt made,period,6,Medium
+21900011,502,period,3,PT00M00.00S,00:00,Q3 00:00,68,74,1610612762.0,,End of 3rd Period (10:55 PM EST),2pt made,instant replay,6,Medium
+21900011,510,period,4,PT12M00.00S,12:00,Q4 12:00,68,74,1610612762.0,,Start of 4th Period (10:57 PM EST),instant replay,substitution,6,Medium
+21900011,511,2pt,4,PT11M44.00S,11:44,Q4 11:44,68,74,1610612760.0,Adams,MISS Adams 4' Layup,substitution,block,6,Medium
+21900011,511,block,4,PT11M44.00S,11:44,Q4 11:44,68,74,1610612762.0,Davis,Davis BLOCK (2 BLK),2pt missed,rebound,6,Medium
+21900011,513,rebound,4,PT11M38.00S,11:38,Q4 11:38,68,74,1610612760.0,Paul,Paul REBOUND (Off:1 Def:7),block,3pt missed,6,Medium
+21900011,514,3pt,4,PT11M36.00S,11:36,Q4 11:36,68,74,1610612760.0,Bazley,MISS Bazley 25' 3PT Jump Shot,rebound,rebound,6,Medium
+21900011,515,rebound,4,PT11M36.00S,11:36,Q4 11:36,68,74,1610612760.0,,TEAM offensive REBOUND,3pt missed,turnover,6,Medium
+21900011,516,turnover,4,PT11M36.00S,11:36,Q4 11:36,68,74,0.0,,Thunder Turnover: Shot Clock (T#13),rebound,substitution,6,Medium
+21900011,517,substitution,4,PT11M36.00S,11:36,Q4 11:36,68,74,1610612762.0,Green,SUB out: J. Green,turnover,substitution,6,Medium
+21900011,518,substitution,4,PT11M36.00S,11:36,Q4 11:36,68,74,1610612762.0,Mudiay,SUB in: E. Mudiay,substitution,2pt missed,6,Medium
+21900011,519,2pt,4,PT11M18.00S,11:18,Q4 11:18,68,74,1610612762.0,Conley,MISS Conley 12' Driving Floating Jump Shot,substitution,rebound,6,Medium
+21900011,520,rebound,4,PT11M16.00S,11:16,Q4 11:16,68,74,1610612760.0,Schroder,Schroder REBOUND (Off:1 Def:5),2pt missed,2pt made,6,Medium
+21900011,521,2pt,4,PT11M07.00S,11:07,Q4 11:07,68,76,1610612760.0,Paul,Paul 14' Pullup Jump Shot (17 PTS),rebound,2pt missed,8,Medium
+21900011,522,2pt,4,PT10M46.00S,10:46,Q4 10:46,68,76,1610612762.0,Bogdanovic,MISS Bogdanovic 5' Driving Layup,2pt made,rebound,8,Medium
+21900011,523,rebound,4,PT10M42.00S,10:42,Q4 10:42,68,76,1610612760.0,Bazley,Bazley REBOUND (Off:0 Def:3),2pt missed,3pt missed,8,Medium
+21900011,524,3pt,4,PT10M26.00S,10:26,Q4 10:26,68,76,1610612760.0,Diallo,MISS Diallo 3PT Jump Shot,rebound,rebound,8,Medium
+21900011,525,rebound,4,PT10M23.00S,10:23,Q4 10:23,68,76,1610612762.0,Niang,Niang REBOUND (Off:0 Def:1),3pt missed,foul,8,Medium
+21900011,526,foul,4,PT10M16.00S,10:16,Q4 10:16,68,76,1610612760.0,Diallo,Diallo S.FOUL (P2.T1) (T.Maddox),rebound,freethrow,8,Medium
+21900011,528,freethrow,4,PT10M16.00S,10:16,Q4 10:16,69,76,1610612762.0,Bogdanovic,Bogdanovic Free Throw 1 of 2 (8 PTS),foul,freethrow,7,Medium
+21900011,531,freethrow,4,PT10M16.00S,10:16,Q4 10:16,70,76,1610612762.0,Bogdanovic,Bogdanovic Free Throw 2 of 2 (9 PTS),freethrow,substitution,6,Medium
+21900011,529,substitution,4,PT10M16.00S,10:16,Q4 10:16,69,76,1610612760.0,Paul,SUB out: C. Paul,freethrow,substitution,7,Medium
+21900011,530,substitution,4,PT10M16.00S,10:16,Q4 10:16,69,76,1610612760.0,Gilgeous-Alexander,SUB in: S. Gilgeous-Alexander,substitution,foul,7,Medium
+21900011,532,foul,4,PT09M54.00S,09:54,Q4 09:54,70,76,1610612762.0,Davis,Davis S.FOUL (P5.T1) (T.Maddox),substitution,freethrow,6,Medium
+21900011,534,freethrow,4,PT09M54.00S,09:54,Q4 09:54,70,76,1610612760.0,Adams,MISS Adams Free Throw 1 of 2,foul,rebound,6,Medium
+21900011,535,rebound,4,PT09M54.00S,09:54,Q4 09:54,70,76,1610612760.0,,TEAM offensive REBOUND,freethrow,freethrow,6,Medium
+21900011,540,freethrow,4,PT09M54.00S,09:54,Q4 09:54,70,76,1610612760.0,Adams,MISS Adams Free Throw 2 of 2,rebound,substitution,6,Medium
+21900011,536,substitution,4,PT09M54.00S,09:54,Q4 09:54,70,76,1610612762.0,Conley,SUB out: M. Conley,freethrow,substitution,6,Medium
+21900011,537,substitution,4,PT09M54.00S,09:54,Q4 09:54,70,76,1610612762.0,Davis,SUB out: E. Davis,substitution,substitution,6,Medium
+21900011,538,substitution,4,PT09M54.00S,09:54,Q4 09:54,70,76,1610612762.0,Gobert,SUB in: R. Gobert,substitution,substitution,6,Medium
+21900011,539,substitution,4,PT09M54.00S,09:54,Q4 09:54,70,76,1610612762.0,Ingles,SUB in: J. Ingles,substitution,rebound,6,Medium
+21900011,541,rebound,4,PT09M53.00S,09:53,Q4 09:53,70,76,1610612762.0,Bogdanovic,Bogdanovic REBOUND (Off:0 Def:3),substitution,2pt missed,6,Medium
+21900011,542,2pt,4,PT09M43.00S,09:43,Q4 09:43,70,76,1610612762.0,Mudiay,MISS Mudiay 4' Driving Layup,rebound,rebound,6,Medium
+21900011,543,rebound,4,PT09M41.00S,09:41,Q4 09:41,70,76,1610612760.0,Adams,Adams REBOUND (Off:3 Def:6),2pt missed,turnover,6,Medium
+21900011,544,turnover,4,PT09M25.00S,09:25,Q4 09:25,70,76,1610612760.0,Diallo,Diallo Bad Pass Turnover (P3.T14),rebound,steal,6,Medium
+21900011,544,steal,4,PT09M25.00S,09:25,Q4 09:25,70,76,1610612762.0,Bogdanovic,Bogdanovic STEAL (1 STL),turnover,2pt made,6,Medium
+21900011,546,2pt,4,PT09M21.00S,09:21,Q4 09:21,72,76,1610612762.0,Bogdanovic,Bogdanovic 1' Running Layup (11 PTS),steal,timeout,4,Medium
+21900011,547,timeout,4,PT09M20.00S,09:20,Q4 09:20,72,76,1610612760.0,,Thunder Timeout: Regular (Reg.3 Short 0),2pt made,substitution,4,Medium
+21900011,548,substitution,4,PT09M20.00S,09:20,Q4 09:20,72,76,1610612762.0,Niang,SUB out: G. Niang,timeout,substitution,4,Medium
+21900011,549,substitution,4,PT09M20.00S,09:20,Q4 09:20,72,76,1610612762.0,Mitchell,SUB in: D. Mitchell,substitution,2pt made,4,Medium
+21900011,550,2pt,4,PT09M10.00S,09:10,Q4 09:10,72,78,1610612760.0,Adams,Adams 2' Dunk (2 PTS) (Schroder 3 AST),substitution,2pt made,6,Medium
+21900011,552,2pt,4,PT08M51.00S,08:51,Q4 08:51,74,78,1610612762.0,Mitchell,Mitchell 14' Pullup Jump Shot (20 PTS),2pt made,2pt missed,4,Medium
+21900011,553,2pt,4,PT08M27.00S,08:27,Q4 08:27,74,78,1610612760.0,Gilgeous-Alexander,MISS Gilgeous-Alexander 5' Driving Layup,2pt made,rebound,4,Medium
+21900011,554,rebound,4,PT08M27.00S,08:27,Q4 08:27,74,78,1610612762.0,,TEAM defensive REBOUND,2pt missed,foul,4,Medium
+21900011,555,foul,4,PT08M27.00S,08:27,Q4 08:27,74,78,1610612760.0,Adams,Adams L.B.FOUL (P4.T2) (K.Fitzgerald),rebound,2pt made,4,Medium
+21900011,557,2pt,4,PT08M11.00S,08:11,Q4 08:11,76,78,1610612762.0,Bogdanovic,Bogdanovic 13' Pullup Jump Shot (13 PTS),foul,foul,2,Medium
+21900011,559,foul,4,PT07M45.00S,07:45,Q4 07:45,76,78,1610612762.0,Mitchell,Mitchell S.FOUL (P4.T2) (K.Fitzgerald),2pt made,freethrow,2,Medium
+21900011,561,freethrow,4,PT07M45.00S,07:45,Q4 07:45,76,78,1610612760.0,Adams,MISS Adams Free Throw 1 of 2,foul,rebound,2,Medium
+21900011,562,rebound,4,PT07M45.00S,07:45,Q4 07:45,76,78,1610612760.0,,TEAM offensive REBOUND,freethrow,freethrow,2,Medium
+21900011,563,freethrow,4,PT07M45.00S,07:45,Q4 07:45,76,78,1610612760.0,Adams,MISS Adams Free Throw 2 of 2,rebound,rebound,2,Medium
+21900011,564,rebound,4,PT07M44.00S,07:44,Q4 07:44,76,78,1610612762.0,Ingles,Ingles REBOUND (Off:0 Def:4),freethrow,3pt missed,2,Medium
+21900011,565,3pt,4,PT07M33.00S,07:33,Q4 07:33,76,78,1610612762.0,Mitchell,MISS Mitchell 26' 3PT Pullup Jump Shot,rebound,rebound,2,Medium
+21900011,566,rebound,4,PT07M29.00S,07:29,Q4 07:29,76,78,1610612760.0,Adams,Adams REBOUND (Off:3 Def:7),3pt missed,turnover,2,Medium
+21900011,567,turnover,4,PT07M21.00S,07:21,Q4 07:21,76,78,1610612760.0,Schroder,Schroder Out of Bounds Lost Ball Turnover (P2.T15),rebound,substitution,2,Medium
+21900011,568,substitution,4,PT07M21.00S,07:21,Q4 07:21,76,78,1610612762.0,Ingles,SUB out: J. Ingles,turnover,substitution,2,Medium
+21900011,569,substitution,4,PT07M21.00S,07:21,Q4 07:21,76,78,1610612760.0,Adams,SUB out: S. Adams,substitution,substitution,2,Medium
+21900011,570,substitution,4,PT07M21.00S,07:21,Q4 07:21,76,78,1610612762.0,O'Neale,SUB in: R. O'Neale,substitution,substitution,2,Medium
+21900011,571,substitution,4,PT07M21.00S,07:21,Q4 07:21,76,78,1610612760.0,Muscala,SUB in: M. Muscala,substitution,3pt missed,2,Medium
+21900011,572,3pt,4,PT07M12.00S,07:12,Q4 07:12,76,78,1610612762.0,Bogdanovic,MISS Bogdanovic 25' 3PT Jump Shot,substitution,rebound,2,Medium
+21900011,573,rebound,4,PT07M09.00S,07:09,Q4 07:09,76,78,1610612760.0,Muscala,Muscala REBOUND (Off:0 Def:4),3pt missed,2pt made,2,Medium
+21900011,574,2pt,4,PT07M02.00S,07:02,Q4 07:02,76,80,1610612760.0,Diallo,Diallo 3' Driving Layup (12 PTS) (Schroder 4 AST),rebound,2pt made,4,Medium
+21900011,575,2pt,4,PT06M49.00S,06:49,Q4 06:49,78,80,1610612762.0,Mudiay,Mudiay 1' Layup (10 PTS),2pt made,3pt missed,2,High
+21900011,576,3pt,4,PT06M36.00S,06:36,Q4 06:36,78,80,1610612760.0,Gilgeous-Alexander,MISS Gilgeous-Alexander 25' 3PT Jump Shot,2pt made,rebound,2,High
+21900011,577,rebound,4,PT06M33.00S,06:33,Q4 06:33,78,80,1610612762.0,Mudiay,Mudiay REBOUND (Off:0 Def:2),3pt missed,2pt missed,2,High
+21900011,578,2pt,4,PT06M26.00S,06:26,Q4 06:26,78,80,1610612762.0,Mudiay,MISS Mudiay 3' Driving Layup,rebound,rebound,2,High
+21900011,579,rebound,4,PT06M24.00S,06:24,Q4 06:24,78,80,1610612762.0,Mitchell,Mitchell REBOUND (Off:1 Def:5),2pt missed,2pt made,2,High
+21900011,580,2pt,4,PT06M23.00S,06:23,Q4 06:23,80,80,1610612762.0,Mitchell,Mitchell 2' Layup (22 PTS),rebound,2pt missed,0,High
+21900011,582,2pt,4,PT06M04.00S,06:04,Q4 06:04,80,80,1610612760.0,Gilgeous-Alexander,MISS Gilgeous-Alexander 2' Layup,2pt made,rebound,0,High
+21900011,584,rebound,4,PT06M04.00S,06:04,Q4 06:04,80,80,1610612762.0,,TEAM defensive REBOUND,2pt missed,substitution,0,High
+21900011,585,substitution,4,PT06M04.00S,06:04,Q4 06:04,80,80,1610612760.0,Bazley,SUB out: D. Bazley,rebound,substitution,0,High
+21900011,586,substitution,4,PT06M04.00S,06:04,Q4 06:04,80,80,1610612760.0,Gallinari,SUB in: D. Gallinari,substitution,2pt made,0,High
+21900011,587,2pt,4,PT05M54.00S,05:54,Q4 05:54,82,80,1610612762.0,Mudiay,Mudiay 2' Driving Layup (12 PTS),substitution,2pt missed,2,High
+21900011,588,2pt,4,PT05M33.00S,05:33,Q4 05:33,82,80,1610612760.0,Schroder,MISS Schroder 2' Driving Layup,2pt made,rebound,2,High
+21900011,589,rebound,4,PT05M31.00S,05:31,Q4 05:31,82,80,1610612762.0,O'Neale,O'Neale REBOUND (Off:0 Def:3),2pt missed,3pt made,2,High
+21900011,590,3pt,4,PT05M27.00S,05:27,Q4 05:27,85,80,1610612762.0,Bogdanovic,Bogdanovic 3PT Jump Shot (16 PTS) (Mudiay 5 AST),rebound,2pt made,5,High
+21900011,592,2pt,4,PT05M05.00S,05:05,Q4 05:05,85,82,1610612760.0,Gallinari,Gallinari 3' Driving Layup (15 PTS),3pt made,foul,3,High
+21900011,593,foul,4,PT05M05.00S,05:05,Q4 05:05,85,82,1610612762.0,Gobert,Gobert S.FOUL (P3.T3) (T.Maddox),2pt made,freethrow,3,High
+21900011,599,freethrow,4,PT05M05.00S,05:05,Q4 05:05,85,83,1610612760.0,Gallinari,Gallinari Free Throw 1 of 1 (16 PTS),foul,substitution,2,High
+21900011,595,substitution,4,PT05M05.00S,05:05,Q4 05:05,85,82,1610612760.0,Muscala,SUB out: M. Muscala,freethrow,substitution,3,High
+21900011,596,substitution,4,PT05M05.00S,05:05,Q4 05:05,85,82,1610612760.0,Schroder,SUB out: D. Schroder,substitution,substitution,3,High
+21900011,597,substitution,4,PT05M05.00S,05:05,Q4 05:05,85,82,1610612760.0,Adams,SUB in: S. Adams,substitution,substitution,3,High
+21900011,598,substitution,4,PT05M05.00S,05:05,Q4 05:05,85,82,1610612760.0,Paul,SUB in: C. Paul,substitution,2pt missed,3,High
+21900011,600,2pt,4,PT04M52.00S,04:52,Q4 04:52,85,83,1610612762.0,Bogdanovic,MISS Bogdanovic 13' Pullup Jump Shot,substitution,rebound,2,High
+21900011,601,rebound,4,PT04M50.00S,04:50,Q4 04:50,85,83,1610612760.0,Adams,Adams REBOUND (Off:3 Def:8),2pt missed,2pt missed,2,High
+21900011,602,2pt,4,PT04M39.00S,04:39,Q4 04:39,85,83,1610612760.0,Gilgeous-Alexander,MISS Gilgeous-Alexander 3' Driving Layup,rebound,rebound,2,High
+21900011,603,rebound,4,PT04M37.00S,04:37,Q4 04:37,85,83,1610612762.0,O'Neale,O'Neale REBOUND (Off:0 Def:4),2pt missed,3pt missed,2,High
+21900011,604,3pt,4,PT04M33.00S,04:33,Q4 04:33,85,83,1610612762.0,Bogdanovic,MISS Bogdanovic 27' 3PT Pullup Jump Shot,rebound,rebound,2,High
+21900011,605,rebound,4,PT04M28.00S,04:28,Q4 04:28,85,83,1610612760.0,Gallinari,Gallinari REBOUND (Off:0 Def:6),3pt missed,3pt made,2,High
+21900011,606,3pt,4,PT04M10.00S,04:10,Q4 04:10,85,86,1610612760.0,Paul,Paul 26' 3PT Step Back Jump Shot (20 PTS),rebound,timeout,1,High
+21900011,607,timeout,4,PT04M08.00S,04:08,Q4 04:08,85,86,1610612762.0,,JAZZ Timeout: Regular (Full 5 Short 0),3pt made,substitution,1,High
+21900011,608,substitution,4,PT04M08.00S,04:08,Q4 04:08,85,86,1610612762.0,Mudiay,SUB out: E. Mudiay,timeout,substitution,1,High
+21900011,609,substitution,4,PT04M08.00S,04:08,Q4 04:08,85,86,1610612762.0,Bogdanovic,SUB out: B. Bogdanovic,substitution,substitution,1,High
+21900011,610,substitution,4,PT04M08.00S,04:08,Q4 04:08,85,86,1610612760.0,Gilgeous-Alexander,SUB out: S. Gilgeous-Alexander,substitution,substitution,1,High
+21900011,611,substitution,4,PT04M08.00S,04:08,Q4 04:08,85,86,1610612762.0,Conley,SUB in: M. Conley,substitution,substitution,1,High
+21900011,612,substitution,4,PT04M08.00S,04:08,Q4 04:08,85,86,1610612762.0,Ingles,SUB in: J. Ingles,substitution,substitution,1,High
+21900011,613,substitution,4,PT04M08.00S,04:08,Q4 04:08,85,86,1610612760.0,Ferguson,SUB in: T. Ferguson,substitution,2pt made,1,High
+21900011,614,2pt,4,PT03M56.00S,03:56,Q4 03:56,87,86,1610612762.0,Mitchell,Mitchell 3' Driving Layup (24 PTS) (Conley 5 AST),substitution,2pt missed,1,High
+21900011,616,2pt,4,PT03M31.00S,03:31,Q4 03:31,87,86,1610612760.0,Paul,MISS Paul 5' Driving Layup,2pt made,rebound,1,High
+21900011,617,rebound,4,PT03M30.00S,03:30,Q4 03:30,87,86,1610612762.0,O'Neale,O'Neale REBOUND (Off:0 Def:5),2pt missed,foul,1,High
+21900011,618,foul,4,PT03M30.00S,03:30,Q4 03:30,87,86,1610612760.0,Paul,Paul Personal Take Foul (P4.T3) (D.Taylor),rebound,substitution,1,High
+21900011,620,substitution,4,PT03M30.00S,03:30,Q4 03:30,87,86,1610612760.0,Diallo,SUB out: H. Diallo,foul,substitution,1,High
+21900011,621,substitution,4,PT03M30.00S,03:30,Q4 03:30,87,86,1610612760.0,Ferguson,SUB out: T. Ferguson,substitution,substitution,1,High
+21900011,622,substitution,4,PT03M30.00S,03:30,Q4 03:30,87,86,1610612760.0,Gilgeous-Alexander,SUB in: S. Gilgeous-Alexander,substitution,substitution,1,High
+21900011,623,substitution,4,PT03M30.00S,03:30,Q4 03:30,87,86,1610612760.0,Schroder,SUB in: D. Schroder,substitution,2pt made,1,High
+21900011,624,2pt,4,PT03M15.00S,03:15,Q4 03:15,89,86,1610612762.0,Mitchell,Mitchell 3' Driving Layup (26 PTS),substitution,timeout,3,High
+21900011,625,timeout,4,PT03M12.00S,03:12,Q4 03:12,89,86,1610612760.0,,Thunder Timeout: Regular (Reg.4 Short 0),2pt made,2pt missed,3,High
+21900011,626,2pt,4,PT02M57.00S,02:57,Q4 02:57,89,86,1610612760.0,Gallinari,MISS Gallinari 19' Jump Shot,timeout,rebound,3,High
+21900011,627,rebound,4,PT02M54.00S,02:54,Q4 02:54,89,86,1610612762.0,Mitchell,Mitchell REBOUND (Off:1 Def:6),2pt missed,2pt missed,3,High
+21900011,628,2pt,4,PT02M47.00S,02:47,Q4 02:47,89,86,1610612762.0,Mitchell,MISS Mitchell 4' Driving Layup,rebound,rebound,3,High
+21900011,629,rebound,4,PT02M46.00S,02:46,Q4 02:46,89,86,1610612762.0,Mitchell,Mitchell REBOUND (Off:3 Def:6),2pt missed,2pt missed,3,High
+21900011,630,2pt,4,PT02M45.00S,02:45,Q4 02:45,89,86,1610612762.0,Mitchell,MISS Mitchell 2' Layup,rebound,2pt missed,3,High
+21900011,636,2pt,4,PT02M45.00S,02:45,Q4 02:45,89,86,1610612762.0,Mitchell,MISS Mitchell 1' Tip Layup Shot,2pt missed,rebound,3,High
+21900011,639,rebound,4,PT02M45.00S,02:45,Q4 02:45,89,86,1610612762.0,Mitchell,Mitchell REBOUND (Off:2 Def:6),2pt missed,rebound,3,High
+21900011,631,rebound,4,PT02M44.00S,02:44,Q4 02:44,89,86,1610612762.0,Mitchell,Mitchell REBOUND (Off:4 Def:6),rebound,3pt missed,3,High
+21900011,632,3pt,4,PT02M42.00S,02:42,Q4 02:42,89,86,1610612762.0,Conley,MISS Conley 3PT Jump Shot,rebound,rebound,3,High
+21900011,633,rebound,4,PT02M39.00S,02:39,Q4 02:39,89,86,1610612760.0,Gilgeous-Alexander,Gilgeous-Alexander REBOUND (Off:0 Def:2),3pt missed,foul,3,High
+21900011,634,foul,4,PT02M25.00S,02:25,Q4 02:25,89,86,1610612762.0,Ingles,Ingles P.FOUL (P2.T4) (D.Taylor),rebound,foul,3,High
+21900011,637,foul,4,PT02M20.00S,02:20,Q4 02:20,89,86,1610612762.0,O'Neale,O'Neale P.FOUL (P4.PN) (K.Fitzgerald),foul,freethrow,3,High
+21900011,640,freethrow,4,PT02M20.00S,02:20,Q4 02:20,89,87,1610612760.0,Gallinari,Gallinari Free Throw 1 of 2 (17 PTS),foul,freethrow,2,High
+21900011,641,freethrow,4,PT02M20.00S,02:20,Q4 02:20,89,88,1610612760.0,Gallinari,Gallinari Free Throw 2 of 2 (18 PTS),freethrow,3pt made,1,High
+21900011,642,3pt,4,PT02M06.00S,02:06,Q4 02:06,92,88,1610612762.0,O'Neale,O'Neale 25' 3PT Jump Shot (14 PTS) (Mitchell 3 AST),freethrow,foul,4,High
+21900011,646,foul,4,PT01M41.00S,01:41,Q4 01:41,92,88,1610612762.0,Conley,Conley P.FOUL (P5.PN) (K.Fitzgerald),3pt made,freethrow,4,Very High
+21900011,648,freethrow,4,PT01M41.00S,01:41,Q4 01:41,92,89,1610612760.0,Paul,Paul Free Throw 1 of 2 (21 PTS),foul,freethrow,3,Very High
+21900011,649,freethrow,4,PT01M41.00S,01:41,Q4 01:41,92,90,1610612760.0,Paul,Paul Free Throw 2 of 2 (22 PTS),freethrow,3pt missed,2,Very High
+21900011,650,3pt,4,PT01M30.00S,01:30,Q4 01:30,92,90,1610612762.0,Conley,MISS Conley 24' 3PT Jump Shot,freethrow,rebound,2,Very High
+21900011,651,rebound,4,PT01M27.00S,01:27,Q4 01:27,92,90,1610612760.0,Gallinari,Gallinari REBOUND (Off:0 Def:7),3pt missed,3pt missed,2,Very High
+21900011,652,3pt,4,PT01M06.00S,01:06,Q4 01:06,92,90,1610612760.0,Paul,MISS Paul 3PT Jump Shot,rebound,rebound,2,Very High
+21900011,653,rebound,4,PT01M03.00S,01:03,Q4 01:03,92,90,1610612762.0,Mitchell,Mitchell REBOUND (Off:4 Def:7),3pt missed,2pt missed,2,Very High
+21900011,654,2pt,4,PT00M54.70S,00:54,Q4 00:54,92,90,1610612762.0,Mitchell,MISS Mitchell 11' Turnaround Fadeaway Bank Jump Shot,rebound,rebound,2,Very High
+21900011,655,rebound,4,PT00M54.40S,00:54,Q4 00:54,92,90,1610612762.0,Mitchell,Mitchell REBOUND (Off:5 Def:7),2pt missed,2pt made,2,Very High
+21900011,656,2pt,4,PT00M54.40S,00:54,Q4 00:54,94,90,1610612762.0,Mitchell,Mitchell 5' Tip Layup Shot (28 PTS),rebound,timeout,4,Very High
+21900011,657,timeout,4,PT00M54.40S,00:54,Q4 00:54,94,90,1610612760.0,,Thunder Timeout: Regular (Reg.5 Short 0),2pt made,foul,4,Very High
+21900011,658,foul,4,PT00M40.30S,00:40,Q4 00:40,94,90,1610612762.0,Gobert,Gobert S.FOUL (P4.PN) (D.Taylor),timeout,freethrow,4,Very High
+21900011,660,freethrow,4,PT00M40.30S,00:40,Q4 00:40,94,91,1610612760.0,Adams,Adams Free Throw 1 of 2 (3 PTS),foul,freethrow,3,Very High
+21900011,663,freethrow,4,PT00M40.30S,00:40,Q4 00:40,94,91,1610612760.0,Adams,MISS Adams Free Throw 2 of 2,freethrow,substitution,3,Very High
+21900011,661,substitution,4,PT00M40.30S,00:40,Q4 00:40,94,91,1610612760.0,Gallinari,SUB out: D. Gallinari,freethrow,substitution,3,Very High
+21900011,662,substitution,4,PT00M40.30S,00:40,Q4 00:40,94,91,1610612760.0,Diallo,SUB in: H. Diallo,substitution,rebound,3,Very High
+21900011,664,rebound,4,PT00M38.50S,00:38,Q4 00:38,94,91,1610612762.0,Gobert,Gobert REBOUND (Off:3 Def:11),substitution,2pt made,3,Very High
+21900011,665,2pt,4,PT00M21.80S,00:21,Q4 00:21,96,91,1610612762.0,Mitchell,Mitchell 19' Pullup Jump Shot (30 PTS),rebound,timeout,5,Very High
+21900011,666,timeout,4,PT00M21.00S,00:21,Q4 00:21,96,91,1610612760.0,,Thunder Timeout: Regular (Reg.6 Short 0),2pt made,substitution,5,Very High
+21900011,667,substitution,4,PT00M21.00S,00:21,Q4 00:21,96,91,1610612760.0,Diallo,SUB out: H. Diallo,timeout,substitution,5,Very High
+21900011,668,substitution,4,PT00M21.00S,00:21,Q4 00:21,96,91,1610612760.0,Gallinari,SUB in: D. Gallinari,substitution,3pt made,5,Very High
+21900011,669,3pt,4,PT00M15.80S,00:15,Q4 00:15,96,94,1610612760.0,Gallinari,Gallinari 26' 3PT Jump Shot (21 PTS) (Gilgeous-Alexander 1 AST),substitution,foul,2,Very High
+21900011,671,foul,4,PT00M11.40S,00:11,Q4 00:11,96,94,1610612760.0,Gallinari,Gallinari P.FOUL (P2.T4) (K.Fitzgerald),3pt made,timeout,2,Very High
+21900011,673,timeout,4,PT00M11.40S,00:11,Q4 00:11,96,94,1610612762.0,,JAZZ Timeout: Regular (Full 6 Short 0),foul,substitution,2,Very High
+21900011,674,substitution,4,PT00M11.40S,00:11,Q4 00:11,96,94,1610612760.0,Gallinari,SUB out: D. Gallinari,timeout,substitution,2,Very High
+21900011,675,substitution,4,PT00M11.40S,00:11,Q4 00:11,96,94,1610612762.0,O'Neale,SUB out: R. O'Neale,substitution,substitution,2,Very High
+21900011,676,substitution,4,PT00M11.40S,00:11,Q4 00:11,96,94,1610612760.0,Diallo,SUB in: H. Diallo,substitution,substitution,2,Very High
+21900011,677,substitution,4,PT00M11.40S,00:11,Q4 00:11,96,94,1610612762.0,Bogdanovic,SUB in: B. Bogdanovic,substitution,foul,2,Very High
+21900011,678,foul,4,PT00M08.10S,00:08,Q4 00:08,96,94,1610612760.0,Diallo,Diallo P.FOUL (P3.PN) (T.Maddox),substitution,freethrow,2,Very High
+21900011,680,freethrow,4,PT00M08.10S,00:08,Q4 00:08,97,94,1610612762.0,Mitchell,Mitchell Free Throw 1 of 2 (31 PTS),foul,freethrow,3,Very High
+21900011,686,freethrow,4,PT00M08.10S,00:08,Q4 00:08,98,94,1610612762.0,Mitchell,Mitchell Free Throw 2 of 2 (32 PTS),freethrow,substitution,4,Very High
+21900011,682,substitution,4,PT00M08.10S,00:08,Q4 00:08,97,94,1610612760.0,Diallo,SUB out: H. Diallo,freethrow,substitution,3,Very High
+21900011,683,substitution,4,PT00M08.10S,00:08,Q4 00:08,97,94,1610612762.0,Bogdanovic,SUB out: B. Bogdanovic,substitution,substitution,3,Very High
+21900011,684,substitution,4,PT00M08.10S,00:08,Q4 00:08,97,94,1610612760.0,Gallinari,SUB in: D. Gallinari,substitution,substitution,3,Very High
+21900011,685,substitution,4,PT00M08.10S,00:08,Q4 00:08,97,94,1610612762.0,O'Neale,SUB in: R. O'Neale,substitution,foul,3,Very High
+21900011,687,foul,4,PT00M02.80S,00:02,Q4 00:02,98,94,1610612762.0,Gobert,Gobert S.FOUL (P5.PN) (T.Maddox),substitution,freethrow,4,Very High
+21900011,689,freethrow,4,PT00M02.80S,00:02,Q4 00:02,98,94,1610612760.0,Gilgeous-Alexander,MISS Gilgeous-Alexander Free Throw 1 of 2,foul,rebound,4,Very High
+21900011,690,rebound,4,PT00M02.80S,00:02,Q4 00:02,98,94,1610612760.0,,TEAM offensive REBOUND,freethrow,freethrow,4,Very High
+21900011,693,freethrow,4,PT00M02.80S,00:02,Q4 00:02,98,95,1610612760.0,Gilgeous-Alexander,Gilgeous-Alexander Free Throw 2 of 2 (26 PTS),rebound,timeout,3,Very High
+21900011,694,timeout,4,PT00M02.80S,00:02,Q4 00:02,98,95,1610612762.0,,JAZZ Timeout: Regular (Full 7 Short 0),freethrow,substitution,3,Very High
+21900011,691,substitution,4,PT00M02.80S,00:02,Q4 00:02,98,94,1610612762.0,Conley,SUB out: M. Conley,timeout,substitution,4,Very High
+21900011,692,substitution,4,PT00M02.80S,00:02,Q4 00:02,98,95,1610612760.0,Gallinari,SUB out: D. Gallinari,substitution,substitution,3,Very High
+21900011,693,substitution,4,PT00M02.80S,00:02,Q4 00:02,98,95,1610612762.0,Davis,SUB out: E. Davis,substitution,substitution,3,Very High
+21900011,694,substitution,4,PT00M02.80S,00:02,Q4 00:02,98,94,1610612762.0,Davis,SUB in: E. Davis,substitution,substitution,4,Very High
+21900011,695,substitution,4,PT00M02.80S,00:02,Q4 00:02,98,95,1610612760.0,Diallo,SUB in: H. Diallo,substitution,substitution,3,Very High
+21900011,696,substitution,4,PT00M02.80S,00:02,Q4 00:02,98,95,1610612762.0,Conley,SUB in: M. Conley,substitution,foul,3,Very High
+21900011,701,foul,4,PT00M02.10S,00:02,Q4 00:02,98,95,1610612760.0,Gilgeous-Alexander,Gilgeous-Alexander P.FOUL (P2.PN) (K.Fitzgerald),substitution,freethrow,3,Very High
+21900011,703,freethrow,4,PT00M02.10S,00:02,Q4 00:02,99,95,1610612762.0,Conley,Conley Free Throw 1 of 2 (4 PTS),foul,freethrow,4,Very High
+21900011,704,freethrow,4,PT00M02.10S,00:02,Q4 00:02,100,95,1610612762.0,Conley,Conley Free Throw 2 of 2 (5 PTS),freethrow,turnover,5,Very High
+21900011,705,turnover,4,PT00M00.30S,00:00,Q4 00:00,100,95,1610612760.0,Adams,Adams Bad Pass Turnover (P2.T16),freethrow,steal,5,Very High
+21900011,705,steal,4,PT00M00.30S,00:00,Q4 00:00,100,95,1610612762.0,Mitchell,Mitchell STEAL (1 STL),turnover,period,5,Very High
+21900011,707,period,4,PT00M00.00S,00:00,Q4 00:00,100,95,1610612762.0,,End of 4th Period (11:37 PM EST),steal,,5,Very High

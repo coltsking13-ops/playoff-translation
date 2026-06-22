@@ -1,0 +1,550 @@
+game_id,actionNumber,actionType,period,clock,clock_display,game_clock,scoreHome,scoreAway,teamId,playerName,description,previous_action,next_action,score_margin,leverage_bucket
+21400304,0,period,1,PT12M00.00S,12:00,Q1 12:00,0,0,1610612761.0,,Start of 1st Period (7:41 PM EST),,2pt made,0,Low
+21400304,2,2pt,1,PT11M43.00S,11:43,Q1 11:43,0,2,1610612743.0,Afflalo,Afflalo 19' Jump Shot (2 PTS) (Lawson 1 AST),period,2pt missed,2,Low
+21400304,3,2pt,1,PT11M21.00S,11:21,Q1 11:21,0,2,1610612761.0,Lowry,MISS Lowry 22' Jump Shot,2pt made,rebound,2,Low
+21400304,4,rebound,1,PT11M20.00S,11:20,Q1 11:20,0,2,1610612743.0,,TEAM defensive REBOUND,2pt missed,turnover,2,Low
+21400304,5,turnover,1,PT11M07.00S,11:07,Q1 11:07,0,2,1610612743.0,Afflalo,Afflalo Lost Ball Turnover (P1.T1),rebound,steal,2,Low
+21400304,5,steal,1,PT11M07.00S,11:07,Q1 11:07,0,2,1610612761.0,Ross,Ross STEAL (1 STL),turnover,3pt missed,2,Low
+21400304,6,3pt,1,PT10M55.00S,10:55,Q1 10:55,0,2,1610612761.0,Vasquez,MISS Vasquez 26' 3PT Jump Shot,steal,rebound,2,Low
+21400304,7,rebound,1,PT10M54.00S,10:54,Q1 10:54,0,2,1610612743.0,Lawson,Lawson REBOUND (Off:0 Def:1),3pt missed,3pt missed,2,Low
+21400304,8,3pt,1,PT10M40.00S,10:40,Q1 10:40,0,2,1610612743.0,Afflalo,MISS Afflalo 3PT Jump Shot,rebound,rebound,2,Low
+21400304,9,rebound,1,PT10M39.00S,10:39,Q1 10:39,0,2,1610612761.0,Vasquez,Vasquez REBOUND (Off:0 Def:1),3pt missed,foul,2,Low
+21400304,10,foul,1,PT10M26.00S,10:26,Q1 10:26,0,2,1610612743.0,Hickson,Hickson S.FOUL (P1.T1),rebound,freethrow,2,Low
+21400304,11,freethrow,1,PT10M26.00S,10:26,Q1 10:26,1,2,1610612761.0,Valanciunas,Valanciunas Free Throw 1 of 2 (1 PTS),foul,freethrow,1,Low
+21400304,13,freethrow,1,PT10M26.00S,10:26,Q1 10:26,2,2,1610612761.0,Valanciunas,Valanciunas Free Throw 2 of 2 (2 PTS),freethrow,2pt made,0,Low
+21400304,16,2pt,1,PT10M14.00S,10:14,Q1 10:14,2,4,1610612743.0,Hickson,Hickson 4' Driving Layup (2 PTS) (Lawson 2 AST),freethrow,foul,2,Low
+21400304,17,foul,1,PT10M14.00S,10:14,Q1 10:14,2,4,1610612761.0,Johnson,A. Johnson Shooting Block Foul (P1.T1),2pt made,freethrow,2,Low
+21400304,18,freethrow,1,PT10M14.00S,10:14,Q1 10:14,2,5,1610612743.0,Hickson,Hickson Free Throw 1 of 1 (3 PTS),foul,foul,3,Low
+21400304,20,foul,1,PT09M59.00S,09:59,Q1 09:59,2,5,1610612743.0,Mozgov,Mozgov Shooting Block Foul (P1.T2),freethrow,freethrow,3,Low
+21400304,21,freethrow,1,PT09M59.00S,09:59,Q1 09:59,3,5,1610612761.0,Ross,Ross Free Throw 1 of 2 (1 PTS),foul,freethrow,2,Low
+21400304,23,freethrow,1,PT09M59.00S,09:59,Q1 09:59,3,5,1610612761.0,Ross,MISS Ross Free Throw 2 of 2,freethrow,rebound,2,Low
+21400304,25,rebound,1,PT09M58.00S,09:58,Q1 09:58,3,5,1610612743.0,Mozgov,Mozgov REBOUND (Off:0 Def:1),freethrow,foul,2,Low
+21400304,26,foul,1,PT09M51.00S,09:51,Q1 09:51,3,5,1610612743.0,Lawson,Lawson Offensive Charge Foul (P1),rebound,turnover,2,Low
+21400304,27,turnover,1,PT09M51.00S,09:51,Q1 09:51,3,5,1610612743.0,Lawson,Lawson Foul Turnover (P1.T2),foul,2pt made,2,Low
+21400304,28,2pt,1,PT09M34.00S,09:34,Q1 09:34,5,5,1610612761.0,Ross,Ross 16' Pullup Jump Shot (3 PTS),turnover,turnover,0,Low
+21400304,29,turnover,1,PT09M19.00S,09:19,Q1 09:19,5,5,1610612743.0,Chandler,Chandler Bad Pass Turnover (P1.T3),2pt made,steal,0,Low
+21400304,29,steal,1,PT09M19.00S,09:19,Q1 09:19,5,5,1610612761.0,Vasquez,Vasquez STEAL (1 STL),turnover,2pt made,0,Low
+21400304,30,2pt,1,PT09M13.00S,09:13,Q1 09:13,7,5,1610612761.0,Johnson,A. Johnson Running Slam Dunk (2 PTS) (Lowry 1 AST),steal,2pt made,2,Low
+21400304,31,2pt,1,PT09M00.00S,09:00,Q1 09:00,7,7,1610612743.0,Lawson,Lawson 21' Jump Shot (2 PTS),2pt made,2pt made,0,Low
+21400304,32,2pt,1,PT08M41.00S,08:41,Q1 08:41,9,7,1610612761.0,Valanciunas,Valanciunas 10' Turnaround Bank Hook Shot (4 PTS),2pt made,2pt missed,2,Low
+21400304,33,2pt,1,PT08M19.00S,08:19,Q1 08:19,9,7,1610612743.0,Chandler,MISS Chandler 7' Driving Hook Shot,2pt made,rebound,2,Low
+21400304,34,rebound,1,PT08M18.00S,08:18,Q1 08:18,9,7,1610612761.0,Valanciunas,Valanciunas REBOUND (Off:0 Def:1),2pt missed,2pt made,2,Low
+21400304,35,2pt,1,PT08M11.00S,08:11,Q1 08:11,11,7,1610612761.0,Vasquez,Vasquez 2' Driving Layup (2 PTS),rebound,foul,4,Low
+21400304,37,foul,1,PT08M01.00S,08:01,Q1 08:01,11,7,1610612761.0,Lowry,Lowry S.FOUL (P1.T2),2pt made,freethrow,4,Low
+21400304,39,freethrow,1,PT08M01.00S,08:01,Q1 08:01,11,8,1610612743.0,Lawson,Lawson Free Throw 1 of 2 (3 PTS),foul,freethrow,3,Low
+21400304,41,freethrow,1,PT08M01.00S,08:01,Q1 08:01,11,8,1610612743.0,Lawson,MISS Lawson Free Throw 2 of 2,freethrow,rebound,3,Low
+21400304,43,rebound,1,PT07M59.00S,07:59,Q1 07:59,11,8,1610612761.0,Valanciunas,Valanciunas REBOUND (Off:0 Def:2),freethrow,2pt made,3,Low
+21400304,44,2pt,1,PT07M43.00S,07:43,Q1 07:43,13,8,1610612761.0,Ross,Ross 6' Jump Hook Shot (5 PTS),rebound,2pt made,5,Low
+21400304,45,2pt,1,PT07M26.00S,07:26,Q1 07:26,13,10,1610612743.0,Afflalo,Afflalo 8' Floating Jump Shot (4 PTS) (Lawson 3 AST),2pt made,2pt made,3,Low
+21400304,46,2pt,1,PT07M07.00S,07:07,Q1 07:07,15,10,1610612761.0,Johnson,A. Johnson 5' Turnaround Hook Shot (4 PTS),2pt made,3pt made,5,Low
+21400304,47,3pt,1,PT06M50.00S,06:50,Q1 06:50,15,13,1610612743.0,Chandler,Chandler 24' 3PT Jump Shot (3 PTS) (Lawson 4 AST),2pt made,2pt missed,2,Low
+21400304,48,2pt,1,PT06M33.00S,06:33,Q1 06:33,15,13,1610612761.0,Valanciunas,MISS Valanciunas 16' Jump Shot,3pt made,rebound,2,Low
+21400304,49,rebound,1,PT06M32.00S,06:32,Q1 06:32,15,13,1610612743.0,Afflalo,Afflalo REBOUND (Off:0 Def:1),2pt missed,3pt made,2,Low
+21400304,50,3pt,1,PT06M22.00S,06:22,Q1 06:22,15,16,1610612743.0,Chandler,Chandler 25' 3PT Jump Shot (6 PTS) (Lawson 5 AST),rebound,2pt made,1,Low
+21400304,51,2pt,1,PT06M00.00S,06:00,Q1 06:00,17,16,1610612761.0,Vasquez,Vasquez 4' Floating Jump Shot (4 PTS) (Lowry 2 AST),3pt made,3pt made,1,Low
+21400304,52,3pt,1,PT05M43.00S,05:43,Q1 05:43,17,19,1610612743.0,Chandler,Chandler 3PT Jump Shot (9 PTS) (Lawson 6 AST),2pt made,timeout,2,Low
+21400304,53,timeout,1,PT05M35.00S,05:35,Q1 05:35,17,19,1610612761.0,,RAPTORS Timeout: Regular (Full 1 Short 0),3pt made,foul,2,Low
+21400304,56,foul,1,PT05M26.00S,05:26,Q1 05:26,17,19,1610612743.0,Lawson,Lawson S.FOUL (P2.T3),timeout,freethrow,2,Low
+21400304,57,freethrow,1,PT05M26.00S,05:26,Q1 05:26,18,19,1610612761.0,Lowry,Lowry Free Throw 1 of 2 (1 PTS),foul,freethrow,1,Low
+21400304,59,freethrow,1,PT05M26.00S,05:26,Q1 05:26,19,19,1610612761.0,Lowry,Lowry Free Throw 2 of 2 (2 PTS),freethrow,2pt missed,0,Low
+21400304,65,2pt,1,PT05M06.00S,05:06,Q1 05:06,19,19,1610612743.0,Hickson,MISS Hickson 3' Finger Roll Layup,freethrow,rebound,0,Low
+21400304,61,rebound,1,PT05M04.00S,05:04,Q1 05:04,19,19,1610612743.0,Hickson,Hickson REBOUND (Off:1 Def:0),2pt missed,2pt missed,0,Low
+21400304,63,2pt,1,PT05M03.00S,05:03,Q1 05:03,19,19,1610612743.0,Hickson,MISS Hickson 2' Tip Shot,rebound,rebound,0,Low
+21400304,62,rebound,1,PT05M02.00S,05:02,Q1 05:02,19,19,1610612761.0,Johnson,A. Johnson REBOUND (Off:0 Def:1),2pt missed,2pt made,0,Low
+21400304,64,2pt,1,PT04M49.00S,04:49,Q1 04:49,21,19,1610612761.0,Lowry,Lowry 22' Jump Shot (4 PTS),rebound,2pt made,2,Low
+21400304,66,2pt,1,PT04M30.00S,04:30,Q1 04:30,21,21,1610612743.0,Lawson,Lawson 3' Driving Layup (5 PTS),2pt made,2pt made,0,Low
+21400304,67,2pt,1,PT04M21.00S,04:21,Q1 04:21,23,21,1610612761.0,Lowry,Lowry 20' Pullup Jump Shot (6 PTS),2pt made,3pt made,2,Low
+21400304,68,3pt,1,PT04M03.00S,04:03,Q1 04:03,23,24,1610612743.0,Lawson,Lawson 26' 3PT Jump Shot (8 PTS),2pt made,2pt made,1,Low
+21400304,69,2pt,1,PT03M50.00S,03:50,Q1 03:50,25,24,1610612761.0,Valanciunas,Valanciunas 3' Jump Hook Shot (6 PTS) (Lowry 3 AST),3pt made,3pt missed,1,Low
+21400304,70,3pt,1,PT03M43.00S,03:43,Q1 03:43,25,24,1610612743.0,Lawson,MISS Lawson 26' 3PT Jump Shot,2pt made,rebound,1,Low
+21400304,71,rebound,1,PT03M42.00S,03:42,Q1 03:42,25,24,1610612761.0,Valanciunas,Valanciunas REBOUND (Off:0 Def:3),3pt missed,2pt made,1,Low
+21400304,72,2pt,1,PT03M29.00S,03:29,Q1 03:29,27,24,1610612761.0,Valanciunas,Valanciunas Slam Dunk (8 PTS) (A. Johnson 1 AST),rebound,turnover,3,Low
+21400304,73,turnover,1,PT03M15.00S,03:15,Q1 03:15,27,24,1610612743.0,Afflalo,Afflalo Traveling Turnover (P2.T4),2pt made,substitution,3,Low
+21400304,74,substitution,1,PT03M15.00S,03:15,Q1 03:15,27,24,1610612743.0,Chandler,SUB out: W. Chandler,turnover,substitution,3,Low
+21400304,75,substitution,1,PT03M15.00S,03:15,Q1 03:15,27,24,1610612761.0,Vasquez,SUB out: G. Vasquez,substitution,substitution,3,Low
+21400304,76,substitution,1,PT03M15.00S,03:15,Q1 03:15,27,24,1610612761.0,Johnson,SUB out: A. Johnson,substitution,substitution,3,Low
+21400304,77,substitution,1,PT03M15.00S,03:15,Q1 03:15,27,24,1610612743.0,Gee,SUB in: A. Gee,substitution,substitution,3,Low
+21400304,78,substitution,1,PT03M15.00S,03:15,Q1 03:15,27,24,1610612761.0,Williams,SUB in: L. Williams,substitution,substitution,3,Low
+21400304,79,substitution,1,PT03M15.00S,03:15,Q1 03:15,27,24,1610612761.0,Patterson,SUB in: P. Patterson,substitution,foul,3,Low
+21400304,78,foul,1,PT02M53.00S,02:53,Q1 02:53,27,24,1610612743.0,Gee,Gee P.FOUL (P1.T4),substitution,timeout,3,Low
+21400304,79,timeout,1,PT02M53.00S,02:53,Q1 02:53,27,24,1610612743.0,,Nuggets Timeout: Regular (Reg.1 Short 0),foul,substitution,3,Low
+21400304,81,substitution,1,PT02M53.00S,02:53,Q1 02:53,27,24,1610612743.0,Hickson,SUB out: J. Hickson,timeout,substitution,3,Low
+21400304,82,substitution,1,PT02M53.00S,02:53,Q1 02:53,27,24,1610612743.0,Afflalo,SUB out: A. Afflalo,substitution,substitution,3,Low
+21400304,83,substitution,1,PT02M53.00S,02:53,Q1 02:53,27,24,1610612743.0,Harris,SUB in: G. Harris,substitution,substitution,3,Low
+21400304,84,substitution,1,PT02M53.00S,02:53,Q1 02:53,27,24,1610612743.0,Arthur,SUB in: D. Arthur,substitution,2pt made,3,Low
+21400304,83,2pt,1,PT02M38.00S,02:38,Q1 02:38,29,24,1610612761.0,Valanciunas,Valanciunas Slam Dunk (10 PTS) (Patterson 1 AST),substitution,2pt made,5,Low
+21400304,84,2pt,1,PT02M25.00S,02:25,Q1 02:25,29,26,1610612743.0,Arthur,Arthur 21' Jump Shot (2 PTS) (Lawson 7 AST),2pt made,foul,3,Low
+21400304,85,foul,1,PT02M16.00S,02:16,Q1 02:16,29,26,1610612743.0,Harris,Harris S.FOUL (P1.PN),2pt made,freethrow,3,Low
+21400304,86,freethrow,1,PT02M16.00S,02:16,Q1 02:16,30,26,1610612761.0,Williams,Williams Free Throw 1 of 2 (1 PTS),foul,freethrow,4,Low
+21400304,90,freethrow,1,PT02M16.00S,02:16,Q1 02:16,31,26,1610612761.0,Williams,Williams Free Throw 2 of 2 (2 PTS),freethrow,substitution,5,Low
+21400304,88,substitution,1,PT02M16.00S,02:16,Q1 02:16,30,26,1610612761.0,Lowry,SUB out: K. Lowry,freethrow,substitution,4,Low
+21400304,89,substitution,1,PT02M16.00S,02:16,Q1 02:16,30,26,1610612743.0,Lawson,SUB out: T. Lawson,substitution,substitution,4,Low
+21400304,90,substitution,1,PT02M16.00S,02:16,Q1 02:16,30,26,1610612761.0,Vasquez,SUB in: G. Vasquez,substitution,substitution,4,Low
+21400304,91,substitution,1,PT02M16.00S,02:16,Q1 02:16,30,26,1610612743.0,Green,SUB in: E. Green,substitution,foul,4,Low
+21400304,92,foul,1,PT02M08.00S,02:08,Q1 02:08,31,26,1610612743.0,Arthur,Arthur OFF.Foul (P1),substitution,turnover,5,Low
+21400304,93,turnover,1,PT02M08.00S,02:08,Q1 02:08,31,26,1610612743.0,Arthur,Arthur Foul Turnover (P1.T5),foul,2pt missed,5,Low
+21400304,94,2pt,1,PT01M53.00S,01:53,Q1 01:53,31,26,1610612761.0,Patterson,MISS Patterson 8' Pullup Jump Shot,turnover,rebound,5,Low
+21400304,95,rebound,1,PT01M52.00S,01:52,Q1 01:52,31,26,1610612743.0,Mozgov,Mozgov REBOUND (Off:0 Def:2),2pt missed,2pt made,5,Low
+21400304,97,2pt,1,PT01M40.00S,01:40,Q1 01:40,31,28,1610612743.0,Mozgov,Mozgov Dunk (2 PTS) (Gee 1 AST),rebound,2pt missed,3,Low
+21400304,98,2pt,1,PT01M12.00S,01:12,Q1 01:12,31,28,1610612761.0,Valanciunas,MISS Valanciunas 22' Turnaround Fadeaway Shot,2pt made,rebound,3,Low
+21400304,99,rebound,1,PT01M11.00S,01:11,Q1 01:11,31,28,1610612743.0,Arthur,Arthur REBOUND (Off:0 Def:1),2pt missed,2pt missed,3,Low
+21400304,100,2pt,1,PT01M04.00S,01:04,Q1 01:04,31,28,1610612743.0,Green,MISS Green 14' Pullup Jump Shot,rebound,rebound,3,Low
+21400304,101,rebound,1,PT01M03.00S,01:03,Q1 01:03,31,28,1610612761.0,Valanciunas,Valanciunas REBOUND (Off:0 Def:4),2pt missed,2pt made,3,Low
+21400304,102,2pt,1,PT00M53.90S,00:53,Q1 00:53,33,28,1610612761.0,Williams,Williams 19' Pullup Jump Shot (4 PTS),rebound,2pt missed,5,Low
+21400304,103,2pt,1,PT00M39.90S,00:39,Q1 00:39,33,28,1610612743.0,Arthur,MISS Arthur 12' Running Bank Shot,2pt made,rebound,5,Low
+21400304,104,rebound,1,PT00M38.90S,00:38,Q1 00:38,33,28,1610612761.0,Valanciunas,Valanciunas REBOUND (Off:0 Def:5),2pt missed,foul,5,Low
+21400304,105,foul,1,PT00M32.10S,00:32,Q1 00:32,33,28,1610612743.0,Green,Green S.FOUL (P1.PN),rebound,freethrow,5,Low
+21400304,106,freethrow,1,PT00M32.10S,00:32,Q1 00:32,34,28,1610612761.0,Williams,Williams Free Throw 1 of 2 (5 PTS),foul,freethrow,6,Low
+21400304,108,freethrow,1,PT00M32.10S,00:32,Q1 00:32,35,28,1610612761.0,Williams,Williams Free Throw 2 of 2 (6 PTS),freethrow,foul,7,Low
+21400304,110,foul,1,PT00M19.40S,00:19,Q1 00:19,35,28,1610612761.0,Vasquez,Vasquez Personal Block Foul (P1.T3),freethrow,2pt made,7,Low
+21400304,111,2pt,1,PT00M07.90S,00:07,Q1 00:07,35,30,1610612743.0,Green,Green 8' Pullup Jump Shot (2 PTS),foul,2pt missed,5,Low
+21400304,112,2pt,1,PT00M00.00S,00:00,Q1 00:00,35,30,1610612761.0,Williams,MISS Williams 11' Floating Jump Shot,2pt made,rebound,5,Low
+21400304,113,rebound,1,PT00M00.00S,00:00,Q1 00:00,35,30,1610612761.0,,TEAM offensive REBOUND,2pt missed,instant replay,5,Low
+21400304,117,period,1,PT00M00.00S,00:00,Q1 00:00,35,30,1610612761.0,,End of 1st Period (8:07 PM EST),instant replay,period,5,Low
+21400304,119,period,2,PT12M00.00S,12:00,Q2 12:00,35,30,1610612761.0,,Start of 2nd Period (8:08 PM EST),period,substitution,5,Low
+21400304,120,foul,2,PT11M45.00S,11:45,Q2 11:45,35,30,1610612743.0,Green,Green S.FOUL (P2.T1),substitution,freethrow,5,Low
+21400304,121,freethrow,2,PT11M45.00S,11:45,Q2 11:45,35,30,1610612761.0,Vasquez,MISS Vasquez Free Throw 1 of 2,foul,rebound,5,Low
+21400304,122,rebound,2,PT11M45.00S,11:45,Q2 11:45,35,30,1610612761.0,,TEAM offensive REBOUND,freethrow,freethrow,5,Low
+21400304,123,freethrow,2,PT11M45.00S,11:45,Q2 11:45,36,30,1610612761.0,Vasquez,Vasquez Free Throw 2 of 2 (5 PTS),rebound,2pt missed,6,Low
+21400304,125,2pt,2,PT11M28.00S,11:28,Q2 11:28,36,30,1610612743.0,Gallinari,MISS Gallinari 17' Jump Shot,freethrow,rebound,6,Low
+21400304,126,rebound,2,PT11M27.00S,11:27,Q2 11:27,36,30,1610612743.0,Arthur,Arthur REBOUND (Off:1 Def:1),2pt missed,2pt missed,6,Low
+21400304,127,2pt,2,PT11M24.00S,11:24,Q2 11:24,36,30,1610612743.0,Harris,MISS Harris 2' Layup,rebound,block,6,Low
+21400304,127,block,2,PT11M24.00S,11:24,Q2 11:24,36,30,1610612761.0,Williams,Williams BLOCK (1 BLK),2pt missed,rebound,6,Low
+21400304,128,rebound,2,PT11M22.00S,11:22,Q2 11:22,36,30,1610612761.0,Vasquez,Vasquez REBOUND (Off:0 Def:2),block,2pt missed,6,Low
+21400304,129,2pt,2,PT11M17.00S,11:17,Q2 11:17,36,30,1610612761.0,Hansbrough,MISS Hansbrough 3' Running Layup,rebound,rebound,6,Low
+21400304,130,rebound,2,PT11M16.00S,11:16,Q2 11:16,36,30,1610612743.0,Arthur,Arthur REBOUND (Off:1 Def:2),2pt missed,2pt missed,6,Low
+21400304,131,2pt,2,PT11M13.00S,11:13,Q2 11:13,36,30,1610612743.0,Gee,MISS Gee 5' Driving Layup,rebound,block,6,Low
+21400304,131,block,2,PT11M13.00S,11:13,Q2 11:13,36,30,1610612761.0,Vasquez,Vasquez BLOCK (1 BLK),2pt missed,rebound,6,Low
+21400304,139,rebound,2,PT11M12.00S,11:12,Q2 11:12,36,30,1610612743.0,,TEAM offensive REBOUND,block,2pt missed,6,Low
+21400304,132,2pt,2,PT11M10.00S,11:10,Q2 11:10,36,30,1610612743.0,Harris,MISS Harris 18' Jump Shot,rebound,rebound,6,Low
+21400304,133,rebound,2,PT11M09.00S,11:09,Q2 11:09,36,30,1610612761.0,Patterson,Patterson REBOUND (Off:0 Def:1),2pt missed,2pt made,6,Low
+21400304,134,2pt,2,PT10M56.00S,10:56,Q2 10:56,38,30,1610612761.0,Vasquez,Vasquez 22' Pullup Jump Shot (7 PTS) (Patterson 2 AST),rebound,2pt missed,8,Low
+21400304,135,2pt,2,PT10M36.00S,10:36,Q2 10:36,38,30,1610612743.0,Green,MISS Green 21' Fadeaway Jumper,2pt made,rebound,8,Low
+21400304,137,rebound,2,PT10M34.00S,10:34,Q2 10:34,38,30,1610612761.0,Williams,Williams REBOUND (Off:0 Def:1),2pt missed,foul,8,Low
+21400304,138,foul,2,PT10M27.00S,10:27,Q2 10:27,38,30,1610612743.0,Arthur,Arthur Shooting Block Foul (P2.T2),rebound,freethrow,8,Low
+21400304,140,freethrow,2,PT10M27.00S,10:27,Q2 10:27,38,30,1610612761.0,Williams,MISS Williams Free Throw 1 of 2,foul,rebound,8,Low
+21400304,141,rebound,2,PT10M27.00S,10:27,Q2 10:27,38,30,1610612761.0,,TEAM offensive REBOUND,freethrow,freethrow,8,Low
+21400304,144,freethrow,2,PT10M27.00S,10:27,Q2 10:27,39,30,1610612761.0,Williams,Williams Free Throw 2 of 2 (7 PTS),rebound,substitution,9,Low
+21400304,142,substitution,2,PT10M27.00S,10:27,Q2 10:27,38,30,1610612743.0,Green,SUB out: E. Green,freethrow,substitution,8,Low
+21400304,143,substitution,2,PT10M27.00S,10:27,Q2 10:27,38,30,1610612743.0,Arthur,SUB out: D. Arthur,substitution,substitution,8,Low
+21400304,144,substitution,2,PT10M27.00S,10:27,Q2 10:27,38,30,1610612743.0,Lawson,SUB in: T. Lawson,substitution,substitution,8,Low
+21400304,145,substitution,2,PT10M27.00S,10:27,Q2 10:27,38,30,1610612743.0,Mozgov,SUB in: T. Mozgov,substitution,foul,8,Low
+21400304,146,foul,2,PT10M17.00S,10:17,Q2 10:17,39,30,1610612761.0,Hansbrough,Hansbrough Shooting Block Foul (P1.T1),substitution,freethrow,9,Low
+21400304,147,freethrow,2,PT10M17.00S,10:17,Q2 10:17,39,30,1610612743.0,Gee,MISS Gee Free Throw 1 of 2,foul,rebound,9,Low
+21400304,148,rebound,2,PT10M17.00S,10:17,Q2 10:17,39,30,1610612743.0,,TEAM offensive REBOUND,freethrow,freethrow,9,Low
+21400304,149,freethrow,2,PT10M17.00S,10:17,Q2 10:17,39,31,1610612743.0,Gee,Gee Free Throw 2 of 2 (1 PTS),rebound,2pt made,8,Low
+21400304,152,2pt,2,PT10M03.00S,10:03,Q2 10:03,41,31,1610612761.0,Williams,Williams 19' Pullup Jump Shot (9 PTS),freethrow,turnover,10,Low
+21400304,153,turnover,2,PT09M51.00S,09:51,Q2 09:51,41,31,1610612743.0,Gee,Gee Traveling Turnover (P1.T6),2pt made,turnover,10,Low
+21400304,154,turnover,2,PT09M41.00S,09:41,Q2 09:41,41,31,1610612761.0,Williams,Williams Lost Ball Turnover (P1.T1),turnover,steal,10,Low
+21400304,154,steal,2,PT09M41.00S,09:41,Q2 09:41,41,31,1610612743.0,Harris,Harris STEAL (1 STL),turnover,2pt missed,10,Low
+21400304,155,2pt,2,PT09M36.00S,09:36,Q2 09:36,41,31,1610612743.0,Gee,MISS Gee 1' Running Layup,steal,rebound,10,Low
+21400304,156,rebound,2,PT09M35.00S,09:35,Q2 09:35,41,31,1610612761.0,Hansbrough,Hansbrough REBOUND (Off:0 Def:1),2pt missed,3pt made,10,Low
+21400304,157,3pt,2,PT09M26.00S,09:26,Q2 09:26,44,31,1610612761.0,Williams,Williams 3PT Jump Shot (12 PTS) (J. Johnson 1 AST),rebound,foul,13,Low
+21400304,158,foul,2,PT09M12.00S,09:12,Q2 09:12,44,31,1610612761.0,Johnson,J. Johnson S.FOUL (P1.T2),3pt made,freethrow,13,Low
+21400304,159,freethrow,2,PT09M12.00S,09:12,Q2 09:12,44,31,1610612743.0,Lawson,MISS Lawson Free Throw 1 of 2,foul,rebound,13,Low
+21400304,160,rebound,2,PT09M12.00S,09:12,Q2 09:12,44,31,1610612743.0,,TEAM offensive REBOUND,freethrow,freethrow,13,Low
+21400304,165,freethrow,2,PT09M12.00S,09:12,Q2 09:12,44,32,1610612743.0,Lawson,Lawson Free Throw 2 of 2 (9 PTS),rebound,substitution,12,Low
+21400304,161,substitution,2,PT09M12.00S,09:12,Q2 09:12,44,31,1610612743.0,Gee,SUB out: A. Gee,freethrow,substitution,13,Low
+21400304,162,substitution,2,PT09M12.00S,09:12,Q2 09:12,44,31,1610612743.0,Harris,SUB out: G. Harris,substitution,substitution,13,Low
+21400304,163,substitution,2,PT09M12.00S,09:12,Q2 09:12,44,31,1610612761.0,Vasquez,SUB out: G. Vasquez,substitution,substitution,13,Low
+21400304,164,substitution,2,PT09M12.00S,09:12,Q2 09:12,44,31,1610612761.0,Patterson,SUB out: P. Patterson,substitution,substitution,13,Low
+21400304,165,substitution,2,PT09M12.00S,09:12,Q2 09:12,44,31,1610612743.0,Chandler,SUB in: W. Chandler,substitution,substitution,13,Low
+21400304,166,substitution,2,PT09M12.00S,09:12,Q2 09:12,44,31,1610612743.0,Afflalo,SUB in: A. Afflalo,substitution,substitution,13,Low
+21400304,167,substitution,2,PT09M12.00S,09:12,Q2 09:12,44,31,1610612761.0,Johnson,SUB in: A. Johnson,substitution,substitution,13,Low
+21400304,168,substitution,2,PT09M12.00S,09:12,Q2 09:12,44,31,1610612761.0,Lowry,SUB in: K. Lowry,substitution,3pt made,13,Low
+21400304,167,3pt,2,PT08M59.00S,08:59,Q2 08:59,47,32,1610612761.0,Williams,Williams 26' 3PT Step Back Jump Shot (15 PTS),substitution,timeout,15,Low
+21400304,168,timeout,2,PT08M51.00S,08:51,Q2 08:51,47,32,1610612743.0,,Nuggets Timeout: Regular (Reg.2 Short 0),3pt made,substitution,15,Low
+21400304,170,substitution,2,PT08M51.00S,08:51,Q2 08:51,47,32,1610612761.0,Hansbrough,SUB out: T. Hansbrough,timeout,substitution,15,Low
+21400304,171,substitution,2,PT08M51.00S,08:51,Q2 08:51,47,32,1610612761.0,Ross,SUB in: T. Ross,substitution,3pt missed,15,Low
+21400304,172,3pt,2,PT08M35.00S,08:35,Q2 08:35,47,32,1610612743.0,Gallinari,MISS Gallinari 24' 3PT Jump Shot,substitution,rebound,15,Low
+21400304,173,rebound,2,PT08M34.00S,08:34,Q2 08:34,47,32,1610612761.0,Johnson,J. Johnson REBOUND (Off:0 Def:1),3pt missed,3pt missed,15,Low
+21400304,174,3pt,2,PT08M16.00S,08:16,Q2 08:16,47,32,1610612761.0,Williams,MISS Williams 27' 3PT Jump Shot,rebound,rebound,15,Low
+21400304,175,rebound,2,PT08M15.00S,08:15,Q2 08:15,47,32,1610612743.0,Chandler,Chandler REBOUND (Off:0 Def:1),3pt missed,2pt missed,15,Low
+21400304,176,2pt,2,PT08M06.00S,08:06,Q2 08:06,47,32,1610612743.0,Mozgov,MISS Mozgov Reverse Layup,rebound,rebound,15,Low
+21400304,177,rebound,2,PT08M05.00S,08:05,Q2 08:05,47,32,1610612761.0,Johnson,J. Johnson REBOUND (Off:0 Def:2),2pt missed,2pt made,15,Low
+21400304,178,2pt,2,PT07M55.00S,07:55,Q2 07:55,49,32,1610612761.0,Johnson,J. Johnson 2' Layup (2 PTS),rebound,2pt missed,17,Low
+21400304,179,2pt,2,PT07M28.00S,07:28,Q2 07:28,49,32,1610612743.0,Lawson,MISS Lawson 8' Floating Jump Shot,2pt made,rebound,17,Low
+21400304,180,rebound,2,PT07M27.00S,07:27,Q2 07:27,49,32,1610612761.0,Johnson,J. Johnson REBOUND (Off:0 Def:3),2pt missed,3pt missed,17,Low
+21400304,181,3pt,2,PT07M20.00S,07:20,Q2 07:20,49,32,1610612761.0,Ross,MISS Ross 3PT Jump Shot,rebound,rebound,17,Low
+21400304,182,rebound,2,PT07M19.00S,07:19,Q2 07:19,49,32,1610612761.0,Johnson,J. Johnson REBOUND (Off:1 Def:3),3pt missed,turnover,17,Low
+21400304,183,turnover,2,PT07M18.00S,07:18,Q2 07:18,49,32,1610612761.0,Johnson,J. Johnson Out of Bounds Lost Ball Turnover (P1.T2),rebound,substitution,17,Low
+21400304,184,substitution,2,PT07M18.00S,07:18,Q2 07:18,49,32,1610612743.0,Gallinari,SUB out: D. Gallinari,turnover,substitution,17,Low
+21400304,185,substitution,2,PT07M18.00S,07:18,Q2 07:18,49,32,1610612743.0,Hickson,SUB in: J. Hickson,substitution,foul,17,Low
+21400304,185,foul,2,PT07M11.00S,07:11,Q2 07:11,49,32,1610612761.0,Johnson,A. Johnson P.FOUL (P2.T3),substitution,substitution,17,Low
+21400304,186,substitution,2,PT07M11.00S,07:11,Q2 07:11,49,32,1610612761.0,Johnson,SUB out: A. Johnson,foul,substitution,17,Low
+21400304,187,substitution,2,PT07M11.00S,07:11,Q2 07:11,49,32,1610612761.0,Valanciunas,SUB in: J. Valanciunas,substitution,2pt made,17,Low
+21400304,187,2pt,2,PT07M07.00S,07:07,Q2 07:07,49,34,1610612743.0,Chandler,Chandler 1' Reverse Layup (11 PTS) (Mozgov 1 AST),substitution,2pt made,15,Low
+21400304,188,2pt,2,PT06M44.00S,06:44,Q2 06:44,51,34,1610612761.0,Johnson,J. Johnson 4' Driving Jump Shot (4 PTS),2pt made,3pt made,17,Low
+21400304,189,3pt,2,PT06M28.00S,06:28,Q2 06:28,51,37,1610612743.0,Afflalo,Afflalo 3PT Jump Shot (7 PTS) (Chandler 1 AST),2pt made,turnover,14,Low
+21400304,190,turnover,2,PT06M09.00S,06:09,Q2 06:09,51,37,1610612761.0,Lowry,Lowry Bad Pass Turnover (P1.T3),3pt made,steal,14,Low
+21400304,190,steal,2,PT06M09.00S,06:09,Q2 06:09,51,37,1610612743.0,Chandler,Chandler STEAL (1 STL),turnover,2pt missed,14,Low
+21400304,191,2pt,2,PT06M01.00S,06:01,Q2 06:01,51,37,1610612743.0,Chandler,MISS Chandler 7' Floating Jump Shot,steal,rebound,14,Low
+21400304,192,rebound,2,PT06M00.00S,06:00,Q2 06:00,51,37,1610612761.0,Valanciunas,Valanciunas REBOUND (Off:0 Def:6),2pt missed,foul,14,Low
+21400304,193,foul,2,PT05M55.00S,05:55,Q2 05:55,51,37,1610612743.0,Chandler,Chandler S.FOUL (P1.T3),rebound,timeout,14,Low
+21400304,194,timeout,2,PT05M55.00S,05:55,Q2 05:55,51,37,0.0,,Timeout: Official,foul,freethrow,14,Low
+21400304,198,freethrow,2,PT05M55.00S,05:55,Q2 05:55,52,37,1610612761.0,Williams,Williams Free Throw 1 of 2 (16 PTS),timeout,freethrow,15,Low
+21400304,200,freethrow,2,PT05M55.00S,05:55,Q2 05:55,53,37,1610612761.0,Williams,Williams Free Throw 2 of 2 (17 PTS),freethrow,foul,16,Low
+21400304,202,foul,2,PT05M49.00S,05:49,Q2 05:49,53,37,1610612761.0,Valanciunas,Valanciunas P.FOUL (P1.T4),freethrow,substitution,16,Low
+21400304,203,substitution,2,PT05M49.00S,05:49,Q2 05:49,53,37,1610612761.0,Williams,SUB out: L. Williams,foul,substitution,16,Low
+21400304,204,substitution,2,PT05M49.00S,05:49,Q2 05:49,53,37,1610612761.0,Patterson,SUB in: P. Patterson,substitution,2pt made,16,Low
+21400304,204,2pt,2,PT05M32.00S,05:32,Q2 05:32,53,39,1610612743.0,Hickson,Hickson 4' Layup (5 PTS) (Afflalo 1 AST),substitution,2pt made,14,Low
+21400304,205,2pt,2,PT05M15.00S,05:15,Q2 05:15,55,39,1610612761.0,Ross,Ross 12' Floating Jump Shot (7 PTS) (J. Johnson 2 AST),2pt made,turnover,16,Low
+21400304,206,turnover,2,PT05M00.00S,05:00,Q2 05:00,55,39,1610612743.0,Mozgov,Mozgov 3 Second Violation Turnover (P1.T7),2pt made,3pt missed,16,Low
+21400304,207,3pt,2,PT04M46.00S,04:46,Q2 04:46,55,39,1610612761.0,Lowry,MISS Lowry 26' 3PT Pullup Jump Shot,turnover,rebound,16,Low
+21400304,208,rebound,2,PT04M46.00S,04:46,Q2 04:46,55,39,1610612743.0,Afflalo,Afflalo REBOUND (Off:0 Def:2),3pt missed,3pt made,16,Low
+21400304,209,3pt,2,PT04M27.00S,04:27,Q2 04:27,55,42,1610612743.0,Afflalo,Afflalo 27' 3PT Jump Shot (10 PTS) (Chandler 2 AST),rebound,turnover,13,Low
+21400304,212,turnover,2,PT04M07.00S,04:07,Q2 04:07,55,42,1610612761.0,Valanciunas,Valanciunas Lost Ball Turnover (P1.T4),3pt made,steal,13,Low
+21400304,212,steal,2,PT04M07.00S,04:07,Q2 04:07,55,42,1610612743.0,Lawson,Lawson STEAL (1 STL),turnover,2pt missed,13,Low
+21400304,213,2pt,2,PT03M58.00S,03:58,Q2 03:58,55,42,1610612743.0,Chandler,MISS Chandler 4' Driving Jump Shot,steal,block,13,Low
+21400304,213,block,2,PT03M58.00S,03:58,Q2 03:58,55,42,1610612761.0,Johnson,J. Johnson BLOCK (1 BLK),2pt missed,rebound,13,Low
+21400304,214,rebound,2,PT03M56.00S,03:56,Q2 03:56,55,42,1610612743.0,Hickson,Hickson REBOUND (Off:2 Def:0),block,2pt made,13,Low
+21400304,215,2pt,2,PT03M54.00S,03:54,Q2 03:54,55,44,1610612743.0,Hickson,Hickson 2' Layup (7 PTS),rebound,timeout,11,Low
+21400304,216,timeout,2,PT03M48.00S,03:48,Q2 03:48,55,44,1610612761.0,,RAPTORS Timeout: Regular (Full 2 Short 0),2pt made,3pt made,11,Low
+21400304,219,3pt,2,PT03M39.00S,03:39,Q2 03:39,58,44,1610612761.0,Patterson,Patterson 24' 3PT Jump Shot (3 PTS) (Lowry 4 AST),timeout,turnover,14,Low
+21400304,220,turnover,2,PT03M25.00S,03:25,Q2 03:25,58,44,1610612743.0,Hickson,Hickson Traveling Turnover (P1.T8),3pt made,substitution,14,Low
+21400304,221,substitution,2,PT03M25.00S,03:25,Q2 03:25,58,44,1610612761.0,Ross,SUB out: T. Ross,turnover,substitution,14,Low
+21400304,222,substitution,2,PT03M25.00S,03:25,Q2 03:25,58,44,1610612761.0,Williams,SUB in: L. Williams,substitution,foul,14,Low
+21400304,222,foul,2,PT03M06.00S,03:06,Q2 03:06,58,44,1610612743.0,Chandler,Chandler S.FOUL (P2.T4),substitution,freethrow,14,Low
+21400304,223,freethrow,2,PT03M06.00S,03:06,Q2 03:06,58,44,1610612761.0,Johnson,MISS J. Johnson Free Throw 1 of 2,foul,rebound,14,Low
+21400304,224,rebound,2,PT03M06.00S,03:06,Q2 03:06,58,44,1610612761.0,,TEAM offensive REBOUND,freethrow,freethrow,14,Low
+21400304,225,freethrow,2,PT03M06.00S,03:06,Q2 03:06,58,44,1610612761.0,Johnson,MISS J. Johnson Free Throw 2 of 2,rebound,rebound,14,Low
+21400304,227,rebound,2,PT03M06.00S,03:06,Q2 03:06,58,44,1610612761.0,Patterson,Patterson REBOUND (Off:1 Def:1),freethrow,3pt missed,14,Low
+21400304,228,3pt,2,PT02M58.00S,02:58,Q2 02:58,58,44,1610612761.0,Williams,MISS Williams 26' 3PT Jump Shot,rebound,rebound,14,Low
+21400304,229,rebound,2,PT02M57.00S,02:57,Q2 02:57,58,44,1610612761.0,Valanciunas,Valanciunas REBOUND (Off:1 Def:6),3pt missed,2pt made,14,Low
+21400304,232,2pt,2,PT02M52.00S,02:52,Q2 02:52,60,44,1610612761.0,Valanciunas,Valanciunas 2' Layup (12 PTS),rebound,2pt made,16,Low
+21400304,234,2pt,2,PT02M33.00S,02:33,Q2 02:33,60,46,1610612743.0,Mozgov,Mozgov 9' Jump Shot (4 PTS) (Lawson 8 AST),2pt made,substitution,14,Low
+21400304,236,substitution,2,PT02M20.00S,02:20,Q2 02:20,60,46,1610612743.0,Hickson,SUB out: J. Hickson,2pt made,substitution,14,Low
+21400304,237,substitution,2,PT02M20.00S,02:20,Q2 02:20,60,46,1610612761.0,Lowry,SUB out: K. Lowry,substitution,substitution,14,Low
+21400304,238,substitution,2,PT02M20.00S,02:20,Q2 02:20,60,46,1610612743.0,Arthur,SUB in: D. Arthur,substitution,substitution,14,Low
+21400304,239,substitution,2,PT02M20.00S,02:20,Q2 02:20,60,46,1610612761.0,Vasquez,SUB in: G. Vasquez,substitution,2pt missed,14,Low
+21400304,238,2pt,2,PT02M14.00S,02:14,Q2 02:14,60,46,1610612761.0,Valanciunas,MISS Valanciunas 2' Layup,substitution,block,14,Low
+21400304,238,block,2,PT02M14.00S,02:14,Q2 02:14,60,46,1610612743.0,Arthur,Arthur BLOCK (1 BLK),2pt missed,rebound,14,Low
+21400304,239,rebound,2,PT02M12.00S,02:12,Q2 02:12,60,46,1610612743.0,Afflalo,Afflalo REBOUND (Off:0 Def:3),block,2pt made,14,Low
+21400304,240,2pt,2,PT01M57.00S,01:57,Q2 01:57,60,48,1610612743.0,Chandler,Chandler 6' Driving Bank Hook Shot (13 PTS),rebound,turnover,12,Low
+21400304,241,turnover,2,PT01M38.00S,01:38,Q2 01:38,60,48,1610612761.0,Vasquez,Vasquez Lost Ball Turnover (P1.T5),2pt made,steal,12,Low
+21400304,241,steal,2,PT01M38.00S,01:38,Q2 01:38,60,48,1610612743.0,Lawson,Lawson STEAL (2 STL),turnover,2pt made,12,Low
+21400304,242,2pt,2,PT01M34.00S,01:34,Q2 01:34,60,50,1610612743.0,Lawson,Lawson 1' Driving Layup (11 PTS),steal,3pt missed,10,Low
+21400304,244,3pt,2,PT01M18.00S,01:18,Q2 01:18,60,50,1610612761.0,Patterson,MISS Patterson 24' 3PT Jump Shot,2pt made,rebound,10,Low
+21400304,245,rebound,2,PT01M17.00S,01:17,Q2 01:17,60,50,1610612743.0,,TEAM defensive REBOUND,3pt missed,2pt made,10,Low
+21400304,246,2pt,2,PT01M06.00S,01:06,Q2 01:06,60,52,1610612743.0,Mozgov,Mozgov 3' Turnaround Bank Hook Shot (6 PTS) (Arthur 1 AST),rebound,foul,8,Low
+21400304,247,foul,2,PT00M51.70S,00:51,Q2 00:51,60,52,1610612743.0,Mozgov,Mozgov Shooting Block Foul (P2.PN),2pt made,freethrow,8,Low
+21400304,248,freethrow,2,PT00M51.70S,00:51,Q2 00:51,61,52,1610612761.0,Williams,Williams Free Throw 1 of 2 (18 PTS),foul,freethrow,9,Low
+21400304,250,freethrow,2,PT00M51.70S,00:51,Q2 00:51,62,52,1610612761.0,Williams,Williams Free Throw 2 of 2 (19 PTS),freethrow,2pt missed,10,Low
+21400304,252,2pt,2,PT00M40.80S,00:40,Q2 00:40,62,52,1610612743.0,Afflalo,MISS Afflalo 23' Jump Shot,freethrow,rebound,10,Low
+21400304,253,rebound,2,PT00M39.90S,00:39,Q2 00:39,62,52,1610612761.0,,TEAM defensive REBOUND,2pt missed,3pt missed,10,Low
+21400304,255,3pt,2,PT00M27.90S,00:27,Q2 00:27,62,52,1610612761.0,Williams,MISS Williams 26' 3PT Jump Shot,rebound,rebound,10,Low
+21400304,256,rebound,2,PT00M26.90S,00:26,Q2 00:26,62,52,1610612743.0,,TEAM defensive REBOUND,3pt missed,3pt missed,10,Low
+21400304,257,3pt,2,PT00M03.90S,00:03,Q2 00:03,62,52,1610612743.0,Chandler,MISS Chandler 3PT Jump Shot,rebound,rebound,10,Low
+21400304,258,rebound,2,PT00M02.60S,00:02,Q2 00:02,62,52,1610612743.0,Arthur,Arthur REBOUND (Off:2 Def:2),3pt missed,2pt missed,10,Low
+21400304,259,2pt,2,PT00M01.00S,00:01,Q2 00:01,62,52,1610612743.0,Arthur,MISS Arthur 2' Layup,rebound,block,10,Low
+21400304,259,block,2,PT00M01.00S,00:01,Q2 00:01,62,52,1610612761.0,Valanciunas,Valanciunas BLOCK (1 BLK),2pt missed,rebound,10,Low
+21400304,260,rebound,2,PT00M00.00S,00:00,Q2 00:00,62,52,1610612743.0,,TEAM offensive REBOUND,block,period,10,Low
+21400304,263,period,2,PT00M00.00S,00:00,Q2 00:00,62,52,1610612761.0,,End of 2nd Period (8:36 PM EST),rebound,period,10,Low
+21400304,265,period,3,PT12M00.00S,12:00,Q3 12:00,62,52,1610612761.0,,Start of 3rd Period (8:51 PM EST),period,substitution,10,Low
+21400304,266,2pt,3,PT11M45.00S,11:45,Q3 11:45,62,52,1610612761.0,Ross,MISS Ross 4' Driving Hook Shot,substitution,rebound,10,Low
+21400304,267,rebound,3,PT11M45.00S,11:45,Q3 11:45,62,52,1610612743.0,Hickson,Hickson REBOUND (Off:2 Def:1),2pt missed,3pt missed,10,Low
+21400304,268,3pt,3,PT11M32.00S,11:32,Q3 11:32,62,52,1610612743.0,Lawson,MISS Lawson 26' 3PT Jump Shot,rebound,rebound,10,Low
+21400304,269,rebound,3,PT11M31.00S,11:31,Q3 11:31,62,52,1610612761.0,Ross,Ross REBOUND (Off:0 Def:1),3pt missed,3pt missed,10,Low
+21400304,270,3pt,3,PT11M17.00S,11:17,Q3 11:17,62,52,1610612761.0,Lowry,MISS Lowry 26' 3PT Jump Shot,rebound,rebound,10,Low
+21400304,271,rebound,3,PT11M16.00S,11:16,Q3 11:16,62,52,1610612743.0,Chandler,Chandler REBOUND (Off:0 Def:2),3pt missed,2pt missed,10,Low
+21400304,272,2pt,3,PT11M06.00S,11:06,Q3 11:06,62,52,1610612743.0,Mozgov,MISS Mozgov 5' Jump Shot,rebound,block,10,Low
+21400304,272,block,3,PT11M06.00S,11:06,Q3 11:06,62,52,1610612761.0,Valanciunas,Valanciunas BLOCK (2 BLK),2pt missed,rebound,10,Low
+21400304,273,rebound,3,PT11M04.00S,11:04,Q3 11:04,62,52,1610612743.0,Mozgov,Mozgov REBOUND (Off:1 Def:2),block,2pt missed,10,Low
+21400304,274,2pt,3,PT11M01.00S,11:01,Q3 11:01,62,52,1610612743.0,Hickson,MISS Hickson 2' Layup,rebound,block,10,Low
+21400304,274,block,3,PT11M01.00S,11:01,Q3 11:01,62,52,1610612761.0,Lowry,Lowry BLOCK (1 BLK),2pt missed,rebound,10,Low
+21400304,275,rebound,3,PT10M59.00S,10:59,Q3 10:59,62,52,1610612743.0,Mozgov,Mozgov REBOUND (Off:2 Def:2),block,2pt missed,10,Low
+21400304,276,2pt,3,PT10M56.00S,10:56,Q3 10:56,62,52,1610612743.0,Mozgov,MISS Mozgov 13' Turnaround Jump Shot,rebound,rebound,10,Low
+21400304,277,rebound,3,PT10M55.00S,10:55,Q3 10:55,62,52,1610612761.0,Valanciunas,Valanciunas REBOUND (Off:1 Def:7),2pt missed,3pt missed,10,Low
+21400304,278,3pt,3,PT10M44.00S,10:44,Q3 10:44,62,52,1610612761.0,Ross,MISS Ross 27' 3PT Jump Shot,rebound,rebound,10,Low
+21400304,279,rebound,3,PT10M42.00S,10:42,Q3 10:42,62,52,1610612743.0,Hickson,Hickson REBOUND (Off:2 Def:2),3pt missed,3pt missed,10,Low
+21400304,280,3pt,3,PT10M27.00S,10:27,Q3 10:27,62,52,1610612743.0,Chandler,MISS Chandler 26' 3PT Jump Shot,rebound,rebound,10,Low
+21400304,281,rebound,3,PT10M26.00S,10:26,Q3 10:26,62,52,1610612761.0,Valanciunas,Valanciunas REBOUND (Off:1 Def:8),3pt missed,3pt made,10,Low
+21400304,282,3pt,3,PT10M13.00S,10:13,Q3 10:13,65,52,1610612761.0,Patterson,Patterson 25' 3PT Jump Shot (6 PTS) (Vasquez 1 AST),rebound,2pt missed,13,Low
+21400304,283,2pt,3,PT09M51.00S,09:51,Q3 09:51,65,52,1610612743.0,Hickson,MISS Hickson 3' Driving Layup,3pt made,block,13,Low
+21400304,283,block,3,PT09M51.00S,09:51,Q3 09:51,65,52,1610612761.0,Valanciunas,Valanciunas BLOCK (3 BLK),2pt missed,rebound,13,Low
+21400304,284,rebound,3,PT09M49.00S,09:49,Q3 09:49,65,52,1610612743.0,Afflalo,Afflalo REBOUND (Off:1 Def:3),block,3pt made,13,Low
+21400304,285,3pt,3,PT09M47.00S,09:47,Q3 09:47,65,55,1610612743.0,Afflalo,Afflalo 24' 3PT Jump Shot (13 PTS),rebound,2pt made,10,Low
+21400304,286,2pt,3,PT09M29.00S,09:29,Q3 09:29,67,55,1610612761.0,Ross,Ross 7' Driving Hook Shot (9 PTS) (Lowry 5 AST),3pt made,2pt missed,12,Low
+21400304,287,2pt,3,PT09M21.00S,09:21,Q3 09:21,67,55,1610612743.0,Chandler,MISS Chandler 18' Jump Shot,2pt made,rebound,12,Low
+21400304,288,rebound,3,PT09M20.00S,09:20,Q3 09:20,67,55,1610612761.0,Valanciunas,Valanciunas REBOUND (Off:1 Def:9),2pt missed,2pt made,12,Low
+21400304,289,2pt,3,PT09M08.00S,09:08,Q3 09:08,69,55,1610612761.0,Ross,Ross 21' Pullup Jump Shot (11 PTS),rebound,2pt missed,14,Low
+21400304,290,2pt,3,PT08M45.00S,08:45,Q3 08:45,69,55,1610612743.0,Lawson,MISS Lawson 20' Step Back Jump Shot,2pt made,rebound,14,Low
+21400304,291,rebound,3,PT08M44.00S,08:44,Q3 08:44,69,55,1610612761.0,Patterson,Patterson REBOUND (Off:1 Def:2),2pt missed,3pt missed,14,Low
+21400304,292,3pt,3,PT08M31.00S,08:31,Q3 08:31,69,55,1610612761.0,Patterson,MISS Patterson 26' 3PT Jump Shot,rebound,rebound,14,Low
+21400304,293,rebound,3,PT08M30.00S,08:30,Q3 08:30,69,55,1610612761.0,,TEAM offensive REBOUND,3pt missed,foul,14,Low
+21400304,294,foul,3,PT08M30.00S,08:30,Q3 08:30,69,55,1610612743.0,Mozgov,Mozgov L.B.FOUL (P3.T1),rebound,2pt made,14,Low
+21400304,295,2pt,3,PT08M22.00S,08:22,Q3 08:22,71,55,1610612761.0,Valanciunas,Valanciunas 5' Driving Hook Shot (14 PTS),foul,2pt made,16,Low
+21400304,296,2pt,3,PT08M02.00S,08:02,Q3 08:02,71,57,1610612743.0,Mozgov,Mozgov 13' Jump Shot (8 PTS) (Lawson 9 AST),2pt made,foul,14,Low
+21400304,297,foul,3,PT07M52.00S,07:52,Q3 07:52,71,57,1610612761.0,Valanciunas,Valanciunas OFF.Foul (P2),2pt made,turnover,14,Low
+21400304,298,turnover,3,PT07M52.00S,07:52,Q3 07:52,71,57,1610612761.0,Valanciunas,Valanciunas Foul Turnover (P2.T6),foul,2pt missed,14,Low
+21400304,300,2pt,3,PT07M42.00S,07:42,Q3 07:42,71,57,1610612743.0,Mozgov,MISS Mozgov Slam Dunk,turnover,block,14,Low
+21400304,300,block,3,PT07M42.00S,07:42,Q3 07:42,71,57,1610612761.0,Patterson,Patterson BLOCK (1 BLK),2pt missed,rebound,14,Low
+21400304,301,rebound,3,PT07M40.00S,07:40,Q3 07:40,71,57,1610612761.0,Lowry,Lowry REBOUND (Off:0 Def:1),block,3pt missed,14,Low
+21400304,302,3pt,3,PT07M34.00S,07:34,Q3 07:34,71,57,1610612761.0,Ross,MISS Ross 26' 3PT Jump Shot,rebound,rebound,14,Low
+21400304,303,rebound,3,PT07M33.00S,07:33,Q3 07:33,71,57,1610612743.0,Afflalo,Afflalo REBOUND (Off:1 Def:4),3pt missed,foul,14,Low
+21400304,304,foul,3,PT07M28.00S,07:28,Q3 07:28,71,57,1610612761.0,Patterson,Patterson S.FOUL (P1.T1),rebound,freethrow,14,Low
+21400304,305,freethrow,3,PT07M28.00S,07:28,Q3 07:28,71,58,1610612743.0,Hickson,Hickson Free Throw 1 of 2 (8 PTS),foul,freethrow,13,Low
+21400304,307,freethrow,3,PT07M28.00S,07:28,Q3 07:28,71,58,1610612743.0,Hickson,MISS Hickson Free Throw 2 of 2,freethrow,rebound,13,Low
+21400304,309,rebound,3,PT07M27.00S,07:27,Q3 07:27,71,58,1610612761.0,Patterson,Patterson REBOUND (Off:1 Def:3),freethrow,2pt missed,13,Low
+21400304,310,2pt,3,PT07M11.00S,07:11,Q3 07:11,71,58,1610612761.0,Lowry,MISS Lowry 20' Pullup Jump Shot,rebound,rebound,13,Low
+21400304,311,rebound,3,PT07M10.00S,07:10,Q3 07:10,71,58,1610612743.0,Hickson,Hickson REBOUND (Off:2 Def:3),2pt missed,2pt made,13,Low
+21400304,312,2pt,3,PT06M57.00S,06:57,Q3 06:57,71,60,1610612743.0,Hickson,Hickson 2' Finger Roll Layup (10 PTS),rebound,2pt made,11,Low
+21400304,313,2pt,3,PT06M40.00S,06:40,Q3 06:40,73,60,1610612761.0,Valanciunas,Valanciunas Alley Oop Dunk (16 PTS) (Lowry 6 AST),2pt made,2pt missed,13,Low
+21400304,314,2pt,3,PT06M16.00S,06:16,Q3 06:16,73,60,1610612743.0,Chandler,MISS Chandler 16' Pullup Jump Shot,2pt made,rebound,13,Low
+21400304,315,rebound,3,PT06M15.00S,06:15,Q3 06:15,73,60,1610612743.0,Mozgov,Mozgov REBOUND (Off:3 Def:2),2pt missed,3pt made,13,Low
+21400304,316,3pt,3,PT06M09.00S,06:09,Q3 06:09,73,63,1610612743.0,Afflalo,Afflalo 3PT Jump Shot (16 PTS) (Lawson 10 AST),rebound,2pt missed,10,Low
+21400304,318,2pt,3,PT05M54.00S,05:54,Q3 05:54,73,63,1610612761.0,Vasquez,MISS Vasquez 5' Driving Layup,3pt made,rebound,10,Low
+21400304,319,rebound,3,PT05M53.00S,05:53,Q3 05:53,73,63,1610612761.0,Lowry,Lowry REBOUND (Off:1 Def:1),2pt missed,timeout,10,Low
+21400304,320,timeout,3,PT05M52.00S,05:52,Q3 05:52,73,63,1610612761.0,,RAPTORS Timeout: Regular (Full 3 Short 0),rebound,turnover,10,Low
+21400304,325,turnover,3,PT05M52.00S,05:52,Q3 05:52,73,63,1610612761.0,Lowry,Lowry Lost Ball Turnover (P2.T7),timeout,steal,10,Low
+21400304,325,steal,3,PT05M52.00S,05:52,Q3 05:52,73,63,1610612743.0,Chandler,Chandler STEAL (2 STL),turnover,substitution,10,Low
+21400304,321,substitution,3,PT05M52.00S,05:52,Q3 05:52,73,63,1610612761.0,Valanciunas,SUB out: J. Valanciunas,steal,substitution,10,Low
+21400304,322,substitution,3,PT05M52.00S,05:52,Q3 05:52,73,63,1610612761.0,Vasquez,SUB out: G. Vasquez,substitution,substitution,10,Low
+21400304,323,substitution,3,PT05M52.00S,05:52,Q3 05:52,73,63,1610612761.0,Williams,SUB in: L. Williams,substitution,substitution,10,Low
+21400304,324,substitution,3,PT05M52.00S,05:52,Q3 05:52,73,63,1610612761.0,Johnson,SUB in: A. Johnson,substitution,foul,10,Low
+21400304,326,foul,3,PT05M36.00S,05:36,Q3 05:36,73,63,1610612761.0,Williams,Williams S.FOUL (P1.T2),substitution,freethrow,10,Low
+21400304,327,freethrow,3,PT05M36.00S,05:36,Q3 05:36,73,64,1610612743.0,Afflalo,Afflalo Free Throw 1 of 2 (17 PTS),foul,freethrow,9,Low
+21400304,329,freethrow,3,PT05M36.00S,05:36,Q3 05:36,73,65,1610612743.0,Afflalo,Afflalo Free Throw 2 of 2 (18 PTS),freethrow,turnover,8,Low
+21400304,332,turnover,3,PT05M12.00S,05:12,Q3 05:12,73,65,0.0,,RAPTORS Turnover: Shot Clock (T#8),freethrow,2pt made,8,Low
+21400304,333,2pt,3,PT04M56.00S,04:56,Q3 04:56,73,67,1610612743.0,Afflalo,Afflalo 2' Layup (20 PTS),turnover,2pt missed,6,Low
+21400304,334,2pt,3,PT04M40.00S,04:40,Q3 04:40,73,67,1610612761.0,Lowry,MISS Lowry 19' Pullup Jump Shot,2pt made,rebound,6,Low
+21400304,335,rebound,3,PT04M39.00S,04:39,Q3 04:39,73,67,1610612743.0,Chandler,Chandler REBOUND (Off:0 Def:3),2pt missed,foul,6,Low
+21400304,336,foul,3,PT04M27.00S,04:27,Q3 04:27,73,67,1610612743.0,Afflalo,Afflalo OFF.Foul (P1),rebound,turnover,6,Low
+21400304,337,turnover,3,PT04M27.00S,04:27,Q3 04:27,73,67,1610612743.0,Afflalo,Afflalo Foul Turnover (P3.T9),foul,substitution,6,Low
+21400304,338,substitution,3,PT04M27.00S,04:27,Q3 04:27,73,67,1610612761.0,Ross,SUB out: T. Ross,substitution,substitution,6,Low
+21400304,339,substitution,3,PT04M27.00S,04:27,Q3 04:27,73,67,1610612761.0,Johnson,SUB in: A. Johnson,substitution,3pt made,6,Low
+21400304,339,3pt,3,PT04M14.00S,04:14,Q3 04:14,76,67,1610612761.0,Patterson,Patterson 24' 3PT Jump Shot (9 PTS) (Williams 1 AST),substitution,2pt made,9,Low
+21400304,340,2pt,3,PT03M54.00S,03:54,Q3 03:54,76,69,1610612743.0,Mozgov,Mozgov Dunk (10 PTS) (Lawson 11 AST),3pt made,foul,7,Low
+21400304,341,foul,3,PT03M41.00S,03:41,Q3 03:41,76,69,1610612743.0,Lawson,Lawson P.FOUL (P3.T2),2pt made,substitution,7,Low
+21400304,342,substitution,3,PT03M41.00S,03:41,Q3 03:41,76,69,1610612743.0,Hickson,SUB out: J. Hickson,foul,substitution,7,Low
+21400304,343,substitution,3,PT03M41.00S,03:41,Q3 03:41,76,69,1610612743.0,Arthur,SUB in: D. Arthur,substitution,2pt made,7,Low
+21400304,343,2pt,3,PT03M34.00S,03:34,Q3 03:34,78,69,1610612761.0,Patterson,Patterson 15' Turnaround Jump Shot (11 PTS) (Lowry 7 AST),substitution,3pt made,9,Low
+21400304,345,3pt,3,PT03M19.00S,03:19,Q3 03:19,78,72,1610612743.0,Lawson,Lawson 26' 3PT Jump Shot (14 PTS),2pt made,foul,6,Low
+21400304,346,foul,3,PT03M05.00S,03:05,Q3 03:05,78,72,1610612743.0,Afflalo,Afflalo P.FOUL (P2.T3),3pt made,timeout,6,Low
+21400304,348,timeout,3,PT02M56.00S,02:56,Q3 02:56,78,72,1610612743.0,,Nuggets Timeout: Regular (Reg.3 Short 0),foul,2pt missed,6,Low
+21400304,351,2pt,3,PT02M52.00S,02:52,Q3 02:52,78,72,1610612761.0,Lowry,MISS Lowry 3' Driving Layup,timeout,rebound,6,Low
+21400304,352,rebound,3,PT02M51.00S,02:51,Q3 02:51,78,72,1610612743.0,Arthur,Arthur REBOUND (Off:2 Def:3),2pt missed,3pt missed,6,Low
+21400304,353,3pt,3,PT02M44.00S,02:44,Q3 02:44,78,72,1610612743.0,Chandler,MISS Chandler 26' 3PT Jump Shot,rebound,rebound,6,Low
+21400304,354,rebound,3,PT02M43.00S,02:43,Q3 02:43,78,72,1610612743.0,Arthur,Arthur REBOUND (Off:3 Def:3),3pt missed,2pt made,6,Low
+21400304,355,2pt,3,PT02M41.00S,02:41,Q3 02:41,78,74,1610612743.0,Mozgov,Mozgov 3' Jump Bank Shot (12 PTS) (Arthur 2 AST),rebound,foul,4,Low
+21400304,356,foul,3,PT02M41.00S,02:41,Q3 02:41,78,74,1610612761.0,Williams,Williams S.FOUL (P2.T3),2pt made,freethrow,4,Low
+21400304,357,freethrow,3,PT02M41.00S,02:41,Q3 02:41,78,75,1610612743.0,Mozgov,Mozgov Free Throw 1 of 1 (13 PTS),foul,foul,3,Low
+21400304,359,foul,3,PT02M27.00S,02:27,Q3 02:27,78,75,1610612761.0,Johnson,A. Johnson OFF.Foul (P3),freethrow,turnover,3,Low
+21400304,360,turnover,3,PT02M27.00S,02:27,Q3 02:27,78,75,1610612761.0,Johnson,A. Johnson Foul Turnover (P1.T9),foul,2pt missed,3,Low
+21400304,362,2pt,3,PT02M14.00S,02:14,Q3 02:14,78,75,1610612743.0,Mozgov,MISS Mozgov 8' Turnaround Hook Shot,turnover,rebound,3,Low
+21400304,363,rebound,3,PT02M14.00S,02:14,Q3 02:14,78,75,1610612743.0,,TEAM offensive REBOUND,2pt missed,2pt made,3,Low
+21400304,366,2pt,3,PT02M09.00S,02:09,Q3 02:09,78,77,1610612743.0,Afflalo,Afflalo 16' Jump Shot (22 PTS) (Chandler 3 AST),rebound,foul,1,Low
+21400304,368,foul,3,PT02M00.00S,02:00,Q3 02:00,78,77,1610612743.0,Afflalo,Afflalo P.FOUL (P3.T4),2pt made,substitution,1,Low
+21400304,369,substitution,3,PT02M00.00S,02:00,Q3 02:00,78,77,1610612761.0,Lowry,SUB out: K. Lowry,foul,substitution,1,Low
+21400304,370,substitution,3,PT02M00.00S,02:00,Q3 02:00,78,77,1610612761.0,Vasquez,SUB in: G. Vasquez,substitution,2pt missed,1,Low
+21400304,371,2pt,3,PT01M45.00S,01:45,Q3 01:45,78,77,1610612761.0,Patterson,MISS Patterson 15' Step Back Jump Shot,substitution,rebound,1,Low
+21400304,372,rebound,3,PT01M44.00S,01:44,Q3 01:44,78,77,1610612761.0,Johnson,A. Johnson REBOUND (Off:1 Def:1),2pt missed,2pt made,1,Low
+21400304,375,2pt,3,PT01M27.00S,01:27,Q3 01:27,80,77,1610612761.0,Patterson,Patterson 1' Alley Oop Layup (13 PTS) (Vasquez 2 AST),rebound,3pt missed,3,Low
+21400304,376,3pt,3,PT01M14.00S,01:14,Q3 01:14,80,77,1610612743.0,Arthur,MISS Arthur 27' 3PT Jump Shot,2pt made,rebound,3,Low
+21400304,377,rebound,3,PT01M13.00S,01:13,Q3 01:13,80,77,1610612761.0,,TEAM defensive REBOUND,3pt missed,2pt made,3,Low
+21400304,378,2pt,3,PT00M59.90S,00:59,Q3 00:59,82,77,1610612761.0,Vasquez,Vasquez 19' Pullup Jump Shot (9 PTS),rebound,2pt missed,5,Low
+21400304,379,2pt,3,PT00M45.60S,00:45,Q3 00:45,82,77,1610612743.0,Lawson,MISS Lawson 13' Step Back Jump Shot,2pt made,rebound,5,Low
+21400304,380,rebound,3,PT00M45.00S,00:45,Q3 00:45,82,77,1610612743.0,Mozgov,Mozgov REBOUND (Off:4 Def:2),2pt missed,2pt made,5,Low
+21400304,381,2pt,3,PT00M44.70S,00:44,Q3 00:44,82,79,1610612743.0,Mozgov,Mozgov Tip Shot (15 PTS),rebound,3pt missed,3,Low
+21400304,382,3pt,3,PT00M32.90S,00:32,Q3 00:32,82,79,1610612761.0,Vasquez,MISS Vasquez 24' 3PT Jump Shot,2pt made,rebound,3,Low
+21400304,383,rebound,3,PT00M31.90S,00:31,Q3 00:31,82,79,1610612743.0,Lawson,Lawson REBOUND (Off:0 Def:2),3pt missed,2pt missed,3,Low
+21400304,384,2pt,3,PT00M27.90S,00:27,Q3 00:27,82,79,1610612743.0,Chandler,MISS Chandler 3' Layup,rebound,rebound,3,Low
+21400304,385,rebound,3,PT00M27.00S,00:27,Q3 00:27,82,79,1610612743.0,Arthur,Arthur REBOUND (Off:4 Def:3),2pt missed,2pt made,3,Low
+21400304,386,2pt,3,PT00M26.70S,00:26,Q3 00:26,82,81,1610612743.0,Arthur,Arthur 1' Putback Layup (4 PTS),rebound,3pt missed,1,Low
+21400304,387,3pt,3,PT00M02.90S,00:02,Q3 00:02,82,81,1610612761.0,Williams,MISS Williams 26' 3PT Pullup Jump Shot,2pt made,rebound,1,Low
+21400304,388,rebound,3,PT00M01.90S,00:01,Q3 00:01,82,81,1610612743.0,Mozgov,Mozgov REBOUND (Off:4 Def:3),3pt missed,instant replay,1,Low
+21400304,392,period,3,PT00M00.00S,00:00,Q3 00:00,82,81,1610612761.0,,End of 3rd Period (9:18 PM EST),instant replay,period,1,Medium
+21400304,394,period,4,PT12M00.00S,12:00,Q4 12:00,82,81,1610612761.0,,Start of 4th Period (9:19 PM EST),period,substitution,1,Medium
+21400304,395,foul,4,PT11M48.00S,11:48,Q4 11:48,82,81,1610612761.0,Johnson,RAPTORS T.Foul (Def. 3 Sec A. Johnson ),substitution,freethrow,1,Medium
+21400304,396,freethrow,4,PT11M48.00S,11:48,Q4 11:48,82,82,1610612743.0,Afflalo,Afflalo Free Throw Technical (23 PTS),foul,3pt missed,0,Medium
+21400304,398,3pt,4,PT11M40.00S,11:40,Q4 11:40,82,82,1610612743.0,Arthur,MISS Arthur 25' 3PT Jump Shot,freethrow,rebound,0,Medium
+21400304,399,rebound,4,PT11M39.00S,11:39,Q4 11:39,82,82,1610612761.0,Vasquez,Vasquez REBOUND (Off:0 Def:3),3pt missed,2pt missed,0,Medium
+21400304,400,2pt,4,PT11M31.00S,11:31,Q4 11:31,82,82,1610612761.0,Williams,MISS Williams 10' Floating Jump Shot,rebound,rebound,0,Medium
+21400304,401,rebound,4,PT11M30.00S,11:30,Q4 11:30,82,82,1610612761.0,Williams,Williams REBOUND (Off:1 Def:1),2pt missed,2pt made,0,Medium
+21400304,402,2pt,4,PT11M27.00S,11:27,Q4 11:27,84,82,1610612761.0,Williams,Williams 9' Jump Shot (21 PTS),rebound,3pt missed,2,Medium
+21400304,403,3pt,4,PT11M21.00S,11:21,Q4 11:21,84,82,1610612743.0,Afflalo,MISS Afflalo 26' 3PT Jump Shot,2pt made,rebound,2,Medium
+21400304,404,rebound,4,PT11M19.00S,11:19,Q4 11:19,84,82,1610612743.0,Mozgov,Mozgov REBOUND (Off:5 Def:3),3pt missed,3pt missed,2,Medium
+21400304,405,3pt,4,PT11M11.00S,11:11,Q4 11:11,84,82,1610612743.0,Lawson,MISS Lawson 25' 3PT Step Back Jump Shot,rebound,rebound,2,Medium
+21400304,406,rebound,4,PT11M10.00S,11:10,Q4 11:10,84,82,1610612761.0,Johnson,A. Johnson REBOUND (Off:1 Def:2),3pt missed,3pt missed,2,Medium
+21400304,407,3pt,4,PT11M02.00S,11:02,Q4 11:02,84,82,1610612761.0,Williams,MISS Williams 27' 3PT Pullup Jump Shot,rebound,rebound,2,Medium
+21400304,408,rebound,4,PT11M02.00S,11:02,Q4 11:02,84,82,1610612743.0,,TEAM defensive REBOUND,3pt missed,foul,2,Medium
+21400304,409,foul,4,PT11M02.00S,11:02,Q4 11:02,84,82,1610612761.0,Valanciunas,Valanciunas L.B.FOUL (P3.T1),rebound,2pt made,2,Medium
+21400304,410,2pt,4,PT10M45.00S,10:45,Q4 10:45,84,84,1610612743.0,Chandler,Chandler 4' Finger Roll Layup (15 PTS),foul,turnover,0,Medium
+21400304,411,turnover,4,PT10M26.00S,10:26,Q4 10:26,84,84,1610612761.0,Johnson,J. Johnson Bad Pass Turnover (P2.T10),2pt made,steal,0,Medium
+21400304,411,steal,4,PT10M26.00S,10:26,Q4 10:26,84,84,1610612743.0,Arthur,Arthur STEAL (1 STL),turnover,3pt missed,0,Medium
+21400304,412,3pt,4,PT10M19.00S,10:19,Q4 10:19,84,84,1610612743.0,Chandler,MISS Chandler 26' 3PT Jump Shot,steal,rebound,0,Medium
+21400304,413,rebound,4,PT10M18.00S,10:18,Q4 10:18,84,84,1610612743.0,Arthur,Arthur REBOUND (Off:5 Def:3),3pt missed,2pt made,0,Medium
+21400304,414,2pt,4,PT10M15.00S,10:15,Q4 10:15,84,86,1610612743.0,Arthur,Arthur 1' Running Tip Shot (6 PTS),rebound,2pt missed,2,Medium
+21400304,415,2pt,4,PT09M53.00S,09:53,Q4 09:53,84,86,1610612761.0,Vasquez,MISS Vasquez 20' Pullup Jump Shot,2pt made,rebound,2,Medium
+21400304,416,rebound,4,PT09M53.00S,09:53,Q4 09:53,84,86,1610612761.0,Valanciunas,Valanciunas REBOUND (Off:2 Def:9),2pt missed,3pt missed,2,Medium
+21400304,417,3pt,4,PT09M47.00S,09:47,Q4 09:47,84,86,1610612761.0,Williams,MISS Williams 26' 3PT Jump Shot,rebound,rebound,2,Medium
+21400304,418,rebound,4,PT09M46.00S,09:46,Q4 09:46,84,86,1610612743.0,Lawson,Lawson REBOUND (Off:0 Def:3),3pt missed,turnover,2,Medium
+21400304,419,turnover,4,PT09M39.00S,09:39,Q4 09:39,84,86,1610612743.0,Lawson,Lawson Bad Pass Turnover (P2.T10),rebound,steal,2,Medium
+21400304,419,steal,4,PT09M39.00S,09:39,Q4 09:39,84,86,1610612761.0,Vasquez,Vasquez STEAL (2 STL),turnover,foul,2,Medium
+21400304,420,foul,4,PT09M39.00S,09:39,Q4 09:39,84,86,1610612743.0,Afflalo,Afflalo P.FOUL (P4.T1),steal,timeout,2,Medium
+21400304,421,timeout,4,PT09M39.00S,09:39,Q4 09:39,84,86,1610612743.0,,Nuggets Timeout: Regular (Reg.4 Short 0),foul,substitution,2,Medium
+21400304,423,substitution,4,PT09M39.00S,09:39,Q4 09:39,84,86,1610612761.0,Johnson,SUB out: A. Johnson,timeout,substitution,2,Medium
+21400304,424,substitution,4,PT09M39.00S,09:39,Q4 09:39,84,86,1610612761.0,Williams,SUB out: L. Williams,substitution,substitution,2,Medium
+21400304,425,substitution,4,PT09M39.00S,09:39,Q4 09:39,84,86,1610612761.0,Johnson,SUB out: J. Johnson,substitution,substitution,2,Medium
+21400304,426,substitution,4,PT09M39.00S,09:39,Q4 09:39,84,86,1610612761.0,Lowry,SUB in: K. Lowry,substitution,substitution,2,Medium
+21400304,427,substitution,4,PT09M39.00S,09:39,Q4 09:39,84,86,1610612761.0,Ross,SUB in: T. Ross,substitution,substitution,2,Medium
+21400304,428,substitution,4,PT09M39.00S,09:39,Q4 09:39,84,86,1610612761.0,Patterson,SUB in: P. Patterson,substitution,2pt missed,2,Medium
+21400304,427,2pt,4,PT09M29.00S,09:29,Q4 09:29,84,86,1610612761.0,Lowry,MISS Lowry 4' Driving Layup,substitution,block,2,Medium
+21400304,427,block,4,PT09M29.00S,09:29,Q4 09:29,84,86,1610612743.0,Mozgov,Mozgov BLOCK (1 BLK),2pt missed,rebound,2,Medium
+21400304,428,rebound,4,PT09M27.00S,09:27,Q4 09:27,84,86,1610612743.0,Arthur,Arthur REBOUND (Off:5 Def:4),block,2pt missed,2,Medium
+21400304,429,2pt,4,PT09M21.00S,09:21,Q4 09:21,84,86,1610612743.0,Lawson,MISS Lawson 3' Driving Jump Shot,rebound,block,2,Medium
+21400304,429,block,4,PT09M21.00S,09:21,Q4 09:21,84,86,1610612761.0,Vasquez,Vasquez BLOCK (2 BLK),2pt missed,rebound,2,Medium
+21400304,430,rebound,4,PT09M20.00S,09:20,Q4 09:20,84,86,1610612743.0,Arthur,Arthur REBOUND (Off:6 Def:4),block,2pt made,2,Medium
+21400304,431,2pt,4,PT09M18.00S,09:18,Q4 09:18,84,88,1610612743.0,Arthur,Arthur 4' Jump Hook Shot (8 PTS),rebound,2pt made,4,Medium
+21400304,432,2pt,4,PT08M57.00S,08:57,Q4 08:57,86,88,1610612761.0,Valanciunas,Valanciunas 3' Layup (18 PTS) (Lowry 8 AST),2pt made,foul,2,Medium
+21400304,433,foul,4,PT08M57.00S,08:57,Q4 08:57,86,88,1610612743.0,Afflalo,Afflalo S.FOUL (P5.T2),2pt made,freethrow,2,Medium
+21400304,436,freethrow,4,PT08M57.00S,08:57,Q4 08:57,86,88,1610612761.0,Valanciunas,MISS Valanciunas Free Throw 1 of 1,foul,rebound,2,Medium
+21400304,438,rebound,4,PT08M57.00S,08:57,Q4 08:57,86,88,1610612743.0,Mozgov,Mozgov REBOUND (Off:5 Def:4),freethrow,substitution,2,Medium
+21400304,435,substitution,4,PT08M57.00S,08:57,Q4 08:57,86,88,1610612743.0,Afflalo,SUB out: A. Afflalo,rebound,substitution,2,Medium
+21400304,436,substitution,4,PT08M57.00S,08:57,Q4 08:57,86,88,1610612743.0,Gee,SUB in: A. Gee,substitution,2pt missed,2,Medium
+21400304,439,2pt,4,PT08M41.00S,08:41,Q4 08:41,86,88,1610612743.0,Gee,MISS Gee 21' Jump Shot,substitution,rebound,2,Medium
+21400304,440,rebound,4,PT08M40.00S,08:40,Q4 08:40,86,88,1610612761.0,Ross,Ross REBOUND (Off:0 Def:2),2pt missed,3pt missed,2,Medium
+21400304,441,3pt,4,PT08M30.00S,08:30,Q4 08:30,86,88,1610612761.0,Ross,MISS Ross 27' 3PT Jump Shot,rebound,rebound,2,Medium
+21400304,442,rebound,4,PT08M29.00S,08:29,Q4 08:29,86,88,1610612743.0,Mozgov,Mozgov REBOUND (Off:5 Def:5),3pt missed,foul,2,Medium
+21400304,443,foul,4,PT08M28.00S,08:28,Q4 08:28,86,88,1610612761.0,Valanciunas,Valanciunas P.FOUL (P4.T2),rebound,2pt missed,2,Medium
+21400304,444,2pt,4,PT08M10.00S,08:10,Q4 08:10,86,88,1610612743.0,Mozgov,MISS Mozgov 5' Turnaround Hook Shot,foul,block,2,Medium
+21400304,444,block,4,PT08M10.00S,08:10,Q4 08:10,86,88,1610612761.0,Valanciunas,Valanciunas BLOCK (4 BLK),2pt missed,rebound,2,Medium
+21400304,445,rebound,4,PT08M08.00S,08:08,Q4 08:08,86,88,1610612761.0,Valanciunas,Valanciunas REBOUND (Off:2 Def:10),block,turnover,2,Medium
+21400304,446,turnover,4,PT07M59.00S,07:59,Q4 07:59,86,88,1610612761.0,Lowry,Lowry Traveling Turnover (P3.T11),rebound,2pt missed,2,Medium
+21400304,447,2pt,4,PT07M46.00S,07:46,Q4 07:46,86,88,1610612743.0,Chandler,MISS Chandler 2' Driving Layup,turnover,rebound,2,Medium
+21400304,448,rebound,4,PT07M45.00S,07:45,Q4 07:45,86,88,1610612761.0,Vasquez,Vasquez REBOUND (Off:0 Def:4),2pt missed,3pt missed,2,Medium
+21400304,449,3pt,4,PT07M33.00S,07:33,Q4 07:33,86,88,1610612761.0,Lowry,MISS Lowry 26' 3PT Jump Shot,rebound,rebound,2,Medium
+21400304,450,rebound,4,PT07M32.00S,07:32,Q4 07:32,86,88,1610612743.0,Chandler,Chandler REBOUND (Off:0 Def:4),3pt missed,2pt made,2,Medium
+21400304,451,2pt,4,PT07M25.00S,07:25,Q4 07:25,86,90,1610612743.0,Lawson,Lawson 13' Floating Jump Shot (16 PTS),rebound,3pt missed,4,Medium
+21400304,453,3pt,4,PT07M07.00S,07:07,Q4 07:07,86,90,1610612761.0,Vasquez,MISS Vasquez 27' 3PT Pullup Jump Shot,2pt made,rebound,4,Medium
+21400304,454,rebound,4,PT07M06.00S,07:06,Q4 07:06,86,90,1610612743.0,Lawson,Lawson REBOUND (Off:0 Def:4),3pt missed,2pt missed,4,Medium
+21400304,455,2pt,4,PT06M59.00S,06:59,Q4 06:59,86,90,1610612743.0,Arthur,MISS Arthur 16' Jump Shot,rebound,rebound,4,High
+21400304,456,rebound,4,PT06M58.00S,06:58,Q4 06:58,86,90,1610612761.0,Vasquez,Vasquez REBOUND (Off:0 Def:5),2pt missed,foul,4,High
+21400304,457,foul,4,PT06M51.00S,06:51,Q4 06:51,86,90,1610612743.0,Chandler,Chandler S.FOUL (P3.T3),rebound,freethrow,4,High
+21400304,458,freethrow,4,PT06M51.00S,06:51,Q4 06:51,87,90,1610612761.0,Lowry,Lowry Free Throw 1 of 2 (7 PTS),foul,freethrow,3,High
+21400304,460,freethrow,4,PT06M51.00S,06:51,Q4 06:51,87,90,1610612761.0,Lowry,MISS Lowry Free Throw 2 of 2,freethrow,rebound,3,High
+21400304,462,rebound,4,PT06M51.00S,06:51,Q4 06:51,87,90,1610612743.0,Chandler,Chandler REBOUND (Off:0 Def:5),freethrow,turnover,3,High
+21400304,463,turnover,4,PT06M27.00S,06:27,Q4 06:27,87,90,0.0,,Nuggets Turnover: Shot Clock (T#11),rebound,timeout,3,High
+21400304,464,timeout,4,PT06M27.00S,06:27,Q4 06:27,87,90,1610612761.0,,RAPTORS Timeout: Regular (Full 4 Short 0),turnover,2pt made,3,High
+21400304,467,2pt,4,PT06M16.00S,06:16,Q4 06:16,89,90,1610612761.0,Lowry,Lowry 6' Driving Bank Shot (9 PTS),timeout,foul,1,High
+21400304,468,foul,4,PT06M00.00S,06:00,Q4 06:00,89,90,1610612761.0,Valanciunas,Valanciunas S.FOUL (P5.T3),2pt made,freethrow,1,High
+21400304,469,freethrow,4,PT06M00.00S,06:00,Q4 06:00,89,91,1610612743.0,Lawson,Lawson Free Throw 1 of 2 (17 PTS),foul,freethrow,2,High
+21400304,472,freethrow,4,PT06M00.00S,06:00,Q4 06:00,89,92,1610612743.0,Lawson,Lawson Free Throw 2 of 2 (18 PTS),freethrow,substitution,3,High
+21400304,471,substitution,4,PT06M00.00S,06:00,Q4 06:00,89,91,1610612761.0,Valanciunas,SUB out: J. Valanciunas,freethrow,substitution,2,High
+21400304,472,substitution,4,PT06M00.00S,06:00,Q4 06:00,89,91,1610612761.0,Johnson,SUB in: A. Johnson,substitution,3pt missed,2,High
+21400304,474,3pt,4,PT05M45.00S,05:45,Q4 05:45,89,92,1610612761.0,Ross,MISS Ross 24' 3PT Jump Shot,substitution,rebound,3,High
+21400304,475,rebound,4,PT05M44.00S,05:44,Q4 05:44,89,92,1610612743.0,Lawson,Lawson REBOUND (Off:0 Def:5),3pt missed,2pt missed,3,High
+21400304,476,2pt,4,PT05M38.00S,05:38,Q4 05:38,89,92,1610612743.0,Lawson,MISS Lawson 18' Pullup Jump Shot,rebound,rebound,3,High
+21400304,477,rebound,4,PT05M37.00S,05:37,Q4 05:37,89,92,1610612761.0,,TEAM defensive REBOUND,2pt missed,foul,3,High
+21400304,478,foul,4,PT05M37.00S,05:37,Q4 05:37,89,92,1610612743.0,Arthur,Arthur L.B.FOUL (P3.T4),rebound,substitution,3,High
+21400304,479,substitution,4,PT05M37.00S,05:37,Q4 05:37,89,92,1610612743.0,Gee,SUB out: A. Gee,foul,substitution,3,High
+21400304,480,substitution,4,PT05M37.00S,05:37,Q4 05:37,89,92,1610612743.0,Afflalo,SUB in: A. Afflalo,substitution,2pt made,3,High
+21400304,480,2pt,4,PT05M19.00S,05:19,Q4 05:19,91,92,1610612761.0,Ross,Ross 10' Turnaround Bank Shot (13 PTS) (Lowry 9 AST),substitution,foul,1,High
+21400304,481,foul,4,PT05M03.00S,05:03,Q4 05:03,91,92,1610612761.0,Vasquez,Vasquez P.FOUL (P2.T4),2pt made,2pt missed,1,High
+21400304,482,2pt,4,PT04M50.00S,04:50,Q4 04:50,91,92,1610612743.0,Arthur,MISS Arthur 20' Jump Shot,foul,rebound,1,High
+21400304,483,rebound,4,PT04M49.00S,04:49,Q4 04:49,91,92,1610612761.0,Johnson,A. Johnson REBOUND (Off:1 Def:3),2pt missed,3pt missed,1,High
+21400304,484,3pt,4,PT04M41.00S,04:41,Q4 04:41,91,92,1610612761.0,Lowry,MISS Lowry 25' 3PT Pullup Jump Shot,rebound,rebound,1,High
+21400304,485,rebound,4,PT04M40.00S,04:40,Q4 04:40,91,92,1610612743.0,Arthur,Arthur REBOUND (Off:6 Def:5),3pt missed,2pt missed,1,High
+21400304,486,2pt,4,PT04M19.00S,04:19,Q4 04:19,91,92,1610612743.0,Afflalo,MISS Afflalo 14' Jump Shot,rebound,rebound,1,High
+21400304,487,rebound,4,PT04M18.00S,04:18,Q4 04:18,91,92,1610612743.0,Arthur,Arthur REBOUND (Off:7 Def:5),2pt missed,2pt missed,1,High
+21400304,488,2pt,4,PT04M15.00S,04:15,Q4 04:15,91,92,1610612743.0,Arthur,MISS Arthur 2' Layup,rebound,rebound,1,High
+21400304,489,rebound,4,PT04M14.00S,04:14,Q4 04:14,91,92,1610612743.0,Mozgov,Mozgov REBOUND (Off:6 Def:5),2pt missed,3pt missed,1,High
+21400304,490,3pt,4,PT04M11.00S,04:11,Q4 04:11,91,92,1610612743.0,Lawson,MISS Lawson 25' 3PT Jump Shot,rebound,rebound,1,High
+21400304,491,rebound,4,PT04M10.00S,04:10,Q4 04:10,91,92,1610612743.0,Arthur,Arthur REBOUND (Off:8 Def:5),3pt missed,2pt made,1,High
+21400304,492,2pt,4,PT04M00.00S,04:00,Q4 04:00,91,94,1610612743.0,Lawson,Lawson 2' Driving Layup (20 PTS),rebound,3pt missed,3,High
+21400304,493,3pt,4,PT03M39.00S,03:39,Q4 03:39,91,94,1610612761.0,Ross,MISS Ross 3PT Jump Shot,2pt made,rebound,3,High
+21400304,494,rebound,4,PT03M39.00S,03:39,Q4 03:39,91,94,1610612743.0,Afflalo,Afflalo REBOUND (Off:1 Def:5),3pt missed,3pt missed,3,High
+21400304,496,3pt,4,PT03M28.00S,03:28,Q4 03:28,91,94,1610612743.0,Chandler,MISS Chandler 24' 3PT Jump Shot,rebound,rebound,3,High
+21400304,497,rebound,4,PT03M27.00S,03:27,Q4 03:27,91,94,1610612761.0,Patterson,Patterson REBOUND (Off:1 Def:4),3pt missed,3pt missed,3,High
+21400304,498,3pt,4,PT03M18.00S,03:18,Q4 03:18,91,94,1610612761.0,Ross,MISS Ross 26' 3PT Jump Shot,rebound,rebound,3,High
+21400304,499,rebound,4,PT03M17.00S,03:17,Q4 03:17,91,94,1610612743.0,Lawson,Lawson REBOUND (Off:0 Def:6),3pt missed,2pt made,3,High
+21400304,500,2pt,4,PT03M11.00S,03:11,Q4 03:11,91,96,1610612743.0,Lawson,Lawson 2' Layup (22 PTS),rebound,timeout,5,High
+21400304,501,timeout,4,PT03M10.00S,03:10,Q4 03:10,91,96,1610612761.0,,RAPTORS Timeout: Short (Full 4 Short 1),2pt made,substitution,5,High
+21400304,502,substitution,4,PT03M10.00S,03:10,Q4 03:10,91,96,1610612761.0,Vasquez,SUB out: G. Vasquez,timeout,substitution,5,High
+21400304,503,substitution,4,PT03M10.00S,03:10,Q4 03:10,91,96,1610612761.0,Williams,SUB in: L. Williams,substitution,foul,5,High
+21400304,504,foul,4,PT03M03.00S,03:03,Q4 03:03,91,96,1610612743.0,Arthur,Arthur Shooting Block Foul (P4.PN),substitution,freethrow,5,High
+21400304,505,freethrow,4,PT03M03.00S,03:03,Q4 03:03,92,96,1610612761.0,Lowry,Lowry Free Throw 1 of 2 (10 PTS),foul,freethrow,4,High
+21400304,507,freethrow,4,PT03M03.00S,03:03,Q4 03:03,93,96,1610612761.0,Lowry,Lowry Free Throw 2 of 2 (11 PTS),freethrow,2pt made,3,High
+21400304,509,2pt,4,PT02M41.00S,02:41,Q4 02:41,93,98,1610612743.0,Arthur,Arthur 6' Jump Shot (10 PTS) (Afflalo 2 AST),freethrow,3pt made,5,High
+21400304,510,3pt,4,PT02M20.00S,02:20,Q4 02:20,96,98,1610612761.0,Patterson,Patterson 3PT Jump Shot (16 PTS) (Lowry 10 AST),2pt made,timeout,2,High
+21400304,511,timeout,4,PT02M14.00S,02:14,Q4 02:14,96,98,1610612743.0,,Nuggets Timeout: Regular (Reg.5 Short 0),3pt made,2pt made,2,High
+21400304,515,2pt,4,PT02M01.00S,02:01,Q4 02:01,96,100,1610612743.0,Arthur,Arthur 20' Jump Shot (12 PTS) (Lawson 12 AST),timeout,foul,4,High
+21400304,516,foul,4,PT01M56.00S,01:56,Q4 01:56,96,100,1610612743.0,Mozgov,Mozgov Personal Block Foul (P4.PN),2pt made,freethrow,4,Very High
+21400304,517,freethrow,4,PT01M56.00S,01:56,Q4 01:56,97,100,1610612761.0,Lowry,Lowry Free Throw 1 of 2 (12 PTS),foul,freethrow,3,Very High
+21400304,519,freethrow,4,PT01M56.00S,01:56,Q4 01:56,98,100,1610612761.0,Lowry,Lowry Free Throw 2 of 2 (13 PTS),freethrow,3pt missed,2,Very High
+21400304,521,3pt,4,PT01M33.00S,01:33,Q4 01:33,98,100,1610612743.0,Arthur,MISS Arthur 3PT Jump Shot,freethrow,rebound,2,Very High
+21400304,522,rebound,4,PT01M32.00S,01:32,Q4 01:32,98,100,1610612761.0,Ross,Ross REBOUND (Off:0 Def:3),3pt missed,foul,2,Very High
+21400304,523,foul,4,PT01M24.00S,01:24,Q4 01:24,98,100,1610612743.0,Lawson,Lawson S.FOUL (P4.PN),rebound,freethrow,2,Very High
+21400304,524,freethrow,4,PT01M24.00S,01:24,Q4 01:24,99,100,1610612761.0,Johnson,A. Johnson Free Throw 1 of 2 (5 PTS),foul,freethrow,1,Very High
+21400304,528,freethrow,4,PT01M24.00S,01:24,Q4 01:24,99,100,1610612761.0,Johnson,MISS A. Johnson Free Throw 2 of 2,freethrow,substitution,1,Very High
+21400304,527,substitution,4,PT01M24.00S,01:24,Q4 01:24,99,100,1610612761.0,Williams,SUB out: L. Williams,substitution,substitution,1,Very High
+21400304,528,substitution,4,PT01M24.00S,01:24,Q4 01:24,99,100,1610612761.0,Johnson,SUB in: A. Johnson,substitution,rebound,1,Very High
+21400304,530,rebound,4,PT01M23.00S,01:23,Q4 01:23,99,100,1610612743.0,Chandler,Chandler REBOUND (Off:0 Def:6),substitution,timeout,1,Very High
+21400304,531,timeout,4,PT01M17.00S,01:17,Q4 01:17,99,100,1610612743.0,,Nuggets Timeout: Short (Reg.5 Short 1),rebound,turnover,1,Very High
+21400304,534,turnover,4,PT01M03.00S,01:03,Q4 01:03,99,100,1610612743.0,Arthur,Arthur Traveling Turnover (P2.T12),timeout,substitution,1,Very High
+21400304,535,substitution,4,PT01M03.00S,01:03,Q4 01:03,99,100,1610612761.0,Johnson,SUB out: J. Johnson,turnover,substitution,1,Very High
+21400304,536,substitution,4,PT01M03.00S,01:03,Q4 01:03,99,100,1610612761.0,Williams,SUB in: L. Williams,substitution,turnover,1,Very High
+21400304,536,turnover,4,PT00M56.20S,00:56,Q4 00:56,99,100,1610612761.0,Johnson,A. Johnson Bad Pass Turnover (P2.T12),substitution,substitution,1,Very High
+21400304,537,substitution,4,PT00M56.20S,00:56,Q4 00:56,99,100,1610612761.0,Williams,SUB out: L. Williams,substitution,substitution,1,Very High
+21400304,538,substitution,4,PT00M56.20S,00:56,Q4 00:56,99,100,1610612761.0,Johnson,SUB in: A. Johnson,substitution,2pt made,1,Very High
+21400304,538,2pt,4,PT00M39.90S,00:39,Q4 00:39,99,102,1610612743.0,Afflalo,Afflalo 15' Step Back Jump Shot (25 PTS),substitution,3pt made,3,Very High
+21400304,539,3pt,4,PT00M28.90S,00:28,Q4 00:28,102,102,1610612761.0,Patterson,Patterson 26' 3PT Jump Shot (19 PTS) (Lowry 11 AST),2pt made,timeout,0,Very High
+21400304,540,timeout,4,PT00M28.30S,00:28,Q4 00:28,102,102,1610612743.0,,Nuggets Timeout: Regular (Reg.6 Short 1),3pt made,3pt missed,0,Very High
+21400304,544,3pt,4,PT00M04.30S,00:04,Q4 00:04,102,102,1610612743.0,Lawson,MISS Lawson 25' 3PT Jump Shot,timeout,rebound,0,Very High
+21400304,545,rebound,4,PT00M04.30S,00:04,Q4 00:04,102,102,1610612743.0,,TEAM offensive REBOUND,3pt missed,turnover,0,Very High
+21400304,546,turnover,4,PT00M04.30S,00:04,Q4 00:04,102,102,0.0,,Nuggets Turnover: Shot Clock (T#13),rebound,timeout,0,Very High
+21400304,547,timeout,4,PT00M04.30S,00:04,Q4 00:04,102,102,1610612761.0,,RAPTORS Timeout: Regular (Full 5 Short 1),turnover,substitution,0,Very High
+21400304,549,substitution,4,PT00M04.30S,00:04,Q4 00:04,102,102,1610612761.0,Johnson,SUB out: J. Johnson,timeout,substitution,0,Very High
+21400304,550,substitution,4,PT00M04.30S,00:04,Q4 00:04,102,102,1610612743.0,Mozgov,SUB out: T. Mozgov,substitution,substitution,0,Very High
+21400304,551,substitution,4,PT00M04.30S,00:04,Q4 00:04,102,102,1610612761.0,Williams,SUB in: L. Williams,substitution,substitution,0,Very High
+21400304,552,substitution,4,PT00M04.30S,00:04,Q4 00:04,102,102,1610612743.0,Gee,SUB in: A. Gee,substitution,3pt missed,0,Very High
+21400304,551,3pt,4,PT00M00.00S,00:00,Q4 00:00,102,102,1610612761.0,Lowry,MISS Lowry 27' 3PT Jump Bank Shot,substitution,rebound,0,Very High
+21400304,552,rebound,4,PT00M00.00S,00:00,Q4 00:00,102,102,1610612761.0,,TEAM offensive REBOUND,3pt missed,period,0,Very High
+21400304,553,period,4,PT00M00.00S,00:00,Q4 00:00,102,102,1610612761.0,,End of 4th Period (9:54 PM EST),rebound,period,0,Very High
+21400304,556,period,5,PT05M00.00S,05:00,Q5 05:00,102,102,1610612761.0,,Start of 1st OT (9:57 PM EST),period,substitution,0,High
+21400304,560,2pt,5,PT04M51.00S,04:51,Q5 04:51,102,102,1610612743.0,Arthur,MISS Arthur 13' Jump Shot,substitution,rebound,0,High
+21400304,561,rebound,5,PT04M50.00S,04:50,Q5 04:50,102,102,1610612743.0,Mozgov,Mozgov REBOUND (Off:7 Def:5),2pt missed,2pt missed,0,High
+21400304,563,2pt,5,PT04M49.00S,04:49,Q5 04:49,102,102,1610612743.0,Mozgov,MISS Mozgov 2' Tip Shot,rebound,rebound,0,High
+21400304,557,rebound,5,PT04M47.00S,04:47,Q5 04:47,102,102,1610612761.0,Patterson,Patterson REBOUND (Off:1 Def:5),2pt missed,foul,0,High
+21400304,559,foul,5,PT04M29.00S,04:29,Q5 04:29,102,102,1610612743.0,Arthur,Arthur Personal Block Foul (P5.T1),rebound,substitution,0,High
+21400304,562,substitution,5,PT04M29.00S,04:29,Q5 04:29,102,102,1610612743.0,Arthur,SUB out: D. Arthur,foul,substitution,0,High
+21400304,563,substitution,5,PT04M29.00S,04:29,Q5 04:29,102,102,1610612743.0,Gee,SUB in: A. Gee,substitution,turnover,0,High
+21400304,566,turnover,5,PT04M19.00S,04:19,Q5 04:19,102,102,1610612761.0,Johnson,A. Johnson Offensive Goaltending Turnover (P3.T13),substitution,3pt made,0,High
+21400304,567,3pt,5,PT04M07.00S,04:07,Q5 04:07,102,105,1610612743.0,Chandler,Chandler 27' 3PT Jump Shot (18 PTS),turnover,3pt made,3,High
+21400304,568,3pt,5,PT03M41.00S,03:41,Q5 03:41,105,105,1610612761.0,Ross,Ross 24' 3PT Jump Shot (16 PTS) (Lowry 12 AST),3pt made,foul,0,High
+21400304,570,foul,5,PT03M21.00S,03:21,Q5 03:21,105,105,1610612743.0,Lawson,Lawson Offensive Charge Foul (P5),3pt made,turnover,0,High
+21400304,571,turnover,5,PT03M21.00S,03:21,Q5 03:21,105,105,1610612743.0,Lawson,Lawson Foul Turnover (P3.T14),foul,2pt made,0,High
+21400304,572,2pt,5,PT03M08.00S,03:08,Q5 03:08,107,105,1610612761.0,Williams,Williams 1' Driving Layup (23 PTS),turnover,3pt missed,2,High
+21400304,573,3pt,5,PT02M53.00S,02:53,Q5 02:53,107,105,1610612743.0,Chandler,MISS Chandler 25' 3PT Jump Shot,2pt made,rebound,2,High
+21400304,574,rebound,5,PT02M52.00S,02:52,Q5 02:52,107,105,1610612761.0,Ross,Ross REBOUND (Off:0 Def:4),3pt missed,turnover,2,High
+21400304,575,turnover,5,PT02M41.00S,02:41,Q5 02:41,107,105,1610612761.0,Williams,Williams Bad Pass Turnover (P2.T14),rebound,steal,2,High
+21400304,575,steal,5,PT02M41.00S,02:41,Q5 02:41,107,105,1610612743.0,Chandler,Chandler STEAL (3 STL),turnover,3pt missed,2,High
+21400304,576,3pt,5,PT02M29.00S,02:29,Q5 02:29,107,105,1610612743.0,Chandler,MISS Chandler 27' 3PT Jump Shot,steal,rebound,2,High
+21400304,577,rebound,5,PT02M28.00S,02:28,Q5 02:28,107,105,1610612761.0,Lowry,Lowry REBOUND (Off:1 Def:2),3pt missed,2pt made,2,High
+21400304,578,2pt,5,PT02M10.00S,02:10,Q5 02:10,109,105,1610612761.0,Johnson,A. Johnson 2' Layup (7 PTS) (Lowry 13 AST),rebound,timeout,4,High
+21400304,579,timeout,5,PT02M10.00S,02:10,Q5 02:10,109,105,1610612743.0,,Nuggets Timeout: Regular (Reg.7 Short 1),2pt made,substitution,4,High
+21400304,584,substitution,5,PT02M10.00S,02:10,Q5 02:10,109,105,1610612743.0,Mozgov,SUB out: T. Mozgov,timeout,substitution,4,High
+21400304,585,substitution,5,PT02M10.00S,02:10,Q5 02:10,109,105,1610612743.0,Arthur,SUB in: D. Arthur,substitution,2pt missed,4,High
+21400304,585,2pt,5,PT01M53.00S,01:53,Q5 01:53,109,105,1610612743.0,Arthur,MISS Arthur 19' Jump Shot,substitution,rebound,4,Very High
+21400304,586,rebound,5,PT01M52.00S,01:52,Q5 01:52,109,105,1610612761.0,Patterson,Patterson REBOUND (Off:1 Def:6),2pt missed,turnover,4,Very High
+21400304,587,turnover,5,PT01M34.00S,01:34,Q5 01:34,109,105,1610612761.0,Lowry,Lowry Out of Bounds Lost Ball Turnover (P4.T15),rebound,instant replay,4,Very High
+21400304,597,2pt,5,PT01M18.00S,01:18,Q5 01:18,109,105,1610612743.0,Arthur,MISS Arthur 12' Jump Shot,instant replay,rebound,4,Very High
+21400304,594,rebound,5,PT01M16.00S,01:16,Q5 01:16,109,105,1610612761.0,Williams,Williams REBOUND (Off:1 Def:2),2pt missed,foul,4,Very High
+21400304,596,foul,5,PT01M03.00S,01:03,Q5 01:03,109,105,1610612743.0,Arthur,Arthur P.FOUL (P6.T2),rebound,substitution,4,Very High
+21400304,600,substitution,5,PT01M03.00S,01:03,Q5 01:03,109,105,1610612743.0,Arthur,SUB out: D. Arthur,foul,substitution,4,Very High
+21400304,601,substitution,5,PT01M03.00S,01:03,Q5 01:03,109,105,1610612743.0,Hickson,SUB in: J. Hickson,substitution,3pt made,4,Very High
+21400304,602,3pt,5,PT00M53.90S,00:53,Q5 00:53,112,105,1610612761.0,Williams,Williams 27' 3PT Pullup Jump Shot (26 PTS),substitution,timeout,7,High
+21400304,603,timeout,5,PT00M53.90S,00:53,Q5 00:53,112,105,1610612743.0,,Nuggets Timeout: Regular (Reg.8 Short 1),3pt made,substitution,7,High
+21400304,607,substitution,5,PT00M53.90S,00:53,Q5 00:53,112,105,1610612743.0,Hickson,SUB out: J. Hickson,timeout,substitution,7,High
+21400304,608,substitution,5,PT00M53.90S,00:53,Q5 00:53,112,105,1610612743.0,Gallinari,SUB in: D. Gallinari,substitution,3pt missed,7,High
+21400304,608,3pt,5,PT00M36.90S,00:36,Q5 00:36,112,105,1610612743.0,Afflalo,MISS Afflalo 26' 3PT Jump Shot,substitution,rebound,7,High
+21400304,609,rebound,5,PT00M35.90S,00:35,Q5 00:35,112,105,1610612743.0,Gallinari,Gallinari REBOUND (Off:1 Def:0),3pt missed,turnover,7,High
+21400304,610,turnover,5,PT00M34.90S,00:34,Q5 00:34,112,105,1610612743.0,Gallinari,Gallinari Bad Pass Turnover (P1.T15),rebound,steal,7,High
+21400304,610,steal,5,PT00M34.90S,00:34,Q5 00:34,112,105,1610612761.0,Johnson,A. Johnson STEAL (1 STL),turnover,3pt missed,7,High
+21400304,612,3pt,5,PT00M13.90S,00:13,Q5 00:13,112,105,1610612761.0,Williams,MISS Williams 27' 3PT Jump Bank Shot,steal,rebound,7,High
+21400304,613,rebound,5,PT00M12.80S,00:12,Q5 00:12,112,105,1610612761.0,Patterson,Patterson REBOUND (Off:2 Def:6),3pt missed,turnover,7,High
+21400304,614,turnover,5,PT00M10.60S,00:10,Q5 00:10,112,105,0.0,,RAPTORS Turnover: Shot Clock (T#16),rebound,3pt missed,7,High
+21400304,615,3pt,5,PT00M06.90S,00:06,Q5 00:06,112,105,1610612743.0,Lawson,MISS Lawson 29' 3PT Jump Shot,turnover,rebound,7,High
+21400304,616,rebound,5,PT00M06.50S,00:06,Q5 00:06,112,105,1610612743.0,,TEAM offensive REBOUND,3pt missed,2pt made,7,High
+21400304,618,2pt,5,PT00M02.80S,00:02,Q5 00:02,112,107,1610612743.0,Gee,Gee 2' Driving Layup (3 PTS),rebound,period,5,Very High
+21400304,619,period,5,PT00M00.00S,00:00,Q5 00:00,112,107,1610612761.0,,End of 1st OT (10:12 PM EST),2pt made,,5,Very High

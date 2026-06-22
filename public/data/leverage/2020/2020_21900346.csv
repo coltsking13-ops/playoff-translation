@@ -1,0 +1,514 @@
+game_id,actionNumber,actionType,period,clock,clock_display,game_clock,scoreHome,scoreAway,teamId,playerName,description,previous_action,next_action,score_margin,leverage_bucket
+21900346,2,period,1,PT12M00.00S,12:00,Q1 12:00,0,0,1610612745.0,,Start of 1st Period (8:11 PM EST),,turnover,0,Low
+21900346,7,turnover,1,PT11M44.00S,11:44,Q1 11:44,0,0,1610612745.0,Westbrook,Westbrook Bad Pass Turnover (P1.T1),period,steal,0,Low
+21900346,7,steal,1,PT11M44.00S,11:44,Q1 11:44,0,0,1610612758.0,Holmes,Holmes STEAL (1 STL),turnover,2pt missed,0,Low
+21900346,9,2pt,1,PT11M25.00S,11:25,Q1 11:25,0,0,1610612758.0,Bjelica,MISS Bjelica 9' Turnaround Fadeaway Bank Jump Shot,steal,rebound,0,Low
+21900346,10,rebound,1,PT11M23.00S,11:23,Q1 11:23,0,0,1610612745.0,Capela,Capela REBOUND (Off:0 Def:1),2pt missed,2pt made,0,Low
+21900346,11,2pt,1,PT11M14.00S,11:14,Q1 11:14,2,0,1610612745.0,Harden,Harden Driving Layup (2 PTS),rebound,2pt missed,2,Low
+21900346,12,2pt,1,PT10M50.00S,10:50,Q1 10:50,2,0,1610612758.0,Barnes,MISS Barnes 11' Turnaround Fadeaway Shot,2pt made,rebound,2,Low
+21900346,13,rebound,1,PT10M48.00S,10:48,Q1 10:48,2,0,1610612745.0,Tucker,Tucker REBOUND (Off:0 Def:1),2pt missed,foul,2,Low
+21900346,14,foul,1,PT10M41.00S,10:41,Q1 10:41,2,0,1610612758.0,Hield,Hield S.FOUL (P1.T1) (M.Myers),rebound,freethrow,2,Low
+21900346,16,freethrow,1,PT10M41.00S,10:41,Q1 10:41,3,0,1610612745.0,Capela,Capela Free Throw 1 of 2 (1 PTS),foul,freethrow,3,Low
+21900346,17,freethrow,1,PT10M41.00S,10:41,Q1 10:41,3,0,1610612745.0,Capela,MISS Capela Free Throw 2 of 2,freethrow,rebound,3,Low
+21900346,18,rebound,1,PT10M41.00S,10:41,Q1 10:41,3,0,1610612758.0,Bjelica,Bjelica REBOUND (Off:0 Def:1),freethrow,3pt missed,3,Low
+21900346,19,3pt,1,PT10M19.00S,10:19,Q1 10:19,3,0,1610612758.0,Hield,MISS Hield 24' 3PT Pullup Jump Shot,rebound,rebound,3,Low
+21900346,20,rebound,1,PT10M17.00S,10:17,Q1 10:17,3,0,1610612745.0,Tucker,Tucker REBOUND (Off:0 Def:2),3pt missed,3pt missed,3,Low
+21900346,21,3pt,1,PT10M09.00S,10:09,Q1 10:09,3,0,1610612745.0,Harden,MISS Harden 27' 3PT Step Back Jump Shot,rebound,rebound,3,Low
+21900346,22,rebound,1,PT10M07.00S,10:07,Q1 10:07,3,0,1610612758.0,Barnes,Barnes REBOUND (Off:0 Def:1),3pt missed,2pt missed,3,Low
+21900346,23,2pt,1,PT09M59.00S,09:59,Q1 09:59,3,0,1610612758.0,Holmes,MISS Holmes 6' Turnaround Hook Shot,rebound,rebound,3,Low
+21900346,24,rebound,1,PT09M57.00S,09:57,Q1 09:57,3,0,1610612745.0,Tucker,Tucker REBOUND (Off:0 Def:3),2pt missed,2pt made,3,Low
+21900346,25,2pt,1,PT09M52.00S,09:52,Q1 09:52,5,0,1610612745.0,Westbrook,Westbrook 2' Driving Layup (2 PTS) (Harden 1 AST),rebound,timeout,5,Low
+21900346,27,timeout,1,PT09M52.00S,09:52,Q1 09:52,5,0,1610612758.0,,Kings Timeout: Regular (Reg.1 Short 0),2pt made,3pt made,5,Low
+21900346,28,3pt,1,PT09M36.00S,09:36,Q1 09:36,5,3,1610612758.0,Bjelica,Bjelica 28' 3PT Jump Shot (3 PTS) (Joseph 1 AST),timeout,turnover,2,Low
+21900346,30,turnover,1,PT09M21.00S,09:21,Q1 09:21,5,3,1610612745.0,Harden,Harden Out of Bounds - Bad Pass Turnover Turnover (P1.T2),3pt made,turnover,2,Low
+21900346,31,turnover,1,PT09M17.00S,09:17,Q1 09:17,5,3,1610612758.0,Hield,Hield Out of Bounds Lost Ball Turnover (P1.T1),turnover,2pt made,2,Low
+21900346,32,2pt,1,PT09M09.00S,09:09,Q1 09:09,7,3,1610612745.0,Westbrook,Westbrook 1' Driving Finger Roll Layup (4 PTS),turnover,foul,4,Low
+21900346,33,foul,1,PT08M53.00S,08:53,Q1 08:53,7,3,1610612745.0,Tucker,Tucker S.FOUL (P1.T1) (K.Mauer),2pt made,freethrow,4,Low
+21900346,35,freethrow,1,PT08M53.00S,08:53,Q1 08:53,7,4,1610612758.0,Holmes,Holmes Free Throw 1 of 2 (1 PTS),foul,freethrow,3,Low
+21900346,36,freethrow,1,PT08M53.00S,08:53,Q1 08:53,7,5,1610612758.0,Holmes,Holmes Free Throw 2 of 2 (2 PTS),freethrow,3pt missed,2,Low
+21900346,37,3pt,1,PT08M45.00S,08:45,Q1 08:45,7,5,1610612745.0,Tucker,MISS Tucker 26' 3PT Jump Shot,freethrow,rebound,2,Low
+21900346,38,rebound,1,PT08M44.00S,08:44,Q1 08:44,7,5,1610612758.0,Holmes,Holmes REBOUND (Off:0 Def:1),3pt missed,3pt made,2,Low
+21900346,39,3pt,1,PT08M33.00S,08:33,Q1 08:33,7,8,1610612758.0,Barnes,Barnes 24' 3PT Jump Shot (3 PTS) (Bjelica 1 AST),rebound,2pt missed,1,Low
+21900346,41,2pt,1,PT08M20.00S,08:20,Q1 08:20,7,8,1610612745.0,Capela,MISS Capela 3' Layup,3pt made,block,1,Low
+21900346,41,block,1,PT08M20.00S,08:20,Q1 08:20,7,8,1610612758.0,Holmes,Holmes BLOCK (1 BLK),2pt missed,rebound,1,Low
+21900346,43,rebound,1,PT08M17.00S,08:17,Q1 08:17,7,8,1610612758.0,Hield,Hield REBOUND (Off:0 Def:1),block,turnover,1,Low
+21900346,44,turnover,1,PT08M17.00S,08:17,Q1 08:17,7,8,1610612758.0,Hield,Hield Out of Bounds - Bad Pass Turnover Turnover (P2.T2),rebound,foul,1,Low
+21900346,45,foul,1,PT08M07.00S,08:07,Q1 08:07,7,8,1610612758.0,Bjelica,Bjelica S.FOUL (P1.T2) (K.Mauer),turnover,freethrow,1,Low
+21900346,47,freethrow,1,PT08M07.00S,08:07,Q1 08:07,7,8,1610612745.0,Capela,MISS Capela Free Throw 1 of 2,foul,rebound,1,Low
+21900346,48,rebound,1,PT08M07.00S,08:07,Q1 08:07,7,8,1610612745.0,,TEAM offensive REBOUND,freethrow,freethrow,1,Low
+21900346,49,freethrow,1,PT08M07.00S,08:07,Q1 08:07,8,8,1610612745.0,Capela,Capela Free Throw 2 of 2 (2 PTS),rebound,2pt made,0,Low
+21900346,50,2pt,1,PT07M42.00S,07:42,Q1 07:42,8,10,1610612758.0,Bjelica,Bjelica 7' Turnaround Hook Shot (5 PTS),freethrow,2pt made,2,Low
+21900346,54,2pt,1,PT07M25.00S,07:25,Q1 07:25,10,10,1610612745.0,Westbrook,Westbrook 19' Pullup Jump Shot (6 PTS),2pt made,foul,0,Low
+21900346,55,foul,1,PT07M03.00S,07:03,Q1 07:03,10,10,1610612745.0,Westbrook,Westbrook P.FOUL (P1.T2) (K.Mauer),2pt made,3pt made,0,Low
+21900346,57,3pt,1,PT06M56.00S,06:56,Q1 06:56,10,13,1610612758.0,Hield,Hield 28' 3PT Step Back Jump Shot (3 PTS) (Joseph 2 AST),foul,2pt missed,3,Low
+21900346,59,2pt,1,PT06M38.00S,06:38,Q1 06:38,10,13,1610612745.0,Tucker,MISS Tucker 3' Reverse Layup,3pt made,rebound,3,Low
+21900346,60,rebound,1,PT06M36.00S,06:36,Q1 06:36,10,13,1610612758.0,Bjelica,Bjelica REBOUND (Off:0 Def:2),2pt missed,3pt missed,3,Low
+21900346,61,3pt,1,PT06M26.00S,06:26,Q1 06:26,10,13,1610612758.0,Hield,MISS Hield 27' 3PT Jump Shot,rebound,rebound,3,Low
+21900346,62,rebound,1,PT06M24.00S,06:24,Q1 06:24,10,13,1610612758.0,Bjelica,Bjelica REBOUND (Off:1 Def:2),3pt missed,foul,3,Low
+21900346,63,foul,1,PT06M23.00S,06:23,Q1 06:23,10,13,1610612745.0,Tucker,Tucker P.FOUL (P2.T3) (M.Ervin),rebound,2pt made,3,Low
+21900346,65,2pt,1,PT06M15.00S,06:15,Q1 06:15,10,15,1610612758.0,Bjelica,Bjelica 9' Hook Shot (7 PTS) (Barnes 1 AST),foul,2pt missed,5,Low
+21900346,67,2pt,1,PT06M02.00S,06:02,Q1 06:02,10,15,1610612745.0,Westbrook,MISS Westbrook 11' Fadeaway Jumper,2pt made,rebound,5,Low
+21900346,68,rebound,1,PT06M00.00S,06:00,Q1 06:00,10,15,1610612758.0,Holmes,Holmes REBOUND (Off:0 Def:2),2pt missed,substitution,5,Low
+21900346,70,substitution,1,PT05M48.00S,05:48,Q1 05:48,10,15,1610612745.0,Westbrook,SUB out: R. Westbrook,rebound,substitution,5,Low
+21900346,71,substitution,1,PT05M48.00S,05:48,Q1 05:48,10,15,1610612758.0,Bjelica,SUB out: N. Bjelica,substitution,substitution,5,Low
+21900346,72,substitution,1,PT05M48.00S,05:48,Q1 05:48,10,15,1610612758.0,Barnes,SUB out: H. Barnes,substitution,substitution,5,Low
+21900346,73,substitution,1,PT05M48.00S,05:48,Q1 05:48,10,15,1610612745.0,McLemore,SUB in: B. McLemore,substitution,substitution,5,Low
+21900346,74,substitution,1,PT05M48.00S,05:48,Q1 05:48,10,15,1610612758.0,Bogdanovic,SUB in: B. Bogdanovic,substitution,substitution,5,Low
+21900346,75,substitution,1,PT05M48.00S,05:48,Q1 05:48,10,15,1610612758.0,Ariza,SUB in: T. Ariza,substitution,3pt made,5,Low
+21900346,76,3pt,1,PT05M40.00S,05:40,Q1 05:40,10,18,1610612758.0,Joseph,Joseph 26' 3PT Jump Shot (3 PTS) (Ariza 1 AST),substitution,3pt made,8,Low
+21900346,78,3pt,1,PT05M27.00S,05:27,Q1 05:27,13,18,1610612745.0,Tucker,Tucker 3PT Jump Shot (3 PTS) (McLemore 1 AST),3pt made,3pt missed,5,Low
+21900346,80,3pt,1,PT05M17.00S,05:17,Q1 05:17,13,18,1610612758.0,Joseph,MISS Joseph 27' 3PT Jump Shot,3pt made,rebound,5,Low
+21900346,81,rebound,1,PT05M15.00S,05:15,Q1 05:15,13,18,1610612745.0,Capela,Capela REBOUND (Off:0 Def:2),3pt missed,turnover,5,Low
+21900346,82,turnover,1,PT05M02.00S,05:02,Q1 05:02,13,18,1610612745.0,House Jr.,House Jr. Bad Pass Turnover (P1.T3),rebound,steal,5,Low
+21900346,82,steal,1,PT05M02.00S,05:02,Q1 05:02,13,18,1610612758.0,Hield,Hield STEAL (1 STL),turnover,2pt missed,5,Low
+21900346,84,2pt,1,PT04M58.00S,04:58,Q1 04:58,13,18,1610612758.0,Hield,MISS Hield 2' Running Layup,steal,rebound,5,Low
+21900346,85,rebound,1,PT04M51.00S,04:51,Q1 04:51,13,18,1610612758.0,Ariza,Ariza REBOUND (Off:1 Def:0),2pt missed,2pt made,5,Low
+21900346,86,2pt,1,PT04M51.00S,04:51,Q1 04:51,13,20,1610612758.0,Ariza,Ariza 1' Tip Layup Shot (2 PTS),rebound,2pt missed,7,Low
+21900346,87,2pt,1,PT04M34.00S,04:34,Q1 04:34,13,20,1610612745.0,Harden,MISS Harden 5' Driving Floating Bank Jump Shot,2pt made,rebound,7,Low
+21900346,88,rebound,1,PT04M28.00S,04:28,Q1 04:28,13,20,1610612745.0,Capela,Capela REBOUND (Off:1 Def:2),2pt missed,2pt made,7,Low
+21900346,89,2pt,1,PT04M28.00S,04:28,Q1 04:28,15,20,1610612745.0,Capela,Capela 1' Tip Layup Shot (4 PTS),rebound,2pt made,5,Low
+21900346,90,2pt,1,PT04M20.00S,04:20,Q1 04:20,15,22,1610612758.0,Holmes,Holmes 11' Hook Shot (4 PTS) (Bogdanovic 1 AST),2pt made,2pt made,7,Low
+21900346,92,2pt,1,PT04M05.00S,04:05,Q1 04:05,17,22,1610612745.0,Capela,Capela Alley Oop Dunk (6 PTS) (Harden 2 AST),2pt made,2pt missed,5,Low
+21900346,94,2pt,1,PT03M48.00S,03:48,Q1 03:48,17,22,1610612758.0,Holmes,MISS Holmes 10' Turnaround Hook Shot,2pt made,block,5,Low
+21900346,94,block,1,PT03M48.00S,03:48,Q1 03:48,17,22,1610612745.0,Harden,Harden BLOCK (1 BLK),2pt missed,rebound,5,Low
+21900346,96,rebound,1,PT03M46.00S,03:46,Q1 03:46,17,22,1610612745.0,Tucker,Tucker REBOUND (Off:0 Def:4),block,3pt missed,5,Low
+21900346,97,3pt,1,PT03M43.00S,03:43,Q1 03:43,17,22,1610612745.0,McLemore,MISS McLemore 27' 3PT Pullup Jump Shot,rebound,rebound,5,Low
+21900346,98,rebound,1,PT03M41.00S,03:41,Q1 03:41,17,22,1610612758.0,Holmes,Holmes REBOUND (Off:0 Def:3),3pt missed,foul,5,Low
+21900346,99,foul,1,PT03M30.00S,03:30,Q1 03:30,17,22,1610612745.0,Capela,Capela S.FOUL (P1.T4) (M.Myers),rebound,timeout,5,Low
+21900346,101,timeout,1,PT03M30.00S,03:30,Q1 03:30,17,22,1610612745.0,,ROCKETS Timeout: Regular (Full 1 Short 0),foul,freethrow,5,Low
+21900346,108,freethrow,1,PT03M30.00S,03:30,Q1 03:30,17,23,1610612758.0,Holmes,Holmes Free Throw 1 of 2 (5 PTS),timeout,freethrow,6,Low
+21900346,109,freethrow,1,PT03M30.00S,03:30,Q1 03:30,17,24,1610612758.0,Holmes,Holmes Free Throw 2 of 2 (6 PTS),freethrow,substitution,7,Low
+21900346,102,substitution,1,PT03M30.00S,03:30,Q1 03:30,17,22,1610612745.0,House Jr.,SUB out: D. House Jr.,freethrow,substitution,5,Low
+21900346,103,substitution,1,PT03M30.00S,03:30,Q1 03:30,17,22,1610612745.0,Capela,SUB out: C. Capela,substitution,substitution,5,Low
+21900346,104,substitution,1,PT03M30.00S,03:30,Q1 03:30,17,22,1610612758.0,Hield,SUB out: B. Hield,substitution,substitution,5,Low
+21900346,105,substitution,1,PT03M30.00S,03:30,Q1 03:30,17,22,1610612745.0,Clemons,SUB in: C. Clemons,substitution,substitution,5,Low
+21900346,106,substitution,1,PT03M30.00S,03:30,Q1 03:30,17,22,1610612745.0,Clark,SUB in: G. Clark,substitution,substitution,5,Low
+21900346,107,substitution,1,PT03M30.00S,03:30,Q1 03:30,17,22,1610612758.0,Barnes,SUB in: H. Barnes,substitution,3pt missed,5,Low
+21900346,110,3pt,1,PT03M06.00S,03:06,Q1 03:06,17,24,1610612745.0,Clemons,MISS Clemons 28' 3PT Pullup Jump Shot,substitution,rebound,7,Low
+21900346,111,rebound,1,PT03M04.00S,03:04,Q1 03:04,17,24,1610612745.0,Tucker,Tucker REBOUND (Off:1 Def:4),3pt missed,3pt missed,7,Low
+21900346,112,3pt,1,PT03M01.00S,03:01,Q1 03:01,17,24,1610612745.0,McLemore,MISS McLemore 26' 3PT Jump Shot,rebound,block,7,Low
+21900346,112,block,1,PT03M01.00S,03:01,Q1 03:01,17,24,1610612758.0,Ariza,Ariza BLOCK (1 BLK),3pt missed,rebound,7,Low
+21900346,114,rebound,1,PT02M59.00S,02:59,Q1 02:59,17,24,1610612745.0,,TEAM offensive REBOUND,block,substitution,7,Low
+21900346,116,substitution,1,PT02M59.00S,02:59,Q1 02:59,17,24,1610612745.0,Tucker,SUB out: P. Tucker,rebound,substitution,7,Low
+21900346,117,substitution,1,PT02M59.00S,02:59,Q1 02:59,17,24,1610612745.0,Westbrook,SUB in: R. Westbrook,substitution,2pt missed,7,Low
+21900346,118,2pt,1,PT02M54.00S,02:54,Q1 02:54,17,24,1610612745.0,Westbrook,MISS Westbrook 3' Layup,substitution,block,7,Low
+21900346,118,block,1,PT02M54.00S,02:54,Q1 02:54,17,24,1610612758.0,Barnes,Barnes BLOCK (1 BLK),2pt missed,rebound,7,Low
+21900346,120,rebound,1,PT02M52.00S,02:52,Q1 02:52,17,24,1610612758.0,Barnes,Barnes REBOUND (Off:0 Def:2),block,turnover,7,Low
+21900346,121,turnover,1,PT02M30.00S,02:30,Q1 02:30,17,24,0.0,,Kings Turnover: Shot Clock (T#3),rebound,3pt made,7,Low
+21900346,122,3pt,1,PT02M16.00S,02:16,Q1 02:16,20,24,1610612745.0,Harden,Harden 28' 3PT Step Back Jump Shot (5 PTS),turnover,foul,4,Low
+21900346,123,foul,1,PT02M16.00S,02:16,Q1 02:16,20,24,1610612758.0,Joseph,Joseph S.FOUL (P1.T3) (K.Mauer),3pt made,freethrow,4,Low
+21900346,125,freethrow,1,PT02M16.00S,02:16,Q1 02:16,21,24,1610612745.0,Harden,Harden Free Throw 1 of 1 (6 PTS),foul,2pt made,3,Low
+21900346,126,2pt,1,PT01M51.00S,01:51,Q1 01:51,21,26,1610612758.0,Barnes,Barnes 1' Driving Layup (5 PTS) (Joseph 3 AST),freethrow,3pt missed,5,Low
+21900346,128,3pt,1,PT01M39.00S,01:39,Q1 01:39,21,26,1610612745.0,McLemore,MISS McLemore 24' 3PT Jump Shot,2pt made,rebound,5,Low
+21900346,129,rebound,1,PT01M37.00S,01:37,Q1 01:37,21,26,1610612758.0,Ariza,Ariza REBOUND (Off:1 Def:1),3pt missed,turnover,5,Low
+21900346,130,turnover,1,PT01M32.00S,01:32,Q1 01:32,21,26,1610612758.0,Barnes,Barnes Out of Bounds - Bad Pass Turnover Turnover (P1.T4),rebound,2pt made,5,Low
+21900346,131,2pt,1,PT01M22.00S,01:22,Q1 01:22,23,26,1610612745.0,Westbrook,Westbrook 18' Pullup Jump Shot (8 PTS),turnover,3pt made,3,Low
+21900346,132,3pt,1,PT01M07.00S,01:07,Q1 01:07,23,29,1610612758.0,Ariza,Ariza 27' 3PT Jump Shot (5 PTS) (Barnes 2 AST),2pt made,2pt missed,6,Low
+21900346,134,2pt,1,PT00M58.50S,00:58,Q1 00:58,23,29,1610612745.0,Harden,MISS Harden 5' Driving Layup,3pt made,block,6,Low
+21900346,134,block,1,PT00M58.50S,00:58,Q1 00:58,23,29,1610612758.0,Joseph,Joseph BLOCK (1 BLK),2pt missed,rebound,6,Low
+21900346,136,rebound,1,PT00M55.80S,00:55,Q1 00:55,23,29,1610612758.0,Ariza,Ariza REBOUND (Off:1 Def:2),block,3pt made,6,Low
+21900346,137,3pt,1,PT00M52.50S,00:52,Q1 00:52,23,32,1610612758.0,Ariza,Ariza 27' 3PT Jump Shot (8 PTS) (Joseph 4 AST),rebound,3pt made,9,Low
+21900346,139,3pt,1,PT00M45.90S,00:45,Q1 00:45,26,32,1610612745.0,Clark,Clark 3PT Jump Shot (3 PTS) (McLemore 2 AST),3pt made,3pt missed,6,Low
+21900346,141,3pt,1,PT00M38.60S,00:38,Q1 00:38,26,32,1610612758.0,Ariza,MISS Ariza 27' 3PT Jump Shot,3pt made,rebound,6,Low
+21900346,142,rebound,1,PT00M35.90S,00:35,Q1 00:35,26,32,1610612745.0,Westbrook,Westbrook REBOUND (Off:0 Def:1),3pt missed,turnover,6,Low
+21900346,143,turnover,1,PT00M31.30S,00:31,Q1 00:31,26,32,1610612745.0,Westbrook,Westbrook Bad Pass Turnover (P2.T4),rebound,steal,6,Low
+21900346,143,steal,1,PT00M31.30S,00:31,Q1 00:31,26,32,1610612758.0,Holmes,Holmes STEAL (2 STL),turnover,3pt missed,6,Low
+21900346,145,3pt,1,PT00M24.00S,00:24,Q1 00:24,26,32,1610612758.0,Bogdanovic,MISS Bogdanovic 27' 3PT Jump Shot,steal,rebound,6,Low
+21900346,146,rebound,1,PT00M21.40S,00:21,Q1 00:21,26,32,1610612745.0,,TEAM defensive REBOUND,3pt missed,foul,6,Low
+21900346,148,foul,1,PT00M03.30S,00:03,Q1 00:03,26,32,1610612758.0,Holmes,Holmes S.FOUL (P1.T4) (M.Ervin),rebound,freethrow,6,Low
+21900346,150,freethrow,1,PT00M03.30S,00:03,Q1 00:03,27,32,1610612745.0,Clark,Clark Free Throw 1 of 2 (4 PTS),foul,freethrow,5,Low
+21900346,155,freethrow,1,PT00M03.30S,00:03,Q1 00:03,28,32,1610612745.0,Clark,Clark Free Throw 2 of 2 (5 PTS),freethrow,substitution,4,Low
+21900346,151,substitution,1,PT00M03.30S,00:03,Q1 00:03,27,32,1610612758.0,Joseph,SUB out: C. Joseph,freethrow,substitution,5,Low
+21900346,152,substitution,1,PT00M03.30S,00:03,Q1 00:03,27,32,1610612758.0,Holmes,SUB out: R. Holmes,substitution,substitution,5,Low
+21900346,153,substitution,1,PT00M03.30S,00:03,Q1 00:03,27,32,1610612758.0,Ferrell,SUB in: Y. Ferrell,substitution,substitution,5,Low
+21900346,154,substitution,1,PT00M03.30S,00:03,Q1 00:03,27,32,1610612758.0,Hield,SUB in: B. Hield,substitution,period,5,Low
+21900346,158,period,1,PT00M00.00S,00:00,Q1 00:00,28,32,1610612745.0,,End of 1st Period (8:38 PM EST),substitution,period,4,Low
+21900346,165,period,2,PT12M00.00S,12:00,Q2 12:00,28,32,1610612745.0,,Start of 2nd Period (8:41 PM EST),period,substitution,4,Low
+21900346,166,2pt,2,PT11M43.00S,11:43,Q2 11:43,28,34,1610612758.0,Barnes,Barnes 1' Cutting Dunk Shot (7 PTS) (Bjelica 2 AST),substitution,3pt made,6,Low
+21900346,168,3pt,2,PT11M31.00S,11:31,Q2 11:31,31,34,1610612745.0,McLemore,McLemore 27' 3PT Jump Shot (3 PTS) (Westbrook 1 AST),2pt made,3pt missed,3,Low
+21900346,170,3pt,2,PT11M15.00S,11:15,Q2 11:15,31,34,1610612758.0,Ariza,MISS Ariza 24' 3PT Jump Shot,3pt made,rebound,3,Low
+21900346,171,rebound,2,PT11M14.00S,11:14,Q2 11:14,31,34,1610612745.0,Westbrook,Westbrook REBOUND (Off:0 Def:2),3pt missed,3pt made,3,Low
+21900346,172,3pt,2,PT10M52.00S,10:52,Q2 10:52,34,34,1610612745.0,Clark,Clark 28' 3PT Jump Shot (8 PTS) (Westbrook 2 AST),rebound,foul,0,Low
+21900346,174,foul,2,PT10M30.00S,10:30,Q2 10:30,34,34,1610612745.0,McLemore,McLemore S.FOUL (P1.T1) (M.Ervin),3pt made,freethrow,0,Low
+21900346,176,freethrow,2,PT10M30.00S,10:30,Q2 10:30,34,35,1610612758.0,Bjelica,Bjelica Free Throw 1 of 2 (8 PTS),foul,freethrow,1,Low
+21900346,177,freethrow,2,PT10M30.00S,10:30,Q2 10:30,34,36,1610612758.0,Bjelica,Bjelica Free Throw 2 of 2 (9 PTS),freethrow,2pt made,2,Low
+21900346,178,2pt,2,PT10M20.00S,10:20,Q2 10:20,36,36,1610612745.0,Capela,Capela 1' Alley Oop Dunk (8 PTS) (Westbrook 3 AST),freethrow,3pt missed,0,Low
+21900346,180,3pt,2,PT10M04.00S,10:04,Q2 10:04,36,36,1610612758.0,Ariza,MISS Ariza 24' 3PT Jump Shot,2pt made,rebound,0,Low
+21900346,181,rebound,2,PT10M03.00S,10:03,Q2 10:03,36,36,1610612745.0,Capela,Capela REBOUND (Off:1 Def:3),3pt missed,3pt made,0,Low
+21900346,182,3pt,2,PT09M51.00S,09:51,Q2 09:51,39,36,1610612745.0,Clark,Clark 26' 3PT Jump Shot (11 PTS) (McLemore 3 AST),rebound,timeout,3,Low
+21900346,184,timeout,2,PT09M51.00S,09:51,Q2 09:51,39,36,1610612758.0,,Kings Timeout: Regular (Reg.2 Short 0),3pt made,2pt missed,3,Low
+21900346,185,2pt,2,PT09M37.00S,09:37,Q2 09:37,39,36,1610612758.0,Barnes,MISS Barnes 9' Hook Shot,timeout,rebound,3,Low
+21900346,186,rebound,2,PT09M36.00S,09:36,Q2 09:36,39,36,1610612745.0,,TEAM defensive REBOUND,2pt missed,foul,3,Low
+21900346,188,foul,2,PT09M34.00S,09:34,Q2 09:34,39,36,0.0,,Luke Walton Foul:T.FOUL (K.Mauer),rebound,freethrow,3,Low
+21900346,189,freethrow,2,PT09M34.00S,09:34,Q2 09:34,40,36,1610612745.0,Westbrook,Westbrook Free Throw Technical (9 PTS),foul,turnover,4,Low
+21900346,190,turnover,2,PT09M26.00S,09:26,Q2 09:26,40,36,1610612745.0,Capela,Capela Lost Ball Turnover (P1.T5),freethrow,steal,4,Low
+21900346,190,steal,2,PT09M26.00S,09:26,Q2 09:26,40,36,1610612758.0,Bjelica,Bjelica STEAL (1 STL),turnover,2pt made,4,Low
+21900346,192,2pt,2,PT09M08.00S,09:08,Q2 09:08,40,38,1610612758.0,Ferrell,Ferrell 18' Pullup Jump Shot (2 PTS) (Ariza 2 AST),steal,3pt made,2,Low
+21900346,194,3pt,2,PT08M57.00S,08:57,Q2 08:57,43,38,1610612745.0,McLemore,McLemore 24' 3PT Jump Shot (6 PTS) (Westbrook 4 AST),2pt made,turnover,5,Low
+21900346,196,turnover,2,PT08M38.00S,08:38,Q2 08:38,43,38,1610612758.0,Bjelica,Bjelica Lost Ball Turnover (P1.T5),3pt made,steal,5,Low
+21900346,196,steal,2,PT08M38.00S,08:38,Q2 08:38,43,38,1610612745.0,Westbrook,Westbrook STEAL (1 STL),turnover,3pt missed,5,Low
+21900346,198,3pt,2,PT08M27.00S,08:27,Q2 08:27,43,38,1610612745.0,Clark,MISS Clark 3PT Jump Shot,steal,rebound,5,Low
+21900346,199,rebound,2,PT08M25.00S,08:25,Q2 08:25,43,38,1610612745.0,House Jr.,House Jr. REBOUND (Off:1 Def:0),3pt missed,3pt missed,5,Low
+21900346,200,3pt,2,PT08M12.00S,08:12,Q2 08:12,43,38,1610612745.0,House Jr.,MISS House Jr. 27' 3PT Pullup Jump Shot,rebound,rebound,5,Low
+21900346,201,rebound,2,PT08M11.00S,08:11,Q2 08:11,43,38,1610612758.0,,TEAM defensive REBOUND,3pt missed,foul,5,Low
+21900346,203,foul,2,PT07M56.00S,07:56,Q2 07:56,43,38,1610612745.0,Clark,Clark S.FOUL (P1.T2) (M.Myers),rebound,freethrow,5,Low
+21900346,205,freethrow,2,PT07M56.00S,07:56,Q2 07:56,43,39,1610612758.0,Ferrell,Ferrell Free Throw 1 of 2 (3 PTS),foul,freethrow,4,Low
+21900346,212,freethrow,2,PT07M56.00S,07:56,Q2 07:56,43,39,1610612758.0,Ferrell,MISS Ferrell Free Throw 2 of 2,freethrow,rebound,4,Low
+21900346,213,rebound,2,PT07M56.00S,07:56,Q2 07:56,43,39,1610612745.0,Capela,Capela REBOUND (Off:1 Def:4),freethrow,substitution,4,Low
+21900346,206,substitution,2,PT07M56.00S,07:56,Q2 07:56,43,39,1610612745.0,Clark,SUB out: G. Clark,rebound,substitution,4,Low
+21900346,207,substitution,2,PT07M56.00S,07:56,Q2 07:56,43,39,1610612745.0,McLemore,SUB out: B. McLemore,substitution,substitution,4,Low
+21900346,208,substitution,2,PT07M56.00S,07:56,Q2 07:56,43,39,1610612758.0,Bogdanovic,SUB out: B. Bogdanovic,substitution,substitution,4,Low
+21900346,209,substitution,2,PT07M56.00S,07:56,Q2 07:56,43,39,1610612745.0,Harden,SUB in: J. Harden,substitution,substitution,4,Low
+21900346,210,substitution,2,PT07M56.00S,07:56,Q2 07:56,43,39,1610612745.0,Tucker,SUB in: P. Tucker,substitution,substitution,4,Low
+21900346,211,substitution,2,PT07M56.00S,07:56,Q2 07:56,43,39,1610612758.0,Hield,SUB in: B. Hield,substitution,turnover,4,Low
+21900346,267,turnover,2,PT07M45.00S,07:45,Q2 07:45,43,39,1610612745.0,Westbrook,Westbrook Lost Ball Turnover (P3.T6),substitution,steal,4,Low
+21900346,267,steal,2,PT07M45.00S,07:45,Q2 07:45,43,39,1610612758.0,Bjelica,Bjelica STEAL (2 STL),turnover,3pt missed,4,Low
+21900346,216,3pt,2,PT07M35.00S,07:35,Q2 07:35,43,39,1610612758.0,Barnes,MISS Barnes 26' 3PT Jump Shot,steal,rebound,4,Low
+21900346,217,rebound,2,PT07M33.00S,07:33,Q2 07:33,43,39,1610612745.0,Capela,Capela REBOUND (Off:1 Def:5),3pt missed,3pt missed,4,Low
+21900346,218,3pt,2,PT07M22.00S,07:22,Q2 07:22,43,39,1610612745.0,Tucker,MISS Tucker 3PT Jump Shot,rebound,rebound,4,Low
+21900346,219,rebound,2,PT07M18.00S,07:18,Q2 07:18,43,39,1610612758.0,Ariza,Ariza REBOUND (Off:1 Def:3),3pt missed,2pt made,4,Low
+21900346,220,2pt,2,PT07M14.00S,07:14,Q2 07:14,43,41,1610612758.0,Barnes,Barnes 1' Cutting Dunk Shot (9 PTS) (Ferrell 1 AST),rebound,3pt made,2,Low
+21900346,222,3pt,2,PT07M01.00S,07:01,Q2 07:01,46,41,1610612745.0,Tucker,Tucker 3PT Jump Shot (6 PTS) (House Jr. 1 AST),2pt made,2pt made,5,Low
+21900346,224,2pt,2,PT06M42.00S,06:42,Q2 06:42,46,43,1610612758.0,Hield,Hield 2' Cutting Layup Shot (5 PTS) (Bjelica 3 AST),3pt made,foul,3,Low
+21900346,226,foul,2,PT06M22.00S,06:22,Q2 06:22,46,43,1610612758.0,Ariza,Ariza P.FOUL (P1.T1) (M.Myers),2pt made,substitution,3,Low
+21900346,228,substitution,2,PT06M22.00S,06:22,Q2 06:22,46,43,1610612758.0,Barnes,SUB out: H. Barnes,foul,substitution,3,Low
+21900346,229,substitution,2,PT06M22.00S,06:22,Q2 06:22,46,43,1610612758.0,Joseph,SUB in: C. Joseph,substitution,foul,3,Low
+21900346,230,foul,2,PT06M13.00S,06:13,Q2 06:13,46,43,1610612758.0,Hield,Hield S.FOUL (P2.T2) (K.Mauer),substitution,freethrow,3,Low
+21900346,232,freethrow,2,PT06M13.00S,06:13,Q2 06:13,47,43,1610612745.0,Westbrook,Westbrook Free Throw 1 of 2 (10 PTS),foul,freethrow,4,Low
+21900346,233,freethrow,2,PT06M13.00S,06:13,Q2 06:13,48,43,1610612745.0,Westbrook,Westbrook Free Throw 2 of 2 (11 PTS),freethrow,turnover,5,Low
+21900346,234,turnover,2,PT05M56.00S,05:56,Q2 05:56,48,43,1610612758.0,Hield,Hield Backcourt Turnover (P3.T6),freethrow,substitution,5,Low
+21900346,235,substitution,2,PT05M56.00S,05:56,Q2 05:56,48,43,1610612745.0,Westbrook,SUB out: R. Westbrook,turnover,substitution,5,Low
+21900346,236,substitution,2,PT05M56.00S,05:56,Q2 05:56,48,43,1610612745.0,McLemore,SUB in: B. McLemore,substitution,3pt missed,5,Low
+21900346,237,3pt,2,PT05M41.00S,05:41,Q2 05:41,48,43,1610612745.0,Harden,MISS Harden 28' 3PT Step Back Jump Shot,substitution,rebound,5,Low
+21900346,238,rebound,2,PT05M39.00S,05:39,Q2 05:39,48,43,1610612758.0,Ferrell,Ferrell REBOUND (Off:0 Def:1),3pt missed,2pt missed,5,Low
+21900346,239,2pt,2,PT05M35.00S,05:35,Q2 05:35,48,43,1610612758.0,Ferrell,MISS Ferrell 18' Running Pull-Up Jump Shot,rebound,rebound,5,Low
+21900346,240,rebound,2,PT05M33.00S,05:33,Q2 05:33,48,43,1610612745.0,Capela,Capela REBOUND (Off:1 Def:6),2pt missed,3pt made,5,Low
+21900346,241,3pt,2,PT05M22.00S,05:22,Q2 05:22,51,43,1610612745.0,Harden,Harden 28' 3PT Step Back Jump Shot (9 PTS),rebound,3pt missed,8,Low
+21900346,242,3pt,2,PT05M04.00S,05:04,Q2 05:04,51,43,1610612758.0,Hield,MISS Hield 27' 3PT Jump Shot,3pt made,rebound,8,Low
+21900346,243,rebound,2,PT05M02.00S,05:02,Q2 05:02,51,43,1610612745.0,Tucker,Tucker REBOUND (Off:1 Def:5),3pt missed,2pt made,8,Low
+21900346,244,2pt,2,PT04M56.00S,04:56,Q2 04:56,53,43,1610612745.0,Harden,Harden 10' Driving Floating Jump Shot (11 PTS),rebound,foul,10,Low
+21900346,245,foul,2,PT04M56.00S,04:56,Q2 04:56,53,43,1610612758.0,Ariza,Ariza S.FOUL (P2.T3) (K.Mauer),2pt made,freethrow,10,Low
+21900346,251,freethrow,2,PT04M56.00S,04:56,Q2 04:56,54,43,1610612745.0,Harden,Harden Free Throw 1 of 1 (12 PTS),foul,substitution,11,Low
+21900346,247,substitution,2,PT04M56.00S,04:56,Q2 04:56,53,43,1610612758.0,Bjelica,SUB out: N. Bjelica,freethrow,substitution,10,Low
+21900346,248,substitution,2,PT04M56.00S,04:56,Q2 04:56,53,43,1610612758.0,Ferrell,SUB out: Y. Ferrell,substitution,substitution,10,Low
+21900346,249,substitution,2,PT04M56.00S,04:56,Q2 04:56,53,43,1610612758.0,Holmes,SUB in: R. Holmes,substitution,substitution,10,Low
+21900346,250,substitution,2,PT04M56.00S,04:56,Q2 04:56,53,43,1610612758.0,Bogdanovic,SUB in: B. Bogdanovic,substitution,3pt made,10,Low
+21900346,252,3pt,2,PT04M41.00S,04:41,Q2 04:41,54,46,1610612758.0,Joseph,Joseph 28' 3PT Jump Shot (6 PTS) (Hield 1 AST),substitution,3pt missed,8,Low
+21900346,254,3pt,2,PT04M31.00S,04:31,Q2 04:31,54,46,1610612745.0,McLemore,MISS McLemore 26' 3PT Jump Shot,3pt made,rebound,8,Low
+21900346,255,rebound,2,PT04M28.00S,04:28,Q2 04:28,54,46,1610612758.0,Holmes,Holmes REBOUND (Off:0 Def:4),3pt missed,3pt made,8,Low
+21900346,256,3pt,2,PT04M14.00S,04:14,Q2 04:14,54,49,1610612758.0,Joseph,Joseph 26' 3PT Pullup Jump Shot (9 PTS),rebound,3pt missed,5,Low
+21900346,257,3pt,2,PT03M56.00S,03:56,Q2 03:56,54,49,1610612745.0,McLemore,MISS McLemore 24' 3PT Jump Shot,3pt made,rebound,5,Low
+21900346,258,rebound,2,PT03M52.00S,03:52,Q2 03:52,54,49,1610612745.0,Tucker,Tucker REBOUND (Off:2 Def:5),3pt missed,2pt made,5,Low
+21900346,259,2pt,2,PT03M52.00S,03:52,Q2 03:52,56,49,1610612745.0,Tucker,Tucker 1' Tip Layup Shot (8 PTS),rebound,3pt made,7,Low
+21900346,260,3pt,2,PT03M45.00S,03:45,Q2 03:45,56,52,1610612758.0,Hield,Hield 27' 3PT Jump Shot (8 PTS) (Joseph 5 AST),2pt made,3pt missed,4,Low
+21900346,262,3pt,2,PT03M31.00S,03:31,Q2 03:31,56,52,1610612745.0,House Jr.,MISS House Jr. 3PT Jump Shot,3pt made,rebound,4,Low
+21900346,263,rebound,2,PT03M28.00S,03:28,Q2 03:28,56,52,1610612758.0,Bogdanovic,Bogdanovic REBOUND (Off:0 Def:1),3pt missed,3pt made,4,Low
+21900346,264,3pt,2,PT03M21.00S,03:21,Q2 03:21,56,55,1610612758.0,Bogdanovic,Bogdanovic 27' 3PT Jump Shot (3 PTS) (Ariza 3 AST),rebound,timeout,1,Low
+21900346,266,timeout,2,PT03M21.00S,03:21,Q2 03:21,56,55,1610612745.0,,ROCKETS Timeout: Regular (Full 2 Short 0),3pt made,substitution,1,Low
+21900346,269,substitution,2,PT03M21.00S,03:21,Q2 03:21,56,55,1610612745.0,Capela,SUB out: C. Capela,timeout,substitution,1,Low
+21900346,270,substitution,2,PT03M21.00S,03:21,Q2 03:21,56,55,1610612758.0,Ariza,SUB out: T. Ariza,substitution,substitution,1,Low
+21900346,271,substitution,2,PT03M21.00S,03:21,Q2 03:21,56,55,1610612745.0,Westbrook,SUB in: R. Westbrook,substitution,substitution,1,Low
+21900346,272,substitution,2,PT03M21.00S,03:21,Q2 03:21,56,55,1610612758.0,Barnes,SUB in: H. Barnes,substitution,3pt made,1,Low
+21900346,273,3pt,2,PT03M07.00S,03:07,Q2 03:07,59,55,1610612745.0,Westbrook,Westbrook 24' 3PT Pullup Jump Shot (14 PTS),substitution,2pt missed,4,Low
+21900346,274,2pt,2,PT02M46.00S,02:46,Q2 02:46,59,55,1610612758.0,Bogdanovic,MISS Bogdanovic 8' Hook Shot,3pt made,rebound,4,Low
+21900346,275,rebound,2,PT02M44.00S,02:44,Q2 02:44,59,55,1610612745.0,Tucker,Tucker REBOUND (Off:2 Def:6),2pt missed,foul,4,Low
+21900346,276,foul,2,PT02M42.00S,02:42,Q2 02:42,59,55,1610612758.0,Bogdanovic,Bogdanovic P.FOUL (P1.T4) (K.Mauer),rebound,substitution,4,Low
+21900346,278,substitution,2,PT02M42.00S,02:42,Q2 02:42,59,55,1610612745.0,House Jr.,SUB out: D. House Jr.,foul,substitution,4,Low
+21900346,279,substitution,2,PT02M42.00S,02:42,Q2 02:42,59,55,1610612745.0,Clark,SUB in: G. Clark,substitution,3pt made,4,Low
+21900346,280,3pt,2,PT02M38.00S,02:38,Q2 02:38,62,55,1610612745.0,McLemore,McLemore 26' 3PT Jump Shot (9 PTS) (Westbrook 5 AST),substitution,2pt missed,7,Low
+21900346,282,2pt,2,PT02M14.00S,02:14,Q2 02:14,62,55,1610612758.0,Joseph,MISS Joseph 21' Pullup Jump Shot,3pt made,rebound,7,Low
+21900346,283,rebound,2,PT02M13.00S,02:13,Q2 02:13,62,55,1610612745.0,Clark,Clark REBOUND (Off:0 Def:1),2pt missed,3pt missed,7,Low
+21900346,284,3pt,2,PT01M53.00S,01:53,Q2 01:53,62,55,1610612745.0,Tucker,MISS Tucker 3PT Jump Shot,rebound,rebound,7,Low
+21900346,285,rebound,2,PT01M51.00S,01:51,Q2 01:51,62,55,1610612758.0,Hield,Hield REBOUND (Off:0 Def:2),3pt missed,2pt made,7,Low
+21900346,286,2pt,2,PT01M40.00S,01:40,Q2 01:40,62,57,1610612758.0,Bogdanovic,Bogdanovic 10' Pullup Jump Shot (5 PTS) (Hield 2 AST),rebound,foul,5,Low
+21900346,288,foul,2,PT01M40.00S,01:40,Q2 01:40,62,57,1610612745.0,Tucker,Tucker S.FOUL (P3.T3) (M.Myers),2pt made,freethrow,5,Low
+21900346,290,freethrow,2,PT01M40.00S,01:40,Q2 01:40,62,57,1610612758.0,Bogdanovic,MISS Bogdanovic Free Throw 1 of 1,foul,rebound,5,Low
+21900346,291,rebound,2,PT01M40.00S,01:40,Q2 01:40,62,57,1610612745.0,Tucker,Tucker REBOUND (Off:2 Def:7),freethrow,3pt missed,5,Low
+21900346,292,3pt,2,PT01M30.00S,01:30,Q2 01:30,62,57,1610612745.0,McLemore,MISS McLemore 28' 3PT Jump Shot,rebound,rebound,5,Low
+21900346,293,rebound,2,PT01M28.00S,01:28,Q2 01:28,62,57,1610612758.0,Joseph,Joseph REBOUND (Off:0 Def:1),3pt missed,3pt missed,5,Low
+21900346,294,3pt,2,PT01M21.00S,01:21,Q2 01:21,62,57,1610612758.0,Barnes,MISS Barnes 3PT Jump Shot,rebound,rebound,5,Low
+21900346,295,rebound,2,PT01M19.00S,01:19,Q2 01:19,62,57,1610612745.0,Tucker,Tucker REBOUND (Off:2 Def:8),3pt missed,3pt missed,5,Low
+21900346,296,3pt,2,PT01M10.00S,01:10,Q2 01:10,62,57,1610612745.0,McLemore,MISS McLemore 24' 3PT Jump Shot,rebound,rebound,5,Low
+21900346,297,rebound,2,PT01M07.00S,01:07,Q2 01:07,62,57,1610612745.0,Tucker,Tucker REBOUND (Off:3 Def:8),3pt missed,turnover,5,Low
+21900346,310,turnover,2,PT01M07.00S,01:07,Q2 01:07,62,57,1610612745.0,Tucker,Tucker Out of Bounds - Bad Pass Turnover Turnover (P1.T7),rebound,3pt missed,5,Low
+21900346,299,3pt,2,PT00M48.40S,00:48,Q2 00:48,62,57,1610612758.0,Barnes,MISS Barnes 3PT Jump Shot,turnover,rebound,5,Low
+21900346,300,rebound,2,PT00M45.80S,00:45,Q2 00:45,62,57,1610612745.0,Harden,Harden REBOUND (Off:0 Def:1),3pt missed,2pt missed,5,Low
+21900346,301,2pt,2,PT00M40.10S,00:40,Q2 00:40,62,57,1610612745.0,Harden,MISS Harden 2' Driving Layup,rebound,block,5,Low
+21900346,301,block,2,PT00M40.10S,00:40,Q2 00:40,62,57,1610612758.0,Holmes,Holmes BLOCK (2 BLK),2pt missed,rebound,5,Low
+21900346,303,rebound,2,PT00M39.50S,00:39,Q2 00:39,62,57,1610612758.0,Joseph,Joseph REBOUND (Off:0 Def:2),block,2pt made,5,Low
+21900346,304,2pt,2,PT00M34.20S,00:34,Q2 00:34,62,59,1610612758.0,Hield,Hield 2' Driving Floating Bank Jump Shot (10 PTS),rebound,2pt made,3,Low
+21900346,305,2pt,2,PT00M28.60S,00:28,Q2 00:28,64,59,1610612745.0,Westbrook,Westbrook 8' Turnaround Fadeaway (16 PTS),2pt made,3pt missed,5,Low
+21900346,306,3pt,2,PT00M08.70S,00:08,Q2 00:08,64,59,1610612758.0,Hield,MISS Hield 28' 3PT Pullup Jump Shot,2pt made,rebound,5,Low
+21900346,307,rebound,2,PT00M06.80S,00:06,Q2 00:06,64,59,1610612745.0,Westbrook,Westbrook REBOUND (Off:0 Def:3),3pt missed,3pt missed,5,Low
+21900346,308,3pt,2,PT00M00.20S,00:00,Q2 00:00,64,59,1610612745.0,Harden,MISS Harden 28' 3PT Pullup Jump Shot,rebound,rebound,5,Low
+21900346,309,rebound,2,PT00M00.20S,00:00,Q2 00:00,64,59,1610612745.0,,TEAM offensive REBOUND,3pt missed,period,5,Low
+21900346,311,period,2,PT00M00.00S,00:00,Q2 00:00,64,59,1610612745.0,,End of 2nd Period (9:06 PM EST),rebound,period,5,Low
+21900346,318,period,3,PT12M00.00S,12:00,Q3 12:00,64,59,1610612745.0,,Start of 3rd Period (9:20 PM EST),period,substitution,5,Low
+21900346,319,turnover,3,PT11M38.00S,11:38,Q3 11:38,64,59,1610612758.0,Hield,Hield Lost Ball Turnover (P4.T7),substitution,steal,5,Low
+21900346,319,steal,3,PT11M38.00S,11:38,Q3 11:38,64,59,1610612745.0,Harden,Harden STEAL (1 STL),turnover,3pt missed,5,Low
+21900346,321,3pt,3,PT11M28.00S,11:28,Q3 11:28,64,59,1610612745.0,House Jr.,MISS House Jr. 26' 3PT Jump Shot,steal,rebound,5,Low
+21900346,322,rebound,3,PT11M24.00S,11:24,Q3 11:24,64,59,1610612758.0,Hield,Hield REBOUND (Off:0 Def:3),3pt missed,2pt missed,5,Low
+21900346,323,2pt,3,PT11M19.00S,11:19,Q3 11:19,64,59,1610612758.0,Joseph,MISS Joseph 2' Running Layup,rebound,block,5,Low
+21900346,323,block,3,PT11M19.00S,11:19,Q3 11:19,64,59,1610612745.0,House Jr.,House Jr. BLOCK (1 BLK),2pt missed,rebound,5,Low
+21900346,325,rebound,3,PT11M16.00S,11:16,Q3 11:16,64,59,1610612758.0,Holmes,Holmes REBOUND (Off:1 Def:4),block,2pt made,5,Low
+21900346,326,2pt,3,PT11M16.00S,11:16,Q3 11:16,64,61,1610612758.0,Holmes,Holmes 1' Putback Dunk (8 PTS),rebound,3pt missed,3,Low
+21900346,327,3pt,3,PT11M01.00S,11:01,Q3 11:01,64,61,1610612745.0,House Jr.,MISS House Jr. 26' 3PT Jump Shot,2pt made,rebound,3,Low
+21900346,328,rebound,3,PT10M59.00S,10:59,Q3 10:59,64,61,1610612758.0,Barnes,Barnes REBOUND (Off:0 Def:3),3pt missed,foul,3,Low
+21900346,329,foul,3,PT10M53.00S,10:53,Q3 10:53,64,61,1610612745.0,Harden,Harden P.FOUL (P1.T1) (M.Ervin),rebound,turnover,3,Low
+21900346,331,turnover,3,PT10M49.00S,10:49,Q3 10:49,64,61,1610612758.0,Barnes,Barnes Bad Pass Turnover (P2.T8),foul,steal,3,Low
+21900346,331,steal,3,PT10M49.00S,10:49,Q3 10:49,64,61,1610612745.0,Harden,Harden STEAL (2 STL),turnover,3pt missed,3,Low
+21900346,333,3pt,3,PT10M39.00S,10:39,Q3 10:39,64,61,1610612745.0,Harden,MISS Harden 27' 3PT Step Back Jump Shot,steal,rebound,3,Low
+21900346,334,rebound,3,PT10M37.00S,10:37,Q3 10:37,64,61,1610612758.0,Barnes,Barnes REBOUND (Off:0 Def:4),3pt missed,foul,3,Low
+21900346,335,foul,3,PT10M21.00S,10:21,Q3 10:21,64,61,1610612745.0,Westbrook,Westbrook S.FOUL (P2.T2) (M.Myers),rebound,freethrow,3,Low
+21900346,337,freethrow,3,PT10M21.00S,10:21,Q3 10:21,64,62,1610612758.0,Holmes,Holmes Free Throw 1 of 2 (9 PTS),foul,freethrow,2,Low
+21900346,338,freethrow,3,PT10M21.00S,10:21,Q3 10:21,64,63,1610612758.0,Holmes,Holmes Free Throw 2 of 2 (10 PTS),freethrow,3pt made,1,Low
+21900346,339,3pt,3,PT10M10.00S,10:10,Q3 10:10,67,63,1610612745.0,House Jr.,House Jr. 26' 3PT Jump Shot (3 PTS) (Tucker 1 AST),freethrow,2pt made,4,Low
+21900346,341,2pt,3,PT09M53.00S,09:53,Q3 09:53,67,65,1610612758.0,Holmes,Holmes 1' Cutting Dunk Shot (12 PTS) (Bjelica 4 AST),3pt made,2pt made,2,Low
+21900346,343,2pt,3,PT09M32.00S,09:32,Q3 09:32,69,65,1610612745.0,Tucker,Tucker 12' Driving Floating Jump Shot (10 PTS) (House Jr. 2 AST),2pt made,3pt made,4,Low
+21900346,345,3pt,3,PT09M21.00S,09:21,Q3 09:21,69,68,1610612758.0,Hield,Hield 25' 3PT Pullup Jump Shot (13 PTS),2pt made,foul,1,Low
+21900346,346,foul,3,PT09M10.00S,09:10,Q3 09:10,69,68,1610612758.0,Bjelica,Bjelica P.FOUL (P2.T1) (K.Mauer),3pt made,3pt missed,1,Low
+21900346,348,3pt,3,PT09M04.00S,09:04,Q3 09:04,69,68,1610612745.0,Harden,MISS Harden 24' 3PT Step Back Jump Shot,foul,rebound,1,Low
+21900346,349,rebound,3,PT09M02.00S,09:02,Q3 09:02,69,68,1610612758.0,Barnes,Barnes REBOUND (Off:0 Def:5),3pt missed,turnover,1,Low
+21900346,351,turnover,3,PT08M59.00S,08:59,Q3 08:59,69,68,1610612758.0,Barnes,Barnes Bad Pass Turnover (P3.T9),rebound,steal,1,Low
+21900346,351,steal,3,PT08M59.00S,08:59,Q3 08:59,69,68,1610612745.0,Westbrook,Westbrook STEAL (2 STL),turnover,3pt made,1,Low
+21900346,353,3pt,3,PT08M54.00S,08:54,Q3 08:54,72,68,1610612745.0,Harden,Harden 25' 3PT Jump Shot (15 PTS) (Westbrook 6 AST),steal,2pt missed,4,Low
+21900346,356,2pt,3,PT08M31.00S,08:31,Q3 08:31,72,68,1610612758.0,Joseph,MISS Joseph 19' Pullup Jump Shot,3pt made,rebound,4,Low
+21900346,357,rebound,3,PT08M28.00S,08:28,Q3 08:28,72,68,1610612745.0,Capela,Capela REBOUND (Off:1 Def:7),2pt missed,turnover,4,Low
+21900346,358,turnover,3,PT08M23.00S,08:23,Q3 08:23,72,68,1610612745.0,Westbrook,Westbrook Bad Pass Turnover (P4.T8),rebound,steal,4,Low
+21900346,358,steal,3,PT08M23.00S,08:23,Q3 08:23,72,68,1610612758.0,Holmes,Holmes STEAL (3 STL),turnover,3pt made,4,Low
+21900346,360,3pt,3,PT08M18.00S,08:18,Q3 08:18,72,71,1610612758.0,Hield,Hield 27' 3PT Pullup Jump Shot (16 PTS),steal,3pt missed,1,Low
+21900346,361,3pt,3,PT07M56.00S,07:56,Q3 07:56,72,71,1610612745.0,House Jr.,MISS House Jr. 26' 3PT Jump Shot,3pt made,rebound,1,Low
+21900346,362,rebound,3,PT07M54.00S,07:54,Q3 07:54,72,71,1610612758.0,Hield,Hield REBOUND (Off:0 Def:4),3pt missed,3pt missed,1,Low
+21900346,363,3pt,3,PT07M47.00S,07:47,Q3 07:47,72,71,1610612758.0,Hield,MISS Hield 31' 3PT Pullup Jump Shot,rebound,rebound,1,Low
+21900346,364,rebound,3,PT07M45.00S,07:45,Q3 07:45,72,71,1610612758.0,Joseph,Joseph REBOUND (Off:1 Def:2),3pt missed,2pt missed,1,Low
+21900346,365,2pt,3,PT07M43.00S,07:43,Q3 07:43,72,71,1610612758.0,Joseph,MISS Joseph 16' Pullup Jump Shot,rebound,rebound,1,Low
+21900346,366,rebound,3,PT07M40.00S,07:40,Q3 07:40,72,71,1610612758.0,Holmes,Holmes REBOUND (Off:2 Def:4),2pt missed,2pt made,1,Low
+21900346,367,2pt,3,PT07M39.00S,07:39,Q3 07:39,72,73,1610612758.0,Holmes,Holmes 1' Tip Layup Shot (14 PTS),rebound,2pt missed,1,Low
+21900346,368,2pt,3,PT07M31.00S,07:31,Q3 07:31,72,73,1610612745.0,Harden,MISS Harden 3' Driving Layup,2pt made,rebound,1,Low
+21900346,369,rebound,3,PT07M29.00S,07:29,Q3 07:29,72,73,1610612758.0,Bjelica,Bjelica REBOUND (Off:1 Def:3),2pt missed,foul,1,Low
+21900346,370,foul,3,PT07M12.00S,07:12,Q3 07:12,72,73,1610612745.0,House Jr.,House Jr. S.FOUL (P1.T3) (K.Mauer),rebound,freethrow,1,Low
+21900346,372,freethrow,3,PT07M12.00S,07:12,Q3 07:12,72,74,1610612758.0,Barnes,Barnes Free Throw 1 of 2 (10 PTS),foul,freethrow,2,Low
+21900346,375,freethrow,3,PT07M12.00S,07:12,Q3 07:12,72,75,1610612758.0,Barnes,Barnes Free Throw 2 of 2 (11 PTS),freethrow,substitution,3,Low
+21900346,373,substitution,3,PT07M12.00S,07:12,Q3 07:12,72,74,1610612745.0,House Jr.,SUB out: D. House Jr.,freethrow,substitution,2,Low
+21900346,374,substitution,3,PT07M12.00S,07:12,Q3 07:12,72,74,1610612745.0,McLemore,SUB in: B. McLemore,substitution,3pt missed,2,Low
+21900346,376,3pt,3,PT07M02.00S,07:02,Q3 07:02,72,75,1610612745.0,McLemore,MISS McLemore 3PT Jump Shot,substitution,rebound,3,Low
+21900346,377,rebound,3,PT07M00.00S,07:00,Q3 07:00,72,75,1610612745.0,Capela,Capela REBOUND (Off:2 Def:7),3pt missed,3pt missed,3,Low
+21900346,378,3pt,3,PT06M52.00S,06:52,Q3 06:52,72,75,1610612745.0,Westbrook,MISS Westbrook 3PT Pullup Jump Shot,rebound,rebound,3,Low
+21900346,379,rebound,3,PT06M52.00S,06:52,Q3 06:52,72,75,1610612745.0,,TEAM offensive REBOUND,3pt missed,foul,3,Low
+21900346,380,foul,3,PT06M52.00S,06:52,Q3 06:52,72,75,1610612758.0,Holmes,Holmes L.B.FOUL (P2.T2) (K.Mauer),rebound,timeout,3,Low
+21900346,382,timeout,3,PT06M52.00S,06:52,Q3 06:52,72,75,1610612745.0,,ROCKETS Timeout: Regular (Full 3 Short 0),foul,substitution,3,Low
+21900346,383,substitution,3,PT06M52.00S,06:52,Q3 06:52,72,75,1610612758.0,Barnes,SUB out: H. Barnes,timeout,substitution,3,Low
+21900346,384,substitution,3,PT06M52.00S,06:52,Q3 06:52,72,75,1610612758.0,Bogdanovic,SUB in: B. Bogdanovic,substitution,foul,3,Low
+21900346,385,foul,3,PT06M49.00S,06:49,Q3 06:49,72,75,1610612758.0,Bjelica,Bjelica S.FOUL (P3.T3) (M.Myers),substitution,freethrow,3,Low
+21900346,387,freethrow,3,PT06M49.00S,06:49,Q3 06:49,73,75,1610612745.0,Westbrook,Westbrook Free Throw 1 of 2 (17 PTS),foul,freethrow,2,Low
+21900346,388,freethrow,3,PT06M49.00S,06:49,Q3 06:49,74,75,1610612745.0,Westbrook,Westbrook Free Throw 2 of 2 (18 PTS),freethrow,2pt missed,1,Low
+21900346,389,2pt,3,PT06M27.00S,06:27,Q3 06:27,74,75,1610612758.0,Bjelica,MISS Bjelica 14' Turnaround Fadeaway Shot,freethrow,rebound,1,Low
+21900346,390,rebound,3,PT06M25.00S,06:25,Q3 06:25,74,75,1610612745.0,Tucker,Tucker REBOUND (Off:3 Def:9),2pt missed,2pt made,1,Low
+21900346,391,2pt,3,PT06M09.00S,06:09,Q3 06:09,76,75,1610612745.0,Westbrook,Westbrook 2' Driving Layup (20 PTS) (Harden 3 AST),rebound,3pt missed,1,Low
+21900346,393,3pt,3,PT05M49.00S,05:49,Q3 05:49,76,75,1610612758.0,Joseph,MISS Joseph 24' 3PT Jump Shot,2pt made,rebound,1,Low
+21900346,394,rebound,3,PT05M47.00S,05:47,Q3 05:47,76,75,1610612745.0,Tucker,Tucker REBOUND (Off:3 Def:10),3pt missed,2pt made,1,Low
+21900346,395,2pt,3,PT05M38.00S,05:38,Q3 05:38,78,75,1610612745.0,Harden,Harden 8' Driving Floating Jump Shot (17 PTS),rebound,3pt missed,3,Low
+21900346,396,3pt,3,PT05M21.00S,05:21,Q3 05:21,78,75,1610612758.0,Bjelica,MISS Bjelica 29' 3PT Jump Shot,2pt made,rebound,3,Low
+21900346,397,rebound,3,PT05M20.00S,05:20,Q3 05:20,78,75,1610612745.0,Tucker,Tucker REBOUND (Off:3 Def:11),3pt missed,3pt missed,3,Low
+21900346,398,3pt,3,PT05M13.00S,05:13,Q3 05:13,78,75,1610612745.0,Tucker,MISS Tucker 27' 3PT Jump Shot,rebound,rebound,3,Low
+21900346,399,rebound,3,PT05M11.00S,05:11,Q3 05:11,78,75,1610612745.0,Capela,Capela REBOUND (Off:3 Def:7),3pt missed,foul,3,Low
+21900346,400,foul,3,PT05M11.00S,05:11,Q3 05:11,78,75,1610612758.0,Holmes,Holmes S.FOUL (P3.T4) (M.Ervin),rebound,freethrow,3,Low
+21900346,402,freethrow,3,PT05M11.00S,05:11,Q3 05:11,78,75,1610612745.0,Capela,MISS Capela Free Throw 1 of 2,foul,rebound,3,Low
+21900346,403,rebound,3,PT05M11.00S,05:11,Q3 05:11,78,75,1610612745.0,,TEAM offensive REBOUND,freethrow,freethrow,3,Low
+21900346,406,freethrow,3,PT05M11.00S,05:11,Q3 05:11,79,75,1610612745.0,Capela,Capela Free Throw 2 of 2 (9 PTS),rebound,substitution,4,Low
+21900346,404,substitution,3,PT05M11.00S,05:11,Q3 05:11,78,75,1610612745.0,Westbrook,SUB out: R. Westbrook,freethrow,substitution,3,Low
+21900346,405,substitution,3,PT05M11.00S,05:11,Q3 05:11,78,75,1610612745.0,House Jr.,SUB in: D. House Jr.,substitution,2pt made,3,Low
+21900346,407,2pt,3,PT04M51.00S,04:51,Q3 04:51,79,77,1610612758.0,Hield,Hield 16' Fadeaway Jumper (18 PTS),substitution,3pt made,2,Low
+21900346,408,3pt,3,PT04M36.00S,04:36,Q3 04:36,82,77,1610612745.0,House Jr.,House Jr. 24' 3PT Jump Shot (6 PTS) (McLemore 4 AST),2pt made,timeout,5,Low
+21900346,413,timeout,3,PT04M13.00S,04:13,Q3 04:13,82,77,1610612758.0,,Kings Timeout: Regular (Reg.3 Short 0),3pt made,substitution,5,Low
+21900346,414,substitution,3,PT04M13.00S,04:13,Q3 04:13,82,77,1610612745.0,Capela,SUB out: C. Capela,timeout,substitution,5,Low
+21900346,415,substitution,3,PT04M13.00S,04:13,Q3 04:13,82,77,1610612758.0,Bjelica,SUB out: N. Bjelica,substitution,substitution,5,Low
+21900346,416,substitution,3,PT04M13.00S,04:13,Q3 04:13,82,77,1610612745.0,Clark,SUB in: G. Clark,substitution,substitution,5,Low
+21900346,417,substitution,3,PT04M13.00S,04:13,Q3 04:13,82,77,1610612758.0,Ariza,SUB in: T. Ariza,substitution,2pt missed,5,Low
+21900346,418,2pt,3,PT03M59.00S,03:59,Q3 03:59,82,77,1610612758.0,Hield,MISS Hield 21' Pullup Jump Shot,substitution,rebound,5,Low
+21900346,419,rebound,3,PT03M57.00S,03:57,Q3 03:57,82,77,1610612745.0,McLemore,McLemore REBOUND (Off:0 Def:1),2pt missed,turnover,5,Low
+21900346,420,turnover,3,PT03M49.00S,03:49,Q3 03:49,82,77,1610612745.0,Harden,Harden Bad Pass Turnover (P2.T9),rebound,steal,5,Low
+21900346,420,steal,3,PT03M49.00S,03:49,Q3 03:49,82,77,1610612758.0,Holmes,Holmes STEAL (4 STL),turnover,foul,5,Low
+21900346,422,foul,3,PT03M45.00S,03:45,Q3 03:45,82,77,1610612745.0,McLemore,McLemore S.FOUL (P2.T4) (M.Ervin),steal,freethrow,5,Low
+21900346,424,freethrow,3,PT03M45.00S,03:45,Q3 03:45,82,78,1610612758.0,Holmes,Holmes Free Throw 1 of 2 (15 PTS),foul,freethrow,4,Low
+21900346,425,freethrow,3,PT03M45.00S,03:45,Q3 03:45,82,79,1610612758.0,Holmes,Holmes Free Throw 2 of 2 (16 PTS),freethrow,turnover,3,Low
+21900346,426,turnover,3,PT03M32.00S,03:32,Q3 03:32,82,79,1610612745.0,Harden,Harden Out of Bounds - Bad Pass Turnover Turnover (P3.T10),freethrow,3pt made,3,Low
+21900346,427,3pt,3,PT03M12.00S,03:12,Q3 03:12,82,82,1610612758.0,Bogdanovic,Bogdanovic 29' 3PT Jump Shot (8 PTS) (Hield 3 AST),turnover,3pt made,0,Low
+21900346,429,3pt,3,PT02M48.00S,02:48,Q3 02:48,85,82,1610612745.0,House Jr.,House Jr. 25' 3PT Step Back Jump Shot (9 PTS) (Harden 4 AST),3pt made,2pt made,3,Low
+21900346,431,2pt,3,PT02M22.00S,02:22,Q3 02:22,85,84,1610612758.0,Bogdanovic,Bogdanovic 11' Pullup Jump Shot (10 PTS) (Ariza 4 AST),3pt made,2pt made,1,Low
+21900346,432,2pt,3,PT02M09.00S,02:09,Q3 02:09,87,84,1610612745.0,Harden,Harden 9' Driving Floating Jump Shot (19 PTS),2pt made,2pt missed,3,Low
+21900346,434,2pt,3,PT01M51.00S,01:51,Q3 01:51,87,84,1610612758.0,Ariza,MISS Ariza 21' Jump Shot,2pt made,rebound,3,Low
+21900346,435,rebound,3,PT01M49.00S,01:49,Q3 01:49,87,84,1610612745.0,Harden,Harden REBOUND (Off:0 Def:2),2pt missed,foul,3,Low
+21900346,436,foul,3,PT01M41.00S,01:41,Q3 01:41,87,84,1610612758.0,Ariza,Ariza P.FOUL (P3.PN) (K.Mauer),rebound,freethrow,3,Low
+21900346,438,freethrow,3,PT01M41.00S,01:41,Q3 01:41,88,84,1610612745.0,Harden,Harden Free Throw 1 of 2 (20 PTS),foul,freethrow,4,Low
+21900346,443,freethrow,3,PT01M41.00S,01:41,Q3 01:41,89,84,1610612745.0,Harden,Harden Free Throw 2 of 2 (21 PTS),freethrow,substitution,5,Low
+21900346,439,substitution,3,PT01M41.00S,01:41,Q3 01:41,88,84,1610612745.0,Tucker,SUB out: P. Tucker,freethrow,substitution,4,Low
+21900346,440,substitution,3,PT01M41.00S,01:41,Q3 01:41,88,84,1610612758.0,Holmes,SUB out: R. Holmes,substitution,substitution,4,Low
+21900346,441,substitution,3,PT01M41.00S,01:41,Q3 01:41,88,84,1610612745.0,Westbrook,SUB in: R. Westbrook,substitution,substitution,4,Low
+21900346,442,substitution,3,PT01M41.00S,01:41,Q3 01:41,88,84,1610612758.0,Barnes,SUB in: H. Barnes,substitution,foul,4,Low
+21900346,444,foul,3,PT01M29.00S,01:29,Q3 01:29,89,84,1610612745.0,House Jr.,House Jr. P.FOUL (P2.PN) (K.Mauer),substitution,freethrow,5,Low
+21900346,446,freethrow,3,PT01M29.00S,01:29,Q3 01:29,89,85,1610612758.0,Barnes,Barnes Free Throw 1 of 2 (12 PTS),foul,freethrow,4,Low
+21900346,447,freethrow,3,PT01M29.00S,01:29,Q3 01:29,89,86,1610612758.0,Barnes,Barnes Free Throw 2 of 2 (13 PTS),freethrow,2pt made,3,Low
+21900346,448,2pt,3,PT01M17.00S,01:17,Q3 01:17,91,86,1610612745.0,Westbrook,Westbrook 5' Driving Finger Roll Layup (22 PTS) (Harden 5 AST),freethrow,3pt made,5,Low
+21900346,450,3pt,3,PT00M52.90S,00:52,Q3 00:52,91,89,1610612758.0,Hield,Hield 27' 3PT Pullup Jump Shot (21 PTS),2pt made,foul,2,Low
+21900346,452,foul,3,PT00M44.10S,00:44,Q3 00:44,91,89,1610612745.0,Harden,Harden OFF.Foul (P2) (M.Ervin),3pt made,turnover,2,Low
+21900346,454,turnover,3,PT00M44.10S,00:44,Q3 00:44,91,89,1610612745.0,Harden,Harden Offensive Foul Turnover (P4.T11),foul,timeout,2,Low
+21900346,455,timeout,3,PT00M44.10S,00:44,Q3 00:44,91,89,1610612745.0,,ROCKETS Timeout: Regular (Full 4 Short 0),turnover,instant replay,2,Low
+21900346,459,2pt,3,PT00M38.40S,00:38,Q3 00:38,91,91,1610612758.0,Joseph,Joseph 2' Driving Layup (11 PTS),instant replay,foul,0,Low
+21900346,460,foul,3,PT00M38.40S,00:38,Q3 00:38,91,91,1610612745.0,Westbrook,Westbrook S.FOUL (P3.PN) (M.Ervin),2pt made,freethrow,0,Low
+21900346,462,freethrow,3,PT00M38.40S,00:38,Q3 00:38,91,92,1610612758.0,Joseph,Joseph Free Throw 1 of 1 (12 PTS),foul,substitution,1,Low
+21900346,457,substitution,3,PT00M38.40S,00:38,Q3 00:38,91,92,1610612758.0,Hield,SUB out: B. Hield,freethrow,substitution,1,Low
+21900346,458,substitution,3,PT00M38.40S,00:38,Q3 00:38,91,92,1610612758.0,Holmes,SUB in: R. Holmes,substitution,foul,1,Low
+21900346,464,foul,3,PT00M32.00S,00:32,Q3 00:32,91,92,1610612758.0,Ariza,Ariza P.FOUL (P4.PN) (M.Myers),substitution,timeout,1,Low
+21900346,466,timeout,3,PT00M32.00S,00:32,Q3 00:32,91,92,1610612758.0,,Kings Timeout: Regular (Reg.4 Short 0),foul,instant replay,1,Low
+21900346,471,freethrow,3,PT00M32.00S,00:32,Q3 00:32,92,92,1610612745.0,Harden,Harden Free Throw 1 of 2 (22 PTS),instant replay,freethrow,0,Low
+21900346,472,freethrow,3,PT00M32.00S,00:32,Q3 00:32,93,92,1610612745.0,Harden,Harden Free Throw 2 of 2 (23 PTS),freethrow,substitution,1,Low
+21900346,468,substitution,3,PT00M32.00S,00:32,Q3 00:32,91,92,1610612758.0,Holmes,SUB out: R. Holmes,freethrow,substitution,1,Low
+21900346,469,substitution,3,PT00M32.00S,00:32,Q3 00:32,91,92,1610612758.0,Hield,SUB in: B. Hield,substitution,foul,1,Low
+21900346,473,foul,3,PT00M21.30S,00:21,Q3 00:21,93,92,1610612745.0,Harden,Harden S.FOUL (P3.PN) (M.Ervin),substitution,freethrow,1,Low
+21900346,475,freethrow,3,PT00M21.30S,00:21,Q3 00:21,93,93,1610612758.0,Barnes,Barnes Free Throw 1 of 2 (14 PTS),foul,freethrow,0,Low
+21900346,476,freethrow,3,PT00M21.30S,00:21,Q3 00:21,93,94,1610612758.0,Barnes,Barnes Free Throw 2 of 2 (15 PTS),freethrow,turnover,1,Low
+21900346,477,turnover,3,PT00M05.80S,00:05,Q3 00:05,93,94,1610612745.0,Harden,Harden Lost Ball Turnover (P5.T12),freethrow,steal,1,Low
+21900346,477,steal,3,PT00M05.80S,00:05,Q3 00:05,93,94,1610612758.0,Ariza,Ariza STEAL (1 STL),turnover,3pt missed,1,Low
+21900346,479,3pt,3,PT00M01.20S,00:01,Q3 00:01,93,94,1610612758.0,Bogdanovic,MISS Bogdanovic 26' 3PT Pullup Jump Shot,steal,rebound,1,Low
+21900346,480,rebound,3,PT00M01.20S,00:01,Q3 00:01,93,94,1610612745.0,McLemore,McLemore REBOUND (Off:0 Def:2),3pt missed,period,1,Low
+21900346,481,period,3,PT00M00.00S,00:00,Q3 00:00,93,94,1610612745.0,,End of 3rd Period (9:57 PM EST),rebound,period,1,Medium
+21900346,488,period,4,PT12M00.00S,12:00,Q4 12:00,93,94,1610612745.0,,Start of 4th Period (9:59 PM EST),period,substitution,1,Medium
+21900346,489,turnover,4,PT11M42.00S,11:42,Q4 11:42,93,94,1610612745.0,Westbrook,Westbrook Bad Pass Turnover (P5.T13),substitution,steal,1,Medium
+21900346,489,steal,4,PT11M42.00S,11:42,Q4 11:42,93,94,1610612758.0,Bjelica,Bjelica STEAL (3 STL),turnover,3pt missed,1,Medium
+21900346,491,3pt,4,PT11M20.00S,11:20,Q4 11:20,93,94,1610612758.0,Barnes,MISS Barnes 24' 3PT Jump Shot,steal,rebound,1,Medium
+21900346,492,rebound,4,PT11M18.00S,11:18,Q4 11:18,93,94,1610612745.0,Capela,Capela REBOUND (Off:3 Def:8),3pt missed,turnover,1,Medium
+21900346,493,turnover,4,PT11M10.00S,11:10,Q4 11:10,93,94,1610612745.0,Capela,Capela Traveling Turnover (P2.T14),rebound,turnover,1,Medium
+21900346,494,turnover,4,PT11M00.00S,11:00,Q4 11:00,93,94,1610612758.0,Bjelica,Bjelica Out of Bounds Lost Ball Turnover (P2.T10),turnover,foul,1,Medium
+21900346,495,foul,4,PT10M54.00S,10:54,Q4 10:54,93,94,1610612758.0,Bogdanovic,Bogdanovic S.FOUL (P2.T1) (M.Ervin),turnover,freethrow,1,Medium
+21900346,497,freethrow,4,PT10M54.00S,10:54,Q4 10:54,93,94,1610612745.0,Westbrook,MISS Westbrook Free Throw 1 of 2,foul,rebound,1,Medium
+21900346,498,rebound,4,PT10M54.00S,10:54,Q4 10:54,93,94,1610612745.0,,TEAM offensive REBOUND,freethrow,freethrow,1,Medium
+21900346,499,freethrow,4,PT10M54.00S,10:54,Q4 10:54,94,94,1610612745.0,Westbrook,Westbrook Free Throw 2 of 2 (23 PTS),rebound,2pt made,0,Medium
+21900346,500,2pt,4,PT10M36.00S,10:36,Q4 10:36,94,96,1610612758.0,Bjelica,Bjelica 1' Cutting Layup Shot (11 PTS) (Ariza 5 AST),freethrow,2pt made,2,Medium
+21900346,502,2pt,4,PT10M22.00S,10:22,Q4 10:22,96,96,1610612745.0,House Jr.,House Jr. 1' Driving Layup (11 PTS) (Westbrook 7 AST),2pt made,foul,0,Medium
+21900346,504,foul,4,PT10M10.00S,10:10,Q4 10:10,96,96,1610612745.0,House Jr.,House Jr. P.FOUL (P3.T1) (M.Myers),2pt made,foul,0,Medium
+21900346,506,foul,4,PT10M04.00S,10:04,Q4 10:04,96,96,1610612745.0,House Jr.,House Jr. P.FOUL (P4.T2) (K.Mauer),foul,3pt made,0,Medium
+21900346,508,3pt,4,PT09M56.00S,09:56,Q4 09:56,96,99,1610612758.0,Bjelica,Bjelica 27' 3PT Jump Shot (14 PTS) (Ariza 6 AST),foul,turnover,3,Medium
+21900346,510,turnover,4,PT09M44.00S,09:44,Q4 09:44,96,99,1610612745.0,Westbrook,Westbrook Bad Pass Turnover (P6.T15),3pt made,steal,3,Medium
+21900346,510,steal,4,PT09M44.00S,09:44,Q4 09:44,96,99,1610612758.0,Barnes,Barnes STEAL (1 STL),turnover,2pt missed,3,Medium
+21900346,512,2pt,4,PT09M40.00S,09:40,Q4 09:40,96,99,1610612758.0,Ferrell,MISS Ferrell 2' Running Layup,steal,block,3,Medium
+21900346,512,block,4,PT09M40.00S,09:40,Q4 09:40,96,99,1610612745.0,Clark,Clark BLOCK (1 BLK),2pt missed,rebound,3,Medium
+21900346,514,rebound,4,PT09M37.00S,09:37,Q4 09:37,96,99,1610612758.0,Barnes,Barnes REBOUND (Off:1 Def:5),block,3pt missed,3,Medium
+21900346,515,3pt,4,PT09M30.00S,09:30,Q4 09:30,96,99,1610612758.0,Ariza,MISS Ariza 27' 3PT Jump Shot,rebound,rebound,3,Medium
+21900346,516,rebound,4,PT09M28.00S,09:28,Q4 09:28,96,99,1610612745.0,Clark,Clark REBOUND (Off:0 Def:2),3pt missed,3pt missed,3,Medium
+21900346,517,3pt,4,PT09M18.00S,09:18,Q4 09:18,96,99,1610612745.0,Clark,MISS Clark 27' 3PT Jump Shot,rebound,rebound,3,Medium
+21900346,518,rebound,4,PT09M14.00S,09:14,Q4 09:14,96,99,1610612745.0,McLemore,McLemore REBOUND (Off:1 Def:2),3pt missed,3pt missed,3,Medium
+21900346,519,3pt,4,PT09M10.00S,09:10,Q4 09:10,96,99,1610612745.0,House Jr.,MISS House Jr. 27' 3PT Jump Shot,rebound,rebound,3,Medium
+21900346,520,rebound,4,PT09M07.00S,09:07,Q4 09:07,96,99,1610612745.0,Capela,Capela REBOUND (Off:4 Def:8),3pt missed,turnover,3,Medium
+21900346,521,turnover,4,PT09M02.00S,09:02,Q4 09:02,96,99,1610612745.0,House Jr.,House Jr. Bad Pass Turnover (P2.T16),rebound,steal,3,Medium
+21900346,521,steal,4,PT09M02.00S,09:02,Q4 09:02,96,99,1610612758.0,Ariza,Ariza STEAL (2 STL),turnover,foul,3,Medium
+21900346,523,foul,4,PT09M01.00S,09:01,Q4 09:01,96,99,1610612745.0,Westbrook,Westbrook P.FOUL (P4.T3) (M.Myers),steal,substitution,3,Medium
+21900346,525,substitution,4,PT09M01.00S,09:01,Q4 09:01,96,99,1610612758.0,Barnes,SUB out: H. Barnes,foul,substitution,3,Medium
+21900346,526,substitution,4,PT09M01.00S,09:01,Q4 09:01,96,99,1610612758.0,Holmes,SUB in: R. Holmes,substitution,3pt made,3,Medium
+21900346,527,3pt,4,PT08M40.00S,08:40,Q4 08:40,96,102,1610612758.0,Ferrell,Ferrell 27' 3PT Jump Shot (6 PTS) (Ariza 7 AST),substitution,3pt missed,6,Medium
+21900346,529,3pt,4,PT08M27.00S,08:27,Q4 08:27,96,102,1610612745.0,House Jr.,MISS House Jr. 24' 3PT Jump Shot,3pt made,rebound,6,Medium
+21900346,530,rebound,4,PT08M24.00S,08:24,Q4 08:24,96,102,1610612745.0,Capela,Capela REBOUND (Off:5 Def:8),3pt missed,3pt missed,6,Medium
+21900346,531,3pt,4,PT08M22.00S,08:22,Q4 08:22,96,102,1610612745.0,Westbrook,MISS Westbrook 29' 3PT Jump Shot,rebound,rebound,6,Medium
+21900346,532,rebound,4,PT08M20.00S,08:20,Q4 08:20,96,102,1610612758.0,Bogdanovic,Bogdanovic REBOUND (Off:0 Def:2),3pt missed,3pt missed,6,Medium
+21900346,533,3pt,4,PT08M15.00S,08:15,Q4 08:15,96,102,1610612758.0,Ferrell,MISS Ferrell 3PT Jump Shot,rebound,rebound,6,Medium
+21900346,534,rebound,4,PT08M13.00S,08:13,Q4 08:13,96,102,1610612745.0,Capela,Capela REBOUND (Off:5 Def:9),3pt missed,2pt made,6,Medium
+21900346,535,2pt,4,PT08M07.00S,08:07,Q4 08:07,98,102,1610612745.0,Westbrook,Westbrook 2' Running Layup (25 PTS),rebound,foul,4,Medium
+21900346,537,foul,4,PT07M57.00S,07:57,Q4 07:57,98,102,1610612745.0,Westbrook,Westbrook P.FOUL (P5.T4) (K.Mauer),2pt made,substitution,4,Medium
+21900346,539,substitution,4,PT07M57.00S,07:57,Q4 07:57,98,102,1610612745.0,Westbrook,SUB out: R. Westbrook,foul,substitution,4,Medium
+21900346,540,substitution,4,PT07M57.00S,07:57,Q4 07:57,98,102,1610612745.0,House Jr.,SUB out: D. House Jr.,substitution,substitution,4,Medium
+21900346,541,substitution,4,PT07M57.00S,07:57,Q4 07:57,98,102,1610612745.0,Tucker,SUB in: P. Tucker,substitution,substitution,4,Medium
+21900346,542,substitution,4,PT07M57.00S,07:57,Q4 07:57,98,102,1610612745.0,Harden,SUB in: J. Harden,substitution,3pt missed,4,Medium
+21900346,543,3pt,4,PT07M50.00S,07:50,Q4 07:50,98,102,1610612758.0,Bjelica,MISS Bjelica 26' 3PT Jump Shot,substitution,rebound,4,Medium
+21900346,544,rebound,4,PT07M47.00S,07:47,Q4 07:47,98,102,1610612745.0,Capela,Capela REBOUND (Off:5 Def:10),3pt missed,3pt missed,4,Medium
+21900346,545,3pt,4,PT07M39.00S,07:39,Q4 07:39,98,102,1610612745.0,Harden,MISS Harden 30' 3PT Step Back Jump Shot,rebound,rebound,4,Medium
+21900346,546,rebound,4,PT07M39.00S,07:39,Q4 07:39,98,102,1610612745.0,,TEAM offensive REBOUND,3pt missed,foul,4,Medium
+21900346,547,foul,4,PT07M39.00S,07:39,Q4 07:39,98,102,1610612758.0,Bjelica,Bjelica L.B.FOUL (P4.T2) (M.Myers),rebound,substitution,4,Medium
+21900346,549,substitution,4,PT07M39.00S,07:39,Q4 07:39,98,102,1610612758.0,Ferrell,SUB out: Y. Ferrell,foul,substitution,4,Medium
+21900346,550,substitution,4,PT07M39.00S,07:39,Q4 07:39,98,102,1610612758.0,Joseph,SUB in: C. Joseph,substitution,2pt missed,4,Medium
+21900346,551,2pt,4,PT07M34.00S,07:34,Q4 07:34,98,102,1610612745.0,Clark,MISS Clark 5' Driving Layup,substitution,rebound,4,Medium
+21900346,552,rebound,4,PT07M33.00S,07:33,Q4 07:33,98,102,1610612758.0,Holmes,Holmes REBOUND (Off:2 Def:5),2pt missed,2pt missed,4,Medium
+21900346,553,2pt,4,PT07M20.00S,07:20,Q4 07:20,98,102,1610612758.0,Bjelica,MISS Bjelica 14' Jump Shot,rebound,rebound,4,Medium
+21900346,554,rebound,4,PT07M18.00S,07:18,Q4 07:18,98,102,1610612745.0,Capela,Capela REBOUND (Off:5 Def:11),2pt missed,2pt made,4,Medium
+21900346,555,2pt,4,PT07M06.00S,07:06,Q4 07:06,100,102,1610612745.0,Harden,Harden 7' Driving Floating Jump Shot (25 PTS),rebound,3pt made,2,Medium
+21900346,556,3pt,4,PT06M50.00S,06:50,Q4 06:50,100,105,1610612758.0,Bogdanovic,Bogdanovic 26' 3PT Jump Shot (13 PTS),2pt made,2pt made,5,High
+21900346,557,2pt,4,PT06M21.00S,06:21,Q4 06:21,102,105,1610612745.0,Capela,Capela 1' Cutting Dunk Shot (11 PTS) (Harden 6 AST),3pt made,2pt missed,3,High
+21900346,559,2pt,4,PT06M06.00S,06:06,Q4 06:06,102,105,1610612758.0,Bogdanovic,MISS Bogdanovic 1' Driving Layup,2pt made,rebound,3,High
+21900346,560,rebound,4,PT06M03.00S,06:03,Q4 06:03,102,105,1610612745.0,Harden,Harden REBOUND (Off:0 Def:3),2pt missed,2pt made,3,High
+21900346,561,2pt,4,PT05M58.00S,05:58,Q4 05:58,104,105,1610612745.0,Capela,Capela 1' Cutting Layup Shot (13 PTS) (Harden 7 AST),rebound,2pt missed,1,High
+21900346,563,2pt,4,PT05M41.00S,05:41,Q4 05:41,104,105,1610612758.0,Bogdanovic,MISS Bogdanovic 3' Driving Layup,2pt made,block,1,High
+21900346,563,block,4,PT05M41.00S,05:41,Q4 05:41,104,105,1610612745.0,Clark,Clark BLOCK (2 BLK),2pt missed,rebound,1,High
+21900346,565,rebound,4,PT05M38.00S,05:38,Q4 05:38,104,105,1610612745.0,Clark,Clark REBOUND (Off:0 Def:3),block,3pt missed,1,High
+21900346,566,3pt,4,PT05M31.00S,05:31,Q4 05:31,104,105,1610612745.0,McLemore,MISS McLemore 28' 3PT Jump Shot,rebound,rebound,1,High
+21900346,567,rebound,4,PT05M28.00S,05:28,Q4 05:28,104,105,1610612758.0,Ariza,Ariza REBOUND (Off:1 Def:4),3pt missed,2pt missed,1,High
+21900346,568,2pt,4,PT05M14.00S,05:14,Q4 05:14,104,105,1610612758.0,Bjelica,MISS Bjelica 4' Turnaround Jump Shot,rebound,block,1,High
+21900346,568,block,4,PT05M14.00S,05:14,Q4 05:14,104,105,1610612745.0,McLemore,McLemore BLOCK (1 BLK),2pt missed,rebound,1,High
+21900346,570,rebound,4,PT05M12.00S,05:12,Q4 05:12,104,105,1610612745.0,Tucker,Tucker REBOUND (Off:3 Def:12),block,turnover,1,High
+21900346,571,turnover,4,PT05M09.00S,05:09,Q4 05:09,104,105,1610612745.0,Harden,Harden Lost Ball Turnover (P6.T17),rebound,steal,1,High
+21900346,571,steal,4,PT05M09.00S,05:09,Q4 05:09,104,105,1610612758.0,Joseph,Joseph STEAL (1 STL),turnover,timeout,1,High
+21900346,573,timeout,4,PT04M56.00S,04:56,Q4 04:56,104,105,1610612758.0,,Kings Timeout: Regular (Reg.5 Short 0),steal,substitution,1,High
+21900346,574,substitution,4,PT04M56.00S,04:56,Q4 04:56,104,105,1610612745.0,Clark,SUB out: G. Clark,timeout,substitution,1,High
+21900346,575,substitution,4,PT04M56.00S,04:56,Q4 04:56,104,105,1610612745.0,McLemore,SUB out: B. McLemore,substitution,substitution,1,High
+21900346,576,substitution,4,PT04M56.00S,04:56,Q4 04:56,104,105,1610612758.0,Ariza,SUB out: T. Ariza,substitution,substitution,1,High
+21900346,577,substitution,4,PT04M56.00S,04:56,Q4 04:56,104,105,1610612758.0,Bogdanovic,SUB out: B. Bogdanovic,substitution,substitution,1,High
+21900346,578,substitution,4,PT04M56.00S,04:56,Q4 04:56,104,105,1610612745.0,Westbrook,SUB in: R. Westbrook,substitution,substitution,1,High
+21900346,579,substitution,4,PT04M56.00S,04:56,Q4 04:56,104,105,1610612745.0,House Jr.,SUB in: D. House Jr.,substitution,substitution,1,High
+21900346,580,substitution,4,PT04M56.00S,04:56,Q4 04:56,104,105,1610612758.0,Barnes,SUB in: H. Barnes,substitution,substitution,1,High
+21900346,581,substitution,4,PT04M56.00S,04:56,Q4 04:56,104,105,1610612758.0,Hield,SUB in: B. Hield,substitution,3pt missed,1,High
+21900346,582,3pt,4,PT04M48.00S,04:48,Q4 04:48,104,105,1610612758.0,Bjelica,MISS Bjelica 29' 3PT Jump Shot,substitution,rebound,1,High
+21900346,583,rebound,4,PT04M46.00S,04:46,Q4 04:46,104,105,1610612745.0,Tucker,Tucker REBOUND (Off:3 Def:13),3pt missed,foul,1,High
+21900346,584,foul,4,PT04M39.00S,04:39,Q4 04:39,104,105,1610612758.0,Hield,Hield S.FOUL (P3.T3) (M.Ervin),rebound,freethrow,1,High
+21900346,586,freethrow,4,PT04M39.00S,04:39,Q4 04:39,105,105,1610612745.0,Harden,Harden Free Throw 1 of 2 (26 PTS),foul,freethrow,0,High
+21900346,587,freethrow,4,PT04M39.00S,04:39,Q4 04:39,106,105,1610612745.0,Harden,Harden Free Throw 2 of 2 (27 PTS),freethrow,2pt made,1,High
+21900346,588,2pt,4,PT04M29.00S,04:29,Q4 04:29,106,107,1610612758.0,Joseph,Joseph 1' Driving Layup (14 PTS),freethrow,2pt missed,1,High
+21900346,589,2pt,4,PT04M08.00S,04:08,Q4 04:08,106,107,1610612745.0,House Jr.,MISS House Jr. 1' Driving Layup,2pt made,rebound,1,High
+21900346,590,rebound,4,PT04M06.00S,04:06,Q4 04:06,106,107,1610612758.0,Bjelica,Bjelica REBOUND (Off:1 Def:4),2pt missed,3pt missed,1,High
+21900346,591,3pt,4,PT03M58.00S,03:58,Q4 03:58,106,107,1610612758.0,Bjelica,MISS Bjelica 27' 3PT Jump Shot,rebound,rebound,1,High
+21900346,592,rebound,4,PT03M56.00S,03:56,Q4 03:56,106,107,1610612745.0,Tucker,Tucker REBOUND (Off:3 Def:14),3pt missed,3pt missed,1,High
+21900346,593,3pt,4,PT03M54.00S,03:54,Q4 03:54,106,107,1610612745.0,Harden,MISS Harden 28' 3PT Pullup Jump Shot,rebound,rebound,1,High
+21900346,594,rebound,4,PT03M50.00S,03:50,Q4 03:50,106,107,1610612745.0,Capela,Capela REBOUND (Off:6 Def:11),3pt missed,turnover,1,High
+21900346,595,turnover,4,PT03M39.00S,03:39,Q4 03:39,106,107,1610612745.0,Harden,Harden Lost Ball Turnover (P7.T18),rebound,steal,1,High
+21900346,595,steal,4,PT03M39.00S,03:39,Q4 03:39,106,107,1610612758.0,Hield,Hield STEAL (2 STL),turnover,3pt missed,1,High
+21900346,597,3pt,4,PT03M26.00S,03:26,Q4 03:26,106,107,1610612758.0,Hield,MISS Hield 26' 3PT Pullup Jump Shot,steal,rebound,1,High
+21900346,598,rebound,4,PT03M25.00S,03:25,Q4 03:25,106,107,1610612745.0,Tucker,Tucker REBOUND (Off:3 Def:15),3pt missed,timeout,1,High
+21900346,599,timeout,4,PT03M25.00S,03:25,Q4 03:25,106,107,1610612745.0,,ROCKETS Timeout: Regular (Full 5 Short 0),rebound,substitution,1,High
+21900346,600,substitution,4,PT03M25.00S,03:25,Q4 03:25,106,107,1610612745.0,House Jr.,SUB out: D. House Jr.,timeout,substitution,1,High
+21900346,601,substitution,4,PT03M25.00S,03:25,Q4 03:25,106,107,1610612758.0,Bjelica,SUB out: N. Bjelica,substitution,substitution,1,High
+21900346,602,substitution,4,PT03M25.00S,03:25,Q4 03:25,106,107,1610612745.0,McLemore,SUB in: B. McLemore,substitution,substitution,1,High
+21900346,603,substitution,4,PT03M25.00S,03:25,Q4 03:25,106,107,1610612758.0,Bogdanovic,SUB in: B. Bogdanovic,substitution,2pt made,1,High
+21900346,604,2pt,4,PT03M14.00S,03:14,Q4 03:14,108,107,1610612745.0,Westbrook,Westbrook 1' Driving Layup (27 PTS) (Harden 8 AST),substitution,2pt made,1,High
+21900346,606,2pt,4,PT02M56.00S,02:56,Q4 02:56,108,109,1610612758.0,Hield,Hield 2' Driving Reverse Layup (23 PTS),2pt made,3pt missed,1,High
+21900346,607,3pt,4,PT02M39.00S,02:39,Q4 02:39,108,109,1610612745.0,Tucker,MISS Tucker 24' 3PT Jump Shot,2pt made,rebound,1,High
+21900346,608,rebound,4,PT02M37.00S,02:37,Q4 02:37,108,109,1610612758.0,Barnes,Barnes REBOUND (Off:1 Def:6),3pt missed,2pt missed,1,High
+21900346,609,2pt,4,PT02M23.00S,02:23,Q4 02:23,108,109,1610612758.0,Barnes,MISS Barnes 3' Driving Layup,rebound,block,1,High
+21900346,609,block,4,PT02M23.00S,02:23,Q4 02:23,108,109,1610612745.0,McLemore,McLemore BLOCK (2 BLK),2pt missed,rebound,1,High
+21900346,611,rebound,4,PT02M22.00S,02:22,Q4 02:22,108,109,1610612758.0,Barnes,Barnes REBOUND (Off:2 Def:6),block,foul,1,High
+21900346,612,foul,4,PT02M22.00S,02:22,Q4 02:22,108,109,1610612745.0,Harden,Harden S.FOUL (P4.PN) (M.Ervin),rebound,freethrow,1,High
+21900346,614,freethrow,4,PT02M22.00S,02:22,Q4 02:22,108,110,1610612758.0,Barnes,Barnes Free Throw 1 of 2 (16 PTS),foul,freethrow,2,High
+21900346,615,freethrow,4,PT02M22.00S,02:22,Q4 02:22,108,110,1610612758.0,Barnes,MISS Barnes Free Throw 2 of 2,freethrow,rebound,2,High
+21900346,616,rebound,4,PT02M22.00S,02:22,Q4 02:22,108,110,1610612745.0,Tucker,Tucker REBOUND (Off:3 Def:16),freethrow,2pt made,2,High
+21900346,617,2pt,4,PT02M11.00S,02:11,Q4 02:11,110,110,1610612745.0,Westbrook,Westbrook 2' Driving Layup (29 PTS) (Harden 9 AST),rebound,3pt missed,0,High
+21900346,619,3pt,4,PT01M46.00S,01:46,Q4 01:46,110,110,1610612758.0,Bogdanovic,MISS Bogdanovic 29' 3PT Jump Shot,2pt made,rebound,0,Very High
+21900346,620,rebound,4,PT01M44.00S,01:44,Q4 01:44,110,110,1610612745.0,Harden,Harden REBOUND (Off:0 Def:4),3pt missed,turnover,0,Very High
+21900346,621,turnover,4,PT01M38.00S,01:38,Q4 01:38,110,110,1610612745.0,Harden,Harden Lost Ball Turnover (P8.T19),rebound,steal,0,Very High
+21900346,621,steal,4,PT01M38.00S,01:38,Q4 01:38,110,110,1610612758.0,Joseph,Joseph STEAL (2 STL),turnover,3pt made,0,Very High
+21900346,623,3pt,4,PT01M15.00S,01:15,Q4 01:15,110,113,1610612758.0,Barnes,Barnes 3PT Pullup Jump Shot (19 PTS),steal,3pt made,3,Very High
+21900346,624,3pt,4,PT01M07.00S,01:07,Q4 01:07,113,113,1610612745.0,Westbrook,Westbrook 27' 3PT Jump Shot (32 PTS) (Harden 10 AST),3pt made,2pt missed,0,Very High
+21900346,626,2pt,4,PT00M47.50S,00:47,Q4 00:47,113,113,1610612758.0,Barnes,MISS Barnes 6' Driving Floating Jump Shot,3pt made,rebound,0,Very High
+21900346,627,rebound,4,PT00M45.30S,00:45,Q4 00:45,113,113,1610612758.0,Holmes,Holmes REBOUND (Off:3 Def:5),2pt missed,2pt missed,0,Very High
+21900346,628,2pt,4,PT00M42.80S,00:42,Q4 00:42,113,113,1610612758.0,Holmes,MISS Holmes 1' Tip Layup Shot,rebound,rebound,0,Very High
+21900346,629,rebound,4,PT00M41.60S,00:41,Q4 00:41,113,113,1610612745.0,McLemore,McLemore REBOUND (Off:1 Def:3),2pt missed,3pt made,0,Very High
+21900346,630,3pt,4,PT00M22.70S,00:22,Q4 00:22,116,113,1610612745.0,McLemore,McLemore 25' 3PT Jump Shot (12 PTS) (Westbrook 8 AST),rebound,timeout,3,Very High
+21900346,632,timeout,4,PT00M22.70S,00:22,Q4 00:22,116,113,1610612758.0,,Kings Timeout: Regular (Reg.6 Short 0),3pt made,substitution,3,Very High
+21900346,633,substitution,4,PT00M22.70S,00:22,Q4 00:22,116,113,1610612745.0,Capela,SUB out: C. Capela,timeout,substitution,3,Very High
+21900346,634,substitution,4,PT00M22.70S,00:22,Q4 00:22,116,113,1610612745.0,House Jr.,SUB in: D. House Jr.,substitution,3pt missed,3,Very High
+21900346,635,3pt,4,PT00M13.50S,00:13,Q4 00:13,116,113,1610612758.0,Hield,MISS Hield 26' 3PT Pullup Jump Shot,substitution,rebound,3,Very High
+21900346,636,rebound,4,PT00M11.90S,00:11,Q4 00:11,116,113,1610612758.0,Bogdanovic,Bogdanovic REBOUND (Off:1 Def:2),3pt missed,3pt made,3,Very High
+21900346,637,3pt,4,PT00M08.40S,00:08,Q4 00:08,116,116,1610612758.0,Hield,Hield 25' 3PT Pullup Jump Shot (26 PTS),rebound,instant replay,0,Very High
+21900346,639,2pt,4,PT00M01.00S,00:01,Q4 00:01,118,116,1610612745.0,Westbrook,Westbrook 2' Driving Finger Roll Layup (34 PTS),instant replay,timeout,2,Very High
+21900346,640,timeout,4,PT00M01.00S,00:01,Q4 00:01,118,116,1610612758.0,,Kings Timeout: Regular (Reg.7 Short 0),2pt made,substitution,2,Very High
+21900346,641,substitution,4,PT00M01.00S,00:01,Q4 00:01,118,116,1610612745.0,McLemore,SUB out: B. McLemore,timeout,substitution,2,Very High
+21900346,642,substitution,4,PT00M01.00S,00:01,Q4 00:01,118,116,1610612758.0,Holmes,SUB out: R. Holmes,substitution,substitution,2,Very High
+21900346,643,substitution,4,PT00M01.00S,00:01,Q4 00:01,118,116,1610612745.0,Capela,SUB in: C. Capela,substitution,substitution,2,Very High
+21900346,644,substitution,4,PT00M01.00S,00:01,Q4 00:01,118,116,1610612758.0,Bjelica,SUB in: N. Bjelica,substitution,3pt made,2,Very High
+21900346,645,3pt,4,PT00M00.00S,00:00,Q4 00:00,118,119,1610612758.0,Bjelica,Bjelica 32' 3PT Jump Shot (17 PTS) (Joseph 6 AST),substitution,instant replay,1,Very High
+21900346,648,period,4,PT00M00.00S,00:00,Q4 00:00,118,119,1610612745.0,,End of 4th Period (10:29 PM EST),instant replay,,1,Very High

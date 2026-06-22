@@ -1,0 +1,510 @@
+game_id,actionNumber,actionType,period,clock,clock_display,game_clock,scoreHome,scoreAway,teamId,playerName,description,previous_action,next_action,score_margin,leverage_bucket
+21600190,0,period,1,PT12M00.00S,12:00,Q1 12:00,0,0,1610612763.0,,Start of 1st Period (8:12 PM EST),,turnover,0,Low
+21600190,2,turnover,1,PT11M39.00S,11:39,Q1 11:39,0,0,1610612763.0,Green,Green Traveling Turnover (P1.T1),period,2pt missed,0,Low
+21600190,3,2pt,1,PT11M24.00S,11:24,Q1 11:24,0,0,1610612750.0,Dieng,MISS Dieng 18' Jump Shot,turnover,rebound,0,Low
+21600190,4,rebound,1,PT11M23.00S,11:23,Q1 11:23,0,0,1610612763.0,Ennis III,Ennis REBOUND (Off:0 Def:1),2pt missed,2pt missed,0,Low
+21600190,5,2pt,1,PT11M14.00S,11:14,Q1 11:14,0,0,1610612763.0,Gasol,MISS Gasol 20' Jump Shot,rebound,2pt missed,0,Low
+21600190,6,2pt,1,PT11M12.00S,11:12,Q1 11:12,0,0,1610612763.0,Ennis III,MISS Ennis 1' Tip Layup Shot,2pt missed,rebound,0,Low
+21600190,7,rebound,1,PT11M12.00S,11:12,Q1 11:12,0,0,1610612763.0,Ennis III,Ennis REBOUND (Off:1 Def:1),2pt missed,rebound,0,Low
+21600190,8,rebound,1,PT11M11.00S,11:11,Q1 11:11,0,0,1610612750.0,Wiggins,Wiggins REBOUND (Off:0 Def:1),rebound,turnover,0,Low
+21600190,9,turnover,1,PT11M04.00S,11:04,Q1 11:04,0,0,1610612750.0,Wiggins,Wiggins Out of Bounds Lost Ball Turnover (P1.T1),rebound,2pt made,0,Low
+21600190,10,2pt,1,PT10M52.00S,10:52,Q1 10:52,2,0,1610612763.0,Allen,Allen 21' Jump Shot (2 PTS) (Conley 1 AST),turnover,3pt made,2,Low
+21600190,12,3pt,1,PT10M31.00S,10:31,Q1 10:31,2,3,1610612750.0,Towns,Towns  3PT Jump Shot (3 PTS) (Rubio 1 AST),2pt made,3pt missed,1,Low
+21600190,13,3pt,1,PT10M09.00S,10:09,Q1 10:09,0,0,1610612763.0,Conley,MISS Conley 26' 3PT Jump Shot,3pt made,rebound,0,Low
+21600190,14,rebound,1,PT10M09.00S,10:09,Q1 10:09,0,0,1610612750.0,Dieng,Dieng REBOUND (Off:0 Def:1),3pt missed,3pt missed,0,Low
+21600190,15,3pt,1,PT09M54.00S,09:54,Q1 09:54,0,0,1610612750.0,Wiggins,MISS Wiggins 26' 3PT Jump Shot,rebound,block,0,Low
+21600190,15,block,1,PT09M54.00S,09:54,Q1 09:54,0,0,1610612763.0,Allen,Allen BLOCK (1 BLK),3pt missed,rebound,0,Low
+21600190,16,rebound,1,PT09M53.00S,09:53,Q1 09:53,0,0,1610612763.0,Green,Green REBOUND (Off:0 Def:1),block,foul,0,Low
+21600190,17,foul,1,PT09M38.00S,09:38,Q1 09:38,0,0,1610612750.0,Dieng,Timberwolves T.Foul (Def. 3 Sec Dieng ) (G.Zielinski),rebound,freethrow,0,Low
+21600190,18,freethrow,1,PT09M38.00S,09:38,Q1 09:38,3,3,1610612763.0,Conley,Conley Free Throw Technical (1 PTS),foul,2pt missed,0,Low
+21600190,20,2pt,1,PT09M33.00S,09:33,Q1 09:33,0,0,1610612763.0,Conley,MISS Conley 12' Floating Jump Shot,freethrow,2pt made,0,Low
+21600190,21,2pt,1,PT09M31.00S,09:31,Q1 09:31,5,3,1610612763.0,Green,Green 1' Tip Layup Shot (2 PTS),2pt missed,rebound,2,Low
+21600190,22,rebound,1,PT09M31.00S,09:31,Q1 09:31,0,0,1610612763.0,Green,Green REBOUND (Off:1 Def:1),2pt made,2pt missed,0,Low
+21600190,23,2pt,1,PT09M16.00S,09:16,Q1 09:16,0,0,1610612750.0,LaVine,MISS LaVine 19' Jump Shot,rebound,rebound,0,Low
+21600190,24,rebound,1,PT09M16.00S,09:16,Q1 09:16,0,0,1610612750.0,Dieng,Dieng REBOUND (Off:1 Def:1),2pt missed,2pt made,0,Low
+21600190,25,2pt,1,PT09M13.00S,09:13,Q1 09:13,5,5,1610612750.0,Dieng,Dieng 1' Putback Layup (2 PTS),rebound,2pt missed,0,Low
+21600190,26,2pt,1,PT08M56.00S,08:56,Q1 08:56,0,0,1610612763.0,Green,MISS Green 7' Floating Jump Shot,2pt made,block,0,Low
+21600190,26,block,1,PT08M56.00S,08:56,Q1 08:56,0,0,1610612750.0,Towns,Towns BLOCK (1 BLK),2pt missed,rebound,0,Low
+21600190,27,rebound,1,PT08M55.00S,08:55,Q1 08:55,0,0,1610612750.0,Towns,Towns REBOUND (Off:0 Def:1),block,2pt missed,0,Low
+21600190,28,2pt,1,PT08M52.00S,08:52,Q1 08:52,0,0,1610612750.0,Wiggins,MISS Wiggins  Layup,rebound,block,0,Low
+21600190,28,block,1,PT08M52.00S,08:52,Q1 08:52,0,0,1610612763.0,Conley,Conley BLOCK (1 BLK),2pt missed,rebound,0,Low
+21600190,29,rebound,1,PT08M52.00S,08:52,Q1 08:52,0,0,1610612750.0,,TEAM offensive REBOUND,block,foul,0,Low
+21600190,30,foul,1,PT08M37.00S,08:37,Q1 08:37,0,0,1610612763.0,Green,Green S.FOUL (P1.T1) (G.Zielinski),rebound,freethrow,0,Low
+21600190,31,freethrow,1,PT08M37.00S,08:37,Q1 08:37,5,6,1610612750.0,Towns,Towns Free Throw 1 of 2 (4 PTS),foul,freethrow,1,Low
+21600190,33,freethrow,1,PT08M37.00S,08:37,Q1 08:37,0,0,1610612750.0,Towns,MISS Towns Free Throw 2 of 2,freethrow,rebound,0,Low
+21600190,35,rebound,1,PT08M34.00S,08:34,Q1 08:34,0,0,1610612763.0,Ennis III,Ennis REBOUND (Off:1 Def:2),freethrow,2pt made,0,Low
+21600190,36,2pt,1,PT08M18.00S,08:18,Q1 08:18,7,6,1610612763.0,Allen,Allen 6' Driving Floating Jump Shot (4 PTS),rebound,3pt made,1,Low
+21600190,37,3pt,1,PT07M55.00S,07:55,Q1 07:55,7,9,1610612750.0,Towns,Towns 24' 3PT Jump Shot (7 PTS) (Dieng 1 AST),2pt made,2pt missed,2,Low
+21600190,38,2pt,1,PT07M28.00S,07:28,Q1 07:28,0,0,1610612763.0,Allen,MISS Allen 22' Jump Shot,3pt made,rebound,0,Low
+21600190,39,rebound,1,PT07M28.00S,07:28,Q1 07:28,0,0,1610612750.0,Towns,Towns REBOUND (Off:0 Def:2),2pt missed,turnover,0,Low
+21600190,40,turnover,1,PT07M17.00S,07:17,Q1 07:17,0,0,1610612750.0,Dieng,Dieng Lost Ball Turnover (P1.T2),rebound,steal,0,Low
+21600190,40,steal,1,PT07M17.00S,07:17,Q1 07:17,0,0,1610612763.0,Ennis III,Ennis STEAL (1 STL),turnover,foul,0,Low
+21600190,41,foul,1,PT07M14.00S,07:14,Q1 07:14,0,0,1610612750.0,LaVine,LaVine S.FOUL (P1.T1) (G.Zielinski),steal,freethrow,0,Low
+21600190,42,freethrow,1,PT07M14.00S,07:14,Q1 07:14,8,9,1610612763.0,Conley,Conley Free Throw 1 of 2 (2 PTS),foul,freethrow,1,Low
+21600190,44,freethrow,1,PT07M14.00S,07:14,Q1 07:14,9,9,1610612763.0,Conley,Conley Free Throw 2 of 2 (3 PTS),freethrow,turnover,0,Low
+21600190,47,turnover,1,PT07M00.00S,07:00,Q1 07:00,0,0,1610612750.0,Towns,Towns Out of Bounds Lost Ball Turnover (P1.T3),freethrow,turnover,0,Low
+21600190,48,turnover,1,PT06M37.00S,06:37,Q1 06:37,0,0,1610612763.0,Allen,Allen Bad Pass Turnover (P1.T2),turnover,steal,0,Low
+21600190,48,steal,1,PT06M37.00S,06:37,Q1 06:37,0,0,1610612750.0,LaVine,LaVine STEAL (1 STL),turnover,turnover,0,Low
+21600190,49,turnover,1,PT06M35.00S,06:35,Q1 06:35,0,0,1610612750.0,Rubio,Rubio Traveling Turnover (P1.T4),steal,2pt made,0,Low
+21600190,50,2pt,1,PT06M26.00S,06:26,Q1 06:26,11,9,1610612763.0,Ennis III,Ennis  Cutting Dunk Shot (2 PTS) (Gasol 1 AST),turnover,timeout,2,Low
+21600190,52,timeout,1,PT06M19.00S,06:19,Q1 06:19,0,0,1610612750.0,,Timberwolves Timeout: Regular (Reg.1 Short 0),2pt made,substitution,0,Low
+21600190,53,substitution,1,PT06M19.00S,06:19,Q1 06:19,0,0,1610612763.0,Allen,SUB out: T. Allen,timeout,substitution,0,Low
+21600190,54,substitution,1,PT06M19.00S,06:19,Q1 06:19,0,0,1610612763.0,Carter,SUB in: V. Carter,substitution,foul,0,Low
+21600190,55,foul,1,PT06M04.00S,06:04,Q1 06:04,0,0,1610612763.0,Carter,Carter P.FOUL (P1.T2) (S.Corbin),substitution,2pt missed,0,Low
+21600190,56,2pt,1,PT05M48.00S,05:48,Q1 05:48,0,0,1610612750.0,Dieng,MISS Dieng 2' Layup,foul,block,0,Low
+21600190,56,block,1,PT05M48.00S,05:48,Q1 05:48,0,0,1610612763.0,Gasol,Gasol BLOCK (1 BLK),2pt missed,rebound,0,Low
+21600190,57,rebound,1,PT05M48.00S,05:48,Q1 05:48,0,0,1610612763.0,Conley,Conley REBOUND (Off:0 Def:1),block,3pt missed,0,Low
+21600190,58,3pt,1,PT05M29.00S,05:29,Q1 05:29,0,0,1610612763.0,Green,MISS Green 26' 3PT Jump Shot,rebound,2pt missed,0,Low
+21600190,59,2pt,1,PT05M27.00S,05:27,Q1 05:27,0,0,1610612763.0,Ennis III,MISS Ennis 1' Tip Layup Shot,3pt missed,rebound,0,Low
+21600190,60,rebound,1,PT05M27.00S,05:27,Q1 05:27,0,0,1610612763.0,Ennis III,Ennis REBOUND (Off:2 Def:2),2pt missed,rebound,0,Low
+21600190,61,rebound,1,PT05M25.00S,05:25,Q1 05:25,0,0,1610612750.0,Dieng,Dieng REBOUND (Off:1 Def:2),rebound,3pt missed,0,Low
+21600190,62,3pt,1,PT05M18.00S,05:18,Q1 05:18,0,0,1610612750.0,LaVine,MISS LaVine 25' 3PT Jump Shot,rebound,rebound,0,Low
+21600190,63,rebound,1,PT05M17.00S,05:17,Q1 05:17,0,0,1610612750.0,Rubio,Rubio REBOUND (Off:1 Def:0),3pt missed,2pt made,0,Low
+21600190,64,2pt,1,PT05M11.00S,05:11,Q1 05:11,11,11,1610612750.0,LaVine,LaVine 1' Driving Reverse Layup (2 PTS) (Rubio 2 AST),rebound,substitution,0,Low
+21600190,67,substitution,1,PT04M49.00S,04:49,Q1 04:49,0,0,1610612750.0,LaVine,SUB out: Z. LaVine,2pt made,substitution,0,Low
+21600190,68,substitution,1,PT04M49.00S,04:49,Q1 04:49,0,0,1610612750.0,Rubio,SUB out: R. Rubio,substitution,substitution,0,Low
+21600190,69,substitution,1,PT04M49.00S,04:49,Q1 04:49,0,0,1610612763.0,Conley,SUB out: M. Conley,substitution,substitution,0,Low
+21600190,70,substitution,1,PT04M49.00S,04:49,Q1 04:49,0,0,1610612750.0,Muhammad,SUB in: S. Muhammad,substitution,substitution,0,Low
+21600190,71,substitution,1,PT04M49.00S,04:49,Q1 04:49,0,0,1610612750.0,Dunn,SUB in: K. Dunn,substitution,substitution,0,Low
+21600190,72,substitution,1,PT04M49.00S,04:49,Q1 04:49,0,0,1610612763.0,Harrison,SUB in: A. Harrison,substitution,3pt missed,0,Low
+21600190,70,3pt,1,PT04M39.00S,04:39,Q1 04:39,0,0,1610612763.0,Carter,MISS Carter 24' 3PT Jump Shot,substitution,rebound,0,Low
+21600190,71,rebound,1,PT04M39.00S,04:39,Q1 04:39,0,0,1610612750.0,Towns,Towns REBOUND (Off:0 Def:3),3pt missed,2pt made,0,Low
+21600190,72,2pt,1,PT04M26.00S,04:26,Q1 04:26,11,13,1610612750.0,Wiggins,Wiggins 19' Pullup Jump Shot (2 PTS),rebound,2pt missed,2,Low
+21600190,73,2pt,1,PT04M10.00S,04:10,Q1 04:10,0,0,1610612763.0,Gasol,MISS Gasol 5' Jump Shot,2pt made,rebound,0,Low
+21600190,74,rebound,1,PT04M09.00S,04:09,Q1 04:09,0,0,1610612750.0,Wiggins,Wiggins REBOUND (Off:0 Def:2),2pt missed,foul,0,Low
+21600190,75,foul,1,PT04M00.00S,04:00,Q1 04:00,0,0,1610612763.0,Harrison,Harrison S.FOUL (P1.T3) (S.Corbin),rebound,freethrow,0,Low
+21600190,76,freethrow,1,PT04M00.00S,04:00,Q1 04:00,11,14,1610612750.0,Dieng,Dieng Free Throw 1 of 2 (3 PTS),foul,freethrow,3,Low
+21600190,78,freethrow,1,PT04M00.00S,04:00,Q1 04:00,0,0,1610612750.0,Dieng,MISS Dieng Free Throw 2 of 2,freethrow,rebound,0,Low
+21600190,80,rebound,1,PT03M59.00S,03:59,Q1 03:59,0,0,1610612763.0,Carter,Carter REBOUND (Off:0 Def:1),freethrow,3pt missed,0,Low
+21600190,81,3pt,1,PT03M41.00S,03:41,Q1 03:41,0,0,1610612763.0,Ennis III,MISS Ennis 25' 3PT Jump Shot,rebound,rebound,0,Low
+21600190,82,rebound,1,PT03M41.00S,03:41,Q1 03:41,0,0,1610612750.0,,TEAM defensive REBOUND,3pt missed,2pt missed,0,Low
+21600190,83,2pt,1,PT03M23.00S,03:23,Q1 03:23,0,0,1610612750.0,Wiggins,MISS Wiggins 21' Pullup Jump Shot,rebound,rebound,0,Low
+21600190,84,rebound,1,PT03M21.00S,03:21,Q1 03:21,0,0,1610612763.0,,TEAM defensive REBOUND,2pt missed,substitution,0,Low
+21600190,85,substitution,1,PT03M21.00S,03:21,Q1 03:21,0,0,1610612763.0,Gasol,SUB out: M. Gasol,rebound,substitution,0,Low
+21600190,86,substitution,1,PT03M21.00S,03:21,Q1 03:21,0,0,1610612763.0,Randolph,SUB in: Z. Randolph,substitution,foul,0,Low
+21600190,86,foul,1,PT03M09.00S,03:09,Q1 03:09,0,0,1610612750.0,Dunn,Dunn P.FOUL (P1.T2) (G.Zielinski),substitution,substitution,0,Low
+21600190,87,substitution,1,PT03M09.00S,03:09,Q1 03:09,0,0,1610612750.0,Towns,SUB out: K. Towns,foul,substitution,0,Low
+21600190,88,substitution,1,PT03M09.00S,03:09,Q1 03:09,0,0,1610612750.0,Bjelica,SUB in: N. Bjelica,substitution,foul,0,Low
+21600190,88,foul,1,PT03M05.00S,03:05,Q1 03:05,0,0,1610612763.0,Green,Green OFF.Foul (P2) (G.Zielinski),substitution,turnover,0,Low
+21600190,89,turnover,1,PT03M05.00S,03:05,Q1 03:05,0,0,1610612763.0,Green,Green Foul Turnover (P2.T3),foul,substitution,0,Low
+21600190,90,substitution,1,PT03M05.00S,03:05,Q1 03:05,0,0,1610612763.0,Green,SUB out: J. Green,turnover,substitution,0,Low
+21600190,91,substitution,1,PT03M05.00S,03:05,Q1 03:05,0,0,1610612763.0,Davis,SUB in: D. Davis,substitution,2pt missed,0,Low
+21600190,91,2pt,1,PT02M54.00S,02:54,Q1 02:54,0,0,1610612750.0,Wiggins,MISS Wiggins 2' Driving Layup,substitution,rebound,0,Low
+21600190,92,rebound,1,PT02M52.00S,02:52,Q1 02:52,0,0,1610612763.0,Harrison,Harrison REBOUND (Off:0 Def:1),2pt missed,2pt made,0,Low
+21600190,93,2pt,1,PT02M38.00S,02:38,Q1 02:38,13,14,1610612763.0,Harrison,Harrison 2' Driving Layup (2 PTS),rebound,foul,1,Low
+21600190,94,foul,1,PT02M38.00S,02:38,Q1 02:38,0,0,1610612750.0,Dunn,Dunn S.FOUL (P2.T3) (S.Corbin),2pt made,timeout,0,Low
+21600190,95,timeout,1,PT02M38.00S,02:38,Q1 02:38,0,0,1610612763.0,,GRIZZLIES Timeout: Regular (Full 1 Short 0),foul,freethrow,0,Low
+21600190,99,freethrow,1,PT02M38.00S,02:38,Q1 02:38,14,14,1610612763.0,Harrison,Harrison Free Throw 1 of 1 (3 PTS),timeout,turnover,0,Low
+21600190,101,turnover,1,PT02M22.00S,02:22,Q1 02:22,0,0,1610612750.0,Wiggins,Wiggins Traveling Turnover (P2.T5),freethrow,substitution,0,Low
+21600190,103,substitution,1,PT02M17.00S,02:17,Q1 02:17,0,0,1610612763.0,Ennis III,SUB out: J. Ennis III,turnover,substitution,0,Low
+21600190,104,substitution,1,PT02M17.00S,02:17,Q1 02:17,0,0,1610612763.0,Conley,SUB in: M. Conley,substitution,foul,0,Low
+21600190,104,foul,1,PT02M10.00S,02:10,Q1 02:10,0,0,1610612750.0,Dieng,Dieng P.FOUL (P1.T4) (B.Taylor),substitution,foul,0,Low
+21600190,105,foul,1,PT02M06.00S,02:06,Q1 02:06,0,0,1610612750.0,Muhammad,Muhammad P.FOUL (P1.PN) (B.Taylor),foul,freethrow,0,Low
+21600190,106,freethrow,1,PT02M06.00S,02:06,Q1 02:06,15,14,1610612763.0,Harrison,Harrison Free Throw 1 of 2 (4 PTS),foul,freethrow,1,Low
+21600190,109,freethrow,1,PT02M06.00S,02:06,Q1 02:06,16,14,1610612763.0,Harrison,Harrison Free Throw 2 of 2 (5 PTS),freethrow,substitution,2,Low
+21600190,108,substitution,1,PT02M06.00S,02:06,Q1 02:06,0,0,1610612750.0,Muhammad,SUB out: S. Muhammad,freethrow,substitution,0,Low
+21600190,109,substitution,1,PT02M06.00S,02:06,Q1 02:06,0,0,1610612750.0,Rubio,SUB in: R. Rubio,substitution,foul,0,Low
+21600190,111,foul,1,PT01M53.00S,01:53,Q1 01:53,0,0,1610612763.0,Davis,Davis S.FOUL (P1.T4) (B.Taylor),substitution,freethrow,0,Low
+21600190,112,freethrow,1,PT01M53.00S,01:53,Q1 01:53,16,15,1610612750.0,Wiggins,Wiggins Free Throw 1 of 2 (3 PTS),foul,freethrow,1,Low
+21600190,114,freethrow,1,PT01M53.00S,01:53,Q1 01:53,16,16,1610612750.0,Wiggins,Wiggins Free Throw 2 of 2 (4 PTS),freethrow,2pt made,0,Low
+21600190,116,2pt,1,PT01M35.00S,01:35,Q1 01:35,18,16,1610612763.0,Randolph,Randolph 19' Jump Shot (2 PTS) (Conley 2 AST),freethrow,3pt missed,2,Low
+21600190,117,3pt,1,PT01M10.00S,01:10,Q1 01:10,0,0,1610612750.0,Rubio,MISS Rubio 24' 3PT Jump Shot,2pt made,rebound,0,Low
+21600190,118,rebound,1,PT01M10.00S,01:10,Q1 01:10,0,0,1610612763.0,Davis,Davis REBOUND (Off:0 Def:1),3pt missed,2pt missed,0,Low
+21600190,119,2pt,1,PT00M53.30S,00:53,Q1 00:53,0,0,1610612763.0,Randolph,MISS Randolph 7' Pullup Jump Shot,rebound,rebound,0,Low
+21600190,120,rebound,1,PT00M51.80S,00:51,Q1 00:51,0,0,1610612750.0,Dieng,Dieng REBOUND (Off:1 Def:3),2pt missed,3pt missed,0,Low
+21600190,121,3pt,1,PT00M44.80S,00:44,Q1 00:44,0,0,1610612750.0,Wiggins,MISS Wiggins 25' 3PT Running Jump Shot,rebound,rebound,0,Low
+21600190,122,rebound,1,PT00M43.60S,00:43,Q1 00:43,0,0,1610612763.0,Davis,Davis REBOUND (Off:0 Def:2),3pt missed,3pt missed,0,Low
+21600190,123,3pt,1,PT00M22.90S,00:22,Q1 00:22,0,0,1610612763.0,Harrison,MISS Harrison 26' 3PT Jump Shot,rebound,rebound,0,Low
+21600190,124,rebound,1,PT00M21.90S,00:21,Q1 00:21,0,0,1610612750.0,Wiggins,Wiggins REBOUND (Off:0 Def:3),3pt missed,2pt missed,0,Low
+21600190,125,2pt,1,PT00M00.90S,00:00,Q1 00:00,0,0,1610612750.0,Wiggins,MISS Wiggins 1' Finger Roll Layup,rebound,rebound,0,Low
+21600190,126,rebound,1,PT00M00.00S,00:00,Q1 00:00,0,0,1610612763.0,Randolph,Randolph REBOUND (Off:0 Def:1),2pt missed,period,0,Low
+21600190,128,period,1,PT00M00.00S,00:00,Q1 00:00,18,16,1610612763.0,,End of 1st Period (8:39 PM EST),rebound,period,2,Low
+21600190,130,period,2,PT12M00.00S,12:00,Q2 12:00,18,16,1610612763.0,,Start of 2nd Period (8:42 PM EST),period,substitution,2,Low
+21600190,131,2pt,2,PT11M45.00S,11:45,Q2 11:45,18,18,1610612750.0,Towns,Towns 15' Jump Shot (9 PTS) (LaVine 1 AST),substitution,turnover,0,Low
+21600190,133,turnover,2,PT11M28.00S,11:28,Q2 11:28,0,0,1610612763.0,Conley,Conley Lost Ball Turnover (P1.T4),2pt made,3pt made,0,Low
+21600190,134,3pt,2,PT11M08.00S,11:08,Q2 11:08,18,21,1610612750.0,LaVine,LaVine 25' 3PT Jump Shot (5 PTS) (Dunn 1 AST),turnover,timeout,3,Low
+21600190,136,timeout,2,PT10M55.00S,10:55,Q2 10:55,0,0,1610612763.0,,GRIZZLIES Timeout: Short (Full 1 Short 1),3pt made,substitution,0,Low
+21600190,138,substitution,2,PT10M55.00S,10:55,Q2 10:55,0,0,1610612763.0,Harrison,SUB out: A. Harrison,timeout,substitution,0,Low
+21600190,139,substitution,2,PT10M55.00S,10:55,Q2 10:55,0,0,1610612763.0,Ennis III,SUB in: J. Ennis III,substitution,3pt missed,0,Low
+21600190,139,3pt,2,PT10M50.00S,10:50,Q2 10:50,0,0,1610612763.0,Carter,MISS Carter 25' 3PT Jump Shot,substitution,rebound,0,Low
+21600190,140,rebound,2,PT10M50.00S,10:50,Q2 10:50,0,0,1610612750.0,Aldrich,Aldrich REBOUND (Off:0 Def:1),3pt missed,turnover,0,Low
+21600190,141,turnover,2,PT10M36.00S,10:36,Q2 10:36,0,0,1610612750.0,Towns,Towns Out of Bounds Lost Ball Turnover (P2.T6),rebound,2pt missed,0,Low
+21600190,142,2pt,2,PT10M21.00S,10:21,Q2 10:21,0,0,1610612763.0,Randolph,MISS Randolph 2' Layup,turnover,2pt made,0,Low
+21600190,143,2pt,2,PT10M20.00S,10:20,Q2 10:20,20,21,1610612763.0,Davis,Davis  Putback Dunk (2 PTS),2pt missed,rebound,1,Low
+21600190,144,rebound,2,PT10M20.00S,10:20,Q2 10:20,0,0,1610612763.0,Davis,Davis REBOUND (Off:1 Def:2),2pt made,2pt missed,0,Low
+21600190,145,2pt,2,PT10M11.00S,10:11,Q2 10:11,0,0,1610612750.0,Rubio,MISS Rubio 20' Running Jump Shot,rebound,rebound,0,Low
+21600190,146,rebound,2,PT10M08.00S,10:08,Q2 10:08,0,0,1610612763.0,Randolph,Randolph REBOUND (Off:0 Def:2),2pt missed,2pt missed,0,Low
+21600190,147,2pt,2,PT09M52.00S,09:52,Q2 09:52,0,0,1610612763.0,Davis,MISS Davis 21' Jump Shot,rebound,rebound,0,Low
+21600190,148,rebound,2,PT09M52.00S,09:52,Q2 09:52,0,0,1610612763.0,,TEAM offensive REBOUND,2pt missed,foul,0,Low
+21600190,149,foul,2,PT09M45.00S,09:45,Q2 09:45,0,0,1610612750.0,LaVine,LaVine P.FOUL (P2.T1) (S.Corbin),rebound,foul,0,Low
+21600190,150,foul,2,PT09M35.00S,09:35,Q2 09:35,0,0,1610612750.0,Dunn,Dunn S.FOUL (P3.T2) (G.Zielinski),foul,freethrow,0,Low
+21600190,151,freethrow,2,PT09M35.00S,09:35,Q2 09:35,21,21,1610612763.0,Carter,Carter Free Throw 1 of 2 (1 PTS),foul,freethrow,0,Low
+21600190,154,freethrow,2,PT09M35.00S,09:35,Q2 09:35,22,21,1610612763.0,Carter,Carter Free Throw 2 of 2 (2 PTS),freethrow,substitution,1,Low
+21600190,153,substitution,2,PT09M35.00S,09:35,Q2 09:35,0,0,1610612750.0,Dunn,SUB out: K. Dunn,freethrow,substitution,0,Low
+21600190,154,substitution,2,PT09M35.00S,09:35,Q2 09:35,0,0,1610612750.0,Wiggins,SUB in: A. Wiggins,substitution,2pt made,0,Low
+21600190,156,2pt,2,PT09M24.00S,09:24,Q2 09:24,22,23,1610612750.0,LaVine,LaVine 1' Driving Finger Roll Layup (7 PTS),substitution,2pt made,1,Low
+21600190,158,2pt,2,PT09M08.00S,09:08,Q2 09:08,24,23,1610612763.0,Randolph,Randolph 7' Pullup Jump Shot (4 PTS),2pt made,2pt missed,1,Low
+21600190,159,2pt,2,PT08M58.00S,08:58,Q2 08:58,0,0,1610612750.0,Rubio,MISS Rubio 1' Driving Layup,2pt made,rebound,0,Low
+21600190,160,rebound,2,PT08M56.00S,08:56,Q2 08:56,0,0,1610612763.0,Randolph,Randolph REBOUND (Off:0 Def:3),2pt missed,foul,0,Low
+21600190,162,foul,2,PT08M39.00S,08:39,Q2 08:39,0,0,1610612750.0,Towns,Towns S.FOUL (P1.T3) (B.Taylor),rebound,timeout,0,Low
+21600190,164,timeout,2,PT08M39.00S,08:39,Q2 08:39,0,0,0.0,,Timeout: Official,foul,freethrow,0,Low
+21600190,168,freethrow,2,PT08M39.00S,08:39,Q2 08:39,25,23,1610612763.0,Randolph,Randolph Free Throw 1 of 2 (5 PTS),timeout,freethrow,2,Low
+21600190,170,freethrow,2,PT08M39.00S,08:39,Q2 08:39,26,23,1610612763.0,Randolph,Randolph Free Throw 2 of 2 (6 PTS),freethrow,substitution,3,Low
+21600190,166,substitution,2,PT08M39.00S,08:39,Q2 08:39,0,0,1610612763.0,Conley,SUB out: M. Conley,freethrow,substitution,0,Low
+21600190,167,substitution,2,PT08M39.00S,08:39,Q2 08:39,0,0,1610612763.0,Carter,SUB out: V. Carter,substitution,substitution,0,Low
+21600190,168,substitution,2,PT08M39.00S,08:39,Q2 08:39,0,0,1610612763.0,Harrison,SUB in: A. Harrison,substitution,substitution,0,Low
+21600190,169,substitution,2,PT08M39.00S,08:39,Q2 08:39,0,0,1610612763.0,Allen,SUB in: T. Allen,substitution,turnover,0,Low
+21600190,173,turnover,2,PT08M14.00S,08:14,Q2 08:14,0,0,0.0,,Timberwolves Turnover: Shot Clock (T#7),substitution,foul,0,Low
+21600190,174,foul,2,PT08M01.00S,08:01,Q2 08:01,0,0,1610612750.0,Towns,Towns P.FOUL (P2.T4) (G.Zielinski),turnover,substitution,0,Low
+21600190,175,substitution,2,PT08M01.00S,08:01,Q2 08:01,0,0,1610612750.0,Aldrich,SUB out: C. Aldrich,foul,substitution,0,Low
+21600190,176,substitution,2,PT08M01.00S,08:01,Q2 08:01,0,0,1610612763.0,Davis,SUB out: D. Davis,substitution,substitution,0,Low
+21600190,177,substitution,2,PT08M01.00S,08:01,Q2 08:01,0,0,1610612750.0,Dieng,SUB in: G. Dieng,substitution,substitution,0,Low
+21600190,178,substitution,2,PT08M01.00S,08:01,Q2 08:01,0,0,1610612763.0,Gasol,SUB in: M. Gasol,substitution,2pt made,0,Low
+21600190,177,2pt,2,PT07M45.00S,07:45,Q2 07:45,28,23,1610612763.0,Randolph,Randolph 14' Jump Shot (8 PTS) (Ennis 1 AST),substitution,2pt missed,5,Low
+21600190,178,2pt,2,PT07M29.00S,07:29,Q2 07:29,0,0,1610612750.0,Towns,MISS Towns 4' Hook Shot,2pt made,rebound,0,Low
+21600190,179,rebound,2,PT07M27.00S,07:27,Q2 07:27,0,0,1610612763.0,Gasol,Gasol REBOUND (Off:0 Def:1),2pt missed,2pt made,0,Low
+21600190,180,2pt,2,PT07M07.00S,07:07,Q2 07:07,30,23,1610612763.0,Harrison,Harrison 1' Driving Layup (7 PTS),rebound,2pt made,7,Low
+21600190,181,2pt,2,PT06M51.00S,06:51,Q2 06:51,30,25,1610612750.0,Wiggins,Wiggins  Driving Dunk (6 PTS),2pt made,2pt missed,5,Low
+21600190,182,2pt,2,PT06M27.00S,06:27,Q2 06:27,0,0,1610612763.0,Gasol,MISS Gasol 19' Jump Shot,2pt made,rebound,0,Low
+21600190,183,rebound,2,PT06M27.00S,06:27,Q2 06:27,0,0,1610612750.0,Dieng,Dieng REBOUND (Off:1 Def:4),2pt missed,foul,0,Low
+21600190,184,foul,2,PT06M15.00S,06:15,Q2 06:15,0,0,1610612763.0,Harrison,Harrison P.FOUL (P2.T1) (G.Zielinski),rebound,substitution,0,Low
+21600190,185,substitution,2,PT06M15.00S,06:15,Q2 06:15,0,0,1610612763.0,Randolph,SUB out: Z. Randolph,foul,substitution,0,Low
+21600190,186,substitution,2,PT06M15.00S,06:15,Q2 06:15,0,0,1610612763.0,Green,SUB in: J. Green,substitution,foul,0,Low
+21600190,186,foul,2,PT06M07.00S,06:07,Q2 06:07,0,0,1610612763.0,Gasol,Gasol P.FOUL (P1.T2) (S.Corbin),substitution,2pt made,0,Low
+21600190,187,2pt,2,PT05M57.00S,05:57,Q2 05:57,30,27,1610612750.0,Towns,Towns 1' Driving Layup (11 PTS),foul,3pt missed,3,Low
+21600190,188,3pt,2,PT05M41.00S,05:41,Q2 05:41,0,0,1610612763.0,Gasol,MISS Gasol 25' 3PT Jump Shot,2pt made,rebound,0,Low
+21600190,189,rebound,2,PT05M41.00S,05:41,Q2 05:41,0,0,1610612750.0,,TEAM defensive REBOUND,3pt missed,timeout,0,Low
+21600190,191,timeout,2,PT05M39.00S,05:39,Q2 05:39,0,0,1610612763.0,,GRIZZLIES Timeout: Regular (Full 2 Short 1),rebound,2pt missed,0,Low
+21600190,193,2pt,2,PT05M25.00S,05:25,Q2 05:25,0,0,1610612750.0,Towns,MISS Towns 7' Turnaround Hook Shot,timeout,rebound,0,Low
+21600190,194,rebound,2,PT05M23.00S,05:23,Q2 05:23,0,0,1610612763.0,Green,Green REBOUND (Off:1 Def:2),2pt missed,2pt missed,0,Low
+21600190,195,2pt,2,PT05M04.00S,05:04,Q2 05:04,0,0,1610612763.0,Allen,MISS Allen 23' Jump Shot,rebound,rebound,0,Low
+21600190,196,rebound,2,PT05M04.00S,05:04,Q2 05:04,0,0,1610612750.0,Rubio,Rubio REBOUND (Off:1 Def:1),2pt missed,foul,0,Low
+21600190,197,foul,2,PT04M51.00S,04:51,Q2 04:51,0,0,1610612763.0,Ennis III,Ennis S.FOUL (P1.T3) (S.Corbin),rebound,freethrow,0,Low
+21600190,198,freethrow,2,PT04M51.00S,04:51,Q2 04:51,0,0,1610612750.0,Dieng,MISS Dieng Free Throw 1 of 2,foul,rebound,0,Low
+21600190,199,rebound,2,PT04M51.00S,04:51,Q2 04:51,0,0,1610612750.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21600190,200,freethrow,2,PT04M51.00S,04:51,Q2 04:51,30,28,1610612750.0,Dieng,Dieng Free Throw 2 of 2 (4 PTS),rebound,2pt missed,2,Low
+21600190,202,2pt,2,PT04M35.00S,04:35,Q2 04:35,0,0,1610612763.0,Allen,MISS Allen 1' Layup,freethrow,rebound,0,Low
+21600190,203,rebound,2,PT04M34.00S,04:34,Q2 04:34,0,0,1610612763.0,Green,Green REBOUND (Off:2 Def:2),2pt missed,2pt made,0,Low
+21600190,204,2pt,2,PT04M33.00S,04:33,Q2 04:33,32,28,1610612763.0,Green,Green 1' Putback Layup (4 PTS),rebound,foul,4,Low
+21600190,205,foul,2,PT04M33.00S,04:33,Q2 04:33,0,0,1610612750.0,Towns,Towns S.FOUL (P3.PN) (S.Corbin),2pt made,freethrow,0,Low
+21600190,206,freethrow,2,PT04M33.00S,04:33,Q2 04:33,33,28,1610612763.0,Green,Green Free Throw 1 of 1 (5 PTS),foul,substitution,5,Low
+21600190,207,substitution,2,PT04M33.00S,04:33,Q2 04:33,0,0,1610612750.0,Towns,SUB out: K. Towns,freethrow,substitution,0,Low
+21600190,208,substitution,2,PT04M33.00S,04:33,Q2 04:33,0,0,1610612750.0,Payne,SUB in: A. Payne,substitution,3pt made,0,Low
+21600190,208,3pt,2,PT04M21.00S,04:21,Q2 04:21,33,31,1610612750.0,LaVine,LaVine  3PT Jump Shot (10 PTS) (Rubio 3 AST),substitution,2pt made,2,Low
+21600190,209,2pt,2,PT04M09.00S,04:09,Q2 04:09,35,31,1610612763.0,Harrison,Harrison 15' Pullup Jump Shot (9 PTS),3pt made,foul,4,Low
+21600190,210,foul,2,PT03M49.00S,03:49,Q2 03:49,0,0,1610612763.0,Harrison,Harrison S.FOUL (P3.T4) (B.Taylor),2pt made,freethrow,0,Low
+21600190,211,freethrow,2,PT03M49.00S,03:49,Q2 03:49,0,0,1610612750.0,Rubio,MISS Rubio Free Throw 1 of 2,foul,freethrow,0,Low
+21600190,214,freethrow,2,PT03M49.00S,03:49,Q2 03:49,35,32,1610612750.0,Rubio,Rubio Free Throw 2 of 2 (1 PTS),freethrow,rebound,3,Low
+21600190,216,rebound,2,PT03M49.00S,03:49,Q2 03:49,0,0,1610612750.0,,TEAM offensive REBOUND,freethrow,substitution,0,Low
+21600190,213,substitution,2,PT03M49.00S,03:49,Q2 03:49,0,0,1610612763.0,Harrison,SUB out: A. Harrison,rebound,substitution,0,Low
+21600190,214,substitution,2,PT03M49.00S,03:49,Q2 03:49,0,0,1610612763.0,Conley,SUB in: M. Conley,substitution,2pt missed,0,Low
+21600190,217,2pt,2,PT03M30.00S,03:30,Q2 03:30,0,0,1610612763.0,Conley,MISS Conley 11' Floating Jump Shot,substitution,rebound,0,Low
+21600190,218,rebound,2,PT03M28.00S,03:28,Q2 03:28,0,0,1610612763.0,Ennis III,Ennis REBOUND (Off:3 Def:2),2pt missed,2pt made,0,Low
+21600190,219,2pt,2,PT03M27.00S,03:27,Q2 03:27,37,32,1610612763.0,Ennis III,Ennis  Putback Layup (4 PTS),rebound,2pt made,5,Low
+21600190,221,2pt,2,PT03M19.00S,03:19,Q2 03:19,37,34,1610612750.0,Dieng,Dieng  Cutting Dunk Shot (6 PTS) (Rubio 4 AST),2pt made,2pt made,3,Low
+21600190,222,2pt,2,PT02M59.00S,02:59,Q2 02:59,39,34,1610612763.0,Gasol,Gasol 2' Layup (2 PTS) (Conley 3 AST),2pt made,2pt missed,5,Low
+21600190,223,2pt,2,PT02M41.00S,02:41,Q2 02:41,0,0,1610612750.0,Wiggins,MISS Wiggins 4' Turnaround Jump Shot,2pt made,rebound,0,Low
+21600190,224,rebound,2,PT02M39.00S,02:39,Q2 02:39,0,0,1610612763.0,Gasol,Gasol REBOUND (Off:0 Def:2),2pt missed,2pt missed,0,Low
+21600190,225,2pt,2,PT02M27.00S,02:27,Q2 02:27,0,0,1610612763.0,Allen,MISS Allen 1' Cutting Layup Shot,rebound,rebound,0,Low
+21600190,226,rebound,2,PT02M24.00S,02:24,Q2 02:24,0,0,1610612750.0,Wiggins,Wiggins REBOUND (Off:0 Def:4),2pt missed,turnover,0,Low
+21600190,231,turnover,2,PT02M24.00S,02:24,Q2 02:24,0,0,1610612750.0,Wiggins,Wiggins Lost Ball Turnover (P3.T8),rebound,steal,0,Low
+21600190,231,steal,2,PT02M24.00S,02:24,Q2 02:24,0,0,1610612763.0,Allen,Allen STEAL (1 STL),turnover,foul,0,Low
+21600190,228,foul,2,PT02M17.00S,02:17,Q2 02:17,0,0,1610612750.0,Payne,Payne Shooting Block Foul (P1.PN) (S.Corbin),steal,timeout,0,Low
+21600190,229,timeout,2,PT02M17.00S,02:17,Q2 02:17,0,0,1610612750.0,,Timberwolves Timeout: Regular (Reg.2 Short 0),foul,freethrow,0,Low
+21600190,234,freethrow,2,PT02M17.00S,02:17,Q2 02:17,40,34,1610612763.0,Ennis III,Ennis Free Throw 1 of 2 (5 PTS),timeout,freethrow,6,Low
+21600190,236,freethrow,2,PT02M17.00S,02:17,Q2 02:17,41,34,1610612763.0,Ennis III,Ennis Free Throw 2 of 2 (6 PTS),freethrow,3pt missed,7,Low
+21600190,238,3pt,2,PT01M58.00S,01:58,Q2 01:58,0,0,1610612750.0,Payne,MISS Payne 24' 3PT Jump Shot,freethrow,rebound,0,Low
+21600190,239,rebound,2,PT01M56.00S,01:56,Q2 01:56,0,0,1610612763.0,Allen,Allen REBOUND (Off:0 Def:1),3pt missed,2pt missed,0,Low
+21600190,240,2pt,2,PT01M37.00S,01:37,Q2 01:37,0,0,1610612763.0,Conley,MISS Conley 2' Layup,rebound,block,0,Low
+21600190,240,block,2,PT01M37.00S,01:37,Q2 01:37,0,0,1610612750.0,Dieng,Dieng BLOCK (1 BLK),2pt missed,rebound,0,Low
+21600190,241,rebound,2,PT01M35.00S,01:35,Q2 01:35,0,0,1610612750.0,Dieng,Dieng REBOUND (Off:1 Def:5),block,2pt made,0,Low
+21600190,242,2pt,2,PT01M25.00S,01:25,Q2 01:25,41,36,1610612750.0,Payne,Payne 4' Turnaround Hook Shot (2 PTS),rebound,timeout,5,Low
+21600190,244,timeout,2,PT01M18.00S,01:18,Q2 01:18,0,0,1610612763.0,,GRIZZLIES Timeout: Regular (Full 3 Short 1),2pt made,substitution,0,Low
+21600190,245,substitution,2,PT01M18.00S,01:18,Q2 01:18,0,0,1610612763.0,Green,SUB out: J. Green,timeout,substitution,0,Low
+21600190,246,substitution,2,PT01M18.00S,01:18,Q2 01:18,0,0,1610612763.0,Allen,SUB out: T. Allen,substitution,substitution,0,Low
+21600190,247,substitution,2,PT01M18.00S,01:18,Q2 01:18,0,0,1610612750.0,Wiggins,SUB out: A. Wiggins,substitution,substitution,0,Low
+21600190,248,substitution,2,PT01M18.00S,01:18,Q2 01:18,0,0,1610612763.0,Carter,SUB in: V. Carter,substitution,substitution,0,Low
+21600190,249,substitution,2,PT01M18.00S,01:18,Q2 01:18,0,0,1610612763.0,Randolph,SUB in: Z. Randolph,substitution,substitution,0,Low
+21600190,250,substitution,2,PT01M18.00S,01:18,Q2 01:18,0,0,1610612750.0,Muhammad,SUB in: S. Muhammad,substitution,2pt missed,0,Low
+21600190,248,2pt,2,PT01M07.00S,01:07,Q2 01:07,0,0,1610612763.0,Carter,MISS Carter 12' Floating Jump Shot,substitution,rebound,0,Low
+21600190,249,rebound,2,PT01M06.00S,01:06,Q2 01:06,0,0,1610612763.0,Carter,Carter REBOUND (Off:1 Def:1),2pt missed,turnover,0,Low
+21600190,250,turnover,2,PT00M55.70S,00:55,Q2 00:55,0,0,1610612763.0,Gasol,Gasol Bad Pass Turnover (P1.T5),rebound,steal,0,Low
+21600190,250,steal,2,PT00M55.70S,00:55,Q2 00:55,0,0,1610612750.0,Payne,Payne STEAL (1 STL),turnover,foul,0,Low
+21600190,251,foul,2,PT00M55.70S,00:55,Q2 00:55,0,0,1610612763.0,Randolph,Randolph Personal Take Foul (P1.PN) (S.Corbin),steal,freethrow,0,Low
+21600190,252,freethrow,2,PT00M55.70S,00:55,Q2 00:55,41,37,1610612750.0,Rubio,Rubio Free Throw 1 of 2 (2 PTS),foul,freethrow,4,Low
+21600190,254,freethrow,2,PT00M55.70S,00:55,Q2 00:55,0,0,1610612750.0,Rubio,MISS Rubio Free Throw 2 of 2,freethrow,rebound,0,Low
+21600190,256,rebound,2,PT00M54.40S,00:54,Q2 00:54,0,0,1610612763.0,Ennis III,Ennis REBOUND (Off:3 Def:3),freethrow,3pt missed,0,Low
+21600190,257,3pt,2,PT00M41.90S,00:41,Q2 00:41,0,0,1610612763.0,Carter,MISS Carter 25' 3PT Jump Shot,rebound,rebound,0,Low
+21600190,258,rebound,2,PT00M40.90S,00:40,Q2 00:40,0,0,1610612763.0,Conley,Conley REBOUND (Off:1 Def:1),3pt missed,2pt missed,0,Low
+21600190,259,2pt,2,PT00M25.30S,00:25,Q2 00:25,0,0,1610612763.0,Gasol,MISS Gasol 6' Turnaround Hook Shot,rebound,2pt made,0,Low
+21600190,260,2pt,2,PT00M24.40S,00:24,Q2 00:24,43,37,1610612763.0,Randolph,Randolph 1' Putback Layup (10 PTS),2pt missed,rebound,6,Low
+21600190,261,rebound,2,PT00M24.40S,00:24,Q2 00:24,0,0,1610612763.0,Randolph,Randolph REBOUND (Off:1 Def:3),2pt made,2pt made,0,Low
+21600190,262,2pt,2,PT00M00.20S,00:00,Q2 00:00,43,39,1610612750.0,Payne,Payne 1' Cutting Layup Shot (4 PTS) (Rubio 5 AST),rebound,period,4,Low
+21600190,263,period,2,PT00M00.00S,00:00,Q2 00:00,43,39,1610612763.0,,End of 2nd Period (9:15 PM EST),2pt made,period,4,Low
+21600190,265,period,3,PT12M00.00S,12:00,Q3 12:00,43,39,1610612763.0,,Start of 3rd Period (9:31 PM EST),period,substitution,4,Low
+21600190,266,3pt,3,PT11M39.00S,11:39,Q3 11:39,43,42,1610612750.0,LaVine,LaVine  3PT Step Back Jump Shot (13 PTS) (Wiggins 1 AST),substitution,foul,1,Low
+21600190,267,foul,3,PT11M22.00S,11:22,Q3 11:22,0,0,1610612750.0,Towns,Towns S.FOUL (P4.T1) (B.Taylor),3pt made,freethrow,0,Low
+21600190,268,freethrow,3,PT11M22.00S,11:22,Q3 11:22,0,0,1610612763.0,Ennis III,MISS Ennis Free Throw 1 of 2,foul,rebound,0,Low
+21600190,269,rebound,3,PT11M22.00S,11:22,Q3 11:22,0,0,1610612763.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21600190,270,freethrow,3,PT11M22.00S,11:22,Q3 11:22,44,42,1610612763.0,Ennis III,Ennis Free Throw 2 of 2 (7 PTS),rebound,substitution,2,Low
+21600190,272,substitution,3,PT11M05.00S,11:05,Q3 11:05,0,0,1610612750.0,Towns,SUB out: K. Towns,freethrow,substitution,0,Low
+21600190,273,substitution,3,PT11M05.00S,11:05,Q3 11:05,0,0,1610612750.0,Bjelica,SUB in: N. Bjelica,substitution,2pt missed,0,Low
+21600190,274,2pt,3,PT10M59.00S,10:59,Q3 10:59,0,0,1610612750.0,Rubio,MISS Rubio 5' Floating Jump Shot,substitution,block,0,Low
+21600190,274,block,3,PT10M59.00S,10:59,Q3 10:59,0,0,1610612763.0,Conley,Conley BLOCK (2 BLK),2pt missed,rebound,0,Low
+21600190,275,rebound,3,PT10M59.00S,10:59,Q3 10:59,0,0,1610612750.0,Rubio,Rubio REBOUND (Off:2 Def:1),block,turnover,0,Low
+21600190,276,turnover,3,PT10M59.00S,10:59,Q3 10:59,0,0,0.0,,Timberwolves Turnover: Shot Clock (T#9),rebound,2pt made,0,Low
+21600190,277,2pt,3,PT10M43.00S,10:43,Q3 10:43,46,42,1610612763.0,Green,Green 18' Jump Shot (7 PTS) (Gasol 2 AST),turnover,turnover,4,Low
+21600190,278,turnover,3,PT10M23.00S,10:23,Q3 10:23,0,0,1610612750.0,Dieng,Dieng Traveling Turnover (P2.T10),2pt made,2pt made,0,Low
+21600190,279,2pt,3,PT10M08.00S,10:08,Q3 10:08,48,42,1610612763.0,Green,Green 16' Jump Shot (9 PTS),turnover,foul,6,Low
+21600190,280,foul,3,PT09M52.00S,09:52,Q3 09:52,0,0,1610612763.0,Gasol,Gasol P.FOUL (P2.T1) (B.Taylor),2pt made,3pt made,0,Low
+21600190,281,3pt,3,PT09M44.00S,09:44,Q3 09:44,48,45,1610612750.0,LaVine,LaVine 24' 3PT Jump Shot (16 PTS) (Rubio 6 AST),foul,turnover,3,Low
+21600190,282,turnover,3,PT09M25.00S,09:25,Q3 09:25,0,0,1610612763.0,Gasol,Gasol Bad Pass Turnover (P2.T6),3pt made,steal,0,Low
+21600190,282,steal,3,PT09M25.00S,09:25,Q3 09:25,0,0,1610612750.0,LaVine,LaVine STEAL (2 STL),turnover,turnover,0,Low
+21600190,283,turnover,3,PT09M20.00S,09:20,Q3 09:20,0,0,1610612750.0,Rubio,Rubio Out of Bounds - Bad Pass Turnover Turnover (P2.T11),steal,2pt missed,0,Low
+21600190,284,2pt,3,PT08M59.00S,08:59,Q3 08:59,0,0,1610612763.0,Gasol,MISS Gasol 9' Turnaround Fadeaway Shot,turnover,rebound,0,Low
+21600190,285,rebound,3,PT08M56.00S,08:56,Q3 08:56,0,0,1610612750.0,Bjelica,Bjelica REBOUND (Off:0 Def:1),2pt missed,3pt missed,0,Low
+21600190,286,3pt,3,PT08M46.00S,08:46,Q3 08:46,0,0,1610612750.0,LaVine,MISS LaVine 25' 3PT Jump Shot,rebound,rebound,0,Low
+21600190,287,rebound,3,PT08M46.00S,08:46,Q3 08:46,0,0,1610612763.0,Gasol,Gasol REBOUND (Off:0 Def:3),3pt missed,2pt missed,0,Low
+21600190,288,2pt,3,PT08M38.00S,08:38,Q3 08:38,0,0,1610612763.0,Allen,MISS Allen 2' Layup,rebound,block,0,Low
+21600190,288,block,3,PT08M38.00S,08:38,Q3 08:38,0,0,1610612750.0,Wiggins,Wiggins BLOCK (1 BLK),2pt missed,rebound,0,Low
+21600190,289,rebound,3,PT08M37.00S,08:37,Q3 08:37,0,0,1610612750.0,Dieng,Dieng REBOUND (Off:1 Def:6),block,turnover,0,Low
+21600190,290,turnover,3,PT08M31.00S,08:31,Q3 08:31,0,0,1610612750.0,Bjelica,Bjelica Lost Ball Turnover (P1.T12),rebound,steal,0,Low
+21600190,290,steal,3,PT08M31.00S,08:31,Q3 08:31,0,0,1610612763.0,Ennis III,Ennis STEAL (2 STL),turnover,2pt missed,0,Low
+21600190,291,2pt,3,PT08M15.00S,08:15,Q3 08:15,0,0,1610612763.0,Allen,MISS Allen 1' Layup,steal,rebound,0,Low
+21600190,292,rebound,3,PT08M14.00S,08:14,Q3 08:14,0,0,1610612750.0,Dieng,Dieng REBOUND (Off:1 Def:7),2pt missed,2pt made,0,Low
+21600190,293,2pt,3,PT08M06.00S,08:06,Q3 08:06,48,47,1610612750.0,LaVine,LaVine 2' Running Layup (18 PTS),rebound,timeout,1,Low
+21600190,294,timeout,3,PT08M06.00S,08:06,Q3 08:06,0,0,1610612763.0,,GRIZZLIES Timeout: Regular (Full 4 Short 1),2pt made,2pt missed,0,Low
+21600190,296,2pt,3,PT07M44.00S,07:44,Q3 07:44,0,0,1610612763.0,Gasol,MISS Gasol 1' Layup,timeout,block,0,Low
+21600190,296,block,3,PT07M44.00S,07:44,Q3 07:44,0,0,1610612750.0,Bjelica,Bjelica BLOCK (1 BLK),2pt missed,rebound,0,Low
+21600190,297,rebound,3,PT07M44.00S,07:44,Q3 07:44,0,0,1610612750.0,Bjelica,Bjelica REBOUND (Off:0 Def:2),block,foul,0,Low
+21600190,298,foul,3,PT07M44.00S,07:44,Q3 07:44,0,0,1610612763.0,Gasol,Gasol P.FOUL (P3.T2) (G.Zielinski),rebound,2pt missed,0,Low
+21600190,299,2pt,3,PT07M27.00S,07:27,Q3 07:27,0,0,1610612750.0,Dieng,MISS Dieng 3' Turnaround Jump Shot,foul,block,0,Low
+21600190,299,block,3,PT07M27.00S,07:27,Q3 07:27,0,0,1610612763.0,Gasol,Gasol BLOCK (2 BLK),2pt missed,rebound,0,Low
+21600190,300,rebound,3,PT07M25.00S,07:25,Q3 07:25,0,0,1610612750.0,Dieng,Dieng REBOUND (Off:2 Def:7),block,foul,0,Low
+21600190,301,foul,3,PT07M22.00S,07:22,Q3 07:22,0,0,1610612763.0,Green,Green S.FOUL (P3.T3) (G.Zielinski),rebound,freethrow,0,Low
+21600190,302,freethrow,3,PT07M22.00S,07:22,Q3 07:22,48,48,1610612750.0,Wiggins,Wiggins Free Throw 1 of 2 (7 PTS),foul,freethrow,0,Low
+21600190,305,freethrow,3,PT07M22.00S,07:22,Q3 07:22,0,0,1610612750.0,Wiggins,MISS Wiggins Free Throw 2 of 2,freethrow,substitution,0,Low
+21600190,304,substitution,3,PT07M22.00S,07:22,Q3 07:22,0,0,1610612763.0,Allen,SUB out: T. Allen,freethrow,substitution,0,Low
+21600190,305,substitution,3,PT07M22.00S,07:22,Q3 07:22,0,0,1610612763.0,Carter,SUB in: V. Carter,substitution,rebound,0,Low
+21600190,307,rebound,3,PT07M21.00S,07:21,Q3 07:21,0,0,1610612763.0,Gasol,Gasol REBOUND (Off:0 Def:4),substitution,foul,0,Low
+21600190,308,foul,3,PT07M00.00S,07:00,Q3 07:00,0,0,1610612750.0,Bjelica,Bjelica S.FOUL (P1.T2) (G.Zielinski),rebound,freethrow,0,Low
+21600190,309,freethrow,3,PT07M00.00S,07:00,Q3 07:00,49,48,1610612763.0,Conley,Conley Free Throw 1 of 2 (4 PTS),foul,freethrow,1,Low
+21600190,311,freethrow,3,PT07M00.00S,07:00,Q3 07:00,50,48,1610612763.0,Conley,Conley Free Throw 2 of 2 (5 PTS),freethrow,2pt missed,2,Low
+21600190,313,2pt,3,PT06M43.00S,06:43,Q3 06:43,0,0,1610612750.0,LaVine,MISS LaVine 4' Jump Shot,freethrow,block,0,Low
+21600190,313,block,3,PT06M43.00S,06:43,Q3 06:43,0,0,1610612763.0,Green,Green BLOCK (1 BLK),2pt missed,rebound,0,Low
+21600190,314,rebound,3,PT06M42.00S,06:42,Q3 06:42,0,0,1610612763.0,Green,Green REBOUND (Off:2 Def:3),block,foul,0,Low
+21600190,315,foul,3,PT06M41.00S,06:41,Q3 06:41,0,0,1610612750.0,Bjelica,Bjelica S.FOUL (P2.T3) (B.Taylor),rebound,freethrow,0,Low
+21600190,316,freethrow,3,PT06M41.00S,06:41,Q3 06:41,51,48,1610612763.0,Green,Green Free Throw 1 of 2 (10 PTS),foul,freethrow,3,Low
+21600190,318,freethrow,3,PT06M41.00S,06:41,Q3 06:41,52,48,1610612763.0,Green,Green Free Throw 2 of 2 (11 PTS),freethrow,3pt missed,4,Low
+21600190,320,3pt,3,PT06M26.00S,06:26,Q3 06:26,0,0,1610612750.0,Bjelica,MISS Bjelica 25' 3PT Jump Shot,freethrow,rebound,0,Low
+21600190,321,rebound,3,PT06M26.00S,06:26,Q3 06:26,0,0,1610612763.0,Conley,Conley REBOUND (Off:1 Def:2),3pt missed,foul,0,Low
+21600190,322,foul,3,PT06M14.00S,06:14,Q3 06:14,0,0,1610612750.0,Wiggins,Wiggins Shooting Block Foul (P1.T4) (B.Taylor),rebound,freethrow,0,Low
+21600190,323,freethrow,3,PT06M14.00S,06:14,Q3 06:14,53,48,1610612763.0,Carter,Carter Free Throw 1 of 2 (3 PTS),foul,freethrow,5,Low
+21600190,325,freethrow,3,PT06M14.00S,06:14,Q3 06:14,0,0,1610612763.0,Carter,MISS Carter Free Throw 2 of 2,freethrow,rebound,0,Low
+21600190,327,rebound,3,PT06M12.00S,06:12,Q3 06:12,0,0,1610612750.0,Bjelica,Bjelica REBOUND (Off:0 Def:3),freethrow,2pt missed,0,Low
+21600190,328,2pt,3,PT05M58.00S,05:58,Q3 05:58,0,0,1610612750.0,Wiggins,MISS Wiggins 13' Pullup Jump Shot,rebound,rebound,0,Low
+21600190,329,rebound,3,PT05M57.00S,05:57,Q3 05:57,0,0,1610612763.0,Green,Green REBOUND (Off:2 Def:4),2pt missed,3pt missed,0,Low
+21600190,330,3pt,3,PT05M50.00S,05:50,Q3 05:50,0,0,1610612763.0,Carter,MISS Carter 25' 3PT Running Jump Shot,rebound,rebound,0,Low
+21600190,331,rebound,3,PT05M49.00S,05:49,Q3 05:49,0,0,1610612750.0,,TEAM defensive REBOUND,3pt missed,turnover,0,Low
+21600190,332,turnover,3,PT05M35.00S,05:35,Q3 05:35,0,0,1610612750.0,Wiggins,Wiggins Bad Pass Turnover (P4.T13),rebound,steal,0,Low
+21600190,332,steal,3,PT05M35.00S,05:35,Q3 05:35,0,0,1610612763.0,Gasol,Gasol STEAL (1 STL),turnover,2pt made,0,Low
+21600190,333,2pt,3,PT05M30.00S,05:30,Q3 05:30,55,48,1610612763.0,Ennis III,Ennis  Running Layup (9 PTS),steal,timeout,7,Low
+21600190,335,timeout,3,PT05M30.00S,05:30,Q3 05:30,0,0,1610612750.0,,Timberwolves Timeout: Regular (Reg.3 Short 0),2pt made,3pt missed,0,Low
+21600190,338,3pt,3,PT05M13.00S,05:13,Q3 05:13,0,0,1610612750.0,Rubio,MISS Rubio 26' 3PT Jump Shot,timeout,rebound,0,Low
+21600190,339,rebound,3,PT05M13.00S,05:13,Q3 05:13,0,0,1610612763.0,Green,Green REBOUND (Off:2 Def:5),3pt missed,2pt missed,0,Low
+21600190,340,2pt,3,PT04M52.00S,04:52,Q3 04:52,0,0,1610612763.0,Gasol,MISS Gasol 5' Driving Hook Shot,rebound,rebound,0,Low
+21600190,341,rebound,3,PT04M52.00S,04:52,Q3 04:52,0,0,1610612763.0,,TEAM offensive REBOUND,2pt missed,foul,0,Low
+21600190,342,foul,3,PT04M52.00S,04:52,Q3 04:52,0,0,1610612750.0,Bjelica,Bjelica L.B.FOUL (P3.PN) (G.Zielinski),rebound,freethrow,0,Low
+21600190,343,freethrow,3,PT04M52.00S,04:52,Q3 04:52,56,48,1610612763.0,Green,Green Free Throw 1 of 2 (12 PTS),foul,freethrow,8,Low
+21600190,345,freethrow,3,PT04M52.00S,04:52,Q3 04:52,0,0,1610612763.0,Green,MISS Green Free Throw 2 of 2,freethrow,substitution,0,Low
+21600190,346,substitution,3,PT04M52.00S,04:52,Q3 04:52,0,0,1610612763.0,Conley,SUB out: M. Conley,freethrow,substitution,0,Low
+21600190,347,substitution,3,PT04M52.00S,04:52,Q3 04:52,0,0,1610612763.0,Harrison,SUB in: A. Harrison,substitution,rebound,0,Low
+21600190,347,rebound,3,PT04M51.00S,04:51,Q3 04:51,0,0,1610612750.0,Bjelica,Bjelica REBOUND (Off:0 Def:4),substitution,3pt missed,0,Low
+21600190,348,3pt,3,PT04M40.00S,04:40,Q3 04:40,0,0,1610612750.0,LaVine,MISS LaVine  3PT Jump Shot,rebound,rebound,0,Low
+21600190,349,rebound,3,PT04M39.00S,04:39,Q3 04:39,0,0,1610612763.0,Carter,Carter REBOUND (Off:1 Def:2),3pt missed,2pt missed,0,Low
+21600190,350,2pt,3,PT04M28.00S,04:28,Q3 04:28,0,0,1610612763.0,Ennis III,MISS Ennis 1' Cutting Layup Shot,rebound,rebound,0,Low
+21600190,351,rebound,3,PT04M26.00S,04:26,Q3 04:26,0,0,1610612750.0,Dieng,Dieng REBOUND (Off:2 Def:8),2pt missed,turnover,0,Low
+21600190,352,turnover,3,PT04M12.00S,04:12,Q3 04:12,0,0,1610612750.0,LaVine,LaVine Bad Pass Turnover (P1.T14),rebound,steal,0,Low
+21600190,352,steal,3,PT04M12.00S,04:12,Q3 04:12,0,0,1610612763.0,Harrison,Harrison STEAL (1 STL),turnover,foul,0,Low
+21600190,353,foul,3,PT04M12.00S,04:12,Q3 04:12,0,0,1610612750.0,Dieng,Dieng Personal Take Foul (P2.PN) (S.Corbin),steal,freethrow,0,Low
+21600190,354,freethrow,3,PT04M12.00S,04:12,Q3 04:12,57,48,1610612763.0,Harrison,Harrison Free Throw 1 of 2 (10 PTS),foul,freethrow,9,Low
+21600190,357,freethrow,3,PT04M12.00S,04:12,Q3 04:12,58,48,1610612763.0,Harrison,Harrison Free Throw 2 of 2 (11 PTS),freethrow,substitution,10,Low
+21600190,356,substitution,3,PT04M12.00S,04:12,Q3 04:12,0,0,1610612750.0,Rubio,SUB out: R. Rubio,freethrow,substitution,0,Low
+21600190,357,substitution,3,PT04M12.00S,04:12,Q3 04:12,0,0,1610612750.0,Dunn,SUB in: K. Dunn,substitution,3pt missed,0,Low
+21600190,359,3pt,3,PT04M00.00S,04:00,Q3 04:00,0,0,1610612750.0,Bjelica,MISS Bjelica 29' 3PT Jump Shot,substitution,rebound,0,Low
+21600190,360,rebound,3,PT04M00.00S,04:00,Q3 04:00,0,0,1610612763.0,Gasol,Gasol REBOUND (Off:0 Def:5),3pt missed,2pt made,0,Low
+21600190,361,2pt,3,PT03M50.00S,03:50,Q3 03:50,60,48,1610612763.0,Gasol,Gasol  Finger Roll Layup (4 PTS) (Harrison 1 AST),rebound,timeout,12,Low
+21600190,362,timeout,3,PT03M50.00S,03:50,Q3 03:50,0,0,1610612750.0,,Timberwolves Timeout: Regular (Reg.4 Short 0),2pt made,substitution,0,Low
+21600190,364,substitution,3,PT03M50.00S,03:50,Q3 03:50,0,0,1610612750.0,LaVine,SUB out: Z. LaVine,timeout,substitution,0,Low
+21600190,365,substitution,3,PT03M50.00S,03:50,Q3 03:50,0,0,1610612750.0,Muhammad,SUB in: S. Muhammad,substitution,3pt missed,0,Low
+21600190,366,3pt,3,PT03M33.00S,03:33,Q3 03:33,0,0,1610612750.0,Bjelica,MISS Bjelica 27' 3PT Jump Shot,substitution,rebound,0,Low
+21600190,367,rebound,3,PT03M33.00S,03:33,Q3 03:33,0,0,1610612763.0,Ennis III,Ennis REBOUND (Off:3 Def:4),3pt missed,3pt missed,0,Low
+21600190,368,3pt,3,PT03M11.00S,03:11,Q3 03:11,0,0,1610612763.0,Ennis III,MISS Ennis 28' 3PT Jump Shot,rebound,rebound,0,Low
+21600190,369,rebound,3,PT03M10.00S,03:10,Q3 03:10,0,0,1610612750.0,Dieng,Dieng REBOUND (Off:2 Def:9),3pt missed,3pt missed,0,Low
+21600190,370,3pt,3,PT02M52.00S,02:52,Q3 02:52,0,0,1610612750.0,Wiggins,MISS Wiggins 26' 3PT Jump Shot,rebound,rebound,0,Low
+21600190,371,rebound,3,PT02M52.00S,02:52,Q3 02:52,0,0,1610612763.0,,TEAM defensive REBOUND,3pt missed,substitution,0,Low
+21600190,372,substitution,3,PT02M52.00S,02:52,Q3 02:52,0,0,1610612750.0,Bjelica,SUB out: N. Bjelica,rebound,substitution,0,Low
+21600190,373,substitution,3,PT02M52.00S,02:52,Q3 02:52,0,0,1610612763.0,Gasol,SUB out: M. Gasol,substitution,substitution,0,Low
+21600190,374,substitution,3,PT02M52.00S,02:52,Q3 02:52,0,0,1610612750.0,Payne,SUB in: A. Payne,substitution,substitution,0,Low
+21600190,375,substitution,3,PT02M52.00S,02:52,Q3 02:52,0,0,1610612763.0,Randolph,SUB in: Z. Randolph,substitution,2pt made,0,Low
+21600190,374,2pt,3,PT02M31.00S,02:31,Q3 02:31,62,48,1610612763.0,Randolph,Randolph 15' Fadeaway Jumper (12 PTS) (Carter 1 AST),substitution,3pt missed,14,Low
+21600190,375,3pt,3,PT02M15.00S,02:15,Q3 02:15,0,0,1610612750.0,Dunn,MISS Dunn 25' 3PT Jump Shot,2pt made,rebound,0,Low
+21600190,376,rebound,3,PT02M14.00S,02:14,Q3 02:14,0,0,1610612763.0,Carter,Carter REBOUND (Off:1 Def:3),3pt missed,3pt missed,0,Low
+21600190,377,3pt,3,PT02M04.00S,02:04,Q3 02:04,0,0,1610612763.0,Randolph,MISS Randolph 25' 3PT Jump Shot,rebound,rebound,0,Low
+21600190,378,rebound,3,PT02M03.00S,02:03,Q3 02:03,0,0,1610612763.0,Harrison,Harrison REBOUND (Off:1 Def:1),3pt missed,turnover,0,Low
+21600190,379,turnover,3,PT01M53.00S,01:53,Q3 01:53,0,0,1610612763.0,Green,Green Bad Pass Turnover (P3.T7),rebound,2pt made,0,Low
+21600190,380,2pt,3,PT01M28.00S,01:28,Q3 01:28,62,50,1610612750.0,Dieng,Dieng 1' Driving Layup (8 PTS),turnover,foul,12,Low
+21600190,381,foul,3,PT01M24.00S,01:24,Q3 01:24,0,0,1610612750.0,Dunn,Dunn IN.FOUL (P4.PN) (S.Corbin),2pt made,freethrow,0,Low
+21600190,382,freethrow,3,PT01M24.00S,01:24,Q3 01:24,63,50,1610612763.0,Carter,Carter Free Throw 1 of 1 (4 PTS),foul,substitution,13,Low
+21600190,384,substitution,3,PT01M24.00S,01:24,Q3 01:24,0,0,1610612750.0,Dieng,SUB out: G. Dieng,freethrow,substitution,0,Low
+21600190,385,substitution,3,PT01M24.00S,01:24,Q3 01:24,0,0,1610612750.0,Towns,SUB in: K. Towns,substitution,2pt made,0,Low
+21600190,386,2pt,3,PT01M05.00S,01:05,Q3 01:05,65,50,1610612763.0,Ennis III,Ennis 1' Driving Layup (11 PTS),substitution,2pt missed,15,Low
+21600190,387,2pt,3,PT00M54.90S,00:54,Q3 00:54,0,0,1610612750.0,Towns,MISS Towns 21' Jump Shot,2pt made,rebound,0,Low
+21600190,388,rebound,3,PT00M54.40S,00:54,Q3 00:54,0,0,1610612763.0,Harrison,Harrison REBOUND (Off:1 Def:2),2pt missed,2pt missed,0,Low
+21600190,390,2pt,3,PT00M36.40S,00:36,Q3 00:36,0,0,1610612763.0,Ennis III,MISS Ennis  Cutting Dunk Shot,rebound,block,0,Low
+21600190,390,block,3,PT00M36.40S,00:36,Q3 00:36,0,0,1610612750.0,Payne,Payne BLOCK (1 BLK),2pt missed,rebound,0,Low
+21600190,391,rebound,3,PT00M34.10S,00:34,Q3 00:34,0,0,1610612750.0,Dunn,Dunn REBOUND (Off:0 Def:1),block,turnover,0,Low
+21600190,392,turnover,3,PT00M28.90S,00:28,Q3 00:28,0,0,1610612750.0,Wiggins,Wiggins Bad Pass Turnover (P5.T15),rebound,steal,0,Low
+21600190,392,steal,3,PT00M28.90S,00:28,Q3 00:28,0,0,1610612763.0,Green,Green STEAL (1 STL),turnover,turnover,0,Low
+21600190,393,turnover,3,PT00M24.30S,00:24,Q3 00:24,0,0,1610612763.0,Harrison,Harrison Bad Pass Turnover (P1.T8),steal,steal,0,Low
+21600190,393,steal,3,PT00M24.30S,00:24,Q3 00:24,0,0,1610612750.0,Muhammad,Muhammad STEAL (1 STL),turnover,2pt made,0,Low
+21600190,394,2pt,3,PT00M15.80S,00:15,Q3 00:15,65,52,1610612750.0,Muhammad,Muhammad  Cutting Dunk Shot (2 PTS) (Payne 1 AST),steal,3pt missed,13,Low
+21600190,395,3pt,3,PT00M02.00S,00:02,Q3 00:02,0,0,1610612763.0,Harrison,MISS Harrison 25' 3PT Jump Shot,2pt made,2pt missed,0,Low
+21600190,396,2pt,3,PT00M01.00S,00:01,Q3 00:01,0,0,1610612763.0,Green,MISS Green 1' Putback Layup,3pt missed,rebound,0,Low
+21600190,397,rebound,3,PT00M01.00S,00:01,Q3 00:01,0,0,1610612763.0,Green,Green REBOUND (Off:3 Def:5),2pt missed,period,0,Low
+21600190,398,period,3,PT00M00.00S,00:00,Q3 00:00,65,52,1610612763.0,,End of 3rd Period (10:00 PM EST),rebound,rebound,13,Low
+21600190,399,rebound,3,PT00M00.00S,00:00,Q3 00:00,0,0,1610612763.0,,TEAM offensive REBOUND,period,period,0,Medium
+21600190,401,period,4,PT12M00.00S,12:00,Q4 12:00,65,52,1610612763.0,,Start of 4th Period (10:03 PM EST),rebound,substitution,13,Low
+21600190,402,3pt,4,PT11M39.00S,11:39,Q4 11:39,0,0,1610612763.0,Carter,MISS Carter 25' 3PT Jump Shot,substitution,rebound,0,Medium
+21600190,403,rebound,4,PT11M39.00S,11:39,Q4 11:39,0,0,1610612750.0,Payne,Payne REBOUND (Off:0 Def:1),3pt missed,2pt missed,0,Medium
+21600190,404,2pt,4,PT11M21.00S,11:21,Q4 11:21,0,0,1610612750.0,Dunn,MISS Dunn 1' Cutting Layup Shot,rebound,rebound,0,Medium
+21600190,405,rebound,4,PT11M21.00S,11:21,Q4 11:21,0,0,1610612763.0,,TEAM defensive REBOUND,2pt missed,2pt made,0,Medium
+21600190,406,2pt,4,PT11M03.00S,11:03,Q4 11:03,67,52,1610612763.0,Conley,Conley 9' Driving Floating Bank Jump Shot (7 PTS) (Gasol 3 AST),rebound,foul,15,Low
+21600190,407,foul,4,PT11M03.00S,11:03,Q4 11:03,0,0,1610612750.0,Payne,Payne S.FOUL (P2.T1) (S.Corbin),2pt made,freethrow,0,Medium
+21600190,408,freethrow,4,PT11M03.00S,11:03,Q4 11:03,68,52,1610612763.0,Conley,Conley Free Throw 1 of 1 (8 PTS),foul,foul,16,Low
+21600190,410,foul,4,PT10M48.00S,10:48,Q4 10:48,0,0,1610612763.0,Carter,Carter S.FOUL (P2.T1) (B.Taylor),freethrow,freethrow,0,Medium
+21600190,411,freethrow,4,PT10M48.00S,10:48,Q4 10:48,68,53,1610612750.0,Towns,Towns Free Throw 1 of 2 (12 PTS),foul,freethrow,15,Low
+21600190,413,freethrow,4,PT10M48.00S,10:48,Q4 10:48,0,0,1610612750.0,Towns,MISS Towns Free Throw 2 of 2,freethrow,rebound,0,Medium
+21600190,415,rebound,4,PT10M47.00S,10:47,Q4 10:47,0,0,1610612763.0,Randolph,Randolph REBOUND (Off:1 Def:4),freethrow,2pt made,0,Medium
+21600190,416,2pt,4,PT10M32.00S,10:32,Q4 10:32,70,53,1610612763.0,Randolph,Randolph 19' Jump Shot (14 PTS) (Harrison 2 AST),rebound,foul,17,Low
+21600190,417,foul,4,PT10M20.00S,10:20,Q4 10:20,0,0,1610612763.0,Conley,Conley P.FOUL (P1.T2) (S.Corbin),2pt made,3pt missed,0,Medium
+21600190,418,3pt,4,PT10M12.00S,10:12,Q4 10:12,0,0,1610612750.0,LaVine,MISS LaVine 25' 3PT Jump Shot,foul,rebound,0,Medium
+21600190,419,rebound,4,PT10M12.00S,10:12,Q4 10:12,0,0,1610612763.0,Randolph,Randolph REBOUND (Off:1 Def:5),3pt missed,3pt missed,0,Medium
+21600190,420,3pt,4,PT09M48.00S,09:48,Q4 09:48,0,0,1610612763.0,Harrison,MISS Harrison 25' 3PT Jump Shot,rebound,rebound,0,Medium
+21600190,421,rebound,4,PT09M48.00S,09:48,Q4 09:48,0,0,1610612750.0,Payne,Payne REBOUND (Off:0 Def:2),3pt missed,foul,0,Medium
+21600190,422,foul,4,PT09M36.00S,09:36,Q4 09:36,0,0,1610612763.0,Randolph,Randolph S.FOUL (P2.T3) (G.Zielinski),rebound,freethrow,0,Medium
+21600190,423,freethrow,4,PT09M36.00S,09:36,Q4 09:36,70,54,1610612750.0,Payne,Payne Free Throw 1 of 2 (5 PTS),foul,freethrow,16,Low
+21600190,425,freethrow,4,PT09M36.00S,09:36,Q4 09:36,70,55,1610612750.0,Payne,Payne Free Throw 2 of 2 (6 PTS),freethrow,2pt missed,15,Low
+21600190,427,2pt,4,PT09M09.00S,09:09,Q4 09:09,0,0,1610612763.0,Gasol,MISS Gasol 20' Jump Shot,freethrow,rebound,0,Medium
+21600190,428,rebound,4,PT09M09.00S,09:09,Q4 09:09,0,0,1610612763.0,Conley,Conley REBOUND (Off:2 Def:2),2pt missed,foul,0,Medium
+21600190,429,foul,4,PT08M54.00S,08:54,Q4 08:54,0,0,1610612750.0,Payne,Payne S.FOUL (P3.T2) (G.Zielinski),rebound,timeout,0,Medium
+21600190,430,timeout,4,PT08M54.00S,08:54,Q4 08:54,0,0,0.0,,Timeout: Regular,foul,freethrow,0,Medium
+21600190,433,freethrow,4,PT08M54.00S,08:54,Q4 08:54,0,0,1610612763.0,Randolph,MISS Randolph Free Throw 1 of 2,timeout,rebound,0,Medium
+21600190,434,rebound,4,PT08M54.00S,08:54,Q4 08:54,0,0,1610612763.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Medium
+21600190,435,freethrow,4,PT08M54.00S,08:54,Q4 08:54,71,55,1610612763.0,Randolph,Randolph Free Throw 2 of 2 (15 PTS),rebound,2pt made,16,Low
+21600190,437,2pt,4,PT08M40.00S,08:40,Q4 08:40,71,57,1610612750.0,LaVine,LaVine 6' Driving Floating Jump Shot (20 PTS),freethrow,3pt made,14,Low
+21600190,438,3pt,4,PT08M16.00S,08:16,Q4 08:16,74,57,1610612763.0,Randolph,Randolph  3PT Jump Shot (18 PTS) (Harrison 3 AST),2pt made,3pt missed,17,Low
+21600190,439,3pt,4,PT07M58.00S,07:58,Q4 07:58,0,0,1610612750.0,Dunn,MISS Dunn 24' 3PT Jump Shot,3pt made,rebound,0,Medium
+21600190,440,rebound,4,PT07M58.00S,07:58,Q4 07:58,0,0,1610612763.0,Gasol,Gasol REBOUND (Off:0 Def:6),3pt missed,2pt missed,0,Medium
+21600190,441,2pt,4,PT07M44.00S,07:44,Q4 07:44,0,0,1610612763.0,Conley,MISS Conley  Driving Layup,rebound,2pt missed,0,Medium
+21600190,442,2pt,4,PT07M43.00S,07:43,Q4 07:43,0,0,1610612763.0,Carter,MISS Carter 1' Tip Layup Shot,2pt missed,rebound,0,Medium
+21600190,443,rebound,4,PT07M43.00S,07:43,Q4 07:43,0,0,1610612763.0,Carter,Carter REBOUND (Off:2 Def:3),2pt missed,rebound,0,Medium
+21600190,444,rebound,4,PT07M41.00S,07:41,Q4 07:41,0,0,1610612750.0,Muhammad,Muhammad REBOUND (Off:0 Def:1),rebound,turnover,0,Medium
+21600190,445,turnover,4,PT07M33.00S,07:33,Q4 07:33,0,0,1610612750.0,Payne,Payne Bad Pass Turnover (P1.T16),rebound,steal,0,Medium
+21600190,445,steal,4,PT07M33.00S,07:33,Q4 07:33,0,0,1610612763.0,Conley,Conley STEAL (1 STL),turnover,2pt made,0,Medium
+21600190,446,2pt,4,PT07M30.00S,07:30,Q4 07:30,76,57,1610612763.0,Conley,Conley 1' Running Layup (10 PTS),steal,timeout,19,Low
+21600190,448,timeout,4,PT07M28.00S,07:28,Q4 07:28,0,0,1610612750.0,,Timberwolves Timeout: Regular (Reg.5 Short 0),2pt made,substitution,0,Medium
+21600190,449,substitution,4,PT07M28.00S,07:28,Q4 07:28,0,0,1610612750.0,Dunn,SUB out: K. Dunn,timeout,substitution,0,Medium
+21600190,450,substitution,4,PT07M28.00S,07:28,Q4 07:28,0,0,1610612750.0,Payne,SUB out: A. Payne,substitution,substitution,0,Medium
+21600190,451,substitution,4,PT07M28.00S,07:28,Q4 07:28,0,0,1610612763.0,Carter,SUB out: V. Carter,substitution,substitution,0,Medium
+21600190,452,substitution,4,PT07M28.00S,07:28,Q4 07:28,0,0,1610612763.0,Harrison,SUB out: A. Harrison,substitution,substitution,0,Medium
+21600190,453,substitution,4,PT07M28.00S,07:28,Q4 07:28,0,0,1610612750.0,Rubio,SUB in: R. Rubio,substitution,substitution,0,Medium
+21600190,454,substitution,4,PT07M28.00S,07:28,Q4 07:28,0,0,1610612750.0,Dieng,SUB in: G. Dieng,substitution,substitution,0,Medium
+21600190,455,substitution,4,PT07M28.00S,07:28,Q4 07:28,0,0,1610612763.0,Allen,SUB in: T. Allen,substitution,substitution,0,Medium
+21600190,456,substitution,4,PT07M28.00S,07:28,Q4 07:28,0,0,1610612763.0,Ennis III,SUB in: J. Ennis III,substitution,2pt missed,0,Medium
+21600190,453,2pt,4,PT07M14.00S,07:14,Q4 07:14,0,0,1610612750.0,LaVine,MISS LaVine 1' Driving Layup,substitution,block,0,Medium
+21600190,453,block,4,PT07M14.00S,07:14,Q4 07:14,0,0,1610612763.0,Ennis III,Ennis BLOCK (1 BLK),2pt missed,rebound,0,Medium
+21600190,454,rebound,4,PT07M14.00S,07:14,Q4 07:14,0,0,1610612750.0,,TEAM offensive REBOUND,block,turnover,0,Medium
+21600190,455,turnover,4,PT07M13.00S,07:13,Q4 07:13,0,0,1610612750.0,LaVine,LaVine Step Out of Bounds Turnover (P2.T17),rebound,2pt missed,0,Medium
+21600190,456,2pt,4,PT06M58.00S,06:58,Q4 06:58,0,0,1610612763.0,Randolph,MISS Randolph 21' Jump Shot,turnover,rebound,0,High
+21600190,457,rebound,4,PT06M57.00S,06:57,Q4 06:57,0,0,1610612750.0,Rubio,Rubio REBOUND (Off:2 Def:2),2pt missed,2pt missed,0,High
+21600190,459,2pt,4,PT06M37.00S,06:37,Q4 06:37,0,0,1610612750.0,Towns,MISS Towns 16' Jump Shot,rebound,rebound,0,High
+21600190,460,rebound,4,PT06M37.00S,06:37,Q4 06:37,0,0,1610612763.0,Randolph,Randolph REBOUND (Off:1 Def:6),2pt missed,3pt missed,0,High
+21600190,461,3pt,4,PT06M16.00S,06:16,Q4 06:16,0,0,1610612763.0,Conley,MISS Conley 25' 3PT Jump Shot,rebound,rebound,0,High
+21600190,462,rebound,4,PT06M15.00S,06:15,Q4 06:15,0,0,1610612750.0,Muhammad,Muhammad REBOUND (Off:0 Def:2),3pt missed,2pt made,0,High
+21600190,463,2pt,4,PT06M10.00S,06:10,Q4 06:10,76,59,1610612750.0,Towns,Towns 2' Running Layup (14 PTS) (Muhammad 1 AST),rebound,3pt missed,17,Low
+21600190,464,3pt,4,PT05M46.00S,05:46,Q4 05:46,0,0,1610612763.0,Ennis III,MISS Ennis 26' 3PT Jump Shot,2pt made,rebound,0,High
+21600190,465,rebound,4,PT05M46.00S,05:46,Q4 05:46,0,0,1610612750.0,,TEAM defensive REBOUND,3pt missed,foul,0,High
+21600190,466,foul,4,PT05M37.00S,05:37,Q4 05:37,0,0,1610612763.0,Gasol,Gasol P.FOUL (P4.T4) (B.Taylor),rebound,2pt missed,0,High
+21600190,467,2pt,4,PT05M26.00S,05:26,Q4 05:26,0,0,1610612750.0,Dieng,MISS Dieng 17' Jump Shot,foul,rebound,0,High
+21600190,468,rebound,4,PT05M26.00S,05:26,Q4 05:26,0,0,1610612763.0,Gasol,Gasol REBOUND (Off:0 Def:7),2pt missed,foul,0,High
+21600190,469,foul,4,PT05M14.00S,05:14,Q4 05:14,0,0,1610612750.0,Towns,Towns S.FOUL (P5.T3) (S.Corbin),rebound,freethrow,0,High
+21600190,470,freethrow,4,PT05M14.00S,05:14,Q4 05:14,77,59,1610612763.0,Gasol,Gasol Free Throw 1 of 2 (5 PTS),foul,freethrow,18,Low
+21600190,473,freethrow,4,PT05M14.00S,05:14,Q4 05:14,78,59,1610612763.0,Gasol,Gasol Free Throw 2 of 2 (6 PTS),freethrow,substitution,19,Low
+21600190,472,substitution,4,PT05M14.00S,05:14,Q4 05:14,0,0,1610612763.0,Allen,SUB out: T. Allen,freethrow,substitution,0,High
+21600190,473,substitution,4,PT05M14.00S,05:14,Q4 05:14,0,0,1610612763.0,Carter,SUB in: V. Carter,substitution,2pt made,0,High
+21600190,475,2pt,4,PT04M52.00S,04:52,Q4 04:52,78,61,1610612750.0,Muhammad,Muhammad  Cutting Dunk Shot (4 PTS) (LaVine 2 AST),substitution,2pt missed,17,Low
+21600190,476,2pt,4,PT04M33.00S,04:33,Q4 04:33,0,0,1610612763.0,Gasol,MISS Gasol 22' Jump Shot,2pt made,rebound,0,High
+21600190,477,rebound,4,PT04M32.00S,04:32,Q4 04:32,0,0,1610612750.0,LaVine,LaVine REBOUND (Off:0 Def:1),2pt missed,3pt made,0,High
+21600190,478,3pt,4,PT04M21.00S,04:21,Q4 04:21,78,64,1610612750.0,Towns,Towns 25' 3PT Jump Shot (17 PTS) (LaVine 3 AST),rebound,timeout,14,Low
+21600190,479,timeout,4,PT04M21.00S,04:21,Q4 04:21,0,0,1610612763.0,,GRIZZLIES Timeout: Regular (Full 5 Short 1),3pt made,substitution,0,High
+21600190,481,substitution,4,PT04M21.00S,04:21,Q4 04:21,0,0,1610612763.0,Ennis III,SUB out: J. Ennis III,timeout,substitution,0,High
+21600190,482,substitution,4,PT04M21.00S,04:21,Q4 04:21,0,0,1610612763.0,Randolph,SUB out: Z. Randolph,substitution,substitution,0,High
+21600190,483,substitution,4,PT04M21.00S,04:21,Q4 04:21,0,0,1610612763.0,Green,SUB in: J. Green,substitution,substitution,0,High
+21600190,484,substitution,4,PT04M21.00S,04:21,Q4 04:21,0,0,1610612763.0,Harrison,SUB in: A. Harrison,substitution,3pt made,0,High
+21600190,483,3pt,4,PT03M55.00S,03:55,Q4 03:55,81,64,1610612763.0,Conley,Conley 25' 3PT Jump Shot (13 PTS) (Harrison 4 AST),substitution,turnover,17,Low
+21600190,484,turnover,4,PT03M29.00S,03:29,Q4 03:29,0,0,0.0,,Timberwolves Turnover: Shot Clock (T#18),3pt made,2pt made,0,High
+21600190,485,2pt,4,PT03M05.00S,03:05,Q4 03:05,83,64,1610612763.0,Green,Green 1' Cutting Layup Shot (14 PTS) (Harrison 5 AST),turnover,2pt made,19,Low
+21600190,486,2pt,4,PT02M57.00S,02:57,Q4 02:57,83,66,1610612750.0,LaVine,LaVine 1' Running Layup (22 PTS) (Rubio 7 AST),2pt made,2pt made,17,Low
+21600190,487,2pt,4,PT02M44.00S,02:44,Q4 02:44,85,66,1610612763.0,Green,Green 2' Alley Oop Layup (16 PTS) (Harrison 6 AST),2pt made,foul,19,Low
+21600190,488,foul,4,PT02M44.00S,02:44,Q4 02:44,0,0,1610612750.0,Dieng,Dieng S.FOUL (P3.T4) (S.Corbin),2pt made,freethrow,0,High
+21600190,491,freethrow,4,PT02M44.00S,02:44,Q4 02:44,86,66,1610612763.0,Green,Green Free Throw 1 of 1 (17 PTS),foul,substitution,20,Low
+21600190,489,substitution,4,PT02M44.00S,02:44,Q4 02:44,0,0,1610612750.0,Towns,SUB out: K. Towns,substitution,substitution,0,High
+21600190,490,substitution,4,PT02M44.00S,02:44,Q4 02:44,0,0,1610612750.0,LaVine,SUB: Jones FOR LaVine,substitution,substitution,0,High
+21600190,491,substitution,4,PT02M44.00S,02:44,Q4 02:44,0,0,1610612750.0,Payne,SUB in: A. Payne,substitution,foul,0,High
+21600190,494,foul,4,PT02M20.00S,02:20,Q4 02:20,0,0,1610612763.0,Green,Green P.FOUL (P4.PN) (S.Corbin),substitution,instant replay,0,High
+21600190,497,freethrow,4,PT02M20.00S,02:20,Q4 02:20,86,67,1610612750.0,Dieng,Dieng Free Throw 1 of 2 (9 PTS),instant replay,freethrow,19,Low
+21600190,502,freethrow,4,PT02M20.00S,02:20,Q4 02:20,0,0,1610612750.0,Dieng,MISS Dieng Free Throw 2 of 2,freethrow,substitution,0,High
+21600190,499,substitution,4,PT02M20.00S,02:20,Q4 02:20,0,0,1610612763.0,Gasol,SUB out: M. Gasol,freethrow,substitution,0,High
+21600190,500,substitution,4,PT02M20.00S,02:20,Q4 02:20,0,0,1610612763.0,Carter,SUB out: V. Carter,substitution,substitution,0,High
+21600190,501,substitution,4,PT02M20.00S,02:20,Q4 02:20,0,0,1610612750.0,Muhammad,SUB out: S. Muhammad,substitution,substitution,0,High
+21600190,502,substitution,4,PT02M20.00S,02:20,Q4 02:20,0,0,1610612763.0,Williams,SUB in: T. Williams,substitution,substitution,0,High
+21600190,503,substitution,4,PT02M20.00S,02:20,Q4 02:20,0,0,1610612763.0,Davis,SUB in: D. Davis,substitution,substitution,0,High
+21600190,504,substitution,4,PT02M20.00S,02:20,Q4 02:20,0,0,1610612750.0,Dunn,SUB in: K. Dunn,substitution,rebound,0,High
+21600190,504,rebound,4,PT02M18.00S,02:18,Q4 02:18,0,0,1610612750.0,Payne,Payne REBOUND (Off:1 Def:2),substitution,2pt missed,0,High
+21600190,505,2pt,4,PT02M15.00S,02:15,Q4 02:15,0,0,1610612750.0,Payne,MISS Payne 5' Turnaround Jump Shot,rebound,rebound,0,High
+21600190,506,rebound,4,PT02M14.00S,02:14,Q4 02:14,0,0,1610612763.0,,TEAM defensive REBOUND,2pt missed,foul,0,High
+21600190,507,foul,4,PT02M14.00S,02:14,Q4 02:14,0,0,1610612750.0,Payne,Payne L.B.FOUL (P4.PN) (S.Corbin),rebound,freethrow,0,High
+21600190,508,freethrow,4,PT02M14.00S,02:14,Q4 02:14,87,67,1610612763.0,Green,Green Free Throw 1 of 2 (18 PTS),foul,freethrow,20,Low
+21600190,513,freethrow,4,PT02M14.00S,02:14,Q4 02:14,88,67,1610612763.0,Green,Green Free Throw 2 of 2 (19 PTS),freethrow,substitution,21,Low
+21600190,510,substitution,4,PT02M14.00S,02:14,Q4 02:14,0,0,1610612750.0,Dieng,SUB out: G. Dieng,freethrow,substitution,0,High
+21600190,511,substitution,4,PT02M14.00S,02:14,Q4 02:14,0,0,1610612750.0,Rubio,SUB out: R. Rubio,substitution,substitution,0,High
+21600190,512,substitution,4,PT02M14.00S,02:14,Q4 02:14,0,0,1610612763.0,Conley,SUB out: M. Conley,substitution,substitution,0,High
+21600190,513,substitution,4,PT02M14.00S,02:14,Q4 02:14,0,0,1610612750.0,Bjelica,SUB in: N. Bjelica,substitution,substitution,0,High
+21600190,514,substitution,4,PT02M14.00S,02:14,Q4 02:14,0,0,1610612750.0,Aldrich,SUB in: C. Aldrich,substitution,substitution,0,High
+21600190,515,substitution,4,PT02M14.00S,02:14,Q4 02:14,0,0,1610612763.0,Baldwin IV,SUB in: W. Baldwin IV,substitution,2pt missed,0,High
+21600190,515,2pt,4,PT01M50.00S,01:50,Q4 01:50,0,0,1610612750.0,Bjelica,MISS Bjelica 8' Jump Bank Shot,substitution,rebound,0,Very High
+21600190,516,rebound,4,PT01M50.00S,01:50,Q4 01:50,0,0,1610612763.0,,TEAM defensive REBOUND,2pt missed,foul,0,Very High
+21600190,517,foul,4,PT01M50.00S,01:50,Q4 01:50,0,0,1610612750.0,Dunn,Dunn L.B.FOUL (P5.PN) (B.Taylor),rebound,freethrow,0,Very High
+21600190,518,freethrow,4,PT01M50.00S,01:50,Q4 01:50,89,67,1610612763.0,Harrison,Harrison Free Throw 1 of 2 (12 PTS),foul,freethrow,22,Low
+21600190,521,freethrow,4,PT01M50.00S,01:50,Q4 01:50,90,67,1610612763.0,Harrison,Harrison Free Throw 2 of 2 (13 PTS),freethrow,substitution,23,Low
+21600190,520,substitution,4,PT01M50.00S,01:50,Q4 01:50,0,0,1610612763.0,Green,SUB out: J. Green,freethrow,substitution,0,Very High
+21600190,521,substitution,4,PT01M50.00S,01:50,Q4 01:50,0,0,1610612763.0,Martin,SUB in: J. Martin,substitution,2pt missed,0,Very High
+21600190,523,2pt,4,PT01M32.00S,01:32,Q4 01:32,0,0,1610612750.0,Dunn,MISS Dunn 20' Jump Shot,substitution,rebound,0,Very High
+21600190,524,rebound,4,PT01M32.00S,01:32,Q4 01:32,0,0,1610612763.0,Harrison,Harrison REBOUND (Off:1 Def:3),2pt missed,2pt made,0,Very High
+21600190,525,2pt,4,PT01M28.00S,01:28,Q4 01:28,92,67,1610612763.0,Williams,Williams 2' Running Layup (2 PTS) (Harrison 7 AST),rebound,2pt made,25,Low
+21600190,527,2pt,4,PT01M05.00S,01:05,Q4 01:05,92,69,1610612750.0,Aldrich,Aldrich  Cutting Dunk Shot (2 PTS) (Jones 1 AST),2pt made,turnover,23,Low
+21600190,528,turnover,4,PT00M43.90S,00:43,Q4 00:43,0,0,1610612763.0,Martin,Martin Bad Pass Turnover (P1.T9),2pt made,steal,0,Very High
+21600190,528,steal,4,PT00M43.90S,00:43,Q4 00:43,0,0,1610612750.0,Payne,Payne STEAL (2 STL),turnover,turnover,0,Very High
+21600190,529,turnover,4,PT00M37.00S,00:37,Q4 00:37,0,0,1610612750.0,Payne,Payne Bad Pass Turnover (P2.T19),steal,steal,0,Very High
+21600190,529,steal,4,PT00M37.00S,00:37,Q4 00:37,0,0,1610612763.0,Baldwin IV,Baldwin STEAL (1 STL),turnover,foul,0,Very High
+21600190,530,foul,4,PT00M36.80S,00:36,Q4 00:36,0,0,1610612750.0,Dunn,Dunn S.FOUL (P6.PN) (G.Zielinski),steal,freethrow,0,Very High
+21600190,532,freethrow,4,PT00M36.80S,00:36,Q4 00:36,0,0,1610612763.0,Davis,MISS Davis Free Throw 1 of 2,foul,rebound,0,Very High
+21600190,533,rebound,4,PT00M36.80S,00:36,Q4 00:36,0,0,1610612763.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Very High
+21600190,534,freethrow,4,PT00M36.80S,00:36,Q4 00:36,93,69,1610612763.0,Davis,Davis Free Throw 2 of 2 (3 PTS),rebound,substitution,24,Low
+21600190,531,substitution,4,PT00M36.80S,00:36,Q4 00:36,0,0,1610612750.0,Dunn,SUB: Lucas III FOR Dunn,substitution,foul,0,Very High
+21600190,536,foul,4,PT00M26.50S,00:26,Q4 00:26,0,0,1610612763.0,Williams,Williams P.FOUL (P1.PN) (S.Corbin),substitution,freethrow,0,Very High
+21600190,537,freethrow,4,PT00M26.50S,00:26,Q4 00:26,93,70,1610612750.0,Bjelica,Bjelica Free Throw 1 of 2 (1 PTS),foul,freethrow,23,Low
+21600190,539,freethrow,4,PT00M26.50S,00:26,Q4 00:26,93,71,1610612750.0,Bjelica,Bjelica Free Throw 2 of 2 (2 PTS),freethrow,turnover,22,Low
+21600190,542,turnover,4,PT00M02.50S,00:02,Q4 00:02,0,0,0.0,,GRIZZLIES Turnover: Shot Clock (T#10),freethrow,period,0,Very High
+21600190,543,period,4,PT00M00.00S,00:00,Q4 00:00,93,71,1610612763.0,,End of 4th Period (10:37 PM EST),turnover,,22,Low

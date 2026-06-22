@@ -1,0 +1,551 @@
+game_id,actionNumber,actionType,period,clock,clock_display,game_clock,scoreHome,scoreAway,teamId,playerName,description,previous_action,next_action,score_margin,leverage_bucket
+21600066,0,period,1,PT12M00.00S,12:00,Q1 12:00,0,0,1610612749.0,,Start of 1st Period (8:11 PM EST),,turnover,0,Low
+21600066,2,turnover,1,PT11M42.00S,11:42,Q1 11:42,0,0,1610612749.0,Dellavedova,Dellavedova Bad Pass Turnover (P1.T1),period,steal,0,Low
+21600066,2,steal,1,PT11M42.00S,11:42,Q1 11:42,0,0,1610612754.0,Turner,Turner STEAL (1 STL),turnover,3pt made,0,Low
+21600066,3,3pt,1,PT11M32.00S,11:32,Q1 11:32,0,3,1610612754.0,Teague,Teague 27' 3PT Jump Shot (3 PTS) (George 1 AST),steal,2pt missed,3,Low
+21600066,4,2pt,1,PT11M17.00S,11:17,Q1 11:17,0,3,1610612749.0,Parker,MISS Parker 17' Jump Shot,3pt made,rebound,3,Low
+21600066,5,rebound,1,PT11M16.00S,11:16,Q1 11:16,0,3,1610612754.0,Teague,Teague REBOUND (Off:0 Def:1),2pt missed,foul,3,Low
+21600066,6,foul,1,PT11M12.00S,11:12,Q1 11:12,0,3,1610612749.0,Plumlee,Plumlee Shooting Block Foul (P1.T1) (B.Spooner),rebound,freethrow,3,Low
+21600066,7,freethrow,1,PT11M12.00S,11:12,Q1 11:12,0,4,1610612754.0,Teague,Teague Free Throw 1 of 2 (4 PTS),foul,freethrow,4,Low
+21600066,9,freethrow,1,PT11M12.00S,11:12,Q1 11:12,0,5,1610612754.0,Teague,Teague Free Throw 2 of 2 (5 PTS),freethrow,foul,5,Low
+21600066,11,foul,1,PT11M04.00S,11:04,Q1 11:04,0,5,1610612749.0,Antetokounmpo,Antetokounmpo OFF.Foul (P1) (K.Cutler),freethrow,turnover,5,Low
+21600066,12,turnover,1,PT11M04.00S,11:04,Q1 11:04,0,5,1610612749.0,Antetokounmpo,Antetokounmpo Foul Turnover (P1.T2),foul,turnover,5,Low
+21600066,13,turnover,1,PT10M49.00S,10:49,Q1 10:49,0,5,1610612754.0,George,George Out of Bounds - Bad Pass Turnover Turnover (P1.T1),turnover,2pt made,5,Low
+21600066,14,2pt,1,PT10M30.00S,10:30,Q1 10:30,2,5,1610612749.0,Parker,Parker 13' Jump Shot (2 PTS) (Antetokounmpo 1 AST),turnover,2pt made,3,Low
+21600066,15,2pt,1,PT10M15.00S,10:15,Q1 10:15,2,7,1610612754.0,George,George 1' Reverse Layup (2 PTS) (Teague 1 AST),2pt made,3pt missed,5,Low
+21600066,16,3pt,1,PT09M56.00S,09:56,Q1 09:56,2,7,1610612749.0,Antetokounmpo,MISS Antetokounmpo 27' 3PT Jump Shot,2pt made,rebound,5,Low
+21600066,17,rebound,1,PT09M55.00S,09:55,Q1 09:55,2,7,1610612749.0,Parker,Parker REBOUND (Off:1 Def:0),3pt missed,2pt made,5,Low
+21600066,18,2pt,1,PT09M50.00S,09:50,Q1 09:50,4,7,1610612749.0,Snell,Snell Finger Roll Layup (2 PTS),rebound,turnover,3,Low
+21600066,19,turnover,1,PT09M39.00S,09:39,Q1 09:39,4,7,1610612754.0,George,George Bad Pass Turnover (P2.T2),2pt made,steal,3,Low
+21600066,19,steal,1,PT09M39.00S,09:39,Q1 09:39,4,7,1610612749.0,Plumlee,Plumlee STEAL (1 STL),turnover,2pt made,3,Low
+21600066,20,2pt,1,PT09M34.00S,09:34,Q1 09:34,6,7,1610612749.0,Parker,Parker Running Dunk (4 PTS) (Dellavedova 1 AST),steal,2pt made,1,Low
+21600066,21,2pt,1,PT09M17.00S,09:17,Q1 09:17,6,9,1610612754.0,Turner,Turner 17' Jump Shot (2 PTS) (Teague 2 AST),2pt made,2pt made,3,Low
+21600066,22,2pt,1,PT08M56.00S,08:56,Q1 08:56,8,9,1610612749.0,Snell,Snell 21' Jump Shot (4 PTS) (Antetokounmpo 2 AST),2pt made,turnover,1,Low
+21600066,23,turnover,1,PT08M32.00S,08:32,Q1 08:32,8,9,1610612754.0,George,George 3 Second Violation Turnover (P3.T3),2pt made,turnover,1,Low
+21600066,24,turnover,1,PT08M18.00S,08:18,Q1 08:18,8,9,1610612749.0,Plumlee,Plumlee Bad Pass Turnover (P1.T3),turnover,steal,1,Low
+21600066,24,steal,1,PT08M18.00S,08:18,Q1 08:18,8,9,1610612754.0,Turner,Turner STEAL (2 STL),turnover,turnover,1,Low
+21600066,25,turnover,1,PT08M14.00S,08:14,Q1 08:14,8,9,1610612754.0,Young,T. Young Lost Ball Turnover (P1.T4),steal,steal,1,Low
+21600066,25,steal,1,PT08M14.00S,08:14,Q1 08:14,8,9,1610612749.0,Antetokounmpo,Antetokounmpo STEAL (1 STL),turnover,3pt made,1,Low
+21600066,26,3pt,1,PT08M06.00S,08:06,Q1 08:06,11,9,1610612749.0,Parker,Parker 3PT Jump Shot (7 PTS) (Antetokounmpo 3 AST),steal,2pt made,2,Low
+21600066,27,2pt,1,PT07M43.00S,07:43,Q1 07:43,11,11,1610612754.0,Turner,Turner 4' Hook Shot (4 PTS),3pt made,turnover,0,Low
+21600066,28,turnover,1,PT07M30.00S,07:30,Q1 07:30,11,11,1610612749.0,Dellavedova,Dellavedova Bad Pass Turnover (P2.T4),2pt made,steal,0,Low
+21600066,28,steal,1,PT07M30.00S,07:30,Q1 07:30,11,11,1610612754.0,George,George STEAL (1 STL),turnover,2pt made,0,Low
+21600066,29,2pt,1,PT07M23.00S,07:23,Q1 07:23,11,13,1610612754.0,George,George 15' Pullup Jump Shot (4 PTS),steal,2pt made,2,Low
+21600066,30,2pt,1,PT07M05.00S,07:05,Q1 07:05,13,13,1610612749.0,Snell,Snell 18' Jump Shot (6 PTS) (Plumlee 1 AST),2pt made,2pt made,0,Low
+21600066,31,2pt,1,PT06M54.00S,06:54,Q1 06:54,13,15,1610612754.0,Young,T. Young 4' Cutting Layup Shot (2 PTS) (Teague 3 AST),2pt made,3pt missed,2,Low
+21600066,32,3pt,1,PT06M40.00S,06:40,Q1 06:40,13,15,1610612749.0,Snell,MISS Snell 3PT Jump Shot,2pt made,rebound,2,Low
+21600066,33,rebound,1,PT06M38.00S,06:38,Q1 06:38,13,15,1610612754.0,Young,T. Young REBOUND (Off:0 Def:1),3pt missed,foul,2,Low
+21600066,34,foul,1,PT06M26.00S,06:26,Q1 06:26,13,15,1610612749.0,Plumlee,Plumlee P.FOUL (P2.T2) (B.Spooner),rebound,substitution,2,Low
+21600066,35,substitution,1,PT06M26.00S,06:26,Q1 06:26,13,15,1610612749.0,Plumlee,SUB out: M. Plumlee,foul,substitution,2,Low
+21600066,36,substitution,1,PT06M26.00S,06:26,Q1 06:26,13,15,1610612749.0,Antetokounmpo,SUB out: G. Antetokounmpo,substitution,substitution,2,Low
+21600066,37,substitution,1,PT06M26.00S,06:26,Q1 06:26,13,15,1610612749.0,Monroe,SUB in: G. Monroe,substitution,substitution,2,Low
+21600066,38,substitution,1,PT06M26.00S,06:26,Q1 06:26,13,15,1610612749.0,Teletovic,SUB in: M. Teletovic,substitution,3pt missed,2,Low
+21600066,37,3pt,1,PT06M18.00S,06:18,Q1 06:18,13,15,1610612754.0,Turner,MISS Turner 24' 3PT Jump Shot,substitution,rebound,2,Low
+21600066,38,rebound,1,PT06M16.00S,06:16,Q1 06:16,13,15,1610612749.0,Monroe,Monroe REBOUND (Off:0 Def:1),3pt missed,2pt made,2,Low
+21600066,39,2pt,1,PT06M07.00S,06:07,Q1 06:07,15,15,1610612749.0,Monroe,Monroe 2' Layup (2 PTS),rebound,3pt made,0,Low
+21600066,40,3pt,1,PT05M42.00S,05:42,Q1 05:42,15,18,1610612754.0,George,George 25' 3PT Jump Shot (7 PTS) (Teague 4 AST),2pt made,timeout,3,Low
+21600066,41,timeout,1,PT05M40.00S,05:40,Q1 05:40,15,18,1610612749.0,,BUCKS Timeout: Regular (Full 1 Short 0),3pt made,substitution,3,Low
+21600066,43,substitution,1,PT05M40.00S,05:40,Q1 05:40,15,18,1610612749.0,Snell,SUB out: T. Snell,timeout,substitution,3,Low
+21600066,44,substitution,1,PT05M40.00S,05:40,Q1 05:40,15,18,1610612749.0,Dellavedova,SUB out: M. Dellavedova,substitution,substitution,3,Low
+21600066,45,substitution,1,PT05M40.00S,05:40,Q1 05:40,15,18,1610612754.0,Turner,SUB out: M. Turner,substitution,substitution,3,Low
+21600066,46,substitution,1,PT05M40.00S,05:40,Q1 05:40,15,18,1610612754.0,Ellis,SUB out: M. Ellis,substitution,substitution,3,Low
+21600066,47,substitution,1,PT05M40.00S,05:40,Q1 05:40,15,18,1610612749.0,Terry,SUB in: J. Terry,substitution,substitution,3,Low
+21600066,48,substitution,1,PT05M40.00S,05:40,Q1 05:40,15,18,1610612749.0,Brogdon,SUB in: M. Brogdon,substitution,substitution,3,Low
+21600066,49,substitution,1,PT05M40.00S,05:40,Q1 05:40,15,18,1610612754.0,Miles,SUB in: C. Miles,substitution,substitution,3,Low
+21600066,50,substitution,1,PT05M40.00S,05:40,Q1 05:40,15,18,1610612754.0,Jefferson,SUB in: A. Jefferson,substitution,3pt missed,3,Low
+21600066,47,3pt,1,PT05M24.00S,05:24,Q1 05:24,15,18,1610612749.0,Teletovic,MISS Teletovic 3PT Jump Shot,substitution,rebound,3,Low
+21600066,48,rebound,1,PT05M23.00S,05:23,Q1 05:23,15,18,1610612749.0,Monroe,Monroe REBOUND (Off:1 Def:1),3pt missed,turnover,3,Low
+21600066,49,turnover,1,PT05M18.00S,05:18,Q1 05:18,15,18,1610612749.0,Parker,Parker Bad Pass Turnover (P1.T5),rebound,steal,3,Low
+21600066,49,steal,1,PT05M18.00S,05:18,Q1 05:18,15,18,1610612754.0,Young,T. Young STEAL (1 STL),turnover,2pt missed,3,Low
+21600066,50,2pt,1,PT05M10.00S,05:10,Q1 05:10,15,18,1610612754.0,George,MISS George 1' Layup,steal,block,3,Low
+21600066,50,block,1,PT05M10.00S,05:10,Q1 05:10,15,18,1610612749.0,Parker,Parker BLOCK (1 BLK),2pt missed,rebound,3,Low
+21600066,51,rebound,1,PT05M06.00S,05:06,Q1 05:06,15,18,1610612754.0,Jefferson,Jefferson REBOUND (Off:1 Def:0),block,2pt made,3,Low
+21600066,52,2pt,1,PT04M56.00S,04:56,Q1 04:56,15,20,1610612754.0,Teague,Teague 1' Driving Finger Roll Layup (7 PTS),rebound,3pt made,5,Low
+21600066,53,3pt,1,PT04M39.00S,04:39,Q1 04:39,18,20,1610612749.0,Terry,Terry 26' 3PT Jump Shot (3 PTS) (Monroe 1 AST),2pt made,2pt made,2,Low
+21600066,54,2pt,1,PT04M13.00S,04:13,Q1 04:13,18,22,1610612754.0,Young,T. Young 16' Jump Shot (4 PTS) (Miles 1 AST),3pt made,3pt missed,4,Low
+21600066,55,3pt,1,PT03M56.00S,03:56,Q1 03:56,18,22,1610612749.0,Parker,MISS Parker 24' 3PT Jump Shot,2pt made,rebound,4,Low
+21600066,56,rebound,1,PT03M55.00S,03:55,Q1 03:55,18,22,1610612754.0,Jefferson,Jefferson REBOUND (Off:1 Def:1),3pt missed,3pt missed,4,Low
+21600066,57,3pt,1,PT03M46.00S,03:46,Q1 03:46,18,22,1610612754.0,Miles,MISS Miles 25' 3PT Jump Shot,rebound,rebound,4,Low
+21600066,58,rebound,1,PT03M44.00S,03:44,Q1 03:44,18,22,1610612749.0,Monroe,Monroe REBOUND (Off:1 Def:2),3pt missed,2pt missed,4,Low
+21600066,59,2pt,1,PT03M36.00S,03:36,Q1 03:36,18,22,1610612749.0,Monroe,MISS Monroe 3' Layup,rebound,block,4,Low
+21600066,59,block,1,PT03M36.00S,03:36,Q1 03:36,18,22,1610612754.0,George,George BLOCK (1 BLK),2pt missed,rebound,4,Low
+21600066,571,rebound,1,PT03M36.00S,03:36,Q1 03:36,18,22,1610612754.0,George,George REBOUND (Off:0 Def:1),block,turnover,4,Low
+21600066,60,turnover,1,PT03M33.00S,03:33,Q1 03:33,18,22,1610612754.0,George,George Out of Bounds - Bad Pass Turnover Turnover (P4.T5),rebound,substitution,4,Low
+21600066,61,substitution,1,PT03M33.00S,03:33,Q1 03:33,18,22,1610612754.0,Young,SUB out: T. Young,turnover,substitution,4,Low
+21600066,62,substitution,1,PT03M33.00S,03:33,Q1 03:33,18,22,1610612749.0,Parker,SUB out: J. Parker,substitution,substitution,4,Low
+21600066,63,substitution,1,PT03M33.00S,03:33,Q1 03:33,18,22,1610612754.0,Allen,SUB in: L. Allen,substitution,substitution,4,Low
+21600066,64,substitution,1,PT03M33.00S,03:33,Q1 03:33,18,22,1610612749.0,Antetokounmpo,SUB in: G. Antetokounmpo,substitution,2pt missed,4,Low
+21600066,64,2pt,1,PT03M17.00S,03:17,Q1 03:17,18,22,1610612749.0,Antetokounmpo,MISS Antetokounmpo 10' Jump Bank Shot,substitution,rebound,4,Low
+21600066,65,rebound,1,PT03M16.00S,03:16,Q1 03:16,18,22,1610612749.0,Monroe,Monroe REBOUND (Off:2 Def:2),2pt missed,2pt made,4,Low
+21600066,66,2pt,1,PT03M14.00S,03:14,Q1 03:14,20,22,1610612749.0,Monroe,Monroe 1' Putback Layup (4 PTS),rebound,2pt missed,2,Low
+21600066,67,2pt,1,PT03M00.00S,03:00,Q1 03:00,20,22,1610612754.0,Jefferson,MISS Jefferson 8' Jump Shot,2pt made,rebound,2,Low
+21600066,68,rebound,1,PT02M59.00S,02:59,Q1 02:59,20,22,1610612749.0,Monroe,Monroe REBOUND (Off:2 Def:3),2pt missed,3pt missed,2,Low
+21600066,69,3pt,1,PT02M52.00S,02:52,Q1 02:52,20,22,1610612749.0,Brogdon,MISS Brogdon 25' 3PT Jump Shot,rebound,rebound,2,Low
+21600066,70,rebound,1,PT02M50.00S,02:50,Q1 02:50,20,22,1610612754.0,Allen,Allen REBOUND (Off:0 Def:1),3pt missed,2pt missed,2,Low
+21600066,71,2pt,1,PT02M37.00S,02:37,Q1 02:37,20,22,1610612754.0,Allen,MISS Allen 18' Jump Shot,rebound,rebound,2,Low
+21600066,72,rebound,1,PT02M36.00S,02:36,Q1 02:36,20,22,1610612749.0,Monroe,Monroe REBOUND (Off:2 Def:4),2pt missed,2pt made,2,Low
+21600066,73,2pt,1,PT02M17.00S,02:17,Q1 02:17,22,22,1610612749.0,Terry,Terry 1' Finger Roll Layup (5 PTS) (Antetokounmpo 4 AST),rebound,timeout,0,Low
+21600066,74,timeout,1,PT02M10.00S,02:10,Q1 02:10,22,22,1610612754.0,,Pacers Timeout: Regular (Reg.1 Short 0),2pt made,substitution,0,Low
+21600066,76,substitution,1,PT02M10.00S,02:10,Q1 02:10,22,22,1610612754.0,George,SUB out: P. George,timeout,substitution,0,Low
+21600066,77,substitution,1,PT02M10.00S,02:10,Q1 02:10,22,22,1610612754.0,Teague,SUB out: J. Teague,substitution,substitution,0,Low
+21600066,78,substitution,1,PT02M10.00S,02:10,Q1 02:10,22,22,1610612754.0,Robinson III,SUB in: G. Robinson III,substitution,substitution,0,Low
+21600066,79,substitution,1,PT02M10.00S,02:10,Q1 02:10,22,22,1610612754.0,Brooks,SUB in: A. Brooks,substitution,foul,0,Low
+21600066,79,foul,1,PT02M02.00S,02:02,Q1 02:02,22,22,1610612749.0,Terry,Terry S.FOUL (P1.T3) (K.Cutler),substitution,freethrow,0,Low
+21600066,80,freethrow,1,PT02M02.00S,02:02,Q1 02:02,22,23,1610612754.0,Miles,Miles Free Throw 1 of 2 (1 PTS),foul,freethrow,1,Low
+21600066,82,freethrow,1,PT02M02.00S,02:02,Q1 02:02,22,24,1610612754.0,Miles,Miles Free Throw 2 of 2 (2 PTS),freethrow,turnover,2,Low
+21600066,84,turnover,1,PT01M46.00S,01:46,Q1 01:46,22,24,1610612749.0,Antetokounmpo,Antetokounmpo Lost Ball Turnover (P2.T6),freethrow,steal,2,Low
+21600066,84,steal,1,PT01M46.00S,01:46,Q1 01:46,22,24,1610612754.0,Miles,Miles STEAL (1 STL),turnover,2pt made,2,Low
+21600066,85,2pt,1,PT01M34.00S,01:34,Q1 01:34,22,26,1610612754.0,Miles,Miles 1' Driving Layup (4 PTS) (Allen 1 AST),steal,3pt made,4,Low
+21600066,86,3pt,1,PT01M18.00S,01:18,Q1 01:18,25,26,1610612749.0,Teletovic,Teletovic 26' 3PT Jump Shot (3 PTS) (Monroe 2 AST),2pt made,foul,1,Low
+21600066,87,foul,1,PT00M54.20S,00:54,Q1 00:54,25,26,1610612749.0,Teletovic,Teletovic S.FOUL (P1.T4) (B.Spooner),3pt made,freethrow,1,Low
+21600066,88,freethrow,1,PT00M54.20S,00:54,Q1 00:54,25,26,1610612754.0,Jefferson,MISS Jefferson Free Throw 1 of 2,foul,rebound,1,Low
+21600066,89,rebound,1,PT00M54.20S,00:54,Q1 00:54,25,26,1610612754.0,,TEAM offensive REBOUND,freethrow,freethrow,1,Low
+21600066,90,freethrow,1,PT00M54.20S,00:54,Q1 00:54,25,27,1610612754.0,Jefferson,Jefferson Free Throw 2 of 2 (1 PTS),rebound,foul,2,Low
+21600066,92,foul,1,PT00M47.30S,00:47,Q1 00:47,25,27,1610612754.0,Miles,Miles P.FOUL (P1.T1) (B.Spooner),freethrow,2pt missed,2,Low
+21600066,93,2pt,1,PT00M40.80S,00:40,Q1 00:40,25,27,1610612749.0,Monroe,MISS Monroe 1' Layup,foul,2pt missed,2,Low
+21600066,94,2pt,1,PT00M38.90S,00:38,Q1 00:38,25,27,1610612749.0,Monroe,MISS Monroe 1' Tip Layup Shot,2pt missed,rebound,2,Low
+21600066,95,rebound,1,PT00M38.90S,00:38,Q1 00:38,25,27,1610612749.0,Monroe,Monroe REBOUND (Off:3 Def:4),2pt missed,rebound,2,Low
+21600066,96,rebound,1,PT00M37.40S,00:37,Q1 00:37,25,27,1610612749.0,Monroe,Monroe REBOUND (Off:4 Def:4),rebound,2pt made,2,Low
+21600066,98,2pt,1,PT00M31.60S,00:31,Q1 00:31,27,27,1610612749.0,Antetokounmpo,Antetokounmpo Cutting Dunk Shot (2 PTS) (Monroe 3 AST),rebound,3pt made,0,Low
+21600066,99,3pt,1,PT00M12.00S,00:12,Q1 00:12,27,30,1610612754.0,Brooks,Brooks 29' 3PT Jump Shot (3 PTS),2pt made,foul,3,Low
+21600066,100,foul,1,PT00M04.20S,00:04,Q1 00:04,27,30,1610612754.0,Robinson III,Robinson III S.FOUL (P1.PN) (K.Fitzgerald),3pt made,freethrow,3,Low
+21600066,101,freethrow,1,PT00M04.20S,00:04,Q1 00:04,28,30,1610612749.0,Antetokounmpo,Antetokounmpo Free Throw 1 of 2 (3 PTS),foul,freethrow,2,Low
+21600066,103,freethrow,1,PT00M04.20S,00:04,Q1 00:04,29,30,1610612749.0,Antetokounmpo,Antetokounmpo Free Throw 2 of 2 (4 PTS),freethrow,3pt missed,1,Low
+21600066,105,3pt,1,PT00M00.00S,00:00,Q1 00:00,29,30,1610612754.0,Jefferson,MISS Jefferson 26' 3PT Jump Shot,freethrow,rebound,1,Low
+21600066,106,rebound,1,PT00M00.00S,00:00,Q1 00:00,29,30,1610612754.0,,TEAM offensive REBOUND,3pt missed,period,1,Low
+21600066,107,period,1,PT00M00.00S,00:00,Q1 00:00,29,30,1610612749.0,,End of 1st Period (8:34 PM EST),rebound,period,1,Low
+21600066,109,period,2,PT12M00.00S,12:00,Q2 12:00,29,30,1610612749.0,,Start of 2nd Period (8:37 PM EST),period,substitution,1,Low
+21600066,110,turnover,2,PT11M50.00S,11:50,Q2 11:50,29,30,1610612754.0,Brooks,Brooks Bad Pass Turnover (P1.T6),substitution,steal,1,Low
+21600066,110,steal,2,PT11M50.00S,11:50,Q2 11:50,29,30,1610612749.0,Brogdon,Brogdon STEAL (1 STL),turnover,2pt made,1,Low
+21600066,111,2pt,2,PT11M43.00S,11:43,Q2 11:43,31,30,1610612749.0,Antetokounmpo,Antetokounmpo Cutting Dunk Shot (6 PTS) (Brogdon 1 AST),steal,2pt made,1,Low
+21600066,112,2pt,2,PT11M33.00S,11:33,Q2 11:33,31,32,1610612754.0,Brooks,Brooks 1' Driving Layup (5 PTS),2pt made,2pt made,1,Low
+21600066,113,2pt,2,PT11M17.00S,11:17,Q2 11:17,33,32,1610612749.0,Beasley,Beasley 1' Driving Layup (2 PTS) (Monroe 4 AST),2pt made,foul,1,Low
+21600066,114,foul,2,PT10M56.00S,10:56,Q2 10:56,33,32,1610612749.0,Beasley,Beasley S.FOUL (P1.T1) (K.Fitzgerald),2pt made,freethrow,1,Low
+21600066,115,freethrow,2,PT10M56.00S,10:56,Q2 10:56,33,33,1610612754.0,Miles,Miles Free Throw 1 of 2 (5 PTS),foul,freethrow,0,Low
+21600066,117,freethrow,2,PT10M56.00S,10:56,Q2 10:56,33,34,1610612754.0,Miles,Miles Free Throw 2 of 2 (6 PTS),freethrow,3pt missed,1,Low
+21600066,119,3pt,2,PT10M46.00S,10:46,Q2 10:46,33,34,1610612749.0,Terry,MISS Terry 3PT Jump Shot,freethrow,rebound,1,Low
+21600066,120,rebound,2,PT10M45.00S,10:45,Q2 10:45,33,34,1610612754.0,Jefferson,Jefferson REBOUND (Off:1 Def:2),3pt missed,2pt missed,1,Low
+21600066,121,2pt,2,PT10M34.00S,10:34,Q2 10:34,33,34,1610612754.0,Miles,MISS Miles 20' Jump Shot,rebound,rebound,1,Low
+21600066,122,rebound,2,PT10M33.00S,10:33,Q2 10:33,33,34,1610612749.0,Brogdon,Brogdon REBOUND (Off:0 Def:1),2pt missed,2pt made,1,Low
+21600066,123,2pt,2,PT10M30.00S,10:30,Q2 10:30,35,34,1610612749.0,Antetokounmpo,Antetokounmpo Running Dunk (8 PTS) (Brogdon 2 AST),rebound,foul,1,Low
+21600066,124,foul,2,PT10M19.00S,10:19,Q2 10:19,35,34,1610612749.0,Terry,Terry S.FOUL (P2.T2) (B.Spooner),2pt made,freethrow,1,Low
+21600066,126,freethrow,2,PT10M19.00S,10:19,Q2 10:19,35,35,1610612754.0,Miles,Miles Free Throw 1 of 2 (7 PTS),foul,freethrow,0,Low
+21600066,130,freethrow,2,PT10M19.00S,10:19,Q2 10:19,35,35,1610612754.0,Miles,MISS Miles Free Throw 2 of 2,freethrow,substitution,0,Low
+21600066,128,substitution,2,PT10M19.00S,10:19,Q2 10:19,35,35,1610612754.0,Jefferson,SUB out: A. Jefferson,freethrow,substitution,0,Low
+21600066,129,substitution,2,PT10M19.00S,10:19,Q2 10:19,35,35,1610612749.0,Terry,SUB out: J. Terry,substitution,substitution,0,Low
+21600066,130,substitution,2,PT10M19.00S,10:19,Q2 10:19,35,35,1610612754.0,Turner,SUB in: M. Turner,substitution,substitution,0,Low
+21600066,131,substitution,2,PT10M19.00S,10:19,Q2 10:19,35,35,1610612749.0,Snell,SUB in: T. Snell,substitution,rebound,0,Low
+21600066,132,rebound,2,PT10M17.00S,10:17,Q2 10:17,35,35,1610612749.0,Monroe,Monroe REBOUND (Off:4 Def:5),substitution,foul,0,Low
+21600066,133,foul,2,PT10M09.00S,10:09,Q2 10:09,35,35,1610612754.0,Turner,Turner S.FOUL (P1.T1) (B.Spooner),rebound,freethrow,0,Low
+21600066,134,freethrow,2,PT10M09.00S,10:09,Q2 10:09,36,35,1610612749.0,Brogdon,Brogdon Free Throw 1 of 2 (1 PTS),foul,freethrow,1,Low
+21600066,138,freethrow,2,PT10M09.00S,10:09,Q2 10:09,37,35,1610612749.0,Brogdon,Brogdon Free Throw 2 of 2 (2 PTS),freethrow,substitution,2,Low
+21600066,150,substitution,2,PT10M09.00S,10:09,Q2 10:09,35,35,1610612754.0,Miles,SUB out: C. Miles,freethrow,substitution,0,Low
+21600066,151,substitution,2,PT10M09.00S,10:09,Q2 10:09,35,35,1610612754.0,Ellis,SUB in: M. Ellis,substitution,3pt made,0,Low
+21600066,140,3pt,2,PT10M00.00S,10:00,Q2 10:00,37,38,1610612754.0,Brooks,Brooks 24' 3PT Jump Shot (8 PTS) (Ellis 1 AST),substitution,2pt made,1,Low
+21600066,142,2pt,2,PT09M44.00S,09:44,Q2 09:44,39,38,1610612749.0,Monroe,Monroe Layup (6 PTS) (Antetokounmpo 5 AST),3pt made,foul,1,Low
+21600066,143,foul,2,PT09M44.00S,09:44,Q2 09:44,39,38,1610612754.0,Turner,Turner S.FOUL (P2.T2) (B.Spooner),2pt made,freethrow,1,Low
+21600066,144,freethrow,2,PT09M44.00S,09:44,Q2 09:44,40,38,1610612749.0,Monroe,Monroe Free Throw 1 of 1 (7 PTS),foul,turnover,2,Low
+21600066,146,turnover,2,PT09M31.00S,09:31,Q2 09:31,40,38,1610612754.0,Brooks,Brooks Bad Pass Turnover (P2.T7),freethrow,steal,2,Low
+21600066,146,steal,2,PT09M31.00S,09:31,Q2 09:31,40,38,1610612749.0,Antetokounmpo,Antetokounmpo STEAL (2 STL),turnover,foul,2,Low
+21600066,147,foul,2,PT09M29.00S,09:29,Q2 09:29,40,38,1610612754.0,Brooks,Brooks P.FOUL (P1.T3) (K.Cutler),steal,2pt made,2,Low
+21600066,148,2pt,2,PT09M19.00S,09:19,Q2 09:19,42,38,1610612749.0,Brogdon,Brogdon 1' Layup (4 PTS),foul,2pt made,4,Low
+21600066,149,2pt,2,PT09M00.00S,09:00,Q2 09:00,42,40,1610612754.0,Ellis,Ellis 2' Driving Layup (2 PTS) (Brooks 1 AST),2pt made,timeout,2,Low
+21600066,151,timeout,2,PT08M38.00S,08:38,Q2 08:38,42,40,0.0,,Timeout: Official,2pt made,substitution,2,Low
+21600066,154,substitution,2,PT08M38.00S,08:38,Q2 08:38,42,40,1610612754.0,Allen,SUB out: L. Allen,timeout,substitution,2,Low
+21600066,155,substitution,2,PT08M38.00S,08:38,Q2 08:38,42,40,1610612754.0,Robinson III,SUB out: G. Robinson III,substitution,substitution,2,Low
+21600066,156,substitution,2,PT08M38.00S,08:38,Q2 08:38,42,40,1610612754.0,George,SUB in: P. George,substitution,substitution,2,Low
+21600066,157,substitution,2,PT08M38.00S,08:38,Q2 08:38,42,40,1610612754.0,Young,SUB in: T. Young,substitution,3pt missed,2,Low
+21600066,159,3pt,2,PT08M29.00S,08:29,Q2 08:29,42,40,1610612749.0,Snell,MISS Snell 25' 3PT Jump Shot,substitution,rebound,2,Low
+21600066,160,rebound,2,PT08M28.00S,08:28,Q2 08:28,42,40,1610612754.0,George,George REBOUND (Off:0 Def:2),3pt missed,2pt missed,2,Low
+21600066,161,2pt,2,PT08M11.00S,08:11,Q2 08:11,42,40,1610612754.0,Turner,MISS Turner 1' Layup,rebound,rebound,2,Low
+21600066,162,rebound,2,PT08M08.00S,08:08,Q2 08:08,42,40,1610612749.0,Beasley,Beasley REBOUND (Off:0 Def:1),2pt missed,foul,2,Low
+21600066,163,foul,2,PT08M05.00S,08:05,Q2 08:05,42,40,1610612754.0,Brooks,Brooks P.FOUL (P2.T4) (K.Fitzgerald),rebound,substitution,2,Low
+21600066,164,substitution,2,PT08M05.00S,08:05,Q2 08:05,42,40,1610612754.0,Brooks,SUB out: A. Brooks,foul,substitution,2,Low
+21600066,165,substitution,2,PT08M05.00S,08:05,Q2 08:05,42,40,1610612754.0,Teague,SUB in: J. Teague,substitution,3pt missed,2,Low
+21600066,165,3pt,2,PT07M58.00S,07:58,Q2 07:58,42,40,1610612749.0,Beasley,MISS Beasley 26' 3PT Jump Shot,substitution,rebound,2,Low
+21600066,166,rebound,2,PT07M57.00S,07:57,Q2 07:57,42,40,1610612754.0,Teague,Teague REBOUND (Off:0 Def:2),3pt missed,2pt missed,2,Low
+21600066,167,2pt,2,PT07M51.00S,07:51,Q2 07:51,42,40,1610612754.0,Teague,MISS Teague 5' Jump Shot,rebound,block,2,Low
+21600066,167,block,2,PT07M51.00S,07:51,Q2 07:51,42,40,1610612749.0,Brogdon,Brogdon BLOCK (1 BLK),2pt missed,rebound,2,Low
+21600066,168,rebound,2,PT07M48.00S,07:48,Q2 07:48,42,40,1610612749.0,Beasley,Beasley REBOUND (Off:0 Def:2),block,turnover,2,Low
+21600066,169,turnover,2,PT07M47.00S,07:47,Q2 07:47,42,40,1610612749.0,Beasley,Beasley Palming Turnover (P1.T7),rebound,foul,2,Low
+21600066,170,foul,2,PT07M32.00S,07:32,Q2 07:32,42,40,1610612749.0,Beasley,Beasley P.FOUL (P2.T3) (K.Fitzgerald),turnover,foul,2,Low
+21600066,171,foul,2,PT07M31.00S,07:31,Q2 07:31,42,40,1610612754.0,Teague,Teague OFF.Foul (P1) (K.Cutler),foul,turnover,2,Low
+21600066,172,turnover,2,PT07M31.00S,07:31,Q2 07:31,42,40,1610612754.0,Teague,Teague Foul Turnover (P1.T8),foul,substitution,2,Low
+21600066,173,substitution,2,PT07M31.00S,07:31,Q2 07:31,42,40,1610612749.0,Beasley,SUB out: M. Beasley,turnover,substitution,2,Low
+21600066,174,substitution,2,PT07M31.00S,07:31,Q2 07:31,42,40,1610612749.0,Monroe,SUB out: G. Monroe,substitution,substitution,2,Low
+21600066,175,substitution,2,PT07M31.00S,07:31,Q2 07:31,42,40,1610612749.0,Parker,SUB in: J. Parker,substitution,substitution,2,Low
+21600066,176,substitution,2,PT07M31.00S,07:31,Q2 07:31,42,40,1610612749.0,Plumlee,SUB in: M. Plumlee,substitution,3pt made,2,Low
+21600066,175,3pt,2,PT07M14.00S,07:14,Q2 07:14,45,40,1610612749.0,Brogdon,Brogdon 26' 3PT Jump Shot (7 PTS) (Parker 1 AST),substitution,2pt made,5,Low
+21600066,176,2pt,2,PT07M01.00S,07:01,Q2 07:01,45,42,1610612754.0,Teague,Teague 3' Running Layup (9 PTS),3pt made,3pt made,3,Low
+21600066,177,3pt,2,PT06M50.00S,06:50,Q2 06:50,48,42,1610612749.0,Parker,Parker 25' 3PT Jump Shot (10 PTS) (Antetokounmpo 6 AST),2pt made,foul,6,Low
+21600066,178,foul,2,PT06M35.00S,06:35,Q2 06:35,48,42,1610612749.0,Parker,Parker S.FOUL (P1.T4) (B.Spooner),3pt made,freethrow,6,Low
+21600066,179,freethrow,2,PT06M35.00S,06:35,Q2 06:35,48,42,1610612754.0,Young,MISS T. Young Free Throw 1 of 2,foul,rebound,6,Low
+21600066,180,rebound,2,PT06M35.00S,06:35,Q2 06:35,48,42,1610612754.0,,TEAM offensive REBOUND,freethrow,freethrow,6,Low
+21600066,181,freethrow,2,PT06M35.00S,06:35,Q2 06:35,48,43,1610612754.0,Young,T. Young Free Throw 2 of 2 (5 PTS),rebound,2pt missed,5,Low
+21600066,183,2pt,2,PT06M22.00S,06:22,Q2 06:22,48,43,1610612749.0,Antetokounmpo,MISS Antetokounmpo 19' Jump Shot,freethrow,rebound,5,Low
+21600066,184,rebound,2,PT06M21.00S,06:21,Q2 06:21,48,43,1610612754.0,Ellis,Ellis REBOUND (Off:0 Def:1),2pt missed,substitution,5,Low
+21600066,186,substitution,2,PT06M12.00S,06:12,Q2 06:12,48,43,1610612749.0,Brogdon,SUB out: M. Brogdon,rebound,substitution,5,Low
+21600066,187,substitution,2,PT06M12.00S,06:12,Q2 06:12,48,43,1610612749.0,Antetokounmpo,SUB out: G. Antetokounmpo,substitution,substitution,5,Low
+21600066,188,substitution,2,PT06M12.00S,06:12,Q2 06:12,48,43,1610612749.0,Dellavedova,SUB in: M. Dellavedova,substitution,substitution,5,Low
+21600066,189,substitution,2,PT06M12.00S,06:12,Q2 06:12,48,43,1610612749.0,Teletovic,SUB in: M. Teletovic,substitution,2pt missed,5,Low
+21600066,188,2pt,2,PT05M58.00S,05:58,Q2 05:58,48,43,1610612754.0,George,MISS George 4' Driving Layup,substitution,rebound,5,Low
+21600066,189,rebound,2,PT05M55.00S,05:55,Q2 05:55,48,43,1610612749.0,Parker,Parker REBOUND (Off:1 Def:1),2pt missed,3pt missed,5,Low
+21600066,190,3pt,2,PT05M50.00S,05:50,Q2 05:50,48,43,1610612749.0,Dellavedova,MISS Dellavedova 27' 3PT Jump Shot,rebound,rebound,5,Low
+21600066,191,rebound,2,PT05M49.00S,05:49,Q2 05:49,48,43,1610612754.0,Teague,Teague REBOUND (Off:0 Def:3),3pt missed,2pt made,5,Low
+21600066,192,2pt,2,PT05M42.00S,05:42,Q2 05:42,48,45,1610612754.0,Turner,Turner 1' Layup (6 PTS) (Teague 5 AST),rebound,foul,3,Low
+21600066,193,foul,2,PT05M29.00S,05:29,Q2 05:29,48,45,1610612754.0,Young,T. Young S.FOUL (P1.PN) (B.Spooner),2pt made,timeout,3,Low
+21600066,194,timeout,2,PT05M29.00S,05:29,Q2 05:29,48,45,1610612749.0,,BUCKS Timeout: Regular (Full 2 Short 0),foul,freethrow,3,Low
+21600066,199,freethrow,2,PT05M29.00S,05:29,Q2 05:29,49,45,1610612749.0,Plumlee,Plumlee Free Throw 1 of 2 (1 PTS),timeout,freethrow,4,Low
+21600066,201,freethrow,2,PT05M29.00S,05:29,Q2 05:29,49,45,1610612749.0,Plumlee,MISS Plumlee Free Throw 2 of 2,freethrow,rebound,4,Low
+21600066,203,rebound,2,PT05M28.00S,05:28,Q2 05:28,49,45,1610612754.0,Ellis,Ellis REBOUND (Off:0 Def:2),freethrow,foul,4,Low
+21600066,204,foul,2,PT05M18.00S,05:18,Q2 05:18,49,45,1610612749.0,Dellavedova,Dellavedova S.FOUL (P1.PN) (K.Cutler),rebound,freethrow,4,Low
+21600066,205,freethrow,2,PT05M18.00S,05:18,Q2 05:18,49,45,1610612754.0,George,MISS George Free Throw 1 of 2,foul,rebound,4,Low
+21600066,206,rebound,2,PT05M18.00S,05:18,Q2 05:18,49,45,1610612754.0,,TEAM offensive REBOUND,freethrow,freethrow,4,Low
+21600066,207,freethrow,2,PT05M18.00S,05:18,Q2 05:18,49,45,1610612754.0,George,MISS George Free Throw 2 of 2,rebound,rebound,4,Low
+21600066,209,rebound,2,PT05M17.00S,05:17,Q2 05:17,49,45,1610612749.0,Parker,Parker REBOUND (Off:1 Def:2),freethrow,turnover,4,Low
+21600066,210,turnover,2,PT04M57.00S,04:57,Q2 04:57,49,45,1610612749.0,Snell,Snell Lost Ball Turnover (P1.T8),rebound,steal,4,Low
+21600066,210,steal,2,PT04M57.00S,04:57,Q2 04:57,49,45,1610612754.0,Ellis,Ellis STEAL (1 STL),turnover,2pt made,4,Low
+21600066,211,2pt,2,PT04M53.00S,04:53,Q2 04:53,49,47,1610612754.0,George,George 4' Pullup Jump Shot (9 PTS) (Ellis 2 AST),steal,foul,2,Low
+21600066,212,foul,2,PT04M53.00S,04:53,Q2 04:53,49,47,1610612749.0,Teletovic,Teletovic S.FOUL (P2.PN) (B.Spooner),2pt made,freethrow,2,Low
+21600066,213,freethrow,2,PT04M53.00S,04:53,Q2 04:53,49,48,1610612754.0,George,George Free Throw 1 of 1 (10 PTS),foul,3pt missed,1,Low
+21600066,215,3pt,2,PT04M43.00S,04:43,Q2 04:43,49,48,1610612749.0,Teletovic,MISS Teletovic 27' 3PT Jump Shot,freethrow,rebound,1,Low
+21600066,216,rebound,2,PT04M42.00S,04:42,Q2 04:42,49,48,1610612754.0,,TEAM defensive REBOUND,3pt missed,2pt made,1,Low
+21600066,217,2pt,2,PT04M19.00S,04:19,Q2 04:19,49,50,1610612754.0,Turner,Turner Cutting Layup Shot (8 PTS) (Ellis 3 AST),rebound,turnover,1,Low
+21600066,218,turnover,2,PT03M57.00S,03:57,Q2 03:57,49,50,1610612749.0,Dellavedova,Dellavedova Out of Bounds - Bad Pass Turnover Turnover (P3.T9),2pt made,2pt missed,1,Low
+21600066,219,2pt,2,PT03M46.00S,03:46,Q2 03:46,49,50,1610612754.0,Young,MISS T. Young Layup,turnover,rebound,1,Low
+21600066,220,rebound,2,PT03M44.00S,03:44,Q2 03:44,49,50,1610612749.0,Plumlee,Plumlee REBOUND (Off:0 Def:1),2pt missed,foul,1,Low
+21600066,221,foul,2,PT03M31.00S,03:31,Q2 03:31,49,50,1610612754.0,Teague,Pacers T.Foul (Def. 3 Sec Teague ) (B.Spooner),rebound,freethrow,1,Low
+21600066,222,freethrow,2,PT03M31.00S,03:31,Q2 03:31,50,50,1610612749.0,Dellavedova,Dellavedova Free Throw Technical (1 PTS),foul,substitution,0,Low
+21600066,224,substitution,2,PT03M31.00S,03:31,Q2 03:31,50,50,1610612749.0,Teletovic,SUB out: M. Teletovic,freethrow,substitution,0,Low
+21600066,225,substitution,2,PT03M31.00S,03:31,Q2 03:31,50,50,1610612749.0,Antetokounmpo,SUB in: G. Antetokounmpo,substitution,2pt made,0,Low
+21600066,225,2pt,2,PT03M24.00S,03:24,Q2 03:24,52,50,1610612749.0,Dellavedova,Dellavedova 5' Hook Shot (3 PTS),substitution,2pt missed,2,Low
+21600066,226,2pt,2,PT03M17.00S,03:17,Q2 03:17,52,50,1610612754.0,Teague,MISS Teague 5' Jump Shot,2pt made,block,2,Low
+21600066,226,block,2,PT03M17.00S,03:17,Q2 03:17,52,50,1610612749.0,Antetokounmpo,Antetokounmpo BLOCK (1 BLK),2pt missed,rebound,2,Low
+21600066,227,rebound,2,PT03M17.00S,03:17,Q2 03:17,52,50,1610612754.0,,TEAM offensive REBOUND,block,timeout,2,Low
+21600066,228,timeout,2,PT03M17.00S,03:17,Q2 03:17,52,50,1610612754.0,,Pacers Timeout: Regular (Reg.2 Short 0),rebound,substitution,2,Low
+21600066,231,substitution,2,PT03M17.00S,03:17,Q2 03:17,52,50,1610612754.0,Turner,SUB out: M. Turner,timeout,substitution,2,Low
+21600066,232,substitution,2,PT03M17.00S,03:17,Q2 03:17,52,50,1610612754.0,Seraphin,SUB in: K. Seraphin,substitution,2pt missed,2,Low
+21600066,233,2pt,2,PT03M01.00S,03:01,Q2 03:01,52,50,1610612754.0,George,MISS George 18' Step Back Jump Shot,substitution,2pt missed,2,Low
+21600066,234,2pt,2,PT02M59.00S,02:59,Q2 02:59,52,50,1610612754.0,Young,MISS T. Young Tip Layup Shot,2pt missed,rebound,2,Low
+21600066,235,rebound,2,PT02M59.00S,02:59,Q2 02:59,52,50,1610612754.0,Young,T. Young REBOUND (Off:1 Def:1),2pt missed,rebound,2,Low
+21600066,236,rebound,2,PT02M57.00S,02:57,Q2 02:57,52,50,1610612749.0,Antetokounmpo,Antetokounmpo REBOUND (Off:0 Def:1),rebound,3pt missed,2,Low
+21600066,237,3pt,2,PT02M46.00S,02:46,Q2 02:46,52,50,1610612749.0,Antetokounmpo,MISS Antetokounmpo 26' 3PT Jump Shot,rebound,rebound,2,Low
+21600066,238,rebound,2,PT02M46.00S,02:46,Q2 02:46,52,50,1610612754.0,,TEAM defensive REBOUND,3pt missed,turnover,2,Low
+21600066,239,turnover,2,PT02M34.00S,02:34,Q2 02:34,52,50,1610612754.0,Ellis,Ellis Bad Pass Turnover (P1.T9),rebound,steal,2,Low
+21600066,239,steal,2,PT02M34.00S,02:34,Q2 02:34,52,50,1610612749.0,Plumlee,Plumlee STEAL (2 STL),turnover,turnover,2,Low
+21600066,240,turnover,2,PT02M31.00S,02:31,Q2 02:31,52,50,1610612749.0,Snell,Snell Bad Pass Turnover (P2.T10),steal,steal,2,Low
+21600066,240,steal,2,PT02M31.00S,02:31,Q2 02:31,52,50,1610612754.0,Ellis,Ellis STEAL (2 STL),turnover,2pt made,2,Low
+21600066,241,2pt,2,PT02M27.00S,02:27,Q2 02:27,52,52,1610612754.0,Young,T. Young Layup (7 PTS) (Ellis 4 AST),steal,2pt made,0,Low
+21600066,242,2pt,2,PT02M06.00S,02:06,Q2 02:06,54,52,1610612749.0,Antetokounmpo,Antetokounmpo 6' Hook Shot (10 PTS),2pt made,foul,2,Low
+21600066,243,foul,2,PT01M57.00S,01:57,Q2 01:57,54,52,1610612749.0,Plumlee,Plumlee S.FOUL (P3.PN) (B.Spooner),2pt made,freethrow,2,Low
+21600066,244,freethrow,2,PT01M57.00S,01:57,Q2 01:57,54,53,1610612754.0,Teague,Teague Free Throw 1 of 2 (10 PTS),foul,freethrow,1,Low
+21600066,246,freethrow,2,PT01M57.00S,01:57,Q2 01:57,54,54,1610612754.0,Teague,Teague Free Throw 2 of 2 (11 PTS),freethrow,2pt missed,0,Low
+21600066,248,2pt,2,PT01M37.00S,01:37,Q2 01:37,54,54,1610612749.0,Plumlee,MISS Plumlee 6' Hook Shot,freethrow,rebound,0,Low
+21600066,249,rebound,2,PT01M35.00S,01:35,Q2 01:35,54,54,1610612754.0,,TEAM defensive REBOUND,2pt missed,2pt missed,0,Low
+21600066,250,2pt,2,PT01M21.00S,01:21,Q2 01:21,54,54,1610612754.0,Young,MISS T. Young 7' Floating Jump Shot,rebound,rebound,0,Low
+21600066,251,rebound,2,PT01M20.00S,01:20,Q2 01:20,54,54,1610612749.0,Plumlee,Plumlee REBOUND (Off:0 Def:2),2pt missed,foul,0,Low
+21600066,252,foul,2,PT01M07.00S,01:07,Q2 01:07,54,54,1610612754.0,George,George S.FOUL (P1.PN) (B.Spooner),rebound,freethrow,0,Low
+21600066,254,freethrow,2,PT01M07.00S,01:07,Q2 01:07,54,54,1610612749.0,Plumlee,MISS Plumlee Free Throw 1 of 2,foul,rebound,0,Low
+21600066,255,rebound,2,PT01M07.00S,01:07,Q2 01:07,54,54,1610612749.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21600066,256,freethrow,2,PT01M07.00S,01:07,Q2 01:07,55,54,1610612749.0,Plumlee,Plumlee Free Throw 2 of 2 (2 PTS),rebound,3pt missed,1,Low
+21600066,258,3pt,2,PT00M55.50S,00:55,Q2 00:55,55,54,1610612754.0,George,MISS George 24' 3PT Jump Shot,freethrow,rebound,1,Low
+21600066,259,rebound,2,PT00M54.60S,00:54,Q2 00:54,55,54,1610612749.0,Dellavedova,Dellavedova REBOUND (Off:0 Def:1),3pt missed,2pt made,1,Low
+21600066,260,2pt,2,PT00M50.60S,00:50,Q2 00:50,57,54,1610612749.0,Parker,Parker Running Layup (12 PTS) (Dellavedova 2 AST),rebound,foul,3,Low
+21600066,261,foul,2,PT00M50.60S,00:50,Q2 00:50,57,54,1610612754.0,Seraphin,Seraphin S.FOUL (P1.PN) (K.Fitzgerald),2pt made,freethrow,3,Low
+21600066,262,freethrow,2,PT00M50.60S,00:50,Q2 00:50,58,54,1610612749.0,Parker,Parker Free Throw 1 of 1 (13 PTS),foul,turnover,4,Low
+21600066,264,turnover,2,PT00M31.90S,00:31,Q2 00:31,58,54,1610612754.0,Teague,Teague Lost Ball Turnover (P2.T10),freethrow,steal,4,Low
+21600066,264,steal,2,PT00M31.90S,00:31,Q2 00:31,58,54,1610612749.0,Snell,Snell STEAL (1 STL),turnover,2pt made,4,Low
+21600066,265,2pt,2,PT00M28.60S,00:28,Q2 00:28,60,54,1610612749.0,Antetokounmpo,Antetokounmpo 1' Running Dunk (12 PTS) (Snell 1 AST),steal,timeout,6,Low
+21600066,266,timeout,2,PT00M26.10S,00:26,Q2 00:26,60,54,1610612754.0,,Pacers Timeout: Short (Reg.2 Short 1),2pt made,substitution,6,Low
+21600066,269,substitution,2,PT00M26.10S,00:26,Q2 00:26,60,54,1610612754.0,Young,SUB out: T. Young,timeout,substitution,6,Low
+21600066,270,substitution,2,PT00M26.10S,00:26,Q2 00:26,60,54,1610612754.0,Miles,SUB in: C. Miles,substitution,3pt made,6,Low
+21600066,270,3pt,2,PT00M09.90S,00:09,Q2 00:09,60,57,1610612754.0,Miles,Miles 27' 3PT Jump Shot (10 PTS) (Ellis 5 AST),substitution,foul,3,Low
+21600066,271,foul,2,PT00M03.50S,00:03,Q2 00:03,60,57,1610612754.0,Seraphin,Seraphin S.FOUL (P2.PN) (K.Fitzgerald),3pt made,freethrow,3,Low
+21600066,272,freethrow,2,PT00M03.50S,00:03,Q2 00:03,60,57,1610612749.0,Antetokounmpo,MISS Antetokounmpo Free Throw 1 of 2,foul,rebound,3,Low
+21600066,273,rebound,2,PT00M03.50S,00:03,Q2 00:03,60,57,1610612749.0,,TEAM offensive REBOUND,freethrow,freethrow,3,Low
+21600066,275,freethrow,2,PT00M03.50S,00:03,Q2 00:03,60,57,1610612749.0,Antetokounmpo,MISS Antetokounmpo Free Throw 2 of 2,rebound,substitution,3,Low
+21600066,274,substitution,2,PT00M03.50S,00:03,Q2 00:03,60,57,1610612754.0,Miles,SUB out: C. Miles,freethrow,substitution,3,Low
+21600066,275,substitution,2,PT00M03.50S,00:03,Q2 00:03,60,57,1610612754.0,Allen,SUB in: L. Allen,substitution,rebound,3,Low
+21600066,277,rebound,2,PT00M02.90S,00:02,Q2 00:02,60,57,1610612749.0,Plumlee,Plumlee REBOUND (Off:1 Def:2),substitution,3pt made,3,Low
+21600066,278,3pt,2,PT00M00.10S,00:00,Q2 00:00,63,57,1610612749.0,Snell,Snell 25' 3PT Jump Shot (9 PTS) (Dellavedova 3 AST),rebound,period,6,Low
+21600066,279,period,2,PT00M00.00S,00:00,Q2 00:00,63,57,1610612749.0,,End of 2nd Period (9:12 PM EST),3pt made,period,6,Low
+21600066,281,period,3,PT12M00.00S,12:00,Q3 12:00,63,57,1610612749.0,,Start of 3rd Period (9:28 PM EST),period,substitution,6,Low
+21600066,282,2pt,3,PT11M46.00S,11:46,Q3 11:46,63,59,1610612754.0,Turner,Turner 21' Jump Shot (10 PTS) (Teague 6 AST),substitution,2pt missed,4,Low
+21600066,283,2pt,3,PT11M30.00S,11:30,Q3 11:30,63,59,1610612749.0,Parker,MISS Parker Layup,2pt made,rebound,4,Low
+21600066,284,rebound,3,PT11M28.00S,11:28,Q3 11:28,63,59,1610612754.0,Young,T. Young REBOUND (Off:1 Def:2),2pt missed,turnover,4,Low
+21600066,285,turnover,3,PT11M28.00S,11:28,Q3 11:28,63,59,1610612754.0,Young,T. Young Out of Bounds - Bad Pass Turnover Turnover (P2.T11),rebound,3pt made,4,Low
+21600066,286,3pt,3,PT11M18.00S,11:18,Q3 11:18,66,59,1610612749.0,Parker,Parker 24' 3PT Jump Shot (16 PTS) (Snell 2 AST),turnover,turnover,7,Low
+21600066,287,turnover,3,PT10M58.00S,10:58,Q3 10:58,66,59,1610612754.0,Turner,Turner Traveling Turnover (P1.T12),3pt made,turnover,7,Low
+21600066,288,turnover,3,PT10M38.00S,10:38,Q3 10:38,66,59,1610612749.0,Parker,Parker Bad Pass Turnover (P2.T11),turnover,foul,7,Low
+21600066,289,foul,3,PT10M38.00S,10:38,Q3 10:38,66,59,1610612749.0,Parker,Parker L.B.FOUL (P2.T1) (K.Fitzgerald),turnover,turnover,7,Low
+21600066,291,turnover,3,PT10M25.00S,10:25,Q3 10:25,66,59,1610612754.0,Teague,Teague Traveling Turnover (P3.T13),foul,2pt made,7,Low
+21600066,292,2pt,3,PT10M15.00S,10:15,Q3 10:15,68,59,1610612749.0,Parker,Parker Driving Dunk (18 PTS) (Antetokounmpo 7 AST),turnover,2pt made,9,Low
+21600066,293,2pt,3,PT09M59.00S,09:59,Q3 09:59,68,61,1610612754.0,George,George 10' Pullup Jump Shot (12 PTS) (Ellis 6 AST),2pt made,3pt missed,7,Low
+21600066,294,3pt,3,PT09M45.00S,09:45,Q3 09:45,68,61,1610612749.0,Parker,MISS Parker 25' 3PT Jump Shot,2pt made,rebound,7,Low
+21600066,295,rebound,3,PT09M44.00S,09:44,Q3 09:44,68,61,1610612754.0,Ellis,Ellis REBOUND (Off:0 Def:3),3pt missed,2pt missed,7,Low
+21600066,296,2pt,3,PT09M34.00S,09:34,Q3 09:34,68,61,1610612754.0,Teague,MISS Teague 4' Jump Shot,rebound,2pt missed,7,Low
+21600066,297,2pt,3,PT09M33.00S,09:33,Q3 09:33,68,61,1610612754.0,Turner,MISS Turner 1' Layup,2pt missed,rebound,7,Low
+21600066,298,rebound,3,PT09M33.00S,09:33,Q3 09:33,68,61,1610612754.0,Turner,Turner REBOUND (Off:1 Def:0),2pt missed,rebound,7,Low
+21600066,299,rebound,3,PT09M33.00S,09:33,Q3 09:33,68,61,1610612749.0,,TEAM defensive REBOUND,rebound,foul,7,Low
+21600066,300,foul,3,PT09M33.00S,09:33,Q3 09:33,68,61,1610612754.0,Turner,Turner L.B.FOUL (P3.T1) (K.Cutler),rebound,3pt missed,7,Low
+21600066,302,3pt,3,PT09M09.00S,09:09,Q3 09:09,68,61,1610612749.0,Snell,MISS Snell 27' 3PT Jump Shot,foul,rebound,7,Low
+21600066,303,rebound,3,PT09M08.00S,09:08,Q3 09:08,68,61,1610612749.0,Parker,Parker REBOUND (Off:2 Def:2),3pt missed,2pt made,7,Low
+21600066,304,2pt,3,PT09M07.00S,09:07,Q3 09:07,70,61,1610612749.0,Parker,Parker 1' Putback Layup (20 PTS),rebound,2pt missed,9,Low
+21600066,305,2pt,3,PT08M49.00S,08:49,Q3 08:49,70,61,1610612754.0,George,MISS George 18' Step Back Jump Shot,2pt made,rebound,9,Low
+21600066,306,rebound,3,PT08M48.00S,08:48,Q3 08:48,70,61,1610612749.0,Antetokounmpo,Antetokounmpo REBOUND (Off:0 Def:2),2pt missed,foul,9,Low
+21600066,307,foul,3,PT08M42.00S,08:42,Q3 08:42,70,61,1610612754.0,Ellis,Ellis Personal Block Foul (P1.T2) (K.Fitzgerald),rebound,foul,9,Low
+21600066,308,foul,3,PT08M39.00S,08:39,Q3 08:39,70,61,1610612754.0,Turner,Turner S.FOUL (P4.T3) (K.Cutler),foul,freethrow,9,Low
+21600066,309,freethrow,3,PT08M39.00S,08:39,Q3 08:39,71,61,1610612749.0,Antetokounmpo,Antetokounmpo Free Throw 1 of 2 (13 PTS),foul,freethrow,10,Low
+21600066,312,freethrow,3,PT08M39.00S,08:39,Q3 08:39,72,61,1610612749.0,Antetokounmpo,Antetokounmpo Free Throw 2 of 2 (14 PTS),freethrow,timeout,11,Low
+21600066,314,timeout,3,PT08M39.00S,08:39,Q3 08:39,72,61,1610612754.0,,Pacers Timeout: Regular (Reg.3 Short 1),freethrow,substitution,11,Low
+21600066,311,substitution,3,PT08M39.00S,08:39,Q3 08:39,71,61,1610612754.0,Turner,SUB out: M. Turner,timeout,substitution,10,Low
+21600066,312,substitution,3,PT08M39.00S,08:39,Q3 08:39,72,61,1610612754.0,Seraphin,SUB out: K. Seraphin,substitution,substitution,11,Low
+21600066,313,substitution,3,PT08M39.00S,08:39,Q3 08:39,71,61,1610612754.0,Seraphin,SUB in: K. Seraphin,substitution,substitution,10,Low
+21600066,314,substitution,3,PT08M39.00S,08:39,Q3 08:39,72,61,1610612754.0,Jefferson,SUB in: A. Jefferson,substitution,turnover,11,Low
+21600066,318,turnover,3,PT08M22.00S,08:22,Q3 08:22,72,61,1610612754.0,Teague,Teague Out of Bounds - Bad Pass Turnover Turnover (P4.T14),substitution,turnover,11,Low
+21600066,319,turnover,3,PT08M11.00S,08:11,Q3 08:11,72,61,1610612749.0,Antetokounmpo,Antetokounmpo Bad Pass Turnover (P3.T12),turnover,steal,11,Low
+21600066,319,steal,3,PT08M11.00S,08:11,Q3 08:11,72,61,1610612754.0,Teague,Teague STEAL (1 STL),turnover,3pt missed,11,Low
+21600066,320,3pt,3,PT08M05.00S,08:05,Q3 08:05,72,61,1610612754.0,George,MISS George 3PT Jump Shot,steal,rebound,11,Low
+21600066,321,rebound,3,PT08M04.00S,08:04,Q3 08:04,72,61,1610612749.0,Parker,Parker REBOUND (Off:2 Def:3),3pt missed,2pt missed,11,Low
+21600066,322,2pt,3,PT07M55.00S,07:55,Q3 07:55,72,61,1610612749.0,Antetokounmpo,MISS Antetokounmpo 1' Layup,rebound,block,11,Low
+21600066,322,block,3,PT07M55.00S,07:55,Q3 07:55,72,61,1610612754.0,George,George BLOCK (2 BLK),2pt missed,rebound,11,Low
+21600066,323,rebound,3,PT07M53.00S,07:53,Q3 07:53,72,61,1610612749.0,Antetokounmpo,Antetokounmpo REBOUND (Off:1 Def:2),block,2pt missed,11,Low
+21600066,324,2pt,3,PT07M52.00S,07:52,Q3 07:52,72,61,1610612749.0,Antetokounmpo,MISS Antetokounmpo 2' Layup,rebound,block,11,Low
+21600066,324,block,3,PT07M52.00S,07:52,Q3 07:52,72,61,1610612754.0,Jefferson,Jefferson BLOCK (1 BLK),2pt missed,rebound,11,Low
+21600066,325,rebound,3,PT07M50.00S,07:50,Q3 07:50,72,61,1610612754.0,George,George REBOUND (Off:0 Def:3),block,turnover,11,Low
+21600066,326,turnover,3,PT07M47.00S,07:47,Q3 07:47,72,61,1610612754.0,George,George Lost Ball Turnover (P5.T15),rebound,steal,11,Low
+21600066,326,steal,3,PT07M47.00S,07:47,Q3 07:47,72,61,1610612749.0,Dellavedova,Dellavedova STEAL (1 STL),turnover,2pt made,11,Low
+21600066,327,2pt,3,PT07M44.00S,07:44,Q3 07:44,74,61,1610612749.0,Parker,Parker Running Dunk (22 PTS),steal,foul,13,Low
+21600066,328,foul,3,PT07M27.00S,07:27,Q3 07:27,74,61,1610612749.0,Dellavedova,Dellavedova P.FOUL (P2.T2) (K.Fitzgerald),2pt made,substitution,13,Low
+21600066,329,substitution,3,PT07M27.00S,07:27,Q3 07:27,74,61,1610612749.0,Snell,SUB out: T. Snell,foul,substitution,13,Low
+21600066,330,substitution,3,PT07M27.00S,07:27,Q3 07:27,74,61,1610612749.0,Terry,SUB in: J. Terry,substitution,2pt missed,13,Low
+21600066,330,2pt,3,PT07M17.00S,07:17,Q3 07:17,74,61,1610612754.0,Jefferson,MISS Jefferson Layup,substitution,block,13,Low
+21600066,330,block,3,PT07M17.00S,07:17,Q3 07:17,74,61,1610612749.0,Antetokounmpo,Antetokounmpo BLOCK (2 BLK),2pt missed,rebound,13,Low
+21600066,331,rebound,3,PT07M15.00S,07:15,Q3 07:15,74,61,1610612749.0,Parker,Parker REBOUND (Off:2 Def:4),block,turnover,13,Low
+21600066,332,turnover,3,PT07M13.00S,07:13,Q3 07:13,74,61,1610612749.0,Parker,Parker Lost Ball Turnover (P3.T13),rebound,steal,13,Low
+21600066,332,steal,3,PT07M13.00S,07:13,Q3 07:13,74,61,1610612754.0,Teague,Teague STEAL (2 STL),turnover,foul,13,Low
+21600066,333,foul,3,PT07M12.00S,07:12,Q3 07:12,74,61,1610612749.0,Dellavedova,Dellavedova Personal Take Foul (P3.T3) (K.Cutler),steal,substitution,13,Low
+21600066,334,substitution,3,PT07M12.00S,07:12,Q3 07:12,74,61,1610612749.0,Plumlee,SUB out: M. Plumlee,foul,substitution,13,Low
+21600066,335,substitution,3,PT07M12.00S,07:12,Q3 07:12,74,61,1610612749.0,Monroe,SUB in: G. Monroe,substitution,3pt made,13,Low
+21600066,335,3pt,3,PT07M03.00S,07:03,Q3 07:03,74,64,1610612754.0,George,George 3PT Jump Shot (15 PTS) (Ellis 7 AST),substitution,3pt missed,10,Low
+21600066,336,3pt,3,PT06M38.00S,06:38,Q3 06:38,74,64,1610612749.0,Dellavedova,MISS Dellavedova 26' 3PT Jump Shot,3pt made,rebound,10,Low
+21600066,337,rebound,3,PT06M36.00S,06:36,Q3 06:36,74,64,1610612749.0,Parker,Parker REBOUND (Off:3 Def:4),3pt missed,3pt missed,10,Low
+21600066,338,3pt,3,PT06M34.00S,06:34,Q3 06:34,74,64,1610612749.0,Dellavedova,MISS Dellavedova 25' 3PT Jump Shot,rebound,rebound,10,Low
+21600066,339,rebound,3,PT06M33.00S,06:33,Q3 06:33,74,64,1610612754.0,George,George REBOUND (Off:0 Def:4),3pt missed,foul,10,Low
+21600066,340,foul,3,PT06M22.00S,06:22,Q3 06:22,74,64,1610612749.0,Monroe,Monroe S.FOUL (P1.T4) (K.Fitzgerald),rebound,freethrow,10,Low
+21600066,341,freethrow,3,PT06M22.00S,06:22,Q3 06:22,74,65,1610612754.0,Jefferson,Jefferson Free Throw 1 of 2 (2 PTS),foul,freethrow,9,Low
+21600066,344,freethrow,3,PT06M22.00S,06:22,Q3 06:22,74,66,1610612754.0,Jefferson,Jefferson Free Throw 2 of 2 (3 PTS),freethrow,substitution,8,Low
+21600066,343,substitution,3,PT06M22.00S,06:22,Q3 06:22,74,65,1610612749.0,Dellavedova,SUB out: M. Dellavedova,freethrow,substitution,9,Low
+21600066,344,substitution,3,PT06M22.00S,06:22,Q3 06:22,74,65,1610612749.0,Brogdon,SUB in: M. Brogdon,substitution,2pt made,9,Low
+21600066,346,2pt,3,PT06M09.00S,06:09,Q3 06:09,76,66,1610612749.0,Monroe,Monroe 1' Cutting Layup Shot (9 PTS) (Parker 2 AST),substitution,3pt missed,10,Low
+21600066,348,3pt,3,PT05M54.00S,05:54,Q3 05:54,76,66,1610612754.0,Teague,MISS Teague 27' 3PT Jump Shot,2pt made,rebound,10,Low
+21600066,349,rebound,3,PT05M52.00S,05:52,Q3 05:52,76,66,1610612749.0,Antetokounmpo,Antetokounmpo REBOUND (Off:1 Def:3),3pt missed,3pt made,10,Low
+21600066,350,3pt,3,PT05M46.00S,05:46,Q3 05:46,79,66,1610612749.0,Brogdon,Brogdon 24' 3PT Jump Shot (10 PTS) (Antetokounmpo 8 AST),rebound,foul,13,Low
+21600066,351,foul,3,PT05M41.00S,05:41,Q3 05:41,79,66,1610612749.0,Brogdon,Brogdon P.FOUL (P1.PN) (B.Spooner),3pt made,freethrow,13,Low
+21600066,352,freethrow,3,PT05M41.00S,05:41,Q3 05:41,79,66,1610612754.0,Teague,MISS Teague Free Throw 1 of 2,foul,rebound,13,Low
+21600066,353,rebound,3,PT05M41.00S,05:41,Q3 05:41,79,66,1610612754.0,,TEAM offensive REBOUND,freethrow,freethrow,13,Low
+21600066,355,freethrow,3,PT05M41.00S,05:41,Q3 05:41,79,67,1610612754.0,Teague,Teague Free Throw 2 of 2 (12 PTS),rebound,substitution,12,Low
+21600066,354,substitution,3,PT05M41.00S,05:41,Q3 05:41,79,66,1610612749.0,Parker,SUB out: J. Parker,freethrow,substitution,13,Low
+21600066,355,substitution,3,PT05M41.00S,05:41,Q3 05:41,79,66,1610612749.0,Teletovic,SUB in: M. Teletovic,substitution,substitution,13,Low
+21600066,358,substitution,3,PT05M22.00S,05:22,Q3 05:22,79,67,1610612754.0,Young,SUB out: T. Young,substitution,substitution,12,Low
+21600066,359,substitution,3,PT05M22.00S,05:22,Q3 05:22,79,67,1610612754.0,Miles,SUB in: C. Miles,substitution,2pt made,12,Low
+21600066,359,2pt,3,PT05M16.00S,05:16,Q3 05:16,81,67,1610612749.0,Antetokounmpo,Antetokounmpo 7' Fadeaway Jumper (16 PTS) (Brogdon 3 AST),substitution,2pt missed,14,Low
+21600066,360,2pt,3,PT05M04.00S,05:04,Q3 05:04,81,67,1610612754.0,George,MISS George 11' Jump Shot,2pt made,rebound,14,Low
+21600066,361,rebound,3,PT05M03.00S,05:03,Q3 05:03,81,67,1610612754.0,Jefferson,Jefferson REBOUND (Off:2 Def:2),2pt missed,2pt missed,14,Low
+21600066,362,2pt,3,PT05M02.00S,05:02,Q3 05:02,81,67,1610612754.0,Jefferson,MISS Jefferson 2' Layup,rebound,rebound,14,Low
+21600066,363,rebound,3,PT05M01.00S,05:01,Q3 05:01,81,67,1610612749.0,Brogdon,Brogdon REBOUND (Off:0 Def:2),2pt missed,turnover,14,Low
+21600066,364,turnover,3,PT04M43.00S,04:43,Q3 04:43,81,67,1610612749.0,Antetokounmpo,Antetokounmpo Lost Ball Turnover (P4.T14),rebound,steal,14,Low
+21600066,364,steal,3,PT04M43.00S,04:43,Q3 04:43,81,67,1610612754.0,Teague,Teague STEAL (3 STL),turnover,2pt missed,14,Low
+21600066,365,2pt,3,PT04M38.00S,04:38,Q3 04:38,81,67,1610612754.0,Teague,MISS Teague 1' Layup,steal,rebound,14,Low
+21600066,366,rebound,3,PT04M36.00S,04:36,Q3 04:36,81,67,1610612749.0,Antetokounmpo,Antetokounmpo REBOUND (Off:1 Def:4),2pt missed,turnover,14,Low
+21600066,367,turnover,3,PT04M17.00S,04:17,Q3 04:17,81,67,1610612749.0,Terry,Terry Bad Pass Turnover (P1.T15),rebound,steal,14,Low
+21600066,367,steal,3,PT04M17.00S,04:17,Q3 04:17,81,67,1610612754.0,Miles,Miles STEAL (2 STL),turnover,2pt made,14,Low
+21600066,368,2pt,3,PT04M11.00S,04:11,Q3 04:11,81,69,1610612754.0,Teague,Teague Driving Dunk (14 PTS) (Miles 2 AST),steal,timeout,12,Low
+21600066,369,timeout,3,PT04M11.00S,04:11,Q3 04:11,81,69,1610612749.0,,BUCKS Timeout: Regular (Full 3 Short 0),2pt made,instant replay,12,Low
+21600066,371,substitution,3,PT04M11.00S,04:11,Q3 04:11,81,69,1610612749.0,Antetokounmpo,SUB out: G. Antetokounmpo,instant replay,substitution,12,Low
+21600066,372,substitution,3,PT04M11.00S,04:11,Q3 04:11,81,69,1610612749.0,Beasley,SUB in: M. Beasley,substitution,foul,12,Low
+21600066,374,foul,3,PT03M58.00S,03:58,Q3 03:58,81,69,1610612754.0,Jefferson,Jefferson S.FOUL (P1.T4) (K.Fitzgerald),substitution,freethrow,12,Low
+21600066,376,freethrow,3,PT03M58.00S,03:58,Q3 03:58,82,69,1610612749.0,Terry,Terry Free Throw 1 of 2 (6 PTS),foul,freethrow,13,Low
+21600066,378,freethrow,3,PT03M58.00S,03:58,Q3 03:58,83,69,1610612749.0,Terry,Terry Free Throw 2 of 2 (7 PTS),freethrow,3pt missed,14,Low
+21600066,380,3pt,3,PT03M43.00S,03:43,Q3 03:43,83,69,1610612754.0,Ellis,MISS Ellis 24' 3PT Jump Shot,freethrow,rebound,14,Low
+21600066,381,rebound,3,PT03M42.00S,03:42,Q3 03:42,83,69,1610612749.0,Monroe,Monroe REBOUND (Off:4 Def:6),3pt missed,foul,14,Low
+21600066,382,foul,3,PT03M28.00S,03:28,Q3 03:28,83,69,1610612754.0,Miles,Miles S.FOUL (P2.PN) (K.Cutler),rebound,freethrow,14,Low
+21600066,383,freethrow,3,PT03M28.00S,03:28,Q3 03:28,84,69,1610612749.0,Monroe,Monroe Free Throw 1 of 2 (10 PTS),foul,freethrow,15,Low
+21600066,386,freethrow,3,PT03M28.00S,03:28,Q3 03:28,85,69,1610612749.0,Monroe,Monroe Free Throw 2 of 2 (11 PTS),freethrow,substitution,16,Low
+21600066,385,substitution,3,PT03M28.00S,03:28,Q3 03:28,84,69,1610612754.0,George,SUB out: P. George,freethrow,substitution,15,Low
+21600066,386,substitution,3,PT03M28.00S,03:28,Q3 03:28,84,69,1610612754.0,Allen,SUB in: L. Allen,substitution,foul,15,Low
+21600066,388,foul,3,PT03M26.00S,03:26,Q3 03:26,85,69,1610612749.0,Teletovic,Teletovic P.FOUL (P3.PN) (K.Fitzgerald),substitution,freethrow,16,Low
+21600066,389,freethrow,3,PT03M26.00S,03:26,Q3 03:26,85,70,1610612754.0,Teague,Teague Free Throw 1 of 2 (15 PTS),foul,freethrow,15,Low
+21600066,391,freethrow,3,PT03M26.00S,03:26,Q3 03:26,85,71,1610612754.0,Teague,Teague Free Throw 2 of 2 (16 PTS),freethrow,2pt made,14,Low
+21600066,393,2pt,3,PT03M14.00S,03:14,Q3 03:14,87,71,1610612749.0,Beasley,Beasley 19' Jump Shot (4 PTS) (Monroe 5 AST),freethrow,3pt missed,16,Low
+21600066,394,3pt,3,PT02M48.00S,02:48,Q3 02:48,87,71,1610612754.0,Miles,MISS Miles 24' 3PT Jump Shot,2pt made,rebound,16,Low
+21600066,395,rebound,3,PT02M48.00S,02:48,Q3 02:48,87,71,1610612749.0,,TEAM defensive REBOUND,3pt missed,foul,16,Low
+21600066,396,foul,3,PT02M48.00S,02:48,Q3 02:48,87,71,1610612754.0,Jefferson,Jefferson L.B.FOUL (P2.PN) (K.Fitzgerald),rebound,freethrow,16,Low
+21600066,397,freethrow,3,PT02M48.00S,02:48,Q3 02:48,87,71,1610612749.0,Monroe,MISS Monroe Free Throw 1 of 2,foul,rebound,16,Low
+21600066,398,rebound,3,PT02M48.00S,02:48,Q3 02:48,87,71,1610612749.0,,TEAM offensive REBOUND,freethrow,freethrow,16,Low
+21600066,400,freethrow,3,PT02M48.00S,02:48,Q3 02:48,88,71,1610612749.0,Monroe,Monroe Free Throw 2 of 2 (12 PTS),rebound,substitution,17,Low
+21600066,399,substitution,3,PT02M48.00S,02:48,Q3 02:48,87,71,1610612754.0,Teague,SUB out: J. Teague,freethrow,substitution,16,Low
+21600066,400,substitution,3,PT02M48.00S,02:48,Q3 02:48,87,71,1610612754.0,Brooks,SUB in: A. Brooks,substitution,2pt missed,16,Low
+21600066,402,2pt,3,PT02M29.00S,02:29,Q3 02:29,88,71,1610612754.0,Jefferson,MISS Jefferson 5' Jump Shot,substitution,rebound,17,Low
+21600066,403,rebound,3,PT02M28.00S,02:28,Q3 02:28,88,71,1610612754.0,Jefferson,Jefferson REBOUND (Off:3 Def:2),2pt missed,2pt made,17,Low
+21600066,404,2pt,3,PT02M27.00S,02:27,Q3 02:27,88,73,1610612754.0,Jefferson,Jefferson 1' Putback Layup (5 PTS),rebound,foul,15,Low
+21600066,405,foul,3,PT02M16.00S,02:16,Q3 02:16,88,73,1610612754.0,Brooks,Brooks S.FOUL (P3.PN) (B.Spooner),2pt made,freethrow,15,Low
+21600066,406,freethrow,3,PT02M16.00S,02:16,Q3 02:16,89,73,1610612749.0,Brogdon,Brogdon Free Throw 1 of 2 (11 PTS),foul,freethrow,16,Low
+21600066,408,freethrow,3,PT02M16.00S,02:16,Q3 02:16,90,73,1610612749.0,Brogdon,Brogdon Free Throw 2 of 2 (12 PTS),freethrow,2pt missed,17,Low
+21600066,410,2pt,3,PT01M56.00S,01:56,Q3 01:56,90,73,1610612754.0,Jefferson,MISS Jefferson 2' Layup,freethrow,block,17,Low
+21600066,410,block,3,PT01M56.00S,01:56,Q3 01:56,90,73,1610612749.0,Monroe,Monroe BLOCK (1 BLK),2pt missed,rebound,17,Low
+21600066,411,rebound,3,PT01M54.00S,01:54,Q3 01:54,90,73,1610612754.0,Miles,Miles REBOUND (Off:1 Def:0),block,2pt made,17,Low
+21600066,412,2pt,3,PT01M52.00S,01:52,Q3 01:52,90,75,1610612754.0,Miles,Miles 3' Layup (12 PTS),rebound,foul,15,Low
+21600066,413,foul,3,PT01M42.00S,01:42,Q3 01:42,90,75,1610612749.0,Beasley,Beasley Offensive Charge Foul (P3) (K.Cutler),2pt made,turnover,15,Low
+21600066,414,turnover,3,PT01M42.00S,01:42,Q3 01:42,90,75,1610612749.0,Beasley,Beasley Foul Turnover (P2.T16),foul,2pt made,15,Low
+21600066,416,2pt,3,PT01M21.00S,01:21,Q3 01:21,90,77,1610612754.0,Allen,Allen 4' Jump Shot (2 PTS) (Brooks 2 AST),turnover,2pt missed,13,Low
+21600066,417,2pt,3,PT01M01.00S,01:01,Q3 01:01,90,77,1610612749.0,Beasley,MISS Beasley 19' Jump Shot,2pt made,rebound,13,Low
+21600066,418,rebound,3,PT00M59.60S,00:59,Q3 00:59,90,77,1610612754.0,Allen,Allen REBOUND (Off:0 Def:2),2pt missed,2pt missed,13,Low
+21600066,419,2pt,3,PT00M45.50S,00:45,Q3 00:45,90,77,1610612754.0,Jefferson,MISS Jefferson 14' Jump Shot,rebound,rebound,13,Low
+21600066,420,rebound,3,PT00M43.80S,00:43,Q3 00:43,90,77,1610612749.0,Monroe,Monroe REBOUND (Off:4 Def:7),2pt missed,2pt missed,13,Low
+21600066,421,2pt,3,PT00M31.80S,00:31,Q3 00:31,90,77,1610612749.0,Brogdon,MISS Brogdon 16' Jump Shot,rebound,rebound,13,Low
+21600066,422,rebound,3,PT00M30.80S,00:30,Q3 00:30,90,77,1610612754.0,Miles,Miles REBOUND (Off:1 Def:1),2pt missed,2pt made,13,Low
+21600066,423,2pt,3,PT00M14.10S,00:14,Q3 00:14,90,79,1610612754.0,Miles,Miles 1' Driving Layup (14 PTS) (Allen 2 AST),rebound,period,11,Low
+21600066,425,period,3,PT00M00.00S,00:00,Q3 00:00,90,79,1610612749.0,,End of 3rd Period (9:55 PM EST),2pt made,period,11,Low
+21600066,427,period,4,PT12M00.00S,12:00,Q4 12:00,90,79,1610612749.0,,Start of 4th Period (9:58 PM EST),period,substitution,11,Low
+21600066,428,2pt,4,PT11M48.00S,11:48,Q4 11:48,90,79,1610612749.0,Beasley,MISS Beasley 13' Jump Shot,substitution,rebound,11,Low
+21600066,429,rebound,4,PT11M48.00S,11:48,Q4 11:48,90,79,1610612749.0,Monroe,Monroe REBOUND (Off:5 Def:7),2pt missed,foul,11,Low
+21600066,430,foul,4,PT11M48.00S,11:48,Q4 11:48,90,79,1610612754.0,Brooks,Brooks P.FOUL (P4.T1) (K.Cutler),rebound,2pt made,11,Low
+21600066,431,2pt,4,PT11M32.00S,11:32,Q4 11:32,92,79,1610612749.0,Parker,Parker 3' Jump Shot (24 PTS) (Monroe 6 AST),foul,2pt missed,13,Low
+21600066,432,2pt,4,PT11M14.00S,11:14,Q4 11:14,92,79,1610612754.0,Allen,MISS Allen 18' Jump Shot,2pt made,rebound,13,Low
+21600066,433,rebound,4,PT11M13.00S,11:13,Q4 11:13,92,79,1610612749.0,Monroe,Monroe REBOUND (Off:5 Def:8),2pt missed,turnover,13,Low
+21600066,434,turnover,4,PT11M03.00S,11:03,Q4 11:03,92,79,1610612749.0,Parker,Parker Bad Pass Turnover (P4.T17),rebound,steal,13,Low
+21600066,434,steal,4,PT11M03.00S,11:03,Q4 11:03,92,79,1610612754.0,Miles,Miles STEAL (3 STL),turnover,3pt missed,13,Low
+21600066,435,3pt,4,PT10M55.00S,10:55,Q4 10:55,92,79,1610612754.0,George,MISS George 24' 3PT Jump Shot,steal,rebound,13,Low
+21600066,436,rebound,4,PT10M54.00S,10:54,Q4 10:54,92,79,1610612754.0,George,George REBOUND (Off:1 Def:4),3pt missed,foul,13,Low
+21600066,438,foul,4,PT10M53.00S,10:53,Q4 10:53,92,79,1610612754.0,George,George Offensive Charge Foul (P2) (K.Cutler),rebound,turnover,13,Low
+21600066,439,turnover,4,PT10M53.00S,10:53,Q4 10:53,92,79,1610612754.0,George,George Foul Turnover (P6.T16),foul,foul,13,Low
+21600066,440,foul,4,PT10M41.00S,10:41,Q4 10:41,92,79,1610612754.0,Brooks,Brooks P.FOUL (P5.T2) (K.Cutler),turnover,3pt made,13,Low
+21600066,441,3pt,4,PT10M37.00S,10:37,Q4 10:37,95,79,1610612749.0,Parker,Parker 3PT Jump Shot (27 PTS) (Monroe 7 AST),foul,2pt missed,16,Low
+21600066,442,2pt,4,PT10M15.00S,10:15,Q4 10:15,95,79,1610612754.0,Miles,MISS Miles 13' Pullup Jump Shot,3pt made,rebound,16,Low
+21600066,443,rebound,4,PT10M14.00S,10:14,Q4 10:14,95,79,1610612754.0,,TEAM offensive REBOUND,2pt missed,2pt missed,16,Low
+21600066,444,2pt,4,PT10M06.00S,10:06,Q4 10:06,95,79,1610612754.0,Brooks,MISS Brooks 1' Driving Layup,rebound,rebound,16,Low
+21600066,445,rebound,4,PT10M03.00S,10:03,Q4 10:03,95,79,1610612749.0,Monroe,Monroe REBOUND (Off:5 Def:9),2pt missed,turnover,16,Low
+21600066,446,turnover,4,PT09M56.00S,09:56,Q4 09:56,95,79,1610612749.0,Monroe,Monroe Bad Pass Turnover (P1.T18),rebound,steal,16,Low
+21600066,446,steal,4,PT09M56.00S,09:56,Q4 09:56,95,79,1610612754.0,Brooks,Brooks STEAL (1 STL),turnover,turnover,16,Low
+21600066,449,turnover,4,PT09M51.00S,09:51,Q4 09:51,95,79,1610612754.0,Brooks,Brooks Lost Ball Turnover (P3.T17),steal,2pt missed,16,Low
+21600066,450,2pt,4,PT09M38.00S,09:38,Q4 09:38,95,79,1610612749.0,Beasley,MISS Beasley 1' Driving Layup,turnover,rebound,16,Low
+21600066,451,rebound,4,PT09M36.00S,09:36,Q4 09:36,95,79,1610612754.0,Jefferson,Jefferson REBOUND (Off:3 Def:3),2pt missed,3pt made,16,Low
+21600066,453,3pt,4,PT09M28.00S,09:28,Q4 09:28,95,82,1610612754.0,George,George 24' 3PT Jump Shot (18 PTS) (Brooks 3 AST),rebound,2pt missed,13,Low
+21600066,454,2pt,4,PT09M13.00S,09:13,Q4 09:13,95,82,1610612749.0,Parker,MISS Parker 20' Jump Shot,3pt made,rebound,13,Low
+21600066,455,rebound,4,PT09M12.00S,09:12,Q4 09:12,95,82,1610612754.0,Jefferson,Jefferson REBOUND (Off:3 Def:4),2pt missed,2pt missed,13,Low
+21600066,456,2pt,4,PT08M57.00S,08:57,Q4 08:57,95,82,1610612754.0,George,MISS George 5' Jump Shot,rebound,block,13,Low
+21600066,456,block,4,PT08M57.00S,08:57,Q4 08:57,95,82,1610612749.0,Beasley,Beasley BLOCK (1 BLK),2pt missed,rebound,13,Low
+21600066,457,rebound,4,PT08M57.00S,08:57,Q4 08:57,95,82,1610612754.0,,TEAM offensive REBOUND,block,timeout,13,Low
+21600066,458,timeout,4,PT08M57.00S,08:57,Q4 08:57,95,82,0.0,,Timeout: Official,rebound,substitution,13,Low
+21600066,460,substitution,4,PT08M57.00S,08:57,Q4 08:57,95,82,1610612754.0,Jefferson,SUB out: A. Jefferson,timeout,substitution,13,Low
+21600066,461,substitution,4,PT08M57.00S,08:57,Q4 08:57,95,82,1610612754.0,Allen,SUB out: L. Allen,substitution,substitution,13,Low
+21600066,462,substitution,4,PT08M57.00S,08:57,Q4 08:57,95,82,1610612749.0,Terry,SUB out: J. Terry,substitution,substitution,13,Low
+21600066,463,substitution,4,PT08M57.00S,08:57,Q4 08:57,95,82,1610612749.0,Beasley,SUB out: M. Beasley,substitution,substitution,13,Low
+21600066,464,substitution,4,PT08M57.00S,08:57,Q4 08:57,95,82,1610612754.0,Young,SUB in: T. Young,substitution,substitution,13,Low
+21600066,465,substitution,4,PT08M57.00S,08:57,Q4 08:57,95,82,1610612754.0,Turner,SUB in: M. Turner,substitution,substitution,13,Low
+21600066,466,substitution,4,PT08M57.00S,08:57,Q4 08:57,95,82,1610612749.0,Antetokounmpo,SUB in: G. Antetokounmpo,substitution,substitution,13,Low
+21600066,467,substitution,4,PT08M57.00S,08:57,Q4 08:57,95,82,1610612749.0,Snell,SUB in: T. Snell,substitution,foul,13,Low
+21600066,464,foul,4,PT08M56.00S,08:56,Q4 08:56,95,82,1610612749.0,Monroe,Monroe S.FOUL (P2.T1) (K.Fitzgerald),substitution,freethrow,13,Low
+21600066,465,freethrow,4,PT08M56.00S,08:56,Q4 08:56,95,83,1610612754.0,Turner,Turner Free Throw 1 of 2 (11 PTS),foul,freethrow,12,Low
+21600066,467,freethrow,4,PT08M56.00S,08:56,Q4 08:56,95,84,1610612754.0,Turner,Turner Free Throw 2 of 2 (12 PTS),freethrow,2pt missed,11,Low
+21600066,469,2pt,4,PT08M43.00S,08:43,Q4 08:43,95,84,1610612749.0,Monroe,MISS Monroe 1' Layup,freethrow,block,11,Low
+21600066,469,block,4,PT08M43.00S,08:43,Q4 08:43,95,84,1610612754.0,George,George BLOCK (3 BLK),2pt missed,rebound,11,Low
+21600066,470,rebound,4,PT08M40.00S,08:40,Q4 08:40,95,84,1610612754.0,Miles,Miles REBOUND (Off:1 Def:2),block,2pt made,11,Low
+21600066,471,2pt,4,PT08M37.00S,08:37,Q4 08:37,95,86,1610612754.0,Young,T. Young 1' Running Layup (9 PTS) (Brooks 4 AST),rebound,2pt missed,9,Low
+21600066,472,2pt,4,PT08M25.00S,08:25,Q4 08:25,95,86,1610612749.0,Antetokounmpo,MISS Antetokounmpo 2' Driving Layup,2pt made,rebound,9,Low
+21600066,473,rebound,4,PT08M23.00S,08:23,Q4 08:23,95,86,1610612749.0,Antetokounmpo,Antetokounmpo REBOUND (Off:2 Def:4),2pt missed,2pt made,9,Low
+21600066,474,2pt,4,PT08M22.00S,08:22,Q4 08:22,97,86,1610612749.0,Antetokounmpo,Antetokounmpo Putback Layup (18 PTS),rebound,2pt made,11,Low
+21600066,475,2pt,4,PT08M05.00S,08:05,Q4 08:05,97,88,1610612754.0,Miles,Miles 19' Jump Shot (16 PTS) (Brooks 5 AST),2pt made,2pt missed,9,Low
+21600066,476,2pt,4,PT07M49.00S,07:49,Q4 07:49,97,88,1610612749.0,Monroe,MISS Monroe 4' Jump Shot,2pt made,rebound,9,Low
+21600066,477,rebound,4,PT07M48.00S,07:48,Q4 07:48,97,88,1610612754.0,Turner,Turner REBOUND (Off:1 Def:1),2pt missed,3pt missed,9,Low
+21600066,478,3pt,4,PT07M32.00S,07:32,Q4 07:32,97,88,1610612754.0,Young,MISS T. Young 24' 3PT Jump Shot,rebound,rebound,9,Low
+21600066,479,rebound,4,PT07M31.00S,07:31,Q4 07:31,97,88,1610612749.0,Monroe,Monroe REBOUND (Off:5 Def:10),3pt missed,2pt made,9,Low
+21600066,480,2pt,4,PT07M11.00S,07:11,Q4 07:11,99,88,1610612749.0,Antetokounmpo,Antetokounmpo Driving Layup (20 PTS),rebound,turnover,11,Low
+21600066,481,turnover,4,PT06M55.00S,06:55,Q4 06:55,99,88,1610612754.0,Brooks,Brooks Lost Ball Turnover (P4.T18),2pt made,steal,11,Low
+21600066,481,steal,4,PT06M55.00S,06:55,Q4 06:55,99,88,1610612749.0,Brogdon,Brogdon STEAL (2 STL),turnover,2pt made,11,Low
+21600066,482,2pt,4,PT06M51.00S,06:51,Q4 06:51,101,88,1610612749.0,Monroe,Monroe Running Dunk (14 PTS),steal,timeout,13,Low
+21600066,483,timeout,4,PT06M51.00S,06:51,Q4 06:51,101,88,1610612754.0,,Pacers Timeout: Regular (Reg.4 Short 1),2pt made,substitution,13,Low
+21600066,485,substitution,4,PT06M51.00S,06:51,Q4 06:51,101,88,1610612754.0,Brooks,SUB out: A. Brooks,timeout,substitution,13,Low
+21600066,486,substitution,4,PT06M51.00S,06:51,Q4 06:51,101,88,1610612749.0,Brogdon,SUB out: M. Brogdon,substitution,substitution,13,Low
+21600066,487,substitution,4,PT06M51.00S,06:51,Q4 06:51,101,88,1610612754.0,Ellis,SUB in: M. Ellis,substitution,substitution,13,Low
+21600066,488,substitution,4,PT06M51.00S,06:51,Q4 06:51,101,88,1610612749.0,Dellavedova,SUB in: M. Dellavedova,substitution,2pt made,13,Low
+21600066,487,2pt,4,PT06M39.00S,06:39,Q4 06:39,101,90,1610612754.0,Ellis,Ellis 1' Driving Reverse Layup (4 PTS),substitution,2pt made,11,Low
+21600066,488,2pt,4,PT06M23.00S,06:23,Q4 06:23,103,90,1610612749.0,Dellavedova,Dellavedova 7' Driving Floating Jump Shot (5 PTS),2pt made,3pt made,13,Low
+21600066,489,3pt,4,PT06M06.00S,06:06,Q4 06:06,103,93,1610612754.0,George,George 24' 3PT Jump Shot (21 PTS) (Turner 1 AST),2pt made,2pt missed,10,Low
+21600066,490,2pt,4,PT05M50.00S,05:50,Q4 05:50,103,93,1610612749.0,Dellavedova,MISS Dellavedova 9' Driving Floating Jump Shot,3pt made,rebound,10,Medium
+21600066,491,rebound,4,PT05M48.00S,05:48,Q4 05:48,103,93,1610612749.0,Monroe,Monroe REBOUND (Off:6 Def:10),2pt missed,2pt made,10,Medium
+21600066,492,2pt,4,PT05M47.00S,05:47,Q4 05:47,105,93,1610612749.0,Monroe,Monroe Putback Layup (16 PTS),rebound,3pt made,12,Medium
+21600066,493,3pt,4,PT05M32.00S,05:32,Q4 05:32,105,96,1610612754.0,Turner,Turner 27' 3PT Jump Shot (15 PTS) (Ellis 8 AST),2pt made,2pt made,9,Medium
+21600066,494,2pt,4,PT05M10.00S,05:10,Q4 05:10,107,96,1610612749.0,Antetokounmpo,Antetokounmpo Driving Finger Roll Layup (22 PTS),3pt made,2pt missed,11,Medium
+21600066,495,2pt,4,PT04M52.00S,04:52,Q4 04:52,107,96,1610612754.0,George,MISS George 19' Jump Shot,2pt made,rebound,11,Medium
+21600066,496,rebound,4,PT04M51.00S,04:51,Q4 04:51,107,96,1610612749.0,Snell,Snell REBOUND (Off:0 Def:1),2pt missed,2pt missed,11,Medium
+21600066,497,2pt,4,PT04M33.00S,04:33,Q4 04:33,107,96,1610612749.0,Parker,MISS Parker 10' Jump Shot,rebound,rebound,11,Medium
+21600066,498,rebound,4,PT04M31.00S,04:31,Q4 04:31,107,96,1610612754.0,Young,T. Young REBOUND (Off:1 Def:3),2pt missed,foul,11,Medium
+21600066,499,foul,4,PT04M28.00S,04:28,Q4 04:28,107,96,1610612749.0,Dellavedova,Dellavedova S.FOUL (P4.T2) (K.Fitzgerald),rebound,freethrow,11,Medium
+21600066,500,freethrow,4,PT04M28.00S,04:28,Q4 04:28,107,97,1610612754.0,Ellis,Ellis Free Throw 1 of 2 (5 PTS),foul,freethrow,10,Medium
+21600066,504,freethrow,4,PT04M28.00S,04:28,Q4 04:28,107,98,1610612754.0,Ellis,Ellis Free Throw 2 of 2 (6 PTS),freethrow,substitution,9,Medium
+21600066,502,substitution,4,PT04M28.00S,04:28,Q4 04:28,107,97,1610612749.0,Monroe,SUB out: G. Monroe,freethrow,substitution,10,Medium
+21600066,503,substitution,4,PT04M28.00S,04:28,Q4 04:28,107,97,1610612754.0,Young,SUB out: T. Young,substitution,substitution,10,Medium
+21600066,504,substitution,4,PT04M28.00S,04:28,Q4 04:28,107,97,1610612749.0,Plumlee,SUB in: M. Plumlee,substitution,substitution,10,Medium
+21600066,505,substitution,4,PT04M28.00S,04:28,Q4 04:28,107,97,1610612754.0,Teague,SUB in: J. Teague,substitution,turnover,10,Medium
+21600066,506,turnover,4,PT04M14.00S,04:14,Q4 04:14,107,98,1610612749.0,Dellavedova,Dellavedova Lost Ball Turnover (P4.T19),substitution,steal,9,Medium
+21600066,506,steal,4,PT04M14.00S,04:14,Q4 04:14,107,98,1610612754.0,Ellis,Ellis STEAL (3 STL),turnover,2pt made,9,Medium
+21600066,507,2pt,4,PT04M11.00S,04:11,Q4 04:11,107,100,1610612754.0,George,George 1' Layup (23 PTS) (Ellis 9 AST),steal,timeout,7,High
+21600066,508,timeout,4,PT04M11.00S,04:11,Q4 04:11,107,100,1610612749.0,,BUCKS Timeout: Regular (Full 4 Short 0),2pt made,3pt made,7,High
+21600066,511,3pt,4,PT03M49.00S,03:49,Q4 03:49,110,100,1610612749.0,Snell,Snell 25' 3PT Jump Shot (12 PTS) (Parker 3 AST),timeout,3pt missed,10,Medium
+21600066,512,3pt,4,PT03M33.00S,03:33,Q4 03:33,110,100,1610612754.0,Teague,MISS Teague 27' 3PT Jump Shot,3pt made,rebound,10,Medium
+21600066,513,rebound,4,PT03M28.00S,03:28,Q4 03:28,110,100,1610612754.0,Teague,Teague REBOUND (Off:1 Def:3),3pt missed,2pt missed,10,Medium
+21600066,514,2pt,4,PT03M24.00S,03:24,Q4 03:24,110,100,1610612754.0,Teague,MISS Teague 1' Putback Layup,rebound,rebound,10,Medium
+21600066,515,rebound,4,PT03M22.00S,03:22,Q4 03:22,110,100,1610612749.0,Antetokounmpo,Antetokounmpo REBOUND (Off:2 Def:5),2pt missed,2pt made,10,Medium
+21600066,516,2pt,4,PT03M12.00S,03:12,Q4 03:12,112,100,1610612749.0,Plumlee,Plumlee Alley Oop Dunk (4 PTS) (Antetokounmpo 9 AST),rebound,timeout,12,Medium
+21600066,518,timeout,4,PT03M12.00S,03:12,Q4 03:12,112,100,1610612754.0,,Pacers Timeout: Regular (Reg.5 Short 1),2pt made,3pt missed,12,Medium
+21600066,522,3pt,4,PT02M52.00S,02:52,Q4 02:52,112,100,1610612754.0,George,MISS George 25' 3PT Jump Shot,timeout,rebound,12,Medium
+21600066,523,rebound,4,PT02M51.00S,02:51,Q4 02:51,112,100,1610612749.0,Parker,Parker REBOUND (Off:3 Def:5),3pt missed,foul,12,Medium
+21600066,524,foul,4,PT02M42.00S,02:42,Q4 02:42,112,100,1610612749.0,Plumlee,Plumlee OFF.Foul (P4) (B.Spooner),rebound,turnover,12,Medium
+21600066,525,turnover,4,PT02M42.00S,02:42,Q4 02:42,112,100,1610612749.0,Plumlee,Plumlee Foul Turnover (P2.T20),foul,foul,12,Medium
+21600066,526,foul,4,PT02M34.00S,02:34,Q4 02:34,112,100,1610612754.0,Turner,Turner OFF.Foul (P5) (B.Spooner),turnover,turnover,12,Medium
+21600066,527,turnover,4,PT02M34.00S,02:34,Q4 02:34,112,100,1610612754.0,Turner,Turner Foul Turnover (P2.T19),foul,2pt made,12,Medium
+21600066,530,2pt,4,PT02M22.00S,02:22,Q4 02:22,114,100,1610612749.0,Antetokounmpo,Antetokounmpo Layup (24 PTS) (Dellavedova 4 AST),turnover,3pt missed,14,Low
+21600066,531,3pt,4,PT02M07.00S,02:07,Q4 02:07,114,100,1610612754.0,Ellis,MISS Ellis 3PT Jump Shot,2pt made,rebound,14,Low
+21600066,532,rebound,4,PT02M05.00S,02:05,Q4 02:05,114,100,1610612749.0,Dellavedova,Dellavedova REBOUND (Off:0 Def:2),3pt missed,foul,14,Low
+21600066,533,foul,4,PT01M56.00S,01:56,Q4 01:56,114,100,1610612749.0,Dellavedova,Dellavedova Offensive Charge Foul (P5) (K.Fitzgerald),rebound,turnover,14,Low
+21600066,534,turnover,4,PT01M56.00S,01:56,Q4 01:56,114,100,1610612749.0,Dellavedova,Dellavedova Foul Turnover (P5.T21),foul,timeout,14,Low
+21600066,535,timeout,4,PT01M56.00S,01:56,Q4 01:56,114,100,1610612754.0,,Pacers Timeout: Regular (Reg.6 Short 1),turnover,3pt made,14,Low
+21600066,539,3pt,4,PT01M51.00S,01:51,Q4 01:51,114,103,1610612754.0,Miles,Miles 24' 3PT Jump Shot (19 PTS) (Ellis 10 AST),timeout,2pt made,11,Medium
+21600066,540,2pt,4,PT01M41.00S,01:41,Q4 01:41,116,103,1610612749.0,Antetokounmpo,Antetokounmpo Alley Oop Layup (26 PTS) (Plumlee 2 AST),3pt made,foul,13,Low
+21600066,541,foul,4,PT01M41.00S,01:41,Q4 01:41,116,103,1610612754.0,George,George S.FOUL (P3.T3) (B.Spooner),2pt made,freethrow,13,Low
+21600066,542,freethrow,4,PT01M41.00S,01:41,Q4 01:41,117,103,1610612749.0,Antetokounmpo,Antetokounmpo Free Throw 1 of 1 (27 PTS),foul,timeout,14,Low
+21600066,544,timeout,4,PT01M41.00S,01:41,Q4 01:41,117,103,1610612754.0,,Pacers Timeout: Short (Reg.6 Short 2),freethrow,substitution,14,Low
+21600066,547,substitution,4,PT01M41.00S,01:41,Q4 01:41,117,103,1610612754.0,George,SUB out: P. George,timeout,substitution,14,Low
+21600066,548,substitution,4,PT01M41.00S,01:41,Q4 01:41,117,103,1610612754.0,Turner,SUB out: M. Turner,substitution,substitution,14,Low
+21600066,549,substitution,4,PT01M41.00S,01:41,Q4 01:41,117,103,1610612754.0,Ellis,SUB out: M. Ellis,substitution,substitution,14,Low
+21600066,550,substitution,4,PT01M41.00S,01:41,Q4 01:41,117,103,1610612754.0,Teague,SUB out: J. Teague,substitution,substitution,14,Low
+21600066,551,substitution,4,PT01M41.00S,01:41,Q4 01:41,117,103,1610612754.0,Miles,SUB out: C. Miles,substitution,substitution,14,Low
+21600066,552,substitution,4,PT01M41.00S,01:41,Q4 01:41,117,103,1610612754.0,Niang,SUB in: G. Niang,substitution,substitution,14,Low
+21600066,553,substitution,4,PT01M41.00S,01:41,Q4 01:41,117,103,1610612754.0,Young,SUB in: T. Young,substitution,substitution,14,Low
+21600066,554,substitution,4,PT01M41.00S,01:41,Q4 01:41,117,103,1610612754.0,Seraphin,SUB in: K. Seraphin,substitution,substitution,14,Low
+21600066,555,substitution,4,PT01M41.00S,01:41,Q4 01:41,117,103,1610612754.0,Robinson III,SUB in: G. Robinson III,substitution,substitution,14,Low
+21600066,556,substitution,4,PT01M41.00S,01:41,Q4 01:41,117,103,1610612754.0,Allen,SUB in: L. Allen,substitution,turnover,14,Low
+21600066,552,turnover,4,PT01M29.00S,01:29,Q4 01:29,117,103,1610612754.0,Robinson III,Robinson III Bad Pass Turnover (P1.T20),substitution,steal,14,Low
+21600066,552,steal,4,PT01M29.00S,01:29,Q4 01:29,117,103,1610612749.0,Snell,Snell STEAL (2 STL),turnover,2pt made,14,Low
+21600066,553,2pt,4,PT01M25.00S,01:25,Q4 01:25,119,103,1610612749.0,Snell,Snell 1' Running Layup (14 PTS),steal,2pt made,16,Low
+21600066,554,2pt,4,PT01M14.00S,01:14,Q4 01:14,119,105,1610612754.0,Seraphin,Seraphin 15' Turnaround Jump Shot (2 PTS) (Niang 1 AST),2pt made,timeout,14,Low
+21600066,555,timeout,4,PT01M14.00S,01:14,Q4 01:14,119,105,1610612749.0,,BUCKS Timeout: Short (Full 4 Short 1),2pt made,substitution,14,Low
+21600066,556,substitution,4,PT01M14.00S,01:14,Q4 01:14,119,105,1610612749.0,Antetokounmpo,SUB out: G. Antetokounmpo,substitution,substitution,14,Low
+21600066,557,substitution,4,PT01M14.00S,01:14,Q4 01:14,119,105,1610612749.0,Parker,SUB: Vaughn FOR Parker,substitution,substitution,14,Low
+21600066,558,substitution,4,PT01M14.00S,01:14,Q4 01:14,119,105,1610612749.0,Snell,SUB out: T. Snell,substitution,substitution,14,Low
+21600066,559,substitution,4,PT01M14.00S,01:14,Q4 01:14,119,105,1610612749.0,Dellavedova,SUB out: M. Dellavedova,substitution,substitution,14,Low
+21600066,560,substitution,4,PT01M14.00S,01:14,Q4 01:14,119,105,1610612749.0,Maker,SUB in: T. Maker,substitution,substitution,14,Low
+21600066,562,substitution,4,PT01M14.00S,01:14,Q4 01:14,119,105,1610612749.0,Beasley,SUB in: M. Beasley,substitution,substitution,14,Low
+21600066,563,substitution,4,PT01M14.00S,01:14,Q4 01:14,119,105,1610612749.0,Brogdon,SUB in: M. Brogdon,substitution,3pt made,14,Low
+21600066,560,3pt,4,PT01M01.00S,01:01,Q4 01:01,122,105,1610612749.0,Maker,Maker 26' 3PT Jump Shot (3 PTS) (Beasley 1 AST),substitution,2pt made,17,Low
+21600066,561,2pt,4,PT00M50.80S,00:50,Q4 00:50,122,107,1610612754.0,Seraphin,Seraphin 19' Jump Shot (4 PTS) (Robinson III 1 AST),3pt made,3pt made,15,Low
+21600066,562,3pt,4,PT00M35.80S,00:35,Q4 00:35,125,107,1610612749.0,Maker,Maker 27' 3PT Jump Shot (6 PTS) (Brogdon 4 AST),2pt made,2pt missed,18,Low
+21600066,563,2pt,4,PT00M22.90S,00:22,Q4 00:22,125,107,1610612754.0,Seraphin,MISS Seraphin 11' Step Back Jump Shot,3pt made,rebound,18,Low
+21600066,564,rebound,4,PT00M21.90S,00:21,Q4 00:21,125,107,1610612754.0,Allen,Allen REBOUND (Off:1 Def:2),2pt missed,2pt missed,18,Low
+21600066,565,2pt,4,PT00M15.90S,00:15,Q4 00:15,125,107,1610612754.0,Niang,MISS Niang 1' Layup,rebound,rebound,18,Low
+21600066,566,rebound,4,PT00M14.90S,00:14,Q4 00:14,125,107,1610612754.0,Seraphin,Seraphin REBOUND (Off:1 Def:0),2pt missed,turnover,18,Low
+21600066,567,turnover,4,PT00M11.90S,00:11,Q4 00:11,125,107,1610612754.0,Seraphin,Seraphin Lost Ball Turnover (P1.T21),rebound,steal,18,Low
+21600066,567,steal,4,PT00M11.90S,00:11,Q4 00:11,125,107,1610612749.0,Brogdon,Brogdon STEAL (3 STL),turnover,period,18,Low
+21600066,568,period,4,PT00M00.00S,00:00,Q4 00:00,125,107,1610612749.0,,End of 4th Period (10:31 PM EST),steal,,18,Low

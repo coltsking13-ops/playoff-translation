@@ -1,0 +1,509 @@
+game_id,actionNumber,actionType,period,clock,clock_display,game_clock,scoreHome,scoreAway,teamId,playerName,description,previous_action,next_action,score_margin,leverage_bucket
+21700157,2,period,1,PT12M00.00S,12:00,Q1 12:00,0,0,1610612757.0,,Start of 1st Period (10:11 PM EST),,2pt missed,0,Low
+21700157,7,2pt,1,PT11M37.00S,11:37,Q1 11:37,0,0,1610612763.0,Gasol,MISS Gasol 19' Jump Shot,period,rebound,0,Low
+21700157,8,rebound,1,PT11M34.00S,11:34,Q1 11:34,0,0,1610612757.0,Vonleh,Vonleh REBOUND (Off:0 Def:1),2pt missed,2pt missed,0,Low
+21700157,9,2pt,1,PT11M20.00S,11:20,Q1 11:20,0,0,1610612757.0,Nurkic,MISS Nurkic 2' Driving Hook Shot,rebound,rebound,0,Low
+21700157,10,rebound,1,PT11M18.00S,11:18,Q1 11:18,0,0,1610612757.0,Vonleh,Vonleh REBOUND (Off:1 Def:1),2pt missed,2pt made,0,Low
+21700157,11,2pt,1,PT11M17.00S,11:17,Q1 11:17,2,0,1610612757.0,Vonleh,Vonleh 2' Layup (2 PTS),rebound,foul,2,Low
+21700157,12,foul,1,PT11M08.00S,11:08,Q1 11:08,2,0,1610612757.0,Lillard,Lillard P.FOUL (P1.T1) (J.Van Duyne),2pt made,foul,2,Low
+21700157,14,foul,1,PT10M53.00S,10:53,Q1 10:53,2,0,1610612757.0,Nurkic,Nurkic S.FOUL (P1.T2) (N.Buchert),foul,freethrow,2,Low
+21700157,16,freethrow,1,PT10M53.00S,10:53,Q1 10:53,2,1,1610612763.0,Gasol,Gasol Free Throw 1 of 2 (1 PTS),foul,freethrow,1,Low
+21700157,17,freethrow,1,PT10M53.00S,10:53,Q1 10:53,2,2,1610612763.0,Gasol,Gasol Free Throw 2 of 2 (2 PTS),freethrow,turnover,0,Low
+21700157,18,turnover,1,PT10M38.00S,10:38,Q1 10:38,2,2,1610612757.0,Nurkic,Nurkic Bad Pass Turnover (P1.T1),freethrow,steal,0,Low
+21700157,18,steal,1,PT10M38.00S,10:38,Q1 10:38,2,2,1610612763.0,Brooks,Brooks STEAL (1 STL),turnover,foul,0,Low
+21700157,20,foul,1,PT10M36.00S,10:36,Q1 10:36,2,2,1610612757.0,Nurkic,Nurkic S.FOUL (P2.T3) (P.Fraher),steal,freethrow,0,Low
+21700157,22,freethrow,1,PT10M36.00S,10:36,Q1 10:36,2,2,1610612763.0,Ennis III,MISS Ennis III Free Throw 1 of 2,foul,rebound,0,Low
+21700157,23,rebound,1,PT10M36.00S,10:36,Q1 10:36,2,2,1610612763.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21700157,26,freethrow,1,PT10M36.00S,10:36,Q1 10:36,2,3,1610612763.0,Ennis III,Ennis III Free Throw 2 of 2 (1 PTS),rebound,substitution,1,Low
+21700157,25,substitution,1,PT10M36.00S,10:36,Q1 10:36,2,2,1610612757.0,Nurkic,SUB out: J. Nurkic,freethrow,substitution,0,Low
+21700157,26,substitution,1,PT10M36.00S,10:36,Q1 10:36,2,2,1610612757.0,Davis,SUB in: E. Davis,substitution,3pt missed,0,Low
+21700157,27,3pt,1,PT10M20.00S,10:20,Q1 10:20,2,3,1610612757.0,McCollum,MISS McCollum 25' 3PT Step Back Jump Shot,substitution,rebound,1,Low
+21700157,28,rebound,1,PT10M16.00S,10:16,Q1 10:16,2,3,1610612763.0,Ennis III,Ennis III REBOUND (Off:0 Def:1),3pt missed,3pt missed,1,Low
+21700157,29,3pt,1,PT10M11.00S,10:11,Q1 10:11,2,3,1610612763.0,Brooks,MISS Brooks 3PT Jump Shot,rebound,rebound,1,Low
+21700157,30,rebound,1,PT10M08.00S,10:08,Q1 10:08,2,3,1610612757.0,Lillard,Lillard REBOUND (Off:0 Def:1),3pt missed,2pt missed,1,Low
+21700157,31,2pt,1,PT09M58.00S,09:58,Q1 09:58,2,3,1610612757.0,Lillard,MISS Lillard 1' Driving Layup,rebound,rebound,1,Low
+21700157,32,rebound,1,PT09M57.00S,09:57,Q1 09:57,2,3,1610612763.0,Martin,Martin REBOUND (Off:0 Def:1),2pt missed,3pt missed,1,Low
+21700157,33,3pt,1,PT09M48.00S,09:48,Q1 09:48,2,3,1610612763.0,Conley,MISS Conley 25' 3PT Pullup Jump Shot,rebound,rebound,1,Low
+21700157,34,rebound,1,PT09M45.00S,09:45,Q1 09:45,2,3,1610612757.0,Vonleh,Vonleh REBOUND (Off:1 Def:2),3pt missed,2pt missed,1,Low
+21700157,38,2pt,1,PT09M27.00S,09:27,Q1 09:27,2,3,1610612757.0,Davis,MISS Davis 3' Driving Layup,rebound,block,1,Low
+21700157,38,block,1,PT09M27.00S,09:27,Q1 09:27,2,3,1610612763.0,Martin,Martin BLOCK (1 BLK),2pt missed,rebound,1,Low
+21700157,40,rebound,1,PT09M27.00S,09:27,Q1 09:27,2,3,1610612757.0,,TEAM offensive REBOUND,block,2pt missed,1,Low
+21700157,41,2pt,1,PT09M22.00S,09:22,Q1 09:22,2,3,1610612757.0,Vonleh,MISS Vonleh 8' Turnaround Hook Shot,rebound,2pt missed,1,Low
+21700157,45,2pt,1,PT09M20.00S,09:20,Q1 09:20,2,3,1610612757.0,Davis,MISS Davis 4' Layup,2pt missed,block,1,Low
+21700157,45,block,1,PT09M20.00S,09:20,Q1 09:20,2,3,1610612763.0,Ennis III,Ennis III BLOCK (1 BLK),2pt missed,rebound,1,Low
+21700157,42,rebound,1,PT09M19.00S,09:19,Q1 09:19,2,3,1610612757.0,Davis,Davis REBOUND (Off:1 Def:0),block,rebound,1,Low
+21700157,47,rebound,1,PT09M14.00S,09:14,Q1 09:14,2,3,1610612763.0,,TEAM defensive REBOUND,rebound,3pt missed,1,Low
+21700157,48,3pt,1,PT09M10.00S,09:10,Q1 09:10,2,3,1610612763.0,Gasol,MISS Gasol 25' 3PT Jump Shot,rebound,rebound,1,Low
+21700157,49,rebound,1,PT09M08.00S,09:08,Q1 09:08,2,3,1610612763.0,Ennis III,Ennis III REBOUND (Off:1 Def:1),3pt missed,turnover,1,Low
+21700157,50,turnover,1,PT08M59.00S,08:59,Q1 08:59,2,3,1610612763.0,Gasol,Gasol Lost Ball Turnover (P1.T1),rebound,steal,1,Low
+21700157,50,steal,1,PT08M59.00S,08:59,Q1 08:59,2,3,1610612757.0,Lillard,Lillard STEAL (1 STL),turnover,2pt missed,1,Low
+21700157,52,2pt,1,PT08M50.00S,08:50,Q1 08:50,2,3,1610612757.0,Lillard,MISS Lillard 1' Driving Finger Roll Layup,steal,rebound,1,Low
+21700157,53,rebound,1,PT08M47.00S,08:47,Q1 08:47,2,3,1610612757.0,Davis,Davis REBOUND (Off:2 Def:0),2pt missed,3pt made,1,Low
+21700157,54,3pt,1,PT08M45.00S,08:45,Q1 08:45,5,3,1610612757.0,Harkless,Harkless 24' 3PT Jump Shot (3 PTS) (Davis 1 AST),rebound,2pt missed,2,Low
+21700157,56,2pt,1,PT08M28.00S,08:28,Q1 08:28,5,3,1610612763.0,Conley,MISS Conley 20' Jump Shot,3pt made,rebound,2,Low
+21700157,57,rebound,1,PT08M26.00S,08:26,Q1 08:26,5,3,1610612757.0,Harkless,Harkless REBOUND (Off:0 Def:1),2pt missed,2pt missed,2,Low
+21700157,58,2pt,1,PT08M16.00S,08:16,Q1 08:16,5,3,1610612757.0,McCollum,MISS McCollum 15' Fadeaway Jumper,rebound,block,2,Low
+21700157,58,block,1,PT08M16.00S,08:16,Q1 08:16,5,3,1610612763.0,Brooks,Brooks BLOCK (1 BLK),2pt missed,rebound,2,Low
+21700157,60,rebound,1,PT08M11.00S,08:11,Q1 08:11,5,3,1610612763.0,Martin,Martin REBOUND (Off:0 Def:2),block,2pt made,2,Low
+21700157,61,2pt,1,PT08M10.00S,08:10,Q1 08:10,5,5,1610612763.0,Ennis III,Ennis III 1' Running Dunk (3 PTS) (Brooks 1 AST),rebound,2pt missed,0,Low
+21700157,63,2pt,1,PT07M41.00S,07:41,Q1 07:41,5,5,1610612757.0,McCollum,MISS McCollum 9' Driving Floating Jump Shot,2pt made,rebound,0,Low
+21700157,64,rebound,1,PT07M39.00S,07:39,Q1 07:39,5,5,1610612757.0,Vonleh,Vonleh REBOUND (Off:2 Def:2),2pt missed,foul,0,Low
+21700157,65,foul,1,PT07M28.00S,07:28,Q1 07:28,5,5,1610612763.0,Ennis III,Ennis III P.FOUL (P1.T1) (N.Buchert),rebound,3pt missed,0,Low
+21700157,67,3pt,1,PT07M20.00S,07:20,Q1 07:20,5,5,1610612757.0,Harkless,MISS Harkless 3PT Jump Shot,foul,rebound,0,Low
+21700157,68,rebound,1,PT07M18.00S,07:18,Q1 07:18,5,5,1610612763.0,Gasol,Gasol REBOUND (Off:0 Def:1),3pt missed,3pt made,0,Low
+21700157,69,3pt,1,PT07M12.00S,07:12,Q1 07:12,5,8,1610612763.0,Gasol,Gasol 26' 3PT Jump Shot (5 PTS) (Conley 1 AST),rebound,3pt made,3,Low
+21700157,71,3pt,1,PT06M46.00S,06:46,Q1 06:46,8,8,1610612757.0,McCollum,McCollum 25' 3PT Pullup Jump Shot (3 PTS),3pt made,3pt made,0,Low
+21700157,72,3pt,1,PT06M28.00S,06:28,Q1 06:28,8,11,1610612763.0,Martin,Martin 24' 3PT Jump Shot (3 PTS) (Conley 2 AST),3pt made,2pt missed,3,Low
+21700157,74,2pt,1,PT06M07.00S,06:07,Q1 06:07,8,11,1610612757.0,Lillard,MISS Lillard 19' Step Back Jump Shot,3pt made,rebound,3,Low
+21700157,75,rebound,1,PT06M06.00S,06:06,Q1 06:06,8,11,1610612763.0,,TEAM defensive REBOUND,2pt missed,timeout,3,Low
+21700157,76,timeout,1,PT06M06.00S,06:06,Q1 06:06,8,11,1610612757.0,,TRAIL BLAZERS Timeout: Regular (Full 1 Short 0),rebound,2pt missed,3,Low
+21700157,77,2pt,1,PT05M54.00S,05:54,Q1 05:54,8,11,1610612763.0,Brooks,MISS Brooks 1' Alley Oop Layup,timeout,rebound,3,Low
+21700157,78,rebound,1,PT05M52.00S,05:52,Q1 05:52,8,11,1610612757.0,Vonleh,Vonleh REBOUND (Off:2 Def:3),2pt missed,turnover,3,Low
+21700157,79,turnover,1,PT05M32.00S,05:32,Q1 05:32,8,11,1610612757.0,Lillard,Lillard Out of Bounds - Bad Pass Turnover Turnover (P1.T2),rebound,substitution,3,Low
+21700157,82,substitution,1,PT05M32.00S,05:32,Q1 05:32,8,11,1610612763.0,Martin,SUB out: J. Martin,turnover,substitution,3,Low
+21700157,83,substitution,1,PT05M32.00S,05:32,Q1 05:32,8,11,1610612763.0,Brooks,SUB out: D. Brooks,substitution,substitution,3,Low
+21700157,84,substitution,1,PT05M32.00S,05:32,Q1 05:32,8,11,1610612763.0,Parsons,SUB in: C. Parsons,substitution,substitution,3,Low
+21700157,85,substitution,1,PT05M32.00S,05:32,Q1 05:32,8,11,1610612763.0,Evans,SUB in: T. Evans,substitution,foul,3,Low
+21700157,84,foul,1,PT05M20.00S,05:20,Q1 05:20,8,11,1610612757.0,Davis,Davis P.FOUL (P1.T4) (J.Van Duyne),substitution,substitution,3,Low
+21700157,87,substitution,1,PT05M20.00S,05:20,Q1 05:20,8,11,1610612763.0,Conley,SUB out: M. Conley,foul,substitution,3,Low
+21700157,88,substitution,1,PT05M20.00S,05:20,Q1 05:20,8,11,1610612763.0,Chalmers,SUB in: M. Chalmers,substitution,3pt made,3,Low
+21700157,88,3pt,1,PT05M06.00S,05:06,Q1 05:06,8,14,1610612763.0,Chalmers,Chalmers 26' 3PT Jump Shot (3 PTS) (Gasol 1 AST),substitution,3pt missed,6,Low
+21700157,90,3pt,1,PT04M47.00S,04:47,Q1 04:47,8,14,1610612757.0,McCollum,MISS McCollum 24' 3PT Jump Shot,3pt made,rebound,6,Low
+21700157,91,rebound,1,PT04M44.00S,04:44,Q1 04:44,8,14,1610612763.0,Evans,Evans REBOUND (Off:0 Def:1),3pt missed,2pt made,6,Low
+21700157,92,2pt,1,PT04M31.00S,04:31,Q1 04:31,8,16,1610612763.0,Gasol,Gasol 4' Turnaround Hook Shot (7 PTS) (Chalmers 1 AST),rebound,2pt made,8,Low
+21700157,94,2pt,1,PT04M16.00S,04:16,Q1 04:16,10,16,1610612757.0,McCollum,McCollum 1' Driving Layup (5 PTS),2pt made,2pt missed,6,Low
+21700157,95,2pt,1,PT04M09.00S,04:09,Q1 04:09,10,16,1610612763.0,Evans,MISS Evans 1' Driving Finger Roll Layup,2pt made,rebound,6,Low
+21700157,96,rebound,1,PT04M04.00S,04:04,Q1 04:04,10,16,1610612757.0,Davis,Davis REBOUND (Off:2 Def:1),2pt missed,foul,6,Low
+21700157,97,foul,1,PT03M55.00S,03:55,Q1 03:55,10,16,1610612763.0,Evans,Evans P.FOUL (P1.T2) (P.Fraher),rebound,substitution,6,Low
+21700157,102,substitution,1,PT03M55.00S,03:55,Q1 03:55,10,16,1610612757.0,McCollum,SUB out: C. McCollum,foul,substitution,6,Low
+21700157,103,substitution,1,PT03M55.00S,03:55,Q1 03:55,10,16,1610612757.0,Harkless,SUB out: M. Harkless,substitution,substitution,6,Low
+21700157,104,substitution,1,PT03M55.00S,03:55,Q1 03:55,10,16,1610612763.0,Ennis III,SUB out: J. Ennis III,substitution,substitution,6,Low
+21700157,105,substitution,1,PT03M55.00S,03:55,Q1 03:55,10,16,1610612757.0,Turner,SUB in: E. Turner,substitution,substitution,6,Low
+21700157,106,substitution,1,PT03M55.00S,03:55,Q1 03:55,10,16,1610612757.0,Connaughton,SUB in: P. Connaughton,substitution,substitution,6,Low
+21700157,107,substitution,1,PT03M55.00S,03:55,Q1 03:55,10,16,1610612763.0,Brooks,SUB in: D. Brooks,substitution,2pt missed,6,Low
+21700157,105,2pt,1,PT03M49.00S,03:49,Q1 03:49,10,16,1610612757.0,Turner,MISS Turner 13' Pullup Jump Shot,substitution,rebound,6,Low
+21700157,106,rebound,1,PT03M47.00S,03:47,Q1 03:47,10,16,1610612763.0,Parsons,Parsons REBOUND (Off:0 Def:1),2pt missed,2pt missed,6,Low
+21700157,107,2pt,1,PT03M35.00S,03:35,Q1 03:35,10,16,1610612763.0,Gasol,MISS Gasol 3' Pullup Jump Shot,rebound,rebound,6,Low
+21700157,108,rebound,1,PT03M32.00S,03:32,Q1 03:32,10,16,1610612763.0,Brooks,Brooks REBOUND (Off:1 Def:0),2pt missed,2pt missed,6,Low
+21700157,109,2pt,1,PT03M32.00S,03:32,Q1 03:32,10,16,1610612763.0,Brooks,MISS Brooks 1' Tip Layup Shot,rebound,rebound,6,Low
+21700157,110,rebound,1,PT03M31.00S,03:31,Q1 03:31,10,16,1610612757.0,Vonleh,Vonleh REBOUND (Off:2 Def:4),2pt missed,2pt missed,6,Low
+21700157,111,2pt,1,PT03M27.00S,03:27,Q1 03:27,10,16,1610612757.0,Lillard,MISS Lillard 4' Driving Floating Jump Shot,rebound,rebound,6,Low
+21700157,112,rebound,1,PT03M23.00S,03:23,Q1 03:23,10,16,1610612757.0,Vonleh,Vonleh REBOUND (Off:3 Def:4),2pt missed,2pt made,6,Low
+21700157,113,2pt,1,PT03M23.00S,03:23,Q1 03:23,12,16,1610612757.0,Vonleh,Vonleh 1' Tip Dunk Shot (4 PTS),rebound,2pt missed,4,Low
+21700157,114,2pt,1,PT03M02.00S,03:02,Q1 03:02,12,16,1610612763.0,Brooks,MISS Brooks 3' Driving Layup,2pt made,rebound,4,Low
+21700157,115,rebound,1,PT03M00.00S,03:00,Q1 03:00,12,16,1610612763.0,Parsons,Parsons REBOUND (Off:1 Def:1),2pt missed,2pt missed,4,Low
+21700157,116,2pt,1,PT03M00.00S,03:00,Q1 03:00,12,16,1610612763.0,Parsons,MISS Parsons 1' Tip Layup Shot,rebound,rebound,4,Low
+21700157,117,rebound,1,PT03M00.00S,03:00,Q1 03:00,12,16,1610612763.0,,TEAM offensive REBOUND,2pt missed,substitution,4,Low
+21700157,119,substitution,1,PT03M00.00S,03:00,Q1 03:00,12,16,1610612763.0,Gasol,SUB out: M. Gasol,rebound,substitution,4,Low
+21700157,120,substitution,1,PT03M00.00S,03:00,Q1 03:00,12,16,1610612763.0,Wright,SUB in: B. Wright,substitution,foul,4,Low
+21700157,120,foul,1,PT02M53.00S,02:53,Q1 02:53,12,16,1610612757.0,Connaughton,Connaughton S.FOUL (P1.PN) (P.Fraher),substitution,timeout,4,Low
+21700157,122,timeout,1,PT02M53.00S,02:53,Q1 02:53,12,16,1610612763.0,,Grizzlies Timeout: Regular (Reg.1 Short 0),foul,freethrow,4,Low
+21700157,123,freethrow,1,PT02M53.00S,02:53,Q1 02:53,12,17,1610612763.0,Wright,Wright Free Throw 1 of 2 (1 PTS),timeout,freethrow,5,Low
+21700157,124,freethrow,1,PT02M53.00S,02:53,Q1 02:53,12,18,1610612763.0,Wright,Wright Free Throw 2 of 2 (2 PTS),freethrow,2pt made,6,Low
+21700157,125,2pt,1,PT02M41.00S,02:41,Q1 02:41,14,18,1610612757.0,Connaughton,Connaughton 23' Jump Shot (2 PTS) (Turner 1 AST),freethrow,3pt missed,4,Low
+21700157,127,3pt,1,PT02M25.00S,02:25,Q1 02:25,14,18,1610612763.0,Parsons,MISS Parsons 3PT Jump Shot,2pt made,rebound,4,Low
+21700157,128,rebound,1,PT02M23.00S,02:23,Q1 02:23,14,18,1610612757.0,Turner,Turner REBOUND (Off:0 Def:1),3pt missed,turnover,4,Low
+21700157,129,turnover,1,PT02M11.00S,02:11,Q1 02:11,14,18,1610612757.0,Vonleh,Vonleh Step Out of Bounds Turnover (P1.T3),rebound,2pt made,4,Low
+21700157,130,2pt,1,PT01M51.00S,01:51,Q1 01:51,14,20,1610612763.0,Chalmers,Chalmers 6' Driving Hook Shot (5 PTS),turnover,3pt missed,6,Low
+21700157,131,3pt,1,PT01M36.00S,01:36,Q1 01:36,14,20,1610612757.0,Lillard,MISS Lillard 26' 3PT Jump Shot,2pt made,rebound,6,Low
+21700157,132,rebound,1,PT01M32.00S,01:32,Q1 01:32,14,20,1610612763.0,Wright,Wright REBOUND (Off:0 Def:1),3pt missed,foul,6,Low
+21700157,133,foul,1,PT01M20.00S,01:20,Q1 01:20,14,20,1610612757.0,Turner,Turner S.FOUL (P1.PN) (J.Van Duyne),rebound,freethrow,6,Low
+21700157,135,freethrow,1,PT01M20.00S,01:20,Q1 01:20,14,20,1610612763.0,Evans,MISS Evans Free Throw 1 of 2,foul,rebound,6,Low
+21700157,136,rebound,1,PT01M20.00S,01:20,Q1 01:20,14,20,1610612763.0,,TEAM offensive REBOUND,freethrow,freethrow,6,Low
+21700157,141,freethrow,1,PT01M20.00S,01:20,Q1 01:20,14,21,1610612763.0,Evans,Evans Free Throw 2 of 2 (1 PTS),rebound,substitution,7,Low
+21700157,139,substitution,1,PT01M20.00S,01:20,Q1 01:20,14,20,1610612757.0,Lillard,SUB out: D. Lillard,freethrow,substitution,6,Low
+21700157,140,substitution,1,PT01M20.00S,01:20,Q1 01:20,14,20,1610612757.0,Vonleh,SUB out: N. Vonleh,substitution,substitution,6,Low
+21700157,141,substitution,1,PT01M20.00S,01:20,Q1 01:20,14,20,1610612757.0,McCollum,SUB in: C. McCollum,substitution,substitution,6,Low
+21700157,142,substitution,1,PT01M20.00S,01:20,Q1 01:20,14,20,1610612757.0,Napier,SUB in: S. Napier,substitution,2pt made,6,Low
+21700157,142,2pt,1,PT01M08.00S,01:08,Q1 01:08,16,21,1610612757.0,Turner,Turner 17' Pullup Jump Shot (2 PTS),substitution,2pt missed,5,Low
+21700157,143,2pt,1,PT00M56.10S,00:56,Q1 00:56,16,21,1610612763.0,Parsons,MISS Parsons 2' Driving Floating Bank Jump Shot,2pt made,rebound,5,Low
+21700157,144,rebound,1,PT00M52.30S,00:52,Q1 00:52,16,21,1610612757.0,Connaughton,Connaughton REBOUND (Off:0 Def:1),2pt missed,turnover,5,Low
+21700157,145,turnover,1,PT00M52.30S,00:52,Q1 00:52,16,21,1610612757.0,Turner,Turner Out of Bounds Lost Ball Turnover (P1.T4),rebound,turnover,5,Low
+21700157,146,turnover,1,PT00M39.30S,00:39,Q1 00:39,16,21,1610612763.0,Evans,Evans Bad Pass Turnover (P1.T2),turnover,steal,5,Low
+21700157,146,steal,1,PT00M39.30S,00:39,Q1 00:39,16,21,1610612757.0,McCollum,McCollum STEAL (1 STL),turnover,2pt made,5,Low
+21700157,148,2pt,1,PT00M32.60S,00:32,Q1 00:32,18,21,1610612757.0,McCollum,McCollum 1' Driving Finger Roll Layup (7 PTS),steal,turnover,3,Low
+21700157,149,turnover,1,PT00M29.80S,00:29,Q1 00:29,18,21,1610612763.0,Chalmers,Chalmers Lost Ball Turnover (P1.T3),2pt made,steal,3,Low
+21700157,149,steal,1,PT00M29.80S,00:29,Q1 00:29,18,21,1610612757.0,Davis,Davis STEAL (1 STL),turnover,2pt made,3,Low
+21700157,151,2pt,1,PT00M10.50S,00:10,Q1 00:10,20,21,1610612757.0,McCollum,McCollum 2' Driving Layup (9 PTS),steal,foul,1,Low
+21700157,152,foul,1,PT00M10.50S,00:10,Q1 00:10,20,21,1610612763.0,Parsons,Parsons S.FOUL (P1.T3) (N.Buchert),2pt made,freethrow,1,Low
+21700157,154,freethrow,1,PT00M10.50S,00:10,Q1 00:10,21,21,1610612757.0,McCollum,McCollum Free Throw 1 of 1 (10 PTS),foul,foul,0,Low
+21700157,155,foul,1,PT00M00.80S,00:00,Q1 00:00,21,21,1610612757.0,Davis,Davis S.FOUL (P2.PN) (P.Fraher),freethrow,freethrow,0,Low
+21700157,157,freethrow,1,PT00M00.80S,00:00,Q1 00:00,21,22,1610612763.0,Evans,Evans Free Throw 1 of 2 (2 PTS),foul,freethrow,1,Low
+21700157,158,freethrow,1,PT00M00.80S,00:00,Q1 00:00,21,23,1610612763.0,Evans,Evans Free Throw 2 of 2 (3 PTS),freethrow,period,2,Low
+21700157,159,period,1,PT00M00.00S,00:00,Q1 00:00,21,23,1610612757.0,,End of 1st Period (10:37 PM EST),freethrow,period,2,Low
+21700157,160,period,2,PT12M00.00S,12:00,Q2 12:00,21,23,1610612757.0,,Start of 2nd Period (10:39 PM EST),period,foul,2,Low
+21700157,161,foul,2,PT11M43.00S,11:43,Q2 11:43,21,23,1610612763.0,Parsons,Parsons S.FOUL (P2.T1) (N.Buchert),period,freethrow,2,Low
+21700157,163,freethrow,2,PT11M43.00S,11:43,Q2 11:43,22,23,1610612757.0,Turner,Turner Free Throw 1 of 2 (3 PTS),foul,freethrow,1,Low
+21700157,166,freethrow,2,PT11M43.00S,11:43,Q2 11:43,23,23,1610612757.0,Turner,Turner Free Throw 2 of 2 (4 PTS),freethrow,substitution,0,Low
+21700157,165,substitution,2,PT11M43.00S,11:43,Q2 11:43,22,23,1610612757.0,Davis,SUB out: E. Davis,freethrow,substitution,1,Low
+21700157,166,substitution,2,PT11M43.00S,11:43,Q2 11:43,22,23,1610612757.0,Vonleh,SUB in: N. Vonleh,substitution,2pt made,1,Low
+21700157,167,2pt,2,PT11M31.00S,11:31,Q2 11:31,23,25,1610612763.0,Wright,Wright 2' Cutting Layup Shot (4 PTS) (Evans 1 AST),substitution,2pt made,2,Low
+21700157,169,2pt,2,PT11M17.00S,11:17,Q2 11:17,25,25,1610612757.0,Napier,Napier 1' Cutting Layup Shot (2 PTS) (McCollum 1 AST),2pt made,3pt made,0,Low
+21700157,171,3pt,2,PT11M03.00S,11:03,Q2 11:03,25,28,1610612763.0,Parsons,Parsons 25' 3PT Jump Shot (3 PTS) (Evans 2 AST),2pt made,foul,3,Low
+21700157,173,foul,2,PT10M35.00S,10:35,Q2 10:35,25,28,1610612763.0,Evans,Evans S.FOUL (P2.T2) (P.Fraher),3pt made,freethrow,3,Low
+21700157,175,freethrow,2,PT10M35.00S,10:35,Q2 10:35,26,28,1610612757.0,Connaughton,Connaughton Free Throw 1 of 2 (3 PTS),foul,freethrow,2,Low
+21700157,178,freethrow,2,PT10M35.00S,10:35,Q2 10:35,27,28,1610612757.0,Connaughton,Connaughton Free Throw 2 of 2 (4 PTS),freethrow,substitution,1,Low
+21700157,177,substitution,2,PT10M35.00S,10:35,Q2 10:35,26,28,1610612763.0,Parsons,SUB out: C. Parsons,freethrow,substitution,2,Low
+21700157,178,substitution,2,PT10M35.00S,10:35,Q2 10:35,26,28,1610612763.0,Martin,SUB in: J. Martin,substitution,foul,2,Low
+21700157,179,foul,2,PT10M18.00S,10:18,Q2 10:18,27,28,1610612757.0,Vonleh,Vonleh S.FOUL (P1.T1) (P.Fraher),substitution,freethrow,1,Low
+21700157,181,freethrow,2,PT10M18.00S,10:18,Q2 10:18,27,28,1610612763.0,Wright,MISS Wright Free Throw 1 of 2,foul,rebound,1,Low
+21700157,182,rebound,2,PT10M18.00S,10:18,Q2 10:18,27,28,1610612763.0,,TEAM offensive REBOUND,freethrow,freethrow,1,Low
+21700157,183,freethrow,2,PT10M18.00S,10:18,Q2 10:18,27,29,1610612763.0,Wright,Wright Free Throw 2 of 2 (5 PTS),rebound,3pt missed,2,Low
+21700157,184,3pt,2,PT10M00.00S,10:00,Q2 10:00,27,29,1610612757.0,McCollum,MISS McCollum 26' 3PT Pullup Jump Shot,freethrow,rebound,2,Low
+21700157,185,rebound,2,PT09M58.00S,09:58,Q2 09:58,27,29,1610612763.0,Evans,Evans REBOUND (Off:0 Def:2),3pt missed,3pt missed,2,Low
+21700157,186,3pt,2,PT09M42.00S,09:42,Q2 09:42,27,29,1610612763.0,Martin,MISS Martin 24' 3PT Pullup Jump Shot,rebound,rebound,2,Low
+21700157,187,rebound,2,PT09M40.00S,09:40,Q2 09:40,27,29,1610612757.0,Connaughton,Connaughton REBOUND (Off:0 Def:2),3pt missed,2pt made,2,Low
+21700157,188,2pt,2,PT09M33.00S,09:33,Q2 09:33,29,29,1610612757.0,Turner,Turner 14' Pullup Jump Shot (6 PTS),rebound,2pt missed,0,Low
+21700157,189,2pt,2,PT09M06.00S,09:06,Q2 09:06,29,29,1610612763.0,Evans,MISS Evans 2' Driving Layup,2pt made,rebound,0,Low
+21700157,190,rebound,2,PT09M05.00S,09:05,Q2 09:05,29,29,1610612757.0,Turner,Turner REBOUND (Off:0 Def:2),2pt missed,3pt missed,0,Low
+21700157,191,3pt,2,PT08M56.00S,08:56,Q2 08:56,29,29,1610612757.0,Connaughton,MISS Connaughton 25' 3PT Jump Shot,rebound,rebound,0,Low
+21700157,192,rebound,2,PT08M53.00S,08:53,Q2 08:53,29,29,1610612763.0,Chalmers,Chalmers REBOUND (Off:0 Def:1),3pt missed,substitution,0,Low
+21700157,195,substitution,2,PT08M39.00S,08:39,Q2 08:39,29,29,1610612763.0,Evans,SUB out: T. Evans,rebound,substitution,0,Low
+21700157,196,substitution,2,PT08M39.00S,08:39,Q2 08:39,29,29,1610612763.0,Wright,SUB out: B. Wright,substitution,substitution,0,Low
+21700157,197,substitution,2,PT08M39.00S,08:39,Q2 08:39,29,29,1610612763.0,Gasol,SUB in: M. Gasol,substitution,substitution,0,Low
+21700157,198,substitution,2,PT08M39.00S,08:39,Q2 08:39,29,29,1610612763.0,Ennis III,SUB in: J. Ennis III,substitution,turnover,0,Low
+21700157,200,turnover,2,PT08M33.00S,08:33,Q2 08:33,29,29,1610612763.0,Martin,Martin Lost Ball Turnover (P1.T4),substitution,steal,0,Low
+21700157,200,steal,2,PT08M33.00S,08:33,Q2 08:33,29,29,1610612757.0,Vonleh,Vonleh STEAL (1 STL),turnover,2pt made,0,Low
+21700157,202,2pt,2,PT08M18.00S,08:18,Q2 08:18,31,29,1610612757.0,Napier,Napier 4' Reverse Layup (4 PTS),steal,2pt made,2,Low
+21700157,204,2pt,2,PT08M00.00S,08:00,Q2 08:00,31,31,1610612763.0,Ennis III,Ennis III 16' Pullup Jump Shot (5 PTS),2pt made,foul,0,Low
+21700157,205,foul,2,PT07M53.00S,07:53,Q2 07:53,31,31,1610612763.0,Brooks,Brooks P.FOUL (P1.T3) (N.Buchert),2pt made,substitution,0,Low
+21700157,208,substitution,2,PT07M53.00S,07:53,Q2 07:53,31,31,1610612757.0,Vonleh,SUB out: N. Vonleh,foul,substitution,0,Low
+21700157,209,substitution,2,PT07M53.00S,07:53,Q2 07:53,31,31,1610612757.0,Nurkic,SUB in: J. Nurkic,substitution,2pt missed,0,Low
+21700157,209,2pt,2,PT07M41.00S,07:41,Q2 07:41,31,31,1610612757.0,Napier,MISS Napier 1' Driving Layup,substitution,block,0,Low
+21700157,209,block,2,PT07M41.00S,07:41,Q2 07:41,31,31,1610612763.0,Gasol,Gasol BLOCK (1 BLK),2pt missed,rebound,0,Low
+21700157,211,rebound,2,PT07M41.00S,07:41,Q2 07:41,31,31,1610612757.0,,TEAM offensive REBOUND,block,timeout,0,Low
+21700157,212,timeout,2,PT07M41.00S,07:41,Q2 07:41,31,31,1610612757.0,,TRAIL BLAZERS Timeout: Regular (Full 2 Short 0),rebound,2pt missed,0,Low
+21700157,213,2pt,2,PT07M37.00S,07:37,Q2 07:37,31,31,1610612757.0,Turner,MISS Turner 22' Fadeaway Jumper,timeout,rebound,0,Low
+21700157,214,rebound,2,PT07M33.00S,07:33,Q2 07:33,31,31,1610612763.0,Brooks,Brooks REBOUND (Off:1 Def:1),2pt missed,2pt made,0,Low
+21700157,215,2pt,2,PT07M18.00S,07:18,Q2 07:18,31,33,1610612763.0,Brooks,Brooks 15' Pullup Jump Shot (2 PTS) (Gasol 2 AST),rebound,2pt made,2,Low
+21700157,217,2pt,2,PT07M00.00S,07:00,Q2 07:00,33,33,1610612757.0,Nurkic,Nurkic 6' Floating Jump Shot (2 PTS) (Turner 2 AST),2pt made,2pt missed,0,Low
+21700157,219,2pt,2,PT06M49.00S,06:49,Q2 06:49,33,33,1610612763.0,Brooks,MISS Brooks 2' Layup,2pt made,block,0,Low
+21700157,219,block,2,PT06M49.00S,06:49,Q2 06:49,33,33,1610612757.0,Connaughton,Connaughton BLOCK (1 BLK),2pt missed,rebound,0,Low
+21700157,221,rebound,2,PT06M49.00S,06:49,Q2 06:49,33,33,1610612757.0,,TEAM defensive REBOUND,block,foul,0,Low
+21700157,222,foul,2,PT06M49.00S,06:49,Q2 06:49,33,33,1610612763.0,Martin,Martin L.B.FOUL (P1.T4) (N.Buchert),rebound,substitution,0,Low
+21700157,227,substitution,2,PT06M49.00S,06:49,Q2 06:49,33,33,1610612757.0,McCollum,SUB out: C. McCollum,foul,substitution,0,Low
+21700157,228,substitution,2,PT06M49.00S,06:49,Q2 06:49,33,33,1610612757.0,Connaughton,SUB out: P. Connaughton,substitution,substitution,0,Low
+21700157,229,substitution,2,PT06M49.00S,06:49,Q2 06:49,33,33,1610612763.0,Chalmers,SUB out: M. Chalmers,substitution,substitution,0,Low
+21700157,230,substitution,2,PT06M49.00S,06:49,Q2 06:49,33,33,1610612757.0,Lillard,SUB in: D. Lillard,substitution,substitution,0,Low
+21700157,231,substitution,2,PT06M49.00S,06:49,Q2 06:49,33,33,1610612757.0,Harkless,SUB in: M. Harkless,substitution,substitution,0,Low
+21700157,232,substitution,2,PT06M49.00S,06:49,Q2 06:49,33,33,1610612763.0,Conley,SUB in: M. Conley,substitution,3pt missed,0,Low
+21700157,230,3pt,2,PT06M29.00S,06:29,Q2 06:29,33,33,1610612757.0,Lillard,MISS Lillard 26' 3PT Jump Shot,substitution,rebound,0,Low
+21700157,231,rebound,2,PT06M25.00S,06:25,Q2 06:25,33,33,1610612763.0,Martin,Martin REBOUND (Off:0 Def:3),3pt missed,2pt missed,0,Low
+21700157,232,2pt,2,PT06M15.00S,06:15,Q2 06:15,33,33,1610612763.0,Conley,MISS Conley 1' Driving Layup,rebound,rebound,0,Low
+21700157,233,rebound,2,PT06M10.00S,06:10,Q2 06:10,33,33,1610612763.0,Martin,Martin REBOUND (Off:1 Def:3),2pt missed,2pt made,0,Low
+21700157,234,2pt,2,PT06M10.00S,06:10,Q2 06:10,33,35,1610612763.0,Martin,Martin 1' Tip Layup Shot (5 PTS),rebound,turnover,2,Low
+21700157,235,turnover,2,PT06M04.00S,06:04,Q2 06:04,33,35,1610612757.0,Turner,Turner Palming Turnover (P2.T5),2pt made,turnover,2,Low
+21700157,236,turnover,2,PT05M53.00S,05:53,Q2 05:53,33,35,1610612763.0,Conley,Conley Bad Pass Turnover (P1.T5),turnover,steal,2,Low
+21700157,236,steal,2,PT05M53.00S,05:53,Q2 05:53,33,35,1610612757.0,Nurkic,Nurkic STEAL (1 STL),turnover,turnover,2,Low
+21700157,238,turnover,2,PT05M46.00S,05:46,Q2 05:46,33,35,1610612757.0,Lillard,Lillard Bad Pass Turnover (P2.T6),steal,steal,2,Low
+21700157,238,steal,2,PT05M46.00S,05:46,Q2 05:46,33,35,1610612763.0,Brooks,Brooks STEAL (2 STL),turnover,2pt made,2,Low
+21700157,241,2pt,2,PT05M33.00S,05:33,Q2 05:33,33,37,1610612763.0,Gasol,Gasol 9' Turnaround Jump Shot (9 PTS) (Conley 3 AST),steal,foul,4,Low
+21700157,243,foul,2,PT05M24.00S,05:24,Q2 05:24,33,37,1610612763.0,Martin,Martin P.FOUL (P2.PN) (N.Buchert),2pt made,freethrow,4,Low
+21700157,245,freethrow,2,PT05M24.00S,05:24,Q2 05:24,34,37,1610612757.0,Turner,Turner Free Throw 1 of 2 (7 PTS),foul,freethrow,3,Low
+21700157,248,freethrow,2,PT05M24.00S,05:24,Q2 05:24,35,37,1610612757.0,Turner,Turner Free Throw 2 of 2 (8 PTS),freethrow,substitution,2,Low
+21700157,247,substitution,2,PT05M24.00S,05:24,Q2 05:24,34,37,1610612763.0,Brooks,SUB out: D. Brooks,freethrow,substitution,3,Low
+21700157,248,substitution,2,PT05M24.00S,05:24,Q2 05:24,34,37,1610612763.0,Evans,SUB in: T. Evans,substitution,3pt missed,3,Low
+21700157,249,3pt,2,PT05M07.00S,05:07,Q2 05:07,35,37,1610612763.0,Evans,MISS Evans 3PT Turnaround Jump Shot,substitution,rebound,2,Low
+21700157,250,rebound,2,PT05M00.00S,05:00,Q2 05:00,35,37,1610612757.0,Napier,Napier REBOUND (Off:0 Def:1),3pt missed,2pt missed,2,Low
+21700157,251,2pt,2,PT04M53.00S,04:53,Q2 04:53,35,37,1610612757.0,Nurkic,MISS Nurkic 15' Turnaround Jump Shot,rebound,rebound,2,Low
+21700157,252,rebound,2,PT04M51.00S,04:51,Q2 04:51,35,37,1610612763.0,Martin,Martin REBOUND (Off:1 Def:4),2pt missed,2pt missed,2,Low
+21700157,253,2pt,2,PT04M38.00S,04:38,Q2 04:38,35,37,1610612763.0,Conley,MISS Conley 14' Driving Floating Jump Shot,rebound,rebound,2,Low
+21700157,254,rebound,2,PT04M34.00S,04:34,Q2 04:34,35,37,1610612763.0,Martin,Martin REBOUND (Off:2 Def:4),2pt missed,2pt missed,2,Low
+21700157,255,2pt,2,PT04M34.00S,04:34,Q2 04:34,35,37,1610612763.0,Martin,MISS Martin 1' Tip Layup Shot,rebound,rebound,2,Low
+21700157,256,rebound,2,PT04M34.00S,04:34,Q2 04:34,35,37,1610612757.0,Nurkic,Nurkic REBOUND (Off:0 Def:1),2pt missed,turnover,2,Low
+21700157,257,turnover,2,PT04M21.00S,04:21,Q2 04:21,35,37,1610612757.0,Napier,Napier Bad Pass Turnover (P1.T7),rebound,steal,2,Low
+21700157,257,steal,2,PT04M21.00S,04:21,Q2 04:21,35,37,1610612763.0,Conley,Conley STEAL (1 STL),turnover,2pt made,2,Low
+21700157,259,2pt,2,PT04M16.00S,04:16,Q2 04:16,35,39,1610612763.0,Evans,Evans 1' Running Layup (5 PTS) (Conley 4 AST),steal,3pt missed,4,Low
+21700157,261,3pt,2,PT04M05.00S,04:05,Q2 04:05,35,39,1610612757.0,Lillard,MISS Lillard 29' 3PT Jump Shot,2pt made,rebound,4,Low
+21700157,262,rebound,2,PT04M02.00S,04:02,Q2 04:02,35,39,1610612763.0,Martin,Martin REBOUND (Off:2 Def:5),3pt missed,2pt made,4,Low
+21700157,263,2pt,2,PT03M50.00S,03:50,Q2 03:50,35,41,1610612763.0,Ennis III,Ennis III 2' Driving Layup (7 PTS),rebound,turnover,6,Low
+21700157,264,turnover,2,PT03M30.00S,03:30,Q2 03:30,35,41,1610612757.0,Nurkic,Nurkic Lost Ball Turnover (P2.T8),2pt made,steal,6,Low
+21700157,264,steal,2,PT03M30.00S,03:30,Q2 03:30,35,41,1610612763.0,Evans,Evans STEAL (1 STL),turnover,turnover,6,Low
+21700157,266,turnover,2,PT03M27.00S,03:27,Q2 03:27,35,41,1610612763.0,Evans,Evans Out of Bounds - Bad Pass Turnover Turnover (P2.T6),steal,2pt made,6,Low
+21700157,267,2pt,2,PT03M12.00S,03:12,Q2 03:12,37,41,1610612757.0,Lillard,Lillard Driving Finger Roll Layup (2 PTS),turnover,3pt missed,4,Low
+21700157,268,3pt,2,PT02M59.00S,02:59,Q2 02:59,37,41,1610612763.0,Gasol,MISS Gasol 26' 3PT Jump Shot,2pt made,rebound,4,Low
+21700157,269,rebound,2,PT02M58.00S,02:58,Q2 02:58,37,41,1610612757.0,Nurkic,Nurkic REBOUND (Off:0 Def:2),3pt missed,3pt made,4,Low
+21700157,270,3pt,2,PT02M41.00S,02:41,Q2 02:41,40,41,1610612757.0,Napier,Napier 25' 3PT Jump Shot (7 PTS) (Turner 3 AST),rebound,timeout,1,Low
+21700157,272,timeout,2,PT02M34.00S,02:34,Q2 02:34,40,41,1610612763.0,,Grizzlies Timeout: Regular (Reg.2 Short 0),3pt made,substitution,1,Low
+21700157,276,substitution,2,PT02M34.00S,02:34,Q2 02:34,40,41,1610612757.0,Napier,SUB out: S. Napier,timeout,substitution,1,Low
+21700157,277,substitution,2,PT02M34.00S,02:34,Q2 02:34,40,41,1610612763.0,Martin,SUB out: J. Martin,substitution,substitution,1,Low
+21700157,278,substitution,2,PT02M34.00S,02:34,Q2 02:34,40,41,1610612763.0,Ennis III,SUB out: J. Ennis III,substitution,substitution,1,Low
+21700157,279,substitution,2,PT02M34.00S,02:34,Q2 02:34,40,41,1610612757.0,McCollum,SUB in: C. McCollum,substitution,substitution,1,Low
+21700157,280,substitution,2,PT02M34.00S,02:34,Q2 02:34,40,41,1610612763.0,Parsons,SUB in: C. Parsons,substitution,substitution,1,Low
+21700157,281,substitution,2,PT02M34.00S,02:34,Q2 02:34,40,41,1610612763.0,Brooks,SUB in: D. Brooks,substitution,turnover,1,Low
+21700157,279,turnover,2,PT02M25.00S,02:25,Q2 02:25,40,41,1610612763.0,Gasol,Gasol Lost Ball Turnover (P2.T7),substitution,steal,1,Low
+21700157,279,steal,2,PT02M25.00S,02:25,Q2 02:25,40,41,1610612757.0,McCollum,McCollum STEAL (2 STL),turnover,foul,1,Low
+21700157,281,foul,2,PT02M17.00S,02:17,Q2 02:17,40,41,1610612763.0,Brooks,Brooks S.FOUL (P2.PN) (J.Van Duyne),steal,freethrow,1,Low
+21700157,283,freethrow,2,PT02M17.00S,02:17,Q2 02:17,41,41,1610612757.0,Lillard,Lillard Free Throw 1 of 3 (3 PTS),foul,freethrow,0,Low
+21700157,284,freethrow,2,PT02M17.00S,02:17,Q2 02:17,42,41,1610612757.0,Lillard,Lillard Free Throw 2 of 3 (4 PTS),freethrow,freethrow,1,Low
+21700157,285,freethrow,2,PT02M17.00S,02:17,Q2 02:17,43,41,1610612757.0,Lillard,Lillard Free Throw 3 of 3 (5 PTS),freethrow,2pt made,2,Low
+21700157,286,2pt,2,PT02M02.00S,02:02,Q2 02:02,43,43,1610612763.0,Gasol,Gasol 15' Jump Shot (11 PTS),freethrow,foul,0,Low
+21700157,287,foul,2,PT01M36.00S,01:36,Q2 01:36,43,43,1610612763.0,Parsons,Parsons P.FOUL (P3.PN) (N.Buchert),2pt made,freethrow,0,Low
+21700157,289,freethrow,2,PT01M36.00S,01:36,Q2 01:36,44,43,1610612757.0,McCollum,McCollum Free Throw 1 of 2 (11 PTS),foul,freethrow,1,Low
+21700157,290,freethrow,2,PT01M36.00S,01:36,Q2 01:36,44,43,1610612757.0,McCollum,MISS McCollum Free Throw 2 of 2,freethrow,rebound,1,Low
+21700157,291,rebound,2,PT01M34.00S,01:34,Q2 01:34,44,43,1610612763.0,Gasol,Gasol REBOUND (Off:0 Def:2),freethrow,turnover,1,Low
+21700157,292,turnover,2,PT01M21.00S,01:21,Q2 01:21,44,43,1610612763.0,Parsons,Parsons Lost Ball Turnover (P1.T8),rebound,steal,1,Low
+21700157,292,steal,2,PT01M21.00S,01:21,Q2 01:21,44,43,1610612757.0,Harkless,Harkless STEAL (1 STL),turnover,2pt made,1,Low
+21700157,294,2pt,2,PT01M17.00S,01:17,Q2 01:17,46,43,1610612757.0,McCollum,McCollum 2' Driving Floating Jump Shot (13 PTS),steal,2pt made,3,Low
+21700157,295,2pt,2,PT01M07.00S,01:07,Q2 01:07,46,45,1610612763.0,Evans,Evans 2' Driving Layup (7 PTS),2pt made,2pt made,1,Low
+21700157,296,2pt,2,PT01M00.00S,01:00,Q2 01:00,48,45,1610612757.0,Lillard,Lillard 1' Driving Finger Roll Layup (7 PTS),2pt made,2pt missed,3,Low
+21700157,297,2pt,2,PT00M49.50S,00:49,Q2 00:49,48,45,1610612763.0,Conley,MISS Conley 2' Driving Layup,2pt made,rebound,3,Low
+21700157,298,rebound,2,PT00M47.40S,00:47,Q2 00:47,48,45,1610612757.0,Lillard,Lillard REBOUND (Off:0 Def:2),2pt missed,2pt missed,3,Low
+21700157,299,2pt,2,PT00M30.60S,00:30,Q2 00:30,48,45,1610612757.0,Lillard,MISS Lillard 13' Floating Jump Shot,rebound,rebound,3,Low
+21700157,300,rebound,2,PT00M27.60S,00:27,Q2 00:27,48,45,1610612757.0,Lillard,Lillard REBOUND (Off:1 Def:2),2pt missed,turnover,3,Low
+21700157,301,turnover,2,PT00M24.10S,00:24,Q2 00:24,48,45,1610612757.0,Lillard,Lillard Bad Pass Turnover (P3.T9),rebound,steal,3,Low
+21700157,301,steal,2,PT00M24.10S,00:24,Q2 00:24,48,45,1610612763.0,Conley,Conley STEAL (2 STL),turnover,2pt made,3,Low
+21700157,303,2pt,2,PT00M19.40S,00:19,Q2 00:19,48,47,1610612763.0,Evans,Evans 1' Driving Finger Roll Layup (9 PTS) (Conley 5 AST),steal,2pt made,1,Low
+21700157,305,2pt,2,PT00M00.00S,00:00,Q2 00:00,50,47,1610612757.0,McCollum,McCollum 7' Fadeaway Jumper (15 PTS),2pt made,instant replay,3,Low
+21700157,307,period,2,PT00M00.00S,00:00,Q2 00:00,50,47,1610612757.0,,End of 2nd Period (11:06 PM EST),instant replay,period,3,Low
+21700157,314,period,3,PT12M00.00S,12:00,Q3 12:00,50,47,1610612757.0,,Start of 3rd Period (11:21 PM EST),period,substitution,3,Low
+21700157,315,3pt,3,PT11M47.00S,11:47,Q3 11:47,53,47,1610612757.0,McCollum,McCollum 25' 3PT Jump Shot (18 PTS) (Lillard 1 AST),substitution,3pt missed,6,Low
+21700157,317,3pt,3,PT11M26.00S,11:26,Q3 11:26,53,47,1610612763.0,Conley,MISS Conley 24' 3PT Step Back Jump Shot,3pt made,rebound,6,Low
+21700157,318,rebound,3,PT11M24.00S,11:24,Q3 11:24,53,47,1610612757.0,Vonleh,Vonleh REBOUND (Off:3 Def:5),3pt missed,2pt missed,6,Low
+21700157,320,2pt,3,PT11M13.00S,11:13,Q3 11:13,53,47,1610612757.0,McCollum,MISS McCollum 3' Driving Layup,rebound,block,6,Low
+21700157,320,block,3,PT11M13.00S,11:13,Q3 11:13,53,47,1610612763.0,Brooks,Brooks BLOCK (2 BLK),2pt missed,rebound,6,Low
+21700157,322,rebound,3,PT11M13.00S,11:13,Q3 11:13,53,47,1610612757.0,,TEAM offensive REBOUND,block,2pt missed,6,Low
+21700157,323,2pt,3,PT11M06.00S,11:06,Q3 11:06,53,47,1610612757.0,Nurkic,MISS Nurkic 10' Floating Jump Shot,rebound,rebound,6,Low
+21700157,324,rebound,3,PT11M05.00S,11:05,Q3 11:05,53,47,1610612757.0,Vonleh,Vonleh REBOUND (Off:4 Def:5),2pt missed,foul,6,Low
+21700157,325,foul,3,PT11M05.00S,11:05,Q3 11:05,53,47,1610612763.0,Martin,Martin P.FOUL (P3.T1) (N.Buchert),rebound,turnover,6,Low
+21700157,327,turnover,3,PT10M52.00S,10:52,Q3 10:52,53,47,1610612757.0,Harkless,Harkless Traveling Turnover (P1.T10),foul,2pt missed,6,Low
+21700157,328,2pt,3,PT10M40.00S,10:40,Q3 10:40,53,47,1610612763.0,Conley,MISS Conley 20' Jump Shot,turnover,rebound,6,Low
+21700157,329,rebound,3,PT10M38.00S,10:38,Q3 10:38,53,47,1610612757.0,Nurkic,Nurkic REBOUND (Off:0 Def:3),2pt missed,2pt missed,6,Low
+21700157,330,2pt,3,PT10M21.00S,10:21,Q3 10:21,53,47,1610612757.0,Lillard,MISS Lillard 2' Driving Finger Roll Layup,rebound,block,6,Low
+21700157,330,block,3,PT10M21.00S,10:21,Q3 10:21,53,47,1610612763.0,Gasol,Gasol BLOCK (2 BLK),2pt missed,rebound,6,Low
+21700157,332,rebound,3,PT10M21.00S,10:21,Q3 10:21,53,47,1610612757.0,,TEAM offensive REBOUND,block,2pt made,6,Low
+21700157,333,2pt,3,PT10M17.00S,10:17,Q3 10:17,55,47,1610612757.0,Vonleh,Vonleh 2' Driving Floating Bank Jump Shot (6 PTS),rebound,2pt made,8,Low
+21700157,334,2pt,3,PT09M58.00S,09:58,Q3 09:58,55,49,1610612763.0,Martin,Martin Cutting Layup Shot (7 PTS) (Conley 6 AST),2pt made,3pt missed,6,Low
+21700157,336,3pt,3,PT09M37.00S,09:37,Q3 09:37,55,49,1610612757.0,McCollum,MISS McCollum 28' 3PT Jump Shot,2pt made,rebound,6,Low
+21700157,337,rebound,3,PT09M33.00S,09:33,Q3 09:33,55,49,1610612757.0,Nurkic,Nurkic REBOUND (Off:1 Def:3),3pt missed,foul,6,Low
+21700157,338,foul,3,PT09M29.00S,09:29,Q3 09:29,55,49,1610612757.0,Vonleh,Vonleh OFF.Foul (P2) (P.Fraher),rebound,turnover,6,Low
+21700157,340,turnover,3,PT09M29.00S,09:29,Q3 09:29,55,49,1610612757.0,Vonleh,Vonleh Offensive Foul Turnover (P2.T11),foul,2pt made,6,Low
+21700157,341,2pt,3,PT09M11.00S,09:11,Q3 09:11,55,51,1610612763.0,Gasol,Gasol 18' Turnaround Fadeaway (13 PTS),turnover,foul,4,Low
+21700157,342,foul,3,PT08M55.00S,08:55,Q3 08:55,55,51,1610612763.0,Brooks,Brooks P.FOUL (P3.T2) (J.Van Duyne),2pt made,2pt made,4,Low
+21700157,344,2pt,3,PT08M46.00S,08:46,Q3 08:46,57,51,1610612757.0,Nurkic,Nurkic 16' Jump Shot (4 PTS) (Lillard 2 AST),foul,foul,6,Low
+21700157,347,foul,3,PT08M32.00S,08:32,Q3 08:32,57,51,1610612757.0,Lillard,Lillard S.FOUL (P2.T1) (N.Buchert),2pt made,freethrow,6,Low
+21700157,349,freethrow,3,PT08M32.00S,08:32,Q3 08:32,57,52,1610612763.0,Conley,Conley Free Throw 1 of 2 (1 PTS),foul,freethrow,5,Low
+21700157,350,freethrow,3,PT08M32.00S,08:32,Q3 08:32,57,53,1610612763.0,Conley,Conley Free Throw 2 of 2 (2 PTS),freethrow,2pt missed,4,Low
+21700157,351,2pt,3,PT08M18.00S,08:18,Q3 08:18,57,53,1610612757.0,Nurkic,MISS Nurkic 4' Floating Jump Shot,freethrow,rebound,4,Low
+21700157,352,rebound,3,PT08M17.00S,08:17,Q3 08:17,57,53,1610612763.0,Brooks,Brooks REBOUND (Off:1 Def:2),2pt missed,2pt made,4,Low
+21700157,353,2pt,3,PT08M04.00S,08:04,Q3 08:04,57,55,1610612763.0,Conley,Conley 1' Driving Layup (4 PTS) (Gasol 3 AST),rebound,2pt missed,2,Low
+21700157,355,2pt,3,PT07M47.00S,07:47,Q3 07:47,57,55,1610612757.0,McCollum,MISS McCollum 1' Driving Layup,2pt made,rebound,2,Low
+21700157,356,rebound,3,PT07M45.00S,07:45,Q3 07:45,57,55,1610612763.0,Martin,Martin REBOUND (Off:2 Def:6),2pt missed,turnover,2,Low
+21700157,357,turnover,3,PT07M36.00S,07:36,Q3 07:36,57,55,1610612763.0,Conley,Conley Lost Ball Turnover (P2.T9),rebound,steal,2,Low
+21700157,357,steal,3,PT07M36.00S,07:36,Q3 07:36,57,55,1610612757.0,Harkless,Harkless STEAL (2 STL),turnover,2pt missed,2,Low
+21700157,359,2pt,3,PT07M18.00S,07:18,Q3 07:18,57,55,1610612757.0,Nurkic,MISS Nurkic 19' Jump Shot,steal,block,2,Low
+21700157,359,block,3,PT07M18.00S,07:18,Q3 07:18,57,55,1610612763.0,Gasol,Gasol BLOCK (3 BLK),2pt missed,rebound,2,Low
+21700157,361,rebound,3,PT07M14.00S,07:14,Q3 07:14,57,55,1610612763.0,Brooks,Brooks REBOUND (Off:1 Def:3),block,3pt missed,2,Low
+21700157,362,3pt,3,PT07M09.00S,07:09,Q3 07:09,57,55,1610612763.0,Gasol,MISS Gasol 29' 3PT Jump Shot,rebound,rebound,2,Low
+21700157,363,rebound,3,PT07M06.00S,07:06,Q3 07:06,57,55,1610612757.0,Vonleh,Vonleh REBOUND (Off:4 Def:6),3pt missed,2pt missed,2,Low
+21700157,364,2pt,3,PT06M55.00S,06:55,Q3 06:55,57,55,1610612757.0,Lillard,MISS Lillard 20' Pullup Jump Shot,rebound,rebound,2,Low
+21700157,365,rebound,3,PT06M50.00S,06:50,Q3 06:50,57,55,1610612763.0,Ennis III,Ennis III REBOUND (Off:1 Def:2),2pt missed,2pt made,2,Low
+21700157,366,2pt,3,PT06M33.00S,06:33,Q3 06:33,57,57,1610612763.0,Conley,Conley Driving Finger Roll Layup (6 PTS),rebound,foul,0,Low
+21700157,367,foul,3,PT06M33.00S,06:33,Q3 06:33,57,57,1610612757.0,Nurkic,Nurkic S.FOUL (P3.T2) (P.Fraher),2pt made,timeout,0,Low
+21700157,369,timeout,3,PT06M33.00S,06:33,Q3 06:33,57,57,1610612757.0,,TRAIL BLAZERS Timeout: Regular (Full 3 Short 0),foul,freethrow,0,Low
+21700157,370,freethrow,3,PT06M33.00S,06:33,Q3 06:33,57,58,1610612763.0,Conley,Conley Free Throw 1 of 1 (7 PTS),timeout,3pt missed,1,Low
+21700157,371,3pt,3,PT06M17.00S,06:17,Q3 06:17,57,58,1610612757.0,Lillard,MISS Lillard 26' 3PT Jump Shot,freethrow,rebound,1,Low
+21700157,372,rebound,3,PT06M14.00S,06:14,Q3 06:14,57,58,1610612763.0,Brooks,Brooks REBOUND (Off:1 Def:4),3pt missed,2pt missed,1,Low
+21700157,373,2pt,3,PT06M08.00S,06:08,Q3 06:08,57,58,1610612763.0,Martin,MISS Martin 1' Driving Reverse Layup,rebound,rebound,1,Low
+21700157,374,rebound,3,PT06M07.00S,06:07,Q3 06:07,57,58,1610612757.0,Nurkic,Nurkic REBOUND (Off:1 Def:4),2pt missed,foul,1,Low
+21700157,375,foul,3,PT06M03.00S,06:03,Q3 06:03,57,58,1610612763.0,Conley,Conley P.FOUL (P1.T3) (N.Buchert),rebound,substitution,1,Low
+21700157,379,substitution,3,PT06M03.00S,06:03,Q3 06:03,57,58,1610612763.0,Brooks,SUB out: D. Brooks,foul,substitution,1,Low
+21700157,380,substitution,3,PT06M03.00S,06:03,Q3 06:03,57,58,1610612763.0,Martin,SUB out: J. Martin,substitution,substitution,1,Low
+21700157,381,substitution,3,PT06M03.00S,06:03,Q3 06:03,57,58,1610612763.0,Parsons,SUB in: C. Parsons,substitution,substitution,1,Low
+21700157,382,substitution,3,PT06M03.00S,06:03,Q3 06:03,57,58,1610612763.0,Evans,SUB in: T. Evans,substitution,2pt missed,1,Low
+21700157,381,2pt,3,PT05M54.00S,05:54,Q3 05:54,57,58,1610612757.0,McCollum,MISS McCollum 20' Pullup Jump Shot,substitution,rebound,1,Low
+21700157,382,rebound,3,PT05M52.00S,05:52,Q3 05:52,57,58,1610612763.0,Ennis III,Ennis III REBOUND (Off:1 Def:3),2pt missed,2pt missed,1,Low
+21700157,383,2pt,3,PT05M45.00S,05:45,Q3 05:45,57,58,1610612763.0,Gasol,MISS Gasol 3' Turnaround Hook Shot,rebound,rebound,1,Low
+21700157,384,rebound,3,PT05M43.00S,05:43,Q3 05:43,57,58,1610612757.0,Harkless,Harkless REBOUND (Off:0 Def:2),2pt missed,2pt missed,1,Low
+21700157,385,2pt,3,PT05M25.00S,05:25,Q3 05:25,57,58,1610612757.0,Harkless,MISS Harkless 3' Driving Reverse Layup,rebound,rebound,1,Low
+21700157,386,rebound,3,PT05M24.00S,05:24,Q3 05:24,57,58,1610612763.0,Gasol,Gasol REBOUND (Off:0 Def:3),2pt missed,2pt made,1,Low
+21700157,387,2pt,3,PT05M19.00S,05:19,Q3 05:19,57,60,1610612763.0,Conley,Conley 1' Driving Layup (9 PTS),rebound,foul,3,Low
+21700157,388,foul,3,PT05M19.00S,05:19,Q3 05:19,57,60,1610612757.0,Vonleh,Vonleh S.FOUL (P3.T3) (N.Buchert),2pt made,freethrow,3,Low
+21700157,396,freethrow,3,PT05M19.00S,05:19,Q3 05:19,57,61,1610612763.0,Conley,Conley Free Throw 1 of 1 (10 PTS),foul,substitution,4,Low
+21700157,393,substitution,3,PT05M19.00S,05:19,Q3 05:19,57,60,1610612757.0,McCollum,SUB out: C. McCollum,freethrow,substitution,3,Low
+21700157,394,substitution,3,PT05M19.00S,05:19,Q3 05:19,57,60,1610612757.0,Harkless,SUB out: M. Harkless,substitution,substitution,3,Low
+21700157,395,substitution,3,PT05M19.00S,05:19,Q3 05:19,57,60,1610612757.0,Nurkic,SUB out: J. Nurkic,substitution,substitution,3,Low
+21700157,396,substitution,3,PT05M19.00S,05:19,Q3 05:19,57,60,1610612757.0,Davis,SUB in: E. Davis,substitution,substitution,3,Low
+21700157,397,substitution,3,PT05M19.00S,05:19,Q3 05:19,57,60,1610612757.0,Turner,SUB in: E. Turner,substitution,substitution,3,Low
+21700157,398,substitution,3,PT05M19.00S,05:19,Q3 05:19,57,60,1610612757.0,Connaughton,SUB in: P. Connaughton,substitution,turnover,3,Low
+21700157,397,turnover,3,PT05M02.00S,05:02,Q3 05:02,57,61,1610612757.0,Lillard,Lillard Bad Pass Turnover (P4.T12),substitution,steal,4,Low
+21700157,397,steal,3,PT05M02.00S,05:02,Q3 05:02,57,61,1610612763.0,Evans,Evans STEAL (2 STL),turnover,3pt missed,4,Low
+21700157,399,3pt,3,PT04M52.00S,04:52,Q3 04:52,57,61,1610612763.0,Evans,MISS Evans 3PT Jump Shot,steal,rebound,4,Low
+21700157,400,rebound,3,PT04M49.00S,04:49,Q3 04:49,57,61,1610612757.0,Connaughton,Connaughton REBOUND (Off:0 Def:3),3pt missed,2pt missed,4,Low
+21700157,401,2pt,3,PT04M43.00S,04:43,Q3 04:43,57,61,1610612757.0,Turner,MISS Turner 17' Pullup Jump Shot,rebound,rebound,4,Low
+21700157,402,rebound,3,PT04M41.00S,04:41,Q3 04:41,57,61,1610612763.0,,TEAM defensive REBOUND,2pt missed,substitution,4,Low
+21700157,405,substitution,3,PT04M24.00S,04:24,Q3 04:24,57,61,1610612763.0,Conley,SUB out: M. Conley,rebound,substitution,4,Low
+21700157,406,substitution,3,PT04M24.00S,04:24,Q3 04:24,57,61,1610612763.0,Chalmers,SUB in: M. Chalmers,substitution,foul,4,Low
+21700157,406,foul,3,PT04M23.00S,04:23,Q3 04:23,57,61,1610612757.0,Connaughton,Connaughton P.FOUL (P2.T4) (P.Fraher),substitution,instant replay,4,Low
+21700157,409,freethrow,3,PT04M23.00S,04:23,Q3 04:23,57,62,1610612763.0,Ennis III,Ennis III Free Throw 1 of 1 (8 PTS),instant replay,substitution,5,Low
+21700157,416,substitution,3,PT04M23.00S,04:23,Q3 04:23,57,61,1610612757.0,Vonleh,SUB out: N. Vonleh,freethrow,substitution,4,Low
+21700157,417,substitution,3,PT04M23.00S,04:23,Q3 04:23,57,61,1610612757.0,Napier,SUB in: S. Napier,substitution,2pt missed,4,Low
+21700157,410,2pt,3,PT04M13.00S,04:13,Q3 04:13,57,62,1610612763.0,Gasol,MISS Gasol 14' Jump Shot,substitution,rebound,5,Low
+21700157,411,rebound,3,PT04M09.00S,04:09,Q3 04:09,57,62,1610612757.0,Lillard,Lillard REBOUND (Off:1 Def:3),2pt missed,2pt made,5,Low
+21700157,412,2pt,3,PT03M57.00S,03:57,Q3 03:57,59,62,1610612757.0,Napier,Napier 1' Driving Layup (9 PTS),rebound,foul,3,Low
+21700157,413,foul,3,PT03M46.00S,03:46,Q3 03:46,59,62,1610612757.0,Davis,Davis S.FOUL (P3.PN) (J.Van Duyne),2pt made,freethrow,3,Low
+21700157,417,freethrow,3,PT03M46.00S,03:46,Q3 03:46,59,63,1610612763.0,Gasol,Gasol Free Throw 1 of 2 (14 PTS),foul,freethrow,4,Low
+21700157,418,freethrow,3,PT03M46.00S,03:46,Q3 03:46,59,64,1610612763.0,Gasol,Gasol Free Throw 2 of 2 (15 PTS),freethrow,foul,5,Low
+21700157,421,foul,3,PT03M35.00S,03:35,Q3 03:35,59,64,1610612763.0,Chalmers,Chalmers P.FOUL (P1.T4) (P.Fraher),freethrow,2pt missed,5,Low
+21700157,423,2pt,3,PT03M24.00S,03:24,Q3 03:24,59,64,1610612757.0,Napier,MISS Napier 13' Pullup Jump Shot,foul,block,5,Low
+21700157,423,block,3,PT03M24.00S,03:24,Q3 03:24,59,64,1610612763.0,Evans,Evans BLOCK (1 BLK),2pt missed,rebound,5,Low
+21700157,425,rebound,3,PT03M13.00S,03:13,Q3 03:13,59,64,1610612763.0,Chalmers,Chalmers REBOUND (Off:0 Def:2),block,2pt made,5,Low
+21700157,426,2pt,3,PT03M12.00S,03:12,Q3 03:12,59,66,1610612763.0,Ennis III,Ennis III 1' Dunk (10 PTS) (Chalmers 2 AST),rebound,2pt made,7,Low
+21700157,428,2pt,3,PT03M00.00S,03:00,Q3 03:00,61,66,1610612757.0,Turner,Turner 3' Floating Jump Shot (10 PTS),2pt made,2pt missed,5,Low
+21700157,429,2pt,3,PT02M35.00S,02:35,Q3 02:35,61,66,1610612763.0,Gasol,MISS Gasol 15' Turnaround Fadeaway Shot,2pt made,rebound,5,Low
+21700157,430,rebound,3,PT02M31.00S,02:31,Q3 02:31,61,66,1610612757.0,Davis,Davis REBOUND (Off:2 Def:2),2pt missed,2pt made,5,Low
+21700157,431,2pt,3,PT02M25.00S,02:25,Q3 02:25,63,66,1610612757.0,Lillard,Lillard 1' Driving Layup (9 PTS),rebound,timeout,3,Low
+21700157,432,timeout,3,PT02M25.00S,02:25,Q3 02:25,63,66,1610612763.0,,Grizzlies Timeout: Regular (Reg.3 Short 0),2pt made,substitution,3,Low
+21700157,436,substitution,3,PT02M25.00S,02:25,Q3 02:25,63,66,1610612757.0,Lillard,SUB out: D. Lillard,timeout,substitution,3,Low
+21700157,437,substitution,3,PT02M25.00S,02:25,Q3 02:25,63,66,1610612763.0,Ennis III,SUB out: J. Ennis III,substitution,substitution,3,Low
+21700157,438,substitution,3,PT02M25.00S,02:25,Q3 02:25,63,66,1610612763.0,Gasol,SUB out: M. Gasol,substitution,substitution,3,Low
+21700157,439,substitution,3,PT02M25.00S,02:25,Q3 02:25,63,66,1610612757.0,McCollum,SUB in: C. McCollum,substitution,substitution,3,Low
+21700157,440,substitution,3,PT02M25.00S,02:25,Q3 02:25,63,66,1610612763.0,Brooks,SUB in: D. Brooks,substitution,substitution,3,Low
+21700157,441,substitution,3,PT02M25.00S,02:25,Q3 02:25,63,66,1610612763.0,Wright,SUB in: B. Wright,substitution,2pt missed,3,Low
+21700157,439,2pt,3,PT02M12.00S,02:12,Q3 02:12,63,66,1610612763.0,Chalmers,MISS Chalmers 8' Driving Floating Bank Jump Shot,substitution,rebound,3,Low
+21700157,440,rebound,3,PT02M10.00S,02:10,Q3 02:10,63,66,1610612757.0,Davis,Davis REBOUND (Off:2 Def:3),2pt missed,2pt made,3,Low
+21700157,441,2pt,3,PT02M01.00S,02:01,Q3 02:01,65,66,1610612757.0,Turner,Turner 14' Pullup Jump Shot (12 PTS),rebound,2pt made,1,Low
+21700157,442,2pt,3,PT01M40.00S,01:40,Q3 01:40,65,68,1610612763.0,Evans,Evans 21' Pullup Jump Shot (11 PTS),2pt made,foul,3,Low
+21700157,443,foul,3,PT01M18.00S,01:18,Q3 01:18,65,68,1610612763.0,Chalmers,Chalmers S.FOUL (P2.PN) (N.Buchert),2pt made,freethrow,3,Low
+21700157,445,freethrow,3,PT01M18.00S,01:18,Q3 01:18,66,68,1610612757.0,Turner,Turner Free Throw 1 of 2 (13 PTS),foul,freethrow,2,Low
+21700157,446,freethrow,3,PT01M18.00S,01:18,Q3 01:18,67,68,1610612757.0,Turner,Turner Free Throw 2 of 2 (14 PTS),freethrow,2pt made,1,Low
+21700157,447,2pt,3,PT01M05.00S,01:05,Q3 01:05,67,70,1610612763.0,Wright,Wright 1' Layup (7 PTS) (Evans 3 AST),freethrow,2pt missed,3,Low
+21700157,449,2pt,3,PT00M47.70S,00:47,Q3 00:47,67,70,1610612757.0,Turner,MISS Turner 11' Turnaround Fadeaway Shot,2pt made,rebound,3,Low
+21700157,450,rebound,3,PT00M45.00S,00:45,Q3 00:45,67,70,1610612757.0,Davis,Davis REBOUND (Off:3 Def:3),2pt missed,2pt made,3,Low
+21700157,451,2pt,3,PT00M36.60S,00:36,Q3 00:36,69,70,1610612757.0,McCollum,McCollum 9' Turnaround Fadeaway (20 PTS),rebound,foul,1,Low
+21700157,452,foul,3,PT00M29.90S,00:29,Q3 00:29,69,70,1610612757.0,Davis,Davis P.FOUL (P4.PN) (P.Fraher),2pt made,freethrow,1,Low
+21700157,454,freethrow,3,PT00M29.90S,00:29,Q3 00:29,69,71,1610612763.0,Evans,Evans Free Throw 1 of 2 (12 PTS),foul,freethrow,2,Low
+21700157,457,freethrow,3,PT00M29.90S,00:29,Q3 00:29,69,71,1610612763.0,Evans,MISS Evans Free Throw 2 of 2,freethrow,substitution,2,Low
+21700157,456,substitution,3,PT00M29.90S,00:29,Q3 00:29,69,71,1610612763.0,Chalmers,SUB out: M. Chalmers,freethrow,substitution,2,Low
+21700157,457,substitution,3,PT00M29.90S,00:29,Q3 00:29,69,71,1610612763.0,Ennis III,SUB in: J. Ennis III,substitution,rebound,2,Low
+21700157,458,rebound,3,PT00M28.30S,00:28,Q3 00:28,69,71,1610612757.0,Napier,Napier REBOUND (Off:0 Def:2),substitution,foul,2,Low
+21700157,459,foul,3,PT00M11.10S,00:11,Q3 00:11,69,71,1610612763.0,Wright,Wright S.FOUL (P1.PN) (P.Fraher),rebound,freethrow,2,Low
+21700157,461,freethrow,3,PT00M11.10S,00:11,Q3 00:11,70,71,1610612757.0,McCollum,McCollum Free Throw 1 of 2 (21 PTS),foul,freethrow,1,Low
+21700157,466,freethrow,3,PT00M11.10S,00:11,Q3 00:11,71,71,1610612757.0,McCollum,McCollum Free Throw 2 of 2 (22 PTS),freethrow,substitution,0,Low
+21700157,464,substitution,3,PT00M11.10S,00:11,Q3 00:11,70,71,1610612757.0,Davis,SUB out: E. Davis,freethrow,substitution,1,Low
+21700157,465,substitution,3,PT00M11.10S,00:11,Q3 00:11,70,71,1610612763.0,Wright,SUB out: B. Wright,substitution,substitution,1,Low
+21700157,466,substitution,3,PT00M11.10S,00:11,Q3 00:11,70,71,1610612757.0,Nurkic,SUB in: J. Nurkic,substitution,substitution,1,Low
+21700157,467,substitution,3,PT00M11.10S,00:11,Q3 00:11,70,71,1610612763.0,Conley,SUB in: M. Conley,substitution,3pt made,1,Low
+21700157,467,3pt,3,PT00M01.00S,00:01,Q3 00:01,71,74,1610612763.0,Conley,Conley 24' 3PT Pullup Jump Shot (13 PTS),substitution,period,3,Low
+21700157,468,period,3,PT00M00.00S,00:00,Q3 00:00,71,74,1610612757.0,,End of 3rd Period (11:49 PM EST),3pt made,period,3,Medium
+21700157,473,period,4,PT12M00.00S,12:00,Q4 12:00,71,74,1610612757.0,,Start of 4th Period (11:52 PM EST),period,substitution,3,Medium
+21700157,474,2pt,4,PT11M47.00S,11:47,Q4 11:47,71,76,1610612763.0,Evans,Evans 2' Driving Layup (14 PTS),substitution,2pt made,5,Medium
+21700157,475,2pt,4,PT11M29.00S,11:29,Q4 11:29,73,76,1610612757.0,McCollum,McCollum 15' Fadeaway Jumper (24 PTS),2pt made,2pt missed,3,Medium
+21700157,476,2pt,4,PT11M12.00S,11:12,Q4 11:12,73,76,1610612763.0,Conley,MISS Conley 19' Fadeaway Jumper,2pt made,rebound,3,Medium
+21700157,477,rebound,4,PT11M09.00S,11:09,Q4 11:09,73,76,1610612757.0,Connaughton,Connaughton REBOUND (Off:0 Def:4),2pt missed,2pt made,3,Medium
+21700157,478,2pt,4,PT11M03.00S,11:03,Q4 11:03,75,76,1610612757.0,McCollum,McCollum Driving Layup (26 PTS),rebound,2pt missed,1,Medium
+21700157,502,2pt,4,PT10M48.00S,10:48,Q4 10:48,75,76,1610612763.0,Evans,MISS Evans 2' Driving Layup,2pt made,rebound,1,Medium
+21700157,503,rebound,4,PT10M47.00S,10:47,Q4 10:47,75,76,1610612757.0,Davis,Davis REBOUND (Off:3 Def:4),2pt missed,2pt made,1,Medium
+21700157,481,2pt,4,PT10M43.00S,10:43,Q4 10:43,77,76,1610612757.0,Napier,Napier 1' Driving Layup (11 PTS),rebound,foul,1,Medium
+21700157,482,foul,4,PT10M43.00S,10:43,Q4 10:43,77,76,1610612763.0,Conley,Conley S.FOUL (P2.T1) (N.Buchert),2pt made,freethrow,1,Medium
+21700157,484,freethrow,4,PT10M43.00S,10:43,Q4 10:43,78,76,1610612757.0,Napier,Napier Free Throw 1 of 1 (12 PTS),foul,turnover,2,Medium
+21700157,485,turnover,4,PT10M31.00S,10:31,Q4 10:31,78,76,1610612763.0,Conley,Conley Lost Ball Turnover (P3.T10),freethrow,steal,2,Medium
+21700157,485,steal,4,PT10M31.00S,10:31,Q4 10:31,78,76,1610612757.0,McCollum,McCollum STEAL (3 STL),turnover,turnover,2,Medium
+21700157,487,turnover,4,PT10M21.00S,10:21,Q4 10:21,78,76,1610612757.0,Turner,Turner Traveling Turnover (P3.T13),steal,foul,2,Medium
+21700157,488,foul,4,PT10M15.00S,10:15,Q4 10:15,78,76,1610612763.0,Parsons,Parsons OFF.Foul (P4) (P.Fraher),turnover,turnover,2,Medium
+21700157,490,turnover,4,PT10M15.00S,10:15,Q4 10:15,78,76,1610612763.0,Parsons,Parsons Offensive Foul Turnover (P2.T11),foul,3pt missed,2,Medium
+21700157,491,3pt,4,PT09M56.00S,09:56,Q4 09:56,78,76,1610612757.0,McCollum,MISS McCollum 3PT Pullup Jump Shot,turnover,rebound,2,Medium
+21700157,492,rebound,4,PT09M54.00S,09:54,Q4 09:54,78,76,1610612763.0,Brooks,Brooks REBOUND (Off:1 Def:5),3pt missed,turnover,2,Medium
+21700157,493,turnover,4,PT09M49.00S,09:49,Q4 09:49,78,76,1610612763.0,Parsons,Parsons Out of Bounds Lost Ball Turnover (P3.T12),rebound,2pt missed,2,Medium
+21700157,494,2pt,4,PT09M32.00S,09:32,Q4 09:32,78,76,1610612757.0,Turner,MISS Turner 8' Fadeaway Jumper,turnover,rebound,2,Medium
+21700157,495,rebound,4,PT09M30.00S,09:30,Q4 09:30,78,76,1610612763.0,Wright,Wright REBOUND (Off:0 Def:2),2pt missed,3pt made,2,Medium
+21700157,496,3pt,4,PT09M20.00S,09:20,Q4 09:20,78,79,1610612763.0,Evans,Evans 25' 3PT Pullup Jump Shot (17 PTS),rebound,2pt made,1,Medium
+21700157,497,2pt,4,PT09M03.00S,09:03,Q4 09:03,80,79,1610612757.0,McCollum,McCollum 1' Driving Layup (28 PTS),3pt made,2pt made,1,Medium
+21700157,498,2pt,4,PT08M45.00S,08:45,Q4 08:45,80,81,1610612763.0,Conley,Conley 1' Driving Layup (15 PTS),2pt made,2pt made,1,Medium
+21700157,499,2pt,4,PT08M28.00S,08:28,Q4 08:28,82,81,1610612757.0,McCollum,McCollum 18' Pullup Jump Shot (30 PTS),2pt made,3pt missed,1,Medium
+21700157,500,3pt,4,PT08M05.00S,08:05,Q4 08:05,82,81,1610612763.0,Parsons,MISS Parsons 24' 3PT Jump Shot,2pt made,rebound,1,Medium
+21700157,501,rebound,4,PT08M04.00S,08:04,Q4 08:04,82,81,1610612757.0,Davis,Davis REBOUND (Off:3 Def:5),3pt missed,2pt missed,1,Medium
+21700157,504,2pt,4,PT07M42.00S,07:42,Q4 07:42,82,81,1610612757.0,Napier,MISS Napier 2' Driving Layup,rebound,block,1,Medium
+21700157,504,block,4,PT07M42.00S,07:42,Q4 07:42,82,81,1610612763.0,Conley,Conley BLOCK (1 BLK),2pt missed,rebound,1,Medium
+21700157,506,rebound,4,PT07M39.00S,07:39,Q4 07:39,82,81,1610612763.0,Brooks,Brooks REBOUND (Off:1 Def:6),block,2pt made,1,Medium
+21700157,507,2pt,4,PT07M26.00S,07:26,Q4 07:26,82,83,1610612763.0,Evans,Evans 22' Step Back Jump Shot (19 PTS),rebound,timeout,1,Medium
+21700157,508,timeout,4,PT07M25.00S,07:25,Q4 07:25,82,83,1610612757.0,,TRAIL BLAZERS Timeout: Regular (Full 4 Short 0),2pt made,substitution,1,Medium
+21700157,513,substitution,4,PT07M25.00S,07:25,Q4 07:25,82,83,1610612757.0,Napier,SUB out: S. Napier,timeout,substitution,1,Medium
+21700157,514,substitution,4,PT07M25.00S,07:25,Q4 07:25,82,83,1610612757.0,Davis,SUB out: E. Davis,substitution,substitution,1,Medium
+21700157,515,substitution,4,PT07M25.00S,07:25,Q4 07:25,82,83,1610612763.0,Brooks,SUB out: D. Brooks,substitution,substitution,1,Medium
+21700157,516,substitution,4,PT07M25.00S,07:25,Q4 07:25,82,83,1610612763.0,Wright,SUB out: B. Wright,substitution,substitution,1,Medium
+21700157,517,substitution,4,PT07M25.00S,07:25,Q4 07:25,82,83,1610612757.0,Lillard,SUB in: D. Lillard,substitution,substitution,1,Medium
+21700157,518,substitution,4,PT07M25.00S,07:25,Q4 07:25,82,83,1610612757.0,Nurkic,SUB in: J. Nurkic,substitution,substitution,1,Medium
+21700157,519,substitution,4,PT07M25.00S,07:25,Q4 07:25,82,83,1610612763.0,Gasol,SUB in: M. Gasol,substitution,substitution,1,Medium
+21700157,520,substitution,4,PT07M25.00S,07:25,Q4 07:25,82,83,1610612763.0,Ennis III,SUB in: J. Ennis III,substitution,turnover,1,Medium
+21700157,517,turnover,4,PT07M02.00S,07:02,Q4 07:02,82,83,1610612757.0,McCollum,McCollum Lost Ball Turnover (P1.T14),substitution,steal,1,Medium
+21700157,517,steal,4,PT07M02.00S,07:02,Q4 07:02,82,83,1610612763.0,Evans,Evans STEAL (3 STL),turnover,2pt made,1,Medium
+21700157,519,2pt,4,PT06M57.00S,06:57,Q4 06:57,82,85,1610612763.0,Evans,Evans 1' Running Layup (21 PTS),steal,2pt made,3,High
+21700157,520,2pt,4,PT06M34.00S,06:34,Q4 06:34,84,85,1610612757.0,Nurkic,Nurkic 2' Driving Layup (6 PTS) (Lillard 3 AST),2pt made,3pt made,1,High
+21700157,522,3pt,4,PT06M15.00S,06:15,Q4 06:15,84,88,1610612763.0,Conley,Conley 24' 3PT Jump Shot (18 PTS) (Evans 4 AST),2pt made,3pt made,4,High
+21700157,524,3pt,4,PT05M46.00S,05:46,Q4 05:46,87,88,1610612757.0,McCollum,McCollum 28' 3PT Jump Shot (33 PTS) (Lillard 4 AST),3pt made,foul,1,High
+21700157,526,foul,4,PT05M14.00S,05:14,Q4 05:14,87,88,1610612763.0,Parsons,Parsons OFF.Foul (P5) (J.Van Duyne),3pt made,turnover,1,High
+21700157,528,turnover,4,PT05M14.00S,05:14,Q4 05:14,87,88,1610612763.0,Parsons,Parsons Offensive Foul Turnover (P4.T13),foul,substitution,1,High
+21700157,531,substitution,4,PT05M14.00S,05:14,Q4 05:14,87,88,1610612763.0,Conley,SUB out: M. Conley,turnover,substitution,1,High
+21700157,532,substitution,4,PT05M14.00S,05:14,Q4 05:14,87,88,1610612763.0,Parsons,SUB out: C. Parsons,substitution,substitution,1,High
+21700157,533,substitution,4,PT05M14.00S,05:14,Q4 05:14,87,88,1610612763.0,Chalmers,SUB in: M. Chalmers,substitution,substitution,1,High
+21700157,534,substitution,4,PT05M14.00S,05:14,Q4 05:14,87,88,1610612763.0,Brooks,SUB in: D. Brooks,substitution,3pt missed,1,High
+21700157,533,3pt,4,PT05M03.00S,05:03,Q4 05:03,87,88,1610612757.0,Lillard,MISS Lillard 25' 3PT Step Back Jump Shot,substitution,rebound,1,High
+21700157,534,rebound,4,PT05M00.00S,05:00,Q4 05:00,87,88,1610612763.0,Chalmers,Chalmers REBOUND (Off:0 Def:3),3pt missed,2pt missed,1,High
+21700157,535,2pt,4,PT04M39.00S,04:39,Q4 04:39,87,88,1610612763.0,Evans,MISS Evans 2' Driving Finger Roll Layup,rebound,rebound,1,High
+21700157,536,rebound,4,PT04M36.00S,04:36,Q4 04:36,87,88,1610612757.0,Lillard,Lillard REBOUND (Off:1 Def:4),2pt missed,2pt missed,1,High
+21700157,537,2pt,4,PT04M18.00S,04:18,Q4 04:18,87,88,1610612757.0,Nurkic,MISS Nurkic 1' Driving Layup,rebound,block,1,High
+21700157,537,block,4,PT04M18.00S,04:18,Q4 04:18,87,88,1610612763.0,Gasol,Gasol BLOCK (4 BLK),2pt missed,rebound,1,High
+21700157,538,rebound,4,PT04M16.00S,04:16,Q4 04:16,87,88,1610612763.0,Gasol,Gasol REBOUND (Off:0 Def:4),block,2pt made,1,High
+21700157,539,2pt,4,PT04M11.00S,04:11,Q4 04:11,87,90,1610612763.0,Chalmers,Chalmers 1' Driving Layup (7 PTS),rebound,turnover,3,High
+21700157,540,turnover,4,PT03M56.00S,03:56,Q4 03:56,87,90,1610612757.0,Lillard,Lillard Out of Bounds - Bad Pass Turnover Turnover (P5.T15),2pt made,2pt made,3,High
+21700157,541,2pt,4,PT03M34.00S,03:34,Q4 03:34,87,92,1610612763.0,Brooks,Brooks 1' Cutting Layup Shot (4 PTS) (Gasol 4 AST),turnover,timeout,5,High
+21700157,543,timeout,4,PT03M34.00S,03:34,Q4 03:34,87,92,1610612757.0,,TRAIL BLAZERS Timeout: Regular (Full 5 Short 0),2pt made,substitution,5,High
+21700157,547,substitution,4,PT03M34.00S,03:34,Q4 03:34,87,92,1610612757.0,Connaughton,SUB out: P. Connaughton,timeout,substitution,5,High
+21700157,548,substitution,4,PT03M34.00S,03:34,Q4 03:34,87,92,1610612757.0,Nurkic,SUB out: J. Nurkic,substitution,substitution,5,High
+21700157,549,substitution,4,PT03M34.00S,03:34,Q4 03:34,87,92,1610612757.0,Davis,SUB in: E. Davis,substitution,substitution,5,High
+21700157,550,substitution,4,PT03M34.00S,03:34,Q4 03:34,87,92,1610612757.0,Harkless,SUB in: M. Harkless,substitution,2pt made,5,High
+21700157,549,2pt,4,PT03M12.00S,03:12,Q4 03:12,89,92,1610612757.0,Harkless,Harkless 1' Layup (5 PTS) (Lillard 5 AST),substitution,timeout,3,High
+21700157,551,timeout,4,PT02M51.00S,02:51,Q4 02:51,89,92,1610612763.0,,Grizzlies Timeout: Regular (Reg.4 Short 0),2pt made,foul,3,High
+21700157,554,foul,4,PT02M51.00S,02:51,Q4 02:51,89,92,1610612757.0,Turner,Turner IN.FOUL (P2.T1) (N.Buchert),timeout,freethrow,3,High
+21700157,556,freethrow,4,PT02M51.00S,02:51,Q4 02:51,89,93,1610612763.0,Gasol,Gasol Free Throw 1 of 1 (16 PTS),foul,substitution,4,High
+21700157,553,substitution,4,PT02M51.00S,02:51,Q4 02:51,89,92,1610612763.0,Chalmers,SUB out: M. Chalmers,freethrow,substitution,3,High
+21700157,554,substitution,4,PT02M51.00S,02:51,Q4 02:51,89,92,1610612763.0,Conley,SUB in: M. Conley,substitution,2pt missed,3,High
+21700157,557,2pt,4,PT02M46.00S,02:46,Q4 02:46,89,93,1610612763.0,Conley,MISS Conley 16' Pullup Jump Shot,substitution,rebound,4,High
+21700157,558,rebound,4,PT02M43.00S,02:43,Q4 02:43,89,93,1610612757.0,Davis,Davis REBOUND (Off:3 Def:6),2pt missed,2pt made,4,High
+21700157,559,2pt,4,PT02M36.00S,02:36,Q4 02:36,91,93,1610612757.0,Lillard,Lillard 1' Driving Finger Roll Layup (11 PTS),rebound,turnover,2,High
+21700157,560,turnover,4,PT02M09.00S,02:09,Q4 02:09,91,93,0.0,,Grizzlies Turnover: Shot Clock (T#14),2pt made,3pt missed,2,High
+21700157,561,3pt,4,PT01M48.00S,01:48,Q4 01:48,91,93,1610612757.0,McCollum,MISS McCollum 26' 3PT Step Back Jump Shot,turnover,rebound,2,Very High
+21700157,562,rebound,4,PT01M46.00S,01:46,Q4 01:46,91,93,1610612763.0,Gasol,Gasol REBOUND (Off:0 Def:5),3pt missed,2pt missed,2,Very High
+21700157,563,2pt,4,PT01M27.00S,01:27,Q4 01:27,91,93,1610612763.0,Gasol,MISS Gasol 8' Driving Floating Jump Shot,rebound,rebound,2,Very High
+21700157,564,rebound,4,PT01M25.00S,01:25,Q4 01:25,91,93,1610612757.0,Davis,Davis REBOUND (Off:3 Def:7),2pt missed,2pt missed,2,Very High
+21700157,565,2pt,4,PT01M19.00S,01:19,Q4 01:19,91,93,1610612757.0,Turner,MISS Turner 2' Driving Layup,rebound,rebound,2,Very High
+21700157,566,rebound,4,PT01M16.00S,01:16,Q4 01:16,91,93,1610612763.0,Brooks,Brooks REBOUND (Off:1 Def:7),2pt missed,3pt missed,2,Very High
+21700157,567,3pt,4,PT00M53.40S,00:53,Q4 00:53,91,93,1610612763.0,Evans,MISS Evans 25' 3PT Pullup Jump Shot,rebound,rebound,2,Very High
+21700157,568,rebound,4,PT00M52.00S,00:52,Q4 00:52,91,93,1610612757.0,McCollum,McCollum REBOUND (Off:0 Def:1),3pt missed,turnover,2,Very High
+21700157,569,turnover,4,PT00M41.30S,00:41,Q4 00:41,91,93,1610612757.0,Davis,Davis Lost Ball Turnover (P1.T16),rebound,steal,2,Very High
+21700157,569,steal,4,PT00M41.30S,00:41,Q4 00:41,91,93,1610612763.0,Brooks,Brooks STEAL (3 STL),turnover,2pt made,2,Very High
+21700157,571,2pt,4,PT00M39.40S,00:39,Q4 00:39,91,95,1610612763.0,Brooks,Brooks 1' Running Layup (6 PTS) (Evans 5 AST),steal,foul,4,Very High
+21700157,572,foul,4,PT00M39.40S,00:39,Q4 00:39,91,95,1610612757.0,McCollum,McCollum S.FOUL (P1.T2) (P.Fraher),2pt made,freethrow,4,Very High
+21700157,575,freethrow,4,PT00M39.40S,00:39,Q4 00:39,91,96,1610612763.0,Brooks,Brooks Free Throw 1 of 1 (7 PTS),foul,foul,5,Very High
+21700157,576,foul,4,PT00M28.10S,00:28,Q4 00:28,91,96,1610612763.0,Conley,Conley S.FOUL (P3.T2) (N.Buchert),freethrow,freethrow,5,Very High
+21700157,578,freethrow,4,PT00M28.10S,00:28,Q4 00:28,92,96,1610612757.0,Turner,Turner Free Throw 1 of 2 (15 PTS),foul,freethrow,4,Very High
+21700157,583,freethrow,4,PT00M28.10S,00:28,Q4 00:28,93,96,1610612757.0,Turner,Turner Free Throw 2 of 2 (16 PTS),freethrow,substitution,3,Very High
+21700157,580,substitution,4,PT00M28.10S,00:28,Q4 00:28,92,96,1610612757.0,Davis,SUB out: E. Davis,freethrow,substitution,4,Very High
+21700157,581,substitution,4,PT00M28.10S,00:28,Q4 00:28,92,96,1610612757.0,Connaughton,SUB out: P. Connaughton,substitution,substitution,4,Very High
+21700157,582,substitution,4,PT00M28.10S,00:28,Q4 00:28,92,96,1610612757.0,Connaughton,SUB in: P. Connaughton,substitution,substitution,4,Very High
+21700157,583,substitution,4,PT00M28.10S,00:28,Q4 00:28,92,96,1610612757.0,Napier,SUB in: S. Napier,substitution,foul,4,Very High
+21700157,584,foul,4,PT00M23.10S,00:23,Q4 00:23,93,96,1610612757.0,Harkless,Harkless Personal Take Foul (P1.PN) (P.Fraher),substitution,freethrow,3,Very High
+21700157,586,freethrow,4,PT00M23.10S,00:23,Q4 00:23,93,98,1610612763.0,Conley,Conley Free Throw 1 of 2 (20 PTS),foul,freethrow,5,Very High
+21700157,587,freethrow,4,PT00M23.10S,00:23,Q4 00:23,93,97,1610612763.0,Conley,Conley Free Throw 2 of 2 (19 PTS),freethrow,timeout,4,Very High
+21700157,592,timeout,4,PT00M23.10S,00:23,Q4 00:23,93,97,1610612757.0,,TRAIL BLAZERS Timeout: Regular (Full 6 Short 0),freethrow,foul,4,Very High
+21700157,597,foul,4,PT00M23.10S,00:23,Q4 00:23,93,97,1610612763.0,Conley,Conley IN.FOUL (P4.PN) (N.Buchert),timeout,freethrow,4,Very High
+21700157,599,freethrow,4,PT00M23.10S,00:23,Q4 00:23,94,98,1610612757.0,Lillard,Lillard Free Throw 1 of 1 (12 PTS),foul,substitution,4,Very High
+21700157,590,substitution,4,PT00M23.10S,00:23,Q4 00:23,93,96,1610612757.0,Lillard,SUB out: D. Lillard,freethrow,substitution,3,Very High
+21700157,591,substitution,4,PT00M23.10S,00:23,Q4 00:23,93,96,1610612757.0,Napier,SUB out: S. Napier,substitution,substitution,3,Very High
+21700157,592,substitution,4,PT00M23.10S,00:23,Q4 00:23,93,97,1610612757.0,Harkless,SUB out: M. Harkless,substitution,substitution,4,Very High
+21700157,593,substitution,4,PT00M23.10S,00:23,Q4 00:23,93,97,1610612757.0,Vonleh,SUB out: N. Vonleh,substitution,substitution,4,Very High
+21700157,594,substitution,4,PT00M23.10S,00:23,Q4 00:23,93,96,1610612757.0,Davis,SUB in: E. Davis,substitution,substitution,3,Very High
+21700157,595,substitution,4,PT00M23.10S,00:23,Q4 00:23,93,96,1610612757.0,Vonleh,SUB in: N. Vonleh,substitution,substitution,3,Very High
+21700157,596,substitution,4,PT00M23.10S,00:23,Q4 00:23,93,97,1610612757.0,Lillard,SUB in: D. Lillard,substitution,substitution,4,Very High
+21700157,597,substitution,4,PT00M23.10S,00:23,Q4 00:23,93,97,1610612757.0,Connaughton,SUB in: P. Connaughton,substitution,3pt made,4,Very High
+21700157,600,3pt,4,PT00M13.40S,00:13,Q4 00:13,97,98,1610612757.0,McCollum,McCollum 26' 3PT Pullup Jump Shot (36 PTS) (Lillard 6 AST),substitution,timeout,1,Very High
+21700157,602,timeout,4,PT00M12.90S,00:12,Q4 00:12,97,98,1610612763.0,,Grizzlies Timeout: Regular (Reg.5 Short 0),3pt made,substitution,1,Very High
+21700157,605,substitution,4,PT00M12.90S,00:12,Q4 00:12,97,98,1610612757.0,Connaughton,SUB out: P. Connaughton,timeout,substitution,1,Very High
+21700157,606,substitution,4,PT00M12.90S,00:12,Q4 00:12,97,98,1610612763.0,Ennis III,SUB out: J. Ennis III,substitution,substitution,1,Very High
+21700157,607,substitution,4,PT00M12.90S,00:12,Q4 00:12,97,98,1610612757.0,Napier,SUB in: S. Napier,substitution,substitution,1,Very High
+21700157,608,substitution,4,PT00M12.90S,00:12,Q4 00:12,97,98,1610612763.0,Parsons,SUB in: C. Parsons,substitution,instant replay,1,Very High
+21700157,611,turnover,4,PT00M12.10S,00:12,Q4 00:12,97,98,1610612763.0,Parsons,Parsons Out of Bounds - Bad Pass Turnover Turnover (P5.T15),instant replay,2pt missed,1,Very High
+21700157,609,2pt,4,PT00M03.70S,00:03,Q4 00:03,97,98,1610612757.0,McCollum,MISS McCollum 19' Pullup Jump Shot,turnover,rebound,1,Very High
+21700157,610,rebound,4,PT00M03.70S,00:03,Q4 00:03,97,98,1610612757.0,McCollum,McCollum REBOUND (Off:1 Def:1),2pt missed,period,1,Very High
+21700157,612,period,4,PT00M00.00S,00:00,Q4 00:00,97,98,1610612757.0,,End of 4th Period (12:26 AM EST),rebound,,1,Very High

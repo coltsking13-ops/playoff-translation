@@ -1,0 +1,474 @@
+game_id,actionNumber,actionType,period,clock,clock_display,game_clock,scoreHome,scoreAway,teamId,playerName,description,previous_action,next_action,score_margin,leverage_bucket
+21300254,0,period,1,PT12M00.00S,12:00,Q1 12:00,0,0,1610612752.0,,Start of 1st Period (7:43 PM EST),,turnover,0,Low
+21300254,3,turnover,1,PT11M39.00S,11:39,Q1 11:39,0,0,1610612740.0,Holiday,Holiday Bad Pass Turnover (P1.T1),period,steal,0,Low
+21300254,3,steal,1,PT11M39.00S,11:39,Q1 11:39,0,0,1610612752.0,Martin,Martin STEAL (1 STL),turnover,foul,0,Low
+21300254,4,foul,1,PT11M17.00S,11:17,Q1 11:17,0,0,1610612740.0,Smith,Smith P.FOUL (P1.T1),steal,turnover,0,Low
+21300254,5,turnover,1,PT11M12.00S,11:12,Q1 11:12,0,0,1610612752.0,Bargnani,Bargnani Traveling Turnover (P1.T1),foul,turnover,0,Low
+21300254,7,turnover,1,PT10M50.00S,10:50,Q1 10:50,0,0,1610612740.0,Davis,Davis Lost Ball Turnover (P1.T2),turnover,steal,0,Low
+21300254,7,steal,1,PT10M50.00S,10:50,Q1 10:50,0,0,1610612752.0,Martin,Martin STEAL (2 STL),turnover,2pt made,0,Low
+21300254,8,2pt,1,PT10M32.00S,10:32,Q1 10:32,2,0,1610612752.0,Bargnani,Bargnani 21' Jump Shot (2 PTS) (Martin 1 AST),steal,2pt missed,2,Low
+21300254,9,2pt,1,PT10M15.00S,10:15,Q1 10:15,0,0,1610612740.0,Holiday,MISS Holiday 19' Jump Shot,2pt made,rebound,0,Low
+21300254,10,rebound,1,PT10M14.00S,10:14,Q1 10:14,0,0,1610612752.0,Martin,Martin REBOUND (Off:0 Def:1),2pt missed,2pt missed,0,Low
+21300254,11,2pt,1,PT10M02.00S,10:02,Q1 10:02,0,0,1610612752.0,Bargnani,MISS Bargnani 13' Jump Bank Shot,rebound,rebound,0,Low
+21300254,12,rebound,1,PT10M00.00S,10:00,Q1 10:00,0,0,1610612752.0,Felton,Felton REBOUND (Off:1 Def:0),2pt missed,foul,0,Low
+21300254,13,foul,1,PT09M53.00S,09:53,Q1 09:53,0,0,1610612740.0,Morrow,Morrow P.FOUL (P1.T2),rebound,3pt made,0,Low
+21300254,14,3pt,1,PT09M46.00S,09:46,Q1 09:46,5,0,1610612752.0,Felton,Felton 25' 3PT Jump Shot (3 PTS),foul,2pt made,5,Low
+21300254,15,2pt,1,PT09M31.00S,09:31,Q1 09:31,5,2,1610612740.0,Davis,Davis 9' Jump Shot (2 PTS) (Holiday 1 AST),3pt made,2pt missed,3,Low
+21300254,16,2pt,1,PT09M09.00S,09:09,Q1 09:09,0,0,1610612752.0,Bargnani,MISS Bargnani 3' Driving Layup,2pt made,rebound,0,Low
+21300254,17,rebound,1,PT09M07.00S,09:07,Q1 09:07,0,0,1610612752.0,Martin,Martin REBOUND (Off:1 Def:1),2pt missed,2pt missed,0,Low
+21300254,18,2pt,1,PT09M07.00S,09:07,Q1 09:07,0,0,1610612752.0,Martin,MISS Martin 1' Tip Shot,rebound,rebound,0,Low
+21300254,19,rebound,1,PT09M06.00S,09:06,Q1 09:06,0,0,1610612740.0,Gordon,Gordon REBOUND (Off:0 Def:1),2pt missed,2pt made,0,Low
+21300254,20,2pt,1,PT09M01.00S,09:01,Q1 09:01,5,4,1610612740.0,Gordon,Gordon  Driving Finger Roll Layup (2 PTS),rebound,2pt made,1,Low
+21300254,21,2pt,1,PT08M40.00S,08:40,Q1 08:40,7,4,1610612752.0,Bargnani,Bargnani  Dunk (4 PTS) (Felton 1 AST),2pt made,2pt missed,3,Low
+21300254,22,2pt,1,PT08M15.00S,08:15,Q1 08:15,0,0,1610612740.0,Davis,MISS Davis 1' Dunk,2pt made,rebound,0,Low
+21300254,23,rebound,1,PT08M14.00S,08:14,Q1 08:14,0,0,1610612752.0,Shumpert,Shumpert REBOUND (Off:0 Def:1),2pt missed,3pt missed,0,Low
+21300254,24,3pt,1,PT08M09.00S,08:09,Q1 08:09,0,0,1610612752.0,Shumpert,MISS Shumpert 25' 3PT Pullup Jump Shot,rebound,rebound,0,Low
+21300254,25,rebound,1,PT08M08.00S,08:08,Q1 08:08,0,0,1610612740.0,,TEAM defensive REBOUND,3pt missed,2pt missed,0,Low
+21300254,26,2pt,1,PT07M52.00S,07:52,Q1 07:52,0,0,1610612740.0,Holiday,MISS Holiday 3' Driving Layup,rebound,block,0,Low
+21300254,26,block,1,PT07M52.00S,07:52,Q1 07:52,0,0,1610612752.0,Bargnani,Bargnani BLOCK (1 BLK),2pt missed,rebound,0,Low
+21300254,27,rebound,1,PT07M51.00S,07:51,Q1 07:51,0,0,1610612740.0,,TEAM offensive REBOUND,block,2pt missed,0,Low
+21300254,28,2pt,1,PT07M40.00S,07:40,Q1 07:40,0,0,1610612740.0,Gordon,MISS Gordon 21' Jump Shot,rebound,rebound,0,Low
+21300254,29,rebound,1,PT07M39.00S,07:39,Q1 07:39,0,0,1610612752.0,Shumpert,Shumpert REBOUND (Off:0 Def:2),2pt missed,2pt made,0,Low
+21300254,30,2pt,1,PT07M35.00S,07:35,Q1 07:35,9,4,1610612752.0,Bargnani,Bargnani 1' Driving Dunk (6 PTS) (Shumpert 1 AST),rebound,timeout,5,Low
+21300254,31,timeout,1,PT07M33.00S,07:33,Q1 07:33,0,0,1610612740.0,,Pelicans Timeout: Regular (Reg.1 Short 0),2pt made,2pt made,0,Low
+21300254,35,2pt,1,PT07M16.00S,07:16,Q1 07:16,9,6,1610612740.0,Davis,Davis 3' Running Finger Roll Layup (4 PTS),timeout,foul,3,Low
+21300254,36,foul,1,PT07M16.00S,07:16,Q1 07:16,0,0,1610612752.0,Martin,Martin S.FOUL (P1.T1),2pt made,freethrow,0,Low
+21300254,37,freethrow,1,PT07M16.00S,07:16,Q1 07:16,9,7,1610612740.0,Davis,Davis Free Throw 1 of 1 (5 PTS),foul,2pt missed,2,Low
+21300254,39,2pt,1,PT06M53.00S,06:53,Q1 06:53,0,0,1610612752.0,Martin,MISS Martin 2' Driving Layup,freethrow,rebound,0,Low
+21300254,40,rebound,1,PT06M52.00S,06:52,Q1 06:52,0,0,1610612740.0,Davis,Davis REBOUND (Off:0 Def:1),2pt missed,2pt missed,0,Low
+21300254,41,2pt,1,PT06M40.00S,06:40,Q1 06:40,0,0,1610612740.0,Davis,MISS Davis 18' Jump Shot,rebound,rebound,0,Low
+21300254,42,rebound,1,PT06M39.00S,06:39,Q1 06:39,0,0,1610612752.0,Anthony,Anthony REBOUND (Off:0 Def:1),2pt missed,3pt missed,0,Low
+21300254,43,3pt,1,PT06M17.00S,06:17,Q1 06:17,0,0,1610612752.0,Bargnani,MISS Bargnani 29' 3PT Jump Shot,rebound,rebound,0,Low
+21300254,44,rebound,1,PT06M16.00S,06:16,Q1 06:16,0,0,1610612740.0,Smith,Smith REBOUND (Off:0 Def:1),3pt missed,2pt made,0,Low
+21300254,45,2pt,1,PT06M06.00S,06:06,Q1 06:06,9,9,1610612740.0,Smith,Smith 19' Jump Shot (2 PTS) (Holiday 2 AST),rebound,2pt missed,0,Low
+21300254,46,2pt,1,PT05M47.00S,05:47,Q1 05:47,0,0,1610612752.0,Anthony,MISS Anthony 16' Jump Shot,2pt made,rebound,0,Low
+21300254,47,rebound,1,PT05M46.00S,05:46,Q1 05:46,0,0,1610612740.0,Davis,Davis REBOUND (Off:0 Def:2),2pt missed,2pt missed,0,Low
+21300254,48,2pt,1,PT05M38.00S,05:38,Q1 05:38,0,0,1610612740.0,Gordon,MISS Gordon 3' Layup,rebound,block,0,Low
+21300254,48,block,1,PT05M38.00S,05:38,Q1 05:38,0,0,1610612752.0,Martin,Martin BLOCK (1 BLK),2pt missed,rebound,0,Low
+21300254,49,rebound,1,PT05M37.00S,05:37,Q1 05:37,0,0,1610612740.0,Davis,Davis REBOUND (Off:1 Def:2),block,2pt missed,0,Low
+21300254,50,2pt,1,PT05M37.00S,05:37,Q1 05:37,0,0,1610612740.0,Davis,MISS Davis 2' Putback Layup,rebound,rebound,0,Low
+21300254,51,rebound,1,PT05M35.00S,05:35,Q1 05:35,0,0,1610612752.0,Bargnani,Bargnani REBOUND (Off:0 Def:1),2pt missed,2pt missed,0,Low
+21300254,52,2pt,1,PT05M26.00S,05:26,Q1 05:26,0,0,1610612752.0,Bargnani,MISS Bargnani 20' Jump Shot,rebound,rebound,0,Low
+21300254,53,rebound,1,PT05M25.00S,05:25,Q1 05:25,0,0,1610612740.0,Morrow,Morrow REBOUND (Off:0 Def:1),2pt missed,2pt missed,0,Low
+21300254,54,2pt,1,PT05M16.00S,05:16,Q1 05:16,0,0,1610612740.0,Smith,MISS Smith 1' Layup,rebound,block,0,Low
+21300254,54,block,1,PT05M16.00S,05:16,Q1 05:16,0,0,1610612752.0,Bargnani,Bargnani BLOCK (2 BLK),2pt missed,rebound,0,Low
+21300254,55,rebound,1,PT05M15.00S,05:15,Q1 05:15,0,0,1610612752.0,Shumpert,Shumpert REBOUND (Off:0 Def:3),block,2pt made,0,Low
+21300254,56,2pt,1,PT05M10.00S,05:10,Q1 05:10,11,9,1610612752.0,Anthony,Anthony  Alley Oop Dunk (2 PTS) (Felton 2 AST),rebound,3pt missed,2,Low
+21300254,57,3pt,1,PT04M52.00S,04:52,Q1 04:52,0,0,1610612740.0,Gordon,MISS Gordon  3PT Jump Shot,2pt made,rebound,0,Low
+21300254,58,rebound,1,PT04M51.00S,04:51,Q1 04:51,0,0,1610612752.0,Bargnani,Bargnani REBOUND (Off:0 Def:2),3pt missed,2pt made,0,Low
+21300254,59,2pt,1,PT04M38.00S,04:38,Q1 04:38,13,9,1610612752.0,Anthony,Anthony 10' Pullup Jump Shot (4 PTS),rebound,3pt missed,4,Low
+21300254,60,3pt,1,PT04M28.00S,04:28,Q1 04:28,0,0,1610612740.0,Holiday,MISS Holiday 25' 3PT Jump Shot,2pt made,rebound,0,Low
+21300254,61,rebound,1,PT04M27.00S,04:27,Q1 04:27,0,0,1610612740.0,Smith,Smith REBOUND (Off:1 Def:1),3pt missed,3pt made,0,Low
+21300254,62,3pt,1,PT04M20.00S,04:20,Q1 04:20,13,12,1610612740.0,Morrow,Morrow 25' 3PT Jump Shot (3 PTS) (Holiday 3 AST),rebound,turnover,1,Low
+21300254,63,turnover,1,PT04M04.00S,04:04,Q1 04:04,0,0,1610612752.0,Shumpert,Shumpert Bad Pass Turnover (P1.T2),3pt made,steal,0,Low
+21300254,63,steal,1,PT04M04.00S,04:04,Q1 04:04,0,0,1610612740.0,Gordon,Gordon STEAL (1 STL),turnover,2pt missed,0,Low
+21300254,64,2pt,1,PT04M00.00S,04:00,Q1 04:00,0,0,1610612740.0,Smith,MISS Smith 2' Layup,steal,block,0,Low
+21300254,64,block,1,PT04M00.00S,04:00,Q1 04:00,0,0,1610612752.0,Martin,Martin BLOCK (2 BLK),2pt missed,rebound,0,Low
+21300254,65,rebound,1,PT03M59.00S,03:59,Q1 03:59,0,0,1610612740.0,,TEAM offensive REBOUND,block,substitution,0,Low
+21300254,66,substitution,1,PT03M59.00S,03:59,Q1 03:59,0,0,1610612740.0,Morrow,SUB out: A. Morrow,rebound,substitution,0,Low
+21300254,67,substitution,1,PT03M59.00S,03:59,Q1 03:59,0,0,1610612740.0,Smith,SUB out: J. Smith,substitution,substitution,0,Low
+21300254,68,substitution,1,PT03M59.00S,03:59,Q1 03:59,0,0,1610612752.0,Martin,SUB out: K. Martin,substitution,substitution,0,Low
+21300254,69,substitution,1,PT03M59.00S,03:59,Q1 03:59,0,0,1610612752.0,Shumpert,SUB out: I. Shumpert,substitution,substitution,0,Low
+21300254,70,substitution,1,PT03M59.00S,03:59,Q1 03:59,0,0,1610612740.0,Evans,SUB in: T. Evans,substitution,substitution,0,Low
+21300254,71,substitution,1,PT03M59.00S,03:59,Q1 03:59,0,0,1610612740.0,Anderson,SUB in: R. Anderson,substitution,substitution,0,Low
+21300254,72,substitution,1,PT03M59.00S,03:59,Q1 03:59,0,0,1610612752.0,Smith,SUB in: J. Smith,substitution,substitution,0,Low
+21300254,73,substitution,1,PT03M59.00S,03:59,Q1 03:59,0,0,1610612752.0,Stoudemire,SUB in: A. Stoudemire,substitution,foul,0,Low
+21300254,70,foul,1,PT03M47.00S,03:47,Q1 03:47,0,0,1610612752.0,Felton,Felton S.FOUL (P1.T2),substitution,freethrow,0,Low
+21300254,71,freethrow,1,PT03M47.00S,03:47,Q1 03:47,13,13,1610612740.0,Anderson,Anderson Free Throw 1 of 2 (1 PTS),foul,freethrow,0,Low
+21300254,73,freethrow,1,PT03M47.00S,03:47,Q1 03:47,13,14,1610612740.0,Anderson,Anderson Free Throw 2 of 2 (2 PTS),freethrow,2pt missed,1,Low
+21300254,75,2pt,1,PT03M26.00S,03:26,Q1 03:26,0,0,1610612752.0,Smith,MISS Smith 2' Layup,freethrow,rebound,0,Low
+21300254,76,rebound,1,PT03M25.00S,03:25,Q1 03:25,0,0,1610612740.0,Davis,Davis REBOUND (Off:1 Def:3),2pt missed,2pt missed,0,Low
+21300254,77,2pt,1,PT03M06.00S,03:06,Q1 03:06,0,0,1610612740.0,Evans,MISS Evans 21' Fadeaway Jumper,rebound,rebound,0,Low
+21300254,78,rebound,1,PT03M05.00S,03:05,Q1 03:05,0,0,1610612752.0,Anthony,Anthony REBOUND (Off:0 Def:2),2pt missed,3pt made,0,Low
+21300254,79,3pt,1,PT02M54.00S,02:54,Q1 02:54,16,14,1610612752.0,Smith,Smith  3PT Jump Shot (3 PTS) (Felton 3 AST),rebound,foul,2,Low
+21300254,80,foul,1,PT02M48.00S,02:48,Q1 02:48,0,0,1610612752.0,Smith,Smith S.FOUL (P1.T3),3pt made,timeout,0,Low
+21300254,81,timeout,1,PT02M48.00S,02:48,Q1 02:48,0,0,1610612752.0,,KNICKS Timeout: Regular (Full 1 Short 0),foul,freethrow,0,Low
+21300254,85,freethrow,1,PT02M48.00S,02:48,Q1 02:48,16,15,1610612740.0,Davis,Davis Free Throw 1 of 2 (6 PTS),timeout,freethrow,1,Low
+21300254,87,freethrow,1,PT02M48.00S,02:48,Q1 02:48,16,16,1610612740.0,Davis,Davis Free Throw 2 of 2 (7 PTS),freethrow,foul,0,Low
+21300254,91,foul,1,PT02M32.00S,02:32,Q1 02:32,0,0,1610612752.0,Stoudemire,Stoudemire Offensive Charge Foul (P1.T4),freethrow,turnover,0,Low
+21300254,92,turnover,1,PT02M32.00S,02:32,Q1 02:32,0,0,1610612752.0,Stoudemire,Stoudemire Foul Turnover (P1.T3),foul,foul,0,Low
+21300254,93,foul,1,PT02M22.00S,02:22,Q1 02:22,0,0,1610612752.0,Stoudemire,Stoudemire P.FOUL (P2.PN),turnover,turnover,0,Low
+21300254,94,turnover,1,PT02M12.00S,02:12,Q1 02:12,0,0,1610612740.0,Holiday,Holiday Bad Pass Turnover (P2.T3),foul,steal,0,Low
+21300254,94,steal,1,PT02M12.00S,02:12,Q1 02:12,0,0,1610612752.0,Anthony,Anthony STEAL (1 STL),turnover,2pt made,0,Low
+21300254,95,2pt,1,PT02M06.00S,02:06,Q1 02:06,18,16,1610612752.0,Felton,Felton 1' Driving Layup (5 PTS) (Smith 1 AST),steal,2pt missed,2,Low
+21300254,96,2pt,1,PT01M50.00S,01:50,Q1 01:50,0,0,1610612740.0,Davis,MISS Davis 5' Jump Hook Shot,2pt made,rebound,0,Low
+21300254,97,rebound,1,PT01M49.00S,01:49,Q1 01:49,0,0,1610612740.0,Holiday,Holiday REBOUND (Off:1 Def:0),2pt missed,2pt missed,0,Low
+21300254,98,2pt,1,PT01M40.00S,01:40,Q1 01:40,0,0,1610612740.0,Anderson,MISS Anderson 1' Layup,rebound,block,0,Low
+21300254,98,block,1,PT01M40.00S,01:40,Q1 01:40,0,0,1610612752.0,Bargnani,Bargnani BLOCK (3 BLK),2pt missed,rebound,0,Low
+21300254,99,rebound,1,PT01M39.00S,01:39,Q1 01:39,0,0,1610612752.0,Anthony,Anthony REBOUND (Off:0 Def:3),block,substitution,0,Low
+21300254,101,substitution,1,PT01M33.00S,01:33,Q1 01:33,0,0,1610612752.0,Bargnani,SUB out: A. Bargnani,rebound,substitution,0,Low
+21300254,102,substitution,1,PT01M33.00S,01:33,Q1 01:33,0,0,1610612740.0,Davis,SUB out: A. Davis,substitution,substitution,0,Low
+21300254,103,substitution,1,PT01M33.00S,01:33,Q1 01:33,0,0,1610612740.0,Holiday,SUB out: J. Holiday,substitution,substitution,0,Low
+21300254,104,substitution,1,PT01M33.00S,01:33,Q1 01:33,0,0,1610612752.0,Hardaway Jr.,SUB in: T. Hardaway Jr.,substitution,substitution,0,Low
+21300254,105,substitution,1,PT01M33.00S,01:33,Q1 01:33,0,0,1610612740.0,Smith,SUB in: J. Smith,substitution,substitution,0,Low
+21300254,106,substitution,1,PT01M33.00S,01:33,Q1 01:33,0,0,1610612740.0,Roberts,SUB in: B. Roberts,substitution,2pt missed,0,Low
+21300254,104,2pt,1,PT01M22.00S,01:22,Q1 01:22,0,0,1610612752.0,Anthony,MISS Anthony 8' Jump Shot,substitution,rebound,0,Low
+21300254,105,rebound,1,PT01M21.00S,01:21,Q1 01:21,0,0,1610612752.0,Smith,Smith REBOUND (Off:1 Def:0),2pt missed,2pt made,0,Low
+21300254,106,2pt,1,PT01M13.00S,01:13,Q1 01:13,20,16,1610612752.0,Stoudemire,Stoudemire 1' Alley Oop Dunk (2 PTS) (Hardaway Jr. 1 AST),rebound,2pt missed,4,Low
+21300254,107,2pt,1,PT00M59.00S,00:59,Q1 00:59,0,0,1610612740.0,Gordon,MISS Gordon 20' Jump Shot,2pt made,rebound,0,Low
+21300254,108,rebound,1,PT00M57.90S,00:57,Q1 00:57,0,0,1610612752.0,Stoudemire,Stoudemire REBOUND (Off:0 Def:1),2pt missed,turnover,0,Low
+21300254,109,turnover,1,PT00M49.60S,00:49,Q1 00:49,0,0,1610612752.0,Anthony,Anthony Traveling Turnover (P1.T4),rebound,substitution,0,Low
+21300254,110,substitution,1,PT00M49.60S,00:49,Q1 00:49,0,0,1610612740.0,Gordon,SUB out: E. Gordon,turnover,substitution,0,Low
+21300254,111,substitution,1,PT00M49.60S,00:49,Q1 00:49,0,0,1610612740.0,Childress,SUB in: J. Childress,substitution,3pt missed,0,Low
+21300254,111,3pt,1,PT00M31.00S,00:31,Q1 00:31,0,0,1610612740.0,Roberts,MISS Roberts 24' 3PT Jump Shot,substitution,rebound,0,Low
+21300254,112,rebound,1,PT00M29.90S,00:29,Q1 00:29,0,0,1610612752.0,Anthony,Anthony REBOUND (Off:0 Def:4),3pt missed,2pt missed,0,Low
+21300254,113,2pt,1,PT00M07.70S,00:07,Q1 00:07,0,0,1610612752.0,Anthony,MISS Anthony 3' Driving Layup,rebound,rebound,0,Low
+21300254,114,rebound,1,PT00M06.40S,00:06,Q1 00:06,0,0,1610612752.0,Smith,Smith REBOUND (Off:2 Def:0),2pt missed,3pt missed,0,Low
+21300254,115,3pt,1,PT00M01.40S,00:01,Q1 00:01,0,0,1610612752.0,Felton,MISS Felton 25' 3PT Jump Shot,rebound,rebound,0,Low
+21300254,116,rebound,1,PT00M00.00S,00:00,Q1 00:00,0,0,1610612752.0,,TEAM offensive REBOUND,3pt missed,period,0,Low
+21300254,117,period,1,PT00M00.00S,00:00,Q1 00:00,20,16,1610612752.0,,End of 1st Period (8:07 PM EST),rebound,period,4,Low
+21300254,119,period,2,PT12M00.00S,12:00,Q2 12:00,20,16,1610612752.0,,Start of 2nd Period (8:10 PM EST),period,substitution,4,Low
+21300254,120,3pt,2,PT11M45.00S,11:45,Q2 11:45,0,0,1610612752.0,Smith,MISS Smith 26' 3PT Jump Shot,substitution,rebound,0,Low
+21300254,121,rebound,2,PT11M44.00S,11:44,Q2 11:44,0,0,1610612752.0,Prigioni,Prigioni REBOUND (Off:1 Def:0),3pt missed,3pt missed,0,Low
+21300254,122,3pt,2,PT11M24.00S,11:24,Q2 11:24,0,0,1610612752.0,Hardaway Jr.,MISS Hardaway Jr. 26' 3PT Jump Shot,rebound,rebound,0,Low
+21300254,123,rebound,2,PT11M23.00S,11:23,Q2 11:23,0,0,1610612740.0,,TEAM defensive REBOUND,3pt missed,2pt made,0,Low
+21300254,124,2pt,2,PT11M04.00S,11:04,Q2 11:04,20,18,1610612740.0,Evans,Evans 3' Layup (2 PTS),rebound,foul,2,Low
+21300254,125,foul,2,PT10M58.00S,10:58,Q2 10:58,0,0,1610612740.0,Childress,Childress P.FOUL (P1.T1),2pt made,2pt missed,0,Low
+21300254,126,2pt,2,PT10M42.00S,10:42,Q2 10:42,0,0,1610612752.0,Stoudemire,MISS Stoudemire 3' Jump Hook Shot,foul,rebound,0,Low
+21300254,127,rebound,2,PT10M41.00S,10:41,Q2 10:41,0,0,1610612740.0,Smith,Smith REBOUND (Off:1 Def:2),2pt missed,3pt missed,0,Low
+21300254,128,3pt,2,PT10M32.00S,10:32,Q2 10:32,0,0,1610612740.0,Anderson,MISS Anderson 25' 3PT Jump Shot,rebound,rebound,0,Low
+21300254,129,rebound,2,PT10M31.00S,10:31,Q2 10:31,0,0,1610612752.0,Prigioni,Prigioni REBOUND (Off:1 Def:1),3pt missed,foul,0,Low
+21300254,130,foul,2,PT10M17.00S,10:17,Q2 10:17,0,0,1610612740.0,Evans,Pelicans T.Foul (Def. 3 Sec Evans ),rebound,freethrow,0,Low
+21300254,131,freethrow,2,PT10M17.00S,10:17,Q2 10:17,21,18,1610612752.0,Smith,Smith Free Throw Technical (4 PTS),foul,turnover,3,Low
+21300254,133,turnover,2,PT10M10.00S,10:10,Q2 10:10,0,0,1610612752.0,Stoudemire,Stoudemire Traveling Turnover (P2.T5),freethrow,2pt missed,0,Low
+21300254,134,2pt,2,PT09M50.00S,09:50,Q2 09:50,0,0,1610612740.0,Roberts,MISS Roberts 3' Layup,turnover,block,0,Low
+21300254,134,block,2,PT09M50.00S,09:50,Q2 09:50,0,0,1610612752.0,Martin,Martin BLOCK (3 BLK),2pt missed,rebound,0,Low
+21300254,135,rebound,2,PT09M49.00S,09:49,Q2 09:49,0,0,1610612740.0,Anderson,Anderson REBOUND (Off:1 Def:0),block,2pt made,0,Low
+21300254,136,2pt,2,PT09M49.00S,09:49,Q2 09:49,21,20,1610612740.0,Anderson,Anderson 2' Tip Shot (4 PTS),rebound,3pt missed,1,Low
+21300254,137,3pt,2,PT09M33.00S,09:33,Q2 09:33,0,0,1610612752.0,Hardaway Jr.,MISS Hardaway Jr.  3PT Jump Shot,2pt made,rebound,0,Low
+21300254,138,rebound,2,PT09M32.00S,09:32,Q2 09:32,0,0,1610612740.0,Childress,Childress REBOUND (Off:0 Def:1),3pt missed,3pt missed,0,Low
+21300254,139,3pt,2,PT09M24.00S,09:24,Q2 09:24,0,0,1610612740.0,Anderson,MISS Anderson 26' 3PT Jump Shot,rebound,rebound,0,Low
+21300254,140,rebound,2,PT09M23.00S,09:23,Q2 09:23,0,0,1610612752.0,Stoudemire,Stoudemire REBOUND (Off:0 Def:2),3pt missed,turnover,0,Low
+21300254,141,turnover,2,PT09M08.00S,09:08,Q2 09:08,0,0,1610612752.0,Prigioni,Prigioni Bad Pass Turnover (P1.T6),rebound,steal,0,Low
+21300254,141,steal,2,PT09M08.00S,09:08,Q2 09:08,0,0,1610612740.0,Smith,Smith STEAL (1 STL),turnover,2pt made,0,Low
+21300254,142,2pt,2,PT08M59.00S,08:59,Q2 08:59,21,22,1610612740.0,Evans,Evans 1' Driving Layup (4 PTS) (Childress 1 AST),steal,3pt made,1,Low
+21300254,143,3pt,2,PT08M41.00S,08:41,Q2 08:41,24,22,1610612752.0,Prigioni,Prigioni 25' 3PT Jump Shot (3 PTS) (Martin 2 AST),2pt made,2pt made,2,Low
+21300254,144,2pt,2,PT08M24.00S,08:24,Q2 08:24,24,24,1610612740.0,Evans,Evans 2' Driving Layup (6 PTS),3pt made,turnover,0,Low
+21300254,145,turnover,2,PT07M59.00S,07:59,Q2 07:59,0,0,1610612752.0,Hardaway Jr.,Hardaway Jr. Lost Ball Turnover (P1.T7),2pt made,steal,0,Low
+21300254,145,steal,2,PT07M59.00S,07:59,Q2 07:59,0,0,1610612740.0,Evans,Evans STEAL (1 STL),turnover,3pt made,0,Low
+21300254,146,3pt,2,PT07M49.00S,07:49,Q2 07:49,24,27,1610612740.0,Anderson,Anderson 25' 3PT Jump Shot (7 PTS) (Evans 1 AST),steal,timeout,3,Low
+21300254,147,timeout,2,PT07M47.00S,07:47,Q2 07:47,0,0,1610612752.0,,KNICKS Timeout: Regular (Full 2 Short 0),3pt made,substitution,0,Low
+21300254,149,substitution,2,PT07M47.00S,07:47,Q2 07:47,0,0,1610612752.0,Martin,SUB out: K. Martin,timeout,substitution,0,Low
+21300254,150,substitution,2,PT07M47.00S,07:47,Q2 07:47,0,0,1610612752.0,Stoudemire,SUB out: A. Stoudemire,substitution,substitution,0,Low
+21300254,151,substitution,2,PT07M47.00S,07:47,Q2 07:47,0,0,1610612752.0,Hardaway Jr.,SUB out: T. Hardaway Jr.,substitution,substitution,0,Low
+21300254,152,substitution,2,PT07M47.00S,07:47,Q2 07:47,0,0,1610612752.0,Anthony,SUB in: C. Anthony,substitution,substitution,0,Low
+21300254,153,substitution,2,PT07M47.00S,07:47,Q2 07:47,0,0,1610612752.0,Bargnani,SUB in: A. Bargnani,substitution,substitution,0,Low
+21300254,154,substitution,2,PT07M47.00S,07:47,Q2 07:47,0,0,1610612752.0,Shumpert,SUB in: I. Shumpert,substitution,2pt made,0,Low
+21300254,153,2pt,2,PT07M23.00S,07:23,Q2 07:23,26,27,1610612752.0,Anthony,Anthony 9' Jump Shot (6 PTS),substitution,3pt made,1,Low
+21300254,154,3pt,2,PT07M05.00S,07:05,Q2 07:05,26,30,1610612740.0,Anderson,Anderson  3PT Jump Shot (10 PTS) (Roberts 1 AST),2pt made,3pt missed,4,Low
+21300254,155,3pt,2,PT06M48.00S,06:48,Q2 06:48,0,0,1610612752.0,Smith,MISS Smith 24' 3PT Jump Shot,3pt made,rebound,0,Low
+21300254,156,rebound,2,PT06M47.00S,06:47,Q2 06:47,0,0,1610612752.0,Shumpert,Shumpert REBOUND (Off:1 Def:3),3pt missed,2pt made,0,Low
+21300254,157,2pt,2,PT06M47.00S,06:47,Q2 06:47,28,30,1610612752.0,Shumpert,Shumpert 1' Putback Layup (2 PTS),rebound,2pt made,2,Low
+21300254,158,2pt,2,PT06M27.00S,06:27,Q2 06:27,28,32,1610612740.0,Smith,Smith 1' Alley Oop Layup (4 PTS) (Roberts 2 AST),2pt made,foul,4,Low
+21300254,159,foul,2,PT06M13.00S,06:13,Q2 06:13,0,0,1610612740.0,Smith,Smith S.FOUL (P2.T2),2pt made,freethrow,0,Low
+21300254,160,freethrow,2,PT06M13.00S,06:13,Q2 06:13,29,32,1610612752.0,Anthony,Anthony Free Throw 1 of 2 (7 PTS),foul,freethrow,3,Low
+21300254,165,freethrow,2,PT06M13.00S,06:13,Q2 06:13,30,32,1610612752.0,Anthony,Anthony Free Throw 2 of 2 (8 PTS),freethrow,substitution,2,Low
+21300254,162,substitution,2,PT06M13.00S,06:13,Q2 06:13,0,0,1610612740.0,Smith,SUB out: J. Smith,freethrow,substitution,0,Low
+21300254,163,substitution,2,PT06M13.00S,06:13,Q2 06:13,0,0,1610612740.0,Childress,SUB out: J. Childress,substitution,substitution,0,Low
+21300254,164,substitution,2,PT06M13.00S,06:13,Q2 06:13,0,0,1610612752.0,Prigioni,SUB out: P. Prigioni,substitution,substitution,0,Low
+21300254,165,substitution,2,PT06M13.00S,06:13,Q2 06:13,0,0,1610612740.0,Amundson,SUB in: L. Amundson,substitution,substitution,0,Low
+21300254,166,substitution,2,PT06M13.00S,06:13,Q2 06:13,0,0,1610612740.0,Holiday,SUB in: J. Holiday,substitution,substitution,0,Low
+21300254,167,substitution,2,PT06M13.00S,06:13,Q2 06:13,0,0,1610612752.0,Felton,SUB in: R. Felton,substitution,2pt missed,0,Low
+21300254,167,2pt,2,PT05M50.00S,05:50,Q2 05:50,0,0,1610612740.0,Amundson,MISS Amundson 2' Layup,substitution,rebound,0,Low
+21300254,168,rebound,2,PT05M49.00S,05:49,Q2 05:49,0,0,1610612752.0,Bargnani,Bargnani REBOUND (Off:0 Def:3),2pt missed,2pt missed,0,Low
+21300254,169,2pt,2,PT05M31.00S,05:31,Q2 05:31,0,0,1610612752.0,Bargnani,MISS Bargnani 1' Layup,rebound,rebound,0,Low
+21300254,170,rebound,2,PT05M30.00S,05:30,Q2 05:30,0,0,1610612740.0,Anderson,Anderson REBOUND (Off:1 Def:1),2pt missed,foul,0,Low
+21300254,171,foul,2,PT05M25.00S,05:25,Q2 05:25,0,0,1610612752.0,Bargnani,Bargnani P.FOUL (P1.T1),rebound,timeout,0,Low
+21300254,172,timeout,2,PT05M25.00S,05:25,Q2 05:25,0,0,0.0,,Timeout: Official,foul,substitution,0,Low
+21300254,174,substitution,2,PT05M25.00S,05:25,Q2 05:25,0,0,1610612740.0,Roberts,SUB out: B. Roberts,timeout,substitution,0,Low
+21300254,175,substitution,2,PT05M25.00S,05:25,Q2 05:25,0,0,1610612740.0,Gordon,SUB in: E. Gordon,substitution,2pt made,0,Low
+21300254,176,2pt,2,PT05M10.00S,05:10,Q2 05:10,30,34,1610612740.0,Holiday,Holiday 9' Turnaround Jump Shot (2 PTS),substitution,2pt missed,4,Low
+21300254,177,2pt,2,PT04M54.00S,04:54,Q2 04:54,0,0,1610612752.0,Anthony,MISS Anthony 17' Jump Shot,2pt made,rebound,0,Low
+21300254,178,rebound,2,PT04M53.00S,04:53,Q2 04:53,0,0,1610612740.0,Amundson,Amundson REBOUND (Off:0 Def:1),2pt missed,3pt missed,0,Low
+21300254,179,3pt,2,PT04M43.00S,04:43,Q2 04:43,0,0,1610612740.0,Holiday,MISS Holiday  3PT Jump Shot,rebound,rebound,0,Low
+21300254,180,rebound,2,PT04M42.00S,04:42,Q2 04:42,0,0,1610612752.0,Anthony,Anthony REBOUND (Off:0 Def:5),3pt missed,foul,0,Low
+21300254,181,foul,2,PT04M41.00S,04:41,Q2 04:41,0,0,1610612740.0,Amundson,Amundson P.FOUL (P1.T3),rebound,timeout,0,Low
+21300254,182,timeout,2,PT04M41.00S,04:41,Q2 04:41,0,0,1610612752.0,,KNICKS Timeout: Short (Full 2 Short 1),foul,3pt made,0,Low
+21300254,186,3pt,2,PT04M29.00S,04:29,Q2 04:29,33,34,1610612752.0,Shumpert,Shumpert  3PT Jump Shot (5 PTS) (Felton 4 AST),timeout,2pt made,1,Low
+21300254,187,2pt,2,PT04M15.00S,04:15,Q2 04:15,33,36,1610612740.0,Holiday,Holiday 11' Pullup Jump Shot (4 PTS),3pt made,foul,3,Low
+21300254,188,foul,2,PT03M57.00S,03:57,Q2 03:57,0,0,1610612740.0,Holiday,Holiday P.FOUL (P1.T4),2pt made,substitution,0,Low
+21300254,189,substitution,2,PT03M57.00S,03:57,Q2 03:57,0,0,1610612740.0,Amundson,SUB out: L. Amundson,foul,substitution,0,Low
+21300254,190,substitution,2,PT03M57.00S,03:57,Q2 03:57,0,0,1610612740.0,Childress,SUB in: J. Childress,substitution,3pt made,0,Low
+21300254,190,3pt,2,PT03M49.00S,03:49,Q2 03:49,36,36,1610612752.0,Felton,Felton 25' 3PT Jump Shot (8 PTS) (Anthony 1 AST),substitution,2pt missed,0,Low
+21300254,191,2pt,2,PT03M29.00S,03:29,Q2 03:29,0,0,1610612740.0,Anderson,MISS Anderson 8' Fadeaway Jumper,3pt made,rebound,0,Low
+21300254,192,rebound,2,PT03M28.00S,03:28,Q2 03:28,0,0,1610612752.0,Shumpert,Shumpert REBOUND (Off:1 Def:4),2pt missed,2pt made,0,Low
+21300254,194,2pt,2,PT03M05.00S,03:05,Q2 03:05,38,36,1610612752.0,Smith,Smith 22' Jump Shot (6 PTS),rebound,foul,2,Low
+21300254,196,foul,2,PT02M45.00S,02:45,Q2 02:45,0,0,1610612752.0,Shumpert,Shumpert P.FOUL (P1.T2),2pt made,timeout,0,Low
+21300254,197,timeout,2,PT02M45.00S,02:45,Q2 02:45,0,0,1610612740.0,,Pelicans Timeout: Regular (Reg.2 Short 0),foul,foul,0,Low
+21300254,201,foul,2,PT02M38.00S,02:38,Q2 02:38,0,0,1610612752.0,Smith,Smith S.FOUL (P2.T3),timeout,freethrow,0,Low
+21300254,202,freethrow,2,PT02M38.00S,02:38,Q2 02:38,38,37,1610612740.0,Evans,Evans Free Throw 1 of 2 (7 PTS),foul,freethrow,1,Low
+21300254,204,freethrow,2,PT02M38.00S,02:38,Q2 02:38,38,38,1610612740.0,Evans,Evans Free Throw 2 of 2 (8 PTS),freethrow,2pt made,0,Low
+21300254,206,2pt,2,PT02M22.00S,02:22,Q2 02:22,40,38,1610612752.0,Felton,Felton 16' Jump Shot (10 PTS) (Shumpert 2 AST),freethrow,2pt missed,2,Low
+21300254,207,2pt,2,PT02M03.00S,02:03,Q2 02:03,0,0,1610612740.0,Anderson,MISS Anderson 11' Fadeaway Jumper,2pt made,rebound,0,Low
+21300254,208,rebound,2,PT02M02.00S,02:02,Q2 02:02,0,0,1610612752.0,Bargnani,Bargnani REBOUND (Off:0 Def:4),2pt missed,foul,0,Low
+21300254,209,foul,2,PT01M52.00S,01:52,Q2 01:52,0,0,1610612740.0,Evans,Evans P.FOUL (P1.PN),rebound,freethrow,0,Low
+21300254,210,freethrow,2,PT01M52.00S,01:52,Q2 01:52,41,38,1610612752.0,Bargnani,Bargnani Free Throw 1 of 2 (7 PTS),foul,freethrow,3,Low
+21300254,212,freethrow,2,PT01M52.00S,01:52,Q2 01:52,42,38,1610612752.0,Bargnani,Bargnani Free Throw 2 of 2 (8 PTS),freethrow,2pt made,4,Low
+21300254,214,2pt,2,PT01M39.00S,01:39,Q2 01:39,42,40,1610612740.0,Evans,Evans 2' Driving Layup (10 PTS),freethrow,2pt made,2,Low
+21300254,215,2pt,2,PT01M20.00S,01:20,Q2 01:20,44,40,1610612752.0,Bargnani,Bargnani 6' Jump Shot (10 PTS) (Felton 5 AST),2pt made,turnover,4,Low
+21300254,216,turnover,2,PT01M03.00S,01:03,Q2 01:03,0,0,1610612740.0,Childress,Childress Lost Ball Turnover (P1.T4),2pt made,steal,0,Low
+21300254,216,steal,2,PT01M03.00S,01:03,Q2 01:03,0,0,1610612752.0,Anthony,Anthony STEAL (2 STL),turnover,foul,0,Low
+21300254,217,foul,2,PT00M56.40S,00:56,Q2 00:56,0,0,1610612740.0,Gordon,Gordon P.FOUL (P1.PN),steal,freethrow,0,Low
+21300254,218,freethrow,2,PT00M56.40S,00:56,Q2 00:56,45,40,1610612752.0,Bargnani,Bargnani Free Throw 1 of 2 (11 PTS),foul,freethrow,5,Low
+21300254,221,freethrow,2,PT00M56.40S,00:56,Q2 00:56,46,40,1610612752.0,Bargnani,Bargnani Free Throw 2 of 2 (12 PTS),freethrow,substitution,6,Low
+21300254,220,substitution,2,PT00M56.40S,00:56,Q2 00:56,0,0,1610612752.0,Smith,SUB out: J. Smith,freethrow,substitution,0,Low
+21300254,221,substitution,2,PT00M56.40S,00:56,Q2 00:56,0,0,1610612752.0,Hardaway Jr.,SUB in: T. Hardaway Jr.,substitution,foul,0,Low
+21300254,223,foul,2,PT00M45.50S,00:45,Q2 00:45,0,0,1610612752.0,Shumpert,Shumpert P.FOUL (P2.T4),substitution,2pt missed,0,Low
+21300254,224,2pt,2,PT00M35.60S,00:35,Q2 00:35,0,0,1610612740.0,Holiday,MISS Holiday 5' Driving Jump Shot,foul,block,0,Low
+21300254,224,block,2,PT00M35.60S,00:35,Q2 00:35,0,0,1610612752.0,Bargnani,Bargnani BLOCK (4 BLK),2pt missed,rebound,0,Low
+21300254,225,rebound,2,PT00M34.50S,00:34,Q2 00:34,0,0,1610612740.0,,TEAM offensive REBOUND,block,substitution,0,Low
+21300254,226,substitution,2,PT00M34.50S,00:34,Q2 00:34,0,0,1610612752.0,Bargnani,SUB: World Peace FOR Bargnani,rebound,substitution,0,Low
+21300254,227,substitution,2,PT00M34.50S,00:34,Q2 00:34,0,0,1610612752.0,Shumpert,SUB out: I. Shumpert,substitution,substitution,0,Low
+21300254,229,substitution,2,PT00M34.50S,00:34,Q2 00:34,0,0,1610612752.0,Martin,SUB in: K. Martin,substitution,2pt made,0,Low
+21300254,228,2pt,2,PT00M32.80S,00:32,Q2 00:32,46,42,1610612740.0,Gordon,Gordon 1' Driving Layup (4 PTS) (Evans 2 AST),substitution,3pt made,4,Low
+21300254,229,3pt,2,PT00M19.30S,00:19,Q2 00:19,49,42,1610612752.0,Hardaway Jr.,Hardaway Jr. 26' 3PT Jump Shot (3 PTS) (Anthony 2 AST),2pt made,2pt missed,7,Low
+21300254,230,2pt,2,PT00M02.30S,00:02,Q2 00:02,0,0,1610612740.0,Evans,MISS Evans 19' Jump Shot,3pt made,2pt made,0,Low
+21300254,231,2pt,2,PT00M01.20S,00:01,Q2 00:01,49,44,1610612740.0,Anderson,Anderson 1' Tip Shot (12 PTS),2pt missed,rebound,5,Low
+21300254,232,rebound,2,PT00M01.20S,00:01,Q2 00:01,0,0,1610612740.0,Anderson,Anderson REBOUND (Off:2 Def:1),2pt made,3pt missed,0,Low
+21300254,233,3pt,2,PT00M00.50S,00:00,Q2 00:00,0,0,1610612752.0,Anthony,MISS Anthony 49' 3PT Jump Shot,rebound,rebound,0,Low
+21300254,234,rebound,2,PT00M00.00S,00:00,Q2 00:00,0,0,1610612752.0,,TEAM offensive REBOUND,3pt missed,period,0,Low
+21300254,235,period,2,PT00M00.00S,00:00,Q2 00:00,49,44,1610612752.0,,End of 2nd Period (8:38 PM EST),rebound,period,5,Low
+21300254,237,period,3,PT12M00.00S,12:00,Q3 12:00,49,44,1610612752.0,,Start of 3rd Period (8:55 PM EST),period,substitution,5,Low
+21300254,238,2pt,3,PT11M37.00S,11:37,Q3 11:37,51,44,1610612752.0,Anthony,Anthony 10' Turnaround Fadeaway (10 PTS),substitution,3pt made,7,Low
+21300254,239,3pt,3,PT11M17.00S,11:17,Q3 11:17,51,47,1610612740.0,Anderson,Anderson 25' 3PT Jump Shot (15 PTS) (Holiday 4 AST),2pt made,turnover,4,Low
+21300254,240,turnover,3,PT11M02.00S,11:02,Q3 11:02,0,0,1610612752.0,Shumpert,Shumpert Bad Pass Turnover (P2.T8),3pt made,turnover,0,Low
+21300254,241,turnover,3,PT10M59.00S,10:59,Q3 10:59,0,0,1610612740.0,Gordon,Gordon Bad Pass Turnover (P1.T5),turnover,steal,0,Low
+21300254,241,steal,3,PT10M59.00S,10:59,Q3 10:59,0,0,1610612752.0,Felton,Felton STEAL (1 STL),turnover,2pt missed,0,Low
+21300254,242,2pt,3,PT10M44.00S,10:44,Q3 10:44,0,0,1610612752.0,Bargnani,MISS Bargnani 15' Jump Shot,steal,rebound,0,Low
+21300254,243,rebound,3,PT10M43.00S,10:43,Q3 10:43,0,0,1610612740.0,Anderson,Anderson REBOUND (Off:2 Def:2),2pt missed,turnover,0,Low
+21300254,244,turnover,3,PT10M36.00S,10:36,Q3 10:36,0,0,1610612740.0,Morrow,Morrow Bad Pass Turnover (P1.T6),rebound,steal,0,Low
+21300254,244,steal,3,PT10M36.00S,10:36,Q3 10:36,0,0,1610612752.0,Martin,Martin STEAL (3 STL),turnover,turnover,0,Low
+21300254,245,turnover,3,PT10M25.00S,10:25,Q3 10:25,0,0,1610612752.0,Bargnani,Bargnani Out of Bounds Lost Ball Turnover (P2.T9),steal,2pt made,0,Low
+21300254,246,2pt,3,PT10M02.00S,10:02,Q3 10:02,51,49,1610612740.0,Holiday,Holiday 2' Driving Layup (6 PTS) (Gordon 1 AST),turnover,2pt missed,2,Low
+21300254,247,2pt,3,PT09M43.00S,09:43,Q3 09:43,0,0,1610612752.0,Felton,MISS Felton 15' Fadeaway Jumper,2pt made,rebound,0,Low
+21300254,248,rebound,3,PT09M42.00S,09:42,Q3 09:42,0,0,1610612740.0,Smith,Smith REBOUND (Off:1 Def:3),2pt missed,2pt missed,0,Low
+21300254,250,2pt,3,PT09M20.00S,09:20,Q3 09:20,0,0,1610612740.0,Smith,MISS Smith 21' Jump Shot,rebound,rebound,0,Low
+21300254,251,rebound,3,PT09M19.00S,09:19,Q3 09:19,0,0,1610612752.0,Bargnani,Bargnani REBOUND (Off:0 Def:5),2pt missed,foul,0,Low
+21300254,252,foul,3,PT09M10.00S,09:10,Q3 09:10,0,0,1610612740.0,Smith,Smith S.FOUL (P3.T1),rebound,freethrow,0,Low
+21300254,253,freethrow,3,PT09M10.00S,09:10,Q3 09:10,52,49,1610612752.0,Bargnani,Bargnani Free Throw 1 of 2 (13 PTS),foul,freethrow,3,Low
+21300254,255,freethrow,3,PT09M10.00S,09:10,Q3 09:10,53,49,1610612752.0,Bargnani,Bargnani Free Throw 2 of 2 (14 PTS),freethrow,turnover,4,Low
+21300254,257,turnover,3,PT08M57.00S,08:57,Q3 08:57,0,0,1610612740.0,Holiday,Holiday Lost Ball Turnover (P3.T7),freethrow,steal,0,Low
+21300254,257,steal,3,PT08M57.00S,08:57,Q3 08:57,0,0,1610612752.0,Bargnani,Bargnani STEAL (1 STL),turnover,2pt missed,0,Low
+21300254,258,2pt,3,PT08M52.00S,08:52,Q3 08:52,0,0,1610612752.0,Felton,MISS Felton 2' Layup,steal,rebound,0,Low
+21300254,259,rebound,3,PT08M50.00S,08:50,Q3 08:50,0,0,1610612752.0,Martin,Martin REBOUND (Off:2 Def:1),2pt missed,turnover,0,Low
+21300254,260,turnover,3,PT08M46.00S,08:46,Q3 08:46,0,0,1610612752.0,Martin,Martin Bad Pass Turnover (P1.T10),rebound,3pt missed,0,Low
+21300254,261,3pt,3,PT08M37.00S,08:37,Q3 08:37,0,0,1610612740.0,Anderson,MISS Anderson 25' 3PT Jump Shot,turnover,rebound,0,Low
+21300254,262,rebound,3,PT08M36.00S,08:36,Q3 08:36,0,0,1610612752.0,Anthony,Anthony REBOUND (Off:0 Def:6),3pt missed,3pt missed,0,Low
+21300254,263,3pt,3,PT08M24.00S,08:24,Q3 08:24,0,0,1610612752.0,Anthony,MISS Anthony 25' 3PT Jump Shot,rebound,rebound,0,Low
+21300254,264,rebound,3,PT08M23.00S,08:23,Q3 08:23,0,0,1610612752.0,Shumpert,Shumpert REBOUND (Off:2 Def:4),3pt missed,2pt missed,0,Low
+21300254,265,2pt,3,PT08M23.00S,08:23,Q3 08:23,0,0,1610612752.0,Shumpert,MISS Shumpert 2' Tip Shot,rebound,rebound,0,Low
+21300254,266,rebound,3,PT08M22.00S,08:22,Q3 08:22,0,0,1610612740.0,Smith,Smith REBOUND (Off:1 Def:4),2pt missed,2pt made,0,Low
+21300254,267,2pt,3,PT08M16.00S,08:16,Q3 08:16,53,51,1610612740.0,Holiday,Holiday 2' Layup (8 PTS),rebound,foul,2,Low
+21300254,268,foul,3,PT08M16.00S,08:16,Q3 08:16,0,0,1610612752.0,Shumpert,Shumpert AWAY.FROM.PLAY.FOUL (P3.T1),2pt made,freethrow,0,Low
+21300254,269,freethrow,3,PT08M16.00S,08:16,Q3 08:16,53,52,1610612740.0,Smith,Smith Free Throw 1 of 1 (5 PTS),foul,3pt missed,1,Low
+21300254,271,3pt,3,PT07M54.00S,07:54,Q3 07:54,0,0,1610612752.0,Bargnani,MISS Bargnani 26' 3PT Jump Shot,freethrow,rebound,0,Low
+21300254,272,rebound,3,PT07M53.00S,07:53,Q3 07:53,0,0,1610612752.0,Shumpert,Shumpert REBOUND (Off:3 Def:4),3pt missed,2pt made,0,Low
+21300254,273,2pt,3,PT07M53.00S,07:53,Q3 07:53,55,52,1610612752.0,Shumpert,Shumpert 2' Tip Shot (7 PTS),rebound,2pt made,3,Low
+21300254,274,2pt,3,PT07M37.00S,07:37,Q3 07:37,55,54,1610612740.0,Anderson,Anderson 22' Jump Shot (17 PTS) (Holiday 5 AST),2pt made,foul,1,Low
+21300254,275,foul,3,PT07M25.00S,07:25,Q3 07:25,0,0,1610612740.0,Anderson,Anderson S.FOUL (P1.T2),2pt made,freethrow,0,Low
+21300254,276,freethrow,3,PT07M25.00S,07:25,Q3 07:25,0,0,1610612752.0,Felton,MISS Felton Free Throw 1 of 2,foul,rebound,0,Low
+21300254,277,rebound,3,PT07M25.00S,07:25,Q3 07:25,0,0,1610612752.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21300254,280,freethrow,3,PT07M25.00S,07:25,Q3 07:25,56,54,1610612752.0,Felton,Felton Free Throw 2 of 2 (11 PTS),rebound,substitution,2,Low
+21300254,278,substitution,3,PT07M25.00S,07:25,Q3 07:25,0,0,1610612752.0,Martin,SUB out: K. Martin,freethrow,substitution,0,Low
+21300254,279,substitution,3,PT07M25.00S,07:25,Q3 07:25,0,0,1610612740.0,Morrow,SUB out: A. Morrow,substitution,substitution,0,Low
+21300254,280,substitution,3,PT07M25.00S,07:25,Q3 07:25,0,0,1610612752.0,Smith,SUB in: J. Smith,substitution,substitution,0,Low
+21300254,281,substitution,3,PT07M25.00S,07:25,Q3 07:25,0,0,1610612740.0,Evans,SUB in: T. Evans,substitution,3pt made,0,Low
+21300254,284,3pt,3,PT07M10.00S,07:10,Q3 07:10,56,57,1610612740.0,Anderson,Anderson 25' 3PT Jump Shot (20 PTS) (Evans 3 AST),substitution,2pt made,1,Low
+21300254,285,2pt,3,PT06M48.00S,06:48,Q3 06:48,58,57,1610612752.0,Anthony,Anthony 2' Layup (12 PTS),3pt made,foul,1,Low
+21300254,286,foul,3,PT06M38.00S,06:38,Q3 06:38,0,0,1610612752.0,Felton,Felton P.FOUL (P2.T2),2pt made,2pt made,0,Low
+21300254,287,2pt,3,PT06M21.00S,06:21,Q3 06:21,58,59,1610612740.0,Holiday,Holiday 1' Layup (10 PTS),foul,2pt missed,1,Low
+21300254,288,2pt,3,PT06M01.00S,06:01,Q3 06:01,0,0,1610612752.0,Smith,MISS Smith 19' Jump Shot,2pt made,rebound,0,Low
+21300254,289,rebound,3,PT06M00.00S,06:00,Q3 06:00,0,0,1610612740.0,Holiday,Holiday REBOUND (Off:1 Def:1),2pt missed,3pt made,0,Low
+21300254,290,3pt,3,PT05M51.00S,05:51,Q3 05:51,58,62,1610612740.0,Anderson,Anderson 25' 3PT Jump Shot (23 PTS) (Holiday 6 AST),rebound,foul,4,Low
+21300254,291,foul,3,PT05M51.00S,05:51,Q3 05:51,0,0,1610612752.0,Shumpert,Shumpert AWAY.FROM.PLAY.FOUL (P4.T3),3pt made,timeout,0,Low
+21300254,292,timeout,3,PT05M51.00S,05:51,Q3 05:51,0,0,1610612752.0,,KNICKS Timeout: Regular (Full 3 Short 1),foul,freethrow,0,Low
+21300254,295,freethrow,3,PT05M51.00S,05:51,Q3 05:51,0,0,1610612740.0,Smith,MISS Smith Free Throw 1 of 1,timeout,substitution,0,Low
+21300254,294,substitution,3,PT05M51.00S,05:51,Q3 05:51,0,0,1610612752.0,Shumpert,SUB out: I. Shumpert,freethrow,substitution,0,Low
+21300254,295,substitution,3,PT05M51.00S,05:51,Q3 05:51,0,0,1610612752.0,Hardaway Jr.,SUB in: T. Hardaway Jr.,substitution,rebound,0,Low
+21300254,297,rebound,3,PT05M50.00S,05:50,Q3 05:50,0,0,1610612752.0,Smith,Smith REBOUND (Off:2 Def:1),substitution,2pt made,0,Low
+21300254,299,2pt,3,PT05M31.00S,05:31,Q3 05:31,60,62,1610612752.0,Bargnani,Bargnani 1' Layup (16 PTS) (Felton 6 AST),rebound,2pt missed,2,Low
+21300254,301,2pt,3,PT05M15.00S,05:15,Q3 05:15,0,0,1610612740.0,Holiday,MISS Holiday 14' Jump Shot,2pt made,rebound,0,Low
+21300254,302,rebound,3,PT05M14.00S,05:14,Q3 05:14,0,0,1610612752.0,Bargnani,Bargnani REBOUND (Off:0 Def:6),2pt missed,2pt made,0,Low
+21300254,304,2pt,3,PT05M03.00S,05:03,Q3 05:03,62,62,1610612752.0,Anthony,Anthony 2' Layup (14 PTS) (Felton 7 AST),rebound,foul,0,Low
+21300254,305,foul,3,PT05M03.00S,05:03,Q3 05:03,0,0,1610612740.0,Holiday,Holiday S.FOUL (P2.T3),2pt made,freethrow,0,Low
+21300254,306,freethrow,3,PT05M03.00S,05:03,Q3 05:03,63,62,1610612752.0,Anthony,Anthony Free Throw 1 of 1 (15 PTS),foul,3pt made,1,Low
+21300254,309,3pt,3,PT04M47.00S,04:47,Q3 04:47,63,65,1610612740.0,Gordon,Gordon 25' 3PT Jump Shot (7 PTS) (Holiday 7 AST),freethrow,3pt missed,2,Low
+21300254,310,3pt,3,PT04M27.00S,04:27,Q3 04:27,0,0,1610612752.0,Anthony,MISS Anthony 25' 3PT Jump Shot,3pt made,rebound,0,Low
+21300254,311,rebound,3,PT04M26.00S,04:26,Q3 04:26,0,0,1610612752.0,Smith,Smith REBOUND (Off:3 Def:1),3pt missed,foul,0,Low
+21300254,312,foul,3,PT04M24.00S,04:24,Q3 04:24,0,0,1610612740.0,Anderson,Anderson S.FOUL (P2.T4),rebound,freethrow,0,Low
+21300254,313,freethrow,3,PT04M24.00S,04:24,Q3 04:24,64,65,1610612752.0,Bargnani,Bargnani Free Throw 1 of 2 (17 PTS),foul,freethrow,1,Low
+21300254,315,freethrow,3,PT04M24.00S,04:24,Q3 04:24,0,0,1610612752.0,Bargnani,MISS Bargnani Free Throw 2 of 2,freethrow,rebound,0,Low
+21300254,317,rebound,3,PT04M24.00S,04:24,Q3 04:24,0,0,1610612740.0,Holiday,Holiday REBOUND (Off:1 Def:2),freethrow,foul,0,Low
+21300254,318,foul,3,PT04M20.00S,04:20,Q3 04:20,0,0,1610612752.0,Anthony,Anthony P.FOUL (P1.T4),rebound,2pt missed,0,Low
+21300254,319,2pt,3,PT04M10.00S,04:10,Q3 04:10,0,0,1610612740.0,Anderson,MISS Anderson 10' Turnaround Fadeaway Shot,foul,rebound,0,Low
+21300254,320,rebound,3,PT04M09.00S,04:09,Q3 04:09,0,0,1610612752.0,Anthony,Anthony REBOUND (Off:0 Def:7),2pt missed,3pt missed,0,Low
+21300254,321,3pt,3,PT03M56.00S,03:56,Q3 03:56,0,0,1610612752.0,Felton,MISS Felton 26' 3PT Jump Shot,rebound,rebound,0,Low
+21300254,322,rebound,3,PT03M55.00S,03:55,Q3 03:55,0,0,1610612740.0,Gordon,Gordon REBOUND (Off:0 Def:2),3pt missed,foul,0,Low
+21300254,323,foul,3,PT03M46.00S,03:46,Q3 03:46,0,0,1610612752.0,Bargnani,Bargnani S.FOUL (P2.PN),rebound,freethrow,0,Low
+21300254,324,freethrow,3,PT03M46.00S,03:46,Q3 03:46,0,0,1610612740.0,Gordon,MISS Gordon Free Throw 1 of 2,foul,rebound,0,Low
+21300254,325,rebound,3,PT03M46.00S,03:46,Q3 03:46,0,0,1610612740.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21300254,326,freethrow,3,PT03M46.00S,03:46,Q3 03:46,64,66,1610612740.0,Gordon,Gordon Free Throw 2 of 2 (8 PTS),rebound,2pt made,2,Low
+21300254,328,2pt,3,PT03M28.00S,03:28,Q3 03:28,66,66,1610612752.0,Anthony,Anthony 17' Step Back Jump Shot (17 PTS),freethrow,turnover,0,Low
+21300254,329,turnover,3,PT03M15.00S,03:15,Q3 03:15,0,0,1610612740.0,Holiday,Holiday Out of Bounds Lost Ball Turnover (P4.T8),2pt made,substitution,0,Low
+21300254,330,substitution,3,PT03M15.00S,03:15,Q3 03:15,0,0,1610612740.0,Smith,SUB out: J. Smith,turnover,substitution,0,Low
+21300254,331,substitution,3,PT03M15.00S,03:15,Q3 03:15,0,0,1610612740.0,Aminu,SUB in: A. Aminu,substitution,turnover,0,Low
+21300254,332,turnover,3,PT02M55.00S,02:55,Q3 02:55,0,0,1610612752.0,Smith,Smith Lost Ball Turnover (P1.T11),substitution,steal,0,Low
+21300254,332,steal,3,PT02M55.00S,02:55,Q3 02:55,0,0,1610612740.0,Gordon,Gordon STEAL (2 STL),turnover,2pt made,0,Low
+21300254,333,2pt,3,PT02M49.00S,02:49,Q3 02:49,66,68,1610612740.0,Evans,Evans 1' Layup (12 PTS) (Gordon 2 AST),steal,2pt made,2,Low
+21300254,335,2pt,3,PT02M23.00S,02:23,Q3 02:23,68,68,1610612752.0,Hardaway Jr.,Hardaway Jr. 2' Driving Layup (5 PTS) (Smith 2 AST),2pt made,foul,0,Low
+21300254,336,foul,3,PT02M23.00S,02:23,Q3 02:23,0,0,1610612740.0,Evans,Evans S.FOUL (P2.PN),2pt made,timeout,0,Low
+21300254,337,timeout,3,PT02M23.00S,02:23,Q3 02:23,0,0,1610612740.0,,Pelicans Timeout: Regular (Reg.3 Short 0),foul,freethrow,0,Low
+21300254,341,freethrow,3,PT02M23.00S,02:23,Q3 02:23,69,68,1610612752.0,Hardaway Jr.,Hardaway Jr. Free Throw 1 of 1 (6 PTS),timeout,substitution,1,Low
+21300254,340,substitution,3,PT02M23.00S,02:23,Q3 02:23,0,0,1610612740.0,Gordon,SUB out: E. Gordon,freethrow,substitution,0,Low
+21300254,341,substitution,3,PT02M23.00S,02:23,Q3 02:23,0,0,1610612740.0,Roberts,SUB in: B. Roberts,substitution,3pt made,0,Low
+21300254,343,3pt,3,PT02M01.00S,02:01,Q3 02:01,69,71,1610612740.0,Anderson,Anderson  3PT Jump Shot (26 PTS) (Evans 4 AST),substitution,2pt missed,2,Low
+21300254,344,2pt,3,PT01M37.00S,01:37,Q3 01:37,0,0,1610612752.0,Anthony,MISS Anthony 15' Jump Shot,3pt made,rebound,0,Low
+21300254,345,rebound,3,PT01M36.00S,01:36,Q3 01:36,0,0,1610612740.0,Holiday,Holiday REBOUND (Off:1 Def:3),2pt missed,3pt made,0,Low
+21300254,346,3pt,3,PT01M27.00S,01:27,Q3 01:27,69,74,1610612740.0,Roberts,Roberts  3PT Jump Shot (3 PTS) (Holiday 8 AST),rebound,turnover,5,Low
+21300254,347,turnover,3,PT01M10.00S,01:10,Q3 01:10,0,0,1610612752.0,Anthony,Anthony Lost Ball Turnover (P2.T12),3pt made,steal,0,Low
+21300254,347,steal,3,PT01M10.00S,01:10,Q3 01:10,0,0,1610612740.0,Aminu,Aminu STEAL (1 STL),turnover,2pt made,0,Low
+21300254,348,2pt,3,PT00M52.90S,00:52,Q3 00:52,69,76,1610612740.0,Evans,Evans 2' Driving Layup (14 PTS),steal,3pt made,7,Low
+21300254,349,3pt,3,PT00M39.40S,00:39,Q3 00:39,72,76,1610612752.0,Hardaway Jr.,Hardaway Jr.  3PT Jump Shot (9 PTS) (Smith 3 AST),2pt made,foul,4,Low
+21300254,350,foul,3,PT00M23.20S,00:23,Q3 00:23,0,0,1610612752.0,Smith,Smith P.FOUL (P3.PN),3pt made,freethrow,0,Low
+21300254,351,freethrow,3,PT00M23.20S,00:23,Q3 00:23,0,0,1610612740.0,Evans,MISS Evans Free Throw 1 of 2,foul,rebound,0,Low
+21300254,352,rebound,3,PT00M23.20S,00:23,Q3 00:23,0,0,1610612740.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21300254,356,freethrow,3,PT00M23.20S,00:23,Q3 00:23,0,0,1610612740.0,Evans,MISS Evans Free Throw 2 of 2,rebound,substitution,0,Low
+21300254,353,substitution,3,PT00M23.20S,00:23,Q3 00:23,0,0,1610612740.0,Holiday,SUB out: J. Holiday,freethrow,substitution,0,Low
+21300254,354,substitution,3,PT00M23.20S,00:23,Q3 00:23,0,0,1610612740.0,Anderson,SUB out: R. Anderson,substitution,substitution,0,Low
+21300254,355,substitution,3,PT00M23.20S,00:23,Q3 00:23,0,0,1610612752.0,Bargnani,SUB out: A. Bargnani,substitution,substitution,0,Low
+21300254,356,substitution,3,PT00M23.20S,00:23,Q3 00:23,0,0,1610612740.0,Amundson,SUB in: L. Amundson,substitution,substitution,0,Low
+21300254,357,substitution,3,PT00M23.20S,00:23,Q3 00:23,0,0,1610612740.0,Rivers,SUB in: A. Rivers,substitution,substitution,0,Low
+21300254,358,substitution,3,PT00M23.20S,00:23,Q3 00:23,0,0,1610612752.0,Stoudemire,SUB in: A. Stoudemire,substitution,rebound,0,Low
+21300254,358,rebound,3,PT00M22.80S,00:22,Q3 00:22,0,0,1610612752.0,Smith,Smith REBOUND (Off:3 Def:2),substitution,foul,0,Low
+21300254,359,foul,3,PT00M03.50S,00:03,Q3 00:03,0,0,1610612740.0,Amundson,Pelicans T.Foul (Def. 3 Sec Amundson ),rebound,freethrow,0,Low
+21300254,360,freethrow,3,PT00M03.50S,00:03,Q3 00:03,73,76,1610612752.0,Anthony,Anthony Free Throw Technical (18 PTS),foul,foul,3,Low
+21300254,362,foul,3,PT00M00.80S,00:00,Q3 00:00,0,0,1610612740.0,Roberts,Roberts S.FOUL (P1.PN),freethrow,instant replay,0,Medium
+21300254,366,freethrow,3,PT00M00.80S,00:00,Q3 00:00,74,76,1610612752.0,Felton,Felton Free Throw 1 of 2 (12 PTS),instant replay,freethrow,2,Medium
+21300254,368,freethrow,3,PT00M00.80S,00:00,Q3 00:00,0,0,1610612752.0,Felton,MISS Felton Free Throw 2 of 2,freethrow,rebound,0,Medium
+21300254,370,rebound,3,PT00M00.20S,00:00,Q3 00:00,0,0,1610612740.0,Evans,Evans REBOUND (Off:0 Def:1),freethrow,period,0,Medium
+21300254,371,period,3,PT00M00.00S,00:00,Q3 00:00,74,76,1610612752.0,,End of 3rd Period (9:24 PM EST),rebound,period,2,Medium
+21300254,373,period,4,PT12M00.00S,12:00,Q4 12:00,74,76,1610612752.0,,Start of 4th Period (9:27 PM EST),period,substitution,2,Medium
+21300254,374,2pt,4,PT11M38.00S,11:38,Q4 11:38,74,78,1610612740.0,Roberts,Roberts 20' Jump Shot (5 PTS),substitution,3pt made,4,Medium
+21300254,375,3pt,4,PT11M16.00S,11:16,Q4 11:16,77,78,1610612752.0,Smith,Smith 24' 3PT Jump Shot (9 PTS) (Anthony 3 AST),2pt made,foul,1,Medium
+21300254,376,foul,4,PT11M02.00S,11:02,Q4 11:02,0,0,1610612740.0,Aminu,Aminu OFF.Foul (P1),3pt made,turnover,0,Medium
+21300254,377,turnover,4,PT11M02.00S,11:02,Q4 11:02,0,0,1610612740.0,Aminu,Aminu Foul Turnover (P1.T9),foul,2pt made,0,Medium
+21300254,378,2pt,4,PT10M41.00S,10:41,Q4 10:41,79,78,1610612752.0,Stoudemire,Stoudemire 3' Jump Hook Shot (4 PTS),turnover,foul,1,Medium
+21300254,379,foul,4,PT10M25.00S,10:25,Q4 10:25,0,0,1610612752.0,Anthony,Anthony P.FOUL (P2.T1),2pt made,foul,0,Medium
+21300254,380,foul,4,PT10M18.00S,10:18,Q4 10:18,0,0,1610612740.0,Evans,Evans Offensive Charge Foul (P3.T1),foul,turnover,0,Medium
+21300254,381,turnover,4,PT10M18.00S,10:18,Q4 10:18,0,0,1610612740.0,Evans,Evans Foul Turnover (P1.T10),foul,foul,0,Medium
+21300254,382,foul,4,PT10M05.00S,10:05,Q4 10:05,0,0,1610612740.0,Roberts,Roberts P.FOUL (P2.T2),turnover,turnover,0,Medium
+21300254,383,turnover,4,PT09M53.00S,09:53,Q4 09:53,0,0,1610612752.0,Smith,Smith Lost Ball Turnover (P2.T13),foul,steal,0,Medium
+21300254,383,steal,4,PT09M53.00S,09:53,Q4 09:53,0,0,1610612740.0,Evans,Evans STEAL (2 STL),turnover,foul,0,Medium
+21300254,384,foul,4,PT09M50.00S,09:50,Q4 09:50,0,0,1610612752.0,Smith,Smith S.FOUL (P4.T2),steal,freethrow,0,Medium
+21300254,385,freethrow,4,PT09M50.00S,09:50,Q4 09:50,79,79,1610612740.0,Evans,Evans Free Throw 1 of 2 (15 PTS),foul,freethrow,0,Medium
+21300254,387,freethrow,4,PT09M50.00S,09:50,Q4 09:50,79,80,1610612740.0,Evans,Evans Free Throw 2 of 2 (16 PTS),freethrow,3pt made,1,Medium
+21300254,389,3pt,4,PT09M29.00S,09:29,Q4 09:29,82,80,1610612752.0,Hardaway Jr.,Hardaway Jr. 25' 3PT Jump Shot (12 PTS) (Prigioni 1 AST),freethrow,2pt made,2,Medium
+21300254,390,2pt,4,PT09M09.00S,09:09,Q4 09:09,82,82,1610612740.0,Amundson,Amundson 1' Driving Dunk (2 PTS) (Evans 5 AST),3pt made,3pt made,0,Medium
+21300254,391,3pt,4,PT08M49.00S,08:49,Q4 08:49,85,82,1610612752.0,Smith,Smith 27' 3PT Jump Shot (12 PTS) (Prigioni 2 AST),2pt made,3pt missed,3,Medium
+21300254,392,3pt,4,PT08M21.00S,08:21,Q4 08:21,0,0,1610612740.0,Evans,MISS Evans 28' 3PT Jump Shot,3pt made,rebound,0,Medium
+21300254,393,rebound,4,PT08M20.00S,08:20,Q4 08:20,0,0,1610612752.0,Prigioni,Prigioni REBOUND (Off:1 Def:2),3pt missed,3pt made,0,Medium
+21300254,394,3pt,4,PT08M05.00S,08:05,Q4 08:05,88,82,1610612752.0,Hardaway Jr.,Hardaway Jr. 26' 3PT Jump Shot (15 PTS) (Prigioni 3 AST),rebound,timeout,6,Medium
+21300254,395,timeout,4,PT08M03.00S,08:03,Q4 08:03,0,0,1610612740.0,,Pelicans Timeout: Regular (Reg.4 Short 0),3pt made,substitution,0,Medium
+21300254,398,substitution,4,PT08M03.00S,08:03,Q4 08:03,0,0,1610612740.0,Amundson,SUB out: L. Amundson,timeout,substitution,0,Medium
+21300254,399,substitution,4,PT08M03.00S,08:03,Q4 08:03,0,0,1610612740.0,Rivers,SUB out: A. Rivers,substitution,substitution,0,Medium
+21300254,400,substitution,4,PT08M03.00S,08:03,Q4 08:03,0,0,1610612740.0,Holiday,SUB in: J. Holiday,substitution,substitution,0,Medium
+21300254,401,substitution,4,PT08M03.00S,08:03,Q4 08:03,0,0,1610612740.0,Anderson,SUB in: R. Anderson,substitution,3pt made,0,Medium
+21300254,400,3pt,4,PT07M47.00S,07:47,Q4 07:47,88,85,1610612740.0,Anderson,Anderson 25' 3PT Jump Shot (29 PTS) (Evans 6 AST),substitution,turnover,3,Medium
+21300254,401,turnover,4,PT07M29.00S,07:29,Q4 07:29,0,0,1610612752.0,Stoudemire,Stoudemire Bad Pass Turnover (P3.T14),3pt made,steal,0,Medium
+21300254,401,steal,4,PT07M29.00S,07:29,Q4 07:29,0,0,1610612740.0,Evans,Evans STEAL (3 STL),turnover,2pt made,0,Medium
+21300254,402,2pt,4,PT07M25.00S,07:25,Q4 07:25,88,87,1610612740.0,Aminu,Aminu 2' Layup (2 PTS) (Holiday 9 AST),steal,foul,1,Medium
+21300254,403,foul,4,PT07M25.00S,07:25,Q4 07:25,0,0,1610612752.0,Anthony,Anthony S.FOUL (P3.T3),2pt made,freethrow,0,Medium
+21300254,406,freethrow,4,PT07M25.00S,07:25,Q4 07:25,88,88,1610612740.0,Aminu,Aminu Free Throw 1 of 1 (3 PTS),foul,substitution,0,Medium
+21300254,404,substitution,4,PT07M25.00S,07:25,Q4 07:25,0,0,1610612740.0,Roberts,SUB out: B. Roberts,freethrow,substitution,0,Medium
+21300254,405,substitution,4,PT07M25.00S,07:25,Q4 07:25,0,0,1610612752.0,Prigioni,SUB out: P. Prigioni,substitution,substitution,0,Medium
+21300254,406,substitution,4,PT07M25.00S,07:25,Q4 07:25,0,0,1610612740.0,Gordon,SUB in: E. Gordon,substitution,substitution,0,Medium
+21300254,407,substitution,4,PT07M25.00S,07:25,Q4 07:25,0,0,1610612752.0,Felton,SUB in: R. Felton,substitution,2pt made,0,Medium
+21300254,410,2pt,4,PT07M04.00S,07:04,Q4 07:04,90,88,1610612752.0,Anthony,Anthony 20' Jump Shot (20 PTS) (Hardaway Jr. 2 AST),substitution,2pt missed,2,Medium
+21300254,411,2pt,4,PT06M50.00S,06:50,Q4 06:50,0,0,1610612740.0,Evans,MISS Evans 21' Jump Shot,2pt made,rebound,0,High
+21300254,412,rebound,4,PT06M49.00S,06:49,Q4 06:49,0,0,1610612740.0,,TEAM offensive REBOUND,2pt missed,foul,0,High
+21300254,413,foul,4,PT06M49.00S,06:49,Q4 06:49,0,0,1610612752.0,Anthony,Anthony L.B.FOUL (P4.T4),rebound,substitution,0,High
+21300254,414,substitution,4,PT06M49.00S,06:49,Q4 06:49,0,0,1610612752.0,Stoudemire,SUB out: A. Stoudemire,foul,substitution,0,High
+21300254,415,substitution,4,PT06M49.00S,06:49,Q4 06:49,0,0,1610612752.0,Bargnani,SUB in: A. Bargnani,substitution,2pt missed,0,High
+21300254,415,2pt,4,PT06M34.00S,06:34,Q4 06:34,0,0,1610612740.0,Anderson,MISS Anderson 3' Layup,substitution,block,0,High
+21300254,415,block,4,PT06M34.00S,06:34,Q4 06:34,0,0,1610612752.0,Bargnani,Bargnani BLOCK (5 BLK),2pt missed,rebound,0,High
+21300254,416,rebound,4,PT06M33.00S,06:33,Q4 06:33,0,0,1610612752.0,Smith,Smith REBOUND (Off:3 Def:3),block,3pt made,0,High
+21300254,417,3pt,4,PT06M24.00S,06:24,Q4 06:24,93,88,1610612752.0,Hardaway Jr.,Hardaway Jr.  3PT Jump Shot (18 PTS) (Felton 8 AST),rebound,3pt missed,5,High
+21300254,418,3pt,4,PT06M14.00S,06:14,Q4 06:14,0,0,1610612740.0,Holiday,MISS Holiday 25' 3PT Jump Shot,3pt made,rebound,0,High
+21300254,419,rebound,4,PT06M13.00S,06:13,Q4 06:13,0,0,1610612752.0,Anthony,Anthony REBOUND (Off:0 Def:8),3pt missed,2pt missed,0,High
+21300254,420,2pt,4,PT06M06.00S,06:06,Q4 06:06,0,0,1610612752.0,Hardaway Jr.,MISS Hardaway Jr. 2' Driving Layup,rebound,block,0,High
+21300254,420,block,4,PT06M06.00S,06:06,Q4 06:06,0,0,1610612740.0,Aminu,Aminu BLOCK (1 BLK),2pt missed,rebound,0,High
+21300254,421,rebound,4,PT06M05.00S,06:05,Q4 06:05,0,0,1610612740.0,Aminu,Aminu REBOUND (Off:0 Def:1),block,2pt made,0,High
+21300254,422,2pt,4,PT06M01.00S,06:01,Q4 06:01,93,90,1610612740.0,Evans,Evans 1' Layup (18 PTS) (Aminu 1 AST),rebound,foul,3,High
+21300254,423,foul,4,PT06M01.00S,06:01,Q4 06:01,0,0,1610612752.0,Bargnani,Bargnani S.FOUL (P3.PN),2pt made,freethrow,0,High
+21300254,424,freethrow,4,PT06M01.00S,06:01,Q4 06:01,93,91,1610612740.0,Evans,Evans Free Throw 1 of 1 (19 PTS),foul,3pt missed,2,High
+21300254,426,3pt,4,PT05M44.00S,05:44,Q4 05:44,0,0,1610612752.0,Bargnani,MISS Bargnani 25' 3PT Jump Shot,freethrow,rebound,0,High
+21300254,427,rebound,4,PT05M43.00S,05:43,Q4 05:43,0,0,1610612740.0,,TEAM defensive REBOUND,3pt missed,timeout,0,High
+21300254,428,timeout,4,PT05M43.00S,05:43,Q4 05:43,0,0,0.0,,Timeout: Official,rebound,turnover,0,High
+21300254,430,turnover,4,PT05M25.00S,05:25,Q4 05:25,0,0,1610612740.0,Holiday,Holiday Bad Pass Turnover (P5.T11),timeout,steal,0,High
+21300254,430,steal,4,PT05M25.00S,05:25,Q4 05:25,0,0,1610612752.0,Smith,Smith STEAL (1 STL),turnover,3pt missed,0,High
+21300254,432,3pt,4,PT05M03.00S,05:03,Q4 05:03,0,0,1610612752.0,Felton,MISS Felton 26' 3PT Jump Shot,steal,rebound,0,High
+21300254,433,rebound,4,PT05M02.00S,05:02,Q4 05:02,0,0,1610612740.0,,TEAM defensive REBOUND,3pt missed,foul,0,High
+21300254,434,foul,4,PT05M02.00S,05:02,Q4 05:02,0,0,1610612752.0,Bargnani,Bargnani L.B.FOUL (P4.PN),rebound,freethrow,0,High
+21300254,435,freethrow,4,PT05M02.00S,05:02,Q4 05:02,93,92,1610612740.0,Holiday,Holiday Free Throw 1 of 2 (11 PTS),foul,freethrow,1,High
+21300254,437,freethrow,4,PT05M02.00S,05:02,Q4 05:02,0,0,1610612740.0,Holiday,MISS Holiday Free Throw 2 of 2,freethrow,rebound,0,High
+21300254,439,rebound,4,PT05M01.00S,05:01,Q4 05:01,0,0,1610612752.0,Smith,Smith REBOUND (Off:3 Def:4),freethrow,3pt missed,0,High
+21300254,440,3pt,4,PT04M45.00S,04:45,Q4 04:45,0,0,1610612752.0,Smith,MISS Smith 25' 3PT Jump Shot,rebound,rebound,0,High
+21300254,441,rebound,4,PT04M44.00S,04:44,Q4 04:44,0,0,1610612740.0,Aminu,Aminu REBOUND (Off:0 Def:2),3pt missed,3pt missed,0,High
+21300254,442,3pt,4,PT04M36.00S,04:36,Q4 04:36,0,0,1610612740.0,Anderson,MISS Anderson 27' 3PT Jump Shot,rebound,rebound,0,High
+21300254,443,rebound,4,PT04M35.00S,04:35,Q4 04:35,0,0,1610612740.0,Aminu,Aminu REBOUND (Off:1 Def:2),3pt missed,2pt missed,0,High
+21300254,444,2pt,4,PT04M16.00S,04:16,Q4 04:16,0,0,1610612740.0,Gordon,MISS Gordon 10' Jump Shot,rebound,rebound,0,High
+21300254,445,rebound,4,PT04M15.00S,04:15,Q4 04:15,0,0,1610612740.0,Anderson,Anderson REBOUND (Off:3 Def:2),2pt missed,2pt missed,0,High
+21300254,446,2pt,4,PT04M15.00S,04:15,Q4 04:15,0,0,1610612740.0,Anderson,MISS Anderson 1' Tip Shot,rebound,rebound,0,High
+21300254,447,rebound,4,PT04M14.00S,04:14,Q4 04:14,0,0,1610612740.0,Anderson,Anderson REBOUND (Off:4 Def:2),2pt missed,2pt made,0,High
+21300254,448,2pt,4,PT04M12.00S,04:12,Q4 04:12,93,94,1610612740.0,Anderson,Anderson 1' Layup (31 PTS),rebound,turnover,1,High
+21300254,449,turnover,4,PT03M49.00S,03:49,Q4 03:49,0,0,1610612752.0,Smith,Smith Bad Pass Turnover (P3.T15),2pt made,steal,0,High
+21300254,449,steal,4,PT03M49.00S,03:49,Q4 03:49,0,0,1610612740.0,Gordon,Gordon STEAL (3 STL),turnover,2pt made,0,High
+21300254,450,2pt,4,PT03M33.00S,03:33,Q4 03:33,93,96,1610612740.0,Aminu,Aminu 2' Alley Oop Layup (5 PTS) (Evans 7 AST),steal,timeout,3,High
+21300254,451,timeout,4,PT03M32.00S,03:32,Q4 03:32,0,0,1610612752.0,,KNICKS Timeout: Regular (Full 4 Short 1),2pt made,turnover,0,High
+21300254,455,turnover,4,PT03M21.00S,03:21,Q4 03:21,0,0,1610612752.0,Anthony,Anthony Lost Ball Turnover (P3.T16),timeout,steal,0,High
+21300254,455,steal,4,PT03M21.00S,03:21,Q4 03:21,0,0,1610612740.0,Aminu,Aminu STEAL (2 STL),turnover,3pt missed,0,High
+21300254,456,3pt,4,PT03M09.00S,03:09,Q4 03:09,0,0,1610612740.0,Gordon,MISS Gordon 25' 3PT Jump Shot,steal,rebound,0,High
+21300254,457,rebound,4,PT03M08.00S,03:08,Q4 03:08,0,0,1610612752.0,Anthony,Anthony REBOUND (Off:0 Def:9),3pt missed,3pt missed,0,High
+21300254,458,3pt,4,PT02M55.00S,02:55,Q4 02:55,0,0,1610612752.0,Anthony,MISS Anthony 26' 3PT Jump Shot,rebound,rebound,0,High
+21300254,459,rebound,4,PT02M54.00S,02:54,Q4 02:54,0,0,1610612752.0,,TEAM offensive REBOUND,3pt missed,foul,0,High
+21300254,460,foul,4,PT02M54.00S,02:54,Q4 02:54,0,0,1610612740.0,Evans,Evans L.B.FOUL (P4.T3),rebound,turnover,0,High
+21300254,461,turnover,4,PT02M49.00S,02:49,Q4 02:49,0,0,1610612752.0,Felton,Felton Bad Pass Turnover (P1.T17),foul,steal,0,High
+21300254,461,steal,4,PT02M49.00S,02:49,Q4 02:49,0,0,1610612740.0,Evans,Evans STEAL (4 STL),turnover,foul,0,High
+21300254,462,foul,4,PT02M46.00S,02:46,Q4 02:46,0,0,1610612752.0,Felton,Felton S.FOUL (P3.PN),steal,freethrow,0,High
+21300254,463,freethrow,4,PT02M46.00S,02:46,Q4 02:46,93,97,1610612740.0,Evans,Evans Free Throw 1 of 2 (20 PTS),foul,freethrow,4,High
+21300254,465,freethrow,4,PT02M46.00S,02:46,Q4 02:46,93,98,1610612740.0,Evans,Evans Free Throw 2 of 2 (21 PTS),freethrow,foul,5,High
+21300254,467,foul,4,PT02M30.00S,02:30,Q4 02:30,0,0,1610612740.0,Holiday,Holiday S.FOUL (P3.T4),freethrow,freethrow,0,High
+21300254,468,freethrow,4,PT02M30.00S,02:30,Q4 02:30,94,98,1610612752.0,Hardaway Jr.,Hardaway Jr. Free Throw 1 of 3 (19 PTS),foul,freethrow,4,High
+21300254,470,freethrow,4,PT02M30.00S,02:30,Q4 02:30,95,98,1610612752.0,Hardaway Jr.,Hardaway Jr. Free Throw 2 of 3 (20 PTS),freethrow,freethrow,3,High
+21300254,472,freethrow,4,PT02M30.00S,02:30,Q4 02:30,96,98,1610612752.0,Hardaway Jr.,Hardaway Jr. Free Throw 3 of 3 (21 PTS),freethrow,2pt made,2,High
+21300254,474,2pt,4,PT02M17.00S,02:17,Q4 02:17,96,100,1610612740.0,Evans,Evans 4' Running Hook Shot (23 PTS),freethrow,2pt missed,4,High
+21300254,475,2pt,4,PT01M54.00S,01:54,Q4 01:54,0,0,1610612752.0,Anthony,MISS Anthony  Layup,2pt made,rebound,0,Very High
+21300254,476,rebound,4,PT01M53.00S,01:53,Q4 01:53,0,0,1610612740.0,Holiday,Holiday REBOUND (Off:1 Def:4),2pt missed,2pt missed,0,Very High
+21300254,477,2pt,4,PT01M32.00S,01:32,Q4 01:32,0,0,1610612740.0,Evans,MISS Evans 4' Jump Shot,rebound,block,0,Very High
+21300254,477,block,4,PT01M32.00S,01:32,Q4 01:32,0,0,1610612752.0,Bargnani,Bargnani BLOCK (6 BLK),2pt missed,rebound,0,Very High
+21300254,478,rebound,4,PT01M31.00S,01:31,Q4 01:31,0,0,1610612740.0,Aminu,Aminu REBOUND (Off:2 Def:2),block,2pt missed,0,Very High
+21300254,479,2pt,4,PT01M28.00S,01:28,Q4 01:28,0,0,1610612740.0,Aminu,MISS Aminu 6' Jump Shot,rebound,rebound,0,Very High
+21300254,480,rebound,4,PT01M27.00S,01:27,Q4 01:27,0,0,1610612752.0,Smith,Smith REBOUND (Off:3 Def:5),2pt missed,3pt missed,0,Very High
+21300254,481,3pt,4,PT01M20.00S,01:20,Q4 01:20,0,0,1610612752.0,Felton,MISS Felton 25' 3PT Jump Shot,rebound,rebound,0,Very High
+21300254,482,rebound,4,PT01M19.00S,01:19,Q4 01:19,0,0,1610612740.0,Gordon,Gordon REBOUND (Off:0 Def:3),3pt missed,2pt made,0,Very High
+21300254,483,2pt,4,PT00M58.70S,00:58,Q4 00:58,96,102,1610612740.0,Gordon,Gordon 2' Running Layup (10 PTS),rebound,timeout,6,High
+21300254,484,timeout,4,PT00M58.70S,00:58,Q4 00:58,0,0,1610612752.0,,KNICKS Timeout: Regular (Full 5 Short 1),2pt made,3pt made,0,Very High
+21300254,488,3pt,4,PT00M54.90S,00:54,Q4 00:54,99,102,1610612752.0,Anthony,Anthony 26' 3PT Jump Shot (23 PTS),timeout,turnover,3,Very High
+21300254,489,turnover,4,PT00M32.90S,00:32,Q4 00:32,0,0,1610612740.0,Gordon,Gordon Lost Ball Turnover (P2.T12),3pt made,steal,0,Very High
+21300254,489,steal,4,PT00M32.90S,00:32,Q4 00:32,0,0,1610612752.0,Bargnani,Bargnani STEAL (2 STL),turnover,3pt missed,0,Very High
+21300254,490,3pt,4,PT00M24.90S,00:24,Q4 00:24,0,0,1610612752.0,Hardaway Jr.,MISS Hardaway Jr. 24' 3PT Jump Shot,steal,rebound,0,Very High
+21300254,491,rebound,4,PT00M23.70S,00:23,Q4 00:23,0,0,1610612752.0,Felton,Felton REBOUND (Off:2 Def:0),3pt missed,3pt missed,0,Very High
+21300254,492,3pt,4,PT00M18.90S,00:18,Q4 00:18,0,0,1610612752.0,Anthony,MISS Anthony 26' 3PT Jump Shot,rebound,rebound,0,Very High
+21300254,493,rebound,4,PT00M17.50S,00:17,Q4 00:17,0,0,1610612740.0,Aminu,Aminu REBOUND (Off:2 Def:3),3pt missed,foul,0,Very High
+21300254,494,foul,4,PT00M15.30S,00:15,Q4 00:15,0,0,1610612752.0,Hardaway Jr.,Hardaway Jr. Personal Take Foul (P1.PN),rebound,freethrow,0,Very High
+21300254,495,freethrow,4,PT00M15.30S,00:15,Q4 00:15,0,0,1610612740.0,Evans,MISS Evans Free Throw 1 of 2,foul,rebound,0,Very High
+21300254,496,rebound,4,PT00M15.30S,00:15,Q4 00:15,0,0,1610612740.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Very High
+21300254,497,freethrow,4,PT00M15.30S,00:15,Q4 00:15,99,103,1610612740.0,Evans,Evans Free Throw 2 of 2 (24 PTS),rebound,timeout,4,Very High
+21300254,499,timeout,4,PT00M15.30S,00:15,Q4 00:15,0,0,1610612752.0,,KNICKS Timeout: Short (Full 5 Short 2),freethrow,3pt missed,0,Very High
+21300254,503,3pt,4,PT00M11.40S,00:11,Q4 00:11,0,0,1610612752.0,Smith,MISS Smith 25' 3PT Jump Shot,timeout,rebound,0,Very High
+21300254,504,rebound,4,PT00M10.20S,00:10,Q4 00:10,0,0,1610612752.0,Bargnani,Bargnani REBOUND (Off:1 Def:6),3pt missed,3pt missed,0,Very High
+21300254,505,3pt,4,PT00M05.80S,00:05,Q4 00:05,0,0,1610612752.0,Smith,MISS Smith 26' 3PT Jump Shot,rebound,rebound,0,Very High
+21300254,506,rebound,4,PT00M04.60S,00:04,Q4 00:04,0,0,1610612752.0,Anthony,Anthony REBOUND (Off:1 Def:9),3pt missed,3pt missed,0,Very High
+21300254,507,3pt,4,PT00M00.30S,00:00,Q4 00:00,0,0,1610612752.0,Anthony,MISS Anthony 25' 3PT Jump Shot,rebound,rebound,0,Very High
+21300254,508,rebound,4,PT00M00.00S,00:00,Q4 00:00,0,0,1610612752.0,,TEAM offensive REBOUND,3pt missed,period,0,Very High
+21300254,509,period,4,PT00M00.00S,00:00,Q4 00:00,99,103,1610612752.0,,End of 4th Period (9:59 PM EST),rebound,,4,Very High

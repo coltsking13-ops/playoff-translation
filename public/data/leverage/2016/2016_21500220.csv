@@ -1,0 +1,492 @@
+game_id,actionNumber,actionType,period,clock,clock_display,game_clock,scoreHome,scoreAway,teamId,playerName,description,previous_action,next_action,score_margin,leverage_bucket
+21500220,0,period,1,PT12M00.00S,12:00,Q1 12:00,0,0,1610612745.0,,Start of 1st Period (8:11 PM EST),,turnover,0,Low
+21500220,2,turnover,1,PT11M36.00S,11:36,Q1 11:36,0,0,1610612763.0,Barnes,Barnes Bad Pass Turnover (P1.T1),period,steal,0,Low
+21500220,2,steal,1,PT11M36.00S,11:36,Q1 11:36,0,0,1610612745.0,Harden,Harden STEAL (1 STL),turnover,foul,0,Low
+21500220,3,foul,1,PT11M36.00S,11:36,Q1 11:36,0,0,1610612763.0,Allen,Allen P.FOUL (P1.T1) (K.Mauer),steal,2pt made,0,Low
+21500220,4,2pt,1,PT11M21.00S,11:21,Q1 11:21,2,0,1610612745.0,Howard,Howard 1' Layup (2 PTS) (Ariza 1 AST),foul,turnover,2,Low
+21500220,5,turnover,1,PT11M04.00S,11:04,Q1 11:04,2,0,1610612763.0,Gasol,Gasol Lost Ball Turnover (P1.T2),2pt made,steal,2,Low
+21500220,5,steal,1,PT11M04.00S,11:04,Q1 11:04,2,0,1610612745.0,Howard,Howard STEAL (1 STL),turnover,2pt missed,2,Low
+21500220,6,2pt,1,PT10M57.00S,10:57,Q1 10:57,2,0,1610612745.0,Jones,MISS Jones 3' Jump Shot,steal,rebound,2,Low
+21500220,7,rebound,1,PT10M56.00S,10:56,Q1 10:56,2,0,1610612745.0,Ariza,Ariza REBOUND (Off:1 Def:0),2pt missed,2pt missed,2,Low
+21500220,8,2pt,1,PT10M51.00S,10:51,Q1 10:51,2,0,1610612745.0,Ariza,MISS Ariza 22' Jump Shot,rebound,rebound,2,Low
+21500220,9,rebound,1,PT10M50.00S,10:50,Q1 10:50,2,0,1610612763.0,Barnes,Barnes REBOUND (Off:0 Def:1),2pt missed,2pt missed,2,Low
+21500220,10,2pt,1,PT10M43.00S,10:43,Q1 10:43,2,0,1610612763.0,Allen,MISS Allen 4' Driving Layup,rebound,rebound,2,Low
+21500220,11,rebound,1,PT10M42.00S,10:42,Q1 10:42,2,0,1610612745.0,Howard,Howard REBOUND (Off:0 Def:1),2pt missed,3pt missed,2,Low
+21500220,12,3pt,1,PT10M33.00S,10:33,Q1 10:33,2,0,1610612745.0,Terry,MISS Terry 25' 3PT Jump Shot,rebound,rebound,2,Low
+21500220,13,rebound,1,PT10M33.00S,10:33,Q1 10:33,2,0,1610612763.0,Gasol,Gasol REBOUND (Off:0 Def:1),3pt missed,foul,2,Low
+21500220,14,foul,1,PT10M26.00S,10:26,Q1 10:26,2,0,1610612745.0,Terry,Terry P.FOUL (P1.T1) (B.Taylor),rebound,foul,2,Low
+21500220,15,foul,1,PT10M20.00S,10:20,Q1 10:20,2,0,1610612745.0,Howard,Howard S.FOUL (P1.T2) (M.Smith),foul,freethrow,2,Low
+21500220,16,freethrow,1,PT10M20.00S,10:20,Q1 10:20,2,1,1610612763.0,Green,Je. Green Free Throw 1 of 2 (1 PTS),foul,freethrow,1,Low
+21500220,18,freethrow,1,PT10M20.00S,10:20,Q1 10:20,2,2,1610612763.0,Green,Je. Green Free Throw 2 of 2 (2 PTS),freethrow,turnover,0,Low
+21500220,20,turnover,1,PT09M59.00S,09:59,Q1 09:59,2,2,1610612745.0,Harden,Harden Bad Pass Turnover (P1.T1),freethrow,steal,0,Low
+21500220,20,steal,1,PT09M59.00S,09:59,Q1 09:59,2,2,1610612763.0,Allen,Allen STEAL (1 STL),turnover,2pt made,0,Low
+21500220,21,2pt,1,PT09M54.00S,09:54,Q1 09:54,2,4,1610612763.0,Allen,Allen 2' Running Layup (2 PTS),steal,2pt missed,2,Low
+21500220,22,2pt,1,PT09M37.00S,09:37,Q1 09:37,2,4,1610612745.0,Howard,MISS Howard 5' Jump Shot,2pt made,rebound,2,Low
+21500220,23,rebound,1,PT09M36.00S,09:36,Q1 09:36,2,4,1610612763.0,Gasol,Gasol REBOUND (Off:0 Def:2),2pt missed,2pt missed,2,Low
+21500220,24,2pt,1,PT09M29.00S,09:29,Q1 09:29,2,4,1610612763.0,Barnes,MISS Barnes 2' Layup,rebound,rebound,2,Low
+21500220,25,rebound,1,PT09M28.00S,09:28,Q1 09:28,2,4,1610612745.0,Jones,Jones REBOUND (Off:0 Def:1),2pt missed,3pt missed,2,Low
+21500220,26,3pt,1,PT09M21.00S,09:21,Q1 09:21,2,4,1610612745.0,Ariza,MISS Ariza 24' 3PT Jump Shot,rebound,rebound,2,Low
+21500220,27,rebound,1,PT09M20.00S,09:20,Q1 09:20,2,4,1610612763.0,Green,Je. Green REBOUND (Off:0 Def:1),3pt missed,3pt made,2,Low
+21500220,28,3pt,1,PT09M13.00S,09:13,Q1 09:13,2,7,1610612763.0,Barnes,Barnes 24' 3PT Jump Shot (3 PTS) (Conley 1 AST),rebound,foul,5,Low
+21500220,29,foul,1,PT09M02.00S,09:02,Q1 09:02,2,7,1610612763.0,Barnes,Barnes S.FOUL (P1.T2) (M.Smith),3pt made,freethrow,5,Low
+21500220,30,freethrow,1,PT09M02.00S,09:02,Q1 09:02,3,7,1610612745.0,Ariza,Ariza Free Throw 1 of 2 (1 PTS),foul,freethrow,4,Low
+21500220,32,freethrow,1,PT09M02.00S,09:02,Q1 09:02,4,7,1610612745.0,Ariza,Ariza Free Throw 2 of 2 (2 PTS),freethrow,3pt missed,3,Low
+21500220,35,3pt,1,PT08M44.00S,08:44,Q1 08:44,4,7,1610612763.0,Barnes,MISS Barnes 24' 3PT Jump Shot,freethrow,rebound,3,Low
+21500220,36,rebound,1,PT08M43.00S,08:43,Q1 08:43,4,7,1610612745.0,Ariza,Ariza REBOUND (Off:1 Def:1),3pt missed,3pt made,3,Low
+21500220,37,3pt,1,PT08M37.00S,08:37,Q1 08:37,7,7,1610612745.0,Harden,Harden 25' 3PT Pullup Jump Shot (3 PTS),rebound,3pt missed,0,Low
+21500220,38,3pt,1,PT08M24.00S,08:24,Q1 08:24,7,7,1610612763.0,Green,MISS Je. Green 3PT Jump Shot,3pt made,rebound,0,Low
+21500220,39,rebound,1,PT08M24.00S,08:24,Q1 08:24,7,7,1610612763.0,Gasol,Gasol REBOUND (Off:1 Def:2),3pt missed,2pt missed,0,Low
+21500220,40,2pt,1,PT08M21.00S,08:21,Q1 08:21,7,7,1610612763.0,Gasol,MISS Gasol 11' Jump Shot,rebound,rebound,0,Low
+21500220,41,rebound,1,PT08M21.00S,08:21,Q1 08:21,7,7,1610612763.0,,TEAM offensive REBOUND,2pt missed,2pt made,0,Low
+21500220,42,2pt,1,PT08M17.00S,08:17,Q1 08:17,7,9,1610612763.0,Gasol,Gasol 19' Jump Shot (2 PTS) (Conley 2 AST),rebound,3pt missed,2,Low
+21500220,43,3pt,1,PT08M00.00S,08:00,Q1 08:00,7,9,1610612745.0,Terry,MISS Terry 25' 3PT Jump Shot,2pt made,rebound,2,Low
+21500220,44,rebound,1,PT07M59.00S,07:59,Q1 07:59,7,9,1610612763.0,,TEAM defensive REBOUND,3pt missed,2pt missed,2,Low
+21500220,46,2pt,1,PT07M38.00S,07:38,Q1 07:38,7,9,1610612763.0,Gasol,MISS Gasol 3' Layup,rebound,block,2,Low
+21500220,46,block,1,PT07M38.00S,07:38,Q1 07:38,7,9,1610612745.0,Jones,Jones BLOCK (1 BLK),2pt missed,rebound,2,Low
+21500220,47,rebound,1,PT07M37.00S,07:37,Q1 07:37,7,9,1610612745.0,Harden,Harden REBOUND (Off:0 Def:1),block,turnover,2,Low
+21500220,48,turnover,1,PT07M33.00S,07:33,Q1 07:33,7,9,1610612745.0,Ariza,Ariza Bad Pass Turnover (P1.T2),rebound,2pt made,2,Low
+21500220,49,2pt,1,PT07M28.00S,07:28,Q1 07:28,7,11,1610612763.0,Green,Je. Green 2' Reverse Layup (4 PTS) (Barnes 1 AST),turnover,timeout,4,Low
+21500220,50,timeout,1,PT07M21.00S,07:21,Q1 07:21,7,11,1610612745.0,,ROCKETS Timeout: Regular (Full 1 Short 0),2pt made,3pt missed,4,Low
+21500220,53,3pt,1,PT07M13.00S,07:13,Q1 07:13,7,11,1610612745.0,Ariza,MISS Ariza 3PT Jump Shot,timeout,rebound,4,Low
+21500220,54,rebound,1,PT07M12.00S,07:12,Q1 07:12,7,11,1610612763.0,Barnes,Barnes REBOUND (Off:0 Def:2),3pt missed,turnover,4,Low
+21500220,55,turnover,1,PT07M00.00S,07:00,Q1 07:00,7,11,1610612763.0,Allen,Allen Bad Pass Turnover (P1.T3),rebound,steal,4,Low
+21500220,55,steal,1,PT07M00.00S,07:00,Q1 07:00,7,11,1610612745.0,Terry,Terry STEAL (1 STL),turnover,3pt missed,4,Low
+21500220,56,3pt,1,PT06M53.00S,06:53,Q1 06:53,7,11,1610612745.0,Terry,MISS Terry 24' 3PT Jump Shot,steal,rebound,4,Low
+21500220,57,rebound,1,PT06M53.00S,06:53,Q1 06:53,7,11,1610612763.0,Gasol,Gasol REBOUND (Off:1 Def:3),3pt missed,turnover,4,Low
+21500220,58,turnover,1,PT06M39.00S,06:39,Q1 06:39,7,11,1610612763.0,Gasol,Gasol Bad Pass Turnover (P2.T4),rebound,steal,4,Low
+21500220,58,steal,1,PT06M39.00S,06:39,Q1 06:39,7,11,1610612745.0,Terry,Terry STEAL (2 STL),turnover,2pt missed,4,Low
+21500220,59,2pt,1,PT06M20.00S,06:20,Q1 06:20,7,11,1610612745.0,Howard,MISS Howard Dunk,steal,block,4,Low
+21500220,59,block,1,PT06M20.00S,06:20,Q1 06:20,7,11,1610612763.0,Allen,Allen BLOCK (1 BLK),2pt missed,rebound,4,Low
+21500220,60,rebound,1,PT06M19.00S,06:19,Q1 06:19,7,11,1610612763.0,Barnes,Barnes REBOUND (Off:0 Def:3),block,turnover,4,Low
+21500220,61,turnover,1,PT06M12.00S,06:12,Q1 06:12,7,11,1610612763.0,Allen,Allen Lost Ball Turnover (P2.T5),rebound,steal,4,Low
+21500220,61,steal,1,PT06M12.00S,06:12,Q1 06:12,7,11,1610612745.0,Howard,Howard STEAL (2 STL),turnover,2pt made,4,Low
+21500220,62,2pt,1,PT06M06.00S,06:06,Q1 06:06,9,11,1610612745.0,Harden,Harden 2' Running Layup (5 PTS),steal,timeout,2,Low
+21500220,63,timeout,1,PT05M59.00S,05:59,Q1 05:59,9,11,1610612763.0,,Grizzlies Timeout: Regular (Reg.1 Short 0),2pt made,substitution,2,Low
+21500220,65,substitution,1,PT05M59.00S,05:59,Q1 05:59,9,11,1610612745.0,Terry,SUB out: J. Terry,timeout,substitution,2,Low
+21500220,66,substitution,1,PT05M59.00S,05:59,Q1 05:59,9,11,1610612745.0,Beverley,SUB in: P. Beverley,substitution,3pt missed,2,Low
+21500220,66,3pt,1,PT05M45.00S,05:45,Q1 05:45,9,11,1610612763.0,Conley,MISS Conley 25' 3PT Jump Shot,substitution,rebound,2,Low
+21500220,67,rebound,1,PT05M45.00S,05:45,Q1 05:45,9,11,1610612745.0,Jones,Jones REBOUND (Off:0 Def:2),3pt missed,2pt made,2,Low
+21500220,68,2pt,1,PT05M23.00S,05:23,Q1 05:23,11,11,1610612745.0,Ariza,Ariza 2' Driving Layup (4 PTS) (Beverley 1 AST),rebound,2pt made,0,Low
+21500220,69,2pt,1,PT05M06.00S,05:06,Q1 05:06,11,13,1610612763.0,Conley,Conley 18' Pullup Jump Shot (2 PTS),2pt made,2pt missed,2,Low
+21500220,70,2pt,1,PT04M51.00S,04:51,Q1 04:51,11,13,1610612745.0,Beverley,MISS Beverley 21' Jump Shot,2pt made,rebound,2,Low
+21500220,71,rebound,1,PT04M50.00S,04:50,Q1 04:50,11,13,1610612763.0,Barnes,Barnes REBOUND (Off:0 Def:4),2pt missed,2pt made,2,Low
+21500220,72,2pt,1,PT04M48.00S,04:48,Q1 04:48,11,15,1610612763.0,Conley,Conley 2' Running Layup (4 PTS) (Barnes 2 AST),rebound,foul,4,Low
+21500220,73,foul,1,PT04M48.00S,04:48,Q1 04:48,11,15,1610612745.0,Beverley,Beverley S.FOUL (P1.T3) (B.Taylor),2pt made,freethrow,4,Low
+21500220,77,freethrow,1,PT04M48.00S,04:48,Q1 04:48,11,16,1610612763.0,Conley,Conley Free Throw 1 of 1 (5 PTS),foul,substitution,5,Low
+21500220,74,substitution,1,PT04M48.00S,04:48,Q1 04:48,11,15,1610612763.0,Allen,SUB out: T. Allen,freethrow,substitution,4,Low
+21500220,75,substitution,1,PT04M48.00S,04:48,Q1 04:48,11,15,1610612745.0,Howard,SUB out: D. Howard,substitution,substitution,4,Low
+21500220,76,substitution,1,PT04M48.00S,04:48,Q1 04:48,11,15,1610612745.0,Ariza,SUB out: T. Ariza,substitution,substitution,4,Low
+21500220,77,substitution,1,PT04M48.00S,04:48,Q1 04:48,11,15,1610612763.0,Chalmers,SUB in: M. Chalmers,substitution,substitution,4,Low
+21500220,78,substitution,1,PT04M48.00S,04:48,Q1 04:48,11,15,1610612745.0,Capela,SUB in: C. Capela,substitution,substitution,4,Low
+21500220,79,substitution,1,PT04M48.00S,04:48,Q1 04:48,11,15,1610612745.0,Brewer,SUB in: C. Brewer,substitution,2pt missed,4,Low
+21500220,79,2pt,1,PT04M36.00S,04:36,Q1 04:36,11,16,1610612745.0,Brewer,MISS Brewer 3' Cutting Finger Roll Layup Shot,substitution,rebound,5,Low
+21500220,80,rebound,1,PT04M35.00S,04:35,Q1 04:35,11,16,1610612763.0,Chalmers,Chalmers REBOUND (Off:0 Def:1),2pt missed,2pt made,5,Low
+21500220,81,2pt,1,PT04M19.00S,04:19,Q1 04:19,11,18,1610612763.0,Green,Je. Green 5' Driving Hook Shot (6 PTS),rebound,turnover,7,Low
+21500220,82,turnover,1,PT03M59.00S,03:59,Q1 03:59,11,18,1610612745.0,Jones,Jones Traveling Turnover (P1.T3),2pt made,substitution,7,Low
+21500220,83,substitution,1,PT03M59.00S,03:59,Q1 03:59,11,18,1610612763.0,Gasol,SUB out: M. Gasol,substitution,substitution,7,Low
+21500220,84,substitution,1,PT03M59.00S,03:59,Q1 03:59,11,18,1610612763.0,Green,SUB in: J. Green,substitution,2pt missed,7,Low
+21500220,84,2pt,1,PT03M53.00S,03:53,Q1 03:53,11,18,1610612763.0,Green,MISS Ja. Green 2' Layup,substitution,block,7,Low
+21500220,84,block,1,PT03M53.00S,03:53,Q1 03:53,11,18,1610612745.0,Capela,Capela BLOCK (1 BLK),2pt missed,rebound,7,Low
+21500220,85,rebound,1,PT03M52.00S,03:52,Q1 03:52,11,18,1610612763.0,Green,Ja. Green REBOUND (Off:1 Def:0),block,2pt missed,7,Low
+21500220,86,2pt,1,PT03M50.00S,03:50,Q1 03:50,11,18,1610612763.0,Green,MISS Ja. Green 1' Layup,rebound,block,7,Low
+21500220,86,block,1,PT03M50.00S,03:50,Q1 03:50,11,18,1610612745.0,Capela,Capela BLOCK (2 BLK),2pt missed,rebound,7,Low
+21500220,87,rebound,1,PT03M49.00S,03:49,Q1 03:49,11,18,1610612745.0,Brewer,Brewer REBOUND (Off:0 Def:1),block,foul,7,Low
+21500220,88,foul,1,PT03M49.00S,03:49,Q1 03:49,11,18,1610612763.0,Chalmers,Chalmers P.FOUL (P1.T3) (B.Taylor),rebound,substitution,7,Low
+21500220,89,substitution,1,PT03M49.00S,03:49,Q1 03:49,11,18,1610612745.0,Jones,SUB out: T. Jones,foul,substitution,7,Low
+21500220,90,substitution,1,PT03M49.00S,03:49,Q1 03:49,11,18,1610612745.0,Thornton,SUB in: M. Thornton,substitution,2pt made,7,Low
+21500220,90,2pt,1,PT03M39.00S,03:39,Q1 03:39,13,18,1610612745.0,Beverley,Beverley 11' Driving Floating Jump Shot (2 PTS),substitution,2pt made,5,Low
+21500220,91,2pt,1,PT03M19.00S,03:19,Q1 03:19,13,20,1610612763.0,Conley,Conley 19' Step Back Jump Shot (7 PTS),2pt made,foul,7,Low
+21500220,92,foul,1,PT03M05.00S,03:05,Q1 03:05,13,20,1610612763.0,Green,Ja. Green Personal Block Foul (P1.T4) (M.Smith),2pt made,3pt made,7,Low
+21500220,93,3pt,1,PT03M01.00S,03:01,Q1 03:01,16,20,1610612745.0,Harden,Harden 25' 3PT Jump Shot (8 PTS) (Beverley 2 AST),foul,foul,4,Low
+21500220,94,foul,1,PT02M43.00S,02:43,Q1 02:43,16,20,1610612745.0,Capela,Capela S.FOUL (P1.T4) (M.Smith),3pt made,freethrow,4,Low
+21500220,95,freethrow,1,PT02M43.00S,02:43,Q1 02:43,16,21,1610612763.0,Green,Ja. Green Free Throw 1 of 2 (1 PTS),foul,freethrow,5,Low
+21500220,98,freethrow,1,PT02M43.00S,02:43,Q1 02:43,16,22,1610612763.0,Green,Ja. Green Free Throw 2 of 2 (2 PTS),freethrow,substitution,6,Low
+21500220,97,substitution,1,PT02M43.00S,02:43,Q1 02:43,16,21,1610612763.0,Green,SUB out: J. Green,freethrow,substitution,5,Low
+21500220,98,substitution,1,PT02M43.00S,02:43,Q1 02:43,16,21,1610612763.0,Lee,SUB in: C. Lee,substitution,2pt made,5,Low
+21500220,101,2pt,1,PT02M29.00S,02:29,Q1 02:29,18,22,1610612745.0,Capela,Capela 2' Cutting Layup Shot (2 PTS) (Harden 1 AST),substitution,2pt made,4,Low
+21500220,102,2pt,1,PT02M13.00S,02:13,Q1 02:13,18,24,1610612763.0,Green,Ja. Green 1' Cutting Layup Shot (4 PTS) (Chalmers 1 AST),2pt made,2pt missed,6,Low
+21500220,103,2pt,1,PT01M58.00S,01:58,Q1 01:58,18,24,1610612745.0,Capela,MISS Capela 2' Cutting Layup Shot,2pt made,rebound,6,Low
+21500220,105,rebound,1,PT01M57.00S,01:57,Q1 01:57,18,24,1610612745.0,Capela,Capela REBOUND (Off:1 Def:0),2pt missed,2pt made,6,Low
+21500220,104,2pt,1,PT01M56.00S,01:56,Q1 01:56,20,24,1610612745.0,Capela,Capela 1' Putback Layup (4 PTS),rebound,3pt missed,4,Low
+21500220,106,3pt,1,PT01M39.00S,01:39,Q1 01:39,20,24,1610612763.0,Barnes,MISS Barnes 25' 3PT Jump Shot,2pt made,rebound,4,Low
+21500220,107,rebound,1,PT01M39.00S,01:39,Q1 01:39,20,24,1610612745.0,Harden,Harden REBOUND (Off:0 Def:2),3pt missed,foul,4,Low
+21500220,108,foul,1,PT01M25.00S,01:25,Q1 01:25,20,24,1610612763.0,Barnes,Barnes S.FOUL (P2.PN) (B.Taylor),rebound,freethrow,4,Low
+21500220,109,freethrow,1,PT01M25.00S,01:25,Q1 01:25,21,24,1610612745.0,Brewer,Brewer Free Throw 1 of 2 (1 PTS),foul,freethrow,3,Low
+21500220,112,freethrow,1,PT01M25.00S,01:25,Q1 01:25,22,24,1610612745.0,Brewer,Brewer Free Throw 2 of 2 (2 PTS),freethrow,substitution,2,Low
+21500220,111,substitution,1,PT01M25.00S,01:25,Q1 01:25,21,24,1610612763.0,Barnes,SUB out: M. Barnes,freethrow,substitution,3,Low
+21500220,112,substitution,1,PT01M25.00S,01:25,Q1 01:25,21,24,1610612763.0,Carter,SUB in: V. Carter,substitution,turnover,3,Low
+21500220,114,turnover,1,PT01M11.00S,01:11,Q1 01:11,22,24,1610612763.0,Conley,Conley Lost Ball Turnover (P1.T6),substitution,steal,2,Low
+21500220,114,steal,1,PT01M11.00S,01:11,Q1 01:11,22,24,1610612745.0,Capela,Capela STEAL (1 STL),turnover,2pt made,2,Low
+21500220,115,2pt,1,PT01M05.00S,01:05,Q1 01:05,24,24,1610612745.0,Harden,Harden 2' Running Layup (10 PTS) (Capela 1 AST),steal,2pt made,0,Low
+21500220,116,2pt,1,PT01M00.00S,01:00,Q1 01:00,24,26,1610612763.0,Green,Ja. Green Dunk (6 PTS) (Chalmers 2 AST),2pt made,3pt missed,2,Low
+21500220,118,3pt,1,PT00M41.90S,00:41,Q1 00:41,24,26,1610612745.0,Harden,MISS Harden 24' 3PT Pullup Jump Shot,2pt made,rebound,2,Low
+21500220,119,rebound,1,PT00M40.70S,00:40,Q1 00:40,24,26,1610612763.0,Carter,Carter REBOUND (Off:0 Def:1),3pt missed,foul,2,Low
+21500220,120,foul,1,PT00M30.70S,00:30,Q1 00:30,24,26,1610612745.0,Thornton,Thornton P.FOUL (P1.PN) (M.Smith),rebound,freethrow,2,Low
+21500220,121,freethrow,1,PT00M30.70S,00:30,Q1 00:30,24,27,1610612763.0,Chalmers,Chalmers Free Throw 1 of 2 (1 PTS),foul,freethrow,3,Low
+21500220,124,freethrow,1,PT00M30.70S,00:30,Q1 00:30,24,28,1610612763.0,Chalmers,Chalmers Free Throw 2 of 2 (2 PTS),freethrow,substitution,4,Low
+21500220,123,substitution,1,PT00M30.70S,00:30,Q1 00:30,24,27,1610612763.0,Green,SUB out: J. Green,freethrow,substitution,3,Low
+21500220,124,substitution,1,PT00M30.70S,00:30,Q1 00:30,24,27,1610612763.0,Gasol,SUB in: M. Gasol,substitution,3pt missed,3,Low
+21500220,127,3pt,1,PT00M15.90S,00:15,Q1 00:15,24,28,1610612745.0,Beverley,MISS Beverley 25' 3PT Pullup Jump Shot,substitution,rebound,4,Low
+21500220,128,rebound,1,PT00M14.90S,00:14,Q1 00:14,24,28,1610612763.0,Carter,Carter REBOUND (Off:0 Def:2),3pt missed,3pt missed,4,Low
+21500220,129,3pt,1,PT00M02.90S,00:02,Q1 00:02,24,28,1610612763.0,Lee,MISS Lee 24' 3PT Jump Shot,rebound,rebound,4,Low
+21500220,130,rebound,1,PT00M02.50S,00:02,Q1 00:02,24,28,1610612745.0,Beverley,Beverley REBOUND (Off:0 Def:1),3pt missed,3pt missed,4,Low
+21500220,131,3pt,1,PT00M00.00S,00:00,Q1 00:00,24,28,1610612745.0,Beverley,MISS Beverley 41' 3PT Jump Shot,rebound,period,4,Low
+21500220,132,period,1,PT00M00.00S,00:00,Q1 00:00,24,28,1610612745.0,,End of 1st Period (8:36 PM EST),3pt missed,rebound,4,Low
+21500220,133,rebound,1,PT00M00.00S,00:00,Q1 00:00,24,28,1610612745.0,,TEAM offensive REBOUND,period,period,4,Low
+21500220,135,period,2,PT12M00.00S,12:00,Q2 12:00,24,28,1610612745.0,,Start of 2nd Period (8:39 PM EST),rebound,substitution,4,Low
+21500220,136,foul,2,PT11M52.00S,11:52,Q2 11:52,24,28,1610612763.0,Gasol,Gasol P.FOUL (P1.T1) (B.Taylor),substitution,3pt missed,4,Low
+21500220,137,3pt,2,PT11M41.00S,11:41,Q2 11:41,24,28,1610612745.0,Ariza,MISS Ariza 24' 3PT Jump Shot,foul,rebound,4,Low
+21500220,138,rebound,2,PT11M40.00S,11:40,Q2 11:40,24,28,1610612763.0,Carter,Carter REBOUND (Off:0 Def:3),3pt missed,2pt missed,4,Low
+21500220,139,2pt,2,PT11M25.00S,11:25,Q2 11:25,24,28,1610612763.0,Lee,MISS Lee 15' Pullup Jump Shot,rebound,rebound,4,Low
+21500220,140,rebound,2,PT11M24.00S,11:24,Q2 11:24,24,28,1610612745.0,Ariza,Ariza REBOUND (Off:1 Def:2),2pt missed,turnover,4,Low
+21500220,141,turnover,2,PT11M14.00S,11:14,Q2 11:14,24,28,1610612745.0,Howard,Howard Out of Bounds - Bad Pass Turnover Turnover (P1.T4),rebound,2pt made,4,Low
+21500220,143,2pt,2,PT10M51.00S,10:51,Q2 10:51,24,30,1610612763.0,Lee,Lee 3' Layup (2 PTS) (Carter 1 AST),turnover,2pt made,6,Low
+21500220,144,2pt,2,PT10M40.00S,10:40,Q2 10:40,26,30,1610612745.0,Thornton,Thornton 16' Pullup Jump Shot (2 PTS),2pt made,2pt made,4,Low
+21500220,145,2pt,2,PT10M22.00S,10:22,Q2 10:22,26,32,1610612763.0,Lee,Lee 19' Pullup Jump Shot (4 PTS),2pt made,3pt missed,6,Low
+21500220,146,3pt,2,PT10M10.00S,10:10,Q2 10:10,26,32,1610612745.0,Thornton,MISS Thornton 26' 3PT Jump Shot,2pt made,rebound,6,Low
+21500220,147,rebound,2,PT10M09.00S,10:09,Q2 10:09,26,32,1610612763.0,Gasol,Gasol REBOUND (Off:1 Def:4),3pt missed,2pt missed,6,Low
+21500220,148,2pt,2,PT09M57.00S,09:57,Q2 09:57,26,32,1610612763.0,Gasol,MISS Gasol 12' Pullup Jump Shot,rebound,rebound,6,Low
+21500220,149,rebound,2,PT09M55.00S,09:55,Q2 09:55,26,32,1610612763.0,Carter,Carter REBOUND (Off:1 Def:3),2pt missed,2pt made,6,Low
+21500220,150,2pt,2,PT09M43.00S,09:43,Q2 09:43,26,34,1610612763.0,Chalmers,Chalmers 4' Driving Finger Roll Layup (4 PTS),rebound,2pt missed,8,Low
+21500220,151,2pt,2,PT09M28.00S,09:28,Q2 09:28,26,34,1610612745.0,Howard,MISS Howard 4' Turnaround Hook Shot,2pt made,block,8,Low
+21500220,151,block,2,PT09M28.00S,09:28,Q2 09:28,26,34,1610612763.0,Gasol,Gasol BLOCK (1 BLK),2pt missed,rebound,8,Low
+21500220,152,rebound,2,PT09M27.00S,09:27,Q2 09:27,26,34,1610612763.0,Lee,Lee REBOUND (Off:0 Def:1),block,2pt made,8,Low
+21500220,153,2pt,2,PT09M19.00S,09:19,Q2 09:19,26,36,1610612763.0,Lee,Lee 19' Pullup Jump Shot (6 PTS),rebound,timeout,10,Low
+21500220,154,timeout,2,PT09M19.00S,09:19,Q2 09:19,26,36,1610612745.0,,ROCKETS Timeout: Regular (Full 2 Short 0),2pt made,substitution,10,Low
+21500220,156,substitution,2,PT09M19.00S,09:19,Q2 09:19,26,36,1610612745.0,Beverley,SUB out: P. Beverley,timeout,substitution,10,Low
+21500220,157,substitution,2,PT09M19.00S,09:19,Q2 09:19,26,36,1610612745.0,Thornton,SUB out: M. Thornton,substitution,substitution,10,Low
+21500220,158,substitution,2,PT09M19.00S,09:19,Q2 09:19,26,36,1610612745.0,Lawson,SUB out: T. Lawson,substitution,substitution,10,Low
+21500220,159,substitution,2,PT09M19.00S,09:19,Q2 09:19,26,36,1610612763.0,Green,SUB out: J. Green,substitution,substitution,10,Low
+21500220,160,substitution,2,PT09M19.00S,09:19,Q2 09:19,26,36,1610612745.0,Jones,SUB in: T. Jones,substitution,substitution,10,Low
+21500220,161,substitution,2,PT09M19.00S,09:19,Q2 09:19,26,36,1610612745.0,Harden,SUB in: J. Harden,substitution,substitution,10,Low
+21500220,162,substitution,2,PT09M19.00S,09:19,Q2 09:19,26,36,1610612745.0,Terry,SUB in: J. Terry,substitution,substitution,10,Low
+21500220,163,substitution,2,PT09M19.00S,09:19,Q2 09:19,26,36,1610612763.0,Barnes,SUB in: M. Barnes,substitution,turnover,10,Low
+21500220,160,turnover,2,PT09M10.00S,09:10,Q2 09:10,26,36,1610612745.0,Harden,Harden Bad Pass Turnover (P2.T5),substitution,steal,10,Low
+21500220,160,steal,2,PT09M10.00S,09:10,Q2 09:10,26,36,1610612763.0,Carter,Carter STEAL (1 STL),turnover,2pt made,10,Low
+21500220,161,2pt,2,PT09M05.00S,09:05,Q2 09:05,26,38,1610612763.0,Gasol,Gasol Running Dunk (4 PTS) (Chalmers 3 AST),steal,3pt missed,12,Low
+21500220,162,3pt,2,PT08M43.00S,08:43,Q2 08:43,26,38,1610612745.0,Jones,MISS Jones 24' 3PT Jump Shot,2pt made,rebound,12,Low
+21500220,163,rebound,2,PT08M42.00S,08:42,Q2 08:42,26,38,1610612763.0,Chalmers,Chalmers REBOUND (Off:0 Def:2),3pt missed,2pt missed,12,Low
+21500220,164,2pt,2,PT08M20.00S,08:20,Q2 08:20,26,38,1610612763.0,Lee,MISS Lee 4' Driving Layup,rebound,block,12,Low
+21500220,164,block,2,PT08M20.00S,08:20,Q2 08:20,26,38,1610612745.0,Howard,Howard BLOCK (1 BLK),2pt missed,rebound,12,Low
+21500220,165,rebound,2,PT08M19.00S,08:19,Q2 08:19,26,38,1610612745.0,Ariza,Ariza REBOUND (Off:1 Def:3),block,foul,12,Low
+21500220,166,foul,2,PT08M17.00S,08:17,Q2 08:17,26,38,1610612763.0,Chalmers,Chalmers S.FOUL (P2.T2) (B.Taylor),rebound,freethrow,12,Low
+21500220,167,freethrow,2,PT08M17.00S,08:17,Q2 08:17,27,38,1610612745.0,Harden,Harden Free Throw 1 of 2 (11 PTS),foul,freethrow,11,Low
+21500220,169,freethrow,2,PT08M17.00S,08:17,Q2 08:17,28,38,1610612745.0,Harden,Harden Free Throw 2 of 2 (12 PTS),freethrow,turnover,10,Low
+21500220,171,turnover,2,PT07M59.00S,07:59,Q2 07:59,28,38,1610612763.0,Gasol,Gasol Bad Pass Turnover (P3.T7),freethrow,steal,10,Low
+21500220,171,steal,2,PT07M59.00S,07:59,Q2 07:59,28,38,1610612745.0,Harden,Harden STEAL (2 STL),turnover,2pt made,10,Low
+21500220,172,2pt,2,PT07M53.00S,07:53,Q2 07:53,30,38,1610612745.0,Howard,Howard Dunk (4 PTS) (Ariza 2 AST),steal,2pt missed,8,Low
+21500220,173,2pt,2,PT07M40.00S,07:40,Q2 07:40,30,38,1610612763.0,Gasol,MISS Gasol 11' Turnaround Fadeaway Shot,2pt made,rebound,8,Low
+21500220,174,rebound,2,PT07M39.00S,07:39,Q2 07:39,30,38,1610612745.0,Jones,Jones REBOUND (Off:0 Def:3),2pt missed,2pt missed,8,Low
+21500220,175,2pt,2,PT07M29.00S,07:29,Q2 07:29,30,38,1610612745.0,Jones,MISS Jones 6' Jump Bank Shot,rebound,rebound,8,Low
+21500220,176,rebound,2,PT07M28.00S,07:28,Q2 07:28,30,38,1610612763.0,Gasol,Gasol REBOUND (Off:1 Def:5),2pt missed,2pt missed,8,Low
+21500220,177,2pt,2,PT07M12.00S,07:12,Q2 07:12,30,38,1610612763.0,Gasol,MISS Gasol 19' Jump Shot,rebound,rebound,8,Low
+21500220,178,rebound,2,PT07M11.00S,07:11,Q2 07:11,30,38,1610612763.0,Carter,Carter REBOUND (Off:2 Def:3),2pt missed,3pt missed,8,Low
+21500220,179,3pt,2,PT07M06.00S,07:06,Q2 07:06,30,38,1610612763.0,Chalmers,MISS Chalmers 25' 3PT Jump Shot,rebound,rebound,8,Low
+21500220,180,rebound,2,PT07M03.00S,07:03,Q2 07:03,30,38,1610612745.0,Ariza,Ariza REBOUND (Off:1 Def:4),3pt missed,turnover,8,Low
+21500220,181,turnover,2,PT06M56.00S,06:56,Q2 06:56,30,38,1610612745.0,Harden,Harden Lost Ball Turnover (P3.T6),rebound,steal,8,Low
+21500220,181,steal,2,PT06M56.00S,06:56,Q2 06:56,30,38,1610612763.0,Barnes,Barnes STEAL (1 STL),turnover,2pt made,8,Low
+21500220,182,2pt,2,PT06M50.00S,06:50,Q2 06:50,30,40,1610612763.0,Chalmers,Chalmers 1' Reverse Layup (6 PTS) (Lee 1 AST),steal,foul,10,Low
+21500220,183,foul,2,PT06M33.00S,06:33,Q2 06:33,30,40,1610612745.0,Ariza,Ariza OFF.Foul (P1) (B.Taylor),2pt made,turnover,10,Low
+21500220,184,turnover,2,PT06M33.00S,06:33,Q2 06:33,30,40,1610612745.0,Ariza,Ariza Foul Turnover (P2.T7),foul,3pt missed,10,Low
+21500220,186,3pt,2,PT06M16.00S,06:16,Q2 06:16,30,40,1610612763.0,Carter,MISS Carter 3PT Jump Shot,turnover,rebound,10,Low
+21500220,187,rebound,2,PT06M14.00S,06:14,Q2 06:14,30,40,1610612745.0,Howard,Howard REBOUND (Off:0 Def:2),3pt missed,2pt made,10,Low
+21500220,188,2pt,2,PT06M02.00S,06:02,Q2 06:02,32,40,1610612745.0,Howard,Howard 1' Alley Oop Layup (6 PTS) (Jones 1 AST),rebound,2pt made,8,Low
+21500220,189,2pt,2,PT05M49.00S,05:49,Q2 05:49,32,42,1610612763.0,Barnes,Barnes 9' Jump Bank Shot (5 PTS) (Chalmers 4 AST),2pt made,3pt made,10,Low
+21500220,190,3pt,2,PT05M21.00S,05:21,Q2 05:21,35,42,1610612745.0,Terry,Terry 25' 3PT Jump Shot (3 PTS) (Ariza 3 AST),2pt made,2pt missed,7,Low
+21500220,191,2pt,2,PT05M02.00S,05:02,Q2 05:02,35,42,1610612763.0,Chalmers,MISS Chalmers 3' Jump Shot,3pt made,block,7,Low
+21500220,191,block,2,PT05M02.00S,05:02,Q2 05:02,35,42,1610612745.0,Terry,Terry BLOCK (1 BLK),2pt missed,rebound,7,Low
+21500220,192,rebound,2,PT05M02.00S,05:02,Q2 05:02,35,42,1610612745.0,Ariza,Ariza REBOUND (Off:1 Def:5),block,3pt missed,7,Low
+21500220,193,3pt,2,PT04M54.00S,04:54,Q2 04:54,35,42,1610612745.0,Ariza,MISS Ariza 25' 3PT Jump Shot,rebound,rebound,7,Low
+21500220,194,rebound,2,PT04M54.00S,04:54,Q2 04:54,35,42,1610612763.0,Barnes,Barnes REBOUND (Off:0 Def:5),3pt missed,3pt missed,7,Low
+21500220,195,3pt,2,PT04M34.00S,04:34,Q2 04:34,35,42,1610612763.0,Chalmers,MISS Chalmers 24' 3PT Step Back Jump Shot,rebound,rebound,7,Low
+21500220,196,rebound,2,PT04M33.00S,04:33,Q2 04:33,35,42,1610612745.0,Ariza,Ariza REBOUND (Off:1 Def:6),3pt missed,2pt made,7,Low
+21500220,197,2pt,2,PT04M09.00S,04:09,Q2 04:09,37,42,1610612745.0,Ariza,Ariza 1' Driving Layup (6 PTS) (Harden 2 AST),rebound,2pt made,5,Low
+21500220,198,2pt,2,PT04M04.00S,04:04,Q2 04:04,37,44,1610612763.0,Barnes,Barnes 2' Layup (7 PTS),2pt made,foul,7,Low
+21500220,199,foul,2,PT04M04.00S,04:04,Q2 04:04,37,44,1610612745.0,Terry,Terry S.FOUL (P2.T1) (M.Smith),2pt made,timeout,7,Low
+21500220,200,timeout,2,PT04M04.00S,04:04,Q2 04:04,37,44,0.0,,Timeout: Regular,foul,freethrow,7,Low
+21500220,204,freethrow,2,PT04M04.00S,04:04,Q2 04:04,37,45,1610612763.0,Barnes,Barnes Free Throw 1 of 1 (8 PTS),timeout,substitution,8,Low
+21500220,201,substitution,2,PT04M04.00S,04:04,Q2 04:04,37,44,1610612763.0,Chalmers,SUB out: M. Chalmers,freethrow,substitution,7,Low
+21500220,202,substitution,2,PT04M04.00S,04:04,Q2 04:04,37,44,1610612763.0,Carter,SUB out: V. Carter,substitution,substitution,7,Low
+21500220,203,substitution,2,PT04M04.00S,04:04,Q2 04:04,37,44,1610612745.0,Jones,SUB out: T. Jones,substitution,substitution,7,Low
+21500220,204,substitution,2,PT04M04.00S,04:04,Q2 04:04,37,44,1610612763.0,Green,SUB in: J. Green,substitution,substitution,7,Low
+21500220,205,substitution,2,PT04M04.00S,04:04,Q2 04:04,37,44,1610612763.0,Conley,SUB in: M. Conley,substitution,substitution,7,Low
+21500220,206,substitution,2,PT04M04.00S,04:04,Q2 04:04,37,44,1610612745.0,Brewer,SUB in: C. Brewer,substitution,3pt made,7,Low
+21500220,206,3pt,2,PT03M49.00S,03:49,Q2 03:49,40,45,1610612745.0,Terry,Terry 25' 3PT Jump Shot (6 PTS) (Harden 3 AST),substitution,turnover,5,Low
+21500220,207,turnover,2,PT03M32.00S,03:32,Q2 03:32,40,45,1610612763.0,Gasol,Gasol Lost Ball Turnover (P4.T8),3pt made,steal,5,Low
+21500220,207,steal,2,PT03M32.00S,03:32,Q2 03:32,40,45,1610612745.0,Howard,Howard STEAL (3 STL),turnover,2pt made,5,Low
+21500220,208,2pt,2,PT03M22.00S,03:22,Q2 03:22,42,45,1610612745.0,Howard,Howard Alley Oop Dunk (8 PTS) (Terry 1 AST),steal,foul,3,Low
+21500220,209,foul,2,PT03M08.00S,03:08,Q2 03:08,42,45,1610612745.0,Brewer,Brewer P.FOUL (P1.T2) (M.Smith),2pt made,2pt made,3,Low
+21500220,210,2pt,2,PT02M58.00S,02:58,Q2 02:58,42,47,1610612763.0,Gasol,Gasol 17' Jump Shot (6 PTS) (Barnes 3 AST),foul,2pt made,5,Low
+21500220,211,2pt,2,PT02M44.00S,02:44,Q2 02:44,44,47,1610612745.0,Harden,Harden 2' Driving Layup (14 PTS),2pt made,3pt missed,3,Low
+21500220,212,3pt,2,PT02M24.00S,02:24,Q2 02:24,44,47,1610612763.0,Lee,MISS Lee 25' 3PT Jump Shot,2pt made,rebound,3,Low
+21500220,213,rebound,2,PT02M24.00S,02:24,Q2 02:24,44,47,1610612745.0,Harden,Harden REBOUND (Off:0 Def:3),3pt missed,2pt made,3,Low
+21500220,214,2pt,2,PT02M20.00S,02:20,Q2 02:20,46,47,1610612745.0,Terry,Terry 2' Running Layup (8 PTS) (Harden 4 AST),rebound,timeout,1,Low
+21500220,215,timeout,2,PT02M13.00S,02:13,Q2 02:13,46,47,1610612763.0,,Grizzlies Timeout: Regular (Reg.2 Short 0),2pt made,turnover,1,Low
+21500220,217,turnover,2,PT02M01.00S,02:01,Q2 02:01,46,47,1610612763.0,Barnes,Barnes Bad Pass Turnover (P2.T9),timeout,steal,1,Low
+21500220,217,steal,2,PT02M01.00S,02:01,Q2 02:01,46,47,1610612745.0,Brewer,Brewer STEAL (1 STL),turnover,2pt made,1,Low
+21500220,218,2pt,2,PT01M55.00S,01:55,Q2 01:55,48,47,1610612745.0,Harden,Harden 2' Running Layup (16 PTS),steal,3pt made,1,Low
+21500220,219,3pt,2,PT01M39.00S,01:39,Q2 01:39,48,50,1610612763.0,Barnes,Barnes 24' 3PT Jump Shot (11 PTS) (Gasol 1 AST),2pt made,3pt made,2,Low
+21500220,220,3pt,2,PT01M25.00S,01:25,Q2 01:25,51,50,1610612745.0,Harden,Harden 25' 3PT Pullup Jump Shot (19 PTS),3pt made,2pt made,1,Low
+21500220,221,2pt,2,PT01M15.00S,01:15,Q2 01:15,51,52,1610612763.0,Conley,Conley 8' Driving Bank Shot (9 PTS),3pt made,foul,1,Low
+21500220,222,foul,2,PT01M15.00S,01:15,Q2 01:15,51,52,1610612745.0,Terry,Terry S.FOUL (P3.T3) (K.Mauer),2pt made,freethrow,1,Low
+21500220,224,freethrow,2,PT01M15.00S,01:15,Q2 01:15,51,53,1610612763.0,Conley,Conley Free Throw 1 of 1 (10 PTS),foul,substitution,2,Low
+21500220,223,substitution,2,PT01M15.00S,01:15,Q2 01:15,51,52,1610612745.0,Terry,SUB out: J. Terry,freethrow,substitution,1,Low
+21500220,224,substitution,2,PT01M15.00S,01:15,Q2 01:15,51,52,1610612745.0,Beverley,SUB in: P. Beverley,substitution,3pt missed,1,Low
+21500220,227,3pt,2,PT01M00.00S,01:00,Q2 01:00,51,53,1610612745.0,Brewer,MISS Brewer 3PT Jump Shot,substitution,rebound,2,Low
+21500220,228,rebound,2,PT00M59.90S,00:59,Q2 00:59,51,53,1610612745.0,Harden,Harden REBOUND (Off:1 Def:3),3pt missed,turnover,2,Low
+21500220,229,turnover,2,PT00M53.10S,00:53,Q2 00:53,51,53,1610612745.0,Ariza,Ariza Out of Bounds - Bad Pass Turnover Turnover (P3.T8),rebound,foul,2,Low
+21500220,230,foul,2,PT00M44.60S,00:44,Q2 00:44,51,53,1610612745.0,Brewer,Brewer P.FOUL (P2.PN) (K.Mauer),turnover,freethrow,2,Low
+21500220,231,freethrow,2,PT00M44.60S,00:44,Q2 00:44,51,54,1610612763.0,Lee,Lee Free Throw 1 of 2 (7 PTS),foul,freethrow,3,Low
+21500220,233,freethrow,2,PT00M44.60S,00:44,Q2 00:44,51,54,1610612763.0,Lee,MISS Lee Free Throw 2 of 2,freethrow,rebound,3,Low
+21500220,235,rebound,2,PT00M44.60S,00:44,Q2 00:44,51,54,1610612745.0,Howard,Howard REBOUND (Off:0 Def:3),freethrow,turnover,3,Low
+21500220,236,turnover,2,PT00M29.60S,00:29,Q2 00:29,51,54,1610612745.0,Harden,Harden Out of Bounds Lost Ball Turnover (P4.T9),rebound,3pt missed,3,Low
+21500220,238,3pt,2,PT00M09.90S,00:09,Q2 00:09,51,54,1610612763.0,Barnes,MISS Barnes 3PT Jump Shot,turnover,rebound,3,Low
+21500220,239,rebound,2,PT00M09.70S,00:09,Q2 00:09,51,54,1610612763.0,Green,Je. Green REBOUND (Off:1 Def:1),3pt missed,2pt made,3,Low
+21500220,240,2pt,2,PT00M08.70S,00:08,Q2 00:08,51,56,1610612763.0,Green,Je. Green Putback Layup (8 PTS),rebound,foul,5,Low
+21500220,241,foul,2,PT00M03.10S,00:03,Q2 00:03,51,56,1610612763.0,Lee,Lee Personal Take Foul (P1.T3) (M.Smith),2pt made,timeout,5,Low
+21500220,242,timeout,2,PT00M03.10S,00:03,Q2 00:03,51,56,1610612745.0,,ROCKETS Timeout: Short (Full 2 Short 1),foul,substitution,5,Low
+21500220,244,substitution,2,PT00M03.10S,00:03,Q2 00:03,51,56,1610612763.0,Barnes,SUB out: M. Barnes,timeout,substitution,5,Low
+21500220,245,substitution,2,PT00M03.10S,00:03,Q2 00:03,51,56,1610612763.0,Chalmers,SUB in: M. Chalmers,substitution,2pt made,5,Low
+21500220,245,2pt,2,PT00M00.00S,00:00,Q2 00:00,53,56,1610612745.0,Harden,Harden 22' Jump Shot (21 PTS) (Brewer 1 AST),substitution,instant replay,3,Low
+21500220,247,period,2,PT00M00.00S,00:00,Q2 00:00,53,56,1610612745.0,,End of 2nd Period (9:05 PM EST),instant replay,instant replay,3,Low
+21500220,250,period,3,PT12M00.00S,12:00,Q3 12:00,53,56,1610612745.0,,Start of 3rd Period (9:21 PM EST),instant replay,substitution,3,Low
+21500220,251,2pt,3,PT11M46.00S,11:46,Q3 11:46,53,56,1610612745.0,Harden,MISS Harden 13' Jump Shot,substitution,rebound,3,Low
+21500220,252,rebound,3,PT11M45.00S,11:45,Q3 11:45,53,56,1610612763.0,Green,Je. Green REBOUND (Off:1 Def:2),2pt missed,2pt made,3,Low
+21500220,253,2pt,3,PT11M24.00S,11:24,Q3 11:24,53,58,1610612763.0,Gasol,Gasol 19' Jump Shot (8 PTS) (Conley 3 AST),rebound,3pt missed,5,Low
+21500220,254,3pt,3,PT11M00.00S,11:00,Q3 11:00,53,58,1610612745.0,Harden,MISS Harden 3PT Jump Shot,2pt made,rebound,5,Low
+21500220,255,rebound,3,PT10M59.00S,10:59,Q3 10:59,53,58,1610612763.0,Gasol,Gasol REBOUND (Off:1 Def:6),3pt missed,turnover,5,Low
+21500220,256,turnover,3,PT10M56.00S,10:56,Q3 10:56,53,58,1610612763.0,Gasol,Gasol Bad Pass Turnover (P5.T10),rebound,steal,5,Low
+21500220,256,steal,3,PT10M56.00S,10:56,Q3 10:56,53,58,1610612745.0,Harden,Harden STEAL (3 STL),turnover,2pt made,5,Low
+21500220,257,2pt,3,PT10M53.00S,10:53,Q3 10:53,55,58,1610612745.0,Harden,Harden 1' Layup (23 PTS),steal,2pt made,3,Low
+21500220,258,2pt,3,PT10M37.00S,10:37,Q3 10:37,55,60,1610612763.0,Conley,Conley 16' Pullup Jump Shot (12 PTS),2pt made,2pt missed,5,Low
+21500220,259,2pt,3,PT10M23.00S,10:23,Q3 10:23,55,60,1610612745.0,Jones,MISS Jones 8' Floating Jump Shot,2pt made,rebound,5,Low
+21500220,260,rebound,3,PT10M22.00S,10:22,Q3 10:22,55,60,1610612763.0,,TEAM defensive REBOUND,2pt missed,2pt made,5,Low
+21500220,261,2pt,3,PT10M04.00S,10:04,Q3 10:04,55,62,1610612763.0,Green,Je. Green 7' Driving Floating Jump Shot (10 PTS),rebound,foul,7,Low
+21500220,262,foul,3,PT10M04.00S,10:04,Q3 10:04,55,62,1610612745.0,Howard,Howard S.FOUL (P2.T1) (B.Taylor),2pt made,freethrow,7,Low
+21500220,263,freethrow,3,PT10M04.00S,10:04,Q3 10:04,55,63,1610612763.0,Green,Je. Green Free Throw 1 of 1 (11 PTS),foul,3pt made,8,Low
+21500220,266,3pt,3,PT09M42.00S,09:42,Q3 09:42,58,63,1610612745.0,Harden,Harden 25' 3PT Step Back Jump Shot (26 PTS),freethrow,foul,5,Low
+21500220,267,foul,3,PT09M42.00S,09:42,Q3 09:42,58,63,1610612763.0,Allen,Allen S.FOUL (P2.T1) (M.Smith),3pt made,instant replay,5,Low
+21500220,269,freethrow,3,PT09M42.00S,09:42,Q3 09:42,59,63,1610612745.0,Harden,Harden Free Throw 1 of 1 (27 PTS),instant replay,2pt made,4,Low
+21500220,271,2pt,3,PT09M21.00S,09:21,Q3 09:21,59,65,1610612763.0,Green,Je. Green 4' Jump Shot (13 PTS),freethrow,foul,6,Low
+21500220,272,foul,3,PT09M21.00S,09:21,Q3 09:21,59,65,1610612745.0,Ariza,Ariza S.FOUL (P2.T2) (M.Smith),2pt made,freethrow,6,Low
+21500220,273,freethrow,3,PT09M21.00S,09:21,Q3 09:21,59,66,1610612763.0,Green,Je. Green Free Throw 1 of 1 (14 PTS),foul,foul,7,Low
+21500220,275,foul,3,PT09M06.00S,09:06,Q3 09:06,59,66,1610612763.0,Conley,Conley S.FOUL (P1.T2) (M.Smith),freethrow,freethrow,7,Low
+21500220,276,freethrow,3,PT09M06.00S,09:06,Q3 09:06,60,66,1610612745.0,Terry,Terry Free Throw 1 of 2 (9 PTS),foul,freethrow,6,Low
+21500220,278,freethrow,3,PT09M06.00S,09:06,Q3 09:06,61,66,1610612745.0,Terry,Terry Free Throw 2 of 2 (10 PTS),freethrow,2pt missed,5,Low
+21500220,281,2pt,3,PT08M50.00S,08:50,Q3 08:50,61,66,1610612763.0,Allen,MISS Allen 3' Driving Layup,freethrow,block,5,Low
+21500220,281,block,3,PT08M50.00S,08:50,Q3 08:50,61,66,1610612745.0,Harden,Harden BLOCK (1 BLK),2pt missed,rebound,5,Low
+21500220,282,rebound,3,PT08M49.00S,08:49,Q3 08:49,61,66,1610612745.0,Jones,Jones REBOUND (Off:0 Def:4),block,3pt made,5,Low
+21500220,283,3pt,3,PT08M28.00S,08:28,Q3 08:28,64,66,1610612745.0,Jones,Jones 25' 3PT Jump Shot (3 PTS) (Harden 5 AST),rebound,2pt made,2,Low
+21500220,284,2pt,3,PT08M15.00S,08:15,Q3 08:15,64,68,1610612763.0,Allen,Allen 1' Cutting Layup Shot (4 PTS) (Conley 4 AST),3pt made,2pt missed,4,Low
+21500220,285,2pt,3,PT08M06.00S,08:06,Q3 08:06,64,68,1610612745.0,Ariza,MISS Ariza 17' Pullup Jump Shot,2pt made,rebound,4,Low
+21500220,286,rebound,3,PT08M05.00S,08:05,Q3 08:05,64,68,1610612763.0,Barnes,Barnes REBOUND (Off:0 Def:6),2pt missed,foul,4,Low
+21500220,287,foul,3,PT08M03.00S,08:03,Q3 08:03,64,68,1610612763.0,Conley,Conley OFF.Foul (P2) (B.Taylor),rebound,turnover,4,Low
+21500220,288,turnover,3,PT08M03.00S,08:03,Q3 08:03,64,68,1610612763.0,Conley,Conley Foul Turnover (P2.T11),foul,turnover,4,Low
+21500220,289,turnover,3,PT07M44.00S,07:44,Q3 07:44,64,68,1610612745.0,Howard,Howard 3 Second Violation Turnover (P2.T10),turnover,2pt missed,4,Low
+21500220,290,2pt,3,PT07M27.00S,07:27,Q3 07:27,64,68,1610612763.0,Allen,MISS Allen 20' Jump Shot,turnover,rebound,4,Low
+21500220,291,rebound,3,PT07M26.00S,07:26,Q3 07:26,64,68,1610612745.0,Terry,Terry REBOUND (Off:0 Def:1),2pt missed,foul,4,Low
+21500220,292,foul,3,PT07M20.00S,07:20,Q3 07:20,64,68,1610612763.0,Barnes,Barnes S.FOUL (P3.T3) (M.Smith),rebound,freethrow,4,Low
+21500220,293,freethrow,3,PT07M20.00S,07:20,Q3 07:20,65,68,1610612745.0,Harden,Harden Free Throw 1 of 2 (28 PTS),foul,freethrow,3,Low
+21500220,295,freethrow,3,PT07M20.00S,07:20,Q3 07:20,66,68,1610612745.0,Harden,Harden Free Throw 2 of 2 (29 PTS),freethrow,2pt missed,2,Low
+21500220,297,2pt,3,PT07M03.00S,07:03,Q3 07:03,66,68,1610612763.0,Green,MISS Je. Green 9' Floating Jump Shot,freethrow,2pt made,2,Low
+21500220,298,2pt,3,PT07M02.00S,07:02,Q3 07:02,66,70,1610612763.0,Allen,Allen 2' Tip Layup Shot (6 PTS),2pt missed,rebound,4,Low
+21500220,299,rebound,3,PT07M02.00S,07:02,Q3 07:02,66,68,1610612763.0,Allen,Allen REBOUND (Off:1 Def:0),2pt made,turnover,2,Low
+21500220,300,turnover,3,PT06M40.00S,06:40,Q3 06:40,66,70,1610612745.0,Jones,Jones Bad Pass Turnover (P2.T11),rebound,steal,4,Low
+21500220,300,steal,3,PT06M40.00S,06:40,Q3 06:40,66,70,1610612763.0,Gasol,Gasol STEAL (1 STL),turnover,foul,4,Low
+21500220,301,foul,3,PT06M21.00S,06:21,Q3 06:21,66,70,1610612745.0,Howard,Howard S.FOUL (P3.T3) (M.Smith),steal,freethrow,4,Low
+21500220,302,freethrow,3,PT06M21.00S,06:21,Q3 06:21,66,71,1610612763.0,Green,Je. Green Free Throw 1 of 2 (15 PTS),foul,freethrow,5,Low
+21500220,304,freethrow,3,PT06M21.00S,06:21,Q3 06:21,66,72,1610612763.0,Green,Je. Green Free Throw 2 of 2 (16 PTS),freethrow,turnover,6,Low
+21500220,306,turnover,3,PT06M06.00S,06:06,Q3 06:06,66,72,1610612745.0,Jones,Jones Bad Pass Turnover (P3.T12),freethrow,steal,6,Low
+21500220,306,steal,3,PT06M06.00S,06:06,Q3 06:06,66,72,1610612763.0,Green,Je. Green STEAL (1 STL),turnover,2pt made,6,Low
+21500220,307,2pt,3,PT06M01.00S,06:01,Q3 06:01,66,74,1610612763.0,Barnes,Barnes 2' Driving Layup (13 PTS) (Je. Green 1 AST),steal,timeout,8,Low
+21500220,308,timeout,3,PT06M01.00S,06:01,Q3 06:01,66,74,1610612745.0,,ROCKETS Timeout: Regular (Full 3 Short 1),2pt made,substitution,8,Low
+21500220,311,substitution,3,PT06M01.00S,06:01,Q3 06:01,66,74,1610612745.0,Jones,SUB out: T. Jones,timeout,substitution,8,Low
+21500220,312,substitution,3,PT06M01.00S,06:01,Q3 06:01,66,74,1610612745.0,Brewer,SUB in: C. Brewer,substitution,3pt missed,8,Low
+21500220,312,3pt,3,PT05M34.00S,05:34,Q3 05:34,66,74,1610612745.0,Brewer,MISS Brewer 24' 3PT Jump Shot,substitution,rebound,8,Low
+21500220,313,rebound,3,PT05M33.00S,05:33,Q3 05:33,66,74,1610612745.0,Brewer,Brewer REBOUND (Off:1 Def:1),3pt missed,3pt made,8,Low
+21500220,314,3pt,3,PT05M29.00S,05:29,Q3 05:29,69,74,1610612745.0,Harden,Harden 26' 3PT Jump Shot (32 PTS) (Terry 2 AST),rebound,2pt missed,5,Low
+21500220,315,2pt,3,PT05M07.00S,05:07,Q3 05:07,69,74,1610612763.0,Barnes,MISS Barnes 8' Pullup Jump Shot,3pt made,rebound,5,Low
+21500220,316,rebound,3,PT05M06.00S,05:06,Q3 05:06,69,74,1610612745.0,Howard,Howard REBOUND (Off:0 Def:4),2pt missed,3pt missed,5,Low
+21500220,317,3pt,3,PT04M53.00S,04:53,Q3 04:53,69,74,1610612745.0,Terry,MISS Terry 25' 3PT Jump Shot,rebound,rebound,5,Low
+21500220,318,rebound,3,PT04M52.00S,04:52,Q3 04:52,69,74,1610612763.0,Allen,Allen REBOUND (Off:1 Def:1),3pt missed,substitution,5,Low
+21500220,320,substitution,3,PT04M32.00S,04:32,Q3 04:32,69,74,1610612745.0,Terry,SUB out: J. Terry,rebound,substitution,5,Low
+21500220,321,substitution,3,PT04M32.00S,04:32,Q3 04:32,69,74,1610612745.0,Beverley,SUB in: P. Beverley,substitution,2pt made,5,Low
+21500220,321,2pt,3,PT04M26.00S,04:26,Q3 04:26,69,76,1610612763.0,Conley,Conley 18' Driving Floating Bank Jump Shot (14 PTS),substitution,3pt missed,7,Low
+21500220,322,3pt,3,PT04M18.00S,04:18,Q3 04:18,69,76,1610612745.0,Harden,MISS Harden 25' 3PT Step Back Jump Shot,2pt made,rebound,7,Low
+21500220,323,rebound,3,PT04M17.00S,04:17,Q3 04:17,69,76,1610612763.0,Barnes,Barnes REBOUND (Off:0 Def:7),3pt missed,2pt made,7,Low
+21500220,324,2pt,3,PT04M01.00S,04:01,Q3 04:01,69,78,1610612763.0,Gasol,Gasol 4' Jump Shot (10 PTS) (Conley 5 AST),rebound,turnover,9,Low
+21500220,325,turnover,3,PT03M44.00S,03:44,Q3 03:44,69,78,1610612745.0,Howard,Howard Double Dribble Turnover (P3.T13),2pt made,substitution,9,Low
+21500220,326,substitution,3,PT03M44.00S,03:44,Q3 03:44,69,78,1610612745.0,Ariza,SUB out: T. Ariza,substitution,substitution,9,Low
+21500220,327,substitution,3,PT03M44.00S,03:44,Q3 03:44,69,78,1610612763.0,Allen,SUB out: T. Allen,substitution,substitution,9,Low
+21500220,328,substitution,3,PT03M44.00S,03:44,Q3 03:44,69,78,1610612763.0,Gasol,SUB out: M. Gasol,substitution,substitution,9,Low
+21500220,329,substitution,3,PT03M44.00S,03:44,Q3 03:44,69,78,1610612745.0,Thornton,SUB in: M. Thornton,substitution,substitution,9,Low
+21500220,330,substitution,3,PT03M44.00S,03:44,Q3 03:44,69,78,1610612763.0,Chalmers,SUB in: M. Chalmers,substitution,substitution,9,Low
+21500220,331,substitution,3,PT03M44.00S,03:44,Q3 03:44,69,78,1610612763.0,Green,SUB in: J. Green,substitution,turnover,9,Low
+21500220,329,turnover,3,PT03M31.00S,03:31,Q3 03:31,69,78,1610612763.0,Green,Ja. Green Out of Bounds - Bad Pass Turnover Turnover (P1.T12),substitution,foul,9,Low
+21500220,330,foul,3,PT03M23.00S,03:23,Q3 03:23,69,78,1610612763.0,Green,Ja. Green Shooting Block Foul (P2.T4) (B.Taylor),turnover,freethrow,9,Low
+21500220,331,freethrow,3,PT03M23.00S,03:23,Q3 03:23,70,78,1610612745.0,Harden,Harden Free Throw 1 of 2 (33 PTS),foul,freethrow,8,Low
+21500220,334,freethrow,3,PT03M23.00S,03:23,Q3 03:23,71,78,1610612745.0,Harden,Harden Free Throw 2 of 2 (34 PTS),freethrow,substitution,7,Low
+21500220,333,substitution,3,PT03M23.00S,03:23,Q3 03:23,70,78,1610612745.0,Howard,SUB out: D. Howard,freethrow,substitution,8,Low
+21500220,334,substitution,3,PT03M23.00S,03:23,Q3 03:23,70,78,1610612745.0,Capela,SUB in: C. Capela,substitution,2pt missed,8,Low
+21500220,336,2pt,3,PT03M06.00S,03:06,Q3 03:06,71,78,1610612763.0,Green,MISS Ja. Green 3' Layup,substitution,rebound,7,Low
+21500220,337,rebound,3,PT03M05.00S,03:05,Q3 03:05,71,78,1610612745.0,Brewer,Brewer REBOUND (Off:1 Def:2),2pt missed,2pt missed,7,Low
+21500220,338,2pt,3,PT03M00.00S,03:00,Q3 03:00,71,78,1610612745.0,Brewer,MISS Brewer 2' Running Layup,rebound,rebound,7,Low
+21500220,339,rebound,3,PT02M59.00S,02:59,Q3 02:59,71,78,1610612763.0,Green,Ja. Green REBOUND (Off:1 Def:1),2pt missed,foul,7,Low
+21500220,340,foul,3,PT02M58.00S,02:58,Q3 02:58,71,78,1610612745.0,Harden,Harden P.FOUL (P1.T4) (M.Smith),rebound,timeout,7,Low
+21500220,341,timeout,3,PT02M58.00S,02:58,Q3 02:58,71,78,1610612763.0,,Grizzlies Timeout: Regular (Reg.3 Short 0),foul,2pt missed,7,Low
+21500220,345,2pt,3,PT02M43.00S,02:43,Q3 02:43,71,78,1610612763.0,Green,MISS Je. Green Driving Dunk,timeout,block,7,Low
+21500220,345,block,3,PT02M43.00S,02:43,Q3 02:43,71,78,1610612745.0,Capela,Capela BLOCK (3 BLK),2pt missed,rebound,7,Low
+21500220,346,rebound,3,PT02M42.00S,02:42,Q3 02:42,71,78,1610612763.0,Barnes,Barnes REBOUND (Off:1 Def:7),block,foul,7,Low
+21500220,347,foul,3,PT02M38.00S,02:38,Q3 02:38,71,78,1610612745.0,Capela,Capela S.FOUL (P2.PN) (K.Mauer),rebound,freethrow,7,Low
+21500220,348,freethrow,3,PT02M38.00S,02:38,Q3 02:38,71,79,1610612763.0,Green,Je. Green Free Throw 1 of 2 (17 PTS),foul,freethrow,8,Low
+21500220,350,freethrow,3,PT02M38.00S,02:38,Q3 02:38,71,80,1610612763.0,Green,Je. Green Free Throw 2 of 2 (18 PTS),freethrow,2pt made,9,Low
+21500220,352,2pt,3,PT02M18.00S,02:18,Q3 02:18,73,80,1610612745.0,Beverley,Beverley 1' Driving Layup (4 PTS) (Brewer 2 AST),freethrow,3pt missed,7,Low
+21500220,353,3pt,3,PT02M00.00S,02:00,Q3 02:00,73,80,1610612763.0,Barnes,MISS Barnes 24' 3PT Jump Shot,2pt made,rebound,7,Low
+21500220,354,rebound,3,PT01M59.00S,01:59,Q3 01:59,73,80,1610612745.0,Brewer,Brewer REBOUND (Off:1 Def:3),3pt missed,2pt made,7,Low
+21500220,355,2pt,3,PT01M44.00S,01:44,Q3 01:44,75,80,1610612745.0,Capela,Capela Dunk (6 PTS) (Thornton 1 AST),rebound,turnover,5,Low
+21500220,356,turnover,3,PT01M31.00S,01:31,Q3 01:31,75,80,1610612763.0,Chalmers,Chalmers Lost Ball Turnover (P1.T13),2pt made,steal,5,Low
+21500220,356,steal,3,PT01M31.00S,01:31,Q3 01:31,75,80,1610612745.0,Capela,Capela STEAL (2 STL),turnover,turnover,5,Low
+21500220,357,turnover,3,PT01M29.00S,01:29,Q3 01:29,75,80,1610612745.0,Brewer,Brewer Traveling Turnover (P1.T14),steal,2pt missed,5,Low
+21500220,358,2pt,3,PT01M12.00S,01:12,Q3 01:12,75,80,1610612763.0,Green,MISS Ja. Green 3' Layup,turnover,rebound,5,Low
+21500220,359,rebound,3,PT01M11.00S,01:11,Q3 01:11,75,80,1610612745.0,Harden,Harden REBOUND (Off:1 Def:4),2pt missed,foul,5,Low
+21500220,360,foul,3,PT01M07.00S,01:07,Q3 01:07,75,80,1610612763.0,Chalmers,Chalmers P.FOUL (P3.PN) (K.Mauer),rebound,freethrow,5,Low
+21500220,361,freethrow,3,PT01M07.00S,01:07,Q3 01:07,76,80,1610612745.0,Harden,Harden Free Throw 1 of 2 (35 PTS),foul,freethrow,4,Low
+21500220,363,freethrow,3,PT01M07.00S,01:07,Q3 01:07,77,80,1610612745.0,Harden,Harden Free Throw 2 of 2 (36 PTS),freethrow,foul,3,Low
+21500220,365,foul,3,PT01M00.00S,01:00,Q3 01:00,77,80,1610612745.0,Brewer,Brewer P.FOUL (P3.PN) (M.Smith),freethrow,freethrow,3,Low
+21500220,366,freethrow,3,PT01M00.00S,01:00,Q3 01:00,77,81,1610612763.0,Green,Je. Green Free Throw 1 of 2 (19 PTS),foul,freethrow,4,Low
+21500220,369,freethrow,3,PT01M00.00S,01:00,Q3 01:00,77,82,1610612763.0,Green,Je. Green Free Throw 2 of 2 (20 PTS),freethrow,substitution,5,Low
+21500220,368,substitution,3,PT01M00.00S,01:00,Q3 01:00,77,81,1610612763.0,Barnes,SUB out: M. Barnes,freethrow,substitution,4,Low
+21500220,369,substitution,3,PT01M00.00S,01:00,Q3 01:00,77,81,1610612763.0,Allen,SUB in: T. Allen,substitution,2pt missed,4,Low
+21500220,372,2pt,3,PT00M35.90S,00:35,Q3 00:35,77,82,1610612745.0,Harden,MISS Harden 22' Pullup Jump Shot,substitution,rebound,5,Low
+21500220,373,rebound,3,PT00M34.90S,00:34,Q3 00:34,77,82,1610612763.0,Conley,Conley REBOUND (Off:0 Def:1),2pt missed,3pt missed,5,Low
+21500220,374,3pt,3,PT00M25.90S,00:25,Q3 00:25,77,82,1610612763.0,Chalmers,MISS Chalmers 26' 3PT Jump Shot,rebound,rebound,5,Low
+21500220,375,rebound,3,PT00M24.90S,00:24,Q3 00:24,77,82,1610612745.0,Capela,Capela REBOUND (Off:1 Def:1),3pt missed,2pt missed,5,Low
+21500220,376,2pt,3,PT00M00.90S,00:00,Q3 00:00,77,82,1610612745.0,Harden,MISS Harden 2' Driving Layup,rebound,block,5,Medium
+21500220,376,block,3,PT00M00.90S,00:00,Q3 00:00,77,82,1610612763.0,Green,Ja. Green BLOCK (1 BLK),2pt missed,rebound,5,Medium
+21500220,377,rebound,3,PT00M00.90S,00:00,Q3 00:00,77,82,1610612745.0,,TEAM offensive REBOUND,block,turnover,5,Medium
+21500220,378,turnover,3,PT00M00.90S,00:00,Q3 00:00,77,82,0.0,,ROCKETS Turnover: Shot Clock (T#15),rebound,period,5,Medium
+21500220,379,period,3,PT00M00.00S,00:00,Q3 00:00,77,82,1610612745.0,,End of 3rd Period (9:50 PM EST),turnover,period,5,Medium
+21500220,381,period,4,PT12M00.00S,12:00,Q4 12:00,77,82,1610612745.0,,Start of 4th Period (9:52 PM EST),period,substitution,5,Medium
+21500220,382,turnover,4,PT11M38.00S,11:38,Q4 11:38,77,82,1610612763.0,Green,Ja. Green Lost Ball Turnover (P2.T14),substitution,steal,5,Medium
+21500220,382,steal,4,PT11M38.00S,11:38,Q4 11:38,77,82,1610612745.0,Ariza,Ariza STEAL (1 STL),turnover,foul,5,Medium
+21500220,383,foul,4,PT11M21.00S,11:21,Q4 11:21,77,82,1610612763.0,Allen,Allen S.FOUL (P3.T1) (M.Smith),steal,freethrow,5,Medium
+21500220,384,freethrow,4,PT11M21.00S,11:21,Q4 11:21,77,82,1610612745.0,Thornton,MISS Thornton Free Throw 1 of 2,foul,rebound,5,Medium
+21500220,385,rebound,4,PT11M21.00S,11:21,Q4 11:21,77,82,1610612745.0,,TEAM offensive REBOUND,freethrow,freethrow,5,Medium
+21500220,386,freethrow,4,PT11M21.00S,11:21,Q4 11:21,77,82,1610612745.0,Thornton,MISS Thornton Free Throw 2 of 2,rebound,rebound,5,Medium
+21500220,388,rebound,4,PT11M21.00S,11:21,Q4 11:21,77,82,1610612763.0,Green,Je. Green REBOUND (Off:1 Def:3),freethrow,2pt missed,5,Medium
+21500220,389,2pt,4,PT10M59.00S,10:59,Q4 10:59,77,82,1610612763.0,Chalmers,MISS Chalmers 10' Floating Jump Shot,rebound,rebound,5,Medium
+21500220,390,rebound,4,PT10M59.00S,10:59,Q4 10:59,77,82,1610612763.0,,TEAM offensive REBOUND,2pt missed,turnover,5,Medium
+21500220,391,turnover,4,PT10M59.00S,10:59,Q4 10:59,77,82,1610612763.0,Chalmers,Chalmers Traveling Turnover (P2.T15),rebound,foul,5,Medium
+21500220,392,foul,4,PT10M49.00S,10:49,Q4 10:49,77,82,1610612745.0,Ariza,Ariza OFF.Foul (P3) (K.Mauer),turnover,turnover,5,Medium
+21500220,393,turnover,4,PT10M49.00S,10:49,Q4 10:49,77,82,1610612745.0,Ariza,Ariza Foul Turnover (P4.T16),foul,2pt missed,5,Medium
+21500220,394,2pt,4,PT10M31.00S,10:31,Q4 10:31,77,82,1610612763.0,Green,MISS Je. Green 12' Turnaround Jump Shot,turnover,rebound,5,Medium
+21500220,396,rebound,4,PT10M31.00S,10:31,Q4 10:31,77,82,1610612745.0,,TEAM defensive REBOUND,2pt missed,substitution,5,Medium
+21500220,395,substitution,4,PT10M31.00S,10:31,Q4 10:31,77,82,1610612763.0,Green,SUB out: J. Green,rebound,substitution,5,Medium
+21500220,396,substitution,4,PT10M31.00S,10:31,Q4 10:31,77,82,1610612763.0,Carter,SUB in: V. Carter,substitution,foul,5,Medium
+21500220,399,foul,4,PT10M20.00S,10:20,Q4 10:20,77,82,1610612763.0,Green,Ja. Green P.FOUL (P3.T2) (B.Taylor),substitution,foul,5,Medium
+21500220,401,foul,4,PT10M15.00S,10:15,Q4 10:15,77,82,1610612763.0,Green,Ja. Green P.FOUL (P4.T3) (M.Smith),foul,foul,5,Medium
+21500220,402,foul,4,PT10M06.00S,10:06,Q4 10:06,77,82,1610612763.0,Green,Ja. Green P.FOUL (P5.T4) (K.Mauer),foul,3pt missed,5,Medium
+21500220,403,3pt,4,PT09M53.00S,09:53,Q4 09:53,77,82,1610612745.0,Brewer,MISS Brewer 25' 3PT Step Back Jump Shot,foul,rebound,5,Medium
+21500220,404,rebound,4,PT09M52.00S,09:52,Q4 09:52,77,82,1610612745.0,Beverley,Beverley REBOUND (Off:1 Def:1),3pt missed,2pt missed,5,Medium
+21500220,405,2pt,4,PT09M47.00S,09:47,Q4 09:47,77,82,1610612745.0,Howard,MISS Howard 1' Layup,rebound,rebound,5,Medium
+21500220,406,rebound,4,PT09M47.00S,09:47,Q4 09:47,77,82,1610612763.0,Green,Ja. Green REBOUND (Off:1 Def:2),2pt missed,foul,5,Medium
+21500220,408,foul,4,PT09M47.00S,09:47,Q4 09:47,77,82,1610612745.0,Howard,"Double Technical - Howard, Ja. Green (B.Taylor)",rebound,substitution,5,Medium
+21500220,409,substitution,4,PT09M47.00S,09:47,Q4 09:47,77,82,1610612763.0,Green,SUB out: J. Green,foul,substitution,5,Medium
+21500220,410,substitution,4,PT09M47.00S,09:47,Q4 09:47,77,82,1610612763.0,Gasol,SUB in: M. Gasol,substitution,turnover,5,Medium
+21500220,410,turnover,4,PT09M32.00S,09:32,Q4 09:32,77,82,1610612763.0,Carter,Carter Lost Ball Turnover (P1.T16),substitution,steal,5,Medium
+21500220,410,steal,4,PT09M32.00S,09:32,Q4 09:32,77,82,1610612745.0,Ariza,Ariza STEAL (2 STL),turnover,foul,5,Medium
+21500220,411,foul,4,PT09M32.00S,09:32,Q4 09:32,77,82,1610612763.0,Carter,Carter P.FOUL (P1.PN) (B.Taylor),steal,freethrow,5,Medium
+21500220,412,freethrow,4,PT09M32.00S,09:32,Q4 09:32,78,82,1610612745.0,Ariza,Ariza Free Throw 1 of 2 (7 PTS),foul,freethrow,4,Medium
+21500220,414,freethrow,4,PT09M32.00S,09:32,Q4 09:32,79,82,1610612745.0,Ariza,Ariza Free Throw 2 of 2 (8 PTS),freethrow,foul,3,Medium
+21500220,416,foul,4,PT09M23.00S,09:23,Q4 09:23,79,82,1610612745.0,Howard,Howard P.FOUL (P4.T1) (K.Mauer),freethrow,2pt made,3,Medium
+21500220,417,2pt,4,PT09M12.00S,09:12,Q4 09:12,79,84,1610612763.0,Lee,Lee 20' Turnaround Jump Shot (9 PTS) (Chalmers 5 AST),foul,3pt missed,5,Medium
+21500220,418,3pt,4,PT08M48.00S,08:48,Q4 08:48,79,84,1610612745.0,Thornton,MISS Thornton 25' 3PT Jump Shot,2pt made,rebound,5,Medium
+21500220,419,rebound,4,PT08M47.00S,08:47,Q4 08:47,79,84,1610612763.0,,TEAM defensive REBOUND,3pt missed,timeout,5,Medium
+21500220,420,timeout,4,PT08M47.00S,08:47,Q4 08:47,79,84,0.0,,Timeout: Regular,rebound,3pt missed,5,Medium
+21500220,424,3pt,4,PT08M30.00S,08:30,Q4 08:30,79,84,1610612763.0,Lee,MISS Lee 25' 3PT Jump Shot,timeout,rebound,5,Medium
+21500220,425,rebound,4,PT08M30.00S,08:30,Q4 08:30,79,84,1610612763.0,Allen,Allen REBOUND (Off:2 Def:1),3pt missed,2pt made,5,Medium
+21500220,426,2pt,4,PT08M25.00S,08:25,Q4 08:25,79,86,1610612763.0,Lee,Lee 12' Jump Shot (11 PTS) (Allen 1 AST),rebound,turnover,7,Medium
+21500220,428,turnover,4,PT08M01.00S,08:01,Q4 08:01,79,86,1610612745.0,Beverley,Beverley Bad Pass Turnover (P1.T17),2pt made,steal,7,Medium
+21500220,428,steal,4,PT08M01.00S,08:01,Q4 08:01,79,86,1610612763.0,Allen,Allen STEAL (2 STL),turnover,2pt made,7,Medium
+21500220,429,2pt,4,PT07M42.00S,07:42,Q4 07:42,79,88,1610612763.0,Lee,Lee 10' Turnaround Jump Shot (13 PTS),steal,timeout,9,Low
+21500220,430,timeout,4,PT07M35.00S,07:35,Q4 07:35,79,88,1610612745.0,,ROCKETS Timeout: Regular (Full 4 Short 1),2pt made,substitution,9,Low
+21500220,432,substitution,4,PT07M35.00S,07:35,Q4 07:35,79,88,1610612745.0,Beverley,SUB out: P. Beverley,timeout,substitution,9,Low
+21500220,433,substitution,4,PT07M35.00S,07:35,Q4 07:35,79,88,1610612745.0,Thornton,SUB out: M. Thornton,substitution,substitution,9,Low
+21500220,434,substitution,4,PT07M35.00S,07:35,Q4 07:35,79,88,1610612745.0,Harden,SUB in: J. Harden,substitution,substitution,9,Low
+21500220,435,substitution,4,PT07M35.00S,07:35,Q4 07:35,79,88,1610612745.0,Terry,SUB in: J. Terry,substitution,turnover,9,Low
+21500220,434,turnover,4,PT07M25.00S,07:25,Q4 07:25,79,88,1610612745.0,Terry,Terry Bad Pass Turnover (P1.T18),substitution,steal,9,Low
+21500220,434,steal,4,PT07M25.00S,07:25,Q4 07:25,79,88,1610612763.0,Lee,Lee STEAL (1 STL),turnover,2pt missed,9,Low
+21500220,435,2pt,4,PT07M05.00S,07:05,Q4 07:05,79,88,1610612763.0,Allen,MISS Allen 3' Cutting Layup Shot,steal,rebound,9,Low
+21500220,436,rebound,4,PT07M03.00S,07:03,Q4 07:03,79,88,1610612745.0,Terry,Terry REBOUND (Off:0 Def:2),2pt missed,foul,9,Low
+21500220,437,foul,4,PT06M55.00S,06:55,Q4 06:55,79,88,1610612763.0,Lee,Lee P.FOUL (P2.PN) (B.Taylor),rebound,freethrow,9,Low
+21500220,438,freethrow,4,PT06M55.00S,06:55,Q4 06:55,80,88,1610612745.0,Howard,Howard Free Throw 1 of 2 (9 PTS),foul,freethrow,8,Medium
+21500220,440,freethrow,4,PT06M55.00S,06:55,Q4 06:55,80,88,1610612745.0,Howard,MISS Howard Free Throw 2 of 2,freethrow,rebound,8,Medium
+21500220,442,rebound,4,PT06M55.00S,06:55,Q4 06:55,80,88,1610612763.0,Carter,Carter REBOUND (Off:2 Def:4),freethrow,2pt missed,8,Medium
+21500220,443,2pt,4,PT06M31.00S,06:31,Q4 06:31,80,88,1610612763.0,Gasol,MISS Gasol 19' Jump Shot,rebound,rebound,8,Medium
+21500220,444,rebound,4,PT06M30.00S,06:30,Q4 06:30,80,88,1610612745.0,Ariza,Ariza REBOUND (Off:1 Def:7),2pt missed,foul,8,Medium
+21500220,445,foul,4,PT06M24.00S,06:24,Q4 06:24,80,88,1610612763.0,Gasol,Gasol P.FOUL (P2.PN) (M.Smith),rebound,freethrow,8,Medium
+21500220,446,freethrow,4,PT06M24.00S,06:24,Q4 06:24,81,88,1610612745.0,Howard,Howard Free Throw 1 of 2 (10 PTS),foul,freethrow,7,Medium
+21500220,448,freethrow,4,PT06M24.00S,06:24,Q4 06:24,82,88,1610612745.0,Howard,Howard Free Throw 2 of 2 (11 PTS),freethrow,foul,6,High
+21500220,450,foul,4,PT06M13.00S,06:13,Q4 06:13,82,88,1610612745.0,Ariza,Ariza P.FOUL (P4.T2) (B.Taylor),freethrow,2pt made,6,High
+21500220,451,2pt,4,PT06M01.00S,06:01,Q4 06:01,82,90,1610612763.0,Allen,Allen 1' Layup (8 PTS) (Carter 2 AST),foul,3pt missed,8,Medium
+21500220,452,3pt,4,PT05M49.00S,05:49,Q4 05:49,82,90,1610612745.0,Ariza,MISS Ariza 24' 3PT Jump Shot,2pt made,rebound,8,Medium
+21500220,453,rebound,4,PT05M48.00S,05:48,Q4 05:48,82,90,1610612763.0,Chalmers,Chalmers REBOUND (Off:0 Def:3),3pt missed,2pt made,8,Medium
+21500220,454,2pt,4,PT05M32.00S,05:32,Q4 05:32,82,92,1610612763.0,Lee,Lee 15' Pullup Jump Shot (15 PTS),rebound,2pt missed,10,Medium
+21500220,455,2pt,4,PT05M13.00S,05:13,Q4 05:13,82,92,1610612745.0,Ariza,MISS Ariza 2' Driving Layup,2pt made,rebound,10,Medium
+21500220,456,rebound,4,PT05M13.00S,05:13,Q4 05:13,82,92,1610612745.0,Howard,Howard REBOUND (Off:1 Def:4),2pt missed,foul,10,Medium
+21500220,457,foul,4,PT05M13.00S,05:13,Q4 05:13,82,92,1610612763.0,Carter,Carter S.FOUL (P2.PN) (B.Taylor),rebound,freethrow,10,Medium
+21500220,458,freethrow,4,PT05M13.00S,05:13,Q4 05:13,83,92,1610612745.0,Howard,Howard Free Throw 1 of 2 (12 PTS),foul,freethrow,9,Medium
+21500220,462,freethrow,4,PT05M13.00S,05:13,Q4 05:13,83,92,1610612745.0,Howard,MISS Howard Free Throw 2 of 2,freethrow,rebound,9,Medium
+21500220,464,rebound,4,PT05M13.00S,05:13,Q4 05:13,83,92,1610612763.0,Allen,Allen REBOUND (Off:2 Def:2),freethrow,substitution,9,Medium
+21500220,460,substitution,4,PT05M13.00S,05:13,Q4 05:13,83,92,1610612763.0,Chalmers,SUB out: M. Chalmers,rebound,substitution,9,Medium
+21500220,461,substitution,4,PT05M13.00S,05:13,Q4 05:13,83,92,1610612763.0,Carter,SUB out: V. Carter,substitution,substitution,9,Medium
+21500220,462,substitution,4,PT05M13.00S,05:13,Q4 05:13,83,92,1610612763.0,Conley,SUB in: M. Conley,substitution,substitution,9,Medium
+21500220,463,substitution,4,PT05M13.00S,05:13,Q4 05:13,83,92,1610612763.0,Green,SUB in: J. Green,substitution,turnover,9,Medium
+21500220,465,turnover,4,PT04M59.00S,04:59,Q4 04:59,83,92,1610612763.0,Gasol,Gasol Lost Ball Turnover (P6.T17),substitution,steal,9,Medium
+21500220,465,steal,4,PT04M59.00S,04:59,Q4 04:59,83,92,1610612745.0,Brewer,Brewer STEAL (2 STL),turnover,foul,9,Medium
+21500220,466,foul,4,PT04M57.00S,04:57,Q4 04:57,83,92,1610612763.0,Lee,Lee P.FOUL (P3.PN) (M.Smith),steal,freethrow,9,Medium
+21500220,467,freethrow,4,PT04M57.00S,04:57,Q4 04:57,84,92,1610612745.0,Harden,Harden Free Throw 1 of 2 (37 PTS),foul,freethrow,8,High
+21500220,469,freethrow,4,PT04M57.00S,04:57,Q4 04:57,85,92,1610612745.0,Harden,Harden Free Throw 2 of 2 (38 PTS),freethrow,2pt missed,7,High
+21500220,471,2pt,4,PT04M38.00S,04:38,Q4 04:38,85,92,1610612763.0,Gasol,MISS Gasol 18' Jump Shot,freethrow,rebound,7,High
+21500220,472,rebound,4,PT04M35.00S,04:35,Q4 04:35,85,92,1610612745.0,Ariza,Ariza REBOUND (Off:1 Def:8),2pt missed,3pt missed,7,High
+21500220,473,3pt,4,PT04M27.00S,04:27,Q4 04:27,85,92,1610612745.0,Terry,MISS Terry 3PT Jump Shot,rebound,rebound,7,High
+21500220,474,rebound,4,PT04M26.00S,04:26,Q4 04:26,85,92,1610612763.0,Green,Je. Green REBOUND (Off:1 Def:4),3pt missed,foul,7,High
+21500220,475,foul,4,PT04M10.00S,04:10,Q4 04:10,85,92,1610612745.0,Howard,Howard S.FOUL (P5.T3) (K.Mauer),rebound,freethrow,7,High
+21500220,476,freethrow,4,PT04M10.00S,04:10,Q4 04:10,85,93,1610612763.0,Gasol,Gasol Free Throw 1 of 2 (11 PTS),foul,freethrow,8,High
+21500220,478,freethrow,4,PT04M10.00S,04:10,Q4 04:10,85,93,1610612763.0,Gasol,MISS Gasol Free Throw 2 of 2,freethrow,rebound,8,High
+21500220,480,rebound,4,PT04M10.00S,04:10,Q4 04:10,85,93,1610612745.0,Ariza,Ariza REBOUND (Off:1 Def:9),freethrow,3pt missed,8,High
+21500220,481,3pt,4,PT03M58.00S,03:58,Q4 03:58,85,93,1610612745.0,Brewer,MISS Brewer 24' 3PT Jump Shot,rebound,rebound,8,High
+21500220,482,rebound,4,PT03M57.00S,03:57,Q4 03:57,85,93,1610612763.0,Allen,Allen REBOUND (Off:2 Def:3),3pt missed,3pt made,8,High
+21500220,483,3pt,4,PT03M42.00S,03:42,Q4 03:42,85,96,1610612763.0,Conley,Conley 24' 3PT Pullup Jump Shot (17 PTS),rebound,3pt missed,11,Medium
+21500220,484,3pt,4,PT03M31.00S,03:31,Q4 03:31,85,96,1610612745.0,Harden,MISS Harden 24' 3PT Pullup Jump Shot,3pt made,rebound,11,Medium
+21500220,485,rebound,4,PT03M30.00S,03:30,Q4 03:30,85,96,1610612763.0,,TEAM defensive REBOUND,3pt missed,timeout,11,Medium
+21500220,487,timeout,4,PT03M30.00S,03:30,Q4 03:30,85,96,1610612763.0,,Grizzlies Timeout: Regular (Reg.4 Short 0),rebound,2pt missed,11,Medium
+21500220,490,2pt,4,PT03M09.00S,03:09,Q4 03:09,85,96,1610612763.0,Green,MISS Je. Green 8' Floating Jump Shot,timeout,rebound,11,Medium
+21500220,491,rebound,4,PT03M08.00S,03:08,Q4 03:08,85,96,1610612763.0,Green,Je. Green REBOUND (Off:2 Def:4),2pt missed,2pt missed,11,Medium
+21500220,492,2pt,4,PT02M54.00S,02:54,Q4 02:54,85,96,1610612763.0,Conley,MISS Conley 2' Cutting Layup Shot,rebound,rebound,11,Medium
+21500220,493,rebound,4,PT02M53.00S,02:53,Q4 02:53,85,96,1610612745.0,Ariza,Ariza REBOUND (Off:1 Def:10),2pt missed,turnover,11,Medium
+21500220,494,turnover,4,PT02M32.00S,02:32,Q4 02:32,85,96,1610612745.0,Ariza,Ariza Bad Pass Turnover (P5.T19),rebound,steal,11,Medium
+21500220,494,steal,4,PT02M32.00S,02:32,Q4 02:32,85,96,1610612763.0,Lee,Lee STEAL (2 STL),turnover,2pt made,11,Medium
+21500220,495,2pt,4,PT02M26.00S,02:26,Q4 02:26,85,98,1610612763.0,Allen,Allen 1' Running Reverse Layup (10 PTS) (Lee 2 AST),steal,3pt made,13,Low
+21500220,496,3pt,4,PT02M01.00S,02:01,Q4 02:01,88,98,1610612745.0,Terry,Terry 25' 3PT Jump Shot (13 PTS) (Howard 1 AST),2pt made,2pt missed,10,Medium
+21500220,497,2pt,4,PT01M43.00S,01:43,Q4 01:43,88,98,1610612763.0,Allen,MISS Allen 15' Step Back Jump Shot,3pt made,rebound,10,Medium
+21500220,498,rebound,4,PT01M42.00S,01:42,Q4 01:42,88,98,1610612745.0,Ariza,Ariza REBOUND (Off:1 Def:11),2pt missed,3pt made,10,Medium
+21500220,499,3pt,4,PT01M27.00S,01:27,Q4 01:27,91,98,1610612745.0,Brewer,Brewer 3PT Jump Shot (5 PTS) (Terry 3 AST),rebound,timeout,7,High
+21500220,500,timeout,4,PT01M27.00S,01:27,Q4 01:27,91,98,1610612763.0,,Grizzlies Timeout: Regular (Reg.5 Short 0),3pt made,2pt made,7,High
+21500220,504,2pt,4,PT01M11.00S,01:11,Q4 01:11,91,100,1610612763.0,Lee,Lee 21' Jump Shot (17 PTS) (Gasol 2 AST),timeout,3pt missed,9,Medium
+21500220,505,3pt,4,PT00M59.90S,00:59,Q4 00:59,91,100,1610612745.0,Brewer,MISS Brewer 3PT Jump Shot,2pt made,rebound,9,Medium
+21500220,506,rebound,4,PT00M58.90S,00:58,Q4 00:58,91,100,1610612763.0,Green,Je. Green REBOUND (Off:2 Def:5),3pt missed,2pt missed,9,Medium
+21500220,507,2pt,4,PT00M35.90S,00:35,Q4 00:35,91,100,1610612763.0,Lee,MISS Lee 3' Driving Layup,rebound,rebound,9,Medium
+21500220,508,rebound,4,PT00M33.90S,00:33,Q4 00:33,91,100,1610612745.0,Brewer,Brewer REBOUND (Off:1 Def:4),2pt missed,2pt made,9,Medium
+21500220,509,2pt,4,PT00M29.90S,00:29,Q4 00:29,93,100,1610612745.0,Harden,Harden 2' Running Layup (40 PTS),rebound,foul,7,High
+21500220,510,foul,4,PT00M28.40S,00:28,Q4 00:28,93,100,1610612745.0,Terry,Terry Personal Take Foul (P4.T4) (K.Mauer),2pt made,substitution,7,High
+21500220,511,substitution,4,PT00M28.40S,00:28,Q4 00:28,93,100,1610612763.0,Allen,SUB out: T. Allen,foul,substitution,7,High
+21500220,512,substitution,4,PT00M28.40S,00:28,Q4 00:28,93,100,1610612763.0,Chalmers,SUB in: M. Chalmers,substitution,foul,7,High
+21500220,512,foul,4,PT00M27.00S,00:27,Q4 00:27,93,100,1610612745.0,Harden,Harden Personal Take Foul (P2.PN) (K.Mauer),substitution,freethrow,7,High
+21500220,513,freethrow,4,PT00M27.00S,00:27,Q4 00:27,93,101,1610612763.0,Conley,Conley Free Throw 1 of 2 (18 PTS),foul,freethrow,8,High
+21500220,516,freethrow,4,PT00M27.00S,00:27,Q4 00:27,93,102,1610612763.0,Conley,Conley Free Throw 2 of 2 (19 PTS),freethrow,timeout,9,Medium
+21500220,518,timeout,4,PT00M27.00S,00:27,Q4 00:27,93,102,1610612745.0,,ROCKETS Timeout: Regular (Full 5 Short 1),freethrow,substitution,9,Medium
+21500220,515,substitution,4,PT00M27.00S,00:27,Q4 00:27,93,101,1610612763.0,Chalmers,SUB out: M. Chalmers,timeout,substitution,8,High
+21500220,516,substitution,4,PT00M27.00S,00:27,Q4 00:27,93,101,1610612763.0,Allen,SUB in: T. Allen,substitution,turnover,8,High
+21500220,520,turnover,4,PT00M23.40S,00:23,Q4 00:23,93,102,1610612745.0,Terry,Terry Out of Bounds - Bad Pass Turnover Turnover (P2.T20),substitution,period,9,Medium
+21500220,521,period,4,PT00M00.00S,00:00,Q4 00:00,93,102,1610612745.0,,End of 4th Period (10:29 PM EST),turnover,,9,Medium

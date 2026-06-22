@@ -1,0 +1,631 @@
+game_id,actionNumber,actionType,period,clock,clock_display,game_clock,scoreHome,scoreAway,teamId,playerName,description,previous_action,next_action,score_margin,leverage_bucket
+21900204,2,period,1,PT12M00.00S,12:00,Q1 12:00,0,0,1610612737.0,,Start of 1st Period (7:41 PM EST),,foul,0,Low
+21900204,7,foul,1,PT11M42.00S,11:42,Q1 11:42,0,0,1610612737.0,Hunter,Hunter S.FOUL (P1.T1) (M.Ervin),period,freethrow,0,Low
+21900204,9,freethrow,1,PT11M42.00S,11:42,Q1 11:42,0,1,1610612749.0,Lopez,B. Lopez Free Throw 1 of 2 (1 PTS),foul,freethrow,1,Low
+21900204,10,freethrow,1,PT11M42.00S,11:42,Q1 11:42,0,2,1610612749.0,Lopez,B. Lopez Free Throw 2 of 2 (2 PTS),freethrow,foul,2,Low
+21900204,11,foul,1,PT11M21.00S,11:21,Q1 11:21,0,2,1610612737.0,Parker,Parker OFF.Foul (P1) (M.Ervin),freethrow,turnover,2,Low
+21900204,13,turnover,1,PT11M21.00S,11:21,Q1 11:21,0,2,1610612737.0,Parker,Parker Offensive Foul Turnover (P1.T1),foul,foul,2,Low
+21900204,14,foul,1,PT11M14.00S,11:14,Q1 11:14,0,2,1610612737.0,Jones,Jones P.FOUL (P1.T2) (M.Ervin),turnover,2pt made,2,Low
+21900204,17,2pt,1,PT11M07.00S,11:07,Q1 11:07,0,4,1610612749.0,Matthews,Matthews 19' Jump Shot (2 PTS) (Bledsoe 1 AST),foul,turnover,4,Low
+21900204,19,turnover,1,PT10M48.00S,10:48,Q1 10:48,0,4,1610612737.0,Reddish,Reddish Bad Pass Turnover (P1.T2),2pt made,steal,4,Low
+21900204,19,steal,1,PT10M48.00S,10:48,Q1 10:48,0,4,1610612749.0,DiVincenzo,DiVincenzo STEAL (1 STL),turnover,3pt made,4,Low
+21900204,21,3pt,1,PT10M42.00S,10:42,Q1 10:42,0,7,1610612749.0,Bledsoe,Bledsoe 26' 3PT Pullup Jump Shot (3 PTS) (Matthews 1 AST),steal,timeout,7,Low
+21900204,23,timeout,1,PT10M41.00S,10:41,Q1 10:41,0,7,1610612737.0,,HAWKS Timeout: Regular (Full 1 Short 0),3pt made,2pt made,7,Low
+21900204,24,2pt,1,PT10M29.00S,10:29,Q1 10:29,2,7,1610612737.0,Reddish,Reddish 13' Floating Jump Shot (2 PTS) (Parker 1 AST),timeout,foul,5,Low
+21900204,26,foul,1,PT10M23.00S,10:23,Q1 10:23,2,7,1610612737.0,Reddish,Reddish S.FOUL (P1.T3) (R.Acosta),2pt made,freethrow,5,Low
+21900204,28,freethrow,1,PT10M23.00S,10:23,Q1 10:23,2,8,1610612749.0,Bledsoe,Bledsoe Free Throw 1 of 2 (4 PTS),foul,freethrow,6,Low
+21900204,29,freethrow,1,PT10M23.00S,10:23,Q1 10:23,2,9,1610612749.0,Bledsoe,Bledsoe Free Throw 2 of 2 (5 PTS),freethrow,2pt made,7,Low
+21900204,30,2pt,1,PT10M11.00S,10:11,Q1 10:11,4,9,1610612737.0,Hunter,Hunter 20' Pullup Jump Shot (2 PTS) (Parker 2 AST),freethrow,3pt made,5,Low
+21900204,32,3pt,1,PT10M00.00S,10:00,Q1 10:00,4,12,1610612749.0,Lopez,B. Lopez 26' 3PT Jump Shot (5 PTS) (DiVincenzo 1 AST),2pt made,turnover,8,Low
+21900204,33,turnover,1,PT09M36.00S,09:36,Q1 09:36,4,12,1610612737.0,Young,Young Bad Pass Turnover (P1.T3),3pt made,steal,8,Low
+21900204,33,steal,1,PT09M36.00S,09:36,Q1 09:36,4,12,1610612749.0,Lopez,B. Lopez STEAL (1 STL),turnover,2pt missed,8,Low
+21900204,35,2pt,1,PT09M25.00S,09:25,Q1 09:25,4,12,1610612749.0,Lopez,MISS B. Lopez 2' Driving Dunk,steal,rebound,8,Low
+21900204,36,rebound,1,PT09M23.00S,09:23,Q1 09:23,4,12,1610612737.0,Reddish,Reddish REBOUND (Off:0 Def:1),2pt missed,2pt missed,8,Low
+21900204,63,2pt,1,PT09M15.00S,09:15,Q1 09:15,4,12,1610612737.0,Reddish,MISS Reddish 5' Driving Layup,rebound,block,8,Low
+21900204,63,block,1,PT09M15.00S,09:15,Q1 09:15,4,12,1610612749.0,Antetokounmpo,G. Antetokounmpo BLOCK (1 BLK),2pt missed,rebound,8,Low
+21900204,65,rebound,1,PT09M15.00S,09:15,Q1 09:15,4,12,1610612749.0,Lopez,B. Lopez REBOUND (Off:0 Def:1),block,turnover,8,Low
+21900204,40,turnover,1,PT09M02.00S,09:02,Q1 09:02,4,12,1610612749.0,Bledsoe,Bledsoe Lost Ball Turnover (P1.T1),rebound,steal,8,Low
+21900204,40,steal,1,PT09M02.00S,09:02,Q1 09:02,4,12,1610612737.0,Young,Young STEAL (1 STL),turnover,2pt missed,8,Low
+21900204,42,2pt,1,PT08M54.00S,08:54,Q1 08:54,4,12,1610612737.0,Young,MISS Young 10' Driving Floating Jump Shot,steal,rebound,8,Low
+21900204,43,rebound,1,PT08M52.00S,08:52,Q1 08:52,4,12,1610612749.0,Antetokounmpo,G. Antetokounmpo REBOUND (Off:0 Def:1),2pt missed,2pt made,8,Low
+21900204,44,2pt,1,PT08M46.00S,08:46,Q1 08:46,4,14,1610612749.0,Bledsoe,Bledsoe 1' Reverse Layup (7 PTS) (Matthews 2 AST),rebound,foul,10,Low
+21900204,46,foul,1,PT08M34.00S,08:34,Q1 08:34,4,14,1610612749.0,Bledsoe,Bledsoe P.FOUL (P1.T1) (K.Fitzgerald),2pt made,3pt missed,10,Low
+21900204,48,3pt,1,PT08M25.00S,08:25,Q1 08:25,4,14,1610612737.0,Parker,MISS Parker 26' 3PT Jump Shot,foul,rebound,10,Low
+21900204,49,rebound,1,PT08M22.00S,08:22,Q1 08:22,4,14,1610612737.0,Jones,Jones REBOUND (Off:1 Def:0),3pt missed,3pt made,10,Low
+21900204,50,3pt,1,PT08M19.00S,08:19,Q1 08:19,7,14,1610612737.0,Reddish,Reddish 24' 3PT Step Back Jump Shot (5 PTS) (Jones 1 AST),rebound,turnover,7,Low
+21900204,51,turnover,1,PT07M55.00S,07:55,Q1 07:55,7,14,1610612749.0,Antetokounmpo,G. Antetokounmpo Lost Ball Turnover (P1.T2),3pt made,steal,7,Low
+21900204,51,steal,1,PT07M55.00S,07:55,Q1 07:55,7,14,1610612737.0,Parker,Parker STEAL (1 STL),turnover,2pt made,7,Low
+21900204,53,2pt,1,PT07M50.00S,07:50,Q1 07:50,9,14,1610612737.0,Parker,Parker 2' Running Dunk (2 PTS) (Hunter 1 AST),steal,3pt missed,5,Low
+21900204,55,3pt,1,PT07M35.00S,07:35,Q1 07:35,9,14,1610612749.0,Bledsoe,MISS Bledsoe 25' 3PT Pullup Jump Shot,2pt made,rebound,5,Low
+21900204,56,rebound,1,PT07M32.00S,07:32,Q1 07:32,9,14,1610612737.0,Hunter,Hunter REBOUND (Off:0 Def:1),3pt missed,2pt made,5,Low
+21900204,57,2pt,1,PT07M19.00S,07:19,Q1 07:19,11,14,1610612737.0,Hunter,Hunter 21' Pullup Jump Shot (4 PTS),rebound,3pt missed,3,Low
+21900204,58,3pt,1,PT07M02.00S,07:02,Q1 07:02,11,14,1610612749.0,DiVincenzo,MISS DiVincenzo 25' 3PT Jump Shot,2pt made,rebound,3,Low
+21900204,59,rebound,1,PT06M59.00S,06:59,Q1 06:59,11,14,1610612737.0,Parker,Parker REBOUND (Off:0 Def:1),3pt missed,3pt made,3,Low
+21900204,60,3pt,1,PT06M54.00S,06:54,Q1 06:54,14,14,1610612737.0,Hunter,Hunter 25' 3PT Jump Shot (7 PTS) (Parker 3 AST),rebound,timeout,0,Low
+21900204,62,timeout,1,PT06M52.00S,06:52,Q1 06:52,14,14,1610612749.0,,Bucks Timeout: Regular (Reg.1 Short 0),3pt made,substitution,0,Low
+21900204,66,substitution,1,PT06M52.00S,06:52,Q1 06:52,14,14,1610612737.0,Parker,SUB out: J. Parker,timeout,substitution,0,Low
+21900204,67,substitution,1,PT06M52.00S,06:52,Q1 06:52,14,14,1610612737.0,Jones,SUB out: D. Jones,substitution,substitution,0,Low
+21900204,68,substitution,1,PT06M52.00S,06:52,Q1 06:52,14,14,1610612749.0,Bledsoe,SUB out: E. Bledsoe,substitution,substitution,0,Low
+21900204,69,substitution,1,PT06M52.00S,06:52,Q1 06:52,14,14,1610612737.0,Fernando,SUB in: B. Fernando,substitution,substitution,0,Low
+21900204,70,substitution,1,PT06M52.00S,06:52,Q1 06:52,14,14,1610612737.0,Carter,SUB in: V. Carter,substitution,substitution,0,Low
+21900204,71,substitution,1,PT06M52.00S,06:52,Q1 06:52,14,14,1610612749.0,Brown,SUB in: S. Brown,substitution,3pt missed,0,Low
+21900204,72,3pt,1,PT06M40.00S,06:40,Q1 06:40,14,14,1610612749.0,Matthews,MISS Matthews 28' 3PT Jump Shot,substitution,rebound,0,Low
+21900204,73,rebound,1,PT06M37.00S,06:37,Q1 06:37,14,14,1610612737.0,Fernando,Fernando REBOUND (Off:0 Def:1),3pt missed,2pt missed,0,Low
+21900204,74,2pt,1,PT06M29.00S,06:29,Q1 06:29,14,14,1610612737.0,Fernando,MISS Fernando 4' Hook Shot,rebound,rebound,0,Low
+21900204,75,rebound,1,PT06M27.00S,06:27,Q1 06:27,14,14,1610612749.0,Lopez,B. Lopez REBOUND (Off:0 Def:2),2pt missed,3pt missed,0,Low
+21900204,76,3pt,1,PT06M22.00S,06:22,Q1 06:22,14,14,1610612749.0,DiVincenzo,MISS DiVincenzo 24' 3PT Jump Shot,rebound,rebound,0,Low
+21900204,77,rebound,1,PT06M19.00S,06:19,Q1 06:19,14,14,1610612737.0,Hunter,Hunter REBOUND (Off:0 Def:2),3pt missed,2pt missed,0,Low
+21900204,78,2pt,1,PT06M10.00S,06:10,Q1 06:10,14,14,1610612737.0,Fernando,MISS Fernando 3' Layup,rebound,rebound,0,Low
+21900204,79,rebound,1,PT06M08.00S,06:08,Q1 06:08,14,14,1610612737.0,Fernando,Fernando REBOUND (Off:1 Def:1),2pt missed,turnover,0,Low
+21900204,80,turnover,1,PT06M08.00S,06:08,Q1 06:08,14,14,1610612737.0,Reddish,Reddish Step Out of Bounds Turnover (P2.T4),rebound,substitution,0,Low
+21900204,81,substitution,1,PT06M08.00S,06:08,Q1 06:08,14,14,1610612749.0,DiVincenzo,SUB out: D. DiVincenzo,turnover,substitution,0,Low
+21900204,82,substitution,1,PT06M08.00S,06:08,Q1 06:08,14,14,1610612749.0,Bledsoe,SUB in: E. Bledsoe,substitution,2pt missed,0,Low
+21900204,83,2pt,1,PT05M51.00S,05:51,Q1 05:51,14,14,1610612749.0,Bledsoe,MISS Bledsoe 4' Layup,substitution,rebound,0,Low
+21900204,84,rebound,1,PT05M46.00S,05:46,Q1 05:46,14,14,1610612737.0,Fernando,Fernando REBOUND (Off:1 Def:2),2pt missed,foul,0,Low
+21900204,85,foul,1,PT05M39.00S,05:39,Q1 05:39,14,14,1610612749.0,Lopez,B. Lopez P.FOUL (P1.T2) (K.Fitzgerald),rebound,substitution,0,Low
+21900204,88,substitution,1,PT05M39.00S,05:39,Q1 05:39,14,14,1610612737.0,Hunter,SUB out: D. Hunter,foul,substitution,0,Low
+21900204,89,substitution,1,PT05M39.00S,05:39,Q1 05:39,14,14,1610612749.0,Antetokounmpo,SUB out: G. Antetokounmpo,substitution,substitution,0,Low
+21900204,90,substitution,1,PT05M39.00S,05:39,Q1 05:39,14,14,1610612737.0,Bembry,SUB in: D. Bembry,substitution,substitution,0,Low
+21900204,91,substitution,1,PT05M39.00S,05:39,Q1 05:39,14,14,1610612749.0,Wilson,SUB in: D. Wilson,substitution,foul,0,Low
+21900204,92,foul,1,PT05M38.00S,05:38,Q1 05:38,14,14,1610612749.0,Bledsoe,Bledsoe P.FOUL (P2.T3) (K.Fitzgerald),substitution,foul,0,Low
+21900204,94,foul,1,PT05M38.00S,05:38,Q1 05:38,14,14,1610612749.0,Bledsoe,Bledsoe T.FOUL (P2.T3) (K.Fitzgerald),foul,freethrow,0,Low
+21900204,95,freethrow,1,PT05M38.00S,05:38,Q1 05:38,15,14,1610612737.0,Young,Young Free Throw Technical (1 PTS),foul,substitution,1,Low
+21900204,96,substitution,1,PT05M38.00S,05:38,Q1 05:38,15,14,1610612737.0,Reddish,SUB out: C. Reddish,freethrow,substitution,1,Low
+21900204,97,substitution,1,PT05M38.00S,05:38,Q1 05:38,15,14,1610612749.0,Bledsoe,SUB out: E. Bledsoe,substitution,substitution,1,Low
+21900204,98,substitution,1,PT05M38.00S,05:38,Q1 05:38,15,14,1610612737.0,Crabbe,SUB in: A. Crabbe,substitution,substitution,1,Low
+21900204,99,substitution,1,PT05M38.00S,05:38,Q1 05:38,15,14,1610612749.0,Hill,SUB in: G. Hill,substitution,3pt missed,1,Low
+21900204,100,3pt,1,PT05M33.00S,05:33,Q1 05:33,15,14,1610612737.0,Young,MISS Young 25' 3PT Pullup Jump Shot,substitution,rebound,1,Low
+21900204,101,rebound,1,PT05M30.00S,05:30,Q1 05:30,15,14,1610612749.0,Brown,Brown REBOUND (Off:0 Def:1),3pt missed,turnover,1,Low
+21900204,102,turnover,1,PT05M26.00S,05:26,Q1 05:26,15,14,1610612749.0,Brown,Brown Out of Bounds - Bad Pass Turnover Turnover (P1.T3),rebound,3pt missed,1,Low
+21900204,103,3pt,1,PT05M18.00S,05:18,Q1 05:18,15,14,1610612737.0,Carter,MISS Carter 27' 3PT Jump Shot,turnover,rebound,1,Low
+21900204,104,rebound,1,PT05M16.00S,05:16,Q1 05:16,15,14,1610612749.0,Lopez,B. Lopez REBOUND (Off:0 Def:3),3pt missed,2pt made,1,Low
+21900204,105,2pt,1,PT04M59.00S,04:59,Q1 04:59,15,16,1610612749.0,Lopez,B. Lopez 12' Step Back Jump Shot (7 PTS),rebound,2pt made,1,Low
+21900204,106,2pt,1,PT04M42.00S,04:42,Q1 04:42,17,16,1610612737.0,Young,Young 15' Driving Floating Jump Shot (3 PTS) (Fernando 1 AST),2pt made,3pt missed,1,Low
+21900204,108,3pt,1,PT04M29.00S,04:29,Q1 04:29,17,16,1610612749.0,Brown,MISS Brown 24' 3PT Jump Shot,2pt made,rebound,1,Low
+21900204,109,rebound,1,PT04M26.00S,04:26,Q1 04:26,17,16,1610612737.0,Bembry,Bembry REBOUND (Off:0 Def:1),3pt missed,3pt missed,1,Low
+21900204,110,3pt,1,PT04M20.00S,04:20,Q1 04:20,17,16,1610612737.0,Young,MISS Young 28' 3PT Pullup Jump Shot,rebound,rebound,1,Low
+21900204,111,rebound,1,PT04M17.00S,04:17,Q1 04:17,17,16,1610612749.0,Wilson,Wilson REBOUND (Off:0 Def:1),3pt missed,substitution,1,Low
+21900204,113,substitution,1,PT04M06.00S,04:06,Q1 04:06,17,16,1610612749.0,Matthews,SUB out: W. Matthews,substitution,substitution,1,Low
+21900204,114,substitution,1,PT04M06.00S,04:06,Q1 04:06,17,16,1610612749.0,Lopez,SUB out: B. Lopez,substitution,substitution,1,Low
+21900204,115,substitution,1,PT04M06.00S,04:06,Q1 04:06,17,16,1610612737.0,Young,SUB out: T. Young,substitution,substitution,1,Low
+21900204,116,substitution,1,PT04M06.00S,04:06,Q1 04:06,17,16,1610612749.0,Lopez,SUB in: B. Lopez,substitution,substitution,1,Low
+21900204,117,substitution,1,PT04M06.00S,04:06,Q1 04:06,17,16,1610612749.0,Connaughton,SUB in: P. Connaughton,substitution,substitution,1,Low
+21900204,118,substitution,1,PT04M06.00S,04:06,Q1 04:06,17,16,1610612737.0,Turner,SUB in: E. Turner,substitution,foul,1,Low
+21900204,119,foul,1,PT04M02.00S,04:02,Q1 04:02,17,16,1610612749.0,Lopez,R. Lopez OFF.Foul (P1) (M.Ervin),substitution,turnover,1,Low
+21900204,121,turnover,1,PT04M02.00S,04:02,Q1 04:02,17,16,1610612749.0,Lopez,R. Lopez Offensive Foul Turnover (P1.T4),foul,2pt made,1,Low
+21900204,122,2pt,1,PT03M52.00S,03:52,Q1 03:52,19,16,1610612737.0,Carter,Carter 17' Pullup Jump Shot (2 PTS),turnover,2pt made,3,Low
+21900204,123,2pt,1,PT03M36.00S,03:36,Q1 03:36,19,18,1610612749.0,Hill,Hill 1' Driving Reverse Layup (2 PTS),2pt made,3pt missed,1,Low
+21900204,124,3pt,1,PT03M27.00S,03:27,Q1 03:27,19,18,1610612737.0,Carter,MISS Carter 26' 3PT Pullup Jump Shot,2pt made,rebound,1,Low
+21900204,125,rebound,1,PT03M23.00S,03:23,Q1 03:23,19,18,1610612749.0,Hill,Hill REBOUND (Off:0 Def:1),3pt missed,substitution,1,Low
+21900204,127,substitution,1,PT03M15.00S,03:15,Q1 03:15,19,18,1610612737.0,Fernando,SUB out: B. Fernando,rebound,substitution,1,Low
+21900204,128,substitution,1,PT03M15.00S,03:15,Q1 03:15,19,18,1610612737.0,Len,SUB in: A. Len,substitution,2pt made,1,Low
+21900204,129,2pt,1,PT03M09.00S,03:09,Q1 03:09,19,20,1610612749.0,Hill,Hill 17' Pullup Jump Shot (4 PTS),substitution,3pt made,1,Low
+21900204,130,3pt,1,PT02M58.00S,02:58,Q1 02:58,22,20,1610612737.0,Crabbe,Crabbe 26' 3PT Jump Shot (3 PTS) (Turner 1 AST),2pt made,3pt made,2,Low
+21900204,132,3pt,1,PT02M46.00S,02:46,Q1 02:46,22,23,1610612749.0,Brown,Brown 3PT Jump Shot (3 PTS) (Connaughton 1 AST),3pt made,2pt missed,1,Low
+21900204,135,2pt,1,PT02M32.00S,02:32,Q1 02:32,22,23,1610612737.0,Carter,MISS Carter 2' Driving Layup,3pt made,rebound,1,Low
+21900204,136,rebound,1,PT02M29.00S,02:29,Q1 02:29,22,23,1610612749.0,Hill,Hill REBOUND (Off:0 Def:2),2pt missed,2pt made,1,Low
+21900204,137,2pt,1,PT02M26.00S,02:26,Q1 02:26,22,25,1610612749.0,Wilson,Wilson 1' Running Dunk (2 PTS) (Hill 1 AST),rebound,foul,3,Low
+21900204,139,foul,1,PT02M10.00S,02:10,Q1 02:10,22,25,1610612749.0,Brown,Brown P.FOUL (P1.T4) (K.Fitzgerald),2pt made,substitution,3,Low
+21900204,141,substitution,1,PT02M10.00S,02:10,Q1 02:10,22,25,1610612737.0,Carter,SUB out: V. Carter,foul,substitution,3,Low
+21900204,142,substitution,1,PT02M10.00S,02:10,Q1 02:10,22,25,1610612737.0,Parker,SUB in: J. Parker,substitution,foul,3,Low
+21900204,143,foul,1,PT02M04.00S,02:04,Q1 02:04,22,25,1610612749.0,Brown,Brown S.FOUL (P2.PN) (M.Ervin),substitution,freethrow,3,Low
+21900204,145,freethrow,1,PT02M04.00S,02:04,Q1 02:04,23,25,1610612737.0,Crabbe,Crabbe Free Throw 1 of 2 (4 PTS),foul,freethrow,2,Low
+21900204,146,freethrow,1,PT02M04.00S,02:04,Q1 02:04,24,25,1610612737.0,Crabbe,Crabbe Free Throw 2 of 2 (5 PTS),freethrow,2pt missed,1,Low
+21900204,147,2pt,1,PT01M53.00S,01:53,Q1 01:53,24,25,1610612749.0,Hill,MISS Hill 2' Driving Layup,freethrow,block,1,Low
+21900204,147,block,1,PT01M53.00S,01:53,Q1 01:53,24,25,1610612737.0,Bembry,Bembry BLOCK (1 BLK),2pt missed,rebound,1,Low
+21900204,149,rebound,1,PT01M50.00S,01:50,Q1 01:50,24,25,1610612737.0,Len,Len REBOUND (Off:0 Def:1),block,2pt missed,1,Low
+21900204,150,2pt,1,PT01M41.00S,01:41,Q1 01:41,24,25,1610612737.0,Turner,MISS Turner 3' Driving Layup,rebound,rebound,1,Low
+21900204,158,rebound,1,PT01M41.00S,01:41,Q1 01:41,24,25,1610612749.0,,TEAM defensive REBOUND,2pt missed,substitution,1,Low
+21900204,151,substitution,1,PT01M41.00S,01:41,Q1 01:41,24,25,1610612737.0,Turner,SUB out: E. Turner,rebound,substitution,1,Low
+21900204,152,substitution,1,PT01M41.00S,01:41,Q1 01:41,24,25,1610612749.0,Wilson,SUB out: D. Wilson,substitution,substitution,1,Low
+21900204,153,substitution,1,PT01M41.00S,01:41,Q1 01:41,24,25,1610612749.0,Brown,SUB out: S. Brown,substitution,substitution,1,Low
+21900204,154,substitution,1,PT01M41.00S,01:41,Q1 01:41,24,25,1610612737.0,Young,SUB in: T. Young,substitution,substitution,1,Low
+21900204,155,substitution,1,PT01M41.00S,01:41,Q1 01:41,24,25,1610612749.0,Korver,SUB in: K. Korver,substitution,substitution,1,Low
+21900204,156,substitution,1,PT01M41.00S,01:41,Q1 01:41,24,25,1610612749.0,Antetokounmpo,SUB in: G. Antetokounmpo,substitution,3pt missed,1,Low
+21900204,159,3pt,1,PT01M29.00S,01:29,Q1 01:29,24,25,1610612749.0,Korver,MISS Korver 3PT Jump Shot,substitution,rebound,1,Low
+21900204,160,rebound,1,PT01M27.00S,01:27,Q1 01:27,24,25,1610612737.0,Bembry,Bembry REBOUND (Off:0 Def:2),3pt missed,2pt missed,1,Low
+21900204,161,2pt,1,PT01M18.00S,01:18,Q1 01:18,24,25,1610612737.0,Len,MISS Len 1' Layup,rebound,rebound,1,Low
+21900204,162,rebound,1,PT01M17.00S,01:17,Q1 01:17,24,25,1610612737.0,Len,Len REBOUND (Off:1 Def:1),2pt missed,2pt missed,1,Low
+21900204,191,2pt,1,PT01M17.00S,01:17,Q1 01:17,24,25,1610612737.0,Len,MISS Len 7' Tip Layup Shot,rebound,block,1,Low
+21900204,191,block,1,PT01M17.00S,01:17,Q1 01:17,24,25,1610612749.0,Connaughton,Connaughton BLOCK (1 BLK),2pt missed,rebound,1,Low
+21900204,193,rebound,1,PT01M16.00S,01:16,Q1 01:16,24,25,1610612749.0,Korver,Korver REBOUND (Off:0 Def:1),block,foul,1,Low
+21900204,163,foul,1,PT01M10.00S,01:10,Q1 01:10,24,25,1610612737.0,Len,Len S.FOUL (P1.T4) (M.Ervin),rebound,freethrow,1,Low
+21900204,167,freethrow,1,PT01M10.00S,01:10,Q1 01:10,24,26,1610612749.0,Antetokounmpo,G. Antetokounmpo Free Throw 1 of 2 (1 PTS),foul,freethrow,2,Low
+21900204,168,freethrow,1,PT01M10.00S,01:10,Q1 01:10,24,27,1610612749.0,Antetokounmpo,G. Antetokounmpo Free Throw 2 of 2 (2 PTS),freethrow,2pt missed,3,Low
+21900204,169,2pt,1,PT00M59.80S,00:59,Q1 00:59,24,27,1610612737.0,Young,MISS Young 3' Driving Layup,freethrow,rebound,3,Low
+21900204,170,rebound,1,PT00M57.30S,00:57,Q1 00:57,24,27,1610612749.0,Connaughton,Connaughton REBOUND (Off:0 Def:1),2pt missed,2pt made,3,Low
+21900204,171,2pt,1,PT00M54.10S,00:54,Q1 00:54,24,29,1610612749.0,Antetokounmpo,G. Antetokounmpo 1' Running Dunk (4 PTS) (Hill 2 AST),rebound,2pt missed,5,Low
+21900204,173,2pt,1,PT00M37.90S,00:37,Q1 00:37,24,29,1610612737.0,Crabbe,MISS Crabbe 19' Pullup Jump Shot,2pt made,block,5,Low
+21900204,173,block,1,PT00M37.90S,00:37,Q1 00:37,24,29,1610612749.0,Connaughton,Connaughton BLOCK (2 BLK),2pt missed,rebound,5,Low
+21900204,175,rebound,1,PT00M34.70S,00:34,Q1 00:34,24,29,1610612749.0,Antetokounmpo,G. Antetokounmpo REBOUND (Off:0 Def:2),block,2pt made,5,Low
+21900204,176,2pt,1,PT00M32.40S,00:32,Q1 00:32,24,31,1610612749.0,Antetokounmpo,G. Antetokounmpo 2' Running Layup (6 PTS),rebound,2pt missed,7,Low
+21900204,177,2pt,1,PT00M12.10S,00:12,Q1 00:12,24,31,1610612737.0,Young,MISS Young 3' Driving Layup,2pt made,rebound,7,Low
+21900204,178,rebound,1,PT00M09.70S,00:09,Q1 00:09,24,31,1610612749.0,Hill,Hill REBOUND (Off:0 Def:3),2pt missed,3pt made,7,Low
+21900204,179,3pt,1,PT00M04.80S,00:04,Q1 00:04,24,34,1610612749.0,Korver,Korver 25' 3PT Jump Shot (3 PTS) (G. Antetokounmpo 1 AST),rebound,foul,10,Low
+21900204,181,foul,1,PT00M02.30S,00:02,Q1 00:02,24,34,1610612749.0,Hill,Hill P.FOUL (P1.PN) (K.Fitzgerald),3pt made,freethrow,10,Low
+21900204,183,freethrow,1,PT00M02.30S,00:02,Q1 00:02,25,34,1610612737.0,Young,Young Free Throw 1 of 2 (4 PTS),foul,freethrow,9,Low
+21900204,186,freethrow,1,PT00M02.30S,00:02,Q1 00:02,26,34,1610612737.0,Young,Young Free Throw 2 of 2 (5 PTS),freethrow,substitution,8,Low
+21900204,184,substitution,1,PT00M02.30S,00:02,Q1 00:02,26,34,1610612749.0,Lopez,SUB out: R. Lopez,freethrow,substitution,8,Low
+21900204,185,substitution,1,PT00M02.30S,00:02,Q1 00:02,26,34,1610612749.0,Lopez,SUB in: B. Lopez,substitution,foul,8,Low
+21900204,188,foul,1,PT00M00.50S,00:00,Q1 00:00,26,34,1610612749.0,Antetokounmpo,G. Antetokounmpo OFF.Foul (P1) (M.Ervin),substitution,turnover,8,Low
+21900204,189,turnover,1,PT00M00.50S,00:00,Q1 00:00,26,34,1610612749.0,Antetokounmpo,G. Antetokounmpo Offensive Foul Turnover (P2.T5),foul,substitution,8,Low
+21900204,248,substitution,1,PT00M00.50S,00:00,Q1 00:00,26,34,1610612749.0,Hill,SUB out: G. Hill,substitution,substitution,8,Low
+21900204,249,substitution,1,PT00M00.50S,00:00,Q1 00:00,26,34,1610612749.0,Lopez,SUB out: B. Lopez,substitution,substitution,8,Low
+21900204,250,substitution,1,PT00M00.50S,00:00,Q1 00:00,26,34,1610612749.0,Antetokounmpo,SUB out: G. Antetokounmpo,substitution,substitution,8,Low
+21900204,251,substitution,1,PT00M00.50S,00:00,Q1 00:00,26,34,1610612749.0,Wilson,SUB in: D. Wilson,substitution,substitution,8,Low
+21900204,252,substitution,1,PT00M00.50S,00:00,Q1 00:00,26,34,1610612749.0,DiVincenzo,SUB in: D. DiVincenzo,substitution,substitution,8,Low
+21900204,253,substitution,1,PT00M00.50S,00:00,Q1 00:00,26,34,1610612749.0,Lopez,SUB in: B. Lopez,substitution,period,8,Low
+21900204,187,period,1,PT00M00.00S,00:00,Q1 00:00,26,34,1610612737.0,,End of 1st Period (8:09 PM EST),substitution,period,8,Low
+21900204,200,period,2,PT12M00.00S,12:00,Q2 12:00,26,34,1610612737.0,,Start of 2nd Period (8:13 PM EST),period,substitution,8,Low
+21900204,201,2pt,2,PT11M43.00S,11:43,Q2 11:43,26,34,1610612737.0,Len,MISS Len 2' Layup,substitution,rebound,8,Low
+21900204,202,rebound,2,PT11M40.00S,11:40,Q2 11:40,26,34,1610612749.0,Antetokounmpo,G. Antetokounmpo REBOUND (Off:0 Def:3),2pt missed,turnover,8,Low
+21900204,203,turnover,2,PT11M34.00S,11:34,Q2 11:34,26,34,1610612749.0,Korver,Korver Lost Ball Turnover (P1.T6),rebound,steal,8,Low
+21900204,203,steal,2,PT11M34.00S,11:34,Q2 11:34,26,34,1610612737.0,Young,Young STEAL (2 STL),turnover,2pt made,8,Low
+21900204,205,2pt,2,PT11M29.00S,11:29,Q2 11:29,28,34,1610612737.0,Reddish,Reddish 2' Running Layup (7 PTS) (Young 1 AST),steal,2pt made,6,Low
+21900204,207,2pt,2,PT11M09.00S,11:09,Q2 11:09,28,36,1610612749.0,Antetokounmpo,G. Antetokounmpo 15' Turnaround Jump Shot (8 PTS),2pt made,2pt made,8,Low
+21900204,208,2pt,2,PT10M56.00S,10:56,Q2 10:56,30,36,1610612737.0,Young,Young 9' Driving Floating Jump Shot (7 PTS),2pt made,3pt missed,6,Low
+21900204,209,3pt,2,PT10M40.00S,10:40,Q2 10:40,30,36,1610612749.0,Antetokounmpo,MISS G. Antetokounmpo 25' 3PT Pullup Jump Shot,2pt made,rebound,6,Low
+21900204,210,rebound,2,PT10M34.00S,10:34,Q2 10:34,30,36,1610612737.0,Hunter,Hunter REBOUND (Off:0 Def:3),3pt missed,2pt made,6,Low
+21900204,212,2pt,2,PT10M15.00S,10:15,Q2 10:15,32,36,1610612737.0,Reddish,Reddish 17' Pullup Jump Shot (9 PTS) (Len 1 AST),rebound,3pt missed,4,Low
+21900204,214,3pt,2,PT09M55.00S,09:55,Q2 09:55,32,36,1610612749.0,Lopez,MISS R. Lopez 24' 3PT Jump Shot,2pt made,rebound,4,Low
+21900204,215,rebound,2,PT09M52.00S,09:52,Q2 09:52,32,36,1610612749.0,Lopez,R. Lopez REBOUND (Off:1 Def:0),3pt missed,2pt made,4,Low
+21900204,216,2pt,2,PT09M49.00S,09:49,Q2 09:49,32,38,1610612749.0,Lopez,R. Lopez 3' Hook Shot (2 PTS),rebound,3pt made,6,Low
+21900204,217,3pt,2,PT09M39.00S,09:39,Q2 09:39,35,38,1610612737.0,Young,Young 26' 3PT Pullup Jump Shot (10 PTS),2pt made,foul,3,Low
+21900204,218,foul,2,PT09M12.00S,09:12,Q2 09:12,35,38,1610612737.0,Parker,Parker S.FOUL (P2.T1) (R.Acosta),3pt made,freethrow,3,Low
+21900204,221,freethrow,2,PT09M12.00S,09:12,Q2 09:12,35,39,1610612749.0,Antetokounmpo,G. Antetokounmpo Free Throw 1 of 2 (9 PTS),foul,freethrow,4,Low
+21900204,230,freethrow,2,PT09M12.00S,09:12,Q2 09:12,35,40,1610612749.0,Antetokounmpo,G. Antetokounmpo Free Throw 2 of 2 (10 PTS),freethrow,substitution,5,Low
+21900204,222,substitution,2,PT09M12.00S,09:12,Q2 09:12,35,39,1610612737.0,Parker,SUB out: J. Parker,freethrow,substitution,4,Low
+21900204,223,substitution,2,PT09M12.00S,09:12,Q2 09:12,35,39,1610612749.0,Connaughton,SUB out: P. Connaughton,substitution,substitution,4,Low
+21900204,224,substitution,2,PT09M12.00S,09:12,Q2 09:12,35,39,1610612749.0,Lopez,SUB out: R. Lopez,substitution,substitution,4,Low
+21900204,225,substitution,2,PT09M12.00S,09:12,Q2 09:12,35,39,1610612749.0,Hill,SUB out: G. Hill,substitution,substitution,4,Low
+21900204,226,substitution,2,PT09M12.00S,09:12,Q2 09:12,35,39,1610612737.0,Carter,SUB in: V. Carter,substitution,substitution,4,Low
+21900204,227,substitution,2,PT09M12.00S,09:12,Q2 09:12,35,39,1610612749.0,Bledsoe,SUB in: E. Bledsoe,substitution,substitution,4,Low
+21900204,228,substitution,2,PT09M12.00S,09:12,Q2 09:12,35,39,1610612749.0,Lopez,SUB in: B. Lopez,substitution,substitution,4,Low
+21900204,229,substitution,2,PT09M12.00S,09:12,Q2 09:12,35,39,1610612749.0,DiVincenzo,SUB in: D. DiVincenzo,substitution,turnover,4,Low
+21900204,231,turnover,2,PT08M56.00S,08:56,Q2 08:56,35,40,1610612737.0,Young,Young Bad Pass Turnover (P2.T5),substitution,steal,5,Low
+21900204,231,steal,2,PT08M56.00S,08:56,Q2 08:56,35,40,1610612749.0,Korver,Korver STEAL (1 STL),turnover,2pt made,5,Low
+21900204,233,2pt,2,PT08M52.00S,08:52,Q2 08:52,35,42,1610612749.0,Antetokounmpo,G. Antetokounmpo 2' Running Dunk (12 PTS) (Bledsoe 2 AST),steal,2pt missed,7,Low
+21900204,235,2pt,2,PT08M29.00S,08:29,Q2 08:29,35,42,1610612737.0,Hunter,MISS Hunter 19' Step Back Jump Shot,2pt made,rebound,7,Low
+21900204,236,rebound,2,PT08M26.00S,08:26,Q2 08:26,35,42,1610612749.0,DiVincenzo,DiVincenzo REBOUND (Off:0 Def:1),2pt missed,2pt made,7,Low
+21900204,237,2pt,2,PT08M18.00S,08:18,Q2 08:18,35,44,1610612749.0,DiVincenzo,DiVincenzo 1' Cutting Layup Shot (2 PTS) (Bledsoe 3 AST),rebound,timeout,9,Low
+21900204,239,timeout,2,PT08M18.00S,08:18,Q2 08:18,35,44,1610612737.0,,HAWKS Timeout: Regular (Full 2 Short 0),2pt made,substitution,9,Low
+21900204,240,substitution,2,PT08M18.00S,08:18,Q2 08:18,35,44,1610612737.0,Len,SUB out: A. Len,timeout,substitution,9,Low
+21900204,241,substitution,2,PT08M18.00S,08:18,Q2 08:18,35,44,1610612749.0,Antetokounmpo,SUB out: G. Antetokounmpo,substitution,substitution,9,Low
+21900204,242,substitution,2,PT08M18.00S,08:18,Q2 08:18,35,44,1610612737.0,Jones,SUB in: D. Jones,substitution,substitution,9,Low
+21900204,243,substitution,2,PT08M18.00S,08:18,Q2 08:18,35,44,1610612749.0,Wilson,SUB in: D. Wilson,substitution,3pt made,9,Low
+21900204,244,3pt,2,PT08M07.00S,08:07,Q2 08:07,38,44,1610612737.0,Reddish,Reddish 26' 3PT Jump Shot (12 PTS) (Young 2 AST),substitution,foul,6,Low
+21900204,246,foul,2,PT07M52.00S,07:52,Q2 07:52,38,44,1610612737.0,Carter,Carter S.FOUL (P1.T2) (M.Ervin),3pt made,freethrow,6,Low
+21900204,254,freethrow,2,PT07M52.00S,07:52,Q2 07:52,38,45,1610612749.0,Lopez,B. Lopez Free Throw 1 of 2 (8 PTS),foul,freethrow,7,Low
+21900204,256,freethrow,2,PT07M52.00S,07:52,Q2 07:52,38,46,1610612749.0,Lopez,B. Lopez Free Throw 2 of 2 (9 PTS),freethrow,2pt made,8,Low
+21900204,259,2pt,2,PT07M39.00S,07:39,Q2 07:39,40,46,1610612737.0,Hunter,Hunter 2' Alley Oop Layup (9 PTS) (Young 3 AST),freethrow,3pt missed,6,Low
+21900204,261,3pt,2,PT07M25.00S,07:25,Q2 07:25,40,46,1610612749.0,Korver,MISS Korver 3PT Jump Shot,2pt made,rebound,6,Low
+21900204,262,rebound,2,PT07M22.00S,07:22,Q2 07:22,40,46,1610612737.0,Hunter,Hunter REBOUND (Off:0 Def:4),3pt missed,3pt made,6,Low
+21900204,263,3pt,2,PT07M17.00S,07:17,Q2 07:17,43,46,1610612737.0,Hunter,Hunter 25' 3PT Running Pull-Up Jump Shot (12 PTS),rebound,2pt missed,3,Low
+21900204,264,2pt,2,PT06M59.00S,06:59,Q2 06:59,43,46,1610612749.0,Bledsoe,MISS Bledsoe 15' Jump Shot,3pt made,rebound,3,Low
+21900204,265,rebound,2,PT06M56.00S,06:56,Q2 06:56,43,46,1610612749.0,DiVincenzo,DiVincenzo REBOUND (Off:1 Def:1),2pt missed,2pt made,3,Low
+21900204,266,2pt,2,PT06M55.00S,06:55,Q2 06:55,43,48,1610612749.0,DiVincenzo,DiVincenzo 1' Putback Layup (4 PTS),rebound,2pt missed,5,Low
+21900204,267,2pt,2,PT06M39.00S,06:39,Q2 06:39,43,48,1610612737.0,Young,MISS Young 12' Driving Layup,2pt made,block,5,Low
+21900204,267,block,2,PT06M39.00S,06:39,Q2 06:39,43,48,1610612749.0,Bledsoe,Bledsoe BLOCK (1 BLK),2pt missed,rebound,5,Low
+21900204,269,rebound,2,PT06M37.00S,06:37,Q2 06:37,43,48,1610612749.0,Wilson,Wilson REBOUND (Off:0 Def:2),block,foul,5,Low
+21900204,270,foul,2,PT06M36.00S,06:36,Q2 06:36,43,48,1610612737.0,Jones,Jones P.FOUL (P2.T3) (K.Fitzgerald),rebound,substitution,5,Low
+21900204,272,substitution,2,PT06M36.00S,06:36,Q2 06:36,43,48,1610612749.0,Korver,SUB out: K. Korver,foul,substitution,5,Low
+21900204,273,substitution,2,PT06M36.00S,06:36,Q2 06:36,43,48,1610612749.0,Matthews,SUB in: W. Matthews,substitution,3pt missed,5,Low
+21900204,274,3pt,2,PT06M31.00S,06:31,Q2 06:31,43,48,1610612749.0,Bledsoe,MISS Bledsoe 25' 3PT Jump Shot,substitution,rebound,5,Low
+21900204,275,rebound,2,PT06M28.00S,06:28,Q2 06:28,43,48,1610612737.0,Hunter,Hunter REBOUND (Off:0 Def:5),3pt missed,turnover,5,Low
+21900204,276,turnover,2,PT06M13.00S,06:13,Q2 06:13,43,48,1610612737.0,Reddish,Reddish Bad Pass Turnover (P3.T6),rebound,steal,5,Low
+21900204,276,steal,2,PT06M13.00S,06:13,Q2 06:13,43,48,1610612749.0,Lopez,B. Lopez STEAL (2 STL),turnover,turnover,5,Low
+21900204,280,turnover,2,PT06M09.00S,06:09,Q2 06:09,43,48,1610612749.0,Bledsoe,Bledsoe Out of Bounds Lost Ball Turnover (P2.T7),steal,2pt missed,5,Low
+21900204,281,2pt,2,PT05M52.00S,05:52,Q2 05:52,43,48,1610612737.0,Hunter,MISS Hunter 7' Fadeaway Jumper,turnover,rebound,5,Low
+21900204,282,rebound,2,PT05M49.00S,05:49,Q2 05:49,43,48,1610612749.0,DiVincenzo,DiVincenzo REBOUND (Off:1 Def:2),2pt missed,2pt made,5,Low
+21900204,287,2pt,2,PT05M37.00S,05:37,Q2 05:37,43,50,1610612749.0,Matthews,Matthews 11' Turnaround Jump Shot (4 PTS),rebound,2pt made,7,Low
+21900204,288,2pt,2,PT05M18.00S,05:18,Q2 05:18,45,50,1610612737.0,Jones,Jones 1' Dunk (2 PTS) (Young 4 AST),2pt made,foul,5,Low
+21900204,290,foul,2,PT05M04.00S,05:04,Q2 05:04,45,50,1610612737.0,Reddish,Reddish S.FOUL (P2.T4) (K.Fitzgerald),2pt made,freethrow,5,Low
+21900204,292,freethrow,2,PT05M04.00S,05:04,Q2 05:04,45,51,1610612749.0,Bledsoe,Bledsoe Free Throw 1 of 2 (8 PTS),foul,freethrow,6,Low
+21900204,301,freethrow,2,PT05M04.00S,05:04,Q2 05:04,45,52,1610612749.0,Bledsoe,Bledsoe Free Throw 2 of 2 (9 PTS),freethrow,substitution,7,Low
+21900204,293,substitution,2,PT05M04.00S,05:04,Q2 05:04,45,51,1610612737.0,Hunter,SUB out: D. Hunter,freethrow,substitution,6,Low
+21900204,294,substitution,2,PT05M04.00S,05:04,Q2 05:04,45,51,1610612737.0,Carter,SUB out: V. Carter,substitution,substitution,6,Low
+21900204,295,substitution,2,PT05M04.00S,05:04,Q2 05:04,45,51,1610612737.0,Reddish,SUB out: C. Reddish,substitution,substitution,6,Low
+21900204,296,substitution,2,PT05M04.00S,05:04,Q2 05:04,45,51,1610612749.0,Lopez,SUB out: B. Lopez,substitution,substitution,6,Low
+21900204,297,substitution,2,PT05M04.00S,05:04,Q2 05:04,45,51,1610612737.0,Parker,SUB in: J. Parker,substitution,substitution,6,Low
+21900204,298,substitution,2,PT05M04.00S,05:04,Q2 05:04,45,51,1610612737.0,Bembry,SUB in: D. Bembry,substitution,substitution,6,Low
+21900204,299,substitution,2,PT05M04.00S,05:04,Q2 05:04,45,51,1610612737.0,Crabbe,SUB in: A. Crabbe,substitution,substitution,6,Low
+21900204,300,substitution,2,PT05M04.00S,05:04,Q2 05:04,45,51,1610612749.0,Lopez,SUB in: R. Lopez,substitution,2pt made,6,Low
+21900204,302,2pt,2,PT04M56.00S,04:56,Q2 04:56,47,52,1610612737.0,Young,Young 9' Driving Floating Jump Shot (12 PTS),substitution,2pt missed,5,Low
+21900204,303,2pt,2,PT04M45.00S,04:45,Q2 04:45,47,52,1610612749.0,Bledsoe,MISS Bledsoe 7' Driving Floating Jump Shot,2pt made,rebound,5,Low
+21900204,304,rebound,2,PT04M42.00S,04:42,Q2 04:42,47,52,1610612749.0,Bledsoe,Bledsoe REBOUND (Off:1 Def:0),2pt missed,3pt missed,5,Low
+21900204,305,3pt,2,PT04M40.00S,04:40,Q2 04:40,47,52,1610612749.0,Wilson,MISS Wilson 26' 3PT Jump Shot,rebound,rebound,5,Low
+21900204,306,rebound,2,PT04M37.00S,04:37,Q2 04:37,47,52,1610612737.0,Young,Young REBOUND (Off:0 Def:1),3pt missed,2pt missed,5,Low
+21900204,307,2pt,2,PT04M31.00S,04:31,Q2 04:31,47,52,1610612737.0,Young,MISS Young 2' Driving Layup,rebound,rebound,5,Low
+21900204,308,rebound,2,PT04M29.00S,04:29,Q2 04:29,47,52,1610612749.0,Bledsoe,Bledsoe REBOUND (Off:1 Def:1),2pt missed,3pt missed,5,Low
+21900204,309,3pt,2,PT04M26.00S,04:26,Q2 04:26,47,52,1610612749.0,Bledsoe,MISS Bledsoe 26' 3PT Jump Shot,rebound,rebound,5,Low
+21900204,310,rebound,2,PT04M23.00S,04:23,Q2 04:23,47,52,1610612737.0,Jones,Jones REBOUND (Off:1 Def:1),3pt missed,2pt missed,5,Low
+21900204,311,2pt,2,PT04M08.00S,04:08,Q2 04:08,47,52,1610612737.0,Parker,MISS Parker 3' Driving Layup,rebound,rebound,5,Low
+21900204,312,rebound,2,PT04M04.00S,04:04,Q2 04:04,47,52,1610612737.0,Parker,Parker REBOUND (Off:1 Def:1),2pt missed,2pt made,5,Low
+21900204,313,2pt,2,PT04M04.00S,04:04,Q2 04:04,49,52,1610612737.0,Parker,Parker 1' Tip Layup Shot (4 PTS),rebound,2pt missed,3,Low
+21900204,314,2pt,2,PT03M42.00S,03:42,Q2 03:42,49,52,1610612749.0,Bledsoe,MISS Bledsoe 22' Pullup Jump Shot,2pt made,rebound,3,Low
+21900204,315,rebound,2,PT03M39.00S,03:39,Q2 03:39,49,52,1610612737.0,Bembry,Bembry REBOUND (Off:0 Def:3),2pt missed,2pt missed,3,Low
+21900204,318,2pt,2,PT03M30.00S,03:30,Q2 03:30,49,52,1610612737.0,Parker,MISS Parker 3' Cutting Layup Shot,rebound,rebound,3,Low
+21900204,319,rebound,2,PT03M27.00S,03:27,Q2 03:27,49,52,1610612737.0,Jones,Jones REBOUND (Off:2 Def:1),2pt missed,2pt missed,3,Low
+21900204,322,2pt,2,PT03M23.00S,03:23,Q2 03:23,49,52,1610612737.0,Jones,MISS Jones 1' Tip Dunk Shot,rebound,rebound,3,Low
+21900204,323,rebound,2,PT03M23.00S,03:23,Q2 03:23,49,52,1610612749.0,Bledsoe,Bledsoe REBOUND (Off:1 Def:2),2pt missed,turnover,3,Low
+21900204,333,turnover,2,PT03M23.00S,03:23,Q2 03:23,49,52,1610612749.0,Bledsoe,Bledsoe Out of Bounds - Bad Pass Turnover Turnover (P3.T8),rebound,substitution,3,Low
+21900204,324,substitution,2,PT03M23.00S,03:23,Q2 03:23,49,52,1610612737.0,Young,SUB out: T. Young,turnover,substitution,3,Low
+21900204,325,substitution,2,PT03M23.00S,03:23,Q2 03:23,49,52,1610612749.0,Wilson,SUB out: D. Wilson,substitution,substitution,3,Low
+21900204,326,substitution,2,PT03M23.00S,03:23,Q2 03:23,49,52,1610612749.0,Bledsoe,SUB out: E. Bledsoe,substitution,substitution,3,Low
+21900204,327,substitution,2,PT03M23.00S,03:23,Q2 03:23,49,52,1610612737.0,Turner,SUB in: E. Turner,substitution,substitution,3,Low
+21900204,328,substitution,2,PT03M23.00S,03:23,Q2 03:23,49,52,1610612749.0,Hill,SUB in: G. Hill,substitution,substitution,3,Low
+21900204,329,substitution,2,PT03M23.00S,03:23,Q2 03:23,49,52,1610612749.0,Antetokounmpo,SUB in: G. Antetokounmpo,substitution,2pt missed,3,Low
+21900204,330,2pt,2,PT03M09.00S,03:09,Q2 03:09,49,52,1610612737.0,Parker,MISS Parker 3' Layup,substitution,rebound,3,Low
+21900204,331,rebound,2,PT03M09.00S,03:09,Q2 03:09,49,52,1610612749.0,,TEAM defensive REBOUND,2pt missed,timeout,3,Low
+21900204,332,timeout,2,PT03M09.00S,03:09,Q2 03:09,49,52,1610612749.0,,Bucks Timeout: Regular (Reg.2 Short 0),rebound,substitution,3,Low
+21900204,334,substitution,2,PT03M09.00S,03:09,Q2 03:09,49,52,1610612749.0,DiVincenzo,SUB out: D. DiVincenzo,timeout,substitution,3,Low
+21900204,335,substitution,2,PT03M09.00S,03:09,Q2 03:09,49,52,1610612749.0,Korver,SUB in: K. Korver,substitution,turnover,3,Low
+21900204,336,turnover,2,PT02M56.00S,02:56,Q2 02:56,49,52,1610612749.0,Korver,Korver Out of Bounds - Bad Pass Turnover Turnover (P2.T9),substitution,3pt made,3,Low
+21900204,337,3pt,2,PT02M39.00S,02:39,Q2 02:39,52,52,1610612737.0,Parker,Parker 26' 3PT Jump Shot (7 PTS) (Turner 2 AST),turnover,3pt missed,0,Low
+21900204,339,3pt,2,PT02M25.00S,02:25,Q2 02:25,52,52,1610612749.0,Hill,MISS Hill 26' 3PT Step Back Jump Shot,3pt made,rebound,0,Low
+21900204,340,rebound,2,PT02M20.00S,02:20,Q2 02:20,52,52,1610612737.0,Parker,Parker REBOUND (Off:1 Def:2),3pt missed,2pt made,0,Low
+21900204,341,2pt,2,PT02M16.00S,02:16,Q2 02:16,54,52,1610612737.0,Jones,Jones 2' Alley Oop Dunk (4 PTS) (Turner 3 AST),rebound,3pt missed,2,Low
+21900204,343,3pt,2,PT01M56.00S,01:56,Q2 01:56,54,52,1610612749.0,Korver,MISS Korver 26' 3PT Jump Shot,2pt made,rebound,2,Low
+21900204,344,rebound,2,PT01M53.00S,01:53,Q2 01:53,54,52,1610612737.0,Jones,Jones REBOUND (Off:2 Def:2),3pt missed,2pt made,2,Low
+21900204,345,2pt,2,PT01M43.00S,01:43,Q2 01:43,56,52,1610612737.0,Turner,Turner 6' Turnaround Jump Shot (2 PTS),rebound,3pt made,4,Low
+21900204,346,3pt,2,PT01M29.00S,01:29,Q2 01:29,56,55,1610612749.0,Matthews,Matthews 25' 3PT Pullup Jump Shot (7 PTS) (G. Antetokounmpo 2 AST),2pt made,3pt made,1,Low
+21900204,348,3pt,2,PT01M10.00S,01:10,Q2 01:10,59,55,1610612737.0,Parker,Parker 25' 3PT Jump Shot (10 PTS) (Crabbe 1 AST),3pt made,3pt missed,4,Low
+21900204,350,3pt,2,PT00M51.70S,00:51,Q2 00:51,59,55,1610612749.0,Antetokounmpo,MISS G. Antetokounmpo 26' 3PT Jump Shot,3pt made,rebound,4,Low
+21900204,351,rebound,2,PT00M49.40S,00:49,Q2 00:49,59,55,1610612737.0,Jones,Jones REBOUND (Off:2 Def:3),3pt missed,foul,4,Low
+21900204,352,foul,2,PT00M41.50S,00:41,Q2 00:41,59,55,1610612749.0,Korver,Korver S.FOUL (P1.T1) (K.Fitzgerald),rebound,freethrow,4,Low
+21900204,354,freethrow,2,PT00M41.50S,00:41,Q2 00:41,60,55,1610612737.0,Crabbe,Crabbe Free Throw 1 of 3 (6 PTS),foul,freethrow,5,Low
+21900204,355,freethrow,2,PT00M41.50S,00:41,Q2 00:41,60,55,1610612737.0,Crabbe,MISS Crabbe Free Throw 2 of 3,freethrow,rebound,5,Low
+21900204,356,rebound,2,PT00M41.50S,00:41,Q2 00:41,60,55,1610612737.0,,TEAM offensive REBOUND,freethrow,freethrow,5,Low
+21900204,363,freethrow,2,PT00M41.50S,00:41,Q2 00:41,61,55,1610612737.0,Crabbe,Crabbe Free Throw 3 of 3 (7 PTS),rebound,substitution,6,Low
+21900204,357,substitution,2,PT00M41.50S,00:41,Q2 00:41,60,55,1610612737.0,Parker,SUB out: J. Parker,freethrow,substitution,5,Low
+21900204,358,substitution,2,PT00M41.50S,00:41,Q2 00:41,60,55,1610612749.0,Lopez,SUB out: R. Lopez,substitution,substitution,5,Low
+21900204,359,substitution,2,PT00M41.50S,00:41,Q2 00:41,60,55,1610612737.0,Jones,SUB out: D. Jones,substitution,substitution,5,Low
+21900204,360,substitution,2,PT00M41.50S,00:41,Q2 00:41,60,55,1610612737.0,Carter,SUB in: V. Carter,substitution,substitution,5,Low
+21900204,361,substitution,2,PT00M41.50S,00:41,Q2 00:41,60,55,1610612749.0,Brown,SUB in: S. Brown,substitution,substitution,5,Low
+21900204,362,substitution,2,PT00M41.50S,00:41,Q2 00:41,60,55,1610612737.0,Hunter,SUB in: D. Hunter,substitution,3pt missed,5,Low
+21900204,364,3pt,2,PT00M33.50S,00:33,Q2 00:33,61,55,1610612749.0,Korver,MISS Korver 25' 3PT Jump Shot,substitution,rebound,6,Low
+21900204,365,rebound,2,PT00M30.20S,00:30,Q2 00:30,61,55,1610612737.0,Hunter,Hunter REBOUND (Off:0 Def:6),3pt missed,2pt missed,6,Low
+21900204,366,2pt,2,PT00M10.40S,00:10,Q2 00:10,61,55,1610612737.0,Carter,MISS Carter 7' Driving Floating Jump Shot,rebound,rebound,6,Low
+21900204,367,rebound,2,PT00M07.60S,00:07,Q2 00:07,61,55,1610612749.0,Antetokounmpo,G. Antetokounmpo REBOUND (Off:0 Def:4),2pt missed,3pt made,6,Low
+21900204,368,3pt,2,PT00M02.10S,00:02,Q2 00:02,61,58,1610612749.0,Korver,Korver 26' 3PT Jump Shot (6 PTS) (Matthews 3 AST),rebound,3pt missed,3,Low
+21900204,370,3pt,2,PT00M00.00S,00:00,Q2 00:00,61,58,1610612737.0,Crabbe,MISS Crabbe 49' 3PT Jump Shot,3pt made,rebound,3,Low
+21900204,371,rebound,2,PT00M00.00S,00:00,Q2 00:00,61,58,1610612737.0,,TEAM offensive REBOUND,3pt missed,period,3,Low
+21900204,372,period,2,PT00M00.00S,00:00,Q2 00:00,61,58,1610612737.0,,End of 2nd Period (8:38 PM EST),rebound,period,3,Low
+21900204,387,period,3,PT12M00.00S,12:00,Q3 12:00,61,58,1610612737.0,,Start of 3rd Period (8:56 PM EST),period,substitution,3,Low
+21900204,388,2pt,3,PT11M47.00S,11:47,Q3 11:47,61,58,1610612737.0,Reddish,MISS Reddish 12' Turnaround Jump Shot,substitution,rebound,3,Low
+21900204,389,rebound,3,PT11M43.00S,11:43,Q3 11:43,61,58,1610612749.0,Antetokounmpo,G. Antetokounmpo REBOUND (Off:0 Def:5),2pt missed,foul,3,Low
+21900204,390,foul,3,PT11M42.00S,11:42,Q3 11:42,61,58,1610612737.0,Reddish,Reddish S.FOUL (P3.T1) (K.Fitzgerald),rebound,freethrow,3,Low
+21900204,392,freethrow,3,PT11M42.00S,11:42,Q3 11:42,61,59,1610612749.0,Antetokounmpo,G. Antetokounmpo Free Throw 1 of 2 (13 PTS),foul,freethrow,2,Low
+21900204,393,freethrow,3,PT11M42.00S,11:42,Q3 11:42,61,59,1610612749.0,Antetokounmpo,MISS G. Antetokounmpo Free Throw 2 of 2,freethrow,rebound,2,Low
+21900204,394,rebound,3,PT11M42.00S,11:42,Q3 11:42,61,59,1610612737.0,,TEAM defensive REBOUND,freethrow,2pt missed,2,Low
+21900204,395,2pt,3,PT11M32.00S,11:32,Q3 11:32,61,59,1610612737.0,Jones,MISS Jones 1' Dunk,rebound,block,2,Low
+21900204,395,block,3,PT11M32.00S,11:32,Q3 11:32,61,59,1610612749.0,Lopez,B. Lopez BLOCK (1 BLK),2pt missed,rebound,2,Low
+21900204,397,rebound,3,PT11M29.00S,11:29,Q3 11:29,61,59,1610612749.0,Bledsoe,Bledsoe REBOUND (Off:1 Def:3),block,foul,2,Low
+21900204,398,foul,3,PT11M27.00S,11:27,Q3 11:27,61,59,1610612737.0,Hunter,Hunter S.FOUL (P2.T2) (M.Ervin),rebound,freethrow,2,Low
+21900204,400,freethrow,3,PT11M27.00S,11:27,Q3 11:27,61,60,1610612749.0,Bledsoe,Bledsoe Free Throw 1 of 2 (10 PTS),foul,freethrow,1,Low
+21900204,401,freethrow,3,PT11M27.00S,11:27,Q3 11:27,61,61,1610612749.0,Bledsoe,Bledsoe Free Throw 2 of 2 (11 PTS),freethrow,foul,0,Low
+21900204,402,foul,3,PT11M14.00S,11:14,Q3 11:14,61,61,1610612749.0,Bledsoe,Bledsoe S.FOUL (P3.T1) (K.Fitzgerald),freethrow,freethrow,0,Low
+21900204,404,freethrow,3,PT11M14.00S,11:14,Q3 11:14,62,61,1610612737.0,Jones,Jones Free Throw 1 of 2 (5 PTS),foul,freethrow,1,Low
+21900204,405,freethrow,3,PT11M14.00S,11:14,Q3 11:14,63,61,1610612737.0,Jones,Jones Free Throw 2 of 2 (6 PTS),freethrow,turnover,2,Low
+21900204,406,turnover,3,PT11M03.00S,11:03,Q3 11:03,63,61,1610612749.0,Bledsoe,Bledsoe Out of Bounds - Bad Pass Turnover Turnover (P4.T10),freethrow,2pt missed,2,Low
+21900204,407,2pt,3,PT10M51.00S,10:51,Q3 10:51,63,61,1610612737.0,Young,MISS Young 16' Driving Floating Jump Shot,turnover,rebound,2,Low
+21900204,408,rebound,3,PT10M47.00S,10:47,Q3 10:47,63,61,1610612749.0,Antetokounmpo,G. Antetokounmpo REBOUND (Off:0 Def:6),2pt missed,3pt made,2,Low
+21900204,409,3pt,3,PT10M41.00S,10:41,Q3 10:41,63,64,1610612749.0,Lopez,B. Lopez 26' 3PT Jump Shot (12 PTS) (G. Antetokounmpo 3 AST),rebound,2pt missed,1,Low
+21900204,411,2pt,3,PT10M30.00S,10:30,Q3 10:30,63,64,1610612737.0,Young,MISS Young 16' Driving Floating Jump Shot,3pt made,rebound,1,Low
+21900204,412,rebound,3,PT10M28.00S,10:28,Q3 10:28,63,64,1610612749.0,Lopez,B. Lopez REBOUND (Off:0 Def:4),2pt missed,3pt made,1,Low
+21900204,413,3pt,3,PT10M20.00S,10:20,Q3 10:20,63,67,1610612749.0,Matthews,Matthews 25' 3PT Jump Shot (10 PTS) (B. Lopez 1 AST),rebound,timeout,4,Low
+21900204,415,timeout,3,PT10M19.00S,10:19,Q3 10:19,63,67,1610612737.0,,HAWKS Timeout: Regular (Full 3 Short 0),3pt made,3pt missed,4,Low
+21900204,417,3pt,3,PT10M02.00S,10:02,Q3 10:02,63,67,1610612737.0,Jones,MISS Jones 24' 3PT Jump Shot,timeout,rebound,4,Low
+21900204,418,rebound,3,PT09M59.00S,09:59,Q3 09:59,63,67,1610612749.0,,TEAM defensive REBOUND,3pt missed,2pt made,4,Low
+21900204,419,2pt,3,PT09M49.00S,09:49,Q3 09:49,63,69,1610612749.0,Antetokounmpo,G. Antetokounmpo 9' Driving Hook Shot (15 PTS),rebound,3pt missed,6,Low
+21900204,421,3pt,3,PT09M28.00S,09:28,Q3 09:28,63,69,1610612737.0,Parker,MISS Parker 25' 3PT Jump Shot,2pt made,rebound,6,Low
+21900204,422,rebound,3,PT09M25.00S,09:25,Q3 09:25,63,69,1610612749.0,Matthews,Matthews REBOUND (Off:0 Def:1),3pt missed,2pt made,6,Low
+21900204,423,2pt,3,PT09M18.00S,09:18,Q3 09:18,63,71,1610612749.0,Antetokounmpo,G. Antetokounmpo 1' Dunk (17 PTS),rebound,foul,8,Low
+21900204,424,foul,3,PT09M03.00S,09:03,Q3 09:03,63,71,1610612749.0,Antetokounmpo,G. Antetokounmpo P.FOUL (P2.T2) (M.Ervin),2pt made,foul,8,Low
+21900204,426,foul,3,PT09M01.00S,09:01,Q3 09:01,63,71,1610612749.0,Bledsoe,Bledsoe P.FOUL (P4.T3) (R.Acosta),foul,substitution,8,Low
+21900204,428,substitution,3,PT09M01.00S,09:01,Q3 09:01,63,71,1610612749.0,Bledsoe,SUB out: E. Bledsoe,foul,substitution,8,Low
+21900204,429,substitution,3,PT09M01.00S,09:01,Q3 09:01,63,71,1610612749.0,Hill,SUB in: G. Hill,substitution,foul,8,Low
+21900204,430,foul,3,PT08M56.00S,08:56,Q3 08:56,63,71,1610612737.0,Hunter,Hunter OFF.Foul (P3) (K.Fitzgerald),substitution,turnover,8,Low
+21900204,432,turnover,3,PT08M56.00S,08:56,Q3 08:56,63,71,1610612737.0,Hunter,Hunter Offensive Foul Turnover (P1.T7),foul,substitution,8,Low
+21900204,433,substitution,3,PT08M56.00S,08:56,Q3 08:56,63,71,1610612737.0,Hunter,SUB out: D. Hunter,turnover,substitution,8,Low
+21900204,434,substitution,3,PT08M56.00S,08:56,Q3 08:56,63,71,1610612737.0,Crabbe,SUB in: A. Crabbe,substitution,3pt missed,8,Low
+21900204,435,3pt,3,PT08M47.00S,08:47,Q3 08:47,63,71,1610612749.0,DiVincenzo,MISS DiVincenzo 25' 3PT Step Back Jump Shot,substitution,rebound,8,Low
+21900204,436,rebound,3,PT08M44.00S,08:44,Q3 08:44,63,71,1610612737.0,Jones,Jones REBOUND (Off:2 Def:4),3pt missed,3pt missed,8,Low
+21900204,437,3pt,3,PT08M38.00S,08:38,Q3 08:38,63,71,1610612737.0,Young,MISS Young 26' 3PT Pullup Jump Shot,rebound,rebound,8,Low
+21900204,438,rebound,3,PT08M35.00S,08:35,Q3 08:35,63,71,1610612749.0,Matthews,Matthews REBOUND (Off:0 Def:2),3pt missed,2pt made,8,Low
+21900204,439,2pt,3,PT08M31.00S,08:31,Q3 08:31,63,73,1610612749.0,Antetokounmpo,G. Antetokounmpo 1' Running Layup (19 PTS),rebound,turnover,10,Low
+21900204,441,turnover,3,PT08M15.00S,08:15,Q3 08:15,63,73,1610612737.0,Reddish,Reddish Bad Pass Turnover (P4.T8),2pt made,steal,10,Low
+21900204,441,steal,3,PT08M15.00S,08:15,Q3 08:15,63,73,1610612749.0,DiVincenzo,DiVincenzo STEAL (2 STL),turnover,3pt missed,10,Low
+21900204,443,3pt,3,PT08M08.00S,08:08,Q3 08:08,63,73,1610612749.0,Matthews,MISS Matthews 24' 3PT Pullup Jump Shot,steal,rebound,10,Low
+21900204,444,rebound,3,PT08M06.00S,08:06,Q3 08:06,63,73,1610612737.0,Jones,Jones REBOUND (Off:2 Def:5),3pt missed,foul,10,Low
+21900204,445,foul,3,PT08M02.00S,08:02,Q3 08:02,63,73,1610612749.0,Lopez,B. Lopez S.FOUL (P2.T4) (M.Ervin),rebound,freethrow,10,Low
+21900204,447,freethrow,3,PT08M02.00S,08:02,Q3 08:02,63,73,1610612737.0,Reddish,MISS Reddish Free Throw 1 of 2,foul,rebound,10,Low
+21900204,448,rebound,3,PT08M02.00S,08:02,Q3 08:02,63,73,1610612737.0,,TEAM offensive REBOUND,freethrow,freethrow,10,Low
+21900204,449,freethrow,3,PT08M02.00S,08:02,Q3 08:02,64,73,1610612737.0,Reddish,Reddish Free Throw 2 of 2 (13 PTS),rebound,2pt made,9,Low
+21900204,450,2pt,3,PT07M48.00S,07:48,Q3 07:48,64,75,1610612749.0,Antetokounmpo,G. Antetokounmpo 7' Turnaround Hook Shot (21 PTS),freethrow,2pt made,11,Low
+21900204,452,2pt,3,PT07M31.00S,07:31,Q3 07:31,66,75,1610612737.0,Jones,Jones 1' Dunk (8 PTS) (Young 5 AST),2pt made,2pt made,9,Low
+21900204,454,2pt,3,PT07M23.00S,07:23,Q3 07:23,66,77,1610612749.0,Antetokounmpo,G. Antetokounmpo 11' Driving Floating Jump Shot (23 PTS),2pt made,foul,11,Low
+21900204,455,foul,3,PT07M23.00S,07:23,Q3 07:23,66,77,1610612737.0,Jones,Jones S.FOUL (P3.T3) (M.Ervin),2pt made,freethrow,11,Low
+21900204,463,freethrow,3,PT07M23.00S,07:23,Q3 07:23,66,78,1610612749.0,Antetokounmpo,G. Antetokounmpo Free Throw 1 of 1 (24 PTS),foul,substitution,12,Low
+21900204,457,substitution,3,PT07M23.00S,07:23,Q3 07:23,66,77,1610612737.0,Reddish,SUB out: C. Reddish,freethrow,substitution,11,Low
+21900204,458,substitution,3,PT07M23.00S,07:23,Q3 07:23,66,77,1610612737.0,Young,SUB out: T. Young,substitution,substitution,11,Low
+21900204,459,substitution,3,PT07M23.00S,07:23,Q3 07:23,66,77,1610612737.0,Jones,SUB out: D. Jones,substitution,substitution,11,Low
+21900204,460,substitution,3,PT07M23.00S,07:23,Q3 07:23,66,77,1610612737.0,Bembry,SUB in: D. Bembry,substitution,substitution,11,Low
+21900204,461,substitution,3,PT07M23.00S,07:23,Q3 07:23,66,77,1610612737.0,Turner,SUB in: E. Turner,substitution,substitution,11,Low
+21900204,462,substitution,3,PT07M23.00S,07:23,Q3 07:23,66,77,1610612737.0,Fernando,SUB in: B. Fernando,substitution,foul,11,Low
+21900204,464,foul,3,PT07M12.00S,07:12,Q3 07:12,66,78,1610612737.0,Parker,Parker OFF.Foul (P3) (K.Fitzgerald),substitution,turnover,12,Low
+21900204,466,turnover,3,PT07M12.00S,07:12,Q3 07:12,66,78,1610612737.0,Parker,Parker Offensive Foul Turnover (P2.T9),foul,2pt missed,12,Low
+21900204,468,2pt,3,PT06M58.00S,06:58,Q3 06:58,66,78,1610612749.0,Matthews,MISS Matthews 2' Driving Layup,turnover,rebound,12,Low
+21900204,469,rebound,3,PT06M56.00S,06:56,Q3 06:56,66,78,1610612749.0,Lopez,B. Lopez REBOUND (Off:1 Def:4),2pt missed,2pt missed,12,Low
+21900204,558,2pt,3,PT06M56.00S,06:56,Q3 06:56,66,78,1610612749.0,Lopez,MISS B. Lopez 2' Tip Layup Shot,rebound,block,12,Low
+21900204,558,block,3,PT06M56.00S,06:56,Q3 06:56,66,78,1610612737.0,Bembry,Bembry BLOCK (2 BLK),2pt missed,rebound,12,Low
+21900204,560,rebound,3,PT06M56.00S,06:56,Q3 06:56,66,78,1610612737.0,,TEAM defensive REBOUND,block,substitution,12,Low
+21900204,470,substitution,3,PT06M56.00S,06:56,Q3 06:56,66,78,1610612737.0,Parker,SUB out: J. Parker,rebound,substitution,12,Low
+21900204,471,substitution,3,PT06M56.00S,06:56,Q3 06:56,66,78,1610612737.0,Carter,SUB in: V. Carter,substitution,2pt made,12,Low
+21900204,472,2pt,3,PT06M38.00S,06:38,Q3 06:38,68,78,1610612737.0,Fernando,Fernando 1' Cutting Layup Shot (2 PTS) (Carter 1 AST),substitution,3pt missed,10,Low
+21900204,474,3pt,3,PT06M29.00S,06:29,Q3 06:29,68,78,1610612749.0,Lopez,MISS B. Lopez 25' 3PT Jump Shot,2pt made,rebound,10,Low
+21900204,475,rebound,3,PT06M23.00S,06:23,Q3 06:23,68,78,1610612737.0,Fernando,Fernando REBOUND (Off:1 Def:3),3pt missed,2pt made,10,Low
+21900204,476,2pt,3,PT06M18.00S,06:18,Q3 06:18,70,78,1610612737.0,Turner,Turner 7' Driving Layup (4 PTS),rebound,foul,8,Low
+21900204,477,foul,3,PT06M18.00S,06:18,Q3 06:18,70,78,1610612749.0,Hill,Hill S.FOUL (P2.PN) (K.Fitzgerald),2pt made,timeout,8,Low
+21900204,479,timeout,3,PT06M18.00S,06:18,Q3 06:18,70,78,1610612749.0,,Bucks Timeout: Regular (Reg.3 Short 0),foul,freethrow,8,Low
+21900204,480,freethrow,3,PT06M18.00S,06:18,Q3 06:18,71,78,1610612737.0,Turner,Turner Free Throw 1 of 1 (5 PTS),timeout,2pt missed,7,Low
+21900204,481,2pt,3,PT06M02.00S,06:02,Q3 06:02,71,78,1610612749.0,Lopez,MISS B. Lopez 2' Alley Oop Layup,freethrow,rebound,7,Low
+21900204,482,rebound,3,PT06M02.00S,06:02,Q3 06:02,71,78,1610612749.0,,TEAM offensive REBOUND,2pt missed,foul,7,Low
+21900204,483,foul,3,PT06M02.00S,06:02,Q3 06:02,71,78,1610612737.0,Fernando,Fernando L.B.FOUL (P1.T4) (K.Fitzgerald),rebound,substitution,7,Low
+21900204,485,substitution,3,PT06M02.00S,06:02,Q3 06:02,71,78,1610612749.0,DiVincenzo,SUB out: D. DiVincenzo,foul,substitution,7,Low
+21900204,486,substitution,3,PT06M02.00S,06:02,Q3 06:02,71,78,1610612749.0,Brown,SUB in: S. Brown,substitution,3pt missed,7,Low
+21900204,487,3pt,3,PT05M58.00S,05:58,Q3 05:58,71,78,1610612749.0,Antetokounmpo,MISS G. Antetokounmpo 25' 3PT Jump Shot,substitution,rebound,7,Low
+21900204,488,rebound,3,PT05M54.00S,05:54,Q3 05:54,71,78,1610612737.0,Crabbe,Crabbe REBOUND (Off:0 Def:1),3pt missed,2pt made,7,Low
+21900204,489,2pt,3,PT05M42.00S,05:42,Q3 05:42,73,78,1610612737.0,Turner,Turner 11' Driving Floating Jump Shot (7 PTS),rebound,turnover,5,Low
+21900204,490,turnover,3,PT05M27.00S,05:27,Q3 05:27,73,78,1610612749.0,Hill,Hill Step Out of Bounds Turnover (P1.T11),2pt made,3pt made,5,Low
+21900204,491,3pt,3,PT05M14.00S,05:14,Q3 05:14,76,78,1610612737.0,Crabbe,Crabbe 27' 3PT Jump Shot (10 PTS) (Fernando 2 AST),turnover,2pt made,2,Low
+21900204,493,2pt,3,PT04M59.00S,04:59,Q3 04:59,76,80,1610612749.0,Antetokounmpo,G. Antetokounmpo 2' Cutting Dunk Shot (26 PTS) (Hill 3 AST),3pt made,turnover,4,Low
+21900204,495,turnover,3,PT04M33.00S,04:33,Q3 04:33,76,80,1610612737.0,Crabbe,Crabbe Lost Ball Turnover (P1.T10),2pt made,steal,4,Low
+21900204,495,steal,3,PT04M33.00S,04:33,Q3 04:33,76,80,1610612749.0,Matthews,Matthews STEAL (1 STL),turnover,3pt made,4,Low
+21900204,497,3pt,3,PT04M21.00S,04:21,Q3 04:21,76,83,1610612749.0,Antetokounmpo,G. Antetokounmpo 25' 3PT Pullup Jump Shot (29 PTS),steal,2pt missed,7,Low
+21900204,498,2pt,3,PT04M05.00S,04:05,Q3 04:05,76,83,1610612737.0,Turner,MISS Turner 11' Pullup Jump Shot,3pt made,rebound,7,Low
+21900204,499,rebound,3,PT04M02.00S,04:02,Q3 04:02,76,83,1610612749.0,Brown,Brown REBOUND (Off:0 Def:2),2pt missed,foul,7,Low
+21900204,500,foul,3,PT03M55.00S,03:55,Q3 03:55,76,83,1610612737.0,Bembry,Bembry P.FOUL (P1.PN) (R.Acosta),rebound,freethrow,7,Low
+21900204,502,freethrow,3,PT03M55.00S,03:55,Q3 03:55,76,83,1610612749.0,Antetokounmpo,MISS G. Antetokounmpo Free Throw 1 of 2,foul,rebound,7,Low
+21900204,503,rebound,3,PT03M55.00S,03:55,Q3 03:55,76,83,1610612749.0,,TEAM offensive REBOUND,freethrow,freethrow,7,Low
+21900204,508,freethrow,3,PT03M55.00S,03:55,Q3 03:55,76,83,1610612749.0,Antetokounmpo,MISS G. Antetokounmpo Free Throw 2 of 2,rebound,substitution,7,Low
+21900204,504,substitution,3,PT03M55.00S,03:55,Q3 03:55,76,83,1610612749.0,Matthews,SUB out: W. Matthews,freethrow,substitution,7,Low
+21900204,505,substitution,3,PT03M55.00S,03:55,Q3 03:55,76,83,1610612749.0,Lopez,SUB out: B. Lopez,substitution,substitution,7,Low
+21900204,506,substitution,3,PT03M55.00S,03:55,Q3 03:55,76,83,1610612749.0,Connaughton,SUB in: P. Connaughton,substitution,substitution,7,Low
+21900204,507,substitution,3,PT03M55.00S,03:55,Q3 03:55,76,83,1610612749.0,Lopez,SUB in: R. Lopez,substitution,rebound,7,Low
+21900204,509,rebound,3,PT03M53.00S,03:53,Q3 03:53,76,83,1610612737.0,Crabbe,Crabbe REBOUND (Off:0 Def:2),substitution,2pt made,7,Low
+21900204,510,2pt,3,PT03M42.00S,03:42,Q3 03:42,78,83,1610612737.0,Carter,Carter 10' Driving Floating Jump Shot (4 PTS),rebound,3pt missed,5,Low
+21900204,511,3pt,3,PT03M27.00S,03:27,Q3 03:27,78,83,1610612749.0,Antetokounmpo,MISS G. Antetokounmpo 26' 3PT Jump Shot,2pt made,rebound,5,Low
+21900204,512,rebound,3,PT03M24.00S,03:24,Q3 03:24,78,83,1610612737.0,Fernando,Fernando REBOUND (Off:1 Def:4),3pt missed,3pt missed,5,Low
+21900204,513,3pt,3,PT03M21.00S,03:21,Q3 03:21,78,83,1610612737.0,Crabbe,MISS Crabbe 26' 3PT Running Pull-Up Jump Shot,rebound,rebound,5,Low
+21900204,514,rebound,3,PT03M19.00S,03:19,Q3 03:19,78,83,1610612749.0,Antetokounmpo,G. Antetokounmpo REBOUND (Off:0 Def:7),3pt missed,turnover,5,Low
+21900204,515,turnover,3,PT03M18.00S,03:18,Q3 03:18,78,83,1610612749.0,Antetokounmpo,G. Antetokounmpo Traveling Turnover (P3.T12),rebound,substitution,5,Low
+21900204,516,substitution,3,PT03M18.00S,03:18,Q3 03:18,78,83,1610612749.0,Antetokounmpo,SUB out: G. Antetokounmpo,turnover,substitution,5,Low
+21900204,517,substitution,3,PT03M18.00S,03:18,Q3 03:18,78,83,1610612749.0,Wilson,SUB in: D. Wilson,substitution,3pt missed,5,Low
+21900204,518,3pt,3,PT03M10.00S,03:10,Q3 03:10,78,83,1610612737.0,Carter,MISS Carter 26' 3PT Jump Shot,substitution,rebound,5,Low
+21900204,519,rebound,3,PT03M06.00S,03:06,Q3 03:06,78,83,1610612749.0,Wilson,Wilson REBOUND (Off:0 Def:3),3pt missed,3pt missed,5,Low
+21900204,520,3pt,3,PT02M54.00S,02:54,Q3 02:54,78,83,1610612749.0,Hill,MISS Hill 25' 3PT Step Back Jump Shot,rebound,rebound,5,Low
+21900204,521,rebound,3,PT02M51.00S,02:51,Q3 02:51,78,83,1610612737.0,Turner,Turner REBOUND (Off:0 Def:1),3pt missed,2pt made,5,Low
+21900204,522,2pt,3,PT02M43.00S,02:43,Q3 02:43,80,83,1610612737.0,Fernando,Fernando 1' Layup (4 PTS) (Bembry 1 AST),rebound,2pt made,3,Low
+21900204,524,2pt,3,PT02M21.00S,02:21,Q3 02:21,80,85,1610612749.0,Connaughton,Connaughton 1' Driving Layup (2 PTS) (Wilson 1 AST),2pt made,2pt missed,5,Low
+21900204,526,2pt,3,PT02M03.00S,02:03,Q3 02:03,80,85,1610612737.0,Turner,MISS Turner 2' Driving Layup,2pt made,block,5,Low
+21900204,526,block,3,PT02M03.00S,02:03,Q3 02:03,80,85,1610612749.0,Brown,Brown BLOCK (1 BLK),2pt missed,rebound,5,Low
+21900204,528,rebound,3,PT02M01.00S,02:01,Q3 02:01,80,85,1610612737.0,Turner,Turner REBOUND (Off:1 Def:1),block,2pt missed,5,Low
+21900204,529,2pt,3,PT01M59.00S,01:59,Q3 01:59,80,85,1610612737.0,Crabbe,MISS Crabbe 13' Driving Floating Jump Shot,rebound,rebound,5,Low
+21900204,530,rebound,3,PT01M59.00S,01:59,Q3 01:59,80,85,1610612749.0,,TEAM defensive REBOUND,2pt missed,foul,5,Low
+21900204,532,foul,3,PT01M59.00S,01:59,Q3 01:59,80,85,1610612737.0,Turner,Turner L.B.FOUL (P1.PN) (M.Ervin),rebound,freethrow,5,Low
+21900204,535,freethrow,3,PT01M59.00S,01:59,Q3 01:59,80,86,1610612749.0,Brown,Brown Free Throw 1 of 2 (4 PTS),foul,freethrow,6,Low
+21900204,540,freethrow,3,PT01M59.00S,01:59,Q3 01:59,80,87,1610612749.0,Brown,Brown Free Throw 2 of 2 (5 PTS),freethrow,substitution,7,Low
+21900204,536,substitution,3,PT01M59.00S,01:59,Q3 01:59,80,86,1610612737.0,Fernando,SUB out: B. Fernando,freethrow,substitution,6,Low
+21900204,537,substitution,3,PT01M59.00S,01:59,Q3 01:59,80,86,1610612737.0,Turner,SUB out: E. Turner,substitution,substitution,6,Low
+21900204,538,substitution,3,PT01M59.00S,01:59,Q3 01:59,80,86,1610612737.0,Len,SUB in: A. Len,substitution,substitution,6,Low
+21900204,539,substitution,3,PT01M59.00S,01:59,Q3 01:59,80,86,1610612737.0,Young,SUB in: T. Young,substitution,turnover,6,Low
+21900204,542,turnover,3,PT01M43.00S,01:43,Q3 01:43,80,87,1610612737.0,Len,Len Out of Bounds - Bad Pass Turnover Turnover (P1.T11),substitution,3pt made,7,Low
+21900204,543,3pt,3,PT01M31.00S,01:31,Q3 01:31,80,90,1610612749.0,Lopez,R. Lopez 24' 3PT Jump Shot (5 PTS) (Brown 1 AST),turnover,3pt missed,10,Low
+21900204,545,3pt,3,PT01M12.00S,01:12,Q3 01:12,80,90,1610612737.0,Len,MISS Len 26' 3PT Jump Shot,3pt made,rebound,10,Low
+21900204,546,rebound,3,PT01M09.00S,01:09,Q3 01:09,80,90,1610612749.0,Brown,Brown REBOUND (Off:0 Def:3),3pt missed,2pt missed,10,Low
+21900204,547,2pt,3,PT00M56.70S,00:56,Q3 00:56,80,90,1610612749.0,Brown,MISS Brown 16' Jump Shot,rebound,rebound,10,Low
+21900204,548,rebound,3,PT00M54.70S,00:54,Q3 00:54,80,90,1610612737.0,Len,Len REBOUND (Off:1 Def:2),2pt missed,3pt made,10,Low
+21900204,549,3pt,3,PT00M46.20S,00:46,Q3 00:46,83,90,1610612737.0,Carter,Carter 25' 3PT Jump Shot (7 PTS) (Young 6 AST),rebound,3pt missed,7,Low
+21900204,551,3pt,3,PT00M35.00S,00:35,Q3 00:35,83,90,1610612749.0,Wilson,MISS Wilson 26' 3PT Jump Shot,3pt made,rebound,7,Low
+21900204,552,rebound,3,PT00M32.50S,00:32,Q3 00:32,83,90,1610612749.0,Lopez,R. Lopez REBOUND (Off:2 Def:0),3pt missed,2pt made,7,Low
+21900204,553,2pt,3,PT00M32.50S,00:32,Q3 00:32,83,92,1610612749.0,Lopez,R. Lopez 1' Tip Layup Shot (7 PTS),rebound,2pt missed,9,Low
+21900204,554,2pt,3,PT00M28.50S,00:28,Q3 00:28,83,92,1610612737.0,Young,MISS Young 23' Jump Shot,2pt made,rebound,9,Low
+21900204,555,rebound,3,PT00M25.20S,00:25,Q3 00:25,83,92,1610612749.0,Lopez,R. Lopez REBOUND (Off:2 Def:1),2pt missed,foul,9,Low
+21900204,556,foul,3,PT00M23.70S,00:23,Q3 00:23,83,92,1610612737.0,Young,Young T.FOUL (P0.PN) (R.Acosta),rebound,foul,9,Low
+21900204,557,foul,3,PT00M23.70S,00:23,Q3 00:23,83,92,0.0,,Lloyd Pierce Foul:T.FOUL (R.Acosta),foul,freethrow,9,Low
+21900204,561,freethrow,3,PT00M23.70S,00:23,Q3 00:23,83,93,1610612749.0,Hill,Hill Free Throw Technical (5 PTS),foul,freethrow,10,Low
+21900204,562,freethrow,3,PT00M23.70S,00:23,Q3 00:23,83,94,1610612749.0,Hill,Hill Free Throw Technical (6 PTS),freethrow,substitution,11,Low
+21900204,563,substitution,3,PT00M23.70S,00:23,Q3 00:23,83,94,1610612737.0,Len,SUB out: A. Len,freethrow,substitution,11,Low
+21900204,564,substitution,3,PT00M23.70S,00:23,Q3 00:23,83,94,1610612737.0,Jones,SUB in: D. Jones,substitution,2pt made,11,Low
+21900204,565,2pt,3,PT00M04.90S,00:04,Q3 00:04,83,96,1610612749.0,Connaughton,Connaughton 2' Cutting Layup Shot (4 PTS) (Hill 4 AST),substitution,2pt missed,13,Low
+21900204,567,2pt,3,PT00M00.00S,00:00,Q3 00:00,83,96,1610612737.0,Young,MISS Young 1' Driving Layup,2pt made,block,13,Low
+21900204,567,block,3,PT00M00.00S,00:00,Q3 00:00,83,96,1610612749.0,Wilson,Wilson BLOCK (1 BLK),2pt missed,rebound,13,Low
+21900204,569,rebound,3,PT00M00.00S,00:00,Q3 00:00,83,96,1610612737.0,Jones,Jones REBOUND (Off:3 Def:5),block,period,13,Low
+21900204,570,period,3,PT00M00.00S,00:00,Q3 00:00,83,96,1610612737.0,,End of 3rd Period (9:27 PM EST),rebound,period,13,Low
+21900204,581,period,4,PT12M00.00S,12:00,Q4 12:00,83,96,1610612737.0,,Start of 4th Period (9:29 PM EST),period,substitution,13,Low
+21900204,582,2pt,4,PT11M44.00S,11:44,Q4 11:44,83,96,1610612749.0,Bledsoe,MISS Bledsoe 14' Pullup Jump Shot,substitution,rebound,13,Low
+21900204,583,rebound,4,PT11M40.00S,11:40,Q4 11:40,83,96,1610612749.0,Bledsoe,Bledsoe REBOUND (Off:2 Def:3),2pt missed,3pt missed,13,Low
+21900204,584,3pt,4,PT11M38.00S,11:38,Q4 11:38,83,96,1610612749.0,Connaughton,MISS Connaughton 26' 3PT Jump Shot,rebound,rebound,13,Low
+21900204,585,rebound,4,PT11M36.00S,11:36,Q4 11:36,83,96,1610612749.0,DiVincenzo,DiVincenzo REBOUND (Off:2 Def:2),3pt missed,2pt missed,13,Low
+21900204,586,2pt,4,PT11M36.00S,11:36,Q4 11:36,83,96,1610612749.0,DiVincenzo,MISS DiVincenzo 1' Tip Layup Shot,rebound,rebound,13,Low
+21900204,587,rebound,4,PT11M36.00S,11:36,Q4 11:36,83,96,1610612749.0,,TEAM offensive REBOUND,2pt missed,foul,13,Low
+21900204,588,foul,4,PT11M36.00S,11:36,Q4 11:36,83,96,1610612737.0,Parker,Parker L.B.FOUL (P4.T1) (R.Acosta),rebound,turnover,13,Low
+21900204,590,turnover,4,PT11M31.00S,11:31,Q4 11:31,83,96,1610612749.0,DiVincenzo,DiVincenzo Traveling Turnover (P1.T13),foul,2pt made,13,Low
+21900204,591,2pt,4,PT11M21.00S,11:21,Q4 11:21,85,96,1610612737.0,Young,Young 9' Floating Jump Shot (14 PTS),turnover,3pt made,11,Low
+21900204,592,3pt,4,PT11M13.00S,11:13,Q4 11:13,85,99,1610612749.0,DiVincenzo,DiVincenzo 3PT Jump Shot (7 PTS) (Connaughton 2 AST),2pt made,2pt made,14,Low
+21900204,594,2pt,4,PT10M57.00S,10:57,Q4 10:57,87,99,1610612737.0,Young,Young 11' Driving Floating Jump Shot (16 PTS),3pt made,2pt made,12,Low
+21900204,595,2pt,4,PT10M42.00S,10:42,Q4 10:42,87,101,1610612749.0,Bledsoe,Bledsoe 8' Driving Floating Jump Shot (13 PTS),2pt made,foul,14,Low
+21900204,596,foul,4,PT10M27.00S,10:27,Q4 10:27,87,101,1610612749.0,Lopez,R. Lopez S.FOUL (P2.T1) (M.Ervin),2pt made,freethrow,14,Low
+21900204,598,freethrow,4,PT10M27.00S,10:27,Q4 10:27,88,101,1610612737.0,Young,Young Free Throw 1 of 2 (17 PTS),foul,freethrow,13,Low
+21900204,599,freethrow,4,PT10M27.00S,10:27,Q4 10:27,89,101,1610612737.0,Young,Young Free Throw 2 of 2 (18 PTS),freethrow,3pt made,12,Low
+21900204,600,3pt,4,PT10M22.00S,10:22,Q4 10:22,89,104,1610612749.0,DiVincenzo,DiVincenzo 26' 3PT Jump Shot (10 PTS) (Bledsoe 4 AST),freethrow,3pt missed,15,Low
+21900204,602,3pt,4,PT10M06.00S,10:06,Q4 10:06,89,104,1610612737.0,Young,MISS Young 27' 3PT Pullup Jump Shot,3pt made,rebound,15,Low
+21900204,603,rebound,4,PT10M02.00S,10:02,Q4 10:02,89,104,1610612749.0,DiVincenzo,DiVincenzo REBOUND (Off:2 Def:3),3pt missed,2pt missed,15,Low
+21900204,604,2pt,4,PT09M58.00S,09:58,Q4 09:58,89,104,1610612749.0,Bledsoe,MISS Bledsoe 9' Driving Floating Jump Shot,rebound,rebound,15,Low
+21900204,605,rebound,4,PT09M55.00S,09:55,Q4 09:55,89,104,1610612749.0,Bledsoe,Bledsoe REBOUND (Off:3 Def:3),2pt missed,3pt made,15,Low
+21900204,606,3pt,4,PT09M53.00S,09:53,Q4 09:53,89,107,1610612749.0,Connaughton,Connaughton 26' 3PT Jump Shot (7 PTS) (DiVincenzo 2 AST),rebound,timeout,18,Low
+21900204,608,timeout,4,PT09M49.00S,09:49,Q4 09:49,89,107,1610612737.0,,HAWKS Timeout: Regular (Full 4 Short 0),3pt made,substitution,18,Low
+21900204,609,substitution,4,PT09M49.00S,09:49,Q4 09:49,89,107,1610612737.0,Young,SUB out: T. Young,timeout,substitution,18,Low
+21900204,610,substitution,4,PT09M49.00S,09:49,Q4 09:49,89,107,1610612737.0,Jones,SUB out: D. Jones,substitution,substitution,18,Low
+21900204,611,substitution,4,PT09M49.00S,09:49,Q4 09:49,89,107,1610612737.0,Parker,SUB out: J. Parker,substitution,substitution,18,Low
+21900204,612,substitution,4,PT09M49.00S,09:49,Q4 09:49,89,107,1610612737.0,Carter,SUB in: V. Carter,substitution,substitution,18,Low
+21900204,613,substitution,4,PT09M49.00S,09:49,Q4 09:49,89,107,1610612737.0,Turner,SUB in: E. Turner,substitution,substitution,18,Low
+21900204,614,substitution,4,PT09M49.00S,09:49,Q4 09:49,89,107,1610612737.0,Fernando,SUB in: B. Fernando,substitution,2pt made,18,Low
+21900204,615,2pt,4,PT09M37.00S,09:37,Q4 09:37,91,107,1610612737.0,Hunter,Hunter 1' Driving Layup (14 PTS),substitution,turnover,16,Low
+21900204,616,turnover,4,PT09M18.00S,09:18,Q4 09:18,91,107,1610612749.0,Wilson,Wilson Traveling Turnover (P1.T14),2pt made,foul,16,Low
+21900204,617,foul,4,PT09M03.00S,09:03,Q4 09:03,91,107,1610612749.0,Lopez,R. Lopez S.FOUL (P3.T2) (R.Acosta),turnover,freethrow,16,Low
+21900204,619,freethrow,4,PT09M03.00S,09:03,Q4 09:03,92,107,1610612737.0,Hunter,Hunter Free Throw 1 of 2 (15 PTS),foul,freethrow,15,Low
+21900204,622,freethrow,4,PT09M03.00S,09:03,Q4 09:03,92,107,1610612737.0,Hunter,MISS Hunter Free Throw 2 of 2,freethrow,substitution,15,Low
+21900204,620,substitution,4,PT09M03.00S,09:03,Q4 09:03,92,107,1610612749.0,Connaughton,SUB out: P. Connaughton,freethrow,substitution,15,Low
+21900204,621,substitution,4,PT09M03.00S,09:03,Q4 09:03,92,107,1610612749.0,Matthews,SUB in: W. Matthews,substitution,rebound,15,Low
+21900204,623,rebound,4,PT09M01.00S,09:01,Q4 09:01,92,107,1610612737.0,Carter,Carter REBOUND (Off:1 Def:0),substitution,3pt made,15,Low
+21900204,624,3pt,4,PT08M51.00S,08:51,Q4 08:51,95,107,1610612737.0,Carter,Carter 27' 3PT Jump Shot (10 PTS) (Fernando 3 AST),rebound,2pt made,12,Low
+21900204,626,2pt,4,PT08M27.00S,08:27,Q4 08:27,95,109,1610612749.0,Bledsoe,Bledsoe 10' Driving Floating Jump Shot (15 PTS),3pt made,2pt made,14,Low
+21900204,627,2pt,4,PT08M11.00S,08:11,Q4 08:11,97,109,1610612737.0,Hunter,Hunter 2' Driving Layup (17 PTS) (Carter 2 AST),2pt made,foul,12,Low
+21900204,629,foul,4,PT08M11.00S,08:11,Q4 08:11,97,109,1610612749.0,DiVincenzo,DiVincenzo S.FOUL (P1.T3) (K.Fitzgerald),2pt made,freethrow,12,Low
+21900204,635,freethrow,4,PT08M11.00S,08:11,Q4 08:11,98,109,1610612737.0,Hunter,Hunter Free Throw 1 of 1 (18 PTS),foul,substitution,11,Low
+21900204,631,substitution,4,PT08M11.00S,08:11,Q4 08:11,97,109,1610612749.0,Wilson,SUB out: D. Wilson,freethrow,substitution,12,Low
+21900204,632,substitution,4,PT08M11.00S,08:11,Q4 08:11,97,109,1610612749.0,Lopez,SUB out: R. Lopez,substitution,substitution,12,Low
+21900204,633,substitution,4,PT08M11.00S,08:11,Q4 08:11,97,109,1610612749.0,Lopez,SUB in: B. Lopez,substitution,substitution,12,Low
+21900204,634,substitution,4,PT08M11.00S,08:11,Q4 08:11,97,109,1610612749.0,Antetokounmpo,SUB in: G. Antetokounmpo,substitution,2pt made,12,Low
+21900204,636,2pt,4,PT08M02.00S,08:02,Q4 08:02,98,111,1610612749.0,Bledsoe,Bledsoe 2' Driving Layup (17 PTS),substitution,2pt missed,13,Low
+21900204,637,2pt,4,PT07M45.00S,07:45,Q4 07:45,98,111,1610612737.0,Hunter,MISS Hunter 3' Driving Layup,2pt made,block,13,Low
+21900204,637,block,4,PT07M45.00S,07:45,Q4 07:45,98,111,1610612749.0,Lopez,B. Lopez BLOCK (2 BLK),2pt missed,rebound,13,Low
+21900204,639,rebound,4,PT07M44.00S,07:44,Q4 07:44,98,111,1610612737.0,,TEAM offensive REBOUND,block,foul,13,Low
+21900204,643,foul,4,PT07M44.00S,07:44,Q4 07:44,98,111,1610612737.0,Carter,Carter OFF.Foul (P2) (M.Ervin),rebound,turnover,13,Low
+21900204,645,turnover,4,PT07M44.00S,07:44,Q4 07:44,98,111,1610612737.0,Carter,Carter Offensive Foul Turnover (P1.T12),foul,substitution,13,Low
+21900204,641,substitution,4,PT07M44.00S,07:44,Q4 07:44,98,111,1610612749.0,DiVincenzo,SUB out: D. DiVincenzo,turnover,substitution,13,Low
+21900204,642,substitution,4,PT07M44.00S,07:44,Q4 07:44,98,111,1610612749.0,Brown,SUB in: S. Brown,substitution,3pt made,13,Low
+21900204,646,3pt,4,PT07M35.00S,07:35,Q4 07:35,98,114,1610612749.0,Bledsoe,Bledsoe 26' 3PT Pullup Jump Shot (20 PTS),substitution,2pt missed,16,Low
+21900204,647,2pt,4,PT07M19.00S,07:19,Q4 07:19,98,114,1610612737.0,Reddish,MISS Reddish 3' Driving Layup,3pt made,rebound,16,Low
+21900204,648,rebound,4,PT07M16.00S,07:16,Q4 07:16,98,114,1610612749.0,Antetokounmpo,G. Antetokounmpo REBOUND (Off:0 Def:8),2pt missed,2pt missed,16,Low
+21900204,649,2pt,4,PT07M11.00S,07:11,Q4 07:11,98,114,1610612749.0,Matthews,MISS Matthews 9' Driving Floating Jump Shot,rebound,rebound,16,Low
+21900204,650,rebound,4,PT07M08.00S,07:08,Q4 07:08,98,114,1610612737.0,Reddish,Reddish REBOUND (Off:0 Def:2),2pt missed,3pt made,16,Low
+21900204,651,3pt,4,PT07M01.00S,07:01,Q4 07:01,101,114,1610612737.0,Hunter,Hunter 26' 3PT Jump Shot (21 PTS) (Reddish 1 AST),rebound,3pt made,13,Low
+21900204,653,3pt,4,PT06M39.00S,06:39,Q4 06:39,101,117,1610612749.0,Bledsoe,Bledsoe 26' 3PT Step Back Jump Shot (23 PTS),3pt made,3pt made,16,Low
+21900204,654,3pt,4,PT06M22.00S,06:22,Q4 06:22,104,117,1610612737.0,Carter,Carter 25' 3PT Jump Shot (13 PTS) (Hunter 2 AST),3pt made,foul,13,Low
+21900204,656,foul,4,PT06M11.00S,06:11,Q4 06:11,104,117,1610612737.0,Fernando,Fernando P.FOUL (P2.T2) (K.Fitzgerald),3pt made,foul,13,Low
+21900204,658,foul,4,PT06M03.00S,06:03,Q4 06:03,104,117,1610612737.0,Turner,Turner S.FOUL (P2.T3) (R.Acosta),foul,freethrow,13,Low
+21900204,660,freethrow,4,PT06M03.00S,06:03,Q4 06:03,104,118,1610612749.0,Antetokounmpo,G. Antetokounmpo Free Throw 1 of 2 (30 PTS),foul,freethrow,14,Low
+21900204,663,freethrow,4,PT06M03.00S,06:03,Q4 06:03,104,118,1610612749.0,Antetokounmpo,MISS G. Antetokounmpo Free Throw 2 of 2,freethrow,substitution,14,Low
+21900204,661,substitution,4,PT06M03.00S,06:03,Q4 06:03,104,118,1610612737.0,Turner,SUB out: E. Turner,freethrow,substitution,14,Low
+21900204,662,substitution,4,PT06M03.00S,06:03,Q4 06:03,104,118,1610612737.0,Young,SUB in: T. Young,substitution,rebound,14,Low
+21900204,664,rebound,4,PT05M57.00S,05:57,Q4 05:57,104,118,1610612737.0,Reddish,Reddish REBOUND (Off:0 Def:3),substitution,foul,14,Low
+21900204,665,foul,4,PT05M57.00S,05:57,Q4 05:57,104,118,1610612749.0,Brown,Brown P.FOUL (P3.T4) (K.Fitzgerald),rebound,substitution,14,Low
+21900204,667,substitution,4,PT05M57.00S,05:57,Q4 05:57,104,118,1610612737.0,Fernando,SUB out: B. Fernando,foul,substitution,14,Low
+21900204,668,substitution,4,PT05M57.00S,05:57,Q4 05:57,104,118,1610612737.0,Parker,SUB in: J. Parker,substitution,2pt missed,14,Low
+21900204,669,2pt,4,PT05M47.00S,05:47,Q4 05:47,104,118,1610612737.0,Young,MISS Young 9' Driving Floating Jump Shot,substitution,rebound,14,Low
+21900204,670,rebound,4,PT05M44.00S,05:44,Q4 05:44,104,118,1610612749.0,Brown,Brown REBOUND (Off:0 Def:4),2pt missed,2pt made,14,Low
+21900204,671,2pt,4,PT05M39.00S,05:39,Q4 05:39,104,120,1610612749.0,Bledsoe,Bledsoe 1' Driving Layup (25 PTS),rebound,foul,16,Low
+21900204,672,foul,4,PT05M39.00S,05:39,Q4 05:39,104,120,1610612737.0,Hunter,Hunter S.FOUL (P4.T4) (K.Fitzgerald),2pt made,freethrow,16,Low
+21900204,676,freethrow,4,PT05M39.00S,05:39,Q4 05:39,104,121,1610612749.0,Bledsoe,Bledsoe Free Throw 1 of 1 (26 PTS),foul,substitution,17,Low
+21900204,681,substitution,4,PT05M39.00S,05:39,Q4 05:39,104,120,1610612737.0,Reddish,SUB out: C. Reddish,freethrow,substitution,16,Low
+21900204,682,substitution,4,PT05M39.00S,05:39,Q4 05:39,104,120,1610612737.0,Bembry,SUB in: D. Bembry,substitution,2pt missed,16,Low
+21900204,677,2pt,4,PT05M25.00S,05:25,Q4 05:25,104,121,1610612737.0,Hunter,MISS Hunter 22' Pullup Jump Shot,substitution,rebound,17,Low
+21900204,678,rebound,4,PT05M22.00S,05:22,Q4 05:22,104,121,1610612749.0,Antetokounmpo,G. Antetokounmpo REBOUND (Off:0 Def:9),2pt missed,3pt missed,17,Low
+21900204,679,3pt,4,PT05M17.00S,05:17,Q4 05:17,104,121,1610612749.0,Antetokounmpo,MISS G. Antetokounmpo 26' 3PT Pullup Jump Shot,rebound,rebound,17,Low
+21900204,680,rebound,4,PT05M13.00S,05:13,Q4 05:13,104,121,1610612737.0,Hunter,Hunter REBOUND (Off:0 Def:7),3pt missed,foul,17,Low
+21900204,683,foul,4,PT05M00.00S,05:00,Q4 05:00,104,121,1610612749.0,Brown,Brown P.FOUL (P4.PN) (R.Acosta),rebound,freethrow,17,Low
+21900204,685,freethrow,4,PT05M00.00S,05:00,Q4 05:00,105,121,1610612737.0,Hunter,Hunter Free Throw 1 of 2 (22 PTS),foul,freethrow,16,Low
+21900204,686,freethrow,4,PT05M00.00S,05:00,Q4 05:00,106,121,1610612737.0,Hunter,Hunter Free Throw 2 of 2 (23 PTS),freethrow,3pt missed,15,Low
+21900204,687,3pt,4,PT04M50.00S,04:50,Q4 04:50,106,121,1610612749.0,Lopez,MISS B. Lopez 27' 3PT Jump Shot,freethrow,rebound,15,Low
+21900204,688,rebound,4,PT04M45.00S,04:45,Q4 04:45,106,121,1610612737.0,Hunter,Hunter REBOUND (Off:0 Def:8),3pt missed,3pt missed,15,Low
+21900204,689,3pt,4,PT04M38.00S,04:38,Q4 04:38,106,121,1610612737.0,Bembry,MISS Bembry 24' 3PT Jump Shot,rebound,rebound,15,Low
+21900204,690,rebound,4,PT04M35.00S,04:35,Q4 04:35,106,121,1610612749.0,Antetokounmpo,G. Antetokounmpo REBOUND (Off:0 Def:10),3pt missed,turnover,15,Low
+21900204,691,turnover,4,PT04M30.00S,04:30,Q4 04:30,106,121,1610612749.0,Antetokounmpo,G. Antetokounmpo Bad Pass Turnover (P4.T15),rebound,steal,15,Low
+21900204,691,steal,4,PT04M30.00S,04:30,Q4 04:30,106,121,1610612737.0,Bembry,Bembry STEAL (1 STL),turnover,3pt missed,15,Low
+21900204,693,3pt,4,PT04M23.00S,04:23,Q4 04:23,106,121,1610612737.0,Carter,MISS Carter 24' 3PT Fadeaway Jumper,steal,rebound,15,Low
+21900204,694,rebound,4,PT04M21.00S,04:21,Q4 04:21,106,121,1610612749.0,Antetokounmpo,G. Antetokounmpo REBOUND (Off:0 Def:11),3pt missed,2pt made,15,Low
+21900204,695,2pt,4,PT04M01.00S,04:01,Q4 04:01,106,123,1610612749.0,Antetokounmpo,G. Antetokounmpo 1' Cutting Layup Shot (32 PTS) (Bledsoe 5 AST),rebound,timeout,17,Low
+21900204,697,timeout,4,PT04M01.00S,04:01,Q4 04:01,106,123,1610612737.0,,HAWKS Timeout: Regular (Full 5 Short 0),2pt made,substitution,17,Low
+21900204,698,substitution,4,PT04M01.00S,04:01,Q4 04:01,106,123,1610612737.0,Hunter,SUB out: D. Hunter,substitution,substitution,17,Low
+21900204,699,substitution,4,PT04M01.00S,04:01,Q4 04:01,106,123,1610612749.0,Bledsoe,SUB out: E. Bledsoe,substitution,substitution,17,Low
+21900204,700,substitution,4,PT04M01.00S,04:01,Q4 04:01,106,123,1610612749.0,Matthews,SUB out: W. Matthews,substitution,substitution,17,Low
+21900204,701,substitution,4,PT04M01.00S,04:01,Q4 04:01,106,123,1610612749.0,Lopez,SUB out: B. Lopez,substitution,substitution,17,Low
+21900204,702,substitution,4,PT04M01.00S,04:01,Q4 04:01,106,123,1610612749.0,Antetokounmpo,SUB out: G. Antetokounmpo,substitution,substitution,17,Low
+21900204,703,substitution,4,PT04M01.00S,04:01,Q4 04:01,106,123,1610612737.0,Reddish,SUB in: C. Reddish,substitution,substitution,17,Low
+21900204,704,substitution,4,PT04M01.00S,04:01,Q4 04:01,106,123,1610612749.0,DiVincenzo,SUB in: D. DiVincenzo,substitution,substitution,17,Low
+21900204,705,substitution,4,PT04M01.00S,04:01,Q4 04:01,106,123,1610612749.0,Wilson,SUB in: D. Wilson,substitution,substitution,17,Low
+21900204,706,substitution,4,PT04M01.00S,04:01,Q4 04:01,106,123,1610612749.0,Korver,SUB in: K. Korver,substitution,substitution,17,Low
+21900204,707,substitution,4,PT04M01.00S,04:01,Q4 04:01,106,123,1610612749.0,Lopez,SUB in: B. Lopez,substitution,3pt missed,17,Low
+21900204,708,3pt,4,PT03M57.00S,03:57,Q4 03:57,106,123,1610612737.0,Carter,MISS Carter 25' 3PT Jump Shot,substitution,rebound,17,Low
+21900204,709,rebound,4,PT03M52.00S,03:52,Q4 03:52,106,123,1610612749.0,Lopez,R. Lopez REBOUND (Off:2 Def:2),3pt missed,2pt made,17,Low
+21900204,710,2pt,4,PT03M42.00S,03:42,Q4 03:42,106,125,1610612749.0,Lopez,R. Lopez 3' Layup (9 PTS) (DiVincenzo 3 AST),rebound,foul,19,Low
+21900204,712,foul,4,PT03M31.00S,03:31,Q4 03:31,106,125,1610612749.0,DiVincenzo,DiVincenzo P.FOUL (P2.PN) (R.Acosta),2pt made,freethrow,19,Low
+21900204,714,freethrow,4,PT03M31.00S,03:31,Q4 03:31,106,125,1610612737.0,Young,MISS Young Free Throw 1 of 2,foul,rebound,19,Low
+21900204,715,rebound,4,PT03M31.00S,03:31,Q4 03:31,106,125,1610612737.0,,TEAM offensive REBOUND,freethrow,freethrow,19,Low
+21900204,718,freethrow,4,PT03M31.00S,03:31,Q4 03:31,107,125,1610612737.0,Young,Young Free Throw 2 of 2 (19 PTS),rebound,substitution,18,Low
+21900204,716,substitution,4,PT03M31.00S,03:31,Q4 03:31,106,125,1610612737.0,Carter,SUB out: V. Carter,freethrow,substitution,19,Low
+21900204,717,substitution,4,PT03M31.00S,03:31,Q4 03:31,106,125,1610612737.0,Hunter,SUB in: D. Hunter,substitution,turnover,19,Low
+21900204,719,turnover,4,PT03M30.00S,03:30,Q4 03:30,107,125,1610612749.0,Lopez,R. Lopez Bad Pass Turnover (P2.T16),substitution,steal,18,Low
+21900204,719,steal,4,PT03M30.00S,03:30,Q4 03:30,107,125,1610612737.0,Reddish,Reddish STEAL (1 STL),turnover,foul,18,Low
+21900204,721,foul,4,PT03M28.00S,03:28,Q4 03:28,107,125,1610612749.0,Lopez,R. Lopez S.FOUL (P4.PN) (K.Fitzgerald),steal,freethrow,18,Low
+21900204,723,freethrow,4,PT03M28.00S,03:28,Q4 03:28,107,125,1610612737.0,Reddish,MISS Reddish Free Throw 1 of 2,foul,rebound,18,Low
+21900204,724,rebound,4,PT03M28.00S,03:28,Q4 03:28,107,125,1610612737.0,,TEAM offensive REBOUND,freethrow,freethrow,18,Low
+21900204,725,freethrow,4,PT03M28.00S,03:28,Q4 03:28,108,125,1610612737.0,Reddish,Reddish Free Throw 2 of 2 (14 PTS),rebound,turnover,17,Low
+21900204,726,turnover,4,PT03M23.00S,03:23,Q4 03:23,108,125,1610612749.0,DiVincenzo,DiVincenzo Bad Pass Turnover (P2.T17),freethrow,steal,17,Low
+21900204,726,steal,4,PT03M23.00S,03:23,Q4 03:23,108,125,1610612737.0,Bembry,Bembry STEAL (2 STL),turnover,foul,17,Low
+21900204,728,foul,4,PT03M11.00S,03:11,Q4 03:11,108,125,1610612749.0,Lopez,R. Lopez S.FOUL (P5.PN) (K.Fitzgerald),steal,timeout,17,Low
+21900204,730,timeout,4,PT03M11.00S,03:11,Q4 03:11,108,125,1610612749.0,,Bucks Timeout: Regular (Reg.4 Short 0),foul,freethrow,17,Low
+21900204,733,freethrow,4,PT03M11.00S,03:11,Q4 03:11,109,125,1610612737.0,Hunter,Hunter Free Throw 1 of 2 (24 PTS),timeout,freethrow,16,Low
+21900204,734,freethrow,4,PT03M11.00S,03:11,Q4 03:11,110,125,1610612737.0,Hunter,Hunter Free Throw 2 of 2 (25 PTS),freethrow,substitution,15,Low
+21900204,731,substitution,4,PT03M11.00S,03:11,Q4 03:11,108,125,1610612749.0,Lopez,SUB out: R. Lopez,freethrow,substitution,17,Low
+21900204,732,substitution,4,PT03M11.00S,03:11,Q4 03:11,108,125,1610612749.0,Bledsoe,SUB in: E. Bledsoe,substitution,foul,17,Low
+21900204,736,foul,4,PT03M01.00S,03:01,Q4 03:01,110,125,1610612737.0,Parker,Parker S.FOUL (P5.PN) (K.Fitzgerald),substitution,freethrow,15,Low
+21900204,738,freethrow,4,PT03M01.00S,03:01,Q4 03:01,110,126,1610612749.0,DiVincenzo,DiVincenzo Free Throw 1 of 2 (11 PTS),foul,freethrow,16,Low
+21900204,739,freethrow,4,PT03M01.00S,03:01,Q4 03:01,110,126,1610612749.0,DiVincenzo,MISS DiVincenzo Free Throw 2 of 2,freethrow,rebound,16,Low
+21900204,740,rebound,4,PT02M59.00S,02:59,Q4 02:59,110,126,1610612737.0,Hunter,Hunter REBOUND (Off:0 Def:9),freethrow,3pt made,16,Low
+21900204,741,3pt,4,PT02M53.00S,02:53,Q4 02:53,113,126,1610612737.0,Reddish,Reddish 26' 3PT Pullup Jump Shot (17 PTS),rebound,turnover,13,Low
+21900204,742,turnover,4,PT02M44.00S,02:44,Q4 02:44,113,126,1610612749.0,Bledsoe,Bledsoe Lost Ball Turnover (P5.T18),3pt made,steal,13,Low
+21900204,742,steal,4,PT02M44.00S,02:44,Q4 02:44,113,126,1610612737.0,Young,Young STEAL (3 STL),turnover,2pt made,13,Low
+21900204,744,2pt,4,PT02M40.00S,02:40,Q4 02:40,115,126,1610612737.0,Parker,Parker 1' Dunk (12 PTS) (Young 7 AST),steal,turnover,11,Medium
+21900204,746,turnover,4,PT02M28.00S,02:28,Q4 02:28,115,126,1610612749.0,Bledsoe,Bledsoe Bad Pass Turnover (P6.T19),2pt made,steal,11,Medium
+21900204,746,steal,4,PT02M28.00S,02:28,Q4 02:28,115,126,1610612737.0,Parker,Parker STEAL (2 STL),turnover,2pt made,11,Medium
+21900204,748,2pt,4,PT02M25.00S,02:25,Q4 02:25,117,126,1610612737.0,Parker,Parker 1' Running Layup (14 PTS) (Bembry 2 AST),steal,2pt missed,9,Medium
+21900204,750,2pt,4,PT02M17.00S,02:17,Q4 02:17,117,126,1610612749.0,DiVincenzo,MISS DiVincenzo 3' Running Layup,2pt made,rebound,9,Medium
+21900204,751,rebound,4,PT02M17.00S,02:17,Q4 02:17,117,126,1610612737.0,Hunter,Hunter REBOUND (Off:0 Def:10),2pt missed,2pt made,9,Medium
+21900204,752,2pt,4,PT02M10.00S,02:10,Q4 02:10,119,126,1610612737.0,Bembry,Bembry 1' Cutting Layup Shot (2 PTS) (Young 8 AST),rebound,timeout,7,High
+21900204,754,timeout,4,PT02M10.00S,02:10,Q4 02:10,119,126,1610612749.0,,Bucks Timeout: Regular (Reg.5 Short 0),2pt made,substitution,7,High
+21900204,755,substitution,4,PT02M10.00S,02:10,Q4 02:10,119,126,1610612749.0,DiVincenzo,SUB out: D. DiVincenzo,timeout,substitution,7,High
+21900204,756,substitution,4,PT02M10.00S,02:10,Q4 02:10,119,126,1610612749.0,Wilson,SUB out: D. Wilson,substitution,substitution,7,High
+21900204,757,substitution,4,PT02M10.00S,02:10,Q4 02:10,119,126,1610612749.0,Korver,SUB out: K. Korver,substitution,substitution,7,High
+21900204,758,substitution,4,PT02M10.00S,02:10,Q4 02:10,119,126,1610612749.0,Hill,SUB in: G. Hill,substitution,substitution,7,High
+21900204,759,substitution,4,PT02M10.00S,02:10,Q4 02:10,119,126,1610612749.0,Connaughton,SUB in: P. Connaughton,substitution,substitution,7,High
+21900204,760,substitution,4,PT02M10.00S,02:10,Q4 02:10,119,126,1610612749.0,Antetokounmpo,SUB in: G. Antetokounmpo,substitution,3pt made,7,High
+21900204,761,3pt,4,PT01M51.00S,01:51,Q4 01:51,119,129,1610612749.0,Brown,Brown 3PT Jump Shot (8 PTS) (G. Antetokounmpo 4 AST),substitution,2pt missed,10,Medium
+21900204,763,2pt,4,PT01M43.00S,01:43,Q4 01:43,119,129,1610612737.0,Reddish,MISS Reddish 2' Jump Shot,3pt made,rebound,10,Medium
+21900204,764,rebound,4,PT01M42.00S,01:42,Q4 01:42,119,129,1610612737.0,,TEAM offensive REBOUND,2pt missed,instant replay,10,Medium
+21900204,766,foul,4,PT01M40.00S,01:40,Q4 01:40,119,129,1610612749.0,Hill,Hill P.FOUL (P3.PN) (M.Ervin),instant replay,freethrow,10,Medium
+21900204,768,freethrow,4,PT01M40.00S,01:40,Q4 01:40,120,129,1610612737.0,Young,Young Free Throw 1 of 2 (20 PTS),foul,freethrow,9,Medium
+21900204,769,freethrow,4,PT01M40.00S,01:40,Q4 01:40,121,129,1610612737.0,Young,Young Free Throw 2 of 2 (21 PTS),freethrow,3pt made,8,High
+21900204,770,3pt,4,PT01M22.00S,01:22,Q4 01:22,121,132,1610612749.0,Hill,Hill 3PT Jump Shot (9 PTS) (Brown 2 AST),freethrow,2pt made,11,Medium
+21900204,772,2pt,4,PT01M15.00S,01:15,Q4 01:15,123,132,1610612737.0,Young,Young 1' Driving Layup (23 PTS),3pt made,foul,9,Medium
+21900204,773,foul,4,PT01M01.00S,01:01,Q4 01:01,123,132,1610612737.0,Parker,Parker P.FOUL (P6.PN) (R.Acosta),2pt made,timeout,9,Medium
+21900204,775,timeout,4,PT01M01.00S,01:01,Q4 01:01,123,132,1610612737.0,,HAWKS Timeout: Regular (Full 6 Short 0),foul,instant replay,9,Medium
+21900204,779,freethrow,4,PT01M01.00S,01:01,Q4 01:01,123,132,1610612749.0,Bledsoe,MISS Bledsoe Free Throw 1 of 2,instant replay,rebound,9,Medium
+21900204,780,rebound,4,PT01M01.00S,01:01,Q4 01:01,123,132,1610612749.0,,TEAM offensive REBOUND,freethrow,freethrow,9,Medium
+21900204,781,freethrow,4,PT01M01.00S,01:01,Q4 01:01,123,132,1610612749.0,Bledsoe,MISS Bledsoe Free Throw 2 of 2,rebound,substitution,9,Medium
+21900204,777,substitution,4,PT01M01.00S,01:01,Q4 01:01,123,132,1610612737.0,Parker,SUB out: J. Parker,freethrow,substitution,9,Medium
+21900204,778,substitution,4,PT01M01.00S,01:01,Q4 01:01,123,132,1610612737.0,Carter,SUB in: V. Carter,substitution,rebound,9,Medium
+21900204,782,rebound,4,PT00M58.70S,00:58,Q4 00:58,123,132,1610612737.0,Hunter,Hunter REBOUND (Off:0 Def:11),substitution,2pt made,9,Medium
+21900204,783,2pt,4,PT00M53.80S,00:53,Q4 00:53,125,132,1610612737.0,Young,Young 1' Driving Layup (25 PTS),rebound,foul,7,High
+21900204,784,foul,4,PT00M53.80S,00:53,Q4 00:53,125,132,1610612749.0,Bledsoe,Bledsoe S.FOUL (P5.PN) (K.Fitzgerald),2pt made,freethrow,7,High
+21900204,786,freethrow,4,PT00M53.80S,00:53,Q4 00:53,125,132,1610612737.0,Young,MISS Young Free Throw 1 of 1,foul,rebound,7,High
+21900204,787,rebound,4,PT00M49.60S,00:49,Q4 00:49,125,132,1610612737.0,Young,Young REBOUND (Off:1 Def:1),freethrow,3pt missed,7,High
+21900204,788,3pt,4,PT00M42.90S,00:42,Q4 00:42,125,132,1610612737.0,Carter,MISS Carter 3PT Jump Shot,rebound,rebound,7,High
+21900204,789,rebound,4,PT00M39.70S,00:39,Q4 00:39,125,132,1610612749.0,Bledsoe,Bledsoe REBOUND (Off:3 Def:4),3pt missed,foul,7,High
+21900204,790,foul,4,PT00M39.70S,00:39,Q4 00:39,125,132,1610612737.0,Bembry,Bembry P.FOUL (P2.PN) (R.Acosta),rebound,freethrow,7,High
+21900204,792,freethrow,4,PT00M39.70S,00:39,Q4 00:39,125,133,1610612749.0,Bledsoe,Bledsoe Free Throw 1 of 2 (27 PTS),foul,freethrow,8,High
+21900204,793,freethrow,4,PT00M39.70S,00:39,Q4 00:39,125,134,1610612749.0,Bledsoe,Bledsoe Free Throw 2 of 2 (28 PTS),freethrow,foul,9,Medium
+21900204,794,foul,4,PT00M34.70S,00:34,Q4 00:34,125,134,1610612749.0,Bledsoe,Bledsoe S.FOUL (P6.PN) (R.Acosta),freethrow,freethrow,9,Medium
+21900204,798,freethrow,4,PT00M34.70S,00:34,Q4 00:34,126,134,1610612737.0,Hunter,Hunter Free Throw 1 of 2 (26 PTS),foul,freethrow,8,High
+21900204,799,freethrow,4,PT00M34.70S,00:34,Q4 00:34,127,134,1610612737.0,Hunter,Hunter Free Throw 2 of 2 (27 PTS),freethrow,substitution,7,High
+21900204,796,substitution,4,PT00M34.70S,00:34,Q4 00:34,125,134,1610612749.0,Bledsoe,SUB out: E. Bledsoe,freethrow,substitution,9,Medium
+21900204,797,substitution,4,PT00M34.70S,00:34,Q4 00:34,125,134,1610612749.0,DiVincenzo,SUB in: D. DiVincenzo,substitution,foul,9,Medium
+21900204,800,foul,4,PT00M31.80S,00:31,Q4 00:31,127,134,1610612737.0,Carter,Carter Personal Take Foul (P3.PN) (M.Ervin),substitution,freethrow,7,High
+21900204,802,freethrow,4,PT00M31.80S,00:31,Q4 00:31,127,135,1610612749.0,Antetokounmpo,G. Antetokounmpo Free Throw 1 of 2 (33 PTS),foul,freethrow,8,High
+21900204,803,freethrow,4,PT00M31.80S,00:31,Q4 00:31,127,135,1610612749.0,Antetokounmpo,MISS G. Antetokounmpo Free Throw 2 of 2,freethrow,rebound,8,High
+21900204,804,rebound,4,PT00M31.80S,00:31,Q4 00:31,127,135,1610612737.0,,TEAM defensive REBOUND,freethrow,instant replay,8,High
+21900204,808,turnover,4,PT00M22.60S,00:22,Q4 00:22,127,135,1610612737.0,Bembry,Bembry Out of Bounds Lost Ball Turnover (P1.T13),instant replay,period,8,High
+21900204,809,period,4,PT00M00.00S,00:00,Q4 00:00,127,135,1610612737.0,,End of 4th Period (10:13 PM EST),turnover,,8,High

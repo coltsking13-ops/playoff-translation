@@ -1,0 +1,560 @@
+game_id,actionNumber,actionType,period,clock,clock_display,game_clock,scoreHome,scoreAway,teamId,playerName,description,previous_action,next_action,score_margin,leverage_bucket
+21600457,0,period,1,PT12M00.00S,12:00,Q1 12:00,0,0,1610612739.0,,Start of 1st Period (2:39 PM EST),,turnover,0,Low
+21600457,2,turnover,1,PT11M42.00S,11:42,Q1 11:42,0,0,1610612744.0,Curry,Curry Out of Bounds - Bad Pass Turnover Turnover (P1.T1),period,turnover,0,Low
+21600457,3,turnover,1,PT11M22.00S,11:22,Q1 11:22,0,0,1610612739.0,James,James Bad Pass Turnover (P1.T1),turnover,steal,0,Low
+21600457,3,steal,1,PT11M22.00S,11:22,Q1 11:22,0,0,1610612744.0,Durant,Durant STEAL (1 STL),turnover,2pt made,0,Low
+21600457,4,2pt,1,PT11M17.00S,11:17,Q1 11:17,0,2,1610612744.0,Durant,Durant 1' Running Layup (2 PTS),steal,2pt missed,2,Low
+21600457,5,2pt,1,PT10M59.00S,10:59,Q1 10:59,0,0,1610612739.0,James,MISS James 1' Driving Layup,2pt made,rebound,0,Low
+21600457,6,rebound,1,PT10M58.00S,10:58,Q1 10:58,0,0,1610612744.0,Pachulia,Pachulia REBOUND (Off:0 Def:1),2pt missed,3pt missed,0,Low
+21600457,7,3pt,1,PT10M51.00S,10:51,Q1 10:51,0,0,1610612744.0,Thompson,MISS Thompson  3PT Jump Shot,rebound,rebound,0,Low
+21600457,8,rebound,1,PT10M50.00S,10:50,Q1 10:50,0,0,1610612739.0,Love,Love REBOUND (Off:0 Def:1),3pt missed,3pt missed,0,Low
+21600457,9,3pt,1,PT10M42.00S,10:42,Q1 10:42,0,0,1610612739.0,Love,MISS Love 25' 3PT Jump Shot,rebound,rebound,0,Low
+21600457,10,rebound,1,PT10M42.00S,10:42,Q1 10:42,0,0,1610612744.0,Pachulia,Pachulia REBOUND (Off:0 Def:2),3pt missed,turnover,0,Low
+21600457,11,turnover,1,PT10M30.00S,10:30,Q1 10:30,0,0,1610612744.0,Green,Green Bad Pass Turnover (P1.T2),rebound,steal,0,Low
+21600457,11,steal,1,PT10M30.00S,10:30,Q1 10:30,0,0,1610612739.0,Love,Love STEAL (1 STL),turnover,2pt missed,0,Low
+21600457,12,2pt,1,PT10M24.00S,10:24,Q1 10:24,0,0,1610612739.0,Irving,MISS Irving 1' Running Layup,steal,rebound,0,Low
+21600457,13,rebound,1,PT10M24.00S,10:24,Q1 10:24,0,0,1610612739.0,,TEAM offensive REBOUND,2pt missed,foul,0,Low
+21600457,15,foul,1,PT10M08.00S,10:08,Q1 10:08,0,0,1610612744.0,Green,Green S.FOUL (P1.T1) (M.Callahan),rebound,freethrow,0,Low
+21600457,16,freethrow,1,PT10M08.00S,10:08,Q1 10:08,1,2,1610612739.0,Love,Love Free Throw 1 of 2 (1 PTS),foul,freethrow,1,Low
+21600457,18,freethrow,1,PT10M08.00S,10:08,Q1 10:08,2,2,1610612739.0,Love,Love Free Throw 2 of 2 (2 PTS),freethrow,2pt made,0,Low
+21600457,20,2pt,1,PT09M57.00S,09:57,Q1 09:57,2,4,1610612744.0,Thompson,Thompson 2' Driving Layup (2 PTS) (Pachulia 1 AST),freethrow,2pt missed,2,Low
+21600457,21,2pt,1,PT09M38.00S,09:38,Q1 09:38,0,0,1610612739.0,Thompson,MISS Thompson 6' Hook Shot,2pt made,rebound,0,Low
+21600457,22,rebound,1,PT09M38.00S,09:38,Q1 09:38,0,0,1610612744.0,Pachulia,Pachulia REBOUND (Off:0 Def:3),2pt missed,3pt missed,0,Low
+21600457,23,3pt,1,PT09M31.00S,09:31,Q1 09:31,0,0,1610612744.0,Thompson,MISS Thompson 27' 3PT Jump Shot,rebound,rebound,0,Low
+21600457,24,rebound,1,PT09M31.00S,09:31,Q1 09:31,0,0,1610612739.0,Liggins,Liggins REBOUND (Off:0 Def:1),3pt missed,foul,0,Low
+21600457,25,foul,1,PT09M25.00S,09:25,Q1 09:25,0,0,1610612744.0,Green,Green S.FOUL (P2.T2) (M.Boland),rebound,foul,0,Low
+21600457,26,foul,1,PT09M25.00S,09:25,Q1 09:25,0,0,1610612744.0,Green,Green T.FOUL (P2.T2) (M.Boland),foul,freethrow,0,Low
+21600457,27,freethrow,1,PT09M25.00S,09:25,Q1 09:25,3,4,1610612739.0,Irving,Irving Free Throw Technical (1 PTS),foul,freethrow,1,Low
+21600457,29,freethrow,1,PT09M25.00S,09:25,Q1 09:25,0,0,1610612739.0,Liggins,MISS Liggins Free Throw 1 of 2,freethrow,rebound,0,Low
+21600457,30,rebound,1,PT09M25.00S,09:25,Q1 09:25,0,0,1610612739.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21600457,32,freethrow,1,PT09M25.00S,09:25,Q1 09:25,0,0,1610612739.0,Liggins,MISS Liggins Free Throw 2 of 2,rebound,substitution,0,Low
+21600457,31,substitution,1,PT09M25.00S,09:25,Q1 09:25,0,0,1610612744.0,Green,SUB out: D. Green,freethrow,substitution,0,Low
+21600457,32,substitution,1,PT09M25.00S,09:25,Q1 09:25,0,0,1610612744.0,Looney,SUB in: K. Looney,substitution,rebound,0,Low
+21600457,34,rebound,1,PT09M24.00S,09:24,Q1 09:24,0,0,1610612744.0,Durant,Durant REBOUND (Off:0 Def:1),substitution,foul,0,Low
+21600457,35,foul,1,PT09M20.00S,09:20,Q1 09:20,0,0,1610612739.0,Thompson,Thompson S.FOUL (P1.T1) (M.Boland),rebound,freethrow,0,Low
+21600457,36,freethrow,1,PT09M20.00S,09:20,Q1 09:20,3,5,1610612744.0,Durant,Durant Free Throw 1 of 2 (3 PTS),foul,freethrow,2,Low
+21600457,38,freethrow,1,PT09M20.00S,09:20,Q1 09:20,3,6,1610612744.0,Durant,Durant Free Throw 2 of 2 (4 PTS),freethrow,3pt made,3,Low
+21600457,40,3pt,1,PT09M06.00S,09:06,Q1 09:06,6,6,1610612739.0,Love,Love 25' 3PT Jump Shot (5 PTS) (Irving 1 AST),freethrow,turnover,0,Low
+21600457,42,turnover,1,PT08M45.00S,08:45,Q1 08:45,0,0,1610612744.0,Pachulia,Pachulia Lost Ball Turnover (P1.T3),3pt made,steal,0,Low
+21600457,42,steal,1,PT08M45.00S,08:45,Q1 08:45,0,0,1610612739.0,Irving,Irving STEAL (1 STL),turnover,2pt missed,0,Low
+21600457,43,2pt,1,PT08M37.00S,08:37,Q1 08:37,0,0,1610612739.0,James,MISS James 1' Running Layup,steal,rebound,0,Low
+21600457,44,rebound,1,PT08M37.00S,08:37,Q1 08:37,0,0,1610612739.0,Thompson,Thompson REBOUND (Off:1 Def:0),2pt missed,turnover,0,Low
+21600457,46,turnover,1,PT08M33.00S,08:33,Q1 08:33,0,0,1610612739.0,James,James Out of Bounds - Bad Pass Turnover Turnover (P2.T2),rebound,3pt missed,0,Low
+21600457,48,3pt,1,PT08M10.00S,08:10,Q1 08:10,0,0,1610612744.0,Durant,MISS Durant 27' 3PT Jump Shot,turnover,rebound,0,Low
+21600457,49,rebound,1,PT08M09.00S,08:09,Q1 08:09,0,0,1610612739.0,James,James REBOUND (Off:0 Def:1),3pt missed,2pt missed,0,Low
+21600457,50,2pt,1,PT07M59.00S,07:59,Q1 07:59,0,0,1610612739.0,Love,MISS Love 2' Driving Layup,rebound,rebound,0,Low
+21600457,51,rebound,1,PT07M58.00S,07:58,Q1 07:58,0,0,1610612744.0,Durant,Durant REBOUND (Off:0 Def:2),2pt missed,2pt made,0,Low
+21600457,52,2pt,1,PT07M49.00S,07:49,Q1 07:49,6,8,1610612744.0,Pachulia,Pachulia 1' Layup (2 PTS) (Durant 1 AST),rebound,3pt missed,2,Low
+21600457,53,3pt,1,PT07M35.00S,07:35,Q1 07:35,0,0,1610612739.0,Love,MISS Love 26' 3PT Jump Shot,2pt made,rebound,0,Low
+21600457,54,rebound,1,PT07M34.00S,07:34,Q1 07:34,0,0,1610612739.0,,TEAM offensive REBOUND,3pt missed,foul,0,Low
+21600457,55,foul,1,PT07M34.00S,07:34,Q1 07:34,0,0,1610612744.0,Pachulia,Pachulia L.B.FOUL (P1.T3) (S.Corbin),rebound,substitution,0,Low
+21600457,56,substitution,1,PT07M34.00S,07:34,Q1 07:34,0,0,1610612744.0,Pachulia,SUB out: Z. Pachulia,foul,substitution,0,Low
+21600457,57,substitution,1,PT07M34.00S,07:34,Q1 07:34,0,0,1610612744.0,McGee,SUB in: J. McGee,substitution,2pt missed,0,Low
+21600457,57,2pt,1,PT07M23.00S,07:23,Q1 07:23,0,0,1610612739.0,Love,MISS Love 3' Turnaround Hook Shot,substitution,rebound,0,Low
+21600457,58,rebound,1,PT07M21.00S,07:21,Q1 07:21,0,0,1610612744.0,Thompson,Thompson REBOUND (Off:0 Def:1),2pt missed,turnover,0,Low
+21600457,59,turnover,1,PT07M16.00S,07:16,Q1 07:16,0,0,1610612744.0,Thompson,Thompson Bad Pass Turnover (P1.T4),rebound,steal,0,Low
+21600457,59,steal,1,PT07M16.00S,07:16,Q1 07:16,0,0,1610612739.0,Liggins,Liggins STEAL (1 STL),turnover,2pt made,0,Low
+21600457,60,2pt,1,PT07M05.00S,07:05,Q1 07:05,8,8,1610612739.0,Irving,Irving 14' Pullup Jump Shot (3 PTS),steal,timeout,0,Low
+21600457,61,timeout,1,PT06M55.00S,06:55,Q1 06:55,0,0,1610612744.0,,Warriors Timeout: Regular (Reg.1 Short 0),2pt made,3pt missed,0,Low
+21600457,65,3pt,1,PT06M44.00S,06:44,Q1 06:44,0,0,1610612744.0,Durant,MISS Durant 25' 3PT Jump Shot,timeout,rebound,0,Low
+21600457,66,rebound,1,PT06M43.00S,06:43,Q1 06:43,0,0,1610612739.0,Liggins,Liggins REBOUND (Off:0 Def:2),3pt missed,foul,0,Low
+21600457,67,foul,1,PT06M41.00S,06:41,Q1 06:41,0,0,1610612744.0,Looney,Looney P.FOUL (P1.T4) (S.Corbin),rebound,2pt made,0,Low
+21600457,68,2pt,1,PT06M26.00S,06:26,Q1 06:26,10,8,1610612739.0,Irving,Irving 14' Driving Bank Shot (5 PTS) (Love 1 AST),foul,3pt missed,2,Low
+21600457,69,3pt,1,PT06M02.00S,06:02,Q1 06:02,0,0,1610612744.0,Thompson,MISS Thompson  3PT Jump Shot,2pt made,2pt made,0,Low
+21600457,70,2pt,1,PT05M59.00S,05:59,Q1 05:59,10,10,1610612744.0,McGee,McGee  Tip Dunk Shot (2 PTS),3pt missed,rebound,0,Low
+21600457,71,rebound,1,PT05M59.00S,05:59,Q1 05:59,0,0,1610612744.0,McGee,McGee REBOUND (Off:1 Def:0),2pt made,2pt missed,0,Low
+21600457,72,2pt,1,PT05M41.00S,05:41,Q1 05:41,0,0,1610612739.0,Liggins,MISS Liggins 5' Jump Shot,rebound,rebound,0,Low
+21600457,73,rebound,1,PT05M41.00S,05:41,Q1 05:41,0,0,1610612744.0,McGee,McGee REBOUND (Off:1 Def:1),2pt missed,foul,0,Low
+21600457,74,foul,1,PT05M31.00S,05:31,Q1 05:31,0,0,1610612739.0,Liggins,Liggins S.FOUL (P1.T2) (S.Corbin),rebound,freethrow,0,Low
+21600457,75,freethrow,1,PT05M31.00S,05:31,Q1 05:31,10,11,1610612744.0,Durant,Durant Free Throw 1 of 2 (5 PTS),foul,freethrow,1,Low
+21600457,78,freethrow,1,PT05M31.00S,05:31,Q1 05:31,10,12,1610612744.0,Durant,Durant Free Throw 2 of 2 (6 PTS),freethrow,substitution,2,Low
+21600457,77,substitution,1,PT05M31.00S,05:31,Q1 05:31,0,0,1610612739.0,Liggins,SUB out: D. Liggins,freethrow,substitution,0,Low
+21600457,78,substitution,1,PT05M31.00S,05:31,Q1 05:31,0,0,1610612739.0,Shumpert,SUB in: I. Shumpert,substitution,3pt missed,0,Low
+21600457,80,3pt,1,PT05M13.00S,05:13,Q1 05:13,0,0,1610612739.0,Shumpert,MISS Shumpert  3PT Jump Shot,substitution,rebound,0,Low
+21600457,81,rebound,1,PT05M13.00S,05:13,Q1 05:13,0,0,1610612744.0,Looney,Looney REBOUND (Off:0 Def:1),3pt missed,turnover,0,Low
+21600457,82,turnover,1,PT05M04.00S,05:04,Q1 05:04,0,0,1610612744.0,Thompson,Thompson Bad Pass Turnover (P2.T5),rebound,steal,0,Low
+21600457,82,steal,1,PT05M04.00S,05:04,Q1 05:04,0,0,1610612739.0,James,James STEAL (1 STL),turnover,2pt made,0,Low
+21600457,83,2pt,1,PT04M59.00S,04:59,Q1 04:59,12,12,1610612739.0,James,James 2' Running Layup (2 PTS),steal,2pt made,0,Low
+21600457,84,2pt,1,PT04M52.00S,04:52,Q1 04:52,12,14,1610612744.0,Durant,Durant  Driving Dunk (8 PTS),2pt made,2pt made,2,Low
+21600457,85,2pt,1,PT04M46.00S,04:46,Q1 04:46,14,14,1610612739.0,James,James  Running Dunk (4 PTS) (Love 2 AST),2pt made,3pt missed,0,Low
+21600457,86,3pt,1,PT04M36.00S,04:36,Q1 04:36,0,0,1610612744.0,Curry,MISS Curry 25' 3PT Pullup Jump Shot,2pt made,rebound,0,Low
+21600457,87,rebound,1,PT04M36.00S,04:36,Q1 04:36,0,0,1610612739.0,Irving,Irving REBOUND (Off:0 Def:1),3pt missed,2pt missed,0,Low
+21600457,88,2pt,1,PT04M27.00S,04:27,Q1 04:27,0,0,1610612739.0,Shumpert,MISS Shumpert 15' Jump Shot,rebound,rebound,0,Low
+21600457,89,rebound,1,PT04M27.00S,04:27,Q1 04:27,0,0,1610612739.0,,TEAM offensive REBOUND,2pt missed,2pt missed,0,Low
+21600457,91,2pt,1,PT04M16.00S,04:16,Q1 04:16,0,0,1610612739.0,Irving,MISS Irving 15' Jump Shot,rebound,rebound,0,Low
+21600457,92,rebound,1,PT04M15.00S,04:15,Q1 04:15,0,0,1610612744.0,Durant,Durant REBOUND (Off:0 Def:3),2pt missed,foul,0,Low
+21600457,93,foul,1,PT03M58.00S,03:58,Q1 03:58,0,0,1610612739.0,Love,Love Shooting Block Foul (P1.T3) (M.Boland),rebound,freethrow,0,Low
+21600457,94,freethrow,1,PT03M58.00S,03:58,Q1 03:58,14,15,1610612744.0,Durant,Durant Free Throw 1 of 2 (9 PTS),foul,freethrow,1,Low
+21600457,97,freethrow,1,PT03M58.00S,03:58,Q1 03:58,14,16,1610612744.0,Durant,Durant Free Throw 2 of 2 (10 PTS),freethrow,substitution,2,Low
+21600457,96,substitution,1,PT03M58.00S,03:58,Q1 03:58,0,0,1610612744.0,Looney,SUB out: K. Looney,freethrow,substitution,0,Low
+21600457,97,substitution,1,PT03M58.00S,03:58,Q1 03:58,0,0,1610612744.0,Iguodala,SUB in: A. Iguodala,substitution,3pt missed,0,Low
+21600457,99,3pt,1,PT03M47.00S,03:47,Q1 03:47,0,0,1610612739.0,James,MISS James 25' 3PT Jump Shot,substitution,rebound,0,Low
+21600457,100,rebound,1,PT03M46.00S,03:46,Q1 03:46,0,0,1610612744.0,Durant,Durant REBOUND (Off:0 Def:4),3pt missed,2pt made,0,Low
+21600457,101,2pt,1,PT03M38.00S,03:38,Q1 03:38,14,18,1610612744.0,Durant,Durant 10' Driving Bank Shot (12 PTS),rebound,2pt missed,4,Low
+21600457,102,2pt,1,PT03M20.00S,03:20,Q1 03:20,0,0,1610612739.0,Shumpert,MISS Shumpert 9' Pullup Jump Shot,2pt made,rebound,0,Low
+21600457,103,rebound,1,PT03M19.00S,03:19,Q1 03:19,0,0,1610612744.0,,TEAM defensive REBOUND,2pt missed,timeout,0,Low
+21600457,104,timeout,1,PT03M19.00S,03:19,Q1 03:19,0,0,1610612744.0,,Warriors Timeout: Short (Reg.1 Short 1),rebound,substitution,0,Low
+21600457,106,substitution,1,PT03M19.00S,03:19,Q1 03:19,0,0,1610612744.0,Thompson,SUB out: K. Thompson,timeout,substitution,0,Low
+21600457,107,substitution,1,PT03M19.00S,03:19,Q1 03:19,0,0,1610612739.0,Thompson,SUB out: T. Thompson,substitution,substitution,0,Low
+21600457,108,substitution,1,PT03M19.00S,03:19,Q1 03:19,0,0,1610612739.0,Irving,SUB out: K. Irving,substitution,substitution,0,Low
+21600457,109,substitution,1,PT03M19.00S,03:19,Q1 03:19,0,0,1610612744.0,Clark,SUB in: I. Clark,substitution,substitution,0,Low
+21600457,110,substitution,1,PT03M19.00S,03:19,Q1 03:19,0,0,1610612739.0,Jefferson,SUB in: R. Jefferson,substitution,substitution,0,Low
+21600457,111,substitution,1,PT03M19.00S,03:19,Q1 03:19,0,0,1610612739.0,Frye,SUB in: C. Frye,substitution,2pt missed,0,Low
+21600457,109,2pt,1,PT02M59.00S,02:59,Q1 02:59,0,0,1610612744.0,Clark,MISS Clark 18' Pullup Jump Shot,substitution,rebound,0,Low
+21600457,110,rebound,1,PT02M58.00S,02:58,Q1 02:58,0,0,1610612739.0,Love,Love REBOUND (Off:0 Def:2),2pt missed,timeout,0,Low
+21600457,112,timeout,1,PT02M47.00S,02:47,Q1 02:47,0,0,1610612739.0,,CAVALIERS Timeout: Regular (Full 1 Short 0),rebound,substitution,0,Low
+21600457,115,substitution,1,PT02M47.00S,02:47,Q1 02:47,0,0,1610612744.0,McGee,SUB out: J. McGee,timeout,substitution,0,Low
+21600457,116,substitution,1,PT02M47.00S,02:47,Q1 02:47,0,0,1610612744.0,West,SUB in: D. West,substitution,turnover,0,Low
+21600457,116,turnover,1,PT02M41.00S,02:41,Q1 02:41,0,0,1610612739.0,Frye,Frye Out of Bounds - Bad Pass Turnover Turnover (P1.T3),substitution,foul,0,Low
+21600457,117,foul,1,PT02M30.00S,02:30,Q1 02:30,0,0,1610612739.0,Frye,Frye S.FOUL (P1.T4) (S.Corbin),turnover,freethrow,0,Low
+21600457,118,freethrow,1,PT02M30.00S,02:30,Q1 02:30,14,19,1610612744.0,West,West Free Throw 1 of 2 (1 PTS),foul,freethrow,5,Low
+21600457,120,freethrow,1,PT02M30.00S,02:30,Q1 02:30,14,20,1610612744.0,West,West Free Throw 2 of 2 (2 PTS),freethrow,2pt made,6,Low
+21600457,122,2pt,1,PT02M19.00S,02:19,Q1 02:19,16,20,1610612739.0,James,James 1' Driving Layup (6 PTS),freethrow,3pt missed,4,Low
+21600457,123,3pt,1,PT02M07.00S,02:07,Q1 02:07,0,0,1610612744.0,Curry,MISS Curry 26' 3PT Jump Shot,2pt made,rebound,0,Low
+21600457,124,rebound,1,PT02M07.00S,02:07,Q1 02:07,0,0,1610612739.0,,TEAM defensive REBOUND,3pt missed,2pt missed,0,Low
+21600457,125,2pt,1,PT01M51.00S,01:51,Q1 01:51,0,0,1610612739.0,Shumpert,MISS Shumpert 1' Driving Layup,rebound,rebound,0,Low
+21600457,126,rebound,1,PT01M49.00S,01:49,Q1 01:49,0,0,1610612739.0,Shumpert,Shumpert REBOUND (Off:1 Def:0),2pt missed,3pt missed,0,Low
+21600457,127,3pt,1,PT01M47.00S,01:47,Q1 01:47,0,0,1610612739.0,Frye,MISS Frye 25' 3PT Jump Shot,rebound,rebound,0,Low
+21600457,128,rebound,1,PT01M47.00S,01:47,Q1 01:47,0,0,1610612739.0,Love,Love REBOUND (Off:1 Def:2),3pt missed,2pt made,0,Low
+21600457,129,2pt,1,PT01M45.00S,01:45,Q1 01:45,18,20,1610612739.0,Love,Love 2' Putback Layup (7 PTS),rebound,foul,2,Low
+21600457,130,foul,1,PT01M18.00S,01:18,Q1 01:18,0,0,1610612739.0,James,James S.FOUL (P1.PN) (S.Corbin),2pt made,freethrow,0,Low
+21600457,131,freethrow,1,PT01M18.00S,01:18,Q1 01:18,18,21,1610612744.0,Curry,Curry Free Throw 1 of 2 (1 PTS),foul,freethrow,3,Low
+21600457,133,freethrow,1,PT01M18.00S,01:18,Q1 01:18,18,22,1610612744.0,Curry,Curry Free Throw 2 of 2 (2 PTS),freethrow,foul,4,Low
+21600457,135,foul,1,PT01M09.00S,01:09,Q1 01:09,0,0,1610612744.0,Curry,Curry S.FOUL (P1.PN) (M.Callahan),freethrow,freethrow,0,Low
+21600457,136,freethrow,1,PT01M09.00S,01:09,Q1 01:09,19,22,1610612739.0,Jefferson,Jefferson Free Throw 1 of 2 (1 PTS),foul,freethrow,3,Low
+21600457,140,freethrow,1,PT01M09.00S,01:09,Q1 01:09,20,22,1610612739.0,Jefferson,Jefferson Free Throw 2 of 2 (2 PTS),freethrow,substitution,2,Low
+21600457,138,substitution,1,PT01M09.00S,01:09,Q1 01:09,0,0,1610612744.0,Curry,SUB out: S. Curry,freethrow,substitution,0,Low
+21600457,139,substitution,1,PT01M09.00S,01:09,Q1 01:09,0,0,1610612739.0,James,SUB out: L. James,substitution,substitution,0,Low
+21600457,140,substitution,1,PT01M09.00S,01:09,Q1 01:09,0,0,1610612744.0,Thompson,SUB in: K. Thompson,substitution,substitution,0,Low
+21600457,141,substitution,1,PT01M09.00S,01:09,Q1 01:09,0,0,1610612739.0,Irving,SUB in: K. Irving,substitution,2pt made,0,Low
+21600457,142,2pt,1,PT00M56.00S,00:56,Q1 00:56,20,24,1610612744.0,Clark,Clark 2' Cutting Layup Shot (2 PTS) (West 1 AST),substitution,3pt made,4,Low
+21600457,144,3pt,1,PT00M43.70S,00:43,Q1 00:43,23,24,1610612739.0,Frye,Frye 24' 3PT Jump Shot (3 PTS) (Irving 2 AST),2pt made,foul,1,Low
+21600457,145,foul,1,PT00M31.30S,00:31,Q1 00:31,0,0,1610612739.0,Shumpert,Shumpert P.FOUL (P1.PN) (M.Callahan),3pt made,freethrow,0,Low
+21600457,146,freethrow,1,PT00M31.30S,00:31,Q1 00:31,23,25,1610612744.0,Thompson,Thompson Free Throw 1 of 2 (3 PTS),foul,freethrow,2,Low
+21600457,148,freethrow,1,PT00M31.30S,00:31,Q1 00:31,0,0,1610612744.0,Thompson,MISS Thompson Free Throw 2 of 2,freethrow,rebound,0,Low
+21600457,150,rebound,1,PT00M30.10S,00:30,Q1 00:30,0,0,1610612739.0,Frye,Frye REBOUND (Off:0 Def:1),freethrow,foul,0,Low
+21600457,151,foul,1,PT00M20.30S,00:20,Q1 00:20,0,0,1610612744.0,West,West S.FOUL (P1.PN) (S.Corbin),rebound,freethrow,0,Low
+21600457,152,freethrow,1,PT00M20.30S,00:20,Q1 00:20,24,25,1610612739.0,Shumpert,Shumpert Free Throw 1 of 2 (1 PTS),foul,freethrow,1,Low
+21600457,157,freethrow,1,PT00M20.30S,00:20,Q1 00:20,25,25,1610612739.0,Shumpert,Shumpert Free Throw 2 of 2 (2 PTS),freethrow,substitution,0,Low
+21600457,154,substitution,1,PT00M20.30S,00:20,Q1 00:20,0,0,1610612744.0,Iguodala,SUB out: A. Iguodala,freethrow,substitution,0,Low
+21600457,155,substitution,1,PT00M20.30S,00:20,Q1 00:20,0,0,1610612739.0,Love,SUB out: K. Love,substitution,substitution,0,Low
+21600457,156,substitution,1,PT00M20.30S,00:20,Q1 00:20,0,0,1610612739.0,Frye,SUB out: C. Frye,substitution,substitution,0,Low
+21600457,157,substitution,1,PT00M20.30S,00:20,Q1 00:20,0,0,1610612744.0,Curry,SUB in: S. Curry,substitution,substitution,0,Low
+21600457,158,substitution,1,PT00M20.30S,00:20,Q1 00:20,0,0,1610612739.0,Thompson,SUB in: T. Thompson,substitution,substitution,0,Low
+21600457,159,substitution,1,PT00M20.30S,00:20,Q1 00:20,0,0,1610612739.0,Liggins,SUB in: D. Liggins,substitution,2pt made,0,Low
+21600457,159,2pt,1,PT00M00.70S,00:00,Q1 00:00,25,27,1610612744.0,Thompson,Thompson 2' Cutting Layup Shot (5 PTS) (West 2 AST),substitution,period,2,Low
+21600457,160,period,1,PT00M00.00S,00:00,Q1 00:00,25,27,1610612739.0,,End of 1st Period (3:11 PM EST),2pt made,period,2,Low
+21600457,162,period,2,PT12M00.00S,12:00,Q2 12:00,25,27,1610612739.0,,Start of 2nd Period (3:15 PM EST),period,substitution,2,Low
+21600457,163,foul,2,PT11M49.00S,11:49,Q2 11:49,0,0,1610612744.0,Iguodala,Iguodala P.FOUL (P1.T1) (S.Corbin),substitution,3pt missed,0,Low
+21600457,164,3pt,2,PT11M36.00S,11:36,Q2 11:36,0,0,1610612739.0,James,MISS James  3PT Jump Shot,foul,rebound,0,Low
+21600457,165,rebound,2,PT11M35.00S,11:35,Q2 11:35,0,0,1610612744.0,Livingston,Livingston REBOUND (Off:0 Def:1),3pt missed,3pt made,0,Low
+21600457,166,3pt,2,PT11M21.00S,11:21,Q2 11:21,25,30,1610612744.0,Thompson,Thompson  3PT Jump Shot (8 PTS) (Livingston 1 AST),rebound,3pt missed,5,Low
+21600457,167,3pt,2,PT11M09.00S,11:09,Q2 11:09,0,0,1610612739.0,Shumpert,MISS Shumpert  3PT Jump Shot,3pt made,rebound,0,Low
+21600457,168,rebound,2,PT11M09.00S,11:09,Q2 11:09,0,0,1610612739.0,James,James REBOUND (Off:1 Def:1),3pt missed,3pt missed,0,Low
+21600457,169,3pt,2,PT10M58.00S,10:58,Q2 10:58,0,0,1610612739.0,Jefferson,MISS Jefferson 25' 3PT Jump Shot,rebound,rebound,0,Low
+21600457,170,rebound,2,PT10M58.00S,10:58,Q2 10:58,0,0,1610612739.0,Shumpert,Shumpert REBOUND (Off:2 Def:0),3pt missed,2pt made,0,Low
+21600457,171,2pt,2,PT10M51.00S,10:51,Q2 10:51,27,30,1610612739.0,Frye,Frye  Cutting Dunk Shot (5 PTS) (Irving 3 AST),rebound,2pt missed,3,Low
+21600457,172,2pt,2,PT10M34.00S,10:34,Q2 10:34,0,0,1610612744.0,West,MISS West 3' Layup,2pt made,rebound,0,Low
+21600457,173,rebound,2,PT10M33.00S,10:33,Q2 10:33,0,0,1610612744.0,West,West REBOUND (Off:1 Def:0),2pt missed,2pt made,0,Low
+21600457,174,2pt,2,PT10M28.00S,10:28,Q2 10:28,27,32,1610612744.0,Thompson,Thompson 19' Jump Shot (10 PTS) (West 3 AST),rebound,3pt missed,5,Low
+21600457,175,3pt,2,PT10M15.00S,10:15,Q2 10:15,0,0,1610612739.0,Irving,MISS Irving 26' 3PT Jump Shot,2pt made,rebound,0,Low
+21600457,176,rebound,2,PT10M15.00S,10:15,Q2 10:15,0,0,1610612744.0,Green,Green REBOUND (Off:0 Def:1),3pt missed,3pt missed,0,Low
+21600457,177,3pt,2,PT10M05.00S,10:05,Q2 10:05,0,0,1610612744.0,Thompson,MISS Thompson  3PT Jump Shot,rebound,rebound,0,Low
+21600457,178,rebound,2,PT10M05.00S,10:05,Q2 10:05,0,0,1610612739.0,Shumpert,Shumpert REBOUND (Off:2 Def:1),3pt missed,3pt made,0,Low
+21600457,179,3pt,2,PT09M49.00S,09:49,Q2 09:49,30,32,1610612739.0,Frye,Frye 24' 3PT Jump Shot (8 PTS) (James 1 AST),rebound,timeout,2,Low
+21600457,180,timeout,2,PT09M42.00S,09:42,Q2 09:42,0,0,1610612744.0,,Warriors Timeout: Regular (Reg.2 Short 1),3pt made,2pt made,0,Low
+21600457,184,2pt,2,PT09M35.00S,09:35,Q2 09:35,30,34,1610612744.0,West,West 6' Hook Shot (4 PTS) (Iguodala 1 AST),timeout,foul,4,Low
+21600457,185,foul,2,PT09M35.00S,09:35,Q2 09:35,0,0,1610612739.0,Shumpert,Shumpert S.FOUL (P2.T1) (M.Boland),2pt made,freethrow,0,Low
+21600457,186,freethrow,2,PT09M35.00S,09:35,Q2 09:35,30,35,1610612744.0,West,West Free Throw 1 of 1 (5 PTS),foul,2pt made,5,Low
+21600457,188,2pt,2,PT09M17.00S,09:17,Q2 09:17,32,35,1610612739.0,Frye,Frye  Cutting Dunk Shot (10 PTS) (James 2 AST),freethrow,3pt missed,3,Low
+21600457,189,3pt,2,PT08M59.00S,08:59,Q2 08:59,0,0,1610612744.0,Green,MISS Green 26' 3PT Jump Shot,2pt made,rebound,0,Low
+21600457,190,rebound,2,PT08M59.00S,08:59,Q2 08:59,0,0,1610612744.0,Iguodala,Iguodala REBOUND (Off:1 Def:0),3pt missed,2pt made,0,Low
+21600457,191,2pt,2,PT08M48.00S,08:48,Q2 08:48,32,37,1610612744.0,Green,Green 1' Cutting Layup Shot (2 PTS) (Iguodala 2 AST),rebound,2pt missed,5,Low
+21600457,192,2pt,2,PT08M36.00S,08:36,Q2 08:36,0,0,1610612739.0,Jefferson,MISS Jefferson 2' Layup,2pt made,block,0,Low
+21600457,192,block,2,PT08M36.00S,08:36,Q2 08:36,0,0,1610612744.0,Livingston,Livingston BLOCK (1 BLK),2pt missed,rebound,0,Low
+21600457,202,rebound,2,PT08M36.00S,08:36,Q2 08:36,0,0,1610612744.0,Livingston,Livingston REBOUND (Off:0 Def:2),block,2pt missed,0,Low
+21600457,193,2pt,2,PT08M27.00S,08:27,Q2 08:27,0,0,1610612744.0,Livingston,MISS Livingston 15' Jump Shot,rebound,rebound,0,Low
+21600457,194,rebound,2,PT08M25.00S,08:25,Q2 08:25,0,0,1610612739.0,James,James REBOUND (Off:1 Def:2),2pt missed,3pt missed,0,Low
+21600457,195,3pt,2,PT08M16.00S,08:16,Q2 08:16,0,0,1610612739.0,Shumpert,MISS Shumpert 25' 3PT Jump Shot,rebound,rebound,0,Low
+21600457,196,rebound,2,PT08M16.00S,08:16,Q2 08:16,0,0,1610612739.0,James,James REBOUND (Off:2 Def:2),3pt missed,2pt missed,0,Low
+21600457,197,2pt,2,PT08M12.00S,08:12,Q2 08:12,0,0,1610612739.0,James,MISS James 1' Layup,rebound,rebound,0,Low
+21600457,198,rebound,2,PT08M11.00S,08:11,Q2 08:11,0,0,1610612744.0,Green,Green REBOUND (Off:0 Def:2),2pt missed,3pt made,0,Low
+21600457,199,3pt,2,PT08M04.00S,08:04,Q2 08:04,32,40,1610612744.0,Thompson,Thompson 25' 3PT Jump Shot (13 PTS) (West 4 AST),rebound,timeout,8,Low
+21600457,200,timeout,2,PT08M04.00S,08:04,Q2 08:04,0,0,1610612739.0,,CAVALIERS Timeout: Regular (Full 2 Short 0),3pt made,2pt made,0,Low
+21600457,205,2pt,2,PT07M51.00S,07:51,Q2 07:51,34,40,1610612739.0,Irving,Irving 4' Driving Bank Shot (7 PTS),timeout,2pt missed,6,Low
+21600457,206,2pt,2,PT07M26.00S,07:26,Q2 07:26,0,0,1610612744.0,West,MISS West 2' Hook Shot,2pt made,rebound,0,Low
+21600457,207,rebound,2,PT07M26.00S,07:26,Q2 07:26,0,0,1610612739.0,Jefferson,Jefferson REBOUND (Off:0 Def:1),2pt missed,2pt missed,0,Low
+21600457,208,2pt,2,PT07M16.00S,07:16,Q2 07:16,0,0,1610612739.0,Irving,MISS Irving 1' Driving Layup,rebound,2pt made,0,Low
+21600457,209,2pt,2,PT07M15.00S,07:15,Q2 07:15,36,40,1610612739.0,Irving,Irving 2' Tip Layup Shot (9 PTS),2pt missed,rebound,4,Low
+21600457,210,rebound,2,PT07M15.00S,07:15,Q2 07:15,0,0,1610612739.0,Irving,Irving REBOUND (Off:1 Def:1),2pt made,turnover,0,Low
+21600457,211,turnover,2,PT06M59.00S,06:59,Q2 06:59,0,0,1610612744.0,Green,Green Bad Pass Turnover (P2.T6),rebound,steal,0,Low
+21600457,211,steal,2,PT06M59.00S,06:59,Q2 06:59,0,0,1610612739.0,Irving,Irving STEAL (2 STL),turnover,turnover,0,Low
+21600457,212,turnover,2,PT06M55.00S,06:55,Q2 06:55,0,0,1610612739.0,Jefferson,Jefferson Bad Pass Turnover (P1.T4),steal,steal,0,Low
+21600457,212,steal,2,PT06M55.00S,06:55,Q2 06:55,0,0,1610612744.0,Thompson,Thompson STEAL (1 STL),turnover,foul,0,Low
+21600457,213,foul,2,PT06M51.00S,06:51,Q2 06:51,0,0,1610612739.0,Jefferson,Jefferson S.FOUL (P1.T2) (S.Corbin),steal,freethrow,0,Low
+21600457,214,freethrow,2,PT06M51.00S,06:51,Q2 06:51,36,41,1610612744.0,Livingston,Livingston Free Throw 1 of 2 (1 PTS),foul,freethrow,5,Low
+21600457,221,freethrow,2,PT06M51.00S,06:51,Q2 06:51,36,42,1610612744.0,Livingston,Livingston Free Throw 2 of 2 (2 PTS),freethrow,substitution,6,Low
+21600457,216,substitution,2,PT06M51.00S,06:51,Q2 06:51,0,0,1610612744.0,West,SUB out: D. West,freethrow,substitution,0,Low
+21600457,217,substitution,2,PT06M51.00S,06:51,Q2 06:51,0,0,1610612744.0,Iguodala,SUB out: A. Iguodala,substitution,substitution,0,Low
+21600457,218,substitution,2,PT06M51.00S,06:51,Q2 06:51,0,0,1610612739.0,Frye,SUB out: C. Frye,substitution,substitution,0,Low
+21600457,219,substitution,2,PT06M51.00S,06:51,Q2 06:51,0,0,1610612739.0,James,SUB out: L. James,substitution,substitution,0,Low
+21600457,220,substitution,2,PT06M51.00S,06:51,Q2 06:51,0,0,1610612744.0,Durant,SUB in: K. Durant,substitution,substitution,0,Low
+21600457,221,substitution,2,PT06M51.00S,06:51,Q2 06:51,0,0,1610612744.0,Curry,SUB in: S. Curry,substitution,substitution,0,Low
+21600457,222,substitution,2,PT06M51.00S,06:51,Q2 06:51,0,0,1610612739.0,Thompson,SUB in: T. Thompson,substitution,substitution,0,Low
+21600457,223,substitution,2,PT06M51.00S,06:51,Q2 06:51,0,0,1610612739.0,Liggins,SUB in: D. Liggins,substitution,2pt missed,0,Low
+21600457,223,2pt,2,PT06M30.00S,06:30,Q2 06:30,0,0,1610612739.0,Jefferson,MISS Jefferson 12' Running Jump Shot,substitution,block,0,Low
+21600457,223,block,2,PT06M30.00S,06:30,Q2 06:30,0,0,1610612744.0,Durant,Durant BLOCK (1 BLK),2pt missed,rebound,0,Low
+21600457,224,rebound,2,PT06M29.00S,06:29,Q2 06:29,0,0,1610612744.0,Durant,Durant REBOUND (Off:0 Def:5),block,2pt made,0,Low
+21600457,225,2pt,2,PT06M16.00S,06:16,Q2 06:16,36,44,1610612744.0,Green,Green 2' Layup (4 PTS) (Livingston 2 AST),rebound,2pt missed,8,Low
+21600457,226,2pt,2,PT05M57.00S,05:57,Q2 05:57,0,0,1610612739.0,Irving,MISS Irving 15' Pullup Jump Shot,2pt made,2pt made,0,Low
+21600457,227,2pt,2,PT05M54.00S,05:54,Q2 05:54,38,44,1610612739.0,Thompson,Thompson  Putback Dunk (2 PTS),2pt missed,rebound,6,Low
+21600457,228,rebound,2,PT05M54.00S,05:54,Q2 05:54,0,0,1610612739.0,Thompson,Thompson REBOUND (Off:2 Def:0),2pt made,foul,0,Low
+21600457,229,foul,2,PT05M43.00S,05:43,Q2 05:43,0,0,1610612744.0,Curry,Curry OFF.Foul (P2) (S.Corbin),rebound,turnover,0,Low
+21600457,230,turnover,2,PT05M43.00S,05:43,Q2 05:43,0,0,1610612744.0,Curry,Curry Foul Turnover (P2.T7),foul,2pt missed,0,Low
+21600457,231,2pt,2,PT05M27.00S,05:27,Q2 05:27,0,0,1610612739.0,Irving,MISS Irving 17' Pullup Jump Shot,turnover,rebound,0,Low
+21600457,232,rebound,2,PT05M25.00S,05:25,Q2 05:25,0,0,1610612744.0,Curry,Curry REBOUND (Off:0 Def:1),2pt missed,turnover,0,Low
+21600457,233,turnover,2,PT05M15.00S,05:15,Q2 05:15,0,0,1610612744.0,Livingston,Livingston Bad Pass Turnover (P1.T8),rebound,steal,0,Low
+21600457,233,steal,2,PT05M15.00S,05:15,Q2 05:15,0,0,1610612739.0,Shumpert,Shumpert STEAL (1 STL),turnover,turnover,0,Low
+21600457,234,turnover,2,PT05M10.00S,05:10,Q2 05:10,0,0,1610612739.0,Shumpert,Shumpert Bad Pass Turnover (P1.T5),steal,steal,0,Low
+21600457,234,steal,2,PT05M10.00S,05:10,Q2 05:10,0,0,1610612744.0,Curry,Curry STEAL (1 STL),turnover,2pt made,0,Low
+21600457,235,2pt,2,PT05M06.00S,05:06,Q2 05:06,38,46,1610612744.0,Durant,Durant  Running Dunk (14 PTS) (Livingston 3 AST),steal,timeout,8,Low
+21600457,236,timeout,2,PT05M06.00S,05:06,Q2 05:06,0,0,1610612739.0,,CAVALIERS Timeout: Short (Full 2 Short 1),2pt made,2pt missed,0,Low
+21600457,240,2pt,2,PT04M49.00S,04:49,Q2 04:49,0,0,1610612739.0,Jefferson,MISS Jefferson 18' Jump Shot,timeout,rebound,0,Low
+21600457,241,rebound,2,PT04M48.00S,04:48,Q2 04:48,0,0,1610612739.0,Thompson,Thompson REBOUND (Off:3 Def:0),2pt missed,foul,0,Low
+21600457,242,foul,2,PT04M38.00S,04:38,Q2 04:38,0,0,1610612744.0,Green,Green P.FOUL (P3.T2) (M.Boland),rebound,timeout,0,Low
+21600457,245,timeout,2,PT04M38.00S,04:38,Q2 04:38,0,0,1610612739.0,,CAVALIERS Timeout: Regular (Full 3 Short 1),foul,substitution,0,Low
+21600457,243,substitution,2,PT04M38.00S,04:38,Q2 04:38,0,0,1610612744.0,Thompson,SUB out: K. Thompson,timeout,substitution,0,Low
+21600457,244,substitution,2,PT04M38.00S,04:38,Q2 04:38,0,0,1610612739.0,Jefferson,SUB out: R. Jefferson,substitution,substitution,0,Low
+21600457,245,substitution,2,PT04M38.00S,04:38,Q2 04:38,0,0,1610612739.0,Liggins,SUB out: D. Liggins,substitution,substitution,0,Low
+21600457,246,substitution,2,PT04M38.00S,04:38,Q2 04:38,0,0,1610612744.0,Clark,SUB in: I. Clark,substitution,substitution,0,Low
+21600457,247,substitution,2,PT04M38.00S,04:38,Q2 04:38,0,0,1610612739.0,James,SUB in: L. James,substitution,substitution,0,Low
+21600457,248,substitution,2,PT04M38.00S,04:38,Q2 04:38,0,0,1610612739.0,Love,SUB in: K. Love,substitution,3pt missed,0,Low
+21600457,249,3pt,2,PT04M23.00S,04:23,Q2 04:23,0,0,1610612739.0,Irving,MISS Irving 24' 3PT Jump Shot,substitution,rebound,0,Low
+21600457,250,rebound,2,PT04M23.00S,04:23,Q2 04:23,0,0,1610612744.0,Durant,Durant REBOUND (Off:0 Def:6),3pt missed,3pt made,0,Low
+21600457,251,3pt,2,PT04M15.00S,04:15,Q2 04:15,38,49,1610612744.0,Curry,Curry 24' 3PT Jump Shot (5 PTS) (Clark 1 AST),rebound,foul,11,Low
+21600457,252,foul,2,PT04M00.00S,04:00,Q2 04:00,0,0,1610612744.0,Durant,Durant S.FOUL (P1.T3) (S.Corbin),3pt made,freethrow,0,Low
+21600457,253,freethrow,2,PT04M00.00S,04:00,Q2 04:00,39,49,1610612739.0,Love,Love Free Throw 1 of 2 (8 PTS),foul,freethrow,10,Low
+21600457,255,freethrow,2,PT04M00.00S,04:00,Q2 04:00,40,49,1610612739.0,Love,Love Free Throw 2 of 2 (9 PTS),freethrow,foul,9,Low
+21600457,257,foul,2,PT03M49.00S,03:49,Q2 03:49,0,0,1610612739.0,Shumpert,Shumpert S.FOUL (P3.T3) (S.Corbin),freethrow,freethrow,0,Low
+21600457,258,freethrow,2,PT03M49.00S,03:49,Q2 03:49,40,50,1610612744.0,Curry,Curry Free Throw 1 of 2 (6 PTS),foul,freethrow,10,Low
+21600457,261,freethrow,2,PT03M49.00S,03:49,Q2 03:49,0,0,1610612744.0,Curry,MISS Curry Free Throw 2 of 2,freethrow,substitution,0,Low
+21600457,260,substitution,2,PT03M49.00S,03:49,Q2 03:49,0,0,1610612739.0,Shumpert,SUB out: I. Shumpert,freethrow,substitution,0,Low
+21600457,261,substitution,2,PT03M49.00S,03:49,Q2 03:49,0,0,1610612739.0,Jefferson,SUB in: R. Jefferson,substitution,rebound,0,Low
+21600457,263,rebound,2,PT03M47.00S,03:47,Q2 03:47,0,0,1610612739.0,James,James REBOUND (Off:2 Def:3),substitution,3pt made,0,Low
+21600457,264,3pt,2,PT03M29.00S,03:29,Q2 03:29,43,50,1610612739.0,Love,Love 25' 3PT Jump Shot (12 PTS) (Irving 4 AST),rebound,2pt missed,7,Low
+21600457,265,2pt,2,PT03M11.00S,03:11,Q2 03:11,0,0,1610612744.0,Livingston,MISS Livingston 13' Turnaround Fadeaway Shot,3pt made,rebound,0,Low
+21600457,266,rebound,2,PT03M11.00S,03:11,Q2 03:11,0,0,1610612739.0,James,James REBOUND (Off:2 Def:4),2pt missed,3pt missed,0,Low
+21600457,267,3pt,2,PT03M04.00S,03:04,Q2 03:04,0,0,1610612739.0,Jefferson,MISS Jefferson 25' 3PT Jump Shot,rebound,rebound,0,Low
+21600457,268,rebound,2,PT03M03.00S,03:03,Q2 03:03,0,0,1610612739.0,Thompson,Thompson REBOUND (Off:4 Def:0),3pt missed,2pt missed,0,Low
+21600457,269,2pt,2,PT03M00.00S,03:00,Q2 03:00,0,0,1610612739.0,Thompson,MISS Thompson 2' Putback Layup,rebound,rebound,0,Low
+21600457,270,rebound,2,PT02M59.00S,02:59,Q2 02:59,0,0,1610612739.0,James,James REBOUND (Off:3 Def:4),2pt missed,2pt missed,0,Low
+21600457,271,2pt,2,PT02M58.00S,02:58,Q2 02:58,0,0,1610612739.0,James,MISS James 1' Putback Layup,rebound,rebound,0,Low
+21600457,272,rebound,2,PT02M57.00S,02:57,Q2 02:57,0,0,1610612739.0,James,James REBOUND (Off:4 Def:4),2pt missed,foul,0,Low
+21600457,273,foul,2,PT02M55.00S,02:55,Q2 02:55,0,0,1610612744.0,Livingston,Livingston S.FOUL (P1.T4) (M.Callahan),rebound,freethrow,0,Low
+21600457,274,freethrow,2,PT02M55.00S,02:55,Q2 02:55,44,50,1610612739.0,James,James Free Throw 1 of 2 (7 PTS),foul,freethrow,6,Low
+21600457,278,freethrow,2,PT02M55.00S,02:55,Q2 02:55,0,0,1610612739.0,James,MISS James Free Throw 2 of 2,freethrow,substitution,0,Low
+21600457,276,substitution,2,PT02M55.00S,02:55,Q2 02:55,0,0,1610612744.0,Clark,SUB out: I. Clark,freethrow,substitution,0,Low
+21600457,277,substitution,2,PT02M55.00S,02:55,Q2 02:55,0,0,1610612744.0,Livingston,SUB out: S. Livingston,substitution,substitution,0,Low
+21600457,278,substitution,2,PT02M55.00S,02:55,Q2 02:55,0,0,1610612744.0,Iguodala,SUB in: A. Iguodala,substitution,substitution,0,Low
+21600457,279,substitution,2,PT02M55.00S,02:55,Q2 02:55,0,0,1610612744.0,Thompson,SUB in: K. Thompson,substitution,rebound,0,Low
+21600457,280,rebound,2,PT02M54.00S,02:54,Q2 02:54,0,0,1610612744.0,Durant,Durant REBOUND (Off:0 Def:7),substitution,2pt missed,0,Low
+21600457,281,2pt,2,PT02M47.00S,02:47,Q2 02:47,0,0,1610612744.0,Curry,MISS Curry 10' Turnaround Jump Shot,rebound,rebound,0,Low
+21600457,282,rebound,2,PT02M47.00S,02:47,Q2 02:47,0,0,1610612744.0,,TEAM offensive REBOUND,2pt missed,foul,0,Low
+21600457,283,foul,2,PT02M47.00S,02:47,Q2 02:47,0,0,1610612739.0,Love,Love P.FOUL (P2.T4) (M.Callahan),rebound,2pt missed,0,Low
+21600457,284,2pt,2,PT02M38.00S,02:38,Q2 02:38,0,0,1610612744.0,Durant,MISS Durant 7' Running Jump Shot,foul,rebound,0,Low
+21600457,285,rebound,2,PT02M36.00S,02:36,Q2 02:36,0,0,1610612739.0,James,James REBOUND (Off:4 Def:5),2pt missed,foul,0,Low
+21600457,288,foul,2,PT02M17.00S,02:17,Q2 02:17,0,0,1610612744.0,Iguodala,Iguodala S.FOUL (P2.PN) (M.Callahan),rebound,freethrow,0,Low
+21600457,289,freethrow,2,PT02M17.00S,02:17,Q2 02:17,45,50,1610612739.0,Love,Love Free Throw 1 of 2 (13 PTS),foul,freethrow,5,Low
+21600457,292,freethrow,2,PT02M17.00S,02:17,Q2 02:17,46,50,1610612739.0,Love,Love Free Throw 2 of 2 (14 PTS),freethrow,substitution,4,Low
+21600457,291,substitution,2,PT02M17.00S,02:17,Q2 02:17,0,0,1610612744.0,Green,SUB out: D. Green,freethrow,substitution,0,Low
+21600457,292,substitution,2,PT02M17.00S,02:17,Q2 02:17,0,0,1610612744.0,Pachulia,SUB in: Z. Pachulia,substitution,3pt missed,0,Low
+21600457,294,3pt,2,PT01M55.00S,01:55,Q2 01:55,0,0,1610612744.0,Iguodala,MISS Iguodala  3PT Jump Shot,substitution,rebound,0,Low
+21600457,295,rebound,2,PT01M55.00S,01:55,Q2 01:55,0,0,1610612739.0,James,James REBOUND (Off:4 Def:6),3pt missed,3pt missed,0,Low
+21600457,296,3pt,2,PT01M43.00S,01:43,Q2 01:43,0,0,1610612739.0,Jefferson,MISS Jefferson  3PT Jump Shot,rebound,rebound,0,Low
+21600457,297,rebound,2,PT01M42.00S,01:42,Q2 01:42,0,0,1610612739.0,Thompson,Thompson REBOUND (Off:5 Def:0),3pt missed,foul,0,Low
+21600457,298,foul,2,PT01M42.00S,01:42,Q2 01:42,0,0,1610612744.0,Iguodala,Iguodala P.FOUL (P3.PN) (S.Corbin),rebound,freethrow,0,Low
+21600457,299,freethrow,2,PT01M42.00S,01:42,Q2 01:42,47,50,1610612739.0,Thompson,Thompson Free Throw 1 of 2 (3 PTS),foul,freethrow,3,Low
+21600457,301,freethrow,2,PT01M42.00S,01:42,Q2 01:42,48,50,1610612739.0,Thompson,Thompson Free Throw 2 of 2 (4 PTS),freethrow,3pt missed,2,Low
+21600457,303,3pt,2,PT01M22.00S,01:22,Q2 01:22,0,0,1610612744.0,Iguodala,MISS Iguodala 24' 3PT Jump Shot,freethrow,rebound,0,Low
+21600457,304,rebound,2,PT01M22.00S,01:22,Q2 01:22,0,0,1610612739.0,Thompson,Thompson REBOUND (Off:5 Def:1),3pt missed,2pt made,0,Low
+21600457,305,2pt,2,PT01M09.00S,01:09,Q2 01:09,50,50,1610612739.0,James,James  Layup (9 PTS) (Irving 5 AST),rebound,2pt missed,0,Low
+21600457,306,2pt,2,PT00M46.60S,00:46,Q2 00:46,0,0,1610612744.0,Iguodala,MISS Iguodala 8' Jump Bank Shot,2pt made,2pt made,0,Low
+21600457,307,2pt,2,PT00M44.90S,00:44,Q2 00:44,50,52,1610612744.0,Pachulia,Pachulia  Tip Layup Shot (4 PTS),2pt missed,rebound,2,Low
+21600457,308,rebound,2,PT00M44.90S,00:44,Q2 00:44,0,0,1610612744.0,Pachulia,Pachulia REBOUND (Off:1 Def:3),2pt made,2pt missed,0,Low
+21600457,309,2pt,2,PT00M35.50S,00:35,Q2 00:35,0,0,1610612739.0,Irving,MISS Irving 8' Pullup Jump Shot,rebound,rebound,0,Low
+21600457,310,rebound,2,PT00M33.60S,00:33,Q2 00:33,0,0,1610612744.0,Durant,Durant REBOUND (Off:0 Def:8),2pt missed,3pt made,0,Low
+21600457,311,3pt,2,PT00M29.40S,00:29,Q2 00:29,50,55,1610612744.0,Durant,Durant 25' 3PT Jump Shot (17 PTS),rebound,2pt made,5,Low
+21600457,313,2pt,2,PT00M08.70S,00:08,Q2 00:08,52,55,1610612739.0,James,James  Driving Layup (11 PTS),3pt made,2pt missed,3,Low
+21600457,314,2pt,2,PT00M01.80S,00:01,Q2 00:01,0,0,1610612744.0,Pachulia,MISS Pachulia 2' Layup,2pt made,block,0,Low
+21600457,314,block,2,PT00M01.80S,00:01,Q2 00:01,0,0,1610612739.0,James,James BLOCK (1 BLK),2pt missed,rebound,0,Low
+21600457,315,rebound,2,PT00M01.80S,00:01,Q2 00:01,0,0,1610612744.0,,TEAM offensive REBOUND,block,substitution,0,Low
+21600457,317,substitution,2,PT00M01.80S,00:01,Q2 00:01,0,0,1610612739.0,Love,SUB out: K. Love,rebound,substitution,0,Low
+21600457,318,substitution,2,PT00M01.80S,00:01,Q2 00:01,0,0,1610612739.0,Frye,SUB in: C. Frye,substitution,3pt missed,0,Low
+21600457,318,3pt,2,PT00M00.00S,00:00,Q2 00:00,0,0,1610612744.0,Curry,MISS Curry 26' 3PT Jump Shot,substitution,rebound,0,Low
+21600457,319,rebound,2,PT00M00.00S,00:00,Q2 00:00,0,0,1610612744.0,,TEAM offensive REBOUND,3pt missed,period,0,Low
+21600457,320,period,2,PT00M00.00S,00:00,Q2 00:00,52,55,1610612739.0,,End of 2nd Period (3:47 PM EST),rebound,period,3,Low
+21600457,322,period,3,PT12M00.00S,12:00,Q3 12:00,52,55,1610612739.0,,Start of 3rd Period (4:04 PM EST),period,substitution,3,Low
+21600457,323,3pt,3,PT11M50.00S,11:50,Q3 11:50,55,55,1610612739.0,Love,Love 24' 3PT Jump Shot (17 PTS) (James 3 AST),substitution,3pt made,0,Low
+21600457,324,3pt,3,PT11M33.00S,11:33,Q3 11:33,55,58,1610612744.0,Durant,Durant 27' 3PT Jump Shot (20 PTS) (Green 1 AST),3pt made,2pt missed,3,Low
+21600457,325,2pt,3,PT11M10.00S,11:10,Q3 11:10,0,0,1610612739.0,Love,MISS Love 5' Jump Bank Shot,3pt made,rebound,0,Low
+21600457,326,rebound,3,PT11M10.00S,11:10,Q3 11:10,0,0,1610612744.0,Pachulia,Pachulia REBOUND (Off:1 Def:4),2pt missed,3pt missed,0,Low
+21600457,327,3pt,3,PT11M04.00S,11:04,Q3 11:04,0,0,1610612744.0,Durant,MISS Durant 26' 3PT Jump Shot,rebound,rebound,0,Low
+21600457,328,rebound,3,PT11M02.00S,11:02,Q3 11:02,0,0,1610612739.0,James,James REBOUND (Off:4 Def:7),3pt missed,foul,0,Low
+21600457,329,foul,3,PT11M00.00S,11:00,Q3 11:00,0,0,1610612744.0,Pachulia,Pachulia S.FOUL (P2.T1) (S.Corbin),rebound,instant replay,0,Low
+21600457,331,freethrow,3,PT11M00.00S,11:00,Q3 11:00,0,0,1610612739.0,Love,MISS Love Free Throw 1 of 2,instant replay,rebound,0,Low
+21600457,332,rebound,3,PT11M00.00S,11:00,Q3 11:00,0,0,1610612739.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21600457,333,freethrow,3,PT11M00.00S,11:00,Q3 11:00,56,58,1610612739.0,Love,Love Free Throw 2 of 2 (18 PTS),rebound,3pt missed,2,Low
+21600457,335,3pt,3,PT10M41.00S,10:41,Q3 10:41,0,0,1610612744.0,Thompson,MISS Thompson 28' 3PT Jump Shot,freethrow,rebound,0,Low
+21600457,336,rebound,3,PT10M40.00S,10:40,Q3 10:40,0,0,1610612744.0,,TEAM offensive REBOUND,3pt missed,turnover,0,Low
+21600457,338,turnover,3,PT10M33.00S,10:33,Q3 10:33,0,0,1610612744.0,Pachulia,Pachulia Lost Ball Turnover (P2.T9),rebound,steal,0,Low
+21600457,338,steal,3,PT10M33.00S,10:33,Q3 10:33,0,0,1610612739.0,Liggins,Liggins STEAL (2 STL),turnover,turnover,0,Low
+21600457,339,turnover,3,PT10M26.00S,10:26,Q3 10:26,0,0,1610612739.0,James,James Out of Bounds - Bad Pass Turnover Turnover (P3.T6),steal,foul,0,Low
+21600457,341,foul,3,PT10M13.00S,10:13,Q3 10:13,0,0,1610612739.0,James,James P.FOUL (P2.T1) (M.Callahan),turnover,foul,0,Low
+21600457,342,foul,3,PT10M10.00S,10:10,Q3 10:10,0,0,1610612739.0,Love,Love S.FOUL (P3.T2) (S.Corbin),foul,freethrow,0,Low
+21600457,343,freethrow,3,PT10M10.00S,10:10,Q3 10:10,56,59,1610612744.0,Durant,Durant Free Throw 1 of 2 (21 PTS),foul,freethrow,3,Low
+21600457,345,freethrow,3,PT10M10.00S,10:10,Q3 10:10,56,60,1610612744.0,Durant,Durant Free Throw 2 of 2 (22 PTS),freethrow,2pt missed,4,Low
+21600457,347,2pt,3,PT09M59.00S,09:59,Q3 09:59,0,0,1610612739.0,James,MISS James 1' Driving Layup,freethrow,2pt missed,0,Low
+21600457,348,2pt,3,PT09M58.00S,09:58,Q3 09:58,0,0,1610612739.0,Thompson,MISS Thompson 1' Tip Layup Shot,2pt missed,rebound,0,Low
+21600457,349,rebound,3,PT09M58.00S,09:58,Q3 09:58,0,0,1610612739.0,Thompson,Thompson REBOUND (Off:6 Def:1),2pt missed,rebound,0,Low
+21600457,350,rebound,3,PT09M58.00S,09:58,Q3 09:58,0,0,1610612739.0,,TEAM offensive REBOUND,rebound,turnover,0,Low
+21600457,351,turnover,3,PT09M48.00S,09:48,Q3 09:48,0,0,1610612739.0,James,James Bad Pass Turnover (P4.T7),rebound,steal,0,Low
+21600457,351,steal,3,PT09M48.00S,09:48,Q3 09:48,0,0,1610612744.0,Curry,Curry STEAL (2 STL),turnover,2pt made,0,Low
+21600457,352,2pt,3,PT09M36.00S,09:36,Q3 09:36,56,62,1610612744.0,Curry,Curry 5' Jump Shot (8 PTS) (Durant 2 AST),steal,3pt made,6,Low
+21600457,353,3pt,3,PT09M11.00S,09:11,Q3 09:11,59,62,1610612739.0,James,James 26' 3PT Jump Shot (14 PTS) (Irving 6 AST),2pt made,2pt made,3,Low
+21600457,354,2pt,3,PT08M55.00S,08:55,Q3 08:55,59,64,1610612744.0,Durant,Durant 7' Pullup Jump Shot (24 PTS) (Green 2 AST),3pt made,foul,5,Low
+21600457,355,foul,3,PT08M48.00S,08:48,Q3 08:48,0,0,1610612744.0,Pachulia,Pachulia S.FOUL (P3.T2) (S.Corbin),2pt made,freethrow,0,Low
+21600457,356,freethrow,3,PT08M48.00S,08:48,Q3 08:48,0,0,1610612739.0,Thompson,MISS Thompson Free Throw 1 of 2,foul,rebound,0,Low
+21600457,357,rebound,3,PT08M48.00S,08:48,Q3 08:48,0,0,1610612739.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21600457,359,freethrow,3,PT08M48.00S,08:48,Q3 08:48,60,64,1610612739.0,Thompson,Thompson Free Throw 2 of 2 (5 PTS),rebound,substitution,4,Low
+21600457,358,substitution,3,PT08M48.00S,08:48,Q3 08:48,0,0,1610612744.0,Pachulia,SUB out: Z. Pachulia,freethrow,substitution,0,Low
+21600457,359,substitution,3,PT08M48.00S,08:48,Q3 08:48,0,0,1610612744.0,McGee,SUB in: J. McGee,substitution,3pt missed,0,Low
+21600457,361,3pt,3,PT08M43.00S,08:43,Q3 08:43,0,0,1610612744.0,Curry,MISS Curry 25' 3PT Jump Shot,substitution,turnover,0,Low
+21600457,362,turnover,3,PT08M41.00S,08:41,Q3 08:41,0,0,1610612744.0,McGee,McGee Bad Pass Turnover (P1.T10),3pt missed,steal,0,Low
+21600457,362,steal,3,PT08M41.00S,08:41,Q3 08:41,0,0,1610612739.0,Thompson,Thompson STEAL (1 STL),turnover,rebound,0,Low
+21600457,386,rebound,3,PT08M41.00S,08:41,Q3 08:41,0,0,1610612744.0,McGee,McGee REBOUND (Off:2 Def:1),steal,2pt missed,0,Low
+21600457,363,2pt,3,PT08M28.00S,08:28,Q3 08:28,0,0,1610612739.0,Irving,MISS Irving 11' Jump Shot,rebound,rebound,0,Low
+21600457,364,rebound,3,PT08M28.00S,08:28,Q3 08:28,0,0,1610612744.0,Thompson,Thompson REBOUND (Off:0 Def:2),2pt missed,foul,0,Low
+21600457,365,foul,3,PT08M21.00S,08:21,Q3 08:21,0,0,1610612739.0,Love,Love S.FOUL (P4.T3) (S.Corbin),rebound,freethrow,0,Low
+21600457,366,freethrow,3,PT08M21.00S,08:21,Q3 08:21,0,0,1610612744.0,McGee,MISS McGee Free Throw 1 of 2,foul,rebound,0,Low
+21600457,367,rebound,3,PT08M21.00S,08:21,Q3 08:21,0,0,1610612744.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21600457,369,freethrow,3,PT08M21.00S,08:21,Q3 08:21,0,0,1610612744.0,McGee,MISS McGee Free Throw 2 of 2,rebound,substitution,0,Low
+21600457,368,substitution,3,PT08M21.00S,08:21,Q3 08:21,0,0,1610612739.0,Love,SUB out: K. Love,freethrow,substitution,0,Low
+21600457,369,substitution,3,PT08M21.00S,08:21,Q3 08:21,0,0,1610612739.0,Frye,SUB in: C. Frye,substitution,rebound,0,Low
+21600457,371,rebound,3,PT08M20.00S,08:20,Q3 08:20,0,0,1610612739.0,James,James REBOUND (Off:4 Def:8),substitution,3pt made,0,Low
+21600457,372,3pt,3,PT08M10.00S,08:10,Q3 08:10,63,64,1610612739.0,James,James 25' 3PT Jump Shot (17 PTS),rebound,2pt missed,1,Low
+21600457,373,2pt,3,PT07M52.00S,07:52,Q3 07:52,0,0,1610612744.0,McGee,MISS McGee  Alley Oop Layup,3pt made,rebound,0,Low
+21600457,374,rebound,3,PT07M49.00S,07:49,Q3 07:49,0,0,1610612739.0,Frye,Frye REBOUND (Off:0 Def:2),2pt missed,3pt missed,0,Low
+21600457,375,3pt,3,PT07M44.00S,07:44,Q3 07:44,0,0,1610612739.0,James,MISS James 25' 3PT Jump Shot,rebound,rebound,0,Low
+21600457,376,rebound,3,PT07M43.00S,07:43,Q3 07:43,0,0,1610612744.0,Durant,Durant REBOUND (Off:0 Def:9),3pt missed,3pt made,0,Low
+21600457,377,3pt,3,PT07M34.00S,07:34,Q3 07:34,63,67,1610612744.0,Thompson,Thompson  3PT Jump Shot (16 PTS) (Curry 1 AST),rebound,3pt made,4,Low
+21600457,378,3pt,3,PT07M08.00S,07:08,Q3 07:08,66,67,1610612739.0,James,James 25' 3PT Jump Shot (20 PTS),3pt made,2pt missed,1,Low
+21600457,379,2pt,3,PT06M54.00S,06:54,Q3 06:54,0,0,1610612744.0,Curry,MISS Curry 16' Pullup Jump Shot,3pt made,rebound,0,Low
+21600457,380,rebound,3,PT06M52.00S,06:52,Q3 06:52,0,0,1610612739.0,Irving,Irving REBOUND (Off:1 Def:2),2pt missed,3pt missed,0,Low
+21600457,381,3pt,3,PT06M39.00S,06:39,Q3 06:39,0,0,1610612739.0,Frye,MISS Frye 25' 3PT Jump Shot,rebound,rebound,0,Low
+21600457,382,rebound,3,PT06M39.00S,06:39,Q3 06:39,0,0,1610612744.0,Green,Green REBOUND (Off:0 Def:3),3pt missed,2pt made,0,Low
+21600457,383,2pt,3,PT06M29.00S,06:29,Q3 06:29,66,69,1610612744.0,Green,Green 1' Finger Roll Layup (6 PTS),rebound,timeout,3,Low
+21600457,384,timeout,3,PT06M28.00S,06:28,Q3 06:28,0,0,1610612739.0,,CAVALIERS Timeout: Regular (Full 4 Short 1),2pt made,foul,0,Low
+21600457,389,foul,3,PT06M19.00S,06:19,Q3 06:19,0,0,1610612744.0,McGee,McGee Shooting Block Foul (P1.T3) (S.Corbin),timeout,freethrow,0,Low
+21600457,390,freethrow,3,PT06M19.00S,06:19,Q3 06:19,0,0,1610612739.0,James,MISS James Free Throw 1 of 2,foul,rebound,0,Low
+21600457,391,rebound,3,PT06M19.00S,06:19,Q3 06:19,0,0,1610612739.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21600457,392,freethrow,3,PT06M19.00S,06:19,Q3 06:19,67,69,1610612739.0,James,James Free Throw 2 of 2 (21 PTS),rebound,3pt missed,2,Low
+21600457,394,3pt,3,PT06M07.00S,06:07,Q3 06:07,0,0,1610612744.0,Durant,MISS Durant 26' 3PT Jump Shot,freethrow,rebound,0,Low
+21600457,395,rebound,3,PT06M03.00S,06:03,Q3 06:03,0,0,1610612739.0,Thompson,Thompson REBOUND (Off:6 Def:2),3pt missed,foul,0,Low
+21600457,396,foul,3,PT05M57.00S,05:57,Q3 05:57,0,0,1610612744.0,McGee,McGee S.FOUL (P2.T4) (M.Boland),rebound,freethrow,0,Low
+21600457,397,freethrow,3,PT05M57.00S,05:57,Q3 05:57,0,0,1610612739.0,Thompson,MISS Thompson Free Throw 1 of 2,foul,rebound,0,Low
+21600457,398,rebound,3,PT05M57.00S,05:57,Q3 05:57,0,0,1610612739.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21600457,399,freethrow,3,PT05M57.00S,05:57,Q3 05:57,68,69,1610612739.0,Thompson,Thompson Free Throw 2 of 2 (6 PTS),rebound,2pt missed,1,Low
+21600457,401,2pt,3,PT05M37.00S,05:37,Q3 05:37,0,0,1610612744.0,McGee,MISS McGee  Alley Oop Dunk,freethrow,rebound,0,Low
+21600457,402,rebound,3,PT05M37.00S,05:37,Q3 05:37,0,0,1610612739.0,,TEAM defensive REBOUND,2pt missed,3pt missed,0,Low
+21600457,403,3pt,3,PT05M18.00S,05:18,Q3 05:18,0,0,1610612739.0,Frye,MISS Frye 26' 3PT Jump Shot,rebound,rebound,0,Low
+21600457,404,rebound,3,PT05M17.00S,05:17,Q3 05:17,0,0,1610612744.0,Curry,Curry REBOUND (Off:0 Def:2),3pt missed,3pt made,0,Low
+21600457,405,3pt,3,PT05M10.00S,05:10,Q3 05:10,68,72,1610612744.0,Thompson,Thompson 24' 3PT Jump Shot (19 PTS) (Curry 2 AST),rebound,2pt made,4,Low
+21600457,406,2pt,3,PT04M58.00S,04:58,Q3 04:58,70,72,1610612739.0,Thompson,Thompson  Cutting Dunk Shot (8 PTS) (Irving 7 AST),3pt made,timeout,2,Low
+21600457,407,timeout,3,PT04M58.00S,04:58,Q3 04:58,0,0,1610612744.0,,Warriors Timeout: Regular (Reg.3 Short 1),2pt made,substitution,0,Low
+21600457,409,substitution,3,PT04M58.00S,04:58,Q3 04:58,0,0,1610612744.0,Durant,SUB out: K. Durant,timeout,substitution,0,Low
+21600457,410,substitution,3,PT04M58.00S,04:58,Q3 04:58,0,0,1610612744.0,McGee,SUB out: J. McGee,substitution,substitution,0,Low
+21600457,411,substitution,3,PT04M58.00S,04:58,Q3 04:58,0,0,1610612744.0,Iguodala,SUB in: A. Iguodala,substitution,substitution,0,Low
+21600457,412,substitution,3,PT04M58.00S,04:58,Q3 04:58,0,0,1610612744.0,Pachulia,SUB in: Z. Pachulia,substitution,3pt made,0,Low
+21600457,412,3pt,3,PT04M46.00S,04:46,Q3 04:46,70,75,1610612744.0,Thompson,Thompson 24' 3PT Jump Shot (22 PTS) (Iguodala 3 AST),substitution,turnover,5,Low
+21600457,413,turnover,3,PT04M29.00S,04:29,Q3 04:29,0,0,1610612739.0,Frye,Frye Bad Pass Turnover (P2.T8),3pt made,steal,0,Low
+21600457,413,steal,3,PT04M29.00S,04:29,Q3 04:29,0,0,1610612744.0,Curry,Curry STEAL (3 STL),turnover,turnover,0,Low
+21600457,414,turnover,3,PT04M23.00S,04:23,Q3 04:23,0,0,1610612744.0,Curry,Curry Bad Pass Turnover (P3.T11),steal,steal,0,Low
+21600457,414,steal,3,PT04M23.00S,04:23,Q3 04:23,0,0,1610612739.0,Irving,Irving STEAL (3 STL),turnover,2pt made,0,Low
+21600457,415,2pt,3,PT04M04.00S,04:04,Q3 04:04,72,75,1610612739.0,Irving,Irving 1' Driving Layup (11 PTS),steal,2pt missed,3,Low
+21600457,416,2pt,3,PT03M46.00S,03:46,Q3 03:46,0,0,1610612744.0,Thompson,MISS Thompson 1' Driving Layup,2pt made,rebound,0,Low
+21600457,417,rebound,3,PT03M46.00S,03:46,Q3 03:46,0,0,1610612739.0,,TEAM defensive REBOUND,2pt missed,2pt missed,0,Low
+21600457,418,2pt,3,PT03M36.00S,03:36,Q3 03:36,0,0,1610612739.0,Irving,MISS Irving 14' Step Back Jump Shot,rebound,rebound,0,Low
+21600457,419,rebound,3,PT03M35.00S,03:35,Q3 03:35,0,0,1610612744.0,Iguodala,Iguodala REBOUND (Off:1 Def:1),2pt missed,foul,0,Low
+21600457,420,foul,3,PT03M30.00S,03:30,Q3 03:30,0,0,1610612739.0,Frye,Frye S.FOUL (P2.T4) (M.Callahan),rebound,freethrow,0,Low
+21600457,421,freethrow,3,PT03M30.00S,03:30,Q3 03:30,72,76,1610612744.0,Curry,Curry Free Throw 1 of 2 (9 PTS),foul,freethrow,4,Low
+21600457,425,freethrow,3,PT03M30.00S,03:30,Q3 03:30,72,77,1610612744.0,Curry,Curry Free Throw 2 of 2 (10 PTS),freethrow,substitution,5,Low
+21600457,423,substitution,3,PT03M30.00S,03:30,Q3 03:30,0,0,1610612739.0,Liggins,SUB out: D. Liggins,freethrow,substitution,0,Low
+21600457,424,substitution,3,PT03M30.00S,03:30,Q3 03:30,0,0,1610612744.0,Thompson,SUB out: K. Thompson,substitution,substitution,0,Low
+21600457,425,substitution,3,PT03M30.00S,03:30,Q3 03:30,0,0,1610612739.0,Shumpert,SUB in: I. Shumpert,substitution,substitution,0,Low
+21600457,426,substitution,3,PT03M30.00S,03:30,Q3 03:30,0,0,1610612744.0,Clark,SUB in: I. Clark,substitution,3pt made,0,Low
+21600457,427,3pt,3,PT03M10.00S,03:10,Q3 03:10,75,77,1610612739.0,James,James 24' 3PT Jump Shot (24 PTS) (Irving 8 AST),substitution,2pt made,2,Low
+21600457,428,2pt,3,PT02M59.00S,02:59,Q3 02:59,75,79,1610612744.0,Green,Green  Driving Dunk (8 PTS) (Curry 3 AST),3pt made,turnover,4,Low
+21600457,429,turnover,3,PT02M32.00S,02:32,Q3 02:32,0,0,1610612739.0,Frye,Frye Bad Pass Turnover (P3.T9),2pt made,steal,0,Low
+21600457,429,steal,3,PT02M32.00S,02:32,Q3 02:32,0,0,1610612744.0,Green,Green STEAL (1 STL),turnover,turnover,0,Low
+21600457,430,turnover,3,PT02M18.00S,02:18,Q3 02:18,0,0,1610612744.0,Green,Green Bad Pass Turnover (P3.T12),steal,steal,0,Low
+21600457,430,steal,3,PT02M18.00S,02:18,Q3 02:18,0,0,1610612739.0,Irving,Irving STEAL (4 STL),turnover,2pt missed,0,Low
+21600457,431,2pt,3,PT02M15.00S,02:15,Q3 02:15,0,0,1610612739.0,Irving,MISS Irving 1' Running Layup,steal,rebound,0,Low
+21600457,432,rebound,3,PT02M14.00S,02:14,Q3 02:14,0,0,1610612739.0,Irving,Irving REBOUND (Off:2 Def:2),2pt missed,2pt missed,0,Low
+21600457,438,2pt,3,PT02M13.00S,02:13,Q3 02:13,0,0,1610612739.0,James,MISS James 2' Putback Layup,rebound,block,0,Low
+21600457,438,block,3,PT02M13.00S,02:13,Q3 02:13,0,0,1610612744.0,Iguodala,Iguodala BLOCK (1 BLK),2pt missed,rebound,0,Low
+21600457,441,rebound,3,PT02M13.00S,02:13,Q3 02:13,0,0,1610612739.0,James,James REBOUND (Off:5 Def:8),block,2pt made,0,Low
+21600457,433,2pt,3,PT02M11.00S,02:11,Q3 02:11,77,79,1610612739.0,James,James 2' Layup (26 PTS),rebound,foul,2,Low
+21600457,434,foul,3,PT02M02.00S,02:02,Q3 02:02,0,0,1610612744.0,Pachulia,Pachulia OFF.Foul (P4) (S.Corbin),2pt made,turnover,0,Low
+21600457,435,turnover,3,PT02M02.00S,02:02,Q3 02:02,0,0,1610612744.0,Pachulia,Pachulia Foul Turnover (P3.T13),foul,substitution,0,Low
+21600457,436,substitution,3,PT02M02.00S,02:02,Q3 02:02,0,0,1610612739.0,Irving,SUB out: K. Irving,turnover,substitution,0,Low
+21600457,437,substitution,3,PT02M02.00S,02:02,Q3 02:02,0,0,1610612744.0,Pachulia,SUB out: Z. Pachulia,substitution,substitution,0,Low
+21600457,438,substitution,3,PT02M02.00S,02:02,Q3 02:02,0,0,1610612739.0,Jefferson,SUB in: R. Jefferson,substitution,substitution,0,Low
+21600457,439,substitution,3,PT02M02.00S,02:02,Q3 02:02,0,0,1610612744.0,Durant,SUB in: K. Durant,substitution,3pt missed,0,Low
+21600457,439,3pt,3,PT01M43.00S,01:43,Q3 01:43,0,0,1610612739.0,James,MISS James 29' 3PT Jump Shot,substitution,rebound,0,Low
+21600457,440,rebound,3,PT01M42.00S,01:42,Q3 01:42,0,0,1610612744.0,Durant,Durant REBOUND (Off:0 Def:10),3pt missed,2pt made,0,Low
+21600457,442,2pt,3,PT01M25.00S,01:25,Q3 01:25,77,81,1610612744.0,Durant,Durant 15' Pullup Jump Shot (26 PTS),rebound,2pt missed,4,Low
+21600457,443,2pt,3,PT01M14.00S,01:14,Q3 01:14,0,0,1610612739.0,Shumpert,MISS Shumpert 16' Jump Shot,2pt made,rebound,0,Low
+21600457,444,rebound,3,PT01M14.00S,01:14,Q3 01:14,0,0,1610612744.0,,TEAM defensive REBOUND,2pt missed,foul,0,Low
+21600457,445,foul,3,PT01M14.00S,01:14,Q3 01:14,0,0,1610612739.0,Thompson,Thompson L.B.FOUL (P2.PN) (M.Boland),rebound,freethrow,0,Low
+21600457,446,freethrow,3,PT01M14.00S,01:14,Q3 01:14,77,82,1610612744.0,Green,Green Free Throw 1 of 2 (9 PTS),foul,freethrow,5,Low
+21600457,448,freethrow,3,PT01M14.00S,01:14,Q3 01:14,77,83,1610612744.0,Green,Green Free Throw 2 of 2 (10 PTS),freethrow,foul,6,Low
+21600457,451,foul,3,PT01M01.00S,01:01,Q3 01:01,0,0,1610612744.0,Curry,Curry P.FOUL (P3.PN) (M.Callahan),freethrow,freethrow,0,Low
+21600457,453,freethrow,3,PT01M01.00S,01:01,Q3 01:01,78,83,1610612739.0,Shumpert,Shumpert Free Throw 1 of 2 (3 PTS),foul,freethrow,5,Low
+21600457,455,freethrow,3,PT01M01.00S,01:01,Q3 01:01,79,83,1610612739.0,Shumpert,Shumpert Free Throw 2 of 2 (4 PTS),freethrow,2pt made,4,Low
+21600457,458,2pt,3,PT00M50.70S,00:50,Q3 00:50,79,85,1610612744.0,Clark,Clark 4' Jump Shot (4 PTS) (Green 3 AST),freethrow,2pt missed,6,Low
+21600457,460,2pt,3,PT00M36.90S,00:36,Q3 00:36,0,0,1610612739.0,Jefferson,MISS Jefferson 13' Jump Shot,2pt made,rebound,0,Low
+21600457,461,rebound,3,PT00M36.40S,00:36,Q3 00:36,0,0,1610612744.0,Green,Green REBOUND (Off:0 Def:4),2pt missed,2pt made,0,Low
+21600457,462,2pt,3,PT00M28.30S,00:28,Q3 00:28,79,87,1610612744.0,Durant,Durant  Driving Dunk (28 PTS),rebound,turnover,8,Low
+21600457,463,turnover,3,PT00M06.80S,00:06,Q3 00:06,0,0,1610612739.0,James,James Bad Pass Turnover (P5.T10),2pt made,steal,0,Low
+21600457,463,steal,3,PT00M06.80S,00:06,Q3 00:06,0,0,1610612744.0,Clark,Clark STEAL (1 STL),turnover,turnover,0,Low
+21600457,464,turnover,3,PT00M05.40S,00:05,Q3 00:05,0,0,1610612744.0,Iguodala,Iguodala Step Out of Bounds Turnover (P1.T14),steal,substitution,0,Low
+21600457,465,substitution,3,PT00M05.40S,00:05,Q3 00:05,0,0,1610612739.0,Thompson,SUB out: T. Thompson,substitution,substitution,0,Low
+21600457,466,substitution,3,PT00M05.40S,00:05,Q3 00:05,0,0,1610612744.0,Curry,SUB out: S. Curry,substitution,substitution,0,Low
+21600457,467,substitution,3,PT00M05.40S,00:05,Q3 00:05,0,0,1610612744.0,Green,SUB: McCaw FOR Green,substitution,substitution,0,Low
+21600457,468,substitution,3,PT00M05.40S,00:05,Q3 00:05,0,0,1610612739.0,Irving,SUB in: K. Irving,substitution,substitution,0,Low
+21600457,469,substitution,3,PT00M05.40S,00:05,Q3 00:05,0,0,1610612744.0,Livingston,SUB in: S. Livingston,substitution,foul,0,Low
+21600457,468,foul,3,PT00M00.30S,00:00,Q3 00:00,0,0,1610612744.0,Durant,Durant S.FOUL (P2.PN) (S.Corbin),substitution,freethrow,0,Medium
+21600457,469,freethrow,3,PT00M00.30S,00:00,Q3 00:00,0,0,1610612739.0,James,MISS James Free Throw 1 of 2,foul,rebound,0,Medium
+21600457,470,rebound,3,PT00M00.30S,00:00,Q3 00:00,0,0,1610612739.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Medium
+21600457,471,freethrow,3,PT00M00.30S,00:00,Q3 00:00,80,87,1610612739.0,James,James Free Throw 2 of 2 (27 PTS),rebound,period,7,Low
+21600457,473,period,3,PT00M00.00S,00:00,Q3 00:00,80,87,1610612739.0,,End of 3rd Period (4:35 PM EST),freethrow,period,7,Low
+21600457,475,period,4,PT12M00.00S,12:00,Q4 12:00,80,87,1610612739.0,,Start of 4th Period (4:39 PM EST),period,substitution,7,Medium
+21600457,476,2pt,4,PT11M44.00S,11:44,Q4 11:44,0,0,1610612744.0,Durant,MISS Durant 17' Jump Shot,substitution,rebound,0,Medium
+21600457,477,rebound,4,PT11M44.00S,11:44,Q4 11:44,0,0,1610612739.0,Love,Love REBOUND (Off:1 Def:3),2pt missed,turnover,0,Medium
+21600457,478,turnover,4,PT11M36.00S,11:36,Q4 11:36,0,0,1610612739.0,Irving,Irving Out of Bounds Lost Ball Turnover (P1.T11),rebound,foul,0,Medium
+21600457,479,foul,4,PT11M26.00S,11:26,Q4 11:26,0,0,1610612739.0,Jefferson,Jefferson P.FOUL (P2.T1) (M.Boland),turnover,2pt made,0,Medium
+21600457,480,2pt,4,PT11M22.00S,11:22,Q4 11:22,80,89,1610612744.0,Thompson,Thompson 1' Driving Layup (24 PTS) (Iguodala 4 AST),foul,2pt missed,9,Low
+21600457,481,2pt,4,PT11M02.00S,11:02,Q4 11:02,0,0,1610612739.0,Irving,MISS Irving 7' Driving Floating Bank Jump Shot,2pt made,rebound,0,Medium
+21600457,482,rebound,4,PT11M00.00S,11:00,Q4 11:00,0,0,1610612744.0,Durant,Durant REBOUND (Off:0 Def:11),2pt missed,2pt missed,0,Medium
+21600457,483,2pt,4,PT10M52.00S,10:52,Q4 10:52,0,0,1610612744.0,Durant,MISS Durant 9' Driving Floating Jump Shot,rebound,rebound,0,Medium
+21600457,484,rebound,4,PT10M50.00S,10:50,Q4 10:50,0,0,1610612739.0,Love,Love REBOUND (Off:1 Def:4),2pt missed,turnover,0,Medium
+21600457,485,turnover,4,PT10M38.00S,10:38,Q4 10:38,0,0,1610612739.0,Irving,Irving Bad Pass Turnover (P2.T12),rebound,steal,0,Medium
+21600457,485,steal,4,PT10M38.00S,10:38,Q4 10:38,0,0,1610612744.0,West,West STEAL (1 STL),turnover,2pt missed,0,Medium
+21600457,486,2pt,4,PT10M34.00S,10:34,Q4 10:34,0,0,1610612744.0,Iguodala,MISS Iguodala 1' Running Layup,steal,block,0,Medium
+21600457,486,block,4,PT10M34.00S,10:34,Q4 10:34,0,0,1610612739.0,Shumpert,Shumpert BLOCK (1 BLK),2pt missed,rebound,0,Medium
+21600457,487,rebound,4,PT10M34.00S,10:34,Q4 10:34,0,0,1610612739.0,,TEAM defensive REBOUND,block,2pt missed,0,Medium
+21600457,488,2pt,4,PT10M13.00S,10:13,Q4 10:13,0,0,1610612739.0,Love,MISS Love 8' Turnaround Hook Shot,rebound,rebound,0,Medium
+21600457,489,rebound,4,PT10M11.00S,10:11,Q4 10:11,0,0,1610612744.0,West,West REBOUND (Off:1 Def:1),2pt missed,2pt made,0,Medium
+21600457,490,2pt,4,PT10M05.00S,10:05,Q4 10:05,80,91,1610612744.0,Durant,Durant 1' Layup (30 PTS),rebound,foul,11,Low
+21600457,491,foul,4,PT10M05.00S,10:05,Q4 10:05,0,0,1610612739.0,Liggins,Liggins S.FOUL (P2.T2) (M.Callahan),2pt made,freethrow,0,Medium
+21600457,492,freethrow,4,PT10M05.00S,10:05,Q4 10:05,80,92,1610612744.0,Durant,Durant Free Throw 1 of 1 (31 PTS),foul,3pt missed,12,Low
+21600457,494,3pt,4,PT09M43.00S,09:43,Q4 09:43,0,0,1610612739.0,Love,MISS Love 26' 3PT Jump Shot,freethrow,rebound,0,Medium
+21600457,495,rebound,4,PT09M42.00S,09:42,Q4 09:42,0,0,1610612744.0,Durant,Durant REBOUND (Off:0 Def:12),3pt missed,2pt made,0,Medium
+21600457,496,2pt,4,PT09M35.00S,09:35,Q4 09:35,80,94,1610612744.0,Durant,Durant 8' Pullup Jump Shot (33 PTS),rebound,timeout,14,Low
+21600457,497,timeout,4,PT09M35.00S,09:35,Q4 09:35,0,0,1610612739.0,,CAVALIERS Timeout: Regular (Full 5 Short 1),2pt made,2pt made,0,Medium
+21600457,502,2pt,4,PT09M21.00S,09:21,Q4 09:21,82,94,1610612739.0,Jefferson,Jefferson  Driving Dunk (4 PTS) (Irving 9 AST),timeout,foul,12,Low
+21600457,503,foul,4,PT09M20.00S,09:20,Q4 09:20,0,0,1610612739.0,Jefferson,Jefferson T.FOUL (P2.T2) (S.Corbin),2pt made,freethrow,0,Medium
+21600457,504,freethrow,4,PT09M20.00S,09:20,Q4 09:20,82,95,1610612744.0,Durant,Durant Free Throw Technical (34 PTS),foul,2pt missed,13,Low
+21600457,506,2pt,4,PT09M05.00S,09:05,Q4 09:05,0,0,1610612744.0,Durant,MISS Durant 13' Pullup Jump Shot,freethrow,rebound,0,Medium
+21600457,507,rebound,4,PT09M05.00S,09:05,Q4 09:05,0,0,1610612739.0,,TEAM defensive REBOUND,2pt missed,3pt missed,0,Medium
+21600457,508,3pt,4,PT08M43.00S,08:43,Q4 08:43,0,0,1610612739.0,Jefferson,MISS Jefferson  3PT Jump Shot,rebound,rebound,0,Medium
+21600457,509,rebound,4,PT08M42.00S,08:42,Q4 08:42,0,0,1610612744.0,Iguodala,Iguodala REBOUND (Off:1 Def:2),3pt missed,foul,0,Medium
+21600457,510,foul,4,PT08M36.00S,08:36,Q4 08:36,0,0,1610612739.0,Jefferson,Jefferson P.FOUL (P3.T3) (S.Corbin),rebound,turnover,0,Medium
+21600457,511,turnover,4,PT08M29.00S,08:29,Q4 08:29,0,0,1610612744.0,West,West Out of Bounds - Bad Pass Turnover Turnover (P1.T15),foul,3pt missed,0,Medium
+21600457,512,3pt,4,PT08M17.00S,08:17,Q4 08:17,0,0,1610612739.0,Irving,MISS Irving 26' 3PT Jump Shot,turnover,rebound,0,Medium
+21600457,513,rebound,4,PT08M17.00S,08:17,Q4 08:17,0,0,1610612739.0,Shumpert,Shumpert REBOUND (Off:3 Def:1),3pt missed,2pt made,0,Medium
+21600457,514,2pt,4,PT08M14.00S,08:14,Q4 08:14,84,95,1610612739.0,Love,Love  Dunk (20 PTS) (Shumpert 1 AST),rebound,2pt missed,11,Low
+21600457,515,2pt,4,PT07M57.00S,07:57,Q4 07:57,0,0,1610612744.0,Durant,MISS Durant 11' Driving Floating Jump Shot,2pt made,rebound,0,Medium
+21600457,516,rebound,4,PT07M55.00S,07:55,Q4 07:55,0,0,1610612739.0,Jefferson,Jefferson REBOUND (Off:0 Def:2),2pt missed,3pt made,0,Medium
+21600457,517,3pt,4,PT07M34.00S,07:34,Q4 07:34,87,95,1610612739.0,Irving,Irving 25' 3PT Jump Shot (14 PTS) (Liggins 1 AST),rebound,timeout,8,Medium
+21600457,518,timeout,4,PT07M33.00S,07:33,Q4 07:33,0,0,1610612744.0,,Warriors Timeout: Regular (Reg.4 Short 1),3pt made,substitution,0,Medium
+21600457,521,substitution,4,PT07M33.00S,07:33,Q4 07:33,0,0,1610612744.0,Durant,SUB out: K. Durant,timeout,substitution,0,Medium
+21600457,522,substitution,4,PT07M33.00S,07:33,Q4 07:33,0,0,1610612744.0,Iguodala,SUB out: A. Iguodala,substitution,substitution,0,Medium
+21600457,523,substitution,4,PT07M33.00S,07:33,Q4 07:33,0,0,1610612739.0,Liggins,SUB out: D. Liggins,substitution,substitution,0,Medium
+21600457,524,substitution,4,PT07M33.00S,07:33,Q4 07:33,0,0,1610612744.0,Curry,SUB in: S. Curry,substitution,substitution,0,Medium
+21600457,525,substitution,4,PT07M33.00S,07:33,Q4 07:33,0,0,1610612744.0,Green,SUB in: D. Green,substitution,substitution,0,Medium
+21600457,526,substitution,4,PT07M33.00S,07:33,Q4 07:33,0,0,1610612739.0,James,SUB in: L. James,substitution,3pt missed,0,Medium
+21600457,524,3pt,4,PT07M20.00S,07:20,Q4 07:20,0,0,1610612744.0,Thompson,MISS Thompson 25' 3PT Jump Shot,substitution,rebound,0,Medium
+21600457,525,rebound,4,PT07M20.00S,07:20,Q4 07:20,0,0,1610612739.0,Love,Love REBOUND (Off:1 Def:5),3pt missed,2pt made,0,Medium
+21600457,526,2pt,4,PT07M13.00S,07:13,Q4 07:13,89,95,1610612739.0,Irving,Irving 2' Driving Layup (16 PTS),rebound,turnover,6,Medium
+21600457,527,turnover,4,PT06M54.00S,06:54,Q4 06:54,0,0,1610612744.0,Green,Green Bad Pass Turnover (P4.T16),2pt made,steal,0,High
+21600457,527,steal,4,PT06M54.00S,06:54,Q4 06:54,0,0,1610612739.0,James,James STEAL (2 STL),turnover,foul,0,High
+21600457,528,foul,4,PT06M45.00S,06:45,Q4 06:45,0,0,1610612744.0,Curry,Curry S.FOUL (P4.T1) (S.Corbin),steal,freethrow,0,High
+21600457,529,freethrow,4,PT06M45.00S,06:45,Q4 06:45,90,95,1610612739.0,Jefferson,Jefferson Free Throw 1 of 2 (5 PTS),foul,freethrow,5,High
+21600457,531,freethrow,4,PT06M45.00S,06:45,Q4 06:45,91,95,1610612739.0,Jefferson,Jefferson Free Throw 2 of 2 (6 PTS),freethrow,2pt made,4,High
+21600457,533,2pt,4,PT06M31.00S,06:31,Q4 06:31,91,97,1610612744.0,Green,Green  Dunk (12 PTS) (West 5 AST),freethrow,3pt made,6,High
+21600457,534,3pt,4,PT06M12.00S,06:12,Q4 06:12,94,97,1610612739.0,Irving,Irving 24' 3PT Jump Shot (19 PTS),2pt made,turnover,3,High
+21600457,535,turnover,4,PT05M55.00S,05:55,Q4 05:55,0,0,1610612744.0,Green,Green Bad Pass Turnover (P5.T17),3pt made,steal,0,High
+21600457,535,steal,4,PT05M55.00S,05:55,Q4 05:55,0,0,1610612739.0,Irving,Irving STEAL (5 STL),turnover,foul,0,High
+21600457,536,foul,4,PT05M48.00S,05:48,Q4 05:48,0,0,1610612744.0,Green,Green P.FOUL (P4.T2) (M.Callahan),steal,substitution,0,High
+21600457,537,substitution,4,PT05M48.00S,05:48,Q4 05:48,0,0,1610612744.0,West,SUB out: D. West,foul,substitution,0,High
+21600457,538,substitution,4,PT05M48.00S,05:48,Q4 05:48,0,0,1610612744.0,Durant,SUB in: K. Durant,substitution,2pt missed,0,High
+21600457,538,2pt,4,PT05M37.00S,05:37,Q4 05:37,0,0,1610612739.0,Irving,MISS Irving 1' Driving Layup,substitution,rebound,0,High
+21600457,539,rebound,4,PT05M36.00S,05:36,Q4 05:36,0,0,1610612744.0,Curry,Curry REBOUND (Off:0 Def:3),2pt missed,3pt missed,0,High
+21600457,540,3pt,4,PT05M31.00S,05:31,Q4 05:31,0,0,1610612744.0,Curry,MISS Curry 25' 3PT Jump Shot,rebound,rebound,0,High
+21600457,541,rebound,4,PT05M30.00S,05:30,Q4 05:30,0,0,1610612744.0,,TEAM offensive REBOUND,3pt missed,3pt missed,0,High
+21600457,543,3pt,4,PT05M20.00S,05:20,Q4 05:20,0,0,1610612744.0,Durant,MISS Durant 27' 3PT Jump Shot,rebound,rebound,0,High
+21600457,544,rebound,4,PT05M19.00S,05:19,Q4 05:19,0,0,1610612739.0,Irving,Irving REBOUND (Off:2 Def:3),3pt missed,3pt missed,0,High
+21600457,545,3pt,4,PT05M12.00S,05:12,Q4 05:12,0,0,1610612739.0,Love,MISS Love 25' 3PT Jump Shot,rebound,rebound,0,High
+21600457,546,rebound,4,PT05M11.00S,05:11,Q4 05:11,0,0,1610612744.0,Livingston,Livingston REBOUND (Off:0 Def:3),3pt missed,foul,0,High
+21600457,547,foul,4,PT05M07.00S,05:07,Q4 05:07,0,0,1610612739.0,Love,Love S.FOUL (P5.T4) (S.Corbin),rebound,freethrow,0,High
+21600457,548,freethrow,4,PT05M07.00S,05:07,Q4 05:07,94,98,1610612744.0,Durant,Durant Free Throw 1 of 2 (35 PTS),foul,freethrow,4,High
+21600457,550,freethrow,4,PT05M07.00S,05:07,Q4 05:07,94,99,1610612744.0,Durant,Durant Free Throw 2 of 2 (36 PTS),freethrow,foul,5,High
+21600457,552,foul,4,PT04M55.00S,04:55,Q4 04:55,0,0,1610612744.0,Thompson,Thompson P.FOUL (P1.T3) (S.Corbin),freethrow,3pt made,0,High
+21600457,553,3pt,4,PT04M41.00S,04:41,Q4 04:41,97,99,1610612739.0,Shumpert,Shumpert 24' 3PT Jump Shot (7 PTS) (James 4 AST),foul,2pt made,2,High
+21600457,554,2pt,4,PT04M28.00S,04:28,Q4 04:28,97,101,1610612744.0,Curry,Curry 1' Cutting Layup Shot (12 PTS) (Green 4 AST),3pt made,2pt made,4,High
+21600457,555,2pt,4,PT04M10.00S,04:10,Q4 04:10,99,101,1610612739.0,Jefferson,Jefferson  Driving Dunk (8 PTS) (Love 3 AST),2pt made,2pt made,2,High
+21600457,556,2pt,4,PT03M49.00S,03:49,Q4 03:49,99,103,1610612744.0,Green,Green 7' Driving Floating Jump Shot (14 PTS),2pt made,timeout,4,High
+21600457,557,timeout,4,PT03M46.00S,03:46,Q4 03:46,0,0,1610612739.0,,CAVALIERS Timeout: Regular (Full 6 Short 1),2pt made,substitution,0,High
+21600457,560,substitution,4,PT03M46.00S,03:46,Q4 03:46,0,0,1610612744.0,Livingston,SUB out: S. Livingston,timeout,substitution,0,High
+21600457,561,substitution,4,PT03M46.00S,03:46,Q4 03:46,0,0,1610612744.0,Iguodala,SUB in: A. Iguodala,substitution,2pt made,0,High
+21600457,561,2pt,4,PT03M36.00S,03:36,Q4 03:36,101,103,1610612739.0,James,James  Cutting Dunk Shot (29 PTS) (Irving 10 AST),substitution,3pt missed,2,High
+21600457,562,3pt,4,PT03M17.00S,03:17,Q4 03:17,0,0,1610612744.0,Green,MISS Green 25' 3PT Jump Shot,2pt made,rebound,0,High
+21600457,563,rebound,4,PT03M17.00S,03:17,Q4 03:17,0,0,1610612739.0,,TEAM defensive REBOUND,3pt missed,3pt missed,0,High
+21600457,564,3pt,4,PT02M48.00S,02:48,Q4 02:48,0,0,1610612739.0,Shumpert,MISS Shumpert 26' 3PT Jump Shot,rebound,rebound,0,High
+21600457,565,rebound,4,PT02M48.00S,02:48,Q4 02:48,0,0,1610612739.0,Irving,Irving REBOUND (Off:3 Def:3),3pt missed,2pt missed,0,High
+21600457,566,2pt,4,PT02M44.00S,02:44,Q4 02:44,0,0,1610612739.0,Irving,MISS Irving 2' Layup,rebound,rebound,0,High
+21600457,567,rebound,4,PT02M42.00S,02:42,Q4 02:42,0,0,1610612744.0,Durant,Durant REBOUND (Off:0 Def:13),2pt missed,turnover,0,High
+21600457,568,turnover,4,PT02M33.00S,02:33,Q4 02:33,0,0,1610612744.0,Green,Green Bad Pass Turnover (P6.T18),rebound,steal,0,High
+21600457,568,steal,4,PT02M33.00S,02:33,Q4 02:33,0,0,1610612739.0,Irving,Irving STEAL (6 STL),turnover,2pt made,0,High
+21600457,569,2pt,4,PT02M18.00S,02:18,Q4 02:18,103,103,1610612739.0,Irving,Irving  Driving Layup (21 PTS) (Shumpert 2 AST),steal,2pt missed,0,High
+21600457,570,2pt,4,PT01M55.00S,01:55,Q4 01:55,0,0,1610612744.0,Durant,MISS Durant 20' Jump Shot,2pt made,rebound,0,Very High
+21600457,571,rebound,4,PT01M54.00S,01:54,Q4 01:54,0,0,1610612739.0,Shumpert,Shumpert REBOUND (Off:3 Def:2),2pt missed,2pt made,0,Very High
+21600457,572,2pt,4,PT01M43.00S,01:43,Q4 01:43,105,103,1610612739.0,James,James  Cutting Dunk Shot (31 PTS),rebound,foul,2,Very High
+21600457,573,foul,4,PT01M43.00S,01:43,Q4 01:43,0,0,1610612744.0,Green,Green S.FOUL (P5.T4) (S.Corbin),2pt made,timeout,0,Very High
+21600457,574,timeout,4,PT01M43.00S,01:43,Q4 01:43,0,0,1610612744.0,,Warriors Timeout: Regular (Reg.5 Short 1),foul,freethrow,0,Very High
+21600457,578,freethrow,4,PT01M43.00S,01:43,Q4 01:43,0,0,1610612739.0,James,MISS James Free Throw 1 of 1,timeout,rebound,0,Very High
+21600457,580,rebound,4,PT01M43.00S,01:43,Q4 01:43,0,0,1610612744.0,Durant,Durant REBOUND (Off:0 Def:14),freethrow,2pt made,0,Very High
+21600457,581,2pt,4,PT01M31.00S,01:31,Q4 01:31,105,105,1610612744.0,Green,Green  Cutting Dunk Shot (16 PTS) (Thompson 1 AST),rebound,2pt missed,0,Very High
+21600457,582,2pt,4,PT01M19.00S,01:19,Q4 01:19,0,0,1610612739.0,Irving,MISS Irving 2' Reverse Layup,2pt made,block,0,Very High
+21600457,582,block,4,PT01M19.00S,01:19,Q4 01:19,0,0,1610612744.0,Thompson,Thompson BLOCK (1 BLK),2pt missed,rebound,0,Very High
+21600457,583,rebound,4,PT01M15.00S,01:15,Q4 01:15,0,0,1610612744.0,Durant,Durant REBOUND (Off:0 Def:15),block,3pt made,0,Very High
+21600457,584,3pt,4,PT01M14.00S,01:14,Q4 01:14,105,108,1610612744.0,Curry,Curry 26' 3PT Jump Shot (15 PTS) (Durant 3 AST),rebound,timeout,3,Very High
+21600457,585,timeout,4,PT01M14.00S,01:14,Q4 01:14,0,0,1610612739.0,,CAVALIERS Timeout: Short (Full 6 Short 2),3pt made,3pt missed,0,Very High
+21600457,589,3pt,4,PT00M46.90S,00:46,Q4 00:46,0,0,1610612739.0,Jefferson,MISS Jefferson 29' 3PT Jump Shot,timeout,rebound,0,Very High
+21600457,590,rebound,4,PT00M46.80S,00:46,Q4 00:46,0,0,1610612744.0,Iguodala,Iguodala REBOUND (Off:1 Def:3),3pt missed,turnover,0,Very High
+21600457,591,turnover,4,PT00M42.90S,00:42,Q4 00:42,0,0,1610612744.0,Iguodala,Iguodala Bad Pass Turnover (P2.T19),rebound,steal,0,Very High
+21600457,591,steal,4,PT00M42.90S,00:42,Q4 00:42,0,0,1610612739.0,Irving,Irving STEAL (7 STL),turnover,2pt made,0,Very High
+21600457,592,2pt,4,PT00M37.50S,00:37,Q4 00:37,107,108,1610612739.0,Irving,Irving 2' Driving Layup (23 PTS),steal,turnover,1,Very High
+21600457,593,turnover,4,PT00M13.50S,00:13,Q4 00:13,0,0,0.0,,Warriors Turnover: Shot Clock (T#20),2pt made,instant replay,0,Very High
+21600457,597,substitution,4,PT00M13.50S,00:13,Q4 00:13,0,0,1610612744.0,Curry,SUB out: S. Curry,instant replay,substitution,0,Very High
+21600457,598,substitution,4,PT00M13.50S,00:13,Q4 00:13,0,0,1610612744.0,Livingston,SUB in: S. Livingston,substitution,2pt made,0,Very High
+21600457,598,2pt,4,PT00M03.40S,00:03,Q4 00:03,109,108,1610612739.0,Irving,Irving 13' Turnaround Fadeaway (25 PTS),substitution,timeout,1,Very High
+21600457,599,timeout,4,PT00M03.40S,00:03,Q4 00:03,0,0,1610612744.0,,Warriors Timeout: Short (Reg.5 Short 2),2pt made,substitution,0,Very High
+21600457,601,substitution,4,PT00M03.40S,00:03,Q4 00:03,0,0,1610612744.0,Livingston,SUB out: S. Livingston,timeout,substitution,0,Very High
+21600457,602,substitution,4,PT00M03.40S,00:03,Q4 00:03,0,0,1610612739.0,Love,SUB out: K. Love,substitution,substitution,0,Very High
+21600457,603,substitution,4,PT00M03.40S,00:03,Q4 00:03,0,0,1610612744.0,Curry,SUB in: S. Curry,substitution,substitution,0,Very High
+21600457,604,substitution,4,PT00M03.40S,00:03,Q4 00:03,0,0,1610612739.0,Liggins,SUB in: D. Liggins,substitution,3pt missed,0,Very High
+21600457,605,3pt,4,PT00M00.00S,00:00,Q4 00:00,0,0,1610612744.0,Durant,MISS Durant 34' 3PT Jump Shot,substitution,rebound,0,Very High
+21600457,606,rebound,4,PT00M00.00S,00:00,Q4 00:00,0,0,1610612744.0,,TEAM offensive REBOUND,3pt missed,period,0,Very High
+21600457,607,period,4,PT00M00.00S,00:00,Q4 00:00,109,108,1610612739.0,,End of 4th Period (5:15 PM EST),rebound,,1,Very High

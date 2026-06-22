@@ -1,0 +1,545 @@
+game_id,actionNumber,actionType,period,clock,clock_display,game_clock,scoreHome,scoreAway,teamId,playerName,description,previous_action,next_action,score_margin,leverage_bucket
+22100395,7,turnover,1,PT11M50.00S,11:50,Q1 11:50,0,0,1610612763.0,Jones,T. Jones double dribble TURNOVER (1 TO),,foul,0,Low
+22100395,8,foul,1,PT11M39.00S,11:39,Q1 11:39,0,0,1610612763.0,Adams,S. Adams shooting personal FOUL (1 PF) (Wood 2 FT),turnover,freethrow,0,Low
+22100395,10,freethrow,1,PT11M39.00S,11:39,Q1 11:39,0,1,1610612745.0,Wood,C. Wood Free Throw 1 of 2 (1 PTS),foul,freethrow,1,Low
+22100395,11,freethrow,1,PT11M39.00S,11:39,Q1 11:39,0,1,1610612745.0,Wood,MISS C. Wood Free Throw 2 of 2,freethrow,rebound,1,Low
+22100395,12,rebound,1,PT11M37.00S,11:37,Q1 11:37,0,1,1610612763.0,Anderson,K. Anderson REBOUND (Off:0 Def:1),freethrow,3pt missed,1,Low
+22100395,13,3pt,1,PT11M24.00S,11:24,Q1 11:24,0,1,1610612763.0,Bane,MISS D. Bane 24' 3PT,rebound,rebound,1,Low
+22100395,14,rebound,1,PT11M22.00S,11:22,Q1 11:22,0,1,1610612745.0,Theis,D. Theis REBOUND (Off:0 Def:1),3pt missed,3pt missed,1,Low
+22100395,15,3pt,1,PT11M14.00S,11:14,Q1 11:14,0,1,1610612745.0,Tate,MISS J. Tate 26' 3PT,rebound,rebound,1,Low
+22100395,16,rebound,1,PT11M11.00S,11:11,Q1 11:11,0,1,1610612763.0,Adams,S. Adams REBOUND (Off:0 Def:1),3pt missed,3pt missed,1,Low
+22100395,17,3pt,1,PT11M06.00S,11:06,Q1 11:06,0,1,1610612763.0,Brooks,MISS D. Brooks 3PT,rebound,rebound,1,Low
+22100395,18,rebound,1,PT11M02.00S,11:02,Q1 11:02,0,1,1610612763.0,Jones,T. Jones REBOUND (Off:1 Def:0),3pt missed,3pt made,1,Low
+22100395,19,3pt,1,PT11M01.00S,11:01,Q1 11:01,3,1,1610612763.0,Jones,T. Jones 24' 3PT  (3 PTS),rebound,turnover,2,Low
+22100395,21,turnover,1,PT10M45.00S,10:45,Q1 10:45,3,1,1610612745.0,Theis,D. Theis bad pass TURNOVER (1 TO),3pt made,steal,2,Low
+22100395,22,steal,1,PT10M45.00S,10:45,Q1 10:45,3,1,1610612763.0,Jones,T. Jones STEAL (1 STL),turnover,2pt made,2,Low
+22100395,23,2pt,1,PT10M40.00S,10:40,Q1 10:40,5,1,1610612763.0,Anderson,K. Anderson running DUNK (2 PTS) (T. Jones 1 AST),steal,turnover,4,Low
+22100395,24,turnover,1,PT10M19.00S,10:19,Q1 10:19,5,1,1610612745.0,Augustin,D. Augustin bad pass TURNOVER (1 TO),2pt made,steal,4,Low
+22100395,25,steal,1,PT10M19.00S,10:19,Q1 10:19,5,1,1610612763.0,Jones,T. Jones STEAL (2 STL),turnover,foul,4,Low
+22100395,26,foul,1,PT10M17.00S,10:17,Q1 10:17,5,1,1610612745.0,Mathews,G. Mathews personal FOUL (1 PF),steal,2pt made,4,Low
+22100395,28,2pt,1,PT10M04.00S,10:04,Q1 10:04,7,1,1610612763.0,Adams,S. Adams turnaround Hook (2 PTS) (D. Brooks 1 AST),foul,3pt missed,6,Low
+22100395,30,3pt,1,PT09M54.00S,09:54,Q1 09:54,7,1,1610612745.0,Mathews,MISS G. Mathews 26' 3PT,2pt made,rebound,6,Low
+22100395,31,rebound,1,PT09M51.00S,09:51,Q1 09:51,7,1,1610612763.0,Anderson,K. Anderson REBOUND (Off:0 Def:2),3pt missed,turnover,6,Low
+22100395,32,turnover,1,PT09M45.00S,09:45,Q1 09:45,7,1,1610612763.0,Anderson,K. Anderson lost ball TURNOVER (1 TO),rebound,steal,6,Low
+22100395,33,steal,1,PT09M45.00S,09:45,Q1 09:45,7,1,1610612745.0,Wood,C. Wood STEAL (1 STL),turnover,turnover,6,Low
+22100395,34,turnover,1,PT09M33.00S,09:33,Q1 09:33,7,1,1610612745.0,Tate,J. Tate traveling TURNOVER (1 TO),steal,2pt made,6,Low
+22100395,35,2pt,1,PT09M21.00S,09:21,Q1 09:21,9,1,1610612763.0,Bane,D. Bane driving Layup (2 PTS) (T. Jones 2 AST),turnover,3pt missed,8,Low
+22100395,37,3pt,1,PT09M03.00S,09:03,Q1 09:03,9,1,1610612745.0,Mathews,MISS G. Mathews 26' pullup 3PT,2pt made,rebound,8,Low
+22100395,38,rebound,1,PT09M01.00S,09:01,Q1 09:01,9,1,1610612763.0,Bane,D. Bane REBOUND (Off:0 Def:1),3pt missed,2pt made,8,Low
+22100395,39,2pt,1,PT08M55.00S,08:55,Q1 08:55,11,1,1610612763.0,Bane,D. Bane 16' pullup Jump Shot (4 PTS),rebound,timeout,10,Low
+22100395,40,timeout,1,PT08M53.00S,08:53,Q1 08:53,11,1,1610612745.0,,HOU Timeout,2pt made,2pt missed,10,Low
+22100395,42,2pt,1,PT08M39.00S,08:39,Q1 08:39,11,1,1610612745.0,Tate,MISS J. Tate driving Hook,timeout,rebound,10,Low
+22100395,43,rebound,1,PT08M37.00S,08:37,Q1 08:37,11,1,1610612763.0,Adams,S. Adams REBOUND (Off:0 Def:2),2pt missed,2pt missed,10,Low
+22100395,44,2pt,1,PT08M29.00S,08:29,Q1 08:29,11,1,1610612763.0,Brooks,MISS D. Brooks driving finger roll Layup - blocked,rebound,block,10,Low
+22100395,45,block,1,PT08M29.00S,08:29,Q1 08:29,11,1,1610612745.0,Theis,D. Theis BLOCK (1 BLK),2pt missed,rebound,10,Low
+22100395,46,rebound,1,PT08M25.00S,08:25,Q1 08:25,11,1,1610612745.0,Wood,C. Wood REBOUND (Off:0 Def:1),block,3pt made,10,Low
+22100395,47,3pt,1,PT08M21.00S,08:21,Q1 08:21,11,4,1610612745.0,Augustin,D. Augustin 25' 3PT  (3 PTS),rebound,2pt made,7,Low
+22100395,49,2pt,1,PT08M06.00S,08:06,Q1 08:06,13,4,1610612763.0,Jones,T. Jones 11' driving floating Jump Shot (5 PTS),3pt made,turnover,9,Low
+22100395,50,turnover,1,PT07M51.00S,07:51,Q1 07:51,13,4,1610612745.0,Augustin,D. Augustin bad pass TURNOVER (2 TO),2pt made,steal,9,Low
+22100395,51,steal,1,PT07M51.00S,07:51,Q1 07:51,13,4,1610612763.0,Jones,T. Jones STEAL (3 STL),turnover,foul,9,Low
+22100395,52,foul,1,PT07M51.00S,07:51,Q1 07:51,13,4,1610612745.0,Tate,J. Tate take personal FOUL (1 PF),steal,3pt made,9,Low
+22100395,54,3pt,1,PT07M40.00S,07:40,Q1 07:40,16,4,1610612763.0,Bane,D. Bane 27' 3PT  (7 PTS) (K. Anderson 1 AST),foul,foul,12,Low
+22100395,56,foul,1,PT07M23.00S,07:23,Q1 07:23,16,4,1610612763.0,Anderson,K. Anderson shooting personal FOUL (1 PF) (Wood 2 FT),3pt made,freethrow,12,Low
+22100395,58,freethrow,1,PT07M23.00S,07:23,Q1 07:23,16,5,1610612745.0,Wood,C. Wood Free Throw 1 of 2 (2 PTS),foul,freethrow,11,Low
+22100395,59,freethrow,1,PT07M23.00S,07:23,Q1 07:23,16,5,1610612745.0,Wood,MISS C. Wood Free Throw 2 of 2,freethrow,rebound,11,Low
+22100395,60,rebound,1,PT07M20.00S,07:20,Q1 07:20,16,5,1610612763.0,Anderson,K. Anderson REBOUND (Off:0 Def:3),freethrow,2pt made,11,Low
+22100395,61,2pt,1,PT07M18.00S,07:18,Q1 07:18,18,5,1610612763.0,Brooks,D. Brooks running DUNK (2 PTS) (K. Anderson 2 AST),rebound,2pt missed,13,Low
+22100395,63,2pt,1,PT06M55.00S,06:55,Q1 06:55,18,5,1610612745.0,Theis,MISS D. Theis 11' pullup Shot,2pt made,rebound,13,Low
+22100395,64,rebound,1,PT06M53.00S,06:53,Q1 06:53,18,5,1610612763.0,Adams,S. Adams REBOUND (Off:0 Def:3),2pt missed,3pt made,13,Low
+22100395,65,3pt,1,PT06M45.00S,06:45,Q1 06:45,21,5,1610612763.0,Brooks,D. Brooks 24' 3PT  (5 PTS) (K. Anderson 3 AST),rebound,foul,16,Low
+22100395,67,foul,1,PT06M24.00S,06:24,Q1 06:24,21,5,1610612763.0,Anderson,K. Anderson personal FOUL (2 PF),3pt made,substitution,16,Low
+22100395,69,substitution,1,PT06M24.00S,06:24,Q1 06:24,21,5,1610612763.0,Anderson,SUB out: K. Anderson,foul,substitution,16,Low
+22100395,70,substitution,1,PT06M24.00S,06:24,Q1 06:24,21,5,1610612763.0,Bane,SUB out: D. Bane,substitution,substitution,16,Low
+22100395,71,substitution,1,PT06M24.00S,06:24,Q1 06:24,21,5,1610612745.0,Mathews,SUB out: G. Mathews,substitution,substitution,16,Low
+22100395,72,substitution,1,PT06M24.00S,06:24,Q1 06:24,21,5,1610612745.0,Tate,SUB out: J. Tate,substitution,substitution,16,Low
+22100395,73,substitution,1,PT06M24.00S,06:24,Q1 06:24,21,5,1610612763.0,Melton,SUB in: D. Melton,substitution,substitution,16,Low
+22100395,74,substitution,1,PT06M24.00S,06:24,Q1 06:24,21,5,1610612763.0,Tillie,SUB in: K. Tillie,substitution,substitution,16,Low
+22100395,75,substitution,1,PT06M24.00S,06:24,Q1 06:24,21,5,1610612745.0,Brooks,SUB in: A. Brooks,substitution,substitution,16,Low
+22100395,76,substitution,1,PT06M24.00S,06:24,Q1 06:24,21,5,1610612745.0,Martin Jr.,SUB in: K. Martin Jr.,substitution,2pt made,16,Low
+22100395,77,2pt,1,PT06M12.00S,06:12,Q1 06:12,21,7,1610612745.0,Theis,D. Theis cutting finger roll Layup (2 PTS) (C. Wood 1 AST),substitution,3pt missed,14,Low
+22100395,79,3pt,1,PT06M00.00S,06:00,Q1 06:00,21,7,1610612763.0,Jones,MISS T. Jones 25' pullup 3PT,2pt made,rebound,14,Low
+22100395,80,rebound,1,PT05M58.00S,05:58,Q1 05:58,21,7,1610612745.0,Brooks,A. Brooks REBOUND (Off:0 Def:1),3pt missed,foul,14,Low
+22100395,81,foul,1,PT05M53.00S,05:53,Q1 05:53,21,7,1610612763.0,Melton,D. Melton shooting personal FOUL (1 PF) (Wood 2 FT),rebound,freethrow,14,Low
+22100395,83,freethrow,1,PT05M53.00S,05:53,Q1 05:53,21,8,1610612745.0,Wood,C. Wood Free Throw 1 of 2 (3 PTS),foul,freethrow,13,Low
+22100395,84,freethrow,1,PT05M53.00S,05:53,Q1 05:53,21,9,1610612745.0,Wood,C. Wood Free Throw 2 of 2 (4 PTS),freethrow,2pt made,12,Low
+22100395,85,2pt,1,PT05M38.00S,05:38,Q1 05:38,23,9,1610612763.0,Melton,D. Melton 19' pullup Jump Shot (2 PTS) (K. Tillie 1 AST),freethrow,foul,14,Low
+22100395,87,foul,1,PT05M21.00S,05:21,Q1 05:21,23,9,1610612763.0,Brooks,D. Brooks personal FOUL (1 PF) (Wood 2 FT),2pt made,freethrow,14,Low
+22100395,89,freethrow,1,PT05M21.00S,05:21,Q1 05:21,23,10,1610612745.0,Wood,C. Wood Free Throw 1 of 2 (5 PTS),foul,freethrow,13,Low
+22100395,92,freethrow,1,PT05M21.00S,05:21,Q1 05:21,23,10,1610612745.0,Wood,MISS C. Wood Free Throw 2 of 2,freethrow,substitution,13,Low
+22100395,90,substitution,1,PT05M21.00S,05:21,Q1 05:21,23,10,1610612745.0,Theis,SUB out: D. Theis,freethrow,substitution,13,Low
+22100395,91,substitution,1,PT05M21.00S,05:21,Q1 05:21,23,10,1610612745.0,Sengun,SUB in: A. Sengun,substitution,rebound,13,Low
+22100395,93,rebound,1,PT05M19.00S,05:19,Q1 05:19,23,10,1610612763.0,Tillie,K. Tillie REBOUND (Off:0 Def:1),substitution,3pt missed,13,Low
+22100395,94,3pt,1,PT05M05.00S,05:05,Q1 05:05,23,10,1610612763.0,Tillie,MISS K. Tillie 26' 3PT,rebound,rebound,13,Low
+22100395,95,rebound,1,PT05M01.00S,05:01,Q1 05:01,23,10,1610612745.0,Brooks,A. Brooks REBOUND (Off:0 Def:2),3pt missed,2pt made,13,Low
+22100395,96,2pt,1,PT04M45.00S,04:45,Q1 04:45,23,12,1610612745.0,Brooks,A. Brooks 6' driving floating Jump Shot (2 PTS) (C. Wood 2 AST),rebound,2pt made,11,Low
+22100395,98,2pt,1,PT04M33.00S,04:33,Q1 04:33,25,12,1610612763.0,Adams,S. Adams driving DUNK (4 PTS),2pt made,2pt made,13,Low
+22100395,100,2pt,1,PT04M23.00S,04:23,Q1 04:23,25,14,1610612745.0,Sengun,A. Sengun cutting Layup (2 PTS) (A. Brooks 1 AST),2pt made,foul,11,Low
+22100395,102,foul,1,PT04M23.00S,04:23,Q1 04:23,25,14,1610612763.0,Melton,D. Melton shooting personal FOUL (2 PF) (Sengun 1 FT),2pt made,freethrow,11,Low
+22100395,108,freethrow,1,PT04M23.00S,04:23,Q1 04:23,25,15,1610612745.0,Sengun,A. Sengun Free Throw 1 of 1 (3 PTS),foul,substitution,10,Low
+22100395,104,substitution,1,PT04M23.00S,04:23,Q1 04:23,25,14,1610612763.0,Adams,SUB out: S. Adams,freethrow,substitution,11,Low
+22100395,105,substitution,1,PT04M23.00S,04:23,Q1 04:23,25,14,1610612745.0,Augustin,SUB out: D. Augustin,substitution,substitution,11,Low
+22100395,106,substitution,1,PT04M23.00S,04:23,Q1 04:23,25,14,1610612763.0,Tillman,SUB in: X. Tillman,substitution,substitution,11,Low
+22100395,107,substitution,1,PT04M23.00S,04:23,Q1 04:23,25,14,1610612745.0,Christopher,SUB in: J. Christopher,substitution,3pt made,11,Low
+22100395,109,3pt,1,PT04M08.00S,04:08,Q1 04:08,28,15,1610612763.0,Brooks,D. Brooks 25' 3PT step back (8 PTS) (T. Jones 3 AST),substitution,3pt made,13,Low
+22100395,111,3pt,1,PT03M45.00S,03:45,Q1 03:45,28,18,1610612745.0,Brooks,A. Brooks 26' 3PT  (5 PTS) (J. Christopher 1 AST),3pt made,foul,10,Low
+22100395,113,foul,1,PT03M23.00S,03:23,Q1 03:23,28,18,1610612745.0,Sengun,A. Sengun shooting personal FOUL (1 PF) (Brooks 2 FT),3pt made,freethrow,10,Low
+22100395,115,freethrow,1,PT03M23.00S,03:23,Q1 03:23,28,18,1610612763.0,Brooks,MISS D. Brooks Free Throw 1 of 2,foul,rebound,10,Low
+22100395,116,rebound,1,PT03M23.00S,03:23,Q1 03:23,28,18,1610612763.0,,TEAM offensive REBOUND,freethrow,freethrow,10,Low
+22100395,117,freethrow,1,PT03M23.00S,03:23,Q1 03:23,29,18,1610612763.0,Brooks,D. Brooks Free Throw 2 of 2 (9 PTS),rebound,2pt made,11,Low
+22100395,118,2pt,1,PT03M00.00S,03:00,Q1 03:00,29,20,1610612745.0,Wood,C. Wood alley-oop DUNK (7 PTS) (K. Martin Jr. 1 AST),freethrow,turnover,9,Low
+22100395,120,turnover,1,PT02M54.00S,02:54,Q1 02:54,29,20,1610612763.0,Melton,D. Melton traveling TURNOVER (1 TO),2pt made,timeout,9,Low
+22100395,121,timeout,1,PT02M54.00S,02:54,Q1 02:54,29,20,1610612763.0,,MEM Timeout,turnover,substitution,9,Low
+22100395,122,substitution,1,PT02M54.00S,02:54,Q1 02:54,29,20,1610612763.0,Melton,SUB out: D. Melton,timeout,substitution,9,Low
+22100395,123,substitution,1,PT02M54.00S,02:54,Q1 02:54,29,20,1610612763.0,Jones,SUB out: T. Jones,substitution,substitution,9,Low
+22100395,124,substitution,1,PT02M54.00S,02:54,Q1 02:54,29,20,1610612763.0,Brooks,SUB out: D. Brooks,substitution,substitution,9,Low
+22100395,125,substitution,1,PT02M54.00S,02:54,Q1 02:54,29,20,1610612745.0,Wood,SUB out: C. Wood,substitution,substitution,9,Low
+22100395,126,substitution,1,PT02M54.00S,02:54,Q1 02:54,29,20,1610612763.0,Bane,SUB in: D. Bane,substitution,substitution,9,Low
+22100395,127,substitution,1,PT02M54.00S,02:54,Q1 02:54,29,20,1610612763.0,Culver,SUB in: J. Culver,substitution,substitution,9,Low
+22100395,128,substitution,1,PT02M54.00S,02:54,Q1 02:54,29,20,1610612763.0,Konchar,SUB in: J. Konchar,substitution,substitution,9,Low
+22100395,129,substitution,1,PT02M54.00S,02:54,Q1 02:54,29,20,1610612745.0,Tate,SUB in: J. Tate,substitution,3pt made,9,Low
+22100395,130,3pt,1,PT02M39.00S,02:39,Q1 02:39,29,23,1610612745.0,Christopher,J. Christopher 26' 3PT  (3 PTS) (J. Tate 1 AST),substitution,3pt made,6,Low
+22100395,133,3pt,1,PT02M12.00S,02:12,Q1 02:12,32,23,1610612763.0,Bane,D. Bane 26' 3PT pullup (10 PTS),3pt made,3pt made,9,Low
+22100395,134,3pt,1,PT01M48.00S,01:48,Q1 01:48,32,26,1610612745.0,Brooks,A. Brooks 27' 3PT pullup (8 PTS),3pt made,2pt missed,6,Low
+22100395,135,2pt,1,PT01M25.00S,01:25,Q1 01:25,32,26,1610612763.0,Tillman,MISS X. Tillman 7' driving floating Shot,3pt made,rebound,6,Low
+22100395,136,rebound,1,PT01M24.00S,01:24,Q1 01:24,32,26,1610612763.0,Tillman,X. Tillman REBOUND (Off:1 Def:0),2pt missed,3pt made,6,Low
+22100395,137,3pt,1,PT01M13.00S,01:13,Q1 01:13,35,26,1610612763.0,Tillie,K. Tillie 25' 3PT  (3 PTS) (D. Bane 1 AST),rebound,2pt missed,9,Low
+22100395,139,2pt,1,PT00M58.90S,00:58,Q1 00:58,35,26,1610612745.0,Sengun,MISS A. Sengun driving finger roll Layup,3pt made,rebound,9,Low
+22100395,140,rebound,1,PT00M58.60S,00:58,Q1 00:58,35,26,1610612745.0,Tate,J. Tate REBOUND (Off:1 Def:0),2pt missed,2pt made,9,Low
+22100395,141,2pt,1,PT00M58.60S,00:58,Q1 00:58,35,28,1610612745.0,Tate,J. Tate tip DUNK (2 PTS),rebound,3pt missed,7,Low
+22100395,142,3pt,1,PT00M49.20S,00:49,Q1 00:49,35,28,1610612763.0,Tillie,MISS K. Tillie 24' 3PT,2pt made,rebound,7,Low
+22100395,143,rebound,1,PT00M45.70S,00:45,Q1 00:45,35,28,1610612763.0,Tillie,K. Tillie REBOUND (Off:1 Def:1),3pt missed,2pt made,7,Low
+22100395,144,2pt,1,PT00M44.80S,00:44,Q1 00:44,37,28,1610612763.0,Tillie,K. Tillie 9' floating Jump Shot (5 PTS),rebound,2pt missed,9,Low
+22100395,145,2pt,1,PT00M28.30S,00:28,Q1 00:28,37,28,1610612745.0,Sengun,MISS A. Sengun driving Layup,2pt made,rebound,9,Low
+22100395,146,rebound,1,PT00M26.40S,00:26,Q1 00:26,37,28,1610612763.0,Konchar,J. Konchar REBOUND (Off:0 Def:1),2pt missed,3pt made,9,Low
+22100395,147,3pt,1,PT00M23.60S,00:23,Q1 00:23,40,28,1610612763.0,Bane,D. Bane 25' 3PT running pullup (13 PTS),rebound,foul,12,Low
+22100395,148,foul,1,PT00M04.40S,00:04,Q1 00:04,40,28,1610612763.0,Tillman,X. Tillman shooting personal FOUL (1 PF) (Tate 2 FT),3pt made,freethrow,12,Low
+22100395,150,freethrow,1,PT00M04.40S,00:04,Q1 00:04,40,28,1610612745.0,Tate,MISS J. Tate Free Throw 1 of 2,foul,rebound,12,Low
+22100395,151,rebound,1,PT00M04.40S,00:04,Q1 00:04,40,28,1610612745.0,,TEAM offensive REBOUND,freethrow,freethrow,12,Low
+22100395,154,freethrow,1,PT00M04.40S,00:04,Q1 00:04,40,29,1610612745.0,Tate,J. Tate Free Throw 2 of 2 (3 PTS),rebound,substitution,11,Low
+22100395,152,substitution,1,PT00M04.40S,00:04,Q1 00:04,40,29,1610612745.0,Brooks,SUB out: A. Brooks,freethrow,substitution,11,Low
+22100395,153,substitution,1,PT00M04.40S,00:04,Q1 00:04,40,29,1610612745.0,Nwaba,SUB in: D. Nwaba,substitution,2pt missed,11,Low
+22100395,155,2pt,1,PT00M00.00S,00:00,Q1 00:00,40,29,1610612763.0,Bane,MISS D. Bane 6' driving floating Shot,substitution,rebound,11,Low
+22100395,156,rebound,1,PT00M00.00S,00:00,Q1 00:00,40,29,1610612763.0,,TEAM offensive REBOUND,2pt missed,substitution,11,Low
+22100395,158,substitution,2,PT12M00.00S,12:00,Q2 12:00,40,29,1610612763.0,Tillie,SUB out: K. Tillie,rebound,substitution,11,Low
+22100395,159,substitution,2,PT12M00.00S,12:00,Q2 12:00,40,29,1610612745.0,Tate,SUB out: J. Tate,substitution,substitution,11,Low
+22100395,160,substitution,2,PT12M00.00S,12:00,Q2 12:00,40,29,1610612763.0,Anderson,SUB in: K. Anderson,substitution,substitution,11,Low
+22100395,161,substitution,2,PT12M00.00S,12:00,Q2 12:00,40,29,1610612745.0,Brooks,SUB in: A. Brooks,substitution,2pt missed,11,Low
+22100395,163,2pt,2,PT11M36.00S,11:36,Q2 11:36,40,29,1610612745.0,Christopher,MISS J. Christopher 21' pullup Shot,substitution,rebound,11,Low
+22100395,164,rebound,2,PT11M32.00S,11:32,Q2 11:32,40,29,1610612763.0,Bane,D. Bane REBOUND (Off:0 Def:2),2pt missed,3pt made,11,Low
+22100395,165,3pt,2,PT11M25.00S,11:25,Q2 11:25,43,29,1610612763.0,Konchar,J. Konchar 3PT  (3 PTS) (K. Anderson 4 AST),rebound,3pt missed,14,Low
+22100395,167,3pt,2,PT11M05.00S,11:05,Q2 11:05,43,29,1610612745.0,Brooks,MISS A. Brooks 27' pullup 3PT,3pt made,rebound,14,Low
+22100395,168,rebound,2,PT11M03.00S,11:03,Q2 11:03,43,29,1610612745.0,Sengun,A. Sengun REBOUND (Off:1 Def:0),3pt missed,2pt made,14,Low
+22100395,170,2pt,2,PT10M56.00S,10:56,Q2 10:56,43,31,1610612745.0,Martin Jr.,K. Martin Jr. cutting DUNK (2 PTS) (A. Brooks 2 AST),rebound,3pt missed,12,Low
+22100395,172,3pt,2,PT10M30.00S,10:30,Q2 10:30,43,31,1610612763.0,Bane,MISS D. Bane 25' pullup 3PT,2pt made,rebound,12,Low
+22100395,173,rebound,2,PT10M27.00S,10:27,Q2 10:27,43,31,1610612745.0,Martin Jr.,K. Martin Jr. REBOUND (Off:0 Def:1),3pt missed,2pt made,12,Low
+22100395,174,2pt,2,PT10M19.00S,10:19,Q2 10:19,43,33,1610612745.0,Christopher,J. Christopher driving finger roll Layup (5 PTS),rebound,foul,10,Low
+22100395,175,foul,2,PT10M09.00S,10:09,Q2 10:09,43,33,1610612763.0,Tillman,X. Tillman offensive FOUL (2 PF),2pt made,turnover,10,Low
+22100395,177,turnover,2,PT10M09.00S,10:09,Q2 10:09,43,33,1610612763.0,Tillman,X. Tillman offensive foul TURNOVER (1 TO),foul,foul,10,Low
+22100395,178,foul,2,PT09M52.00S,09:52,Q2 09:52,43,33,1610612763.0,Culver,J. Culver personal FOUL (1 PF),turnover,2pt missed,10,Low
+22100395,180,2pt,2,PT09M43.00S,09:43,Q2 09:43,43,33,1610612745.0,Sengun,MISS A. Sengun driving Layup - blocked,foul,block,10,Low
+22100395,181,block,2,PT09M43.00S,09:43,Q2 09:43,43,33,1610612763.0,Tillman,X. Tillman BLOCK (1 BLK),2pt missed,rebound,10,Low
+22100395,182,rebound,2,PT09M40.00S,09:40,Q2 09:40,43,33,1610612763.0,Tillman,X. Tillman REBOUND (Off:1 Def:1),block,foul,10,Low
+22100395,183,foul,2,PT09M38.00S,09:38,Q2 09:38,43,33,1610612745.0,Nwaba,D. Nwaba shooting personal FOUL (1 PF) (Tillman 2 FT),rebound,freethrow,10,Low
+22100395,187,freethrow,2,PT09M38.00S,09:38,Q2 09:38,43,33,1610612763.0,Tillman,MISS X. Tillman Free Throw 1 of 2,foul,rebound,10,Low
+22100395,188,rebound,2,PT09M38.00S,09:38,Q2 09:38,43,33,1610612763.0,,TEAM offensive REBOUND,freethrow,freethrow,10,Low
+22100395,189,freethrow,2,PT09M38.00S,09:38,Q2 09:38,43,33,1610612763.0,Tillman,MISS X. Tillman Free Throw 2 of 2,rebound,substitution,10,Low
+22100395,185,substitution,2,PT09M38.00S,09:38,Q2 09:38,43,33,1610612745.0,Martin Jr.,SUB out: K. Martin Jr.,freethrow,substitution,10,Low
+22100395,186,substitution,2,PT09M38.00S,09:38,Q2 09:38,43,33,1610612745.0,Mathews,SUB in: G. Mathews,substitution,rebound,10,Low
+22100395,190,rebound,2,PT09M30.00S,09:30,Q2 09:30,43,33,1610612745.0,Sengun,A. Sengun REBOUND (Off:1 Def:1),substitution,2pt missed,10,Low
+22100395,191,2pt,2,PT09M17.00S,09:17,Q2 09:17,43,33,1610612745.0,Christopher,MISS J. Christopher driving floating Shot - blocked,rebound,block,10,Low
+22100395,192,block,2,PT09M17.00S,09:17,Q2 09:17,43,33,1610612763.0,Tillman,X. Tillman BLOCK (2 BLK),2pt missed,rebound,10,Low
+22100395,193,rebound,2,PT09M13.00S,09:13,Q2 09:13,43,33,1610612763.0,Tillman,X. Tillman REBOUND (Off:1 Def:2),block,2pt made,10,Low
+22100395,194,2pt,2,PT09M08.00S,09:08,Q2 09:08,45,33,1610612763.0,Tillman,X. Tillman driving DUNK (2 PTS) (J. Culver 1 AST),rebound,foul,12,Low
+22100395,196,foul,2,PT09M08.00S,09:08,Q2 09:08,45,33,1610612745.0,Sengun,A. Sengun shooting personal FOUL (2 PF) (Tillman 1 FT),2pt made,freethrow,12,Low
+22100395,198,freethrow,2,PT09M08.00S,09:08,Q2 09:08,45,33,1610612763.0,Tillman,MISS X. Tillman Free Throw 1 of 1,foul,rebound,12,Low
+22100395,199,rebound,2,PT09M06.00S,09:06,Q2 09:06,45,33,1610612745.0,Sengun,A. Sengun REBOUND (Off:1 Def:2),freethrow,3pt missed,12,Low
+22100395,201,3pt,2,PT08M40.00S,08:40,Q2 08:40,45,33,1610612745.0,Mathews,MISS G. Mathews step back 3PT,rebound,rebound,12,Low
+22100395,202,rebound,2,PT08M37.00S,08:37,Q2 08:37,45,33,1610612745.0,Brooks,A. Brooks REBOUND (Off:1 Def:2),3pt missed,3pt made,12,Low
+22100395,203,3pt,2,PT08M35.00S,08:35,Q2 08:35,45,36,1610612745.0,Christopher,J. Christopher 24' 3PT  (8 PTS) (A. Brooks 3 AST),rebound,2pt missed,9,Low
+22100395,205,2pt,2,PT08M25.00S,08:25,Q2 08:25,45,36,1610612763.0,Konchar,MISS J. Konchar 21' pullup Shot,3pt made,rebound,9,Low
+22100395,206,rebound,2,PT08M23.00S,08:23,Q2 08:23,45,36,1610612763.0,,TEAM offensive REBOUND,2pt missed,substitution,9,Low
+22100395,208,substitution,2,PT08M23.00S,08:23,Q2 08:23,45,36,1610612763.0,Tillman,SUB out: X. Tillman,rebound,substitution,9,Low
+22100395,209,substitution,2,PT08M23.00S,08:23,Q2 08:23,45,36,1610612763.0,Bane,SUB out: D. Bane,substitution,substitution,9,Low
+22100395,210,substitution,2,PT08M23.00S,08:23,Q2 08:23,45,36,1610612763.0,Jones,SUB in: T. Jones,substitution,substitution,9,Low
+22100395,211,substitution,2,PT08M23.00S,08:23,Q2 08:23,45,36,1610612763.0,Adams,SUB in: S. Adams,substitution,turnover,9,Low
+22100395,212,turnover,2,PT08M15.00S,08:15,Q2 08:15,45,36,1610612763.0,Adams,S. Adams lost ball out-of-bounds TURNOVER (1 TO),substitution,3pt missed,9,Low
+22100395,213,3pt,2,PT08M02.00S,08:02,Q2 08:02,45,36,1610612745.0,Brooks,MISS A. Brooks 27' pullup 3PT,turnover,rebound,9,Low
+22100395,214,rebound,2,PT08M00.00S,08:00,Q2 08:00,45,36,1610612763.0,Adams,S. Adams REBOUND (Off:0 Def:4),3pt missed,3pt missed,9,Low
+22100395,215,3pt,2,PT07M43.00S,07:43,Q2 07:43,45,36,1610612763.0,Culver,MISS J. Culver 24' 3PT,rebound,rebound,9,Low
+22100395,216,rebound,2,PT07M42.00S,07:42,Q2 07:42,45,36,1610612763.0,,TEAM offensive REBOUND,3pt missed,foul,9,Low
+22100395,217,foul,2,PT07M42.00S,07:42,Q2 07:42,45,36,1610612745.0,Sengun,A. Sengun loose ball personal FOUL (3 PF),rebound,substitution,9,Low
+22100395,219,substitution,2,PT07M42.00S,07:42,Q2 07:42,45,36,1610612745.0,Sengun,SUB out: A. Sengun,foul,substitution,9,Low
+22100395,220,substitution,2,PT07M42.00S,07:42,Q2 07:42,45,36,1610612745.0,Wood,SUB in: C. Wood,substitution,foul,9,Low
+22100395,221,foul,2,PT07M34.00S,07:34,Q2 07:34,45,36,1610612745.0,Nwaba,D. Nwaba shooting personal FOUL (2 PF) (Anderson 2 FT),substitution,freethrow,9,Low
+22100395,223,freethrow,2,PT07M34.00S,07:34,Q2 07:34,45,36,1610612763.0,Anderson,MISS K. Anderson Free Throw 1 of 2,foul,rebound,9,Low
+22100395,224,rebound,2,PT07M34.00S,07:34,Q2 07:34,45,36,1610612763.0,,TEAM offensive REBOUND,freethrow,freethrow,9,Low
+22100395,225,freethrow,2,PT07M34.00S,07:34,Q2 07:34,46,36,1610612763.0,Anderson,K. Anderson Free Throw 2 of 2 (3 PTS),rebound,3pt missed,10,Low
+22100395,226,3pt,2,PT07M23.00S,07:23,Q2 07:23,46,36,1610612745.0,Wood,MISS C. Wood 26' 3PT,freethrow,rebound,10,Low
+22100395,227,rebound,2,PT07M20.00S,07:20,Q2 07:20,46,36,1610612763.0,Anderson,K. Anderson REBOUND (Off:0 Def:4),3pt missed,2pt made,10,Low
+22100395,228,2pt,2,PT07M12.00S,07:12,Q2 07:12,48,36,1610612763.0,Culver,J. Culver driving Layup (2 PTS),rebound,2pt made,12,Low
+22100395,229,2pt,2,PT06M56.00S,06:56,Q2 06:56,48,38,1610612745.0,Wood,C. Wood cutting Layup (9 PTS) (A. Brooks 4 AST),2pt made,2pt made,10,Low
+22100395,231,2pt,2,PT06M41.00S,06:41,Q2 06:41,50,38,1610612763.0,Jones,T. Jones 7' driving floating Jump Shot (7 PTS) (S. Adams 1 AST),2pt made,2pt missed,12,Low
+22100395,233,2pt,2,PT06M26.00S,06:26,Q2 06:26,50,38,1610612745.0,Wood,MISS C. Wood 22' step back Shot,2pt made,rebound,12,Low
+22100395,234,rebound,2,PT06M24.00S,06:24,Q2 06:24,50,38,1610612763.0,Jones,T. Jones REBOUND (Off:1 Def:1),2pt missed,2pt missed,12,Low
+22100395,235,2pt,2,PT06M18.00S,06:18,Q2 06:18,50,38,1610612763.0,Adams,MISS S. Adams Layup,rebound,rebound,12,Low
+22100395,236,rebound,2,PT06M12.00S,06:12,Q2 06:12,50,38,1610612745.0,Nwaba,D. Nwaba REBOUND (Off:0 Def:1),2pt missed,3pt missed,12,Low
+22100395,237,3pt,2,PT06M09.00S,06:09,Q2 06:09,50,38,1610612745.0,Christopher,MISS J. Christopher 3PT,rebound,rebound,12,Low
+22100395,238,rebound,2,PT06M07.00S,06:07,Q2 06:07,50,38,1610612745.0,Nwaba,D. Nwaba REBOUND (Off:1 Def:1),3pt missed,turnover,12,Low
+22100395,239,turnover,2,PT06M07.00S,06:07,Q2 06:07,50,38,1610612745.0,Nwaba,D. Nwaba lost ball out-of-bounds TURNOVER (1 TO),rebound,timeout,12,Low
+22100395,240,timeout,2,PT06M07.00S,06:07,Q2 06:07,50,38,1610612763.0,,MEM Timeout,turnover,substitution,12,Low
+22100395,241,substitution,2,PT06M07.00S,06:07,Q2 06:07,50,38,1610612763.0,Culver,SUB out: J. Culver,timeout,substitution,12,Low
+22100395,242,substitution,2,PT06M07.00S,06:07,Q2 06:07,50,38,1610612763.0,Konchar,SUB out: J. Konchar,substitution,substitution,12,Low
+22100395,243,substitution,2,PT06M07.00S,06:07,Q2 06:07,50,38,1610612745.0,Nwaba,SUB out: D. Nwaba,substitution,substitution,12,Low
+22100395,244,substitution,2,PT06M07.00S,06:07,Q2 06:07,50,38,1610612745.0,Christopher,SUB out: J. Christopher,substitution,substitution,12,Low
+22100395,245,substitution,2,PT06M07.00S,06:07,Q2 06:07,50,38,1610612763.0,Melton,SUB in: D. Melton,substitution,substitution,12,Low
+22100395,246,substitution,2,PT06M07.00S,06:07,Q2 06:07,50,38,1610612763.0,Brooks,SUB in: D. Brooks,substitution,substitution,12,Low
+22100395,247,substitution,2,PT06M07.00S,06:07,Q2 06:07,50,38,1610612745.0,Augustin,SUB in: D. Augustin,substitution,substitution,12,Low
+22100395,248,substitution,2,PT06M07.00S,06:07,Q2 06:07,50,38,1610612745.0,Tate,SUB in: J. Tate,substitution,2pt made,12,Low
+22100395,249,2pt,2,PT05M57.00S,05:57,Q2 05:57,52,38,1610612763.0,Brooks,D. Brooks 16' pullup Jump Shot (11 PTS) (S. Adams 2 AST),substitution,2pt missed,14,Low
+22100395,251,2pt,2,PT05M29.00S,05:29,Q2 05:29,52,38,1610612745.0,Augustin,MISS D. Augustin 6' pullup bank Shot,2pt made,rebound,14,Low
+22100395,252,rebound,2,PT05M25.00S,05:25,Q2 05:25,52,38,1610612763.0,Melton,D. Melton REBOUND (Off:0 Def:1),2pt missed,2pt made,14,Low
+22100395,253,2pt,2,PT05M15.00S,05:15,Q2 05:15,54,38,1610612763.0,Anderson,K. Anderson 10' turnaround Jump Shot (5 PTS),rebound,2pt made,16,Low
+22100395,255,2pt,2,PT04M52.00S,04:52,Q2 04:52,54,40,1610612745.0,Mathews,G. Mathews driving Layup (2 PTS) (A. Brooks 5 AST),2pt made,2pt made,14,Low
+22100395,257,2pt,2,PT04M37.00S,04:37,Q2 04:37,56,40,1610612763.0,Anderson,K. Anderson cutting finger roll Layup (7 PTS) (S. Adams 3 AST),2pt made,foul,16,Low
+22100395,259,foul,2,PT04M37.00S,04:37,Q2 04:37,56,40,1610612745.0,Mathews,G. Mathews shooting personal FOUL (2 PF) (Anderson 1 FT),2pt made,freethrow,16,Low
+22100395,263,freethrow,2,PT04M37.00S,04:37,Q2 04:37,56,40,1610612763.0,Anderson,MISS K. Anderson Free Throw 1 of 1,foul,substitution,16,Low
+22100395,261,substitution,2,PT04M37.00S,04:37,Q2 04:37,56,40,1610612745.0,Brooks,SUB out: A. Brooks,freethrow,substitution,16,Low
+22100395,262,substitution,2,PT04M37.00S,04:37,Q2 04:37,56,40,1610612745.0,Theis,SUB in: D. Theis,substitution,rebound,16,Low
+22100395,264,rebound,2,PT04M32.00S,04:32,Q2 04:32,56,40,1610612763.0,Anderson,K. Anderson REBOUND (Off:1 Def:4),substitution,2pt made,16,Low
+22100395,265,2pt,2,PT04M32.00S,04:32,Q2 04:32,58,40,1610612763.0,Anderson,K. Anderson putback Layup (9 PTS),rebound,2pt made,18,Low
+22100395,266,2pt,2,PT04M16.00S,04:16,Q2 04:16,58,42,1610612745.0,Tate,J. Tate Layup (5 PTS),2pt made,2pt missed,16,Low
+22100395,268,2pt,2,PT03M56.00S,03:56,Q2 03:56,58,42,1610612763.0,Brooks,MISS D. Brooks 7' driving floating Shot,2pt made,rebound,16,Low
+22100395,269,rebound,2,PT03M54.00S,03:54,Q2 03:54,58,42,1610612745.0,Tate,J. Tate REBOUND (Off:1 Def:1),2pt missed,foul,16,Low
+22100395,270,foul,2,PT03M48.00S,03:48,Q2 03:48,58,42,1610612763.0,Brooks,D. Brooks personal FOUL (2 PF),rebound,2pt missed,16,Low
+22100395,272,2pt,2,PT03M32.00S,03:32,Q2 03:32,58,42,1610612745.0,Tate,MISS J. Tate turnaround Hook,foul,rebound,16,Low
+22100395,273,rebound,2,PT03M29.00S,03:29,Q2 03:29,58,42,1610612763.0,Adams,S. Adams REBOUND (Off:0 Def:5),2pt missed,foul,16,Low
+22100395,274,foul,2,PT03M21.00S,03:21,Q2 03:21,58,42,1610612745.0,Wood,C. Wood defensive-3-second technical FOUL (1 Tech),rebound,freethrow,16,Low
+22100395,275,freethrow,2,PT03M21.00S,03:21,Q2 03:21,59,42,1610612763.0,Jones,T. Jones technical Free Throw 1 of 1 (8 PTS),foul,2pt made,17,Low
+22100395,276,2pt,2,PT03M11.00S,03:11,Q2 03:11,61,42,1610612763.0,Anderson,K. Anderson 7' driving floating Jump Shot (11 PTS) (T. Jones 4 AST),freethrow,3pt missed,19,Low
+22100395,278,3pt,2,PT02M49.00S,02:49,Q2 02:49,61,42,1610612745.0,Mathews,MISS G. Mathews 25' pullup bank 3PT,2pt made,rebound,19,Low
+22100395,279,rebound,2,PT02M45.00S,02:45,Q2 02:45,61,42,1610612763.0,Jones,T. Jones REBOUND (Off:1 Def:2),3pt missed,3pt missed,19,Low
+22100395,280,3pt,2,PT02M39.00S,02:39,Q2 02:39,61,42,1610612763.0,Melton,MISS D. Melton 3PT,rebound,rebound,19,Low
+22100395,281,rebound,2,PT02M37.00S,02:37,Q2 02:37,61,42,1610612763.0,Adams,S. Adams REBOUND (Off:1 Def:5),3pt missed,2pt made,19,Low
+22100395,282,2pt,2,PT02M35.00S,02:35,Q2 02:35,63,42,1610612763.0,Adams,S. Adams putback DUNK (6 PTS),rebound,3pt missed,21,Low
+22100395,283,3pt,2,PT02M12.00S,02:12,Q2 02:12,63,42,1610612745.0,Theis,MISS D. Theis 3PT,2pt made,rebound,21,Low
+22100395,284,rebound,2,PT02M09.00S,02:09,Q2 02:09,63,42,1610612763.0,Anderson,K. Anderson REBOUND (Off:1 Def:5),3pt missed,turnover,21,Low
+22100395,285,turnover,2,PT02M05.00S,02:05,Q2 02:05,63,42,1610612763.0,Melton,D. Melton traveling TURNOVER (2 TO),rebound,timeout,21,Low
+22100395,286,timeout,2,PT02M05.00S,02:05,Q2 02:05,63,42,1610612745.0,,HOU Timeout,turnover,substitution,21,Low
+22100395,287,substitution,2,PT02M05.00S,02:05,Q2 02:05,63,42,1610612763.0,Melton,SUB out: D. Melton,timeout,substitution,21,Low
+22100395,288,substitution,2,PT02M05.00S,02:05,Q2 02:05,63,42,1610612763.0,Anderson,SUB out: K. Anderson,substitution,substitution,21,Low
+22100395,289,substitution,2,PT02M05.00S,02:05,Q2 02:05,63,42,1610612745.0,Tate,SUB out: J. Tate,substitution,substitution,21,Low
+22100395,290,substitution,2,PT02M05.00S,02:05,Q2 02:05,63,42,1610612763.0,Bane,SUB in: D. Bane,substitution,substitution,21,Low
+22100395,291,substitution,2,PT02M05.00S,02:05,Q2 02:05,63,42,1610612763.0,Tillie,SUB in: K. Tillie,substitution,substitution,21,Low
+22100395,292,substitution,2,PT02M05.00S,02:05,Q2 02:05,63,42,1610612745.0,Brooks,SUB in: A. Brooks,substitution,3pt made,21,Low
+22100395,293,3pt,2,PT01M50.00S,01:50,Q2 01:50,63,45,1610612745.0,Wood,C. Wood 25' 3PT  (12 PTS) (G. Mathews 1 AST),substitution,2pt missed,18,Low
+22100395,295,2pt,2,PT01M28.00S,01:28,Q2 01:28,63,45,1610612763.0,Brooks,MISS D. Brooks 8' driving Hook,3pt made,rebound,18,Low
+22100395,296,rebound,2,PT01M26.00S,01:26,Q2 01:26,63,45,1610612763.0,Adams,S. Adams REBOUND (Off:2 Def:5),2pt missed,2pt missed,18,Low
+22100395,298,2pt,2,PT01M23.00S,01:23,Q2 01:23,63,45,1610612763.0,Brooks,MISS D. Brooks cutting Layup - blocked,rebound,block,18,Low
+22100395,299,block,2,PT01M23.00S,01:23,Q2 01:23,63,45,1610612745.0,Mathews,G. Mathews BLOCK (1 BLK),2pt missed,rebound,18,Low
+22100395,300,rebound,2,PT01M20.00S,01:20,Q2 01:20,63,45,1610612745.0,Wood,C. Wood REBOUND (Off:0 Def:2),block,3pt missed,18,Low
+22100395,301,3pt,2,PT01M18.00S,01:18,Q2 01:18,63,45,1610612745.0,Brooks,MISS A. Brooks 25' running pullup 3PT,rebound,rebound,18,Low
+22100395,302,rebound,2,PT01M15.00S,01:15,Q2 01:15,63,45,1610612745.0,Theis,D. Theis REBOUND (Off:1 Def:1),3pt missed,foul,18,Low
+22100395,303,foul,2,PT01M10.00S,01:10,Q2 01:10,63,45,1610612763.0,Brooks,D. Brooks personal FOUL (3 PF),rebound,2pt missed,18,Low
+22100395,305,2pt,2,PT00M58.80S,00:58,Q2 00:58,63,45,1610612745.0,Wood,MISS C. Wood 7' driving floating bank Shot,foul,rebound,18,Low
+22100395,306,rebound,2,PT00M55.90S,00:55,Q2 00:55,63,45,1610612745.0,Theis,D. Theis REBOUND (Off:2 Def:1),2pt missed,foul,18,Low
+22100395,308,foul,2,PT00M49.60S,00:49,Q2 00:49,63,45,1610612763.0,Tillie,K. Tillie shooting personal FOUL (1 PF) (Wood 2 FT),rebound,freethrow,18,Low
+22100395,310,freethrow,2,PT00M49.60S,00:49,Q2 00:49,63,45,1610612745.0,Wood,MISS C. Wood Free Throw 1 of 2,foul,rebound,18,Low
+22100395,311,rebound,2,PT00M49.60S,00:49,Q2 00:49,63,45,1610612745.0,,TEAM offensive REBOUND,freethrow,freethrow,18,Low
+22100395,312,freethrow,2,PT00M49.60S,00:49,Q2 00:49,63,45,1610612745.0,Wood,MISS C. Wood Free Throw 2 of 2,rebound,rebound,18,Low
+22100395,313,rebound,2,PT00M47.20S,00:47,Q2 00:47,63,45,1610612763.0,Adams,S. Adams REBOUND (Off:2 Def:6),freethrow,2pt missed,18,Low
+22100395,314,2pt,2,PT00M32.50S,00:32,Q2 00:32,63,45,1610612763.0,Jones,MISS T. Jones 8' driving floating bank Shot,rebound,rebound,18,Low
+22100395,315,rebound,2,PT00M29.00S,00:29,Q2 00:29,63,45,1610612745.0,Theis,D. Theis REBOUND (Off:2 Def:2),2pt missed,2pt made,18,Low
+22100395,316,2pt,2,PT00M19.80S,00:19,Q2 00:19,63,47,1610612745.0,Theis,D. Theis cutting finger roll Layup (4 PTS) (C. Wood 3 AST),rebound,2pt missed,16,Low
+22100395,318,2pt,2,PT00M00.00S,00:00,Q2 00:00,63,47,1610612763.0,Brooks,MISS D. Brooks 19' pullup Shot,2pt made,rebound,16,Low
+22100395,319,rebound,2,PT00M00.00S,00:00,Q2 00:00,63,47,1610612763.0,,TEAM offensive REBOUND,2pt missed,substitution,16,Low
+22100395,321,substitution,3,PT12M00.00S,12:00,Q3 12:00,63,47,1610612763.0,Tillie,SUB out: K. Tillie,rebound,substitution,16,Low
+22100395,322,substitution,3,PT12M00.00S,12:00,Q3 12:00,63,47,1610612745.0,Brooks,SUB out: A. Brooks,substitution,substitution,16,Low
+22100395,323,substitution,3,PT12M00.00S,12:00,Q3 12:00,63,47,1610612763.0,Anderson,SUB in: K. Anderson,substitution,substitution,16,Low
+22100395,324,substitution,3,PT12M00.00S,12:00,Q3 12:00,63,47,1610612745.0,Tate,SUB in: J. Tate,substitution,3pt made,16,Low
+22100395,326,3pt,3,PT11M44.00S,11:44,Q3 11:44,63,50,1610612745.0,Mathews,G. Mathews 25' 3PT pullup (5 PTS) (D. Augustin 1 AST),substitution,foul,13,Low
+22100395,328,foul,3,PT11M22.00S,11:22,Q3 11:22,63,50,1610612745.0,Tate,J. Tate shooting personal FOUL (2 PF) (Brooks 3 FT),3pt made,freethrow,13,Low
+22100395,330,freethrow,3,PT11M22.00S,11:22,Q3 11:22,64,50,1610612763.0,Brooks,D. Brooks Free Throw 1 of 3 (12 PTS),foul,freethrow,14,Low
+22100395,331,freethrow,3,PT11M22.00S,11:22,Q3 11:22,65,50,1610612763.0,Brooks,D. Brooks Free Throw 2 of 3 (13 PTS),freethrow,freethrow,15,Low
+22100395,332,freethrow,3,PT11M22.00S,11:22,Q3 11:22,66,50,1610612763.0,Brooks,D. Brooks Free Throw 3 of 3 (14 PTS),freethrow,foul,16,Low
+22100395,333,foul,3,PT11M10.00S,11:10,Q3 11:10,66,50,1610612763.0,Bane,D. Bane shooting personal FOUL (1 PF) (Mathews 2 FT),freethrow,freethrow,16,Low
+22100395,335,freethrow,3,PT11M10.00S,11:10,Q3 11:10,66,51,1610612745.0,Mathews,G. Mathews Free Throw 1 of 2 (6 PTS),foul,freethrow,15,Low
+22100395,336,freethrow,3,PT11M10.00S,11:10,Q3 11:10,66,52,1610612745.0,Mathews,G. Mathews Free Throw 2 of 2 (7 PTS),freethrow,turnover,14,Low
+22100395,337,turnover,3,PT10M55.00S,10:55,Q3 10:55,66,52,1610612763.0,Anderson,K. Anderson lost ball TURNOVER (2 TO),freethrow,steal,14,Low
+22100395,338,steal,3,PT10M55.00S,10:55,Q3 10:55,66,52,1610612745.0,Wood,C. Wood STEAL (2 STL),turnover,2pt made,14,Low
+22100395,339,2pt,3,PT10M51.00S,10:51,Q3 10:51,66,54,1610612745.0,Wood,C. Wood running finger roll Layup (14 PTS),steal,turnover,12,Low
+22100395,340,turnover,3,PT10M35.00S,10:35,Q3 10:35,66,54,1610612763.0,Adams,S. Adams bad pass TURNOVER (2 TO),2pt made,steal,12,Low
+22100395,341,steal,3,PT10M35.00S,10:35,Q3 10:35,66,54,1610612745.0,Tate,J. Tate STEAL (1 STL),turnover,3pt missed,12,Low
+22100395,342,3pt,3,PT10M18.00S,10:18,Q3 10:18,66,54,1610612745.0,Theis,MISS D. Theis 3PT,steal,rebound,12,Low
+22100395,343,rebound,3,PT10M17.00S,10:17,Q3 10:17,66,54,1610612763.0,,TEAM defensive REBOUND,3pt missed,foul,12,Low
+22100395,345,foul,3,PT10M17.00S,10:17,Q3 10:17,66,54,1610612745.0,Mathews,G. Mathews loose ball personal FOUL (3 PF),rebound,2pt missed,12,Low
+22100395,347,2pt,3,PT10M02.00S,10:02,Q3 10:02,66,54,1610612763.0,Jones,MISS T. Jones 17' driving floating Shot,foul,rebound,12,Low
+22100395,348,rebound,3,PT10M02.00S,10:02,Q3 10:02,66,54,1610612763.0,,TEAM offensive REBOUND,2pt missed,2pt made,12,Low
+22100395,350,2pt,3,PT09M51.00S,09:51,Q3 09:51,68,54,1610612763.0,Bane,D. Bane 16' pullup Jump Shot (15 PTS),rebound,2pt made,14,Low
+22100395,351,2pt,3,PT09M39.00S,09:39,Q3 09:39,68,56,1610612745.0,Theis,D. Theis cutting DUNK (6 PTS) (J. Tate 2 AST),2pt made,foul,12,Low
+22100395,353,foul,3,PT09M26.00S,09:26,Q3 09:26,68,56,1610612745.0,Mathews,G. Mathews shooting personal FOUL (4 PF) (Bane 2 FT),2pt made,freethrow,12,Low
+22100395,355,freethrow,3,PT09M26.00S,09:26,Q3 09:26,69,56,1610612763.0,Bane,D. Bane Free Throw 1 of 2 (16 PTS),foul,freethrow,13,Low
+22100395,356,freethrow,3,PT09M26.00S,09:26,Q3 09:26,70,56,1610612763.0,Bane,D. Bane Free Throw 2 of 2 (17 PTS),freethrow,3pt missed,14,Low
+22100395,357,3pt,3,PT09M05.00S,09:05,Q3 09:05,70,56,1610612745.0,Theis,MISS D. Theis 25' 3PT,freethrow,rebound,14,Low
+22100395,358,rebound,3,PT09M04.00S,09:04,Q3 09:04,70,56,1610612745.0,,TEAM offensive REBOUND,3pt missed,foul,14,Low
+22100395,359,foul,3,PT09M04.00S,09:04,Q3 09:04,70,56,1610612763.0,Anderson,K. Anderson loose ball personal FOUL (3 PF),rebound,3pt missed,14,Low
+22100395,361,3pt,3,PT08M46.00S,08:46,Q3 08:46,70,56,1610612745.0,Augustin,MISS D. Augustin 25' 3PT,foul,rebound,14,Low
+22100395,362,rebound,3,PT08M43.00S,08:43,Q3 08:43,70,56,1610612763.0,Adams,S. Adams REBOUND (Off:2 Def:7),3pt missed,3pt missed,14,Low
+22100395,363,3pt,3,PT08M32.00S,08:32,Q3 08:32,70,56,1610612763.0,Bane,MISS D. Bane 27' 3PT,rebound,rebound,14,Low
+22100395,364,rebound,3,PT08M29.00S,08:29,Q3 08:29,70,56,1610612745.0,Theis,D. Theis REBOUND (Off:2 Def:3),3pt missed,2pt missed,14,Low
+22100395,365,2pt,3,PT08M08.00S,08:08,Q3 08:08,70,56,1610612745.0,Tate,MISS J. Tate 10' pullup bank Shot,rebound,rebound,14,Low
+22100395,366,rebound,3,PT08M05.00S,08:05,Q3 08:05,70,56,1610612763.0,Anderson,K. Anderson REBOUND (Off:1 Def:6),2pt missed,2pt missed,14,Low
+22100395,367,2pt,3,PT07M52.00S,07:52,Q3 07:52,70,56,1610612763.0,Jones,MISS T. Jones driving floating bank Shot - blocked,rebound,block,14,Low
+22100395,368,block,3,PT07M52.00S,07:52,Q3 07:52,70,56,1610612745.0,Theis,D. Theis BLOCK (2 BLK),2pt missed,rebound,14,Low
+22100395,369,rebound,3,PT07M52.00S,07:52,Q3 07:52,70,56,1610612763.0,,TEAM offensive REBOUND,block,substitution,14,Low
+22100395,371,substitution,3,PT07M52.00S,07:52,Q3 07:52,70,56,1610612745.0,Tate,SUB out: J. Tate,rebound,substitution,14,Low
+22100395,372,substitution,3,PT07M52.00S,07:52,Q3 07:52,70,56,1610612745.0,Martin Jr.,SUB in: K. Martin Jr.,substitution,3pt missed,14,Low
+22100395,373,3pt,3,PT07M45.00S,07:45,Q3 07:45,70,56,1610612763.0,Anderson,MISS K. Anderson 25' pullup 3PT,substitution,rebound,14,Low
+22100395,374,rebound,3,PT07M43.00S,07:43,Q3 07:43,70,56,1610612745.0,Theis,D. Theis REBOUND (Off:2 Def:4),3pt missed,2pt missed,14,Low
+22100395,375,2pt,3,PT07M34.00S,07:34,Q3 07:34,70,56,1610612745.0,Martin Jr.,MISS K. Martin Jr. Layup - blocked,rebound,block,14,Low
+22100395,376,block,3,PT07M34.00S,07:34,Q3 07:34,70,56,1610612763.0,Anderson,K. Anderson BLOCK (1 BLK),2pt missed,rebound,14,Low
+22100395,377,rebound,3,PT07M32.00S,07:32,Q3 07:32,70,56,1610612745.0,Wood,C. Wood REBOUND (Off:1 Def:2),block,foul,14,Low
+22100395,378,foul,3,PT07M29.00S,07:29,Q3 07:29,70,56,1610612763.0,Bane,D. Bane shooting personal FOUL (2 PF) (Mathews 3 FT),rebound,freethrow,14,Low
+22100395,380,freethrow,3,PT07M29.00S,07:29,Q3 07:29,70,57,1610612745.0,Mathews,G. Mathews Free Throw 1 of 3 (8 PTS),foul,freethrow,13,Low
+22100395,381,freethrow,3,PT07M29.00S,07:29,Q3 07:29,70,58,1610612745.0,Mathews,G. Mathews Free Throw 2 of 3 (9 PTS),freethrow,timeout,12,Low
+22100395,382,timeout,3,PT07M29.00S,07:29,Q3 07:29,70,58,1610612763.0,,MEM Timeout,freethrow,freethrow,12,Low
+22100395,383,freethrow,3,PT07M29.00S,07:29,Q3 07:29,70,58,1610612745.0,Mathews,MISS G. Mathews Free Throw 3 of 3,timeout,rebound,12,Low
+22100395,384,rebound,3,PT07M25.00S,07:25,Q3 07:25,70,58,1610612763.0,Bane,D. Bane REBOUND (Off:0 Def:3),freethrow,3pt missed,12,Low
+22100395,385,3pt,3,PT07M14.00S,07:14,Q3 07:14,70,58,1610612763.0,Bane,MISS D. Bane 25' pullup 3PT,rebound,rebound,12,Low
+22100395,386,rebound,3,PT07M10.00S,07:10,Q3 07:10,70,58,1610612745.0,Wood,C. Wood REBOUND (Off:1 Def:3),3pt missed,foul,12,Low
+22100395,387,foul,3,PT06M59.00S,06:59,Q3 06:59,70,58,1610612763.0,Bane,D. Bane personal FOUL (3 PF),rebound,substitution,12,Low
+22100395,389,substitution,3,PT06M59.00S,06:59,Q3 06:59,70,58,1610612763.0,Adams,SUB out: S. Adams,foul,substitution,12,Low
+22100395,390,substitution,3,PT06M59.00S,06:59,Q3 06:59,70,58,1610612763.0,Tillman,SUB in: X. Tillman,substitution,turnover,12,Low
+22100395,391,turnover,3,PT06M46.00S,06:46,Q3 06:46,70,58,1610612745.0,Wood,C. Wood lost ball TURNOVER (1 TO),substitution,steal,12,Low
+22100395,392,steal,3,PT06M46.00S,06:46,Q3 06:46,70,58,1610612763.0,Anderson,K. Anderson STEAL (1 STL),turnover,3pt missed,12,Low
+22100395,393,3pt,3,PT06M41.00S,06:41,Q3 06:41,70,58,1610612763.0,Bane,MISS D. Bane 24' running 3PT,steal,rebound,12,Low
+22100395,394,rebound,3,PT06M36.00S,06:36,Q3 06:36,70,58,1610612745.0,Wood,C. Wood REBOUND (Off:1 Def:4),3pt missed,3pt missed,12,Low
+22100395,395,3pt,3,PT06M29.00S,06:29,Q3 06:29,70,58,1610612745.0,Mathews,MISS G. Mathews 25' 3PT,rebound,rebound,12,Low
+22100395,403,rebound,3,PT06M26.00S,06:26,Q3 06:26,70,58,1610612745.0,,TEAM offensive REBOUND,3pt missed,substitution,12,Low
+22100395,396,substitution,3,PT06M26.00S,06:26,Q3 06:26,70,58,1610612763.0,Bane,SUB out: D. Bane,rebound,substitution,12,Low
+22100395,397,substitution,3,PT06M26.00S,06:26,Q3 06:26,70,58,1610612745.0,Mathews,SUB out: G. Mathews,substitution,substitution,12,Low
+22100395,398,substitution,3,PT06M26.00S,06:26,Q3 06:26,70,58,1610612763.0,Melton,SUB in: D. Melton,substitution,substitution,12,Low
+22100395,399,substitution,3,PT06M26.00S,06:26,Q3 06:26,70,58,1610612745.0,Brooks,SUB in: A. Brooks,substitution,3pt missed,12,Low
+22100395,404,3pt,3,PT06M20.00S,06:20,Q3 06:20,70,58,1610612745.0,Augustin,MISS D. Augustin 25' 3PT,substitution,rebound,12,Low
+22100395,405,rebound,3,PT06M18.00S,06:18,Q3 06:18,70,58,1610612763.0,Jones,T. Jones REBOUND (Off:1 Def:3),3pt missed,2pt made,12,Low
+22100395,406,2pt,3,PT06M07.00S,06:07,Q3 06:07,72,58,1610612763.0,Tillman,X. Tillman DUNK (4 PTS) (D. Brooks 2 AST),rebound,2pt made,14,Low
+22100395,408,2pt,3,PT05M56.00S,05:56,Q3 05:56,72,60,1610612745.0,Martin Jr.,K. Martin Jr. driving finger roll Layup (4 PTS),2pt made,3pt missed,12,Low
+22100395,410,3pt,3,PT05M47.00S,05:47,Q3 05:47,72,60,1610612763.0,Tillman,MISS X. Tillman 26' running 3PT,2pt made,rebound,12,Low
+22100395,411,rebound,3,PT05M44.00S,05:44,Q3 05:44,72,60,1610612745.0,Wood,C. Wood REBOUND (Off:1 Def:5),3pt missed,2pt made,12,Low
+22100395,412,2pt,3,PT05M36.00S,05:36,Q3 05:36,72,62,1610612745.0,Theis,D. Theis 6' turnaround fadeaway Jump Shot (8 PTS) (D. Augustin 2 AST),rebound,3pt missed,10,Low
+22100395,414,3pt,3,PT05M15.00S,05:15,Q3 05:15,72,62,1610612763.0,Jones,MISS T. Jones 25' 3PT,2pt made,rebound,10,Low
+22100395,415,rebound,3,PT05M13.00S,05:13,Q3 05:13,72,62,1610612745.0,Brooks,A. Brooks REBOUND (Off:1 Def:3),3pt missed,foul,10,Low
+22100395,416,foul,3,PT05M06.00S,05:06,Q3 05:06,72,62,1610612763.0,Melton,D. Melton shooting personal FOUL (3 PF) (Wood 2 FT),rebound,freethrow,10,Low
+22100395,418,freethrow,3,PT05M06.00S,05:06,Q3 05:06,72,63,1610612745.0,Wood,C. Wood Free Throw 1 of 2 (15 PTS),foul,freethrow,9,Low
+22100395,423,freethrow,3,PT05M06.00S,05:06,Q3 05:06,72,63,1610612745.0,Wood,MISS C. Wood Free Throw 2 of 2,freethrow,substitution,9,Low
+22100395,419,substitution,3,PT05M06.00S,05:06,Q3 05:06,72,63,1610612763.0,Anderson,SUB out: K. Anderson,freethrow,substitution,9,Low
+22100395,420,substitution,3,PT05M06.00S,05:06,Q3 05:06,72,63,1610612745.0,Theis,SUB out: D. Theis,substitution,substitution,9,Low
+22100395,421,substitution,3,PT05M06.00S,05:06,Q3 05:06,72,63,1610612763.0,Tillie,SUB in: K. Tillie,substitution,substitution,9,Low
+22100395,422,substitution,3,PT05M06.00S,05:06,Q3 05:06,72,63,1610612745.0,Sengun,SUB in: A. Sengun,substitution,rebound,9,Low
+22100395,424,rebound,3,PT05M03.00S,05:03,Q3 05:03,72,63,1610612763.0,Tillie,K. Tillie REBOUND (Off:1 Def:2),substitution,2pt missed,9,Low
+22100395,425,2pt,3,PT04M56.00S,04:56,Q3 04:56,72,63,1610612763.0,Brooks,MISS D. Brooks pullup Shot,rebound,rebound,9,Low
+22100395,426,rebound,3,PT04M54.00S,04:54,Q3 04:54,72,63,1610612763.0,Tillman,X. Tillman REBOUND (Off:2 Def:2),2pt missed,3pt made,9,Low
+22100395,427,3pt,3,PT04M52.00S,04:52,Q3 04:52,75,63,1610612763.0,Tillie,K. Tillie 25' 3PT  (8 PTS) (X. Tillman 1 AST),rebound,3pt made,12,Low
+22100395,429,3pt,3,PT04M36.00S,04:36,Q3 04:36,75,66,1610612745.0,Brooks,A. Brooks 26' 3PT pullup (11 PTS) (A. Sengun 1 AST),3pt made,2pt made,9,Low
+22100395,431,2pt,3,PT04M15.00S,04:15,Q3 04:15,77,66,1610612763.0,Brooks,D. Brooks 8' driving floating Jump Shot (16 PTS),3pt made,foul,11,Low
+22100395,432,foul,3,PT04M15.00S,04:15,Q3 04:15,77,66,1610612745.0,Martin Jr.,K. Martin Jr. shooting personal FOUL (1 PF) (Brooks 1 FT),2pt made,freethrow,11,Low
+22100395,434,freethrow,3,PT04M15.00S,04:15,Q3 04:15,78,66,1610612763.0,Brooks,D. Brooks Free Throw 1 of 1 (17 PTS),foul,2pt made,12,Low
+22100395,435,2pt,3,PT03M59.00S,03:59,Q3 03:59,78,68,1610612745.0,Sengun,A. Sengun driving Layup (5 PTS) (A. Brooks 6 AST),freethrow,2pt made,10,Low
+22100395,437,2pt,3,PT03M41.00S,03:41,Q3 03:41,80,68,1610612763.0,Jones,T. Jones driving finger roll Layup (10 PTS) (D. Melton 1 AST),2pt made,2pt made,12,Low
+22100395,439,2pt,3,PT03M22.00S,03:22,Q3 03:22,80,70,1610612745.0,Martin Jr.,K. Martin Jr. driving Layup (6 PTS) (A. Sengun 2 AST),2pt made,foul,10,Low
+22100395,441,foul,3,PT03M22.00S,03:22,Q3 03:22,80,70,1610612763.0,Tillman,X. Tillman shooting personal FOUL (3 PF) (Martin Jr. 1 FT),2pt made,freethrow,10,Low
+22100395,447,freethrow,3,PT03M22.00S,03:22,Q3 03:22,80,70,1610612745.0,Martin Jr.,MISS K. Martin Jr. Free Throw 1 of 1,foul,substitution,10,Low
+22100395,443,substitution,3,PT03M22.00S,03:22,Q3 03:22,80,70,1610612745.0,Augustin,SUB out: D. Augustin,freethrow,substitution,10,Low
+22100395,444,substitution,3,PT03M22.00S,03:22,Q3 03:22,80,70,1610612745.0,Wood,SUB out: C. Wood,substitution,substitution,10,Low
+22100395,445,substitution,3,PT03M22.00S,03:22,Q3 03:22,80,70,1610612745.0,Tate,SUB in: J. Tate,substitution,substitution,10,Low
+22100395,446,substitution,3,PT03M22.00S,03:22,Q3 03:22,80,70,1610612745.0,Christopher,SUB in: J. Christopher,substitution,rebound,10,Low
+22100395,448,rebound,3,PT03M20.00S,03:20,Q3 03:20,80,70,1610612763.0,Tillman,X. Tillman REBOUND (Off:2 Def:3),substitution,3pt missed,10,Low
+22100395,449,3pt,3,PT03M06.00S,03:06,Q3 03:06,80,70,1610612763.0,Brooks,MISS D. Brooks 27' 3PT - blocked,rebound,block,10,Low
+22100395,450,block,3,PT03M06.00S,03:06,Q3 03:06,80,70,1610612745.0,Sengun,A. Sengun BLOCK (1 BLK),3pt missed,rebound,10,Low
+22100395,451,rebound,3,PT03M03.00S,03:03,Q3 03:03,80,70,1610612745.0,Martin Jr.,K. Martin Jr. REBOUND (Off:0 Def:2),block,foul,10,Low
+22100395,452,foul,3,PT02M57.00S,02:57,Q3 02:57,80,70,1610612763.0,Brooks,D. Brooks personal FOUL (4 PF) (Sengun 2 FT),rebound,timeout,10,Low
+22100395,454,timeout,3,PT02M57.00S,02:57,Q3 02:57,80,70,1610612745.0,,HOU Timeout,foul,freethrow,10,Low
+22100395,459,freethrow,3,PT02M57.00S,02:57,Q3 02:57,80,71,1610612745.0,Sengun,A. Sengun Free Throw 1 of 2 (6 PTS),timeout,freethrow,9,Low
+22100395,460,freethrow,3,PT02M57.00S,02:57,Q3 02:57,80,72,1610612745.0,Sengun,A. Sengun Free Throw 2 of 2 (7 PTS),freethrow,substitution,8,Low
+22100395,455,substitution,3,PT02M57.00S,02:57,Q3 02:57,80,70,1610612763.0,Jones,SUB out: T. Jones,freethrow,substitution,10,Low
+22100395,456,substitution,3,PT02M57.00S,02:57,Q3 02:57,80,70,1610612763.0,Brooks,SUB out: D. Brooks,substitution,substitution,10,Low
+22100395,457,substitution,3,PT02M57.00S,02:57,Q3 02:57,80,70,1610612763.0,Konchar,SUB in: J. Konchar,substitution,substitution,10,Low
+22100395,458,substitution,3,PT02M57.00S,02:57,Q3 02:57,80,70,1610612763.0,Bane,SUB in: D. Bane,substitution,foul,10,Low
+22100395,461,foul,3,PT02M41.00S,02:41,Q3 02:41,80,72,1610612745.0,Martin Jr.,K. Martin Jr. shooting personal FOUL (2 PF) (Tillman 2 FT),substitution,freethrow,8,Low
+22100395,463,freethrow,3,PT02M41.00S,02:41,Q3 02:41,81,72,1610612763.0,Tillman,X. Tillman Free Throw 1 of 2 (5 PTS),foul,freethrow,9,Low
+22100395,464,freethrow,3,PT02M41.00S,02:41,Q3 02:41,82,72,1610612763.0,Tillman,X. Tillman Free Throw 2 of 2 (6 PTS),freethrow,3pt made,10,Low
+22100395,465,3pt,3,PT02M22.00S,02:22,Q3 02:22,82,75,1610612745.0,Martin Jr.,K. Martin Jr. 25' 3PT  (9 PTS) (A. Sengun 3 AST),freethrow,2pt made,7,Low
+22100395,467,2pt,3,PT02M09.00S,02:09,Q3 02:09,84,75,1610612763.0,Tillman,X. Tillman driving reverse Layup (8 PTS) (D. Bane 2 AST),3pt made,3pt missed,9,Low
+22100395,469,3pt,3,PT01M47.00S,01:47,Q3 01:47,84,75,1610612745.0,Tate,MISS J. Tate 24' 3PT,2pt made,rebound,9,Low
+22100395,470,rebound,3,PT01M44.00S,01:44,Q3 01:44,84,75,1610612745.0,Brooks,A. Brooks REBOUND (Off:2 Def:3),3pt missed,3pt missed,9,Low
+22100395,471,3pt,3,PT01M41.00S,01:41,Q3 01:41,84,75,1610612745.0,Christopher,MISS J. Christopher 24' 3PT,rebound,rebound,9,Low
+22100395,472,rebound,3,PT01M38.00S,01:38,Q3 01:38,84,75,1610612745.0,,TEAM offensive REBOUND,3pt missed,foul,9,Low
+22100395,473,foul,3,PT01M38.00S,01:38,Q3 01:38,84,75,1610612763.0,Bane,D. Bane loose ball personal FOUL (4 PF) (Sengun 2 FT),rebound,freethrow,9,Low
+22100395,475,freethrow,3,PT01M38.00S,01:38,Q3 01:38,84,76,1610612745.0,Sengun,A. Sengun Free Throw 1 of 2 (8 PTS),foul,freethrow,8,Low
+22100395,476,freethrow,3,PT01M38.00S,01:38,Q3 01:38,84,77,1610612745.0,Sengun,A. Sengun Free Throw 2 of 2 (9 PTS),freethrow,2pt missed,7,Low
+22100395,478,2pt,3,PT01M15.00S,01:15,Q3 01:15,84,77,1610612763.0,Bane,MISS D. Bane driving floating bank Shot,freethrow,rebound,7,Low
+22100395,479,rebound,3,PT01M12.00S,01:12,Q3 01:12,84,77,1610612745.0,Sengun,A. Sengun REBOUND (Off:1 Def:3),2pt missed,turnover,7,Low
+22100395,480,turnover,3,PT01M07.00S,01:07,Q3 01:07,84,77,1610612745.0,Sengun,A. Sengun lost ball TURNOVER (1 TO),rebound,steal,7,Low
+22100395,481,steal,3,PT01M07.00S,01:07,Q3 01:07,84,77,1610612763.0,Melton,D. Melton STEAL (1 STL),turnover,3pt missed,7,Low
+22100395,482,3pt,3,PT00M58.60S,00:58,Q3 00:58,84,77,1610612763.0,Konchar,MISS J. Konchar 3PT,steal,rebound,7,Low
+22100395,483,rebound,3,PT00M55.10S,00:55,Q3 00:55,84,77,1610612745.0,Martin Jr.,K. Martin Jr. REBOUND (Off:0 Def:3),3pt missed,2pt missed,7,Low
+22100395,484,2pt,3,PT00M35.20S,00:35,Q3 00:35,84,77,1610612745.0,Martin Jr.,MISS K. Martin Jr. 6' driving floating Shot,rebound,rebound,7,Low
+22100395,485,rebound,3,PT00M31.90S,00:31,Q3 00:31,84,77,1610612763.0,Konchar,J. Konchar REBOUND (Off:0 Def:2),2pt missed,2pt made,7,Low
+22100395,486,2pt,3,PT00M12.30S,00:12,Q3 00:12,86,77,1610612763.0,Bane,D. Bane 7' driving floating Jump Shot (19 PTS),rebound,2pt missed,9,Low
+22100395,487,2pt,3,PT00M00.50S,00:00,Q3 00:00,86,77,1610612745.0,Brooks,MISS A. Brooks 14' driving floating Shot,2pt made,rebound,9,Low
+22100395,488,rebound,3,PT00M00.50S,00:00,Q3 00:00,86,77,1610612763.0,Melton,D. Melton REBOUND (Off:0 Def:2),2pt missed,substitution,9,Low
+22100395,490,substitution,4,PT12M00.00S,12:00,Q4 12:00,86,77,1610612763.0,Melton,SUB out: D. Melton,rebound,substitution,9,Low
+22100395,491,substitution,4,PT12M00.00S,12:00,Q4 12:00,86,77,1610612763.0,Tillman,SUB out: X. Tillman,substitution,substitution,9,Low
+22100395,492,substitution,4,PT12M00.00S,12:00,Q4 12:00,86,77,1610612763.0,Tillie,SUB out: K. Tillie,substitution,substitution,9,Low
+22100395,493,substitution,4,PT12M00.00S,12:00,Q4 12:00,86,77,1610612745.0,Martin Jr.,SUB out: K. Martin Jr.,substitution,substitution,9,Low
+22100395,494,substitution,4,PT12M00.00S,12:00,Q4 12:00,86,77,1610612763.0,Aldama,SUB in: S. Aldama,substitution,substitution,9,Low
+22100395,495,substitution,4,PT12M00.00S,12:00,Q4 12:00,86,77,1610612763.0,Anderson,SUB in: K. Anderson,substitution,substitution,9,Low
+22100395,496,substitution,4,PT12M00.00S,12:00,Q4 12:00,86,77,1610612763.0,Culver,SUB in: J. Culver,substitution,substitution,9,Low
+22100395,497,substitution,4,PT12M00.00S,12:00,Q4 12:00,86,77,1610612745.0,Wood,SUB in: C. Wood,substitution,2pt missed,9,Low
+22100395,499,2pt,4,PT11M49.00S,11:49,Q4 11:49,86,77,1610612763.0,Bane,MISS D. Bane driving finger roll Layup - blocked,substitution,block,9,Low
+22100395,500,block,4,PT11M49.00S,11:49,Q4 11:49,86,77,1610612745.0,Sengun,A. Sengun BLOCK (2 BLK),2pt missed,rebound,9,Low
+22100395,501,rebound,4,PT11M49.00S,11:49,Q4 11:49,86,77,1610612763.0,,TEAM offensive REBOUND,block,turnover,9,Low
+22100395,503,turnover,4,PT11M41.00S,11:41,Q4 11:41,86,77,1610612763.0,Anderson,K. Anderson lost ball TURNOVER (3 TO),rebound,steal,9,Low
+22100395,504,steal,4,PT11M41.00S,11:41,Q4 11:41,86,77,1610612745.0,Tate,J. Tate STEAL (2 STL),turnover,turnover,9,Low
+22100395,505,turnover,4,PT11M38.00S,11:38,Q4 11:38,86,77,1610612745.0,Tate,J. Tate lost ball TURNOVER (2 TO),steal,steal,9,Low
+22100395,506,steal,4,PT11M38.00S,11:38,Q4 11:38,86,77,1610612763.0,Bane,D. Bane STEAL (1 STL),turnover,2pt missed,9,Low
+22100395,508,2pt,4,PT11M29.00S,11:29,Q4 11:29,86,77,1610612763.0,Bane,MISS D. Bane driving floating bank Shot,steal,rebound,9,Low
+22100395,509,rebound,4,PT11M25.00S,11:25,Q4 11:25,86,77,1610612763.0,Aldama,S. Aldama REBOUND (Off:1 Def:0),2pt missed,2pt made,9,Low
+22100395,510,2pt,4,PT11M25.00S,11:25,Q4 11:25,88,77,1610612763.0,Aldama,S. Aldama tip DUNK (2 PTS),rebound,3pt made,11,Low
+22100395,511,3pt,4,PT11M10.00S,11:10,Q4 11:10,88,80,1610612745.0,Brooks,A. Brooks 25' 3PT  (14 PTS) (J. Christopher 2 AST),2pt made,turnover,8,Medium
+22100395,513,turnover,4,PT10M56.00S,10:56,Q4 10:56,88,80,1610612763.0,Culver,J. Culver lost ball out-of-bounds TURNOVER (1 TO),3pt made,substitution,8,Medium
+22100395,514,substitution,4,PT10M56.00S,10:56,Q4 10:56,88,80,1610612745.0,Tate,SUB out: J. Tate,turnover,substitution,8,Medium
+22100395,515,substitution,4,PT10M56.00S,10:56,Q4 10:56,88,80,1610612745.0,Martin Jr.,SUB in: K. Martin Jr.,substitution,turnover,8,Medium
+22100395,516,turnover,4,PT10M42.00S,10:42,Q4 10:42,88,80,1610612745.0,Christopher,J. Christopher bad pass TURNOVER (1 TO),substitution,steal,8,Medium
+22100395,517,steal,4,PT10M42.00S,10:42,Q4 10:42,88,80,1610612763.0,Culver,J. Culver STEAL (1 STL),turnover,2pt made,8,Medium
+22100395,518,2pt,4,PT10M37.00S,10:37,Q4 10:37,90,80,1610612763.0,Culver,J. Culver running finger roll Layup (4 PTS),steal,foul,10,Low
+22100395,519,foul,4,PT10M25.00S,10:25,Q4 10:25,90,80,1610612763.0,Aldama,S. Aldama personal FOUL (1 PF),2pt made,turnover,10,Low
+22100395,521,turnover,4,PT10M18.00S,10:18,Q4 10:18,90,80,1610612745.0,Wood,C. Wood bad pass TURNOVER (2 TO),foul,steal,10,Low
+22100395,522,steal,4,PT10M18.00S,10:18,Q4 10:18,90,80,1610612763.0,Anderson,K. Anderson STEAL (2 STL),turnover,2pt missed,10,Low
+22100395,523,2pt,4,PT10M12.00S,10:12,Q4 10:12,90,80,1610612763.0,Culver,MISS J. Culver 6' running Layup - blocked,steal,block,10,Low
+22100395,524,block,4,PT10M12.00S,10:12,Q4 10:12,90,80,1610612745.0,Sengun,A. Sengun BLOCK (3 BLK),2pt missed,rebound,10,Low
+22100395,525,rebound,4,PT10M09.00S,10:09,Q4 10:09,90,80,1610612745.0,Wood,C. Wood REBOUND (Off:1 Def:6),block,2pt made,10,Low
+22100395,526,2pt,4,PT10M04.00S,10:04,Q4 10:04,90,82,1610612745.0,Christopher,J. Christopher driving reverse Layup (10 PTS) (A. Sengun 4 AST),rebound,foul,8,Medium
+22100395,528,foul,4,PT09M54.00S,09:54,Q4 09:54,90,82,1610612745.0,Sengun,A. Sengun shooting personal FOUL (4 PF) (Anderson 2 FT),2pt made,freethrow,8,Medium
+22100395,530,freethrow,4,PT09M54.00S,09:54,Q4 09:54,90,82,1610612763.0,Anderson,MISS K. Anderson Free Throw 1 of 2,foul,rebound,8,Medium
+22100395,531,rebound,4,PT09M54.00S,09:54,Q4 09:54,90,82,1610612763.0,,TEAM offensive REBOUND,freethrow,freethrow,8,Medium
+22100395,532,freethrow,4,PT09M54.00S,09:54,Q4 09:54,90,82,1610612763.0,Anderson,MISS K. Anderson Free Throw 2 of 2,rebound,rebound,8,Medium
+22100395,533,rebound,4,PT09M51.00S,09:51,Q4 09:51,90,82,1610612745.0,Wood,C. Wood REBOUND (Off:1 Def:7),freethrow,foul,8,Medium
+22100395,534,foul,4,PT09M32.00S,09:32,Q4 09:32,90,82,1610612745.0,Christopher,J. Christopher charge offensive FOUL (1 PF),rebound,turnover,8,Medium
+22100395,536,turnover,4,PT09M32.00S,09:32,Q4 09:32,90,82,1610612745.0,Christopher,J. Christopher offensive foul TURNOVER (2 TO),foul,foul,8,Medium
+22100395,538,foul,4,PT09M14.00S,09:14,Q4 09:14,90,82,1610612745.0,Christopher,J. Christopher shooting personal FOUL (2 PF) (Anderson 3 FT),turnover,freethrow,8,Medium
+22100395,540,freethrow,4,PT09M14.00S,09:14,Q4 09:14,91,82,1610612763.0,Anderson,K. Anderson Free Throw 1 of 3 (12 PTS),foul,freethrow,9,Low
+22100395,541,freethrow,4,PT09M14.00S,09:14,Q4 09:14,91,82,1610612763.0,Anderson,MISS K. Anderson Free Throw 2 of 3,freethrow,rebound,9,Low
+22100395,542,rebound,4,PT09M14.00S,09:14,Q4 09:14,91,82,1610612763.0,,TEAM offensive REBOUND,freethrow,freethrow,9,Low
+22100395,543,freethrow,4,PT09M14.00S,09:14,Q4 09:14,92,82,1610612763.0,Anderson,K. Anderson Free Throw 3 of 3 (13 PTS),rebound,2pt made,10,Low
+22100395,544,2pt,4,PT09M00.00S,09:00,Q4 09:00,92,84,1610612745.0,Sengun,A. Sengun driving Layup (11 PTS),freethrow,2pt missed,8,Medium
+22100395,545,2pt,4,PT08M43.00S,08:43,Q4 08:43,92,84,1610612763.0,Bane,MISS D. Bane 22' step back Shot,2pt made,rebound,8,Medium
+22100395,546,rebound,4,PT08M38.00S,08:38,Q4 08:38,92,84,1610612745.0,Christopher,J. Christopher REBOUND (Off:0 Def:1),2pt missed,substitution,8,Medium
+22100395,548,substitution,4,PT08M36.00S,08:36,Q4 08:36,92,84,1610612763.0,Konchar,SUB out: J. Konchar,rebound,substitution,8,Medium
+22100395,549,substitution,4,PT08M36.00S,08:36,Q4 08:36,92,84,1610612763.0,Brooks,SUB in: D. Brooks,substitution,2pt made,8,Medium
+22100395,550,2pt,4,PT08M28.00S,08:28,Q4 08:28,92,86,1610612745.0,Wood,C. Wood Layup (17 PTS) (A. Sengun 5 AST),substitution,timeout,6,Medium
+22100395,552,timeout,4,PT08M27.00S,08:27,Q4 08:27,92,86,1610612763.0,,MEM Timeout,2pt made,substitution,6,Medium
+22100395,553,substitution,4,PT08M27.00S,08:27,Q4 08:27,92,86,1610612763.0,Aldama,SUB out: S. Aldama,timeout,substitution,6,Medium
+22100395,554,substitution,4,PT08M27.00S,08:27,Q4 08:27,92,86,1610612763.0,Tillman,SUB in: X. Tillman,substitution,2pt made,6,Medium
+22100395,555,2pt,4,PT08M08.00S,08:08,Q4 08:08,94,86,1610612763.0,Brooks,D. Brooks driving floating bank Jump Shot (19 PTS),substitution,foul,8,Medium
+22100395,556,foul,4,PT07M48.00S,07:48,Q4 07:48,94,86,1610612745.0,Wood,C. Wood offensive FOUL (1 PF),2pt made,turnover,8,Medium
+22100395,558,turnover,4,PT07M48.00S,07:48,Q4 07:48,94,86,1610612745.0,Wood,C. Wood offensive foul TURNOVER (3 TO),foul,substitution,8,Medium
+22100395,559,substitution,4,PT07M48.00S,07:48,Q4 07:48,94,86,1610612763.0,Bane,SUB out: D. Bane,turnover,substitution,8,Medium
+22100395,560,substitution,4,PT07M48.00S,07:48,Q4 07:48,94,86,1610612763.0,Culver,SUB out: J. Culver,substitution,substitution,8,Medium
+22100395,561,substitution,4,PT07M48.00S,07:48,Q4 07:48,94,86,1610612763.0,Melton,SUB in: D. Melton,substitution,substitution,8,Medium
+22100395,562,substitution,4,PT07M48.00S,07:48,Q4 07:48,94,86,1610612763.0,Jones,SUB in: T. Jones,substitution,3pt missed,8,Medium
+22100395,563,3pt,4,PT07M37.00S,07:37,Q4 07:37,94,86,1610612763.0,Melton,MISS D. Melton 3PT,substitution,rebound,8,Medium
+22100395,564,rebound,4,PT07M33.00S,07:33,Q4 07:33,94,86,1610612745.0,Sengun,A. Sengun REBOUND (Off:1 Def:4),3pt missed,3pt missed,8,Medium
+22100395,565,3pt,4,PT07M21.00S,07:21,Q4 07:21,94,86,1610612745.0,Brooks,MISS A. Brooks 24' pullup 3PT,rebound,rebound,8,Medium
+22100395,566,rebound,4,PT07M19.00S,07:19,Q4 07:19,94,86,1610612745.0,Sengun,A. Sengun REBOUND (Off:2 Def:4),3pt missed,2pt made,8,Medium
+22100395,567,2pt,4,PT07M17.00S,07:17,Q4 07:17,94,88,1610612745.0,Sengun,A. Sengun putback Layup (13 PTS),rebound,2pt missed,6,Medium
+22100395,568,2pt,4,PT07M02.00S,07:02,Q4 07:02,94,88,1610612763.0,Brooks,MISS D. Brooks 8' driving floating bank Shot,2pt made,rebound,6,Medium
+22100395,569,rebound,4,PT07M01.00S,07:01,Q4 07:01,94,88,1610612763.0,,TEAM offensive REBOUND,2pt missed,foul,6,Medium
+22100395,570,foul,4,PT07M01.00S,07:01,Q4 07:01,94,88,1610612745.0,Wood,C. Wood loose ball personal FOUL (2 PF),rebound,2pt made,6,Medium
+22100395,572,2pt,4,PT06M53.00S,06:53,Q4 06:53,96,88,1610612763.0,Brooks,D. Brooks driving finger roll Layup (21 PTS) (T. Jones 5 AST),foul,foul,8,Medium
+22100395,574,foul,4,PT06M31.00S,06:31,Q4 06:31,96,88,1610612763.0,Tillman,X. Tillman shooting personal FOUL (4 PF) (Wood 2 FT),2pt made,freethrow,8,Medium
+22100395,576,freethrow,4,PT06M31.00S,06:31,Q4 06:31,96,89,1610612745.0,Wood,C. Wood Free Throw 1 of 2 (18 PTS),foul,freethrow,7,Medium
+22100395,581,freethrow,4,PT06M31.00S,06:31,Q4 06:31,96,89,1610612745.0,Wood,MISS C. Wood Free Throw 2 of 2,freethrow,rebound,7,Medium
+22100395,585,rebound,4,PT06M31.00S,06:31,Q4 06:31,96,89,1610612745.0,,TEAM offensive REBOUND,freethrow,substitution,7,Medium
+22100395,577,substitution,4,PT06M31.00S,06:31,Q4 06:31,96,89,1610612763.0,Anderson,SUB out: K. Anderson,rebound,substitution,7,Medium
+22100395,578,substitution,4,PT06M31.00S,06:31,Q4 06:31,96,89,1610612745.0,Martin Jr.,SUB out: K. Martin Jr.,substitution,substitution,7,Medium
+22100395,579,substitution,4,PT06M31.00S,06:31,Q4 06:31,96,89,1610612763.0,Tillie,SUB in: K. Tillie,substitution,substitution,7,Medium
+22100395,580,substitution,4,PT06M31.00S,06:31,Q4 06:31,96,89,1610612745.0,Mathews,SUB in: G. Mathews,substitution,3pt missed,7,Medium
+22100395,586,3pt,4,PT06M14.00S,06:14,Q4 06:14,96,89,1610612745.0,Mathews,MISS G. Mathews pullup 3PT,substitution,rebound,7,Medium
+22100395,587,rebound,4,PT06M10.00S,06:10,Q4 06:10,96,89,1610612745.0,Christopher,J. Christopher REBOUND (Off:1 Def:1),3pt missed,2pt made,7,Medium
+22100395,588,2pt,4,PT06M10.00S,06:10,Q4 06:10,96,91,1610612745.0,Christopher,J. Christopher tip DUNK (12 PTS),rebound,3pt made,5,High
+22100395,589,3pt,4,PT06M05.00S,06:05,Q4 06:05,99,91,1610612763.0,Tillie,K. Tillie 3PT  (11 PTS) (T. Jones 6 AST),2pt made,turnover,8,Medium
+22100395,591,turnover,4,PT05M50.00S,05:50,Q4 05:50,99,91,1610612745.0,Sengun,A. Sengun bad pass out-of-bounds TURNOVER (2 TO),3pt made,turnover,8,Medium
+22100395,592,turnover,4,PT05M34.00S,05:34,Q4 05:34,99,91,1610612763.0,Brooks,D. Brooks lost ball TURNOVER (1 TO),turnover,steal,8,Medium
+22100395,593,steal,4,PT05M34.00S,05:34,Q4 05:34,99,91,1610612745.0,Sengun,A. Sengun STEAL (1 STL),turnover,2pt made,8,Medium
+22100395,594,2pt,4,PT05M25.00S,05:25,Q4 05:25,99,93,1610612745.0,Sengun,A. Sengun cutting finger roll Layup (15 PTS) (G. Mathews 2 AST),steal,2pt made,6,High
+22100395,596,2pt,4,PT05M18.00S,05:18,Q4 05:18,101,93,1610612763.0,Melton,D. Melton 8' pullup Jump Shot (4 PTS),2pt made,timeout,8,Medium
+22100395,597,timeout,4,PT05M07.00S,05:07,Q4 05:07,101,93,1610612745.0,,HOU Timeout,2pt made,2pt made,8,Medium
+22100395,598,2pt,4,PT04M58.00S,04:58,Q4 04:58,101,95,1610612745.0,Wood,C. Wood driving floating bank Jump Shot (20 PTS) (A. Sengun 6 AST),timeout,foul,6,High
+22100395,600,foul,4,PT04M44.00S,04:44,Q4 04:44,101,95,1610612745.0,Brooks,A. Brooks shooting personal FOUL (1 PF) (Tillman 2 FT),2pt made,freethrow,6,High
+22100395,602,freethrow,4,PT04M44.00S,04:44,Q4 04:44,101,95,1610612763.0,Tillman,MISS X. Tillman Free Throw 1 of 2,foul,rebound,6,High
+22100395,603,rebound,4,PT04M44.00S,04:44,Q4 04:44,101,95,1610612763.0,,TEAM offensive REBOUND,freethrow,freethrow,6,High
+22100395,604,freethrow,4,PT04M44.00S,04:44,Q4 04:44,102,95,1610612763.0,Tillman,X. Tillman Free Throw 2 of 2 (9 PTS),rebound,3pt missed,7,High
+22100395,605,3pt,4,PT04M25.00S,04:25,Q4 04:25,102,95,1610612745.0,Brooks,MISS A. Brooks 24' step back 3PT,freethrow,rebound,7,High
+22100395,606,rebound,4,PT04M22.00S,04:22,Q4 04:22,102,95,1610612745.0,,TEAM offensive REBOUND,3pt missed,foul,7,High
+22100395,607,foul,4,PT04M22.00S,04:22,Q4 04:22,102,95,1610612763.0,Tillman,X. Tillman loose ball personal FOUL (5 PF),rebound,turnover,7,High
+22100395,609,turnover,4,PT04M16.00S,04:16,Q4 04:16,102,95,1610612745.0,Sengun,A. Sengun lost ball TURNOVER (3 TO),foul,steal,7,High
+22100395,610,steal,4,PT04M16.00S,04:16,Q4 04:16,102,95,1610612763.0,Tillie,K. Tillie STEAL (1 STL),turnover,3pt made,7,High
+22100395,611,3pt,4,PT04M11.00S,04:11,Q4 04:11,105,95,1610612763.0,Jones,T. Jones 25' 3PT  (13 PTS) (K. Tillie 2 AST),steal,timeout,10,Medium
+22100395,613,timeout,4,PT04M09.00S,04:09,Q4 04:09,105,95,1610612745.0,,HOU Timeout,3pt made,substitution,10,Medium
+22100395,614,substitution,4,PT04M09.00S,04:09,Q4 04:09,105,95,1610612763.0,Melton,SUB out: D. Melton,timeout,substitution,10,Medium
+22100395,615,substitution,4,PT04M09.00S,04:09,Q4 04:09,105,95,1610612745.0,Christopher,SUB out: J. Christopher,substitution,substitution,10,Medium
+22100395,616,substitution,4,PT04M09.00S,04:09,Q4 04:09,105,95,1610612745.0,Sengun,SUB out: A. Sengun,substitution,substitution,10,Medium
+22100395,617,substitution,4,PT04M09.00S,04:09,Q4 04:09,105,95,1610612763.0,Bane,SUB in: D. Bane,substitution,substitution,10,Medium
+22100395,618,substitution,4,PT04M09.00S,04:09,Q4 04:09,105,95,1610612745.0,Tate,SUB in: J. Tate,substitution,substitution,10,Medium
+22100395,619,substitution,4,PT04M09.00S,04:09,Q4 04:09,105,95,1610612745.0,Augustin,SUB in: D. Augustin,substitution,foul,10,Medium
+22100395,620,foul,4,PT03M52.00S,03:52,Q4 03:52,105,95,1610612763.0,Tillie,K. Tillie shooting personal FOUL (2 PF) (Brooks 2 FT),substitution,timeout,10,Medium
+22100395,622,timeout,4,PT03M52.00S,03:52,Q4 03:52,105,95,1610612763.0,,MEM Timeout,foul,freethrow,10,Medium
+22100395,624,freethrow,4,PT03M52.00S,03:52,Q4 03:52,105,96,1610612745.0,Brooks,A. Brooks Free Throw 1 of 2 (15 PTS),timeout,freethrow,9,Medium
+22100395,625,freethrow,4,PT03M52.00S,03:52,Q4 03:52,105,97,1610612745.0,Brooks,A. Brooks Free Throw 2 of 2 (16 PTS),freethrow,3pt missed,8,High
+22100395,626,3pt,4,PT03M39.00S,03:39,Q4 03:39,105,97,1610612763.0,Bane,MISS D. Bane 25' 3PT,freethrow,rebound,8,High
+22100395,627,rebound,4,PT03M38.00S,03:38,Q4 03:38,105,97,1610612763.0,,TEAM offensive REBOUND,3pt missed,foul,8,High
+22100395,628,foul,4,PT03M38.00S,03:38,Q4 03:38,105,97,1610612745.0,Wood,C. Wood loose ball personal FOUL (3 PF) (Tillie 2 FT),rebound,freethrow,8,High
+22100395,630,freethrow,4,PT03M38.00S,03:38,Q4 03:38,106,97,1610612763.0,Tillie,K. Tillie Free Throw 1 of 2 (12 PTS),foul,freethrow,9,Medium
+22100395,631,freethrow,4,PT03M38.00S,03:38,Q4 03:38,106,97,1610612763.0,Tillie,MISS K. Tillie Free Throw 2 of 2,freethrow,rebound,9,Medium
+22100395,632,rebound,4,PT03M36.00S,03:36,Q4 03:36,106,97,1610612745.0,Mathews,G. Mathews REBOUND (Off:0 Def:1),freethrow,2pt missed,9,Medium
+22100395,633,2pt,4,PT03M19.00S,03:19,Q4 03:19,106,97,1610612745.0,Wood,MISS C. Wood 12' driving floating Shot,rebound,rebound,9,Medium
+22100395,634,rebound,4,PT03M15.00S,03:15,Q4 03:15,106,97,1610612745.0,Tate,J. Tate REBOUND (Off:2 Def:1),2pt missed,2pt made,9,Medium
+22100395,635,2pt,4,PT03M14.00S,03:14,Q4 03:14,106,99,1610612745.0,Tate,J. Tate putback Layup (7 PTS),rebound,foul,7,High
+22100395,636,foul,4,PT02M52.00S,02:52,Q4 02:52,106,99,1610612745.0,Tate,J. Tate shooting personal FOUL (3 PF) (Brooks 2 FT),2pt made,freethrow,7,High
+22100395,638,freethrow,4,PT02M52.00S,02:52,Q4 02:52,107,99,1610612763.0,Brooks,D. Brooks Free Throw 1 of 2 (22 PTS),foul,freethrow,8,High
+22100395,639,freethrow,4,PT02M52.00S,02:52,Q4 02:52,108,99,1610612763.0,Brooks,D. Brooks Free Throw 2 of 2 (23 PTS),freethrow,turnover,9,Medium
+22100395,640,turnover,4,PT02M39.00S,02:39,Q4 02:39,108,99,1610612745.0,Brooks,A. Brooks traveling TURNOVER (1 TO),freethrow,substitution,9,Medium
+22100395,641,substitution,4,PT02M39.00S,02:39,Q4 02:39,108,99,1610612763.0,Tillie,SUB out: K. Tillie,turnover,substitution,9,Medium
+22100395,642,substitution,4,PT02M39.00S,02:39,Q4 02:39,108,99,1610612763.0,Anderson,SUB in: K. Anderson,substitution,2pt missed,9,Medium
+22100395,644,2pt,4,PT02M19.00S,02:19,Q4 02:19,108,99,1610612763.0,Jones,MISS T. Jones driving floating Shot,substitution,rebound,9,Medium
+22100395,645,rebound,4,PT02M15.00S,02:15,Q4 02:15,108,99,1610612763.0,Tillman,X. Tillman REBOUND (Off:3 Def:3),2pt missed,2pt missed,9,Medium
+22100395,646,2pt,4,PT02M06.00S,02:06,Q4 02:06,108,99,1610612763.0,Jones,MISS T. Jones 14' driving floating Shot,rebound,rebound,9,Medium
+22100395,647,rebound,4,PT02M04.00S,02:04,Q4 02:04,108,99,1610612745.0,Brooks,A. Brooks REBOUND (Off:2 Def:4),2pt missed,3pt made,9,Medium
+22100395,648,3pt,4,PT01M56.00S,01:56,Q4 01:56,108,102,1610612745.0,Mathews,G. Mathews 24' 3PT bank (12 PTS) (J. Tate 3 AST),rebound,2pt missed,6,High
+22100395,651,2pt,4,PT01M33.00S,01:33,Q4 01:33,108,102,1610612763.0,Brooks,MISS D. Brooks driving Layup,3pt made,rebound,6,High
+22100395,653,rebound,4,PT01M33.00S,01:33,Q4 01:33,108,102,1610612745.0,,TEAM defensive REBOUND,2pt missed,timeout,6,High
+22100395,655,timeout,4,PT01M33.00S,01:33,Q4 01:33,108,102,1610612745.0,,HOU Timeout,rebound,turnover,6,High
+22100395,657,turnover,4,PT01M13.00S,01:13,Q4 01:13,108,102,1610612745.0,Augustin,D. Augustin bad pass TURNOVER (3 TO),timeout,steal,6,High
+22100395,658,steal,4,PT01M13.00S,01:13,Q4 01:13,108,102,1610612763.0,Anderson,K. Anderson STEAL (3 STL),turnover,foul,6,High
+22100395,659,foul,4,PT01M11.00S,01:11,Q4 01:11,108,102,1610612745.0,Tate,J. Tate take personal FOUL (4 PF) (Anderson 2 FT),steal,freethrow,6,High
+22100395,661,freethrow,4,PT01M11.00S,01:11,Q4 01:11,108,102,1610612763.0,Anderson,MISS K. Anderson Free Throw 1 of 2,foul,rebound,6,High
+22100395,662,rebound,4,PT01M11.00S,01:11,Q4 01:11,108,102,1610612763.0,,TEAM offensive REBOUND,freethrow,freethrow,6,High
+22100395,663,freethrow,4,PT01M11.00S,01:11,Q4 01:11,109,102,1610612763.0,Anderson,K. Anderson Free Throw 2 of 2 (14 PTS),rebound,3pt missed,7,High
+22100395,664,3pt,4,PT01M02.00S,01:02,Q4 01:02,109,102,1610612745.0,Wood,MISS C. Wood 24' 3PT,freethrow,rebound,7,High
+22100395,665,rebound,4,PT00M59.50S,00:59,Q4 00:59,109,102,1610612763.0,Bane,D. Bane REBOUND (Off:0 Def:4),3pt missed,foul,7,High
+22100395,666,foul,4,PT00M50.10S,00:50,Q4 00:50,109,102,1610612745.0,Mathews,G. Mathews take personal FOUL (5 PF) (Anderson 2 FT),rebound,freethrow,7,High
+22100395,668,freethrow,4,PT00M50.10S,00:50,Q4 00:50,110,102,1610612763.0,Anderson,K. Anderson Free Throw 1 of 2 (15 PTS),foul,freethrow,8,High
+22100395,669,freethrow,4,PT00M50.10S,00:50,Q4 00:50,110,102,1610612763.0,Anderson,MISS K. Anderson Free Throw 2 of 2,freethrow,rebound,8,High
+22100395,670,rebound,4,PT00M49.40S,00:49,Q4 00:49,110,102,1610612745.0,Wood,C. Wood REBOUND (Off:1 Def:8),freethrow,timeout,8,High
+22100395,671,timeout,4,PT00M49.40S,00:49,Q4 00:49,110,102,1610612745.0,,HOU Timeout,rebound,2pt missed,8,High
+22100395,672,2pt,4,PT00M40.10S,00:40,Q4 00:40,110,102,1610612745.0,Mathews,MISS G. Mathews driving floating bank Shot,timeout,rebound,8,High
+22100395,673,rebound,4,PT00M38.70S,00:38,Q4 00:38,110,102,1610612745.0,Wood,C. Wood REBOUND (Off:2 Def:8),2pt missed,2pt made,8,High
+22100395,674,2pt,4,PT00M38.70S,00:38,Q4 00:38,110,104,1610612745.0,Wood,C. Wood putback Layup (22 PTS),rebound,foul,6,High
+22100395,675,foul,4,PT00M31.80S,00:31,Q4 00:31,110,104,1610612745.0,Wood,C. Wood clear-path personal FOUL (4 PF) (Brooks 2 FT),2pt made,freethrow,6,High
+22100395,678,freethrow,4,PT00M31.80S,00:31,Q4 00:31,111,104,1610612763.0,Brooks,D. Brooks clear-path Free Throw 1 of 2 (24 PTS),foul,freethrow,7,High
+22100395,679,freethrow,4,PT00M31.80S,00:31,Q4 00:31,112,104,1610612763.0,Brooks,D. Brooks clear-path Free Throw 2 of 2 (25 PTS),freethrow,foul,8,High
+22100395,680,foul,4,PT00M26.80S,00:26,Q4 00:26,112,104,1610612745.0,Wood,C. Wood take personal FOUL (5 PF) (Anderson 2 FT),freethrow,freethrow,8,High
+22100395,682,freethrow,4,PT00M26.80S,00:26,Q4 00:26,113,104,1610612763.0,Anderson,K. Anderson Free Throw 1 of 2 (16 PTS),foul,freethrow,9,Medium
+22100395,683,freethrow,4,PT00M26.80S,00:26,Q4 00:26,113,104,1610612763.0,Anderson,MISS K. Anderson Free Throw 2 of 2,freethrow,rebound,9,Medium
+22100395,684,rebound,4,PT00M24.90S,00:24,Q4 00:24,113,104,1610612745.0,Wood,C. Wood REBOUND (Off:2 Def:9),freethrow,2pt made,9,Medium
+22100395,685,2pt,4,PT00M09.40S,00:09,Q4 00:09,113,106,1610612745.0,Brooks,A. Brooks driving finger roll Layup (18 PTS),rebound,,7,High

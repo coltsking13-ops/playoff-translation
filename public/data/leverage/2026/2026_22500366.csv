@@ -1,0 +1,573 @@
+game_id,actionNumber,actionType,period,clock,clock_display,game_clock,scoreHome,scoreAway,teamId,playerName,description,previous_action,next_action,score_margin,leverage_bucket
+22500366,7,turnover,1,PT11M49.00S,11:49,Q1 11:49,0,0,1610612759.0,Castle,S. Castle bad pass TURNOVER (1 TO),,steal,0,Medium
+22500366,8,steal,1,PT11M49.00S,11:49,Q1 11:49,0,0,1610612740.0,Jones,H. Jones STEAL (1 STL),turnover,2pt made,0,Medium
+22500366,9,2pt,1,PT11M45.00S,11:45,Q1 11:45,2,0,1610612740.0,Jones,H. Jones running Layup (2 PTS),steal,foul,2,Medium
+22500366,10,foul,1,PT11M39.00S,11:39,Q1 11:39,2,0,1610612740.0,Queen,D. Queen shooting personal FOUL (1 PF) (Castle 2 FT),2pt made,freethrow,2,Medium
+22500366,12,freethrow,1,PT11M39.00S,11:39,Q1 11:39,2,1,1610612759.0,Castle,S. Castle Free Throw 1 of 2 (1 PTS),foul,freethrow,1,Medium
+22500366,13,freethrow,1,PT11M39.00S,11:39,Q1 11:39,2,2,1610612759.0,Castle,S. Castle Free Throw 2 of 2 (2 PTS),freethrow,3pt missed,0,Medium
+22500366,14,3pt,1,PT11M26.00S,11:26,Q1 11:26,2,2,1610612740.0,Jones,MISS H. Jones 3PT,freethrow,rebound,0,Medium
+22500366,15,rebound,1,PT11M23.00S,11:23,Q1 11:23,2,2,1610612759.0,Kornet,L. Kornet REBOUND (Off:0 Def:1),3pt missed,2pt missed,0,Medium
+22500366,16,2pt,1,PT11M12.00S,11:12,Q1 11:12,2,2,1610612759.0,Kornet,MISS L. Kornet Layup - blocked,rebound,block,0,Medium
+22500366,17,block,1,PT11M12.00S,11:12,Q1 11:12,2,2,1610612740.0,Queen,D. Queen BLOCK (1 BLK),2pt missed,rebound,0,Medium
+22500366,18,rebound,1,PT11M11.00S,11:11,Q1 11:11,2,2,1610612759.0,Kornet,L. Kornet REBOUND (Off:1 Def:1),block,2pt missed,0,Medium
+22500366,19,2pt,1,PT11M10.00S,11:10,Q1 11:10,2,2,1610612759.0,Kornet,MISS L. Kornet putback Layup,rebound,rebound,0,Medium
+22500366,20,rebound,1,PT11M09.00S,11:09,Q1 11:09,2,2,1610612740.0,Queen,D. Queen REBOUND (Off:0 Def:1),2pt missed,2pt missed,0,Medium
+22500366,21,2pt,1,PT10M58.00S,10:58,Q1 10:58,2,2,1610612740.0,Queen,MISS D. Queen 12' fadeaway Shot,rebound,rebound,0,Medium
+22500366,22,rebound,1,PT10M56.00S,10:56,Q1 10:56,2,2,1610612740.0,Fears,J. Fears REBOUND (Off:1 Def:0),2pt missed,3pt missed,0,Medium
+22500366,23,3pt,1,PT10M45.00S,10:45,Q1 10:45,2,2,1610612740.0,Murphy III,MISS T. Murphy III 30' step back 3PT,rebound,rebound,0,Medium
+22500366,24,rebound,1,PT10M41.00S,10:41,Q1 10:41,2,2,1610612759.0,Castle,S. Castle REBOUND (Off:0 Def:1),3pt missed,3pt missed,0,Medium
+22500366,25,3pt,1,PT10M35.00S,10:35,Q1 10:35,2,2,1610612759.0,Barnes,MISS H. Barnes 24' 3PT,rebound,rebound,0,Medium
+22500366,26,rebound,1,PT10M34.00S,10:34,Q1 10:34,2,2,1610612759.0,,TEAM offensive REBOUND,3pt missed,foul,0,Medium
+22500366,27,foul,1,PT10M34.00S,10:34,Q1 10:34,2,2,1610612740.0,Fears,J. Fears loose ball personal FOUL (1 PF),rebound,2pt missed,0,Medium
+22500366,29,2pt,1,PT10M24.00S,10:24,Q1 10:24,2,2,1610612759.0,Castle,MISS S. Castle driving Layup,foul,rebound,0,Medium
+22500366,30,rebound,1,PT10M22.00S,10:22,Q1 10:22,2,2,1610612740.0,Queen,D. Queen REBOUND (Off:0 Def:2),2pt missed,turnover,0,Medium
+22500366,31,turnover,1,PT10M19.00S,10:19,Q1 10:19,2,2,1610612740.0,Queen,D. Queen bad pass TURNOVER (1 TO),rebound,steal,0,Medium
+22500366,32,steal,1,PT10M19.00S,10:19,Q1 10:19,2,2,1610612759.0,Fox,D. Fox STEAL (1 STL),turnover,3pt missed,0,Medium
+22500366,33,3pt,1,PT10M15.00S,10:15,Q1 10:15,2,2,1610612759.0,Castle,MISS S. Castle 26' running 3PT,steal,rebound,0,Medium
+22500366,34,rebound,1,PT10M12.00S,10:12,Q1 10:12,2,2,1610612740.0,Bey,S. Bey REBOUND (Off:0 Def:1),3pt missed,2pt missed,0,Medium
+22500366,35,2pt,1,PT10M07.00S,10:07,Q1 10:07,2,2,1610612740.0,Fears,MISS J. Fears running Layup,rebound,rebound,0,Medium
+22500366,36,rebound,1,PT10M04.00S,10:04,Q1 10:04,2,2,1610612759.0,Kornet,L. Kornet REBOUND (Off:1 Def:2),2pt missed,2pt missed,0,Medium
+22500366,37,2pt,1,PT09M57.00S,09:57,Q1 09:57,2,2,1610612759.0,Fox,MISS D. Fox 7' turnaround fadeaway Shot,rebound,rebound,0,Medium
+22500366,38,rebound,1,PT09M54.00S,09:54,Q1 09:54,2,2,1610612740.0,Jones,H. Jones REBOUND (Off:0 Def:1),2pt missed,3pt missed,0,Medium
+22500366,39,3pt,1,PT09M49.00S,09:49,Q1 09:49,2,2,1610612740.0,Bey,MISS S. Bey 24' running 3PT,rebound,rebound,0,Medium
+22500366,40,rebound,1,PT09M46.00S,09:46,Q1 09:46,2,2,1610612759.0,Vassell,D. Vassell REBOUND (Off:0 Def:1),3pt missed,2pt missed,0,Medium
+22500366,41,2pt,1,PT09M35.00S,09:35,Q1 09:35,2,2,1610612759.0,Barnes,MISS H. Barnes 7' Jump Shot,rebound,rebound,0,Medium
+22500366,42,rebound,1,PT09M32.00S,09:32,Q1 09:32,2,2,1610612740.0,Queen,D. Queen REBOUND (Off:0 Def:3),2pt missed,turnover,0,Medium
+22500366,43,turnover,1,PT09M31.00S,09:31,Q1 09:31,2,2,1610612740.0,Queen,D. Queen double dribble TURNOVER (2 TO),rebound,2pt missed,0,Medium
+22500366,44,2pt,1,PT09M18.00S,09:18,Q1 09:18,2,2,1610612759.0,Vassell,MISS D. Vassell 13' pullup Shot,turnover,rebound,0,Medium
+22500366,45,rebound,1,PT09M14.00S,09:14,Q1 09:14,2,2,1610612740.0,Fears,J. Fears REBOUND (Off:1 Def:1),2pt missed,2pt made,0,Medium
+22500366,46,2pt,1,PT09M06.00S,09:06,Q1 09:06,4,2,1610612740.0,Jones,H. Jones driving floating Jump Shot (4 PTS) (J. Fears 1 AST),rebound,2pt made,2,Medium
+22500366,48,2pt,1,PT08M52.00S,08:52,Q1 08:52,4,4,1610612759.0,Castle,S. Castle driving Layup (4 PTS),2pt made,3pt made,0,Medium
+22500366,49,3pt,1,PT08M30.00S,08:30,Q1 08:30,7,4,1610612740.0,Fears,J. Fears 25' 3PT  (3 PTS),2pt made,3pt made,3,Medium
+22500366,51,3pt,1,PT08M15.00S,08:15,Q1 08:15,7,7,1610612759.0,Barnes,H. Barnes 3PT  (3 PTS) (S. Castle 1 AST),3pt made,2pt made,0,Medium
+22500366,54,2pt,1,PT08M00.00S,08:00,Q1 08:00,9,7,1610612740.0,Murphy III,T. Murphy III cutting DUNK (2 PTS) (H. Jones 1 AST),3pt made,2pt made,2,Medium
+22500366,56,2pt,1,PT07M46.00S,07:46,Q1 07:46,9,9,1610612759.0,Kornet,L. Kornet cutting Layup (2 PTS) (S. Castle 2 AST),2pt made,2pt missed,0,Medium
+22500366,58,2pt,1,PT07M35.00S,07:35,Q1 07:35,9,9,1610612740.0,Murphy III,MISS T. Murphy III 15' pullup Shot,2pt made,rebound,0,Medium
+22500366,59,rebound,1,PT07M33.00S,07:33,Q1 07:33,9,9,1610612759.0,Fox,D. Fox REBOUND (Off:0 Def:1),2pt missed,2pt made,0,Medium
+22500366,60,2pt,1,PT07M30.00S,07:30,Q1 07:30,9,11,1610612759.0,Castle,S. Castle running Layup (6 PTS) (D. Fox 1 AST),rebound,timeout,2,Medium
+22500366,62,timeout,1,PT07M30.00S,07:30,Q1 07:30,9,11,1610612740.0,,NOP Timeout,2pt made,substitution,2,Medium
+22500366,63,substitution,1,PT07M30.00S,07:30,Q1 07:30,9,11,1610612740.0,Queen,SUB out: D. Queen,timeout,substitution,2,Medium
+22500366,64,substitution,1,PT07M30.00S,07:30,Q1 07:30,9,11,1610612740.0,Jones,SUB out: H. Jones,substitution,substitution,2,Medium
+22500366,65,substitution,1,PT07M30.00S,07:30,Q1 07:30,9,11,1610612759.0,Fox,SUB out: D. Fox,substitution,substitution,2,Medium
+22500366,66,substitution,1,PT07M30.00S,07:30,Q1 07:30,9,11,1610612740.0,McGowens,SUB in: B. McGowens,substitution,substitution,2,Medium
+22500366,67,substitution,1,PT07M30.00S,07:30,Q1 07:30,9,11,1610612740.0,Missi,SUB in: Y. Missi,substitution,substitution,2,Medium
+22500366,68,substitution,1,PT07M30.00S,07:30,Q1 07:30,9,11,1610612759.0,Harper,SUB in: D. Harper,substitution,3pt missed,2,Medium
+22500366,69,3pt,1,PT07M06.00S,07:06,Q1 07:06,9,11,1610612740.0,Murphy III,MISS T. Murphy III step back 3PT,substitution,rebound,2,Medium
+22500366,70,rebound,1,PT07M02.00S,07:02,Q1 07:02,9,11,1610612759.0,Vassell,D. Vassell REBOUND (Off:0 Def:2),3pt missed,2pt made,2,Medium
+22500366,71,2pt,1,PT06M51.00S,06:51,Q1 06:51,9,13,1610612759.0,Kornet,L. Kornet Layup (4 PTS) (S. Castle 3 AST),rebound,2pt made,4,Medium
+22500366,73,2pt,1,PT06M36.00S,06:36,Q1 06:36,11,13,1610612740.0,McGowens,B. McGowens driving Layup (2 PTS) (Y. Missi 1 AST),2pt made,foul,2,Medium
+22500366,75,foul,1,PT06M36.00S,06:36,Q1 06:36,11,13,1610612759.0,Kornet,L. Kornet shooting personal FOUL (1 PF) (McGowens 1 FT),2pt made,freethrow,2,Medium
+22500366,77,freethrow,1,PT06M36.00S,06:36,Q1 06:36,12,13,1610612740.0,McGowens,B. McGowens Free Throw 1 of 1 (3 PTS),foul,turnover,1,Medium
+22500366,78,turnover,1,PT06M29.00S,06:29,Q1 06:29,12,13,1610612759.0,Castle,S. Castle bad pass TURNOVER (2 TO),freethrow,steal,1,Medium
+22500366,79,steal,1,PT06M29.00S,06:29,Q1 06:29,12,13,1610612740.0,Murphy III,T. Murphy III STEAL (1 STL),turnover,2pt made,1,Medium
+22500366,80,2pt,1,PT06M24.00S,06:24,Q1 06:24,14,13,1610612740.0,Bey,S. Bey running Jump Shot (2 PTS) (T. Murphy III 1 AST),steal,3pt made,1,Medium
+22500366,82,3pt,1,PT06M16.00S,06:16,Q1 06:16,14,16,1610612759.0,Barnes,H. Barnes 24' 3PT  (6 PTS) (D. Harper 1 AST),2pt made,3pt missed,2,Medium
+22500366,84,3pt,1,PT06M08.00S,06:08,Q1 06:08,14,16,1610612740.0,Fears,MISS J. Fears 27' pullup 3PT,3pt made,rebound,2,Medium
+22500366,85,rebound,1,PT06M04.00S,06:04,Q1 06:04,14,16,1610612759.0,Barnes,H. Barnes REBOUND (Off:0 Def:1),3pt missed,turnover,2,Medium
+22500366,86,turnover,1,PT06M00.00S,06:00,Q1 06:00,14,16,1610612759.0,Castle,S. Castle bad pass out-of-bounds TURNOVER (3 TO),rebound,substitution,2,Medium
+22500366,87,substitution,1,PT06M00.00S,06:00,Q1 06:00,14,16,1610612759.0,Castle,SUB out: S. Castle,turnover,substitution,2,Medium
+22500366,88,substitution,1,PT06M00.00S,06:00,Q1 06:00,14,16,1610612759.0,Kornet,SUB out: L. Kornet,substitution,substitution,2,Medium
+22500366,89,substitution,1,PT06M00.00S,06:00,Q1 06:00,14,16,1610612759.0,Sochan,SUB in: J. Sochan,substitution,substitution,2,Medium
+22500366,90,substitution,1,PT06M00.00S,06:00,Q1 06:00,14,16,1610612759.0,Champagnie,SUB in: J. Champagnie,substitution,2pt missed,2,Medium
+22500366,91,2pt,1,PT05M49.00S,05:49,Q1 05:49,14,16,1610612740.0,Fears,MISS J. Fears driving finger roll Layup,substitution,rebound,2,Medium
+22500366,92,rebound,1,PT05M47.00S,05:47,Q1 05:47,14,16,1610612759.0,Sochan,J. Sochan REBOUND (Off:0 Def:1),2pt missed,2pt made,2,Medium
+22500366,93,2pt,1,PT05M36.00S,05:36,Q1 05:36,14,18,1610612759.0,Sochan,J. Sochan DUNK (2 PTS),rebound,foul,4,Medium
+22500366,95,foul,1,PT05M28.00S,05:28,Q1 05:28,14,18,1610612759.0,Vassell,D. Vassell shooting personal FOUL (1 PF) (Bey 2 FT),2pt made,freethrow,4,Medium
+22500366,97,freethrow,1,PT05M28.00S,05:28,Q1 05:28,15,18,1610612740.0,Bey,S. Bey Free Throw 1 of 2 (3 PTS),foul,freethrow,3,Medium
+22500366,100,freethrow,1,PT05M28.00S,05:28,Q1 05:28,16,18,1610612740.0,Bey,S. Bey Free Throw 2 of 2 (4 PTS),freethrow,substitution,2,Medium
+22500366,98,substitution,1,PT05M28.00S,05:28,Q1 05:28,15,18,1610612740.0,Fears,SUB out: J. Fears,freethrow,substitution,3,Medium
+22500366,99,substitution,1,PT05M28.00S,05:28,Q1 05:28,15,18,1610612740.0,Alvarado,SUB in: J. Alvarado,substitution,foul,3,Medium
+22500366,101,foul,1,PT05M22.00S,05:22,Q1 05:22,16,18,1610612740.0,Missi,Y. Missi shooting personal FOUL (1 PF) (Vassell 2 FT),substitution,freethrow,2,Medium
+22500366,103,freethrow,1,PT05M22.00S,05:22,Q1 05:22,16,19,1610612759.0,Vassell,D. Vassell Free Throw 1 of 2 (1 PTS),foul,freethrow,3,Medium
+22500366,104,freethrow,1,PT05M22.00S,05:22,Q1 05:22,16,20,1610612759.0,Vassell,D. Vassell Free Throw 2 of 2 (2 PTS),freethrow,2pt made,4,Medium
+22500366,105,2pt,1,PT05M04.00S,05:04,Q1 05:04,18,20,1610612740.0,Murphy III,T. Murphy III 6' driving floating Jump Shot (4 PTS),freethrow,2pt made,2,Medium
+22500366,106,2pt,1,PT04M52.00S,04:52,Q1 04:52,18,22,1610612759.0,Harper,D. Harper driving Layup (2 PTS),2pt made,2pt missed,4,Medium
+22500366,108,2pt,1,PT04M26.00S,04:26,Q1 04:26,18,22,1610612740.0,Murphy III,MISS T. Murphy III 13' pullup Shot,2pt made,rebound,4,Medium
+22500366,109,rebound,1,PT04M24.00S,04:24,Q1 04:24,18,22,1610612759.0,Sochan,J. Sochan REBOUND (Off:0 Def:2),2pt missed,turnover,4,Medium
+22500366,110,turnover,1,PT04M21.00S,04:21,Q1 04:21,18,22,1610612759.0,Sochan,J. Sochan lost ball TURNOVER (1 TO),rebound,steal,4,Medium
+22500366,111,steal,1,PT04M21.00S,04:21,Q1 04:21,18,22,1610612740.0,Alvarado,J. Alvarado STEAL (1 STL),turnover,turnover,4,Medium
+22500366,112,turnover,1,PT04M17.00S,04:17,Q1 04:17,18,22,1610612740.0,Alvarado,J. Alvarado bad pass out-of-bounds TURNOVER (1 TO),steal,substitution,4,Medium
+22500366,113,substitution,1,PT04M17.00S,04:17,Q1 04:17,18,22,1610612740.0,Bey,SUB out: S. Bey,turnover,substitution,4,Medium
+22500366,114,substitution,1,PT04M17.00S,04:17,Q1 04:17,18,22,1610612759.0,Vassell,SUB out: D. Vassell,substitution,substitution,4,Medium
+22500366,115,substitution,1,PT04M17.00S,04:17,Q1 04:17,18,22,1610612740.0,Peavy,SUB in: M. Peavy,substitution,substitution,4,Medium
+22500366,116,substitution,1,PT04M17.00S,04:17,Q1 04:17,18,22,1610612759.0,Johnson,SUB in: K. Johnson,substitution,3pt missed,4,Medium
+22500366,117,3pt,1,PT04M05.00S,04:05,Q1 04:05,18,22,1610612759.0,Champagnie,MISS J. Champagnie 26' 3PT,substitution,rebound,4,Medium
+22500366,118,rebound,1,PT03M57.00S,03:57,Q1 03:57,18,22,1610612759.0,Johnson,K. Johnson REBOUND (Off:1 Def:0),3pt missed,2pt made,4,Medium
+22500366,119,2pt,1,PT03M57.00S,03:57,Q1 03:57,18,24,1610612759.0,Johnson,K. Johnson tip Layup (2 PTS),rebound,2pt made,6,Medium
+22500366,120,2pt,1,PT03M49.00S,03:49,Q1 03:49,20,24,1610612740.0,Missi,Y. Missi driving floating Jump Shot (2 PTS) (J. Alvarado 1 AST),2pt made,2pt missed,4,Medium
+22500366,122,2pt,1,PT03M33.00S,03:33,Q1 03:33,20,24,1610612759.0,Harper,MISS D. Harper 20' pullup Shot,2pt made,rebound,4,Medium
+22500366,123,rebound,1,PT03M31.00S,03:31,Q1 03:31,20,24,1610612740.0,Alvarado,J. Alvarado REBOUND (Off:0 Def:1),2pt missed,3pt missed,4,Medium
+22500366,124,3pt,1,PT03M18.00S,03:18,Q1 03:18,20,24,1610612740.0,McGowens,MISS B. McGowens 3PT,rebound,rebound,4,Medium
+22500366,125,rebound,1,PT03M14.00S,03:14,Q1 03:14,20,24,1610612759.0,Sochan,J. Sochan REBOUND (Off:0 Def:3),3pt missed,2pt made,4,Medium
+22500366,126,2pt,1,PT02M52.00S,02:52,Q1 02:52,20,26,1610612759.0,Johnson,K. Johnson 8' driving floating Jump Shot (4 PTS),rebound,2pt missed,6,Medium
+22500366,127,2pt,1,PT02M42.00S,02:42,Q1 02:42,20,26,1610612740.0,Murphy III,MISS T. Murphy III driving Layup,2pt made,rebound,6,Medium
+22500366,128,rebound,1,PT02M40.00S,02:40,Q1 02:40,20,26,1610612759.0,Champagnie,J. Champagnie REBOUND (Off:0 Def:1),2pt missed,2pt missed,6,Medium
+22500366,129,2pt,1,PT02M32.00S,02:32,Q1 02:32,20,26,1610612759.0,Sochan,MISS J. Sochan cutting Layup - blocked,rebound,block,6,Medium
+22500366,130,block,1,PT02M32.00S,02:32,Q1 02:32,20,26,1610612740.0,Murphy III,T. Murphy III BLOCK (1 BLK),2pt missed,rebound,6,Medium
+22500366,131,rebound,1,PT02M28.00S,02:28,Q1 02:28,20,26,1610612740.0,Murphy III,T. Murphy III REBOUND (Off:0 Def:1),block,3pt made,6,Medium
+22500366,132,3pt,1,PT02M16.00S,02:16,Q1 02:16,23,26,1610612740.0,Alvarado,J. Alvarado 25' 3PT  (3 PTS) (B. McGowens 1 AST),rebound,timeout,3,Medium
+22500366,134,timeout,1,PT02M16.00S,02:16,Q1 02:16,23,26,1610612759.0,,SAS Timeout,3pt made,substitution,3,Medium
+22500366,135,substitution,1,PT02M16.00S,02:16,Q1 02:16,23,26,1610612740.0,Missi,SUB out: Y. Missi,timeout,substitution,3,Medium
+22500366,136,substitution,1,PT02M16.00S,02:16,Q1 02:16,23,26,1610612740.0,Murphy III,SUB out: T. Murphy III,substitution,substitution,3,Medium
+22500366,137,substitution,1,PT02M16.00S,02:16,Q1 02:16,23,26,1610612759.0,Harper,SUB out: D. Harper,substitution,substitution,3,Medium
+22500366,138,substitution,1,PT02M16.00S,02:16,Q1 02:16,23,26,1610612759.0,Sochan,SUB out: J. Sochan,substitution,substitution,3,Medium
+22500366,139,substitution,1,PT02M16.00S,02:16,Q1 02:16,23,26,1610612759.0,Barnes,SUB out: H. Barnes,substitution,substitution,3,Medium
+22500366,140,substitution,1,PT02M16.00S,02:16,Q1 02:16,23,26,1610612740.0,Queen,SUB in: D. Queen,substitution,substitution,3,Medium
+22500366,141,substitution,1,PT02M16.00S,02:16,Q1 02:16,23,26,1610612740.0,Hawkins,SUB in: J. Hawkins,substitution,substitution,3,Medium
+22500366,142,substitution,1,PT02M16.00S,02:16,Q1 02:16,23,26,1610612759.0,Bryant,SUB in: C. Bryant,substitution,substitution,3,Medium
+22500366,143,substitution,1,PT02M16.00S,02:16,Q1 02:16,23,26,1610612759.0,Olynyk,SUB in: K. Olynyk,substitution,substitution,3,Medium
+22500366,144,substitution,1,PT02M16.00S,02:16,Q1 02:16,23,26,1610612759.0,Fox,SUB in: D. Fox,substitution,2pt missed,3,Medium
+22500366,145,2pt,1,PT01M53.00S,01:53,Q1 01:53,23,26,1610612759.0,Bryant,MISS C. Bryant driving Layup,substitution,rebound,3,Medium
+22500366,146,rebound,1,PT01M50.00S,01:50,Q1 01:50,23,26,1610612740.0,Queen,D. Queen REBOUND (Off:0 Def:4),2pt missed,turnover,3,Medium
+22500366,147,turnover,1,PT01M44.00S,01:44,Q1 01:44,23,26,1610612740.0,Queen,D. Queen lost ball TURNOVER (3 TO),rebound,steal,3,Medium
+22500366,148,steal,1,PT01M44.00S,01:44,Q1 01:44,23,26,1610612759.0,Olynyk,K. Olynyk STEAL (1 STL),turnover,3pt made,3,Medium
+22500366,149,3pt,1,PT01M38.00S,01:38,Q1 01:38,23,29,1610612759.0,Champagnie,J. Champagnie 25' 3PT running (3 PTS) (D. Fox 2 AST),steal,turnover,6,Medium
+22500366,151,turnover,1,PT01M11.00S,01:11,Q1 01:11,23,29,1610612740.0,Hawkins,J. Hawkins bad pass TURNOVER (1 TO),3pt made,steal,6,Medium
+22500366,152,steal,1,PT01M11.00S,01:11,Q1 01:11,23,29,1610612759.0,Champagnie,J. Champagnie STEAL (1 STL),turnover,3pt made,6,Medium
+22500366,154,3pt,1,PT01M00.00S,01:00,Q1 01:00,23,32,1610612759.0,Champagnie,J. Champagnie 25' 3PT  (6 PTS) (K. Olynyk 1 AST),steal,2pt missed,9,Medium
+22500366,156,2pt,1,PT00M52.20S,00:52,Q1 00:52,23,32,1610612740.0,Peavy,MISS M. Peavy driving Layup,3pt made,rebound,9,Medium
+22500366,157,rebound,1,PT00M52.20S,00:52,Q1 00:52,23,32,1610612759.0,,TEAM defensive REBOUND,2pt missed,foul,9,Medium
+22500366,158,foul,1,PT00M52.20S,00:52,Q1 00:52,23,32,1610612740.0,Queen,D. Queen loose ball personal FOUL (2 PF),rebound,turnover,9,Medium
+22500366,160,turnover,1,PT00M31.00S,00:31,Q1 00:31,23,32,1610612759.0,Fox,D. Fox double dribble TURNOVER (1 TO),foul,substitution,9,Medium
+22500366,161,substitution,1,PT00M31.00S,00:31,Q1 00:31,23,32,1610612740.0,Queen,SUB out: D. Queen,turnover,substitution,9,Medium
+22500366,162,substitution,1,PT00M31.00S,00:31,Q1 00:31,23,32,1610612740.0,Matković,SUB in: K. Matković,substitution,2pt made,9,Medium
+22500366,163,2pt,1,PT00M21.10S,00:21,Q1 00:21,25,32,1610612740.0,Matković,K. Matković alley-oop DUNK (2 PTS) (J. Alvarado 2 AST),substitution,3pt made,7,Medium
+22500366,165,3pt,1,PT00M00.50S,00:00,Q1 00:00,25,35,1610612759.0,Fox,D. Fox 24' 3PT step back (3 PTS),2pt made,substitution,10,Medium
+22500366,167,substitution,2,PT12M00.00S,12:00,Q2 12:00,25,35,1610612740.0,McGowens,SUB out: B. McGowens,3pt made,substitution,10,Medium
+22500366,168,substitution,2,PT12M00.00S,12:00,Q2 12:00,25,35,1610612740.0,Jones,SUB in: H. Jones,substitution,3pt missed,10,Medium
+22500366,170,3pt,2,PT11M46.00S,11:46,Q2 11:46,25,35,1610612740.0,Alvarado,MISS J. Alvarado 27' 3PT,substitution,rebound,10,Medium
+22500366,171,rebound,2,PT11M42.00S,11:42,Q2 11:42,25,35,1610612759.0,Johnson,K. Johnson REBOUND (Off:1 Def:1),3pt missed,3pt made,10,Medium
+22500366,172,3pt,2,PT11M29.00S,11:29,Q2 11:29,25,38,1610612759.0,Champagnie,J. Champagnie 25' 3PT  (9 PTS) (D. Fox 3 AST),rebound,3pt missed,13,Medium
+22500366,174,3pt,2,PT11M16.00S,11:16,Q2 11:16,25,38,1610612740.0,Hawkins,MISS J. Hawkins 3PT,3pt made,rebound,13,Medium
+22500366,175,rebound,2,PT11M14.00S,11:14,Q2 11:14,25,38,1610612759.0,Champagnie,J. Champagnie REBOUND (Off:0 Def:2),3pt missed,3pt made,13,Medium
+22500366,176,3pt,2,PT11M09.00S,11:09,Q2 11:09,25,41,1610612759.0,Fox,D. Fox 24' 3PT running pullup (6 PTS),rebound,2pt made,16,Medium
+22500366,177,2pt,2,PT10M52.00S,10:52,Q2 10:52,27,41,1610612740.0,Peavy,M. Peavy cutting DUNK (2 PTS) (K. Matković 1 AST),3pt made,2pt missed,14,Medium
+22500366,179,2pt,2,PT10M38.00S,10:38,Q2 10:38,27,41,1610612759.0,Olynyk,MISS K. Olynyk 10' Layup,2pt made,rebound,14,Medium
+22500366,181,rebound,2,PT10M37.00S,10:37,Q2 10:37,27,41,1610612759.0,,TEAM offensive REBOUND,2pt missed,substitution,14,Medium
+22500366,183,substitution,2,PT10M37.00S,10:37,Q2 10:37,27,41,1610612740.0,Hawkins,SUB out: J. Hawkins,rebound,substitution,14,Medium
+22500366,184,substitution,2,PT10M37.00S,10:37,Q2 10:37,27,41,1610612740.0,Fears,SUB in: J. Fears,substitution,foul,14,Medium
+22500366,185,foul,2,PT10M31.00S,10:31,Q2 10:31,27,41,1610612740.0,Fears,J. Fears personal FOUL (2 PF),substitution,turnover,14,Medium
+22500366,188,turnover,2,PT10M18.00S,10:18,Q2 10:18,27,41,1610612759.0,Fox,D. Fox lost ball TURNOVER (2 TO),foul,steal,14,Medium
+22500366,189,steal,2,PT10M18.00S,10:18,Q2 10:18,27,41,1610612740.0,Fears,J. Fears STEAL (1 STL),turnover,2pt missed,14,Medium
+22500366,190,2pt,2,PT10M11.00S,10:11,Q2 10:11,27,41,1610612740.0,Peavy,MISS M. Peavy running Layup,steal,rebound,14,Medium
+22500366,191,rebound,2,PT10M06.00S,10:06,Q2 10:06,27,41,1610612759.0,Bryant,C. Bryant REBOUND (Off:0 Def:1),2pt missed,2pt made,14,Medium
+22500366,192,2pt,2,PT10M06.00S,10:06,Q2 10:06,27,43,1610612759.0,Bryant,C. Bryant running Layup (2 PTS),rebound,foul,16,Medium
+22500366,193,foul,2,PT10M06.00S,10:06,Q2 10:06,27,43,1610612740.0,Jones,H. Jones shooting personal FOUL (1 PF) (Bryant 1 FT),2pt made,freethrow,16,Medium
+22500366,195,freethrow,2,PT10M06.00S,10:06,Q2 10:06,27,43,1610612759.0,Bryant,MISS C. Bryant Free Throw 1 of 1,foul,rebound,16,Medium
+22500366,196,rebound,2,PT10M04.00S,10:04,Q2 10:04,27,43,1610612740.0,Peavy,M. Peavy REBOUND (Off:0 Def:1),freethrow,3pt missed,16,Medium
+22500366,197,3pt,2,PT09M54.00S,09:54,Q2 09:54,27,43,1610612740.0,Peavy,MISS M. Peavy 3PT,rebound,rebound,16,Medium
+22500366,198,rebound,2,PT09M51.00S,09:51,Q2 09:51,27,43,1610612759.0,Fox,D. Fox REBOUND (Off:0 Def:2),3pt missed,turnover,16,Medium
+22500366,199,turnover,2,PT09M49.00S,09:49,Q2 09:49,27,43,1610612759.0,Fox,D. Fox bad pass TURNOVER (3 TO),rebound,steal,16,Medium
+22500366,200,steal,2,PT09M49.00S,09:49,Q2 09:49,27,43,1610612740.0,Jones,H. Jones STEAL (2 STL),turnover,2pt missed,16,Medium
+22500366,201,2pt,2,PT09M35.00S,09:35,Q2 09:35,27,43,1610612740.0,Jones,MISS H. Jones driving Layup,steal,rebound,16,Medium
+22500366,202,rebound,2,PT09M33.00S,09:33,Q2 09:33,27,43,1610612759.0,Olynyk,K. Olynyk REBOUND (Off:0 Def:1),2pt missed,2pt made,16,Medium
+22500366,203,2pt,2,PT09M29.00S,09:29,Q2 09:29,27,45,1610612759.0,Bryant,C. Bryant running alley-oop DUNK (4 PTS) (K. Johnson 1 AST),rebound,3pt missed,18,Medium
+22500366,205,3pt,2,PT09M22.00S,09:22,Q2 09:22,27,45,1610612740.0,Peavy,MISS M. Peavy 3PT,2pt made,rebound,18,Medium
+22500366,206,rebound,2,PT09M20.00S,09:20,Q2 09:20,27,45,1610612740.0,Jones,H. Jones REBOUND (Off:1 Def:1),3pt missed,substitution,18,Medium
+22500366,208,substitution,2,PT09M20.00S,09:20,Q2 09:20,27,45,1610612759.0,Fox,SUB out: D. Fox,rebound,substitution,18,Medium
+22500366,209,substitution,2,PT09M20.00S,09:20,Q2 09:20,27,45,1610612759.0,Castle,SUB in: S. Castle,substitution,2pt made,18,Medium
+22500366,210,2pt,2,PT09M07.00S,09:07,Q2 09:07,29,45,1610612740.0,Fears,J. Fears driving Layup (5 PTS) (J. Alvarado 3 AST),substitution,foul,16,Medium
+22500366,212,foul,2,PT09M06.00S,09:06,Q2 09:06,29,45,1610612740.0,,TEAM foul technical,2pt made,freethrow,16,Medium
+22500366,213,freethrow,2,PT09M06.00S,09:06,Q2 09:06,29,46,1610612759.0,Champagnie,J. Champagnie technical Free Throw 1 of 1 (10 PTS),foul,substitution,17,Medium
+22500366,214,substitution,2,PT09M06.00S,09:06,Q2 09:06,29,46,1610612759.0,Olynyk,SUB out: K. Olynyk,freethrow,substitution,17,Medium
+22500366,215,substitution,2,PT09M06.00S,09:06,Q2 09:06,29,46,1610612759.0,Bryant,SUB out: C. Bryant,substitution,substitution,17,Medium
+22500366,216,substitution,2,PT09M06.00S,09:06,Q2 09:06,29,46,1610612759.0,Harper,SUB in: D. Harper,substitution,substitution,17,Medium
+22500366,217,substitution,2,PT09M06.00S,09:06,Q2 09:06,29,46,1610612759.0,Barnes,SUB in: H. Barnes,substitution,2pt made,17,Medium
+22500366,218,2pt,2,PT08M53.00S,08:53,Q2 08:53,29,48,1610612759.0,Castle,S. Castle driving Layup (8 PTS),substitution,2pt missed,19,Medium
+22500366,219,2pt,2,PT08M36.00S,08:36,Q2 08:36,29,48,1610612740.0,Fears,MISS J. Fears 11' driving Hook,2pt made,rebound,19,Medium
+22500366,220,rebound,2,PT08M32.00S,08:32,Q2 08:32,29,48,1610612759.0,Harper,D. Harper REBOUND (Off:0 Def:1),2pt missed,2pt missed,19,Medium
+22500366,221,2pt,2,PT08M31.00S,08:31,Q2 08:31,29,48,1610612759.0,Johnson,MISS K. Johnson Layup,rebound,rebound,19,Medium
+22500366,222,rebound,2,PT08M30.00S,08:30,Q2 08:30,29,48,1610612759.0,Johnson,K. Johnson REBOUND (Off:2 Def:1),2pt missed,foul,19,Medium
+22500366,223,foul,2,PT08M29.00S,08:29,Q2 08:29,29,48,1610612740.0,Jones,H. Jones shooting personal FOUL (2 PF) (Johnson 2 FT),rebound,freethrow,19,Medium
+22500366,225,freethrow,2,PT08M29.00S,08:29,Q2 08:29,29,48,1610612759.0,Johnson,MISS K. Johnson Free Throw 1 of 2,foul,rebound,19,Medium
+22500366,226,rebound,2,PT08M29.00S,08:29,Q2 08:29,29,48,1610612759.0,,TEAM offensive REBOUND,freethrow,freethrow,19,Medium
+22500366,231,freethrow,2,PT08M29.00S,08:29,Q2 08:29,29,49,1610612759.0,Johnson,K. Johnson Free Throw 2 of 2 (5 PTS),rebound,substitution,20,Medium
+22500366,227,substitution,2,PT08M29.00S,08:29,Q2 08:29,29,48,1610612740.0,Jones,SUB out: H. Jones,freethrow,substitution,19,Medium
+22500366,228,substitution,2,PT08M29.00S,08:29,Q2 08:29,29,48,1610612740.0,Peavy,SUB out: M. Peavy,substitution,substitution,19,Medium
+22500366,229,substitution,2,PT08M29.00S,08:29,Q2 08:29,29,48,1610612740.0,Murphy III,SUB in: T. Murphy III,substitution,substitution,19,Medium
+22500366,230,substitution,2,PT08M29.00S,08:29,Q2 08:29,29,48,1610612740.0,Bey,SUB in: S. Bey,substitution,2pt made,19,Medium
+22500366,232,2pt,2,PT08M15.00S,08:15,Q2 08:15,31,49,1610612740.0,Murphy III,T. Murphy III driving Layup (6 PTS) (J. Fears 2 AST),substitution,3pt missed,18,Medium
+22500366,234,3pt,2,PT08M09.00S,08:09,Q2 08:09,31,49,1610612759.0,Champagnie,MISS J. Champagnie 25' 3PT,2pt made,rebound,18,Medium
+22500366,235,rebound,2,PT08M05.00S,08:05,Q2 08:05,31,49,1610612759.0,Johnson,K. Johnson REBOUND (Off:3 Def:1),3pt missed,2pt made,18,Medium
+22500366,236,2pt,2,PT08M02.00S,08:02,Q2 08:02,31,51,1610612759.0,Harper,D. Harper driving Layup (4 PTS) (K. Johnson 2 AST),rebound,2pt made,20,Medium
+22500366,238,2pt,2,PT07M46.00S,07:46,Q2 07:46,33,51,1610612740.0,Bey,S. Bey driving Layup (6 PTS) (K. Matković 2 AST),2pt made,foul,18,Medium
+22500366,240,foul,2,PT07M39.00S,07:39,Q2 07:39,33,51,1610612740.0,Matković,K. Matković shooting personal FOUL (1 PF) (Castle 2 FT),2pt made,freethrow,18,Medium
+22500366,242,freethrow,2,PT07M39.00S,07:39,Q2 07:39,33,52,1610612759.0,Castle,S. Castle Free Throw 1 of 2 (9 PTS),foul,freethrow,19,Medium
+22500366,245,freethrow,2,PT07M39.00S,07:39,Q2 07:39,33,53,1610612759.0,Castle,S. Castle Free Throw 2 of 2 (10 PTS),freethrow,substitution,20,Medium
+22500366,243,substitution,2,PT07M39.00S,07:39,Q2 07:39,33,52,1610612759.0,Champagnie,SUB out: J. Champagnie,freethrow,substitution,19,Medium
+22500366,244,substitution,2,PT07M39.00S,07:39,Q2 07:39,33,52,1610612759.0,Vassell,SUB in: D. Vassell,substitution,foul,19,Medium
+22500366,246,foul,2,PT07M32.00S,07:32,Q2 07:32,33,53,1610612759.0,Castle,S. Castle personal FOUL (1 PF),substitution,2pt missed,20,Medium
+22500366,248,2pt,2,PT07M18.00S,07:18,Q2 07:18,33,53,1610612740.0,Bey,MISS S. Bey 6' driving Layup,foul,rebound,20,Medium
+22500366,249,rebound,2,PT07M13.00S,07:13,Q2 07:13,33,53,1610612740.0,Bey,S. Bey REBOUND (Off:1 Def:1),2pt missed,2pt made,20,Medium
+22500366,250,2pt,2,PT07M13.00S,07:13,Q2 07:13,35,53,1610612740.0,Bey,S. Bey putback Layup (8 PTS),rebound,2pt made,18,Medium
+22500366,251,2pt,2,PT07M03.00S,07:03,Q2 07:03,35,55,1610612759.0,Johnson,K. Johnson driving DUNK (7 PTS) (D. Harper 2 AST),2pt made,2pt made,20,Medium
+22500366,253,2pt,2,PT06M56.00S,06:56,Q2 06:56,37,55,1610612740.0,Matković,K. Matković cutting DUNK (4 PTS) (J. Fears 3 AST),2pt made,timeout,18,Medium
+22500366,255,timeout,2,PT06M44.00S,06:44,Q2 06:44,37,55,1610612759.0,,SAS Timeout,2pt made,substitution,18,Medium
+22500366,256,substitution,2,PT06M44.00S,06:44,Q2 06:44,37,55,1610612740.0,Alvarado,SUB out: J. Alvarado,timeout,substitution,18,Medium
+22500366,257,substitution,2,PT06M44.00S,06:44,Q2 06:44,37,55,1610612759.0,Johnson,SUB out: K. Johnson,substitution,substitution,18,Medium
+22500366,258,substitution,2,PT06M44.00S,06:44,Q2 06:44,37,55,1610612740.0,McGowens,SUB in: B. McGowens,substitution,substitution,18,Medium
+22500366,259,substitution,2,PT06M44.00S,06:44,Q2 06:44,37,55,1610612759.0,Kornet,SUB in: L. Kornet,substitution,2pt made,18,Medium
+22500366,260,2pt,2,PT06M31.00S,06:31,Q2 06:31,37,57,1610612759.0,Harper,D. Harper driving floating Jump Shot (6 PTS),substitution,2pt missed,20,Medium
+22500366,261,2pt,2,PT06M18.00S,06:18,Q2 06:18,37,57,1610612740.0,Fears,MISS J. Fears 7' floating Shot,2pt made,rebound,20,Medium
+22500366,262,rebound,2,PT06M16.00S,06:16,Q2 06:16,37,57,1610612759.0,Harper,D. Harper REBOUND (Off:0 Def:2),2pt missed,3pt made,20,Medium
+22500366,263,3pt,2,PT06M13.00S,06:13,Q2 06:13,37,60,1610612759.0,Barnes,H. Barnes 3PT running (9 PTS) (D. Vassell 1 AST),rebound,2pt made,23,Medium
+22500366,265,2pt,2,PT05M49.00S,05:49,Q2 05:49,39,60,1610612740.0,Bey,S. Bey finger roll Layup (10 PTS),3pt made,3pt made,21,Medium
+22500366,266,3pt,2,PT05M37.00S,05:37,Q2 05:37,39,63,1610612759.0,Harper,D. Harper 25' 3PT pullup (9 PTS),2pt made,3pt missed,24,Medium
+22500366,267,3pt,2,PT05M26.00S,05:26,Q2 05:26,39,63,1610612740.0,Murphy III,MISS T. Murphy III 26' pullup bank 3PT,3pt made,rebound,24,Medium
+22500366,268,rebound,2,PT05M24.00S,05:24,Q2 05:24,39,63,1610612759.0,Harper,D. Harper REBOUND (Off:0 Def:3),3pt missed,turnover,24,Medium
+22500366,269,turnover,2,PT05M15.00S,05:15,Q2 05:15,39,63,1610612759.0,Barnes,H. Barnes lost ball out-of-bounds TURNOVER (1 TO),rebound,substitution,24,Medium
+22500366,270,substitution,2,PT05M15.00S,05:15,Q2 05:15,39,63,1610612740.0,Fears,SUB out: J. Fears,turnover,substitution,24,Medium
+22500366,271,substitution,2,PT05M15.00S,05:15,Q2 05:15,39,63,1610612740.0,Matković,SUB out: K. Matković,substitution,substitution,24,Medium
+22500366,272,substitution,2,PT05M15.00S,05:15,Q2 05:15,39,63,1610612740.0,Queen,SUB in: D. Queen,substitution,substitution,24,Medium
+22500366,273,substitution,2,PT05M15.00S,05:15,Q2 05:15,39,63,1610612740.0,Alvarado,SUB in: J. Alvarado,substitution,2pt made,24,Medium
+22500366,274,2pt,2,PT04M55.00S,04:55,Q2 04:55,41,63,1610612740.0,McGowens,B. McGowens driving reverse Layup (5 PTS) (T. Murphy III 2 AST),substitution,2pt missed,22,Medium
+22500366,276,2pt,2,PT04M38.00S,04:38,Q2 04:38,41,63,1610612759.0,Castle,MISS S. Castle driving Layup,2pt made,rebound,22,Medium
+22500366,277,rebound,2,PT04M35.00S,04:35,Q2 04:35,41,63,1610612740.0,Queen,D. Queen REBOUND (Off:0 Def:5),2pt missed,2pt made,22,Medium
+22500366,278,2pt,2,PT04M31.00S,04:31,Q2 04:31,43,63,1610612740.0,Alvarado,J. Alvarado running Layup (5 PTS) (D. Queen 1 AST),rebound,foul,20,Medium
+22500366,280,foul,2,PT04M19.00S,04:19,Q2 04:19,43,63,1610612740.0,McGowens,B. McGowens personal FOUL (1 PF) (Barnes 2 FT),2pt made,freethrow,20,Medium
+22500366,282,freethrow,2,PT04M19.00S,04:19,Q2 04:19,43,64,1610612759.0,Barnes,H. Barnes Free Throw 1 of 2 (10 PTS),foul,freethrow,21,Medium
+22500366,285,freethrow,2,PT04M19.00S,04:19,Q2 04:19,43,65,1610612759.0,Barnes,H. Barnes Free Throw 2 of 2 (11 PTS),freethrow,substitution,22,Medium
+22500366,283,substitution,2,PT04M19.00S,04:19,Q2 04:19,43,64,1610612759.0,Harper,SUB out: D. Harper,freethrow,substitution,21,Medium
+22500366,284,substitution,2,PT04M19.00S,04:19,Q2 04:19,43,64,1610612759.0,Fox,SUB in: D. Fox,substitution,foul,21,Medium
+22500366,291,foul,2,PT04M03.00S,04:03,Q2 04:03,43,65,1610612759.0,Castle,S. Castle away-from-play personal FOUL (2 PF) (Murphy III 1 FT),substitution,freethrow,22,Medium
+22500366,293,freethrow,2,PT04M03.00S,04:03,Q2 04:03,43,65,1610612740.0,Murphy III,MISS T. Murphy III away-from-play Free Throw 1 of 1,foul,rebound,22,Medium
+22500366,294,rebound,2,PT03M57.00S,03:57,Q2 03:57,43,65,1610612740.0,,TEAM offensive REBOUND,freethrow,3pt missed,22,Medium
+22500366,295,3pt,2,PT03M53.00S,03:53,Q2 03:53,43,65,1610612740.0,McGowens,MISS B. McGowens 26' 3PT,rebound,rebound,22,Medium
+22500366,296,rebound,2,PT03M51.00S,03:51,Q2 03:51,43,65,1610612759.0,Fox,D. Fox REBOUND (Off:0 Def:3),3pt missed,3pt made,22,Medium
+22500366,297,3pt,2,PT03M48.00S,03:48,Q2 03:48,43,68,1610612759.0,Barnes,H. Barnes 3PT running (14 PTS) (D. Fox 4 AST),rebound,3pt made,25,Low
+22500366,299,3pt,2,PT03M37.00S,03:37,Q2 03:37,46,68,1610612740.0,Murphy III,T. Murphy III 25' 3PT  (9 PTS) (D. Queen 2 AST),3pt made,3pt missed,22,Medium
+22500366,301,3pt,2,PT03M24.00S,03:24,Q2 03:24,46,68,1610612759.0,Vassell,MISS D. Vassell 27' 3PT,3pt made,rebound,22,Medium
+22500366,302,rebound,2,PT03M21.00S,03:21,Q2 03:21,46,68,1610612740.0,Queen,D. Queen REBOUND (Off:0 Def:6),3pt missed,2pt made,22,Medium
+22500366,303,2pt,2,PT03M10.00S,03:10,Q2 03:10,48,68,1610612740.0,Queen,D. Queen Hook (2 PTS),rebound,2pt missed,20,Medium
+22500366,304,2pt,2,PT02M54.00S,02:54,Q2 02:54,48,68,1610612759.0,Castle,MISS S. Castle 9' Layup - blocked,2pt made,block,20,Medium
+22500366,305,block,2,PT02M54.00S,02:54,Q2 02:54,48,68,1610612740.0,Alvarado,J. Alvarado BLOCK (1 BLK),2pt missed,rebound,20,Medium
+22500366,306,rebound,2,PT02M54.00S,02:54,Q2 02:54,48,68,1610612759.0,,TEAM offensive REBOUND,block,timeout,20,Medium
+22500366,308,timeout,2,PT02M54.00S,02:54,Q2 02:54,48,68,1610612740.0,,NOP Timeout,rebound,substitution,20,Medium
+22500366,309,substitution,2,PT02M54.00S,02:54,Q2 02:54,48,68,1610612740.0,McGowens,SUB out: B. McGowens,timeout,substitution,20,Medium
+22500366,310,substitution,2,PT02M54.00S,02:54,Q2 02:54,48,68,1610612759.0,Castle,SUB out: S. Castle,substitution,substitution,20,Medium
+22500366,311,substitution,2,PT02M54.00S,02:54,Q2 02:54,48,68,1610612740.0,Jones,SUB in: H. Jones,substitution,substitution,20,Medium
+22500366,312,substitution,2,PT02M54.00S,02:54,Q2 02:54,48,68,1610612759.0,Harper,SUB in: D. Harper,substitution,3pt missed,20,Medium
+22500366,313,3pt,2,PT02M47.00S,02:47,Q2 02:47,48,68,1610612759.0,Barnes,MISS H. Barnes 3PT,substitution,rebound,20,Medium
+22500366,314,rebound,2,PT02M44.00S,02:44,Q2 02:44,48,68,1610612740.0,Jones,H. Jones REBOUND (Off:1 Def:2),3pt missed,2pt made,20,Medium
+22500366,315,2pt,2,PT02M34.00S,02:34,Q2 02:34,50,68,1610612740.0,Alvarado,J. Alvarado cutting Layup (7 PTS) (D. Queen 3 AST),rebound,3pt missed,18,Medium
+22500366,317,3pt,2,PT02M20.00S,02:20,Q2 02:20,50,68,1610612759.0,Fox,MISS D. Fox 24' 3PT,2pt made,rebound,18,Medium
+22500366,318,rebound,2,PT02M17.00S,02:17,Q2 02:17,50,68,1610612759.0,Kornet,L. Kornet REBOUND (Off:2 Def:2),3pt missed,2pt made,18,Medium
+22500366,319,2pt,2,PT02M12.00S,02:12,Q2 02:12,50,70,1610612759.0,Harper,D. Harper driving Layup (11 PTS) (L. Kornet 1 AST),rebound,3pt made,20,Medium
+22500366,321,3pt,2,PT01M55.00S,01:55,Q2 01:55,53,70,1610612740.0,Alvarado,J. Alvarado 25' 3PT  (10 PTS) (S. Bey 1 AST),2pt made,foul,17,Medium
+22500366,323,foul,2,PT01M48.00S,01:48,Q2 01:48,53,70,1610612740.0,Jones,H. Jones personal FOUL (3 PF) (Fox 2 FT),3pt made,freethrow,17,Medium
+22500366,325,freethrow,2,PT01M48.00S,01:48,Q2 01:48,53,71,1610612759.0,Fox,D. Fox Free Throw 1 of 2 (7 PTS),foul,freethrow,18,Medium
+22500366,328,freethrow,2,PT01M48.00S,01:48,Q2 01:48,53,72,1610612759.0,Fox,D. Fox Free Throw 2 of 2 (8 PTS),freethrow,substitution,19,Medium
+22500366,326,substitution,2,PT01M48.00S,01:48,Q2 01:48,53,71,1610612740.0,Jones,SUB out: H. Jones,freethrow,substitution,18,Medium
+22500366,327,substitution,2,PT01M48.00S,01:48,Q2 01:48,53,71,1610612740.0,McGowens,SUB in: B. McGowens,substitution,2pt made,18,Medium
+22500366,329,2pt,2,PT01M32.00S,01:32,Q2 01:32,55,72,1610612740.0,Bey,S. Bey driving DUNK (12 PTS),substitution,foul,17,Medium
+22500366,331,foul,2,PT01M19.00S,01:19,Q2 01:19,55,72,1610612759.0,Kornet,L. Kornet off-the-ball offensive FOUL (2 PF),2pt made,turnover,17,Medium
+22500366,333,turnover,2,PT01M19.00S,01:19,Q2 01:19,55,72,1610612759.0,Kornet,L. Kornet offensive foul TURNOVER (1 TO),foul,2pt missed,17,Medium
+22500366,334,2pt,2,PT00M57.00S,00:57,Q2 00:57,55,72,1610612740.0,Murphy III,MISS T. Murphy III 6' Jump Shot,turnover,rebound,17,Medium
+22500366,335,rebound,2,PT00M57.00S,00:57,Q2 00:57,55,72,1610612759.0,Kornet,L. Kornet REBOUND (Off:2 Def:3),2pt missed,2pt made,17,Medium
+22500366,336,2pt,2,PT00M52.90S,00:52,Q2 00:52,55,74,1610612759.0,Harper,D. Harper running Layup (13 PTS) (D. Fox 5 AST),rebound,3pt missed,19,Medium
+22500366,338,3pt,2,PT00M47.30S,00:47,Q2 00:47,55,74,1610612740.0,Queen,MISS D. Queen 25' 3PT,2pt made,rebound,19,Medium
+22500366,339,rebound,2,PT00M43.80S,00:43,Q2 00:43,55,74,1610612759.0,Kornet,L. Kornet REBOUND (Off:2 Def:4),3pt missed,3pt made,19,Medium
+22500366,340,3pt,2,PT00M36.30S,00:36,Q2 00:36,55,77,1610612759.0,Vassell,D. Vassell 29' 3PT pullup (5 PTS),rebound,2pt made,22,Medium
+22500366,341,2pt,2,PT00M29.10S,00:29,Q2 00:29,57,77,1610612740.0,Queen,D. Queen driving Layup (4 PTS) (J. Alvarado 4 AST),3pt made,3pt missed,20,Medium
+22500366,343,3pt,2,PT00M07.50S,00:07,Q2 00:07,57,77,1610612759.0,Barnes,MISS H. Barnes 3PT,2pt made,rebound,20,Medium
+22500366,344,rebound,2,PT00M03.30S,00:03,Q2 00:03,57,77,1610612759.0,Kornet,L. Kornet REBOUND (Off:3 Def:4),3pt missed,2pt missed,20,Medium
+22500366,345,2pt,2,PT00M02.60S,00:02,Q2 00:02,57,77,1610612759.0,Kornet,MISS L. Kornet 9' turnaround Shot,rebound,rebound,20,Medium
+22500366,346,rebound,2,PT00M00.80S,00:00,Q2 00:00,57,77,1610612740.0,Alvarado,J. Alvarado REBOUND (Off:0 Def:2),2pt missed,rebound,20,Medium
+22500366,348,rebound,2,PT00M00.10S,00:00,Q2 00:00,57,77,1610612740.0,,TEAM offensive REBOUND,rebound,substitution,20,Medium
+22500366,350,substitution,3,PT12M00.00S,12:00,Q3 12:00,57,77,1610612740.0,Alvarado,SUB out: J. Alvarado,rebound,substitution,20,Medium
+22500366,351,substitution,3,PT12M00.00S,12:00,Q3 12:00,57,77,1610612740.0,McGowens,SUB out: B. McGowens,substitution,substitution,20,Medium
+22500366,352,substitution,3,PT12M00.00S,12:00,Q3 12:00,57,77,1610612759.0,Harper,SUB out: D. Harper,substitution,substitution,20,Medium
+22500366,353,substitution,3,PT12M00.00S,12:00,Q3 12:00,57,77,1610612740.0,Jones,SUB in: H. Jones,substitution,substitution,20,Medium
+22500366,354,substitution,3,PT12M00.00S,12:00,Q3 12:00,57,77,1610612740.0,Fears,SUB in: J. Fears,substitution,substitution,20,Medium
+22500366,355,substitution,3,PT12M00.00S,12:00,Q3 12:00,57,77,1610612759.0,Castle,SUB in: S. Castle,substitution,3pt missed,20,Medium
+22500366,357,3pt,3,PT11M37.00S,11:37,Q3 11:37,57,77,1610612740.0,Jones,MISS H. Jones 3PT,substitution,rebound,20,Medium
+22500366,358,rebound,3,PT11M33.00S,11:33,Q3 11:33,57,77,1610612759.0,Castle,S. Castle REBOUND (Off:0 Def:2),3pt missed,2pt missed,20,Medium
+22500366,359,2pt,3,PT11M25.00S,11:25,Q3 11:25,57,77,1610612759.0,Fox,MISS D. Fox driving Layup,rebound,rebound,20,Medium
+22500366,360,rebound,3,PT11M22.00S,11:22,Q3 11:22,57,77,1610612740.0,Fears,J. Fears REBOUND (Off:1 Def:2),2pt missed,2pt made,20,Medium
+22500366,361,2pt,3,PT11M16.00S,11:16,Q3 11:16,59,77,1610612740.0,Jones,H. Jones driving Layup (6 PTS) (T. Murphy III 3 AST),rebound,foul,18,Medium
+22500366,363,foul,3,PT11M16.00S,11:16,Q3 11:16,59,77,1610612759.0,Castle,S. Castle shooting personal FOUL (3 PF) (Jones 1 FT),2pt made,freethrow,18,Medium
+22500366,365,freethrow,3,PT11M16.00S,11:16,Q3 11:16,60,77,1610612740.0,Jones,H. Jones Free Throw 1 of 1 (7 PTS),foul,turnover,17,Medium
+22500366,366,turnover,3,PT11M04.00S,11:04,Q3 11:04,60,77,1610612759.0,Barnes,H. Barnes bad pass TURNOVER (2 TO),freethrow,steal,17,Medium
+22500366,367,steal,3,PT11M04.00S,11:04,Q3 11:04,60,77,1610612740.0,Murphy III,T. Murphy III STEAL (2 STL),turnover,2pt made,17,Medium
+22500366,368,2pt,3,PT11M00.00S,11:00,Q3 11:00,62,77,1610612740.0,Murphy III,T. Murphy III running DUNK (11 PTS) (H. Jones 2 AST),steal,timeout,15,Medium
+22500366,370,timeout,3,PT11M00.00S,11:00,Q3 11:00,62,77,1610612759.0,,SAS Timeout,2pt made,2pt missed,15,Medium
+22500366,371,2pt,3,PT10M44.00S,10:44,Q3 10:44,62,77,1610612759.0,Fox,MISS D. Fox driving Layup,timeout,rebound,15,Medium
+22500366,372,rebound,3,PT10M42.00S,10:42,Q3 10:42,62,77,1610612740.0,Bey,S. Bey REBOUND (Off:1 Def:2),2pt missed,2pt made,15,Medium
+22500366,373,2pt,3,PT10M33.00S,10:33,Q3 10:33,64,77,1610612740.0,Queen,D. Queen Layup (6 PTS),rebound,turnover,13,Medium
+22500366,374,turnover,3,PT10M23.00S,10:23,Q3 10:23,64,77,1610612759.0,Fox,D. Fox bad pass out-of-bounds TURNOVER (4 TO),2pt made,2pt made,13,Medium
+22500366,375,2pt,3,PT10M02.00S,10:02,Q3 10:02,66,77,1610612740.0,Queen,D. Queen reverse Layup (8 PTS) (T. Murphy III 4 AST),turnover,3pt missed,11,Medium
+22500366,377,3pt,3,PT09M46.00S,09:46,Q3 09:46,66,77,1610612759.0,Vassell,MISS D. Vassell 27' 3PT,2pt made,rebound,11,Medium
+22500366,378,rebound,3,PT09M42.00S,09:42,Q3 09:42,66,77,1610612740.0,Bey,S. Bey REBOUND (Off:1 Def:3),3pt missed,foul,11,Medium
+22500366,379,foul,3,PT09M35.00S,09:35,Q3 09:35,66,77,1610612759.0,Kornet,L. Kornet shooting personal FOUL (3 PF) (Queen 2 FT),rebound,freethrow,11,Medium
+22500366,381,freethrow,3,PT09M35.00S,09:35,Q3 09:35,67,77,1610612740.0,Queen,D. Queen Free Throw 1 of 2 (9 PTS),foul,freethrow,10,Medium
+22500366,382,freethrow,3,PT09M35.00S,09:35,Q3 09:35,68,77,1610612740.0,Queen,D. Queen Free Throw 2 of 2 (10 PTS),freethrow,foul,9,Medium
+22500366,383,foul,3,PT09M22.00S,09:22,Q3 09:22,68,77,1610612740.0,Fears,J. Fears personal FOUL (3 PF),freethrow,2pt made,9,Medium
+22500366,385,2pt,3,PT09M17.00S,09:17,Q3 09:17,68,79,1610612759.0,Barnes,H. Barnes cutting Layup (16 PTS) (D. Vassell 2 AST),foul,2pt made,11,Medium
+22500366,387,2pt,3,PT09M10.00S,09:10,Q3 09:10,70,79,1610612740.0,Murphy III,T. Murphy III alley-oop DUNK (13 PTS) (H. Jones 3 AST),2pt made,2pt made,9,Medium
+22500366,389,2pt,3,PT08M54.00S,08:54,Q3 08:54,70,81,1610612759.0,Barnes,H. Barnes Layup (18 PTS),2pt made,2pt made,11,Medium
+22500366,391,2pt,3,PT08M37.00S,08:37,Q3 08:37,72,81,1610612740.0,Queen,D. Queen cutting DUNK (12 PTS) (H. Jones 4 AST),2pt made,2pt made,9,Medium
+22500366,393,2pt,3,PT08M22.00S,08:22,Q3 08:22,72,83,1610612759.0,Barnes,H. Barnes 9' turnaround fadeaway Jump Shot (20 PTS),2pt made,2pt made,11,Medium
+22500366,394,2pt,3,PT08M05.00S,08:05,Q3 08:05,74,83,1610612740.0,Murphy III,T. Murphy III finger roll Layup (15 PTS) (D. Queen 4 AST),2pt made,2pt missed,9,Medium
+22500366,395,2pt,3,PT07M53.00S,07:53,Q3 07:53,74,83,1610612759.0,Castle,MISS S. Castle floating Shot,2pt made,rebound,9,Medium
+22500366,396,rebound,3,PT07M53.00S,07:53,Q3 07:53,74,83,1610612759.0,Kornet,L. Kornet REBOUND (Off:4 Def:4),2pt missed,substitution,9,Medium
+22500366,398,substitution,3,PT07M45.00S,07:45,Q3 07:45,74,83,1610612759.0,Fox,SUB out: D. Fox,rebound,substitution,9,Medium
+22500366,399,substitution,3,PT07M45.00S,07:45,Q3 07:45,74,83,1610612759.0,Castle,SUB out: S. Castle,substitution,substitution,9,Medium
+22500366,400,substitution,3,PT07M45.00S,07:45,Q3 07:45,74,83,1610612759.0,Harper,SUB in: D. Harper,substitution,substitution,9,Medium
+22500366,401,substitution,3,PT07M45.00S,07:45,Q3 07:45,74,83,1610612759.0,Champagnie,SUB in: J. Champagnie,substitution,turnover,9,Medium
+22500366,403,turnover,3,PT07M39.00S,07:39,Q3 07:39,74,83,1610612759.0,,SAS shot clock Team TURNOVER,substitution,3pt missed,9,Medium
+22500366,404,3pt,3,PT07M28.00S,07:28,Q3 07:28,74,83,1610612740.0,Jones,MISS H. Jones 25' 3PT,turnover,rebound,9,Medium
+22500366,405,rebound,3,PT07M24.00S,07:24,Q3 07:24,74,83,1610612759.0,Vassell,D. Vassell REBOUND (Off:0 Def:3),3pt missed,2pt missed,9,Medium
+22500366,406,2pt,3,PT07M14.00S,07:14,Q3 07:14,74,83,1610612759.0,Harper,MISS D. Harper driving Layup,rebound,rebound,9,Medium
+22500366,407,rebound,3,PT07M10.00S,07:10,Q3 07:10,74,83,1610612740.0,Queen,D. Queen REBOUND (Off:0 Def:7),2pt missed,2pt made,9,Medium
+22500366,408,2pt,3,PT07M09.00S,07:09,Q3 07:09,76,83,1610612740.0,Queen,D. Queen running finger roll Layup (14 PTS),rebound,foul,7,Medium
+22500366,409,foul,3,PT07M09.00S,07:09,Q3 07:09,76,83,1610612759.0,Barnes,H. Barnes shooting personal FOUL (1 PF) (Queen 1 FT),2pt made,freethrow,7,Medium
+22500366,413,freethrow,3,PT07M09.00S,07:09,Q3 07:09,77,83,1610612740.0,Queen,D. Queen Free Throw 1 of 1 (15 PTS),foul,substitution,6,Medium
+22500366,411,substitution,3,PT07M09.00S,07:09,Q3 07:09,76,83,1610612759.0,Kornet,SUB out: L. Kornet,freethrow,substitution,7,Medium
+22500366,412,substitution,3,PT07M09.00S,07:09,Q3 07:09,76,83,1610612759.0,Johnson,SUB in: K. Johnson,substitution,turnover,7,Medium
+22500366,414,turnover,3,PT07M02.00S,07:02,Q3 07:02,77,83,1610612759.0,Harper,D. Harper bad pass TURNOVER (1 TO),substitution,steal,6,Medium
+22500366,415,steal,3,PT07M02.00S,07:02,Q3 07:02,77,83,1610612740.0,Jones,H. Jones STEAL (3 STL),turnover,2pt missed,6,Medium
+22500366,416,2pt,3,PT06M58.00S,06:58,Q3 06:58,77,83,1610612740.0,Fears,MISS J. Fears running Layup,steal,rebound,6,Medium
+22500366,417,rebound,3,PT06M58.00S,06:58,Q3 06:58,77,83,1610612740.0,Jones,H. Jones REBOUND (Off:2 Def:2),2pt missed,foul,6,Medium
+22500366,418,foul,3,PT06M58.00S,06:58,Q3 06:58,77,83,1610612759.0,Johnson,K. Johnson shooting personal FOUL (1 PF) (Jones 2 FT),rebound,freethrow,6,Medium
+22500366,420,freethrow,3,PT06M58.00S,06:58,Q3 06:58,78,83,1610612740.0,Jones,H. Jones Free Throw 1 of 2 (8 PTS),foul,freethrow,5,Medium
+22500366,421,freethrow,3,PT06M58.00S,06:58,Q3 06:58,79,83,1610612740.0,Jones,H. Jones Free Throw 2 of 2 (9 PTS),freethrow,2pt made,4,Medium
+22500366,422,2pt,3,PT06M41.00S,06:41,Q3 06:41,79,85,1610612759.0,Barnes,H. Barnes 6' driving floating Jump Shot (22 PTS),freethrow,2pt made,6,Medium
+22500366,423,2pt,3,PT06M29.00S,06:29,Q3 06:29,81,85,1610612740.0,Jones,H. Jones cutting DUNK (11 PTS) (D. Queen 5 AST),2pt made,2pt missed,4,Medium
+22500366,425,2pt,3,PT06M18.00S,06:18,Q3 06:18,81,85,1610612759.0,Harper,MISS D. Harper driving reverse Layup,2pt made,rebound,4,Medium
+22500366,426,rebound,3,PT06M15.00S,06:15,Q3 06:15,81,85,1610612740.0,Queen,D. Queen REBOUND (Off:0 Def:8),2pt missed,foul,4,Medium
+22500366,427,foul,3,PT06M14.00S,06:14,Q3 06:14,81,85,1610612740.0,Fears,J. Fears charge offensive FOUL (4 PF),rebound,turnover,4,Medium
+22500366,429,turnover,3,PT06M14.00S,06:14,Q3 06:14,81,85,1610612740.0,Fears,J. Fears offensive foul TURNOVER (1 TO),foul,substitution,4,Medium
+22500366,430,substitution,3,PT06M14.00S,06:14,Q3 06:14,81,85,1610612740.0,Fears,SUB out: J. Fears,turnover,substitution,4,Medium
+22500366,431,substitution,3,PT06M14.00S,06:14,Q3 06:14,81,85,1610612740.0,Alvarado,SUB in: J. Alvarado,substitution,2pt made,4,Medium
+22500366,432,2pt,3,PT06M01.00S,06:01,Q3 06:01,81,87,1610612759.0,Barnes,H. Barnes driving Hook (24 PTS) (D. Harper 3 AST),substitution,foul,6,Medium
+22500366,433,foul,3,PT05M47.00S,05:47,Q3 05:47,81,87,1610612759.0,Johnson,K. Johnson shooting personal FOUL (2 PF) (Queen 2 FT),2pt made,freethrow,6,Medium
+22500366,436,freethrow,3,PT05M47.00S,05:47,Q3 05:47,82,87,1610612740.0,Queen,D. Queen Free Throw 1 of 2 (16 PTS),foul,freethrow,5,Medium
+22500366,437,freethrow,3,PT05M47.00S,05:47,Q3 05:47,83,87,1610612740.0,Queen,D. Queen Free Throw 2 of 2 (17 PTS),freethrow,2pt missed,4,Medium
+22500366,438,2pt,3,PT05M38.00S,05:38,Q3 05:38,83,87,1610612759.0,Johnson,MISS K. Johnson driving Layup - blocked,freethrow,block,4,Medium
+22500366,439,block,3,PT05M38.00S,05:38,Q3 05:38,83,87,1610612740.0,Queen,D. Queen BLOCK (2 BLK),2pt missed,rebound,4,Medium
+22500366,440,rebound,3,PT05M34.00S,05:34,Q3 05:34,83,87,1610612740.0,Queen,D. Queen REBOUND (Off:0 Def:9),block,2pt made,4,Medium
+22500366,441,2pt,3,PT05M29.00S,05:29,Q3 05:29,85,87,1610612740.0,Murphy III,T. Murphy III cutting DUNK (17 PTS) (J. Alvarado 5 AST),rebound,timeout,2,Medium
+22500366,443,timeout,3,PT05M29.00S,05:29,Q3 05:29,85,87,1610612759.0,,SAS Timeout,2pt made,substitution,2,Medium
+22500366,446,substitution,3,PT05M29.00S,05:29,Q3 05:29,85,87,1610612759.0,Harper,SUB out: D. Harper,timeout,substitution,2,Medium
+22500366,447,substitution,3,PT05M29.00S,05:29,Q3 05:29,85,87,1610612759.0,Vassell,SUB out: D. Vassell,substitution,substitution,2,Medium
+22500366,448,substitution,3,PT05M29.00S,05:29,Q3 05:29,85,87,1610612759.0,Olynyk,SUB in: K. Olynyk,substitution,substitution,2,Medium
+22500366,449,substitution,3,PT05M29.00S,05:29,Q3 05:29,85,87,1610612759.0,Fox,SUB in: D. Fox,substitution,3pt missed,2,Medium
+22500366,450,3pt,3,PT05M07.00S,05:07,Q3 05:07,85,87,1610612759.0,Fox,MISS D. Fox 26' step back 3PT,substitution,rebound,2,Medium
+22500366,451,rebound,3,PT05M03.00S,05:03,Q3 05:03,85,87,1610612740.0,Queen,D. Queen REBOUND (Off:0 Def:10),3pt missed,2pt made,2,Medium
+22500366,452,2pt,3,PT04M54.00S,04:54,Q3 04:54,87,87,1610612740.0,Bey,S. Bey driving finger roll Layup (14 PTS) (D. Queen 6 AST),rebound,3pt missed,0,Medium
+22500366,454,3pt,3,PT04M43.00S,04:43,Q3 04:43,87,87,1610612759.0,Olynyk,MISS K. Olynyk 25' 3PT,2pt made,rebound,0,Medium
+22500366,455,rebound,3,PT04M40.00S,04:40,Q3 04:40,87,87,1610612740.0,Jones,H. Jones REBOUND (Off:2 Def:3),3pt missed,3pt missed,0,Medium
+22500366,456,3pt,3,PT04M28.00S,04:28,Q3 04:28,87,87,1610612740.0,Alvarado,MISS J. Alvarado 25' 3PT,rebound,rebound,0,Medium
+22500366,457,rebound,3,PT04M25.00S,04:25,Q3 04:25,87,87,1610612759.0,Champagnie,J. Champagnie REBOUND (Off:0 Def:3),3pt missed,2pt missed,0,Medium
+22500366,458,2pt,3,PT04M07.00S,04:07,Q3 04:07,87,87,1610612759.0,Johnson,MISS K. Johnson driving Layup,rebound,rebound,0,Medium
+22500366,459,rebound,3,PT04M04.00S,04:04,Q3 04:04,87,87,1610612759.0,Barnes,H. Barnes REBOUND (Off:1 Def:1),2pt missed,3pt made,0,Medium
+22500366,460,3pt,3,PT04M02.00S,04:02,Q3 04:02,87,90,1610612759.0,Olynyk,K. Olynyk 3PT  (3 PTS) (H. Barnes 1 AST),rebound,2pt made,3,Medium
+22500366,462,2pt,3,PT03M43.00S,03:43,Q3 03:43,89,90,1610612740.0,Queen,D. Queen 7' driving floating Jump Shot (19 PTS),3pt made,2pt missed,1,Medium
+22500366,463,2pt,3,PT03M28.00S,03:28,Q3 03:28,89,90,1610612759.0,Fox,MISS D. Fox driving Layup - blocked,2pt made,block,1,Medium
+22500366,464,block,3,PT03M28.00S,03:28,Q3 03:28,89,90,1610612740.0,Jones,H. Jones BLOCK (1 BLK),2pt missed,rebound,1,Medium
+22500366,465,rebound,3,PT03M25.00S,03:25,Q3 03:25,89,90,1610612740.0,Murphy III,T. Murphy III REBOUND (Off:0 Def:2),block,foul,1,Medium
+22500366,466,foul,3,PT03M23.00S,03:23,Q3 03:23,89,90,1610612759.0,Barnes,H. Barnes shooting personal FOUL (2 PF) (Queen 2 FT),rebound,freethrow,1,Medium
+22500366,468,freethrow,3,PT03M23.00S,03:23,Q3 03:23,90,90,1610612740.0,Queen,D. Queen Free Throw 1 of 2 (20 PTS),foul,freethrow,0,Medium
+22500366,475,freethrow,3,PT03M23.00S,03:23,Q3 03:23,91,90,1610612740.0,Queen,D. Queen Free Throw 2 of 2 (21 PTS),freethrow,substitution,1,Medium
+22500366,469,substitution,3,PT03M23.00S,03:23,Q3 03:23,90,90,1610612740.0,Jones,SUB out: H. Jones,freethrow,substitution,0,Medium
+22500366,470,substitution,3,PT03M23.00S,03:23,Q3 03:23,90,90,1610612759.0,Johnson,SUB out: K. Johnson,substitution,substitution,0,Medium
+22500366,471,substitution,3,PT03M23.00S,03:23,Q3 03:23,90,90,1610612759.0,Barnes,SUB out: H. Barnes,substitution,substitution,0,Medium
+22500366,472,substitution,3,PT03M23.00S,03:23,Q3 03:23,90,90,1610612740.0,McGowens,SUB in: B. McGowens,substitution,substitution,0,Medium
+22500366,473,substitution,3,PT03M23.00S,03:23,Q3 03:23,90,90,1610612759.0,Castle,SUB in: S. Castle,substitution,substitution,0,Medium
+22500366,474,substitution,3,PT03M23.00S,03:23,Q3 03:23,90,90,1610612759.0,Bryant,SUB in: C. Bryant,substitution,2pt made,0,Medium
+22500366,476,2pt,3,PT03M09.00S,03:09,Q3 03:09,91,92,1610612759.0,Olynyk,K. Olynyk driving Layup (5 PTS) (S. Castle 4 AST),substitution,2pt made,1,Medium
+22500366,478,2pt,3,PT02M52.00S,02:52,Q3 02:52,93,92,1610612740.0,Queen,D. Queen 10' fadeaway Jump Shot (23 PTS),2pt made,2pt missed,1,Medium
+22500366,479,2pt,3,PT02M39.00S,02:39,Q3 02:39,93,92,1610612759.0,Castle,MISS S. Castle 14' pullup Shot,2pt made,rebound,1,Medium
+22500366,480,rebound,3,PT02M35.00S,02:35,Q3 02:35,93,92,1610612740.0,McGowens,B. McGowens REBOUND (Off:0 Def:1),2pt missed,3pt missed,1,Medium
+22500366,481,3pt,3,PT02M32.00S,02:32,Q3 02:32,93,92,1610612740.0,Murphy III,MISS T. Murphy III 28' running 3PT,rebound,rebound,1,Medium
+22500366,482,rebound,3,PT02M29.00S,02:29,Q3 02:29,93,92,1610612759.0,Champagnie,J. Champagnie REBOUND (Off:0 Def:4),3pt missed,foul,1,Medium
+22500366,483,foul,3,PT02M16.00S,02:16,Q3 02:16,93,92,1610612740.0,Murphy III,T. Murphy III shooting personal FOUL (1 PF) (Castle 2 FT),rebound,freethrow,1,Medium
+22500366,485,freethrow,3,PT02M16.00S,02:16,Q3 02:16,93,92,1610612759.0,Castle,MISS S. Castle Free Throw 1 of 2,foul,rebound,1,Medium
+22500366,486,rebound,3,PT02M16.00S,02:16,Q3 02:16,93,92,1610612759.0,,TEAM offensive REBOUND,freethrow,freethrow,1,Medium
+22500366,487,freethrow,3,PT02M16.00S,02:16,Q3 02:16,93,93,1610612759.0,Castle,S. Castle Free Throw 2 of 2 (11 PTS),rebound,2pt made,0,Medium
+22500366,488,2pt,3,PT01M52.00S,01:52,Q3 01:52,95,93,1610612740.0,Murphy III,T. Murphy III driving floating Jump Shot (19 PTS) (D. Queen 7 AST),freethrow,3pt missed,2,Medium
+22500366,490,3pt,3,PT01M37.00S,01:37,Q3 01:37,95,93,1610612759.0,Bryant,MISS C. Bryant 25' 3PT,2pt made,rebound,2,Medium
+22500366,491,rebound,3,PT01M36.00S,01:36,Q3 01:36,95,93,1610612759.0,Olynyk,K. Olynyk REBOUND (Off:1 Def:1),3pt missed,2pt made,2,Medium
+22500366,492,2pt,3,PT01M36.00S,01:36,Q3 01:36,95,95,1610612759.0,Olynyk,K. Olynyk putback Layup (7 PTS),rebound,timeout,0,Medium
+22500366,493,timeout,3,PT01M28.00S,01:28,Q3 01:28,95,95,1610612740.0,,NOP Timeout,2pt made,substitution,0,Medium
+22500366,494,substitution,3,PT01M28.00S,01:28,Q3 01:28,95,95,1610612740.0,Murphy III,SUB out: T. Murphy III,timeout,substitution,0,Medium
+22500366,495,substitution,3,PT01M28.00S,01:28,Q3 01:28,95,95,1610612740.0,Peavy,SUB in: M. Peavy,substitution,3pt made,0,Medium
+22500366,496,3pt,3,PT01M18.00S,01:18,Q3 01:18,98,95,1610612740.0,Bey,S. Bey 3PT  (17 PTS) (B. McGowens 2 AST),substitution,3pt made,3,Medium
+22500366,498,3pt,3,PT00M56.50S,00:56,Q3 00:56,98,98,1610612759.0,Castle,S. Castle 25' 3PT  (14 PTS) (D. Fox 6 AST),3pt made,2pt made,0,Medium
+22500366,500,2pt,3,PT00M34.90S,00:34,Q3 00:34,100,98,1610612740.0,Peavy,M. Peavy cutting Layup (4 PTS) (D. Queen 8 AST),3pt made,3pt missed,2,Medium
+22500366,502,3pt,3,PT00M31.10S,00:31,Q3 00:31,100,98,1610612759.0,Fox,MISS D. Fox 26' pullup 3PT,2pt made,rebound,2,Medium
+22500366,503,rebound,3,PT00M28.50S,00:28,Q3 00:28,100,98,1610612759.0,Castle,S. Castle REBOUND (Off:1 Def:2),3pt missed,2pt made,2,Medium
+22500366,504,2pt,3,PT00M28.50S,00:28,Q3 00:28,100,100,1610612759.0,Castle,S. Castle putback DUNK (16 PTS),rebound,foul,0,Medium
+22500366,505,foul,3,PT00M09.30S,00:09,Q3 00:09,100,100,1610612759.0,Olynyk,K. Olynyk shooting personal FOUL (1 PF) (Queen 2 FT),2pt made,freethrow,0,Medium
+22500366,507,freethrow,3,PT00M09.30S,00:09,Q3 00:09,101,100,1610612740.0,Queen,D. Queen Free Throw 1 of 2 (24 PTS),foul,freethrow,1,Medium
+22500366,510,freethrow,3,PT00M09.30S,00:09,Q3 00:09,102,100,1610612740.0,Queen,D. Queen Free Throw 2 of 2 (25 PTS),freethrow,substitution,2,Medium
+22500366,539,substitution,3,PT00M09.30S,00:09,Q3 00:09,101,100,1610612759.0,Bryant,SUB out: C. Bryant,freethrow,substitution,1,Medium
+22500366,540,substitution,3,PT00M09.30S,00:09,Q3 00:09,101,100,1610612759.0,Vassell,SUB in: D. Vassell,substitution,foul,1,Medium
+22500366,511,foul,3,PT00M04.30S,00:04,Q3 00:04,102,100,1610612740.0,McGowens,B. McGowens personal FOUL (2 PF),substitution,substitution,2,Medium
+22500366,515,substitution,3,PT00M04.30S,00:04,Q3 00:04,102,100,1610612740.0,Queen,SUB out: D. Queen,foul,substitution,2,Medium
+22500366,516,substitution,3,PT00M04.30S,00:04,Q3 00:04,102,100,1610612740.0,Missi,SUB in: Y. Missi,substitution,substitution,2,Medium
+22500366,518,substitution,4,PT12M00.00S,12:00,Q4 12:00,102,100,1610612740.0,Bey,SUB out: S. Bey,substitution,substitution,2,Medium
+22500366,520,substitution,4,PT12M00.00S,12:00,Q4 12:00,102,100,1610612759.0,Castle,SUB out: S. Castle,substitution,substitution,2,Medium
+22500366,521,substitution,4,PT12M00.00S,12:00,Q4 12:00,102,100,1610612759.0,Olynyk,SUB out: K. Olynyk,substitution,substitution,2,Medium
+22500366,523,substitution,4,PT12M00.00S,12:00,Q4 12:00,102,100,1610612740.0,Jones,SUB in: H. Jones,substitution,substitution,2,Medium
+22500366,525,substitution,4,PT12M00.00S,12:00,Q4 12:00,102,100,1610612759.0,Kornet,SUB in: L. Kornet,substitution,substitution,2,Medium
+22500366,527,substitution,4,PT12M00.00S,12:00,Q4 12:00,102,100,1610612759.0,Harper,SUB in: D. Harper,substitution,foul,2,Medium
+22500366,530,foul,4,PT11M43.00S,11:43,Q4 11:43,102,100,1610612740.0,Alvarado,J. Alvarado personal FOUL (1 PF),substitution,foul,2,Medium
+22500366,532,foul,4,PT11M40.00S,11:40,Q4 11:40,102,100,1610612740.0,Alvarado,J. Alvarado personal FOUL (2 PF),foul,3pt missed,2,Medium
+22500366,534,3pt,4,PT11M36.00S,11:36,Q4 11:36,102,100,1610612759.0,Vassell,MISS D. Vassell 26' 3PT,foul,rebound,2,Medium
+22500366,535,rebound,4,PT11M33.00S,11:33,Q4 11:33,102,100,1610612740.0,Alvarado,J. Alvarado REBOUND (Off:0 Def:3),3pt missed,2pt made,2,Medium
+22500366,536,2pt,4,PT11M29.00S,11:29,Q4 11:29,104,100,1610612740.0,Jones,H. Jones running Layup (13 PTS),rebound,foul,4,Medium
+22500366,538,foul,4,PT11M20.00S,11:20,Q4 11:20,104,100,1610612740.0,Jones,H. Jones personal FOUL (4 PF),2pt made,3pt missed,4,Medium
+22500366,542,3pt,4,PT11M11.00S,11:11,Q4 11:11,104,100,1610612759.0,Harper,MISS D. Harper 26' 3PT,foul,rebound,4,Medium
+22500366,543,rebound,4,PT11M11.00S,11:11,Q4 11:11,104,100,1610612759.0,,TEAM offensive REBOUND,3pt missed,foul,4,Medium
+22500366,544,foul,4,PT11M11.00S,11:11,Q4 11:11,104,100,1610612740.0,Missi,Y. Missi loose ball personal FOUL (2 PF),rebound,2pt made,4,Medium
+22500366,546,2pt,4,PT11M06.00S,11:06,Q4 11:06,104,102,1610612759.0,Kornet,L. Kornet Layup (6 PTS) (D. Vassell 3 AST),foul,foul,2,Medium
+22500366,548,foul,4,PT10M58.00S,10:58,Q4 10:58,104,102,1610612759.0,Vassell,D. Vassell personal FOUL (2 PF),2pt made,2pt made,2,Medium
+22500366,550,2pt,4,PT10M51.00S,10:51,Q4 10:51,106,102,1610612740.0,Jones,H. Jones 17' pullup Jump Shot (15 PTS),foul,2pt made,4,Medium
+22500366,551,2pt,4,PT10M32.00S,10:32,Q4 10:32,106,104,1610612759.0,Fox,D. Fox 6' fadeaway Jump Shot (10 PTS) (J. Champagnie 1 AST),2pt made,3pt missed,2,Medium
+22500366,554,3pt,4,PT10M16.00S,10:16,Q4 10:16,106,104,1610612740.0,Alvarado,MISS J. Alvarado 24' 3PT,2pt made,rebound,2,Medium
+22500366,555,rebound,4,PT10M11.00S,10:11,Q4 10:11,106,104,1610612759.0,Champagnie,J. Champagnie REBOUND (Off:0 Def:5),3pt missed,3pt made,2,Medium
+22500366,556,3pt,4,PT10M04.00S,10:04,Q4 10:04,106,107,1610612759.0,Champagnie,J. Champagnie 25' 3PT  (13 PTS) (D. Harper 4 AST),rebound,foul,1,Medium
+22500366,558,foul,4,PT09M41.00S,09:41,Q4 09:41,106,107,1610612759.0,Kornet,L. Kornet shooting personal FOUL (4 PF) (Jones 2 FT),3pt made,freethrow,1,Medium
+22500366,560,freethrow,4,PT09M41.00S,09:41,Q4 09:41,107,107,1610612740.0,Jones,H. Jones Free Throw 1 of 2 (16 PTS),foul,freethrow,0,Medium
+22500366,565,freethrow,4,PT09M41.00S,09:41,Q4 09:41,108,107,1610612740.0,Jones,H. Jones Free Throw 2 of 2 (17 PTS),freethrow,substitution,1,Medium
+22500366,561,substitution,4,PT09M41.00S,09:41,Q4 09:41,107,107,1610612740.0,Missi,SUB out: Y. Missi,freethrow,substitution,0,Medium
+22500366,562,substitution,4,PT09M41.00S,09:41,Q4 09:41,107,107,1610612759.0,Fox,SUB out: D. Fox,substitution,substitution,0,Medium
+22500366,563,substitution,4,PT09M41.00S,09:41,Q4 09:41,107,107,1610612740.0,Queen,SUB in: D. Queen,substitution,substitution,0,Medium
+22500366,564,substitution,4,PT09M41.00S,09:41,Q4 09:41,107,107,1610612759.0,Castle,SUB in: S. Castle,substitution,2pt missed,0,Medium
+22500366,566,2pt,4,PT09M19.00S,09:19,Q4 09:19,108,107,1610612759.0,Castle,MISS S. Castle Layup - blocked,substitution,block,1,Medium
+22500366,567,block,4,PT09M19.00S,09:19,Q4 09:19,108,107,1610612740.0,Queen,D. Queen BLOCK (3 BLK),2pt missed,rebound,1,Medium
+22500366,568,rebound,4,PT09M18.00S,09:18,Q4 09:18,108,107,1610612759.0,Kornet,L. Kornet REBOUND (Off:5 Def:4),block,2pt missed,1,Medium
+22500366,569,2pt,4,PT09M18.00S,09:18,Q4 09:18,108,107,1610612759.0,Kornet,MISS L. Kornet Layup,rebound,rebound,1,Medium
+22500366,570,rebound,4,PT09M17.00S,09:17,Q4 09:17,108,107,1610612759.0,Castle,S. Castle REBOUND (Off:2 Def:2),2pt missed,2pt missed,1,Medium
+22500366,571,2pt,4,PT09M17.00S,09:17,Q4 09:17,108,107,1610612759.0,Castle,MISS S. Castle tip Layup,rebound,rebound,1,Medium
+22500366,572,rebound,4,PT09M17.00S,09:17,Q4 09:17,108,107,1610612759.0,,TEAM offensive REBOUND,2pt missed,turnover,1,Medium
+22500366,573,turnover,4,PT09M17.00S,09:17,Q4 09:17,108,107,1610612759.0,,SAS shot clock Team TURNOVER,rebound,foul,1,Medium
+22500366,574,foul,4,PT09M03.00S,09:03,Q4 09:03,108,107,1610612759.0,Champagnie,J. Champagnie shooting personal FOUL (1 PF) (Queen 2 FT),turnover,freethrow,1,Medium
+22500366,576,freethrow,4,PT09M03.00S,09:03,Q4 09:03,108,107,1610612740.0,Queen,MISS D. Queen Free Throw 1 of 2,foul,rebound,1,Medium
+22500366,577,rebound,4,PT09M03.00S,09:03,Q4 09:03,108,107,1610612740.0,,TEAM offensive REBOUND,freethrow,freethrow,1,Medium
+22500366,580,freethrow,4,PT09M03.00S,09:03,Q4 09:03,109,107,1610612740.0,Queen,D. Queen Free Throw 2 of 2 (26 PTS),rebound,substitution,2,Medium
+22500366,578,substitution,4,PT09M03.00S,09:03,Q4 09:03,108,107,1610612740.0,Jones,SUB out: H. Jones,freethrow,substitution,1,Medium
+22500366,579,substitution,4,PT09M03.00S,09:03,Q4 09:03,108,107,1610612740.0,Murphy III,SUB in: T. Murphy III,substitution,3pt made,1,Medium
+22500366,581,3pt,4,PT08M55.00S,08:55,Q4 08:55,109,110,1610612759.0,Champagnie,J. Champagnie 27' 3PT  (16 PTS) (D. Harper 5 AST),substitution,foul,1,Medium
+22500366,583,foul,4,PT08M55.00S,08:55,Q4 08:55,109,110,1610612740.0,Alvarado,J. Alvarado flagrant-type-1 personal FOUL (3 PF) (Champagnie 1 FT),3pt made,freethrow,1,Medium
+22500366,588,freethrow,4,PT08M55.00S,08:55,Q4 08:55,109,111,1610612759.0,Champagnie,J. Champagnie flagrant Free Throw 1 of 1 (17 PTS),foul,substitution,2,Medium
+22500366,585,substitution,4,PT08M55.00S,08:55,Q4 08:55,109,110,1610612759.0,Kornet,SUB out: L. Kornet,freethrow,substitution,1,Medium
+22500366,586,substitution,4,PT08M55.00S,08:55,Q4 08:55,109,110,1610612759.0,Olynyk,SUB in: K. Olynyk,substitution,3pt missed,1,Medium
+22500366,589,3pt,4,PT08M47.00S,08:47,Q4 08:47,109,111,1610612759.0,Harper,MISS D. Harper step back 3PT,substitution,rebound,2,Medium
+22500366,590,rebound,4,PT08M45.00S,08:45,Q4 08:45,109,111,1610612759.0,,TEAM offensive REBOUND,3pt missed,3pt missed,2,Medium
+22500366,592,3pt,4,PT08M41.00S,08:41,Q4 08:41,109,111,1610612759.0,Champagnie,MISS J. Champagnie 26' 3PT,rebound,rebound,2,Medium
+22500366,593,rebound,4,PT08M40.00S,08:40,Q4 08:40,109,111,1610612740.0,,TEAM defensive REBOUND,3pt missed,foul,2,Medium
+22500366,594,foul,4,PT08M40.00S,08:40,Q4 08:40,109,111,1610612759.0,Castle,S. Castle loose ball personal FOUL (4 PF),rebound,2pt missed,2,Medium
+22500366,596,2pt,4,PT08M16.00S,08:16,Q4 08:16,109,111,1610612740.0,Peavy,MISS M. Peavy 10' fadeaway Shot,foul,rebound,2,Medium
+22500366,597,rebound,4,PT08M14.00S,08:14,Q4 08:14,109,111,1610612759.0,Champagnie,J. Champagnie REBOUND (Off:0 Def:6),2pt missed,3pt missed,2,Medium
+22500366,598,3pt,4,PT08M04.00S,08:04,Q4 08:04,109,111,1610612759.0,Olynyk,MISS K. Olynyk 25' 3PT,rebound,rebound,2,Medium
+22500366,599,rebound,4,PT08M02.00S,08:02,Q4 08:02,109,111,1610612759.0,Castle,S. Castle REBOUND (Off:3 Def:2),3pt missed,foul,2,Medium
+22500366,600,foul,4,PT08M02.00S,08:02,Q4 08:02,109,111,1610612740.0,Peavy,M. Peavy shooting personal FOUL (1 PF) (Castle 2 FT),rebound,freethrow,2,Medium
+22500366,602,freethrow,4,PT08M02.00S,08:02,Q4 08:02,109,112,1610612759.0,Castle,S. Castle Free Throw 1 of 2 (17 PTS),foul,freethrow,3,Medium
+22500366,611,freethrow,4,PT08M02.00S,08:02,Q4 08:02,109,113,1610612759.0,Castle,S. Castle Free Throw 2 of 2 (18 PTS),freethrow,substitution,4,Medium
+22500366,603,substitution,4,PT08M02.00S,08:02,Q4 08:02,109,112,1610612740.0,Peavy,SUB out: M. Peavy,freethrow,substitution,3,Medium
+22500366,604,substitution,4,PT08M02.00S,08:02,Q4 08:02,109,112,1610612740.0,Alvarado,SUB out: J. Alvarado,substitution,substitution,3,Medium
+22500366,605,substitution,4,PT08M02.00S,08:02,Q4 08:02,109,112,1610612759.0,Harper,SUB out: D. Harper,substitution,substitution,3,Medium
+22500366,606,substitution,4,PT08M02.00S,08:02,Q4 08:02,109,112,1610612759.0,Vassell,SUB out: D. Vassell,substitution,substitution,3,Medium
+22500366,607,substitution,4,PT08M02.00S,08:02,Q4 08:02,109,112,1610612740.0,Fears,SUB in: J. Fears,substitution,substitution,3,Medium
+22500366,608,substitution,4,PT08M02.00S,08:02,Q4 08:02,109,112,1610612740.0,Bey,SUB in: S. Bey,substitution,substitution,3,Medium
+22500366,609,substitution,4,PT08M02.00S,08:02,Q4 08:02,109,112,1610612759.0,Barnes,SUB in: H. Barnes,substitution,substitution,3,Medium
+22500366,610,substitution,4,PT08M02.00S,08:02,Q4 08:02,109,112,1610612759.0,Johnson,SUB in: K. Johnson,substitution,turnover,3,Medium
+22500366,612,turnover,4,PT07M47.00S,07:47,Q4 07:47,109,113,1610612740.0,Murphy III,T. Murphy III lost ball TURNOVER (1 TO),substitution,steal,4,Medium
+22500366,613,steal,4,PT07M47.00S,07:47,Q4 07:47,109,113,1610612759.0,Olynyk,K. Olynyk STEAL (2 STL),turnover,2pt made,4,Medium
+22500366,614,2pt,4,PT07M44.00S,07:44,Q4 07:44,109,115,1610612759.0,Johnson,K. Johnson running Layup (9 PTS) (S. Castle 5 AST),steal,timeout,6,Medium
+22500366,616,timeout,4,PT07M44.00S,07:44,Q4 07:44,109,115,1610612740.0,,NOP Timeout,2pt made,2pt missed,6,Medium
+22500366,617,2pt,4,PT07M25.00S,07:25,Q4 07:25,109,115,1610612740.0,Bey,MISS S. Bey Layup,timeout,rebound,6,Medium
+22500366,619,rebound,4,PT07M09.00S,07:09,Q4 07:09,109,115,1610612759.0,Johnson,K. Johnson REBOUND (Off:3 Def:2),2pt missed,2pt missed,6,Medium
+22500366,620,2pt,4,PT07M07.00S,07:07,Q4 07:07,109,115,1610612759.0,Castle,MISS S. Castle 9' pullup Shot,rebound,rebound,6,Medium
+22500366,621,rebound,4,PT07M05.00S,07:05,Q4 07:05,109,115,1610612740.0,Bey,S. Bey REBOUND (Off:1 Def:4),2pt missed,foul,6,Medium
+22500366,622,foul,4,PT07M01.00S,07:01,Q4 07:01,109,115,1610612759.0,Johnson,K. Johnson personal FOUL (3 PF) (Queen 2 FT),rebound,freethrow,6,Medium
+22500366,624,freethrow,4,PT07M01.00S,07:01,Q4 07:01,109,115,1610612740.0,Queen,MISS D. Queen Free Throw 1 of 2,foul,rebound,6,Medium
+22500366,625,rebound,4,PT07M01.00S,07:01,Q4 07:01,109,115,1610612740.0,,TEAM offensive REBOUND,freethrow,freethrow,6,Medium
+22500366,626,freethrow,4,PT07M01.00S,07:01,Q4 07:01,110,115,1610612740.0,Queen,D. Queen Free Throw 2 of 2 (27 PTS),rebound,2pt missed,5,Medium
+22500366,627,2pt,4,PT06M49.00S,06:49,Q4 06:49,110,115,1610612759.0,Castle,MISS S. Castle driving Layup,freethrow,rebound,5,High
+22500366,628,rebound,4,PT06M45.00S,06:45,Q4 06:45,110,115,1610612740.0,Murphy III,T. Murphy III REBOUND (Off:0 Def:3),2pt missed,substitution,5,High
+22500366,630,substitution,4,PT06M42.00S,06:42,Q4 06:42,110,115,1610612759.0,Castle,SUB out: S. Castle,rebound,substitution,5,High
+22500366,631,substitution,4,PT06M42.00S,06:42,Q4 06:42,110,115,1610612759.0,Harper,SUB in: D. Harper,substitution,turnover,5,High
+22500366,632,turnover,4,PT06M34.00S,06:34,Q4 06:34,110,115,1610612740.0,Fears,J. Fears lost ball out-of-bounds TURNOVER (2 TO),substitution,2pt made,5,High
+22500366,633,2pt,4,PT06M13.00S,06:13,Q4 06:13,110,117,1610612759.0,Harper,D. Harper driving Layup (15 PTS),turnover,2pt made,7,Medium
+22500366,634,2pt,4,PT06M02.00S,06:02,Q4 06:02,112,117,1610612740.0,Murphy III,T. Murphy III cutting DUNK (21 PTS) (D. Queen 9 AST),2pt made,3pt made,5,High
+22500366,636,3pt,4,PT05M58.00S,05:58,Q4 05:58,112,120,1610612759.0,Olynyk,K. Olynyk 26' 3PT  (10 PTS) (D. Harper 6 AST),2pt made,3pt made,8,Medium
+22500366,638,3pt,4,PT05M40.00S,05:40,Q4 05:40,115,120,1610612740.0,McGowens,B. McGowens 24' 3PT step back (8 PTS),3pt made,3pt made,5,High
+22500366,639,3pt,4,PT05M29.00S,05:29,Q4 05:29,115,123,1610612759.0,Johnson,K. Johnson 3PT  (12 PTS) (J. Champagnie 2 AST),3pt made,2pt made,8,Medium
+22500366,641,2pt,4,PT05M09.00S,05:09,Q4 05:09,117,123,1610612740.0,Queen,D. Queen driving reverse Layup (29 PTS) (J. Fears 4 AST),3pt made,foul,6,High
+22500366,643,foul,4,PT05M00.00S,05:00,Q4 05:00,117,123,1610612740.0,McGowens,B. McGowens personal FOUL (3 PF) (Olynyk 2 FT),2pt made,freethrow,6,High
+22500366,645,freethrow,4,PT05M00.00S,05:00,Q4 05:00,117,123,1610612759.0,Olynyk,MISS K. Olynyk Free Throw 1 of 2,foul,rebound,6,High
+22500366,646,rebound,4,PT05M00.00S,05:00,Q4 05:00,117,123,1610612759.0,,TEAM offensive REBOUND,freethrow,freethrow,6,High
+22500366,655,freethrow,4,PT05M00.00S,05:00,Q4 05:00,117,124,1610612759.0,Olynyk,K. Olynyk Free Throw 2 of 2 (11 PTS),rebound,substitution,7,High
+22500366,647,substitution,4,PT05M00.00S,05:00,Q4 05:00,117,123,1610612740.0,Fears,SUB out: J. Fears,freethrow,substitution,6,High
+22500366,648,substitution,4,PT05M00.00S,05:00,Q4 05:00,117,123,1610612740.0,McGowens,SUB out: B. McGowens,substitution,substitution,6,High
+22500366,649,substitution,4,PT05M00.00S,05:00,Q4 05:00,117,123,1610612759.0,Champagnie,SUB out: J. Champagnie,substitution,substitution,6,High
+22500366,650,substitution,4,PT05M00.00S,05:00,Q4 05:00,117,123,1610612759.0,Barnes,SUB out: H. Barnes,substitution,substitution,6,High
+22500366,651,substitution,4,PT05M00.00S,05:00,Q4 05:00,117,123,1610612740.0,Jones,SUB in: H. Jones,substitution,substitution,6,High
+22500366,652,substitution,4,PT05M00.00S,05:00,Q4 05:00,117,123,1610612740.0,Alvarado,SUB in: J. Alvarado,substitution,substitution,6,High
+22500366,653,substitution,4,PT05M00.00S,05:00,Q4 05:00,117,123,1610612759.0,Vassell,SUB in: D. Vassell,substitution,substitution,6,High
+22500366,654,substitution,4,PT05M00.00S,05:00,Q4 05:00,117,123,1610612759.0,Kornet,SUB in: L. Kornet,substitution,2pt missed,6,High
+22500366,656,2pt,4,PT04M45.00S,04:45,Q4 04:45,117,124,1610612740.0,Queen,MISS D. Queen 16' Jump Shot,substitution,rebound,7,High
+22500366,657,rebound,4,PT04M42.00S,04:42,Q4 04:42,117,124,1610612759.0,Johnson,K. Johnson REBOUND (Off:3 Def:3),2pt missed,foul,7,High
+22500366,658,foul,4,PT04M38.00S,04:38,Q4 04:38,117,124,1610612740.0,Bey,S. Bey shooting personal FOUL (1 PF) (Harper 2 FT),rebound,freethrow,7,High
+22500366,660,freethrow,4,PT04M38.00S,04:38,Q4 04:38,117,125,1610612759.0,Harper,D. Harper Free Throw 1 of 2 (16 PTS),foul,freethrow,8,High
+22500366,665,freethrow,4,PT04M38.00S,04:38,Q4 04:38,117,125,1610612759.0,Harper,MISS D. Harper Free Throw 2 of 2,freethrow,substitution,8,High
+22500366,661,substitution,4,PT04M38.00S,04:38,Q4 04:38,117,125,1610612759.0,Johnson,SUB out: K. Johnson,freethrow,substitution,8,High
+22500366,662,substitution,4,PT04M38.00S,04:38,Q4 04:38,117,125,1610612759.0,Olynyk,SUB out: K. Olynyk,substitution,substitution,8,High
+22500366,663,substitution,4,PT04M38.00S,04:38,Q4 04:38,117,125,1610612759.0,Barnes,SUB in: H. Barnes,substitution,substitution,8,High
+22500366,664,substitution,4,PT04M38.00S,04:38,Q4 04:38,117,125,1610612759.0,Fox,SUB in: D. Fox,substitution,rebound,8,High
+22500366,666,rebound,4,PT04M36.00S,04:36,Q4 04:36,117,125,1610612740.0,,TEAM defensive REBOUND,substitution,2pt made,8,High
+22500366,668,2pt,4,PT04M21.00S,04:21,Q4 04:21,119,125,1610612740.0,Murphy III,T. Murphy III 20' Jump Shot (23 PTS) (D. Queen 10 AST),rebound,2pt made,6,High
+22500366,670,2pt,4,PT04M02.00S,04:02,Q4 04:02,119,127,1610612759.0,Harper,D. Harper Layup (18 PTS),2pt made,foul,8,High
+22500366,671,foul,4,PT03M47.00S,03:47,Q4 03:47,119,127,1610612759.0,Kornet,L. Kornet shooting personal FOUL (5 PF) (Murphy III 2 FT),2pt made,freethrow,8,High
+22500366,673,freethrow,4,PT03M47.00S,03:47,Q4 03:47,120,127,1610612740.0,Murphy III,T. Murphy III Free Throw 1 of 2 (24 PTS),foul,freethrow,7,High
+22500366,676,freethrow,4,PT03M47.00S,03:47,Q4 03:47,121,127,1610612740.0,Murphy III,T. Murphy III Free Throw 2 of 2 (25 PTS),freethrow,substitution,6,High
+22500366,674,substitution,4,PT03M47.00S,03:47,Q4 03:47,120,127,1610612759.0,Vassell,SUB out: D. Vassell,freethrow,substitution,7,High
+22500366,675,substitution,4,PT03M47.00S,03:47,Q4 03:47,120,127,1610612759.0,Champagnie,SUB in: J. Champagnie,substitution,2pt missed,7,High
+22500366,677,2pt,4,PT03M21.00S,03:21,Q4 03:21,121,127,1610612759.0,Harper,MISS D. Harper 11' Jump Shot,substitution,rebound,6,High
+22500366,678,rebound,4,PT03M13.00S,03:13,Q4 03:13,121,127,1610612740.0,Jones,H. Jones REBOUND (Off:2 Def:4),2pt missed,foul,6,High
+22500366,679,foul,4,PT03M04.00S,03:04,Q4 03:04,121,127,1610612759.0,Barnes,H. Barnes shooting personal FOUL (3 PF) (Murphy III 2 FT),rebound,timeout,6,High
+22500366,681,timeout,4,PT03M04.00S,03:04,Q4 03:04,121,127,1610612759.0,,SAS Timeout,foul,timeout,6,High
+22500366,682,timeout,4,PT03M04.00S,03:04,Q4 03:04,121,127,1610612740.0,,NOP Timeout,timeout,freethrow,6,High
+22500366,683,freethrow,4,PT03M04.00S,03:04,Q4 03:04,122,127,1610612740.0,Murphy III,T. Murphy III Free Throw 1 of 2 (26 PTS),timeout,freethrow,5,High
+22500366,684,freethrow,4,PT03M04.00S,03:04,Q4 03:04,123,127,1610612740.0,Murphy III,T. Murphy III Free Throw 2 of 2 (27 PTS),freethrow,2pt missed,4,High
+22500366,685,2pt,4,PT02M49.00S,02:49,Q4 02:49,123,127,1610612759.0,Barnes,MISS H. Barnes 6' driving Layup - blocked,freethrow,block,4,High
+22500366,686,block,4,PT02M49.00S,02:49,Q4 02:49,123,127,1610612740.0,Queen,D. Queen BLOCK (4 BLK),2pt missed,rebound,4,High
+22500366,687,rebound,4,PT02M49.00S,02:49,Q4 02:49,123,127,1610612759.0,,TEAM offensive REBOUND,block,3pt missed,4,High
+22500366,689,3pt,4,PT02M44.00S,02:44,Q4 02:44,123,127,1610612759.0,Champagnie,MISS J. Champagnie 24' 3PT,rebound,rebound,4,High
+22500366,690,rebound,4,PT02M43.00S,02:43,Q4 02:43,123,127,1610612740.0,,TEAM defensive REBOUND,3pt missed,turnover,4,High
+22500366,692,turnover,4,PT02M29.00S,02:29,Q4 02:29,123,127,1610612740.0,Queen,D. Queen bad pass TURNOVER (4 TO),rebound,steal,4,High
+22500366,693,steal,4,PT02M29.00S,02:29,Q4 02:29,123,127,1610612759.0,Champagnie,J. Champagnie STEAL (2 STL),turnover,2pt made,4,High
+22500366,694,2pt,4,PT02M17.00S,02:17,Q4 02:17,123,129,1610612759.0,Harper,D. Harper driving Layup (20 PTS) (D. Fox 7 AST),steal,2pt made,6,High
+22500366,696,2pt,4,PT02M05.00S,02:05,Q4 02:05,125,129,1610612740.0,Queen,D. Queen driving Layup (31 PTS),2pt made,turnover,4,High
+22500366,697,turnover,4,PT01M44.00S,01:44,Q4 01:44,125,129,1610612759.0,Harper,D. Harper bad pass TURNOVER (2 TO),2pt made,steal,4,Very High
+22500366,698,steal,4,PT01M44.00S,01:44,Q4 01:44,125,129,1610612740.0,Jones,H. Jones STEAL (4 STL),turnover,2pt made,4,Very High
+22500366,699,2pt,4,PT01M40.00S,01:40,Q4 01:40,127,129,1610612740.0,Murphy III,T. Murphy III running alley-oop DUNK (29 PTS) (J. Alvarado 6 AST),steal,2pt missed,2,Very High
+22500366,701,2pt,4,PT01M16.00S,01:16,Q4 01:16,127,129,1610612759.0,Barnes,MISS H. Barnes 12' turnaround fadeaway Shot,2pt made,rebound,2,Very High
+22500366,702,rebound,4,PT01M13.00S,01:13,Q4 01:13,127,129,1610612740.0,Bey,S. Bey REBOUND (Off:1 Def:5),2pt missed,3pt made,2,Very High
+22500366,703,3pt,4,PT00M59.40S,00:59,Q4 00:59,130,129,1610612740.0,Murphy III,T. Murphy III 25' 3PT  (32 PTS) (S. Bey 2 AST),rebound,2pt made,1,Very High
+22500366,705,2pt,4,PT00M40.30S,00:40,Q4 00:40,130,131,1610612759.0,Fox,D. Fox 17' fadeaway Jump Shot (12 PTS) (J. Champagnie 3 AST),3pt made,2pt made,1,Very High
+22500366,707,2pt,4,PT00M30.00S,00:30,Q4 00:30,132,131,1610612740.0,Queen,D. Queen driving Layup (33 PTS),2pt made,timeout,1,Very High
+22500366,708,timeout,4,PT00M14.40S,00:14,Q4 00:14,132,131,1610612759.0,,SAS Timeout,2pt made,2pt made,1,Very High
+22500366,709,2pt,4,PT00M09.10S,00:09,Q4 00:09,132,133,1610612759.0,Harper,D. Harper driving Layup (22 PTS),timeout,timeout,1,Very High
+22500366,710,timeout,4,PT00M09.10S,00:09,Q4 00:09,132,133,1610612740.0,,NOP Timeout,2pt made,2pt missed,1,Very High
+22500366,712,2pt,4,PT00M06.80S,00:06,Q4 00:06,132,133,1610612740.0,Queen,MISS D. Queen 22' Jump Shot,timeout,rebound,1,Very High
+22500366,713,rebound,4,PT00M06.10S,00:06,Q4 00:06,132,133,1610612759.0,Fox,D. Fox REBOUND (Off:0 Def:4),2pt missed,foul,1,Very High
+22500366,714,foul,4,PT00M01.10S,00:01,Q4 00:01,132,133,1610612740.0,Queen,D. Queen personal FOUL (3 PF) (Fox 2 FT),rebound,freethrow,1,Very High
+22500366,717,freethrow,4,PT00M01.10S,00:01,Q4 00:01,132,134,1610612759.0,Fox,D. Fox Free Throw 1 of 2 (13 PTS),foul,freethrow,2,Very High
+22500366,722,freethrow,4,PT00M01.10S,00:01,Q4 00:01,132,135,1610612759.0,Fox,D. Fox Free Throw 2 of 2 (14 PTS),freethrow,timeout,3,Very High
+22500366,723,timeout,4,PT00M01.10S,00:01,Q4 00:01,132,135,1610612740.0,,NOP Timeout,freethrow,substitution,3,Very High
+22500366,718,substitution,4,PT00M01.10S,00:01,Q4 00:01,132,134,1610612740.0,Alvarado,SUB out: J. Alvarado,timeout,substitution,2,Very High
+22500366,719,substitution,4,PT00M01.10S,00:01,Q4 00:01,132,134,1610612759.0,Harper,SUB out: D. Harper,substitution,substitution,2,Very High
+22500366,720,substitution,4,PT00M01.10S,00:01,Q4 00:01,132,134,1610612740.0,Missi,SUB in: Y. Missi,substitution,substitution,2,Very High
+22500366,721,substitution,4,PT00M01.10S,00:01,Q4 00:01,132,134,1610612759.0,Johnson,SUB in: K. Johnson,substitution,substitution,2,Very High
+22500366,724,substitution,4,PT00M01.10S,00:01,Q4 00:01,132,135,1610612740.0,Jones,SUB out: H. Jones,substitution,substitution,3,Very High
+22500366,725,substitution,4,PT00M01.10S,00:01,Q4 00:01,132,135,1610612759.0,Kornet,SUB out: L. Kornet,substitution,substitution,3,Very High
+22500366,726,substitution,4,PT00M01.10S,00:01,Q4 00:01,132,135,1610612759.0,Johnson,SUB out: K. Johnson,substitution,substitution,3,Very High
+22500366,727,substitution,4,PT00M01.10S,00:01,Q4 00:01,132,135,1610612740.0,Alvarado,SUB in: J. Alvarado,substitution,substitution,3,Very High
+22500366,728,substitution,4,PT00M01.10S,00:01,Q4 00:01,132,135,1610612759.0,Harper,SUB in: D. Harper,substitution,substitution,3,Very High
+22500366,729,substitution,4,PT00M01.10S,00:01,Q4 00:01,132,135,1610612759.0,Vassell,SUB in: D. Vassell,substitution,3pt missed,3,Very High
+22500366,730,3pt,4,PT00M00.30S,00:00,Q4 00:00,132,135,1610612740.0,Bey,MISS S. Bey 25' 3PT,substitution,rebound,3,Very High
+22500366,731,rebound,4,PT00M00.10S,00:00,Q4 00:00,132,135,1610612740.0,,TEAM offensive REBOUND,3pt missed,,3,Very High

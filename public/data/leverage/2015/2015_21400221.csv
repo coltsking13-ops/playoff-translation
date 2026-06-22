@@ -1,0 +1,544 @@
+game_id,actionNumber,actionType,period,clock,clock_display,game_clock,scoreHome,scoreAway,teamId,playerName,description,previous_action,next_action,score_margin,leverage_bucket
+21400221,0,period,1,PT12M00.00S,12:00,Q1 12:00,0,0,1610612756.0,,Start of 1st Period (9:12 PM EST),,turnover,0,Low
+21400221,2,turnover,1,PT11M54.00S,11:54,Q1 11:54,0,0,1610612743.0,Faried,Faried Lost Ball Turnover (P1.T1),period,steal,0,Low
+21400221,2,steal,1,PT11M54.00S,11:54,Q1 11:54,0,0,1610612756.0,Bledsoe,Bledsoe STEAL (1 STL),turnover,2pt made,0,Low
+21400221,3,2pt,1,PT11M43.00S,11:43,Q1 11:43,2,0,1610612756.0,Morris,Morris 14' Jump Shot (2 PTS),steal,2pt missed,2,Low
+21400221,4,2pt,1,PT11M21.00S,11:21,Q1 11:21,2,0,1610612743.0,Lawson,MISS Lawson 6' Jump Shot,2pt made,block,2,Low
+21400221,4,block,1,PT11M21.00S,11:21,Q1 11:21,2,0,1610612756.0,Morris,Morris BLOCK (1 BLK),2pt missed,rebound,2,Low
+21400221,5,rebound,1,PT11M19.00S,11:19,Q1 11:19,2,0,1610612756.0,Plumlee,Plumlee REBOUND (Off:0 Def:1),block,2pt missed,2,Low
+21400221,6,2pt,1,PT11M00.00S,11:00,Q1 11:00,2,0,1610612756.0,Morris,MISS Morris 16' Turnaround Jump Shot,rebound,rebound,2,Low
+21400221,7,rebound,1,PT10M57.00S,10:57,Q1 10:57,2,0,1610612756.0,Plumlee,Plumlee REBOUND (Off:1 Def:1),2pt missed,3pt made,2,Low
+21400221,8,3pt,1,PT10M54.00S,10:54,Q1 10:54,5,0,1610612756.0,Morris Sr.,Morris Sr. 26' 3PT Jump Shot (3 PTS) (Plumlee 1 AST),rebound,foul,5,Low
+21400221,9,foul,1,PT10M37.00S,10:37,Q1 10:37,5,0,1610612756.0,Morris,Morris S.FOUL (P1.T1),3pt made,freethrow,5,Low
+21400221,10,freethrow,1,PT10M37.00S,10:37,Q1 10:37,5,0,1610612743.0,Faried,MISS Faried Free Throw 1 of 2,foul,rebound,5,Low
+21400221,11,rebound,1,PT10M37.00S,10:37,Q1 10:37,5,0,1610612743.0,,TEAM offensive REBOUND,freethrow,freethrow,5,Low
+21400221,12,freethrow,1,PT10M37.00S,10:37,Q1 10:37,5,1,1610612743.0,Faried,Faried Free Throw 2 of 2 (1 PTS),rebound,2pt missed,4,Low
+21400221,14,2pt,1,PT10M21.00S,10:21,Q1 10:21,5,1,1610612756.0,Plumlee,MISS Plumlee 10' Hook Shot,freethrow,rebound,4,Low
+21400221,15,rebound,1,PT10M19.00S,10:19,Q1 10:19,5,1,1610612743.0,Afflalo,Afflalo REBOUND (Off:0 Def:1),2pt missed,2pt missed,4,Low
+21400221,16,2pt,1,PT10M09.00S,10:09,Q1 10:09,5,1,1610612743.0,Afflalo,MISS Afflalo 6' Jump Shot,rebound,rebound,4,Low
+21400221,17,rebound,1,PT10M07.00S,10:07,Q1 10:07,5,1,1610612743.0,Mozgov,Mozgov REBOUND (Off:1 Def:0),2pt missed,2pt made,4,Low
+21400221,18,2pt,1,PT10M01.00S,10:01,Q1 10:01,5,3,1610612743.0,Afflalo,Afflalo 7' Jump Bank Shot (2 PTS),rebound,2pt made,2,Low
+21400221,19,2pt,1,PT09M43.00S,09:43,Q1 09:43,7,3,1610612756.0,Plumlee,Plumlee 2' Layup (2 PTS),2pt made,2pt missed,4,Low
+21400221,28,2pt,1,PT09M43.00S,09:43,Q1 09:43,5,3,1610612756.0,Morris,MISS Morris 3' Layup,2pt made,rebound,2,Low
+21400221,34,rebound,1,PT09M43.00S,09:43,Q1 09:43,5,3,1610612756.0,Plumlee,Plumlee REBOUND (Off:2 Def:1),2pt missed,2pt made,2,Low
+21400221,20,2pt,1,PT09M21.00S,09:21,Q1 09:21,7,5,1610612743.0,Mozgov,Mozgov 2' Layup (2 PTS) (Lawson 1 AST),rebound,2pt missed,2,Low
+21400221,21,2pt,1,PT09M05.00S,09:05,Q1 09:05,7,5,1610612756.0,Morris,MISS Morris 6' Jump Shot,2pt made,rebound,2,Low
+21400221,22,rebound,1,PT09M03.00S,09:03,Q1 09:03,7,5,1610612743.0,Chandler,Chandler REBOUND (Off:0 Def:1),2pt missed,2pt missed,2,Low
+21400221,23,2pt,1,PT08M57.00S,08:57,Q1 08:57,7,5,1610612743.0,Chandler,MISS Chandler 10' Jump Shot,rebound,2pt made,2,Low
+21400221,24,2pt,1,PT08M54.00S,08:54,Q1 08:54,7,7,1610612743.0,Chandler,Chandler 2' Tip Shot (2 PTS),2pt missed,rebound,0,Low
+21400221,25,rebound,1,PT08M54.00S,08:54,Q1 08:54,7,5,1610612743.0,Chandler,Chandler REBOUND (Off:1 Def:1),2pt made,2pt made,2,Low
+21400221,26,2pt,1,PT08M35.00S,08:35,Q1 08:35,9,7,1610612756.0,Dragic,G. Dragic 15' Step Back Jump Shot (2 PTS),rebound,3pt made,2,Low
+21400221,27,3pt,1,PT08M13.00S,08:13,Q1 08:13,9,10,1610612743.0,Afflalo,Afflalo 25' 3PT Jump Shot (5 PTS) (Lawson 2 AST),2pt made,2pt missed,1,Low
+21400221,29,2pt,1,PT08M00.00S,08:00,Q1 08:00,9,10,1610612756.0,Dragic,MISS G. Dragic 6' Jump Shot,3pt made,rebound,1,Low
+21400221,31,rebound,1,PT07M58.00S,07:58,Q1 07:58,9,10,1610612743.0,Mozgov,Mozgov REBOUND (Off:1 Def:1),2pt missed,2pt made,1,Low
+21400221,32,2pt,1,PT07M55.00S,07:55,Q1 07:55,9,12,1610612743.0,Faried,Faried Alley Oop Dunk (3 PTS) (Chandler 1 AST),rebound,foul,3,Low
+21400221,33,foul,1,PT07M55.00S,07:55,Q1 07:55,9,12,1610612756.0,Bledsoe,Bledsoe S.FOUL (P1.T2),2pt made,foul,3,Low
+21400221,35,foul,1,PT07M55.00S,07:55,Q1 07:55,9,12,1610612756.0,Morris,Morris T.FOUL (P1.T2),foul,freethrow,3,Low
+21400221,36,freethrow,1,PT07M55.00S,07:55,Q1 07:55,9,13,1610612743.0,Afflalo,Afflalo Free Throw Technical (6 PTS),foul,freethrow,4,Low
+21400221,39,freethrow,1,PT07M55.00S,07:55,Q1 07:55,9,14,1610612743.0,Faried,Faried Free Throw 1 of 1 (4 PTS),freethrow,2pt missed,5,Low
+21400221,41,2pt,1,PT07M42.00S,07:42,Q1 07:42,9,14,1610612756.0,Morris,MISS Morris 17' Jump Shot,freethrow,rebound,5,Low
+21400221,42,rebound,1,PT07M40.00S,07:40,Q1 07:40,9,14,1610612743.0,Chandler,Chandler REBOUND (Off:1 Def:2),2pt missed,foul,5,Low
+21400221,43,foul,1,PT07M34.00S,07:34,Q1 07:34,9,14,1610612743.0,Chandler,Chandler Offensive Charge Foul (P1),rebound,turnover,5,Low
+21400221,44,turnover,1,PT07M34.00S,07:34,Q1 07:34,9,14,1610612743.0,Chandler,Chandler Foul Turnover (P1.T2),foul,2pt made,5,Low
+21400221,45,2pt,1,PT07M18.00S,07:18,Q1 07:18,11,14,1610612756.0,Bledsoe,Bledsoe 16' Jump Shot (2 PTS),turnover,3pt missed,3,Low
+21400221,46,3pt,1,PT07M06.00S,07:06,Q1 07:06,11,14,1610612743.0,Lawson,MISS Lawson 24' 3PT Jump Shot,2pt made,rebound,3,Low
+21400221,47,rebound,1,PT07M04.00S,07:04,Q1 07:04,11,14,1610612743.0,Mozgov,Mozgov REBOUND (Off:2 Def:1),3pt missed,turnover,3,Low
+21400221,48,turnover,1,PT06M57.00S,06:57,Q1 06:57,11,14,1610612743.0,Faried,Faried Lost Ball Turnover (P2.T3),rebound,steal,3,Low
+21400221,48,steal,1,PT06M57.00S,06:57,Q1 06:57,11,14,1610612756.0,Bledsoe,Bledsoe STEAL (2 STL),turnover,2pt made,3,Low
+21400221,49,2pt,1,PT06M52.00S,06:52,Q1 06:52,13,14,1610612756.0,Morris,Morris 11' Jump Shot (4 PTS) (Bledsoe 1 AST),steal,2pt missed,1,Low
+21400221,50,2pt,1,PT06M25.00S,06:25,Q1 06:25,13,14,1610612743.0,Chandler,MISS Chandler 7' Jump Shot,2pt made,block,1,Low
+21400221,50,block,1,PT06M25.00S,06:25,Q1 06:25,13,14,1610612756.0,Plumlee,Plumlee BLOCK (1 BLK),2pt missed,rebound,1,Low
+21400221,51,rebound,1,PT06M22.00S,06:22,Q1 06:22,13,14,1610612743.0,Lawson,Lawson REBOUND (Off:1 Def:0),block,3pt missed,1,Low
+21400221,52,3pt,1,PT06M20.00S,06:20,Q1 06:20,13,14,1610612743.0,Lawson,MISS Lawson 26' 3PT Jump Shot,rebound,rebound,1,Low
+21400221,53,rebound,1,PT06M18.00S,06:18,Q1 06:18,13,14,1610612743.0,Mozgov,Mozgov REBOUND (Off:3 Def:1),3pt missed,2pt made,1,Low
+21400221,54,2pt,1,PT06M14.00S,06:14,Q1 06:14,13,16,1610612743.0,Mozgov,Mozgov 19' Jump Shot (4 PTS) (Lawson 3 AST),rebound,3pt made,3,Low
+21400221,55,3pt,1,PT06M02.00S,06:02,Q1 06:02,16,16,1610612756.0,Morris Sr.,Morris Sr. 25' 3PT Jump Shot (6 PTS),2pt made,2pt missed,0,Low
+21400221,56,2pt,1,PT05M48.00S,05:48,Q1 05:48,16,16,1610612743.0,Faried,MISS Faried 9' Running Hook Shot,3pt made,rebound,0,Low
+21400221,57,rebound,1,PT05M45.00S,05:45,Q1 05:45,16,16,1610612756.0,Morris,Morris REBOUND (Off:0 Def:1),2pt missed,turnover,0,Low
+21400221,58,turnover,1,PT05M43.00S,05:43,Q1 05:43,16,16,1610612756.0,Bledsoe,Bledsoe Bad Pass Turnover (P1.T1),rebound,timeout,0,Low
+21400221,59,timeout,1,PT05M43.00S,05:43,Q1 05:43,16,16,1610612756.0,,SUNS Timeout: Regular (Full 1 Short 0),turnover,2pt made,0,Low
+21400221,62,2pt,1,PT05M24.00S,05:24,Q1 05:24,16,18,1610612743.0,Afflalo,Afflalo 15' Turnaround Jump Shot (8 PTS),timeout,turnover,2,Low
+21400221,63,turnover,1,PT05M11.00S,05:11,Q1 05:11,16,18,1610612756.0,Plumlee,Plumlee Bad Pass Turnover (P1.T2),2pt made,steal,2,Low
+21400221,63,steal,1,PT05M11.00S,05:11,Q1 05:11,16,18,1610612743.0,Lawson,Lawson STEAL (1 STL),turnover,2pt made,2,Low
+21400221,64,2pt,1,PT05M05.00S,05:05,Q1 05:05,16,20,1610612743.0,Chandler,Chandler 4' Jump Shot (4 PTS) (Lawson 4 AST),steal,2pt missed,4,Low
+21400221,65,2pt,1,PT04M51.00S,04:51,Q1 04:51,16,20,1610612756.0,Plumlee,MISS Plumlee 2' Reverse Layup,2pt made,rebound,4,Low
+21400221,66,rebound,1,PT04M49.00S,04:49,Q1 04:49,16,20,1610612743.0,Lawson,Lawson REBOUND (Off:1 Def:1),2pt missed,2pt made,4,Low
+21400221,67,2pt,1,PT04M41.00S,04:41,Q1 04:41,16,22,1610612743.0,Mozgov,Mozgov Alley Oop Dunk (6 PTS) (Lawson 5 AST),rebound,2pt made,6,Low
+21400221,68,2pt,1,PT04M23.00S,04:23,Q1 04:23,18,22,1610612756.0,Bledsoe,Bledsoe 1' Reverse Layup (4 PTS) (Morris 1 AST),2pt made,2pt made,4,Low
+21400221,69,2pt,1,PT04M08.00S,04:08,Q1 04:08,18,24,1610612743.0,Mozgov,Mozgov Layup (8 PTS),2pt made,2pt made,6,Low
+21400221,70,2pt,1,PT04M02.00S,04:02,Q1 04:02,20,24,1610612756.0,Dragic,G. Dragic 2' Layup (4 PTS) (Morris 2 AST),2pt made,2pt missed,4,Low
+21400221,71,2pt,1,PT03M36.00S,03:36,Q1 03:36,20,24,1610612743.0,Afflalo,MISS Afflalo 11' Jump Shot,2pt made,rebound,4,Low
+21400221,72,rebound,1,PT03M34.00S,03:34,Q1 03:34,20,24,1610612756.0,Morris Sr.,Morris Sr. REBOUND (Off:0 Def:1),2pt missed,2pt made,4,Low
+21400221,73,2pt,1,PT03M19.00S,03:19,Q1 03:19,22,24,1610612756.0,Plumlee,Plumlee 6' Hook Shot (4 PTS) (Morris 3 AST),rebound,turnover,2,Low
+21400221,74,turnover,1,PT03M03.00S,03:03,Q1 03:03,22,24,1610612743.0,Afflalo,Afflalo Bad Pass Turnover (P1.T4),2pt made,steal,2,Low
+21400221,74,steal,1,PT03M03.00S,03:03,Q1 03:03,22,24,1610612756.0,Morris,Morris STEAL (1 STL),turnover,foul,2,Low
+21400221,75,foul,1,PT03M01.00S,03:01,Q1 03:01,22,24,1610612743.0,Chandler,Chandler S.FOUL (P2.T1),steal,freethrow,2,Low
+21400221,76,freethrow,1,PT03M01.00S,03:01,Q1 03:01,23,24,1610612756.0,Bledsoe,Bledsoe Free Throw 1 of 2 (5 PTS),foul,freethrow,1,Low
+21400221,83,freethrow,1,PT03M01.00S,03:01,Q1 03:01,24,24,1610612756.0,Bledsoe,Bledsoe Free Throw 2 of 2 (6 PTS),freethrow,substitution,0,Low
+21400221,78,substitution,1,PT03M01.00S,03:01,Q1 03:01,23,24,1610612756.0,Dragic,SUB out: G. Dragic,freethrow,substitution,1,Low
+21400221,79,substitution,1,PT03M01.00S,03:01,Q1 03:01,23,24,1610612756.0,Plumlee,SUB out: M. Plumlee,substitution,substitution,1,Low
+21400221,80,substitution,1,PT03M01.00S,03:01,Q1 03:01,23,24,1610612743.0,Chandler,SUB out: W. Chandler,substitution,substitution,1,Low
+21400221,81,substitution,1,PT03M01.00S,03:01,Q1 03:01,23,24,1610612743.0,Faried,SUB out: K. Faried,substitution,substitution,1,Low
+21400221,82,substitution,1,PT03M01.00S,03:01,Q1 03:01,23,24,1610612756.0,Morris,SUB out: M. Morris,substitution,substitution,1,Low
+21400221,83,substitution,1,PT03M01.00S,03:01,Q1 03:01,23,24,1610612756.0,Green,SUB in: G. Green,substitution,substitution,1,Low
+21400221,84,substitution,1,PT03M01.00S,03:01,Q1 03:01,23,24,1610612756.0,Len,SUB in: A. Len,substitution,substitution,1,Low
+21400221,85,substitution,1,PT03M01.00S,03:01,Q1 03:01,23,24,1610612743.0,Gallinari,SUB in: D. Gallinari,substitution,substitution,1,Low
+21400221,86,substitution,1,PT03M01.00S,03:01,Q1 03:01,23,24,1610612743.0,Arthur,SUB in: D. Arthur,substitution,substitution,1,Low
+21400221,87,substitution,1,PT03M01.00S,03:01,Q1 03:01,23,24,1610612756.0,Tucker,SUB in: P. Tucker,substitution,2pt missed,1,Low
+21400221,85,2pt,1,PT02M35.00S,02:35,Q1 02:35,24,24,1610612743.0,Gallinari,MISS Gallinari 23' Jump Shot,substitution,rebound,0,Low
+21400221,86,rebound,1,PT02M35.00S,02:35,Q1 02:35,24,24,1610612743.0,,TEAM offensive REBOUND,2pt missed,turnover,0,Low
+21400221,87,turnover,1,PT02M35.00S,02:35,Q1 02:35,24,24,0.0,,Nuggets Turnover: Shot Clock (T#5),rebound,timeout,0,Low
+21400221,88,timeout,1,PT02M35.00S,02:35,Q1 02:35,24,24,1610612743.0,,Nuggets Timeout: Regular (Reg.1 Short 0),turnover,substitution,0,Low
+21400221,91,substitution,1,PT02M35.00S,02:35,Q1 02:35,24,24,1610612743.0,Afflalo,SUB out: A. Afflalo,timeout,substitution,0,Low
+21400221,92,substitution,1,PT02M35.00S,02:35,Q1 02:35,24,24,1610612743.0,Gee,SUB in: A. Gee,substitution,2pt missed,0,Low
+21400221,92,2pt,1,PT02M24.00S,02:24,Q1 02:24,24,24,1610612756.0,Green,MISS Green 18' Jump Shot,substitution,rebound,0,Low
+21400221,93,rebound,1,PT02M23.00S,02:23,Q1 02:23,24,24,1610612743.0,Arthur,Arthur REBOUND (Off:0 Def:1),2pt missed,3pt missed,0,Low
+21400221,94,3pt,1,PT02M13.00S,02:13,Q1 02:13,24,24,1610612743.0,Arthur,MISS Arthur 24' 3PT Jump Shot,rebound,rebound,0,Low
+21400221,95,rebound,1,PT02M11.00S,02:11,Q1 02:11,24,24,1610612756.0,Bledsoe,Bledsoe REBOUND (Off:0 Def:1),3pt missed,turnover,0,Low
+21400221,96,turnover,1,PT01M59.00S,01:59,Q1 01:59,24,24,1610612756.0,Green,Green Bad Pass Turnover (P1.T3),rebound,steal,0,Low
+21400221,96,steal,1,PT01M59.00S,01:59,Q1 01:59,24,24,1610612743.0,Mozgov,Mozgov STEAL (1 STL),turnover,turnover,0,Low
+21400221,97,turnover,1,PT01M55.00S,01:55,Q1 01:55,24,24,1610612743.0,Gee,Gee Step Out of Bounds Turnover (P1.T6),steal,2pt made,0,Low
+21400221,98,2pt,1,PT01M44.00S,01:44,Q1 01:44,26,24,1610612756.0,Len,Len 2' Layup (2 PTS) (Bledsoe 2 AST),turnover,foul,2,Low
+21400221,99,foul,1,PT01M44.00S,01:44,Q1 01:44,26,24,1610612743.0,Mozgov,Mozgov S.FOUL (P1.T2),2pt made,freethrow,2,Low
+21400221,101,freethrow,1,PT01M44.00S,01:44,Q1 01:44,27,24,1610612756.0,Len,Len Free Throw 1 of 1 (3 PTS),foul,substitution,3,Low
+21400221,100,substitution,1,PT01M44.00S,01:44,Q1 01:44,26,24,1610612743.0,Mozgov,SUB out: T. Mozgov,freethrow,substitution,2,Low
+21400221,101,substitution,1,PT01M44.00S,01:44,Q1 01:44,26,24,1610612743.0,Hickson,SUB in: J. Hickson,substitution,2pt missed,2,Low
+21400221,103,2pt,1,PT01M23.00S,01:23,Q1 01:23,27,24,1610612743.0,Arthur,MISS Arthur 14' Turnaround Jump Shot,substitution,rebound,3,Low
+21400221,104,rebound,1,PT01M20.00S,01:20,Q1 01:20,27,24,1610612756.0,Green,Green REBOUND (Off:0 Def:1),2pt missed,2pt made,3,Low
+21400221,105,2pt,1,PT01M16.00S,01:16,Q1 01:16,29,24,1610612756.0,Len,Len Dunk (5 PTS) (Green 1 AST),rebound,3pt made,5,Low
+21400221,106,3pt,1,PT00M50.90S,00:50,Q1 00:50,29,27,1610612743.0,Lawson,Lawson 25' 3PT Jump Shot (3 PTS) (Arthur 1 AST),2pt made,2pt made,2,Low
+21400221,107,2pt,1,PT00M32.70S,00:32,Q1 00:32,31,27,1610612756.0,Len,Len 5' Jump Shot (7 PTS) (Green 2 AST),3pt made,foul,4,Low
+21400221,108,foul,1,PT00M32.70S,00:32,Q1 00:32,31,27,1610612743.0,Gallinari,Gallinari S.FOUL (P1.PN),2pt made,freethrow,4,Low
+21400221,109,freethrow,1,PT00M32.70S,00:32,Q1 00:32,32,27,1610612756.0,Len,Len Free Throw 1 of 1 (8 PTS),foul,3pt made,5,Low
+21400221,111,3pt,1,PT00M17.90S,00:17,Q1 00:17,32,30,1610612743.0,Arthur,Arthur 3PT Jump Shot (3 PTS) (Lawson 6 AST),freethrow,2pt made,2,Low
+21400221,112,2pt,1,PT00M02.90S,00:02,Q1 00:02,34,30,1610612756.0,Bledsoe,Bledsoe 7' Floating Jump Shot (8 PTS),3pt made,3pt missed,4,Low
+21400221,113,3pt,1,PT00M00.10S,00:00,Q1 00:00,34,30,1610612743.0,Gallinari,MISS Gallinari 57' 3PT Jump Shot,2pt made,period,4,Low
+21400221,114,period,1,PT00M00.00S,00:00,Q1 00:00,34,30,1610612756.0,,End of 1st Period (9:34 PM EST),3pt missed,rebound,4,Low
+21400221,115,rebound,1,PT00M00.00S,00:00,Q1 00:00,34,30,1610612743.0,,TEAM offensive REBOUND,period,period,4,Low
+21400221,117,period,2,PT12M00.00S,12:00,Q2 12:00,34,30,1610612756.0,,Start of 2nd Period (9:37 PM EST),rebound,substitution,4,Low
+21400221,118,3pt,2,PT11M42.00S,11:42,Q2 11:42,34,30,1610612756.0,Tucker,MISS Tucker 24' 3PT Jump Shot,substitution,rebound,4,Low
+21400221,119,rebound,2,PT11M40.00S,11:40,Q2 11:40,34,30,1610612743.0,Gee,Gee REBOUND (Off:0 Def:1),3pt missed,2pt missed,4,Low
+21400221,120,2pt,2,PT11M30.00S,11:30,Q2 11:30,34,30,1610612743.0,Robinson,MISS Robinson 3' Jump Shot,rebound,rebound,4,Low
+21400221,121,rebound,2,PT11M27.00S,11:27,Q2 11:27,34,30,1610612756.0,Len,Len REBOUND (Off:0 Def:1),2pt missed,3pt missed,4,Low
+21400221,122,3pt,2,PT11M22.00S,11:22,Q2 11:22,34,30,1610612756.0,Green,MISS Green 25' 3PT Jump Shot,rebound,rebound,4,Low
+21400221,123,rebound,2,PT11M19.00S,11:19,Q2 11:19,34,30,1610612743.0,Arthur,Arthur REBOUND (Off:0 Def:2),3pt missed,3pt missed,4,Low
+21400221,124,3pt,2,PT11M13.00S,11:13,Q2 11:13,34,30,1610612743.0,Gallinari,MISS Gallinari 26' 3PT Jump Shot,rebound,rebound,4,Low
+21400221,125,rebound,2,PT11M11.00S,11:11,Q2 11:11,34,30,1610612756.0,Morris,Morris REBOUND (Off:0 Def:2),3pt missed,3pt made,4,Low
+21400221,126,3pt,2,PT10M53.00S,10:53,Q2 10:53,37,30,1610612756.0,Green,Green 26' 3PT Jump Shot (3 PTS),rebound,foul,7,Low
+21400221,127,foul,2,PT10M31.00S,10:31,Q2 10:31,37,30,1610612756.0,Len,Len S.FOUL (P1.T1),3pt made,freethrow,7,Low
+21400221,128,freethrow,2,PT10M31.00S,10:31,Q2 10:31,37,30,1610612743.0,Hickson,MISS Hickson Free Throw 1 of 2,foul,rebound,7,Low
+21400221,129,rebound,2,PT10M31.00S,10:31,Q2 10:31,37,30,1610612743.0,,TEAM offensive REBOUND,freethrow,freethrow,7,Low
+21400221,130,freethrow,2,PT10M31.00S,10:31,Q2 10:31,37,31,1610612743.0,Hickson,Hickson Free Throw 2 of 2 (1 PTS),rebound,2pt made,6,Low
+21400221,132,2pt,2,PT10M16.00S,10:16,Q2 10:16,39,31,1610612756.0,Green,Green 9' Jump Shot (5 PTS),freethrow,2pt made,8,Low
+21400221,133,2pt,2,PT09M59.00S,09:59,Q2 09:59,39,33,1610612743.0,Hickson,Hickson 2' Layup (3 PTS),2pt made,2pt missed,6,Low
+21400221,134,2pt,2,PT09M38.00S,09:38,Q2 09:38,39,33,1610612756.0,Morris,MISS Morris 15' Turnaround Jump Shot,2pt made,rebound,6,Low
+21400221,135,rebound,2,PT09M36.00S,09:36,Q2 09:36,39,33,1610612743.0,Hickson,Hickson REBOUND (Off:0 Def:1),2pt missed,foul,6,Low
+21400221,136,foul,2,PT09M29.00S,09:29,Q2 09:29,39,33,1610612756.0,Dragic,G. Dragic S.FOUL (P1.T2),rebound,freethrow,6,Low
+21400221,137,freethrow,2,PT09M29.00S,09:29,Q2 09:29,39,34,1610612743.0,Robinson,Robinson Free Throw 1 of 2 (1 PTS),foul,freethrow,5,Low
+21400221,139,freethrow,2,PT09M29.00S,09:29,Q2 09:29,39,35,1610612743.0,Robinson,Robinson Free Throw 2 of 2 (2 PTS),freethrow,2pt missed,4,Low
+21400221,141,2pt,2,PT09M13.00S,09:13,Q2 09:13,39,35,1610612756.0,Green,MISS Green 16' Jump Shot,freethrow,rebound,4,Low
+21400221,142,rebound,2,PT09M11.00S,09:11,Q2 09:11,39,35,1610612743.0,Gallinari,Gallinari REBOUND (Off:0 Def:1),2pt missed,3pt missed,4,Low
+21400221,143,3pt,2,PT09M06.00S,09:06,Q2 09:06,39,35,1610612743.0,Robinson,MISS Robinson 25' 3PT Jump Shot,rebound,rebound,4,Low
+21400221,144,rebound,2,PT09M03.00S,09:03,Q2 09:03,39,35,1610612756.0,Len,Len REBOUND (Off:0 Def:2),3pt missed,turnover,4,Low
+21400221,145,turnover,2,PT09M00.00S,09:00,Q2 09:00,39,35,1610612756.0,Len,Len Bad Pass Turnover (P1.T4),rebound,steal,4,Low
+21400221,145,steal,2,PT09M00.00S,09:00,Q2 09:00,39,35,1610612743.0,Arthur,Arthur STEAL (1 STL),turnover,2pt made,4,Low
+21400221,146,2pt,2,PT08M57.00S,08:57,Q2 08:57,39,37,1610612743.0,Gee,Gee Dunk (2 PTS) (Robinson 1 AST),steal,timeout,2,Low
+21400221,147,timeout,2,PT08M47.00S,08:47,Q2 08:47,39,37,1610612756.0,,SUNS Timeout: Regular (Full 2 Short 0),2pt made,substitution,2,Low
+21400221,149,substitution,2,PT08M47.00S,08:47,Q2 08:47,39,37,1610612756.0,Len,SUB out: A. Len,timeout,substitution,2,Low
+21400221,150,substitution,2,PT08M47.00S,08:47,Q2 08:47,39,37,1610612756.0,Plumlee,SUB in: M. Plumlee,substitution,2pt missed,2,Low
+21400221,151,2pt,2,PT08M41.00S,08:41,Q2 08:41,39,37,1610612756.0,Morris,MISS Morris 9' Jump Shot,substitution,rebound,2,Low
+21400221,152,rebound,2,PT08M39.00S,08:39,Q2 08:39,39,37,1610612743.0,Arthur,Arthur REBOUND (Off:0 Def:3),2pt missed,foul,2,Low
+21400221,153,foul,2,PT08M27.00S,08:27,Q2 08:27,39,37,1610612756.0,Morris,Morris S.FOUL (P2.T3),rebound,freethrow,2,Low
+21400221,154,freethrow,2,PT08M27.00S,08:27,Q2 08:27,39,37,1610612743.0,Arthur,MISS Arthur Free Throw 1 of 2,foul,rebound,2,Low
+21400221,155,rebound,2,PT08M27.00S,08:27,Q2 08:27,39,37,1610612743.0,,TEAM offensive REBOUND,freethrow,freethrow,2,Low
+21400221,156,freethrow,2,PT08M27.00S,08:27,Q2 08:27,39,38,1610612743.0,Arthur,Arthur Free Throw 2 of 2 (4 PTS),rebound,foul,1,Low
+21400221,158,foul,2,PT08M11.00S,08:11,Q2 08:11,39,38,1610612743.0,Hickson,Hickson S.FOUL (P1.T1),freethrow,freethrow,1,Low
+21400221,159,freethrow,2,PT08M11.00S,08:11,Q2 08:11,40,38,1610612756.0,Morris,Morris Free Throw 1 of 2 (5 PTS),foul,freethrow,2,Low
+21400221,161,freethrow,2,PT08M11.00S,08:11,Q2 08:11,41,38,1610612756.0,Morris,Morris Free Throw 2 of 2 (6 PTS),freethrow,foul,3,Low
+21400221,163,foul,2,PT07M50.00S,07:50,Q2 07:50,41,38,1610612756.0,Plumlee,Plumlee S.FOUL (P1.T4),freethrow,freethrow,3,Low
+21400221,164,freethrow,2,PT07M50.00S,07:50,Q2 07:50,41,39,1610612743.0,Hickson,Hickson Free Throw 1 of 2 (4 PTS),foul,freethrow,2,Low
+21400221,166,freethrow,2,PT07M50.00S,07:50,Q2 07:50,41,40,1610612743.0,Hickson,Hickson Free Throw 2 of 2 (5 PTS),freethrow,foul,1,Low
+21400221,168,foul,2,PT07M37.00S,07:37,Q2 07:37,41,40,1610612743.0,Gallinari,Gallinari P.FOUL (P2.T2),freethrow,2pt missed,1,Low
+21400221,169,2pt,2,PT07M31.00S,07:31,Q2 07:31,41,40,1610612756.0,Dragic,MISS G. Dragic 18' Jump Shot,foul,2pt missed,1,Low
+21400221,170,2pt,2,PT07M29.00S,07:29,Q2 07:29,41,40,1610612756.0,Morris,MISS Morris Dunk,2pt missed,rebound,1,Low
+21400221,171,rebound,2,PT07M29.00S,07:29,Q2 07:29,41,40,1610612756.0,Morris,Morris REBOUND (Off:1 Def:2),2pt missed,2pt made,1,Low
+21400221,172,2pt,2,PT07M25.00S,07:25,Q2 07:25,43,40,1610612756.0,Dragic,G. Dragic 2' Layup (6 PTS),rebound,rebound,3,Low
+21400221,173,rebound,2,PT07M25.00S,07:25,Q2 07:25,41,40,1610612756.0,Dragic,G. Dragic REBOUND (Off:1 Def:0),2pt made,foul,1,Low
+21400221,174,foul,2,PT07M19.00S,07:19,Q2 07:19,43,40,1610612756.0,Dragic,G. Dragic S.FOUL (P2.PN),rebound,freethrow,3,Low
+21400221,175,freethrow,2,PT07M19.00S,07:19,Q2 07:19,43,40,1610612743.0,Robinson,MISS Robinson Free Throw 1 of 2,foul,rebound,3,Low
+21400221,176,rebound,2,PT07M19.00S,07:19,Q2 07:19,43,40,1610612743.0,,TEAM offensive REBOUND,freethrow,freethrow,3,Low
+21400221,177,freethrow,2,PT07M19.00S,07:19,Q2 07:19,43,41,1610612743.0,Robinson,Robinson Free Throw 2 of 2 (3 PTS),rebound,foul,2,Low
+21400221,179,foul,2,PT07M12.00S,07:12,Q2 07:12,43,41,1610612743.0,Robinson,Robinson P.FOUL (P1.T3),freethrow,turnover,2,Low
+21400221,180,turnover,2,PT07M04.00S,07:04,Q2 07:04,43,41,1610612756.0,Morris,Morris Bad Pass Turnover (P1.T5),foul,steal,2,Low
+21400221,180,steal,2,PT07M04.00S,07:04,Q2 07:04,43,41,1610612743.0,Gee,Gee STEAL (1 STL),turnover,2pt made,2,Low
+21400221,181,2pt,2,PT07M03.00S,07:03,Q2 07:03,43,43,1610612743.0,Gee,Gee 1' Layup (4 PTS),steal,foul,0,Low
+21400221,182,foul,2,PT07M03.00S,07:03,Q2 07:03,43,43,1610612756.0,Green,Green S.FOUL (P1.PN),2pt made,freethrow,0,Low
+21400221,183,freethrow,2,PT07M03.00S,07:03,Q2 07:03,43,44,1610612743.0,Gee,Gee Free Throw 1 of 1 (5 PTS),foul,2pt made,1,Low
+21400221,185,2pt,2,PT06M46.00S,06:46,Q2 06:46,45,44,1610612756.0,Dragic,G. Dragic 2' Driving Layup (8 PTS),freethrow,2pt missed,1,Low
+21400221,186,2pt,2,PT06M25.00S,06:25,Q2 06:25,45,44,1610612743.0,Gee,MISS Gee 5' Jump Bank Shot,2pt made,rebound,1,Low
+21400221,187,rebound,2,PT06M23.00S,06:23,Q2 06:23,45,44,1610612756.0,Dragic,G. Dragic REBOUND (Off:1 Def:1),2pt missed,2pt made,1,Low
+21400221,188,2pt,2,PT06M21.00S,06:21,Q2 06:21,47,44,1610612756.0,Morris,Morris 2' Layup (8 PTS) (G. Dragic 1 AST),rebound,foul,3,Low
+21400221,189,foul,2,PT06M21.00S,06:21,Q2 06:21,47,44,1610612743.0,Arthur,Arthur S.FOUL (P1.T4),2pt made,freethrow,3,Low
+21400221,191,freethrow,2,PT06M21.00S,06:21,Q2 06:21,48,44,1610612756.0,Morris,Morris Free Throw 1 of 1 (9 PTS),foul,substitution,4,Low
+21400221,190,substitution,2,PT06M21.00S,06:21,Q2 06:21,47,44,1610612756.0,Green,SUB out: G. Green,freethrow,substitution,3,Low
+21400221,191,substitution,2,PT06M21.00S,06:21,Q2 06:21,47,44,1610612756.0,Bledsoe,SUB in: E. Bledsoe,substitution,timeout,3,Low
+21400221,193,timeout,2,PT06M17.00S,06:17,Q2 06:17,48,44,1610612743.0,,Nuggets Timeout: Regular (Reg.2 Short 0),substitution,substitution,4,Low
+21400221,195,substitution,2,PT06M17.00S,06:17,Q2 06:17,48,44,1610612756.0,Morris,SUB out: M. Morris,timeout,substitution,4,Low
+21400221,196,substitution,2,PT06M17.00S,06:17,Q2 06:17,48,44,1610612743.0,Gallinari,SUB out: D. Gallinari,substitution,substitution,4,Low
+21400221,197,substitution,2,PT06M17.00S,06:17,Q2 06:17,48,44,1610612743.0,Arthur,SUB out: D. Arthur,substitution,substitution,4,Low
+21400221,198,substitution,2,PT06M17.00S,06:17,Q2 06:17,48,44,1610612743.0,Gee,SUB out: A. Gee,substitution,substitution,4,Low
+21400221,199,substitution,2,PT06M17.00S,06:17,Q2 06:17,48,44,1610612743.0,Hickson,SUB out: J. Hickson,substitution,substitution,4,Low
+21400221,200,substitution,2,PT06M17.00S,06:17,Q2 06:17,48,44,1610612743.0,Robinson,SUB out: N. Robinson,substitution,substitution,4,Low
+21400221,201,substitution,2,PT06M17.00S,06:17,Q2 06:17,48,44,1610612756.0,Morris Sr.,SUB in: M. Morris Sr.,substitution,substitution,4,Low
+21400221,202,substitution,2,PT06M17.00S,06:17,Q2 06:17,48,44,1610612743.0,Afflalo,SUB in: A. Afflalo,substitution,substitution,4,Low
+21400221,203,substitution,2,PT06M17.00S,06:17,Q2 06:17,48,44,1610612743.0,Mozgov,SUB in: T. Mozgov,substitution,substitution,4,Low
+21400221,204,substitution,2,PT06M17.00S,06:17,Q2 06:17,48,44,1610612743.0,Lawson,SUB in: T. Lawson,substitution,substitution,4,Low
+21400221,205,substitution,2,PT06M17.00S,06:17,Q2 06:17,48,44,1610612743.0,Faried,SUB in: K. Faried,substitution,substitution,4,Low
+21400221,206,substitution,2,PT06M17.00S,06:17,Q2 06:17,48,44,1610612743.0,Chandler,SUB in: W. Chandler,substitution,foul,4,Low
+21400221,201,foul,2,PT06M14.00S,06:14,Q2 06:14,48,44,1610612756.0,Morris Sr.,Morris Sr. P.FOUL (P1.PN),substitution,freethrow,4,Low
+21400221,202,freethrow,2,PT06M14.00S,06:14,Q2 06:14,48,44,1610612743.0,Chandler,MISS Chandler Free Throw 1 of 2,foul,rebound,4,Low
+21400221,203,rebound,2,PT06M14.00S,06:14,Q2 06:14,48,44,1610612743.0,,TEAM offensive REBOUND,freethrow,freethrow,4,Low
+21400221,204,freethrow,2,PT06M14.00S,06:14,Q2 06:14,48,45,1610612743.0,Chandler,Chandler Free Throw 2 of 2 (5 PTS),rebound,3pt missed,3,Low
+21400221,206,3pt,2,PT06M00.00S,06:00,Q2 06:00,48,45,1610612756.0,Dragic,MISS G. Dragic 24' 3PT Step Back Jump Shot,freethrow,rebound,3,Low
+21400221,207,rebound,2,PT05M56.00S,05:56,Q2 05:56,48,45,1610612743.0,Lawson,Lawson REBOUND (Off:1 Def:2),3pt missed,3pt missed,3,Low
+21400221,208,3pt,2,PT05M51.00S,05:51,Q2 05:51,48,45,1610612743.0,Lawson,MISS Lawson 25' 3PT Jump Shot,rebound,rebound,3,Low
+21400221,209,rebound,2,PT05M48.00S,05:48,Q2 05:48,48,45,1610612756.0,Tucker,Tucker REBOUND (Off:0 Def:1),3pt missed,2pt missed,3,Low
+21400221,210,2pt,2,PT05M42.00S,05:42,Q2 05:42,48,45,1610612756.0,Morris Sr.,MISS Morris Sr. 2' Layup,rebound,block,3,Low
+21400221,210,block,2,PT05M42.00S,05:42,Q2 05:42,48,45,1610612743.0,Chandler,Chandler BLOCK (1 BLK),2pt missed,rebound,3,Low
+21400221,211,rebound,2,PT05M41.00S,05:41,Q2 05:41,48,45,1610612756.0,,TEAM offensive REBOUND,block,foul,3,Low
+21400221,212,foul,2,PT05M41.00S,05:41,Q2 05:41,48,45,1610612743.0,Faried,Faried P.FOUL (P1.PN),rebound,freethrow,3,Low
+21400221,213,freethrow,2,PT05M41.00S,05:41,Q2 05:41,49,45,1610612756.0,Morris Sr.,Morris Sr. Free Throw 1 of 2 (7 PTS),foul,freethrow,4,Low
+21400221,215,freethrow,2,PT05M41.00S,05:41,Q2 05:41,50,45,1610612756.0,Morris Sr.,Morris Sr. Free Throw 2 of 2 (8 PTS),freethrow,3pt made,5,Low
+21400221,217,3pt,2,PT05M23.00S,05:23,Q2 05:23,50,48,1610612743.0,Chandler,Chandler 26' 3PT Jump Shot (8 PTS) (Afflalo 1 AST),freethrow,2pt missed,2,Low
+21400221,218,2pt,2,PT05M07.00S,05:07,Q2 05:07,50,48,1610612756.0,Morris Sr.,MISS Morris Sr. 5' Jump Shot,3pt made,2pt missed,2,Low
+21400221,219,2pt,2,PT05M05.00S,05:05,Q2 05:05,50,48,1610612756.0,Plumlee,MISS Plumlee 1' Tip Shot,2pt missed,rebound,2,Low
+21400221,220,rebound,2,PT05M05.00S,05:05,Q2 05:05,50,48,1610612756.0,Plumlee,Plumlee REBOUND (Off:3 Def:1),2pt missed,rebound,2,Low
+21400221,221,rebound,2,PT05M02.00S,05:02,Q2 05:02,50,48,1610612743.0,Mozgov,Mozgov REBOUND (Off:3 Def:2),rebound,turnover,2,Low
+21400221,222,turnover,2,PT04M54.00S,04:54,Q2 04:54,50,48,1610612743.0,Faried,Faried Lost Ball Turnover (P3.T7),rebound,steal,2,Low
+21400221,222,steal,2,PT04M54.00S,04:54,Q2 04:54,50,48,1610612756.0,Bledsoe,Bledsoe STEAL (3 STL),turnover,3pt missed,2,Low
+21400221,224,3pt,2,PT04M41.00S,04:41,Q2 04:41,50,48,1610612756.0,Morris Sr.,MISS Morris Sr. 25' 3PT Jump Shot,steal,rebound,2,Low
+21400221,225,rebound,2,PT04M39.00S,04:39,Q2 04:39,50,48,1610612743.0,Mozgov,Mozgov REBOUND (Off:3 Def:3),3pt missed,2pt missed,2,Low
+21400221,226,2pt,2,PT04M19.00S,04:19,Q2 04:19,50,48,1610612743.0,Afflalo,MISS Afflalo 8' Jump Shot,rebound,block,2,Low
+21400221,226,block,2,PT04M19.00S,04:19,Q2 04:19,50,48,1610612756.0,Plumlee,Plumlee BLOCK (2 BLK),2pt missed,rebound,2,Low
+21400221,227,rebound,2,PT04M17.00S,04:17,Q2 04:17,50,48,1610612756.0,Tucker,Tucker REBOUND (Off:0 Def:2),block,3pt made,2,Low
+21400221,228,3pt,2,PT04M04.00S,04:04,Q2 04:04,53,48,1610612756.0,Tucker,Tucker 25' 3PT Jump Shot (3 PTS) (Bledsoe 3 AST),rebound,2pt missed,5,Low
+21400221,229,2pt,2,PT03M48.00S,03:48,Q2 03:48,53,48,1610612743.0,Faried,MISS Faried 6' Running Jump Shot,3pt made,rebound,5,Low
+21400221,230,rebound,2,PT03M45.00S,03:45,Q2 03:45,53,48,1610612743.0,Mozgov,Mozgov REBOUND (Off:4 Def:3),2pt missed,2pt made,5,Low
+21400221,231,2pt,2,PT03M39.00S,03:39,Q2 03:39,53,50,1610612743.0,Faried,Faried 2' Layup (6 PTS) (Lawson 7 AST),rebound,turnover,3,Low
+21400221,232,turnover,2,PT03M23.00S,03:23,Q2 03:23,53,50,1610612756.0,Dragic,G. Dragic Bad Pass Turnover (P1.T6),2pt made,steal,3,Low
+21400221,232,steal,2,PT03M23.00S,03:23,Q2 03:23,53,50,1610612743.0,Mozgov,Mozgov STEAL (2 STL),turnover,foul,3,Low
+21400221,233,foul,2,PT03M22.00S,03:22,Q2 03:22,53,50,1610612756.0,Tucker,Tucker P.FOUL (P1.PN),steal,freethrow,3,Low
+21400221,234,freethrow,2,PT03M22.00S,03:22,Q2 03:22,53,51,1610612743.0,Lawson,Lawson Free Throw 1 of 2 (4 PTS),foul,freethrow,2,Low
+21400221,238,freethrow,2,PT03M22.00S,03:22,Q2 03:22,53,52,1610612743.0,Lawson,Lawson Free Throw 2 of 2 (5 PTS),freethrow,substitution,1,Low
+21400221,236,substitution,2,PT03M22.00S,03:22,Q2 03:22,53,51,1610612756.0,Plumlee,SUB out: M. Plumlee,freethrow,substitution,2,Low
+21400221,237,substitution,2,PT03M22.00S,03:22,Q2 03:22,53,51,1610612756.0,Dragic,SUB out: G. Dragic,substitution,substitution,2,Low
+21400221,238,substitution,2,PT03M22.00S,03:22,Q2 03:22,53,51,1610612756.0,Len,SUB in: A. Len,substitution,substitution,2,Low
+21400221,239,substitution,2,PT03M22.00S,03:22,Q2 03:22,53,51,1610612756.0,Green,SUB in: G. Green,substitution,3pt missed,2,Low
+21400221,240,3pt,2,PT03M05.00S,03:05,Q2 03:05,53,52,1610612756.0,Green,MISS Green 24' 3PT Jump Shot,substitution,rebound,1,Low
+21400221,241,rebound,2,PT03M03.00S,03:03,Q2 03:03,53,52,1610612743.0,Faried,Faried REBOUND (Off:0 Def:1),3pt missed,3pt made,1,Low
+21400221,242,3pt,2,PT02M50.00S,02:50,Q2 02:50,53,55,1610612743.0,Afflalo,Afflalo 24' 3PT Jump Shot (11 PTS) (Lawson 8 AST),rebound,foul,2,Low
+21400221,243,foul,2,PT02M50.00S,02:50,Q2 02:50,53,55,1610612756.0,Green,Green S.FOUL (P2.PN),3pt made,timeout,2,Low
+21400221,244,timeout,2,PT02M50.00S,02:50,Q2 02:50,53,55,0.0,,Timeout: Official,foul,freethrow,2,Low
+21400221,248,freethrow,2,PT02M50.00S,02:50,Q2 02:50,53,55,1610612743.0,Afflalo,MISS Afflalo Free Throw 1 of 1,timeout,rebound,2,Low
+21400221,250,rebound,2,PT02M49.00S,02:49,Q2 02:49,53,55,1610612756.0,Tucker,Tucker REBOUND (Off:0 Def:3),freethrow,foul,2,Low
+21400221,251,foul,2,PT02M38.00S,02:38,Q2 02:38,53,55,1610612743.0,Afflalo,Afflalo P.FOUL (P1.PN),rebound,freethrow,2,Low
+21400221,252,freethrow,2,PT02M38.00S,02:38,Q2 02:38,54,55,1610612756.0,Bledsoe,Bledsoe Free Throw 1 of 2 (9 PTS),foul,freethrow,1,Low
+21400221,254,freethrow,2,PT02M38.00S,02:38,Q2 02:38,55,55,1610612756.0,Bledsoe,Bledsoe Free Throw 2 of 2 (10 PTS),freethrow,turnover,0,Low
+21400221,256,turnover,2,PT02M26.00S,02:26,Q2 02:26,55,55,1610612743.0,Mozgov,Mozgov Bad Pass Turnover (P1.T8),freethrow,steal,0,Low
+21400221,256,steal,2,PT02M26.00S,02:26,Q2 02:26,55,55,1610612756.0,Tucker,Tucker STEAL (1 STL),turnover,2pt missed,0,Low
+21400221,257,2pt,2,PT02M20.00S,02:20,Q2 02:20,55,55,1610612756.0,Tucker,MISS Tucker 20' Jump Shot,steal,rebound,0,Low
+21400221,258,rebound,2,PT02M17.00S,02:17,Q2 02:17,55,55,1610612743.0,Chandler,Chandler REBOUND (Off:1 Def:3),2pt missed,2pt made,0,Low
+21400221,259,2pt,2,PT02M14.00S,02:14,Q2 02:14,55,57,1610612743.0,Chandler,Chandler Dunk (10 PTS) (Lawson 9 AST),rebound,3pt made,2,Low
+21400221,260,3pt,2,PT02M06.00S,02:06,Q2 02:06,58,57,1610612756.0,Green,Green 24' 3PT Jump Shot (8 PTS) (Bledsoe 4 AST),2pt made,2pt made,1,Low
+21400221,261,2pt,2,PT01M52.00S,01:52,Q2 01:52,58,59,1610612743.0,Lawson,Lawson 21' Step Back Jump Shot (7 PTS),3pt made,2pt missed,1,Low
+21400221,262,2pt,2,PT01M41.00S,01:41,Q2 01:41,58,59,1610612756.0,Bledsoe,MISS Bledsoe 3' Jump Shot,2pt made,block,1,Low
+21400221,262,block,2,PT01M41.00S,01:41,Q2 01:41,58,59,1610612743.0,Mozgov,Mozgov BLOCK (1 BLK),2pt missed,2pt made,1,Low
+21400221,263,2pt,2,PT01M38.00S,01:38,Q2 01:38,60,59,1610612756.0,Len,Len Dunk (10 PTS),block,rebound,1,Low
+21400221,264,rebound,2,PT01M38.00S,01:38,Q2 01:38,58,59,1610612756.0,Len,Len REBOUND (Off:1 Def:2),2pt made,2pt made,1,Low
+21400221,265,2pt,2,PT01M25.00S,01:25,Q2 01:25,60,61,1610612743.0,Mozgov,Mozgov 17' Jump Shot (10 PTS),rebound,3pt missed,1,Low
+21400221,266,3pt,2,PT01M09.00S,01:09,Q2 01:09,60,61,1610612756.0,Green,MISS Green 26' 3PT Jump Shot,2pt made,rebound,1,Low
+21400221,267,rebound,2,PT01M07.00S,01:07,Q2 01:07,60,61,1610612743.0,Afflalo,Afflalo REBOUND (Off:0 Def:2),3pt missed,foul,1,Low
+21400221,268,foul,2,PT00M56.50S,00:56,Q2 00:56,60,61,1610612756.0,Green,Green S.FOUL (P3.PN),rebound,freethrow,1,Low
+21400221,269,freethrow,2,PT00M56.50S,00:56,Q2 00:56,60,62,1610612743.0,Afflalo,Afflalo Free Throw 1 of 3 (12 PTS),foul,freethrow,2,Low
+21400221,271,freethrow,2,PT00M56.50S,00:56,Q2 00:56,60,63,1610612743.0,Afflalo,Afflalo Free Throw 2 of 3 (13 PTS),freethrow,freethrow,3,Low
+21400221,274,freethrow,2,PT00M56.50S,00:56,Q2 00:56,60,64,1610612743.0,Afflalo,Afflalo Free Throw 3 of 3 (14 PTS),freethrow,substitution,4,Low
+21400221,273,substitution,2,PT00M56.50S,00:56,Q2 00:56,60,63,1610612756.0,Green,SUB out: G. Green,freethrow,substitution,3,Low
+21400221,274,substitution,2,PT00M56.50S,00:56,Q2 00:56,60,63,1610612756.0,Dragic,SUB in: G. Dragic,substitution,foul,3,Low
+21400221,276,foul,2,PT00M34.00S,00:34,Q2 00:34,60,64,1610612743.0,Mozgov,Mozgov S.FOUL (P2.PN),substitution,freethrow,4,Low
+21400221,277,freethrow,2,PT00M34.00S,00:34,Q2 00:34,61,64,1610612756.0,Bledsoe,Bledsoe Free Throw 1 of 2 (11 PTS),foul,freethrow,3,Low
+21400221,279,freethrow,2,PT00M34.00S,00:34,Q2 00:34,62,64,1610612756.0,Bledsoe,Bledsoe Free Throw 2 of 2 (12 PTS),freethrow,timeout,2,Low
+21400221,281,timeout,2,PT00M25.40S,00:25,Q2 00:25,62,64,1610612743.0,,Nuggets Timeout: Short (Reg.2 Short 1),freethrow,turnover,2,Low
+21400221,286,turnover,2,PT00M13.90S,00:13,Q2 00:13,62,64,1610612743.0,Mozgov,Mozgov Step Out of Bounds Turnover (P2.T9),timeout,2pt made,2,Low
+21400221,287,2pt,2,PT00M04.90S,00:04,Q2 00:04,64,64,1610612756.0,Bledsoe,Bledsoe 16' Pullup Jump Shot (14 PTS),turnover,2pt missed,0,Low
+21400221,288,2pt,2,PT00M00.10S,00:00,Q2 00:00,64,64,1610612743.0,Lawson,MISS Lawson 2' Layup,2pt made,period,0,Low
+21400221,289,period,2,PT00M00.00S,00:00,Q2 00:00,64,64,1610612756.0,,End of 2nd Period (10:10 PM EST),2pt missed,rebound,0,Low
+21400221,290,rebound,2,PT00M00.00S,00:00,Q2 00:00,64,64,1610612743.0,,TEAM offensive REBOUND,period,instant replay,0,Low
+21400221,294,period,3,PT12M00.00S,12:00,Q3 12:00,64,64,1610612756.0,,Start of 3rd Period (10:26 PM EST),instant replay,substitution,0,Low
+21400221,295,2pt,3,PT11M48.00S,11:48,Q3 11:48,66,64,1610612756.0,Dragic,G. Dragic 15' Jump Shot (10 PTS) (Plumlee 2 AST),substitution,2pt missed,2,Low
+21400221,296,2pt,3,PT11M25.00S,11:25,Q3 11:25,66,64,1610612743.0,Mozgov,MISS Mozgov 2' Layup,2pt made,2pt made,2,Low
+21400221,297,2pt,3,PT11M23.00S,11:23,Q3 11:23,66,66,1610612743.0,Mozgov,Mozgov 2' Tip Shot (12 PTS),2pt missed,rebound,0,Low
+21400221,298,rebound,3,PT11M23.00S,11:23,Q3 11:23,66,64,1610612743.0,Mozgov,Mozgov REBOUND (Off:5 Def:3),2pt made,3pt made,2,Low
+21400221,299,3pt,3,PT11M11.00S,11:11,Q3 11:11,69,66,1610612756.0,Dragic,G. Dragic 25' 3PT Jump Shot (13 PTS) (Bledsoe 5 AST),rebound,3pt missed,3,Low
+21400221,300,3pt,3,PT10M44.00S,10:44,Q3 10:44,69,66,1610612743.0,Chandler,MISS Chandler 24' 3PT Jump Shot,3pt made,rebound,3,Low
+21400221,301,rebound,3,PT10M42.00S,10:42,Q3 10:42,69,66,1610612756.0,Morris,Morris REBOUND (Off:1 Def:3),3pt missed,3pt missed,3,Low
+21400221,302,3pt,3,PT10M33.00S,10:33,Q3 10:33,69,66,1610612756.0,Morris,MISS Morris 24' 3PT Jump Shot,rebound,rebound,3,Low
+21400221,303,rebound,3,PT10M31.00S,10:31,Q3 10:31,69,66,1610612743.0,,TEAM defensive REBOUND,3pt missed,turnover,3,Low
+21400221,304,turnover,3,PT10M18.00S,10:18,Q3 10:18,69,66,1610612743.0,Lawson,Lawson Bad Pass Turnover (P1.T10),rebound,steal,3,Low
+21400221,304,steal,3,PT10M18.00S,10:18,Q3 10:18,69,66,1610612756.0,Dragic,G. Dragic STEAL (1 STL),turnover,foul,3,Low
+21400221,305,foul,3,PT10M14.00S,10:14,Q3 10:14,69,66,1610612743.0,Afflalo,Afflalo S.FOUL (P2.T1),steal,freethrow,3,Low
+21400221,306,freethrow,3,PT10M14.00S,10:14,Q3 10:14,69,66,1610612756.0,Bledsoe,MISS Bledsoe Free Throw 1 of 2,foul,rebound,3,Low
+21400221,307,rebound,3,PT10M14.00S,10:14,Q3 10:14,69,66,1610612756.0,,TEAM offensive REBOUND,freethrow,freethrow,3,Low
+21400221,308,freethrow,3,PT10M14.00S,10:14,Q3 10:14,70,66,1610612756.0,Bledsoe,Bledsoe Free Throw 2 of 2 (15 PTS),rebound,2pt made,4,Low
+21400221,310,2pt,3,PT10M02.00S,10:02,Q3 10:02,70,68,1610612743.0,Chandler,Chandler 19' Jump Shot (12 PTS) (Faried 1 AST),freethrow,2pt missed,2,Low
+21400221,311,2pt,3,PT09M35.00S,09:35,Q3 09:35,70,68,1610612756.0,Plumlee,MISS Plumlee 2' Reverse Layup,2pt made,block,2,Low
+21400221,311,block,3,PT09M35.00S,09:35,Q3 09:35,70,68,1610612743.0,Mozgov,Mozgov BLOCK (2 BLK),2pt missed,rebound,2,Low
+21400221,312,rebound,3,PT09M34.00S,09:34,Q3 09:34,70,68,1610612756.0,,TEAM offensive REBOUND,block,turnover,2,Low
+21400221,313,turnover,3,PT09M34.00S,09:34,Q3 09:34,70,68,0.0,,SUNS Turnover: Shot Clock (T#7),rebound,foul,2,Low
+21400221,314,foul,3,PT09M30.00S,09:30,Q3 09:30,70,68,1610612756.0,Bledsoe,Bledsoe Personal Block Foul (P2.T1),turnover,2pt missed,2,Low
+21400221,315,2pt,3,PT09M24.00S,09:24,Q3 09:24,70,68,1610612743.0,Faried,MISS Faried 3' Layup,foul,block,2,Low
+21400221,315,block,3,PT09M24.00S,09:24,Q3 09:24,70,68,1610612756.0,Plumlee,Plumlee BLOCK (3 BLK),2pt missed,rebound,2,Low
+21400221,316,rebound,3,PT09M22.00S,09:22,Q3 09:22,70,68,1610612756.0,Dragic,G. Dragic REBOUND (Off:1 Def:2),block,foul,2,Low
+21400221,317,foul,3,PT09M20.00S,09:20,Q3 09:20,70,68,1610612743.0,Chandler,Chandler Shooting Block Foul (P3.T2),rebound,freethrow,2,Low
+21400221,318,freethrow,3,PT09M20.00S,09:20,Q3 09:20,71,68,1610612756.0,Dragic,G. Dragic Free Throw 1 of 2 (14 PTS),foul,freethrow,3,Low
+21400221,320,freethrow,3,PT09M20.00S,09:20,Q3 09:20,72,68,1610612756.0,Dragic,G. Dragic Free Throw 2 of 2 (15 PTS),freethrow,turnover,4,Low
+21400221,322,turnover,3,PT09M05.00S,09:05,Q3 09:05,72,68,1610612743.0,Mozgov,Mozgov Bad Pass Turnover (P3.T11),freethrow,steal,4,Low
+21400221,322,steal,3,PT09M05.00S,09:05,Q3 09:05,72,68,1610612756.0,Dragic,G. Dragic STEAL (2 STL),turnover,foul,4,Low
+21400221,323,foul,3,PT09M04.00S,09:04,Q3 09:04,72,68,1610612743.0,Lawson,Lawson Personal Take Foul (P1.T3),steal,2pt missed,4,Low
+21400221,324,2pt,3,PT08M51.00S,08:51,Q3 08:51,72,68,1610612756.0,Dragic,MISS G. Dragic 16' Step Back Jump Shot,foul,rebound,4,Low
+21400221,325,rebound,3,PT08M49.00S,08:49,Q3 08:49,72,68,1610612743.0,Chandler,Chandler REBOUND (Off:1 Def:4),2pt missed,2pt missed,4,Low
+21400221,326,2pt,3,PT08M40.00S,08:40,Q3 08:40,72,68,1610612743.0,Mozgov,MISS Mozgov 2' Reverse Layup,rebound,2pt missed,4,Low
+21400221,327,2pt,3,PT08M36.00S,08:36,Q3 08:36,72,68,1610612743.0,Mozgov,MISS Mozgov 2' Tip Shot,2pt missed,rebound,4,Low
+21400221,328,rebound,3,PT08M36.00S,08:36,Q3 08:36,72,68,1610612743.0,Mozgov,Mozgov REBOUND (Off:6 Def:3),2pt missed,rebound,4,Low
+21400221,329,rebound,3,PT08M35.00S,08:35,Q3 08:35,72,68,1610612756.0,Morris Sr.,Morris Sr. REBOUND (Off:0 Def:2),rebound,turnover,4,Low
+21400221,330,turnover,3,PT08M34.00S,08:34,Q3 08:34,72,68,1610612756.0,Morris Sr.,Morris Sr. Bad Pass Turnover (P1.T8),rebound,steal,4,Low
+21400221,330,steal,3,PT08M34.00S,08:34,Q3 08:34,72,68,1610612743.0,Chandler,Chandler STEAL (1 STL),turnover,foul,4,Low
+21400221,331,foul,3,PT08M26.00S,08:26,Q3 08:26,72,68,1610612743.0,Faried,Faried Offensive Charge Foul (P2),steal,turnover,4,Low
+21400221,332,turnover,3,PT08M26.00S,08:26,Q3 08:26,72,68,1610612743.0,Faried,Faried Foul Turnover (P4.T12),foul,2pt made,4,Low
+21400221,333,2pt,3,PT08M12.00S,08:12,Q3 08:12,74,68,1610612756.0,Morris Sr.,Morris Sr. 12' Jump Shot (10 PTS) (Morris 4 AST),turnover,foul,6,Low
+21400221,334,foul,3,PT08M05.00S,08:05,Q3 08:05,74,68,1610612756.0,Bledsoe,Bledsoe P.FOUL (P3.T2),2pt made,3pt missed,6,Low
+21400221,335,3pt,3,PT07M58.00S,07:58,Q3 07:58,74,68,1610612743.0,Lawson,MISS Lawson 25' 3PT Jump Shot,foul,rebound,6,Low
+21400221,336,rebound,3,PT07M56.00S,07:56,Q3 07:56,74,68,1610612756.0,,TEAM defensive REBOUND,3pt missed,2pt made,6,Low
+21400221,337,2pt,3,PT07M41.00S,07:41,Q3 07:41,76,68,1610612756.0,Morris,Morris 14' Jump Shot (11 PTS),rebound,timeout,8,Low
+21400221,338,timeout,3,PT07M40.00S,07:40,Q3 07:40,76,68,1610612743.0,,Nuggets Timeout: Regular (Reg.3 Short 1),2pt made,foul,8,Low
+21400221,342,foul,3,PT07M23.00S,07:23,Q3 07:23,76,68,1610612756.0,Plumlee,Plumlee P.FOUL (P2.T3),timeout,turnover,8,Low
+21400221,344,turnover,3,PT07M11.00S,07:11,Q3 07:11,76,68,1610612743.0,Chandler,Chandler Bad Pass Turnover (P2.T13),foul,steal,8,Low
+21400221,344,steal,3,PT07M11.00S,07:11,Q3 07:11,76,68,1610612756.0,Morris,Morris STEAL (2 STL),turnover,2pt made,8,Low
+21400221,345,2pt,3,PT07M06.00S,07:06,Q3 07:06,78,68,1610612756.0,Dragic,G. Dragic 1' Layup (17 PTS) (Bledsoe 6 AST),steal,2pt missed,10,Low
+21400221,346,2pt,3,PT06M55.00S,06:55,Q3 06:55,78,68,1610612743.0,Lawson,MISS Lawson 17' Jump Shot,2pt made,rebound,10,Low
+21400221,347,rebound,3,PT06M53.00S,06:53,Q3 06:53,78,68,1610612743.0,Faried,Faried REBOUND (Off:1 Def:1),2pt missed,foul,10,Low
+21400221,348,foul,3,PT06M42.00S,06:42,Q3 06:42,78,68,1610612756.0,Morris Sr.,Morris Sr. S.FOUL (P2.T4),rebound,freethrow,10,Low
+21400221,349,freethrow,3,PT06M42.00S,06:42,Q3 06:42,78,69,1610612743.0,Chandler,Chandler Free Throw 1 of 2 (13 PTS),foul,freethrow,9,Low
+21400221,351,freethrow,3,PT06M42.00S,06:42,Q3 06:42,78,70,1610612743.0,Chandler,Chandler Free Throw 2 of 2 (14 PTS),freethrow,2pt missed,8,Low
+21400221,354,2pt,3,PT06M19.00S,06:19,Q3 06:19,78,70,1610612756.0,Morris,MISS Morris 21' Jump Shot,freethrow,rebound,8,Low
+21400221,355,rebound,3,PT06M17.00S,06:17,Q3 06:17,78,70,1610612743.0,Faried,Faried REBOUND (Off:1 Def:2),2pt missed,2pt made,8,Low
+21400221,356,2pt,3,PT06M05.00S,06:05,Q3 06:05,78,72,1610612743.0,Faried,Faried 7' Hook Shot (8 PTS),rebound,2pt made,6,Low
+21400221,357,2pt,3,PT05M51.00S,05:51,Q3 05:51,80,72,1610612756.0,Morris,Morris 15' Jump Shot (13 PTS) (Bledsoe 7 AST),2pt made,3pt missed,8,Low
+21400221,358,3pt,3,PT05M34.00S,05:34,Q3 05:34,80,72,1610612743.0,Chandler,MISS Chandler 25' 3PT Jump Shot,2pt made,rebound,8,Low
+21400221,359,rebound,3,PT05M32.00S,05:32,Q3 05:32,80,72,1610612756.0,Morris,Morris REBOUND (Off:1 Def:4),3pt missed,2pt made,8,Low
+21400221,360,2pt,3,PT05M17.00S,05:17,Q3 05:17,82,72,1610612756.0,Morris Sr.,Morris Sr. 2' Reverse Layup (12 PTS),rebound,2pt missed,10,Low
+21400221,361,2pt,3,PT05M03.00S,05:03,Q3 05:03,82,72,1610612743.0,Chandler,MISS Chandler 14' Jump Shot,2pt made,2pt made,10,Low
+21400221,362,2pt,3,PT05M01.00S,05:01,Q3 05:01,82,74,1610612743.0,Chandler,Chandler 2' Tip Shot (16 PTS),2pt missed,rebound,8,Low
+21400221,363,rebound,3,PT05M01.00S,05:01,Q3 05:01,82,72,1610612743.0,Chandler,Chandler REBOUND (Off:2 Def:4),2pt made,turnover,10,Low
+21400221,364,turnover,3,PT04M52.00S,04:52,Q3 04:52,82,74,1610612756.0,Bledsoe,Bledsoe Bad Pass Turnover (P2.T9),rebound,steal,8,Low
+21400221,364,steal,3,PT04M52.00S,04:52,Q3 04:52,82,74,1610612743.0,Mozgov,Mozgov STEAL (3 STL),turnover,2pt missed,8,Low
+21400221,365,2pt,3,PT04M45.00S,04:45,Q3 04:45,82,74,1610612743.0,Faried,MISS Faried 3' Layup,steal,block,8,Low
+21400221,365,block,3,PT04M45.00S,04:45,Q3 04:45,82,74,1610612756.0,Morris,Morris BLOCK (2 BLK),2pt missed,rebound,8,Low
+21400221,366,rebound,3,PT04M43.00S,04:43,Q3 04:43,82,74,1610612756.0,Morris Sr.,Morris Sr. REBOUND (Off:0 Def:3),block,2pt missed,8,Low
+21400221,367,2pt,3,PT04M40.00S,04:40,Q3 04:40,82,74,1610612756.0,Bledsoe,MISS Bledsoe 1' Layup,rebound,2pt missed,8,Low
+21400221,368,2pt,3,PT04M38.00S,04:38,Q3 04:38,82,74,1610612756.0,Dragic,MISS G. Dragic 1' Layup,2pt missed,rebound,8,Low
+21400221,369,rebound,3,PT04M38.00S,04:38,Q3 04:38,82,74,1610612756.0,Dragic,G. Dragic REBOUND (Off:2 Def:2),2pt missed,rebound,8,Low
+21400221,370,rebound,3,PT04M37.00S,04:37,Q3 04:37,82,74,1610612756.0,Plumlee,Plumlee REBOUND (Off:4 Def:1),rebound,timeout,8,Low
+21400221,375,timeout,3,PT04M37.00S,04:37,Q3 04:37,82,74,1610612756.0,,SUNS Timeout: Regular (Full 3 Short 0),rebound,substitution,8,Low
+21400221,372,substitution,3,PT04M37.00S,04:37,Q3 04:37,82,74,1610612743.0,Faried,SUB out: K. Faried,timeout,substitution,8,Low
+21400221,373,substitution,3,PT04M37.00S,04:37,Q3 04:37,82,74,1610612756.0,Plumlee,SUB out: M. Plumlee,substitution,substitution,8,Low
+21400221,374,substitution,3,PT04M37.00S,04:37,Q3 04:37,82,74,1610612756.0,Bledsoe,SUB out: E. Bledsoe,substitution,substitution,8,Low
+21400221,375,substitution,3,PT04M37.00S,04:37,Q3 04:37,82,74,1610612743.0,Chandler,SUB out: W. Chandler,substitution,substitution,8,Low
+21400221,376,substitution,3,PT04M37.00S,04:37,Q3 04:37,82,74,1610612743.0,Mozgov,SUB out: T. Mozgov,substitution,substitution,8,Low
+21400221,377,substitution,3,PT04M37.00S,04:37,Q3 04:37,82,74,1610612743.0,Arthur,SUB in: D. Arthur,substitution,substitution,8,Low
+21400221,378,substitution,3,PT04M37.00S,04:37,Q3 04:37,82,74,1610612756.0,Len,SUB in: A. Len,substitution,substitution,8,Low
+21400221,379,substitution,3,PT04M37.00S,04:37,Q3 04:37,82,74,1610612756.0,Green,SUB in: G. Green,substitution,substitution,8,Low
+21400221,380,substitution,3,PT04M37.00S,04:37,Q3 04:37,82,74,1610612743.0,Gee,SUB in: A. Gee,substitution,substitution,8,Low
+21400221,381,substitution,3,PT04M37.00S,04:37,Q3 04:37,82,74,1610612743.0,Hickson,SUB in: J. Hickson,substitution,3pt made,8,Low
+21400221,381,3pt,3,PT04M25.00S,04:25,Q3 04:25,85,74,1610612756.0,Green,Green 24' 3PT Jump Shot (11 PTS) (G. Dragic 2 AST),substitution,foul,11,Low
+21400221,382,foul,3,PT04M09.00S,04:09,Q3 04:09,85,74,1610612743.0,Arthur,Arthur OFF.Foul (P2),3pt made,turnover,11,Low
+21400221,383,turnover,3,PT04M09.00S,04:09,Q3 04:09,85,74,1610612743.0,Arthur,Arthur Foul Turnover (P1.T14),foul,3pt missed,11,Low
+21400221,384,3pt,3,PT03M59.00S,03:59,Q3 03:59,85,74,1610612756.0,Green,MISS Green 26' 3PT Jump Shot,turnover,rebound,11,Low
+21400221,385,rebound,3,PT03M57.00S,03:57,Q3 03:57,85,74,1610612743.0,Lawson,Lawson REBOUND (Off:1 Def:3),3pt missed,2pt made,11,Low
+21400221,386,2pt,3,PT03M52.00S,03:52,Q3 03:52,85,76,1610612743.0,Lawson,Lawson 1' Driving Layup (9 PTS),rebound,turnover,9,Low
+21400221,387,turnover,3,PT03M28.00S,03:28,Q3 03:28,85,76,1610612756.0,Dragic,G. Dragic Bad Pass Turnover (P2.T10),2pt made,steal,9,Low
+21400221,387,steal,3,PT03M28.00S,03:28,Q3 03:28,85,76,1610612743.0,Arthur,Arthur STEAL (2 STL),turnover,2pt missed,9,Low
+21400221,388,2pt,3,PT03M22.00S,03:22,Q3 03:22,85,76,1610612743.0,Hickson,MISS Hickson 3' Jump Shot,steal,rebound,9,Low
+21400221,389,rebound,3,PT03M20.00S,03:20,Q3 03:20,85,76,1610612743.0,Hickson,Hickson REBOUND (Off:1 Def:1),2pt missed,2pt made,9,Low
+21400221,390,2pt,3,PT03M17.00S,03:17,Q3 03:17,85,78,1610612743.0,Hickson,Hickson 4' Jump Shot (7 PTS),rebound,timeout,7,Low
+21400221,391,timeout,3,PT03M17.00S,03:17,Q3 03:17,85,78,1610612756.0,,SUNS Timeout: Short (Full 3 Short 1),2pt made,substitution,7,Low
+21400221,393,substitution,3,PT03M17.00S,03:17,Q3 03:17,85,78,1610612743.0,Afflalo,SUB out: A. Afflalo,timeout,substitution,7,Low
+21400221,394,substitution,3,PT03M17.00S,03:17,Q3 03:17,85,78,1610612743.0,Chandler,SUB in: W. Chandler,substitution,2pt missed,7,Low
+21400221,394,2pt,3,PT02M57.00S,02:57,Q3 02:57,85,78,1610612756.0,Len,MISS Len 4' Jump Shot,substitution,rebound,7,Low
+21400221,395,rebound,3,PT02M55.00S,02:55,Q3 02:55,85,78,1610612743.0,Arthur,Arthur REBOUND (Off:0 Def:4),2pt missed,foul,7,Low
+21400221,396,foul,3,PT02M51.00S,02:51,Q3 02:51,85,78,1610612756.0,Dragic,G. Dragic S.FOUL (P3.PN),rebound,freethrow,7,Low
+21400221,397,freethrow,3,PT02M51.00S,02:51,Q3 02:51,85,79,1610612743.0,Lawson,Lawson Free Throw 1 of 2 (10 PTS),foul,freethrow,6,Low
+21400221,400,freethrow,3,PT02M51.00S,02:51,Q3 02:51,85,80,1610612743.0,Lawson,Lawson Free Throw 2 of 2 (11 PTS),freethrow,substitution,5,Low
+21400221,399,substitution,3,PT02M51.00S,02:51,Q3 02:51,85,79,1610612756.0,Morris,SUB out: M. Morris,freethrow,substitution,6,Low
+21400221,400,substitution,3,PT02M51.00S,02:51,Q3 02:51,85,79,1610612756.0,Tucker,SUB in: P. Tucker,substitution,foul,6,Low
+21400221,402,foul,3,PT02M46.00S,02:46,Q3 02:46,85,80,1610612756.0,Len,Len OFF.Foul (P2),substitution,turnover,5,Low
+21400221,403,turnover,3,PT02M46.00S,02:46,Q3 02:46,85,80,1610612756.0,Len,Len Foul Turnover (P2.T11),foul,2pt missed,5,Low
+21400221,404,2pt,3,PT02M36.00S,02:36,Q3 02:36,85,80,1610612743.0,Hickson,MISS Hickson 18' Jump Shot,turnover,rebound,5,Low
+21400221,405,rebound,3,PT02M35.00S,02:35,Q3 02:35,85,80,1610612743.0,Gee,Gee REBOUND (Off:1 Def:1),2pt missed,turnover,5,Low
+21400221,406,turnover,3,PT02M32.00S,02:32,Q3 02:32,85,80,1610612743.0,Gee,Gee Out of Bounds Lost Ball Turnover (P2.T15),rebound,substitution,5,Low
+21400221,407,substitution,3,PT02M32.00S,02:32,Q3 02:32,85,80,1610612756.0,Len,SUB out: A. Len,turnover,substitution,5,Low
+21400221,408,substitution,3,PT02M32.00S,02:32,Q3 02:32,85,80,1610612756.0,Tolliver,SUB in: A. Tolliver,substitution,foul,5,Low
+21400221,408,foul,3,PT02M19.00S,02:19,Q3 02:19,85,80,1610612743.0,Chandler,Chandler P.FOUL (P4.T4),substitution,2pt missed,5,Low
+21400221,409,2pt,3,PT02M11.00S,02:11,Q3 02:11,85,80,1610612756.0,Morris Sr.,MISS Morris Sr. 2' Driving Layup,foul,rebound,5,Low
+21400221,410,rebound,3,PT02M09.00S,02:09,Q3 02:09,85,80,1610612743.0,Gee,Gee REBOUND (Off:1 Def:2),2pt missed,2pt made,5,Low
+21400221,411,2pt,3,PT02M05.00S,02:05,Q3 02:05,85,82,1610612743.0,Gee,Gee Driving Dunk (7 PTS),rebound,2pt missed,3,Low
+21400221,412,2pt,3,PT01M45.00S,01:45,Q3 01:45,85,82,1610612756.0,Tolliver,MISS Tolliver 1' Reverse Layup,2pt made,rebound,3,Low
+21400221,413,rebound,3,PT01M42.00S,01:42,Q3 01:42,85,82,1610612743.0,Hickson,Hickson REBOUND (Off:1 Def:2),2pt missed,2pt missed,3,Low
+21400221,414,2pt,3,PT01M36.00S,01:36,Q3 01:36,85,82,1610612743.0,Lawson,MISS Lawson 5' Jump Bank Shot,rebound,rebound,3,Low
+21400221,415,rebound,3,PT01M32.00S,01:32,Q3 01:32,85,82,1610612756.0,Morris Sr.,Morris Sr. REBOUND (Off:0 Def:4),2pt missed,3pt made,3,Low
+21400221,416,3pt,3,PT01M29.00S,01:29,Q3 01:29,88,82,1610612756.0,Green,Green 24' 3PT Jump Shot (14 PTS) (G. Dragic 3 AST),rebound,foul,6,Low
+21400221,417,foul,3,PT01M15.00S,01:15,Q3 01:15,88,82,1610612756.0,Dragic,G. Dragic Shooting Block Foul (P4.PN),3pt made,freethrow,6,Low
+21400221,418,freethrow,3,PT01M15.00S,01:15,Q3 01:15,88,83,1610612743.0,Lawson,Lawson Free Throw 1 of 2 (12 PTS),foul,freethrow,5,Low
+21400221,420,freethrow,3,PT01M15.00S,01:15,Q3 01:15,88,84,1610612743.0,Lawson,Lawson Free Throw 2 of 2 (13 PTS),freethrow,2pt made,4,Low
+21400221,422,2pt,3,PT00M52.90S,00:52,Q3 00:52,90,84,1610612756.0,Morris Sr.,Morris Sr. 21' Jump Shot (14 PTS),freethrow,foul,6,Low
+21400221,423,foul,3,PT00M48.50S,00:48,Q3 00:48,90,84,1610612756.0,Green,Green S.FOUL (P4.PN),2pt made,freethrow,6,Low
+21400221,424,freethrow,3,PT00M48.50S,00:48,Q3 00:48,90,85,1610612743.0,Lawson,Lawson Free Throw 1 of 2 (14 PTS),foul,freethrow,5,Low
+21400221,426,freethrow,3,PT00M48.50S,00:48,Q3 00:48,90,86,1610612743.0,Lawson,Lawson Free Throw 2 of 2 (15 PTS),freethrow,3pt made,4,Low
+21400221,428,3pt,3,PT00M29.90S,00:29,Q3 00:29,93,86,1610612756.0,Green,Green 24' 3PT Jump Shot (17 PTS) (Morris Sr. 1 AST),freethrow,2pt missed,7,Low
+21400221,429,2pt,3,PT00M08.90S,00:08,Q3 00:08,93,86,1610612743.0,Lawson,MISS Lawson 16' Jump Shot,3pt made,rebound,7,Low
+21400221,430,rebound,3,PT00M07.40S,00:07,Q3 00:07,93,86,1610612743.0,Gee,Gee REBOUND (Off:2 Def:2),2pt missed,2pt missed,7,Low
+21400221,431,2pt,3,PT00M04.90S,00:04,Q3 00:04,93,86,1610612743.0,Gee,MISS Gee 3' Layup,rebound,rebound,7,Low
+21400221,432,rebound,3,PT00M02.90S,00:02,Q3 00:02,93,86,1610612756.0,Tucker,Tucker REBOUND (Off:0 Def:4),2pt missed,turnover,7,Low
+21400221,433,turnover,3,PT00M00.90S,00:00,Q3 00:00,93,86,1610612756.0,Tucker,Tucker Bad Pass Turnover (P1.T12),rebound,steal,7,Low
+21400221,433,steal,3,PT00M00.90S,00:00,Q3 00:00,93,86,1610612743.0,Lawson,Lawson STEAL (2 STL),turnover,3pt missed,7,Low
+21400221,434,3pt,3,PT00M00.10S,00:00,Q3 00:00,93,86,1610612743.0,Lawson,MISS Lawson 33' 3PT Jump Shot,steal,period,7,Low
+21400221,435,period,3,PT00M00.00S,00:00,Q3 00:00,93,86,1610612756.0,,End of 3rd Period (10:54 PM EST),3pt missed,rebound,7,Low
+21400221,436,rebound,3,PT00M00.00S,00:00,Q3 00:00,93,86,1610612743.0,,TEAM offensive REBOUND,period,period,7,Low
+21400221,438,period,4,PT12M00.00S,12:00,Q4 12:00,93,86,1610612756.0,,Start of 4th Period (10:57 PM EST),rebound,substitution,7,Medium
+21400221,439,2pt,4,PT11M42.00S,11:42,Q4 11:42,93,88,1610612743.0,Lawson,Lawson 2' Driving Layup (17 PTS),substitution,3pt missed,5,Medium
+21400221,440,3pt,4,PT11M18.00S,11:18,Q4 11:18,93,88,1610612756.0,Green,MISS Green 24' 3PT Jump Shot,2pt made,rebound,5,Medium
+21400221,441,rebound,4,PT11M16.00S,11:16,Q4 11:16,93,88,1610612756.0,Tucker,Tucker REBOUND (Off:1 Def:4),3pt missed,3pt made,5,Medium
+21400221,442,3pt,4,PT11M14.00S,11:14,Q4 11:14,96,88,1610612756.0,Tucker,Tucker 24' 3PT Jump Shot (6 PTS),rebound,2pt missed,8,Medium
+21400221,443,2pt,4,PT11M06.00S,11:06,Q4 11:06,96,88,1610612743.0,Gee,MISS Gee 2' Layup,3pt made,rebound,8,Medium
+21400221,444,rebound,4,PT11M04.00S,11:04,Q4 11:04,96,88,1610612743.0,Gee,Gee REBOUND (Off:3 Def:2),2pt missed,2pt made,8,Medium
+21400221,445,2pt,4,PT10M57.00S,10:57,Q4 10:57,96,90,1610612743.0,Gee,Gee 1' Driving Layup (9 PTS),rebound,2pt made,6,Medium
+21400221,446,2pt,4,PT10M38.00S,10:38,Q4 10:38,98,90,1610612756.0,Morris,Morris 15' Jump Shot (15 PTS),2pt made,2pt missed,8,Medium
+21400221,447,2pt,4,PT10M21.00S,10:21,Q4 10:21,98,90,1610612743.0,Hickson,MISS Hickson 7' Jump Shot,2pt made,block,8,Medium
+21400221,447,block,4,PT10M21.00S,10:21,Q4 10:21,98,90,1610612756.0,Morris,Morris BLOCK (3 BLK),2pt missed,rebound,8,Medium
+21400221,448,rebound,4,PT10M19.00S,10:19,Q4 10:19,98,90,1610612756.0,Morris,Morris REBOUND (Off:1 Def:5),block,2pt made,8,Medium
+21400221,449,2pt,4,PT10M16.00S,10:16,Q4 10:16,100,90,1610612756.0,Tucker,Tucker 14' Pullup Jump Shot (8 PTS) (Morris 5 AST),rebound,timeout,10,Low
+21400221,450,timeout,4,PT10M14.00S,10:14,Q4 10:14,100,90,1610612743.0,,Nuggets Timeout: Regular (Reg.4 Short 1),2pt made,substitution,10,Low
+21400221,452,substitution,4,PT10M14.00S,10:14,Q4 10:14,100,90,1610612743.0,Hickson,SUB out: J. Hickson,timeout,substitution,10,Low
+21400221,453,substitution,4,PT10M14.00S,10:14,Q4 10:14,100,90,1610612756.0,Tolliver,SUB out: A. Tolliver,substitution,substitution,10,Low
+21400221,454,substitution,4,PT10M14.00S,10:14,Q4 10:14,100,90,1610612743.0,Afflalo,SUB in: A. Afflalo,substitution,substitution,10,Low
+21400221,455,substitution,4,PT10M14.00S,10:14,Q4 10:14,100,90,1610612756.0,Plumlee,SUB in: M. Plumlee,substitution,2pt made,10,Low
+21400221,454,2pt,4,PT10M04.00S,10:04,Q4 10:04,100,92,1610612743.0,Gee,Gee 5' Jump Bank Shot (11 PTS),substitution,foul,8,Medium
+21400221,455,foul,4,PT09M46.00S,09:46,Q4 09:46,100,92,1610612743.0,Arthur,Arthur Personal Block Foul (P3.T1),2pt made,3pt made,8,Medium
+21400221,456,3pt,4,PT09M39.00S,09:39,Q4 09:39,103,92,1610612756.0,Bledsoe,Bledsoe 26' 3PT Jump Shot (18 PTS),foul,2pt made,11,Low
+21400221,457,2pt,4,PT09M24.00S,09:24,Q4 09:24,103,94,1610612743.0,Arthur,Arthur 2' Layup (6 PTS) (Lawson 10 AST),3pt made,2pt made,9,Low
+21400221,459,2pt,4,PT08M57.00S,08:57,Q4 08:57,105,94,1610612756.0,Green,Green Reverse Dunk (19 PTS) (Tucker 1 AST),2pt made,turnover,11,Low
+21400221,460,turnover,4,PT08M41.00S,08:41,Q4 08:41,105,94,1610612743.0,Lawson,Lawson Bad Pass Turnover (P2.T16),2pt made,steal,11,Low
+21400221,460,steal,4,PT08M41.00S,08:41,Q4 08:41,105,94,1610612756.0,Morris,Morris STEAL (3 STL),turnover,substitution,11,Low
+21400221,462,substitution,4,PT08M37.00S,08:37,Q4 08:37,105,94,1610612743.0,Lawson,SUB out: T. Lawson,steal,substitution,11,Low
+21400221,463,substitution,4,PT08M37.00S,08:37,Q4 08:37,105,94,1610612743.0,Robinson,SUB in: N. Robinson,substitution,2pt missed,11,Low
+21400221,463,2pt,4,PT08M17.00S,08:17,Q4 08:17,105,94,1610612756.0,Tucker,MISS Tucker 11' Jump Shot,substitution,block,11,Low
+21400221,463,block,4,PT08M17.00S,08:17,Q4 08:17,105,94,1610612743.0,Arthur,Arthur BLOCK (1 BLK),2pt missed,2pt missed,11,Low
+21400221,464,2pt,4,PT08M15.00S,08:15,Q4 08:15,105,94,1610612756.0,Morris,MISS Morris 1' Layup,block,rebound,11,Low
+21400221,465,rebound,4,PT08M15.00S,08:15,Q4 08:15,105,94,1610612756.0,Morris,Morris REBOUND (Off:2 Def:5),2pt missed,rebound,11,Low
+21400221,466,rebound,4,PT08M15.00S,08:15,Q4 08:15,105,94,1610612756.0,,TEAM offensive REBOUND,rebound,substitution,11,Low
+21400221,467,substitution,4,PT08M15.00S,08:15,Q4 08:15,105,94,1610612743.0,Arthur,SUB out: D. Arthur,rebound,substitution,11,Low
+21400221,468,substitution,4,PT08M15.00S,08:15,Q4 08:15,105,94,1610612743.0,Mozgov,SUB in: T. Mozgov,substitution,turnover,11,Low
+21400221,468,turnover,4,PT08M03.00S,08:03,Q4 08:03,105,94,1610612756.0,Green,Green Traveling Turnover (P2.T13),substitution,2pt missed,11,Low
+21400221,469,2pt,4,PT07M47.00S,07:47,Q4 07:47,105,94,1610612743.0,Gee,MISS Gee 2' Layup,turnover,block,11,Low
+21400221,469,block,4,PT07M47.00S,07:47,Q4 07:47,105,94,1610612756.0,Plumlee,Plumlee BLOCK (4 BLK),2pt missed,rebound,11,Low
+21400221,470,rebound,4,PT07M46.00S,07:46,Q4 07:46,105,94,1610612756.0,Tucker,Tucker REBOUND (Off:1 Def:5),block,foul,11,Low
+21400221,471,foul,4,PT07M46.00S,07:46,Q4 07:46,105,94,1610612743.0,Gee,Gee P.FOUL (P1.T2),rebound,3pt made,11,Low
+21400221,472,3pt,4,PT07M23.00S,07:23,Q4 07:23,108,94,1610612756.0,Green,Green 3PT Jump Shot (22 PTS) (Bledsoe 8 AST),foul,3pt missed,14,Low
+21400221,473,3pt,4,PT07M00.00S,07:00,Q4 07:00,108,94,1610612743.0,Robinson,MISS Robinson 25' 3PT Jump Shot,3pt made,rebound,14,Low
+21400221,474,rebound,4,PT06M58.00S,06:58,Q4 06:58,108,94,1610612756.0,Plumlee,Plumlee REBOUND (Off:4 Def:2),3pt missed,2pt made,14,Low
+21400221,475,2pt,4,PT06M46.00S,06:46,Q4 06:46,110,94,1610612756.0,Green,Green Alley Oop Dunk (24 PTS) (Bledsoe 9 AST),rebound,timeout,16,Low
+21400221,476,timeout,4,PT06M45.00S,06:45,Q4 06:45,110,94,1610612743.0,,Nuggets Timeout: Regular (Reg.5 Short 1),2pt made,substitution,16,Low
+21400221,479,substitution,4,PT06M45.00S,06:45,Q4 06:45,110,94,1610612743.0,Chandler,SUB out: W. Chandler,timeout,substitution,16,Low
+21400221,480,substitution,4,PT06M45.00S,06:45,Q4 06:45,110,94,1610612743.0,Gee,SUB out: A. Gee,substitution,substitution,16,Low
+21400221,481,substitution,4,PT06M45.00S,06:45,Q4 06:45,110,94,1610612743.0,Lawson,SUB in: T. Lawson,substitution,substitution,16,Low
+21400221,482,substitution,4,PT06M45.00S,06:45,Q4 06:45,110,94,1610612743.0,Faried,SUB in: K. Faried,substitution,2pt missed,16,Low
+21400221,482,2pt,4,PT06M24.00S,06:24,Q4 06:24,110,94,1610612743.0,Faried,MISS Faried 6' Jump Shot,substitution,rebound,16,Low
+21400221,483,rebound,4,PT06M22.00S,06:22,Q4 06:22,110,94,1610612756.0,Morris,Morris REBOUND (Off:2 Def:6),2pt missed,2pt missed,16,Low
+21400221,484,2pt,4,PT06M03.00S,06:03,Q4 06:03,110,94,1610612756.0,Green,MISS Green 16' Turnaround Jump Shot,rebound,rebound,16,Low
+21400221,485,rebound,4,PT06M00.00S,06:00,Q4 06:00,110,94,1610612756.0,Plumlee,Plumlee REBOUND (Off:5 Def:2),2pt missed,3pt missed,16,Low
+21400221,486,3pt,4,PT05M53.00S,05:53,Q4 05:53,110,94,1610612756.0,Tucker,MISS Tucker 3PT Jump Shot,rebound,rebound,16,Low
+21400221,487,rebound,4,PT05M51.00S,05:51,Q4 05:51,110,94,1610612743.0,Lawson,Lawson REBOUND (Off:1 Def:4),3pt missed,2pt made,16,Low
+21400221,488,2pt,4,PT05M45.00S,05:45,Q4 05:45,110,96,1610612743.0,Afflalo,Afflalo 22' Jump Shot (16 PTS) (Lawson 11 AST),rebound,turnover,14,Low
+21400221,489,turnover,4,PT05M18.00S,05:18,Q4 05:18,110,96,1610612756.0,Morris,Morris Step Out of Bounds Turnover (P2.T14),2pt made,2pt missed,14,Low
+21400221,490,2pt,4,PT05M01.00S,05:01,Q4 05:01,110,96,1610612743.0,Mozgov,MISS Mozgov 16' Jump Shot,turnover,rebound,14,Low
+21400221,491,rebound,4,PT04M59.00S,04:59,Q4 04:59,110,96,1610612743.0,Faried,Faried REBOUND (Off:2 Def:2),2pt missed,substitution,14,Low
+21400221,493,substitution,4,PT04M57.00S,04:57,Q4 04:57,110,96,1610612756.0,Tucker,SUB out: P. Tucker,rebound,substitution,14,Low
+21400221,494,substitution,4,PT04M57.00S,04:57,Q4 04:57,110,96,1610612756.0,Dragic,SUB in: G. Dragic,substitution,2pt missed,14,Low
+21400221,494,2pt,4,PT04M52.00S,04:52,Q4 04:52,110,96,1610612743.0,Afflalo,MISS Afflalo 16' Jump Shot,substitution,rebound,14,Low
+21400221,495,rebound,4,PT04M50.00S,04:50,Q4 04:50,110,96,1610612743.0,Mozgov,Mozgov REBOUND (Off:7 Def:3),2pt missed,2pt made,14,Low
+21400221,496,2pt,4,PT04M48.00S,04:48,Q4 04:48,110,98,1610612743.0,Mozgov,Mozgov 3' Jump Shot (14 PTS),rebound,turnover,12,Medium
+21400221,497,turnover,4,PT04M33.00S,04:33,Q4 04:33,110,98,1610612756.0,Bledsoe,Bledsoe Bad Pass Turnover (P3.T15),2pt made,steal,12,Medium
+21400221,497,steal,4,PT04M33.00S,04:33,Q4 04:33,110,98,1610612743.0,Faried,Faried STEAL (1 STL),turnover,turnover,12,Medium
+21400221,498,turnover,4,PT04M30.00S,04:30,Q4 04:30,110,98,1610612743.0,Faried,Faried Bad Pass Turnover (P5.T17),steal,2pt missed,12,Medium
+21400221,499,2pt,4,PT04M12.00S,04:12,Q4 04:12,110,98,1610612756.0,Plumlee,MISS Plumlee 6' Hook Shot,turnover,rebound,12,Medium
+21400221,500,rebound,4,PT04M10.00S,04:10,Q4 04:10,110,98,1610612756.0,Green,Green REBOUND (Off:1 Def:1),2pt missed,3pt missed,12,Medium
+21400221,501,3pt,4,PT04M01.00S,04:01,Q4 04:01,110,98,1610612756.0,Bledsoe,MISS Bledsoe 25' 3PT Jump Shot,rebound,rebound,12,Medium
+21400221,502,rebound,4,PT03M59.00S,03:59,Q4 03:59,110,98,1610612743.0,Faried,Faried REBOUND (Off:2 Def:3),3pt missed,2pt missed,12,Medium
+21400221,503,2pt,4,PT03M43.00S,03:43,Q4 03:43,110,98,1610612743.0,Lawson,MISS Lawson 19' Jump Shot,rebound,rebound,12,Medium
+21400221,504,rebound,4,PT03M41.00S,03:41,Q4 03:41,110,98,1610612743.0,Mozgov,Mozgov REBOUND (Off:8 Def:3),2pt missed,foul,12,Medium
+21400221,505,foul,4,PT03M24.00S,03:24,Q4 03:24,110,98,1610612756.0,Plumlee,Plumlee S.FOUL (P3.T1),rebound,freethrow,12,Medium
+21400221,506,freethrow,4,PT03M24.00S,03:24,Q4 03:24,110,99,1610612743.0,Mozgov,Mozgov Free Throw 1 of 2 (15 PTS),foul,freethrow,11,Medium
+21400221,508,freethrow,4,PT03M24.00S,03:24,Q4 03:24,110,99,1610612743.0,Mozgov,MISS Mozgov Free Throw 2 of 2,freethrow,rebound,11,Medium
+21400221,510,rebound,4,PT03M23.00S,03:23,Q4 03:23,110,99,1610612756.0,Morris,Morris REBOUND (Off:2 Def:7),freethrow,timeout,11,Medium
+21400221,511,timeout,4,PT03M23.00S,03:23,Q4 03:23,110,99,1610612756.0,,SUNS Timeout: Regular (Full 4 Short 1),rebound,2pt made,11,Medium
+21400221,515,2pt,4,PT03M08.00S,03:08,Q4 03:08,112,99,1610612756.0,Plumlee,Plumlee 1' Layup (6 PTS) (G. Dragic 4 AST),timeout,3pt made,13,Low
+21400221,516,3pt,4,PT02M50.00S,02:50,Q4 02:50,112,102,1610612743.0,Mozgov,Mozgov 24' 3PT Jump Shot (18 PTS) (Lawson 12 AST),2pt made,3pt missed,10,Medium
+21400221,517,3pt,4,PT02M31.00S,02:31,Q4 02:31,112,102,1610612756.0,Morris,MISS Morris 25' 3PT Jump Shot,3pt made,rebound,10,Medium
+21400221,518,rebound,4,PT02M29.00S,02:29,Q4 02:29,112,102,1610612756.0,Dragic,G. Dragic REBOUND (Off:3 Def:2),3pt missed,2pt missed,10,Medium
+21400221,519,2pt,4,PT02M23.00S,02:23,Q4 02:23,112,102,1610612756.0,Bledsoe,MISS Bledsoe 2' Driving Layup,rebound,rebound,10,Medium
+21400221,520,rebound,4,PT02M20.00S,02:20,Q4 02:20,112,102,1610612743.0,Mozgov,Mozgov REBOUND (Off:8 Def:4),2pt missed,3pt missed,10,Medium
+21400221,521,3pt,4,PT02M16.00S,02:16,Q4 02:16,112,102,1610612743.0,Robinson,MISS Robinson 25' 3PT Jump Shot,rebound,rebound,10,Medium
+21400221,522,rebound,4,PT02M14.00S,02:14,Q4 02:14,112,102,1610612743.0,Mozgov,Mozgov REBOUND (Off:9 Def:4),3pt missed,2pt missed,10,Medium
+21400221,523,2pt,4,PT02M12.00S,02:12,Q4 02:12,112,102,1610612743.0,Mozgov,MISS Mozgov 1' Layup,rebound,block,10,Medium
+21400221,523,block,4,PT02M12.00S,02:12,Q4 02:12,112,102,1610612756.0,Morris,Morris BLOCK (4 BLK),2pt missed,rebound,10,Medium
+21400221,524,rebound,4,PT02M10.00S,02:10,Q4 02:10,112,102,1610612743.0,Lawson,Lawson REBOUND (Off:2 Def:4),block,3pt missed,10,Medium
+21400221,525,3pt,4,PT02M09.00S,02:09,Q4 02:09,112,102,1610612743.0,Lawson,MISS Lawson 26' 3PT Jump Shot,rebound,rebound,10,Medium
+21400221,526,rebound,4,PT02M07.00S,02:07,Q4 02:07,112,102,1610612756.0,Green,Green REBOUND (Off:1 Def:2),3pt missed,foul,10,Medium
+21400221,527,foul,4,PT01M57.00S,01:57,Q4 01:57,112,102,1610612743.0,Robinson,Robinson P.FOUL (P2.T3),rebound,substitution,10,Medium
+21400221,528,substitution,4,PT01M57.00S,01:57,Q4 01:57,112,102,1610612756.0,Plumlee,SUB out: M. Plumlee,foul,substitution,10,Medium
+21400221,529,substitution,4,PT01M57.00S,01:57,Q4 01:57,112,102,1610612756.0,Tucker,SUB in: P. Tucker,substitution,2pt made,10,Medium
+21400221,529,2pt,4,PT01M48.00S,01:48,Q4 01:48,114,102,1610612756.0,Tucker,Tucker 12' Jump Shot (10 PTS) (Bledsoe 10 AST),substitution,3pt missed,12,Medium
+21400221,530,3pt,4,PT01M35.00S,01:35,Q4 01:35,114,102,1610612743.0,Robinson,MISS Robinson 25' 3PT Jump Shot,2pt made,rebound,12,Medium
+21400221,531,rebound,4,PT01M33.00S,01:33,Q4 01:33,114,102,1610612743.0,,TEAM offensive REBOUND,3pt missed,substitution,12,Medium
+21400221,532,substitution,4,PT01M33.00S,01:33,Q4 01:33,114,102,1610612756.0,Green,SUB out: G. Green,rebound,substitution,12,Medium
+21400221,533,substitution,4,PT01M33.00S,01:33,Q4 01:33,114,102,1610612756.0,Morris Sr.,SUB in: M. Morris Sr.,substitution,2pt made,12,Medium
+21400221,533,2pt,4,PT01M31.00S,01:31,Q4 01:31,114,104,1610612743.0,Afflalo,Afflalo 12' Jump Shot (18 PTS) (Robinson 2 AST),substitution,turnover,10,Medium
+21400221,534,turnover,4,PT01M11.00S,01:11,Q4 01:11,114,104,1610612756.0,Tucker,Tucker 3 Second Violation Turnover (P2.T16),2pt made,2pt missed,10,Medium
+21400221,535,2pt,4,PT01M03.00S,01:03,Q4 01:03,114,104,1610612743.0,Afflalo,MISS Afflalo 10' Jump Shot,turnover,rebound,10,Medium
+21400221,536,rebound,4,PT01M02.00S,01:02,Q4 01:02,114,104,1610612756.0,Tucker,Tucker REBOUND (Off:1 Def:6),2pt missed,3pt made,10,Medium
+21400221,537,3pt,4,PT00M48.90S,00:48,Q4 00:48,117,104,1610612756.0,Bledsoe,Bledsoe 25' 3PT Jump Shot (21 PTS) (Morris 6 AST),rebound,2pt made,13,Low
+21400221,538,2pt,4,PT00M38.90S,00:38,Q4 00:38,117,106,1610612743.0,Robinson,Robinson 5' Jump Bank Shot (5 PTS),3pt made,turnover,11,Medium
+21400221,539,turnover,4,PT00M32.10S,00:32,Q4 00:32,117,106,1610612756.0,Morris,Morris Bad Pass Turnover (P3.T17),2pt made,3pt made,11,Medium
+21400221,540,3pt,4,PT00M27.20S,00:27,Q4 00:27,117,109,1610612743.0,Robinson,Robinson 25' 3PT Jump Shot (8 PTS),turnover,foul,8,High
+21400221,541,foul,4,PT00M27.20S,00:27,Q4 00:27,117,109,1610612756.0,Tucker,Tucker AWAY.FROM.PLAY.FOUL (P2.T2),3pt made,instant replay,8,High
+21400221,543,freethrow,4,PT00M27.20S,00:27,Q4 00:27,117,109,1610612743.0,Faried,MISS Faried Free Throw 1 of 1,instant replay,rebound,8,High
+21400221,544,rebound,4,PT00M27.20S,00:27,Q4 00:27,117,109,1610612743.0,Chandler,Chandler REBOUND (Off:3 Def:4),freethrow,substitution,8,High
+21400221,546,substitution,4,PT00M27.20S,00:27,Q4 00:27,117,109,1610612743.0,Mozgov,SUB out: T. Mozgov,rebound,substitution,8,High
+21400221,547,substitution,4,PT00M27.20S,00:27,Q4 00:27,117,109,1610612743.0,Chandler,SUB in: W. Chandler,substitution,turnover,8,High
+21400221,545,turnover,4,PT00M24.80S,00:24,Q4 00:24,117,109,1610612743.0,Chandler,Chandler Bad Pass Turnover (P3.T18),substitution,foul,8,High
+21400221,547,foul,4,PT00M20.60S,00:20,Q4 00:20,117,109,1610612743.0,Robinson,Robinson Personal Take Foul (P3.PN),turnover,freethrow,8,High
+21400221,548,freethrow,4,PT00M20.60S,00:20,Q4 00:20,117,109,1610612756.0,Dragic,MISS G. Dragic Free Throw 1 of 2,foul,rebound,8,High
+21400221,549,rebound,4,PT00M20.60S,00:20,Q4 00:20,117,109,1610612756.0,,TEAM offensive REBOUND,freethrow,freethrow,8,High
+21400221,550,freethrow,4,PT00M20.60S,00:20,Q4 00:20,118,109,1610612756.0,Dragic,G. Dragic Free Throw 2 of 2 (18 PTS),rebound,timeout,9,Medium
+21400221,552,timeout,4,PT00M20.60S,00:20,Q4 00:20,118,109,1610612743.0,,Nuggets Timeout: Regular (Reg.6 Short 1),freethrow,3pt missed,9,Medium
+21400221,555,3pt,4,PT00M18.90S,00:18,Q4 00:18,118,109,1610612743.0,Robinson,MISS Robinson 24' 3PT Jump Shot,timeout,rebound,9,Medium
+21400221,556,rebound,4,PT00M16.80S,00:16,Q4 00:16,118,109,1610612756.0,Morris Sr.,Morris Sr. REBOUND (Off:0 Def:5),3pt missed,foul,9,Medium
+21400221,557,foul,4,PT00M16.80S,00:16,Q4 00:16,118,109,1610612743.0,Chandler,Chandler Personal Take Foul (P5.PN),rebound,freethrow,9,Medium
+21400221,558,freethrow,4,PT00M16.80S,00:16,Q4 00:16,118,109,1610612756.0,Morris Sr.,MISS Morris Sr. Free Throw 1 of 2,foul,rebound,9,Medium
+21400221,559,rebound,4,PT00M16.80S,00:16,Q4 00:16,118,109,1610612756.0,,TEAM offensive REBOUND,freethrow,freethrow,9,Medium
+21400221,560,freethrow,4,PT00M16.80S,00:16,Q4 00:16,118,109,1610612756.0,Morris Sr.,MISS Morris Sr. Free Throw 2 of 2,rebound,rebound,9,Medium
+21400221,562,rebound,4,PT00M16.70S,00:16,Q4 00:16,118,109,1610612743.0,Lawson,Lawson REBOUND (Off:2 Def:5),freethrow,3pt made,9,Medium
+21400221,563,3pt,4,PT00M09.90S,00:09,Q4 00:09,118,112,1610612743.0,Chandler,Chandler 25' 3PT Jump Shot (19 PTS) (Robinson 3 AST),rebound,2pt made,6,High
+21400221,564,2pt,4,PT00M07.90S,00:07,Q4 00:07,120,112,1610612756.0,Dragic,G. Dragic Layup (20 PTS) (Morris 7 AST),3pt made,3pt missed,8,High
+21400221,565,3pt,4,PT00M02.90S,00:02,Q4 00:02,120,112,1610612743.0,Robinson,MISS Robinson 3PT Jump Shot,2pt made,rebound,8,High
+21400221,566,rebound,4,PT00M00.70S,00:00,Q4 00:00,120,112,1610612756.0,Morris,Morris REBOUND (Off:2 Def:8),3pt missed,period,8,High
+21400221,567,period,4,PT00M00.00S,00:00,Q4 00:00,120,112,1610612756.0,,End of 4th Period (11:29 PM EST),rebound,,8,High

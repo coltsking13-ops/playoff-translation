@@ -1,0 +1,547 @@
+game_id,actionNumber,actionType,period,clock,clock_display,game_clock,scoreHome,scoreAway,teamId,playerName,description,previous_action,next_action,score_margin,leverage_bucket
+21500206,1,period,1,PT12M00.00S,12:00,Q1 12:00,0,0,1610612750.0,,Start of 1st Period (8:10 PM EST),,turnover,0,Low
+21500206,3,turnover,1,PT11M41.00S,11:41,Q1 11:41,0,0,1610612755.0,Okafor,Okafor Out of Bounds Lost Ball Turnover (P1.T1),period,2pt missed,0,Low
+21500206,4,2pt,1,PT11M26.00S,11:26,Q1 11:26,0,0,1610612750.0,Garnett,MISS Garnett 19' Jump Shot,turnover,rebound,0,Low
+21500206,5,rebound,1,PT11M24.00S,11:24,Q1 11:24,0,0,1610612755.0,,TEAM defensive REBOUND,2pt missed,2pt missed,0,Low
+21500206,6,2pt,1,PT11M09.00S,11:09,Q1 11:09,0,0,1610612755.0,Noel,MISS Noel 14' Jump Shot,rebound,rebound,0,Low
+21500206,7,rebound,1,PT11M07.00S,11:07,Q1 11:07,0,0,1610612755.0,Okafor,Okafor REBOUND (Off:1 Def:0),2pt missed,foul,0,Low
+21500206,8,foul,1,PT11M06.00S,11:06,Q1 11:06,0,0,1610612750.0,Rubio,Rubio S.FOUL (P1.T1) (T.Brothers),rebound,freethrow,0,Low
+21500206,9,freethrow,1,PT11M06.00S,11:06,Q1 11:06,0,1,1610612755.0,Okafor,Okafor Free Throw 1 of 2 (1 PTS),foul,freethrow,1,Low
+21500206,11,freethrow,1,PT11M06.00S,11:06,Q1 11:06,0,2,1610612755.0,Okafor,Okafor Free Throw 2 of 2 (2 PTS),freethrow,2pt missed,2,Low
+21500206,13,2pt,1,PT10M52.00S,10:52,Q1 10:52,0,0,1610612750.0,Martin,MISS Martin 19' Jump Shot,freethrow,rebound,0,Low
+21500206,14,rebound,1,PT10M50.00S,10:50,Q1 10:50,0,0,1610612750.0,Rubio,Rubio REBOUND (Off:1 Def:0),2pt missed,3pt missed,0,Low
+21500206,15,3pt,1,PT10M35.00S,10:35,Q1 10:35,0,0,1610612750.0,Martin,MISS Martin 25' 3PT Jump Shot,rebound,rebound,0,Low
+21500206,16,rebound,1,PT10M34.00S,10:34,Q1 10:34,0,0,1610612755.0,Okafor,Okafor REBOUND (Off:1 Def:1),3pt missed,3pt missed,0,Low
+21500206,17,3pt,1,PT10M24.00S,10:24,Q1 10:24,0,0,1610612755.0,Grant,MISS Grant 25' 3PT Jump Shot,rebound,rebound,0,Low
+21500206,18,rebound,1,PT10M22.00S,10:22,Q1 10:22,0,0,1610612750.0,Towns,Towns REBOUND (Off:0 Def:1),3pt missed,2pt made,0,Low
+21500206,19,2pt,1,PT10M14.00S,10:14,Q1 10:14,2,2,1610612750.0,Rubio,Rubio 19' Pullup Jump Shot (2 PTS),rebound,foul,0,Low
+21500206,20,foul,1,PT09M57.00S,09:57,Q1 09:57,0,0,1610612750.0,Towns,Towns S.FOUL (P1.T2) (H.Workman),2pt made,freethrow,0,Low
+21500206,21,freethrow,1,PT09M57.00S,09:57,Q1 09:57,2,3,1610612755.0,Stauskas,Stauskas Free Throw 1 of 2 (1 PTS),foul,freethrow,1,Low
+21500206,22,freethrow,1,PT09M57.00S,09:57,Q1 09:57,2,4,1610612755.0,Stauskas,Stauskas Free Throw 2 of 2 (2 PTS),freethrow,3pt made,2,Low
+21500206,24,3pt,1,PT09M45.00S,09:45,Q1 09:45,5,4,1610612750.0,Wiggins,Wiggins 24' 3PT Jump Shot (3 PTS) (Garnett 1 AST),freethrow,2pt missed,1,Low
+21500206,25,2pt,1,PT09M25.00S,09:25,Q1 09:25,0,0,1610612755.0,Grant,MISS Grant 9' Running Jump Shot,3pt made,block,0,Low
+21500206,25,block,1,PT09M25.00S,09:25,Q1 09:25,0,0,1610612750.0,Towns,Towns BLOCK (1 BLK),2pt missed,rebound,0,Low
+21500206,26,rebound,1,PT09M24.00S,09:24,Q1 09:24,0,0,1610612750.0,Garnett,Garnett REBOUND (Off:0 Def:1),block,turnover,0,Low
+21500206,27,turnover,1,PT09M18.00S,09:18,Q1 09:18,0,0,1610612750.0,Rubio,Rubio Lost Ball Turnover (P1.T1),rebound,steal,0,Low
+21500206,27,steal,1,PT09M18.00S,09:18,Q1 09:18,0,0,1610612755.0,McConnell,McConnell STEAL (1 STL),turnover,2pt made,0,Low
+21500206,28,2pt,1,PT09M12.00S,09:12,Q1 09:12,5,6,1610612755.0,Okafor,Okafor 1' Driving Finger Roll Layup (4 PTS) (McConnell 1 AST),steal,2pt missed,1,Low
+21500206,29,2pt,1,PT08M58.00S,08:58,Q1 08:58,0,0,1610612750.0,Towns,MISS Towns 3' Layup,2pt made,block,0,Low
+21500206,29,block,1,PT08M58.00S,08:58,Q1 08:58,0,0,1610612755.0,Okafor,Okafor BLOCK (1 BLK),2pt missed,rebound,0,Low
+21500206,30,rebound,1,PT08M57.00S,08:57,Q1 08:57,0,0,1610612755.0,Okafor,Okafor REBOUND (Off:1 Def:2),block,2pt missed,0,Low
+21500206,31,2pt,1,PT08M44.00S,08:44,Q1 08:44,0,0,1610612755.0,Okafor,MISS Okafor 11' Turnaround Hook Shot,rebound,rebound,0,Low
+21500206,32,rebound,1,PT08M43.00S,08:43,Q1 08:43,0,0,1610612750.0,Garnett,Garnett REBOUND (Off:0 Def:2),2pt missed,2pt missed,0,Low
+21500206,33,2pt,1,PT08M34.00S,08:34,Q1 08:34,0,0,1610612750.0,Towns,MISS Towns 13' Step Back Jump Shot,rebound,rebound,0,Low
+21500206,34,rebound,1,PT08M34.00S,08:34,Q1 08:34,0,0,1610612755.0,Noel,Noel REBOUND (Off:0 Def:1),2pt missed,turnover,0,Low
+21500206,35,turnover,1,PT08M19.00S,08:19,Q1 08:19,0,0,1610612755.0,Noel,Noel Lost Ball Turnover (P1.T2),rebound,steal,0,Low
+21500206,35,steal,1,PT08M19.00S,08:19,Q1 08:19,0,0,1610612750.0,Garnett,Garnett STEAL (1 STL),turnover,foul,0,Low
+21500206,36,foul,1,PT08M16.00S,08:16,Q1 08:16,0,0,1610612755.0,McConnell,McConnell S.FOUL (P1.T1) (H.Workman),steal,freethrow,0,Low
+21500206,37,freethrow,1,PT08M16.00S,08:16,Q1 08:16,6,6,1610612750.0,Rubio,Rubio Free Throw 1 of 2 (3 PTS),foul,freethrow,0,Low
+21500206,38,freethrow,1,PT08M16.00S,08:16,Q1 08:16,7,6,1610612750.0,Rubio,Rubio Free Throw 2 of 2 (4 PTS),freethrow,turnover,1,Low
+21500206,42,turnover,1,PT08M01.00S,08:01,Q1 08:01,0,0,1610612755.0,Grant,Grant Bad Pass Turnover (P1.T3),freethrow,steal,0,Low
+21500206,42,steal,1,PT08M01.00S,08:01,Q1 08:01,0,0,1610612750.0,Garnett,Garnett STEAL (2 STL),turnover,2pt missed,0,Low
+21500206,43,2pt,1,PT07M56.00S,07:56,Q1 07:56,0,0,1610612750.0,Rubio,MISS Rubio 2' Driving Layup,steal,rebound,0,Low
+21500206,44,rebound,1,PT07M54.00S,07:54,Q1 07:54,0,0,1610612750.0,Towns,Towns REBOUND (Off:1 Def:1),2pt missed,2pt missed,0,Low
+21500206,45,2pt,1,PT07M51.00S,07:51,Q1 07:51,0,0,1610612750.0,Wiggins,MISS Wiggins 7' Running Jump Shot,rebound,rebound,0,Low
+21500206,46,rebound,1,PT07M50.00S,07:50,Q1 07:50,0,0,1610612755.0,Grant,Grant REBOUND (Off:0 Def:1),2pt missed,turnover,0,Low
+21500206,47,turnover,1,PT07M40.00S,07:40,Q1 07:40,0,0,1610612755.0,McConnell,McConnell Bad Pass Turnover (P1.T4),rebound,2pt made,0,Low
+21500206,48,2pt,1,PT07M23.00S,07:23,Q1 07:23,9,6,1610612750.0,Towns,Towns 8' Turnaround Hook Shot (2 PTS) (Wiggins 1 AST),turnover,2pt made,3,Low
+21500206,49,2pt,1,PT07M06.00S,07:06,Q1 07:06,9,8,1610612755.0,Okafor,Okafor 5' Jump Shot (6 PTS),2pt made,foul,1,Low
+21500206,50,foul,1,PT07M06.00S,07:06,Q1 07:06,0,0,1610612750.0,Towns,Towns S.FOUL (P2.T3) (M.Smith),2pt made,freethrow,0,Low
+21500206,52,freethrow,1,PT07M06.00S,07:06,Q1 07:06,0,0,1610612755.0,Okafor,MISS Okafor Free Throw 1 of 1,foul,substitution,0,Low
+21500206,51,substitution,1,PT07M06.00S,07:06,Q1 07:06,0,0,1610612750.0,Towns,SUB out: K. Towns,freethrow,substitution,0,Low
+21500206,52,substitution,1,PT07M06.00S,07:06,Q1 07:06,0,0,1610612750.0,Dieng,SUB in: G. Dieng,substitution,rebound,0,Low
+21500206,54,rebound,1,PT07M05.00S,07:05,Q1 07:05,0,0,1610612750.0,Garnett,Garnett REBOUND (Off:0 Def:3),substitution,2pt missed,0,Low
+21500206,55,2pt,1,PT06M53.00S,06:53,Q1 06:53,0,0,1610612750.0,Wiggins,MISS Wiggins 3' Layup,rebound,block,0,Low
+21500206,55,block,1,PT06M53.00S,06:53,Q1 06:53,0,0,1610612755.0,Grant,Grant BLOCK (1 BLK),2pt missed,rebound,0,Low
+21500206,56,rebound,1,PT06M51.00S,06:51,Q1 06:51,0,0,1610612755.0,McConnell,McConnell REBOUND (Off:0 Def:1),block,2pt made,0,Low
+21500206,57,2pt,1,PT06M46.00S,06:46,Q1 06:46,9,10,1610612755.0,Grant,Grant  Dunk (2 PTS) (McConnell 2 AST),rebound,2pt made,1,Low
+21500206,58,2pt,1,PT06M32.00S,06:32,Q1 06:32,11,10,1610612750.0,Martin,Martin 15' Step Back Jump Shot (2 PTS) (Rubio 1 AST),2pt made,2pt made,1,Low
+21500206,59,2pt,1,PT06M03.00S,06:03,Q1 06:03,11,12,1610612755.0,McConnell,McConnell 13' Fadeaway Jumper (2 PTS),2pt made,foul,1,Low
+21500206,60,foul,1,PT05M51.00S,05:51,Q1 05:51,0,0,1610612755.0,Stauskas,Stauskas P.FOUL (P1.T2) (H.Workman),2pt made,timeout,0,Low
+21500206,61,timeout,1,PT05M51.00S,05:51,Q1 05:51,0,0,1610612750.0,,TIMBERWOLVES Timeout: Regular (Full 1 Short 0),foul,substitution,0,Low
+21500206,63,substitution,1,PT05M51.00S,05:51,Q1 05:51,0,0,1610612755.0,Noel,SUB out: N. Noel,timeout,substitution,0,Low
+21500206,64,substitution,1,PT05M51.00S,05:51,Q1 05:51,0,0,1610612755.0,Stauskas,SUB out: N. Stauskas,substitution,substitution,0,Low
+21500206,65,substitution,1,PT05M51.00S,05:51,Q1 05:51,0,0,1610612755.0,McConnell,SUB out: T. McConnell,substitution,substitution,0,Low
+21500206,66,substitution,1,PT05M51.00S,05:51,Q1 05:51,0,0,1610612755.0,Grant,SUB out: J. Grant,substitution,substitution,0,Low
+21500206,67,substitution,1,PT05M51.00S,05:51,Q1 05:51,0,0,1610612750.0,Garnett,SUB out: K. Garnett,substitution,substitution,0,Low
+21500206,68,substitution,1,PT05M51.00S,05:51,Q1 05:51,0,0,1610612755.0,Canaan,SUB in: I. Canaan,substitution,substitution,0,Low
+21500206,69,substitution,1,PT05M51.00S,05:51,Q1 05:51,0,0,1610612755.0,Sampson,SUB in: J. Sampson,substitution,substitution,0,Low
+21500206,70,substitution,1,PT05M51.00S,05:51,Q1 05:51,0,0,1610612755.0,Thompson,SUB in: H. Thompson,substitution,substitution,0,Low
+21500206,71,substitution,1,PT05M51.00S,05:51,Q1 05:51,0,0,1610612755.0,Covington,SUB in: R. Covington,substitution,substitution,0,Low
+21500206,72,substitution,1,PT05M51.00S,05:51,Q1 05:51,0,0,1610612750.0,Payne,SUB in: A. Payne,substitution,turnover,0,Low
+21500206,68,turnover,1,PT05M45.00S,05:45,Q1 05:45,0,0,1610612750.0,Wiggins,Wiggins Traveling Turnover (P1.T2),substitution,turnover,0,Low
+21500206,69,turnover,1,PT05M32.00S,05:32,Q1 05:32,0,0,1610612755.0,Covington,Covington Bad Pass Turnover (P1.T5),turnover,steal,0,Low
+21500206,69,steal,1,PT05M32.00S,05:32,Q1 05:32,0,0,1610612750.0,Payne,Payne STEAL (1 STL),turnover,2pt missed,0,Low
+21500206,70,2pt,1,PT05M25.00S,05:25,Q1 05:25,0,0,1610612750.0,Martin,MISS Martin 10' Running Jump Shot,steal,rebound,0,Low
+21500206,71,rebound,1,PT05M24.00S,05:24,Q1 05:24,0,0,1610612755.0,Covington,Covington REBOUND (Off:0 Def:1),2pt missed,3pt made,0,Low
+21500206,72,3pt,1,PT05M16.00S,05:16,Q1 05:16,11,15,1610612755.0,Covington,Covington 26' 3PT Jump Shot (3 PTS) (Canaan 1 AST),rebound,foul,4,Low
+21500206,73,foul,1,PT05M03.00S,05:03,Q1 05:03,0,0,1610612750.0,Dieng,Dieng OFF.Foul (P1) (T.Brothers),3pt made,turnover,0,Low
+21500206,74,turnover,1,PT05M03.00S,05:03,Q1 05:03,0,0,1610612750.0,Dieng,Dieng Foul Turnover (P1.T3),foul,foul,0,Low
+21500206,75,foul,1,PT04M40.00S,04:40,Q1 04:40,0,0,1610612750.0,Dieng,Dieng S.FOUL (P2.T4) (M.Smith),turnover,freethrow,0,Low
+21500206,76,freethrow,1,PT04M40.00S,04:40,Q1 04:40,11,16,1610612755.0,Canaan,Canaan Free Throw 1 of 2 (1 PTS),foul,freethrow,5,Low
+21500206,79,freethrow,1,PT04M40.00S,04:40,Q1 04:40,11,17,1610612755.0,Canaan,Canaan Free Throw 2 of 2 (2 PTS),freethrow,substitution,6,Low
+21500206,78,substitution,1,PT04M40.00S,04:40,Q1 04:40,0,0,1610612755.0,Okafor,SUB out: J. Okafor,freethrow,substitution,0,Low
+21500206,79,substitution,1,PT04M40.00S,04:40,Q1 04:40,0,0,1610612755.0,Noel,SUB in: N. Noel,substitution,turnover,0,Low
+21500206,81,turnover,1,PT04M26.00S,04:26,Q1 04:26,0,0,1610612750.0,Martin,Martin Lost Ball Turnover (P1.T4),substitution,steal,0,Low
+21500206,81,steal,1,PT04M26.00S,04:26,Q1 04:26,0,0,1610612755.0,Covington,Covington STEAL (1 STL),turnover,2pt missed,0,Low
+21500206,82,2pt,1,PT04M12.00S,04:12,Q1 04:12,0,0,1610612755.0,Noel,MISS Noel 1' Layup,steal,block,0,Low
+21500206,82,block,1,PT04M12.00S,04:12,Q1 04:12,0,0,1610612750.0,Payne,Payne BLOCK (1 BLK),2pt missed,rebound,0,Low
+21500206,83,rebound,1,PT04M11.00S,04:11,Q1 04:11,0,0,1610612750.0,Payne,Payne REBOUND (Off:0 Def:1),block,3pt missed,0,Low
+21500206,84,3pt,1,PT04M03.00S,04:03,Q1 04:03,0,0,1610612750.0,Martin,MISS Martin 24' 3PT Jump Shot,rebound,rebound,0,Low
+21500206,85,rebound,1,PT04M01.00S,04:01,Q1 04:01,0,0,1610612755.0,Covington,Covington REBOUND (Off:0 Def:2),3pt missed,3pt missed,0,Low
+21500206,86,3pt,1,PT03M51.00S,03:51,Q1 03:51,0,0,1610612755.0,Canaan,MISS Canaan 25' 3PT Jump Shot,rebound,rebound,0,Low
+21500206,87,rebound,1,PT03M50.00S,03:50,Q1 03:50,0,0,1610612750.0,Wiggins,Wiggins REBOUND (Off:0 Def:1),3pt missed,2pt made,0,Low
+21500206,88,2pt,1,PT03M43.00S,03:43,Q1 03:43,13,17,1610612750.0,Wiggins,Wiggins 14' Pullup Jump Shot (5 PTS),rebound,2pt missed,4,Low
+21500206,89,2pt,1,PT03M20.00S,03:20,Q1 03:20,0,0,1610612755.0,Sampson,MISS Sampson 6' Jump Shot,2pt made,rebound,0,Low
+21500206,90,rebound,1,PT03M19.00S,03:19,Q1 03:19,0,0,1610612750.0,Dieng,Dieng REBOUND (Off:0 Def:1),2pt missed,2pt made,0,Low
+21500206,91,2pt,1,PT03M02.00S,03:02,Q1 03:02,15,17,1610612750.0,Dieng,Dieng 3' Hook Shot (2 PTS) (Rubio 2 AST),rebound,timeout,2,Low
+21500206,93,timeout,1,PT03M02.00S,03:02,Q1 03:02,0,0,1610612755.0,,76ers Timeout: Regular (Reg.1 Short 0),2pt made,substitution,0,Low
+21500206,94,substitution,1,PT03M02.00S,03:02,Q1 03:02,0,0,1610612750.0,Rubio,SUB out: R. Rubio,timeout,substitution,0,Low
+21500206,95,substitution,1,PT03M02.00S,03:02,Q1 03:02,0,0,1610612750.0,Martin,SUB out: K. Martin,substitution,substitution,0,Low
+21500206,96,substitution,1,PT03M02.00S,03:02,Q1 03:02,0,0,1610612750.0,LaVine,SUB in: Z. LaVine,substitution,substitution,0,Low
+21500206,97,substitution,1,PT03M02.00S,03:02,Q1 03:02,0,0,1610612750.0,Muhammad,SUB in: S. Muhammad,substitution,2pt missed,0,Low
+21500206,96,2pt,1,PT02M48.00S,02:48,Q1 02:48,0,0,1610612755.0,Noel,MISS Noel  Alley Oop Dunk,substitution,rebound,0,Low
+21500206,97,rebound,1,PT02M47.00S,02:47,Q1 02:47,0,0,1610612750.0,LaVine,LaVine REBOUND (Off:0 Def:1),2pt missed,2pt made,0,Low
+21500206,98,2pt,1,PT02M24.00S,02:24,Q1 02:24,17,17,1610612750.0,Payne,Payne 5' Jump Shot (2 PTS),rebound,turnover,0,Low
+21500206,99,turnover,1,PT02M10.00S,02:10,Q1 02:10,0,0,1610612755.0,Canaan,Canaan Out of Bounds - Bad Pass Turnover Turnover (P1.T6),2pt made,turnover,0,Low
+21500206,100,turnover,1,PT01M57.00S,01:57,Q1 01:57,0,0,1610612750.0,Payne,Payne Bad Pass Turnover (P1.T5),turnover,steal,0,Low
+21500206,100,steal,1,PT01M57.00S,01:57,Q1 01:57,0,0,1610612755.0,Noel,Noel STEAL (1 STL),turnover,2pt made,0,Low
+21500206,101,2pt,1,PT01M53.00S,01:53,Q1 01:53,17,19,1610612755.0,Noel,Noel 1' Running Layup (2 PTS),steal,foul,2,Low
+21500206,102,foul,1,PT01M53.00S,01:53,Q1 01:53,0,0,1610612750.0,Payne,Payne S.FOUL (P1.PN) (H.Workman),2pt made,freethrow,0,Low
+21500206,104,freethrow,1,PT01M53.00S,01:53,Q1 01:53,17,20,1610612755.0,Noel,Noel Free Throw 1 of 1 (3 PTS),foul,substitution,3,Low
+21500206,103,substitution,1,PT01M53.00S,01:53,Q1 01:53,0,0,1610612755.0,Sampson,SUB out: J. Sampson,freethrow,substitution,0,Low
+21500206,104,substitution,1,PT01M53.00S,01:53,Q1 01:53,0,0,1610612755.0,McConnell,SUB in: T. McConnell,substitution,foul,0,Low
+21500206,106,foul,1,PT01M39.00S,01:39,Q1 01:39,0,0,1610612750.0,Payne,Payne Offensive Charge Foul (P2.PN) (T.Brothers),substitution,turnover,0,Low
+21500206,107,turnover,1,PT01M39.00S,01:39,Q1 01:39,0,0,1610612750.0,Payne,Payne Foul Turnover (P2.T6),foul,3pt made,0,Low
+21500206,108,3pt,1,PT01M22.00S,01:22,Q1 01:22,17,23,1610612755.0,Thompson,Thompson 25' 3PT Jump Shot (3 PTS) (Covington 1 AST),turnover,foul,6,Low
+21500206,109,foul,1,PT01M12.00S,01:12,Q1 01:12,0,0,1610612755.0,Thompson,Thompson P.FOUL (P1.T3) (T.Brothers),3pt made,2pt made,0,Low
+21500206,110,2pt,1,PT01M04.00S,01:04,Q1 01:04,19,23,1610612750.0,LaVine,LaVine 20' Pullup Jump Shot (2 PTS),foul,turnover,4,Low
+21500206,111,turnover,1,PT00M52.10S,00:52,Q1 00:52,0,0,1610612755.0,McConnell,McConnell Out of Bounds - Bad Pass Turnover Turnover (P2.T7),2pt made,2pt missed,0,Low
+21500206,112,2pt,1,PT00M41.90S,00:41,Q1 00:41,0,0,1610612750.0,Muhammad,MISS Muhammad 3' Running Layup,turnover,rebound,0,Low
+21500206,113,rebound,1,PT00M40.90S,00:40,Q1 00:40,0,0,1610612755.0,Noel,Noel REBOUND (Off:0 Def:2),2pt missed,3pt made,0,Low
+21500206,114,3pt,1,PT00M34.80S,00:34,Q1 00:34,19,26,1610612755.0,Thompson,Thompson 25' 3PT Jump Shot (6 PTS) (McConnell 3 AST),rebound,2pt missed,7,Low
+21500206,115,2pt,1,PT00M26.90S,00:26,Q1 00:26,0,0,1610612750.0,Payne,MISS Payne 22' Jump Shot,3pt made,rebound,0,Low
+21500206,116,rebound,1,PT00M25.80S,00:25,Q1 00:25,0,0,1610612755.0,McConnell,McConnell REBOUND (Off:0 Def:2),2pt missed,2pt missed,0,Low
+21500206,117,2pt,1,PT00M02.90S,00:02,Q1 00:02,0,0,1610612755.0,McConnell,MISS McConnell 11' Step Back Jump Shot,rebound,rebound,0,Low
+21500206,118,rebound,1,PT00M01.60S,00:01,Q1 00:01,0,0,1610612755.0,,TEAM offensive REBOUND,2pt missed,3pt missed,0,Low
+21500206,119,3pt,1,PT00M00.50S,00:00,Q1 00:00,0,0,1610612755.0,Covington,MISS Covington 26' 3PT Jump Shot,rebound,rebound,0,Low
+21500206,120,rebound,1,PT00M00.00S,00:00,Q1 00:00,0,0,1610612755.0,,TEAM offensive REBOUND,3pt missed,period,0,Low
+21500206,121,period,1,PT00M00.00S,00:00,Q1 00:00,19,26,1610612750.0,,End of 1st Period (8:36 PM EST),rebound,period,7,Low
+21500206,123,period,2,PT12M00.00S,12:00,Q2 12:00,19,26,1610612750.0,,Start of 2nd Period (8:39 PM EST),period,timeout,7,Low
+21500206,124,timeout,2,PT12M00.00S,12:00,Q2 12:00,0,0,1610612750.0,,TIMBERWOLVES Timeout: Short (Full 1 Short 1),period,substitution,0,Low
+21500206,125,2pt,2,PT11M36.00S,11:36,Q2 11:36,0,0,1610612750.0,Muhammad,MISS Muhammad 10' Turnaround Jump Shot,substitution,rebound,0,Low
+21500206,126,rebound,2,PT11M35.00S,11:35,Q2 11:35,0,0,1610612755.0,Noel,Noel REBOUND (Off:0 Def:3),2pt missed,turnover,0,Low
+21500206,127,turnover,2,PT11M23.00S,11:23,Q2 11:23,0,0,1610612755.0,Noel,Noel Traveling Turnover (P2.T8),rebound,2pt missed,0,Low
+21500206,128,2pt,2,PT11M04.00S,11:04,Q2 11:04,0,0,1610612750.0,LaVine,MISS LaVine 19' Jump Shot,turnover,rebound,0,Low
+21500206,129,rebound,2,PT11M03.00S,11:03,Q2 11:03,0,0,1610612755.0,Thompson,Thompson REBOUND (Off:0 Def:1),2pt missed,2pt missed,0,Low
+21500206,130,2pt,2,PT10M53.00S,10:53,Q2 10:53,0,0,1610612755.0,McConnell,MISS McConnell 14' Pullup Jump Shot,rebound,rebound,0,Low
+21500206,131,rebound,2,PT10M52.00S,10:52,Q2 10:52,0,0,1610612750.0,Prince,Prince REBOUND (Off:0 Def:1),2pt missed,turnover,0,Low
+21500206,132,turnover,2,PT10M39.00S,10:39,Q2 10:39,0,0,1610612750.0,LaVine,LaVine Bad Pass Turnover (P1.T7),rebound,steal,0,Low
+21500206,132,steal,2,PT10M39.00S,10:39,Q2 10:39,0,0,1610612755.0,Noel,Noel STEAL (2 STL),turnover,3pt missed,0,Low
+21500206,133,3pt,2,PT10M30.00S,10:30,Q2 10:30,0,0,1610612755.0,Thompson,MISS Thompson 25' 3PT Jump Shot,steal,rebound,0,Low
+21500206,134,rebound,2,PT10M30.00S,10:30,Q2 10:30,0,0,1610612755.0,,TEAM offensive REBOUND,3pt missed,foul,0,Low
+21500206,135,foul,2,PT10M30.00S,10:30,Q2 10:30,0,0,1610612750.0,LaVine,LaVine L.B.FOUL (P1.T1) (M.Smith),rebound,substitution,0,Low
+21500206,136,substitution,2,PT10M30.00S,10:30,Q2 10:30,0,0,1610612755.0,Noel,SUB out: N. Noel,foul,substitution,0,Low
+21500206,137,substitution,2,PT10M30.00S,10:30,Q2 10:30,0,0,1610612755.0,Okafor,SUB in: J. Okafor,substitution,2pt made,0,Low
+21500206,137,2pt,2,PT10M21.00S,10:21,Q2 10:21,19,28,1610612755.0,Covington,Covington 3' Driving Layup (5 PTS),substitution,substitution,9,Low
+21500206,139,substitution,2,PT10M09.00S,10:09,Q2 10:09,0,0,1610612750.0,Payne,SUB out: A. Payne,2pt made,substitution,0,Low
+21500206,140,substitution,2,PT10M09.00S,10:09,Q2 10:09,0,0,1610612755.0,Covington,SUB out: R. Covington,substitution,substitution,0,Low
+21500206,141,substitution,2,PT10M09.00S,10:09,Q2 10:09,0,0,1610612750.0,Miller,SUB in: A. Miller,substitution,substitution,0,Low
+21500206,142,substitution,2,PT10M09.00S,10:09,Q2 10:09,0,0,1610612755.0,Grant,SUB in: J. Grant,substitution,turnover,0,Low
+21500206,141,turnover,2,PT10M04.00S,10:04,Q2 10:04,0,0,1610612750.0,LaVine,LaVine Lost Ball Turnover (P2.T8),substitution,steal,0,Low
+21500206,141,steal,2,PT10M04.00S,10:04,Q2 10:04,0,0,1610612755.0,Thompson,Thompson STEAL (1 STL),turnover,3pt missed,0,Low
+21500206,142,3pt,2,PT09M57.00S,09:57,Q2 09:57,0,0,1610612755.0,McConnell,MISS McConnell 26' 3PT Jump Shot,steal,rebound,0,Low
+21500206,143,rebound,2,PT09M56.00S,09:56,Q2 09:56,0,0,1610612750.0,LaVine,LaVine REBOUND (Off:0 Def:2),3pt missed,foul,0,Low
+21500206,144,foul,2,PT09M53.00S,09:53,Q2 09:53,0,0,1610612755.0,Stauskas,Stauskas S.FOUL (P2.T1) (H.Workman),rebound,freethrow,0,Low
+21500206,145,freethrow,2,PT09M53.00S,09:53,Q2 09:53,20,28,1610612750.0,LaVine,LaVine Free Throw 1 of 2 (3 PTS),foul,freethrow,8,Low
+21500206,147,freethrow,2,PT09M53.00S,09:53,Q2 09:53,21,28,1610612750.0,LaVine,LaVine Free Throw 2 of 2 (4 PTS),freethrow,2pt made,7,Low
+21500206,149,2pt,2,PT09M30.00S,09:30,Q2 09:30,21,30,1610612755.0,Okafor,Okafor 2' Driving Layup (8 PTS),freethrow,3pt missed,9,Low
+21500206,150,3pt,2,PT09M14.00S,09:14,Q2 09:14,0,0,1610612750.0,LaVine,MISS LaVine 26' 3PT Jump Shot,2pt made,rebound,0,Low
+21500206,151,rebound,2,PT09M13.00S,09:13,Q2 09:13,0,0,1610612755.0,Thompson,Thompson REBOUND (Off:0 Def:2),3pt missed,2pt missed,0,Low
+21500206,152,2pt,2,PT09M00.00S,09:00,Q2 09:00,0,0,1610612755.0,Okafor,MISS Okafor 3' Layup,rebound,rebound,0,Low
+21500206,153,rebound,2,PT08M58.00S,08:58,Q2 08:58,0,0,1610612750.0,LaVine,LaVine REBOUND (Off:0 Def:3),2pt missed,2pt made,0,Low
+21500206,154,2pt,2,PT08M51.00S,08:51,Q2 08:51,23,30,1610612750.0,LaVine,LaVine 19' Step Back Jump Shot (6 PTS),rebound,timeout,7,Low
+21500206,155,timeout,2,PT08M50.00S,08:50,Q2 08:50,0,0,1610612755.0,,76ers Timeout: Regular (Reg.2 Short 0),2pt made,substitution,0,Low
+21500206,157,substitution,2,PT08M50.00S,08:50,Q2 08:50,0,0,1610612755.0,McConnell,SUB out: T. McConnell,timeout,substitution,0,Low
+21500206,158,substitution,2,PT08M50.00S,08:50,Q2 08:50,0,0,1610612755.0,Canaan,SUB in: I. Canaan,substitution,3pt made,0,Low
+21500206,158,3pt,2,PT08M28.00S,08:28,Q2 08:28,23,33,1610612755.0,Canaan,Canaan 25' 3PT Jump Shot (5 PTS) (Okafor 1 AST),substitution,foul,10,Low
+21500206,159,foul,2,PT08M16.00S,08:16,Q2 08:16,0,0,1610612755.0,Okafor,Okafor S.FOUL (P1.T2) (M.Smith),3pt made,freethrow,0,Low
+21500206,160,freethrow,2,PT08M16.00S,08:16,Q2 08:16,24,33,1610612750.0,Dieng,Dieng Free Throw 1 of 2 (3 PTS),foul,freethrow,9,Low
+21500206,163,freethrow,2,PT08M16.00S,08:16,Q2 08:16,25,33,1610612750.0,Dieng,Dieng Free Throw 2 of 2 (4 PTS),freethrow,substitution,8,Low
+21500206,162,substitution,2,PT08M16.00S,08:16,Q2 08:16,0,0,1610612755.0,Thompson,SUB out: H. Thompson,freethrow,substitution,0,Low
+21500206,163,substitution,2,PT08M16.00S,08:16,Q2 08:16,0,0,1610612755.0,Covington,SUB in: R. Covington,substitution,3pt missed,0,Low
+21500206,165,3pt,2,PT08M03.00S,08:03,Q2 08:03,0,0,1610612755.0,Stauskas,MISS Stauskas 25' 3PT Jump Shot,substitution,2pt made,0,Low
+21500206,166,2pt,2,PT08M01.00S,08:01,Q2 08:01,25,35,1610612755.0,Okafor,Okafor 2' Putback Layup (10 PTS),3pt missed,rebound,10,Low
+21500206,167,rebound,2,PT08M01.00S,08:01,Q2 08:01,0,0,1610612755.0,Okafor,Okafor REBOUND (Off:2 Def:2),2pt made,2pt made,0,Low
+21500206,168,2pt,2,PT07M47.00S,07:47,Q2 07:47,27,35,1610612750.0,LaVine,LaVine 8' Floating Jump Shot (8 PTS),rebound,2pt missed,8,Low
+21500206,169,2pt,2,PT07M25.00S,07:25,Q2 07:25,0,0,1610612755.0,Canaan,MISS Canaan 2' Layup,2pt made,block,0,Low
+21500206,169,block,2,PT07M25.00S,07:25,Q2 07:25,0,0,1610612750.0,Dieng,Dieng BLOCK (1 BLK),2pt missed,rebound,0,Low
+21500206,170,rebound,2,PT07M23.00S,07:23,Q2 07:23,0,0,1610612755.0,Okafor,Okafor REBOUND (Off:3 Def:2),block,2pt missed,0,Low
+21500206,171,2pt,2,PT07M23.00S,07:23,Q2 07:23,0,0,1610612755.0,Okafor,MISS Okafor 3' Tip Layup Shot,rebound,rebound,0,Low
+21500206,172,rebound,2,PT07M22.00S,07:22,Q2 07:22,0,0,1610612750.0,LaVine,LaVine REBOUND (Off:0 Def:4),2pt missed,2pt missed,0,Low
+21500206,173,2pt,2,PT07M18.00S,07:18,Q2 07:18,0,0,1610612750.0,Prince,MISS Prince 11' Jump Shot,rebound,rebound,0,Low
+21500206,174,rebound,2,PT07M17.00S,07:17,Q2 07:17,0,0,1610612750.0,,TEAM offensive REBOUND,2pt missed,2pt missed,0,Low
+21500206,175,2pt,2,PT07M10.00S,07:10,Q2 07:10,0,0,1610612750.0,LaVine,MISS LaVine 3' Running Layup,rebound,rebound,0,Low
+21500206,176,rebound,2,PT07M09.00S,07:09,Q2 07:09,0,0,1610612750.0,Dieng,Dieng REBOUND (Off:1 Def:1),2pt missed,foul,0,Low
+21500206,177,foul,2,PT07M09.00S,07:09,Q2 07:09,0,0,1610612755.0,Covington,Covington P.FOUL (P1.T3) (H.Workman),rebound,substitution,0,Low
+21500206,178,substitution,2,PT07M09.00S,07:09,Q2 07:09,0,0,1610612750.0,Dieng,SUB out: G. Dieng,foul,substitution,0,Low
+21500206,179,substitution,2,PT07M09.00S,07:09,Q2 07:09,0,0,1610612750.0,Towns,SUB in: K. Towns,substitution,turnover,0,Low
+21500206,179,turnover,2,PT07M03.00S,07:03,Q2 07:03,0,0,1610612750.0,LaVine,LaVine Lost Ball Turnover (P3.T9),substitution,steal,0,Low
+21500206,179,steal,2,PT07M03.00S,07:03,Q2 07:03,0,0,1610612755.0,Covington,Covington STEAL (2 STL),turnover,3pt missed,0,Low
+21500206,180,3pt,2,PT06M54.00S,06:54,Q2 06:54,0,0,1610612755.0,Covington,MISS Covington 24' 3PT Jump Shot,steal,rebound,0,Low
+21500206,181,rebound,2,PT06M53.00S,06:53,Q2 06:53,0,0,1610612750.0,Miller,A. Miller REBOUND (Off:0 Def:1),3pt missed,2pt missed,0,Low
+21500206,192,2pt,2,PT06M50.00S,06:50,Q2 06:50,0,0,1610612750.0,Muhammad,MISS Muhammad 3' Running Layup,rebound,block,0,Low
+21500206,192,block,2,PT06M50.00S,06:50,Q2 06:50,0,0,1610612755.0,Canaan,Canaan BLOCK (1 BLK),2pt missed,rebound,0,Low
+21500206,182,rebound,2,PT06M49.00S,06:49,Q2 06:49,0,0,1610612750.0,,TEAM offensive REBOUND,block,2pt made,0,Low
+21500206,183,2pt,2,PT06M44.00S,06:44,Q2 06:44,29,35,1610612750.0,Muhammad,Muhammad 1' Alley Oop Layup (2 PTS) (A. Miller 1 AST),rebound,3pt made,6,Low
+21500206,184,3pt,2,PT06M34.00S,06:34,Q2 06:34,29,38,1610612755.0,Canaan,Canaan 25' 3PT Jump Shot (8 PTS),2pt made,foul,9,Low
+21500206,185,foul,2,PT06M19.00S,06:19,Q2 06:19,0,0,1610612755.0,Canaan,Canaan P.FOUL (P1.T4) (H.Workman),3pt made,substitution,0,Low
+21500206,186,substitution,2,PT06M19.00S,06:19,Q2 06:19,0,0,1610612755.0,Stauskas,SUB out: N. Stauskas,foul,substitution,0,Low
+21500206,187,substitution,2,PT06M19.00S,06:19,Q2 06:19,0,0,1610612750.0,Prince,SUB out: T. Prince,substitution,substitution,0,Low
+21500206,188,substitution,2,PT06M19.00S,06:19,Q2 06:19,0,0,1610612755.0,Noel,SUB in: N. Noel,substitution,substitution,0,Low
+21500206,189,substitution,2,PT06M19.00S,06:19,Q2 06:19,0,0,1610612750.0,Wiggins,SUB in: A. Wiggins,substitution,3pt made,0,Low
+21500206,188,3pt,2,PT06M14.00S,06:14,Q2 06:14,32,38,1610612750.0,Muhammad,Muhammad 24' 3PT Jump Shot (5 PTS) (A. Miller 2 AST),substitution,foul,6,Low
+21500206,189,foul,2,PT05M56.00S,05:56,Q2 05:56,0,0,1610612750.0,Miller,A. Miller S.FOUL (P1.T2) (T.Brothers),3pt made,timeout,0,Low
+21500206,190,timeout,2,PT05M56.00S,05:56,Q2 05:56,0,0,0.0,,Timeout: Regular,foul,freethrow,0,Low
+21500206,194,freethrow,2,PT05M56.00S,05:56,Q2 05:56,32,39,1610612755.0,Noel,Noel Free Throw 1 of 2 (4 PTS),timeout,freethrow,7,Low
+21500206,196,freethrow,2,PT05M56.00S,05:56,Q2 05:56,32,40,1610612755.0,Noel,Noel Free Throw 2 of 2 (5 PTS),freethrow,substitution,8,Low
+21500206,193,substitution,2,PT05M56.00S,05:56,Q2 05:56,0,0,1610612750.0,Miller,SUB out: A. Miller,freethrow,substitution,0,Low
+21500206,194,substitution,2,PT05M56.00S,05:56,Q2 05:56,0,0,1610612750.0,Rubio,SUB in: R. Rubio,substitution,2pt missed,0,Low
+21500206,198,2pt,2,PT05M43.00S,05:43,Q2 05:43,0,0,1610612750.0,Towns,MISS Towns 11' Turnaround Jump Shot,substitution,block,0,Low
+21500206,198,block,2,PT05M43.00S,05:43,Q2 05:43,0,0,1610612755.0,Okafor,Okafor BLOCK (2 BLK),2pt missed,rebound,0,Low
+21500206,199,rebound,2,PT05M42.00S,05:42,Q2 05:42,0,0,1610612755.0,Okafor,Okafor REBOUND (Off:3 Def:3),block,foul,0,Low
+21500206,200,foul,2,PT05M26.00S,05:26,Q2 05:26,0,0,1610612750.0,Wiggins,Wiggins P.FOUL (P1.T3) (M.Smith),rebound,substitution,0,Low
+21500206,201,substitution,2,PT05M26.00S,05:26,Q2 05:26,0,0,1610612750.0,Muhammad,SUB out: S. Muhammad,foul,substitution,0,Low
+21500206,202,substitution,2,PT05M26.00S,05:26,Q2 05:26,0,0,1610612750.0,LaVine,SUB out: Z. LaVine,substitution,substitution,0,Low
+21500206,203,substitution,2,PT05M26.00S,05:26,Q2 05:26,0,0,1610612750.0,Garnett,SUB in: K. Garnett,substitution,substitution,0,Low
+21500206,204,substitution,2,PT05M26.00S,05:26,Q2 05:26,0,0,1610612750.0,Martin,SUB in: K. Martin,substitution,foul,0,Low
+21500206,203,foul,2,PT05M14.00S,05:14,Q2 05:14,0,0,1610612750.0,Rubio,Rubio P.FOUL (P2.T4) (T.Brothers),substitution,freethrow,0,Low
+21500206,204,freethrow,2,PT05M14.00S,05:14,Q2 05:14,32,41,1610612755.0,Canaan,Canaan Free Throw 1 of 3 (9 PTS),foul,freethrow,9,Low
+21500206,206,freethrow,2,PT05M14.00S,05:14,Q2 05:14,32,42,1610612755.0,Canaan,Canaan Free Throw 2 of 3 (10 PTS),freethrow,freethrow,10,Low
+21500206,208,freethrow,2,PT05M14.00S,05:14,Q2 05:14,32,43,1610612755.0,Canaan,Canaan Free Throw 3 of 3 (11 PTS),freethrow,2pt missed,11,Low
+21500206,210,2pt,2,PT05M02.00S,05:02,Q2 05:02,0,0,1610612750.0,Wiggins,MISS Wiggins 3' Layup,freethrow,block,0,Low
+21500206,210,block,2,PT05M02.00S,05:02,Q2 05:02,0,0,1610612755.0,Noel,Noel BLOCK (1 BLK),2pt missed,rebound,0,Low
+21500206,212,rebound,2,PT05M00.00S,05:00,Q2 05:00,0,0,1610612750.0,,TEAM offensive REBOUND,block,2pt missed,0,Low
+21500206,213,2pt,2,PT04M52.00S,04:52,Q2 04:52,0,0,1610612750.0,Martin,MISS Martin 10' Turnaround Jump Shot,rebound,rebound,0,Low
+21500206,214,rebound,2,PT04M51.00S,04:51,Q2 04:51,0,0,1610612755.0,Covington,Covington REBOUND (Off:0 Def:3),2pt missed,2pt made,0,Low
+21500206,215,2pt,2,PT04M41.00S,04:41,Q2 04:41,32,45,1610612755.0,Okafor,Okafor 7' Turnaround Jump Shot (12 PTS) (Canaan 2 AST),rebound,2pt made,13,Low
+21500206,216,2pt,2,PT04M27.00S,04:27,Q2 04:27,34,45,1610612750.0,Garnett,Garnett 13' Jump Shot (2 PTS) (Rubio 3 AST),2pt made,3pt missed,11,Low
+21500206,217,3pt,2,PT04M01.00S,04:01,Q2 04:01,0,0,1610612755.0,Canaan,MISS Canaan  3PT Jump Shot,2pt made,rebound,0,Low
+21500206,218,rebound,2,PT04M00.00S,04:00,Q2 04:00,0,0,1610612750.0,Garnett,Garnett REBOUND (Off:0 Def:4),3pt missed,3pt missed,0,Low
+21500206,219,3pt,2,PT03M49.00S,03:49,Q2 03:49,0,0,1610612750.0,Wiggins,MISS Wiggins 25' 3PT Jump Shot,rebound,rebound,0,Low
+21500206,220,rebound,2,PT03M48.00S,03:48,Q2 03:48,0,0,1610612755.0,Okafor,Okafor REBOUND (Off:3 Def:4),3pt missed,foul,0,Low
+21500206,221,foul,2,PT03M48.00S,03:48,Q2 03:48,0,0,1610612750.0,Towns,Towns P.FOUL (P3.PN) (T.Brothers),rebound,freethrow,0,Low
+21500206,223,freethrow,2,PT03M48.00S,03:48,Q2 03:48,34,46,1610612755.0,Okafor,Okafor Free Throw 1 of 2 (13 PTS),foul,freethrow,12,Low
+21500206,227,freethrow,2,PT03M48.00S,03:48,Q2 03:48,34,47,1610612755.0,Okafor,Okafor Free Throw 2 of 2 (14 PTS),freethrow,substitution,13,Low
+21500206,225,substitution,2,PT03M48.00S,03:48,Q2 03:48,0,0,1610612750.0,Towns,SUB out: K. Towns,freethrow,substitution,0,Low
+21500206,226,substitution,2,PT03M48.00S,03:48,Q2 03:48,0,0,1610612755.0,Grant,SUB out: J. Grant,substitution,substitution,0,Low
+21500206,227,substitution,2,PT03M48.00S,03:48,Q2 03:48,0,0,1610612750.0,Dieng,SUB in: G. Dieng,substitution,substitution,0,Low
+21500206,228,substitution,2,PT03M48.00S,03:48,Q2 03:48,0,0,1610612755.0,Thompson,SUB in: H. Thompson,substitution,2pt made,0,Low
+21500206,229,2pt,2,PT03M34.00S,03:34,Q2 03:34,36,47,1610612750.0,Dieng,Dieng 2' Cutting Layup Shot (6 PTS) (Rubio 4 AST),substitution,2pt made,11,Low
+21500206,230,2pt,2,PT03M11.00S,03:11,Q2 03:11,36,49,1610612755.0,Okafor,Okafor 18' Jump Shot (16 PTS),2pt made,3pt missed,13,Low
+21500206,231,3pt,2,PT02M51.00S,02:51,Q2 02:51,0,0,1610612750.0,Rubio,MISS Rubio 25' 3PT Jump Shot,2pt made,rebound,0,Low
+21500206,232,rebound,2,PT02M50.00S,02:50,Q2 02:50,0,0,1610612750.0,Wiggins,Wiggins REBOUND (Off:1 Def:1),3pt missed,foul,0,Low
+21500206,233,foul,2,PT02M48.00S,02:48,Q2 02:48,0,0,1610612755.0,Noel,Noel S.FOUL (P1.PN) (H.Workman),rebound,timeout,0,Low
+21500206,234,timeout,2,PT02M48.00S,02:48,Q2 02:48,0,0,1610612750.0,,TIMBERWOLVES Timeout: Regular (Full 2 Short 1),foul,freethrow,0,Low
+21500206,236,freethrow,2,PT02M48.00S,02:48,Q2 02:48,37,49,1610612750.0,Wiggins,Wiggins Free Throw 1 of 2 (6 PTS),timeout,freethrow,12,Low
+21500206,238,freethrow,2,PT02M48.00S,02:48,Q2 02:48,38,49,1610612750.0,Wiggins,Wiggins Free Throw 2 of 2 (7 PTS),freethrow,foul,11,Low
+21500206,240,foul,2,PT02M36.00S,02:36,Q2 02:36,0,0,1610612750.0,Dieng,Dieng P.FOUL (P3.PN) (H.Workman),freethrow,freethrow,0,Low
+21500206,241,freethrow,2,PT02M36.00S,02:36,Q2 02:36,0,0,1610612755.0,Okafor,MISS Okafor Free Throw 1 of 2,foul,rebound,0,Low
+21500206,242,rebound,2,PT02M36.00S,02:36,Q2 02:36,0,0,1610612755.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21500206,243,freethrow,2,PT02M36.00S,02:36,Q2 02:36,38,50,1610612755.0,Okafor,Okafor Free Throw 2 of 2 (17 PTS),rebound,foul,12,Low
+21500206,245,foul,2,PT02M20.00S,02:20,Q2 02:20,0,0,1610612755.0,Canaan,Canaan P.FOUL (P2.PN) (M.Smith),freethrow,freethrow,0,Low
+21500206,246,freethrow,2,PT02M20.00S,02:20,Q2 02:20,39,50,1610612750.0,Wiggins,Wiggins Free Throw 1 of 2 (8 PTS),foul,freethrow,11,Low
+21500206,248,freethrow,2,PT02M20.00S,02:20,Q2 02:20,40,50,1610612750.0,Wiggins,Wiggins Free Throw 2 of 2 (9 PTS),freethrow,3pt missed,10,Low
+21500206,250,3pt,2,PT02M01.00S,02:01,Q2 02:01,0,0,1610612755.0,Thompson,MISS Thompson  3PT Jump Shot,freethrow,rebound,0,Low
+21500206,251,rebound,2,PT02M00.00S,02:00,Q2 02:00,0,0,1610612750.0,Garnett,Garnett REBOUND (Off:0 Def:5),3pt missed,2pt made,0,Low
+21500206,252,2pt,2,PT01M43.00S,01:43,Q2 01:43,42,50,1610612750.0,Wiggins,Wiggins 6' Turnaround Jump Shot (11 PTS),rebound,turnover,8,Low
+21500206,253,turnover,2,PT01M22.00S,01:22,Q2 01:22,0,0,1610612755.0,Canaan,Canaan Out of Bounds - Bad Pass Turnover Turnover (P2.T9),2pt made,2pt made,0,Low
+21500206,254,2pt,2,PT01M12.00S,01:12,Q2 01:12,44,50,1610612750.0,Wiggins,Wiggins 1' Layup (13 PTS),turnover,timeout,6,Low
+21500206,255,timeout,2,PT01M11.00S,01:11,Q2 01:11,0,0,1610612755.0,,76ers Timeout: Short (Reg.2 Short 1),2pt made,substitution,0,Low
+21500206,256,substitution,2,PT01M11.00S,01:11,Q2 01:11,0,0,1610612755.0,Canaan,SUB out: I. Canaan,timeout,substitution,0,Low
+21500206,257,substitution,2,PT01M11.00S,01:11,Q2 01:11,0,0,1610612755.0,McConnell,SUB in: T. McConnell,substitution,2pt missed,0,Low
+21500206,257,2pt,2,PT00M57.90S,00:57,Q2 00:57,0,0,1610612755.0,Covington,MISS Covington 2' Layup,substitution,block,0,Low
+21500206,257,block,2,PT00M57.90S,00:57,Q2 00:57,0,0,1610612750.0,Wiggins,Wiggins BLOCK (1 BLK),2pt missed,rebound,0,Low
+21500206,258,rebound,2,PT00M56.60S,00:56,Q2 00:56,0,0,1610612750.0,Rubio,Rubio REBOUND (Off:1 Def:1),block,foul,0,Low
+21500206,259,foul,2,PT00M43.20S,00:43,Q2 00:43,0,0,1610612755.0,Noel,Noel S.FOUL (P2.PN) (T.Brothers),rebound,freethrow,0,Low
+21500206,260,freethrow,2,PT00M43.20S,00:43,Q2 00:43,45,50,1610612750.0,Rubio,Rubio Free Throw 1 of 2 (5 PTS),foul,freethrow,5,Low
+21500206,262,freethrow,2,PT00M43.20S,00:43,Q2 00:43,46,50,1610612750.0,Rubio,Rubio Free Throw 2 of 2 (6 PTS),freethrow,turnover,4,Low
+21500206,264,turnover,2,PT00M36.90S,00:36,Q2 00:36,0,0,1610612755.0,Covington,Covington Lost Ball Turnover (P2.T10),freethrow,steal,0,Low
+21500206,264,steal,2,PT00M36.90S,00:36,Q2 00:36,0,0,1610612750.0,Wiggins,Wiggins STEAL (1 STL),turnover,2pt missed,0,Low
+21500206,265,2pt,2,PT00M29.90S,00:29,Q2 00:29,0,0,1610612750.0,Rubio,MISS Rubio  Driving Layup,steal,rebound,0,Low
+21500206,266,rebound,2,PT00M27.90S,00:27,Q2 00:27,0,0,1610612755.0,Okafor,Okafor REBOUND (Off:3 Def:5),2pt missed,2pt missed,0,Low
+21500206,268,2pt,2,PT00M04.90S,00:04,Q2 00:04,0,0,1610612755.0,McConnell,MISS McConnell 17' Jump Shot,rebound,rebound,0,Low
+21500206,269,rebound,2,PT00M02.90S,00:02,Q2 00:02,0,0,1610612755.0,Okafor,Okafor REBOUND (Off:4 Def:5),2pt missed,2pt made,0,Low
+21500206,270,2pt,2,PT00M02.30S,00:02,Q2 00:02,46,52,1610612755.0,Okafor,Okafor  Putback Dunk (19 PTS),rebound,3pt missed,6,Low
+21500206,271,3pt,2,PT00M00.40S,00:00,Q2 00:00,0,0,1610612750.0,Martin,MISS Martin 26' 3PT Jump Shot,2pt made,rebound,0,Low
+21500206,272,rebound,2,PT00M00.00S,00:00,Q2 00:00,0,0,1610612750.0,,TEAM offensive REBOUND,3pt missed,period,0,Low
+21500206,273,period,2,PT00M00.00S,00:00,Q2 00:00,46,52,1610612750.0,,End of 2nd Period (9:14 PM EST),rebound,period,6,Low
+21500206,275,period,3,PT12M00.00S,12:00,Q3 12:00,46,52,1610612750.0,,Start of 3rd Period (9:29 PM EST),period,substitution,6,Low
+21500206,276,2pt,3,PT11M39.00S,11:39,Q3 11:39,0,0,1610612750.0,Wiggins,MISS Wiggins 19' Jump Shot,substitution,rebound,0,Low
+21500206,277,rebound,3,PT11M38.00S,11:38,Q3 11:38,0,0,1610612755.0,Canaan,Canaan REBOUND (Off:0 Def:1),2pt missed,3pt missed,0,Low
+21500206,278,3pt,3,PT11M16.00S,11:16,Q3 11:16,0,0,1610612755.0,Canaan,MISS Canaan 26' 3PT Jump Shot,rebound,rebound,0,Low
+21500206,279,rebound,3,PT11M15.00S,11:15,Q3 11:15,0,0,1610612750.0,Garnett,Garnett REBOUND (Off:0 Def:6),3pt missed,2pt made,0,Low
+21500206,280,2pt,3,PT11M04.00S,11:04,Q3 11:04,48,52,1610612750.0,Towns,Towns 19' Jump Shot (4 PTS) (Wiggins 2 AST),rebound,2pt made,4,Low
+21500206,281,2pt,3,PT10M36.00S,10:36,Q3 10:36,48,54,1610612755.0,McConnell,McConnell 12' Pullup Jump Shot (4 PTS),2pt made,foul,6,Low
+21500206,282,foul,3,PT10M28.00S,10:28,Q3 10:28,0,0,1610612755.0,McConnell,McConnell P.FOUL (P2.T1) (H.Workman),2pt made,foul,0,Low
+21500206,283,foul,3,PT10M20.00S,10:20,Q3 10:20,0,0,1610612755.0,Grant,Grant S.FOUL (P1.T2) (T.Brothers),foul,freethrow,0,Low
+21500206,284,freethrow,3,PT10M20.00S,10:20,Q3 10:20,49,54,1610612750.0,Wiggins,Wiggins Free Throw 1 of 2 (14 PTS),foul,freethrow,5,Low
+21500206,286,freethrow,3,PT10M20.00S,10:20,Q3 10:20,50,54,1610612750.0,Wiggins,Wiggins Free Throw 2 of 2 (15 PTS),freethrow,foul,4,Low
+21500206,288,foul,3,PT10M04.00S,10:04,Q3 10:04,0,0,1610612750.0,Towns,Towns P.FOUL (P4.T1) (T.Brothers),freethrow,substitution,0,Low
+21500206,289,substitution,3,PT10M04.00S,10:04,Q3 10:04,0,0,1610612750.0,Towns,SUB out: K. Towns,foul,substitution,0,Low
+21500206,290,substitution,3,PT10M04.00S,10:04,Q3 10:04,0,0,1610612750.0,Dieng,SUB in: G. Dieng,substitution,2pt missed,0,Low
+21500206,291,2pt,3,PT09M49.00S,09:49,Q3 09:49,0,0,1610612755.0,Noel,MISS Noel 17' Jump Shot,substitution,rebound,0,Low
+21500206,292,rebound,3,PT09M48.00S,09:48,Q3 09:48,0,0,1610612750.0,Garnett,Garnett REBOUND (Off:0 Def:7),2pt missed,2pt made,0,Low
+21500206,293,2pt,3,PT09M36.00S,09:36,Q3 09:36,52,54,1610612750.0,Garnett,Garnett 17' Jump Shot (4 PTS) (Rubio 5 AST),rebound,foul,2,Low
+21500206,294,foul,3,PT09M23.00S,09:23,Q3 09:23,0,0,1610612755.0,Okafor,Okafor Offensive Charge Foul (P2.T3) (M.Smith),2pt made,turnover,0,Low
+21500206,295,turnover,3,PT09M23.00S,09:23,Q3 09:23,0,0,1610612755.0,Okafor,Okafor Foul Turnover (P2.T11),foul,2pt made,0,Low
+21500206,296,2pt,3,PT09M10.00S,09:10,Q3 09:10,54,54,1610612750.0,Garnett,Garnett 21' Jump Shot (6 PTS) (Rubio 6 AST),turnover,2pt missed,0,Low
+21500206,297,2pt,3,PT08M53.00S,08:53,Q3 08:53,0,0,1610612755.0,Okafor,MISS Okafor 7' Jump Shot,2pt made,rebound,0,Low
+21500206,298,rebound,3,PT08M52.00S,08:52,Q3 08:52,0,0,1610612750.0,Garnett,Garnett REBOUND (Off:0 Def:8),2pt missed,2pt made,0,Low
+21500206,299,2pt,3,PT08M45.00S,08:45,Q3 08:45,56,54,1610612750.0,Garnett,Garnett  Cutting Layup Shot (8 PTS) (Rubio 7 AST),rebound,timeout,2,Low
+21500206,300,timeout,3,PT08M44.00S,08:44,Q3 08:44,0,0,1610612755.0,,76ers Timeout: Regular (Reg.3 Short 1),2pt made,2pt missed,0,Low
+21500206,302,2pt,3,PT08M21.00S,08:21,Q3 08:21,0,0,1610612755.0,Okafor,MISS Okafor 17' Pullup Jump Shot,timeout,rebound,0,Low
+21500206,303,rebound,3,PT08M20.00S,08:20,Q3 08:20,0,0,1610612750.0,Rubio,Rubio REBOUND (Off:1 Def:2),2pt missed,2pt made,0,Low
+21500206,304,2pt,3,PT08M09.00S,08:09,Q3 08:09,58,54,1610612750.0,Martin,Martin 17' Jump Shot (4 PTS) (Rubio 8 AST),rebound,2pt missed,4,Low
+21500206,305,2pt,3,PT07M41.00S,07:41,Q3 07:41,0,0,1610612755.0,McConnell,MISS McConnell 17' Jump Shot,2pt made,rebound,0,Low
+21500206,306,rebound,3,PT07M40.00S,07:40,Q3 07:40,0,0,1610612750.0,Garnett,Garnett REBOUND (Off:0 Def:9),2pt missed,turnover,0,Low
+21500206,307,turnover,3,PT07M34.00S,07:34,Q3 07:34,0,0,1610612750.0,Rubio,Rubio Lost Ball Turnover (P2.T10),rebound,steal,0,Low
+21500206,307,steal,3,PT07M34.00S,07:34,Q3 07:34,0,0,1610612755.0,McConnell,McConnell STEAL (2 STL),turnover,foul,0,Low
+21500206,308,foul,3,PT07M30.00S,07:30,Q3 07:30,0,0,1610612750.0,Rubio,Rubio P.FOUL (P3.T2) (H.Workman),steal,substitution,0,Low
+21500206,309,substitution,3,PT07M30.00S,07:30,Q3 07:30,0,0,1610612755.0,McConnell,SUB out: T. McConnell,foul,substitution,0,Low
+21500206,310,substitution,3,PT07M30.00S,07:30,Q3 07:30,0,0,1610612755.0,Noel,SUB out: N. Noel,substitution,substitution,0,Low
+21500206,311,substitution,3,PT07M30.00S,07:30,Q3 07:30,0,0,1610612750.0,Garnett,SUB out: K. Garnett,substitution,substitution,0,Low
+21500206,312,substitution,3,PT07M30.00S,07:30,Q3 07:30,0,0,1610612755.0,Thompson,SUB in: H. Thompson,substitution,substitution,0,Low
+21500206,313,substitution,3,PT07M30.00S,07:30,Q3 07:30,0,0,1610612755.0,Covington,SUB in: R. Covington,substitution,substitution,0,Low
+21500206,314,substitution,3,PT07M30.00S,07:30,Q3 07:30,0,0,1610612750.0,Payne,SUB in: A. Payne,substitution,3pt missed,0,Low
+21500206,312,3pt,3,PT07M17.00S,07:17,Q3 07:17,0,0,1610612755.0,Covington,MISS Covington 25' 3PT Jump Shot,substitution,rebound,0,Low
+21500206,313,rebound,3,PT07M16.00S,07:16,Q3 07:16,0,0,1610612750.0,Payne,Payne REBOUND (Off:0 Def:2),3pt missed,foul,0,Low
+21500206,314,foul,3,PT07M03.00S,07:03,Q3 07:03,0,0,1610612750.0,Payne,Payne OFF.Foul (P3) (T.Brothers),rebound,turnover,0,Low
+21500206,315,turnover,3,PT07M03.00S,07:03,Q3 07:03,0,0,1610612750.0,Payne,Payne Foul Turnover (P3.T11),foul,substitution,0,Low
+21500206,316,substitution,3,PT07M03.00S,07:03,Q3 07:03,0,0,1610612755.0,Grant,SUB out: J. Grant,turnover,substitution,0,Low
+21500206,317,substitution,3,PT07M03.00S,07:03,Q3 07:03,0,0,1610612755.0,Sampson,SUB in: J. Sampson,substitution,2pt missed,0,Low
+21500206,317,2pt,3,PT06M54.00S,06:54,Q3 06:54,0,0,1610612755.0,Sampson,MISS Sampson 1' Layup,substitution,block,0,Low
+21500206,317,block,3,PT06M54.00S,06:54,Q3 06:54,0,0,1610612750.0,Wiggins,Wiggins BLOCK (2 BLK),2pt missed,rebound,0,Low
+21500206,318,rebound,3,PT06M52.00S,06:52,Q3 06:52,0,0,1610612755.0,Thompson,Thompson REBOUND (Off:1 Def:2),block,3pt missed,0,Low
+21500206,319,3pt,3,PT06M49.00S,06:49,Q3 06:49,0,0,1610612755.0,Thompson,MISS Thompson  3PT Jump Shot,rebound,2pt made,0,Low
+21500206,320,2pt,3,PT06M48.00S,06:48,Q3 06:48,58,56,1610612755.0,Okafor,Okafor 1' Tip Layup Shot (21 PTS),3pt missed,rebound,2,Low
+21500206,321,rebound,3,PT06M48.00S,06:48,Q3 06:48,0,0,1610612755.0,Okafor,Okafor REBOUND (Off:5 Def:5),2pt made,2pt made,0,Low
+21500206,322,2pt,3,PT06M24.00S,06:24,Q3 06:24,60,56,1610612750.0,Payne,Payne 8' Turnaround Hook Shot (4 PTS),rebound,3pt made,4,Low
+21500206,323,3pt,3,PT06M04.00S,06:04,Q3 06:04,60,59,1610612755.0,Canaan,Canaan 24' 3PT Jump Shot (14 PTS),2pt made,2pt made,1,Low
+21500206,324,2pt,3,PT05M51.00S,05:51,Q3 05:51,62,59,1610612750.0,Rubio,Rubio 2' Driving Layup (8 PTS),3pt made,foul,3,Low
+21500206,326,foul,3,PT05M35.00S,05:35,Q3 05:35,0,0,1610612750.0,Payne,Payne S.FOUL (P4.T3) (M.Smith),2pt made,freethrow,0,Low
+21500206,327,freethrow,3,PT05M35.00S,05:35,Q3 05:35,62,60,1610612755.0,Sampson,Sampson Free Throw 1 of 2 (1 PTS),foul,freethrow,2,Low
+21500206,329,freethrow,3,PT05M35.00S,05:35,Q3 05:35,0,0,1610612755.0,Sampson,MISS Sampson Free Throw 2 of 2,freethrow,rebound,0,Low
+21500206,331,rebound,3,PT05M35.00S,05:35,Q3 05:35,0,0,1610612750.0,Payne,Payne REBOUND (Off:0 Def:3),freethrow,2pt made,0,Low
+21500206,332,2pt,3,PT05M24.00S,05:24,Q3 05:24,64,60,1610612750.0,Wiggins,Wiggins 4' Jump Shot (17 PTS) (Rubio 9 AST),rebound,foul,4,Low
+21500206,333,foul,3,PT05M14.00S,05:14,Q3 05:14,0,0,1610612755.0,Okafor,Okafor OFF.Foul (P3) (T.Brothers),2pt made,turnover,0,Low
+21500206,334,turnover,3,PT05M14.00S,05:14,Q3 05:14,0,0,1610612755.0,Okafor,Okafor Foul Turnover (P3.T12),foul,2pt missed,0,Low
+21500206,335,2pt,3,PT05M02.00S,05:02,Q3 05:02,0,0,1610612750.0,Wiggins,MISS Wiggins 18' Step Back Jump Shot,turnover,rebound,0,Low
+21500206,336,rebound,3,PT05M01.00S,05:01,Q3 05:01,0,0,1610612755.0,Sampson,Sampson REBOUND (Off:0 Def:1),2pt missed,turnover,0,Low
+21500206,337,turnover,3,PT04M51.00S,04:51,Q3 04:51,0,0,1610612755.0,Covington,Covington Bad Pass Turnover (P3.T13),rebound,steal,0,Low
+21500206,337,steal,3,PT04M51.00S,04:51,Q3 04:51,0,0,1610612750.0,Rubio,Rubio STEAL (1 STL),turnover,turnover,0,Low
+21500206,338,turnover,3,PT04M47.00S,04:47,Q3 04:47,0,0,1610612750.0,Rubio,Rubio Lost Ball Turnover (P3.T12),steal,steal,0,Low
+21500206,338,steal,3,PT04M47.00S,04:47,Q3 04:47,0,0,1610612755.0,Canaan,Canaan STEAL (1 STL),turnover,foul,0,Low
+21500206,339,foul,3,PT04M38.00S,04:38,Q3 04:38,0,0,1610612750.0,Payne,Payne S.FOUL (P5.T4) (T.Brothers),steal,freethrow,0,Low
+21500206,340,freethrow,3,PT04M38.00S,04:38,Q3 04:38,0,0,1610612755.0,Covington,MISS Covington Free Throw 1 of 2,foul,rebound,0,Low
+21500206,341,rebound,3,PT04M38.00S,04:38,Q3 04:38,0,0,1610612755.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21500206,344,freethrow,3,PT04M38.00S,04:38,Q3 04:38,64,61,1610612755.0,Covington,Covington Free Throw 2 of 2 (6 PTS),rebound,substitution,3,Low
+21500206,342,substitution,3,PT04M38.00S,04:38,Q3 04:38,0,0,1610612755.0,Okafor,SUB out: J. Okafor,freethrow,substitution,0,Low
+21500206,343,substitution,3,PT04M38.00S,04:38,Q3 04:38,0,0,1610612755.0,Canaan,SUB out: I. Canaan,substitution,substitution,0,Low
+21500206,344,substitution,3,PT04M38.00S,04:38,Q3 04:38,0,0,1610612755.0,Noel,SUB in: N. Noel,substitution,substitution,0,Low
+21500206,345,substitution,3,PT04M38.00S,04:38,Q3 04:38,0,0,1610612755.0,McConnell,SUB in: T. McConnell,substitution,foul,0,Low
+21500206,346,foul,3,PT04M23.00S,04:23,Q3 04:23,0,0,1610612755.0,Covington,Covington S.FOUL (P2.T4) (M.Smith),substitution,freethrow,0,Low
+21500206,347,freethrow,3,PT04M23.00S,04:23,Q3 04:23,65,61,1610612750.0,Dieng,Dieng Free Throw 1 of 2 (7 PTS),foul,freethrow,4,Low
+21500206,349,freethrow,3,PT04M23.00S,04:23,Q3 04:23,66,61,1610612750.0,Dieng,Dieng Free Throw 2 of 2 (8 PTS),freethrow,2pt made,5,Low
+21500206,351,2pt,3,PT04M08.00S,04:08,Q3 04:08,66,63,1610612755.0,Covington,Covington 1' Reverse Layup (8 PTS) (McConnell 4 AST),freethrow,foul,3,Low
+21500206,352,foul,3,PT03M59.00S,03:59,Q3 03:59,0,0,1610612755.0,McConnell,McConnell P.FOUL (P3.PN) (M.Smith),2pt made,2pt made,0,Low
+21500206,353,2pt,3,PT03M56.00S,03:56,Q3 03:56,68,63,1610612750.0,Martin,Martin 2' Cutting Finger Roll Layup Shot (6 PTS) (Payne 1 AST),foul,2pt missed,5,Low
+21500206,354,2pt,3,PT03M35.00S,03:35,Q3 03:35,0,0,1610612755.0,Sampson,MISS Sampson 9' Turnaround Jump Shot,2pt made,block,0,Low
+21500206,354,block,3,PT03M35.00S,03:35,Q3 03:35,0,0,1610612750.0,Dieng,Dieng BLOCK (2 BLK),2pt missed,rebound,0,Low
+21500206,355,rebound,3,PT03M33.00S,03:33,Q3 03:33,0,0,1610612750.0,Dieng,Dieng REBOUND (Off:1 Def:2),block,2pt made,0,Low
+21500206,356,2pt,3,PT03M23.00S,03:23,Q3 03:23,70,63,1610612750.0,Dieng,Dieng 2' Layup (10 PTS),rebound,foul,7,Low
+21500206,358,foul,3,PT03M16.00S,03:16,Q3 03:16,0,0,1610612750.0,Payne,Payne P.FOUL (P6.PN) (H.Workman),2pt made,freethrow,0,Low
+21500206,362,freethrow,3,PT03M16.00S,03:16,Q3 03:16,70,64,1610612755.0,Covington,Covington Free Throw 1 of 2 (9 PTS),foul,freethrow,6,Low
+21500206,364,freethrow,3,PT03M16.00S,03:16,Q3 03:16,70,65,1610612755.0,Covington,Covington Free Throw 2 of 2 (10 PTS),freethrow,substitution,5,Low
+21500206,359,substitution,3,PT03M16.00S,03:16,Q3 03:16,0,0,1610612750.0,Payne,SUB out: A. Payne,freethrow,substitution,0,Low
+21500206,360,substitution,3,PT03M16.00S,03:16,Q3 03:16,0,0,1610612750.0,Rubio,SUB out: R. Rubio,substitution,substitution,0,Low
+21500206,361,substitution,3,PT03M16.00S,03:16,Q3 03:16,0,0,1610612755.0,Sampson,SUB out: J. Sampson,substitution,substitution,0,Low
+21500206,362,substitution,3,PT03M16.00S,03:16,Q3 03:16,0,0,1610612750.0,Garnett,SUB in: K. Garnett,substitution,substitution,0,Low
+21500206,363,substitution,3,PT03M16.00S,03:16,Q3 03:16,0,0,1610612750.0,LaVine,SUB in: Z. LaVine,substitution,substitution,0,Low
+21500206,364,substitution,3,PT03M16.00S,03:16,Q3 03:16,0,0,1610612755.0,Grant,SUB in: J. Grant,substitution,turnover,0,Low
+21500206,366,turnover,3,PT03M00.00S,03:00,Q3 03:00,0,0,1610612750.0,Wiggins,Wiggins Traveling Turnover (P2.T13),substitution,2pt made,0,Low
+21500206,367,2pt,3,PT02M46.00S,02:46,Q3 02:46,70,67,1610612755.0,Noel,Noel 5' Jump Shot (7 PTS) (McConnell 5 AST),turnover,2pt missed,3,Low
+21500206,369,2pt,3,PT02M20.00S,02:20,Q3 02:20,0,0,1610612750.0,Dieng,MISS Dieng 20' Jump Shot,2pt made,rebound,0,Low
+21500206,370,rebound,3,PT02M18.00S,02:18,Q3 02:18,0,0,1610612755.0,Grant,Grant REBOUND (Off:0 Def:2),2pt missed,2pt missed,0,Low
+21500206,372,2pt,3,PT02M09.00S,02:09,Q3 02:09,0,0,1610612755.0,Grant,MISS Grant 2' Driving Layup,rebound,rebound,0,Low
+21500206,373,rebound,3,PT02M08.00S,02:08,Q3 02:08,0,0,1610612755.0,McConnell,McConnell REBOUND (Off:1 Def:2),2pt missed,3pt missed,0,Low
+21500206,374,3pt,3,PT01M59.00S,01:59,Q3 01:59,0,0,1610612755.0,McConnell,MISS McConnell 24' 3PT Jump Shot,rebound,rebound,0,Low
+21500206,375,rebound,3,PT01M57.00S,01:57,Q3 01:57,0,0,1610612750.0,Garnett,Garnett REBOUND (Off:0 Def:10),3pt missed,3pt missed,0,Low
+21500206,376,3pt,3,PT01M48.00S,01:48,Q3 01:48,0,0,1610612750.0,LaVine,MISS LaVine 24' 3PT Jump Shot,rebound,rebound,0,Low
+21500206,377,rebound,3,PT01M47.00S,01:47,Q3 01:47,0,0,1610612755.0,Noel,Noel REBOUND (Off:0 Def:4),3pt missed,3pt made,0,Low
+21500206,378,3pt,3,PT01M39.00S,01:39,Q3 01:39,70,70,1610612755.0,Covington,Covington 24' 3PT Jump Shot (13 PTS) (McConnell 6 AST),rebound,timeout,0,Low
+21500206,379,timeout,3,PT01M37.00S,01:37,Q3 01:37,0,0,1610612750.0,,TIMBERWOLVES Timeout: Regular (Full 3 Short 1),3pt made,substitution,0,Low
+21500206,381,substitution,3,PT01M37.00S,01:37,Q3 01:37,0,0,1610612750.0,Wiggins,SUB out: A. Wiggins,timeout,substitution,0,Low
+21500206,382,substitution,3,PT01M37.00S,01:37,Q3 01:37,0,0,1610612750.0,Garnett,SUB out: K. Garnett,substitution,substitution,0,Low
+21500206,383,substitution,3,PT01M37.00S,01:37,Q3 01:37,0,0,1610612750.0,Martin,SUB out: K. Martin,substitution,substitution,0,Low
+21500206,384,substitution,3,PT01M37.00S,01:37,Q3 01:37,0,0,1610612750.0,Prince,SUB in: T. Prince,substitution,substitution,0,Low
+21500206,385,substitution,3,PT01M37.00S,01:37,Q3 01:37,0,0,1610612750.0,Muhammad,SUB in: S. Muhammad,substitution,substitution,0,Low
+21500206,386,substitution,3,PT01M37.00S,01:37,Q3 01:37,0,0,1610612750.0,Miller,SUB in: A. Miller,substitution,2pt made,0,Low
+21500206,384,2pt,3,PT01M21.00S,01:21,Q3 01:21,72,70,1610612750.0,Muhammad,Muhammad 21' Jump Shot (7 PTS) (A. Miller 3 AST),substitution,3pt made,2,Low
+21500206,385,3pt,3,PT01M07.00S,01:07,Q3 01:07,72,73,1610612755.0,Thompson,Thompson 25' 3PT Jump Shot (9 PTS) (McConnell 7 AST),2pt made,2pt made,1,Low
+21500206,386,2pt,3,PT00M45.50S,00:45,Q3 00:45,74,73,1610612750.0,Dieng,Dieng  Alley Oop Dunk (12 PTS) (A. Miller 4 AST),3pt made,foul,1,Low
+21500206,387,foul,3,PT00M45.50S,00:45,Q3 00:45,0,0,1610612755.0,Covington,Covington S.FOUL (P3.PN) (M.Smith),2pt made,freethrow,0,Low
+21500206,389,freethrow,3,PT00M45.50S,00:45,Q3 00:45,0,0,1610612750.0,Dieng,MISS Dieng Free Throw 1 of 1,foul,rebound,0,Low
+21500206,392,rebound,3,PT00M44.90S,00:44,Q3 00:44,0,0,1610612755.0,Noel,Noel REBOUND (Off:0 Def:5),freethrow,3pt missed,0,Low
+21500206,393,3pt,3,PT00M37.90S,00:37,Q3 00:37,0,0,1610612755.0,Covington,MISS Covington 25' 3PT Jump Shot,rebound,rebound,0,Low
+21500206,394,rebound,3,PT00M36.90S,00:36,Q3 00:36,0,0,1610612755.0,Grant,Grant REBOUND (Off:1 Def:2),3pt missed,turnover,0,Low
+21500206,395,turnover,3,PT00M25.90S,00:25,Q3 00:25,0,0,1610612755.0,McConnell,McConnell Bad Pass Turnover (P3.T14),rebound,steal,0,Low
+21500206,395,steal,3,PT00M25.90S,00:25,Q3 00:25,0,0,1610612750.0,Dieng,Dieng STEAL (1 STL),turnover,2pt missed,0,Low
+21500206,398,2pt,3,PT00M03.90S,00:03,Q3 00:03,0,0,1610612750.0,LaVine,MISS LaVine 21' Jump Shot,steal,rebound,0,Low
+21500206,399,rebound,3,PT00M02.90S,00:02,Q3 00:02,0,0,1610612755.0,Covington,Covington REBOUND (Off:0 Def:4),2pt missed,period,0,Low
+21500206,400,period,3,PT00M00.00S,00:00,Q3 00:00,74,73,1610612750.0,,End of 3rd Period (9:57 PM EST),rebound,period,1,Medium
+21500206,402,period,4,PT12M00.00S,12:00,Q4 12:00,74,73,1610612750.0,,Start of 4th Period (9:59 PM EST),period,foul,1,Medium
+21500206,403,foul,4,PT11M45.00S,11:45,Q4 11:45,0,0,1610612750.0,Muhammad,Muhammad P.FOUL (P1.T1) (M.Smith),period,2pt made,0,Medium
+21500206,404,2pt,4,PT11M35.00S,11:35,Q4 11:35,74,75,1610612755.0,Grant,Grant 4' Jump Shot (4 PTS) (Thompson 1 AST),foul,foul,1,Medium
+21500206,405,foul,4,PT11M35.00S,11:35,Q4 11:35,0,0,1610612750.0,LaVine,LaVine S.FOUL (P2.T2) (T.Brothers),2pt made,freethrow,0,Medium
+21500206,406,freethrow,4,PT11M35.00S,11:35,Q4 11:35,74,76,1610612755.0,Grant,Grant Free Throw 1 of 1 (5 PTS),foul,2pt missed,2,Medium
+21500206,409,2pt,4,PT11M16.00S,11:16,Q4 11:16,0,0,1610612750.0,Muhammad,MISS Muhammad 5' Driving Hook Shot,freethrow,rebound,0,Medium
+21500206,410,rebound,4,PT11M15.00S,11:15,Q4 11:15,0,0,1610612755.0,Thompson,Thompson REBOUND (Off:1 Def:3),2pt missed,3pt made,0,Medium
+21500206,411,3pt,4,PT11M07.00S,11:07,Q4 11:07,74,79,1610612755.0,Covington,Covington 24' 3PT Jump Shot (16 PTS) (McConnell 8 AST),rebound,turnover,5,Medium
+21500206,412,turnover,4,PT10M48.00S,10:48,Q4 10:48,0,0,1610612750.0,Miller,A. Miller Lost Ball Turnover (P1.T14),3pt made,steal,0,Medium
+21500206,412,steal,4,PT10M48.00S,10:48,Q4 10:48,0,0,1610612755.0,McConnell,McConnell STEAL (3 STL),turnover,foul,0,Medium
+21500206,413,foul,4,PT10M44.00S,10:44,Q4 10:44,0,0,1610612750.0,Muhammad,Muhammad P.FOUL (P2.T3) (M.Smith),steal,3pt missed,0,Medium
+21500206,414,3pt,4,PT10M28.00S,10:28,Q4 10:28,0,0,1610612755.0,Grant,MISS Grant  3PT Jump Shot,foul,rebound,0,Medium
+21500206,415,rebound,4,PT10M27.00S,10:27,Q4 10:27,0,0,1610612750.0,Muhammad,Muhammad REBOUND (Off:0 Def:1),3pt missed,turnover,0,Medium
+21500206,416,turnover,4,PT10M19.00S,10:19,Q4 10:19,0,0,1610612750.0,Miller,A. Miller Bad Pass Turnover (P2.T15),rebound,steal,0,Medium
+21500206,416,steal,4,PT10M19.00S,10:19,Q4 10:19,0,0,1610612755.0,Covington,Covington STEAL (3 STL),turnover,3pt missed,0,Medium
+21500206,417,3pt,4,PT10M11.00S,10:11,Q4 10:11,0,0,1610612755.0,Thompson,MISS Thompson 24' 3PT Jump Shot,steal,rebound,0,Medium
+21500206,418,rebound,4,PT10M10.00S,10:10,Q4 10:10,0,0,1610612750.0,Dieng,Dieng REBOUND (Off:1 Def:3),3pt missed,turnover,0,Medium
+21500206,419,turnover,4,PT09M56.00S,09:56,Q4 09:56,0,0,1610612750.0,Muhammad,Muhammad Out of Bounds Lost Ball Turnover (P1.T16),rebound,substitution,0,Medium
+21500206,420,substitution,4,PT09M56.00S,09:56,Q4 09:56,0,0,1610612755.0,Noel,SUB out: N. Noel,turnover,substitution,0,Medium
+21500206,421,substitution,4,PT09M56.00S,09:56,Q4 09:56,0,0,1610612755.0,McConnell,SUB out: T. McConnell,substitution,substitution,0,Medium
+21500206,422,substitution,4,PT09M56.00S,09:56,Q4 09:56,0,0,1610612755.0,Okafor,SUB in: J. Okafor,substitution,substitution,0,Medium
+21500206,423,substitution,4,PT09M56.00S,09:56,Q4 09:56,0,0,1610612755.0,Canaan,SUB in: I. Canaan,substitution,turnover,0,Medium
+21500206,422,turnover,4,PT09M35.00S,09:35,Q4 09:35,0,0,1610612755.0,Covington,Covington Out of Bounds Lost Ball Turnover (P4.T15),substitution,substitution,0,Medium
+21500206,423,substitution,4,PT09M35.00S,09:35,Q4 09:35,0,0,1610612750.0,Prince,SUB out: T. Prince,turnover,substitution,0,Medium
+21500206,424,substitution,4,PT09M35.00S,09:35,Q4 09:35,0,0,1610612750.0,Wiggins,SUB in: A. Wiggins,substitution,2pt missed,0,Medium
+21500206,424,2pt,4,PT09M24.00S,09:24,Q4 09:24,0,0,1610612750.0,Miller,MISS A. Miller 11' Running Jump Shot,substitution,rebound,0,Medium
+21500206,425,rebound,4,PT09M23.00S,09:23,Q4 09:23,0,0,1610612755.0,Okafor,Okafor REBOUND (Off:5 Def:6),2pt missed,turnover,0,Medium
+21500206,426,turnover,4,PT09M13.00S,09:13,Q4 09:13,0,0,1610612755.0,Okafor,Okafor Traveling Turnover (P4.T16),rebound,2pt missed,0,Medium
+21500206,427,2pt,4,PT09M03.00S,09:03,Q4 09:03,0,0,1610612750.0,LaVine,MISS LaVine  Layup,turnover,rebound,0,Medium
+21500206,428,rebound,4,PT09M03.00S,09:03,Q4 09:03,0,0,1610612750.0,Dieng,Dieng REBOUND (Off:2 Def:3),2pt missed,foul,0,Medium
+21500206,429,foul,4,PT09M03.00S,09:03,Q4 09:03,0,0,1610612755.0,Thompson,Thompson P.FOUL (P2.T1) (T.Brothers),rebound,substitution,0,Medium
+21500206,430,substitution,4,PT09M03.00S,09:03,Q4 09:03,0,0,1610612750.0,Miller,SUB out: A. Miller,foul,substitution,0,Medium
+21500206,431,substitution,4,PT09M03.00S,09:03,Q4 09:03,0,0,1610612750.0,Rubio,SUB in: R. Rubio,substitution,foul,0,Medium
+21500206,431,foul,4,PT08M55.00S,08:55,Q4 08:55,0,0,1610612755.0,Grant,Grant P.FOUL (P2.T2) (H.Workman),substitution,timeout,0,Medium
+21500206,432,timeout,4,PT08M55.00S,08:55,Q4 08:55,0,0,0.0,,Timeout: Regular,foul,substitution,0,Medium
+21500206,434,substitution,4,PT08M55.00S,08:55,Q4 08:55,0,0,1610612750.0,Dieng,SUB out: G. Dieng,timeout,substitution,0,Medium
+21500206,435,substitution,4,PT08M55.00S,08:55,Q4 08:55,0,0,1610612750.0,Towns,SUB in: K. Towns,substitution,2pt made,0,Medium
+21500206,435,2pt,4,PT08M46.00S,08:46,Q4 08:46,76,79,1610612750.0,Wiggins,Wiggins 3' Layup (19 PTS),substitution,2pt missed,3,Medium
+21500206,436,2pt,4,PT08M23.00S,08:23,Q4 08:23,0,0,1610612755.0,Grant,MISS Grant 1' Layup,2pt made,block,0,Medium
+21500206,436,block,4,PT08M23.00S,08:23,Q4 08:23,0,0,1610612750.0,Towns,Towns BLOCK (2 BLK),2pt missed,rebound,0,Medium
+21500206,437,rebound,4,PT08M22.00S,08:22,Q4 08:22,0,0,1610612755.0,Canaan,Canaan REBOUND (Off:1 Def:1),block,3pt missed,0,Medium
+21500206,438,3pt,4,PT08M21.00S,08:21,Q4 08:21,0,0,1610612755.0,Canaan,MISS Canaan 24' 3PT Jump Shot,rebound,rebound,0,Medium
+21500206,439,rebound,4,PT08M18.00S,08:18,Q4 08:18,0,0,1610612750.0,,TEAM defensive REBOUND,3pt missed,3pt missed,0,Medium
+21500206,440,3pt,4,PT08M04.00S,08:04,Q4 08:04,0,0,1610612750.0,Wiggins,MISS Wiggins 24' 3PT Jump Shot,rebound,rebound,0,Medium
+21500206,441,rebound,4,PT08M03.00S,08:03,Q4 08:03,0,0,1610612755.0,Okafor,Okafor REBOUND (Off:5 Def:7),3pt missed,2pt made,0,Medium
+21500206,442,2pt,4,PT07M47.00S,07:47,Q4 07:47,76,81,1610612755.0,Thompson,Thompson 3' Layup (11 PTS) (Grant 1 AST),rebound,foul,5,Medium
+21500206,443,foul,4,PT07M47.00S,07:47,Q4 07:47,0,0,1610612750.0,Muhammad,Muhammad S.FOUL (P3.T4) (H.Workman),2pt made,freethrow,0,Medium
+21500206,444,freethrow,4,PT07M47.00S,07:47,Q4 07:47,0,0,1610612755.0,Thompson,MISS Thompson Free Throw 1 of 1,foul,rebound,0,Medium
+21500206,446,rebound,4,PT07M47.00S,07:47,Q4 07:47,0,0,1610612750.0,LaVine,LaVine REBOUND (Off:0 Def:5),freethrow,2pt missed,0,Medium
+21500206,447,2pt,4,PT07M25.00S,07:25,Q4 07:25,0,0,1610612750.0,LaVine,MISS LaVine 19' Pullup Jump Shot,rebound,rebound,0,Medium
+21500206,448,rebound,4,PT07M24.00S,07:24,Q4 07:24,0,0,1610612755.0,Covington,Covington REBOUND (Off:0 Def:5),2pt missed,foul,0,Medium
+21500206,449,foul,4,PT07M11.00S,07:11,Q4 07:11,0,0,1610612755.0,Canaan,Canaan OFF.Foul (P3) (H.Workman),rebound,turnover,0,Medium
+21500206,450,turnover,4,PT07M11.00S,07:11,Q4 07:11,0,0,1610612755.0,Canaan,Canaan Foul Turnover (P3.T17),foul,substitution,0,Medium
+21500206,451,substitution,4,PT07M11.00S,07:11,Q4 07:11,0,0,1610612750.0,Muhammad,SUB out: S. Muhammad,turnover,substitution,0,Medium
+21500206,452,substitution,4,PT07M11.00S,07:11,Q4 07:11,0,0,1610612750.0,Martin,SUB in: K. Martin,substitution,2pt missed,0,Medium
+21500206,452,2pt,4,PT07M02.00S,07:02,Q4 07:02,0,0,1610612750.0,Towns,MISS Towns 19' Jump Shot,substitution,rebound,0,Medium
+21500206,453,rebound,4,PT07M01.00S,07:01,Q4 07:01,0,0,1610612755.0,Canaan,Canaan REBOUND (Off:1 Def:2),2pt missed,2pt missed,0,Medium
+21500206,454,2pt,4,PT06M49.00S,06:49,Q4 06:49,0,0,1610612755.0,Grant,MISS Grant  Dunk,rebound,rebound,0,High
+21500206,455,rebound,4,PT06M48.00S,06:48,Q4 06:48,0,0,1610612750.0,Wiggins,Wiggins REBOUND (Off:1 Def:2),2pt missed,2pt missed,0,High
+21500206,456,2pt,4,PT06M44.00S,06:44,Q4 06:44,0,0,1610612750.0,Wiggins,MISS Wiggins 4' Jump Shot,rebound,rebound,0,High
+21500206,457,rebound,4,PT06M41.00S,06:41,Q4 06:41,0,0,1610612750.0,,TEAM offensive REBOUND,2pt missed,foul,0,High
+21500206,458,foul,4,PT06M34.00S,06:34,Q4 06:34,0,0,1610612755.0,Grant,Grant S.FOUL (P3.T3) (M.Smith),rebound,freethrow,0,High
+21500206,459,freethrow,4,PT06M34.00S,06:34,Q4 06:34,77,81,1610612750.0,Wiggins,Wiggins Free Throw 1 of 2 (20 PTS),foul,freethrow,4,High
+21500206,461,freethrow,4,PT06M34.00S,06:34,Q4 06:34,78,81,1610612750.0,Wiggins,Wiggins Free Throw 2 of 2 (21 PTS),freethrow,2pt made,3,High
+21500206,463,2pt,4,PT06M12.00S,06:12,Q4 06:12,78,83,1610612755.0,Okafor,Okafor 11' Turnaround Jump Shot (23 PTS),freethrow,3pt missed,5,High
+21500206,464,3pt,4,PT05M56.00S,05:56,Q4 05:56,0,0,1610612750.0,LaVine,MISS LaVine  3PT Jump Shot,2pt made,rebound,0,High
+21500206,465,rebound,4,PT05M55.00S,05:55,Q4 05:55,0,0,1610612755.0,Grant,Grant REBOUND (Off:1 Def:3),3pt missed,timeout,0,High
+21500206,467,timeout,4,PT05M51.00S,05:51,Q4 05:51,0,0,1610612750.0,,TIMBERWOLVES Timeout: Regular (Full 4 Short 1),rebound,3pt missed,0,High
+21500206,469,3pt,4,PT05M43.00S,05:43,Q4 05:43,0,0,1610612755.0,Canaan,MISS Canaan  3PT Jump Shot,timeout,rebound,0,High
+21500206,470,rebound,4,PT05M41.00S,05:41,Q4 05:41,0,0,1610612755.0,Grant,Grant REBOUND (Off:2 Def:3),3pt missed,foul,0,High
+21500206,471,foul,4,PT05M29.00S,05:29,Q4 05:29,0,0,1610612750.0,Rubio,Rubio P.FOUL (P4.PN) (M.Smith),rebound,freethrow,0,High
+21500206,472,freethrow,4,PT05M29.00S,05:29,Q4 05:29,0,0,1610612755.0,Grant,MISS Grant Free Throw 1 of 2,foul,rebound,0,High
+21500206,473,rebound,4,PT05M29.00S,05:29,Q4 05:29,0,0,1610612755.0,,TEAM offensive REBOUND,freethrow,freethrow,0,High
+21500206,474,freethrow,4,PT05M29.00S,05:29,Q4 05:29,78,84,1610612755.0,Grant,Grant Free Throw 2 of 2 (6 PTS),rebound,2pt missed,6,High
+21500206,476,2pt,4,PT05M18.00S,05:18,Q4 05:18,0,0,1610612750.0,Wiggins,MISS Wiggins 3' Layup,freethrow,2pt missed,0,High
+21500206,477,2pt,4,PT05M16.00S,05:16,Q4 05:16,0,0,1610612750.0,Wiggins,MISS Wiggins 2' Layup,2pt missed,rebound,0,High
+21500206,478,rebound,4,PT05M16.00S,05:16,Q4 05:16,0,0,1610612750.0,Wiggins,Wiggins REBOUND (Off:2 Def:2),2pt missed,2pt made,0,High
+21500206,479,2pt,4,PT05M14.00S,05:14,Q4 05:14,80,84,1610612750.0,Towns,Towns 1' Tip Layup Shot (6 PTS),rebound,rebound,4,High
+21500206,480,rebound,4,PT05M14.00S,05:14,Q4 05:14,0,0,1610612750.0,Towns,Towns REBOUND (Off:2 Def:1),2pt made,2pt made,0,High
+21500206,481,2pt,4,PT04M58.00S,04:58,Q4 04:58,80,86,1610612755.0,Okafor,Okafor 8' Running Jump Shot (25 PTS),rebound,2pt made,6,High
+21500206,482,2pt,4,PT04M43.00S,04:43,Q4 04:43,82,86,1610612750.0,Wiggins,Wiggins  Driving Finger Roll Layup (23 PTS) (Rubio 10 AST),2pt made,2pt missed,4,High
+21500206,483,2pt,4,PT04M25.00S,04:25,Q4 04:25,0,0,1610612755.0,Covington,MISS Covington 1' Layup,2pt made,rebound,0,High
+21500206,484,rebound,4,PT04M24.00S,04:24,Q4 04:24,0,0,1610612750.0,Rubio,Rubio REBOUND (Off:1 Def:3),2pt missed,foul,0,High
+21500206,485,foul,4,PT04M22.00S,04:22,Q4 04:22,0,0,1610612750.0,Rubio,Rubio OFF.Foul (P5) (M.Smith),rebound,turnover,0,High
+21500206,486,turnover,4,PT04M22.00S,04:22,Q4 04:22,0,0,1610612750.0,Rubio,Rubio Foul Turnover (P4.T17),foul,substitution,0,High
+21500206,487,substitution,4,PT04M22.00S,04:22,Q4 04:22,0,0,1610612755.0,Okafor,SUB out: J. Okafor,turnover,substitution,0,High
+21500206,488,substitution,4,PT04M22.00S,04:22,Q4 04:22,0,0,1610612755.0,Noel,SUB in: N. Noel,substitution,turnover,0,High
+21500206,488,turnover,4,PT04M07.00S,04:07,Q4 04:07,0,0,1610612755.0,Noel,Noel Lost Ball Turnover (P3.T18),substitution,steal,0,High
+21500206,488,steal,4,PT04M07.00S,04:07,Q4 04:07,0,0,1610612750.0,Towns,Towns STEAL (1 STL),turnover,2pt made,0,High
+21500206,489,2pt,4,PT03M58.00S,03:58,Q4 03:58,84,86,1610612750.0,Wiggins,Wiggins 5' Driving Bank Shot (25 PTS) (Rubio 11 AST),steal,3pt made,2,High
+21500206,490,3pt,4,PT03M30.00S,03:30,Q4 03:30,84,89,1610612755.0,Grant,Grant 26' 3PT Jump Shot (9 PTS) (Canaan 3 AST),2pt made,2pt made,5,High
+21500206,491,2pt,4,PT03M05.00S,03:05,Q4 03:05,86,89,1610612750.0,LaVine,LaVine 3' Driving Bank Shot (10 PTS),3pt made,2pt made,3,High
+21500206,492,2pt,4,PT02M39.00S,02:39,Q4 02:39,86,91,1610612755.0,Thompson,Thompson 9' Floating Jump Shot (13 PTS),2pt made,2pt made,5,High
+21500206,493,2pt,4,PT02M27.00S,02:27,Q4 02:27,88,91,1610612750.0,Wiggins,Wiggins 12' Turnaround Jump Shot (27 PTS),2pt made,foul,3,High
+21500206,494,foul,4,PT02M27.00S,02:27,Q4 02:27,0,0,1610612755.0,Grant,Grant S.FOUL (P4.T4) (M.Smith),2pt made,timeout,0,High
+21500206,495,timeout,4,PT02M27.00S,02:27,Q4 02:27,0,0,1610612755.0,,76ers Timeout: Regular (Reg.4 Short 1),foul,freethrow,0,High
+21500206,498,freethrow,4,PT02M27.00S,02:27,Q4 02:27,89,91,1610612750.0,Wiggins,Wiggins Free Throw 1 of 1 (28 PTS),timeout,substitution,2,High
+21500206,497,substitution,4,PT02M27.00S,02:27,Q4 02:27,0,0,1610612755.0,Canaan,SUB out: I. Canaan,freethrow,substitution,0,High
+21500206,498,substitution,4,PT02M27.00S,02:27,Q4 02:27,0,0,1610612755.0,McConnell,SUB in: T. McConnell,substitution,turnover,0,High
+21500206,500,turnover,4,PT02M16.00S,02:16,Q4 02:16,0,0,1610612755.0,Grant,Grant Bad Pass Turnover (P2.T19),substitution,steal,0,High
+21500206,500,steal,4,PT02M16.00S,02:16,Q4 02:16,0,0,1610612750.0,Martin,Martin STEAL (1 STL),turnover,2pt missed,0,High
+21500206,501,2pt,4,PT02M12.00S,02:12,Q4 02:12,0,0,1610612750.0,Martin,MISS Martin 2' Layup,steal,block,0,High
+21500206,501,block,4,PT02M12.00S,02:12,Q4 02:12,0,0,1610612755.0,Grant,Grant BLOCK (2 BLK),2pt missed,rebound,0,High
+21500206,502,rebound,4,PT02M11.00S,02:11,Q4 02:11,0,0,1610612750.0,Wiggins,Wiggins REBOUND (Off:3 Def:2),block,2pt made,0,High
+21500206,503,2pt,4,PT02M11.00S,02:11,Q4 02:11,91,91,1610612750.0,Wiggins,Wiggins  Dunk (30 PTS),rebound,foul,0,High
+21500206,504,foul,4,PT02M11.00S,02:11,Q4 02:11,0,0,1610612755.0,Noel,Noel S.FOUL (P3.PN) (H.Workman),2pt made,freethrow,0,High
+21500206,506,freethrow,4,PT02M11.00S,02:11,Q4 02:11,0,0,1610612750.0,Wiggins,MISS Wiggins Free Throw 1 of 1,foul,rebound,0,High
+21500206,508,rebound,4,PT02M11.00S,02:11,Q4 02:11,0,0,1610612755.0,Grant,Grant REBOUND (Off:2 Def:4),freethrow,substitution,0,High
+21500206,505,substitution,4,PT02M11.00S,02:11,Q4 02:11,0,0,1610612755.0,Noel,SUB out: N. Noel,rebound,substitution,0,High
+21500206,506,substitution,4,PT02M11.00S,02:11,Q4 02:11,0,0,1610612755.0,Okafor,SUB in: J. Okafor,substitution,3pt missed,0,High
+21500206,509,3pt,4,PT02M03.00S,02:03,Q4 02:03,0,0,1610612755.0,Covington,MISS Covington 24' 3PT Jump Shot,substitution,rebound,0,High
+21500206,510,rebound,4,PT02M01.00S,02:01,Q4 02:01,0,0,1610612750.0,Rubio,Rubio REBOUND (Off:1 Def:4),3pt missed,2pt missed,0,High
+21500206,511,2pt,4,PT01M46.00S,01:46,Q4 01:46,0,0,1610612750.0,Wiggins,MISS Wiggins 19' Jump Shot,rebound,rebound,0,Very High
+21500206,512,rebound,4,PT01M44.00S,01:44,Q4 01:44,0,0,1610612755.0,Thompson,Thompson REBOUND (Off:1 Def:4),2pt missed,2pt missed,0,Very High
+21500206,513,2pt,4,PT01M27.00S,01:27,Q4 01:27,0,0,1610612755.0,Grant,MISS Grant 3' Jump Shot,rebound,rebound,0,Very High
+21500206,514,rebound,4,PT01M26.00S,01:26,Q4 01:26,0,0,1610612750.0,,TEAM defensive REBOUND,2pt missed,instant replay,0,Very High
+21500206,518,timeout,4,PT01M11.00S,01:11,Q4 01:11,0,0,1610612750.0,,TIMBERWOLVES Timeout: Short (Full 4 Short 2),instant replay,substitution,0,Very High
+21500206,517,substitution,4,PT01M11.00S,01:11,Q4 01:11,0,0,1610612755.0,Grant,SUB out: J. Grant,timeout,substitution,0,Very High
+21500206,518,substitution,4,PT01M11.00S,01:11,Q4 01:11,0,0,1610612755.0,Thompson,SUB out: H. Thompson,substitution,substitution,0,Very High
+21500206,519,substitution,4,PT01M11.00S,01:11,Q4 01:11,0,0,1610612755.0,Canaan,SUB in: I. Canaan,substitution,substitution,0,Very High
+21500206,520,substitution,4,PT01M11.00S,01:11,Q4 01:11,0,0,1610612755.0,Grant,SUB in: J. Grant,substitution,foul,0,Very High
+21500206,520,foul,4,PT01M04.00S,01:04,Q4 01:04,0,0,1610612755.0,McConnell,McConnell S.FOUL (P4.PN) (T.Brothers),substitution,freethrow,0,Very High
+21500206,521,freethrow,4,PT01M04.00S,01:04,Q4 01:04,92,91,1610612750.0,Wiggins,Wiggins Free Throw 1 of 2 (31 PTS),foul,freethrow,1,Very High
+21500206,524,freethrow,4,PT01M04.00S,01:04,Q4 01:04,93,91,1610612750.0,Wiggins,Wiggins Free Throw 2 of 2 (32 PTS),freethrow,substitution,2,Very High
+21500206,523,substitution,4,PT01M04.00S,01:04,Q4 01:04,0,0,1610612755.0,Grant,SUB out: J. Grant,freethrow,substitution,0,Very High
+21500206,524,substitution,4,PT01M04.00S,01:04,Q4 01:04,0,0,1610612755.0,Thompson,SUB in: H. Thompson,substitution,2pt missed,0,Very High
+21500206,526,2pt,4,PT00M48.90S,00:48,Q4 00:48,0,0,1610612755.0,McConnell,MISS McConnell 2' Driving Layup,substitution,rebound,0,Very High
+21500206,527,rebound,4,PT00M47.90S,00:47,Q4 00:47,0,0,1610612750.0,Rubio,Rubio REBOUND (Off:1 Def:5),2pt missed,3pt made,0,Very High
+21500206,528,3pt,4,PT00M28.40S,00:28,Q4 00:28,96,91,1610612750.0,Martin,Martin 25' 3PT Jump Shot (9 PTS) (Wiggins 3 AST),rebound,timeout,5,Very High
+21500206,529,timeout,4,PT00M28.40S,00:28,Q4 00:28,0,0,1610612755.0,,76ers Timeout: Regular (Reg.5 Short 1),3pt made,3pt missed,0,Very High
+21500206,531,3pt,4,PT00M17.90S,00:17,Q4 00:17,0,0,1610612755.0,Canaan,MISS Canaan 28' 3PT Jump Shot,timeout,rebound,0,Very High
+21500206,532,rebound,4,PT00M16.90S,00:16,Q4 00:16,0,0,1610612755.0,Covington,Covington REBOUND (Off:1 Def:5),3pt missed,3pt missed,0,Very High
+21500206,533,3pt,4,PT00M13.70S,00:13,Q4 00:13,0,0,1610612755.0,Covington,MISS Covington  3PT Fadeaway Jumper,rebound,rebound,0,Very High
+21500206,534,rebound,4,PT00M12.70S,00:12,Q4 00:12,0,0,1610612750.0,Martin,Martin REBOUND (Off:0 Def:1),3pt missed,foul,0,Very High
+21500206,535,foul,4,PT00M12.70S,00:12,Q4 00:12,0,0,1610612755.0,Canaan,Canaan Personal Take Foul (P4.PN) (T.Brothers),rebound,freethrow,0,Very High
+21500206,536,freethrow,4,PT00M12.70S,00:12,Q4 00:12,97,91,1610612750.0,Martin,Martin Free Throw 1 of 2 (10 PTS),foul,freethrow,6,High
+21500206,538,freethrow,4,PT00M12.70S,00:12,Q4 00:12,98,91,1610612750.0,Martin,Martin Free Throw 2 of 2 (11 PTS),freethrow,timeout,7,High
+21500206,540,timeout,4,PT00M12.70S,00:12,Q4 00:12,0,0,1610612755.0,,76ers Timeout: Short (Reg.5 Short 2),freethrow,2pt made,0,Very High
+21500206,542,2pt,4,PT00M06.40S,00:06,Q4 00:06,98,93,1610612755.0,Covington,Covington 2' Driving Layup (18 PTS),timeout,foul,5,Very High
+21500206,543,foul,4,PT00M05.90S,00:05,Q4 00:05,0,0,1610612755.0,Canaan,Canaan Personal Take Foul (P5.PN) (T.Brothers),2pt made,freethrow,0,Very High
+21500206,544,freethrow,4,PT00M05.90S,00:05,Q4 00:05,99,93,1610612750.0,LaVine,LaVine Free Throw 1 of 2 (11 PTS),foul,freethrow,6,High
+21500206,546,freethrow,4,PT00M05.90S,00:05,Q4 00:05,100,93,1610612750.0,LaVine,LaVine Free Throw 2 of 2 (12 PTS),freethrow,timeout,7,High
+21500206,548,timeout,4,PT00M05.90S,00:05,Q4 00:05,0,0,1610612755.0,,76ers Timeout: Short (Reg.5 Short 3),freethrow,2pt made,0,Very High
+21500206,549,2pt,4,PT00M01.90S,00:01,Q4 00:01,100,95,1610612755.0,Thompson,Thompson 7' Floating Jump Shot (15 PTS),timeout,period,5,Very High
+21500206,550,period,4,PT00M00.00S,00:00,Q4 00:00,100,95,1610612750.0,,End of 4th Period (10:38 PM EST),2pt made,,5,Very High

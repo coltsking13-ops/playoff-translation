@@ -1,0 +1,538 @@
+game_id,actionNumber,actionType,period,clock,clock_display,game_clock,scoreHome,scoreAway,teamId,playerName,description,previous_action,next_action,score_margin,leverage_bucket
+21500006,0,period,1,PT12M00.00S,12:00,Q1 12:00,0,0,1610612751.0,,Start of 1st Period (7:44 PM EST),,turnover,0,Low
+21500006,2,turnover,1,PT11M47.00S,11:47,Q1 11:47,0,0,1610612751.0,Young,Young Traveling Turnover (P1.T1),period,2pt missed,0,Low
+21500006,3,2pt,1,PT11M28.00S,11:28,Q1 11:28,0,0,1610612741.0,Snell,MISS Snell 10' Jump Shot,turnover,block,0,Low
+21500006,3,block,1,PT11M28.00S,11:28,Q1 11:28,0,0,1610612751.0,Lopez,Lopez BLOCK (1 BLK),2pt missed,rebound,0,Low
+21500006,4,rebound,1,PT11M26.00S,11:26,Q1 11:26,0,0,1610612751.0,Johnson,Johnson REBOUND (Off:0 Def:1),block,2pt missed,0,Low
+21500006,5,2pt,1,PT11M18.00S,11:18,Q1 11:18,0,0,1610612751.0,Larkin,MISS Larkin 23' Jump Shot,rebound,rebound,0,Low
+21500006,6,rebound,1,PT11M16.00S,11:16,Q1 11:16,0,0,1610612741.0,Rose,Rose REBOUND (Off:0 Def:1),2pt missed,2pt made,0,Low
+21500006,7,2pt,1,PT11M10.00S,11:10,Q1 11:10,0,2,1610612741.0,Mirotic,Mirotic 20' Jump Shot (2 PTS) (Rose 1 AST),rebound,2pt missed,2,Low
+21500006,8,2pt,1,PT10M53.00S,10:53,Q1 10:53,0,0,1610612751.0,Young,MISS Young 7' Jump Shot,2pt made,rebound,0,Low
+21500006,9,rebound,1,PT10M52.00S,10:52,Q1 10:52,0,0,1610612741.0,Snell,Snell REBOUND (Off:0 Def:1),2pt missed,2pt made,0,Low
+21500006,10,2pt,1,PT10M44.00S,10:44,Q1 10:44,0,4,1610612741.0,Rose,Rose 2' Driving Layup (2 PTS),rebound,3pt missed,4,Low
+21500006,11,3pt,1,PT10M27.00S,10:27,Q1 10:27,0,0,1610612751.0,Ellington,MISS Ellington 25' 3PT Jump Shot,2pt made,rebound,0,Low
+21500006,12,rebound,1,PT10M26.00S,10:26,Q1 10:26,0,0,1610612741.0,,TEAM defensive REBOUND,3pt missed,2pt missed,0,Low
+21500006,13,2pt,1,PT10M05.00S,10:05,Q1 10:05,0,0,1610612741.0,Snell,MISS Snell 18' Jump Shot,rebound,rebound,0,Low
+21500006,14,rebound,1,PT10M04.00S,10:04,Q1 10:04,0,0,1610612751.0,Young,Young REBOUND (Off:0 Def:1),2pt missed,turnover,0,Low
+21500006,15,turnover,1,PT09M59.00S,09:59,Q1 09:59,0,0,1610612751.0,Young,Young Bad Pass Turnover (P2.T2),rebound,steal,0,Low
+21500006,15,steal,1,PT09M59.00S,09:59,Q1 09:59,0,0,1610612741.0,Mirotic,Mirotic STEAL (1 STL),turnover,3pt made,0,Low
+21500006,16,3pt,1,PT09M51.00S,09:51,Q1 09:51,0,7,1610612741.0,Mirotic,Mirotic  3PT Jump Shot (5 PTS) (Butler 1 AST),steal,timeout,7,Low
+21500006,17,timeout,1,PT09M46.00S,09:46,Q1 09:46,0,0,1610612751.0,,NETS Timeout: Regular (Full 1 Short 0),3pt made,2pt missed,0,Low
+21500006,18,2pt,1,PT09M39.00S,09:39,Q1 09:39,0,0,1610612751.0,Lopez,MISS Lopez 15' Jump Shot,timeout,rebound,0,Low
+21500006,19,rebound,1,PT09M38.00S,09:38,Q1 09:38,0,0,1610612741.0,Gasol,Gasol REBOUND (Off:0 Def:1),2pt missed,turnover,0,Low
+21500006,20,turnover,1,PT09M21.00S,09:21,Q1 09:21,0,0,1610612741.0,Rose,Rose Bad Pass Turnover (P1.T1),rebound,steal,0,Low
+21500006,20,steal,1,PT09M21.00S,09:21,Q1 09:21,0,0,1610612751.0,Larkin,Larkin STEAL (1 STL),turnover,2pt made,0,Low
+21500006,21,2pt,1,PT09M10.00S,09:10,Q1 09:10,2,7,1610612751.0,Young,Young 7' Turnaround Bank Hook Shot (2 PTS) (Larkin 1 AST),steal,2pt made,5,Low
+21500006,22,2pt,1,PT08M49.00S,08:49,Q1 08:49,2,9,1610612741.0,Butler,Butler 1' Cutting Layup Shot (2 PTS) (Gasol 1 AST),2pt made,2pt made,7,Low
+21500006,23,2pt,1,PT08M28.00S,08:28,Q1 08:28,4,9,1610612751.0,Johnson,Johnson 11' Floating Jump Shot (2 PTS),2pt made,2pt made,5,Low
+21500006,24,2pt,1,PT08M10.00S,08:10,Q1 08:10,4,11,1610612741.0,Gasol,Gasol 16' Jump Shot (2 PTS),2pt made,2pt made,7,Low
+21500006,25,2pt,1,PT07M58.00S,07:58,Q1 07:58,6,11,1610612751.0,Lopez,Lopez 19' Jump Shot (2 PTS) (Larkin 2 AST),2pt made,2pt missed,5,Low
+21500006,26,2pt,1,PT07M35.00S,07:35,Q1 07:35,0,0,1610612741.0,Gasol,MISS Gasol 17' Jump Shot,2pt made,rebound,0,Low
+21500006,27,rebound,1,PT07M33.00S,07:33,Q1 07:33,0,0,1610612751.0,Ellington,Ellington REBOUND (Off:0 Def:1),2pt missed,2pt missed,0,Low
+21500006,28,2pt,1,PT07M27.00S,07:27,Q1 07:27,0,0,1610612751.0,Lopez,MISS Lopez 20' Jump Shot,rebound,rebound,0,Low
+21500006,29,rebound,1,PT07M26.00S,07:26,Q1 07:26,0,0,1610612741.0,Mirotic,Mirotic REBOUND (Off:0 Def:1),2pt missed,2pt made,0,Low
+21500006,30,2pt,1,PT07M18.00S,07:18,Q1 07:18,6,13,1610612741.0,Rose,Rose 4' Driving Layup (4 PTS),rebound,2pt made,7,Low
+21500006,31,2pt,1,PT07M01.00S,07:01,Q1 07:01,8,13,1610612751.0,Young,Young 2' Layup (4 PTS) (Ellington 1 AST),2pt made,foul,5,Low
+21500006,32,foul,1,PT06M51.00S,06:51,Q1 06:51,0,0,1610612751.0,Young,Young P.FOUL (P1.T1) (K.Scott),2pt made,2pt made,0,Low
+21500006,33,2pt,1,PT06M41.00S,06:41,Q1 06:41,8,15,1610612741.0,Gasol,Gasol 11' Turnaround Jump Shot (4 PTS) (Butler 2 AST),foul,2pt missed,7,Low
+21500006,34,2pt,1,PT06M26.00S,06:26,Q1 06:26,0,0,1610612751.0,Johnson,MISS Johnson 15' Jump Shot,2pt made,rebound,0,Low
+21500006,35,rebound,1,PT06M25.00S,06:25,Q1 06:25,0,0,1610612741.0,Mirotic,Mirotic REBOUND (Off:0 Def:2),2pt missed,3pt made,0,Low
+21500006,36,3pt,1,PT06M07.00S,06:07,Q1 06:07,8,18,1610612741.0,Butler,Butler 28' 3PT Jump Shot (5 PTS) (Rose 2 AST),rebound,foul,10,Low
+21500006,37,foul,1,PT06M07.00S,06:07,Q1 06:07,0,0,1610612751.0,Larkin,Larkin S.FOUL (P1.T2) (N.Buchert),3pt made,freethrow,0,Low
+21500006,42,freethrow,1,PT06M07.00S,06:07,Q1 06:07,8,19,1610612741.0,Butler,Butler Free Throw 1 of 1 (6 PTS),foul,substitution,11,Low
+21500006,38,substitution,1,PT06M07.00S,06:07,Q1 06:07,0,0,1610612741.0,Rose,SUB out: D. Rose,freethrow,substitution,0,Low
+21500006,39,substitution,1,PT06M07.00S,06:07,Q1 06:07,0,0,1610612751.0,Larkin,SUB out: S. Larkin,substitution,substitution,0,Low
+21500006,40,substitution,1,PT06M07.00S,06:07,Q1 06:07,0,0,1610612751.0,Ellington,SUB out: W. Ellington,substitution,substitution,0,Low
+21500006,41,substitution,1,PT06M07.00S,06:07,Q1 06:07,0,0,1610612751.0,Young,SUB out: T. Young,substitution,substitution,0,Low
+21500006,42,substitution,1,PT06M07.00S,06:07,Q1 06:07,0,0,1610612741.0,Brooks,SUB in: A. Brooks,substitution,substitution,0,Low
+21500006,43,substitution,1,PT06M07.00S,06:07,Q1 06:07,0,0,1610612751.0,Sloan,SUB in: D. Sloan,substitution,substitution,0,Low
+21500006,44,substitution,1,PT06M07.00S,06:07,Q1 06:07,0,0,1610612751.0,Bogdanovic,SUB in: B. Bogdanovic,substitution,substitution,0,Low
+21500006,45,substitution,1,PT06M07.00S,06:07,Q1 06:07,0,0,1610612751.0,Bargnani,SUB in: A. Bargnani,substitution,2pt made,0,Low
+21500006,45,2pt,1,PT05M42.00S,05:42,Q1 05:42,10,19,1610612751.0,Lopez,Lopez 6' Jump Shot (4 PTS),substitution,3pt missed,9,Low
+21500006,46,3pt,1,PT05M25.00S,05:25,Q1 05:25,0,0,1610612741.0,Snell,MISS Snell 25' 3PT Jump Shot,2pt made,rebound,0,Low
+21500006,47,rebound,1,PT05M24.00S,05:24,Q1 05:24,0,0,1610612751.0,Johnson,Johnson REBOUND (Off:0 Def:2),3pt missed,2pt missed,0,Low
+21500006,48,2pt,1,PT05M12.00S,05:12,Q1 05:12,0,0,1610612751.0,Bargnani,MISS Bargnani 3' Driving Layup,rebound,rebound,0,Low
+21500006,49,rebound,1,PT05M10.00S,05:10,Q1 05:10,0,0,1610612741.0,Gasol,Gasol REBOUND (Off:0 Def:2),2pt missed,foul,0,Low
+21500006,50,foul,1,PT05M08.00S,05:08,Q1 05:08,0,0,1610612751.0,Bogdanovic,Bogdanovic S.FOUL (P1.T3) (D.Stafford),rebound,freethrow,0,Low
+21500006,51,freethrow,1,PT05M08.00S,05:08,Q1 05:08,10,20,1610612741.0,Snell,Snell Free Throw 1 of 2 (1 PTS),foul,freethrow,10,Low
+21500006,54,freethrow,1,PT05M08.00S,05:08,Q1 05:08,10,21,1610612741.0,Snell,Snell Free Throw 2 of 2 (2 PTS),freethrow,substitution,11,Low
+21500006,57,substitution,1,PT05M08.00S,05:08,Q1 05:08,0,0,1610612741.0,Gasol,SUB out: P. Gasol,freethrow,substitution,0,Low
+21500006,58,substitution,1,PT05M08.00S,05:08,Q1 05:08,0,0,1610612741.0,Noah,SUB in: J. Noah,substitution,turnover,0,Low
+21500006,56,turnover,1,PT04M54.00S,04:54,Q1 04:54,0,0,1610612751.0,Lopez,Lopez Lost Ball Turnover (P1.T3),substitution,steal,0,Low
+21500006,56,steal,1,PT04M54.00S,04:54,Q1 04:54,0,0,1610612741.0,Noah,Noah STEAL (1 STL),turnover,turnover,0,Low
+21500006,58,turnover,1,PT04M44.00S,04:44,Q1 04:44,0,0,1610612741.0,Noah,Noah Out of Bounds - Bad Pass Turnover Turnover (P1.T2),steal,substitution,0,Low
+21500006,59,substitution,1,PT04M44.00S,04:44,Q1 04:44,0,0,1610612741.0,Snell,SUB out: T. Snell,turnover,substitution,0,Low
+21500006,60,substitution,1,PT04M44.00S,04:44,Q1 04:44,0,0,1610612741.0,McDermott,SUB in: D. McDermott,substitution,2pt missed,0,Low
+21500006,60,2pt,1,PT04M29.00S,04:29,Q1 04:29,0,0,1610612751.0,Bargnani,MISS Bargnani 18' Jump Shot,substitution,rebound,0,Low
+21500006,61,rebound,1,PT04M28.00S,04:28,Q1 04:28,0,0,1610612741.0,Mirotic,Mirotic REBOUND (Off:0 Def:3),2pt missed,3pt made,0,Low
+21500006,62,3pt,1,PT04M17.00S,04:17,Q1 04:17,10,24,1610612741.0,McDermott,McDermott 24' 3PT Jump Shot (3 PTS) (Brooks 1 AST),rebound,timeout,14,Low
+21500006,63,timeout,1,PT04M11.00S,04:11,Q1 04:11,0,0,1610612751.0,,NETS Timeout: Short (Full 1 Short 1),3pt made,substitution,0,Low
+21500006,66,substitution,1,PT04M11.00S,04:11,Q1 04:11,0,0,1610612751.0,Johnson,SUB out: J. Johnson,timeout,substitution,0,Low
+21500006,67,substitution,1,PT04M11.00S,04:11,Q1 04:11,0,0,1610612751.0,Hollis-Jefferson,SUB in: R. Hollis-Jefferson,substitution,2pt made,0,Low
+21500006,67,2pt,1,PT03M52.00S,03:52,Q1 03:52,12,24,1610612751.0,Bogdanovic,Bogdanovic 20' Jump Shot (2 PTS),substitution,foul,12,Low
+21500006,68,foul,1,PT03M43.00S,03:43,Q1 03:43,0,0,1610612751.0,Bargnani,Bargnani P.FOUL (P1.T4) (D.Stafford),2pt made,2pt missed,0,Low
+21500006,69,2pt,1,PT03M34.00S,03:34,Q1 03:34,0,0,1610612741.0,McDermott,MISS McDermott 21' Jump Shot,foul,rebound,0,Low
+21500006,70,rebound,1,PT03M33.00S,03:33,Q1 03:33,0,0,1610612751.0,Hollis-Jefferson,Hollis-Jefferson REBOUND (Off:0 Def:1),2pt missed,turnover,0,Low
+21500006,71,turnover,1,PT03M26.00S,03:26,Q1 03:26,0,0,1610612751.0,Bargnani,Bargnani Lost Ball Turnover (P1.T4),rebound,steal,0,Low
+21500006,71,steal,1,PT03M26.00S,03:26,Q1 03:26,0,0,1610612741.0,Mirotic,Mirotic STEAL (2 STL),turnover,2pt missed,0,Low
+21500006,72,2pt,1,PT03M21.00S,03:21,Q1 03:21,0,0,1610612741.0,Noah,MISS Noah  Cutting Dunk Shot,steal,rebound,0,Low
+21500006,73,rebound,1,PT03M20.00S,03:20,Q1 03:20,0,0,1610612741.0,McDermott,McDermott REBOUND (Off:1 Def:0),2pt missed,turnover,0,Low
+21500006,74,turnover,1,PT03M09.00S,03:09,Q1 03:09,0,0,1610612741.0,McDermott,McDermott Bad Pass Turnover (P1.T3),rebound,steal,0,Low
+21500006,74,steal,1,PT03M09.00S,03:09,Q1 03:09,0,0,1610612751.0,Hollis-Jefferson,Hollis-Jefferson STEAL (1 STL),turnover,2pt missed,0,Low
+21500006,75,2pt,1,PT03M01.00S,03:01,Q1 03:01,0,0,1610612751.0,Sloan,MISS Sloan 19' Jump Shot,steal,rebound,0,Low
+21500006,76,rebound,1,PT03M00.00S,03:00,Q1 03:00,0,0,1610612741.0,Mirotic,Mirotic REBOUND (Off:0 Def:4),2pt missed,2pt made,0,Low
+21500006,77,2pt,1,PT02M45.00S,02:45,Q1 02:45,12,26,1610612741.0,Butler,Butler 15' Fadeaway Jumper (8 PTS) (Noah 1 AST),rebound,3pt missed,14,Low
+21500006,78,3pt,1,PT02M29.00S,02:29,Q1 02:29,0,0,1610612751.0,Bogdanovic,MISS Bogdanovic 24' 3PT Jump Shot,2pt made,rebound,0,Low
+21500006,79,rebound,1,PT02M28.00S,02:28,Q1 02:28,0,0,1610612741.0,Mirotic,Mirotic REBOUND (Off:0 Def:5),3pt missed,2pt made,0,Low
+21500006,80,2pt,1,PT02M18.00S,02:18,Q1 02:18,12,28,1610612741.0,Brooks,Brooks 2' Driving Reverse Layup (2 PTS),rebound,2pt made,16,Low
+21500006,81,2pt,1,PT02M07.00S,02:07,Q1 02:07,14,28,1610612751.0,Bogdanovic,Bogdanovic 10' Turnaround Bank Shot (4 PTS) (Lopez 1 AST),2pt made,foul,14,Low
+21500006,82,foul,1,PT02M07.00S,02:07,Q1 02:07,0,0,1610612741.0,McDermott,McDermott S.FOUL (P1.T1) (N.Buchert),2pt made,timeout,0,Low
+21500006,83,timeout,1,PT02M07.00S,02:07,Q1 02:07,0,0,1610612741.0,,Bulls Timeout: Regular (Reg.1 Short 0),foul,freethrow,0,Low
+21500006,88,freethrow,1,PT02M07.00S,02:07,Q1 02:07,15,28,1610612751.0,Bogdanovic,Bogdanovic Free Throw 1 of 1 (5 PTS),timeout,substitution,13,Low
+21500006,86,substitution,1,PT02M07.00S,02:07,Q1 02:07,0,0,1610612741.0,Mirotic,SUB out: N. Mirotic,freethrow,substitution,0,Low
+21500006,87,substitution,1,PT02M07.00S,02:07,Q1 02:07,0,0,1610612741.0,Gibson,SUB in: T. Gibson,substitution,turnover,0,Low
+21500006,90,turnover,1,PT01M53.00S,01:53,Q1 01:53,0,0,1610612741.0,Butler,Butler Bad Pass Turnover (P1.T4),substitution,steal,0,Low
+21500006,90,steal,1,PT01M53.00S,01:53,Q1 01:53,0,0,1610612751.0,Hollis-Jefferson,Hollis-Jefferson STEAL (2 STL),turnover,2pt made,0,Low
+21500006,91,2pt,1,PT01M39.00S,01:39,Q1 01:39,17,28,1610612751.0,Bargnani,Bargnani 3' Layup (2 PTS) (Lopez 2 AST),steal,turnover,11,Low
+21500006,92,turnover,1,PT01M27.00S,01:27,Q1 01:27,0,0,1610612741.0,McDermott,McDermott Lost Ball Turnover (P2.T5),2pt made,steal,0,Low
+21500006,92,steal,1,PT01M27.00S,01:27,Q1 01:27,0,0,1610612751.0,Sloan,Sloan STEAL (1 STL),turnover,2pt missed,0,Low
+21500006,93,2pt,1,PT01M21.00S,01:21,Q1 01:21,0,0,1610612751.0,Hollis-Jefferson,MISS Hollis-Jefferson 1' Reverse Layup,steal,block,0,Low
+21500006,93,block,1,PT01M21.00S,01:21,Q1 01:21,0,0,1610612741.0,Noah,Noah BLOCK (1 BLK),2pt missed,rebound,0,Low
+21500006,94,rebound,1,PT01M20.00S,01:20,Q1 01:20,0,0,1610612741.0,Noah,Noah REBOUND (Off:0 Def:1),block,2pt missed,0,Low
+21500006,95,2pt,1,PT01M10.00S,01:10,Q1 01:10,0,0,1610612741.0,Noah,MISS Noah 1' Driving Layup,rebound,rebound,0,Low
+21500006,96,rebound,1,PT01M09.00S,01:09,Q1 01:09,0,0,1610612741.0,Gibson,Gibson REBOUND (Off:1 Def:0),2pt missed,2pt missed,0,Low
+21500006,97,2pt,1,PT01M08.00S,01:08,Q1 01:08,0,0,1610612741.0,Gibson,MISS Gibson 2' Putback Layup,rebound,block,0,Low
+21500006,97,block,1,PT01M08.00S,01:08,Q1 01:08,0,0,1610612751.0,Bargnani,Bargnani BLOCK (1 BLK),2pt missed,rebound,0,Low
+21500006,98,rebound,1,PT01M07.00S,01:07,Q1 01:07,0,0,1610612751.0,Bargnani,Bargnani REBOUND (Off:0 Def:1),block,foul,0,Low
+21500006,99,foul,1,PT01M04.00S,01:04,Q1 01:04,0,0,1610612741.0,Brooks,Brooks S.FOUL (P1.T2) (K.Scott),rebound,freethrow,0,Low
+21500006,100,freethrow,1,PT01M04.00S,01:04,Q1 01:04,18,28,1610612751.0,Sloan,Sloan Free Throw 1 of 2 (1 PTS),foul,freethrow,10,Low
+21500006,104,freethrow,1,PT01M04.00S,01:04,Q1 01:04,19,28,1610612751.0,Sloan,Sloan Free Throw 2 of 2 (2 PTS),freethrow,substitution,9,Low
+21500006,102,substitution,1,PT01M04.00S,01:04,Q1 01:04,0,0,1610612741.0,Butler,SUB out: J. Butler,freethrow,substitution,0,Low
+21500006,103,substitution,1,PT01M04.00S,01:04,Q1 01:04,0,0,1610612751.0,Lopez,SUB out: B. Lopez,substitution,substitution,0,Low
+21500006,104,substitution,1,PT01M04.00S,01:04,Q1 01:04,0,0,1610612741.0,Moore,SUB in: E. Moore,substitution,substitution,0,Low
+21500006,105,substitution,1,PT01M04.00S,01:04,Q1 01:04,0,0,1610612751.0,Robinson,SUB in: T. Robinson,substitution,2pt missed,0,Low
+21500006,106,2pt,1,PT00M50.90S,00:50,Q1 00:50,0,0,1610612741.0,McDermott,MISS McDermott 11' Jump Shot,substitution,rebound,0,Low
+21500006,107,rebound,1,PT00M48.90S,00:48,Q1 00:48,0,0,1610612751.0,Robinson,Robinson REBOUND (Off:0 Def:1),2pt missed,2pt missed,0,Low
+21500006,108,2pt,1,PT00M40.90S,00:40,Q1 00:40,0,0,1610612751.0,Sloan,MISS Sloan 2' Driving Layup,rebound,rebound,0,Low
+21500006,109,rebound,1,PT00M38.90S,00:38,Q1 00:38,0,0,1610612741.0,Noah,Noah REBOUND (Off:0 Def:2),2pt missed,3pt missed,0,Low
+21500006,110,3pt,1,PT00M30.80S,00:30,Q1 00:30,0,0,1610612741.0,Brooks,MISS Brooks 25' 3PT Jump Shot,rebound,rebound,0,Low
+21500006,111,rebound,1,PT00M29.90S,00:29,Q1 00:29,0,0,1610612741.0,Noah,Noah REBOUND (Off:1 Def:2),3pt missed,2pt made,0,Low
+21500006,112,2pt,1,PT00M09.40S,00:09,Q1 00:09,19,30,1610612741.0,Brooks,Brooks 19' Fadeaway Jumper (4 PTS),rebound,turnover,11,Low
+21500006,113,turnover,1,PT00M03.10S,00:03,Q1 00:03,0,0,1610612751.0,Bogdanovic,Bogdanovic Out of Bounds Lost Ball Turnover (P1.T5),2pt made,3pt missed,0,Low
+21500006,114,3pt,1,PT00M00.70S,00:00,Q1 00:00,0,0,1610612741.0,Brooks,MISS Brooks 29' 3PT Jump Shot,turnover,rebound,0,Low
+21500006,115,rebound,1,PT00M00.00S,00:00,Q1 00:00,0,0,1610612741.0,,TEAM offensive REBOUND,3pt missed,period,0,Low
+21500006,117,period,1,PT00M00.00S,00:00,Q1 00:00,19,30,1610612751.0,,End of 1st Period (8:07 PM EST),rebound,period,11,Low
+21500006,118,period,2,PT12M00.00S,12:00,Q2 12:00,19,30,1610612751.0,,Start of 2nd Period (8:10 PM EST),period,3pt made,11,Low
+21500006,119,3pt,2,PT11M35.00S,11:35,Q2 11:35,19,33,1610612741.0,Brooks,Brooks 27' 3PT Jump Shot (7 PTS) (McDermott 1 AST),period,turnover,14,Low
+21500006,120,turnover,2,PT11M26.00S,11:26,Q2 11:26,0,0,1610612751.0,Hollis-Jefferson,Hollis-Jefferson Step Out of Bounds Turnover (P1.T6),3pt made,2pt made,0,Low
+21500006,121,2pt,2,PT11M10.00S,11:10,Q2 11:10,19,35,1610612741.0,Moore,Moore 2' Driving Layup (2 PTS) (Brooks 2 AST),turnover,foul,16,Low
+21500006,122,foul,2,PT11M00.00S,11:00,Q2 11:00,0,0,1610612741.0,Brooks,Brooks P.FOUL (P2.T1) (N.Buchert),2pt made,substitution,0,Low
+21500006,123,substitution,2,PT11M00.00S,11:00,Q2 11:00,0,0,1610612751.0,Sloan,SUB out: D. Sloan,foul,substitution,0,Low
+21500006,124,substitution,2,PT11M00.00S,11:00,Q2 11:00,0,0,1610612751.0,Larkin,SUB in: S. Larkin,substitution,2pt made,0,Low
+21500006,124,2pt,2,PT10M52.00S,10:52,Q2 10:52,21,35,1610612751.0,Bargnani,Bargnani 18' Jump Shot (4 PTS) (Robinson 1 AST),substitution,3pt missed,14,Low
+21500006,125,3pt,2,PT10M41.00S,10:41,Q2 10:41,0,0,1610612741.0,McDermott,MISS McDermott 25' 3PT Jump Shot,2pt made,rebound,0,Low
+21500006,126,rebound,2,PT10M40.00S,10:40,Q2 10:40,0,0,1610612751.0,Robinson,Robinson REBOUND (Off:0 Def:2),3pt missed,2pt made,0,Low
+21500006,127,2pt,2,PT10M27.00S,10:27,Q2 10:27,23,35,1610612751.0,Bogdanovic,Bogdanovic 10' Pullup Jump Shot (7 PTS) (Larkin 3 AST),rebound,turnover,12,Low
+21500006,128,turnover,2,PT10M14.00S,10:14,Q2 10:14,0,0,1610612741.0,McDermott,McDermott Bad Pass Turnover (P3.T6),2pt made,steal,0,Low
+21500006,128,steal,2,PT10M14.00S,10:14,Q2 10:14,0,0,1610612751.0,Robinson,Robinson STEAL (1 STL),turnover,2pt made,0,Low
+21500006,129,2pt,2,PT10M10.00S,10:10,Q2 10:10,25,35,1610612751.0,Hollis-Jefferson,Hollis-Jefferson 2' Driving Finger Roll Layup (2 PTS),steal,timeout,10,Low
+21500006,130,timeout,2,PT10M01.00S,10:01,Q2 10:01,0,0,1610612741.0,,Bulls Timeout: Regular (Reg.2 Short 0),2pt made,substitution,0,Low
+21500006,131,substitution,2,PT10M01.00S,10:01,Q2 10:01,0,0,1610612741.0,Brooks,SUB out: A. Brooks,timeout,substitution,0,Low
+21500006,132,substitution,2,PT10M01.00S,10:01,Q2 10:01,0,0,1610612741.0,Noah,SUB out: J. Noah,substitution,substitution,0,Low
+21500006,133,substitution,2,PT10M01.00S,10:01,Q2 10:01,0,0,1610612741.0,McDermott,SUB out: D. McDermott,substitution,substitution,0,Low
+21500006,134,substitution,2,PT10M01.00S,10:01,Q2 10:01,0,0,1610612741.0,Rose,SUB in: D. Rose,substitution,substitution,0,Low
+21500006,135,substitution,2,PT10M01.00S,10:01,Q2 10:01,0,0,1610612741.0,Gasol,SUB in: P. Gasol,substitution,substitution,0,Low
+21500006,136,substitution,2,PT10M01.00S,10:01,Q2 10:01,0,0,1610612741.0,Snell,SUB in: T. Snell,substitution,2pt made,0,Low
+21500006,135,2pt,2,PT09M52.00S,09:52,Q2 09:52,25,37,1610612741.0,Rose,Rose 1' Driving Layup (6 PTS),substitution,2pt made,12,Low
+21500006,136,2pt,2,PT09M34.00S,09:34,Q2 09:34,27,37,1610612751.0,Bargnani,Bargnani 3' Driving Layup (6 PTS) (Bogdanovic 1 AST),2pt made,2pt made,10,Low
+21500006,137,2pt,2,PT09M22.00S,09:22,Q2 09:22,27,39,1610612741.0,Gasol,Gasol 6' Turnaround Hook Shot (6 PTS),2pt made,2pt made,12,Low
+21500006,138,2pt,2,PT09M09.00S,09:09,Q2 09:09,29,39,1610612751.0,Hollis-Jefferson,Hollis-Jefferson 19' Jump Shot (4 PTS) (Robinson 2 AST),2pt made,foul,10,Low
+21500006,139,foul,2,PT08M50.00S,08:50,Q2 08:50,0,0,1610612741.0,Gasol,Gasol OFF.Foul (P1) (K.Scott),2pt made,turnover,0,Low
+21500006,140,turnover,2,PT08M50.00S,08:50,Q2 08:50,0,0,1610612741.0,Gasol,Gasol Foul Turnover (P1.T7),foul,foul,0,Low
+21500006,141,foul,2,PT08M50.00S,08:50,Q2 08:50,0,0,1610612741.0,Snell,Snell P.FOUL (P1.T2) (N.Buchert),turnover,foul,0,Low
+21500006,142,foul,2,PT08M36.00S,08:36,Q2 08:36,0,0,1610612741.0,Snell,Snell P.FOUL (P2.T3) (D.Stafford),foul,substitution,0,Low
+21500006,143,substitution,2,PT08M36.00S,08:36,Q2 08:36,0,0,1610612751.0,Bargnani,SUB out: A. Bargnani,foul,substitution,0,Low
+21500006,144,substitution,2,PT08M36.00S,08:36,Q2 08:36,0,0,1610612751.0,Young,SUB in: T. Young,substitution,2pt made,0,Low
+21500006,144,2pt,2,PT08M29.00S,08:29,Q2 08:29,31,39,1610612751.0,Young,Young 18' Jump Shot (6 PTS) (Larkin 4 AST),substitution,2pt made,8,Low
+21500006,145,2pt,2,PT08M16.00S,08:16,Q2 08:16,31,41,1610612741.0,Moore,Moore 6' Jump Shot (4 PTS),2pt made,2pt missed,10,Low
+21500006,146,2pt,2,PT08M04.00S,08:04,Q2 08:04,0,0,1610612751.0,Young,MISS Young 7' Floating Jump Shot,2pt made,rebound,0,Low
+21500006,147,rebound,2,PT08M03.00S,08:03,Q2 08:03,0,0,1610612751.0,Young,Young REBOUND (Off:1 Def:1),2pt missed,2pt made,0,Low
+21500006,148,2pt,2,PT08M02.00S,08:02,Q2 08:02,33,41,1610612751.0,Young,Young 2' Tip Layup Shot (8 PTS),rebound,substitution,8,Low
+21500006,150,substitution,2,PT07M53.00S,07:53,Q2 07:53,0,0,1610612751.0,Bogdanovic,SUB out: B. Bogdanovic,2pt made,substitution,0,Low
+21500006,151,substitution,2,PT07M53.00S,07:53,Q2 07:53,0,0,1610612741.0,Moore,SUB out: E. Moore,substitution,substitution,0,Low
+21500006,152,substitution,2,PT07M53.00S,07:53,Q2 07:53,0,0,1610612751.0,Johnson,SUB in: J. Johnson,substitution,substitution,0,Low
+21500006,153,substitution,2,PT07M53.00S,07:53,Q2 07:53,0,0,1610612741.0,Butler,SUB in: J. Butler,substitution,3pt made,0,Low
+21500006,152,3pt,2,PT07M49.00S,07:49,Q2 07:49,33,44,1610612741.0,Snell,Snell  3PT Jump Shot (5 PTS) (Rose 3 AST),substitution,2pt made,11,Low
+21500006,153,2pt,2,PT07M30.00S,07:30,Q2 07:30,35,44,1610612751.0,Hollis-Jefferson,Hollis-Jefferson 2' Driving Layup (6 PTS),3pt made,2pt made,9,Low
+21500006,154,2pt,2,PT07M18.00S,07:18,Q2 07:18,35,46,1610612741.0,Gibson,Gibson  Dunk (2 PTS) (Butler 3 AST),2pt made,2pt missed,11,Low
+21500006,155,2pt,2,PT06M58.00S,06:58,Q2 06:58,0,0,1610612751.0,Robinson,MISS Robinson 14' Jump Shot,2pt made,rebound,0,Low
+21500006,157,rebound,2,PT06M57.00S,06:57,Q2 06:57,0,0,1610612741.0,Gasol,Gasol REBOUND (Off:0 Def:3),2pt missed,foul,0,Low
+21500006,158,foul,2,PT06M52.00S,06:52,Q2 06:52,0,0,1610612751.0,Young,Young P.FOUL (P2.T1) (N.Buchert),rebound,turnover,0,Low
+21500006,160,turnover,2,PT06M44.00S,06:44,Q2 06:44,0,0,1610612741.0,Gibson,Gibson Lost Ball Turnover (P1.T8),foul,steal,0,Low
+21500006,160,steal,2,PT06M44.00S,06:44,Q2 06:44,0,0,1610612751.0,Young,Young STEAL (1 STL),turnover,3pt missed,0,Low
+21500006,181,3pt,2,PT06M41.00S,06:41,Q2 06:41,0,0,1610612751.0,Larkin,MISS Larkin  3PT Jump Shot,steal,rebound,0,Low
+21500006,180,rebound,2,PT06M39.00S,06:39,Q2 06:39,0,0,1610612751.0,Robinson,Robinson REBOUND (Off:1 Def:2),3pt missed,2pt made,0,Low
+21500006,162,2pt,2,PT06M38.00S,06:38,Q2 06:38,37,46,1610612751.0,Robinson,Robinson 2' Tip Layup Shot (2 PTS),rebound,turnover,9,Low
+21500006,163,turnover,2,PT06M21.00S,06:21,Q2 06:21,0,0,1610612741.0,Rose,Rose Lost Ball Turnover (P2.T9),2pt made,steal,0,Low
+21500006,163,steal,2,PT06M21.00S,06:21,Q2 06:21,0,0,1610612751.0,Larkin,Larkin STEAL (2 STL),turnover,foul,0,Low
+21500006,164,foul,2,PT06M17.00S,06:17,Q2 06:17,0,0,1610612741.0,Snell,Snell S.FOUL (P3.T4) (N.Buchert),steal,freethrow,0,Low
+21500006,165,freethrow,2,PT06M17.00S,06:17,Q2 06:17,38,46,1610612751.0,Robinson,Robinson Free Throw 1 of 2 (3 PTS),foul,freethrow,8,Low
+21500006,168,freethrow,2,PT06M17.00S,06:17,Q2 06:17,39,46,1610612751.0,Robinson,Robinson Free Throw 2 of 2 (4 PTS),freethrow,substitution,7,Low
+21500006,167,substitution,2,PT06M17.00S,06:17,Q2 06:17,0,0,1610612741.0,Snell,SUB out: T. Snell,freethrow,substitution,0,Low
+21500006,168,substitution,2,PT06M17.00S,06:17,Q2 06:17,0,0,1610612741.0,McDermott,SUB in: D. McDermott,substitution,2pt made,0,Low
+21500006,171,2pt,2,PT05M56.00S,05:56,Q2 05:56,39,48,1610612741.0,Gasol,Gasol 7' Hook Shot (8 PTS),substitution,2pt made,9,Low
+21500006,172,2pt,2,PT05M36.00S,05:36,Q2 05:36,41,48,1610612751.0,Larkin,Larkin 2' Driving Layup (2 PTS),2pt made,2pt missed,7,Low
+21500006,173,2pt,2,PT05M17.00S,05:17,Q2 05:17,0,0,1610612741.0,Gibson,MISS Gibson 3' Layup,2pt made,block,0,Low
+21500006,173,block,2,PT05M17.00S,05:17,Q2 05:17,0,0,1610612751.0,Hollis-Jefferson,Hollis-Jefferson BLOCK (1 BLK),2pt missed,rebound,0,Low
+21500006,174,rebound,2,PT05M15.00S,05:15,Q2 05:15,0,0,1610612751.0,Hollis-Jefferson,Hollis-Jefferson REBOUND (Off:0 Def:2),block,2pt missed,0,Low
+21500006,175,2pt,2,PT04M58.00S,04:58,Q2 04:58,0,0,1610612751.0,Johnson,MISS Johnson 13' Step Back Jump Shot,rebound,rebound,0,Low
+21500006,176,rebound,2,PT04M56.00S,04:56,Q2 04:56,0,0,1610612741.0,Butler,Butler REBOUND (Off:0 Def:1),2pt missed,2pt made,0,Low
+21500006,177,2pt,2,PT04M44.00S,04:44,Q2 04:44,41,50,1610612741.0,Gasol,Gasol 19' Jump Shot (10 PTS),rebound,timeout,9,Low
+21500006,178,timeout,2,PT04M42.00S,04:42,Q2 04:42,0,0,1610612751.0,,NETS Timeout: Regular (Full 2 Short 1),2pt made,substitution,0,Low
+21500006,182,substitution,2,PT04M42.00S,04:42,Q2 04:42,0,0,1610612741.0,Gibson,SUB out: T. Gibson,timeout,substitution,0,Low
+21500006,183,substitution,2,PT04M42.00S,04:42,Q2 04:42,0,0,1610612751.0,Robinson,SUB out: T. Robinson,substitution,substitution,0,Low
+21500006,184,substitution,2,PT04M42.00S,04:42,Q2 04:42,0,0,1610612741.0,Mirotic,SUB in: N. Mirotic,substitution,substitution,0,Low
+21500006,185,substitution,2,PT04M42.00S,04:42,Q2 04:42,0,0,1610612751.0,Lopez,SUB in: B. Lopez,substitution,2pt made,0,Low
+21500006,187,2pt,2,PT04M28.00S,04:28,Q2 04:28,43,50,1610612751.0,Lopez,Lopez 19' Jump Shot (6 PTS) (Johnson 1 AST),substitution,3pt missed,7,Low
+21500006,189,3pt,2,PT04M11.00S,04:11,Q2 04:11,0,0,1610612741.0,Mirotic,MISS Mirotic 29' 3PT Jump Shot,2pt made,rebound,0,Low
+21500006,190,rebound,2,PT04M10.00S,04:10,Q2 04:10,0,0,1610612751.0,Hollis-Jefferson,Hollis-Jefferson REBOUND (Off:0 Def:3),3pt missed,2pt made,0,Low
+21500006,191,2pt,2,PT04M02.00S,04:02,Q2 04:02,45,50,1610612751.0,Johnson,Johnson 7' Running Jump Shot (4 PTS) (Larkin 5 AST),rebound,turnover,5,Low
+21500006,192,turnover,2,PT03M48.00S,03:48,Q2 03:48,0,0,1610612741.0,Gasol,Gasol Out of Bounds - Bad Pass Turnover Turnover (P2.T10),2pt made,2pt made,0,Low
+21500006,193,2pt,2,PT03M37.00S,03:37,Q2 03:37,47,50,1610612751.0,Lopez,Lopez 18' Jump Shot (8 PTS) (Larkin 6 AST),turnover,foul,3,Low
+21500006,194,foul,2,PT03M23.00S,03:23,Q2 03:23,0,0,1610612751.0,Larkin,Larkin S.FOUL (P2.T2) (K.Scott),2pt made,freethrow,0,Low
+21500006,195,freethrow,2,PT03M23.00S,03:23,Q2 03:23,47,51,1610612741.0,Rose,Rose Free Throw 1 of 2 (7 PTS),foul,freethrow,4,Low
+21500006,198,freethrow,2,PT03M23.00S,03:23,Q2 03:23,47,52,1610612741.0,Rose,Rose Free Throw 2 of 2 (8 PTS),freethrow,substitution,5,Low
+21500006,197,substitution,2,PT03M23.00S,03:23,Q2 03:23,0,0,1610612751.0,Larkin,SUB out: S. Larkin,freethrow,substitution,0,Low
+21500006,198,substitution,2,PT03M23.00S,03:23,Q2 03:23,0,0,1610612751.0,Brown,SUB in: M. Brown,substitution,2pt made,0,Low
+21500006,200,2pt,2,PT03M09.00S,03:09,Q2 03:09,49,52,1610612751.0,Young,Young 20' Jump Shot (10 PTS) (Johnson 2 AST),substitution,turnover,3,Low
+21500006,201,turnover,2,PT02M52.00S,02:52,Q2 02:52,0,0,1610612741.0,Mirotic,Mirotic Out of Bounds - Bad Pass Turnover Turnover (P1.T11),2pt made,timeout,0,Low
+21500006,202,timeout,2,PT02M52.00S,02:52,Q2 02:52,0,0,0.0,,Timeout: Official,turnover,2pt missed,0,Low
+21500006,205,2pt,2,PT02M37.00S,02:37,Q2 02:37,0,0,1610612751.0,Johnson,MISS Johnson 7' Jump Shot,timeout,rebound,0,Low
+21500006,206,rebound,2,PT02M36.00S,02:36,Q2 02:36,0,0,1610612751.0,Young,Young REBOUND (Off:2 Def:1),2pt missed,2pt missed,0,Low
+21500006,207,2pt,2,PT02M35.00S,02:35,Q2 02:35,0,0,1610612751.0,Young,MISS Young 1' Tip Layup Shot,rebound,rebound,0,Low
+21500006,208,rebound,2,PT02M34.00S,02:34,Q2 02:34,0,0,1610612741.0,,TEAM defensive REBOUND,2pt missed,2pt made,0,Low
+21500006,209,2pt,2,PT02M18.00S,02:18,Q2 02:18,49,54,1610612741.0,Gasol,Gasol 19' Jump Shot (12 PTS),rebound,2pt made,5,Low
+21500006,210,2pt,2,PT02M04.00S,02:04,Q2 02:04,51,54,1610612751.0,Lopez,Lopez 7' Floating Jump Shot (10 PTS) (Johnson 3 AST),2pt made,foul,3,Low
+21500006,211,foul,2,PT02M04.00S,02:04,Q2 02:04,0,0,1610612741.0,McDermott,McDermott S.FOUL (P2.PN) (K.Scott),2pt made,freethrow,0,Low
+21500006,213,freethrow,2,PT02M04.00S,02:04,Q2 02:04,0,0,1610612751.0,Lopez,MISS Lopez Free Throw 1 of 1,foul,substitution,0,Low
+21500006,212,substitution,2,PT02M04.00S,02:04,Q2 02:04,0,0,1610612741.0,McDermott,SUB out: D. McDermott,freethrow,substitution,0,Low
+21500006,213,substitution,2,PT02M04.00S,02:04,Q2 02:04,0,0,1610612741.0,Moore,SUB in: E. Moore,substitution,rebound,0,Low
+21500006,215,rebound,2,PT02M03.00S,02:03,Q2 02:03,0,0,1610612741.0,Mirotic,Mirotic REBOUND (Off:0 Def:6),substitution,2pt missed,0,Low
+21500006,216,2pt,2,PT01M44.00S,01:44,Q2 01:44,0,0,1610612741.0,Gasol,MISS Gasol 19' Jump Shot,rebound,rebound,0,Low
+21500006,217,rebound,2,PT01M43.00S,01:43,Q2 01:43,0,0,1610612751.0,Lopez,Lopez REBOUND (Off:0 Def:1),2pt missed,2pt made,0,Low
+21500006,218,2pt,2,PT01M35.00S,01:35,Q2 01:35,53,54,1610612751.0,Lopez,Lopez 20' Jump Shot (12 PTS) (Brown 1 AST),rebound,foul,1,Low
+21500006,219,foul,2,PT01M23.00S,01:23,Q2 01:23,0,0,1610612751.0,Johnson,Johnson P.FOUL (P1.T3) (D.Stafford),2pt made,substitution,0,Low
+21500006,220,substitution,2,PT01M23.00S,01:23,Q2 01:23,0,0,1610612741.0,Gasol,SUB out: P. Gasol,foul,substitution,0,Low
+21500006,221,substitution,2,PT01M23.00S,01:23,Q2 01:23,0,0,1610612751.0,Young,SUB out: T. Young,substitution,substitution,0,Low
+21500006,222,substitution,2,PT01M23.00S,01:23,Q2 01:23,0,0,1610612741.0,Noah,SUB in: J. Noah,substitution,substitution,0,Low
+21500006,223,substitution,2,PT01M23.00S,01:23,Q2 01:23,0,0,1610612751.0,Bogdanovic,SUB in: B. Bogdanovic,substitution,2pt missed,0,Low
+21500006,222,2pt,2,PT01M08.00S,01:08,Q2 01:08,0,0,1610612741.0,Mirotic,MISS Mirotic 20' Jump Shot,substitution,rebound,0,Low
+21500006,223,rebound,2,PT01M07.00S,01:07,Q2 01:07,0,0,1610612741.0,Butler,Butler REBOUND (Off:1 Def:1),2pt missed,2pt made,0,Low
+21500006,224,2pt,2,PT01M06.00S,01:06,Q2 01:06,53,56,1610612741.0,Butler,Butler 2' Tip Layup Shot (10 PTS),rebound,foul,3,Low
+21500006,225,foul,2,PT00M48.70S,00:48,Q2 00:48,0,0,1610612741.0,Noah,Noah P.FOUL (P1.PN) (N.Buchert),2pt made,freethrow,0,Low
+21500006,226,freethrow,2,PT00M48.70S,00:48,Q2 00:48,54,56,1610612751.0,Lopez,Lopez Free Throw 1 of 2 (13 PTS),foul,freethrow,2,Low
+21500006,228,freethrow,2,PT00M48.70S,00:48,Q2 00:48,55,56,1610612751.0,Lopez,Lopez Free Throw 2 of 2 (14 PTS),freethrow,foul,1,Low
+21500006,230,foul,2,PT00M37.20S,00:37,Q2 00:37,0,0,1610612751.0,Johnson,Johnson P.FOUL (P2.PN) (D.Stafford),freethrow,freethrow,0,Low
+21500006,231,freethrow,2,PT00M37.20S,00:37,Q2 00:37,55,57,1610612741.0,Butler,Butler Free Throw 1 of 2 (11 PTS),foul,freethrow,2,Low
+21500006,234,freethrow,2,PT00M37.20S,00:37,Q2 00:37,55,58,1610612741.0,Butler,Butler Free Throw 2 of 2 (12 PTS),freethrow,substitution,3,Low
+21500006,233,substitution,2,PT00M37.20S,00:37,Q2 00:37,0,0,1610612751.0,Hollis-Jefferson,SUB out: R. Hollis-Jefferson,freethrow,substitution,0,Low
+21500006,234,substitution,2,PT00M37.20S,00:37,Q2 00:37,0,0,1610612751.0,Ellington,SUB in: W. Ellington,substitution,2pt missed,0,Low
+21500006,236,2pt,2,PT00M28.90S,00:28,Q2 00:28,0,0,1610612751.0,Brown,MISS Brown 23' Jump Shot,substitution,rebound,0,Low
+21500006,237,rebound,2,PT00M27.80S,00:27,Q2 00:27,0,0,1610612741.0,Butler,Butler REBOUND (Off:1 Def:2),2pt missed,3pt missed,0,Low
+21500006,238,3pt,2,PT00M07.90S,00:07,Q2 00:07,0,0,1610612741.0,Moore,MISS Moore 24' 3PT Jump Shot,rebound,block,0,Low
+21500006,238,block,2,PT00M07.90S,00:07,Q2 00:07,0,0,1610612751.0,Ellington,Ellington BLOCK (1 BLK),3pt missed,rebound,0,Low
+21500006,239,rebound,2,PT00M06.70S,00:06,Q2 00:06,0,0,1610612751.0,Brown,Brown REBOUND (Off:0 Def:1),block,turnover,0,Low
+21500006,240,turnover,2,PT00M03.10S,00:03,Q2 00:03,0,0,1610612751.0,Bogdanovic,Bogdanovic Lost Ball Turnover (P2.T7),rebound,steal,0,Low
+21500006,240,steal,2,PT00M03.10S,00:03,Q2 00:03,0,0,1610612741.0,Butler,Butler STEAL (1 STL),turnover,3pt missed,0,Low
+21500006,241,3pt,2,PT00M00.70S,00:00,Q2 00:00,0,0,1610612741.0,Mirotic,MISS Mirotic 35' 3PT Jump Shot,steal,rebound,0,Low
+21500006,242,rebound,2,PT00M00.00S,00:00,Q2 00:00,0,0,1610612741.0,,TEAM offensive REBOUND,3pt missed,period,0,Low
+21500006,243,period,2,PT00M00.00S,00:00,Q2 00:00,55,58,1610612751.0,,End of 2nd Period (8:39 PM EST),rebound,period,3,Low
+21500006,244,period,3,PT12M00.00S,12:00,Q3 12:00,55,58,1610612751.0,,Start of 3rd Period (8:54 PM EST),period,substitution,3,Low
+21500006,245,2pt,3,PT11M42.00S,11:42,Q3 11:42,0,0,1610612741.0,Butler,MISS Butler 17' Jump Shot,substitution,rebound,0,Low
+21500006,246,rebound,3,PT11M40.00S,11:40,Q3 11:40,0,0,1610612751.0,Lopez,Lopez REBOUND (Off:0 Def:2),2pt missed,turnover,0,Low
+21500006,247,turnover,3,PT11M25.00S,11:25,Q3 11:25,0,0,1610612751.0,Lopez,Lopez Lost Ball Turnover (P2.T8),rebound,steal,0,Low
+21500006,247,steal,3,PT11M25.00S,11:25,Q3 11:25,0,0,1610612741.0,Butler,Butler STEAL (2 STL),turnover,2pt made,0,Low
+21500006,248,2pt,3,PT11M21.00S,11:21,Q3 11:21,55,60,1610612741.0,Butler,Butler  Running Dunk (14 PTS),steal,3pt missed,5,Low
+21500006,249,3pt,3,PT11M03.00S,11:03,Q3 11:03,0,0,1610612751.0,Johnson,MISS Johnson 25' 3PT Jump Shot,2pt made,rebound,0,Low
+21500006,250,rebound,3,PT11M02.00S,11:02,Q3 11:02,0,0,1610612741.0,Gasol,Gasol REBOUND (Off:0 Def:4),3pt missed,2pt missed,0,Low
+21500006,251,2pt,3,PT10M48.00S,10:48,Q3 10:48,0,0,1610612741.0,Gasol,MISS Gasol 18' Jump Shot,rebound,rebound,0,Low
+21500006,252,rebound,3,PT10M47.00S,10:47,Q3 10:47,0,0,1610612751.0,Ellington,Ellington REBOUND (Off:0 Def:2),2pt missed,2pt missed,0,Low
+21500006,253,2pt,3,PT10M39.00S,10:39,Q3 10:39,0,0,1610612751.0,Ellington,MISS Ellington 2' Driving Layup,rebound,rebound,0,Low
+21500006,254,rebound,3,PT10M37.00S,10:37,Q3 10:37,0,0,1610612741.0,Gasol,Gasol REBOUND (Off:0 Def:5),2pt missed,3pt missed,0,Low
+21500006,255,3pt,3,PT10M27.00S,10:27,Q3 10:27,0,0,1610612741.0,Snell,MISS Snell 26' 3PT Jump Shot,rebound,rebound,0,Low
+21500006,256,rebound,3,PT10M26.00S,10:26,Q3 10:26,0,0,1610612751.0,Johnson,Johnson REBOUND (Off:0 Def:3),3pt missed,2pt missed,0,Low
+21500006,258,2pt,3,PT10M12.00S,10:12,Q3 10:12,0,0,1610612751.0,Johnson,MISS Johnson 5' Jump Shot,rebound,block,0,Low
+21500006,258,block,3,PT10M12.00S,10:12,Q3 10:12,0,0,1610612741.0,Mirotic,Mirotic BLOCK (1 BLK),2pt missed,rebound,0,Low
+21500006,269,rebound,3,PT10M11.00S,10:11,Q3 10:11,0,0,1610612751.0,Johnson,Johnson REBOUND (Off:1 Def:3),block,2pt missed,0,Low
+21500006,268,2pt,3,PT10M10.00S,10:10,Q3 10:10,0,0,1610612751.0,Johnson,MISS Johnson 1' Tip Layup Shot,rebound,rebound,0,Low
+21500006,259,rebound,3,PT10M09.00S,10:09,Q3 10:09,0,0,1610612751.0,,TEAM offensive REBOUND,2pt missed,turnover,0,Low
+21500006,260,turnover,3,PT10M08.00S,10:08,Q3 10:08,0,0,1610612751.0,Larkin,Larkin Out of Bounds Lost Ball Turnover (P1.T9),rebound,2pt missed,0,Low
+21500006,261,2pt,3,PT09M57.00S,09:57,Q3 09:57,0,0,1610612741.0,Rose,MISS Rose 2' Driving Layup,turnover,rebound,0,Low
+21500006,262,rebound,3,PT09M55.00S,09:55,Q3 09:55,0,0,1610612751.0,Johnson,Johnson REBOUND (Off:1 Def:4),2pt missed,3pt missed,0,Low
+21500006,263,3pt,3,PT09M47.00S,09:47,Q3 09:47,0,0,1610612751.0,Larkin,MISS Larkin 24' 3PT Jump Shot,rebound,rebound,0,Low
+21500006,264,rebound,3,PT09M46.00S,09:46,Q3 09:46,0,0,1610612741.0,Snell,Snell REBOUND (Off:0 Def:2),3pt missed,2pt made,0,Low
+21500006,265,2pt,3,PT09M34.00S,09:34,Q3 09:34,55,62,1610612741.0,Snell,Snell 5' Hook Bank Shot (7 PTS) (Mirotic 1 AST),rebound,2pt made,7,Low
+21500006,267,2pt,3,PT09M15.00S,09:15,Q3 09:15,57,62,1610612751.0,Larkin,Larkin 8' Floating Jump Shot (4 PTS),2pt made,foul,5,Low
+21500006,270,foul,3,PT08M57.00S,08:57,Q3 08:57,0,0,1610612751.0,Johnson,Johnson P.FOUL (P3.T1) (N.Buchert),2pt made,foul,0,Low
+21500006,271,foul,3,PT08M55.00S,08:55,Q3 08:55,0,0,1610612751.0,Lopez,Lopez P.FOUL (P1.T2) (D.Stafford),foul,2pt made,0,Low
+21500006,272,2pt,3,PT08M49.00S,08:49,Q3 08:49,57,64,1610612741.0,Rose,Rose 2' Driving Layup (10 PTS) (Gasol 2 AST),foul,foul,7,Low
+21500006,273,foul,3,PT08M49.00S,08:49,Q3 08:49,0,0,1610612751.0,Larkin,Larkin S.FOUL (P3.T3) (N.Buchert),2pt made,freethrow,0,Low
+21500006,274,freethrow,3,PT08M49.00S,08:49,Q3 08:49,57,65,1610612741.0,Rose,Rose Free Throw 1 of 1 (11 PTS),foul,2pt missed,8,Low
+21500006,276,2pt,3,PT08M39.00S,08:39,Q3 08:39,0,0,1610612751.0,Larkin,MISS Larkin 18' Jump Shot,freethrow,rebound,0,Low
+21500006,277,rebound,3,PT08M39.00S,08:39,Q3 08:39,0,0,1610612741.0,,TEAM defensive REBOUND,2pt missed,3pt made,0,Low
+21500006,278,3pt,3,PT08M25.00S,08:25,Q3 08:25,57,68,1610612741.0,Snell,Snell 26' 3PT Jump Shot (10 PTS) (Butler 4 AST),rebound,timeout,11,Low
+21500006,279,timeout,3,PT08M21.00S,08:21,Q3 08:21,0,0,1610612751.0,,NETS Timeout: Regular (Full 3 Short 1),3pt made,substitution,0,Low
+21500006,282,substitution,3,PT08M21.00S,08:21,Q3 08:21,0,0,1610612751.0,Larkin,SUB out: S. Larkin,timeout,substitution,0,Low
+21500006,283,substitution,3,PT08M21.00S,08:21,Q3 08:21,0,0,1610612751.0,Sloan,SUB in: D. Sloan,substitution,2pt made,0,Low
+21500006,284,2pt,3,PT08M03.00S,08:03,Q3 08:03,59,68,1610612751.0,Young,Young 5' Turnaround Hook Shot (12 PTS),substitution,2pt missed,9,Low
+21500006,285,2pt,3,PT07M44.00S,07:44,Q3 07:44,0,0,1610612741.0,Rose,MISS Rose 7' Jump Shot,2pt made,rebound,0,Low
+21500006,286,rebound,3,PT07M43.00S,07:43,Q3 07:43,0,0,1610612751.0,Lopez,Lopez REBOUND (Off:0 Def:3),2pt missed,foul,0,Low
+21500006,287,foul,3,PT07M40.00S,07:40,Q3 07:40,0,0,1610612741.0,Rose,Rose P.FOUL (P1.T1) (N.Buchert),rebound,foul,0,Low
+21500006,288,foul,3,PT07M40.00S,07:40,Q3 07:40,0,0,1610612741.0,Rose,Rose T.FOUL (P1.T1) (N.Buchert),foul,freethrow,0,Low
+21500006,289,freethrow,3,PT07M40.00S,07:40,Q3 07:40,60,68,1610612751.0,Johnson,Johnson Free Throw Technical (5 PTS),foul,2pt missed,8,Low
+21500006,291,2pt,3,PT07M31.00S,07:31,Q3 07:31,0,0,1610612751.0,Lopez,MISS Lopez 8' Jump Shot,freethrow,rebound,0,Low
+21500006,292,rebound,3,PT07M30.00S,07:30,Q3 07:30,0,0,1610612741.0,Mirotic,Mirotic REBOUND (Off:0 Def:7),2pt missed,foul,0,Low
+21500006,293,foul,3,PT07M25.00S,07:25,Q3 07:25,0,0,1610612751.0,Sloan,Sloan S.FOUL (P1.T4) (D.Stafford),rebound,freethrow,0,Low
+21500006,294,freethrow,3,PT07M25.00S,07:25,Q3 07:25,60,69,1610612741.0,Rose,Rose Free Throw 1 of 2 (12 PTS),foul,freethrow,9,Low
+21500006,296,freethrow,3,PT07M25.00S,07:25,Q3 07:25,60,70,1610612741.0,Rose,Rose Free Throw 2 of 2 (13 PTS),freethrow,2pt missed,10,Low
+21500006,298,2pt,3,PT07M11.00S,07:11,Q3 07:11,0,0,1610612751.0,Ellington,MISS Ellington 2' Driving Reverse Layup,freethrow,rebound,0,Low
+21500006,299,rebound,3,PT07M10.00S,07:10,Q3 07:10,0,0,1610612741.0,Gasol,Gasol REBOUND (Off:0 Def:6),2pt missed,2pt missed,0,Low
+21500006,300,2pt,3,PT06M57.00S,06:57,Q3 06:57,0,0,1610612741.0,Butler,MISS Butler 11' Turnaround Fadeaway Shot,rebound,rebound,0,Low
+21500006,301,rebound,3,PT06M55.00S,06:55,Q3 06:55,0,0,1610612751.0,Young,Young REBOUND (Off:2 Def:2),2pt missed,2pt missed,0,Low
+21500006,302,2pt,3,PT06M47.00S,06:47,Q3 06:47,0,0,1610612751.0,Lopez,MISS Lopez 11' Running Pull-Up Jump Shot,rebound,rebound,0,Low
+21500006,303,rebound,3,PT06M46.00S,06:46,Q3 06:46,0,0,1610612741.0,Snell,Snell REBOUND (Off:0 Def:3),2pt missed,3pt missed,0,Low
+21500006,304,3pt,3,PT06M38.00S,06:38,Q3 06:38,0,0,1610612741.0,Mirotic,MISS Mirotic 25' 3PT Jump Shot,rebound,rebound,0,Low
+21500006,305,rebound,3,PT06M36.00S,06:36,Q3 06:36,0,0,1610612751.0,Johnson,Johnson REBOUND (Off:1 Def:5),3pt missed,foul,0,Low
+21500006,306,foul,3,PT06M27.00S,06:27,Q3 06:27,0,0,1610612741.0,Mirotic,Mirotic S.FOUL (P1.T2) (D.Stafford),rebound,freethrow,0,Low
+21500006,307,freethrow,3,PT06M27.00S,06:27,Q3 06:27,61,70,1610612751.0,Johnson,Johnson Free Throw 1 of 2 (6 PTS),foul,freethrow,9,Low
+21500006,310,freethrow,3,PT06M27.00S,06:27,Q3 06:27,0,0,1610612751.0,Johnson,MISS Johnson Free Throw 2 of 2,freethrow,substitution,0,Low
+21500006,309,substitution,3,PT06M27.00S,06:27,Q3 06:27,0,0,1610612751.0,Ellington,SUB out: W. Ellington,freethrow,substitution,0,Low
+21500006,310,substitution,3,PT06M27.00S,06:27,Q3 06:27,0,0,1610612751.0,Bogdanovic,SUB in: B. Bogdanovic,substitution,rebound,0,Low
+21500006,312,rebound,3,PT06M26.00S,06:26,Q3 06:26,0,0,1610612741.0,Mirotic,Mirotic REBOUND (Off:0 Def:8),substitution,foul,0,Low
+21500006,313,foul,3,PT06M07.00S,06:07,Q3 06:07,0,0,1610612751.0,Lopez,Lopez S.FOUL (P2.PN) (K.Scott),rebound,freethrow,0,Low
+21500006,314,freethrow,3,PT06M07.00S,06:07,Q3 06:07,61,71,1610612741.0,Gasol,Gasol Free Throw 1 of 2 (13 PTS),foul,freethrow,10,Low
+21500006,316,freethrow,3,PT06M07.00S,06:07,Q3 06:07,61,72,1610612741.0,Gasol,Gasol Free Throw 2 of 2 (14 PTS),freethrow,2pt missed,11,Low
+21500006,318,2pt,3,PT05M50.00S,05:50,Q3 05:50,0,0,1610612751.0,Johnson,MISS Johnson 4' Floating Jump Shot,freethrow,rebound,0,Low
+21500006,319,rebound,3,PT05M49.00S,05:49,Q3 05:49,0,0,1610612751.0,Johnson,Johnson REBOUND (Off:2 Def:5),2pt missed,2pt missed,0,Low
+21500006,320,2pt,3,PT05M48.00S,05:48,Q3 05:48,0,0,1610612751.0,Johnson,MISS Johnson 2' Tip Layup Shot,rebound,rebound,0,Low
+21500006,321,rebound,3,PT05M47.00S,05:47,Q3 05:47,0,0,1610612751.0,Johnson,Johnson REBOUND (Off:3 Def:5),2pt missed,2pt made,0,Low
+21500006,322,2pt,3,PT05M46.00S,05:46,Q3 05:46,63,72,1610612751.0,Johnson,Johnson 1' Putback Layup (8 PTS),rebound,turnover,9,Low
+21500006,323,turnover,3,PT05M32.00S,05:32,Q3 05:32,0,0,1610612741.0,Gasol,Gasol Out of Bounds Lost Ball Turnover (P3.T12),2pt made,2pt missed,0,Low
+21500006,324,2pt,3,PT05M21.00S,05:21,Q3 05:21,0,0,1610612751.0,Young,MISS Young 20' Jump Shot,turnover,rebound,0,Low
+21500006,325,rebound,3,PT05M20.00S,05:20,Q3 05:20,0,0,1610612741.0,Rose,Rose REBOUND (Off:0 Def:2),2pt missed,2pt missed,0,Low
+21500006,326,2pt,3,PT05M14.00S,05:14,Q3 05:14,0,0,1610612741.0,Rose,MISS Rose 2' Driving Finger Roll Layup,rebound,rebound,0,Low
+21500006,327,rebound,3,PT05M12.00S,05:12,Q3 05:12,0,0,1610612751.0,Sloan,Sloan REBOUND (Off:0 Def:1),2pt missed,2pt missed,0,Low
+21500006,328,2pt,3,PT05M05.00S,05:05,Q3 05:05,0,0,1610612751.0,Lopez,MISS Lopez 5' Pullup Jump Shot,rebound,rebound,0,Low
+21500006,329,rebound,3,PT05M04.00S,05:04,Q3 05:04,0,0,1610612751.0,Young,Young REBOUND (Off:3 Def:2),2pt missed,2pt missed,0,Low
+21500006,330,2pt,3,PT05M03.00S,05:03,Q3 05:03,0,0,1610612751.0,Young,MISS Young 3' Tip Layup Shot,rebound,rebound,0,Low
+21500006,331,rebound,3,PT05M02.00S,05:02,Q3 05:02,0,0,1610612751.0,Lopez,Lopez REBOUND (Off:1 Def:3),2pt missed,2pt missed,0,Low
+21500006,332,2pt,3,PT05M01.00S,05:01,Q3 05:01,0,0,1610612751.0,Lopez,MISS Lopez 2' Putback Layup,rebound,block,0,Low
+21500006,332,block,3,PT05M01.00S,05:01,Q3 05:01,0,0,1610612741.0,Gasol,Gasol BLOCK (1 BLK),2pt missed,rebound,0,Low
+21500006,333,rebound,3,PT05M00.00S,05:00,Q3 05:00,0,0,1610612741.0,Snell,Snell REBOUND (Off:0 Def:4),block,foul,0,Low
+21500006,334,foul,3,PT04M56.00S,04:56,Q3 04:56,0,0,1610612751.0,Young,Young P.FOUL (P3.PN) (N.Buchert),rebound,freethrow,0,Low
+21500006,335,freethrow,3,PT04M56.00S,04:56,Q3 04:56,63,73,1610612741.0,Mirotic,Mirotic Free Throw 1 of 2 (6 PTS),foul,freethrow,10,Low
+21500006,340,freethrow,3,PT04M56.00S,04:56,Q3 04:56,63,74,1610612741.0,Mirotic,Mirotic Free Throw 2 of 2 (7 PTS),freethrow,substitution,11,Low
+21500006,337,substitution,3,PT04M56.00S,04:56,Q3 04:56,0,0,1610612751.0,Young,SUB out: T. Young,freethrow,substitution,0,Low
+21500006,338,substitution,3,PT04M56.00S,04:56,Q3 04:56,0,0,1610612741.0,Rose,SUB out: D. Rose,substitution,substitution,0,Low
+21500006,339,substitution,3,PT04M56.00S,04:56,Q3 04:56,0,0,1610612741.0,Snell,SUB out: T. Snell,substitution,substitution,0,Low
+21500006,340,substitution,3,PT04M56.00S,04:56,Q3 04:56,0,0,1610612751.0,Bargnani,SUB in: A. Bargnani,substitution,substitution,0,Low
+21500006,341,substitution,3,PT04M56.00S,04:56,Q3 04:56,0,0,1610612741.0,Brooks,SUB in: A. Brooks,substitution,substitution,0,Low
+21500006,342,substitution,3,PT04M56.00S,04:56,Q3 04:56,0,0,1610612741.0,Moore,SUB in: E. Moore,substitution,2pt missed,0,Low
+21500006,342,2pt,3,PT04M46.00S,04:46,Q3 04:46,0,0,1610612751.0,Sloan,MISS Sloan 2' Driving Layup,substitution,rebound,0,Low
+21500006,343,rebound,3,PT04M45.00S,04:45,Q3 04:45,0,0,1610612751.0,Sloan,Sloan REBOUND (Off:1 Def:1),2pt missed,3pt missed,0,Low
+21500006,344,3pt,3,PT04M39.00S,04:39,Q3 04:39,0,0,1610612751.0,Johnson,MISS Johnson 27' 3PT Jump Shot,rebound,rebound,0,Low
+21500006,345,rebound,3,PT04M38.00S,04:38,Q3 04:38,0,0,1610612741.0,Gasol,Gasol REBOUND (Off:0 Def:7),3pt missed,2pt made,0,Low
+21500006,346,2pt,3,PT04M29.00S,04:29,Q3 04:29,63,76,1610612741.0,Brooks,Brooks 4' Running Layup (9 PTS),rebound,2pt missed,13,Low
+21500006,347,2pt,3,PT04M17.00S,04:17,Q3 04:17,0,0,1610612751.0,Johnson,MISS Johnson 6' Running Jump Shot,2pt made,rebound,0,Low
+21500006,348,rebound,3,PT04M16.00S,04:16,Q3 04:16,0,0,1610612741.0,Gasol,Gasol REBOUND (Off:0 Def:8),2pt missed,3pt made,0,Low
+21500006,349,3pt,3,PT04M02.00S,04:02,Q3 04:02,63,79,1610612741.0,Mirotic,Mirotic 27' 3PT Jump Shot (10 PTS),rebound,2pt missed,16,Low
+21500006,350,2pt,3,PT03M45.00S,03:45,Q3 03:45,0,0,1610612751.0,Lopez,MISS Lopez 13' Jump Shot,3pt made,rebound,0,Low
+21500006,351,rebound,3,PT03M44.00S,03:44,Q3 03:44,0,0,1610612741.0,,TEAM defensive REBOUND,2pt missed,foul,0,Low
+21500006,352,foul,3,PT03M44.00S,03:44,Q3 03:44,0,0,1610612751.0,Bargnani,Bargnani L.B.FOUL (P2.PN) (D.Stafford),rebound,freethrow,0,Low
+21500006,353,freethrow,3,PT03M44.00S,03:44,Q3 03:44,63,80,1610612741.0,Mirotic,Mirotic Free Throw 1 of 2 (11 PTS),foul,freethrow,17,Low
+21500006,357,freethrow,3,PT03M44.00S,03:44,Q3 03:44,63,81,1610612741.0,Mirotic,Mirotic Free Throw 2 of 2 (12 PTS),freethrow,substitution,18,Low
+21500006,355,substitution,3,PT03M44.00S,03:44,Q3 03:44,0,0,1610612741.0,Gasol,SUB out: P. Gasol,freethrow,substitution,0,Low
+21500006,356,substitution,3,PT03M44.00S,03:44,Q3 03:44,0,0,1610612741.0,Butler,SUB out: J. Butler,substitution,substitution,0,Low
+21500006,357,substitution,3,PT03M44.00S,03:44,Q3 03:44,0,0,1610612741.0,Noah,SUB in: J. Noah,substitution,substitution,0,Low
+21500006,358,substitution,3,PT03M44.00S,03:44,Q3 03:44,0,0,1610612741.0,McDermott,SUB in: D. McDermott,substitution,2pt missed,0,Low
+21500006,358,2pt,3,PT03M23.00S,03:23,Q3 03:23,0,0,1610612751.0,Sloan,MISS Sloan 2' Driving Layup,substitution,rebound,0,Low
+21500006,359,rebound,3,PT03M22.00S,03:22,Q3 03:22,0,0,1610612751.0,Bargnani,Bargnani REBOUND (Off:1 Def:1),2pt missed,2pt missed,0,Low
+21500006,360,2pt,3,PT03M21.00S,03:21,Q3 03:21,0,0,1610612751.0,Bargnani,MISS Bargnani  Tip Layup Shot,rebound,rebound,0,Low
+21500006,361,rebound,3,PT03M20.00S,03:20,Q3 03:20,0,0,1610612751.0,Lopez,Lopez REBOUND (Off:2 Def:3),2pt missed,2pt made,0,Low
+21500006,362,2pt,3,PT03M18.00S,03:18,Q3 03:18,65,81,1610612751.0,Lopez,Lopez 3' Tip Layup Shot (16 PTS),rebound,3pt missed,16,Low
+21500006,363,3pt,3,PT02M58.00S,02:58,Q3 02:58,0,0,1610612741.0,Mirotic,MISS Mirotic 25' 3PT Jump Shot,2pt made,rebound,0,Low
+21500006,364,rebound,3,PT02M57.00S,02:57,Q3 02:57,0,0,1610612751.0,Bogdanovic,Bogdanovic REBOUND (Off:0 Def:1),3pt missed,2pt missed,0,Low
+21500006,365,2pt,3,PT02M53.00S,02:53,Q3 02:53,0,0,1610612751.0,Bogdanovic,MISS Bogdanovic 9' Driving Bank Shot,rebound,rebound,0,Low
+21500006,366,rebound,3,PT02M52.00S,02:52,Q3 02:52,0,0,1610612741.0,Mirotic,Mirotic REBOUND (Off:0 Def:9),2pt missed,3pt made,0,Low
+21500006,367,3pt,3,PT02M40.00S,02:40,Q3 02:40,65,84,1610612741.0,Brooks,Brooks 26' 3PT Jump Shot (12 PTS) (Noah 2 AST),rebound,timeout,19,Low
+21500006,368,timeout,3,PT02M35.00S,02:35,Q3 02:35,0,0,1610612751.0,,NETS Timeout: Short (Full 3 Short 2),3pt made,timeout,0,Low
+21500006,369,timeout,3,PT02M35.00S,02:35,Q3 02:35,0,0,1610612741.0,,Bulls Timeout: Regular (Reg.3 Short 0),timeout,substitution,0,Low
+21500006,371,substitution,3,PT02M35.00S,02:35,Q3 02:35,0,0,1610612751.0,Lopez,SUB out: B. Lopez,timeout,substitution,0,Low
+21500006,372,substitution,3,PT02M35.00S,02:35,Q3 02:35,0,0,1610612751.0,Johnson,SUB out: J. Johnson,substitution,substitution,0,Low
+21500006,373,substitution,3,PT02M35.00S,02:35,Q3 02:35,0,0,1610612751.0,Robinson,SUB in: T. Robinson,substitution,substitution,0,Low
+21500006,374,substitution,3,PT02M35.00S,02:35,Q3 02:35,0,0,1610612751.0,Hollis-Jefferson,SUB in: R. Hollis-Jefferson,substitution,foul,0,Low
+21500006,373,foul,3,PT02M27.00S,02:27,Q3 02:27,0,0,1610612741.0,Mirotic,Mirotic P.FOUL (P2.T3) (D.Stafford),substitution,foul,0,Low
+21500006,374,foul,3,PT02M19.00S,02:19,Q3 02:19,0,0,1610612741.0,Mirotic,Mirotic S.FOUL (P3.T4) (K.Scott),foul,freethrow,0,Low
+21500006,375,freethrow,3,PT02M19.00S,02:19,Q3 02:19,66,84,1610612751.0,Bargnani,Bargnani Free Throw 1 of 2 (7 PTS),foul,freethrow,18,Low
+21500006,377,freethrow,3,PT02M19.00S,02:19,Q3 02:19,67,84,1610612751.0,Bargnani,Bargnani Free Throw 2 of 2 (8 PTS),freethrow,turnover,17,Low
+21500006,379,turnover,3,PT01M59.00S,01:59,Q3 01:59,0,0,1610612741.0,Mirotic,Mirotic Bad Pass Turnover (P2.T13),freethrow,steal,0,Low
+21500006,379,steal,3,PT01M59.00S,01:59,Q3 01:59,0,0,1610612751.0,Bargnani,Bargnani STEAL (1 STL),turnover,2pt missed,0,Low
+21500006,380,2pt,3,PT01M46.00S,01:46,Q3 01:46,0,0,1610612751.0,Bargnani,MISS Bargnani 2' Driving Reverse Layup,steal,rebound,0,Low
+21500006,381,rebound,3,PT01M45.00S,01:45,Q3 01:45,0,0,1610612751.0,Bargnani,Bargnani REBOUND (Off:2 Def:1),2pt missed,2pt made,0,Low
+21500006,382,2pt,3,PT01M43.00S,01:43,Q3 01:43,69,84,1610612751.0,Bargnani,Bargnani 4' Hook Shot (10 PTS),rebound,2pt made,15,Low
+21500006,383,2pt,3,PT01M26.00S,01:26,Q3 01:26,69,86,1610612741.0,McDermott,McDermott 2' Driving Finger Roll Layup (5 PTS) (Brooks 3 AST),2pt made,2pt missed,17,Low
+21500006,384,2pt,3,PT01M06.00S,01:06,Q3 01:06,0,0,1610612751.0,Hollis-Jefferson,MISS Hollis-Jefferson 17' Jump Shot,2pt made,rebound,0,Low
+21500006,385,rebound,3,PT01M05.00S,01:05,Q3 01:05,0,0,1610612741.0,Noah,Noah REBOUND (Off:1 Def:3),2pt missed,3pt missed,0,Low
+21500006,386,3pt,3,PT00M50.90S,00:50,Q3 00:50,0,0,1610612741.0,McDermott,MISS McDermott 25' 3PT Jump Shot,rebound,rebound,0,Low
+21500006,387,rebound,3,PT00M49.80S,00:49,Q3 00:49,0,0,1610612751.0,Bargnani,Bargnani REBOUND (Off:2 Def:2),3pt missed,3pt missed,0,Low
+21500006,388,3pt,3,PT00M40.40S,00:40,Q3 00:40,0,0,1610612751.0,Bargnani,MISS Bargnani 25' 3PT Jump Shot,rebound,rebound,0,Low
+21500006,389,rebound,3,PT00M39.40S,00:39,Q3 00:39,0,0,1610612741.0,,TEAM defensive REBOUND,3pt missed,substitution,0,Low
+21500006,390,substitution,3,PT00M39.40S,00:39,Q3 00:39,0,0,1610612741.0,Mirotic,SUB out: N. Mirotic,rebound,substitution,0,Low
+21500006,391,substitution,3,PT00M39.40S,00:39,Q3 00:39,0,0,1610612741.0,Gibson,SUB in: T. Gibson,substitution,3pt missed,0,Low
+21500006,391,3pt,3,PT00M29.90S,00:29,Q3 00:29,0,0,1610612741.0,Brooks,MISS Brooks 25' 3PT Jump Shot,substitution,rebound,0,Low
+21500006,392,rebound,3,PT00M28.90S,00:28,Q3 00:28,0,0,1610612741.0,,TEAM offensive REBOUND,3pt missed,foul,0,Low
+21500006,393,foul,3,PT00M28.90S,00:28,Q3 00:28,0,0,1610612751.0,Bargnani,Bargnani L.B.FOUL (P3.PN) (K.Scott),rebound,freethrow,0,Low
+21500006,394,freethrow,3,PT00M28.90S,00:28,Q3 00:28,0,0,1610612741.0,Noah,MISS Noah Free Throw 1 of 2,foul,rebound,0,Low
+21500006,395,rebound,3,PT00M28.90S,00:28,Q3 00:28,0,0,1610612741.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21500006,396,freethrow,3,PT00M28.90S,00:28,Q3 00:28,0,0,1610612741.0,Noah,MISS Noah Free Throw 2 of 2,rebound,rebound,0,Low
+21500006,398,rebound,3,PT00M27.90S,00:27,Q3 00:27,0,0,1610612751.0,Hollis-Jefferson,Hollis-Jefferson REBOUND (Off:0 Def:4),freethrow,2pt made,0,Low
+21500006,399,2pt,3,PT00M10.30S,00:10,Q3 00:10,71,86,1610612751.0,Hollis-Jefferson,Hollis-Jefferson 3' Layup (8 PTS),rebound,period,15,Low
+21500006,400,period,3,PT00M00.00S,00:00,Q3 00:00,71,86,1610612751.0,,End of 3rd Period (9:22 PM EST),2pt made,period,15,Low
+21500006,402,period,4,PT12M00.00S,12:00,Q4 12:00,71,86,1610612751.0,,Start of 4th Period (9:24 PM EST),period,substitution,15,Low
+21500006,403,2pt,4,PT11M37.00S,11:37,Q4 11:37,0,0,1610612751.0,Bogdanovic,MISS Bogdanovic 20' Jump Shot,substitution,rebound,0,Medium
+21500006,409,rebound,4,PT11M35.00S,11:35,Q4 11:35,0,0,1610612751.0,Robinson,Robinson REBOUND (Off:2 Def:2),2pt missed,turnover,0,Medium
+21500006,408,turnover,4,PT11M34.00S,11:34,Q4 11:34,0,0,1610612751.0,Robinson,Robinson Poss Lost Ball Turnover (P1.T10),rebound,steal,0,Medium
+21500006,408,steal,4,PT11M34.00S,11:34,Q4 11:34,0,0,1610612741.0,Moore,Moore STEAL (1 STL),turnover,turnover,0,Medium
+21500006,405,turnover,4,PT11M31.00S,11:31,Q4 11:31,0,0,1610612741.0,Brooks,Brooks Out of Bounds - Bad Pass Turnover Turnover (P1.T14),steal,2pt missed,0,Medium
+21500006,406,2pt,4,PT11M19.00S,11:19,Q4 11:19,0,0,1610612751.0,Bogdanovic,MISS Bogdanovic 10' Turnaround Jump Shot,turnover,rebound,0,Medium
+21500006,407,rebound,4,PT11M17.00S,11:17,Q4 11:17,0,0,1610612741.0,McDermott,McDermott REBOUND (Off:1 Def:1),2pt missed,2pt made,0,Medium
+21500006,410,2pt,4,PT11M07.00S,11:07,Q4 11:07,71,88,1610612741.0,Moore,Moore 7' Jump Shot (6 PTS),rebound,foul,17,Low
+21500006,411,foul,4,PT11M00.00S,11:00,Q4 11:00,0,0,1610612741.0,Brooks,Brooks P.FOUL (P3.T1) (N.Buchert),2pt made,2pt missed,0,Medium
+21500006,412,2pt,4,PT10M48.00S,10:48,Q4 10:48,0,0,1610612751.0,Robinson,MISS Robinson 9' Jump Shot,foul,rebound,0,Medium
+21500006,413,rebound,4,PT10M46.00S,10:46,Q4 10:46,0,0,1610612741.0,Noah,Noah REBOUND (Off:1 Def:4),2pt missed,foul,0,Medium
+21500006,415,foul,4,PT10M42.00S,10:42,Q4 10:42,0,0,1610612741.0,Gibson,Gibson OFF.Foul (P1) (D.Stafford),rebound,turnover,0,Medium
+21500006,416,turnover,4,PT10M42.00S,10:42,Q4 10:42,0,0,1610612741.0,Gibson,Gibson Foul Turnover (P2.T15),foul,2pt missed,0,Medium
+21500006,418,2pt,4,PT10M30.00S,10:30,Q4 10:30,0,0,1610612751.0,Bargnani,MISS Bargnani 22' Jump Shot,turnover,rebound,0,Medium
+21500006,419,rebound,4,PT10M29.00S,10:29,Q4 10:29,0,0,1610612741.0,Brooks,Brooks REBOUND (Off:0 Def:1),2pt missed,2pt missed,0,Medium
+21500006,420,2pt,4,PT10M19.00S,10:19,Q4 10:19,0,0,1610612741.0,Gibson,MISS Gibson 6' Hook Shot,rebound,rebound,0,Medium
+21500006,421,rebound,4,PT10M18.00S,10:18,Q4 10:18,0,0,1610612751.0,Robinson,Robinson REBOUND (Off:2 Def:3),2pt missed,2pt made,0,Medium
+21500006,422,2pt,4,PT10M07.00S,10:07,Q4 10:07,73,88,1610612751.0,Bargnani,Bargnani 3' Layup (12 PTS) (Larkin 7 AST),rebound,foul,15,Low
+21500006,423,foul,4,PT10M07.00S,10:07,Q4 10:07,0,0,1610612741.0,Brooks,Brooks S.FOUL (P4.T2) (N.Buchert),2pt made,freethrow,0,Medium
+21500006,424,freethrow,4,PT10M07.00S,10:07,Q4 10:07,74,88,1610612751.0,Bargnani,Bargnani Free Throw 1 of 1 (13 PTS),foul,turnover,14,Low
+21500006,426,turnover,4,PT09M54.00S,09:54,Q4 09:54,0,0,1610612741.0,Moore,Moore Lost Ball Turnover (P1.T16),freethrow,steal,0,Medium
+21500006,426,steal,4,PT09M54.00S,09:54,Q4 09:54,0,0,1610612751.0,Robinson,Robinson STEAL (2 STL),turnover,2pt made,0,Medium
+21500006,427,2pt,4,PT09M43.00S,09:43,Q4 09:43,76,88,1610612751.0,Larkin,Larkin 16' Jump Shot (6 PTS),steal,turnover,12,Low
+21500006,428,turnover,4,PT09M36.00S,09:36,Q4 09:36,0,0,1610612741.0,Moore,Moore Lost Ball Turnover (P2.T17),2pt made,steal,0,Medium
+21500006,428,steal,4,PT09M36.00S,09:36,Q4 09:36,0,0,1610612751.0,Larkin,Larkin STEAL (3 STL),turnover,turnover,0,Medium
+21500006,429,turnover,4,PT09M31.00S,09:31,Q4 09:31,0,0,1610612751.0,Larkin,Larkin Lost Ball Turnover (P2.T11),steal,steal,0,Medium
+21500006,429,steal,4,PT09M31.00S,09:31,Q4 09:31,0,0,1610612741.0,Brooks,Brooks STEAL (1 STL),turnover,3pt made,0,Medium
+21500006,430,3pt,4,PT09M21.00S,09:21,Q4 09:21,76,91,1610612741.0,Moore,Moore 27' 3PT Jump Shot (9 PTS),steal,2pt made,15,Low
+21500006,431,2pt,4,PT09M10.00S,09:10,Q4 09:10,78,91,1610612751.0,Bargnani,Bargnani 19' Jump Shot (15 PTS) (Larkin 8 AST),3pt made,3pt missed,13,Low
+21500006,432,3pt,4,PT08M52.00S,08:52,Q4 08:52,0,0,1610612741.0,Brooks,MISS Brooks 25' 3PT Jump Shot,2pt made,rebound,0,Medium
+21500006,433,rebound,4,PT08M50.00S,08:50,Q4 08:50,0,0,1610612751.0,Hollis-Jefferson,Hollis-Jefferson REBOUND (Off:0 Def:5),3pt missed,foul,0,Medium
+21500006,434,foul,4,PT08M38.00S,08:38,Q4 08:38,0,0,1610612741.0,Noah,Noah S.FOUL (P2.T3) (K.Scott),rebound,timeout,0,Medium
+21500006,435,timeout,4,PT08M38.00S,08:38,Q4 08:38,0,0,0.0,,Timeout: Official,foul,freethrow,0,Medium
+21500006,438,freethrow,4,PT08M38.00S,08:38,Q4 08:38,0,0,1610612751.0,Robinson,MISS Robinson Free Throw 1 of 2,timeout,rebound,0,Medium
+21500006,439,rebound,4,PT08M38.00S,08:38,Q4 08:38,0,0,1610612751.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Medium
+21500006,440,freethrow,4,PT08M38.00S,08:38,Q4 08:38,0,0,1610612751.0,Robinson,MISS Robinson Free Throw 2 of 2,rebound,substitution,0,Medium
+21500006,437,substitution,4,PT08M38.00S,08:38,Q4 08:38,0,0,1610612741.0,Brooks,SUB out: A. Brooks,freethrow,substitution,0,Medium
+21500006,438,substitution,4,PT08M38.00S,08:38,Q4 08:38,0,0,1610612741.0,Hinrich,SUB in: K. Hinrich,substitution,rebound,0,Medium
+21500006,442,rebound,4,PT08M37.00S,08:37,Q4 08:37,0,0,1610612741.0,Noah,Noah REBOUND (Off:1 Def:5),substitution,foul,0,Medium
+21500006,443,foul,4,PT08M17.00S,08:17,Q4 08:17,0,0,1610612751.0,Bargnani,Bargnani S.FOUL (P4.T1) (K.Scott),rebound,freethrow,0,Medium
+21500006,444,freethrow,4,PT08M17.00S,08:17,Q4 08:17,78,92,1610612741.0,Gibson,Gibson Free Throw 1 of 2 (3 PTS),foul,freethrow,14,Low
+21500006,447,freethrow,4,PT08M17.00S,08:17,Q4 08:17,0,0,1610612741.0,Gibson,MISS Gibson Free Throw 2 of 2,freethrow,substitution,0,Medium
+21500006,446,substitution,4,PT08M17.00S,08:17,Q4 08:17,0,0,1610612751.0,Robinson,SUB out: T. Robinson,freethrow,substitution,0,Medium
+21500006,447,substitution,4,PT08M17.00S,08:17,Q4 08:17,0,0,1610612751.0,Lopez,SUB in: B. Lopez,substitution,rebound,0,Medium
+21500006,449,rebound,4,PT08M16.00S,08:16,Q4 08:16,0,0,1610612751.0,Bargnani,Bargnani REBOUND (Off:2 Def:3),substitution,2pt missed,0,Medium
+21500006,450,2pt,4,PT08M07.00S,08:07,Q4 08:07,0,0,1610612751.0,Larkin,MISS Larkin 12' Driving Bank Shot,rebound,rebound,0,Medium
+21500006,451,rebound,4,PT08M06.00S,08:06,Q4 08:06,0,0,1610612751.0,Lopez,Lopez REBOUND (Off:3 Def:3),2pt missed,2pt made,0,Medium
+21500006,452,2pt,4,PT08M05.00S,08:05,Q4 08:05,80,92,1610612751.0,Lopez,Lopez 2' Tip Layup Shot (18 PTS),rebound,foul,12,Low
+21500006,453,foul,4,PT08M05.00S,08:05,Q4 08:05,0,0,1610612741.0,Noah,Noah S.FOUL (P3.T4) (D.Stafford),2pt made,freethrow,0,Medium
+21500006,454,freethrow,4,PT08M05.00S,08:05,Q4 08:05,81,92,1610612751.0,Lopez,Lopez Free Throw 1 of 1 (19 PTS),foul,3pt made,11,Low
+21500006,456,3pt,4,PT07M38.00S,07:38,Q4 07:38,81,95,1610612741.0,McDermott,McDermott 27' 3PT Jump Shot (8 PTS) (Hinrich 1 AST),freethrow,2pt made,14,Low
+21500006,457,2pt,4,PT07M14.00S,07:14,Q4 07:14,83,95,1610612751.0,Lopez,Lopez 14' Jump Shot (21 PTS),3pt made,foul,12,Low
+21500006,458,foul,4,PT07M14.00S,07:14,Q4 07:14,0,0,1610612741.0,Noah,Noah S.FOUL (P4.PN) (N.Buchert),2pt made,freethrow,0,Medium
+21500006,461,freethrow,4,PT07M14.00S,07:14,Q4 07:14,84,95,1610612751.0,Lopez,Lopez Free Throw 1 of 1 (22 PTS),foul,substitution,11,Low
+21500006,459,substitution,4,PT07M14.00S,07:14,Q4 07:14,0,0,1610612741.0,Moore,SUB out: E. Moore,freethrow,substitution,0,Medium
+21500006,460,substitution,4,PT07M14.00S,07:14,Q4 07:14,0,0,1610612751.0,Hollis-Jefferson,SUB out: R. Hollis-Jefferson,substitution,substitution,0,Medium
+21500006,461,substitution,4,PT07M14.00S,07:14,Q4 07:14,0,0,1610612741.0,Butler,SUB in: J. Butler,substitution,substitution,0,Medium
+21500006,462,substitution,4,PT07M14.00S,07:14,Q4 07:14,0,0,1610612751.0,Johnson,SUB in: J. Johnson,substitution,2pt missed,0,Medium
+21500006,463,2pt,4,PT06M56.00S,06:56,Q4 06:56,0,0,1610612741.0,Noah,MISS Noah 5' Turnaround Jump Shot,substitution,rebound,0,High
+21500006,464,rebound,4,PT06M55.00S,06:55,Q4 06:55,0,0,1610612751.0,Bargnani,Bargnani REBOUND (Off:2 Def:4),2pt missed,turnover,0,High
+21500006,465,turnover,4,PT06M33.00S,06:33,Q4 06:33,0,0,1610612751.0,Lopez,Lopez Lost Ball Turnover (P3.T12),rebound,steal,0,High
+21500006,465,steal,4,PT06M33.00S,06:33,Q4 06:33,0,0,1610612741.0,Noah,Noah STEAL (2 STL),turnover,turnover,0,High
+21500006,466,turnover,4,PT06M30.00S,06:30,Q4 06:30,0,0,1610612741.0,Noah,Noah Bad Pass Turnover (P2.T18),steal,steal,0,High
+21500006,466,steal,4,PT06M30.00S,06:30,Q4 06:30,0,0,1610612751.0,Johnson,Johnson STEAL (1 STL),turnover,foul,0,High
+21500006,467,foul,4,PT06M28.00S,06:28,Q4 06:28,0,0,1610612741.0,Noah,Noah S.FOUL (P5.PN) (K.Scott),steal,freethrow,0,High
+21500006,468,freethrow,4,PT06M28.00S,06:28,Q4 06:28,85,95,1610612751.0,Bogdanovic,Bogdanovic Free Throw 1 of 2 (8 PTS),foul,freethrow,10,Low
+21500006,472,freethrow,4,PT06M28.00S,06:28,Q4 06:28,86,95,1610612751.0,Bogdanovic,Bogdanovic Free Throw 2 of 2 (9 PTS),freethrow,substitution,9,Low
+21500006,470,substitution,4,PT06M28.00S,06:28,Q4 06:28,0,0,1610612741.0,Noah,SUB out: J. Noah,freethrow,substitution,0,High
+21500006,471,substitution,4,PT06M28.00S,06:28,Q4 06:28,0,0,1610612741.0,McDermott,SUB out: D. McDermott,substitution,substitution,0,High
+21500006,472,substitution,4,PT06M28.00S,06:28,Q4 06:28,0,0,1610612741.0,Gasol,SUB in: P. Gasol,substitution,substitution,0,High
+21500006,473,substitution,4,PT06M28.00S,06:28,Q4 06:28,0,0,1610612741.0,Rose,SUB in: D. Rose,substitution,2pt missed,0,High
+21500006,474,2pt,4,PT06M17.00S,06:17,Q4 06:17,0,0,1610612741.0,Rose,MISS Rose 10' Floating Jump Shot,substitution,block,0,High
+21500006,474,block,4,PT06M17.00S,06:17,Q4 06:17,0,0,1610612751.0,Larkin,Larkin BLOCK (1 BLK),2pt missed,rebound,0,High
+21500006,475,rebound,4,PT06M15.00S,06:15,Q4 06:15,0,0,1610612741.0,,TEAM offensive REBOUND,block,3pt made,0,High
+21500006,476,3pt,4,PT06M08.00S,06:08,Q4 06:08,86,98,1610612741.0,Butler,Butler 26' 3PT Turnaround Jump Shot (17 PTS),rebound,foul,12,Low
+21500006,477,foul,4,PT05M56.00S,05:56,Q4 05:56,0,0,1610612741.0,Gibson,Gibson P.FOUL (P2.PN) (N.Buchert),3pt made,timeout,0,High
+21500006,478,timeout,4,PT05M56.00S,05:56,Q4 05:56,0,0,1610612751.0,,NETS Timeout: Regular (Full 4 Short 2),foul,instant replay,0,High
+21500006,484,freethrow,4,PT05M56.00S,05:56,Q4 05:56,87,98,1610612751.0,Bargnani,Bargnani Free Throw 1 of 2 (16 PTS),instant replay,freethrow,11,Medium
+21500006,486,freethrow,4,PT05M56.00S,05:56,Q4 05:56,88,98,1610612751.0,Bargnani,Bargnani Free Throw 2 of 2 (17 PTS),freethrow,substitution,10,Medium
+21500006,483,substitution,4,PT05M56.00S,05:56,Q4 05:56,0,0,1610612751.0,Larkin,SUB out: S. Larkin,freethrow,substitution,0,High
+21500006,484,substitution,4,PT05M56.00S,05:56,Q4 05:56,0,0,1610612751.0,Brown,SUB in: M. Brown,substitution,2pt missed,0,High
+21500006,488,2pt,4,PT05M35.00S,05:35,Q4 05:35,0,0,1610612741.0,Rose,MISS Rose 17' Jump Shot,substitution,rebound,0,High
+21500006,489,rebound,4,PT05M34.00S,05:34,Q4 05:34,0,0,1610612741.0,Gasol,Gasol REBOUND (Off:1 Def:8),2pt missed,2pt made,0,High
+21500006,490,2pt,4,PT05M29.00S,05:29,Q4 05:29,88,100,1610612741.0,Butler,Butler 3' Layup (19 PTS) (Gasol 3 AST),rebound,2pt made,12,Medium
+21500006,491,2pt,4,PT05M08.00S,05:08,Q4 05:08,90,100,1610612751.0,Brown,Brown 20' Jump Shot (2 PTS),2pt made,3pt missed,10,Medium
+21500006,492,3pt,4,PT04M46.00S,04:46,Q4 04:46,0,0,1610612741.0,Rose,MISS Rose 25' 3PT Jump Shot,2pt made,rebound,0,High
+21500006,493,rebound,4,PT04M45.00S,04:45,Q4 04:45,0,0,1610612751.0,Bargnani,Bargnani REBOUND (Off:2 Def:5),3pt missed,2pt missed,0,High
+21500006,494,2pt,4,PT04M32.00S,04:32,Q4 04:32,0,0,1610612751.0,Bargnani,MISS Bargnani 9' Turnaround Fadeaway Shot,rebound,rebound,0,High
+21500006,495,rebound,4,PT04M31.00S,04:31,Q4 04:31,0,0,1610612741.0,Butler,Butler REBOUND (Off:1 Def:3),2pt missed,turnover,0,High
+21500006,496,turnover,4,PT04M18.00S,04:18,Q4 04:18,0,0,1610612741.0,Gibson,Gibson Offensive Goaltending Turnover (P3.T19),rebound,substitution,0,High
+21500006,497,substitution,4,PT04M18.00S,04:18,Q4 04:18,0,0,1610612751.0,Bargnani,SUB out: A. Bargnani,turnover,substitution,0,High
+21500006,498,substitution,4,PT04M18.00S,04:18,Q4 04:18,0,0,1610612751.0,Young,SUB in: T. Young,substitution,2pt made,0,High
+21500006,498,2pt,4,PT04M08.00S,04:08,Q4 04:08,92,100,1610612751.0,Brown,Brown 20' Jump Shot (4 PTS),substitution,2pt missed,8,High
+21500006,499,2pt,4,PT03M52.00S,03:52,Q4 03:52,0,0,1610612741.0,Gasol,MISS Gasol 20' Jump Shot,2pt made,rebound,0,High
+21500006,500,rebound,4,PT03M51.00S,03:51,Q4 03:51,0,0,1610612751.0,Johnson,Johnson REBOUND (Off:3 Def:6),2pt missed,2pt missed,0,High
+21500006,501,2pt,4,PT03M43.00S,03:43,Q4 03:43,0,0,1610612751.0,Young,MISS Young 18' Jump Shot,rebound,rebound,0,High
+21500006,502,rebound,4,PT03M42.00S,03:42,Q4 03:42,0,0,1610612751.0,Lopez,Lopez REBOUND (Off:4 Def:3),2pt missed,foul,0,High
+21500006,503,foul,4,PT03M41.00S,03:41,Q4 03:41,0,0,1610612741.0,Gibson,Gibson P.FOUL (P3.PN) (N.Buchert),rebound,freethrow,0,High
+21500006,504,freethrow,4,PT03M41.00S,03:41,Q4 03:41,93,100,1610612751.0,Lopez,Lopez Free Throw 1 of 2 (23 PTS),foul,freethrow,7,High
+21500006,508,freethrow,4,PT03M41.00S,03:41,Q4 03:41,94,100,1610612751.0,Lopez,Lopez Free Throw 2 of 2 (24 PTS),freethrow,substitution,6,High
+21500006,506,substitution,4,PT03M41.00S,03:41,Q4 03:41,0,0,1610612741.0,Gibson,SUB out: T. Gibson,freethrow,substitution,0,High
+21500006,507,substitution,4,PT03M41.00S,03:41,Q4 03:41,0,0,1610612741.0,Hinrich,SUB out: K. Hinrich,substitution,substitution,0,High
+21500006,508,substitution,4,PT03M41.00S,03:41,Q4 03:41,0,0,1610612741.0,Mirotic,SUB in: N. Mirotic,substitution,substitution,0,High
+21500006,509,substitution,4,PT03M41.00S,03:41,Q4 03:41,0,0,1610612741.0,Snell,SUB in: T. Snell,substitution,2pt made,0,High
+21500006,510,2pt,4,PT03M17.00S,03:17,Q4 03:17,94,102,1610612741.0,Rose,Rose 7' Driving Bank Shot (15 PTS),substitution,foul,8,High
+21500006,511,foul,4,PT03M09.00S,03:09,Q4 03:09,0,0,1610612741.0,Gasol,Gasol S.FOUL (P2.PN) (D.Stafford),2pt made,freethrow,0,High
+21500006,512,freethrow,4,PT03M09.00S,03:09,Q4 03:09,0,0,1610612751.0,Brown,MISS Brown Free Throw 1 of 2,foul,rebound,0,High
+21500006,513,rebound,4,PT03M09.00S,03:09,Q4 03:09,0,0,1610612751.0,,TEAM offensive REBOUND,freethrow,freethrow,0,High
+21500006,514,freethrow,4,PT03M09.00S,03:09,Q4 03:09,95,102,1610612751.0,Brown,Brown Free Throw 2 of 2 (5 PTS),rebound,3pt made,7,High
+21500006,516,3pt,4,PT02M53.00S,02:53,Q4 02:53,95,105,1610612741.0,Mirotic,Mirotic 26' 3PT Jump Shot (15 PTS) (Butler 5 AST),freethrow,timeout,10,Medium
+21500006,517,timeout,4,PT02M50.00S,02:50,Q4 02:50,0,0,1610612751.0,,NETS Timeout: Regular (Full 5 Short 2),3pt made,instant replay,0,High
+21500006,520,foul,4,PT02M46.00S,02:46,Q4 02:46,0,0,1610612741.0,Rose,Rose P.FOUL (P2.PN) (D.Stafford),instant replay,freethrow,0,High
+21500006,521,freethrow,4,PT02M46.00S,02:46,Q4 02:46,0,0,1610612751.0,Brown,MISS Brown Free Throw 1 of 2,foul,rebound,0,High
+21500006,522,rebound,4,PT02M46.00S,02:46,Q4 02:46,0,0,1610612751.0,,TEAM offensive REBOUND,freethrow,freethrow,0,High
+21500006,524,freethrow,4,PT02M46.00S,02:46,Q4 02:46,96,105,1610612751.0,Brown,Brown Free Throw 2 of 2 (6 PTS),rebound,substitution,9,Medium
+21500006,523,substitution,4,PT02M46.00S,02:46,Q4 02:46,0,0,1610612751.0,Bogdanovic,SUB out: B. Bogdanovic,freethrow,substitution,0,High
+21500006,524,substitution,4,PT02M46.00S,02:46,Q4 02:46,0,0,1610612751.0,Hollis-Jefferson,SUB in: R. Hollis-Jefferson,substitution,2pt made,0,High
+21500006,526,2pt,4,PT02M24.00S,02:24,Q4 02:24,96,107,1610612741.0,Gasol,Gasol 15' Turnaround Fadeaway (16 PTS),substitution,2pt made,11,Medium
+21500006,527,2pt,4,PT01M59.00S,01:59,Q4 01:59,98,107,1610612751.0,Lopez,Lopez 17' Turnaround Jump Shot (26 PTS) (Brown 2 AST),2pt made,3pt made,9,Medium
+21500006,528,3pt,4,PT01M40.00S,01:40,Q4 01:40,98,110,1610612741.0,Butler,Butler 26' 3PT Jump Shot (22 PTS),2pt made,turnover,12,Medium
+21500006,529,turnover,4,PT01M28.00S,01:28,Q4 01:28,0,0,1610612751.0,Young,Young Lost Ball Turnover (P3.T13),3pt made,steal,0,Very High
+21500006,529,steal,4,PT01M28.00S,01:28,Q4 01:28,0,0,1610612741.0,Rose,Rose STEAL (1 STL),turnover,foul,0,Very High
+21500006,530,foul,4,PT01M26.00S,01:26,Q4 01:26,0,0,1610612751.0,Young,Young P.FOUL (P4.T2) (N.Buchert),steal,timeout,0,Very High
+21500006,532,timeout,4,PT01M26.00S,01:26,Q4 01:26,0,0,1610612741.0,,Bulls Timeout: Short (Reg.3 Short 1),foul,substitution,0,Very High
+21500006,533,substitution,4,PT01M26.00S,01:26,Q4 01:26,0,0,1610612751.0,Hollis-Jefferson,SUB out: R. Hollis-Jefferson,timeout,substitution,0,Very High
+21500006,534,substitution,4,PT01M26.00S,01:26,Q4 01:26,0,0,1610612751.0,Bogdanovic,SUB in: B. Bogdanovic,substitution,2pt made,0,Very High
+21500006,534,2pt,4,PT01M10.00S,01:10,Q4 01:10,98,112,1610612741.0,Butler,Butler  Driving Dunk (24 PTS),substitution,2pt made,14,Low
+21500006,535,2pt,4,PT01M02.00S,01:02,Q4 01:02,100,112,1610612751.0,Johnson,Johnson 9' Driving Floating Jump Shot (10 PTS),2pt made,3pt made,12,Medium
+21500006,537,3pt,4,PT00M42.50S,00:42,Q4 00:42,100,115,1610612741.0,Mirotic,Mirotic 27' 3PT Jump Shot (18 PTS) (Butler 6 AST),2pt made,2pt missed,15,Low
+21500006,538,2pt,4,PT00M35.90S,00:35,Q4 00:35,0,0,1610612751.0,Johnson,MISS Johnson 9' Driving Floating Jump Shot,3pt made,rebound,0,Very High
+21500006,539,rebound,4,PT00M34.90S,00:34,Q4 00:34,0,0,1610612751.0,Johnson,Johnson REBOUND (Off:4 Def:6),2pt missed,3pt missed,0,Very High
+21500006,540,3pt,4,PT00M27.90S,00:27,Q4 00:27,0,0,1610612751.0,Bogdanovic,MISS Bogdanovic 26' 3PT Jump Shot,rebound,rebound,0,Very High
+21500006,541,rebound,4,PT00M26.40S,00:26,Q4 00:26,0,0,1610612741.0,Snell,Snell REBOUND (Off:0 Def:5),3pt missed,turnover,0,Very High
+21500006,542,turnover,4,PT00M02.80S,00:02,Q4 00:02,0,0,0.0,,Bulls Turnover: Shot Clock (T#20),rebound,3pt missed,0,Very High
+21500006,543,3pt,4,PT00M00.90S,00:00,Q4 00:00,0,0,1610612751.0,Brown,MISS Brown 30' 3PT Jump Shot,turnover,rebound,0,Very High
+21500006,544,rebound,4,PT00M00.00S,00:00,Q4 00:00,0,0,1610612751.0,,TEAM offensive REBOUND,3pt missed,period,0,Very High
+21500006,545,period,4,PT00M00.00S,00:00,Q4 00:00,100,115,1610612751.0,,End of 4th Period (9:56 PM EST),rebound,,15,Low

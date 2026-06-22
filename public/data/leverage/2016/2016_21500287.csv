@@ -1,0 +1,549 @@
+game_id,actionNumber,actionType,period,clock,clock_display,game_clock,scoreHome,scoreAway,teamId,playerName,description,previous_action,next_action,score_margin,leverage_bucket
+21500287,0,period,1,PT12M00.00S,12:00,Q1 12:00,0,0,1610612742.0,,Start of 1st Period (8:42 PM EST),,turnover,0,Low
+21500287,2,turnover,1,PT11M40.00S,11:40,Q1 11:40,0,0,1610612745.0,Jones,Jones Lost Ball Turnover (P1.T1),period,steal,0,Low
+21500287,2,steal,1,PT11M40.00S,11:40,Q1 11:40,0,0,1610612742.0,Felton,Felton STEAL (1 STL),turnover,foul,0,Low
+21500287,3,foul,1,PT11M30.00S,11:30,Q1 11:30,0,0,1610612745.0,Jones,Jones P.FOUL (P1.T1) (B.Barnaky),steal,turnover,0,Low
+21500287,4,turnover,1,PT11M23.00S,11:23,Q1 11:23,0,0,1610612742.0,Williams,D. Williams Out of Bounds - Bad Pass Turnover Turnover (P1.T1),foul,3pt made,0,Low
+21500287,5,3pt,1,PT11M09.00S,11:09,Q1 11:09,0,3,1610612745.0,Beverley,Beverley 25' 3PT Jump Shot (3 PTS) (Jones 1 AST),turnover,3pt missed,3,Low
+21500287,6,3pt,1,PT10M44.00S,10:44,Q1 10:44,0,0,1610612742.0,Felton,MISS Felton 26' 3PT Jump Shot,3pt made,2pt missed,0,Low
+21500287,7,2pt,1,PT10M43.00S,10:43,Q1 10:43,0,0,1610612742.0,Pachulia,MISS Pachulia 1' Tip Layup Shot,3pt missed,rebound,0,Low
+21500287,8,rebound,1,PT10M43.00S,10:43,Q1 10:43,0,0,1610612742.0,Pachulia,Pachulia REBOUND (Off:1 Def:0),2pt missed,rebound,0,Low
+21500287,9,rebound,1,PT10M42.00S,10:42,Q1 10:42,0,0,1610612745.0,Harden,Harden REBOUND (Off:0 Def:1),rebound,2pt missed,0,Low
+21500287,10,2pt,1,PT10M31.00S,10:31,Q1 10:31,0,0,1610612745.0,Jones,MISS Jones 9' Floating Jump Shot,rebound,rebound,0,Low
+21500287,11,rebound,1,PT10M30.00S,10:30,Q1 10:30,0,0,1610612745.0,Capela,Capela REBOUND (Off:1 Def:0),2pt missed,3pt made,0,Low
+21500287,12,3pt,1,PT10M25.00S,10:25,Q1 10:25,0,6,1610612745.0,Beverley,Beverley 25' 3PT Jump Shot (6 PTS),rebound,3pt missed,6,Low
+21500287,13,3pt,1,PT10M04.00S,10:04,Q1 10:04,0,0,1610612742.0,Matthews,MISS Matthews 24' 3PT Jump Shot,3pt made,rebound,0,Low
+21500287,14,rebound,1,PT10M03.00S,10:03,Q1 10:03,0,0,1610612745.0,Jones,Jones REBOUND (Off:0 Def:1),3pt missed,turnover,0,Low
+21500287,15,turnover,1,PT09M55.00S,09:55,Q1 09:55,0,0,1610612745.0,Ariza,Ariza Lost Ball Turnover (P1.T2),rebound,steal,0,Low
+21500287,15,steal,1,PT09M55.00S,09:55,Q1 09:55,0,0,1610612742.0,Felton,Felton STEAL (2 STL),turnover,3pt made,0,Low
+21500287,16,3pt,1,PT09M48.00S,09:48,Q1 09:48,3,6,1610612742.0,Williams,D. Williams 24' 3PT Jump Shot (3 PTS) (Felton 1 AST),steal,turnover,3,Low
+21500287,17,turnover,1,PT09M37.00S,09:37,Q1 09:37,0,0,1610612745.0,Beverley,Beverley Out of Bounds - Bad Pass Turnover Turnover (P1.T3),3pt made,3pt missed,0,Low
+21500287,18,3pt,1,PT09M28.00S,09:28,Q1 09:28,0,0,1610612742.0,Nowitzki,MISS Nowitzki 24' 3PT Jump Shot,turnover,rebound,0,Low
+21500287,19,rebound,1,PT09M27.00S,09:27,Q1 09:27,0,0,1610612745.0,Capela,Capela REBOUND (Off:1 Def:1),3pt missed,foul,0,Low
+21500287,20,foul,1,PT09M15.00S,09:15,Q1 09:15,0,0,1610612742.0,Williams,D. Williams S.FOUL (P1.T1) (G.Petraitis),rebound,freethrow,0,Low
+21500287,21,freethrow,1,PT09M15.00S,09:15,Q1 09:15,3,7,1610612745.0,Capela,Capela Free Throw 1 of 2 (1 PTS),foul,freethrow,4,Low
+21500287,23,freethrow,1,PT09M15.00S,09:15,Q1 09:15,0,0,1610612745.0,Capela,MISS Capela Free Throw 2 of 2,freethrow,rebound,0,Low
+21500287,25,rebound,1,PT09M15.00S,09:15,Q1 09:15,0,0,1610612742.0,Nowitzki,Nowitzki REBOUND (Off:0 Def:1),freethrow,3pt made,0,Low
+21500287,26,3pt,1,PT09M03.00S,09:03,Q1 09:03,6,7,1610612742.0,Matthews,Matthews  3PT Jump Shot (3 PTS) (D. Williams 1 AST),rebound,3pt made,1,Low
+21500287,27,3pt,1,PT08M44.00S,08:44,Q1 08:44,6,10,1610612745.0,Beverley,Beverley 24' 3PT Jump Shot (9 PTS) (Harden 1 AST),3pt made,2pt missed,4,Low
+21500287,28,2pt,1,PT08M20.00S,08:20,Q1 08:20,0,0,1610612742.0,Williams,MISS D. Williams 9' Floating Jump Shot,3pt made,block,0,Low
+21500287,28,block,1,PT08M20.00S,08:20,Q1 08:20,0,0,1610612745.0,Capela,Capela BLOCK (1 BLK),2pt missed,rebound,0,Low
+21500287,29,rebound,1,PT08M18.00S,08:18,Q1 08:18,0,0,1610612745.0,Beverley,Beverley REBOUND (Off:0 Def:1),block,3pt missed,0,Low
+21500287,30,3pt,1,PT08M10.00S,08:10,Q1 08:10,0,0,1610612745.0,Ariza,MISS Ariza 25' 3PT Jump Shot,rebound,rebound,0,Low
+21500287,31,rebound,1,PT08M09.00S,08:09,Q1 08:09,0,0,1610612742.0,Nowitzki,Nowitzki REBOUND (Off:0 Def:2),3pt missed,turnover,0,Low
+21500287,32,turnover,1,PT08M04.00S,08:04,Q1 08:04,0,0,1610612742.0,Felton,Felton Out of Bounds - Bad Pass Turnover Turnover (P1.T2),rebound,2pt made,0,Low
+21500287,33,2pt,1,PT07M52.00S,07:52,Q1 07:52,6,12,1610612745.0,Harden,Harden 1' Driving Layup (2 PTS),turnover,2pt missed,6,Low
+21500287,34,2pt,1,PT07M36.00S,07:36,Q1 07:36,0,0,1610612742.0,Nowitzki,MISS Nowitzki 16' Jump Bank Shot,2pt made,2pt made,0,Low
+21500287,35,2pt,1,PT07M33.00S,07:33,Q1 07:33,8,12,1610612742.0,Pachulia,Pachulia 3' Putback Layup (2 PTS),2pt missed,rebound,4,Low
+21500287,36,rebound,1,PT07M33.00S,07:33,Q1 07:33,0,0,1610612742.0,Pachulia,Pachulia REBOUND (Off:2 Def:0),2pt made,2pt missed,0,Low
+21500287,37,2pt,1,PT07M16.00S,07:16,Q1 07:16,0,0,1610612745.0,Harden,MISS Harden 16' Jump Shot,rebound,rebound,0,Low
+21500287,38,rebound,1,PT07M15.00S,07:15,Q1 07:15,0,0,1610612742.0,Pachulia,Pachulia REBOUND (Off:2 Def:1),2pt missed,2pt missed,0,Low
+21500287,39,2pt,1,PT07M04.00S,07:04,Q1 07:04,0,0,1610612742.0,Matthews,MISS Matthews 13' Turnaround Bank Shot,rebound,rebound,0,Low
+21500287,40,rebound,1,PT07M03.00S,07:03,Q1 07:03,0,0,1610612742.0,Matthews,Matthews REBOUND (Off:1 Def:0),2pt missed,2pt missed,0,Low
+21500287,42,2pt,1,PT06M52.00S,06:52,Q1 06:52,0,0,1610612742.0,Felton,MISS Felton 3' Driving Layup,rebound,rebound,0,Low
+21500287,45,rebound,1,PT06M52.00S,06:52,Q1 06:52,0,0,1610612745.0,,TEAM defensive REBOUND,2pt missed,3pt made,0,Low
+21500287,43,3pt,1,PT06M42.00S,06:42,Q1 06:42,8,15,1610612745.0,Harden,Harden 24' 3PT Jump Shot (5 PTS),rebound,timeout,7,Low
+21500287,44,timeout,1,PT06M39.00S,06:39,Q1 06:39,0,0,1610612742.0,,MAVERICKS Timeout: Regular (Full 1 Short 0),3pt made,substitution,0,Low
+21500287,47,substitution,1,PT06M39.00S,06:39,Q1 06:39,0,0,1610612742.0,Nowitzki,SUB out: D. Nowitzki,timeout,substitution,0,Low
+21500287,48,substitution,1,PT06M39.00S,06:39,Q1 06:39,0,0,1610612742.0,Felton,SUB out: R. Felton,substitution,substitution,0,Low
+21500287,49,substitution,1,PT06M39.00S,06:39,Q1 06:39,0,0,1610612745.0,Jones,SUB out: T. Jones,substitution,substitution,0,Low
+21500287,50,substitution,1,PT06M39.00S,06:39,Q1 06:39,0,0,1610612742.0,Powell,SUB in: D. Powell,substitution,substitution,0,Low
+21500287,51,substitution,1,PT06M39.00S,06:39,Q1 06:39,0,0,1610612742.0,Parsons,SUB in: C. Parsons,substitution,substitution,0,Low
+21500287,52,substitution,1,PT06M39.00S,06:39,Q1 06:39,0,0,1610612745.0,Harrell,SUB in: M. Harrell,substitution,2pt missed,0,Low
+21500287,50,2pt,1,PT06M25.00S,06:25,Q1 06:25,0,0,1610612742.0,Pachulia,MISS Pachulia 1' Layup,substitution,block,0,Low
+21500287,50,block,1,PT06M25.00S,06:25,Q1 06:25,0,0,1610612745.0,Harden,Harden BLOCK (1 BLK),2pt missed,rebound,0,Low
+21500287,51,rebound,1,PT06M23.00S,06:23,Q1 06:23,0,0,1610612742.0,,TEAM offensive REBOUND,block,2pt missed,0,Low
+21500287,52,2pt,1,PT06M18.00S,06:18,Q1 06:18,0,0,1610612742.0,Pachulia,MISS Pachulia 2' Driving Finger Roll Layup,rebound,rebound,0,Low
+21500287,53,rebound,1,PT06M16.00S,06:16,Q1 06:16,0,0,1610612745.0,Ariza,Ariza REBOUND (Off:0 Def:1),2pt missed,2pt missed,0,Low
+21500287,54,2pt,1,PT06M05.00S,06:05,Q1 06:05,0,0,1610612745.0,Capela,MISS Capela 2' Driving Layup,rebound,block,0,Low
+21500287,54,block,1,PT06M05.00S,06:05,Q1 06:05,0,0,1610612742.0,Powell,Powell BLOCK (1 BLK),2pt missed,rebound,0,Low
+21500287,55,rebound,1,PT06M03.00S,06:03,Q1 06:03,0,0,1610612742.0,Powell,Powell REBOUND (Off:0 Def:1),block,3pt made,0,Low
+21500287,56,3pt,1,PT06M00.00S,06:00,Q1 06:00,11,15,1610612742.0,Parsons,Parsons 24' 3PT Jump Shot (3 PTS) (D. Williams 2 AST),rebound,2pt missed,4,Low
+21500287,57,2pt,1,PT05M37.00S,05:37,Q1 05:37,0,0,1610612745.0,Harrell,MISS Harrell 21' Jump Shot,3pt made,rebound,0,Low
+21500287,58,rebound,1,PT05M36.00S,05:36,Q1 05:36,0,0,1610612742.0,Matthews,Matthews REBOUND (Off:1 Def:1),2pt missed,2pt made,0,Low
+21500287,59,2pt,1,PT05M19.00S,05:19,Q1 05:19,13,15,1610612742.0,Parsons,Parsons 2' Driving Layup (5 PTS),rebound,turnover,2,Low
+21500287,60,turnover,1,PT05M05.00S,05:05,Q1 05:05,0,0,1610612745.0,Ariza,Ariza Kicked Ball Violation Turnover (P2.T4),2pt made,substitution,0,Low
+21500287,61,substitution,1,PT05M05.00S,05:05,Q1 05:05,0,0,1610612745.0,Beverley,SUB out: P. Beverley,turnover,substitution,0,Low
+21500287,62,substitution,1,PT05M05.00S,05:05,Q1 05:05,0,0,1610612745.0,Lawson,SUB in: T. Lawson,substitution,turnover,0,Low
+21500287,62,turnover,1,PT04M48.00S,04:48,Q1 04:48,0,0,1610612742.0,Pachulia,Pachulia Out of Bounds - Bad Pass Turnover Turnover (P1.T3),substitution,3pt missed,0,Low
+21500287,68,3pt,1,PT04M32.00S,04:32,Q1 04:32,0,0,1610612745.0,Harden,MISS Harden  3PT Jump Shot,turnover,rebound,0,Low
+21500287,69,rebound,1,PT04M32.00S,04:32,Q1 04:32,0,0,1610612742.0,Powell,Powell REBOUND (Off:0 Def:2),3pt missed,2pt made,0,Low
+21500287,70,2pt,1,PT04M13.00S,04:13,Q1 04:13,15,15,1610612742.0,Powell,Powell 1' Cutting Layup Shot (2 PTS) (D. Williams 3 AST),rebound,foul,0,Low
+21500287,71,foul,1,PT04M13.00S,04:13,Q1 04:13,0,0,1610612745.0,Harrell,Harrell S.FOUL (P1.T2) (G.Petraitis),2pt made,freethrow,0,Low
+21500287,74,freethrow,1,PT04M13.00S,04:13,Q1 04:13,0,0,1610612742.0,Powell,MISS Powell Free Throw 1 of 1,foul,substitution,0,Low
+21500287,72,substitution,1,PT04M13.00S,04:13,Q1 04:13,0,0,1610612745.0,Ariza,SUB out: T. Ariza,freethrow,substitution,0,Low
+21500287,73,substitution,1,PT04M13.00S,04:13,Q1 04:13,0,0,1610612745.0,Capela,SUB out: C. Capela,substitution,substitution,0,Low
+21500287,74,substitution,1,PT04M13.00S,04:13,Q1 04:13,0,0,1610612745.0,Jones,SUB in: T. Jones,substitution,substitution,0,Low
+21500287,75,substitution,1,PT04M13.00S,04:13,Q1 04:13,0,0,1610612745.0,Brewer,SUB in: C. Brewer,substitution,rebound,0,Low
+21500287,76,rebound,1,PT04M12.00S,04:12,Q1 04:12,0,0,1610612745.0,Harrell,Harrell REBOUND (Off:0 Def:1),substitution,3pt missed,0,Low
+21500287,77,3pt,1,PT03M55.00S,03:55,Q1 03:55,0,0,1610612745.0,Lawson,MISS Lawson 24' 3PT Jump Shot,rebound,rebound,0,Low
+21500287,78,rebound,1,PT03M54.00S,03:54,Q1 03:54,0,0,1610612742.0,Parsons,Parsons REBOUND (Off:0 Def:1),3pt missed,2pt made,0,Low
+21500287,79,2pt,1,PT03M50.00S,03:50,Q1 03:50,17,15,1610612742.0,Powell,Powell  Running Dunk (4 PTS) (Parsons 1 AST),rebound,3pt missed,2,Low
+21500287,80,3pt,1,PT03M38.00S,03:38,Q1 03:38,0,0,1610612745.0,Brewer,MISS Brewer  3PT Jump Shot,2pt made,rebound,0,Low
+21500287,81,rebound,1,PT03M37.00S,03:37,Q1 03:37,0,0,1610612742.0,Matthews,Matthews REBOUND (Off:1 Def:2),3pt missed,3pt made,0,Low
+21500287,82,3pt,1,PT03M28.00S,03:28,Q1 03:28,20,15,1610612742.0,Williams,D. Williams 24' 3PT Jump Shot (6 PTS) (Parsons 2 AST),rebound,timeout,5,Low
+21500287,83,timeout,1,PT03M28.00S,03:28,Q1 03:28,0,0,1610612745.0,,Rockets Timeout: Regular (Reg.1 Short 0),3pt made,2pt missed,0,Low
+21500287,89,2pt,1,PT03M28.00S,03:28,Q1 03:28,0,0,1610612745.0,Harrell,MISS Harrell 1' Driving Layup,timeout,substitution,0,Low
+21500287,86,substitution,1,PT03M28.00S,03:28,Q1 03:28,0,0,1610612742.0,Powell,SUB out: D. Powell,2pt missed,substitution,0,Low
+21500287,87,substitution,1,PT03M28.00S,03:28,Q1 03:28,0,0,1610612745.0,Harden,SUB out: J. Harden,substitution,substitution,0,Low
+21500287,88,substitution,1,PT03M28.00S,03:28,Q1 03:28,0,0,1610612742.0,Villanueva,SUB in: C. Villanueva,substitution,substitution,0,Low
+21500287,89,substitution,1,PT03M28.00S,03:28,Q1 03:28,0,0,1610612745.0,Terry,SUB in: J. Terry,substitution,rebound,0,Low
+21500287,90,rebound,1,PT03M27.00S,03:27,Q1 03:27,0,0,1610612745.0,Harrell,Harrell REBOUND (Off:1 Def:1),substitution,2pt missed,0,Low
+21500287,91,2pt,1,PT03M26.00S,03:26,Q1 03:26,0,0,1610612745.0,Harrell,MISS Harrell 1' Layup,rebound,block,0,Low
+21500287,91,block,1,PT03M26.00S,03:26,Q1 03:26,0,0,1610612742.0,Villanueva,Villanueva BLOCK (1 BLK),2pt missed,rebound,0,Low
+21500287,92,rebound,1,PT03M25.00S,03:25,Q1 03:25,0,0,1610612742.0,Villanueva,Villanueva REBOUND (Off:0 Def:1),block,turnover,0,Low
+21500287,93,turnover,1,PT03M18.00S,03:18,Q1 03:18,0,0,1610612742.0,Williams,D. Williams Bad Pass Turnover (P2.T4),rebound,steal,0,Low
+21500287,93,steal,1,PT03M18.00S,03:18,Q1 03:18,0,0,1610612745.0,Harrell,Harrell STEAL (1 STL),turnover,turnover,0,Low
+21500287,94,turnover,1,PT03M14.00S,03:14,Q1 03:14,0,0,1610612745.0,Brewer,Brewer Bad Pass Turnover (P1.T5),steal,steal,0,Low
+21500287,94,steal,1,PT03M14.00S,03:14,Q1 03:14,0,0,1610612742.0,Matthews,Matthews STEAL (1 STL),turnover,2pt made,0,Low
+21500287,95,2pt,1,PT03M10.00S,03:10,Q1 03:10,22,15,1610612742.0,Williams,D. Williams 1' Running Layup (8 PTS) (Matthews 1 AST),steal,2pt missed,7,Low
+21500287,96,2pt,1,PT02M54.00S,02:54,Q1 02:54,0,0,1610612745.0,Jones,MISS Jones 7' Hook Shot,2pt made,rebound,0,Low
+21500287,97,rebound,1,PT02M54.00S,02:54,Q1 02:54,0,0,1610612745.0,Harrell,Harrell REBOUND (Off:2 Def:1),2pt missed,2pt made,0,Low
+21500287,100,2pt,1,PT02M36.00S,02:36,Q1 02:36,22,17,1610612745.0,Terry,Terry 2' Driving Layup (2 PTS),rebound,substitution,5,Low
+21500287,99,substitution,1,PT02M36.00S,02:36,Q1 02:36,0,0,1610612742.0,Parsons,SUB out: C. Parsons,2pt made,substitution,0,Low
+21500287,100,substitution,1,PT02M36.00S,02:36,Q1 02:36,0,0,1610612742.0,Matthews,SUB out: W. Matthews,substitution,substitution,0,Low
+21500287,101,substitution,1,PT02M36.00S,02:36,Q1 02:36,0,0,1610612742.0,Pachulia,SUB out: Z. Pachulia,substitution,substitution,0,Low
+21500287,102,substitution,1,PT02M36.00S,02:36,Q1 02:36,0,0,1610612742.0,Williams,SUB out: D. Williams,substitution,substitution,0,Low
+21500287,103,substitution,1,PT02M36.00S,02:36,Q1 02:36,0,0,1610612742.0,Felton,SUB in: R. Felton,substitution,substitution,0,Low
+21500287,104,substitution,1,PT02M36.00S,02:36,Q1 02:36,0,0,1610612742.0,Harris,SUB in: D. Harris,substitution,substitution,0,Low
+21500287,105,substitution,1,PT02M36.00S,02:36,Q1 02:36,0,0,1610612742.0,Parsons,SUB in: C. Parsons,substitution,substitution,0,Low
+21500287,106,substitution,1,PT02M36.00S,02:36,Q1 02:36,0,0,1610612742.0,Nowitzki,SUB in: D. Nowitzki,substitution,turnover,0,Low
+21500287,104,turnover,1,PT02M20.00S,02:20,Q1 02:20,0,0,1610612742.0,Villanueva,Villanueva Lost Ball Turnover (P1.T5),substitution,steal,0,Low
+21500287,104,steal,1,PT02M20.00S,02:20,Q1 02:20,0,0,1610612745.0,Brewer,Brewer STEAL (1 STL),turnover,3pt made,0,Low
+21500287,106,3pt,1,PT02M10.00S,02:10,Q1 02:10,22,20,1610612745.0,Lawson,Lawson 25' 3PT Jump Shot (3 PTS) (Terry 1 AST),steal,3pt missed,2,Low
+21500287,107,3pt,1,PT01M51.00S,01:51,Q1 01:51,0,0,1610612742.0,Parsons,MISS Parsons 25' 3PT Jump Shot,3pt made,rebound,0,Low
+21500287,108,rebound,1,PT01M50.00S,01:50,Q1 01:50,0,0,1610612745.0,,TEAM defensive REBOUND,3pt missed,3pt made,0,Low
+21500287,109,3pt,1,PT01M27.00S,01:27,Q1 01:27,22,23,1610612745.0,Brewer,Brewer  3PT Jump Shot (3 PTS) (Harrell 1 AST),rebound,2pt made,1,Low
+21500287,110,2pt,1,PT01M11.00S,01:11,Q1 01:11,24,23,1610612742.0,Parsons,Parsons 1' Driving Finger Roll Layup (7 PTS),3pt made,foul,1,Low
+21500287,111,foul,1,PT01M00.00S,01:00,Q1 01:00,0,0,1610612745.0,Jones,Jones OFF.Foul (P2) (T.Washington),2pt made,turnover,0,Low
+21500287,112,turnover,1,PT01M00.00S,01:00,Q1 01:00,0,0,1610612745.0,Jones,Jones Foul Turnover (P2.T6),foul,substitution,0,Low
+21500287,113,substitution,1,PT01M00.00S,01:00,Q1 01:00,0,0,1610612745.0,Jones,SUB out: T. Jones,turnover,substitution,0,Low
+21500287,114,substitution,1,PT01M00.00S,01:00,Q1 01:00,0,0,1610612745.0,Capela,SUB in: C. Capela,substitution,2pt made,0,Low
+21500287,114,2pt,1,PT00M31.00S,00:31,Q1 00:31,26,23,1610612742.0,Nowitzki,Nowitzki  Layup (2 PTS) (Felton 2 AST),substitution,3pt made,3,Low
+21500287,116,3pt,1,PT00M14.00S,00:14,Q1 00:14,26,26,1610612745.0,Terry,Terry  3PT Jump Shot (5 PTS) (Brewer 1 AST),2pt made,foul,0,Low
+21500287,118,foul,1,PT00M07.20S,00:07,Q1 00:07,0,0,1610612745.0,Lawson,Lawson Personal Take Foul (P1.T3) (B.Barnaky),3pt made,substitution,0,Low
+21500287,119,substitution,1,PT00M07.20S,00:07,Q1 00:07,0,0,1610612745.0,Terry,SUB out: J. Terry,foul,substitution,0,Low
+21500287,120,substitution,1,PT00M07.20S,00:07,Q1 00:07,0,0,1610612745.0,Harrell,SUB out: M. Harrell,substitution,substitution,0,Low
+21500287,121,substitution,1,PT00M07.20S,00:07,Q1 00:07,0,0,1610612745.0,Ariza,SUB in: T. Ariza,substitution,substitution,0,Low
+21500287,122,substitution,1,PT00M07.20S,00:07,Q1 00:07,0,0,1610612745.0,Beverley,SUB in: P. Beverley,substitution,2pt made,0,Low
+21500287,121,2pt,1,PT00M02.70S,00:02,Q1 00:02,28,26,1610612742.0,Villanueva,Villanueva 1' Driving Layup (2 PTS),substitution,3pt missed,2,Low
+21500287,122,3pt,1,PT00M00.80S,00:00,Q1 00:00,0,0,1610612745.0,Brewer,MISS Brewer 52' 3PT Jump Shot,2pt made,rebound,0,Low
+21500287,123,rebound,1,PT00M00.00S,00:00,Q1 00:00,0,0,1610612745.0,,TEAM offensive REBOUND,3pt missed,period,0,Low
+21500287,125,period,1,PT00M00.00S,00:00,Q1 00:00,28,26,1610612742.0,,End of 1st Period (9:07 PM EST),rebound,period,2,Low
+21500287,127,period,2,PT12M00.00S,12:00,Q2 12:00,28,26,1610612742.0,,Start of 2nd Period (9:09 PM EST),period,substitution,2,Low
+21500287,128,2pt,2,PT11M44.00S,11:44,Q2 11:44,0,0,1610612742.0,Parsons,MISS Parsons 19' Jump Shot,substitution,rebound,0,Low
+21500287,129,rebound,2,PT11M43.00S,11:43,Q2 11:43,0,0,1610612745.0,Capela,Capela REBOUND (Off:1 Def:2),2pt missed,2pt made,0,Low
+21500287,130,2pt,2,PT11M33.00S,11:33,Q2 11:33,28,28,1610612745.0,Brewer,Brewer 11' Turnaround Jump Shot (5 PTS),rebound,2pt made,0,Low
+21500287,131,2pt,2,PT11M18.00S,11:18,Q2 11:18,30,28,1610612742.0,Harris,Harris 21' Jump Shot (2 PTS) (Parsons 3 AST),2pt made,foul,2,Low
+21500287,132,foul,2,PT11M09.00S,11:09,Q2 11:09,0,0,1610612742.0,McGee,McGee Shooting Block Foul (P1.T1) (G.Petraitis),2pt made,freethrow,0,Low
+21500287,133,freethrow,2,PT11M09.00S,11:09,Q2 11:09,0,0,1610612745.0,Capela,MISS Capela Free Throw 1 of 2,foul,rebound,0,Low
+21500287,134,rebound,2,PT11M09.00S,11:09,Q2 11:09,0,0,1610612745.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21500287,135,freethrow,2,PT11M09.00S,11:09,Q2 11:09,30,29,1610612745.0,Capela,Capela Free Throw 2 of 2 (2 PTS),rebound,2pt missed,1,Low
+21500287,137,2pt,2,PT10M55.00S,10:55,Q2 10:55,0,0,1610612742.0,Parsons,MISS Parsons 2' Driving Layup,freethrow,block,0,Low
+21500287,137,block,2,PT10M55.00S,10:55,Q2 10:55,0,0,1610612745.0,Capela,Capela BLOCK (2 BLK),2pt missed,rebound,0,Low
+21500287,138,rebound,2,PT10M54.00S,10:54,Q2 10:54,0,0,1610612745.0,Terry,Terry REBOUND (Off:0 Def:1),block,2pt missed,0,Low
+21500287,140,2pt,2,PT10M47.00S,10:47,Q2 10:47,0,0,1610612745.0,Lawson,MISS Lawson 17' Jump Shot,rebound,rebound,0,Low
+21500287,141,rebound,2,PT10M47.00S,10:47,Q2 10:47,0,0,1610612745.0,Capela,Capela REBOUND (Off:2 Def:2),2pt missed,2pt missed,0,Low
+21500287,142,2pt,2,PT10M44.00S,10:44,Q2 10:44,0,0,1610612745.0,Capela,MISS Capela 2' Hook Shot,rebound,rebound,0,Low
+21500287,143,rebound,2,PT10M43.00S,10:43,Q2 10:43,0,0,1610612742.0,Nowitzki,Nowitzki REBOUND (Off:0 Def:3),2pt missed,2pt made,0,Low
+21500287,144,2pt,2,PT10M33.00S,10:33,Q2 10:33,32,29,1610612742.0,Parsons,Parsons 1' Reverse Layup (9 PTS),rebound,2pt missed,3,Low
+21500287,145,2pt,2,PT10M09.00S,10:09,Q2 10:09,0,0,1610612745.0,Terry,MISS Terry 21' Jump Shot,2pt made,rebound,0,Low
+21500287,146,rebound,2,PT10M08.00S,10:08,Q2 10:08,0,0,1610612742.0,Nowitzki,Nowitzki REBOUND (Off:0 Def:4),2pt missed,foul,0,Low
+21500287,147,foul,2,PT10M08.00S,10:08,Q2 10:08,0,0,1610612745.0,Harrell,Harrell L.B.FOUL (P2.T1) (T.Washington),rebound,2pt made,0,Low
+21500287,148,2pt,2,PT09M50.00S,09:50,Q2 09:50,34,29,1610612742.0,Harris,Harris 1' Running Reverse Layup (4 PTS) (Felton 3 AST),foul,foul,5,Low
+21500287,149,foul,2,PT09M37.00S,09:37,Q2 09:37,0,0,1610612742.0,Parsons,Parsons P.FOUL (P1.T2) (G.Petraitis),2pt made,turnover,0,Low
+21500287,150,turnover,2,PT09M33.00S,09:33,Q2 09:33,0,0,1610612745.0,Capela,Capela Traveling Turnover (P1.T7),foul,2pt missed,0,Low
+21500287,151,2pt,2,PT09M19.00S,09:19,Q2 09:19,0,0,1610612742.0,McGee,MISS McGee 1' Driving Finger Roll Layup,turnover,rebound,0,Low
+21500287,152,rebound,2,PT09M18.00S,09:18,Q2 09:18,0,0,1610612745.0,Capela,Capela REBOUND (Off:2 Def:3),2pt missed,2pt made,0,Low
+21500287,153,2pt,2,PT09M13.00S,09:13,Q2 09:13,34,31,1610612745.0,Lawson,Lawson 6' Driving Hook Shot (5 PTS),rebound,foul,3,Low
+21500287,154,foul,2,PT09M13.00S,09:13,Q2 09:13,0,0,1610612742.0,Felton,Felton S.FOUL (P1.T3) (T.Washington),2pt made,freethrow,0,Low
+21500287,156,freethrow,2,PT09M13.00S,09:13,Q2 09:13,34,32,1610612745.0,Lawson,Lawson Free Throw 1 of 1 (6 PTS),foul,substitution,2,Low
+21500287,155,substitution,2,PT09M13.00S,09:13,Q2 09:13,0,0,1610612745.0,Terry,SUB out: J. Terry,freethrow,substitution,0,Low
+21500287,156,substitution,2,PT09M13.00S,09:13,Q2 09:13,0,0,1610612745.0,Harden,SUB in: J. Harden,substitution,3pt missed,0,Low
+21500287,158,3pt,2,PT08M58.00S,08:58,Q2 08:58,0,0,1610612742.0,Nowitzki,MISS Nowitzki 24' 3PT Jump Shot,substitution,rebound,0,Low
+21500287,159,rebound,2,PT08M57.00S,08:57,Q2 08:57,0,0,1610612745.0,Capela,Capela REBOUND (Off:2 Def:4),3pt missed,3pt missed,0,Low
+21500287,160,3pt,2,PT08M50.00S,08:50,Q2 08:50,0,0,1610612745.0,Harden,MISS Harden 26' 3PT Jump Shot,rebound,rebound,0,Low
+21500287,161,rebound,2,PT08M49.00S,08:49,Q2 08:49,0,0,1610612742.0,Nowitzki,Nowitzki REBOUND (Off:0 Def:5),3pt missed,2pt missed,0,Low
+21500287,162,2pt,2,PT08M39.00S,08:39,Q2 08:39,0,0,1610612742.0,Nowitzki,MISS Nowitzki 18' Jump Shot,rebound,rebound,0,Low
+21500287,163,rebound,2,PT08M38.00S,08:38,Q2 08:38,0,0,1610612745.0,Capela,Capela REBOUND (Off:2 Def:5),2pt missed,timeout,0,Low
+21500287,164,timeout,2,PT08M38.00S,08:38,Q2 08:38,0,0,0.0,,Timeout: Official,rebound,foul,0,Low
+21500287,165,foul,2,PT08M38.00S,08:38,Q2 08:38,0,0,1610612742.0,McGee,McGee P.FOUL (P2.T4) (T.Washington),timeout,substitution,0,Low
+21500287,167,substitution,2,PT08M38.00S,08:38,Q2 08:38,0,0,1610612742.0,Nowitzki,SUB out: D. Nowitzki,foul,substitution,0,Low
+21500287,168,substitution,2,PT08M38.00S,08:38,Q2 08:38,0,0,1610612742.0,Parsons,SUB out: C. Parsons,substitution,substitution,0,Low
+21500287,169,substitution,2,PT08M38.00S,08:38,Q2 08:38,0,0,1610612742.0,Harris,SUB out: D. Harris,substitution,substitution,0,Low
+21500287,170,substitution,2,PT08M38.00S,08:38,Q2 08:38,0,0,1610612742.0,McGee,SUB out: J. McGee,substitution,substitution,0,Low
+21500287,171,substitution,2,PT08M38.00S,08:38,Q2 08:38,0,0,1610612745.0,Harrell,SUB out: M. Harrell,substitution,substitution,0,Low
+21500287,172,substitution,2,PT08M38.00S,08:38,Q2 08:38,0,0,1610612742.0,Williams,SUB in: D. Williams,substitution,substitution,0,Low
+21500287,173,substitution,2,PT08M38.00S,08:38,Q2 08:38,0,0,1610612742.0,Villanueva,SUB in: C. Villanueva,substitution,substitution,0,Low
+21500287,174,substitution,2,PT08M38.00S,08:38,Q2 08:38,0,0,1610612742.0,Matthews,SUB in: W. Matthews,substitution,substitution,0,Low
+21500287,175,substitution,2,PT08M38.00S,08:38,Q2 08:38,0,0,1610612742.0,Pachulia,SUB in: Z. Pachulia,substitution,substitution,0,Low
+21500287,176,substitution,2,PT08M38.00S,08:38,Q2 08:38,0,0,1610612745.0,Ariza,SUB in: T. Ariza,substitution,2pt missed,0,Low
+21500287,172,2pt,2,PT08M23.00S,08:23,Q2 08:23,0,0,1610612745.0,Capela,MISS Capela 4' Jump Shot,substitution,rebound,0,Low
+21500287,173,rebound,2,PT08M21.00S,08:21,Q2 08:21,0,0,1610612745.0,Capela,Capela REBOUND (Off:3 Def:5),2pt missed,2pt missed,0,Low
+21500287,174,2pt,2,PT08M20.00S,08:20,Q2 08:20,0,0,1610612745.0,Capela,MISS Capela 2' Putback Layup,rebound,rebound,0,Low
+21500287,175,rebound,2,PT08M20.00S,08:20,Q2 08:20,0,0,1610612745.0,Harden,Harden REBOUND (Off:1 Def:1),2pt missed,3pt made,0,Low
+21500287,176,3pt,2,PT08M16.00S,08:16,Q2 08:16,34,35,1610612745.0,Ariza,Ariza  3PT Jump Shot (3 PTS) (Harden 2 AST),rebound,3pt missed,1,Low
+21500287,177,3pt,2,PT07M56.00S,07:56,Q2 07:56,0,0,1610612742.0,Matthews,MISS Matthews 24' 3PT Jump Shot,3pt made,rebound,0,Low
+21500287,178,rebound,2,PT07M55.00S,07:55,Q2 07:55,0,0,1610612742.0,Pachulia,Pachulia REBOUND (Off:3 Def:1),3pt missed,foul,0,Low
+21500287,179,foul,2,PT07M55.00S,07:55,Q2 07:55,0,0,1610612745.0,Harden,Harden P.FOUL (P1.T2) (T.Washington),rebound,2pt made,0,Low
+21500287,180,2pt,2,PT07M48.00S,07:48,Q2 07:48,36,35,1610612742.0,Pachulia,Pachulia 2' Driving Finger Roll Layup (4 PTS) (Felton 4 AST),foul,2pt missed,1,Low
+21500287,181,2pt,2,PT07M29.00S,07:29,Q2 07:29,0,0,1610612745.0,Lawson,MISS Lawson 19' Jump Shot,2pt made,rebound,0,Low
+21500287,182,rebound,2,PT07M28.00S,07:28,Q2 07:28,0,0,1610612745.0,Capela,Capela REBOUND (Off:4 Def:5),2pt missed,2pt missed,0,Low
+21500287,183,2pt,2,PT07M22.00S,07:22,Q2 07:22,0,0,1610612745.0,Capela,MISS Capela 2' Layup,rebound,block,0,Low
+21500287,183,block,2,PT07M22.00S,07:22,Q2 07:22,0,0,1610612742.0,Villanueva,Villanueva BLOCK (2 BLK),2pt missed,rebound,0,Low
+21500287,184,rebound,2,PT07M22.00S,07:22,Q2 07:22,0,0,1610612745.0,,TEAM offensive REBOUND,block,substitution,0,Low
+21500287,185,substitution,2,PT07M22.00S,07:22,Q2 07:22,0,0,1610612745.0,Lawson,SUB out: T. Lawson,rebound,substitution,0,Low
+21500287,186,substitution,2,PT07M22.00S,07:22,Q2 07:22,0,0,1610612745.0,Capela,SUB out: C. Capela,substitution,substitution,0,Low
+21500287,187,substitution,2,PT07M22.00S,07:22,Q2 07:22,0,0,1610612745.0,Beverley,SUB in: P. Beverley,substitution,substitution,0,Low
+21500287,188,substitution,2,PT07M22.00S,07:22,Q2 07:22,0,0,1610612745.0,Jones,SUB in: T. Jones,substitution,2pt made,0,Low
+21500287,187,2pt,2,PT07M16.00S,07:16,Q2 07:16,36,37,1610612745.0,Harden,Harden 9' Floating Jump Shot (7 PTS),substitution,3pt missed,1,Low
+21500287,188,3pt,2,PT07M01.00S,07:01,Q2 07:01,0,0,1610612742.0,Matthews,MISS Matthews  3PT Jump Shot,2pt made,rebound,0,Low
+21500287,189,rebound,2,PT07M00.00S,07:00,Q2 07:00,0,0,1610612745.0,Brewer,Brewer REBOUND (Off:0 Def:1),3pt missed,2pt missed,0,Low
+21500287,190,2pt,2,PT06M54.00S,06:54,Q2 06:54,0,0,1610612745.0,Harden,MISS Harden  Driving Layup,rebound,2pt made,0,Low
+21500287,191,2pt,2,PT06M53.00S,06:53,Q2 06:53,36,39,1610612745.0,Jones,Jones 1' Tip Layup Shot (2 PTS),2pt missed,rebound,3,Low
+21500287,192,rebound,2,PT06M53.00S,06:53,Q2 06:53,0,0,1610612745.0,Jones,Jones REBOUND (Off:1 Def:1),2pt made,turnover,0,Low
+21500287,193,turnover,2,PT06M37.00S,06:37,Q2 06:37,0,0,1610612742.0,Felton,Felton Bad Pass Turnover (P2.T6),rebound,steal,0,Low
+21500287,193,steal,2,PT06M37.00S,06:37,Q2 06:37,0,0,1610612745.0,Beverley,Beverley STEAL (1 STL),turnover,2pt missed,0,Low
+21500287,194,2pt,2,PT06M26.00S,06:26,Q2 06:26,0,0,1610612745.0,Harden,MISS Harden 19' Jump Shot,steal,rebound,0,Low
+21500287,195,rebound,2,PT06M25.00S,06:25,Q2 06:25,0,0,1610612742.0,Pachulia,Pachulia REBOUND (Off:3 Def:2),2pt missed,3pt missed,0,Low
+21500287,196,3pt,2,PT06M16.00S,06:16,Q2 06:16,0,0,1610612742.0,Williams,MISS D. Williams 24' 3PT Jump Shot,rebound,rebound,0,Low
+21500287,197,rebound,2,PT06M15.00S,06:15,Q2 06:15,0,0,1610612745.0,Jones,Jones REBOUND (Off:1 Def:2),3pt missed,2pt made,0,Low
+21500287,198,2pt,2,PT05M59.00S,05:59,Q2 05:59,36,41,1610612745.0,Jones,Jones 7' Driving Bank Shot (4 PTS) (Beverley 1 AST),rebound,timeout,5,Low
+21500287,199,timeout,2,PT05M58.00S,05:58,Q2 05:58,0,0,1610612742.0,,MAVERICKS Timeout: Regular (Full 2 Short 0),2pt made,substitution,0,Low
+21500287,201,substitution,2,PT05M58.00S,05:58,Q2 05:58,0,0,1610612742.0,Felton,SUB out: R. Felton,timeout,substitution,0,Low
+21500287,202,substitution,2,PT05M58.00S,05:58,Q2 05:58,0,0,1610612745.0,Brewer,SUB out: C. Brewer,substitution,substitution,0,Low
+21500287,203,substitution,2,PT05M58.00S,05:58,Q2 05:58,0,0,1610612742.0,Harris,SUB in: D. Harris,substitution,substitution,0,Low
+21500287,204,substitution,2,PT05M58.00S,05:58,Q2 05:58,0,0,1610612745.0,Thornton,SUB in: M. Thornton,substitution,3pt missed,0,Low
+21500287,203,3pt,2,PT05M35.00S,05:35,Q2 05:35,0,0,1610612742.0,Williams,MISS D. Williams 28' 3PT Jump Shot,substitution,rebound,0,Low
+21500287,204,rebound,2,PT05M33.00S,05:33,Q2 05:33,0,0,1610612745.0,,TEAM defensive REBOUND,3pt missed,3pt made,0,Low
+21500287,205,3pt,2,PT05M11.00S,05:11,Q2 05:11,36,44,1610612745.0,Ariza,Ariza  3PT Jump Shot (6 PTS) (Harden 3 AST),rebound,turnover,8,Low
+21500287,206,turnover,2,PT05M02.00S,05:02,Q2 05:02,0,0,1610612742.0,Williams,D. Williams Bad Pass Turnover (P3.T7),3pt made,steal,0,Low
+21500287,206,steal,2,PT05M02.00S,05:02,Q2 05:02,0,0,1610612745.0,Ariza,Ariza STEAL (1 STL),turnover,2pt made,0,Low
+21500287,207,2pt,2,PT04M58.00S,04:58,Q2 04:58,36,46,1610612745.0,Ariza,Ariza  Running Dunk (8 PTS),steal,timeout,10,Low
+21500287,208,timeout,2,PT04M57.00S,04:57,Q2 04:57,0,0,1610612742.0,,MAVERICKS Timeout: Short (Full 2 Short 1),2pt made,substitution,0,Low
+21500287,210,substitution,2,PT04M57.00S,04:57,Q2 04:57,0,0,1610612742.0,Pachulia,SUB out: Z. Pachulia,timeout,substitution,0,Low
+21500287,211,substitution,2,PT04M57.00S,04:57,Q2 04:57,0,0,1610612742.0,Villanueva,SUB out: C. Villanueva,substitution,substitution,0,Low
+21500287,212,substitution,2,PT04M57.00S,04:57,Q2 04:57,0,0,1610612742.0,Powell,SUB in: D. Powell,substitution,substitution,0,Low
+21500287,213,substitution,2,PT04M57.00S,04:57,Q2 04:57,0,0,1610612742.0,Nowitzki,SUB in: D. Nowitzki,substitution,foul,0,Low
+21500287,213,foul,2,PT04M49.00S,04:49,Q2 04:49,0,0,1610612745.0,Ariza,Ariza P.FOUL (P1.T3) (G.Petraitis),substitution,3pt made,0,Low
+21500287,214,3pt,2,PT04M34.00S,04:34,Q2 04:34,39,46,1610612742.0,Harris,Harris 24' 3PT Jump Shot (7 PTS) (Nowitzki 1 AST),foul,2pt made,7,Low
+21500287,215,2pt,2,PT04M24.00S,04:24,Q2 04:24,39,48,1610612745.0,Jones,Jones  Layup (6 PTS) (Harden 4 AST),3pt made,foul,9,Low
+21500287,216,foul,2,PT04M24.00S,04:24,Q2 04:24,0,0,1610612742.0,Nowitzki,Nowitzki S.FOUL (P1.PN) (B.Barnaky),2pt made,freethrow,0,Low
+21500287,217,freethrow,2,PT04M24.00S,04:24,Q2 04:24,39,49,1610612745.0,Jones,Jones Free Throw 1 of 1 (7 PTS),foul,2pt made,10,Low
+21500287,219,2pt,2,PT04M06.00S,04:06,Q2 04:06,41,49,1610612742.0,Powell,Powell  Dunk (6 PTS) (Nowitzki 2 AST),freethrow,3pt made,8,Low
+21500287,220,3pt,2,PT03M54.00S,03:54,Q2 03:54,41,52,1610612745.0,Ariza,Ariza 24' 3PT Jump Shot (11 PTS) (Harden 5 AST),2pt made,2pt made,11,Low
+21500287,221,2pt,2,PT03M36.00S,03:36,Q2 03:36,43,52,1610612742.0,Harris,Harris 2' Cutting Layup Shot (9 PTS) (Nowitzki 3 AST),3pt made,turnover,9,Low
+21500287,222,turnover,2,PT03M25.00S,03:25,Q2 03:25,0,0,1610612745.0,Harden,Harden Out of Bounds Lost Ball Turnover (P1.T8),2pt made,2pt made,0,Low
+21500287,223,2pt,2,PT03M11.00S,03:11,Q2 03:11,45,52,1610612742.0,Nowitzki,Nowitzki 7' Step Back Jump Shot (4 PTS),turnover,timeout,7,Low
+21500287,224,timeout,2,PT03M02.00S,03:02,Q2 03:02,0,0,1610612745.0,,Rockets Timeout: Regular (Reg.2 Short 0),2pt made,substitution,0,Low
+21500287,226,substitution,2,PT03M02.00S,03:02,Q2 03:02,0,0,1610612742.0,Powell,SUB out: D. Powell,timeout,substitution,0,Low
+21500287,227,substitution,2,PT03M02.00S,03:02,Q2 03:02,0,0,1610612742.0,Parsons,SUB in: C. Parsons,substitution,3pt made,0,Low
+21500287,228,3pt,2,PT02M50.00S,02:50,Q2 02:50,45,55,1610612745.0,Beverley,Beverley 25' 3PT Jump Shot (12 PTS) (Harden 6 AST),substitution,turnover,10,Low
+21500287,229,turnover,2,PT02M37.00S,02:37,Q2 02:37,0,0,1610612742.0,Parsons,Parsons Bad Pass Turnover (P1.T8),3pt made,steal,0,Low
+21500287,229,steal,2,PT02M37.00S,02:37,Q2 02:37,0,0,1610612745.0,Ariza,Ariza STEAL (2 STL),turnover,2pt missed,0,Low
+21500287,230,2pt,2,PT02M28.00S,02:28,Q2 02:28,0,0,1610612745.0,Harden,MISS Harden 12' Jump Shot,steal,rebound,0,Low
+21500287,231,rebound,2,PT02M27.00S,02:27,Q2 02:27,0,0,1610612745.0,Thornton,Thornton REBOUND (Off:1 Def:0),2pt missed,2pt missed,0,Low
+21500287,232,2pt,2,PT02M25.00S,02:25,Q2 02:25,0,0,1610612745.0,Thornton,MISS Thornton 7' Floating Jump Shot,rebound,2pt made,0,Low
+21500287,233,2pt,2,PT02M24.00S,02:24,Q2 02:24,45,57,1610612745.0,Thornton,Thornton 2' Putback Layup (2 PTS),2pt missed,rebound,12,Low
+21500287,234,rebound,2,PT02M24.00S,02:24,Q2 02:24,0,0,1610612745.0,Thornton,Thornton REBOUND (Off:2 Def:0),2pt made,2pt made,0,Low
+21500287,235,2pt,2,PT02M03.00S,02:03,Q2 02:03,47,57,1610612742.0,Nowitzki,Nowitzki 13' Turnaround Fadeaway (6 PTS),rebound,2pt missed,10,Low
+21500287,236,2pt,2,PT01M50.00S,01:50,Q2 01:50,0,0,1610612745.0,Harden,MISS Harden 1' Driving Layup,2pt made,rebound,0,Low
+21500287,237,rebound,2,PT01M48.00S,01:48,Q2 01:48,0,0,1610612742.0,Harris,Harris REBOUND (Off:0 Def:1),2pt missed,2pt made,0,Low
+21500287,238,2pt,2,PT01M45.00S,01:45,Q2 01:45,49,57,1610612742.0,Harris,Harris 15' Fadeaway Jumper (11 PTS),rebound,foul,8,Low
+21500287,239,foul,2,PT01M45.00S,01:45,Q2 01:45,0,0,1610612745.0,Beverley,Beverley S.FOUL (P1.T4) (B.Barnaky),2pt made,freethrow,0,Low
+21500287,240,freethrow,2,PT01M45.00S,01:45,Q2 01:45,0,0,1610612742.0,Harris,MISS Harris Free Throw 1 of 1,foul,rebound,0,Low
+21500287,242,rebound,2,PT01M44.00S,01:44,Q2 01:44,0,0,1610612745.0,Harden,Harden REBOUND (Off:1 Def:2),freethrow,foul,0,Low
+21500287,243,foul,2,PT01M38.00S,01:38,Q2 01:38,0,0,1610612745.0,Jones,Jones FLAGRANT.FOUL.TYPE1 (P3.PN) (G.Petraitis),rebound,turnover,0,Low
+21500287,244,turnover,2,PT01M38.00S,01:38,Q2 01:38,0,0,1610612745.0,Jones,Jones Foul Turnover (P3.T9),foul,instant replay,0,Low
+21500287,247,freethrow,2,PT01M38.00S,01:38,Q2 01:38,50,57,1610612742.0,Harris,Harris Free Throw Flagrant 1 of 2 (12 PTS),instant replay,freethrow,7,Low
+21500287,249,freethrow,2,PT01M38.00S,01:38,Q2 01:38,51,57,1610612742.0,Harris,Harris Free Throw Flagrant 2 of 2 (13 PTS),freethrow,substitution,6,Low
+21500287,245,substitution,2,PT01M38.00S,01:38,Q2 01:38,0,0,1610612745.0,Jones,SUB out: T. Jones,freethrow,substitution,0,Low
+21500287,246,substitution,2,PT01M38.00S,01:38,Q2 01:38,0,0,1610612745.0,Capela,SUB in: C. Capela,substitution,2pt missed,0,Low
+21500287,251,2pt,2,PT01M17.00S,01:17,Q2 01:17,0,0,1610612742.0,Harris,MISS Harris 18' Fadeaway Jumper,substitution,rebound,0,Low
+21500287,252,rebound,2,PT01M16.00S,01:16,Q2 01:16,0,0,1610612745.0,Ariza,Ariza REBOUND (Off:0 Def:2),2pt missed,3pt missed,0,Low
+21500287,253,3pt,2,PT01M10.00S,01:10,Q2 01:10,0,0,1610612745.0,Harden,MISS Harden 24' 3PT Jump Shot,rebound,rebound,0,Low
+21500287,254,rebound,2,PT01M08.00S,01:08,Q2 01:08,0,0,1610612742.0,,TEAM defensive REBOUND,3pt missed,foul,0,Low
+21500287,255,foul,2,PT01M00.00S,01:00,Q2 01:00,0,0,1610612745.0,Capela,Capela Shooting Block Foul (P1.PN) (T.Washington),rebound,freethrow,0,Low
+21500287,256,freethrow,2,PT01M00.00S,01:00,Q2 01:00,52,57,1610612742.0,Williams,D. Williams Free Throw 1 of 2 (9 PTS),foul,freethrow,5,Low
+21500287,258,freethrow,2,PT01M00.00S,01:00,Q2 01:00,53,57,1610612742.0,Williams,D. Williams Free Throw 2 of 2 (10 PTS),freethrow,2pt missed,4,Low
+21500287,261,2pt,2,PT00M43.90S,00:43,Q2 00:43,0,0,1610612745.0,Beverley,MISS Beverley 6' Floating Jump Shot,freethrow,rebound,0,Low
+21500287,262,rebound,2,PT00M42.90S,00:42,Q2 00:42,0,0,1610612742.0,Nowitzki,Nowitzki REBOUND (Off:0 Def:6),2pt missed,2pt missed,0,Low
+21500287,263,2pt,2,PT00M33.50S,00:33,Q2 00:33,0,0,1610612742.0,Nowitzki,MISS Nowitzki 15' Jump Shot,rebound,rebound,0,Low
+21500287,264,rebound,2,PT00M32.80S,00:32,Q2 00:32,0,0,1610612745.0,Ariza,Ariza REBOUND (Off:0 Def:3),2pt missed,2pt missed,0,Low
+21500287,266,2pt,2,PT00M12.90S,00:12,Q2 00:12,0,0,1610612745.0,Harden,MISS Harden 16' Jump Shot,rebound,rebound,0,Low
+21500287,267,rebound,2,PT00M11.80S,00:11,Q2 00:11,0,0,1610612742.0,Parsons,Parsons REBOUND (Off:0 Def:2),2pt missed,3pt missed,0,Low
+21500287,268,3pt,2,PT00M01.00S,00:01,Q2 00:01,0,0,1610612742.0,Matthews,MISS Matthews  3PT Jump Shot,rebound,rebound,0,Low
+21500287,269,rebound,2,PT00M00.00S,00:00,Q2 00:00,0,0,1610612742.0,,TEAM offensive REBOUND,3pt missed,period,0,Low
+21500287,270,period,2,PT00M00.00S,00:00,Q2 00:00,53,57,1610612742.0,,End of 2nd Period (9:39 PM EST),rebound,period,4,Low
+21500287,271,period,3,PT12M00.00S,12:00,Q3 12:00,53,57,1610612742.0,,Start of 3rd Period (9:55 PM EST),period,substitution,4,Low
+21500287,272,turnover,3,PT11M50.00S,11:50,Q3 11:50,0,0,1610612742.0,Felton,Felton Bad Pass Turnover (P3.T9),substitution,steal,0,Low
+21500287,272,steal,3,PT11M50.00S,11:50,Q3 11:50,0,0,1610612745.0,Ariza,Ariza STEAL (3 STL),turnover,2pt made,0,Low
+21500287,273,2pt,3,PT11M46.00S,11:46,Q3 11:46,53,59,1610612745.0,Harden,Harden 1' Running Layup (9 PTS) (Ariza 1 AST),steal,2pt missed,6,Low
+21500287,274,2pt,3,PT11M27.00S,11:27,Q3 11:27,0,0,1610612742.0,Pachulia,MISS Pachulia 1' Cutting Layup Shot,2pt made,rebound,0,Low
+21500287,275,rebound,3,PT11M26.00S,11:26,Q3 11:26,0,0,1610612742.0,Pachulia,Pachulia REBOUND (Off:4 Def:2),2pt missed,foul,0,Low
+21500287,276,foul,3,PT11M26.00S,11:26,Q3 11:26,0,0,1610612745.0,Capela,Capela S.FOUL (P2.T1) (B.Barnaky),rebound,freethrow,0,Low
+21500287,277,freethrow,3,PT11M26.00S,11:26,Q3 11:26,0,0,1610612742.0,Pachulia,MISS Pachulia Free Throw 1 of 2,foul,rebound,0,Low
+21500287,278,rebound,3,PT11M26.00S,11:26,Q3 11:26,0,0,1610612742.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21500287,279,freethrow,3,PT11M26.00S,11:26,Q3 11:26,54,59,1610612742.0,Pachulia,Pachulia Free Throw 2 of 2 (5 PTS),rebound,2pt made,5,Low
+21500287,281,2pt,3,PT11M01.00S,11:01,Q3 11:01,54,61,1610612745.0,Beverley,Beverley 9' Running Jump Shot (14 PTS),freethrow,turnover,7,Low
+21500287,282,turnover,3,PT10M48.00S,10:48,Q3 10:48,0,0,1610612742.0,Williams,D. Williams Bad Pass Turnover (P4.T10),2pt made,steal,0,Low
+21500287,282,steal,3,PT10M48.00S,10:48,Q3 10:48,0,0,1610612745.0,Harden,Harden STEAL (1 STL),turnover,2pt made,0,Low
+21500287,283,2pt,3,PT10M44.00S,10:44,Q3 10:44,54,63,1610612745.0,Harden,Harden  Running Dunk (11 PTS),steal,3pt missed,9,Low
+21500287,284,3pt,3,PT10M20.00S,10:20,Q3 10:20,0,0,1610612742.0,Williams,MISS D. Williams 25' 3PT Jump Shot,2pt made,rebound,0,Low
+21500287,285,rebound,3,PT10M19.00S,10:19,Q3 10:19,0,0,1610612742.0,Pachulia,Pachulia REBOUND (Off:5 Def:2),3pt missed,foul,0,Low
+21500287,286,foul,3,PT10M19.00S,10:19,Q3 10:19,0,0,1610612745.0,Capela,Capela L.B.FOUL (P3.T2) (G.Petraitis),rebound,3pt missed,0,Low
+21500287,287,3pt,3,PT10M08.00S,10:08,Q3 10:08,0,0,1610612742.0,Williams,MISS D. Williams 24' 3PT Jump Shot,foul,rebound,0,Low
+21500287,288,rebound,3,PT10M07.00S,10:07,Q3 10:07,0,0,1610612745.0,Harden,Harden REBOUND (Off:1 Def:3),3pt missed,turnover,0,Low
+21500287,289,turnover,3,PT10M00.00S,10:00,Q3 10:00,0,0,1610612745.0,Harden,Harden Lost Ball Turnover (P2.T10),rebound,steal,0,Low
+21500287,289,steal,3,PT10M00.00S,10:00,Q3 10:00,0,0,1610612742.0,Nowitzki,Nowitzki STEAL (1 STL),turnover,foul,0,Low
+21500287,290,foul,3,PT09M53.00S,09:53,Q3 09:53,0,0,1610612745.0,Beverley,Beverley P.FOUL (P2.T3) (T.Washington),steal,2pt made,0,Low
+21500287,291,2pt,3,PT09M47.00S,09:47,Q3 09:47,56,63,1610612742.0,Felton,Felton  Cutting Layup Shot (2 PTS) (Pachulia 1 AST),foul,3pt missed,7,Low
+21500287,292,3pt,3,PT09M36.00S,09:36,Q3 09:36,0,0,1610612745.0,Harden,MISS Harden 24' 3PT Jump Shot,2pt made,rebound,0,Low
+21500287,293,rebound,3,PT09M35.00S,09:35,Q3 09:35,0,0,1610612742.0,Nowitzki,Nowitzki REBOUND (Off:0 Def:7),3pt missed,3pt missed,0,Low
+21500287,294,3pt,3,PT09M09.00S,09:09,Q3 09:09,0,0,1610612742.0,Matthews,MISS Matthews 24' 3PT Jump Shot,rebound,rebound,0,Low
+21500287,295,rebound,3,PT09M08.00S,09:08,Q3 09:08,0,0,1610612745.0,Jones,Jones REBOUND (Off:1 Def:3),3pt missed,turnover,0,Low
+21500287,296,turnover,3,PT08M54.00S,08:54,Q3 08:54,0,0,1610612745.0,Beverley,Beverley Step Out of Bounds Turnover (P2.T11),rebound,3pt made,0,Low
+21500287,297,3pt,3,PT08M39.00S,08:39,Q3 08:39,59,63,1610612742.0,Felton,Felton  3PT Jump Shot (5 PTS) (D. Williams 4 AST),turnover,3pt missed,4,Low
+21500287,298,3pt,3,PT08M27.00S,08:27,Q3 08:27,0,0,1610612745.0,Ariza,MISS Ariza 25' 3PT Jump Shot,3pt made,rebound,0,Low
+21500287,299,rebound,3,PT08M25.00S,08:25,Q3 08:25,0,0,1610612745.0,Jones,Jones REBOUND (Off:2 Def:3),3pt missed,2pt missed,0,Low
+21500287,300,2pt,3,PT08M09.00S,08:09,Q3 08:09,0,0,1610612745.0,Jones,MISS Jones 6' Turnaround Bank Hook Shot,rebound,rebound,0,Low
+21500287,301,rebound,3,PT08M07.00S,08:07,Q3 08:07,0,0,1610612745.0,Capela,Capela REBOUND (Off:5 Def:5),2pt missed,2pt made,0,Low
+21500287,302,2pt,3,PT08M03.00S,08:03,Q3 08:03,59,65,1610612745.0,Jones,Jones 2' Cutting Layup Shot (9 PTS) (Capela 1 AST),rebound,timeout,6,Low
+21500287,304,timeout,3,PT07M51.00S,07:51,Q3 07:51,0,0,1610612745.0,,Rockets Timeout: Regular (Reg.3 Short 0),2pt made,2pt missed,0,Low
+21500287,308,2pt,3,PT07M43.00S,07:43,Q3 07:43,0,0,1610612742.0,Nowitzki,MISS Nowitzki 19' Jump Shot,timeout,rebound,0,Low
+21500287,309,rebound,3,PT07M42.00S,07:42,Q3 07:42,0,0,1610612742.0,Nowitzki,Nowitzki REBOUND (Off:1 Def:7),2pt missed,2pt made,0,Low
+21500287,310,2pt,3,PT07M38.00S,07:38,Q3 07:38,61,65,1610612742.0,Nowitzki,Nowitzki 21' Jump Shot (8 PTS),rebound,foul,4,Low
+21500287,311,foul,3,PT07M13.00S,07:13,Q3 07:13,0,0,1610612742.0,Felton,Felton S.FOUL (P2.T1) (G.Petraitis),2pt made,freethrow,0,Low
+21500287,312,freethrow,3,PT07M13.00S,07:13,Q3 07:13,61,66,1610612745.0,Harden,Harden Free Throw 1 of 2 (12 PTS),foul,freethrow,5,Low
+21500287,316,freethrow,3,PT07M13.00S,07:13,Q3 07:13,61,67,1610612745.0,Harden,Harden Free Throw 2 of 2 (13 PTS),freethrow,substitution,6,Low
+21500287,314,substitution,3,PT07M13.00S,07:13,Q3 07:13,0,0,1610612742.0,Matthews,SUB out: W. Matthews,freethrow,substitution,0,Low
+21500287,315,substitution,3,PT07M13.00S,07:13,Q3 07:13,0,0,1610612745.0,Beverley,SUB out: P. Beverley,substitution,substitution,0,Low
+21500287,316,substitution,3,PT07M13.00S,07:13,Q3 07:13,0,0,1610612742.0,Parsons,SUB in: C. Parsons,substitution,substitution,0,Low
+21500287,317,substitution,3,PT07M13.00S,07:13,Q3 07:13,0,0,1610612745.0,Lawson,SUB in: T. Lawson,substitution,3pt missed,0,Low
+21500287,318,3pt,3,PT06M52.00S,06:52,Q3 06:52,0,0,1610612742.0,Felton,MISS Felton 30' 3PT Jump Shot,substitution,rebound,0,Low
+21500287,319,rebound,3,PT06M50.00S,06:50,Q3 06:50,0,0,1610612742.0,Parsons,Parsons REBOUND (Off:1 Def:2),3pt missed,2pt missed,0,Low
+21500287,320,2pt,3,PT06M50.00S,06:50,Q3 06:50,0,0,1610612742.0,Parsons,MISS Parsons 21' Jump Shot,rebound,block,0,Low
+21500287,320,block,3,PT06M50.00S,06:50,Q3 06:50,0,0,1610612745.0,Harden,Harden BLOCK (2 BLK),2pt missed,rebound,0,Low
+21500287,321,rebound,3,PT06M49.00S,06:49,Q3 06:49,0,0,1610612742.0,,TEAM offensive REBOUND,block,turnover,0,Low
+21500287,322,turnover,3,PT06M49.00S,06:49,Q3 06:49,0,0,0.0,,MAVERICKS Turnover: Shot Clock (T#11),rebound,2pt made,0,Low
+21500287,323,2pt,3,PT06M35.00S,06:35,Q3 06:35,61,69,1610612745.0,Harden,Harden 17' Jump Shot (15 PTS),turnover,2pt made,8,Low
+21500287,325,2pt,3,PT06M13.00S,06:13,Q3 06:13,63,69,1610612742.0,Nowitzki,Nowitzki 15' Jump Shot (10 PTS) (Parsons 4 AST),2pt made,3pt missed,6,Low
+21500287,326,3pt,3,PT05M48.00S,05:48,Q3 05:48,0,0,1610612745.0,Lawson,MISS Lawson  3PT Jump Shot,2pt made,rebound,0,Low
+21500287,327,rebound,3,PT05M47.00S,05:47,Q3 05:47,0,0,1610612742.0,Nowitzki,Nowitzki REBOUND (Off:1 Def:8),3pt missed,turnover,0,Low
+21500287,329,turnover,3,PT05M28.00S,05:28,Q3 05:28,0,0,1610612742.0,Williams,D. Williams Out of Bounds - Bad Pass Turnover Turnover (P5.T12),rebound,substitution,0,Low
+21500287,330,substitution,3,PT05M28.00S,05:28,Q3 05:28,0,0,1610612742.0,Nowitzki,SUB out: D. Nowitzki,turnover,substitution,0,Low
+21500287,331,substitution,3,PT05M28.00S,05:28,Q3 05:28,0,0,1610612745.0,Jones,SUB out: T. Jones,substitution,substitution,0,Low
+21500287,332,substitution,3,PT05M28.00S,05:28,Q3 05:28,0,0,1610612742.0,Powell,SUB in: D. Powell,substitution,substitution,0,Low
+21500287,333,substitution,3,PT05M28.00S,05:28,Q3 05:28,0,0,1610612745.0,Harrell,SUB in: M. Harrell,substitution,foul,0,Low
+21500287,332,foul,3,PT05M13.00S,05:13,Q3 05:13,0,0,1610612742.0,Parsons,Parsons Personal Block Foul (P2.T2) (T.Washington),substitution,2pt made,0,Low
+21500287,333,2pt,3,PT04M59.00S,04:59,Q3 04:59,63,71,1610612745.0,Harden,Harden 16' Step Back Jump Shot (17 PTS),foul,2pt missed,8,Low
+21500287,334,2pt,3,PT04M40.00S,04:40,Q3 04:40,0,0,1610612742.0,Powell,MISS Powell 2' Turnaround Jump Shot,2pt made,block,0,Low
+21500287,334,block,3,PT04M40.00S,04:40,Q3 04:40,0,0,1610612745.0,Ariza,Ariza BLOCK (1 BLK),2pt missed,rebound,0,Low
+21500287,335,rebound,3,PT04M39.00S,04:39,Q3 04:39,0,0,1610612745.0,Ariza,Ariza REBOUND (Off:0 Def:4),block,foul,0,Low
+21500287,336,foul,3,PT04M36.00S,04:36,Q3 04:36,0,0,1610612742.0,Parsons,Parsons S.FOUL (P3.T3) (T.Washington),rebound,freethrow,0,Low
+21500287,337,freethrow,3,PT04M36.00S,04:36,Q3 04:36,63,72,1610612745.0,Harden,Harden Free Throw 1 of 2 (18 PTS),foul,freethrow,9,Low
+21500287,340,freethrow,3,PT04M36.00S,04:36,Q3 04:36,0,0,1610612745.0,Harden,MISS Harden Free Throw 2 of 2,freethrow,rebound,0,Low
+21500287,342,rebound,3,PT04M36.00S,04:36,Q3 04:36,0,0,1610612742.0,Williams,D. Williams REBOUND (Off:0 Def:1),freethrow,substitution,0,Low
+21500287,339,substitution,3,PT04M36.00S,04:36,Q3 04:36,0,0,1610612745.0,Ariza,SUB out: T. Ariza,rebound,substitution,0,Low
+21500287,340,substitution,3,PT04M36.00S,04:36,Q3 04:36,0,0,1610612745.0,Brewer,SUB in: C. Brewer,substitution,2pt made,0,Low
+21500287,343,2pt,3,PT04M21.00S,04:21,Q3 04:21,65,72,1610612742.0,Williams,D. Williams 8' Running Jump Shot (12 PTS) (Pachulia 2 AST),substitution,turnover,7,Low
+21500287,344,turnover,3,PT04M11.00S,04:11,Q3 04:11,0,0,1610612745.0,Lawson,Lawson Lost Ball Turnover (P1.T12),2pt made,steal,0,Low
+21500287,344,steal,3,PT04M11.00S,04:11,Q3 04:11,0,0,1610612742.0,Williams,D. Williams STEAL (1 STL),turnover,3pt made,0,Low
+21500287,345,3pt,3,PT04M03.00S,04:03,Q3 04:03,68,72,1610612742.0,Williams,D. Williams 24' 3PT Step Back Jump Shot (15 PTS),steal,2pt missed,4,Low
+21500287,346,2pt,3,PT03M42.00S,03:42,Q3 03:42,0,0,1610612745.0,Harrell,MISS Harrell 4' Floating Jump Shot,3pt made,rebound,0,Low
+21500287,347,rebound,3,PT03M41.00S,03:41,Q3 03:41,0,0,1610612742.0,Pachulia,Pachulia REBOUND (Off:5 Def:3),2pt missed,foul,0,Low
+21500287,348,foul,3,PT03M36.00S,03:36,Q3 03:36,0,0,1610612745.0,Lawson,Lawson P.FOUL (P2.T4) (G.Petraitis),rebound,2pt made,0,Low
+21500287,349,2pt,3,PT03M25.00S,03:25,Q3 03:25,70,72,1610612742.0,Powell,Powell 16' Jump Bank Shot (8 PTS) (D. Williams 5 AST),foul,3pt missed,2,Low
+21500287,350,3pt,3,PT03M01.00S,03:01,Q3 03:01,0,0,1610612745.0,Harden,MISS Harden 24' 3PT Jump Shot,2pt made,rebound,0,Low
+21500287,351,rebound,3,PT03M00.00S,03:00,Q3 03:00,0,0,1610612742.0,Pachulia,Pachulia REBOUND (Off:5 Def:4),3pt missed,3pt missed,0,Low
+21500287,352,3pt,3,PT02M52.00S,02:52,Q3 02:52,0,0,1610612742.0,Williams,MISS D. Williams 25' 3PT Jump Shot,rebound,rebound,0,Low
+21500287,353,rebound,3,PT02M51.00S,02:51,Q3 02:51,0,0,1610612742.0,Powell,Powell REBOUND (Off:1 Def:2),3pt missed,3pt made,0,Low
+21500287,354,3pt,3,PT02M43.00S,02:43,Q3 02:43,73,72,1610612742.0,Williams,D. Williams 24' 3PT Jump Shot (18 PTS) (Felton 5 AST),rebound,timeout,1,Low
+21500287,355,timeout,3,PT02M43.00S,02:43,Q3 02:43,0,0,1610612745.0,,Rockets Timeout: Short (Reg.3 Short 1),3pt made,timeout,0,Low
+21500287,357,timeout,3,PT02M43.00S,02:43,Q3 02:43,0,0,1610612742.0,,MAVERICKS Timeout: Regular (Full 3 Short 1),timeout,substitution,0,Low
+21500287,359,substitution,3,PT02M43.00S,02:43,Q3 02:43,0,0,1610612745.0,Capela,SUB out: C. Capela,timeout,substitution,0,Low
+21500287,360,substitution,3,PT02M43.00S,02:43,Q3 02:43,0,0,1610612745.0,Harden,SUB out: J. Harden,substitution,substitution,0,Low
+21500287,361,substitution,3,PT02M43.00S,02:43,Q3 02:43,0,0,1610612745.0,Harrell,SUB out: M. Harrell,substitution,substitution,0,Low
+21500287,362,substitution,3,PT02M43.00S,02:43,Q3 02:43,0,0,1610612745.0,Jones,SUB in: T. Jones,substitution,substitution,0,Low
+21500287,363,substitution,3,PT02M43.00S,02:43,Q3 02:43,0,0,1610612745.0,Terry,SUB in: J. Terry,substitution,substitution,0,Low
+21500287,364,substitution,3,PT02M43.00S,02:43,Q3 02:43,0,0,1610612745.0,Ariza,SUB in: T. Ariza,substitution,turnover,0,Low
+21500287,362,turnover,3,PT02M20.00S,02:20,Q3 02:20,0,0,1610612745.0,Jones,Jones Out of Bounds Lost Ball Turnover (P4.T13),substitution,turnover,0,Low
+21500287,363,turnover,3,PT02M10.00S,02:10,Q3 02:10,0,0,1610612742.0,Williams,D. Williams Bad Pass Turnover (P6.T13),turnover,steal,0,Low
+21500287,363,steal,3,PT02M10.00S,02:10,Q3 02:10,0,0,1610612745.0,Terry,Terry STEAL (1 STL),turnover,2pt missed,0,Low
+21500287,364,2pt,3,PT02M01.00S,02:01,Q3 02:01,0,0,1610612745.0,Jones,MISS Jones 16' Pullup Jump Shot,steal,rebound,0,Low
+21500287,365,rebound,3,PT02M00.00S,02:00,Q3 02:00,0,0,1610612742.0,,TEAM defensive REBOUND,2pt missed,2pt missed,0,Low
+21500287,366,2pt,3,PT01M43.00S,01:43,Q3 01:43,0,0,1610612742.0,Williams,MISS D. Williams 13' Pullup Jump Shot,rebound,rebound,0,Low
+21500287,367,rebound,3,PT01M42.00S,01:42,Q3 01:42,0,0,1610612742.0,Pachulia,Pachulia REBOUND (Off:6 Def:4),2pt missed,2pt missed,0,Low
+21500287,368,2pt,3,PT01M30.00S,01:30,Q3 01:30,0,0,1610612742.0,Parsons,MISS Parsons 2' Driving Layup,rebound,2pt made,0,Low
+21500287,369,2pt,3,PT01M29.00S,01:29,Q3 01:29,75,72,1610612742.0,Pachulia,Pachulia 1' Putback Layup (7 PTS),2pt missed,rebound,3,Low
+21500287,370,rebound,3,PT01M29.00S,01:29,Q3 01:29,0,0,1610612742.0,Pachulia,Pachulia REBOUND (Off:7 Def:4),2pt made,2pt made,0,Low
+21500287,371,2pt,3,PT01M21.00S,01:21,Q3 01:21,75,74,1610612745.0,Lawson,Lawson 4' Pullup Bank Shot (8 PTS),rebound,foul,1,Low
+21500287,372,foul,3,PT01M21.00S,01:21,Q3 01:21,0,0,1610612742.0,Williams,D. Williams S.FOUL (P2.T4) (T.Washington),2pt made,freethrow,0,Low
+21500287,375,freethrow,3,PT01M21.00S,01:21,Q3 01:21,0,0,1610612745.0,Lawson,MISS Lawson Free Throw 1 of 1,foul,rebound,0,Low
+21500287,377,rebound,3,PT01M21.00S,01:21,Q3 01:21,0,0,1610612742.0,Powell,Powell REBOUND (Off:1 Def:3),freethrow,substitution,0,Low
+21500287,373,substitution,3,PT01M21.00S,01:21,Q3 01:21,0,0,1610612742.0,Felton,SUB out: R. Felton,rebound,substitution,0,Low
+21500287,374,substitution,3,PT01M21.00S,01:21,Q3 01:21,0,0,1610612742.0,Pachulia,SUB out: Z. Pachulia,substitution,substitution,0,Low
+21500287,375,substitution,3,PT01M21.00S,01:21,Q3 01:21,0,0,1610612742.0,Harris,SUB in: D. Harris,substitution,substitution,0,Low
+21500287,376,substitution,3,PT01M21.00S,01:21,Q3 01:21,0,0,1610612742.0,Nowitzki,SUB in: D. Nowitzki,substitution,turnover,0,Low
+21500287,378,turnover,3,PT01M11.00S,01:11,Q3 01:11,0,0,1610612742.0,Harris,Harris Bad Pass Turnover (P1.T14),substitution,steal,0,Low
+21500287,378,steal,3,PT01M11.00S,01:11,Q3 01:11,0,0,1610612745.0,Lawson,Lawson STEAL (1 STL),turnover,2pt made,0,Low
+21500287,379,2pt,3,PT01M00.00S,01:00,Q3 01:00,75,76,1610612745.0,Jones,Jones 2' Jump Shot (11 PTS) (Lawson 1 AST),steal,foul,1,Low
+21500287,381,foul,3,PT00M46.60S,00:46,Q3 00:46,0,0,1610612745.0,Terry,Terry S.FOUL (P1.PN) (B.Barnaky),2pt made,freethrow,0,Low
+21500287,382,freethrow,3,PT00M46.60S,00:46,Q3 00:46,0,0,1610612742.0,Powell,MISS Powell Free Throw 1 of 2,foul,rebound,0,Low
+21500287,383,rebound,3,PT00M46.60S,00:46,Q3 00:46,0,0,1610612742.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Low
+21500287,384,freethrow,3,PT00M46.60S,00:46,Q3 00:46,76,76,1610612742.0,Powell,Powell Free Throw 2 of 2 (9 PTS),rebound,turnover,0,Low
+21500287,386,turnover,3,PT00M38.90S,00:38,Q3 00:38,0,0,1610612745.0,Lawson,Lawson Lost Ball Turnover (P2.T14),freethrow,steal,0,Low
+21500287,386,steal,3,PT00M38.90S,00:38,Q3 00:38,0,0,1610612742.0,Williams,D. Williams STEAL (2 STL),turnover,2pt made,0,Low
+21500287,387,2pt,3,PT00M18.90S,00:18,Q3 00:18,78,76,1610612742.0,Williams,D. Williams 7' Turnaround Fadeaway (20 PTS),steal,foul,2,Low
+21500287,388,foul,3,PT00M07.20S,00:07,Q3 00:07,0,0,1610612742.0,Harris,Harris L.B.FOUL (P1.PN) (G.Petraitis),2pt made,freethrow,0,Low
+21500287,389,freethrow,3,PT00M07.20S,00:07,Q3 00:07,78,77,1610612745.0,Jones,Jones Free Throw 1 of 2 (12 PTS),foul,freethrow,1,Low
+21500287,393,freethrow,3,PT00M07.20S,00:07,Q3 00:07,78,78,1610612745.0,Jones,Jones Free Throw 2 of 2 (13 PTS),freethrow,substitution,0,Low
+21500287,391,substitution,3,PT00M07.20S,00:07,Q3 00:07,0,0,1610612745.0,Terry,SUB out: J. Terry,freethrow,substitution,0,Low
+21500287,392,substitution,3,PT00M07.20S,00:07,Q3 00:07,0,0,1610612745.0,Lawson,SUB out: T. Lawson,substitution,substitution,0,Low
+21500287,393,substitution,3,PT00M07.20S,00:07,Q3 00:07,0,0,1610612745.0,Harden,SUB in: J. Harden,substitution,substitution,0,Low
+21500287,394,substitution,3,PT00M07.20S,00:07,Q3 00:07,0,0,1610612745.0,Beverley,SUB in: P. Beverley,substitution,3pt missed,0,Low
+21500287,395,3pt,3,PT00M01.00S,00:01,Q3 00:01,0,0,1610612742.0,Parsons,MISS Parsons 24' 3PT Jump Shot,substitution,rebound,0,Low
+21500287,396,rebound,3,PT00M00.00S,00:00,Q3 00:00,0,0,1610612742.0,,TEAM offensive REBOUND,3pt missed,period,0,Medium
+21500287,398,period,3,PT00M00.00S,00:00,Q3 00:00,78,78,1610612742.0,,End of 3rd Period (10:22 PM EST),rebound,period,0,Medium
+21500287,400,period,4,PT12M00.00S,12:00,Q4 12:00,78,78,1610612742.0,,Start of 4th Period (10:24 PM EST),period,substitution,0,Medium
+21500287,401,2pt,4,PT11M44.00S,11:44,Q4 11:44,0,0,1610612745.0,Terry,MISS Terry 11' Jump Shot,substitution,rebound,0,Medium
+21500287,402,rebound,4,PT11M43.00S,11:43,Q4 11:43,0,0,1610612742.0,Powell,Powell REBOUND (Off:1 Def:4),2pt missed,turnover,0,Medium
+21500287,403,turnover,4,PT11M17.00S,11:17,Q4 11:17,0,0,1610612742.0,Powell,Powell Out of Bounds - Bad Pass Turnover Turnover (P1.T15),rebound,foul,0,Medium
+21500287,404,foul,4,PT11M17.00S,11:17,Q4 11:17,0,0,1610612742.0,Harris,Harris Personal Take Foul (P2.T1) (G.Petraitis),turnover,substitution,0,Medium
+21500287,405,substitution,4,PT11M17.00S,11:17,Q4 11:17,0,0,1610612742.0,Nowitzki,SUB out: D. Nowitzki,foul,substitution,0,Medium
+21500287,406,substitution,4,PT11M17.00S,11:17,Q4 11:17,0,0,1610612742.0,Matthews,SUB in: W. Matthews,substitution,2pt missed,0,Medium
+21500287,406,2pt,4,PT11M05.00S,11:05,Q4 11:05,0,0,1610612745.0,Brewer,MISS Brewer 10' Floating Jump Shot,substitution,rebound,0,Medium
+21500287,407,rebound,4,PT11M05.00S,11:05,Q4 11:05,0,0,1610612742.0,Powell,Powell REBOUND (Off:1 Def:5),2pt missed,2pt missed,0,Medium
+21500287,408,2pt,4,PT10M54.00S,10:54,Q4 10:54,0,0,1610612742.0,Parsons,MISS Parsons 16' Jump Shot,rebound,rebound,0,Medium
+21500287,409,rebound,4,PT10M53.00S,10:53,Q4 10:53,0,0,1610612745.0,Jones,Jones REBOUND (Off:2 Def:4),2pt missed,3pt missed,0,Medium
+21500287,410,3pt,4,PT10M46.00S,10:46,Q4 10:46,0,0,1610612745.0,Ariza,MISS Ariza 24' 3PT Jump Shot,rebound,rebound,0,Medium
+21500287,411,rebound,4,PT10M45.00S,10:45,Q4 10:45,0,0,1610612742.0,Matthews,Matthews REBOUND (Off:1 Def:3),3pt missed,3pt missed,0,Medium
+21500287,412,3pt,4,PT10M38.00S,10:38,Q4 10:38,0,0,1610612742.0,Matthews,MISS Matthews 24' 3PT Jump Shot,rebound,rebound,0,Medium
+21500287,413,rebound,4,PT10M37.00S,10:37,Q4 10:37,0,0,1610612745.0,Jones,Jones REBOUND (Off:2 Def:5),3pt missed,turnover,0,Medium
+21500287,414,turnover,4,PT10M35.00S,10:35,Q4 10:35,0,0,1610612745.0,Jones,Jones Lost Ball Turnover (P5.T15),rebound,steal,0,Medium
+21500287,414,steal,4,PT10M35.00S,10:35,Q4 10:35,0,0,1610612742.0,Matthews,Matthews STEAL (2 STL),turnover,3pt missed,0,Medium
+21500287,415,3pt,4,PT10M26.00S,10:26,Q4 10:26,0,0,1610612742.0,Parsons,MISS Parsons 24' 3PT Jump Shot,steal,rebound,0,Medium
+21500287,416,rebound,4,PT10M25.00S,10:25,Q4 10:25,0,0,1610612745.0,Ariza,Ariza REBOUND (Off:0 Def:5),3pt missed,2pt missed,0,Medium
+21500287,417,2pt,4,PT10M13.00S,10:13,Q4 10:13,0,0,1610612745.0,Lawson,MISS Lawson 21' Jump Shot,rebound,block,0,Medium
+21500287,417,block,4,PT10M13.00S,10:13,Q4 10:13,0,0,1610612742.0,Felton,Felton BLOCK (1 BLK),2pt missed,rebound,0,Medium
+21500287,418,rebound,4,PT10M12.00S,10:12,Q4 10:12,0,0,1610612745.0,Lawson,Lawson REBOUND (Off:1 Def:0),block,3pt missed,0,Medium
+21500287,419,3pt,4,PT10M06.00S,10:06,Q4 10:06,0,0,1610612745.0,Brewer,MISS Brewer  3PT Jump Shot,rebound,rebound,0,Medium
+21500287,420,rebound,4,PT10M05.00S,10:05,Q4 10:05,0,0,1610612742.0,Matthews,Matthews REBOUND (Off:1 Def:4),3pt missed,foul,0,Medium
+21500287,421,foul,4,PT10M02.00S,10:02,Q4 10:02,0,0,1610612745.0,Terry,Terry S.FOUL (P2.T1) (T.Washington),rebound,freethrow,0,Medium
+21500287,422,freethrow,4,PT10M02.00S,10:02,Q4 10:02,79,78,1610612742.0,Matthews,Matthews Free Throw 1 of 2 (4 PTS),foul,freethrow,1,Medium
+21500287,424,freethrow,4,PT10M02.00S,10:02,Q4 10:02,0,0,1610612742.0,Matthews,MISS Matthews Free Throw 2 of 2,freethrow,rebound,0,Medium
+21500287,426,rebound,4,PT10M01.00S,10:01,Q4 10:01,0,0,1610612745.0,Brewer,Brewer REBOUND (Off:0 Def:2),freethrow,2pt made,0,Medium
+21500287,427,2pt,4,PT09M38.00S,09:38,Q4 09:38,79,80,1610612745.0,Terry,Terry 2' Driving Layup (7 PTS),rebound,2pt made,1,Medium
+21500287,428,2pt,4,PT09M28.00S,09:28,Q4 09:28,81,80,1610612742.0,Felton,Felton 1' Driving Reverse Layup (7 PTS),2pt made,2pt made,1,Medium
+21500287,429,2pt,4,PT09M11.00S,09:11,Q4 09:11,81,82,1610612745.0,Ariza,Ariza 3' Driving Bank Shot (13 PTS) (Brewer 2 AST),2pt made,foul,1,Medium
+21500287,430,foul,4,PT08M59.00S,08:59,Q4 08:59,0,0,1610612745.0,Brewer,Brewer P.FOUL (P1.T2) (T.Washington),2pt made,timeout,0,Medium
+21500287,432,timeout,4,PT08M59.00S,08:59,Q4 08:59,0,0,0.0,,Timeout: Official,foul,substitution,0,Medium
+21500287,435,substitution,4,PT08M59.00S,08:59,Q4 08:59,0,0,1610612745.0,Jones,SUB out: T. Jones,timeout,substitution,0,Medium
+21500287,436,substitution,4,PT08M59.00S,08:59,Q4 08:59,0,0,1610612745.0,Lawson,SUB out: T. Lawson,substitution,substitution,0,Medium
+21500287,437,substitution,4,PT08M59.00S,08:59,Q4 08:59,0,0,1610612745.0,Terry,SUB out: J. Terry,substitution,substitution,0,Medium
+21500287,438,substitution,4,PT08M59.00S,08:59,Q4 08:59,0,0,1610612745.0,Beverley,SUB in: P. Beverley,substitution,substitution,0,Medium
+21500287,439,substitution,4,PT08M59.00S,08:59,Q4 08:59,0,0,1610612745.0,Harden,SUB in: J. Harden,substitution,substitution,0,Medium
+21500287,440,substitution,4,PT08M59.00S,08:59,Q4 08:59,0,0,1610612745.0,Capela,SUB in: C. Capela,substitution,2pt made,0,Medium
+21500287,438,2pt,4,PT08M50.00S,08:50,Q4 08:50,83,82,1610612742.0,Harris,Harris 20' Pullup Jump Shot (15 PTS) (Powell 1 AST),substitution,2pt made,1,Medium
+21500287,439,2pt,4,PT08M33.00S,08:33,Q4 08:33,83,84,1610612745.0,Harden,Harden 2' Running Layup (20 PTS) (Capela 2 AST),2pt made,foul,1,Medium
+21500287,440,foul,4,PT08M19.00S,08:19,Q4 08:19,0,0,1610612745.0,Brewer,Brewer P.FOUL (P2.T3) (T.Washington),2pt made,substitution,0,Medium
+21500287,441,substitution,4,PT08M19.00S,08:19,Q4 08:19,0,0,1610612742.0,Parsons,SUB out: C. Parsons,foul,substitution,0,Medium
+21500287,442,substitution,4,PT08M19.00S,08:19,Q4 08:19,0,0,1610612742.0,Williams,SUB in: D. Williams,substitution,foul,0,Medium
+21500287,442,foul,4,PT08M12.00S,08:12,Q4 08:12,0,0,1610612745.0,Beverley,Beverley S.FOUL (P3.T4) (G.Petraitis),substitution,freethrow,0,Medium
+21500287,443,freethrow,4,PT08M12.00S,08:12,Q4 08:12,84,84,1610612742.0,Powell,Powell Free Throw 1 of 2 (10 PTS),foul,freethrow,0,Medium
+21500287,445,freethrow,4,PT08M12.00S,08:12,Q4 08:12,85,84,1610612742.0,Powell,Powell Free Throw 2 of 2 (11 PTS),freethrow,foul,1,Medium
+21500287,447,foul,4,PT07M59.00S,07:59,Q4 07:59,0,0,1610612742.0,Matthews,Matthews P.FOUL (P1.T2) (T.Washington),freethrow,2pt missed,0,Medium
+21500287,448,2pt,4,PT07M45.00S,07:45,Q4 07:45,0,0,1610612745.0,Harden,MISS Harden 16' Fadeaway Jumper,foul,rebound,0,Medium
+21500287,449,rebound,4,PT07M44.00S,07:44,Q4 07:44,0,0,1610612742.0,Felton,Felton REBOUND (Off:0 Def:1),2pt missed,turnover,0,Medium
+21500287,450,turnover,4,PT07M30.00S,07:30,Q4 07:30,0,0,1610612742.0,Felton,Felton Bad Pass Turnover (P4.T16),rebound,steal,0,Medium
+21500287,450,steal,4,PT07M30.00S,07:30,Q4 07:30,0,0,1610612745.0,Capela,Capela STEAL (1 STL),turnover,2pt missed,0,Medium
+21500287,451,2pt,4,PT07M10.00S,07:10,Q4 07:10,0,0,1610612745.0,Beverley,MISS Beverley 4' Driving Bank Shot,steal,rebound,0,Medium
+21500287,452,rebound,4,PT07M08.00S,07:08,Q4 07:08,0,0,1610612742.0,Felton,Felton REBOUND (Off:0 Def:2),2pt missed,turnover,0,Medium
+21500287,453,turnover,4,PT07M00.00S,07:00,Q4 07:00,0,0,1610612742.0,Williams,D. Williams Bad Pass Turnover (P7.T17),rebound,steal,0,High
+21500287,453,steal,4,PT07M00.00S,07:00,Q4 07:00,0,0,1610612745.0,Ariza,Ariza STEAL (4 STL),turnover,2pt made,0,High
+21500287,454,2pt,4,PT06M58.00S,06:58,Q4 06:58,85,86,1610612745.0,Ariza,Ariza  Running Dunk (15 PTS),steal,turnover,1,High
+21500287,455,turnover,4,PT06M37.00S,06:37,Q4 06:37,0,0,1610612742.0,Williams,D. Williams Lost Ball Turnover (P8.T18),2pt made,steal,0,High
+21500287,455,steal,4,PT06M37.00S,06:37,Q4 06:37,0,0,1610612745.0,Beverley,Beverley STEAL (2 STL),turnover,foul,0,High
+21500287,456,foul,4,PT06M34.00S,06:34,Q4 06:34,0,0,1610612742.0,Williams,D. Williams S.FOUL (P3.T3) (G.Petraitis),steal,timeout,0,High
+21500287,458,timeout,4,PT06M34.00S,06:34,Q4 06:34,0,0,1610612742.0,,MAVERICKS Timeout: Regular (Full 4 Short 1),foul,freethrow,0,High
+21500287,461,freethrow,4,PT06M34.00S,06:34,Q4 06:34,0,0,1610612745.0,Ariza,MISS Ariza Free Throw 1 of 2,timeout,rebound,0,High
+21500287,462,rebound,4,PT06M34.00S,06:34,Q4 06:34,0,0,1610612745.0,,TEAM offensive REBOUND,freethrow,freethrow,0,High
+21500287,463,freethrow,4,PT06M34.00S,06:34,Q4 06:34,0,0,1610612745.0,Ariza,MISS Ariza Free Throw 2 of 2,rebound,substitution,0,High
+21500287,459,substitution,4,PT06M34.00S,06:34,Q4 06:34,0,0,1610612742.0,Powell,SUB out: D. Powell,freethrow,substitution,0,High
+21500287,460,substitution,4,PT06M34.00S,06:34,Q4 06:34,0,0,1610612742.0,Nowitzki,SUB in: D. Nowitzki,substitution,rebound,0,High
+21500287,465,rebound,4,PT06M32.00S,06:32,Q4 06:32,0,0,1610612742.0,Nowitzki,Nowitzki REBOUND (Off:1 Def:9),substitution,2pt made,0,High
+21500287,466,2pt,4,PT06M09.00S,06:09,Q4 06:09,87,86,1610612742.0,Felton,Felton  Cutting Layup Shot (9 PTS) (Nowitzki 4 AST),rebound,turnover,1,High
+21500287,467,turnover,4,PT05M53.00S,05:53,Q4 05:53,0,0,1610612745.0,Ariza,Ariza Traveling Turnover (P3.T16),2pt made,foul,0,High
+21500287,468,foul,4,PT05M44.00S,05:44,Q4 05:44,0,0,1610612745.0,Brewer,Brewer P.FOUL (P3.PN) (B.Barnaky),turnover,freethrow,0,High
+21500287,469,freethrow,4,PT05M44.00S,05:44,Q4 05:44,88,86,1610612742.0,Matthews,Matthews Free Throw 1 of 2 (5 PTS),foul,freethrow,2,High
+21500287,473,freethrow,4,PT05M44.00S,05:44,Q4 05:44,0,0,1610612742.0,Matthews,MISS Matthews Free Throw 2 of 2,freethrow,substitution,0,High
+21500287,471,substitution,4,PT05M44.00S,05:44,Q4 05:44,0,0,1610612745.0,Capela,SUB out: C. Capela,freethrow,substitution,0,High
+21500287,472,substitution,4,PT05M44.00S,05:44,Q4 05:44,0,0,1610612742.0,Harris,SUB out: D. Harris,substitution,substitution,0,High
+21500287,473,substitution,4,PT05M44.00S,05:44,Q4 05:44,0,0,1610612745.0,Jones,SUB in: T. Jones,substitution,substitution,0,High
+21500287,474,substitution,4,PT05M44.00S,05:44,Q4 05:44,0,0,1610612742.0,Pachulia,SUB in: Z. Pachulia,substitution,rebound,0,High
+21500287,475,rebound,4,PT05M43.00S,05:43,Q4 05:43,0,0,1610612745.0,Harden,Harden REBOUND (Off:1 Def:4),substitution,3pt made,0,High
+21500287,476,3pt,4,PT05M27.00S,05:27,Q4 05:27,88,89,1610612745.0,Ariza,Ariza 25' 3PT Jump Shot (18 PTS) (Harden 7 AST),rebound,foul,1,High
+21500287,477,foul,4,PT05M05.00S,05:05,Q4 05:05,0,0,1610612745.0,Ariza,Ariza P.FOUL (P2.PN) (T.Washington),3pt made,freethrow,0,High
+21500287,478,freethrow,4,PT05M05.00S,05:05,Q4 05:05,89,89,1610612742.0,Nowitzki,Nowitzki Free Throw 1 of 2 (11 PTS),foul,freethrow,0,High
+21500287,480,freethrow,4,PT05M05.00S,05:05,Q4 05:05,90,89,1610612742.0,Nowitzki,Nowitzki Free Throw 2 of 2 (12 PTS),freethrow,3pt missed,1,High
+21500287,482,3pt,4,PT04M48.00S,04:48,Q4 04:48,0,0,1610612745.0,Brewer,MISS Brewer 24' 3PT Jump Shot,freethrow,rebound,0,High
+21500287,483,rebound,4,PT04M47.00S,04:47,Q4 04:47,0,0,1610612742.0,Felton,Felton REBOUND (Off:0 Def:3),3pt missed,2pt missed,0,High
+21500287,484,2pt,4,PT04M24.00S,04:24,Q4 04:24,0,0,1610612742.0,Nowitzki,MISS Nowitzki 16' Turnaround Bank Shot,rebound,rebound,0,High
+21500287,485,rebound,4,PT04M22.00S,04:22,Q4 04:22,0,0,1610612745.0,Jones,Jones REBOUND (Off:2 Def:6),2pt missed,foul,0,High
+21500287,486,foul,4,PT04M14.00S,04:14,Q4 04:14,0,0,1610612742.0,Matthews,Matthews P.FOUL (P2.T4) (B.Barnaky),rebound,foul,0,High
+21500287,487,foul,4,PT04M14.00S,04:14,Q4 04:14,0,0,1610612742.0,Felton,"Double Technical - Felton, Jones (G.Petraitis)",foul,2pt made,0,High
+21500287,488,2pt,4,PT04M05.00S,04:05,Q4 04:05,90,91,1610612745.0,Brewer,Brewer 2' Cutting Layup Shot (7 PTS) (Harden 8 AST),foul,2pt missed,1,High
+21500287,489,2pt,4,PT03M51.00S,03:51,Q4 03:51,0,0,1610612742.0,Felton,MISS Felton 4' Driving Bank Shot,2pt made,rebound,0,High
+21500287,490,rebound,4,PT03M49.00S,03:49,Q4 03:49,0,0,1610612745.0,Beverley,Beverley REBOUND (Off:0 Def:2),2pt missed,2pt made,0,High
+21500287,491,2pt,4,PT03M44.00S,03:44,Q4 03:44,90,93,1610612745.0,Harden,Harden 4' Driving Bank Shot (22 PTS),rebound,foul,3,High
+21500287,492,foul,4,PT03M44.00S,03:44,Q4 03:44,0,0,1610612742.0,Williams,D. Williams S.FOUL (P4.PN) (T.Washington),2pt made,freethrow,0,High
+21500287,493,freethrow,4,PT03M44.00S,03:44,Q4 03:44,90,94,1610612745.0,Harden,Harden Free Throw 1 of 1 (23 PTS),foul,2pt made,4,High
+21500287,495,2pt,4,PT03M27.00S,03:27,Q4 03:27,92,94,1610612742.0,Williams,D. Williams 18' Step Back Jump Shot (22 PTS),freethrow,2pt missed,2,High
+21500287,496,2pt,4,PT02M59.00S,02:59,Q4 02:59,0,0,1610612745.0,Harden,MISS Harden 13' Jump Shot,2pt made,block,0,High
+21500287,496,block,4,PT02M59.00S,02:59,Q4 02:59,0,0,1610612742.0,Matthews,Matthews BLOCK (1 BLK),2pt missed,2pt missed,0,High
+21500287,497,2pt,4,PT02M56.00S,02:56,Q4 02:56,0,0,1610612745.0,Jones,MISS Jones 7' Jump Shot,block,rebound,0,High
+21500287,498,rebound,4,PT02M56.00S,02:56,Q4 02:56,0,0,1610612745.0,Jones,Jones REBOUND (Off:3 Def:6),2pt missed,rebound,0,High
+21500287,499,rebound,4,PT02M55.00S,02:55,Q4 02:55,0,0,1610612745.0,Beverley,Beverley REBOUND (Off:1 Def:2),rebound,2pt made,0,High
+21500287,500,2pt,4,PT02M38.00S,02:38,Q4 02:38,92,96,1610612745.0,Jones,Jones 2' Cutting Layup Shot (15 PTS) (Brewer 3 AST),rebound,timeout,4,High
+21500287,501,timeout,4,PT02M34.00S,02:34,Q4 02:34,0,0,1610612742.0,,MAVERICKS Timeout: Short (Full 4 Short 2),2pt made,timeout,0,High
+21500287,503,timeout,4,PT02M34.00S,02:34,Q4 02:34,0,0,1610612745.0,,Rockets Timeout: Regular (Reg.4 Short 1),timeout,substitution,0,High
+21500287,505,substitution,4,PT02M34.00S,02:34,Q4 02:34,0,0,1610612742.0,Felton,SUB out: R. Felton,timeout,substitution,0,High
+21500287,506,substitution,4,PT02M34.00S,02:34,Q4 02:34,0,0,1610612742.0,Parsons,SUB in: C. Parsons,substitution,2pt made,0,High
+21500287,507,2pt,4,PT02M23.00S,02:23,Q4 02:23,94,96,1610612742.0,Nowitzki,Nowitzki  Cutting Dunk Shot (14 PTS) (D. Williams 6 AST),substitution,turnover,2,High
+21500287,508,turnover,4,PT01M57.00S,01:57,Q4 01:57,0,0,1610612745.0,Harden,Harden Out of Bounds Lost Ball Turnover (P3.T17),2pt made,instant replay,0,Very High
+21500287,512,3pt,4,PT01M46.00S,01:46,Q4 01:46,0,0,1610612742.0,Matthews,MISS Matthews 25' 3PT Jump Shot,instant replay,rebound,0,Very High
+21500287,513,rebound,4,PT01M45.00S,01:45,Q4 01:45,0,0,1610612745.0,Harden,Harden REBOUND (Off:1 Def:5),3pt missed,turnover,0,Very High
+21500287,514,turnover,4,PT01M33.00S,01:33,Q4 01:33,0,0,1610612745.0,Harden,Harden Lost Ball Turnover (P4.T18),rebound,steal,0,Very High
+21500287,514,steal,4,PT01M33.00S,01:33,Q4 01:33,0,0,1610612742.0,Nowitzki,Nowitzki STEAL (2 STL),turnover,3pt missed,0,Very High
+21500287,515,3pt,4,PT01M28.00S,01:28,Q4 01:28,0,0,1610612742.0,Nowitzki,MISS Nowitzki 24' 3PT Jump Shot,steal,rebound,0,Very High
+21500287,516,rebound,4,PT01M26.00S,01:26,Q4 01:26,0,0,1610612745.0,Ariza,Ariza REBOUND (Off:0 Def:6),3pt missed,foul,0,Very High
+21500287,517,foul,4,PT01M26.00S,01:26,Q4 01:26,0,0,1610612742.0,Nowitzki,Nowitzki L.B.FOUL (P2.PN) (T.Washington),rebound,freethrow,0,Very High
+21500287,518,freethrow,4,PT01M26.00S,01:26,Q4 01:26,0,0,1610612745.0,Ariza,MISS Ariza Free Throw 1 of 2,foul,rebound,0,Very High
+21500287,519,rebound,4,PT01M26.00S,01:26,Q4 01:26,0,0,1610612745.0,,TEAM offensive REBOUND,freethrow,freethrow,0,Very High
+21500287,520,freethrow,4,PT01M26.00S,01:26,Q4 01:26,0,0,1610612745.0,Ariza,MISS Ariza Free Throw 2 of 2,rebound,rebound,0,Very High
+21500287,522,rebound,4,PT01M25.00S,01:25,Q4 01:25,0,0,1610612742.0,Parsons,Parsons REBOUND (Off:1 Def:3),freethrow,foul,0,Very High
+21500287,523,foul,4,PT01M10.00S,01:10,Q4 01:10,0,0,1610612745.0,Jones,Jones P.FOUL (P4.PN) (T.Washington),rebound,freethrow,0,Very High
+21500287,524,freethrow,4,PT01M10.00S,01:10,Q4 01:10,95,96,1610612742.0,Nowitzki,Nowitzki Free Throw 1 of 2 (15 PTS),foul,freethrow,1,Very High
+21500287,526,freethrow,4,PT01M10.00S,01:10,Q4 01:10,96,96,1610612742.0,Nowitzki,Nowitzki Free Throw 2 of 2 (16 PTS),freethrow,2pt made,0,Very High
+21500287,528,2pt,4,PT00M55.90S,00:55,Q4 00:55,96,98,1610612745.0,Jones,Jones  Dunk (17 PTS) (Harden 9 AST),freethrow,timeout,2,Very High
+21500287,529,timeout,4,PT00M55.10S,00:55,Q4 00:55,0,0,1610612742.0,,MAVERICKS Timeout: Regular (Full 5 Short 2),2pt made,substitution,0,Very High
+21500287,532,substitution,4,PT00M55.10S,00:55,Q4 00:55,0,0,1610612745.0,Brewer,SUB out: C. Brewer,timeout,substitution,0,Very High
+21500287,533,substitution,4,PT00M55.10S,00:55,Q4 00:55,0,0,1610612745.0,Capela,SUB in: C. Capela,substitution,2pt missed,0,Very High
+21500287,533,2pt,4,PT00M31.90S,00:31,Q4 00:31,0,0,1610612742.0,Nowitzki,MISS Nowitzki 15' Pullup Jump Shot,substitution,rebound,0,Very High
+21500287,534,rebound,4,PT00M30.90S,00:30,Q4 00:30,0,0,1610612745.0,Harden,Harden REBOUND (Off:1 Def:6),2pt missed,timeout,0,Very High
+21500287,536,timeout,4,PT00M13.30S,00:13,Q4 00:13,0,0,1610612745.0,,Rockets Timeout: Regular (Reg.5 Short 1),rebound,substitution,0,Very High
+21500287,538,substitution,4,PT00M13.30S,00:13,Q4 00:13,0,0,1610612742.0,Nowitzki,SUB out: D. Nowitzki,timeout,substitution,0,Very High
+21500287,539,substitution,4,PT00M13.30S,00:13,Q4 00:13,0,0,1610612745.0,Capela,SUB out: C. Capela,substitution,substitution,0,Very High
+21500287,540,substitution,4,PT00M13.30S,00:13,Q4 00:13,0,0,1610612742.0,Harris,SUB in: D. Harris,substitution,substitution,0,Very High
+21500287,541,substitution,4,PT00M13.30S,00:13,Q4 00:13,0,0,1610612745.0,Terry,SUB in: J. Terry,substitution,2pt made,0,Very High
+21500287,540,2pt,4,PT00M07.80S,00:07,Q4 00:07,96,100,1610612745.0,Harden,Harden 18' Step Back Jump Shot (25 PTS),substitution,timeout,4,Very High
+21500287,542,timeout,4,PT00M07.40S,00:07,Q4 00:07,0,0,1610612742.0,,MAVERICKS Timeout: Short (Full 5 Short 3),2pt made,substitution,0,Very High
+21500287,544,substitution,4,PT00M07.40S,00:07,Q4 00:07,0,0,1610612742.0,Pachulia,SUB out: Z. Pachulia,timeout,substitution,0,Very High
+21500287,545,substitution,4,PT00M07.40S,00:07,Q4 00:07,0,0,1610612742.0,Harris,SUB out: D. Harris,substitution,substitution,0,Very High
+21500287,546,substitution,4,PT00M07.40S,00:07,Q4 00:07,0,0,1610612745.0,Terry,SUB out: J. Terry,substitution,substitution,0,Very High
+21500287,547,substitution,4,PT00M07.40S,00:07,Q4 00:07,0,0,1610612742.0,Nowitzki,SUB in: D. Nowitzki,substitution,substitution,0,Very High
+21500287,548,substitution,4,PT00M07.40S,00:07,Q4 00:07,0,0,1610612742.0,Villanueva,SUB in: C. Villanueva,substitution,substitution,0,Very High
+21500287,549,substitution,4,PT00M07.40S,00:07,Q4 00:07,0,0,1610612745.0,Brewer,SUB in: C. Brewer,substitution,3pt missed,0,Very High
+21500287,547,3pt,4,PT00M03.90S,00:03,Q4 00:03,0,0,1610612742.0,Williams,MISS D. Williams 25' 3PT Jump Shot,substitution,rebound,0,Very High
+21500287,548,rebound,4,PT00M02.60S,00:02,Q4 00:02,0,0,1610612745.0,Harden,Harden REBOUND (Off:1 Def:7),3pt missed,period,0,Very High
+21500287,550,period,4,PT00M00.00S,00:00,Q4 00:00,96,100,1610612742.0,,End of 4th Period (11:02 PM EST),rebound,,4,Very High
