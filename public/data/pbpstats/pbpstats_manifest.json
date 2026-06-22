@@ -1,0 +1,45 @@
+{
+  "source": "PBPStats API",
+  "filter": "Medium+ / Low Leverage Removed",
+  "method": "Player all-leverage game stats minus Low Offense and Low Defense possession player rows",
+  "seasons": {
+    "2013": {
+      "season": "2012-13",
+      "year": 2013,
+      "games_expected": 85,
+      "output_file": "public/data/pbpstats/player_game_low_removed/2013.json",
+      "audit": {
+        "year": 2013,
+        "rows": 1780,
+        "games": 85,
+        "avg_rows_per_game": 20.9,
+        "min_rows_per_game": 17,
+        "max_rows_per_game": 26,
+        "avg_unique_players_per_game": 20.9,
+        "duplicate_games": 0,
+        "duplicate_examples": [],
+        "negative_before_clamp_rows": 0,
+        "negative_examples": []
+      }
+    },
+    "2014": {
+      "season": "2013-14",
+      "year": 2014,
+      "games_expected": 89,
+      "output_file": "public/data/pbpstats/player_game_low_removed/2014.json",
+      "audit": {
+        "year": 2014,
+        "rows": 1906,
+        "games": 89,
+        "avg_rows_per_game": 21.4,
+        "min_rows_per_game": 16,
+        "max_rows_per_game": 29,
+        "avg_unique_players_per_game": 21.4,
+        "duplicate_games": 0,
+        "duplicate_examples": [],
+        "negative_before_clamp_rows": 0,
+        "negative_examples": []
+      }
+    }
+  }
+}

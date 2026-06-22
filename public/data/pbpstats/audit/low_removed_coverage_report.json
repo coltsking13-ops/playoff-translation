@@ -1,0 +1,4872 @@
+{
+  "2013": {
+    "file": "public/data/pbpstats/player_game_low_removed/2013.json",
+    "rows": 8057,
+    "games_in_output": 85,
+    "expected_games_from_games_file": 85,
+    "min_rows_per_game": 81,
+    "max_rows_per_game": 130,
+    "avg_rows_per_game": 94.8,
+    "min_unique_players_per_game": 25,
+    "max_unique_players_per_game": 34,
+    "avg_unique_players_per_game": 29.1,
+    "duplicate_games_count": 85,
+    "duplicate_examples": [
+      {
+        "gameId": "0041200101",
+        "rows": 102,
+        "unique_players": 32,
+        "duplicates": [
+          [
+            [
+              "101141",
+              "Ersan Ilyasova"
+            ],
+            5
+          ],
+          [
+            [
+              "101145",
+              "Monta Ellis"
+            ],
+            5
+          ],
+          [
+            [
+              "200755",
+              "JJ Redick"
+            ],
+            5
+          ],
+          [
+            [
+              "201601",
+              "Luc Mbah a Moute"
+            ],
+            4
+          ],
+          [
+            [
+              "201943",
+              "Brandon Jennings"
+            ],
+            5
+          ],
+          [
+            [
+              "202327",
+              "Ekpe Udoh"
+            ],
+            4
+          ],
+          [
+            [
+              "202336",
+              "Larry Sanders"
+            ],
+            5
+          ],
+          [
+            [
+              "2605",
+              "Marquis Daniels"
+            ],
+            5
+          ],
+          [
+            [
+              "203089",
+              "John Henson"
+            ],
+            4
+          ],
+          [
+            [
+              "2399",
+              "Mike Dunleavy"
+            ],
+            4
+          ]
+        ]
+      },
+      {
+        "gameId": "0041200102",
+        "rows": 100,
+        "unique_players": 33,
+        "duplicates": [
+          [
+            [
+              "101141",
+              "Ersan Ilyasova"
+            ],
+            5
+          ],
+          [
+            [
+              "101145",
+              "Monta Ellis"
+            ],
+            5
+          ],
+          [
+            [
+              "200755",
+              "JJ Redick"
+            ],
+            3
+          ],
+          [
+            [
+              "201601",
+              "Luc Mbah a Moute"
+            ],
+            5
+          ],
+          [
+            [
+              "201943",
+              "Brandon Jennings"
+            ],
+            5
+          ],
+          [
+            [
+              "202327",
+              "Ekpe Udoh"
+            ],
+            4
+          ],
+          [
+            [
+              "202336",
+              "Larry Sanders"
+            ],
+            5
+          ],
+          [
+            [
+              "203089",
+              "John Henson"
+            ],
+            3
+          ],
+          [
+            [
+              "2605",
+              "Marquis Daniels"
+            ],
+            4
+          ],
+          [
+            [
+              "2399",
+              "Mike Dunleavy"
+            ],
+            4
+          ]
+        ]
+      },
+      {
+        "gameId": "0041200103",
+        "rows": 97,
+        "unique_players": 29,
+        "duplicates": [
+          [
+            [
+              "201596",
+              "Mario Chalmers"
+            ],
+            5
+          ],
+          [
+            [
+              "202708",
+              "Norris Cole"
+            ],
+            5
+          ],
+          [
+            [
+              "2203",
+              "Shane Battier"
+            ],
+            5
+          ],
+          [
+            [
+              "2365",
+              "Chris Andersen"
+            ],
+            5
+          ],
+          [
+            [
+              "2544",
+              "LeBron James"
+            ],
+            5
+          ],
+          [
+            [
+              "2547",
+              "Chris Bosh"
+            ],
+            5
+          ],
+          [
+            [
+              "2548",
+              "Dwyane Wade"
+            ],
+            5
+          ],
+          [
+            [
+              "2617",
+              "Udonis Haslem"
+            ],
+            3
+          ],
+          [
+            [
+              "951",
+              "Ray Allen"
+            ],
+            5
+          ],
+          [
+            [
+              "101141",
+              "Ersan Ilyasova"
+            ],
+            5
+          ]
+        ]
+      },
+      {
+        "gameId": "0041200104",
+        "rows": 92,
+        "unique_players": 30,
+        "duplicates": [
+          [
+            [
+              "201596",
+              "Mario Chalmers"
+            ],
+            5
+          ],
+          [
+            [
+              "202708",
+              "Norris Cole"
+            ],
+            4
+          ],
+          [
+            [
+              "2034",
+              "Mike Miller"
+            ],
+            4
+          ],
+          [
+            [
+              "2203",
+              "Shane Battier"
+            ],
+            4
+          ],
+          [
+            [
+              "2365",
+              "Chris Andersen"
+            ],
+            4
+          ],
+          [
+            [
+              "2544",
+              "LeBron James"
+            ],
+            5
+          ],
+          [
+            [
+              "2547",
+              "Chris Bosh"
+            ],
+            5
+          ],
+          [
+            [
+              "2617",
+              "Udonis Haslem"
+            ],
+            3
+          ],
+          [
+            [
+              "951",
+              "Ray Allen"
+            ],
+            5
+          ],
+          [
+            [
+              "101141",
+              "Ersan Ilyasova"
+            ],
+            4
+          ]
+        ]
+      },
+      {
+        "gameId": "0041200111",
+        "rows": 83,
+        "unique_players": 25,
+        "duplicates": [
+          [
+            [
+              "101138",
+              "Brandon Bass"
+            ],
+            5
+          ],
+          [
+            [
+              "1718",
+              "Paul Pierce"
+            ],
+            5
+          ],
+          [
+            [
+              "1891",
+              "Jason Terry"
+            ],
+            3
+          ],
+          [
+            [
+              "201145",
+              "Jeff Green"
+            ],
+            5
+          ],
+          [
+            [
+              "202340",
+              "Avery Bradley"
+            ],
+            5
+          ],
+          [
+            [
+              "202348",
+              "Jordan Crawford"
+            ],
+            5
+          ],
+          [
+            [
+              "708",
+              "Kevin Garnett"
+            ],
+            5
+          ],
+          [
+            [
+              "201584",
+              "Courtney Lee"
+            ],
+            4
+          ],
+          [
+            [
+              "101109",
+              "Raymond Felton"
+            ],
+            5
+          ],
+          [
+            [
+              "202697",
+              "Iman Shumpert"
+            ],
+            4
+          ]
+        ]
+      }
+    ],
+    "negative_count_examples": [
+      {
+        "gameId": "0041200101",
+        "playerId": "200755",
+        "playerName": "JJ Redick",
+        "field": "Points",
+        "value": -6.0
+      },
+      {
+        "gameId": "0041200101",
+        "playerId": "200755",
+        "playerName": "JJ Redick",
+        "field": "FG3A",
+        "value": -2.0
+      },
+      {
+        "gameId": "0041200101",
+        "playerId": "200755",
+        "playerName": "JJ Redick",
+        "field": "FGA_Recalc",
+        "value": -2.0
+      },
+      {
+        "gameId": "0041200101",
+        "playerId": "200755",
+        "playerName": "JJ Redick",
+        "field": "FTA",
+        "value": -3.0
+      },
+      {
+        "gameId": "0041200101",
+        "playerId": "200755",
+        "playerName": "JJ Redick",
+        "field": "Arc3FGA",
+        "value": -2.0
+      },
+      {
+        "gameId": "0041200101",
+        "playerId": "202336",
+        "playerName": "Larry Sanders",
+        "field": "ShortMidRangeFGA",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041200101",
+        "playerId": "101145",
+        "playerName": "Monta Ellis",
+        "field": "AtRimFGA",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041200101",
+        "playerId": "200755",
+        "playerName": "JJ Redick",
+        "field": "Points",
+        "value": -6.0
+      },
+      {
+        "gameId": "0041200101",
+        "playerId": "200755",
+        "playerName": "JJ Redick",
+        "field": "FG2A",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041200101",
+        "playerId": "200755",
+        "playerName": "JJ Redick",
+        "field": "FG3A",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041200101",
+        "playerId": "200755",
+        "playerName": "JJ Redick",
+        "field": "FGA_Recalc",
+        "value": -2.0
+      },
+      {
+        "gameId": "0041200101",
+        "playerId": "200755",
+        "playerName": "JJ Redick",
+        "field": "FTA",
+        "value": -3.0
+      },
+      {
+        "gameId": "0041200101",
+        "playerId": "200755",
+        "playerName": "JJ Redick",
+        "field": "LongMidRangeFGA",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041200101",
+        "playerId": "200755",
+        "playerName": "JJ Redick",
+        "field": "Arc3FGA",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041200101",
+        "playerId": "203089",
+        "playerName": "John Henson",
+        "field": "Turnovers",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041200101",
+        "playerId": "2399",
+        "playerName": "Mike Dunleavy",
+        "field": "Points",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041200101",
+        "playerId": "200755",
+        "playerName": "JJ Redick",
+        "field": "Points",
+        "value": -6.0
+      },
+      {
+        "gameId": "0041200101",
+        "playerId": "200755",
+        "playerName": "JJ Redick",
+        "field": "FG3A",
+        "value": -2.0
+      },
+      {
+        "gameId": "0041200101",
+        "playerId": "200755",
+        "playerName": "JJ Redick",
+        "field": "FGA_Recalc",
+        "value": -2.0
+      },
+      {
+        "gameId": "0041200101",
+        "playerId": "200755",
+        "playerName": "JJ Redick",
+        "field": "FTA",
+        "value": -3.0
+      }
+    ],
+    "negative_examples_count_capped": 50,
+    "missing_core_groups": {
+      "identity": {
+        "missing_completely": [],
+        "very_sparse_under_5pct": []
+      },
+      "basic_personal": {
+        "missing_completely": [],
+        "very_sparse_under_5pct": []
+      },
+      "adj_ts_ingredients": {
+        "missing_completely": [],
+        "very_sparse_under_5pct": [
+          "Technical Free Throw Trips"
+        ]
+      },
+      "six_factor_inputs": {
+        "missing_completely": [],
+        "very_sparse_under_5pct": []
+      },
+      "shot_locations": {
+        "missing_completely": [],
+        "very_sparse_under_5pct": []
+      }
+    },
+    "field_coverage": {
+      "identity": {
+        "year": {
+          "present_rows": 8057,
+          "filled_rows": 8057,
+          "filled_pct": 100.0
+        },
+        "season": {
+          "present_rows": 8057,
+          "filled_rows": 8057,
+          "filled_pct": 100.0
+        },
+        "gameId": {
+          "present_rows": 8057,
+          "filled_rows": 8057,
+          "filled_pct": 100.0
+        },
+        "nbaGameId": {
+          "present_rows": 8057,
+          "filled_rows": 8057,
+          "filled_pct": 100.0
+        },
+        "date": {
+          "present_rows": 8057,
+          "filled_rows": 8057,
+          "filled_pct": 100.0
+        },
+        "playerId": {
+          "present_rows": 8057,
+          "filled_rows": 8057,
+          "filled_pct": 100.0
+        },
+        "playerName": {
+          "present_rows": 8057,
+          "filled_rows": 8057,
+          "filled_pct": 100.0
+        }
+      },
+      "basic_personal": {
+        "Minutes": {
+          "present_rows": 8057,
+          "filled_rows": 8057,
+          "filled_pct": 100.0
+        },
+        "SecondsPlayed": {
+          "present_rows": 4249,
+          "filled_rows": 4249,
+          "filled_pct": 52.7
+        },
+        "Points": {
+          "present_rows": 8057,
+          "filled_rows": 8057,
+          "filled_pct": 100.0
+        },
+        "FG2M": {
+          "present_rows": 4998,
+          "filled_rows": 4998,
+          "filled_pct": 62.0
+        },
+        "FG2A": {
+          "present_rows": 6371,
+          "filled_rows": 6371,
+          "filled_pct": 79.1
+        },
+        "FG3M": {
+          "present_rows": 2295,
+          "filled_rows": 2295,
+          "filled_pct": 28.5
+        },
+        "FG3A": {
+          "present_rows": 4002,
+          "filled_rows": 4002,
+          "filled_pct": 49.7
+        },
+        "FTA": {
+          "present_rows": 3631,
+          "filled_rows": 3631,
+          "filled_pct": 45.1
+        },
+        "FtPoints": {
+          "present_rows": 3424,
+          "filled_rows": 3424,
+          "filled_pct": 42.5
+        },
+        "Assists": {
+          "present_rows": 4036,
+          "filled_rows": 4036,
+          "filled_pct": 50.1
+        },
+        "Rebounds": {
+          "present_rows": 5734,
+          "filled_rows": 5734,
+          "filled_pct": 71.2
+        },
+        "OffRebounds": {
+          "present_rows": 2992,
+          "filled_rows": 2992,
+          "filled_pct": 37.1
+        },
+        "DefRebounds": {
+          "present_rows": 5123,
+          "filled_rows": 5123,
+          "filled_pct": 63.6
+        },
+        "Steals": {
+          "present_rows": 2318,
+          "filled_rows": 2318,
+          "filled_pct": 28.8
+        },
+        "Blocks": {
+          "present_rows": 1687,
+          "filled_rows": 1687,
+          "filled_pct": 20.9
+        },
+        "Turnovers": {
+          "present_rows": 3677,
+          "filled_rows": 3677,
+          "filled_pct": 45.6
+        },
+        "PlusMinus": {
+          "present_rows": 3434,
+          "filled_rows": 3434,
+          "filled_pct": 42.6
+        },
+        "OffPoss": {
+          "present_rows": 8054,
+          "filled_rows": 8054,
+          "filled_pct": 100.0
+        },
+        "DefPoss": {
+          "present_rows": 8043,
+          "filled_rows": 8043,
+          "filled_pct": 99.8
+        }
+      },
+      "adj_ts_ingredients": {
+        "FGA_Recalc": {
+          "present_rows": 8057,
+          "filled_rows": 8057,
+          "filled_pct": 100.0
+        },
+        "AdjFGA": {
+          "present_rows": 8057,
+          "filled_rows": 8057,
+          "filled_pct": 100.0
+        },
+        "AdjFTA": {
+          "present_rows": 8057,
+          "filled_rows": 8057,
+          "filled_pct": 100.0
+        },
+        "AdjTS%": {
+          "present_rows": 8057,
+          "filled_rows": 6395,
+          "filled_pct": 79.4
+        },
+        "TS_Recalc": {
+          "present_rows": 8057,
+          "filled_rows": 6235,
+          "filled_pct": 77.4
+        },
+        "ScoringTOV": {
+          "present_rows": 8057,
+          "filled_rows": 8057,
+          "filled_pct": 100.0
+        },
+        "BadPassTOV_Total": {
+          "present_rows": 8057,
+          "filled_rows": 8057,
+          "filled_pct": 100.0
+        },
+        "BadPassTurnovers": {
+          "present_rows": 1705,
+          "filled_rows": 1705,
+          "filled_pct": 21.2
+        },
+        "BadPassOutOfBoundsTurnovers": {
+          "present_rows": 744,
+          "filled_rows": 744,
+          "filled_pct": 9.2
+        },
+        "Heaves_Est": {
+          "present_rows": 8057,
+          "filled_rows": 8057,
+          "filled_pct": 100.0
+        },
+        "NonHeaveArc3FGA": {
+          "present_rows": 3366,
+          "filled_rows": 3366,
+          "filled_pct": 41.8
+        },
+        "TechFTA_Est": {
+          "present_rows": 8057,
+          "filled_rows": 8057,
+          "filled_pct": 100.0
+        },
+        "Technical Free Throw Trips": {
+          "present_rows": 340,
+          "filled_rows": 340,
+          "filled_pct": 4.2
+        },
+        "SelfOReb": {
+          "present_rows": 8057,
+          "filled_rows": 8057,
+          "filled_pct": 100.0
+        },
+        "ZBounds": {
+          "present_rows": 8057,
+          "filled_rows": 8057,
+          "filled_pct": 100.0
+        },
+        "ZBoards": {
+          "present_rows": 8057,
+          "filled_rows": 8057,
+          "filled_pct": 100.0
+        }
+      },
+      "six_factor_inputs": {
+        "OffPoss": {
+          "present_rows": 8054,
+          "filled_rows": 8054,
+          "filled_pct": 100.0
+        },
+        "DefPoss": {
+          "present_rows": 8043,
+          "filled_rows": 8043,
+          "filled_pct": 99.8
+        },
+        "TotalPoss": {
+          "present_rows": 4253,
+          "filled_rows": 4253,
+          "filled_pct": 52.8
+        },
+        "Points": {
+          "present_rows": 8057,
+          "filled_rows": 8057,
+          "filled_pct": 100.0
+        },
+        "EfgPct": {
+          "present_rows": 5615,
+          "filled_rows": 5615,
+          "filled_pct": 69.7
+        },
+        "EfgPct_Recalc": {
+          "present_rows": 6078,
+          "filled_rows": 6078,
+          "filled_pct": 75.4
+        },
+        "TsPct": {
+          "present_rows": 6099,
+          "filled_rows": 6099,
+          "filled_pct": 75.7
+        },
+        "AdjTS%": {
+          "present_rows": 8057,
+          "filled_rows": 6395,
+          "filled_pct": 79.4
+        },
+        "Turnovers": {
+          "present_rows": 3677,
+          "filled_rows": 3677,
+          "filled_pct": 45.6
+        },
+        "LiveBallTurnovers": {
+          "present_rows": 2478,
+          "filled_rows": 2478,
+          "filled_pct": 30.8
+        },
+        "OffRebounds": {
+          "present_rows": 2992,
+          "filled_rows": 2992,
+          "filled_pct": 37.1
+        },
+        "DefRebounds": {
+          "present_rows": 5123,
+          "filled_rows": 5123,
+          "filled_pct": 63.6
+        },
+        "FTA": {
+          "present_rows": 3631,
+          "filled_rows": 3631,
+          "filled_pct": 45.1
+        },
+        "FtPoints": {
+          "present_rows": 3424,
+          "filled_rows": 3424,
+          "filled_pct": 42.5
+        },
+        "Usage": {
+          "present_rows": 7319,
+          "filled_rows": 7319,
+          "filled_pct": 90.8
+        },
+        "ShotQualityAvg": {
+          "present_rows": 7013,
+          "filled_rows": 7013,
+          "filled_pct": 87.0
+        }
+      },
+      "shot_locations": {
+        "AtRimFGA": {
+          "present_rows": 4729,
+          "filled_rows": 4729,
+          "filled_pct": 58.7
+        },
+        "AtRimFGM": {
+          "present_rows": 3762,
+          "filled_rows": 3762,
+          "filled_pct": 46.7
+        },
+        "AtRimFrequency": {
+          "present_rows": 4729,
+          "filled_rows": 4729,
+          "filled_pct": 58.7
+        },
+        "AtRimAccuracy": {
+          "present_rows": 3762,
+          "filled_rows": 3762,
+          "filled_pct": 46.7
+        },
+        "ShortMidRangeFGA": {
+          "present_rows": 3712,
+          "filled_rows": 3712,
+          "filled_pct": 46.1
+        },
+        "ShortMidRangeFGM": {
+          "present_rows": 2154,
+          "filled_rows": 2154,
+          "filled_pct": 26.7
+        },
+        "ShortMidRangeFrequency": {
+          "present_rows": 3712,
+          "filled_rows": 3712,
+          "filled_pct": 46.1
+        },
+        "ShortMidRangeAccuracy": {
+          "present_rows": 2154,
+          "filled_rows": 2154,
+          "filled_pct": 26.7
+        },
+        "LongMidRangeFGA": {
+          "present_rows": 3918,
+          "filled_rows": 3918,
+          "filled_pct": 48.6
+        },
+        "LongMidRangeFGM": {
+          "present_rows": 2214,
+          "filled_rows": 2214,
+          "filled_pct": 27.5
+        },
+        "LongMidRangeFrequency": {
+          "present_rows": 3918,
+          "filled_rows": 3918,
+          "filled_pct": 48.6
+        },
+        "LongMidRangeAccuracy": {
+          "present_rows": 2214,
+          "filled_rows": 2214,
+          "filled_pct": 27.5
+        },
+        "Corner3FGA": {
+          "present_rows": 2015,
+          "filled_rows": 2015,
+          "filled_pct": 25.0
+        },
+        "Corner3FGM": {
+          "present_rows": 977,
+          "filled_rows": 977,
+          "filled_pct": 12.1
+        },
+        "Corner3Frequency": {
+          "present_rows": 2015,
+          "filled_rows": 2015,
+          "filled_pct": 25.0
+        },
+        "Corner3Accuracy": {
+          "present_rows": 977,
+          "filled_rows": 977,
+          "filled_pct": 12.1
+        },
+        "Arc3FGA": {
+          "present_rows": 3406,
+          "filled_rows": 3406,
+          "filled_pct": 42.3
+        },
+        "Arc3FGM": {
+          "present_rows": 1781,
+          "filled_rows": 1781,
+          "filled_pct": 22.1
+        },
+        "Arc3Frequency": {
+          "present_rows": 3406,
+          "filled_rows": 3406,
+          "filled_pct": 42.3
+        },
+        "Arc3Accuracy": {
+          "present_rows": 1781,
+          "filled_rows": 1781,
+          "filled_pct": 22.1
+        },
+        "ShotQualityAvg": {
+          "present_rows": 7013,
+          "filled_rows": 7013,
+          "filled_pct": 87.0
+        }
+      }
+    }
+  },
+  "2015": {
+    "file": "public/data/pbpstats/player_game_low_removed/2015.json",
+    "rows": 7636,
+    "games_in_output": 81,
+    "expected_games_from_games_file": 81,
+    "min_rows_per_game": 82,
+    "max_rows_per_game": 112,
+    "avg_rows_per_game": 94.3,
+    "min_unique_players_per_game": 25,
+    "max_unique_players_per_game": 34,
+    "avg_unique_players_per_game": 28.5,
+    "duplicate_games_count": 81,
+    "duplicate_examples": [
+      {
+        "gameId": "0041400101",
+        "rows": 94,
+        "unique_players": 28,
+        "duplicates": [
+          [
+            [
+              "101114",
+              "Deron Williams"
+            ],
+            5
+          ],
+          [
+            [
+              "101127",
+              "Jarrett Jack"
+            ],
+            5
+          ],
+          [
+            [
+              "101187",
+              "Alan Anderson"
+            ],
+            4
+          ],
+          [
+            [
+              "201152",
+              "Thaddeus Young"
+            ],
+            5
+          ],
+          [
+            [
+              "201572",
+              "Brook Lopez"
+            ],
+            5
+          ],
+          [
+            [
+              "201947",
+              "Earl Clark"
+            ],
+            4
+          ],
+          [
+            [
+              "202711",
+              "Bojan Bogdanovic"
+            ],
+            4
+          ],
+          [
+            [
+              "2207",
+              "Joe Johnson"
+            ],
+            5
+          ],
+          [
+            [
+              "203486",
+              "Mason Plumlee"
+            ],
+            3
+          ],
+          [
+            [
+              "200794",
+              "Paul Millsap"
+            ],
+            5
+          ]
+        ]
+      },
+      {
+        "gameId": "0041400102",
+        "rows": 97,
+        "unique_players": 28,
+        "duplicates": [
+          [
+            [
+              "101114",
+              "Deron Williams"
+            ],
+            5
+          ],
+          [
+            [
+              "101127",
+              "Jarrett Jack"
+            ],
+            5
+          ],
+          [
+            [
+              "101187",
+              "Alan Anderson"
+            ],
+            5
+          ],
+          [
+            [
+              "201152",
+              "Thaddeus Young"
+            ],
+            5
+          ],
+          [
+            [
+              "201572",
+              "Brook Lopez"
+            ],
+            5
+          ],
+          [
+            [
+              "202711",
+              "Bojan Bogdanovic"
+            ],
+            5
+          ],
+          [
+            [
+              "203141",
+              "Mirza Teletovic"
+            ],
+            3
+          ],
+          [
+            [
+              "203486",
+              "Mason Plumlee"
+            ],
+            4
+          ],
+          [
+            [
+              "2207",
+              "Joe Johnson"
+            ],
+            5
+          ],
+          [
+            [
+              "200794",
+              "Paul Millsap"
+            ],
+            5
+          ]
+        ]
+      },
+      {
+        "gameId": "0041400103",
+        "rows": 82,
+        "unique_players": 26,
+        "duplicates": [
+          [
+            [
+              "200794",
+              "Paul Millsap"
+            ],
+            5
+          ],
+          [
+            [
+              "201143",
+              "Al Horford"
+            ],
+            5
+          ],
+          [
+            [
+              "201952",
+              "Jeff Teague"
+            ],
+            4
+          ],
+          [
+            [
+              "201960",
+              "DeMarre Carroll"
+            ],
+            5
+          ],
+          [
+            [
+              "203145",
+              "Kent Bazemore"
+            ],
+            5
+          ],
+          [
+            [
+              "203471",
+              "Dennis Schroder"
+            ],
+            4
+          ],
+          [
+            [
+              "203544",
+              "Pero Antic"
+            ],
+            4
+          ],
+          [
+            [
+              "2594",
+              "Kyle Korver"
+            ],
+            4
+          ],
+          [
+            [
+              "203118",
+              "Mike Scott"
+            ],
+            3
+          ],
+          [
+            [
+              "101114",
+              "Deron Williams"
+            ],
+            4
+          ]
+        ]
+      },
+      {
+        "gameId": "0041400104",
+        "rows": 103,
+        "unique_players": 27,
+        "duplicates": [
+          [
+            [
+              "200794",
+              "Paul Millsap"
+            ],
+            6
+          ],
+          [
+            [
+              "201143",
+              "Al Horford"
+            ],
+            6
+          ],
+          [
+            [
+              "201952",
+              "Jeff Teague"
+            ],
+            6
+          ],
+          [
+            [
+              "201960",
+              "DeMarre Carroll"
+            ],
+            6
+          ],
+          [
+            [
+              "203145",
+              "Kent Bazemore"
+            ],
+            5
+          ],
+          [
+            [
+              "203471",
+              "Dennis Schroder"
+            ],
+            5
+          ],
+          [
+            [
+              "203544",
+              "Pero Antic"
+            ],
+            5
+          ],
+          [
+            [
+              "2594",
+              "Kyle Korver"
+            ],
+            6
+          ],
+          [
+            [
+              "203118",
+              "Mike Scott"
+            ],
+            4
+          ],
+          [
+            [
+              "101114",
+              "Deron Williams"
+            ],
+            6
+          ]
+        ]
+      },
+      {
+        "gameId": "0041400105",
+        "rows": 85,
+        "unique_players": 26,
+        "duplicates": [
+          [
+            [
+              "101114",
+              "Deron Williams"
+            ],
+            5
+          ],
+          [
+            [
+              "101127",
+              "Jarrett Jack"
+            ],
+            5
+          ],
+          [
+            [
+              "101187",
+              "Alan Anderson"
+            ],
+            5
+          ],
+          [
+            [
+              "201152",
+              "Thaddeus Young"
+            ],
+            4
+          ],
+          [
+            [
+              "201572",
+              "Brook Lopez"
+            ],
+            5
+          ],
+          [
+            [
+              "202711",
+              "Bojan Bogdanovic"
+            ],
+            5
+          ],
+          [
+            [
+              "203486",
+              "Mason Plumlee"
+            ],
+            3
+          ],
+          [
+            [
+              "2207",
+              "Joe Johnson"
+            ],
+            5
+          ],
+          [
+            [
+              "200794",
+              "Paul Millsap"
+            ],
+            5
+          ],
+          [
+            [
+              "201143",
+              "Al Horford"
+            ],
+            5
+          ]
+        ]
+      }
+    ],
+    "negative_count_examples": [
+      {
+        "gameId": "0041400101",
+        "playerId": "101114",
+        "playerName": "Deron Williams",
+        "field": "Points",
+        "value": -3.0
+      },
+      {
+        "gameId": "0041400101",
+        "playerId": "101114",
+        "playerName": "Deron Williams",
+        "field": "FG3A",
+        "value": -2.0
+      },
+      {
+        "gameId": "0041400101",
+        "playerId": "101114",
+        "playerName": "Deron Williams",
+        "field": "FGA_Recalc",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041400101",
+        "playerId": "101114",
+        "playerName": "Deron Williams",
+        "field": "Corner3FGA",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041400101",
+        "playerId": "101114",
+        "playerName": "Deron Williams",
+        "field": "Arc3FGA",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041400101",
+        "playerId": "101114",
+        "playerName": "Deron Williams",
+        "field": "FG3A",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041400101",
+        "playerId": "101114",
+        "playerName": "Deron Williams",
+        "field": "Corner3FGA",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041400101",
+        "playerId": "101114",
+        "playerName": "Deron Williams",
+        "field": "FG3A",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041400101",
+        "playerId": "101114",
+        "playerName": "Deron Williams",
+        "field": "Corner3FGA",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041400101",
+        "playerId": "201952",
+        "playerName": "Jeff Teague",
+        "field": "FTA",
+        "value": -2.0
+      },
+      {
+        "gameId": "0041400101",
+        "playerId": "200794",
+        "playerName": "Paul Millsap",
+        "field": "FG2A",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041400101",
+        "playerId": "200794",
+        "playerName": "Paul Millsap",
+        "field": "FGA_Recalc",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041400101",
+        "playerId": "200794",
+        "playerName": "Paul Millsap",
+        "field": "ShortMidRangeFGA",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041400101",
+        "playerId": "201952",
+        "playerName": "Jeff Teague",
+        "field": "FTA",
+        "value": -2.0
+      },
+      {
+        "gameId": "0041400101",
+        "playerId": "203145",
+        "playerName": "Kent Bazemore",
+        "field": "FG2A",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041400101",
+        "playerId": "203145",
+        "playerName": "Kent Bazemore",
+        "field": "FGA_Recalc",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041400101",
+        "playerId": "203145",
+        "playerName": "Kent Bazemore",
+        "field": "AtRimFGA",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041400101",
+        "playerId": "203471",
+        "playerName": "Dennis Schroder",
+        "field": "Points",
+        "value": -2.0
+      },
+      {
+        "gameId": "0041400101",
+        "playerId": "203471",
+        "playerName": "Dennis Schroder",
+        "field": "AtRimFGA",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041400101",
+        "playerId": "201952",
+        "playerName": "Jeff Teague",
+        "field": "FTA",
+        "value": -2.0
+      }
+    ],
+    "negative_examples_count_capped": 50,
+    "missing_core_groups": {
+      "identity": {
+        "missing_completely": [],
+        "very_sparse_under_5pct": []
+      },
+      "basic_personal": {
+        "missing_completely": [],
+        "very_sparse_under_5pct": []
+      },
+      "adj_ts_ingredients": {
+        "missing_completely": [],
+        "very_sparse_under_5pct": [
+          "Technical Free Throw Trips"
+        ]
+      },
+      "six_factor_inputs": {
+        "missing_completely": [],
+        "very_sparse_under_5pct": []
+      },
+      "shot_locations": {
+        "missing_completely": [],
+        "very_sparse_under_5pct": []
+      }
+    },
+    "field_coverage": {
+      "identity": {
+        "year": {
+          "present_rows": 7636,
+          "filled_rows": 7636,
+          "filled_pct": 100.0
+        },
+        "season": {
+          "present_rows": 7636,
+          "filled_rows": 7636,
+          "filled_pct": 100.0
+        },
+        "gameId": {
+          "present_rows": 7636,
+          "filled_rows": 7636,
+          "filled_pct": 100.0
+        },
+        "nbaGameId": {
+          "present_rows": 7636,
+          "filled_rows": 7636,
+          "filled_pct": 100.0
+        },
+        "date": {
+          "present_rows": 7636,
+          "filled_rows": 7636,
+          "filled_pct": 100.0
+        },
+        "playerId": {
+          "present_rows": 7636,
+          "filled_rows": 7636,
+          "filled_pct": 100.0
+        },
+        "playerName": {
+          "present_rows": 7636,
+          "filled_rows": 7636,
+          "filled_pct": 100.0
+        }
+      },
+      "basic_personal": {
+        "Minutes": {
+          "present_rows": 7636,
+          "filled_rows": 7636,
+          "filled_pct": 100.0
+        },
+        "SecondsPlayed": {
+          "present_rows": 4013,
+          "filled_rows": 4013,
+          "filled_pct": 52.6
+        },
+        "Points": {
+          "present_rows": 7636,
+          "filled_rows": 7636,
+          "filled_pct": 100.0
+        },
+        "FG2M": {
+          "present_rows": 4846,
+          "filled_rows": 4846,
+          "filled_pct": 63.5
+        },
+        "FG2A": {
+          "present_rows": 6143,
+          "filled_rows": 6143,
+          "filled_pct": 80.4
+        },
+        "FG3M": {
+          "present_rows": 2526,
+          "filled_rows": 2526,
+          "filled_pct": 33.1
+        },
+        "FG3A": {
+          "present_rows": 4359,
+          "filled_rows": 4359,
+          "filled_pct": 57.1
+        },
+        "FTA": {
+          "present_rows": 3488,
+          "filled_rows": 3488,
+          "filled_pct": 45.7
+        },
+        "FtPoints": {
+          "present_rows": 3220,
+          "filled_rows": 3220,
+          "filled_pct": 42.2
+        },
+        "Assists": {
+          "present_rows": 4196,
+          "filled_rows": 4196,
+          "filled_pct": 55.0
+        },
+        "Rebounds": {
+          "present_rows": 5568,
+          "filled_rows": 5568,
+          "filled_pct": 72.9
+        },
+        "OffRebounds": {
+          "present_rows": 2922,
+          "filled_rows": 2922,
+          "filled_pct": 38.3
+        },
+        "DefRebounds": {
+          "present_rows": 5024,
+          "filled_rows": 5024,
+          "filled_pct": 65.8
+        },
+        "Steals": {
+          "present_rows": 2336,
+          "filled_rows": 2336,
+          "filled_pct": 30.6
+        },
+        "Blocks": {
+          "present_rows": 1745,
+          "filled_rows": 1745,
+          "filled_pct": 22.9
+        },
+        "Turnovers": {
+          "present_rows": 3476,
+          "filled_rows": 3476,
+          "filled_pct": 45.5
+        },
+        "PlusMinus": {
+          "present_rows": 3600,
+          "filled_rows": 3600,
+          "filled_pct": 47.1
+        },
+        "OffPoss": {
+          "present_rows": 7634,
+          "filled_rows": 7634,
+          "filled_pct": 100.0
+        },
+        "DefPoss": {
+          "present_rows": 7619,
+          "filled_rows": 7619,
+          "filled_pct": 99.8
+        }
+      },
+      "adj_ts_ingredients": {
+        "FGA_Recalc": {
+          "present_rows": 7636,
+          "filled_rows": 7636,
+          "filled_pct": 100.0
+        },
+        "AdjFGA": {
+          "present_rows": 7636,
+          "filled_rows": 7636,
+          "filled_pct": 100.0
+        },
+        "AdjFTA": {
+          "present_rows": 7636,
+          "filled_rows": 7636,
+          "filled_pct": 100.0
+        },
+        "AdjTS%": {
+          "present_rows": 7636,
+          "filled_rows": 6183,
+          "filled_pct": 81.0
+        },
+        "TS_Recalc": {
+          "present_rows": 7636,
+          "filled_rows": 6051,
+          "filled_pct": 79.2
+        },
+        "ScoringTOV": {
+          "present_rows": 7636,
+          "filled_rows": 7636,
+          "filled_pct": 100.0
+        },
+        "BadPassTOV_Total": {
+          "present_rows": 7636,
+          "filled_rows": 7636,
+          "filled_pct": 100.0
+        },
+        "BadPassTurnovers": {
+          "present_rows": 1830,
+          "filled_rows": 1830,
+          "filled_pct": 24.0
+        },
+        "BadPassOutOfBoundsTurnovers": {
+          "present_rows": 749,
+          "filled_rows": 749,
+          "filled_pct": 9.8
+        },
+        "Heaves_Est": {
+          "present_rows": 7636,
+          "filled_rows": 7636,
+          "filled_pct": 100.0
+        },
+        "NonHeaveArc3FGA": {
+          "present_rows": 3837,
+          "filled_rows": 3837,
+          "filled_pct": 50.2
+        },
+        "TechFTA_Est": {
+          "present_rows": 7636,
+          "filled_rows": 7636,
+          "filled_pct": 100.0
+        },
+        "Technical Free Throw Trips": {
+          "present_rows": 190,
+          "filled_rows": 190,
+          "filled_pct": 2.5
+        },
+        "SelfOReb": {
+          "present_rows": 7636,
+          "filled_rows": 7636,
+          "filled_pct": 100.0
+        },
+        "ZBounds": {
+          "present_rows": 7636,
+          "filled_rows": 7636,
+          "filled_pct": 100.0
+        },
+        "ZBoards": {
+          "present_rows": 7636,
+          "filled_rows": 7636,
+          "filled_pct": 100.0
+        }
+      },
+      "six_factor_inputs": {
+        "OffPoss": {
+          "present_rows": 7634,
+          "filled_rows": 7634,
+          "filled_pct": 100.0
+        },
+        "DefPoss": {
+          "present_rows": 7619,
+          "filled_rows": 7619,
+          "filled_pct": 99.8
+        },
+        "TotalPoss": {
+          "present_rows": 4066,
+          "filled_rows": 4066,
+          "filled_pct": 53.2
+        },
+        "Points": {
+          "present_rows": 7636,
+          "filled_rows": 7636,
+          "filled_pct": 100.0
+        },
+        "EfgPct": {
+          "present_rows": 5489,
+          "filled_rows": 5489,
+          "filled_pct": 71.9
+        },
+        "EfgPct_Recalc": {
+          "present_rows": 5909,
+          "filled_rows": 5909,
+          "filled_pct": 77.4
+        },
+        "TsPct": {
+          "present_rows": 5900,
+          "filled_rows": 5900,
+          "filled_pct": 77.3
+        },
+        "AdjTS%": {
+          "present_rows": 7636,
+          "filled_rows": 6183,
+          "filled_pct": 81.0
+        },
+        "Turnovers": {
+          "present_rows": 3476,
+          "filled_rows": 3476,
+          "filled_pct": 45.5
+        },
+        "LiveBallTurnovers": {
+          "present_rows": 2483,
+          "filled_rows": 2483,
+          "filled_pct": 32.5
+        },
+        "OffRebounds": {
+          "present_rows": 2922,
+          "filled_rows": 2922,
+          "filled_pct": 38.3
+        },
+        "DefRebounds": {
+          "present_rows": 5024,
+          "filled_rows": 5024,
+          "filled_pct": 65.8
+        },
+        "FTA": {
+          "present_rows": 3488,
+          "filled_rows": 3488,
+          "filled_pct": 45.7
+        },
+        "FtPoints": {
+          "present_rows": 3220,
+          "filled_rows": 3220,
+          "filled_pct": 42.2
+        },
+        "Usage": {
+          "present_rows": 7055,
+          "filled_rows": 7055,
+          "filled_pct": 92.4
+        },
+        "ShotQualityAvg": {
+          "present_rows": 6797,
+          "filled_rows": 6797,
+          "filled_pct": 89.0
+        }
+      },
+      "shot_locations": {
+        "AtRimFGA": {
+          "present_rows": 4639,
+          "filled_rows": 4639,
+          "filled_pct": 60.8
+        },
+        "AtRimFGM": {
+          "present_rows": 3697,
+          "filled_rows": 3697,
+          "filled_pct": 48.4
+        },
+        "AtRimFrequency": {
+          "present_rows": 4639,
+          "filled_rows": 4639,
+          "filled_pct": 60.8
+        },
+        "AtRimAccuracy": {
+          "present_rows": 3697,
+          "filled_rows": 3697,
+          "filled_pct": 48.4
+        },
+        "ShortMidRangeFGA": {
+          "present_rows": 3688,
+          "filled_rows": 3688,
+          "filled_pct": 48.3
+        },
+        "ShortMidRangeFGM": {
+          "present_rows": 2020,
+          "filled_rows": 2020,
+          "filled_pct": 26.5
+        },
+        "ShortMidRangeFrequency": {
+          "present_rows": 3688,
+          "filled_rows": 3688,
+          "filled_pct": 48.3
+        },
+        "ShortMidRangeAccuracy": {
+          "present_rows": 2020,
+          "filled_rows": 2020,
+          "filled_pct": 26.5
+        },
+        "LongMidRangeFGA": {
+          "present_rows": 3498,
+          "filled_rows": 3498,
+          "filled_pct": 45.8
+        },
+        "LongMidRangeFGM": {
+          "present_rows": 1954,
+          "filled_rows": 1954,
+          "filled_pct": 25.6
+        },
+        "LongMidRangeFrequency": {
+          "present_rows": 3498,
+          "filled_rows": 3498,
+          "filled_pct": 45.8
+        },
+        "LongMidRangeAccuracy": {
+          "present_rows": 1954,
+          "filled_rows": 1954,
+          "filled_pct": 25.6
+        },
+        "Corner3FGA": {
+          "present_rows": 2059,
+          "filled_rows": 2059,
+          "filled_pct": 27.0
+        },
+        "Corner3FGM": {
+          "present_rows": 1017,
+          "filled_rows": 1017,
+          "filled_pct": 13.3
+        },
+        "Corner3Frequency": {
+          "present_rows": 2059,
+          "filled_rows": 2059,
+          "filled_pct": 27.0
+        },
+        "Corner3Accuracy": {
+          "present_rows": 1017,
+          "filled_rows": 1017,
+          "filled_pct": 13.3
+        },
+        "Arc3FGA": {
+          "present_rows": 3869,
+          "filled_rows": 3869,
+          "filled_pct": 50.7
+        },
+        "Arc3FGM": {
+          "present_rows": 2066,
+          "filled_rows": 2066,
+          "filled_pct": 27.1
+        },
+        "Arc3Frequency": {
+          "present_rows": 3869,
+          "filled_rows": 3869,
+          "filled_pct": 50.7
+        },
+        "Arc3Accuracy": {
+          "present_rows": 2066,
+          "filled_rows": 2066,
+          "filled_pct": 27.1
+        },
+        "ShotQualityAvg": {
+          "present_rows": 6797,
+          "filled_rows": 6797,
+          "filled_pct": 89.0
+        }
+      }
+    }
+  },
+  "2016": {
+    "file": "public/data/pbpstats/player_game_low_removed/2016.json",
+    "rows": 8270,
+    "games_in_output": 86,
+    "expected_games_from_games_file": 86,
+    "min_rows_per_game": 83,
+    "max_rows_per_game": 111,
+    "avg_rows_per_game": 96.2,
+    "min_unique_players_per_game": 26,
+    "max_unique_players_per_game": 34,
+    "avg_unique_players_per_game": 30.1,
+    "duplicate_games_count": 86,
+    "duplicate_examples": [
+      {
+        "gameId": "0041500101",
+        "rows": 87,
+        "unique_players": 26,
+        "duplicates": [
+          [
+            [
+              "1626169",
+              "Stanley Johnson"
+            ],
+            5
+          ],
+          [
+            [
+              "202694",
+              "Marcus Morris"
+            ],
+            5
+          ],
+          [
+            [
+              "202699",
+              "Tobias Harris"
+            ],
+            5
+          ],
+          [
+            [
+              "202704",
+              "Reggie Jackson"
+            ],
+            5
+          ],
+          [
+            [
+              "203083",
+              "Andre Drummond"
+            ],
+            4
+          ],
+          [
+            [
+              "203484",
+              "Kentavious Caldwell-Pope"
+            ],
+            5
+          ],
+          [
+            [
+              "2581",
+              "Steve Blake"
+            ],
+            4
+          ],
+          [
+            [
+              "203382",
+              "Aron Baynes"
+            ],
+            3
+          ],
+          [
+            [
+              "203493",
+              "Reggie Bullock"
+            ],
+            3
+          ],
+          [
+            [
+              "201567",
+              "Kevin Love"
+            ],
+            5
+          ]
+        ]
+      },
+      {
+        "gameId": "0041500102",
+        "rows": 98,
+        "unique_players": 33,
+        "duplicates": [
+          [
+            [
+              "1626169",
+              "Stanley Johnson"
+            ],
+            5
+          ],
+          [
+            [
+              "202694",
+              "Marcus Morris"
+            ],
+            5
+          ],
+          [
+            [
+              "202699",
+              "Tobias Harris"
+            ],
+            5
+          ],
+          [
+            [
+              "202704",
+              "Reggie Jackson"
+            ],
+            5
+          ],
+          [
+            [
+              "203083",
+              "Andre Drummond"
+            ],
+            5
+          ],
+          [
+            [
+              "203382",
+              "Aron Baynes"
+            ],
+            4
+          ],
+          [
+            [
+              "203484",
+              "Kentavious Caldwell-Pope"
+            ],
+            5
+          ],
+          [
+            [
+              "2581",
+              "Steve Blake"
+            ],
+            5
+          ],
+          [
+            [
+              "201229",
+              "Anthony Tolliver"
+            ],
+            3
+          ],
+          [
+            [
+              "203493",
+              "Reggie Bullock"
+            ],
+            3
+          ]
+        ]
+      },
+      {
+        "gameId": "0041500103",
+        "rows": 88,
+        "unique_players": 26,
+        "duplicates": [
+          [
+            [
+              "201567",
+              "Kevin Love"
+            ],
+            5
+          ],
+          [
+            [
+              "202681",
+              "Kyrie Irving"
+            ],
+            5
+          ],
+          [
+            [
+              "202684",
+              "Tristan Thompson"
+            ],
+            5
+          ],
+          [
+            [
+              "202697",
+              "Iman Shumpert"
+            ],
+            4
+          ],
+          [
+            [
+              "2210",
+              "Richard Jefferson"
+            ],
+            5
+          ],
+          [
+            [
+              "2544",
+              "LeBron James"
+            ],
+            5
+          ],
+          [
+            [
+              "2747",
+              "JR Smith"
+            ],
+            5
+          ],
+          [
+            [
+              "101112",
+              "Channing Frye"
+            ],
+            3
+          ],
+          [
+            [
+              "203521",
+              "Matthew Dellavedova"
+            ],
+            3
+          ],
+          [
+            [
+              "201229",
+              "Anthony Tolliver"
+            ],
+            4
+          ]
+        ]
+      },
+      {
+        "gameId": "0041500104",
+        "rows": 92,
+        "unique_players": 26,
+        "duplicates": [
+          [
+            [
+              "101112",
+              "Channing Frye"
+            ],
+            4
+          ],
+          [
+            [
+              "201567",
+              "Kevin Love"
+            ],
+            5
+          ],
+          [
+            [
+              "202681",
+              "Kyrie Irving"
+            ],
+            5
+          ],
+          [
+            [
+              "202684",
+              "Tristan Thompson"
+            ],
+            5
+          ],
+          [
+            [
+              "202697",
+              "Iman Shumpert"
+            ],
+            5
+          ],
+          [
+            [
+              "203521",
+              "Matthew Dellavedova"
+            ],
+            5
+          ],
+          [
+            [
+              "2210",
+              "Richard Jefferson"
+            ],
+            4
+          ],
+          [
+            [
+              "2544",
+              "LeBron James"
+            ],
+            5
+          ],
+          [
+            [
+              "2747",
+              "JR Smith"
+            ],
+            5
+          ],
+          [
+            [
+              "1626169",
+              "Stanley Johnson"
+            ],
+            5
+          ]
+        ]
+      },
+      {
+        "gameId": "0041500111",
+        "rows": 100,
+        "unique_players": 29,
+        "duplicates": [
+          [
+            [
+              "101133",
+              "Ian Mahinmi"
+            ],
+            5
+          ],
+          [
+            [
+              "101145",
+              "Monta Ellis"
+            ],
+            5
+          ],
+          [
+            [
+              "1626167",
+              "Myles Turner"
+            ],
+            5
+          ],
+          [
+            [
+              "201155",
+              "Rodney Stuckey"
+            ],
+            5
+          ],
+          [
+            [
+              "201588",
+              "George Hill"
+            ],
+            5
+          ],
+          [
+            [
+              "201951",
+              "Ty Lawson"
+            ],
+            5
+          ],
+          [
+            [
+              "202331",
+              "Paul George"
+            ],
+            5
+          ],
+          [
+            [
+              "202730",
+              "Lavoy Allen"
+            ],
+            3
+          ],
+          [
+            [
+              "203524",
+              "Solomon Hill"
+            ],
+            5
+          ],
+          [
+            [
+              "101139",
+              "CJ Miles"
+            ],
+            3
+          ]
+        ]
+      }
+    ],
+    "negative_count_examples": [
+      {
+        "gameId": "0041500101",
+        "playerId": "203484",
+        "playerName": "Kentavious Caldwell-Pope",
+        "field": "Corner3FGA",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041500101",
+        "playerId": "202704",
+        "playerName": "Reggie Jackson",
+        "field": "Points",
+        "value": -2.0
+      },
+      {
+        "gameId": "0041500101",
+        "playerId": "202704",
+        "playerName": "Reggie Jackson",
+        "field": "FG2A",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041500101",
+        "playerId": "202704",
+        "playerName": "Reggie Jackson",
+        "field": "AtRimFGA",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041500101",
+        "playerId": "203484",
+        "playerName": "Kentavious Caldwell-Pope",
+        "field": "FG3A",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041500101",
+        "playerId": "203484",
+        "playerName": "Kentavious Caldwell-Pope",
+        "field": "FGA_Recalc",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041500101",
+        "playerId": "203484",
+        "playerName": "Kentavious Caldwell-Pope",
+        "field": "Arc3FGA",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041500101",
+        "playerId": "202704",
+        "playerName": "Reggie Jackson",
+        "field": "AtRimFGA",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041500101",
+        "playerId": "203484",
+        "playerName": "Kentavious Caldwell-Pope",
+        "field": "FG3A",
+        "value": -2.0
+      },
+      {
+        "gameId": "0041500101",
+        "playerId": "203484",
+        "playerName": "Kentavious Caldwell-Pope",
+        "field": "Corner3FGA",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041500101",
+        "playerId": "203484",
+        "playerName": "Kentavious Caldwell-Pope",
+        "field": "Arc3FGA",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041500101",
+        "playerId": "202681",
+        "playerName": "Kyrie Irving",
+        "field": "FTA",
+        "value": -4.0
+      },
+      {
+        "gameId": "0041500101",
+        "playerId": "2747",
+        "playerName": "JR Smith",
+        "field": "FTA",
+        "value": -2.0
+      },
+      {
+        "gameId": "0041500101",
+        "playerId": "202681",
+        "playerName": "Kyrie Irving",
+        "field": "FTA",
+        "value": -3.0
+      },
+      {
+        "gameId": "0041500101",
+        "playerId": "2544",
+        "playerName": "LeBron James",
+        "field": "ShortMidRangeFGA",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041500101",
+        "playerId": "2747",
+        "playerName": "JR Smith",
+        "field": "FTA",
+        "value": -2.0
+      },
+      {
+        "gameId": "0041500101",
+        "playerId": "202681",
+        "playerName": "Kyrie Irving",
+        "field": "FTA",
+        "value": -4.0
+      },
+      {
+        "gameId": "0041500101",
+        "playerId": "2544",
+        "playerName": "LeBron James",
+        "field": "ShortMidRangeFGA",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041500101",
+        "playerId": "2747",
+        "playerName": "JR Smith",
+        "field": "FTA",
+        "value": -2.0
+      },
+      {
+        "gameId": "0041500102",
+        "playerId": "202694",
+        "playerName": "Marcus Morris",
+        "field": "ShortMidRangeFGA",
+        "value": -1.0
+      }
+    ],
+    "negative_examples_count_capped": 50,
+    "missing_core_groups": {
+      "identity": {
+        "missing_completely": [],
+        "very_sparse_under_5pct": []
+      },
+      "basic_personal": {
+        "missing_completely": [],
+        "very_sparse_under_5pct": []
+      },
+      "adj_ts_ingredients": {
+        "missing_completely": [],
+        "very_sparse_under_5pct": [
+          "Technical Free Throw Trips"
+        ]
+      },
+      "six_factor_inputs": {
+        "missing_completely": [],
+        "very_sparse_under_5pct": []
+      },
+      "shot_locations": {
+        "missing_completely": [],
+        "very_sparse_under_5pct": []
+      }
+    },
+    "field_coverage": {
+      "identity": {
+        "year": {
+          "present_rows": 8270,
+          "filled_rows": 8270,
+          "filled_pct": 100.0
+        },
+        "season": {
+          "present_rows": 8270,
+          "filled_rows": 8270,
+          "filled_pct": 100.0
+        },
+        "gameId": {
+          "present_rows": 8270,
+          "filled_rows": 8270,
+          "filled_pct": 100.0
+        },
+        "nbaGameId": {
+          "present_rows": 8270,
+          "filled_rows": 8270,
+          "filled_pct": 100.0
+        },
+        "date": {
+          "present_rows": 8270,
+          "filled_rows": 8270,
+          "filled_pct": 100.0
+        },
+        "playerId": {
+          "present_rows": 8270,
+          "filled_rows": 8270,
+          "filled_pct": 100.0
+        },
+        "playerName": {
+          "present_rows": 8270,
+          "filled_rows": 8270,
+          "filled_pct": 100.0
+        }
+      },
+      "basic_personal": {
+        "Minutes": {
+          "present_rows": 8270,
+          "filled_rows": 8270,
+          "filled_pct": 100.0
+        },
+        "SecondsPlayed": {
+          "present_rows": 4636,
+          "filled_rows": 4636,
+          "filled_pct": 56.1
+        },
+        "Points": {
+          "present_rows": 8270,
+          "filled_rows": 8270,
+          "filled_pct": 100.0
+        },
+        "FG2M": {
+          "present_rows": 5252,
+          "filled_rows": 5252,
+          "filled_pct": 63.5
+        },
+        "FG2A": {
+          "present_rows": 6624,
+          "filled_rows": 6624,
+          "filled_pct": 80.1
+        },
+        "FG3M": {
+          "present_rows": 2806,
+          "filled_rows": 2806,
+          "filled_pct": 33.9
+        },
+        "FG3A": {
+          "present_rows": 4816,
+          "filled_rows": 4816,
+          "filled_pct": 58.2
+        },
+        "FTA": {
+          "present_rows": 3694,
+          "filled_rows": 3694,
+          "filled_pct": 44.7
+        },
+        "FtPoints": {
+          "present_rows": 3474,
+          "filled_rows": 3474,
+          "filled_pct": 42.0
+        },
+        "Assists": {
+          "present_rows": 4363,
+          "filled_rows": 4363,
+          "filled_pct": 52.8
+        },
+        "Rebounds": {
+          "present_rows": 6023,
+          "filled_rows": 6023,
+          "filled_pct": 72.8
+        },
+        "OffRebounds": {
+          "present_rows": 3181,
+          "filled_rows": 3181,
+          "filled_pct": 38.5
+        },
+        "DefRebounds": {
+          "present_rows": 5389,
+          "filled_rows": 5389,
+          "filled_pct": 65.2
+        },
+        "Steals": {
+          "present_rows": 2433,
+          "filled_rows": 2433,
+          "filled_pct": 29.4
+        },
+        "Blocks": {
+          "present_rows": 1764,
+          "filled_rows": 1764,
+          "filled_pct": 21.3
+        },
+        "Turnovers": {
+          "present_rows": 3748,
+          "filled_rows": 3748,
+          "filled_pct": 45.3
+        },
+        "PlusMinus": {
+          "present_rows": 4101,
+          "filled_rows": 4101,
+          "filled_pct": 49.6
+        },
+        "OffPoss": {
+          "present_rows": 8270,
+          "filled_rows": 8270,
+          "filled_pct": 100.0
+        },
+        "DefPoss": {
+          "present_rows": 8243,
+          "filled_rows": 8243,
+          "filled_pct": 99.7
+        }
+      },
+      "adj_ts_ingredients": {
+        "FGA_Recalc": {
+          "present_rows": 8270,
+          "filled_rows": 8270,
+          "filled_pct": 100.0
+        },
+        "AdjFGA": {
+          "present_rows": 8270,
+          "filled_rows": 8270,
+          "filled_pct": 100.0
+        },
+        "AdjFTA": {
+          "present_rows": 8270,
+          "filled_rows": 8270,
+          "filled_pct": 100.0
+        },
+        "AdjTS%": {
+          "present_rows": 8270,
+          "filled_rows": 6192,
+          "filled_pct": 74.9
+        },
+        "TS_Recalc": {
+          "present_rows": 8270,
+          "filled_rows": 6016,
+          "filled_pct": 72.7
+        },
+        "ScoringTOV": {
+          "present_rows": 8270,
+          "filled_rows": 8270,
+          "filled_pct": 100.0
+        },
+        "BadPassTOV_Total": {
+          "present_rows": 8270,
+          "filled_rows": 8270,
+          "filled_pct": 100.0
+        },
+        "BadPassTurnovers": {
+          "present_rows": 1904,
+          "filled_rows": 1904,
+          "filled_pct": 23.0
+        },
+        "BadPassOutOfBoundsTurnovers": {
+          "present_rows": 687,
+          "filled_rows": 687,
+          "filled_pct": 8.3
+        },
+        "Heaves_Est": {
+          "present_rows": 8270,
+          "filled_rows": 8270,
+          "filled_pct": 100.0
+        },
+        "NonHeaveArc3FGA": {
+          "present_rows": 4090,
+          "filled_rows": 4090,
+          "filled_pct": 49.5
+        },
+        "TechFTA_Est": {
+          "present_rows": 8270,
+          "filled_rows": 8270,
+          "filled_pct": 100.0
+        },
+        "Technical Free Throw Trips": {
+          "present_rows": 194,
+          "filled_rows": 194,
+          "filled_pct": 2.3
+        },
+        "SelfOReb": {
+          "present_rows": 8270,
+          "filled_rows": 8270,
+          "filled_pct": 100.0
+        },
+        "ZBounds": {
+          "present_rows": 8270,
+          "filled_rows": 8270,
+          "filled_pct": 100.0
+        },
+        "ZBoards": {
+          "present_rows": 8270,
+          "filled_rows": 8270,
+          "filled_pct": 100.0
+        }
+      },
+      "six_factor_inputs": {
+        "OffPoss": {
+          "present_rows": 8270,
+          "filled_rows": 8270,
+          "filled_pct": 100.0
+        },
+        "DefPoss": {
+          "present_rows": 8243,
+          "filled_rows": 8243,
+          "filled_pct": 99.7
+        },
+        "TotalPoss": {
+          "present_rows": 4656,
+          "filled_rows": 4656,
+          "filled_pct": 56.3
+        },
+        "Points": {
+          "present_rows": 8270,
+          "filled_rows": 8270,
+          "filled_pct": 100.0
+        },
+        "EfgPct": {
+          "present_rows": 5916,
+          "filled_rows": 5916,
+          "filled_pct": 71.5
+        },
+        "EfgPct_Recalc": {
+          "present_rows": 5860,
+          "filled_rows": 5860,
+          "filled_pct": 70.9
+        },
+        "TsPct": {
+          "present_rows": 6363,
+          "filled_rows": 6363,
+          "filled_pct": 76.9
+        },
+        "AdjTS%": {
+          "present_rows": 8270,
+          "filled_rows": 6192,
+          "filled_pct": 74.9
+        },
+        "Turnovers": {
+          "present_rows": 3748,
+          "filled_rows": 3748,
+          "filled_pct": 45.3
+        },
+        "LiveBallTurnovers": {
+          "present_rows": 2642,
+          "filled_rows": 2642,
+          "filled_pct": 31.9
+        },
+        "OffRebounds": {
+          "present_rows": 3181,
+          "filled_rows": 3181,
+          "filled_pct": 38.5
+        },
+        "DefRebounds": {
+          "present_rows": 5389,
+          "filled_rows": 5389,
+          "filled_pct": 65.2
+        },
+        "FTA": {
+          "present_rows": 3694,
+          "filled_rows": 3694,
+          "filled_pct": 44.7
+        },
+        "FtPoints": {
+          "present_rows": 3474,
+          "filled_rows": 3474,
+          "filled_pct": 42.0
+        },
+        "Usage": {
+          "present_rows": 7588,
+          "filled_rows": 7588,
+          "filled_pct": 91.8
+        },
+        "ShotQualityAvg": {
+          "present_rows": 7277,
+          "filled_rows": 7277,
+          "filled_pct": 88.0
+        }
+      },
+      "shot_locations": {
+        "AtRimFGA": {
+          "present_rows": 5116,
+          "filled_rows": 5116,
+          "filled_pct": 61.9
+        },
+        "AtRimFGM": {
+          "present_rows": 4034,
+          "filled_rows": 4034,
+          "filled_pct": 48.8
+        },
+        "AtRimFrequency": {
+          "present_rows": 5116,
+          "filled_rows": 5116,
+          "filled_pct": 61.9
+        },
+        "AtRimAccuracy": {
+          "present_rows": 4034,
+          "filled_rows": 4034,
+          "filled_pct": 48.8
+        },
+        "ShortMidRangeFGA": {
+          "present_rows": 3922,
+          "filled_rows": 3922,
+          "filled_pct": 47.4
+        },
+        "ShortMidRangeFGM": {
+          "present_rows": 2225,
+          "filled_rows": 2225,
+          "filled_pct": 26.9
+        },
+        "ShortMidRangeFrequency": {
+          "present_rows": 3922,
+          "filled_rows": 3922,
+          "filled_pct": 47.4
+        },
+        "ShortMidRangeAccuracy": {
+          "present_rows": 2225,
+          "filled_rows": 2225,
+          "filled_pct": 26.9
+        },
+        "LongMidRangeFGA": {
+          "present_rows": 3683,
+          "filled_rows": 3683,
+          "filled_pct": 44.5
+        },
+        "LongMidRangeFGM": {
+          "present_rows": 2144,
+          "filled_rows": 2144,
+          "filled_pct": 25.9
+        },
+        "LongMidRangeFrequency": {
+          "present_rows": 3683,
+          "filled_rows": 3683,
+          "filled_pct": 44.5
+        },
+        "LongMidRangeAccuracy": {
+          "present_rows": 2144,
+          "filled_rows": 2144,
+          "filled_pct": 25.9
+        },
+        "Corner3FGA": {
+          "present_rows": 2442,
+          "filled_rows": 2442,
+          "filled_pct": 29.5
+        },
+        "Corner3FGM": {
+          "present_rows": 1184,
+          "filled_rows": 1184,
+          "filled_pct": 14.3
+        },
+        "Corner3Frequency": {
+          "present_rows": 2442,
+          "filled_rows": 2442,
+          "filled_pct": 29.5
+        },
+        "Corner3Accuracy": {
+          "present_rows": 1184,
+          "filled_rows": 1184,
+          "filled_pct": 14.3
+        },
+        "Arc3FGA": {
+          "present_rows": 4118,
+          "filled_rows": 4118,
+          "filled_pct": 49.8
+        },
+        "Arc3FGM": {
+          "present_rows": 2232,
+          "filled_rows": 2232,
+          "filled_pct": 27.0
+        },
+        "Arc3Frequency": {
+          "present_rows": 4118,
+          "filled_rows": 4118,
+          "filled_pct": 49.8
+        },
+        "Arc3Accuracy": {
+          "present_rows": 2232,
+          "filled_rows": 2232,
+          "filled_pct": 27.0
+        },
+        "ShotQualityAvg": {
+          "present_rows": 7277,
+          "filled_rows": 7277,
+          "filled_pct": 88.0
+        }
+      }
+    }
+  },
+  "2017": {
+    "file": "public/data/pbpstats/player_game_low_removed/2017.json",
+    "rows": 7578,
+    "games_in_output": 79,
+    "expected_games_from_games_file": 79,
+    "min_rows_per_game": 85,
+    "max_rows_per_game": 111,
+    "avg_rows_per_game": 95.9,
+    "min_unique_players_per_game": 25,
+    "max_unique_players_per_game": 34,
+    "avg_unique_players_per_game": 29.9,
+    "duplicate_games_count": 79,
+    "duplicate_examples": [
+      {
+        "gameId": "0041600101",
+        "rows": 94,
+        "unique_players": 28,
+        "duplicates": [
+          [
+            [
+              "1626170",
+              "Jerian Grant"
+            ],
+            5
+          ],
+          [
+            [
+              "1626171",
+              "Bobby Portis"
+            ],
+            5
+          ],
+          [
+            [
+              "1626245",
+              "Cristiano Felicio"
+            ],
+            5
+          ],
+          [
+            [
+              "1627835",
+              "Paul Zipser"
+            ],
+            4
+          ],
+          [
+            [
+              "200765",
+              "Rajon Rondo"
+            ],
+            5
+          ],
+          [
+            [
+              "201577",
+              "Robin Lopez"
+            ],
+            5
+          ],
+          [
+            [
+              "202703",
+              "Nikola Mirotic"
+            ],
+            4
+          ],
+          [
+            [
+              "202710",
+              "Jimmy Butler"
+            ],
+            5
+          ],
+          [
+            [
+              "2548",
+              "Dwyane Wade"
+            ],
+            5
+          ],
+          [
+            [
+              "101161",
+              "Amir Johnson"
+            ],
+            4
+          ]
+        ]
+      },
+      {
+        "gameId": "0041600102",
+        "rows": 97,
+        "unique_players": 30,
+        "duplicates": [
+          [
+            [
+              "1626170",
+              "Jerian Grant"
+            ],
+            4
+          ],
+          [
+            [
+              "1626171",
+              "Bobby Portis"
+            ],
+            5
+          ],
+          [
+            [
+              "1627835",
+              "Paul Zipser"
+            ],
+            5
+          ],
+          [
+            [
+              "200765",
+              "Rajon Rondo"
+            ],
+            5
+          ],
+          [
+            [
+              "201577",
+              "Robin Lopez"
+            ],
+            5
+          ],
+          [
+            [
+              "202703",
+              "Nikola Mirotic"
+            ],
+            4
+          ],
+          [
+            [
+              "202710",
+              "Jimmy Butler"
+            ],
+            5
+          ],
+          [
+            [
+              "2548",
+              "Dwyane Wade"
+            ],
+            5
+          ],
+          [
+            [
+              "1626245",
+              "Cristiano Felicio"
+            ],
+            4
+          ],
+          [
+            [
+              "203487",
+              "Michael Carter-Williams"
+            ],
+            3
+          ]
+        ]
+      },
+      {
+        "gameId": "0041600103",
+        "rows": 100,
+        "unique_players": 33,
+        "duplicates": [
+          [
+            [
+              "101123",
+              "Gerald Green"
+            ],
+            4
+          ],
+          [
+            [
+              "101161",
+              "Amir Johnson"
+            ],
+            3
+          ],
+          [
+            [
+              "1626179",
+              "Terry Rozier"
+            ],
+            5
+          ],
+          [
+            [
+              "201143",
+              "Al Horford"
+            ],
+            5
+          ],
+          [
+            [
+              "202340",
+              "Avery Bradley"
+            ],
+            5
+          ],
+          [
+            [
+              "202738",
+              "Isaiah Thomas"
+            ],
+            5
+          ],
+          [
+            [
+              "203109",
+              "Jae Crowder"
+            ],
+            5
+          ],
+          [
+            [
+              "203935",
+              "Marcus Smart"
+            ],
+            4
+          ],
+          [
+            [
+              "201973",
+              "Jonas Jerebko"
+            ],
+            3
+          ],
+          [
+            [
+              "203482",
+              "Kelly Olynyk"
+            ],
+            4
+          ]
+        ]
+      },
+      {
+        "gameId": "0041600104",
+        "rows": 92,
+        "unique_players": 29,
+        "duplicates": [
+          [
+            [
+              "101123",
+              "Gerald Green"
+            ],
+            4
+          ],
+          [
+            [
+              "1626179",
+              "Terry Rozier"
+            ],
+            5
+          ],
+          [
+            [
+              "201143",
+              "Al Horford"
+            ],
+            5
+          ],
+          [
+            [
+              "201973",
+              "Jonas Jerebko"
+            ],
+            3
+          ],
+          [
+            [
+              "202340",
+              "Avery Bradley"
+            ],
+            5
+          ],
+          [
+            [
+              "202738",
+              "Isaiah Thomas"
+            ],
+            4
+          ],
+          [
+            [
+              "203109",
+              "Jae Crowder"
+            ],
+            5
+          ],
+          [
+            [
+              "203482",
+              "Kelly Olynyk"
+            ],
+            4
+          ],
+          [
+            [
+              "203935",
+              "Marcus Smart"
+            ],
+            5
+          ],
+          [
+            [
+              "1626171",
+              "Bobby Portis"
+            ],
+            4
+          ]
+        ]
+      },
+      {
+        "gameId": "0041600105",
+        "rows": 96,
+        "unique_players": 28,
+        "duplicates": [
+          [
+            [
+              "1626171",
+              "Bobby Portis"
+            ],
+            3
+          ],
+          [
+            [
+              "1626245",
+              "Cristiano Felicio"
+            ],
+            5
+          ],
+          [
+            [
+              "1627835",
+              "Paul Zipser"
+            ],
+            5
+          ],
+          [
+            [
+              "201577",
+              "Robin Lopez"
+            ],
+            5
+          ],
+          [
+            [
+              "202703",
+              "Nikola Mirotic"
+            ],
+            5
+          ],
+          [
+            [
+              "202710",
+              "Jimmy Butler"
+            ],
+            5
+          ],
+          [
+            [
+              "203477",
+              "Isaiah Canaan"
+            ],
+            5
+          ],
+          [
+            [
+              "203487",
+              "Michael Carter-Williams"
+            ],
+            3
+          ],
+          [
+            [
+              "2548",
+              "Dwyane Wade"
+            ],
+            5
+          ],
+          [
+            [
+              "201627",
+              "Anthony Morrow"
+            ],
+            4
+          ]
+        ]
+      }
+    ],
+    "negative_count_examples": [
+      {
+        "gameId": "0041600101",
+        "playerId": "203109",
+        "playerName": "Jae Crowder",
+        "field": "Points",
+        "value": -3.0
+      },
+      {
+        "gameId": "0041600101",
+        "playerId": "202738",
+        "playerName": "Isaiah Thomas",
+        "field": "Points",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041600101",
+        "playerId": "203109",
+        "playerName": "Jae Crowder",
+        "field": "Points",
+        "value": -3.0
+      },
+      {
+        "gameId": "0041600101",
+        "playerId": "203109",
+        "playerName": "Jae Crowder",
+        "field": "FG3A",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041600101",
+        "playerId": "203109",
+        "playerName": "Jae Crowder",
+        "field": "FGA_Recalc",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041600101",
+        "playerId": "203109",
+        "playerName": "Jae Crowder",
+        "field": "Arc3FGA",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041600102",
+        "playerId": "1627835",
+        "playerName": "Paul Zipser",
+        "field": "Points",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041600102",
+        "playerId": "1627835",
+        "playerName": "Paul Zipser",
+        "field": "FG3A",
+        "value": -2.0
+      },
+      {
+        "gameId": "0041600102",
+        "playerId": "1627835",
+        "playerName": "Paul Zipser",
+        "field": "FGA_Recalc",
+        "value": -2.0
+      },
+      {
+        "gameId": "0041600102",
+        "playerId": "1627835",
+        "playerName": "Paul Zipser",
+        "field": "Corner3FGA",
+        "value": -2.0
+      },
+      {
+        "gameId": "0041600102",
+        "playerId": "1627835",
+        "playerName": "Paul Zipser",
+        "field": "Turnovers",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041600102",
+        "playerId": "2548",
+        "playerName": "Dwyane Wade",
+        "field": "FTA",
+        "value": -2.0
+      },
+      {
+        "gameId": "0041600102",
+        "playerId": "1626245",
+        "playerName": "Cristiano Felicio",
+        "field": "FG2A",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041600102",
+        "playerId": "1626245",
+        "playerName": "Cristiano Felicio",
+        "field": "FGA_Recalc",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041600102",
+        "playerId": "1626245",
+        "playerName": "Cristiano Felicio",
+        "field": "ShortMidRangeFGA",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041600102",
+        "playerId": "1627835",
+        "playerName": "Paul Zipser",
+        "field": "FG3A",
+        "value": -2.0
+      },
+      {
+        "gameId": "0041600102",
+        "playerId": "1627835",
+        "playerName": "Paul Zipser",
+        "field": "Corner3FGA",
+        "value": -2.0
+      },
+      {
+        "gameId": "0041600102",
+        "playerId": "1627835",
+        "playerName": "Paul Zipser",
+        "field": "Turnovers",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041600102",
+        "playerId": "2548",
+        "playerName": "Dwyane Wade",
+        "field": "Points",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041600102",
+        "playerId": "2548",
+        "playerName": "Dwyane Wade",
+        "field": "FTA",
+        "value": -2.0
+      }
+    ],
+    "negative_examples_count_capped": 50,
+    "missing_core_groups": {
+      "identity": {
+        "missing_completely": [],
+        "very_sparse_under_5pct": []
+      },
+      "basic_personal": {
+        "missing_completely": [],
+        "very_sparse_under_5pct": []
+      },
+      "adj_ts_ingredients": {
+        "missing_completely": [],
+        "very_sparse_under_5pct": [
+          "Technical Free Throw Trips"
+        ]
+      },
+      "six_factor_inputs": {
+        "missing_completely": [],
+        "very_sparse_under_5pct": []
+      },
+      "shot_locations": {
+        "missing_completely": [],
+        "very_sparse_under_5pct": []
+      }
+    },
+    "field_coverage": {
+      "identity": {
+        "year": {
+          "present_rows": 7578,
+          "filled_rows": 7578,
+          "filled_pct": 100.0
+        },
+        "season": {
+          "present_rows": 7578,
+          "filled_rows": 7578,
+          "filled_pct": 100.0
+        },
+        "gameId": {
+          "present_rows": 7578,
+          "filled_rows": 7578,
+          "filled_pct": 100.0
+        },
+        "nbaGameId": {
+          "present_rows": 7578,
+          "filled_rows": 7578,
+          "filled_pct": 100.0
+        },
+        "date": {
+          "present_rows": 7578,
+          "filled_rows": 7578,
+          "filled_pct": 100.0
+        },
+        "playerId": {
+          "present_rows": 7578,
+          "filled_rows": 7578,
+          "filled_pct": 100.0
+        },
+        "playerName": {
+          "present_rows": 7578,
+          "filled_rows": 7578,
+          "filled_pct": 100.0
+        }
+      },
+      "basic_personal": {
+        "Minutes": {
+          "present_rows": 7578,
+          "filled_rows": 7578,
+          "filled_pct": 100.0
+        },
+        "SecondsPlayed": {
+          "present_rows": 4341,
+          "filled_rows": 4341,
+          "filled_pct": 57.3
+        },
+        "Points": {
+          "present_rows": 7578,
+          "filled_rows": 7578,
+          "filled_pct": 100.0
+        },
+        "FG2M": {
+          "present_rows": 4775,
+          "filled_rows": 4775,
+          "filled_pct": 63.0
+        },
+        "FG2A": {
+          "present_rows": 5958,
+          "filled_rows": 5958,
+          "filled_pct": 78.6
+        },
+        "FG3M": {
+          "present_rows": 2905,
+          "filled_rows": 2905,
+          "filled_pct": 38.3
+        },
+        "FG3A": {
+          "present_rows": 4786,
+          "filled_rows": 4786,
+          "filled_pct": 63.2
+        },
+        "FTA": {
+          "present_rows": 3323,
+          "filled_rows": 3323,
+          "filled_pct": 43.9
+        },
+        "FtPoints": {
+          "present_rows": 3114,
+          "filled_rows": 3114,
+          "filled_pct": 41.1
+        },
+        "Assists": {
+          "present_rows": 4197,
+          "filled_rows": 4197,
+          "filled_pct": 55.4
+        },
+        "Rebounds": {
+          "present_rows": 5466,
+          "filled_rows": 5466,
+          "filled_pct": 72.1
+        },
+        "OffRebounds": {
+          "present_rows": 2825,
+          "filled_rows": 2825,
+          "filled_pct": 37.3
+        },
+        "DefRebounds": {
+          "present_rows": 4876,
+          "filled_rows": 4876,
+          "filled_pct": 64.3
+        },
+        "Steals": {
+          "present_rows": 2278,
+          "filled_rows": 2278,
+          "filled_pct": 30.1
+        },
+        "Blocks": {
+          "present_rows": 1548,
+          "filled_rows": 1548,
+          "filled_pct": 20.4
+        },
+        "Turnovers": {
+          "present_rows": 3450,
+          "filled_rows": 3450,
+          "filled_pct": 45.5
+        },
+        "PlusMinus": {
+          "present_rows": 3810,
+          "filled_rows": 3810,
+          "filled_pct": 50.3
+        },
+        "OffPoss": {
+          "present_rows": 7578,
+          "filled_rows": 7578,
+          "filled_pct": 100.0
+        },
+        "DefPoss": {
+          "present_rows": 7558,
+          "filled_rows": 7558,
+          "filled_pct": 99.7
+        }
+      },
+      "adj_ts_ingredients": {
+        "FGA_Recalc": {
+          "present_rows": 7578,
+          "filled_rows": 7578,
+          "filled_pct": 100.0
+        },
+        "AdjFGA": {
+          "present_rows": 7578,
+          "filled_rows": 7578,
+          "filled_pct": 100.0
+        },
+        "AdjFTA": {
+          "present_rows": 7578,
+          "filled_rows": 7578,
+          "filled_pct": 100.0
+        },
+        "AdjTS%": {
+          "present_rows": 7578,
+          "filled_rows": 5754,
+          "filled_pct": 75.9
+        },
+        "TS_Recalc": {
+          "present_rows": 7578,
+          "filled_rows": 5614,
+          "filled_pct": 74.1
+        },
+        "ScoringTOV": {
+          "present_rows": 7578,
+          "filled_rows": 7578,
+          "filled_pct": 100.0
+        },
+        "BadPassTOV_Total": {
+          "present_rows": 7578,
+          "filled_rows": 7578,
+          "filled_pct": 100.0
+        },
+        "BadPassTurnovers": {
+          "present_rows": 1825,
+          "filled_rows": 1825,
+          "filled_pct": 24.1
+        },
+        "BadPassOutOfBoundsTurnovers": {
+          "present_rows": 786,
+          "filled_rows": 786,
+          "filled_pct": 10.4
+        },
+        "Heaves_Est": {
+          "present_rows": 7578,
+          "filled_rows": 7578,
+          "filled_pct": 100.0
+        },
+        "NonHeaveArc3FGA": {
+          "present_rows": 4170,
+          "filled_rows": 4170,
+          "filled_pct": 55.0
+        },
+        "TechFTA_Est": {
+          "present_rows": 7578,
+          "filled_rows": 7578,
+          "filled_pct": 100.0
+        },
+        "Technical Free Throw Trips": {
+          "present_rows": 239,
+          "filled_rows": 239,
+          "filled_pct": 3.2
+        },
+        "SelfOReb": {
+          "present_rows": 7578,
+          "filled_rows": 7578,
+          "filled_pct": 100.0
+        },
+        "ZBounds": {
+          "present_rows": 7578,
+          "filled_rows": 7578,
+          "filled_pct": 100.0
+        },
+        "ZBoards": {
+          "present_rows": 7578,
+          "filled_rows": 7578,
+          "filled_pct": 100.0
+        }
+      },
+      "six_factor_inputs": {
+        "OffPoss": {
+          "present_rows": 7578,
+          "filled_rows": 7578,
+          "filled_pct": 100.0
+        },
+        "DefPoss": {
+          "present_rows": 7558,
+          "filled_rows": 7558,
+          "filled_pct": 99.7
+        },
+        "TotalPoss": {
+          "present_rows": 4332,
+          "filled_rows": 4332,
+          "filled_pct": 57.2
+        },
+        "Points": {
+          "present_rows": 7578,
+          "filled_rows": 7578,
+          "filled_pct": 100.0
+        },
+        "EfgPct": {
+          "present_rows": 5491,
+          "filled_rows": 5491,
+          "filled_pct": 72.5
+        },
+        "EfgPct_Recalc": {
+          "present_rows": 5484,
+          "filled_rows": 5484,
+          "filled_pct": 72.4
+        },
+        "TsPct": {
+          "present_rows": 5830,
+          "filled_rows": 5830,
+          "filled_pct": 76.9
+        },
+        "AdjTS%": {
+          "present_rows": 7578,
+          "filled_rows": 5754,
+          "filled_pct": 75.9
+        },
+        "Turnovers": {
+          "present_rows": 3450,
+          "filled_rows": 3450,
+          "filled_pct": 45.5
+        },
+        "LiveBallTurnovers": {
+          "present_rows": 2482,
+          "filled_rows": 2482,
+          "filled_pct": 32.8
+        },
+        "OffRebounds": {
+          "present_rows": 2825,
+          "filled_rows": 2825,
+          "filled_pct": 37.3
+        },
+        "DefRebounds": {
+          "present_rows": 4876,
+          "filled_rows": 4876,
+          "filled_pct": 64.3
+        },
+        "FTA": {
+          "present_rows": 3323,
+          "filled_rows": 3323,
+          "filled_pct": 43.9
+        },
+        "FtPoints": {
+          "present_rows": 3114,
+          "filled_rows": 3114,
+          "filled_pct": 41.1
+        },
+        "Usage": {
+          "present_rows": 6986,
+          "filled_rows": 6986,
+          "filled_pct": 92.2
+        },
+        "ShotQualityAvg": {
+          "present_rows": 6712,
+          "filled_rows": 6712,
+          "filled_pct": 88.6
+        }
+      },
+      "shot_locations": {
+        "AtRimFGA": {
+          "present_rows": 4714,
+          "filled_rows": 4714,
+          "filled_pct": 62.2
+        },
+        "AtRimFGM": {
+          "present_rows": 3750,
+          "filled_rows": 3750,
+          "filled_pct": 49.5
+        },
+        "AtRimFrequency": {
+          "present_rows": 4714,
+          "filled_rows": 4714,
+          "filled_pct": 62.2
+        },
+        "AtRimAccuracy": {
+          "present_rows": 3750,
+          "filled_rows": 3750,
+          "filled_pct": 49.5
+        },
+        "ShortMidRangeFGA": {
+          "present_rows": 3428,
+          "filled_rows": 3428,
+          "filled_pct": 45.2
+        },
+        "ShortMidRangeFGM": {
+          "present_rows": 2017,
+          "filled_rows": 2017,
+          "filled_pct": 26.6
+        },
+        "ShortMidRangeFrequency": {
+          "present_rows": 3428,
+          "filled_rows": 3428,
+          "filled_pct": 45.2
+        },
+        "ShortMidRangeAccuracy": {
+          "present_rows": 2017,
+          "filled_rows": 2017,
+          "filled_pct": 26.6
+        },
+        "LongMidRangeFGA": {
+          "present_rows": 3173,
+          "filled_rows": 3173,
+          "filled_pct": 41.9
+        },
+        "LongMidRangeFGM": {
+          "present_rows": 1771,
+          "filled_rows": 1771,
+          "filled_pct": 23.4
+        },
+        "LongMidRangeFrequency": {
+          "present_rows": 3173,
+          "filled_rows": 3173,
+          "filled_pct": 41.9
+        },
+        "LongMidRangeAccuracy": {
+          "present_rows": 1771,
+          "filled_rows": 1771,
+          "filled_pct": 23.4
+        },
+        "Corner3FGA": {
+          "present_rows": 2346,
+          "filled_rows": 2346,
+          "filled_pct": 31.0
+        },
+        "Corner3FGM": {
+          "present_rows": 1162,
+          "filled_rows": 1162,
+          "filled_pct": 15.3
+        },
+        "Corner3Frequency": {
+          "present_rows": 2346,
+          "filled_rows": 2346,
+          "filled_pct": 31.0
+        },
+        "Corner3Accuracy": {
+          "present_rows": 1162,
+          "filled_rows": 1162,
+          "filled_pct": 15.3
+        },
+        "Arc3FGA": {
+          "present_rows": 4197,
+          "filled_rows": 4197,
+          "filled_pct": 55.4
+        },
+        "Arc3FGM": {
+          "present_rows": 2385,
+          "filled_rows": 2385,
+          "filled_pct": 31.5
+        },
+        "Arc3Frequency": {
+          "present_rows": 4197,
+          "filled_rows": 4197,
+          "filled_pct": 55.4
+        },
+        "Arc3Accuracy": {
+          "present_rows": 2385,
+          "filled_rows": 2385,
+          "filled_pct": 31.5
+        },
+        "ShotQualityAvg": {
+          "present_rows": 6712,
+          "filled_rows": 6712,
+          "filled_pct": 88.6
+        }
+      }
+    }
+  },
+  "2018": {
+    "file": "public/data/pbpstats/player_game_low_removed/2018.json",
+    "rows": 7855,
+    "games_in_output": 82,
+    "expected_games_from_games_file": 82,
+    "min_rows_per_game": 80,
+    "max_rows_per_game": 111,
+    "avg_rows_per_game": 95.8,
+    "min_unique_players_per_game": 23,
+    "max_unique_players_per_game": 34,
+    "avg_unique_players_per_game": 29.1,
+    "duplicate_games_count": 82,
+    "duplicate_examples": [
+      {
+        "gameId": "0041700101",
+        "rows": 95,
+        "unique_players": 29,
+        "duplicates": [
+          [
+            [
+              "101162",
+              "Marcin Gortat"
+            ],
+            5
+          ],
+          [
+            [
+              "1626162",
+              "Kelly Oubre Jr."
+            ],
+            5
+          ],
+          [
+            [
+              "202322",
+              "John Wall"
+            ],
+            4
+          ],
+          [
+            [
+              "202693",
+              "Markieff Morris"
+            ],
+            5
+          ],
+          [
+            [
+              "203078",
+              "Bradley Beal"
+            ],
+            5
+          ],
+          [
+            [
+              "203107",
+              "Tomas Satoransky"
+            ],
+            5
+          ],
+          [
+            [
+              "203118",
+              "Mike Scott"
+            ],
+            5
+          ],
+          [
+            [
+              "203490",
+              "Otto Porter Jr."
+            ],
+            5
+          ],
+          [
+            [
+              "204025",
+              "Tim Frazier"
+            ],
+            3
+          ],
+          [
+            [
+              "101139",
+              "CJ Miles"
+            ],
+            5
+          ]
+        ]
+      },
+      {
+        "gameId": "0041700103",
+        "rows": 100,
+        "unique_players": 32,
+        "duplicates": [
+          [
+            [
+              "101139",
+              "CJ Miles"
+            ],
+            5
+          ],
+          [
+            [
+              "1626153",
+              "Delon Wright"
+            ],
+            5
+          ],
+          [
+            [
+              "1627751",
+              "Jakob Poeltl"
+            ],
+            4
+          ],
+          [
+            [
+              "1627783",
+              "Pascal Siakam"
+            ],
+            5
+          ],
+          [
+            [
+              "1628384",
+              "OG Anunoby"
+            ],
+            4
+          ],
+          [
+            [
+              "200768",
+              "Kyle Lowry"
+            ],
+            5
+          ],
+          [
+            [
+              "201586",
+              "Serge Ibaka"
+            ],
+            5
+          ],
+          [
+            [
+              "201942",
+              "DeMar DeRozan"
+            ],
+            5
+          ],
+          [
+            [
+              "202685",
+              "Jonas Valanciunas"
+            ],
+            4
+          ],
+          [
+            [
+              "1626181",
+              "Norman Powell"
+            ],
+            3
+          ]
+        ]
+      },
+      {
+        "gameId": "0041700104",
+        "rows": 95,
+        "unique_players": 27,
+        "duplicates": [
+          [
+            [
+              "101139",
+              "CJ Miles"
+            ],
+            5
+          ],
+          [
+            [
+              "1626153",
+              "Delon Wright"
+            ],
+            5
+          ],
+          [
+            [
+              "1627751",
+              "Jakob Poeltl"
+            ],
+            5
+          ],
+          [
+            [
+              "1627783",
+              "Pascal Siakam"
+            ],
+            5
+          ],
+          [
+            [
+              "1628384",
+              "OG Anunoby"
+            ],
+            4
+          ],
+          [
+            [
+              "200768",
+              "Kyle Lowry"
+            ],
+            5
+          ],
+          [
+            [
+              "201586",
+              "Serge Ibaka"
+            ],
+            5
+          ],
+          [
+            [
+              "201942",
+              "DeMar DeRozan"
+            ],
+            5
+          ],
+          [
+            [
+              "202685",
+              "Jonas Valanciunas"
+            ],
+            4
+          ],
+          [
+            [
+              "101133",
+              "Ian Mahinmi"
+            ],
+            3
+          ]
+        ]
+      },
+      {
+        "gameId": "0041700105",
+        "rows": 96,
+        "unique_players": 28,
+        "duplicates": [
+          [
+            [
+              "101133",
+              "Ian Mahinmi"
+            ],
+            3
+          ],
+          [
+            [
+              "101162",
+              "Marcin Gortat"
+            ],
+            5
+          ],
+          [
+            [
+              "1626162",
+              "Kelly Oubre Jr."
+            ],
+            5
+          ],
+          [
+            [
+              "201951",
+              "Ty Lawson"
+            ],
+            5
+          ],
+          [
+            [
+              "202322",
+              "John Wall"
+            ],
+            5
+          ],
+          [
+            [
+              "202693",
+              "Markieff Morris"
+            ],
+            5
+          ],
+          [
+            [
+              "203078",
+              "Bradley Beal"
+            ],
+            5
+          ],
+          [
+            [
+              "203118",
+              "Mike Scott"
+            ],
+            5
+          ],
+          [
+            [
+              "203490",
+              "Otto Porter Jr."
+            ],
+            5
+          ],
+          [
+            [
+              "101139",
+              "CJ Miles"
+            ],
+            5
+          ]
+        ]
+      },
+      {
+        "gameId": "0041700106",
+        "rows": 95,
+        "unique_players": 27,
+        "duplicates": [
+          [
+            [
+              "101139",
+              "CJ Miles"
+            ],
+            5
+          ],
+          [
+            [
+              "1626153",
+              "Delon Wright"
+            ],
+            5
+          ],
+          [
+            [
+              "1627751",
+              "Jakob Poeltl"
+            ],
+            5
+          ],
+          [
+            [
+              "1627783",
+              "Pascal Siakam"
+            ],
+            4
+          ],
+          [
+            [
+              "1628384",
+              "OG Anunoby"
+            ],
+            4
+          ],
+          [
+            [
+              "200768",
+              "Kyle Lowry"
+            ],
+            5
+          ],
+          [
+            [
+              "201586",
+              "Serge Ibaka"
+            ],
+            4
+          ],
+          [
+            [
+              "201942",
+              "DeMar DeRozan"
+            ],
+            5
+          ],
+          [
+            [
+              "202685",
+              "Jonas Valanciunas"
+            ],
+            4
+          ],
+          [
+            [
+              "1627832",
+              "Fred VanVleet"
+            ],
+            4
+          ]
+        ]
+      }
+    ],
+    "negative_count_examples": [
+      {
+        "gameId": "0041700101",
+        "playerId": "202693",
+        "playerName": "Markieff Morris",
+        "field": "FTA",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041700101",
+        "playerId": "203078",
+        "playerName": "Bradley Beal",
+        "field": "FG3A",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041700101",
+        "playerId": "203078",
+        "playerName": "Bradley Beal",
+        "field": "Arc3FGA",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041700101",
+        "playerId": "202693",
+        "playerName": "Markieff Morris",
+        "field": "FTA",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041700101",
+        "playerId": "202693",
+        "playerName": "Markieff Morris",
+        "field": "AtRimFGA",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041700101",
+        "playerId": "202693",
+        "playerName": "Markieff Morris",
+        "field": "AtRimFGA",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041700101",
+        "playerId": "1626153",
+        "playerName": "Delon Wright",
+        "field": "FTA",
+        "value": -2.0
+      },
+      {
+        "gameId": "0041700101",
+        "playerId": "1627783",
+        "playerName": "Pascal Siakam",
+        "field": "Points",
+        "value": -2.0
+      },
+      {
+        "gameId": "0041700101",
+        "playerId": "1627783",
+        "playerName": "Pascal Siakam",
+        "field": "FTA",
+        "value": -2.0
+      },
+      {
+        "gameId": "0041700101",
+        "playerId": "201942",
+        "playerName": "DeMar DeRozan",
+        "field": "FG2A",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041700101",
+        "playerId": "201942",
+        "playerName": "DeMar DeRozan",
+        "field": "LongMidRangeFGA",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041700101",
+        "playerId": "1626153",
+        "playerName": "Delon Wright",
+        "field": "FTA",
+        "value": -2.0
+      },
+      {
+        "gameId": "0041700101",
+        "playerId": "201942",
+        "playerName": "DeMar DeRozan",
+        "field": "AtRimFGA",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041700101",
+        "playerId": "1626153",
+        "playerName": "Delon Wright",
+        "field": "Points",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041700101",
+        "playerId": "1626153",
+        "playerName": "Delon Wright",
+        "field": "FTA",
+        "value": -2.0
+      },
+      {
+        "gameId": "0041700101",
+        "playerId": "1627783",
+        "playerName": "Pascal Siakam",
+        "field": "FTA",
+        "value": -2.0
+      },
+      {
+        "gameId": "0041700103",
+        "playerId": "101139",
+        "playerName": "CJ Miles",
+        "field": "Points",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041700103",
+        "playerId": "101139",
+        "playerName": "CJ Miles",
+        "field": "FTA",
+        "value": -2.0
+      },
+      {
+        "gameId": "0041700103",
+        "playerId": "1627751",
+        "playerName": "Jakob Poeltl",
+        "field": "Points",
+        "value": -1.0
+      },
+      {
+        "gameId": "0041700103",
+        "playerId": "1627751",
+        "playerName": "Jakob Poeltl",
+        "field": "FTA",
+        "value": -1.0
+      }
+    ],
+    "negative_examples_count_capped": 50,
+    "missing_core_groups": {
+      "identity": {
+        "missing_completely": [],
+        "very_sparse_under_5pct": []
+      },
+      "basic_personal": {
+        "missing_completely": [],
+        "very_sparse_under_5pct": []
+      },
+      "adj_ts_ingredients": {
+        "missing_completely": [],
+        "very_sparse_under_5pct": [
+          "Technical Free Throw Trips"
+        ]
+      },
+      "six_factor_inputs": {
+        "missing_completely": [],
+        "very_sparse_under_5pct": []
+      },
+      "shot_locations": {
+        "missing_completely": [],
+        "very_sparse_under_5pct": []
+      }
+    },
+    "field_coverage": {
+      "identity": {
+        "year": {
+          "present_rows": 7855,
+          "filled_rows": 7855,
+          "filled_pct": 100.0
+        },
+        "season": {
+          "present_rows": 7855,
+          "filled_rows": 7855,
+          "filled_pct": 100.0
+        },
+        "gameId": {
+          "present_rows": 7855,
+          "filled_rows": 7855,
+          "filled_pct": 100.0
+        },
+        "nbaGameId": {
+          "present_rows": 7855,
+          "filled_rows": 7855,
+          "filled_pct": 100.0
+        },
+        "date": {
+          "present_rows": 7855,
+          "filled_rows": 7855,
+          "filled_pct": 100.0
+        },
+        "playerId": {
+          "present_rows": 7855,
+          "filled_rows": 7855,
+          "filled_pct": 100.0
+        },
+        "playerName": {
+          "present_rows": 7855,
+          "filled_rows": 7855,
+          "filled_pct": 100.0
+        }
+      },
+      "basic_personal": {
+        "Minutes": {
+          "present_rows": 7855,
+          "filled_rows": 7855,
+          "filled_pct": 100.0
+        },
+        "SecondsPlayed": {
+          "present_rows": 4440,
+          "filled_rows": 4440,
+          "filled_pct": 56.5
+        },
+        "Points": {
+          "present_rows": 7855,
+          "filled_rows": 7855,
+          "filled_pct": 100.0
+        },
+        "FG2M": {
+          "present_rows": 4924,
+          "filled_rows": 4924,
+          "filled_pct": 62.7
+        },
+        "FG2A": {
+          "present_rows": 6118,
+          "filled_rows": 6118,
+          "filled_pct": 77.9
+        },
+        "FG3M": {
+          "present_rows": 2988,
+          "filled_rows": 2988,
+          "filled_pct": 38.0
+        },
+        "FG3A": {
+          "present_rows": 4884,
+          "filled_rows": 4884,
+          "filled_pct": 62.2
+        },
+        "FTA": {
+          "present_rows": 3429,
+          "filled_rows": 3429,
+          "filled_pct": 43.7
+        },
+        "FtPoints": {
+          "present_rows": 3222,
+          "filled_rows": 3222,
+          "filled_pct": 41.0
+        },
+        "Assists": {
+          "present_rows": 4287,
+          "filled_rows": 4287,
+          "filled_pct": 54.6
+        },
+        "Rebounds": {
+          "present_rows": 5710,
+          "filled_rows": 5710,
+          "filled_pct": 72.7
+        },
+        "OffRebounds": {
+          "present_rows": 2715,
+          "filled_rows": 2715,
+          "filled_pct": 34.6
+        },
+        "DefRebounds": {
+          "present_rows": 5196,
+          "filled_rows": 5196,
+          "filled_pct": 66.1
+        },
+        "Steals": {
+          "present_rows": 2329,
+          "filled_rows": 2329,
+          "filled_pct": 29.6
+        },
+        "Blocks": {
+          "present_rows": 1669,
+          "filled_rows": 1669,
+          "filled_pct": 21.2
+        },
+        "Turnovers": {
+          "present_rows": 3405,
+          "filled_rows": 3405,
+          "filled_pct": 43.3
+        },
+        "PlusMinus": {
+          "present_rows": 3927,
+          "filled_rows": 3927,
+          "filled_pct": 50.0
+        },
+        "OffPoss": {
+          "present_rows": 7855,
+          "filled_rows": 7855,
+          "filled_pct": 100.0
+        },
+        "DefPoss": {
+          "present_rows": 7838,
+          "filled_rows": 7838,
+          "filled_pct": 99.8
+        }
+      },
+      "adj_ts_ingredients": {
+        "FGA_Recalc": {
+          "present_rows": 7855,
+          "filled_rows": 7855,
+          "filled_pct": 100.0
+        },
+        "AdjFGA": {
+          "present_rows": 7855,
+          "filled_rows": 7855,
+          "filled_pct": 100.0
+        },
+        "AdjFTA": {
+          "present_rows": 7855,
+          "filled_rows": 7855,
+          "filled_pct": 100.0
+        },
+        "AdjTS%": {
+          "present_rows": 7855,
+          "filled_rows": 6130,
+          "filled_pct": 78.0
+        },
+        "TS_Recalc": {
+          "present_rows": 7855,
+          "filled_rows": 5989,
+          "filled_pct": 76.2
+        },
+        "ScoringTOV": {
+          "present_rows": 7855,
+          "filled_rows": 7855,
+          "filled_pct": 100.0
+        },
+        "BadPassTOV_Total": {
+          "present_rows": 7855,
+          "filled_rows": 7855,
+          "filled_pct": 100.0
+        },
+        "BadPassTurnovers": {
+          "present_rows": 1815,
+          "filled_rows": 1815,
+          "filled_pct": 23.1
+        },
+        "BadPassOutOfBoundsTurnovers": {
+          "present_rows": 683,
+          "filled_rows": 683,
+          "filled_pct": 8.7
+        },
+        "Heaves_Est": {
+          "present_rows": 7855,
+          "filled_rows": 7855,
+          "filled_pct": 100.0
+        },
+        "NonHeaveArc3FGA": {
+          "present_rows": 4289,
+          "filled_rows": 4289,
+          "filled_pct": 54.6
+        },
+        "TechFTA_Est": {
+          "present_rows": 7855,
+          "filled_rows": 7855,
+          "filled_pct": 100.0
+        },
+        "Technical Free Throw Trips": {
+          "present_rows": 170,
+          "filled_rows": 170,
+          "filled_pct": 2.2
+        },
+        "SelfOReb": {
+          "present_rows": 7855,
+          "filled_rows": 7855,
+          "filled_pct": 100.0
+        },
+        "ZBounds": {
+          "present_rows": 7855,
+          "filled_rows": 7855,
+          "filled_pct": 100.0
+        },
+        "ZBoards": {
+          "present_rows": 7855,
+          "filled_rows": 7855,
+          "filled_pct": 100.0
+        }
+      },
+      "six_factor_inputs": {
+        "OffPoss": {
+          "present_rows": 7855,
+          "filled_rows": 7855,
+          "filled_pct": 100.0
+        },
+        "DefPoss": {
+          "present_rows": 7838,
+          "filled_rows": 7838,
+          "filled_pct": 99.8
+        },
+        "TotalPoss": {
+          "present_rows": 4456,
+          "filled_rows": 4456,
+          "filled_pct": 56.7
+        },
+        "Points": {
+          "present_rows": 7855,
+          "filled_rows": 7855,
+          "filled_pct": 100.0
+        },
+        "EfgPct": {
+          "present_rows": 5672,
+          "filled_rows": 5672,
+          "filled_pct": 72.2
+        },
+        "EfgPct_Recalc": {
+          "present_rows": 5829,
+          "filled_rows": 5829,
+          "filled_pct": 74.2
+        },
+        "TsPct": {
+          "present_rows": 6081,
+          "filled_rows": 6081,
+          "filled_pct": 77.4
+        },
+        "AdjTS%": {
+          "present_rows": 7855,
+          "filled_rows": 6130,
+          "filled_pct": 78.0
+        },
+        "Turnovers": {
+          "present_rows": 3405,
+          "filled_rows": 3405,
+          "filled_pct": 43.3
+        },
+        "LiveBallTurnovers": {
+          "present_rows": 2484,
+          "filled_rows": 2484,
+          "filled_pct": 31.6
+        },
+        "OffRebounds": {
+          "present_rows": 2715,
+          "filled_rows": 2715,
+          "filled_pct": 34.6
+        },
+        "DefRebounds": {
+          "present_rows": 5196,
+          "filled_rows": 5196,
+          "filled_pct": 66.1
+        },
+        "FTA": {
+          "present_rows": 3429,
+          "filled_rows": 3429,
+          "filled_pct": 43.7
+        },
+        "FtPoints": {
+          "present_rows": 3222,
+          "filled_rows": 3222,
+          "filled_pct": 41.0
+        },
+        "Usage": {
+          "present_rows": 7192,
+          "filled_rows": 7192,
+          "filled_pct": 91.6
+        },
+        "ShotQualityAvg": {
+          "present_rows": 6919,
+          "filled_rows": 6919,
+          "filled_pct": 88.1
+        }
+      },
+      "shot_locations": {
+        "AtRimFGA": {
+          "present_rows": 4833,
+          "filled_rows": 4833,
+          "filled_pct": 61.5
+        },
+        "AtRimFGM": {
+          "present_rows": 3981,
+          "filled_rows": 3981,
+          "filled_pct": 50.7
+        },
+        "AtRimFrequency": {
+          "present_rows": 4833,
+          "filled_rows": 4833,
+          "filled_pct": 61.5
+        },
+        "AtRimAccuracy": {
+          "present_rows": 3981,
+          "filled_rows": 3981,
+          "filled_pct": 50.7
+        },
+        "ShortMidRangeFGA": {
+          "present_rows": 3667,
+          "filled_rows": 3667,
+          "filled_pct": 46.7
+        },
+        "ShortMidRangeFGM": {
+          "present_rows": 2088,
+          "filled_rows": 2088,
+          "filled_pct": 26.6
+        },
+        "ShortMidRangeFrequency": {
+          "present_rows": 3667,
+          "filled_rows": 3667,
+          "filled_pct": 46.7
+        },
+        "ShortMidRangeAccuracy": {
+          "present_rows": 2088,
+          "filled_rows": 2088,
+          "filled_pct": 26.6
+        },
+        "LongMidRangeFGA": {
+          "present_rows": 3004,
+          "filled_rows": 3004,
+          "filled_pct": 38.2
+        },
+        "LongMidRangeFGM": {
+          "present_rows": 1584,
+          "filled_rows": 1584,
+          "filled_pct": 20.2
+        },
+        "LongMidRangeFrequency": {
+          "present_rows": 3004,
+          "filled_rows": 3004,
+          "filled_pct": 38.2
+        },
+        "LongMidRangeAccuracy": {
+          "present_rows": 1584,
+          "filled_rows": 1584,
+          "filled_pct": 20.2
+        },
+        "Corner3FGA": {
+          "present_rows": 2266,
+          "filled_rows": 2266,
+          "filled_pct": 28.8
+        },
+        "Corner3FGM": {
+          "present_rows": 1184,
+          "filled_rows": 1184,
+          "filled_pct": 15.1
+        },
+        "Corner3Frequency": {
+          "present_rows": 2266,
+          "filled_rows": 2266,
+          "filled_pct": 28.8
+        },
+        "Corner3Accuracy": {
+          "present_rows": 1184,
+          "filled_rows": 1184,
+          "filled_pct": 15.1
+        },
+        "Arc3FGA": {
+          "present_rows": 4323,
+          "filled_rows": 4323,
+          "filled_pct": 55.0
+        },
+        "Arc3FGM": {
+          "present_rows": 2471,
+          "filled_rows": 2471,
+          "filled_pct": 31.5
+        },
+        "Arc3Frequency": {
+          "present_rows": 4323,
+          "filled_rows": 4323,
+          "filled_pct": 55.0
+        },
+        "Arc3Accuracy": {
+          "present_rows": 2471,
+          "filled_rows": 2471,
+          "filled_pct": 31.5
+        },
+        "ShotQualityAvg": {
+          "present_rows": 6919,
+          "filled_rows": 6919,
+          "filled_pct": 88.1
+        }
+      }
+    }
+  }
+}
