@@ -1,0 +1,26 @@
+/* Fix native dropdown readability */
+select {
+  background: #111827 !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(125,162,255,.55) !important;
+}
+
+/* The opened browser dropdown menu often uses a white panel.
+   So options need dark text, not white text. */
+select option,
+select optgroup {
+  background: #ffffff !important;
+  color: #0b1020 !important;
+  font-weight: 700 !important;
+}
+
+select option:checked {
+  background: #6d8cff !important;
+  color: #ffffff !important;
+}
+
+select:focus {
+  outline: none !important;
+  border-color: #7da2ff !important;
+  box-shadow: 0 0 0 3px rgba(125,162,255,.22) !important;
+}
