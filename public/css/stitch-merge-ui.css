@@ -1,0 +1,809 @@
+/* Stitch Merge UI — keeps real data logic, replaces layout shell */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap');
+
+:root{
+  --st-bg:#f8f9fb;
+  --st-surface:#ffffff;
+  --st-low:#f3f4f6;
+  --st-mid:#e7e8ea;
+  --st-line:#c3c7cc;
+  --st-ink:#191c1e;
+  --st-muted:#43474c;
+  --st-blue:#061d2d;
+  --st-blue2:#3b5ca5;
+  --st-soft-blue:#d9e2ff;
+  --st-gold:#FDB927;
+  --st-wine:#6F263D;
+  --st-green:#22C55E;
+  --st-red:#EF4444;
+  --st-side:80px;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  background:var(--st-bg) !important;
+  color:var(--st-ink) !important;
+  font-family:Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
+  overflow-x:hidden;
+}
+
+body.stitch-merged main > .hero,
+body.stitch-merged main > .featured-section,
+body.stitch-merged main > .data-sources,
+body.stitch-merged footer,
+body.stitch-merged #ptlReferenceHome,
+body.stitch-merged #ptlFeaturePages,
+body.stitch-merged #nbaForceHeroShell,
+body.stitch-merged #nbaPlayerHeroShell{
+  display:none !important;
+}
+
+#stitchApp{
+  min-height:100vh;
+  background:var(--st-bg);
+  color:var(--st-ink);
+}
+
+.stitch-sidebar{
+  width:var(--st-side);
+  height:100vh;
+  position:fixed;
+  left:0;
+  top:0;
+  background:var(--st-blue);
+  box-shadow:0 20px 50px rgba(0,0,0,.18);
+  z-index:1000;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  padding:24px 0;
+}
+
+.stitch-logo{
+  color:#fff;
+  font-family:"Bebas Neue", sans-serif;
+  font-size:46px;
+  line-height:.78;
+  letter-spacing:-.03em;
+  text-align:center;
+  margin-bottom:42px;
+}
+
+.stitch-nav{
+  display:flex;
+  flex-direction:column;
+  width:100%;
+  gap:10px;
+}
+
+.stitch-nav button{
+  border:0;
+  background:transparent;
+  color:#71869a;
+  opacity:.9;
+  min-height:62px;
+  width:100%;
+  cursor:pointer;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:4px;
+  border-left:4px solid transparent;
+  transition:.18s ease;
+}
+
+.stitch-nav button:hover,
+.stitch-nav button.active{
+  color:#d9e2ff;
+  background:rgba(255,255,255,.08);
+  border-left-color:#8faffe;
+}
+
+.stitch-nav .material-symbols-outlined{
+  font-size:27px;
+}
+
+.stitch-nav span:last-child{
+  font-size:10px;
+  line-height:12px;
+  letter-spacing:.1em;
+  text-transform:uppercase;
+  font-weight:900;
+}
+
+.stitch-mobile-top{
+  display:none;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  height:64px;
+  z-index:1000;
+  background:rgba(248,249,251,.86);
+  backdrop-filter:blur(14px);
+  border-bottom:1px solid rgba(195,199,204,.45);
+  align-items:center;
+  justify-content:space-between;
+  padding:0 20px;
+}
+
+.stitch-mobile-top strong{
+  font-family:"Bebas Neue", sans-serif;
+  font-size:26px;
+  letter-spacing:.02em;
+}
+
+.stitch-mobile-top button{
+  border:0;
+  background:transparent;
+  color:var(--st-blue);
+}
+
+.stitch-mobile-bottom{
+  display:none;
+  position:fixed;
+  left:0;
+  right:0;
+  bottom:0;
+  height:76px;
+  z-index:1000;
+  background:rgba(248,249,251,.95);
+  border-top:1px solid rgba(195,199,204,.65);
+  box-shadow:0 -4px 20px rgba(0,0,0,.06);
+}
+
+.stitch-mobile-bottom button{
+  flex:1;
+  border:0;
+  background:transparent;
+  color:rgba(67,71,76,.65);
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:3px;
+  font-size:10px;
+  text-transform:uppercase;
+  font-weight:900;
+  letter-spacing:.08em;
+}
+
+.stitch-mobile-bottom button.active{
+  color:var(--st-blue2);
+}
+
+.stitch-main{
+  margin-left:var(--st-side);
+  min-height:100vh;
+  position:relative;
+  padding:48px;
+}
+
+.stitch-page{
+  display:none;
+  max-width:1440px;
+  margin:0 auto;
+}
+
+.stitch-page.active{
+  display:block;
+}
+
+.stitch-home{
+  min-height:calc(100vh - 96px);
+  display:flex;
+  flex-direction:column;
+  position:relative;
+}
+
+.stitch-watermark{
+  position:fixed;
+  inset:0;
+  pointer-events:none;
+  z-index:0;
+  overflow:hidden;
+}
+
+.stitch-watermark .name{
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%) rotate(-12deg);
+  font-family:"Bebas Neue", sans-serif;
+  font-size:clamp(160px, 24vw, 400px);
+  line-height:.8;
+  color:#e5e7eb;
+  opacity:.38;
+  letter-spacing:-.05em;
+}
+
+.stitch-watermark .num{
+  position:absolute;
+  top:18%;
+  right:-1%;
+  font-family:"Bebas Neue", sans-serif;
+  font-size:clamp(130px, 18vw, 300px);
+  line-height:.8;
+  color:var(--st-gold);
+  opacity:.23;
+}
+
+.stitch-hero-grid{
+  position:relative;
+  z-index:2;
+  display:grid;
+  grid-template-columns:minmax(320px, 5fr) minmax(360px, 7fr);
+  gap:32px;
+  align-items:center;
+  flex:1;
+  min-height:620px;
+}
+
+.stitch-kicker{
+  display:inline-flex;
+  align-items:center;
+  gap:9px;
+  background:#e1e2e4;
+  color:var(--st-muted);
+  border-radius:999px;
+  padding:6px 12px;
+  width:max-content;
+  margin-bottom:20px;
+}
+
+.stitch-kicker::before{
+  content:"";
+  width:8px;
+  height:8px;
+  border-radius:999px;
+  background:var(--st-blue2);
+}
+
+.stitch-kicker span{
+  font-size:12px;
+  line-height:16px;
+  letter-spacing:.1em;
+  text-transform:uppercase;
+  font-weight:900;
+}
+
+.stitch-title{
+  font-family:"Bebas Neue", sans-serif;
+  font-size:clamp(76px, 9vw, 140px);
+  line-height:.8;
+  letter-spacing:-.04em;
+  margin:0 0 28px;
+  text-transform:uppercase;
+  color:#000;
+}
+
+.stitch-subtitle{
+  max-width:520px;
+  border-left:2px solid var(--st-blue2);
+  padding-left:18px;
+  color:var(--st-muted);
+  font-size:18px;
+  line-height:28px;
+  font-weight:650;
+}
+
+.stitch-hero-image{
+  position:relative;
+  min-height:650px;
+  display:flex;
+  align-items:flex-end;
+  justify-content:center;
+}
+
+.stitch-hero-glow{
+  position:absolute;
+  bottom:0;
+  left:7%;
+  width:78%;
+  height:74%;
+  border-radius:999px;
+  filter:blur(56px);
+  background:#e1e2e4;
+  opacity:.7;
+}
+
+.stitch-lebron-img{
+  position:relative;
+  z-index:4;
+  height:min(680px, 72vh);
+  max-width:100%;
+  object-fit:contain;
+  object-position:bottom;
+  filter:drop-shadow(0 30px 40px rgba(0,0,0,.16));
+  transition:.35s ease;
+}
+
+.stitch-lebron-img:hover{
+  transform:scale(1.035);
+}
+
+.stitch-quote-card{
+  position:absolute;
+  top:22%;
+  left:-34px;
+  z-index:5;
+  max-width:285px;
+  background:rgba(255,255,255,.92);
+  border:1px solid rgba(195,199,204,.35);
+  border-radius:18px;
+  padding:24px;
+  box-shadow:0 20px 50px rgba(0,0,0,.08);
+  backdrop-filter:blur(14px);
+}
+
+.stitch-quote-card .material-symbols-outlined{
+  color:var(--st-blue2);
+  display:block;
+  margin-bottom:10px;
+}
+
+.stitch-quote-card p{
+  margin:0;
+  color:var(--st-ink);
+  line-height:1.28;
+  font-weight:750;
+}
+
+.stitch-bento{
+  position:relative;
+  z-index:2;
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+  gap:24px;
+  margin-top:auto;
+}
+
+.stitch-bento-card{
+  border:1px solid rgba(195,199,204,.35);
+  background:#fff;
+  color:var(--st-ink);
+  min-height:220px;
+  border-radius:18px;
+  padding:32px;
+  box-shadow:0 20px 50px rgba(0,0,0,.06);
+  position:relative;
+  overflow:hidden;
+  text-align:left;
+  cursor:pointer;
+  transition:.22s ease;
+}
+
+.stitch-bento-card:hover{
+  transform:translateY(-4px);
+  box-shadow:0 30px 60px rgba(0,0,0,.10);
+}
+
+.stitch-bento-card.dark{
+  background:#000;
+  color:white;
+}
+
+.stitch-bento-card .material-symbols-outlined{
+  font-size:34px;
+  padding:12px;
+  background:#f8f9fb;
+  color:var(--st-blue2);
+  border-radius:12px;
+  margin-bottom:18px;
+}
+
+.stitch-bento-card.dark .material-symbols-outlined{
+  color:white;
+  background:rgba(255,255,255,.12);
+}
+
+.stitch-bento-card h3{
+  margin:0;
+  font-family:"Bebas Neue", sans-serif;
+  font-size:34px;
+  line-height:1;
+  text-transform:uppercase;
+  letter-spacing:.01em;
+}
+
+.stitch-bento-card small{
+  position:absolute;
+  left:32px;
+  right:32px;
+  bottom:28px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  color:var(--st-muted);
+  font-size:12px;
+  letter-spacing:.1em;
+  text-transform:uppercase;
+  font-weight:900;
+}
+
+.stitch-bento-card.dark small{
+  color:#71869a;
+  border-top:1px solid rgba(255,255,255,.18);
+  padding-top:16px;
+}
+
+.stitch-feature-shell{
+  position:relative;
+  z-index:2;
+}
+
+.stitch-feature-hero{
+  position:relative;
+  min-height:285px;
+  border-radius:22px;
+  overflow:hidden;
+  padding:32px;
+  display:flex;
+  align-items:flex-end;
+  margin-bottom:48px;
+  background:
+    linear-gradient(135deg, rgba(6,29,45,.96), rgba(59,92,165,.74)),
+    radial-gradient(circle at 75% 30%, rgba(255,255,255,.24), transparent 30%);
+  box-shadow:0 20px 50px rgba(0,0,0,.14);
+}
+
+.stitch-feature-hero::before{
+  content:attr(data-big);
+  position:absolute;
+  right:24px;
+  top:12px;
+  font-family:"Bebas Neue", sans-serif;
+  font-size:clamp(88px, 15vw, 210px);
+  line-height:.8;
+  color:rgba(255,255,255,.08);
+  letter-spacing:-.04em;
+}
+
+.stitch-feature-hero h1{
+  margin:0 0 10px;
+  font-family:"Bebas Neue", sans-serif;
+  font-size:clamp(50px, 7vw, 92px);
+  line-height:.85;
+  color:white;
+  letter-spacing:.01em;
+  text-transform:uppercase;
+}
+
+.stitch-feature-hero p{
+  color:#b3c9de;
+  max-width:760px;
+  font-size:16px;
+  line-height:24px;
+  margin:0;
+  font-weight:650;
+}
+
+.stitch-feature-content{
+  background:rgba(255,255,255,.72);
+  border:1px solid rgba(195,199,204,.45);
+  border-radius:22px;
+  box-shadow:0 10px 40px rgba(0,0,0,.05);
+  padding:32px;
+}
+
+/* Old real app sections converted to Stitch cards */
+.stitch-feature-content .table-section,
+.stitch-feature-content .player-header,
+.stitch-feature-content .featured-section,
+.stitch-feature-content .hero,
+.stitch-feature-content section,
+.stitch-feature-content .card,
+.stitch-feature-content .panel{
+  background:#fff !important;
+  color:var(--st-ink) !important;
+  border:1px solid rgba(195,199,204,.38) !important;
+  border-radius:18px !important;
+  box-shadow:0 20px 50px rgba(0,0,0,.05) !important;
+  padding:24px !important;
+  margin-bottom:24px !important;
+}
+
+.stitch-feature-content .section-title,
+.stitch-feature-content h1,
+.stitch-feature-content h2,
+.stitch-feature-content h3{
+  color:var(--st-ink) !important;
+  font-family:"Bebas Neue", sans-serif !important;
+  letter-spacing:.01em !important;
+  text-transform:uppercase !important;
+}
+
+.stitch-feature-content .section-title small{
+  display:block;
+  font-family:Inter, sans-serif !important;
+  color:var(--st-muted) !important;
+  text-transform:none !important;
+  letter-spacing:0 !important;
+  font-size:14px !important;
+  line-height:20px !important;
+  margin-top:6px !important;
+}
+
+.stitch-feature-content table{
+  width:100% !important;
+  border-collapse:separate !important;
+  border-spacing:0 !important;
+  background:white !important;
+  color:var(--st-ink) !important;
+  border-radius:14px !important;
+  overflow:hidden !important;
+}
+
+.stitch-feature-content .table-wrapper,
+.stitch-feature-content .table-wrap,
+.stitch-feature-content .table-container{
+  overflow-x:auto !important;
+  border-radius:14px !important;
+}
+
+.stitch-feature-content th{
+  background:#000 !important;
+  color:white !important;
+  font-size:12px !important;
+  letter-spacing:.1em !important;
+  text-transform:uppercase !important;
+  padding:14px !important;
+}
+
+.stitch-feature-content td{
+  background:#fff !important;
+  color:var(--st-ink) !important;
+  border-bottom:1px solid rgba(195,199,204,.40) !important;
+  padding:13px 14px !important;
+}
+
+.stitch-feature-content input,
+.stitch-feature-content select,
+.stitch-feature-content textarea{
+  background:white !important;
+  color:var(--st-ink) !important;
+  border:1px solid rgba(115,119,125,.35) !important;
+  border-radius:999px !important;
+  padding:14px 18px !important;
+}
+
+.stitch-feature-content button,
+.stitch-feature-content .stretch-btn,
+.stitch-feature-content .year-stretch-btn,
+.stitch-feature-content .series-toggle-btn,
+.stitch-feature-content .game-toggle-btn{
+  background:#000 !important;
+  color:white !important;
+  border:0 !important;
+  border-radius:999px !important;
+  padding:12px 18px !important;
+  font-weight:900 !important;
+  cursor:pointer !important;
+}
+
+.stitch-feature-content button:hover,
+.stitch-feature-content .stretch-btn:hover,
+.stitch-feature-content .year-stretch-btn:hover{
+  background:var(--st-blue2) !important;
+}
+
+.stitch-feature-content .empty-state{
+  background:#f3f4f6 !important;
+  color:var(--st-muted) !important;
+  border:1px dashed rgba(115,119,125,.35) !important;
+  border-radius:18px !important;
+}
+
+.stitch-hidden-source{
+  display:none !important;
+}
+
+@media(max-width:900px){
+  .stitch-sidebar{
+    display:none;
+  }
+
+  .stitch-mobile-top{
+    display:flex;
+  }
+
+  .stitch-mobile-bottom{
+    display:flex;
+  }
+
+  .stitch-main{
+    margin-left:0;
+    padding:88px 18px 100px;
+  }
+
+  .stitch-hero-grid{
+    grid-template-columns:1fr;
+    min-height:auto;
+  }
+
+  .stitch-title{
+    font-size:72px;
+  }
+
+  .stitch-hero-image{
+    min-height:420px;
+  }
+
+  .stitch-lebron-img{
+    height:420px;
+  }
+
+  .stitch-quote-card{
+    left:10px;
+    top:10px;
+    max-width:260px;
+  }
+
+  .stitch-bento{
+    grid-template-columns:1fr;
+  }
+
+  .stitch-feature-content{
+    padding:18px;
+  }
+}
+
+/* CLEAN STITCH MERGE FIXES */
+
+/* Hide old raw dashboard once its sections have been moved into Stitch pages */
+body.stitch-merged > main:not(.stitch-main),
+body.stitch-merged > footer{
+  display:none !important;
+}
+
+/* Kill duplicate sidebars / previous experimental UI shells */
+#ptlSideFeatureNav,
+.ptl-side-feature-nav,
+#ptlReferenceHome,
+#ptlFeaturePages,
+#nbaForceHeroShell,
+#nbaPlayerHeroShell,
+#finalToolHub,
+.final-tool-hub,
+.audience-tool-hub,
+.core-tool-hub,
+[class*="reference-home"],
+[class*="reference-page-mode"]{
+  display:none !important;
+}
+
+/* LeBron watermark should live ONLY inside the homepage, not fixed across the site */
+.stitch-home{
+  position:relative !important;
+  overflow:hidden !important;
+  min-height:calc(100vh - 96px) !important;
+  display:block !important;
+}
+
+.stitch-watermark{
+  position:absolute !important;
+  inset:0 !important;
+  z-index:0 !important;
+  pointer-events:none !important;
+}
+
+.stitch-watermark .name{
+  position:absolute !important;
+  left:52% !important;
+  top:42% !important;
+  transform:translate(-50%,-50%) rotate(-12deg) !important;
+}
+
+.stitch-watermark .num{
+  position:absolute !important;
+  top:12% !important;
+  right:2% !important;
+}
+
+/* Strong page behavior: only one page visible */
+.stitch-page{
+  display:none !important;
+}
+
+.stitch-page.active{
+  display:block !important;
+}
+
+/* Homepage should not overlap feature pages */
+.stitch-hero-grid{
+  min-height:600px !important;
+  margin-bottom:40px !important;
+}
+
+.stitch-hero-image{
+  min-height:590px !important;
+  overflow:hidden !important;
+}
+
+.stitch-lebron-img{
+  height:560px !important;
+  max-height:60vh !important;
+  transform:translateY(20px) !important;
+}
+
+.stitch-bento{
+  margin-top:0 !important;
+  padding-bottom:42px !important;
+}
+
+/* Make feature pages continue the same light Stitch design */
+.stitch-feature-shell{
+  min-height:calc(100vh - 96px);
+}
+
+.stitch-feature-hero{
+  background:
+    linear-gradient(135deg, rgba(248,249,251,.96), rgba(231,232,234,.92)),
+    radial-gradient(circle at 75% 30%, rgba(59,92,165,.14), transparent 34%) !important;
+  color:var(--st-ink) !important;
+  border:1px solid rgba(195,199,204,.45) !important;
+  box-shadow:0 20px 50px rgba(0,0,0,.06) !important;
+}
+
+.stitch-feature-hero h1{
+  color:#000 !important;
+}
+
+.stitch-feature-hero p{
+  color:var(--st-muted) !important;
+}
+
+.stitch-feature-hero::before{
+  color:rgba(15,23,42,.055) !important;
+}
+
+.stitch-feature-content{
+  background:transparent !important;
+  border:0 !important;
+  box-shadow:none !important;
+  padding:0 !important;
+}
+
+.stitch-feature-content > *{
+  margin-bottom:28px !important;
+}
+
+/* Right build badge should stop floating over important UI */
+.build-badge,
+.data-build-badge,
+#dataBuildBadge{
+  right:18px !important;
+  bottom:18px !important;
+  z-index:850 !important;
+}
+
+/* Make the side nav the only feature nav */
+.stitch-sidebar{
+  z-index:1100 !important;
+}
+
+.stitch-main{
+  position:relative !important;
+  z-index:1 !important;
+}
+
+@media(max-width:900px){
+  .stitch-hero-grid{
+    min-height:auto !important;
+  }
+
+  .stitch-hero-image{
+    min-height:410px !important;
+  }
+
+  .stitch-lebron-img{
+    height:410px !important;
+    max-height:none !important;
+  }
+}

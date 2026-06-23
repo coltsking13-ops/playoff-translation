@@ -1,0 +1,205 @@
+/* Translate readability fix */
+
+/* Use a cleaner readable font on the translate page */
+#stitchContent_translate,
+#stitchContent_translate *{
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
+}
+
+/* Main translate card */
+#stitchContent_translate > *,
+#stitchContent_translate .table-section,
+#stitchContent_translate section,
+#stitchContent_translate .card,
+#stitchContent_translate .panel,
+#stitchContent_translate [class*="translate"],
+#stitchContent_translate [class*="Translation"]{
+  background:#111827 !important;
+  color:#e5e7eb !important;
+  border-color:rgba(148,163,184,.28) !important;
+}
+
+/* Section title */
+#stitchContent_translate h1,
+#stitchContent_translate h2,
+#stitchContent_translate h3,
+#stitchContent_translate .section-title{
+  color:#ffffff !important;
+  font-weight:900 !important;
+  letter-spacing:-.02em !important;
+  text-shadow:0 1px 0 rgba(0,0,0,.35) !important;
+}
+
+/* Description text */
+#stitchContent_translate p,
+#stitchContent_translate small,
+#stitchContent_translate .muted,
+#stitchContent_translate .subtitle{
+  color:#cbd5e1 !important;
+  font-weight:650 !important;
+}
+
+/* Labels */
+#stitchContent_translate label{
+  color:#dbeafe !important;
+  font-size:13px !important;
+  font-weight:900 !important;
+  letter-spacing:.04em !important;
+  text-transform:uppercase !important;
+}
+
+/* Inputs */
+#stitchContent_translate input,
+#stitchContent_translate select,
+#stitchContent_translate textarea{
+  background:#0b1220 !important;
+  color:#ffffff !important;
+  border:1px solid rgba(147,197,253,.55) !important;
+  border-radius:8px !important;
+  font-weight:800 !important;
+  min-height:38px !important;
+  padding:8px 12px !important;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.04) !important;
+}
+
+#stitchContent_translate input:focus,
+#stitchContent_translate select:focus,
+#stitchContent_translate textarea:focus{
+  outline:2px solid rgba(96,165,250,.75) !important;
+  outline-offset:2px !important;
+}
+
+/* Summary stat cards */
+#stitchContent_translate .summary-card,
+#stitchContent_translate .translate-card,
+#stitchContent_translate .translation-card,
+#stitchContent_translate [class*="summary"] .card,
+#stitchContent_translate [class*="translate"] .card{
+  background:#0b1220 !important;
+  color:#ffffff !important;
+  border:1px solid rgba(148,163,184,.24) !important;
+  box-shadow:0 16px 36px rgba(0,0,0,.22) !important;
+}
+
+#stitchContent_translate .summary-card h3,
+#stitchContent_translate .translate-card h3,
+#stitchContent_translate .translation-card h3{
+  color:#bfdbfe !important;
+  font-size:13px !important;
+  letter-spacing:.08em !important;
+}
+
+#stitchContent_translate .summary-card strong,
+#stitchContent_translate .translate-card strong,
+#stitchContent_translate .translation-card strong{
+  color:#ffffff !important;
+  font-size:34px !important;
+  line-height:1 !important;
+}
+
+#stitchContent_translate .summary-card p,
+#stitchContent_translate .translate-card p,
+#stitchContent_translate .translation-card p{
+  color:#dbeafe !important;
+  font-size:13px !important;
+  line-height:18px !important;
+}
+
+/* Table wrapper */
+#stitchContent_translate .stitch-table-scroll,
+#stitchContent_translate .table-wrapper,
+#stitchContent_translate .table-wrap,
+#stitchContent_translate .table-container{
+  background:#0b1220 !important;
+  border:1px solid rgba(148,163,184,.24) !important;
+  border-radius:14px !important;
+}
+
+/* Table */
+#stitchContent_translate table{
+  background:#0b1220 !important;
+  color:#f8fafc !important;
+  border-collapse:separate !important;
+  border-spacing:0 !important;
+}
+
+#stitchContent_translate thead,
+#stitchContent_translate thead tr,
+#stitchContent_translate th{
+  background:#07101f !important;
+  color:#f8fafc !important;
+  font-size:12px !important;
+  letter-spacing:.08em !important;
+  text-transform:uppercase !important;
+  font-weight:900 !important;
+  border-bottom:1px solid rgba(147,197,253,.22) !important;
+}
+
+/* This is the big fix: table body text should NOT be black */
+#stitchContent_translate tbody tr,
+#stitchContent_translate tbody td{
+  background:#151936 !important;
+  color:#e5e7eb !important;
+  font-size:15px !important;
+  line-height:21px !important;
+  font-weight:750 !important;
+  border-bottom:1px solid rgba(148,163,184,.18) !important;
+}
+
+/* Alternating rows */
+#stitchContent_translate tbody tr:nth-child(even) td{
+  background:#11162e !important;
+}
+
+#stitchContent_translate tbody tr:hover td{
+  background:#1e2a4a !important;
+  color:#ffffff !important;
+}
+
+/* Dimmed/continued rows still readable */
+#stitchContent_translate tr.stitch-partial-row td{
+  background:#202944 !important;
+  color:#cbd5e1 !important;
+  font-style:normal !important;
+}
+
+/* YES / NO labels */
+#stitchContent_translate td,
+#stitchContent_translate span,
+#stitchContent_translate div{
+  text-rendering:geometricPrecision !important;
+}
+
+#stitchContent_translate td:has(+ td){
+  color:#e5e7eb !important;
+}
+
+/* Browser support fallback handled by JS too */
+.stitch-yes{
+  color:#86efac !important;
+  font-weight:1000 !important;
+  text-transform:uppercase !important;
+  letter-spacing:.02em !important;
+}
+
+.stitch-no{
+  color:#cbd5e1 !important;
+  font-weight:1000 !important;
+  text-transform:uppercase !important;
+  letter-spacing:.02em !important;
+}
+
+/* Make scroll hint visible */
+#stitchContent_translate .stitch-table-hint{
+  color:#bfdbfe !important;
+  font-size:12px !important;
+  font-weight:900 !important;
+  margin-bottom:10px !important;
+}
+
+/* Hide broken/extra black void panels if any remain */
+#stitchContent_translate .stitch-kill-black-panel,
+#stitchContent_translate [data-stitch-hidden-overlay="true"],
+#stitchContent_translate .stitch-kill-overlay{
+  display:none !important;
+}

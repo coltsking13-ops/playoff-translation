@@ -1,0 +1,122 @@
+/* CRITICAL HOTFIX: Translate section must never be see-through */
+
+/* The whole translate page gets its own solid layer */
+body.stitch-merged #stitchPage_translate,
+body.stitch-merged #stitchContent_translate{
+  position:relative !important;
+  z-index:50 !important;
+  isolation:isolate !important;
+  background:#070b16 !important;
+  opacity:1 !important;
+  mix-blend-mode:normal !important;
+  backdrop-filter:none !important;
+  -webkit-backdrop-filter:none !important;
+  overflow:visible !important;
+}
+
+/* Solid backing plate behind every translate component */
+body.stitch-merged #stitchContent_translate::before{
+  content:"" !important;
+  position:absolute !important;
+  inset:-32px !important;
+  z-index:-1 !important;
+  background:#070b16 !important;
+  border-radius:24px !important;
+  opacity:1 !important;
+  pointer-events:none !important;
+}
+
+/* Main Series Translation Consistency card */
+body.stitch-merged #stitchContent_translate .stitch-opaque-translate-root,
+body.stitch-merged #stitchContent_translate .table-section,
+body.stitch-merged #stitchContent_translate section,
+body.stitch-merged #stitchContent_translate .card,
+body.stitch-merged #stitchContent_translate .panel,
+body.stitch-merged #stitchContent_translate [class*="translate"],
+body.stitch-merged #stitchContent_translate [class*="Translation"]{
+  position:relative !important;
+  z-index:5 !important;
+  background:#0d1117 !important;
+  background-color:#0d1117 !important;
+  opacity:1 !important;
+  mix-blend-mode:normal !important;
+  backdrop-filter:none !important;
+  -webkit-backdrop-filter:none !important;
+  color:#e5e7eb !important;
+  border-color:rgba(148,163,184,.28) !important;
+}
+
+/* Kill see-through gradients/backdrop effects inside Translate */
+body.stitch-merged #stitchContent_translate *{
+  mix-blend-mode:normal !important;
+}
+
+body.stitch-merged #stitchContent_translate [style*="opacity"],
+body.stitch-merged #stitchContent_translate [style*="backdrop"],
+body.stitch-merged #stitchContent_translate [style*="transparent"]{
+  opacity:1 !important;
+  backdrop-filter:none !important;
+  -webkit-backdrop-filter:none !important;
+}
+
+/* Inputs readable on solid dark section */
+body.stitch-merged #stitchContent_translate input,
+body.stitch-merged #stitchContent_translate select,
+body.stitch-merged #stitchContent_translate textarea{
+  background:#111827 !important;
+  background-color:#111827 !important;
+  color:#ffffff !important;
+  border:1px solid rgba(147,197,253,.60) !important;
+  opacity:1 !important;
+}
+
+/* Table itself gets solid row backgrounds */
+body.stitch-merged #stitchContent_translate table{
+  background:#0b1220 !important;
+  background-color:#0b1220 !important;
+  color:#f8fafc !important;
+  opacity:1 !important;
+}
+
+body.stitch-merged #stitchContent_translate thead,
+body.stitch-merged #stitchContent_translate th{
+  background:#07101f !important;
+  background-color:#07101f !important;
+  color:#ffffff !important;
+}
+
+body.stitch-merged #stitchContent_translate tbody tr,
+body.stitch-merged #stitchContent_translate tbody td{
+  background:#151936 !important;
+  background-color:#151936 !important;
+  color:#e5e7eb !important;
+  opacity:1 !important;
+}
+
+body.stitch-merged #stitchContent_translate tbody tr:nth-child(even) td{
+  background:#11162e !important;
+  background-color:#11162e !important;
+}
+
+/* Prevent homepage/old page from visually existing under translate */
+body.stitch-merged #stitchApp .stitch-page:not(.active),
+body.stitch-merged #stitchPage_home:not(.active),
+body.stitch-merged #stitchPage_home:not(.active) *{
+  display:none !important;
+  visibility:hidden !important;
+  opacity:0 !important;
+  pointer-events:none !important;
+}
+
+/* Hide original raw app underneath */
+body.stitch-merged > main:not(.stitch-main),
+body.stitch-merged > footer,
+body.stitch-merged > .app,
+body.stitch-merged > #app,
+body.stitch-merged > .container{
+  display:none !important;
+  visibility:hidden !important;
+  opacity:0 !important;
+  height:0 !important;
+  overflow:hidden !important;
+}

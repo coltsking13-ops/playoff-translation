@@ -1,0 +1,199 @@
+/* REAL FIX: Translate tool gets its own solid isolated stage */
+
+/* Translate page must be an isolated stacking context */
+body.stitch-merged #stitchPage_translate{
+  position:relative !important;
+  isolation:isolate !important;
+  background:#f8f9fb !important;
+  z-index:10 !important;
+}
+
+/* Translate content area */
+body.stitch-merged #stitchContent_translate{
+  position:relative !important;
+  isolation:isolate !important;
+  background:#f8f9fb !important;
+  z-index:20 !important;
+  overflow:visible !important;
+}
+
+/* Hide junk/promo content that was bleeding behind the tool */
+body.stitch-merged #stitchContent_translate > .stitch-translate-hidden-junk{
+  display:none !important;
+  visibility:hidden !important;
+  height:0 !important;
+  max-height:0 !important;
+  overflow:hidden !important;
+  opacity:0 !important;
+  pointer-events:none !important;
+}
+
+/* The new solid stage */
+body.stitch-merged #stitchTranslateSolidStage{
+  position:relative !important;
+  z-index:999 !important;
+  isolation:isolate !important;
+  display:block !important;
+  width:100% !important;
+  max-width:1380px !important;
+  margin:0 auto 48px !important;
+  padding:28px !important;
+  background:#070b16 !important;
+  background-color:#070b16 !important;
+  border-radius:28px !important;
+  box-shadow:0 28px 80px rgba(0,0,0,.28) !important;
+  opacity:1 !important;
+  mix-blend-mode:normal !important;
+  backdrop-filter:none !important;
+  -webkit-backdrop-filter:none !important;
+  overflow:hidden !important;
+}
+
+/* Hard backing layer behind the tool */
+body.stitch-merged #stitchTranslateSolidStage::before{
+  content:"" !important;
+  position:absolute !important;
+  inset:0 !important;
+  background:#070b16 !important;
+  z-index:-1 !important;
+  opacity:1 !important;
+  pointer-events:none !important;
+}
+
+/* Actual module card */
+body.stitch-merged #stitchTranslateSolidStage .stitch-real-translate-module{
+  position:relative !important;
+  z-index:5 !important;
+  display:block !important;
+  background:#0d1117 !important;
+  background-color:#0d1117 !important;
+  color:#e5e7eb !important;
+  border:1px solid rgba(148,163,184,.28) !important;
+  border-radius:22px !important;
+  padding:24px !important;
+  box-shadow:none !important;
+  opacity:1 !important;
+  mix-blend-mode:normal !important;
+  backdrop-filter:none !important;
+  -webkit-backdrop-filter:none !important;
+  overflow:hidden !important;
+}
+
+/* Kill every transparent/backdrop effect inside Translate */
+body.stitch-merged #stitchTranslateSolidStage *,
+body.stitch-merged #stitchTranslateSolidStage .stitch-real-translate-module *{
+  mix-blend-mode:normal !important;
+  backdrop-filter:none !important;
+  -webkit-backdrop-filter:none !important;
+}
+
+/* Headings/readability */
+body.stitch-merged #stitchTranslateSolidStage h1,
+body.stitch-merged #stitchTranslateSolidStage h2,
+body.stitch-merged #stitchTranslateSolidStage h3,
+body.stitch-merged #stitchTranslateSolidStage h4,
+body.stitch-merged #stitchTranslateSolidStage .section-title{
+  color:#ffffff !important;
+  font-weight:1000 !important;
+  text-shadow:none !important;
+}
+
+body.stitch-merged #stitchTranslateSolidStage p,
+body.stitch-merged #stitchTranslateSolidStage small,
+body.stitch-merged #stitchTranslateSolidStage label{
+  color:#cbd5e1 !important;
+  font-weight:750 !important;
+}
+
+/* Inputs */
+body.stitch-merged #stitchTranslateSolidStage input,
+body.stitch-merged #stitchTranslateSolidStage select,
+body.stitch-merged #stitchTranslateSolidStage textarea{
+  background:#111827 !important;
+  background-color:#111827 !important;
+  color:#ffffff !important;
+  border:1px solid rgba(147,197,253,.60) !important;
+  border-radius:8px !important;
+  opacity:1 !important;
+  font-weight:850 !important;
+}
+
+/* Summary cards */
+body.stitch-merged #stitchTranslateSolidStage .summary-card,
+body.stitch-merged #stitchTranslateSolidStage .translate-card,
+body.stitch-merged #stitchTranslateSolidStage .translation-card,
+body.stitch-merged #stitchTranslateSolidStage [class*="summary"] .card,
+body.stitch-merged #stitchTranslateSolidStage [class*="translate"] .card{
+  background:#0b1220 !important;
+  background-color:#0b1220 !important;
+  color:#ffffff !important;
+  border:1px solid rgba(148,163,184,.24) !important;
+  opacity:1 !important;
+}
+
+/* Table */
+body.stitch-merged #stitchTranslateSolidStage table{
+  width:100% !important;
+  background:#0b1220 !important;
+  background-color:#0b1220 !important;
+  color:#f8fafc !important;
+  opacity:1 !important;
+  border-collapse:separate !important;
+  border-spacing:0 !important;
+}
+
+body.stitch-merged #stitchTranslateSolidStage thead,
+body.stitch-merged #stitchTranslateSolidStage th{
+  background:#07101f !important;
+  background-color:#07101f !important;
+  color:#ffffff !important;
+  font-weight:1000 !important;
+  opacity:1 !important;
+}
+
+body.stitch-merged #stitchTranslateSolidStage tbody tr,
+body.stitch-merged #stitchTranslateSolidStage tbody td{
+  background:#151936 !important;
+  background-color:#151936 !important;
+  color:#e5e7eb !important;
+  font-weight:750 !important;
+  opacity:1 !important;
+  border-bottom:1px solid rgba(148,163,184,.18) !important;
+}
+
+body.stitch-merged #stitchTranslateSolidStage tbody tr:nth-child(even) td{
+  background:#11162e !important;
+  background-color:#11162e !important;
+}
+
+body.stitch-merged #stitchTranslateSolidStage tbody tr:hover td{
+  background:#1e2a4a !important;
+  background-color:#1e2a4a !important;
+  color:#ffffff !important;
+}
+
+/* YES / NO */
+body.stitch-merged #stitchTranslateSolidStage .stitch-yes{
+  color:#86efac !important;
+  font-weight:1000 !important;
+  text-transform:uppercase !important;
+}
+
+body.stitch-merged #stitchTranslateSolidStage .stitch-no{
+  color:#cbd5e1 !important;
+  font-weight:1000 !important;
+  text-transform:uppercase !important;
+}
+
+/* Stop old homepage/watermark from showing through anywhere on Translate */
+body.stitch-merged #stitchPage_translate .stitch-watermark,
+body.stitch-merged #stitchPage_translate .stitch-bento,
+body.stitch-merged #stitchPage_translate .stitch-hero-grid,
+body.stitch-merged #stitchPage_translate .stitch-translate-promo,
+body.stitch-merged #stitchPage_translate .lab-hero,
+body.stitch-merged #stitchPage_translate .translation-promo,
+body.stitch-merged #stitchPage_translate .translate-hero{
+  display:none !important;
+  visibility:hidden !important;
+  opacity:0 !important;
+}

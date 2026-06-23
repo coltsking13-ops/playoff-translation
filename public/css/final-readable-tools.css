@@ -1,0 +1,149 @@
+/* FINAL READABLE TOOLS OVERRIDE — force tools white and readable */
+
+.force-white-tool,
+.force-white-tool section,
+.force-white-tool .table-section,
+.force-white-tool .card,
+.force-white-tool .panel,
+.force-white-tool .summary-card,
+.force-white-tool .translate-card,
+.force-white-tool .translation-card{
+  background:#ffffff !important;
+  background-color:#ffffff !important;
+  color:#111827 !important;
+  border-color:rgba(209,213,219,.95) !important;
+  opacity:1 !important;
+  filter:none !important;
+  mix-blend-mode:normal !important;
+  backdrop-filter:none !important;
+  -webkit-backdrop-filter:none !important;
+}
+
+.force-white-tool h1,
+.force-white-tool h2,
+.force-white-tool h3,
+.force-white-tool h4,
+.force-white-tool .section-title{
+  color:#000000 !important;
+  font-weight:1000 !important;
+}
+
+.force-white-tool p,
+.force-white-tool small,
+.force-white-tool label,
+.force-white-tool span,
+.force-white-tool div{
+  color:#111827 !important;
+}
+
+.force-white-tool input,
+.force-white-tool select,
+.force-white-tool textarea{
+  background:#ffffff !important;
+  background-color:#ffffff !important;
+  color:#111827 !important;
+  border:1px solid rgba(59,92,165,.45) !important;
+  border-radius:10px !important;
+  font-weight:850 !important;
+}
+
+.force-white-tool select option{
+  background:#ffffff !important;
+  color:#111827 !important;
+}
+
+/* Table wrapper */
+.force-white-tool .clean-table-scroll,
+.force-white-tool .stitch-table-scroll,
+.force-white-tool .table-wrapper,
+.force-white-tool .table-wrap,
+.force-white-tool .table-container{
+  background:#ffffff !important;
+  border:1px solid rgba(209,213,219,.95) !important;
+  border-radius:14px !important;
+  overflow-x:auto !important;
+}
+
+/* Table */
+.force-white-tool table{
+  background:#ffffff !important;
+  background-color:#ffffff !important;
+  color:#111827 !important;
+  border-collapse:separate !important;
+  border-spacing:0 !important;
+}
+
+.force-white-tool thead,
+.force-white-tool thead tr,
+.force-white-tool th{
+  background:#061d2d !important;
+  background-color:#061d2d !important;
+  color:#ffffff !important;
+  font-weight:1000 !important;
+  opacity:1 !important;
+}
+
+.force-white-tool tbody,
+.force-white-tool tbody tr,
+.force-white-tool tbody td{
+  background:#ffffff !important;
+  background-color:#ffffff !important;
+  color:#111827 !important;
+  font-weight:800 !important;
+  opacity:1 !important;
+  border-bottom:1px solid rgba(209,213,219,.95) !important;
+}
+
+.force-white-tool tbody tr:nth-child(even) td{
+  background:#f8fafc !important;
+  background-color:#f8fafc !important;
+}
+
+.force-white-tool tbody tr:hover td{
+  background:#e8efff !important;
+  background-color:#e8efff !important;
+  color:#061d2d !important;
+}
+
+/* Translate decisions */
+.force-white-tool .clean-yes,
+.force-white-tool .stitch-yes,
+.force-white-tool .final-yes{
+  color:#16a34a !important;
+  font-weight:1000 !important;
+  text-transform:uppercase !important;
+}
+
+.force-white-tool .clean-no,
+.force-white-tool .stitch-no,
+.force-white-tool .final-no{
+  color:#64748b !important;
+  font-weight:1000 !important;
+  text-transform:uppercase !important;
+}
+
+/* Stretch stat cards also white */
+#cleanContent_stretches .stat-card,
+#cleanContent_stretches .metric-card,
+#stitchContent_stretches .stat-card,
+#stitchContent_stretches .metric-card{
+  background:#ffffff !important;
+  color:#111827 !important;
+  border:1px solid rgba(209,213,219,.95) !important;
+}
+
+#cleanContent_stretches .stat-card *,
+#cleanContent_stretches .metric-card *,
+#stitchContent_stretches .stat-card *,
+#stitchContent_stretches .metric-card *{
+  color:#111827 !important;
+}
+
+#cleanContent_stretches .positive,
+#cleanContent_stretches .good,
+#cleanContent_stretches .clean-positive,
+#stitchContent_stretches .positive,
+#stitchContent_stretches .good,
+#stitchContent_stretches .stitch-positive{
+  color:#16a34a !important;
+}

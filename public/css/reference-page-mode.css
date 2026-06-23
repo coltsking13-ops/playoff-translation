@@ -1,0 +1,258 @@
+/* Feature page mode */
+
+.ptl-feature-pages{
+  width:min(1220px, calc(100% - 28px));
+  margin:0 auto 44px;
+  position:relative;
+  z-index:65;
+  font-family:Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.ptl-feature-page{
+  display:none;
+  position:relative;
+  overflow:hidden;
+  border-radius:14px;
+  min-height:560px;
+  background:
+    radial-gradient(circle at 72% 22%, rgba(37,99,235,.10), transparent 32%),
+    linear-gradient(180deg, #f8fafc 0%, #eef2f7 52%, #d9e0ea 100%);
+  color:#101827;
+  box-shadow:0 30px 78px rgba(2,6,23,.30);
+  border:1px solid rgba(15,23,42,.08);
+}
+
+.ptl-feature-page.active{
+  display:block;
+}
+
+.ptl-feature-page::before{
+  content:"";
+  position:absolute;
+  left:0;
+  top:0;
+  bottom:0;
+  width:36px;
+  background:linear-gradient(180deg, #1e3a8a, #2563eb);
+  z-index:5;
+}
+
+.ptl-feature-page-topbar{
+  position:relative;
+  z-index:8;
+  height:54px;
+  margin-left:36px;
+  background:rgba(255,255,255,.94);
+  border-bottom:1px solid rgba(15,23,42,.07);
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:0 28px;
+}
+
+.ptl-feature-page-brand{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  font-weight:1000;
+  color:#172554;
+  letter-spacing:-.04em;
+}
+
+.ptl-feature-page-mark{
+  width:16px;
+  height:29px;
+  border-radius:4px;
+  background:linear-gradient(180deg, #1d4ed8 0 50%, #dc2626 50% 100%);
+}
+
+.ptl-feature-page-actions{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+.ptl-feature-page-actions button,
+.ptl-feature-page-actions a{
+  border:0;
+  text-decoration:none;
+  border-radius:999px;
+  padding:10px 14px;
+  background:#101827;
+  color:white;
+  font-weight:1000;
+  font-size:.78rem;
+  cursor:pointer;
+}
+
+.ptl-feature-page-actions button:hover,
+.ptl-feature-page-actions a:hover{
+  background:#1d4ed8;
+}
+
+.ptl-feature-page-hero{
+  position:relative;
+  z-index:3;
+  margin-left:36px;
+  padding:34px 34px 22px;
+  display:grid;
+  grid-template-columns:minmax(250px,.7fr) 1fr;
+  gap:22px;
+  align-items:end;
+}
+
+.ptl-feature-page-title{
+  margin:0;
+  font-size:clamp(2.4rem, 5vw, 5rem);
+  line-height:.88;
+  letter-spacing:-.085em;
+  font-weight:1000;
+  color:#101827;
+}
+
+.ptl-feature-page-subtitle{
+  margin:14px 0 0;
+  max-width:620px;
+  color:rgba(15,23,42,.68);
+  font-weight:800;
+  line-height:1.55;
+}
+
+.ptl-feature-page-bigword{
+  position:absolute;
+  right:28px;
+  top:62px;
+  z-index:-1;
+  font-size:clamp(4rem, 12vw, 11rem);
+  line-height:.8;
+  letter-spacing:-.09em;
+  font-weight:1000;
+  color:rgba(15,23,42,.06);
+  text-transform:uppercase;
+  white-space:nowrap;
+}
+
+.ptl-feature-page-content{
+  position:relative;
+  z-index:4;
+  margin-left:36px;
+  padding:20px 34px 38px;
+}
+
+/* Make old dark sections look like the new light NBA-style cards */
+.ptl-feature-page-content > *,
+.ptl-feature-page-content .card,
+.ptl-feature-page-content .panel,
+.ptl-feature-page-content .tool-card,
+.ptl-feature-page-content .section,
+.ptl-feature-page-content section{
+  color:#101827;
+}
+
+.ptl-feature-page-content .card,
+.ptl-feature-page-content .panel,
+.ptl-feature-page-content .tool-card,
+.ptl-feature-page-content .stat-card,
+.ptl-feature-page-content .metric-card{
+  background:rgba(255,255,255,.78) !important;
+  color:#101827 !important;
+  border:1px solid rgba(15,23,42,.10) !important;
+  box-shadow:0 14px 32px rgba(15,23,42,.08) !important;
+}
+
+.ptl-feature-page-content h1,
+.ptl-feature-page-content h2,
+.ptl-feature-page-content h3,
+.ptl-feature-page-content h4,
+.ptl-feature-page-content label,
+.ptl-feature-page-content p,
+.ptl-feature-page-content span{
+  color:inherit;
+}
+
+.ptl-feature-page-content table{
+  width:100%;
+  border-collapse:separate;
+  border-spacing:0;
+  background:white;
+  color:#101827;
+  border-radius:14px;
+  overflow:hidden;
+  box-shadow:0 18px 36px rgba(15,23,42,.10);
+}
+
+.ptl-feature-page-content th{
+  background:#111827 !important;
+  color:white !important;
+  font-size:.72rem;
+  letter-spacing:.09em;
+  text-transform:uppercase;
+}
+
+.ptl-feature-page-content td{
+  background:rgba(255,255,255,.92) !important;
+  color:#101827 !important;
+  border-bottom:1px solid rgba(15,23,42,.08) !important;
+}
+
+.ptl-feature-page-content input,
+.ptl-feature-page-content select,
+.ptl-feature-page-content textarea{
+  background:white !important;
+  color:#101827 !important;
+  border:1px solid rgba(15,23,42,.18) !important;
+  border-radius:14px !important;
+}
+
+.ptl-feature-page-content button{
+  border-radius:999px !important;
+  font-weight:1000 !important;
+}
+
+/* Hide old content that was moved into feature pages from appearing as one long dashboard */
+.ptl-feature-source-placeholder{
+  display:none !important;
+}
+
+body.ptl-feature-mode-active #ptlReferenceHome{
+  display:block;
+}
+
+body.ptl-show-feature-page #ptlReferenceHome{
+  display:none;
+}
+
+@media(max-width:760px){
+  .ptl-feature-pages{
+    width:100%;
+  }
+
+  .ptl-feature-page{
+    border-radius:0;
+  }
+
+  .ptl-feature-page-hero{
+    grid-template-columns:1fr;
+    padding:28px 18px 18px;
+  }
+
+  .ptl-feature-page-content{
+    padding:16px 18px 30px;
+  }
+
+  .ptl-feature-page-topbar,
+  .ptl-feature-page-hero,
+  .ptl-feature-page-content{
+    margin-left:36px;
+  }
+
+  .ptl-feature-page-actions{
+    gap:6px;
+  }
+
+  .ptl-feature-page-actions button,
+  .ptl-feature-page-actions a{
+    padding:8px 10px;
+    font-size:.72rem;
+  }
+}

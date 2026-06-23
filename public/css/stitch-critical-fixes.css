@@ -1,0 +1,401 @@
+/* Critical Stitch merge cleanup */
+
+/* GLOBAL: choose one consistent light theme */
+:root{
+  --st-side:104px;
+}
+
+body.stitch-merged{
+  background:#f8f9fb !important;
+  color:#191c1e !important;
+}
+
+/* Hide old raw dashboard and duplicate UI layers */
+body.stitch-merged > main:not(.stitch-main),
+body.stitch-merged > footer,
+#ptlSideFeatureNav,
+.ptl-side-feature-nav,
+#ptlReferenceHome,
+#ptlFeaturePages,
+#nbaForceHeroShell,
+#nbaPlayerHeroShell,
+#finalToolHub,
+.final-tool-hub,
+.audience-tool-hub,
+.core-tool-hub,
+.ptl-reference-app,
+.ptl-feature-pages{
+  display:none !important;
+}
+
+/* Sidebar: wider, readable labels, active state */
+.stitch-sidebar{
+  width:104px !important;
+  z-index:2000 !important;
+  background:#061d2d !important;
+}
+
+.stitch-main{
+  margin-left:104px !important;
+  padding:42px 48px !important;
+  background:#f8f9fb !important;
+  min-height:100vh !important;
+}
+
+.stitch-nav{
+  gap:8px !important;
+}
+
+.stitch-nav button{
+  min-height:74px !important;
+  padding:8px 4px !important;
+  color:#b3c9de !important;
+  opacity:1 !important;
+  border-left:5px solid transparent !important;
+}
+
+.stitch-nav button span:last-child{
+  display:block !important;
+  max-width:96px !important;
+  white-space:normal !important;
+  overflow:visible !important;
+  text-align:center !important;
+  font-size:10px !important;
+  line-height:12px !important;
+  letter-spacing:.05em !important;
+}
+
+.stitch-nav button.active,
+.stitch-nav button:hover{
+  background:linear-gradient(135deg, rgba(96,165,250,.95), rgba(37,99,235,.95)) !important;
+  color:white !important;
+  border-left-color:#d9e2ff !important;
+  box-shadow:0 14px 28px rgba(37,99,235,.28) !important;
+}
+
+.stitch-nav button.active .material-symbols-outlined{
+  font-variation-settings:'FILL' 1, 'wght' 700, 'GRAD' 0, 'opsz' 24 !important;
+}
+
+/* Hard page separation: no bleed-through */
+.stitch-page{
+  display:none !important;
+  position:relative !important;
+  z-index:1 !important;
+}
+
+.stitch-page.active{
+  display:block !important;
+}
+
+.stitch-page:not(.active) *{
+  pointer-events:none !important;
+}
+
+.stitch-page:not(.active) .stitch-bento,
+.stitch-page:not(.active) .stitch-watermark,
+.stitch-page:not(.active) .stitch-hero-grid{
+  display:none !important;
+}
+
+/* Homepage layout: no awkward overlap */
+.stitch-home{
+  overflow:hidden !important;
+  min-height:auto !important;
+  padding-bottom:48px !important;
+}
+
+.stitch-watermark{
+  position:absolute !important;
+  inset:0 !important;
+  z-index:0 !important;
+  pointer-events:none !important;
+  overflow:hidden !important;
+}
+
+.stitch-watermark .name{
+  position:absolute !important;
+  left:58% !important;
+  top:36% !important;
+  transform:translate(-50%,-50%) rotate(-8deg) !important;
+  opacity:.32 !important;
+}
+
+.stitch-watermark .num{
+  position:absolute !important;
+  right:2% !important;
+  top:10% !important;
+  opacity:.16 !important;
+}
+
+.stitch-hero-grid{
+  grid-template-columns:minmax(360px, .82fr) minmax(440px, 1.18fr) !important;
+  min-height:660px !important;
+  gap:42px !important;
+  align-items:center !important;
+  margin-bottom:26px !important;
+}
+
+.stitch-title{
+  position:relative !important;
+  z-index:8 !important;
+  max-width:420px !important;
+  font-size:clamp(82px, 8.4vw, 132px) !important;
+  line-height:.78 !important;
+  margin-bottom:28px !important;
+}
+
+.stitch-subtitle{
+  position:relative !important;
+  z-index:8 !important;
+  max-width:470px !important;
+  background:rgba(248,249,251,.72) !important;
+  backdrop-filter:blur(10px) !important;
+  border-left:3px solid #3b5ca5 !important;
+  padding:14px 18px !important;
+  border-radius:0 14px 14px 0 !important;
+}
+
+.stitch-hero-image{
+  min-height:650px !important;
+  overflow:hidden !important;
+  align-self:end !important;
+}
+
+.stitch-lebron-img{
+  height:620px !important;
+  max-height:68vh !important;
+  transform:translateY(40px) scale(1.06) !important;
+}
+
+.stitch-quote-card{
+  top:18% !important;
+  left:auto !important;
+  right:8% !important;
+  max-width:330px !important;
+  padding:24px 26px !important;
+  border-radius:18px !important;
+  z-index:14 !important;
+}
+
+.stitch-quote-card::before{
+  content:"Core Question";
+  display:block;
+  color:#3b5ca5;
+  font-size:12px;
+  letter-spacing:.1em;
+  text-transform:uppercase;
+  font-weight:900;
+  margin-bottom:8px;
+}
+
+.stitch-quote-card .material-symbols-outlined{
+  display:none !important;
+}
+
+/* Feature cards should be fully visible */
+.stitch-bento{
+  position:relative !important;
+  z-index:10 !important;
+  margin-top:0 !important;
+  padding-bottom:34px !important;
+}
+
+.stitch-bento-card{
+  min-height:210px !important;
+}
+
+/* Scroll cue */
+.stitch-home::after{
+  content:"Scroll for tools ↓";
+  display:block;
+  width:max-content;
+  margin:4px auto 0;
+  padding:10px 16px;
+  border-radius:999px;
+  background:rgba(6,29,45,.88);
+  color:white;
+  font-size:12px;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  font-weight:900;
+  box-shadow:0 14px 28px rgba(2,6,23,.18);
+}
+
+/* Feature pages use same light system, not accidental dark theme */
+.stitch-feature-shell{
+  min-height:calc(100vh - 84px) !important;
+}
+
+.stitch-feature-hero{
+  background:
+    radial-gradient(circle at 78% 28%, rgba(59,92,165,.14), transparent 34%),
+    linear-gradient(180deg, #ffffff 0%, #f3f4f6 100%) !important;
+  color:#191c1e !important;
+  border:1px solid rgba(195,199,204,.55) !important;
+  box-shadow:0 20px 50px rgba(0,0,0,.06) !important;
+  margin-bottom:28px !important;
+}
+
+.stitch-feature-hero h1{
+  color:#000 !important;
+}
+
+.stitch-feature-hero p{
+  color:#43474c !important;
+}
+
+.stitch-feature-hero::before{
+  color:rgba(15,23,42,.055) !important;
+}
+
+.stitch-feature-content{
+  background:transparent !important;
+  border:0 !important;
+  box-shadow:none !important;
+  padding:0 !important;
+}
+
+/* Convert moved old sections into consistent light cards */
+.stitch-feature-content section,
+.stitch-feature-content .table-section,
+.stitch-feature-content .player-header,
+.stitch-feature-content .card,
+.stitch-feature-content .panel,
+.stitch-feature-content .tool-card,
+.stitch-feature-content .stat-card,
+.stitch-feature-content .metric-card,
+.stitch-feature-content .translator-shell,
+.stitch-feature-content .series-translate,
+.stitch-feature-content .translation-lab,
+.stitch-feature-content [class*="translate"],
+.stitch-feature-content [class*="Translation"]{
+  background:#ffffff !important;
+  color:#191c1e !important;
+  border:1px solid rgba(195,199,204,.48) !important;
+  box-shadow:0 18px 44px rgba(0,0,0,.055) !important;
+  border-radius:18px !important;
+}
+
+/* Normalize inputs */
+.stitch-feature-content input,
+.stitch-feature-content select,
+.stitch-feature-content textarea{
+  background:#ffffff !important;
+  color:#191c1e !important;
+  border:1px solid rgba(115,119,125,.38) !important;
+  box-shadow:none !important;
+}
+
+.stitch-feature-content input::placeholder{
+  color:#73777d !important;
+}
+
+/* If any dark module survives, make inputs readable there too */
+.stitch-feature-content .dark input,
+.stitch-feature-content .dark select,
+.stitch-feature-content [style*="background:#0"] input,
+.stitch-feature-content [style*="background: #0"] input{
+  background:#1e2130 !important;
+  color:#f8fafc !important;
+  border:1px solid rgba(255,255,255,.16) !important;
+}
+
+/* Tables */
+.stitch-feature-content table{
+  background:white !important;
+  color:#191c1e !important;
+}
+
+.stitch-feature-content th{
+  background:#061d2d !important;
+  color:white !important;
+  font-size:12px !important;
+  letter-spacing:.08em !important;
+  text-transform:uppercase !important;
+}
+
+.stitch-feature-content td{
+  background:white !important;
+  color:#191c1e !important;
+  border-bottom:1px solid rgba(195,199,204,.48) !important;
+}
+
+.stitch-feature-content tbody tr:hover td{
+  background:#f3f4f6 !important;
+}
+
+/* Translate summary cards: uniform text and padding */
+.stitch-feature-content .summary-card,
+.stitch-feature-content .translate-card,
+.stitch-feature-content .translation-card,
+.stitch-feature-content [class*="summary"] .card,
+.stitch-feature-content [class*="translate"] .card{
+  padding:20px !important;
+}
+
+.stitch-feature-content .summary-card p,
+.stitch-feature-content .translate-card p,
+.stitch-feature-content .translation-card p,
+.stitch-feature-content [class*="summary"] p,
+.stitch-feature-content [class*="translate"] p{
+  font-size:13px !important;
+  line-height:18px !important;
+  font-weight:700 !important;
+  color:#43474c !important;
+}
+
+/* Hide buggy strategy explorer dropdown/tooltip by default */
+.stitch-kill-overlay,
+[data-stitch-hidden-overlay="true"]{
+  display:none !important;
+}
+
+/* Data build badge should not cover content */
+.build-badge,
+.data-build-badge,
+#dataBuildBadge,
+.status-pill{
+  z-index:900 !important;
+}
+
+/* Responsive */
+@media(max-width:900px){
+  :root{
+    --st-side:0px;
+  }
+
+  .stitch-main{
+    margin-left:0 !important;
+    padding:86px 18px 96px !important;
+  }
+
+  .stitch-hero-grid{
+    grid-template-columns:1fr !important;
+    min-height:auto !important;
+  }
+
+  .stitch-title{
+    font-size:72px !important;
+  }
+
+  .stitch-hero-image{
+    min-height:420px !important;
+  }
+
+  .stitch-lebron-img{
+    height:410px !important;
+    max-height:none !important;
+    transform:translateY(28px) scale(1.02) !important;
+  }
+
+  .stitch-quote-card{
+    right:12px !important;
+    top:8px !important;
+    max-width:260px !important;
+  }
+
+  .stitch-bento{
+    grid-template-columns:1fr !important;
+  }
+}

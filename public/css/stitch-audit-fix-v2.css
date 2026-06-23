@@ -1,0 +1,640 @@
+/* Stitch Audit Fix V2 — clean public UI pass */
+
+:root{
+  --st-side:112px;
+  --st-bg:#f8f9fb;
+  --st-card:#ffffff;
+  --st-card-soft:#f3f4f6;
+  --st-ink:#111827;
+  --st-muted:#4b5563;
+  --st-line:#d1d5db;
+  --st-blue:#061d2d;
+  --st-blue2:#3b5ca5;
+  --st-blue3:#6f96ff;
+  --st-green:#22c55e;
+  --st-red:#ef4444;
+}
+
+body.stitch-merged{
+  background:var(--st-bg) !important;
+  color:var(--st-ink) !important;
+  overflow-x:hidden !important;
+}
+
+/* Hide old raw site and duplicate sidebars */
+body.stitch-merged > main:not(.stitch-main),
+body.stitch-merged > footer,
+#ptlSideFeatureNav,
+.ptl-side-feature-nav,
+#ptlReferenceHome,
+#ptlFeaturePages,
+#nbaForceHeroShell,
+#nbaPlayerHeroShell,
+#finalToolHub,
+.final-tool-hub,
+.audience-tool-hub,
+.core-tool-hub,
+.ptl-reference-app,
+.ptl-feature-pages{
+  display:none !important;
+}
+
+/* SIDEBAR — readable labels + active page */
+.stitch-sidebar{
+  width:112px !important;
+  background:linear-gradient(180deg,#061d2d,#08243a) !important;
+  z-index:3000 !important;
+  overflow:hidden !important;
+}
+
+.stitch-main{
+  margin-left:112px !important;
+  padding:40px 48px !important;
+  background:var(--st-bg) !important;
+  min-height:100vh !important;
+}
+
+.stitch-logo{
+  font-size:44px !important;
+  margin-bottom:34px !important;
+}
+
+.stitch-nav{
+  gap:8px !important;
+  padding:0 8px !important;
+}
+
+.stitch-nav button{
+  width:100% !important;
+  min-height:74px !important;
+  border-radius:14px !important;
+  border-left:5px solid transparent !important;
+  color:#b3c9de !important;
+  opacity:1 !important;
+  padding:8px 4px !important;
+  background:transparent !important;
+}
+
+.stitch-nav button span:last-child{
+  display:block !important;
+  max-width:92px !important;
+  text-align:center !important;
+  white-space:normal !important;
+  overflow:visible !important;
+  font-size:10px !important;
+  line-height:12px !important;
+  letter-spacing:.045em !important;
+}
+
+.stitch-nav button:hover,
+.stitch-nav button.active{
+  background:linear-gradient(135deg,rgba(96,165,250,.98),rgba(37,99,235,.98)) !important;
+  color:white !important;
+  border-left-color:#d9e2ff !important;
+  box-shadow:0 16px 28px rgba(37,99,235,.24) !important;
+}
+
+.stitch-nav button.active .material-symbols-outlined{
+  font-variation-settings:'FILL' 1, 'wght' 700, 'GRAD' 0, 'opsz' 24 !important;
+}
+
+/* PAGE ISOLATION — stop Home cards bleeding into inner pages */
+.stitch-page{
+  display:none !important;
+  position:relative !important;
+  z-index:1 !important;
+}
+
+.stitch-page.active{
+  display:block !important;
+}
+
+.stitch-page:not(.active),
+.stitch-page:not(.active) *{
+  pointer-events:none !important;
+}
+
+.stitch-page:not(.active) .stitch-bento,
+.stitch-page:not(.active) .stitch-watermark,
+.stitch-page:not(.active) .stitch-hero-grid{
+  display:none !important;
+}
+
+/* HOME — give text and image separation */
+.stitch-home{
+  overflow:hidden !important;
+  padding-bottom:52px !important;
+  min-height:auto !important;
+}
+
+.stitch-watermark{
+  position:absolute !important;
+  inset:0 !important;
+  overflow:hidden !important;
+  z-index:0 !important;
+  pointer-events:none !important;
+}
+
+.stitch-watermark .name{
+  position:absolute !important;
+  left:63% !important;
+  top:34% !important;
+  transform:translate(-50%,-50%) rotate(-8deg) !important;
+  opacity:.20 !important;
+}
+
+.stitch-watermark .num{
+  display:none !important;
+}
+
+.stitch-hero-grid{
+  position:relative !important;
+  z-index:2 !important;
+  display:grid !important;
+  grid-template-columns:minmax(380px,.82fr) minmax(500px,1.18fr) !important;
+  gap:48px !important;
+  align-items:center !important;
+  min-height:660px !important;
+  margin-bottom:30px !important;
+}
+
+.stitch-hero-grid > div:first-child{
+  position:relative !important;
+  z-index:12 !important;
+  max-width:520px !important;
+}
+
+.stitch-title{
+  font-size:clamp(72px,7.5vw,122px) !important;
+  line-height:.78 !important;
+  max-width:500px !important;
+  position:relative !important;
+  z-index:12 !important;
+  margin-bottom:26px !important;
+}
+
+.stitch-subtitle{
+  max-width:500px !important;
+  background:rgba(248,249,251,.78) !important;
+  backdrop-filter:blur(12px) !important;
+  border-left:3px solid var(--st-blue2) !important;
+  border-radius:0 14px 14px 0 !important;
+  padding:14px 18px !important;
+  position:relative !important;
+  z-index:12 !important;
+}
+
+.stitch-hero-image{
+  min-height:640px !important;
+  overflow:hidden !important;
+  align-self:end !important;
+}
+
+.stitch-hero-glow{
+  opacity:.52 !important;
+}
+
+.stitch-lebron-img{
+  height:600px !important;
+  max-height:66vh !important;
+  transform:translateY(42px) scale(1.03) !important;
+  object-position:bottom center !important;
+}
+
+/* Quote card: anchor it intentionally */
+.stitch-quote-card{
+  top:auto !important;
+  left:auto !important;
+  right:28px !important;
+  bottom:86px !important;
+  max-width:340px !important;
+  border-radius:18px !important;
+  z-index:18 !important;
+  padding:24px 26px !important;
+}
+
+.stitch-quote-card .material-symbols-outlined{
+  display:none !important;
+}
+
+.stitch-quote-card::before{
+  content:"Core Question";
+  display:block;
+  color:var(--st-blue2);
+  font-size:12px;
+  letter-spacing:.1em;
+  text-transform:uppercase;
+  font-weight:900;
+  margin-bottom:8px;
+}
+
+/* Fully visible bottom feature cards + scroll cue */
+.stitch-bento{
+  position:relative !important;
+  z-index:14 !important;
+  margin-top:0 !important;
+  padding-bottom:34px !important;
+}
+
+.stitch-bento-card{
+  min-height:210px !important;
+}
+
+.stitch-home::after{
+  content:"Scroll for tools ↓";
+  display:block;
+  width:max-content;
+  margin:4px auto 0;
+  padding:10px 16px;
+  border-radius:999px;
+  background:rgba(6,29,45,.90);
+  color:white;
+  font-size:12px;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  font-weight:900;
+  box-shadow:0 14px 28px rgba(2,6,23,.18);
+}
+
+/* FEATURE PAGES — consistent light theme */
+.stitch-feature-shell{
+  min-height:calc(100vh - 80px) !important;
+}
+
+.stitch-feature-hero{
+  min-height:190px !important;
+  padding:28px 32px !important;
+  margin-bottom:26px !important;
+  color:var(--st-ink) !important;
+  background:
+    radial-gradient(circle at 80% 24%,rgba(59,92,165,.12),transparent 34%),
+    linear-gradient(180deg,#ffffff,#f3f4f6) !important;
+  border:1px solid rgba(209,213,219,.78) !important;
+  box-shadow:0 18px 40px rgba(0,0,0,.055) !important;
+}
+
+.stitch-feature-hero h1{
+  color:#000 !important;
+}
+
+.stitch-feature-hero p{
+  color:var(--st-muted) !important;
+  max-width:760px !important;
+}
+
+.stitch-feature-hero::before{
+  opacity:.055 !important;
+  color:#111827 !important;
+}
+
+.stitch-feature-content{
+  background:transparent !important;
+  border:0 !important;
+  box-shadow:none !important;
+  padding:0 !important;
+}
+
+/* Real moved sections become Stitch cards */
+.stitch-feature-content section,
+.stitch-feature-content .table-section,
+.stitch-feature-content .player-header,
+.stitch-feature-content .featured-section,
+.stitch-feature-content .hero,
+.stitch-feature-content .card,
+.stitch-feature-content .panel,
+.stitch-feature-content .tool-card,
+.stitch-feature-content .stat-card,
+.stitch-feature-content .metric-card,
+.stitch-feature-content .translator-shell,
+.stitch-feature-content .series-translate,
+.stitch-feature-content .translation-lab,
+.stitch-feature-content [class*="translate"],
+.stitch-feature-content [class*="Translation"]{
+  background:#ffffff !important;
+  color:var(--st-ink) !important;
+  border:1px solid rgba(209,213,219,.78) !important;
+  border-radius:18px !important;
+  box-shadow:0 18px 44px rgba(0,0,0,.055) !important;
+}
+
+.stitch-feature-content .section-title,
+.stitch-feature-content h1,
+.stitch-feature-content h2,
+.stitch-feature-content h3,
+.stitch-feature-content h4{
+  color:#000 !important;
+}
+
+.stitch-feature-content p,
+.stitch-feature-content label,
+.stitch-feature-content span{
+  color:inherit;
+}
+
+/* Search page */
+#stitchContent_search .search-box-container{
+  display:block !important;
+  max-width:760px !important;
+  margin:0 auto 32px !important;
+}
+
+#stitchContent_search #searchInput{
+  width:100% !important;
+  display:block !important;
+  min-height:62px !important;
+  border-radius:999px !important;
+  font-size:18px !important;
+  padding:18px 26px !important;
+}
+
+#stitchContent_search .search-dropdown{
+  z-index:5000 !important;
+}
+
+#stitchContent_search .featured-chip,
+#stitchContent_search .chip,
+#stitchContent_search button,
+#stitchContent_search [role="button"]{
+  cursor:pointer !important;
+}
+
+#stitchContent_search .featured-chip:hover,
+#stitchContent_search .chip:hover,
+#stitchContent_search button:hover{
+  transform:translateY(-1px);
+  border-color:var(--st-blue2) !important;
+  box-shadow:0 14px 26px rgba(59,92,165,.16) !important;
+}
+
+#stitchContent_search .featured-grid,
+#stitchContent_search .chips,
+#stitchContent_search .featured-players{
+  display:grid !important;
+  grid-template-columns:repeat(auto-fit,minmax(160px,1fr)) !important;
+  gap:12px !important;
+}
+
+/* Update/system badge restyle */
+.note-pill,
+.update-badge,
+.live-badge{
+  background:#ecfdf5 !important;
+  color:#166534 !important;
+  border:1px solid #bbf7d0 !important;
+  border-radius:999px !important;
+  padding:7px 10px !important;
+  font-size:12px !important;
+  font-weight:900 !important;
+  letter-spacing:.02em !important;
+}
+
+.note-pill::before,
+.update-badge::before,
+.live-badge::before{
+  content:"● ";
+  color:#22c55e;
+}
+
+/* Profile: high contrast name and scrollable table */
+#stitchContent_profile .player-name,
+#stitchContent_profile h1,
+#stitchContent_profile h2{
+  color:#000 !important;
+}
+
+#stitchContent_profile .table-wrapper,
+#stitchContent_profile .table-wrap,
+#stitchContent_profile .table-container,
+#stitchContent_profile .table-section{
+  overflow-x:auto !important;
+}
+
+#stitchContent_profile table{
+  min-width:1350px !important;
+}
+
+#stitchContent_profile .table-section::after{
+  content:"Swipe/scroll sideways to see all columns →";
+  display:block;
+  margin-top:10px;
+  color:var(--st-muted);
+  font-size:12px;
+  font-weight:800;
+}
+
+/* Tables global */
+.stitch-feature-content table{
+  width:100% !important;
+  border-collapse:separate !important;
+  border-spacing:0 !important;
+  background:#fff !important;
+  color:var(--st-ink) !important;
+  border-radius:14px !important;
+  overflow:hidden !important;
+}
+
+.stitch-feature-content .table-wrapper,
+.stitch-feature-content .table-wrap,
+.stitch-feature-content .table-container{
+  overflow-x:auto !important;
+  border-radius:14px !important;
+}
+
+.stitch-feature-content th{
+  background:#061d2d !important;
+  color:white !important;
+  font-size:12px !important;
+  letter-spacing:.08em !important;
+  text-transform:uppercase !important;
+  padding:14px !important;
+}
+
+.stitch-feature-content td{
+  background:#fff !important;
+  color:var(--st-ink) !important;
+  border-bottom:1px solid rgba(209,213,219,.72) !important;
+  padding:13px 14px !important;
+}
+
+.stitch-feature-content tbody tr:hover td{
+  background:#f3f4f6 !important;
+}
+
+/* Inputs/forms */
+.stitch-feature-content input,
+.stitch-feature-content select,
+.stitch-feature-content textarea{
+  background:#ffffff !important;
+  color:var(--st-ink) !important;
+  border:1px solid rgba(115,119,125,.38) !important;
+  border-radius:999px !important;
+  box-shadow:none !important;
+}
+
+.stitch-feature-content input::placeholder{
+  color:#73777d !important;
+}
+
+/* Labels and filter rows aligned */
+.stitch-feature-content .controls,
+.stitch-feature-content .filters,
+.stitch-feature-content .filter-row,
+.stitch-feature-content .series-translate-controls,
+.stitch-feature-content .translate-controls{
+  display:flex !important;
+  flex-wrap:wrap !important;
+  align-items:end !important;
+  gap:14px !important;
+}
+
+.stitch-feature-content .controls label,
+.stitch-feature-content .filters label,
+.stitch-feature-content .filter-row label,
+.stitch-feature-content .series-translate-controls label,
+.stitch-feature-content .translate-controls label{
+  display:grid !important;
+  gap:6px !important;
+  align-items:start !important;
+}
+
+/* Hide bad Optimize Strategy Explorer overlay */
+.stitch-kill-overlay,
+[data-stitch-hidden-overlay="true"]{
+  display:none !important;
+}
+
+/* Translate cards uniform */
+#stitchContent_translate .summary-card,
+#stitchContent_translate .translate-card,
+#stitchContent_translate .translation-card,
+#stitchContent_translate [class*="summary"] .card,
+#stitchContent_translate [class*="translate"] .card{
+  padding:20px !important;
+}
+
+#stitchContent_translate .summary-card p,
+#stitchContent_translate .translate-card p,
+#stitchContent_translate .translation-card p,
+#stitchContent_translate [class*="summary"] p,
+#stitchContent_translate [class*="translate"] p{
+  font-size:13px !important;
+  line-height:18px !important;
+  color:var(--st-muted) !important;
+  font-weight:700 !important;
+}
+
+/* Series/Games empty states */
+.stitch-empty-state{
+  background:#ffffff;
+  border:1px dashed rgba(115,119,125,.40);
+  border-radius:18px;
+  padding:28px;
+  color:var(--st-muted);
+  font-weight:750;
+  box-shadow:0 16px 34px rgba(0,0,0,.04);
+}
+
+/* Stretch page */
+#stitchContent_stretches .stretch-controls,
+#stitchContent_stretches .year-stretch-controls,
+#stitchContent_stretches .controls,
+#stitchContent_stretches .filters{
+  background:#fff !important;
+  border:1px solid rgba(209,213,219,.78) !important;
+  border-radius:18px !important;
+  box-shadow:0 18px 44px rgba(0,0,0,.055) !important;
+  padding:20px !important;
+  display:flex !important;
+  flex-wrap:wrap !important;
+  align-items:end !important;
+  gap:16px !important;
+}
+
+#stitchContent_stretches .stat-card:empty::after,
+#stitchContent_stretches .metric-card:empty::after{
+  content:"—";
+  color:var(--st-muted);
+  font-size:28px;
+  font-weight:900;
+}
+
+/* Buttons */
+.stitch-feature-content button,
+.stitch-feature-content .stretch-btn,
+.stitch-feature-content .year-stretch-btn,
+.stitch-feature-content .series-toggle-btn,
+.stitch-feature-content .game-toggle-btn{
+  border:0 !important;
+  border-radius:999px !important;
+  background:#000 !important;
+  color:#fff !important;
+  font-weight:900 !important;
+  cursor:pointer !important;
+  box-shadow:0 10px 22px rgba(0,0,0,.12) !important;
+}
+
+.stitch-feature-content button:hover{
+  background:var(--st-blue2) !important;
+}
+
+/* Data build safe badge: not audience-facing */
+.build-badge,
+.data-build-badge,
+#dataBuildBadge,
+.status-pill{
+  opacity:.35 !important;
+  transform:scale(.82) !important;
+  transform-origin:right bottom !important;
+  z-index:900 !important;
+  transition:.2s ease !important;
+}
+
+.build-badge:hover,
+.data-build-badge:hover,
+#dataBuildBadge:hover,
+.status-pill:hover{
+  opacity:1 !important;
+  transform:scale(1) !important;
+}
+
+/* Mobile */
+@media(max-width:900px){
+  .stitch-sidebar{
+    display:none !important;
+  }
+
+  .stitch-main{
+    margin-left:0 !important;
+    padding:86px 18px 96px !important;
+  }
+
+  .stitch-hero-grid{
+    grid-template-columns:1fr !important;
+    min-height:auto !important;
+  }
+
+  .stitch-title{
+    font-size:72px !important;
+  }
+
+  .stitch-hero-image{
+    min-height:420px !important;
+  }
+
+  .stitch-lebron-img{
+    height:410px !important;
+    max-height:none !important;
+    transform:translateY(28px) scale(1.02) !important;
+  }
+
+  .stitch-quote-card{
+    position:relative !important;
+    right:auto !important;
+    bottom:auto !important;
+    margin:16px auto 0 !important;
+  }
+
+  .stitch-bento{
+    grid-template-columns:1fr !important;
+  }
+}

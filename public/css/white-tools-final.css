@@ -1,0 +1,324 @@
+/* FINAL WHITE TOOL FORMAT OVERRIDE */
+
+/* Keep whole public site light */
+body.stitch-merged,
+body.stitch-merged #stitchApp,
+body.stitch-merged .stitch-main,
+body.stitch-merged .stitch-page,
+body.stitch-merged .stitch-feature-content{
+  background:#f8f9fb !important;
+  color:#111827 !important;
+}
+
+/* One page only */
+body.stitch-merged #stitchApp .stitch-page{
+  display:none !important;
+  visibility:hidden !important;
+  opacity:0 !important;
+  height:0 !important;
+  max-height:0 !important;
+  overflow:hidden !important;
+  pointer-events:none !important;
+}
+
+body.stitch-merged #stitchApp .stitch-page.active{
+  display:block !important;
+  visibility:visible !important;
+  opacity:1 !important;
+  height:auto !important;
+  max-height:none !important;
+  overflow:visible !important;
+  pointer-events:auto !important;
+}
+
+/* Hide old dark promo / old dashboard blocks */
+.stitch-kill-old-promo,
+.stitch-translate-hidden-junk,
+.stitch-translate-promo,
+.lab-hero,
+.translation-promo,
+.translate-hero,
+#ptlReferenceHome,
+#ptlFeaturePages,
+#nbaForceHeroShell,
+#nbaPlayerHeroShell,
+#finalToolHub,
+.final-tool-hub,
+.audience-tool-hub,
+.core-tool-hub{
+  display:none !important;
+  visibility:hidden !important;
+  opacity:0 !important;
+  height:0 !important;
+  max-height:0 !important;
+  overflow:hidden !important;
+  pointer-events:none !important;
+}
+
+/* Hide original raw app if it still exists outside Stitch */
+body.stitch-merged > main:not(.stitch-main),
+body.stitch-merged > footer,
+body.stitch-merged > #app,
+body.stitch-merged > .app,
+body.stitch-merged > .container{
+  display:none !important;
+  visibility:hidden !important;
+  height:0 !important;
+  overflow:hidden !important;
+}
+
+/* All tool pages use white cards */
+#stitchContent_translate,
+#stitchContent_stretches,
+#stitchContent_series,
+#stitchContent_games,
+#stitchContent_profile,
+#stitchContent_search,
+#stitchContent_leaders{
+  background:#f8f9fb !important;
+  color:#111827 !important;
+  isolation:isolate !important;
+}
+
+/* Any real module/card inside tools */
+#stitchContent_translate > *,
+#stitchContent_stretches > *,
+#stitchContent_series > *,
+#stitchContent_games > *,
+#stitchContent_profile > *,
+#stitchContent_search > *,
+#stitchContent_leaders > *,
+#stitchTranslateWhiteStage,
+.stitch-white-tool-card,
+.stitch-feature-content section,
+.stitch-feature-content .table-section,
+.stitch-feature-content .card,
+.stitch-feature-content .panel,
+.stitch-feature-content .player-header,
+.stitch-feature-content .featured-section{
+  background:#ffffff !important;
+  color:#111827 !important;
+  border:1px solid rgba(209,213,219,.9) !important;
+  border-radius:20px !important;
+  box-shadow:0 18px 44px rgba(0,0,0,.055) !important;
+  opacity:1 !important;
+  backdrop-filter:none !important;
+  -webkit-backdrop-filter:none !important;
+}
+
+/* Headings */
+.stitch-feature-content h1,
+.stitch-feature-content h2,
+.stitch-feature-content h3,
+.stitch-feature-content h4,
+.stitch-feature-content .section-title,
+#stitchTranslateWhiteStage h1,
+#stitchTranslateWhiteStage h2,
+#stitchTranslateWhiteStage h3,
+#stitchTranslateWhiteStage h4,
+#stitchTranslateWhiteStage .section-title{
+  color:#000000 !important;
+  font-weight:1000 !important;
+  text-shadow:none !important;
+}
+
+/* Normal text */
+.stitch-feature-content p,
+.stitch-feature-content small,
+.stitch-feature-content label,
+.stitch-feature-content span,
+#stitchTranslateWhiteStage p,
+#stitchTranslateWhiteStage small,
+#stitchTranslateWhiteStage label,
+#stitchTranslateWhiteStage span{
+  color:#374151 !important;
+}
+
+/* Inputs/dropdowns: readable */
+.stitch-feature-content input,
+.stitch-feature-content select,
+.stitch-feature-content textarea,
+#stitchTranslateWhiteStage input,
+#stitchTranslateWhiteStage select,
+#stitchTranslateWhiteStage textarea{
+  background:#ffffff !important;
+  color:#111827 !important;
+  border:1px solid rgba(59,92,165,.35) !important;
+  border-radius:10px !important;
+  font-weight:800 !important;
+  min-height:40px !important;
+  padding:8px 12px !important;
+  box-shadow:none !important;
+}
+
+.stitch-feature-content select option,
+#stitchTranslateWhiteStage select option{
+  background:#ffffff !important;
+  color:#111827 !important;
+  font-weight:800 !important;
+}
+
+/* Dropdown/listbox overlays */
+.stitch-feature-content .dropdown,
+.stitch-feature-content .search-dropdown,
+.stitch-feature-content .select-menu,
+.stitch-feature-content [role="listbox"],
+.stitch-feature-content [role="option"]{
+  background:#ffffff !important;
+  color:#111827 !important;
+  border:1px solid rgba(59,92,165,.35) !important;
+  box-shadow:0 18px 42px rgba(0,0,0,.16) !important;
+  z-index:9999 !important;
+}
+
+.stitch-feature-content [role="option"]:hover{
+  background:#e8efff !important;
+  color:#061d2d !important;
+}
+
+/* Summary stat cards white */
+#stitchContent_translate .summary-card,
+#stitchContent_translate .translate-card,
+#stitchContent_translate .translation-card,
+#stitchTranslateWhiteStage .summary-card,
+#stitchTranslateWhiteStage .translate-card,
+#stitchTranslateWhiteStage .translation-card,
+#stitchContent_stretches .stat-card,
+#stitchContent_stretches .metric-card{
+  background:#ffffff !important;
+  color:#111827 !important;
+  border:1px solid rgba(209,213,219,.9) !important;
+  border-radius:16px !important;
+  box-shadow:0 12px 30px rgba(0,0,0,.055) !important;
+}
+
+#stitchContent_translate .summary-card *,
+#stitchContent_translate .translate-card *,
+#stitchContent_translate .translation-card *,
+#stitchTranslateWhiteStage .summary-card *,
+#stitchTranslateWhiteStage .translate-card *,
+#stitchTranslateWhiteStage .translation-card *,
+#stitchContent_stretches .stat-card *,
+#stitchContent_stretches .metric-card *{
+  color:inherit !important;
+}
+
+/* Metric labels and values */
+.stitch-feature-content .stat-card small,
+.stitch-feature-content .metric-card small,
+.stitch-feature-content .stat-card .label,
+.stitch-feature-content .metric-card .label{
+  color:#3b5ca5 !important;
+  font-size:12px !important;
+  letter-spacing:.08em !important;
+  text-transform:uppercase !important;
+  font-weight:900 !important;
+}
+
+.stitch-feature-content .stat-card strong,
+.stitch-feature-content .metric-card strong,
+.stitch-feature-content .value,
+.stitch-force-visible-value{
+  color:#111827 !important;
+  font-size:24px !important;
+  font-weight:1000 !important;
+}
+
+.stitch-positive,
+.positive,
+.good{
+  color:#16a34a !important;
+}
+
+.stitch-negative,
+.negative,
+.bad{
+  color:#dc2626 !important;
+}
+
+/* Tables white + readable */
+.stitch-feature-content table,
+#stitchTranslateWhiteStage table{
+  width:100% !important;
+  background:#ffffff !important;
+  color:#111827 !important;
+  border-collapse:separate !important;
+  border-spacing:0 !important;
+}
+
+.stitch-feature-content th,
+#stitchTranslateWhiteStage th{
+  background:#061d2d !important;
+  color:#ffffff !important;
+  font-weight:1000 !important;
+  font-size:12px !important;
+  letter-spacing:.08em !important;
+  text-transform:uppercase !important;
+  white-space:nowrap !important;
+}
+
+.stitch-feature-content tbody td,
+#stitchTranslateWhiteStage tbody td{
+  background:#ffffff !important;
+  color:#111827 !important;
+  font-weight:750 !important;
+  border-bottom:1px solid rgba(209,213,219,.9) !important;
+  white-space:nowrap !important;
+}
+
+.stitch-feature-content tbody tr:nth-child(even) td,
+#stitchTranslateWhiteStage tbody tr:nth-child(even) td{
+  background:#f8fafc !important;
+}
+
+.stitch-feature-content tbody tr:hover td,
+#stitchTranslateWhiteStage tbody tr:hover td{
+  background:#e8efff !important;
+}
+
+/* YES / NO */
+.stitch-yes{
+  color:#16a34a !important;
+  font-weight:1000 !important;
+  text-transform:uppercase !important;
+}
+
+.stitch-no{
+  color:#64748b !important;
+  font-weight:1000 !important;
+  text-transform:uppercase !important;
+}
+
+/* Table scroll visibility */
+.stitch-table-scroll,
+.stitch-feature-content .table-wrapper,
+.stitch-feature-content .table-wrap,
+.stitch-feature-content .table-container{
+  overflow-x:auto !important;
+  background:#ffffff !important;
+  border:1px solid rgba(209,213,219,.9) !important;
+  border-radius:14px !important;
+}
+
+.stitch-table-scroll::-webkit-scrollbar,
+.stitch-feature-content .table-wrapper::-webkit-scrollbar,
+.stitch-feature-content .table-wrap::-webkit-scrollbar,
+.stitch-feature-content .table-container::-webkit-scrollbar{
+  height:12px !important;
+}
+
+.stitch-table-scroll::-webkit-scrollbar-thumb,
+.stitch-feature-content .table-wrapper::-webkit-scrollbar-thumb,
+.stitch-feature-content .table-wrap::-webkit-scrollbar-thumb,
+.stitch-feature-content .table-container::-webkit-scrollbar-thumb{
+  background:#94a3b8 !important;
+  border-radius:999px !important;
+}
+
+/* Hide the “data build safe” badge from audience pages */
+.build-badge,
+.data-build-badge,
+#dataBuildBadge,
+.status-pill{
+  display:none !important;
+}

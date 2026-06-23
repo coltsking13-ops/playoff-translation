@@ -1,0 +1,491 @@
+/* Stitch Audit Fix V3 */
+
+/* Sidebar active + label safety */
+:root{ --st-side:116px; }
+
+.stitch-sidebar{
+  width:116px !important;
+  overflow:hidden !important;
+}
+
+.stitch-main{
+  margin-left:116px !important;
+}
+
+.stitch-nav{
+  padding:0 9px !important;
+}
+
+.stitch-nav button{
+  border-radius:16px !important;
+  min-height:74px !important;
+  border-left:5px solid transparent !important;
+}
+
+.stitch-nav button span:last-child{
+  font-size:9.5px !important;
+  letter-spacing:.035em !important;
+  line-height:12px !important;
+  max-width:96px !important;
+  overflow:visible !important;
+  white-space:normal !important;
+}
+
+.stitch-nav button.active{
+  background:linear-gradient(135deg,#60a5fa,#2563eb) !important;
+  color:white !important;
+  border-left-color:#dbeafe !important;
+  box-shadow:0 16px 30px rgba(37,99,235,.26) !important;
+}
+
+/* HOME: keep text and player image separated */
+.stitch-hero-grid{
+  grid-template-columns:minmax(420px,.9fr) minmax(520px,1.1fr) !important;
+  gap:56px !important;
+  align-items:center !important;
+}
+
+.stitch-hero-grid > div:first-child{
+  z-index:20 !important;
+  max-width:520px !important;
+  background:linear-gradient(90deg,rgba(248,249,251,.96),rgba(248,249,251,.76),rgba(248,249,251,0)) !important;
+  padding:28px 28px 28px 0 !important;
+  border-radius:0 24px 24px 0 !important;
+}
+
+.stitch-title{
+  max-width:520px !important;
+  font-size:clamp(72px,7vw,118px) !important;
+  line-height:.8 !important;
+  margin-bottom:22px !important;
+}
+
+.stitch-subtitle{
+  max-width:500px !important;
+  background:rgba(255,255,255,.78) !important;
+  border-left:4px solid #3b5ca5 !important;
+  border-radius:0 14px 14px 0 !important;
+  padding:14px 18px !important;
+  backdrop-filter:blur(10px) !important;
+}
+
+/* Remove unexplained number/watermark noise */
+.stitch-watermark .num{
+  display:none !important;
+}
+
+.stitch-watermark .name{
+  opacity:.14 !important;
+}
+
+/* Quote card no longer covers face */
+.stitch-quote-card{
+  top:34px !important;
+  right:28px !important;
+  left:auto !important;
+  bottom:auto !important;
+  max-width:320px !important;
+  z-index:25 !important;
+  transform:none !important;
+}
+
+.stitch-quote-card::before{
+  content:"Core Question";
+  display:block;
+  color:#3b5ca5;
+  font-size:12px;
+  font-weight:900;
+  text-transform:uppercase;
+  letter-spacing:.1em;
+  margin-bottom:8px;
+}
+
+.stitch-quote-card .material-symbols-outlined{
+  display:none !important;
+}
+
+/* Feature cards fully visible + cue */
+.stitch-home{
+  padding-bottom:56px !important;
+}
+
+.stitch-bento{
+  margin-top:16px !important;
+  padding-bottom:18px !important;
+}
+
+.stitch-bento-card{
+  min-height:205px !important;
+}
+
+.stitch-home::after{
+  content:"Scroll for more tools ↓";
+  display:block;
+  width:max-content;
+  margin:8px auto 0;
+  padding:10px 16px;
+  border-radius:999px;
+  background:#061d2d;
+  color:white;
+  font-size:12px;
+  font-weight:900;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  box-shadow:0 14px 28px rgba(2,6,23,.18);
+}
+
+/* Page headers: less empty space, lower watermark noise */
+.stitch-feature-hero{
+  min-height:150px !important;
+  padding:24px 30px !important;
+  margin-bottom:22px !important;
+}
+
+.stitch-feature-hero::before{
+  opacity:.045 !important;
+  font-size:clamp(64px,10vw,150px) !important;
+  top:10px !important;
+}
+
+.stitch-feature-hero h1{
+  font-size:clamp(46px,6vw,78px) !important;
+  line-height:.88 !important;
+}
+
+.stitch-feature-hero p{
+  font-size:15px !important;
+  line-height:22px !important;
+}
+
+/* Search page */
+#stitchContent_search .stitch-real-search-box,
+#stitchContent_search .search-box-container{
+  display:block !important;
+  visibility:visible !important;
+}
+
+#stitchContent_search .search-box-container{
+  max-width:780px !important;
+  margin:0 auto 24px !important;
+  position:relative !important;
+}
+
+#stitchContent_search #searchInput{
+  display:block !important;
+  width:100% !important;
+  min-height:66px !important;
+  border-radius:999px !important;
+  background:#ffffff !important;
+  color:#111827 !important;
+  border:1px solid rgba(115,119,125,.35) !important;
+  font-size:18px !important;
+  padding:18px 26px !important;
+  box-shadow:0 12px 30px rgba(0,0,0,.06) !important;
+}
+
+#stitchContent_search .search-dropdown{
+  z-index:9000 !important;
+}
+
+/* Featured player pills */
+#stitchContent_search .featured-grid,
+#stitchContent_search .featured-players,
+#stitchContent_search .chips{
+  display:grid !important;
+  grid-template-columns:repeat(auto-fit,minmax(170px,1fr)) !important;
+  gap:12px !important;
+  justify-items:stretch !important;
+}
+
+#stitchContent_search button,
+#stitchContent_search a,
+#stitchContent_search .chip,
+#stitchContent_search .featured-chip{
+  cursor:pointer !important;
+  transition:.18s ease !important;
+}
+
+#stitchContent_search button:hover,
+#stitchContent_search a:hover,
+#stitchContent_search .chip:hover,
+#stitchContent_search .featured-chip:hover{
+  transform:translateY(-2px) !important;
+  border-color:#3b5ca5 !important;
+  box-shadow:0 14px 26px rgba(59,92,165,.18) !important;
+}
+
+/* Update badge less cluttered */
+#stitchContent_search .note-pill,
+#stitchContent_search .live-badge,
+#stitchContent_search .update-badge{
+  display:inline-flex !important;
+  margin-top:8px !important;
+  margin-left:0 !important;
+  background:#ecfdf5 !important;
+  color:#166534 !important;
+  border:1px solid #bbf7d0 !important;
+  border-radius:999px !important;
+  padding:7px 10px !important;
+  font-size:12px !important;
+  font-weight:900 !important;
+}
+
+#stitchContent_search .note-pill::before,
+#stitchContent_search .live-badge::before{
+  content:"● ";
+  color:#22c55e;
+}
+
+/* Search empty guidance */
+.stitch-search-guide{
+  margin-top:18px;
+  padding:22px;
+  border:1px dashed rgba(115,119,125,.35);
+  border-radius:18px;
+  background:#f8fafc;
+  color:#4b5563;
+  font-weight:800;
+  text-align:center;
+}
+
+/* Profile subtitle contrast */
+#stitchContent_profile .player-subtitle,
+#stitchContent_profile .player-meta,
+#stitchContent_profile small,
+#stitchContent_profile .muted,
+#stitchContent_profile .subtitle{
+  color:#444 !important;
+}
+
+/* Tables: scroll indicators */
+.stitch-table-scroll,
+.stitch-feature-content .table-wrapper,
+.stitch-feature-content .table-wrap,
+.stitch-feature-content .table-container{
+  overflow-x:auto !important;
+  border-radius:14px !important;
+  position:relative !important;
+  scrollbar-width:auto !important;
+}
+
+.stitch-table-scroll::-webkit-scrollbar,
+.stitch-feature-content .table-wrapper::-webkit-scrollbar,
+.stitch-feature-content .table-wrap::-webkit-scrollbar,
+.stitch-feature-content .table-container::-webkit-scrollbar{
+  height:12px !important;
+}
+
+.stitch-table-scroll::-webkit-scrollbar-thumb,
+.stitch-feature-content .table-wrapper::-webkit-scrollbar-thumb,
+.stitch-feature-content .table-wrap::-webkit-scrollbar-thumb,
+.stitch-feature-content .table-container::-webkit-scrollbar-thumb{
+  background:#94a3b8 !important;
+  border-radius:999px !important;
+}
+
+.stitch-table-hint{
+  display:flex;
+  justify-content:flex-end;
+  color:#4b5563;
+  font-size:12px;
+  font-weight:900;
+  letter-spacing:.04em;
+  text-transform:uppercase;
+  margin:0 0 8px;
+}
+
+/* Prevent date wrapping */
+.stitch-feature-content th,
+.stitch-feature-content td{
+  white-space:nowrap !important;
+}
+
+.stitch-feature-content td:nth-child(2),
+.stitch-feature-content th:nth-child(2){
+  min-width:96px !important;
+}
+
+/* Toggle buttons belong in header row */
+.stitch-log-toggle-row,
+.final-log-toggle-row,
+.series-log-toggle-row,
+.game-log-toggle-row{
+  display:flex !important;
+  justify-content:flex-end !important;
+  align-items:center !important;
+  margin:0 0 12px !important;
+}
+
+/* Better empty states */
+.stitch-empty-state{
+  background:#fff !important;
+  border:1px dashed rgba(115,119,125,.35) !important;
+  border-radius:18px !important;
+  padding:26px !important;
+  color:#4b5563 !important;
+  font-weight:800 !important;
+  box-shadow:0 14px 34px rgba(0,0,0,.04) !important;
+}
+
+/* Series/Games descriptions in plain English */
+.stitch-feature-content .section-title small{
+  color:#4b5563 !important;
+  font-size:14px !important;
+  line-height:20px !important;
+}
+
+/* Translate page cleanup */
+#stitchContent_translate{
+  position:relative !important;
+  overflow:hidden !important;
+}
+
+#stitchContent_translate .stitch-kill-black-panel{
+  display:none !important;
+}
+
+#stitchContent_translate input,
+#stitchContent_translate select,
+#stitchContent_translate textarea{
+  background:#1a1f2e !important;
+  color:#f8fafc !important;
+  border:1px solid rgba(148,163,184,.35) !important;
+}
+
+#stitchContent_translate label{
+  color:#111827 !important;
+  font-weight:900 !important;
+}
+
+#stitchContent_translate .section-title,
+#stitchContent_translate h1,
+#stitchContent_translate h2,
+#stitchContent_translate h3{
+  color:#000 !important;
+  font-weight:900 !important;
+}
+
+/* Translate cards uniform */
+#stitchContent_translate .summary-card,
+#stitchContent_translate .translate-card,
+#stitchContent_translate .translation-card,
+#stitchContent_translate [class*="summary"] .card,
+#stitchContent_translate [class*="translate"] .card{
+  padding:20px !important;
+}
+
+#stitchContent_translate .summary-card p,
+#stitchContent_translate .translate-card p,
+#stitchContent_translate .translation-card p,
+#stitchContent_translate [class*="summary"] p,
+#stitchContent_translate [class*="translate"] p{
+  font-size:13px !important;
+  line-height:18px !important;
+  font-weight:750 !important;
+}
+
+/* Partial translate rows get visual cue */
+#stitchContent_translate tr.stitch-partial-row td{
+  background:#f8fafc !important;
+  color:#64748b !important;
+  font-style:italic !important;
+}
+
+/* Stretch controls grouped */
+#stitchContent_stretches .controls,
+#stitchContent_stretches .filters,
+#stitchContent_stretches .stretch-controls,
+#stitchContent_stretches .year-stretch-controls{
+  background:#fff !important;
+  border:1px solid rgba(209,213,219,.78) !important;
+  border-radius:18px !important;
+  padding:20px !important;
+  box-shadow:0 18px 44px rgba(0,0,0,.055) !important;
+  display:flex !important;
+  flex-wrap:wrap !important;
+  align-items:end !important;
+  gap:16px !important;
+}
+
+/* Blank stat cards show placeholder */
+.stitch-placeholder-value{
+  display:block;
+  margin-top:10px;
+  color:#64748b;
+  font-size:28px;
+  font-weight:900;
+}
+
+/* Data build safe should not overlap data */
+.build-badge,
+.data-build-badge,
+#dataBuildBadge,
+.status-pill{
+  position:fixed !important;
+  right:18px !important;
+  bottom:18px !important;
+  width:14px !important;
+  height:14px !important;
+  min-width:14px !important;
+  min-height:14px !important;
+  padding:0 !important;
+  overflow:hidden !important;
+  border-radius:999px !important;
+  opacity:.55 !important;
+  z-index:750 !important;
+  font-size:0 !important;
+}
+
+.build-badge:hover,
+.data-build-badge:hover,
+#dataBuildBadge:hover,
+.status-pill:hover{
+  width:auto !important;
+  height:auto !important;
+  padding:8px 11px !important;
+  font-size:12px !important;
+  opacity:1 !important;
+}
+
+/* Hide broken overlay */
+.stitch-kill-overlay,
+[data-stitch-hidden-overlay="true"]{
+  display:none !important;
+}
+
+/* Mobile */
+@media(max-width:900px){
+  .stitch-sidebar{
+    display:none !important;
+  }
+
+  .stitch-main{
+    margin-left:0 !important;
+    padding:86px 18px 96px !important;
+  }
+
+  .stitch-hero-grid{
+    grid-template-columns:1fr !important;
+    gap:20px !important;
+  }
+
+  .stitch-hero-grid > div:first-child{
+    background:transparent !important;
+    padding:0 !important;
+  }
+
+  .stitch-title{
+    font-size:70px !important;
+  }
+
+  .stitch-quote-card{
+    position:relative !important;
+    right:auto !important;
+    top:auto !important;
+    margin:14px auto 0 !important;
+  }
+
+  .stitch-bento{
+    grid-template-columns:1fr !important;
+  }
+}

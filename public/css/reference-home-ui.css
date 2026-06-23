@@ -1,0 +1,682 @@
+/* Playoff Translation Lab reference homepage UI */
+
+:root{
+  --ptl-blue:#1f4fbf;
+  --ptl-blue2:#2563eb;
+  --ptl-red:#c8103e;
+  --ptl-ink:#101827;
+  --ptl-muted:#64748b;
+  --ptl-card:#f8fafc;
+}
+
+.ptl-reference-app{
+  width:min(1220px, calc(100% - 28px));
+  margin:28px auto 34px;
+  position:relative;
+  z-index:70;
+  font-family:Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.ptl-reference-frame{
+  min-height:720px;
+  position:relative;
+  overflow:hidden;
+  border-radius:14px;
+  background:
+    radial-gradient(circle at 58% 40%, rgba(148,163,184,.38), transparent 28%),
+    linear-gradient(180deg, #f8fafc 0%, #eef2f7 48%, #d9e0ea 100%);
+  color:var(--ptl-ink);
+  box-shadow:0 38px 92px rgba(2,6,23,.38);
+  border:1px solid rgba(15,23,42,.08);
+}
+
+.ptl-reference-frame::before{
+  content:"";
+  position:absolute;
+  left:0;
+  top:0;
+  bottom:0;
+  width:36px;
+  background:linear-gradient(180deg, #1e3a8a, #2563eb);
+  z-index:20;
+}
+
+.ptl-reference-sidebar{
+  position:absolute;
+  left:0;
+  top:0;
+  bottom:0;
+  width:36px;
+  z-index:40;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:space-between;
+  padding:14px 0;
+  color:white;
+}
+
+.ptl-reference-sidebar-dot{
+  width:15px;
+  height:15px;
+  border-radius:999px;
+  background:rgba(255,255,255,.85);
+}
+
+.ptl-reference-sidebar-menu{
+  writing-mode:vertical-rl;
+  transform:rotate(180deg);
+  font-size:.58rem;
+  letter-spacing:.16em;
+  text-transform:uppercase;
+  font-weight:1000;
+  opacity:.75;
+}
+
+.ptl-reference-topbar{
+  position:absolute;
+  left:36px;
+  right:0;
+  top:0;
+  height:52px;
+  z-index:35;
+  background:rgba(255,255,255,.95);
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:0 28px 0 34px;
+  border-bottom:1px solid rgba(15,23,42,.07);
+}
+
+.ptl-reference-logo{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  font-weight:1000;
+  color:#172554;
+  letter-spacing:-.04em;
+}
+
+.ptl-reference-logo-mark{
+  width:16px;
+  height:29px;
+  border-radius:4px;
+  background:linear-gradient(180deg, #1d4ed8 0 50%, #dc2626 50% 100%);
+  display:inline-block;
+}
+
+.ptl-reference-topnav{
+  display:flex;
+  gap:28px;
+  font-size:.62rem;
+  text-transform:uppercase;
+  letter-spacing:.11em;
+  font-weight:1000;
+  color:rgba(15,23,42,.70);
+}
+
+.ptl-reference-topnav a{
+  color:inherit;
+  text-decoration:none;
+}
+
+.ptl-reference-avatar{
+  width:30px;
+  height:30px;
+  border-radius:999px;
+  display:grid;
+  place-items:center;
+  background:linear-gradient(135deg, #172554, #2563eb);
+  color:white;
+  font-size:.68rem;
+  font-weight:1000;
+}
+
+.ptl-reference-bg-word{
+  position:absolute;
+  left:30%;
+  top:82px;
+  z-index:1;
+  font-size:clamp(5rem, 14vw, 14rem);
+  line-height:.78;
+  text-transform:uppercase;
+  letter-spacing:-.1em;
+  color:rgba(15,23,42,.052);
+  font-weight:1000;
+  white-space:nowrap;
+  pointer-events:none;
+}
+
+.ptl-reference-main{
+  position:relative;
+  z-index:10;
+  min-height:720px;
+  display:grid;
+  grid-template-columns:300px minmax(360px, 1fr) 330px;
+  gap:24px;
+  padding:98px 34px 138px 76px;
+}
+
+.ptl-reference-left{
+  padding-top:52px;
+  position:relative;
+  z-index:20;
+}
+
+.ptl-reference-fav{
+  display:inline-flex;
+  align-items:center;
+  gap:7px;
+  margin-bottom:28px;
+  padding:8px 10px;
+  border-radius:999px;
+  background:rgba(15,23,42,.045);
+  color:rgba(15,23,42,.55);
+  font-size:.68rem;
+  font-weight:900;
+}
+
+.ptl-reference-title{
+  margin:0;
+  color:#101827;
+  font-size:clamp(2.85rem, 5vw, 5.2rem);
+  line-height:.86;
+  letter-spacing:-.085em;
+  font-weight:1000;
+}
+
+.ptl-reference-title small{
+  display:block;
+  font-size:.48em;
+  line-height:.9;
+  letter-spacing:-.07em;
+}
+
+.ptl-reference-subtitle{
+  margin:20px 0 0;
+  max-width:290px;
+  color:rgba(15,23,42,.68);
+  line-height:1.55;
+  font-size:.96rem;
+  font-weight:750;
+}
+
+.ptl-reference-team{
+  margin-top:22px;
+  display:flex;
+  align-items:center;
+  gap:9px;
+  color:#1f2937;
+  font-weight:1000;
+  font-size:.92rem;
+}
+
+.ptl-reference-team-dot{
+  width:20px;
+  height:20px;
+  border-radius:999px;
+  background:linear-gradient(135deg, #1d4ed8, #dc2626);
+  box-shadow:inset 0 0 0 3px rgba(255,255,255,.75);
+}
+
+.ptl-reference-center{
+  position:relative;
+  min-height:540px;
+  display:flex;
+  align-items:flex-end;
+  justify-content:center;
+  z-index:15;
+}
+
+.ptl-reference-number{
+  position:absolute;
+  left:35%;
+  top:44%;
+  transform:translate(-50%, -50%);
+  font-size:clamp(8rem, 18vw, 17rem);
+  line-height:.78;
+  letter-spacing:-.11em;
+  font-weight:1000;
+  color:var(--ptl-red);
+  z-index:1;
+}
+
+.ptl-reference-position{
+  position:absolute;
+  right:12%;
+  top:33%;
+  color:var(--ptl-red);
+  font-size:2.25rem;
+  font-weight:1000;
+  z-index:2;
+}
+
+.ptl-reference-ring{
+  position:absolute;
+  width:475px;
+  height:475px;
+  border-radius:999px;
+  border:1px solid rgba(15,23,42,.09);
+  left:50%;
+  top:49%;
+  transform:translate(-50%, -50%);
+  z-index:0;
+}
+
+.ptl-reference-lebron{
+  position:relative;
+  z-index:5;
+  max-height:590px;
+  max-width:110%;
+  width:auto;
+  object-fit:contain;
+  object-position:bottom center;
+  transform:translateY(50px) scale(1.22);
+  filter:
+    drop-shadow(0 36px 28px rgba(15,23,42,.25))
+    drop-shadow(0 9px 12px rgba(15,23,42,.16));
+  -webkit-mask-image:linear-gradient(to bottom, #000 0%, #000 78%, rgba(0,0,0,.84) 88%, transparent 100%);
+  mask-image:linear-gradient(to bottom, #000 0%, #000 78%, rgba(0,0,0,.84) 88%, transparent 100%);
+}
+
+.ptl-reference-right{
+  padding-top:50px;
+  position:relative;
+  z-index:25;
+}
+
+.ptl-reference-score-card{
+  background:rgba(255,255,255,.84);
+  border-radius:10px;
+  border:1px solid rgba(15,23,42,.07);
+  box-shadow:0 16px 30px rgba(15,23,42,.09);
+  overflow:hidden;
+}
+
+.ptl-reference-score-tabs{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  font-size:.58rem;
+  text-transform:uppercase;
+  letter-spacing:.1em;
+  color:rgba(15,23,42,.55);
+  font-weight:1000;
+  border-bottom:1px solid rgba(15,23,42,.08);
+}
+
+.ptl-reference-score-tabs div{
+  padding:12px 14px;
+}
+
+.ptl-reference-score-body{
+  padding:18px;
+}
+
+.ptl-reference-score-title{
+  font-size:.68rem;
+  text-transform:uppercase;
+  letter-spacing:.1em;
+  color:rgba(15,23,42,.55);
+  font-weight:1000;
+}
+
+.ptl-reference-score-copy{
+  margin-top:8px;
+  font-size:1.35rem;
+  line-height:1.12;
+  letter-spacing:-.05em;
+  font-weight:1000;
+  color:#111827;
+}
+
+.ptl-reference-mini-grid{
+  margin-top:18px;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:12px;
+}
+
+.ptl-reference-mini{
+  min-height:96px;
+  border-radius:10px;
+  position:relative;
+  overflow:hidden;
+  padding:12px;
+  display:flex;
+  align-items:flex-end;
+  color:white;
+  font-size:.66rem;
+  font-weight:950;
+  line-height:1.15;
+  background:
+    linear-gradient(135deg, rgba(15,23,42,.86), rgba(30,64,175,.72)),
+    radial-gradient(circle at 76% 28%, rgba(255,255,255,.18), transparent 34%);
+  box-shadow:0 15px 30px rgba(15,23,42,.16);
+}
+
+.ptl-reference-mini::before{
+  content:"▶";
+  margin-right:6px;
+  color:rgba(255,255,255,.8);
+}
+
+.ptl-reference-feature-links{
+  margin-top:22px;
+  display:grid;
+  gap:9px;
+}
+
+.ptl-reference-feature-links a{
+  text-decoration:none;
+  color:#172554;
+  background:rgba(255,255,255,.66);
+  border:1px solid rgba(15,23,42,.08);
+  border-radius:10px;
+  padding:10px 12px;
+  font-size:.78rem;
+  font-weight:1000;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.ptl-reference-feature-links a:hover{
+  background:white;
+  transform:translateY(-1px);
+}
+
+.ptl-reference-info-bottom{
+  position:absolute;
+  left:76px;
+  right:34px;
+  bottom:72px;
+  z-index:12;
+  display:grid;
+  grid-template-columns:300px 1fr 330px;
+  gap:24px;
+  pointer-events:none;
+}
+
+.ptl-reference-lines{
+  display:grid;
+  gap:13px;
+}
+
+.ptl-reference-line{
+  display:grid;
+  grid-template-columns:92px 1fr;
+  gap:12px;
+  align-items:center;
+  border-top:1px solid rgba(15,23,42,.13);
+  padding-top:9px;
+  font-size:.72rem;
+}
+
+.ptl-reference-line span:first-child{
+  color:rgba(15,23,42,.55);
+  font-weight:1000;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+}
+
+.ptl-reference-line span:last-child{
+  color:#111827;
+  font-weight:900;
+}
+
+.ptl-reference-floating-stats{
+  position:absolute;
+  left:50%;
+  bottom:44px;
+  transform:translateX(-50%);
+  z-index:30;
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+  gap:16px;
+  width:min(700px, calc(100% - 392px));
+}
+
+.ptl-reference-stat{
+  min-height:112px;
+  border-radius:10px;
+  background:linear-gradient(180deg, #2450a9, #1d3f91);
+  box-shadow:0 22px 42px rgba(30,64,175,.30);
+  color:white;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  border:1px solid rgba(255,255,255,.18);
+}
+
+.ptl-reference-stat.dark{
+  background:linear-gradient(180deg, #111827, #07111f);
+}
+
+.ptl-reference-stat-label{
+  font-size:.62rem;
+  color:rgba(255,255,255,.72);
+  text-transform:uppercase;
+  letter-spacing:.1em;
+  font-weight:1000;
+}
+
+.ptl-reference-stat-value{
+  margin-top:12px;
+  font-size:2.55rem;
+  line-height:.95;
+  letter-spacing:-.06em;
+  font-weight:1000;
+}
+
+.ptl-reference-stat-sub{
+  margin-top:7px;
+  color:#38bdf8;
+  font-size:.8rem;
+  font-weight:1000;
+}
+
+.ptl-side-feature-nav{
+  position:fixed;
+  right:18px;
+  top:96px;
+  z-index:90;
+  width:190px;
+  display:grid;
+  gap:8px;
+}
+
+.ptl-side-feature-nav a{
+  text-decoration:none;
+  color:#dbeafe;
+  background:rgba(15,23,42,.86);
+  border:1px solid rgba(148,163,184,.18);
+  border-radius:999px;
+  padding:10px 12px;
+  font-size:.76rem;
+  font-weight:950;
+  box-shadow:0 10px 24px rgba(2,6,23,.22);
+  backdrop-filter:blur(14px);
+}
+
+.ptl-side-feature-nav a:hover{
+  background:#1d4ed8;
+  color:white;
+}
+
+.ptl-home-anchor-spacer{
+  scroll-margin-top:90px;
+}
+
+@media(max-width:1180px){
+  .ptl-side-feature-nav{
+    display:none;
+  }
+}
+
+@media(max-width:1050px){
+  .ptl-reference-frame{
+    min-height:auto;
+  }
+
+  .ptl-reference-topnav{
+    gap:14px;
+  }
+
+  .ptl-reference-main{
+    grid-template-columns:1fr;
+    min-height:auto;
+    padding:86px 24px 28px 60px;
+  }
+
+  .ptl-reference-left,
+  .ptl-reference-right{
+    padding-top:0;
+  }
+
+  .ptl-reference-center{
+    min-height:390px;
+  }
+
+  .ptl-reference-lebron{
+    max-height:420px;
+    transform:translateY(32px) scale(1.08);
+  }
+
+  .ptl-reference-info-bottom{
+    position:relative;
+    left:auto;
+    right:auto;
+    bottom:auto;
+    grid-template-columns:1fr;
+    padding:0 24px 24px 60px;
+  }
+
+  .ptl-reference-floating-stats{
+    position:relative;
+    left:auto;
+    bottom:auto;
+    transform:none;
+    width:auto;
+    padding:0 24px 26px 60px;
+    grid-template-columns:repeat(3, 1fr);
+  }
+}
+
+@media(max-width:680px){
+  .ptl-reference-app{
+    width:100%;
+    margin:12px auto 24px;
+  }
+
+  .ptl-reference-frame{
+    border-radius:0;
+  }
+
+  .ptl-reference-topnav{
+    display:none;
+  }
+
+  .ptl-reference-topbar{
+    padding:0 16px;
+  }
+
+  .ptl-reference-main{
+    padding:76px 16px 22px 52px;
+  }
+
+  .ptl-reference-title{
+    font-size:3.05rem;
+  }
+
+  .ptl-reference-center{
+    min-height:310px;
+  }
+
+  .ptl-reference-number{
+    font-size:9rem;
+  }
+
+  .ptl-reference-lebron{
+    max-height:335px;
+    transform:translateY(28px) scale(1.04);
+  }
+
+  .ptl-reference-mini-grid{
+    grid-template-columns:1fr;
+  }
+
+  .ptl-reference-info-bottom{
+    padding:0 16px 18px 52px;
+  }
+
+  .ptl-reference-floating-stats{
+    padding:0 16px 20px 52px;
+    grid-template-columns:1fr;
+  }
+}
+
+/* Homepage polish: closer to the Paul George reference */
+.ptl-reference-frame{
+  --featured-team-primary:#6f263d;
+  --featured-team-secondary:#ffb81c;
+}
+
+.ptl-reference-number{
+  color:var(--featured-team-primary) !important;
+  text-shadow:0 20px 42px rgba(111,38,61,.18);
+}
+
+.ptl-reference-position{
+  color:var(--featured-team-primary) !important;
+}
+
+.ptl-reference-team-dot,
+.ptl-reference-logo-mark{
+  background:linear-gradient(180deg, var(--featured-team-primary) 0 50%, var(--featured-team-secondary) 50% 100%) !important;
+}
+
+.ptl-reference-bg-word{
+  left:50% !important;
+  top:82px !important;
+  transform:translateX(-50%);
+  color:rgba(15,23,42,.095) !important;
+  z-index:1 !important;
+}
+
+.ptl-reference-center::after{
+  content:"LeBron James";
+  position:absolute;
+  left:50%;
+  top:28px;
+  transform:translateX(-50%);
+  z-index:8;
+  color:rgba(16,24,39,.86);
+  font-size:clamp(1.4rem, 3vw, 3.2rem);
+  line-height:.9;
+  letter-spacing:-.07em;
+  font-weight:1000;
+  text-align:center;
+  white-space:nowrap;
+}
+
+.ptl-reference-lebron{
+  transform:translateY(58px) scale(1.18) !important;
+}
+
+.ptl-reference-title{
+  max-width:390px;
+}
+
+.ptl-reference-title small{
+  font-size:.52em !important;
+}
+
+/* Better sidebar spacing */
+.ptl-side-feature-nav{
+  top:110px !important;
+}
+
+.ptl-side-feature-nav a{
+  cursor:pointer;
+}

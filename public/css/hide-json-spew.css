@@ -1,0 +1,11 @@
+.raw-json,
+.debug,
+[data-debug],
+pre:has(code),
+pre {
+  max-height: 0 !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: 0 !important;
+}
