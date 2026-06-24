@@ -6220,3 +6220,129 @@ if (!globalThis.__PTL_FINAL_TRANSLATOR_VOLUME_FIX__) {
     }
   }, 700);
 }
+
+/* SAFE inject: Points Translate + Volume Translate Fraction above old translator output */
+if (!globalThis.__PTL_SAFE_VOLUME_TRANSLATE_INJECT__) {
+  globalThis.__PTL_SAFE_VOLUME_TRANSLATE_INJECT__ = true;
+
+  function svtGet(row, keys) {
+    for (const k of keys) {
+      if (row && row[k] !== undefined && row[k] !== null && row[k] !== "" && row[k] !== "—") return row[k];
+    }
+    return null;
+  }
+
+  function svtNum(row, keys) {
+    const v = svtGet(row, keys);
+    if (v === null) return null;
+    const n = Number(String(v).replace("%", ""));
+    return Number.isFinite(n) ? n : null;
+  }
+
+  function svtYear(row) {
+    if (typeof __ptlRTYear === "function") return String(__ptlRTYear(row));
+    return String(svtGet(row, ["year", "season", "SEASON", "YEAR"]) || "");
+  }
+
+  function svtGames(row) {
+    if (typeof __ptlRTGames === "function") return __ptlRTGames(row);
+    return svtNum(row, ["games", "GP", "gp"]) || 0;
+  }
+
+  function svtPTS(row) {
+    return svtNum(row, ["PTS", "pts", "points", "Points", "PPG", "ppg", "pointsPerGame"]);
+  }
+
+  function svtGamesForSeries(seriesRow) {
+    try {
+      if (typeof __ptlRTGamesForSeries === "function") {
+        const g = __ptlRTGamesForSeries(seriesRow);
+        if (Array.isArray(g)) return g;
+      }
+    } catch (e) {}
+
+    return [];
+  }
+
+  function svtInject() {
+    const out = document.getElementById("rtOutput");
+    if (!out || !state.current) return;
+
+    const old = document.getElementById("safeVolumeTranslateBlock");
+    if (old) old.remove();
+
+    const from = Number(document.getElementById("rtFrom")?.value || 2001);
+    const to = Number(document.getElementById("rtTo")?.value || 2026);
+    const ptsT = Number(document.getElementById("rtPts")?.value || 25);
+    const minGames = Number(document.getElementById("rtMinGames")?.value || 3);
+
+    const series = (state.current.series || []).filter(s => {
+      const y = Number(svtYear(s));
+      return y >= from && y <= to && svtGames(s) >= minGames;
+    });
+
+    let seriesTranslated = 0;
+    let validSeries = 0;
+    let hitGames = 0;
+    let validGames = 0;
+
+    for (const s of series) {
+      const vals = svtGamesForSeries(s)
+        .map(g => svtPTS(g))
+        .filter(v => v !== null && Number.isFinite(Number(v)))
+        .map(Number);
+
+      if (!vals.length) continue;
+
+      const hits = vals.filter(v => v >= ptsT).length;
+
+      hitGames += hits;
+      validGames += vals.length;
+      validSeries += 1;
+
+      if (hits > vals.length / 2) seriesTranslated += 1;
+    }
+
+    const volumePct = validGames ? ((hitGames / validGames) * 100).toFixed(1) : "—";
+    const seriesPct = validSeries ? ((seriesTranslated / validSeries) * 100).toFixed(1) : "—";
+
+    out.insertAdjacentHTML("afterbegin", `
+      <div id="safeVolumeTranslateBlock" style="
+        display:grid;
+        grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+        gap:12px;
+        margin:0 0 18px 0;
+      ">
+        <div style="border:1px solid rgba(148,163,184,.28);border-radius:16px;padding:16px;background:rgba(15,23,42,.35);">
+          <div style="font-size:12px;letter-spacing:.12em;color:#9fb3d9;font-weight:800;">POINTS TRANSLATE</div>
+          <div style="font-size:28px;font-weight:900;color:#fff;margin-top:6px;">${seriesTranslated}/${validSeries}</div>
+          <div style="font-size:13px;color:#9fb3d9;margin-top:6px;">${seriesPct}% of valid series had a majority of games hit PTS ≥ ${ptsT}.</div>
+        </div>
+
+        <div style="border:1px solid rgba(148,163,184,.28);border-radius:16px;padding:16px;background:rgba(15,23,42,.35);">
+          <div style="font-size:12px;letter-spacing:.12em;color:#9fb3d9;font-weight:800;">VOLUME TRANSLATE FRACTION</div>
+          <div style="font-size:28px;font-weight:900;color:#fff;margin-top:6px;">${hitGames}/${validGames}</div>
+          <div style="font-size:13px;color:#9fb3d9;margin-top:6px;">${volumePct}% of valid games hit PTS ≥ ${ptsT}.</div>
+        </div>
+      </div>
+    `);
+  }
+
+  document.addEventListener("input", function(e) {
+    if (!e.target) return;
+    if (["rtFrom", "rtTo", "rtPts", "rtEff", "rtOff", "rtDef", "rtNet", "rtCushion", "rtMinGames"].includes(e.target.id)) {
+      setTimeout(svtInject, 50);
+      setTimeout(svtInject, 300);
+    }
+  });
+
+  setInterval(function() {
+    const out = document.getElementById("rtOutput");
+    if (out && !document.getElementById("safeVolumeTranslateBlock")) {
+      svtInject();
+    }
+  }, 700);
+
+  setTimeout(svtInject, 300);
+  setTimeout(svtInject, 1000);
+}
