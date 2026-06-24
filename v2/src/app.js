@@ -670,26 +670,29 @@ function __ptlRTUpdate() {
   `;
 }
 
+
 function __ptlRTRenderTool() {
-  const years = [...new Set((state.current?.series || []).map(__ptlRTYear).filter(Boolean))]
-    .sort((a, b) => Number(a) - Number(b));
+  const series = state.current?.series || [];
+  const years = [...new Set(series.map(s => {
+    if (typeof __ptlRTYear === "function") return __ptlRTYear(s);
+    return s.year || s.season || s.SEASON;
+  }).filter(Boolean))].sort((a,b)=>Number(a)-Number(b));
 
   const minY = years[0] || "2001";
   const maxY = years[years.length - 1] || "2026";
 
-  setTimeout(() => __ptlRTUpdate(), 80);
+  setTimeout(() => globalThis.__ptlTranslatorPointsUpdate && globalThis.__ptlTranslatorPointsUpdate(), 80);
 
   return `
     <section class="panel court-section-panel">
-      <h3>Series Translation Consistency</h3>
-      <p class="note">
-        Counts translation from game-by-game impact inside each series. Majority of games hitting the threshold counts automatically.
-        Exactly half only counts when the series average is close enough to the threshold.
-      </p>
+      <h3>Series Translation Consistency — Points + Efficiency</h3>
+      <p class="note">Counts translation from game-by-game impact inside each series. Points uses PTS/PPG. Efficiency uses rAdj TS.</p>
 
       <div class="toolbar">
         <label class="note">From <input id="rtFrom" type="number" value="${minY}" style="width:90px"></label>
         <label class="note">To <input id="rtTo" type="number" value="${maxY}" style="width:90px"></label>
+        <label class="note">PTS ≥ <input id="rtPts" type="number" value="25" step="0.1" style="width:90px"></label>
+        <label class="note">rAdj TS ≥ <input id="rtEff" type="number" value="2" step="0.1" style="width:90px"></label>
         <label class="note">rORTG ≥ <input id="rtOff" type="number" value="3" step="0.1" style="width:90px"></label>
         <label class="note">rDRTG ≥ <input id="rtDef" type="number" value="5" step="0.1" style="width:90px"></label>
         <label class="note">rNET ≥ <input id="rtNet" type="number" value="4" step="0.1" style="width:90px"></label>
@@ -701,6 +704,7 @@ function __ptlRTRenderTool() {
     </section>
   `;
 }
+
 
 document.addEventListener("input", function(e) {
   if (!e.target) return;
@@ -3758,47 +3762,41 @@ if (!globalThis.__PTL_FORCE_REAL_TRANSLATOR_UI__) {
     `;
   }
 
-  function rtMountPanel() {
-    const panels = [...document.querySelectorAll("section.panel, .court-section-panel")];
-    const panel = panels.find(sec => {
-      const h = sec.querySelector("h3");
-      return h && h.textContent.trim().toLowerCase().includes("series translator");
-    });
+  
+function rtMountPanel() {
+  const series = state.current?.series || [];
+  const years = [...new Set(series.map(s => {
+    if (typeof __ptlRTYear === "function") return __ptlRTYear(s);
+    return s.year || s.season || s.SEASON;
+  }).filter(Boolean))].sort((a,b)=>Number(a)-Number(b));
 
-    if (!panel || !state.current) return;
+  const minY = years[0] || "2001";
+  const maxY = years[years.length - 1] || "2026";
 
-    const slug = state.current?.meta?.slug || state.current?.meta?.name || "";
-    if (panel.dataset.realTranslatorMounted === slug) return;
+  setTimeout(() => globalThis.__ptlTranslatorPointsUpdate && globalThis.__ptlTranslatorPointsUpdate(), 80);
 
-    const years = [...new Set((state.current.series || []).map(rtYear).filter(Boolean))]
-      .sort((a,b) => Number(a) - Number(b));
-
-    const minY = years[0] || "2001";
-    const maxY = years[years.length - 1] || "2026";
-
-    panel.dataset.realTranslatorMounted = slug;
-    panel.innerHTML = `
-      <h3>Series Translation Consistency</h3>
-      <p class="note">
-        Counts translation from game-by-game impact inside each series. Majority of games hitting the threshold counts automatically.
-        Exactly half only counts when the series average is close enough to the threshold.
-      </p>
+  return `
+    <section class="panel court-section-panel">
+      <h3>Series Translation Consistency — Points + Efficiency</h3>
+      <p class="note">Counts translation from game-by-game impact inside each series. Points uses PTS/PPG. Efficiency uses rAdj TS.</p>
 
       <div class="toolbar">
-        <label class="note">From <input id="rt2From" type="number" value="${minY}" style="width:90px"></label>
-        <label class="note">To <input id="rt2To" type="number" value="${maxY}" style="width:90px"></label>
-        <label class="note">rORTG ≥ <input id="rt2Off" type="number" value="3" step="0.1" style="width:90px"></label>
-        <label class="note">rDRTG ≥ <input id="rt2Def" type="number" value="5" step="0.1" style="width:90px"></label>
-        <label class="note">rNET ≥ <input id="rt2Net" type="number" value="4" step="0.1" style="width:90px"></label>
-        <label class="note">Cushion <input id="rt2Cushion" type="number" value="0.2" step="0.1" style="width:90px"></label>
-        <label class="note">Min Games <input id="rt2MinGames" type="number" value="3" step="1" style="width:90px"></label>
+        <label class="note">From <input id="rtFrom" type="number" value="${minY}" style="width:90px"></label>
+        <label class="note">To <input id="rtTo" type="number" value="${maxY}" style="width:90px"></label>
+        <label class="note">PTS ≥ <input id="rtPts" type="number" value="25" step="0.1" style="width:90px"></label>
+        <label class="note">rAdj TS ≥ <input id="rtEff" type="number" value="2" step="0.1" style="width:90px"></label>
+        <label class="note">rORTG ≥ <input id="rtOff" type="number" value="3" step="0.1" style="width:90px"></label>
+        <label class="note">rDRTG ≥ <input id="rtDef" type="number" value="5" step="0.1" style="width:90px"></label>
+        <label class="note">rNET ≥ <input id="rtNet" type="number" value="4" step="0.1" style="width:90px"></label>
+        <label class="note">Cushion <input id="rtCushion" type="number" value="0.2" step="0.1" style="width:90px"></label>
+        <label class="note">Min Games <input id="rtMinGames" type="number" value="3" step="1" style="width:90px"></label>
       </div>
 
-      <div id="rt2Output"></div>
-    `;
+      <div id="rtOutput"></div>
+    </section>
+  `;
+}
 
-    rtRenderOutput();
-  }
 
   document.addEventListener("input", function(e) {
     if (!e.target) return;
@@ -3987,38 +3985,41 @@ if (!globalThis.__PTL_TRANSLATOR_RADJTS__) {
   }
 
   if (typeof __ptlRTRenderTool === "function") {
-    __ptlRTRenderTool = function() {
-      const years = [...new Set((state.current?.series || []).map(__ptlRTYear).filter(Boolean))]
-        .sort((a, b) => Number(a) - Number(b));
+    
+function __ptlRTRenderTool() {
+  const series = state.current?.series || [];
+  const years = [...new Set(series.map(s => {
+    if (typeof __ptlRTYear === "function") return __ptlRTYear(s);
+    return s.year || s.season || s.SEASON;
+  }).filter(Boolean))].sort((a,b)=>Number(a)-Number(b));
 
-      const minY = years[0] || "2001";
-      const maxY = years[years.length - 1] || "2026";
+  const minY = years[0] || "2001";
+  const maxY = years[years.length - 1] || "2026";
 
-      setTimeout(() => __ptlRTUpdate(), 80);
+  setTimeout(() => globalThis.__ptlTranslatorPointsUpdate && globalThis.__ptlTranslatorPointsUpdate(), 80);
 
-      return `
-        <section class="panel court-section-panel">
-          <h3>Series Translation Consistency</h3>
-          <p class="note">
-            Counts translation from game-by-game impact inside each series.
-            Efficiency uses rAdj TS, so 2025–2026 will show blank until AdjTS is built for those seasons.
-          </p>
+  return `
+    <section class="panel court-section-panel">
+      <h3>Series Translation Consistency — Points + Efficiency</h3>
+      <p class="note">Counts translation from game-by-game impact inside each series. Points uses PTS/PPG. Efficiency uses rAdj TS.</p>
 
-          <div class="toolbar">
-            <label class="note">From <input id="rtFrom" type="number" value="${minY}" style="width:90px"></label>
-            <label class="note">To <input id="rtTo" type="number" value="${maxY}" style="width:90px"></label>
-            <label class="note">rAdj TS ≥ <input id="rtEff" type="number" value="2" step="0.1" style="width:90px"></label>
-            <label class="note">rORTG ≥ <input id="rtOff" type="number" value="3" step="0.1" style="width:90px"></label>
-            <label class="note">rDRTG ≥ <input id="rtDef" type="number" value="5" step="0.1" style="width:90px"></label>
-            <label class="note">rNET ≥ <input id="rtNet" type="number" value="4" step="0.1" style="width:90px"></label>
-            <label class="note">Cushion <input id="rtCushion" type="number" value="0.2" step="0.1" style="width:90px"></label>
-            <label class="note">Min Games <input id="rtMinGames" type="number" value="3" step="1" style="width:90px"></label>
-          </div>
+      <div class="toolbar">
+        <label class="note">From <input id="rtFrom" type="number" value="${minY}" style="width:90px"></label>
+        <label class="note">To <input id="rtTo" type="number" value="${maxY}" style="width:90px"></label>
+        <label class="note">PTS ≥ <input id="rtPts" type="number" value="25" step="0.1" style="width:90px"></label>
+        <label class="note">rAdj TS ≥ <input id="rtEff" type="number" value="2" step="0.1" style="width:90px"></label>
+        <label class="note">rORTG ≥ <input id="rtOff" type="number" value="3" step="0.1" style="width:90px"></label>
+        <label class="note">rDRTG ≥ <input id="rtDef" type="number" value="5" step="0.1" style="width:90px"></label>
+        <label class="note">rNET ≥ <input id="rtNet" type="number" value="4" step="0.1" style="width:90px"></label>
+        <label class="note">Cushion <input id="rtCushion" type="number" value="0.2" step="0.1" style="width:90px"></label>
+        <label class="note">Min Games <input id="rtMinGames" type="number" value="3" step="1" style="width:90px"></label>
+      </div>
 
-          <div id="rtOutput"></div>
-        </section>
-      `;
-    };
+      <div id="rtOutput"></div>
+    </section>
+  `;
+}
+;
   }
 
   document.addEventListener("input", function(e) {
@@ -5226,42 +5227,41 @@ if (!globalThis.__PTL_TRANSLATOR_POINTS__) {
     `;
   };
 
-  __ptlRTRenderTool = function() {
-    const years = [...new Set((state.current?.series || []).map(s => {
-      if (typeof __ptlRTYear === "function") return __ptlRTYear(s);
-      return __ptlTPGet(s, ["year", "season"]);
-    }).filter(Boolean))]
-      .sort((a, b) => Number(a) - Number(b));
+  
+function __ptlRTRenderTool() {
+  const series = state.current?.series || [];
+  const years = [...new Set(series.map(s => {
+    if (typeof __ptlRTYear === "function") return __ptlRTYear(s);
+    return s.year || s.season || s.SEASON;
+  }).filter(Boolean))].sort((a,b)=>Number(a)-Number(b));
 
-    const minY = years[0] || "2001";
-    const maxY = years[years.length - 1] || "2026";
+  const minY = years[0] || "2001";
+  const maxY = years[years.length - 1] || "2026";
 
-    setTimeout(() => __ptlRTUpdate(), 80);
+  setTimeout(() => globalThis.__ptlTranslatorPointsUpdate && globalThis.__ptlTranslatorPointsUpdate(), 80);
 
-    return `
-      <section class="panel court-section-panel">
-        <h3>Series Translation Consistency</h3>
-        <p class="note">
-          Counts translation from game-by-game impact inside each series.
-          Points uses PTS/PPG, efficiency uses rAdj TS.
-        </p>
+  return `
+    <section class="panel court-section-panel">
+      <h3>Series Translation Consistency — Points + Efficiency</h3>
+      <p class="note">Counts translation from game-by-game impact inside each series. Points uses PTS/PPG. Efficiency uses rAdj TS.</p>
 
-        <div class="toolbar">
-          <label class="note">From <input id="rtFrom" type="number" value="${minY}" style="width:90px"></label>
-          <label class="note">To <input id="rtTo" type="number" value="${maxY}" style="width:90px"></label>
-          <label class="note">PTS ≥ <input id="rtPts" type="number" value="25" step="0.1" style="width:90px"></label>
-          <label class="note">rAdj TS ≥ <input id="rtEff" type="number" value="2" step="0.1" style="width:90px"></label>
-          <label class="note">rORTG ≥ <input id="rtOff" type="number" value="3" step="0.1" style="width:90px"></label>
-          <label class="note">rDRTG ≥ <input id="rtDef" type="number" value="5" step="0.1" style="width:90px"></label>
-          <label class="note">rNET ≥ <input id="rtNet" type="number" value="4" step="0.1" style="width:90px"></label>
-          <label class="note">Cushion <input id="rtCushion" type="number" value="0.2" step="0.1" style="width:90px"></label>
-          <label class="note">Min Games <input id="rtMinGames" type="number" value="3" step="1" style="width:90px"></label>
-        </div>
+      <div class="toolbar">
+        <label class="note">From <input id="rtFrom" type="number" value="${minY}" style="width:90px"></label>
+        <label class="note">To <input id="rtTo" type="number" value="${maxY}" style="width:90px"></label>
+        <label class="note">PTS ≥ <input id="rtPts" type="number" value="25" step="0.1" style="width:90px"></label>
+        <label class="note">rAdj TS ≥ <input id="rtEff" type="number" value="2" step="0.1" style="width:90px"></label>
+        <label class="note">rORTG ≥ <input id="rtOff" type="number" value="3" step="0.1" style="width:90px"></label>
+        <label class="note">rDRTG ≥ <input id="rtDef" type="number" value="5" step="0.1" style="width:90px"></label>
+        <label class="note">rNET ≥ <input id="rtNet" type="number" value="4" step="0.1" style="width:90px"></label>
+        <label class="note">Cushion <input id="rtCushion" type="number" value="0.2" step="0.1" style="width:90px"></label>
+        <label class="note">Min Games <input id="rtMinGames" type="number" value="3" step="1" style="width:90px"></label>
+      </div>
 
-        <div id="rtOutput"></div>
-      </section>
-    `;
-  };
+      <div id="rtOutput"></div>
+    </section>
+  `;
+}
+;
 
   renderTranslator = function() {
     return __ptlRTRenderTool();
@@ -5509,39 +5509,41 @@ if (!globalThis.__PTL_FORCE_TRANSLATOR_POINTS_UI__) {
     `;
   }
 
-  function tpRender() {
-    const years = [...new Set((state.current?.series || []).map(tpYear).filter(Boolean))]
-      .sort((a, b) => Number(a) - Number(b));
+  
+function tpRender() {
+  const series = state.current?.series || [];
+  const years = [...new Set(series.map(s => {
+    if (typeof __ptlRTYear === "function") return __ptlRTYear(s);
+    return s.year || s.season || s.SEASON;
+  }).filter(Boolean))].sort((a,b)=>Number(a)-Number(b));
 
-    const minY = years[0] || "2001";
-    const maxY = years[years.length - 1] || "2026";
+  const minY = years[0] || "2001";
+  const maxY = years[years.length - 1] || "2026";
 
-    setTimeout(tpUpdate, 80);
+  setTimeout(() => globalThis.__ptlTranslatorPointsUpdate && globalThis.__ptlTranslatorPointsUpdate(), 80);
 
-    return `
-      <section class="panel court-section-panel">
-        <h3>Series Translation Consistency — Points + Efficiency</h3>
-        <p class="note">
-          Counts translation from game-by-game impact inside each series.
-          Points uses PTS/PPG, efficiency uses rAdj TS.
-        </p>
+  return `
+    <section class="panel court-section-panel">
+      <h3>Series Translation Consistency — Points + Efficiency</h3>
+      <p class="note">Counts translation from game-by-game impact inside each series. Points uses PTS/PPG. Efficiency uses rAdj TS.</p>
 
-        <div class="toolbar">
-          <label class="note">From <input id="rtFrom" type="number" value="${minY}" style="width:90px"></label>
-          <label class="note">To <input id="rtTo" type="number" value="${maxY}" style="width:90px"></label>
-          <label class="note">PTS ≥ <input id="rtPts" type="number" value="25" step="0.1" style="width:90px"></label>
-          <label class="note">rAdj TS ≥ <input id="rtEff" type="number" value="2" step="0.1" style="width:90px"></label>
-          <label class="note">rORTG ≥ <input id="rtOff" type="number" value="3" step="0.1" style="width:90px"></label>
-          <label class="note">rDRTG ≥ <input id="rtDef" type="number" value="5" step="0.1" style="width:90px"></label>
-          <label class="note">rNET ≥ <input id="rtNet" type="number" value="4" step="0.1" style="width:90px"></label>
-          <label class="note">Cushion <input id="rtCushion" type="number" value="0.2" step="0.1" style="width:90px"></label>
-          <label class="note">Min Games <input id="rtMinGames" type="number" value="3" step="1" style="width:90px"></label>
-        </div>
+      <div class="toolbar">
+        <label class="note">From <input id="rtFrom" type="number" value="${minY}" style="width:90px"></label>
+        <label class="note">To <input id="rtTo" type="number" value="${maxY}" style="width:90px"></label>
+        <label class="note">PTS ≥ <input id="rtPts" type="number" value="25" step="0.1" style="width:90px"></label>
+        <label class="note">rAdj TS ≥ <input id="rtEff" type="number" value="2" step="0.1" style="width:90px"></label>
+        <label class="note">rORTG ≥ <input id="rtOff" type="number" value="3" step="0.1" style="width:90px"></label>
+        <label class="note">rDRTG ≥ <input id="rtDef" type="number" value="5" step="0.1" style="width:90px"></label>
+        <label class="note">rNET ≥ <input id="rtNet" type="number" value="4" step="0.1" style="width:90px"></label>
+        <label class="note">Cushion <input id="rtCushion" type="number" value="0.2" step="0.1" style="width:90px"></label>
+        <label class="note">Min Games <input id="rtMinGames" type="number" value="3" step="1" style="width:90px"></label>
+      </div>
 
-        <div id="rtOutput"></div>
-      </section>
-    `;
-  }
+      <div id="rtOutput"></div>
+    </section>
+  `;
+}
+
 
   renderTranslator = function() {
     return tpRender();
@@ -5567,4 +5569,207 @@ if (!globalThis.__PTL_FORCE_TRANSLATOR_POINTS_UI__) {
       setTimeout(tpUpdate, 80);
     }
   }, 600);
+}
+
+
+/* Hard translator points update logic */
+globalThis.__ptlTranslatorPointsUpdate = function() {
+  const out = document.getElementById("rtOutput");
+  if (!out || !state.current) return;
+
+  const get = (row, keys) => {
+    for (const k of keys) {
+      if (row && row[k] !== undefined && row[k] !== null && row[k] !== "" && row[k] !== "—") return row[k];
+    }
+    return null;
+  };
+
+  const num = (row, keys) => {
+    const v = get(row, keys);
+    if (v === null) return null;
+    const n = Number(String(v).replace("%", ""));
+    return Number.isFinite(n) ? n : null;
+  };
+
+  const year = row => typeof __ptlRTYear === "function" ? __ptlRTYear(row) : get(row, ["year", "season", "SEASON"]);
+  const round = row => typeof __ptlRTRound === "function" ? __ptlRTRound(row) : get(row, ["round", "ROUND"]) || "—";
+  const opp = row => typeof __ptlRTOpp === "function" ? __ptlRTOpp(row) : get(row, ["opponent", "opp", "OPP"]) || "—";
+  const gp = row => typeof __ptlRTGames === "function" ? __ptlRTGames(row) : num(row, ["games", "GP", "gp"]) || 0;
+  const gamesFor = row => typeof __ptlRTGamesForSeries === "function" ? __ptlRTGamesForSeries(row) : [];
+
+  const metric = (row, key) => {
+    if (key === "PTS") return num(row, ["PTS", "pts", "points", "Points", "PPG", "ppg", "pointsPerGame"]);
+    if (typeof __ptlRTMetric === "function") return __ptlRTMetric(row, key);
+    if (key === "rAdjTS") return num(row, ["rAdjTS", "RAdjTS", "RADJTS", "RADJ_TS"]);
+    if (key === "rORTG") return num(row, ["rORTG", "RORTG"]);
+    if (key === "rDRTG") return num(row, ["rDRTG", "RDRTG"]);
+    if (key === "rNET") return num(row, ["rNET", "RNET"]);
+    return num(row, [key]);
+  };
+
+  const avg = vals => {
+    const clean = vals.filter(v => v !== null && v !== undefined && Number.isFinite(Number(v))).map(Number);
+    return clean.length ? clean.reduce((a,b)=>a+b,0) / clean.length : null;
+  };
+
+  const translated = (vals, seriesVal, threshold, cushion) => {
+    const clean = vals.filter(v => v !== null && v !== undefined && Number.isFinite(Number(v))).map(Number);
+    if (!clean.length) return false;
+    const hits = clean.filter(v => v >= threshold).length;
+    const needed = clean.length / 2;
+    if (hits > needed) return true;
+    if (hits === needed && seriesVal !== null && seriesVal !== undefined) return Number(seriesVal) >= threshold - cushion;
+    return false;
+  };
+
+  const fmt = (v, plus=false) => {
+    if (v === null || v === undefined || v === "" || v === "—") return "—";
+    const n = Number(v);
+    if (!Number.isFinite(n)) return String(v);
+    const out = Math.abs(n) >= 100 ? n.toFixed(0) : n.toFixed(1);
+    return plus && n > 0 ? `+${out}` : out;
+  };
+
+  const from = Number(document.getElementById("rtFrom")?.value || 2001);
+  const to = Number(document.getElementById("rtTo")?.value || 2026);
+  const ptsT = Number(document.getElementById("rtPts")?.value || 25);
+  const effT = Number(document.getElementById("rtEff")?.value || 2);
+  const offT = Number(document.getElementById("rtOff")?.value || 3);
+  const defT = Number(document.getElementById("rtDef")?.value || 5);
+  const netT = Number(document.getElementById("rtNet")?.value || 4);
+  const cushion = Number(document.getElementById("rtCushion")?.value || 0.2);
+  const minGames = Number(document.getElementById("rtMinGames")?.value || 3);
+
+  const rows = (state.current?.series || [])
+    .filter(s => Number(year(s)) >= from && Number(year(s)) <= to && gp(s) >= minGames)
+    .map(s => {
+      const games = gamesFor(s);
+
+      const gPts = games.map(g => metric(g, "PTS"));
+      const gEff = games.map(g => metric(g, "rAdjTS"));
+      const gOff = games.map(g => metric(g, "rORTG"));
+      const gDef = games.map(g => metric(g, "rDRTG"));
+      const gNet = games.map(g => metric(g, "rNET"));
+
+      const sPts = metric(s, "PTS") ?? avg(gPts);
+      const sEff = metric(s, "rAdjTS") ?? avg(gEff);
+      const sOff = metric(s, "rORTG") ?? avg(gOff);
+      const sDef = metric(s, "rDRTG") ?? avg(gDef);
+      const sNet = metric(s, "rNET") ?? avg(gNet);
+
+      const pts = translated(gPts, sPts, ptsT, cushion);
+      const eff = translated(gEff, sEff, effT, cushion);
+      const off = translated(gOff, sOff, offT, cushion);
+      const def = translated(gDef, sDef, defT, cushion);
+      const net = translated(gNet, sNet, netT, cushion);
+
+      return {
+        year: year(s),
+        round: round(s),
+        opp: opp(s),
+        games: gp(s),
+
+        ptsVal: sPts,
+        rAdjTS: sEff,
+        rORTG: sOff,
+        rDRTG: sDef,
+        rNET: sNet,
+
+        ptsHits: gPts.filter(v => v !== null && v >= ptsT).length + "/" + gPts.filter(v => v !== null).length,
+        effHits: gEff.filter(v => v !== null && v >= effT).length + "/" + gEff.filter(v => v !== null).length,
+        offHits: gOff.filter(v => v !== null && v >= offT).length + "/" + gOff.filter(v => v !== null).length,
+        defHits: gDef.filter(v => v !== null && v >= defT).length + "/" + gDef.filter(v => v !== null).length,
+        netHits: gNet.filter(v => v !== null && v >= netT).length + "/" + gNet.filter(v => v !== null).length,
+
+        pts,
+        eff,
+        off,
+        def,
+        net,
+        all5: pts && eff && off && def && net,
+      };
+    });
+
+  const card = (title, value, sub) => `
+    <div class="stat-card">
+      <div class="k">${title}</div>
+      <div class="v">${value}</div>
+      <div class="s">${sub}</div>
+    </div>
+  `;
+
+  const total = rows.length;
+
+  const tableRows = rows.map(r => ({
+    year: r.year,
+    round: r.round,
+    opp: r.opp,
+    games: r.games,
+    ptsVal: fmt(r.ptsVal),
+    rAdjTS: fmt(r.rAdjTS, true),
+    rORTG: fmt(r.rORTG, true),
+    rDRTG: fmt(r.rDRTG, true),
+    rNET: fmt(r.rNET, true),
+    ptsHits: r.ptsHits,
+    effHits: r.effHits,
+    offHits: r.offHits,
+    defHits: r.defHits,
+    netHits: r.netHits,
+    pts: r.pts ? "YES" : "NO",
+    eff: r.eff ? "YES" : "NO",
+    off: r.off ? "YES" : "NO",
+    def: r.def ? "YES" : "NO",
+    net: r.net ? "YES" : "NO",
+    all5: r.all5 ? "YES" : "NO",
+  }));
+
+  out.innerHTML = `
+    <div class="stat-grid">
+      ${card("POINTS TRANSLATE", `${rows.filter(r => r.pts).length}/${total}`, `${from}–${to}: PTS/PPG ≥ ${ptsT}`)}
+      ${card("EFFICIENCY TRANSLATES", `${rows.filter(r => r.eff).length}/${total}`, `rAdj TS ≥ +${effT}`)}
+      ${card("OFFENSE TRANSLATES", `${rows.filter(r => r.off).length}/${total}`, `rORTG ≥ +${offT}`)}
+      ${card("DEFENSE TRANSLATES", `${rows.filter(r => r.def).length}/${total}`, `rDRTG ≥ +${defT}`)}
+      ${card("NET TRANSLATES", `${rows.filter(r => r.net).length}/${total}`, `rNET ≥ +${netT}`)}
+      ${card("ALL 5", `${rows.filter(r => r.all5).length}/${total}`, `Points + efficiency + offense + defense + net`)}
+    </div>
+
+    <div style="height:14px"></div>
+
+    <h3>Series Breakdown</h3>
+    ${richTable(tableRows, [
+      ["year", "Year"],
+      ["round", "Round"],
+      ["opp", "Opp"],
+      ["games", "Games"],
+      ["ptsVal", "PTS"],
+      ["rAdjTS", "rAdj TS"],
+      ["rORTG", "rORTG"],
+      ["rDRTG", "rDRTG"],
+      ["rNET", "rNET"],
+      ["ptsHits", "Pts Games"],
+      ["effHits", "Eff Games"],
+      ["offHits", "Off Games"],
+      ["defHits", "Def Games"],
+      ["netHits", "Net Games"],
+      ["pts", "Pts"],
+      ["eff", "Eff"],
+      ["off", "Off"],
+      ["def", "Def"],
+      ["net", "Net"],
+      ["all5", "All 5"],
+    ])}
+  `;
+};
+
+document.addEventListener("input", function(e) {
+  if (!e.target) return;
+  if (["rtFrom", "rtTo", "rtPts", "rtEff", "rtOff", "rtDef", "rtNet", "rtCushion", "rtMinGames"].includes(e.target.id)) {
+    globalThis.__ptlTranslatorPointsUpdate();
+  }
+});
+
+if (typeof __ptlRTRenderTool === "function") {
+  renderTranslator = function() {
+    return __ptlRTRenderTool();
+  };
 }
