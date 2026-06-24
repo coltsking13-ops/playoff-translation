@@ -4480,3 +4480,266 @@ if (!globalThis.__PTL_GAMELOG_ON4F__) {
     }
   });
 }
+
+/* Final Game Log layout: four factors as summary, not repeated per game row */
+if (!globalThis.__PTL_CLEAN_ON4F_GAMELOG__) {
+  globalThis.__PTL_CLEAN_ON4F_GAMELOG__ = true;
+
+  function ptlGet(row, keys) {
+    for (const k of keys) {
+      if (row && row[k] !== undefined && row[k] !== null && row[k] !== "" && row[k] !== "—") return row[k];
+    }
+    return null;
+  }
+
+  function ptlNum(row, keys) {
+    const v = ptlGet(row, keys);
+    if (v === null) return null;
+    const n = Number(String(v).replace("%", ""));
+    return Number.isFinite(n) ? n : null;
+  }
+
+  function ptlYear(row) {
+    const y = ptlGet(row, ["year", "season", "SEASON", "YEAR"]);
+    if (typeof y === "string" && y.includes("-")) {
+      const n = Number(y.slice(0, 4));
+      return Number.isFinite(n) ? String(n + 1) : String(y);
+    }
+    return y === null ? "" : String(y);
+  }
+
+  function ptlTeam(row) {
+    return String(ptlGet(row, ["team", "TEAM", "teamAbbr", "TEAM_ABBREVIATION"]) || "");
+  }
+
+  function ptlOpp(row) {
+    return ptlGet(row, ["opponent", "opp", "OPP", "Opponent", "OPPONENT"]) || "—";
+  }
+
+  function ptlDate(row) {
+    return ptlGet(row, ["date", "gameDate", "GAME_DATE", "matchupDate"]) || "—";
+  }
+
+  function ptlFmt(v, plus = false) {
+    if (v === null || v === undefined || v === "" || v === "—") return "—";
+    const n = Number(v);
+    if (!Number.isFinite(n)) return String(v);
+    const out = Math.abs(n) >= 100 ? n.toFixed(0) : n.toFixed(1);
+    return plus && n > 0 ? `+${out}` : out;
+  }
+
+  function ptlDelta(on, off, lowerIsBetter = false) {
+    if (on === null || off === null || on === undefined || off === undefined) return "—";
+    let n = Number(on) - Number(off);
+    if (!Number.isFinite(n)) return "—";
+
+    // For opponent eFG/ORB/FTr, lower ON is better.
+    // For opponent TOV%, higher ON is better, so don't flip that.
+    if (lowerIsBetter) n = -n;
+
+    return n > 0 ? `+${n.toFixed(1)}` : n.toFixed(1);
+  }
+
+  function ptlFourFactorsForYearTeam(year, team) {
+    const meta = state.current?.meta || {};
+    const byTeam = meta.onCourtFourFactorsByTeam?.[year] || {};
+    if (team && byTeam[team]) return byTeam[team];
+    return meta.onCourtFourFactors?.[year] || null;
+  }
+
+  function ptlFourFactorSummaryHTML(yearFilter) {
+    const games = Array.isArray(state.current?.games) ? state.current.games : [];
+    const rows = games.filter(g => yearFilter === "ALL" || ptlYear(g) === yearFilter);
+
+    const yearTeams = [];
+    const seen = new Set();
+
+    for (const g of rows) {
+      const y = ptlYear(g);
+      const t = ptlTeam(g);
+      const key = `${y}|${t}`;
+      if (!y || !t || seen.has(key)) continue;
+      seen.add(key);
+      yearTeams.push({ year: y, team: t });
+    }
+
+    const cards = [];
+
+    for (const yt of yearTeams) {
+      const ff = ptlFourFactorsForYearTeam(yt.year, yt.team);
+      if (!ff) continue;
+
+      cards.push(`
+        <section class="panel" style="margin-bottom:14px;">
+          <div class="section-head">
+            <div>
+              <h3>${yt.year} ${yt.team} ON/OFF Four Factors</h3>
+              <p class="note">Season-level team/opponent performance while this player is ON vs OFF the floor.</p>
+            </div>
+          </div>
+
+          <div class="stat-grid">
+            <div class="stat-card">
+              <div class="k">TEAM eFG</div>
+              <div class="v">${ptlFmt(ff.onTeamEFG)}%</div>
+              <div class="s">OFF ${ptlFmt(ff.onTeamEFGOff)}% · Δ ${ptlDelta(ff.onTeamEFG, ff.onTeamEFGOff)}</div>
+            </div>
+
+            <div class="stat-card">
+              <div class="k">TEAM ORB%</div>
+              <div class="v">${ptlFmt(ff.onTeamOREBPct)}%</div>
+              <div class="s">OFF ${ptlFmt(ff.onTeamOREBPctOff)}% · Δ ${ptlDelta(ff.onTeamOREBPct, ff.onTeamOREBPctOff)}</div>
+            </div>
+
+            <div class="stat-card">
+              <div class="k">TEAM FTr</div>
+              <div class="v">${ptlFmt(ff.onTeamFTr)}</div>
+              <div class="s">OFF ${ptlFmt(ff.onTeamFTrOff)} · Δ ${ptlDelta(ff.onTeamFTr, ff.onTeamFTrOff)}</div>
+            </div>
+
+            <div class="stat-card">
+              <div class="k">TEAM TOV%</div>
+              <div class="v">${ptlFmt(ff.onTeamTOVPct)}%</div>
+              <div class="s">OFF ${ptlFmt(ff.onTeamTOVPctOff)}% · Δ ${ptlDelta(ff.onTeamTOVPct, ff.onTeamTOVPctOff, true)}</div>
+            </div>
+
+            <div class="stat-card">
+              <div class="k">OPP eFG</div>
+              <div class="v">${ptlFmt(ff.onOppEFG)}%</div>
+              <div class="s">OFF ${ptlFmt(ff.onOppEFGOff)}% · Impact ${ptlDelta(ff.onOppEFG, ff.onOppEFGOff, true)}</div>
+            </div>
+
+            <div class="stat-card">
+              <div class="k">OPP ORB%</div>
+              <div class="v">${ptlFmt(ff.onOppOREBPct)}%</div>
+              <div class="s">OFF ${ptlFmt(ff.onOppOREBPctOff)}% · Impact ${ptlDelta(ff.onOppOREBPct, ff.onOppOREBPctOff, true)}</div>
+            </div>
+
+            <div class="stat-card">
+              <div class="k">OPP FTr</div>
+              <div class="v">${ptlFmt(ff.onOppFTr)}</div>
+              <div class="s">OFF ${ptlFmt(ff.onOppFTrOff)} · Impact ${ptlDelta(ff.onOppFTr, ff.onOppFTrOff, true)}</div>
+            </div>
+
+            <div class="stat-card">
+              <div class="k">OPP TOV%</div>
+              <div class="v">${ptlFmt(ff.onOppTOVPct)}%</div>
+              <div class="s">OFF ${ptlFmt(ff.onOppTOVPctOff)}% · Impact ${ptlDelta(ff.onOppTOVPct, ff.onOppTOVPctOff)}</div>
+            </div>
+          </div>
+
+          <p class="note" style="margin-top:10px;">ON minutes: ${ptlFmt(ff.onMinutes)} · OFF minutes: ${ptlFmt(ff.offMinutes)}</p>
+        </section>
+      `);
+    }
+
+    return cards.join("");
+  }
+
+  function ptlGameLogRows() {
+    const games = Array.isArray(state.current?.games) ? state.current.games : [];
+    const yearFilter = document.getElementById("gameLogYear")?.value || "ALL";
+
+    return games
+      .filter(g => yearFilter === "ALL" || ptlYear(g) === yearFilter)
+      .map(g => ({
+        year: ptlYear(g),
+        date: ptlDate(g),
+        team: ptlTeam(g) || "—",
+        opp: ptlOpp(g),
+
+        pts: ptlFmt(ptlNum(g, ["PTS", "pts", "points"])),
+        pp75: ptlFmt(ptlNum(g, ["PP75", "pp75", "PTS_75", "pointsPer75"])),
+        rAdjTS: ptlFmt(ptlNum(g, ["rAdjTS", "RAdjTS", "RADJTS", "RADJ_TS"]), true),
+        rTS: ptlFmt(ptlNum(g, ["rTS", "RTS", "r_ts"]), true),
+        rORTG: ptlFmt(ptlNum(g, ["rORTG", "RORTG", "r_off_rating"]), true),
+        rDRTG: ptlFmt(ptlNum(g, ["rDRTG", "RDRTG", "r_def_rating"]), true),
+        rNET: ptlFmt(ptlNum(g, ["rNET", "RNET", "r_net_rating"]), true),
+        min: ptlFmt(ptlNum(g, ["MIN", "min", "minutes"])),
+
+        reb: ptlFmt(ptlNum(g, ["REB", "reb", "TRB", "trb"])),
+        ast: ptlFmt(ptlNum(g, ["AST", "ast"])),
+        tov: ptlFmt(ptlNum(g, ["TOV", "tov", "TO"])),
+        ts: ptlFmt(ptlNum(g, ["TS%", "TS", "ts", "tsPct"])),
+        adjts: ptlFmt(ptlNum(g, ["AdjTS%", "AdjTS", "adjTS"])),
+        ortg: ptlFmt(ptlNum(g, ["ORTG", "ortg", "offRating"])),
+        drtg: ptlFmt(ptlNum(g, ["DRTG", "drtg", "defRating"])),
+      }));
+  }
+
+  renderGames = function() {
+    const games = Array.isArray(state.current?.games) ? state.current.games : [];
+    const years = [...new Set(games.map(ptlYear).filter(Boolean))]
+      .sort((a, b) => Number(b) - Number(a));
+
+    setTimeout(() => updateGamesTable(), 80);
+
+    return `
+      <section class="panel court-section-panel">
+        <div class="section-head">
+          <div>
+            <h3>Game Logs</h3>
+            <p class="note">
+              Game rows stay game-specific. ON/OFF four factors are shown separately above the table because they are season-level.
+            </p>
+          </div>
+        </div>
+
+        <div class="toolbar">
+          <label class="note">
+            Year
+            <select id="gameLogYear">
+              <option value="ALL">All</option>
+              ${years.map(y => `<option value="${y}">${y}</option>`).join("")}
+            </select>
+          </label>
+        </div>
+
+        <div id="gameFourFactorSummary"></div>
+        <div id="gamesTable"></div>
+      </section>
+    `;
+  };
+
+  updateGamesTable = function() {
+    const tableBox = document.getElementById("gamesTable");
+    const summaryBox = document.getElementById("gameFourFactorSummary");
+    if (!tableBox) return;
+
+    const yearFilter = document.getElementById("gameLogYear")?.value || "ALL";
+
+    if (summaryBox) {
+      summaryBox.innerHTML = ptlFourFactorSummaryHTML(yearFilter);
+    }
+
+    const rows = ptlGameLogRows();
+
+    tableBox.innerHTML = richTable(rows, [
+      ["year", "Year"],
+      ["date", "Date"],
+      ["team", "Team"],
+      ["opp", "Opp"],
+      ["pts", "PTS"],
+      ["pp75", "PP/75"],
+      ["rAdjTS", "rAdj TS"],
+      ["rTS", "rTS"],
+      ["rORTG", "rORTG"],
+      ["rDRTG", "rDRTG"],
+      ["rNET", "rNET"],
+      ["min", "MIN"],
+      ["reb", "REB"],
+      ["ast", "AST"],
+      ["tov", "TOV"],
+      ["ts", "TS%"],
+      ["adjts", "Adj TS%"],
+      ["ortg", "ORTG"],
+      ["drtg", "DRTG"],
+    ]);
+  };
+
+  document.addEventListener("change", function(e) {
+    if (e.target && e.target.id === "gameLogYear") {
+      updateGamesTable();
+    }
+  });
+}
