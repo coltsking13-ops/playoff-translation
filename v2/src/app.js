@@ -5773,3 +5773,121 @@ if (typeof __ptlRTRenderTool === "function") {
     return __ptlRTRenderTool();
   };
 }
+
+/* Translator upgrade: visible Volume Translate Fraction for PTS threshold */
+if (!globalThis.__PTL_TRANSLATOR_VOLUME_FRACTION__) {
+  globalThis.__PTL_TRANSLATOR_VOLUME_FRACTION__ = true;
+
+  function vfGet(row, keys) {
+    for (const k of keys) {
+      if (row && row[k] !== undefined && row[k] !== null && row[k] !== "" && row[k] !== "—") return row[k];
+    }
+    return null;
+  }
+
+  function vfNum(row, keys) {
+    const v = vfGet(row, keys);
+    if (v === null) return null;
+    const n = Number(String(v).replace("%", ""));
+    return Number.isFinite(n) ? n : null;
+  }
+
+  function vfYear(row) {
+    if (typeof __ptlRTYear === "function") return __ptlRTYear(row);
+    return vfGet(row, ["year", "season", "SEASON", "YEAR"]);
+  }
+
+  function vfGP(row) {
+    if (typeof __ptlRTGames === "function") return __ptlRTGames(row);
+    return vfNum(row, ["games", "GP", "gp"]) || 0;
+  }
+
+  function vfGamesForSeries(row) {
+    if (typeof __ptlRTGamesForSeries === "function") return __ptlRTGamesForSeries(row);
+    return [];
+  }
+
+  function vfPTS(row) {
+    return vfNum(row, ["PTS", "pts", "points", "Points", "PPG", "ppg", "pointsPerGame"]);
+  }
+
+  function vfAddVolumeCard() {
+    const out = document.getElementById("rtOutput");
+    if (!out || !state.current) return;
+
+    const old = document.getElementById("volumeTranslateFractionCard");
+    if (old) old.remove();
+
+    const from = Number(document.getElementById("rtFrom")?.value || 2001);
+    const to = Number(document.getElementById("rtTo")?.value || 2026);
+    const ptsT = Number(document.getElementById("rtPts")?.value || 25);
+    const minGames = Number(document.getElementById("rtMinGames")?.value || 3);
+
+    const series = (state.current.series || []).filter(s => {
+      const y = Number(vfYear(s));
+      const gp = vfGP(s);
+      return y >= from && y <= to && gp >= minGames;
+    });
+
+    let hitGames = 0;
+    let validGames = 0;
+    let translatedSeries = 0;
+    let validSeries = 0;
+
+    for (const s of series) {
+      const games = vfGamesForSeries(s);
+      const vals = games.map(vfPTS).filter(v => v !== null && Number.isFinite(Number(v))).map(Number);
+
+      if (!vals.length) continue;
+
+      const hits = vals.filter(v => v >= ptsT).length;
+      hitGames += hits;
+      validGames += vals.length;
+      validSeries += 1;
+
+      if (hits > vals.length / 2) translatedSeries += 1;
+    }
+
+    const pct = validGames ? ((hitGames / validGames) * 100).toFixed(1) : "—";
+    const seriesPct = validSeries ? ((translatedSeries / validSeries) * 100).toFixed(1) : "—";
+
+    const grid = out.querySelector(".stat-grid");
+    if (!grid) return;
+
+    grid.insertAdjacentHTML("beforeend", `
+      <div class="stat-card" id="volumeTranslateFractionCard">
+        <div class="k">VOLUME TRANSLATE FRACTION</div>
+        <div class="v">${hitGames}/${validGames}</div>
+        <div class="s">${pct}% of games hit PTS ≥ ${ptsT}. Series majority: ${translatedSeries}/${validSeries} (${seriesPct}%).</div>
+      </div>
+    `);
+
+    // Rename table header so it is clear this is volume.
+    [...out.querySelectorAll("th")].forEach(th => {
+      if ((th.textContent || "").trim() === "Pts Games") {
+        th.textContent = "Vol Frac";
+      }
+    });
+  }
+
+  const oldUpdate = globalThis.__ptlTranslatorPointsUpdate;
+
+  globalThis.__ptlTranslatorPointsUpdate = function() {
+    if (typeof oldUpdate === "function") oldUpdate();
+    vfAddVolumeCard();
+  };
+
+  document.addEventListener("input", function(e) {
+    if (!e.target) return;
+    if (["rtFrom", "rtTo", "rtPts", "rtEff", "rtOff", "rtDef", "rtNet", "rtCushion", "rtMinGames"].includes(e.target.id)) {
+      setTimeout(vfAddVolumeCard, 50);
+    }
+  });
+
+  setInterval(function() {
+    const out = document.getElementById("rtOutput");
+    if (out && out.querySelector(".stat-grid") && !document.getElementById("volumeTranslateFractionCard")) {
+      vfAddVolumeCard();
+    }
+  }, 700);
+}
