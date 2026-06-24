@@ -5274,3 +5274,297 @@ if (!globalThis.__PTL_TRANSLATOR_POINTS__) {
     }
   });
 }
+
+/* FORCE visible Points selection in Series Translator */
+if (!globalThis.__PTL_FORCE_TRANSLATOR_POINTS_UI__) {
+  globalThis.__PTL_FORCE_TRANSLATOR_POINTS_UI__ = true;
+
+  function tpGet(row, keys) {
+    for (const k of keys) {
+      if (row && row[k] !== undefined && row[k] !== null && row[k] !== "" && row[k] !== "—") return row[k];
+    }
+    return null;
+  }
+
+  function tpNum(row, keys) {
+    const v = tpGet(row, keys);
+    if (v === null) return null;
+    const n = Number(String(v).replace("%", ""));
+    return Number.isFinite(n) ? n : null;
+  }
+
+  function tpYear(row) {
+    if (typeof __ptlRTYear === "function") return __ptlRTYear(row);
+    return tpGet(row, ["year", "season", "SEASON", "YEAR"]);
+  }
+
+  function tpRound(row) {
+    if (typeof __ptlRTRound === "function") return __ptlRTRound(row);
+    return tpGet(row, ["round", "ROUND"]) || "—";
+  }
+
+  function tpOpp(row) {
+    if (typeof __ptlRTOpp === "function") return __ptlRTOpp(row);
+    return tpGet(row, ["opponent", "opp", "OPP", "Opponent"]) || "—";
+  }
+
+  function tpGP(row) {
+    if (typeof __ptlRTGames === "function") return __ptlRTGames(row);
+    return tpNum(row, ["games", "GP", "gp"]) || 0;
+  }
+
+  function tpGamesForSeries(seriesRow) {
+    if (typeof __ptlRTGamesForSeries === "function") return __ptlRTGamesForSeries(seriesRow);
+    return [];
+  }
+
+  function tpMetric(row, key) {
+    if (key === "PTS") {
+      return tpNum(row, ["PTS", "pts", "points", "Points", "PPG", "ppg", "pointsPerGame"]);
+    }
+
+    if (typeof __ptlRTMetric === "function") return __ptlRTMetric(row, key);
+
+    if (key === "rAdjTS") return tpNum(row, ["rAdjTS", "RAdjTS", "RADJTS", "RADJ_TS"]);
+    if (key === "rORTG") return tpNum(row, ["rORTG", "RORTG"]);
+    if (key === "rDRTG") return tpNum(row, ["rDRTG", "RDRTG"]);
+    if (key === "rNET") return tpNum(row, ["rNET", "RNET"]);
+    return tpNum(row, [key]);
+  }
+
+  function tpAvg(vals) {
+    const clean = vals.filter(v => v !== null && v !== undefined && Number.isFinite(Number(v))).map(Number);
+    if (!clean.length) return null;
+    return clean.reduce((a, b) => a + b, 0) / clean.length;
+  }
+
+  function tpTranslated(vals, seriesVal, threshold, cushion) {
+    const clean = vals.filter(v => v !== null && v !== undefined && Number.isFinite(Number(v))).map(Number);
+    if (!clean.length) return false;
+
+    const hits = clean.filter(v => v >= threshold).length;
+    const needed = clean.length / 2;
+
+    if (hits > needed) return true;
+    if (hits === needed && seriesVal !== null && seriesVal !== undefined) {
+      return Number(seriesVal) >= threshold - cushion;
+    }
+
+    return false;
+  }
+
+  function tpFmt(v, plus = false) {
+    if (v === null || v === undefined || v === "" || v === "—") return "—";
+    const n = Number(v);
+    if (!Number.isFinite(n)) return String(v);
+    const out = Math.abs(n) >= 100 ? n.toFixed(0) : n.toFixed(1);
+    return plus && n > 0 ? `+${out}` : out;
+  }
+
+  function tpBuild() {
+    const from = Number(document.getElementById("rtFrom")?.value || 2001);
+    const to = Number(document.getElementById("rtTo")?.value || 2026);
+
+    const ptsT = Number(document.getElementById("rtPts")?.value || 25);
+    const effT = Number(document.getElementById("rtEff")?.value || 2);
+    const offT = Number(document.getElementById("rtOff")?.value || 3);
+    const defT = Number(document.getElementById("rtDef")?.value || 5);
+    const netT = Number(document.getElementById("rtNet")?.value || 4);
+    const cushion = Number(document.getElementById("rtCushion")?.value || 0.2);
+    const minGames = Number(document.getElementById("rtMinGames")?.value || 3);
+
+    const series = (state.current?.series || [])
+      .filter(s => Number(tpYear(s)) >= from && Number(tpYear(s)) <= to && tpGP(s) >= minGames)
+      .sort((a, b) => Number(tpYear(a)) - Number(tpYear(b)));
+
+    const rows = series.map(s => {
+      const games = tpGamesForSeries(s);
+
+      const gPts = games.map(g => tpMetric(g, "PTS"));
+      const gEff = games.map(g => tpMetric(g, "rAdjTS"));
+      const gOff = games.map(g => tpMetric(g, "rORTG"));
+      const gDef = games.map(g => tpMetric(g, "rDRTG"));
+      const gNet = games.map(g => tpMetric(g, "rNET"));
+
+      const sPts = tpMetric(s, "PTS") ?? tpAvg(gPts);
+      const sEff = tpMetric(s, "rAdjTS") ?? tpAvg(gEff);
+      const sOff = tpMetric(s, "rORTG") ?? tpAvg(gOff);
+      const sDef = tpMetric(s, "rDRTG") ?? tpAvg(gDef);
+      const sNet = tpMetric(s, "rNET") ?? tpAvg(gNet);
+
+      const pts = tpTranslated(gPts, sPts, ptsT, cushion);
+      const eff = tpTranslated(gEff, sEff, effT, cushion);
+      const off = tpTranslated(gOff, sOff, offT, cushion);
+      const def = tpTranslated(gDef, sDef, defT, cushion);
+      const net = tpTranslated(gNet, sNet, netT, cushion);
+
+      return {
+        year: tpYear(s),
+        round: tpRound(s),
+        opp: tpOpp(s),
+        games: tpGP(s),
+
+        ptsVal: sPts,
+        rAdjTS: sEff,
+        rORTG: sOff,
+        rDRTG: sDef,
+        rNET: sNet,
+
+        ptsHits: gPts.filter(v => v !== null && v >= ptsT).length + "/" + gPts.filter(v => v !== null).length,
+        effHits: gEff.filter(v => v !== null && v >= effT).length + "/" + gEff.filter(v => v !== null).length,
+        offHits: gOff.filter(v => v !== null && v >= offT).length + "/" + gOff.filter(v => v !== null).length,
+        defHits: gDef.filter(v => v !== null && v >= defT).length + "/" + gDef.filter(v => v !== null).length,
+        netHits: gNet.filter(v => v !== null && v >= netT).length + "/" + gNet.filter(v => v !== null).length,
+
+        pts,
+        eff,
+        off,
+        def,
+        net,
+        all5: pts && eff && off && def && net,
+      };
+    });
+
+    return { rows, from, to, ptsT, effT, offT, defT, netT, cushion, minGames };
+  }
+
+  function tpCard(title, value, sub) {
+    return `
+      <div class="stat-card">
+        <div class="k">${title}</div>
+        <div class="v">${value}</div>
+        <div class="s">${sub || ""}</div>
+      </div>
+    `;
+  }
+
+  function tpUpdate() {
+    const out = document.getElementById("rtOutput");
+    if (!out || !state.current) return;
+
+    const { rows, from, to, ptsT, effT, offT, defT, netT } = tpBuild();
+    const total = rows.length;
+
+    const tableRows = rows.map(r => ({
+      year: r.year,
+      round: r.round,
+      opp: r.opp,
+      games: r.games,
+
+      ptsVal: tpFmt(r.ptsVal),
+      rAdjTS: tpFmt(r.rAdjTS, true),
+      rORTG: tpFmt(r.rORTG, true),
+      rDRTG: tpFmt(r.rDRTG, true),
+      rNET: tpFmt(r.rNET, true),
+
+      ptsHits: r.ptsHits,
+      effHits: r.effHits,
+      offHits: r.offHits,
+      defHits: r.defHits,
+      netHits: r.netHits,
+
+      pts: r.pts ? "YES" : "NO",
+      eff: r.eff ? "YES" : "NO",
+      off: r.off ? "YES" : "NO",
+      def: r.def ? "YES" : "NO",
+      net: r.net ? "YES" : "NO",
+      all5: r.all5 ? "YES" : "NO",
+    }));
+
+    out.innerHTML = `
+      <div class="stat-grid">
+        ${tpCard("POINTS TRANSLATE", `${rows.filter(r => r.pts).length}/${total}`, `${from}–${to}: PTS/PPG ≥ ${ptsT}`)}
+        ${tpCard("EFFICIENCY TRANSLATES", `${rows.filter(r => r.eff).length}/${total}`, `rAdj TS ≥ +${effT}`)}
+        ${tpCard("OFFENSE TRANSLATES", `${rows.filter(r => r.off).length}/${total}`, `rORTG ≥ +${offT}`)}
+        ${tpCard("DEFENSE TRANSLATES", `${rows.filter(r => r.def).length}/${total}`, `rDRTG ≥ +${defT}`)}
+        ${tpCard("NET TRANSLATES", `${rows.filter(r => r.net).length}/${total}`, `rNET ≥ +${netT}`)}
+        ${tpCard("ALL 5", `${rows.filter(r => r.all5).length}/${total}`, `Points + efficiency + offense + defense + net`)}
+      </div>
+
+      <div style="height:14px"></div>
+
+      <h3>Series Breakdown</h3>
+      ${richTable(tableRows, [
+        ["year", "Year"],
+        ["round", "Round"],
+        ["opp", "Opp"],
+        ["games", "Games"],
+        ["ptsVal", "PTS"],
+        ["rAdjTS", "rAdj TS"],
+        ["rORTG", "rORTG"],
+        ["rDRTG", "rDRTG"],
+        ["rNET", "rNET"],
+        ["ptsHits", "Pts Games"],
+        ["effHits", "Eff Games"],
+        ["offHits", "Off Games"],
+        ["defHits", "Def Games"],
+        ["netHits", "Net Games"],
+        ["pts", "Pts"],
+        ["eff", "Eff"],
+        ["off", "Off"],
+        ["def", "Def"],
+        ["net", "Net"],
+        ["all5", "All 5"],
+      ])}
+    `;
+  }
+
+  function tpRender() {
+    const years = [...new Set((state.current?.series || []).map(tpYear).filter(Boolean))]
+      .sort((a, b) => Number(a) - Number(b));
+
+    const minY = years[0] || "2001";
+    const maxY = years[years.length - 1] || "2026";
+
+    setTimeout(tpUpdate, 80);
+
+    return `
+      <section class="panel court-section-panel">
+        <h3>Series Translation Consistency — Points + Efficiency</h3>
+        <p class="note">
+          Counts translation from game-by-game impact inside each series.
+          Points uses PTS/PPG, efficiency uses rAdj TS.
+        </p>
+
+        <div class="toolbar">
+          <label class="note">From <input id="rtFrom" type="number" value="${minY}" style="width:90px"></label>
+          <label class="note">To <input id="rtTo" type="number" value="${maxY}" style="width:90px"></label>
+          <label class="note">PTS ≥ <input id="rtPts" type="number" value="25" step="0.1" style="width:90px"></label>
+          <label class="note">rAdj TS ≥ <input id="rtEff" type="number" value="2" step="0.1" style="width:90px"></label>
+          <label class="note">rORTG ≥ <input id="rtOff" type="number" value="3" step="0.1" style="width:90px"></label>
+          <label class="note">rDRTG ≥ <input id="rtDef" type="number" value="5" step="0.1" style="width:90px"></label>
+          <label class="note">rNET ≥ <input id="rtNet" type="number" value="4" step="0.1" style="width:90px"></label>
+          <label class="note">Cushion <input id="rtCushion" type="number" value="0.2" step="0.1" style="width:90px"></label>
+          <label class="note">Min Games <input id="rtMinGames" type="number" value="3" step="1" style="width:90px"></label>
+        </div>
+
+        <div id="rtOutput"></div>
+      </section>
+    `;
+  }
+
+  renderTranslator = function() {
+    return tpRender();
+  };
+
+  document.addEventListener("input", function(e) {
+    if (!e.target) return;
+    if (["rtFrom", "rtTo", "rtPts", "rtEff", "rtOff", "rtDef", "rtNet", "rtCushion", "rtMinGames"].includes(e.target.id)) {
+      tpUpdate();
+    }
+  });
+
+  // Force replace old already-rendered translator panel if the old one appears.
+  setInterval(function() {
+    const h3 = [...document.querySelectorAll("h3")].find(x => (x.textContent || "").includes("Series Translation Consistency"));
+    if (!h3) return;
+
+    const panel = h3.closest("section, .panel");
+    if (!panel) return;
+
+    if (!panel.textContent.includes("PTS ≥")) {
+      panel.outerHTML = tpRender();
+      setTimeout(tpUpdate, 80);
+    }
+  }, 600);
+}
