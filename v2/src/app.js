@@ -4743,3 +4743,239 @@ if (!globalThis.__PTL_CLEAN_ON4F_GAMELOG__) {
     }
   });
 }
+
+/* Move ON/OFF four factors out of Game Logs and into yearly/on-court view */
+if (!globalThis.__PTL_YEARLY_4F_PLACEMENT__) {
+  globalThis.__PTL_YEARLY_4F_PLACEMENT__ = true;
+
+  function y4Get(row, keys) {
+    for (const k of keys) {
+      if (row && row[k] !== undefined && row[k] !== null && row[k] !== "" && row[k] !== "—") return row[k];
+    }
+    return null;
+  }
+
+  function y4Num(row, keys) {
+    const v = y4Get(row, keys);
+    if (v === null) return null;
+    const n = Number(String(v).replace("%", ""));
+    return Number.isFinite(n) ? n : null;
+  }
+
+  function y4Year(row) {
+    const y = y4Get(row, ["year", "season", "SEASON", "YEAR"]);
+    if (typeof y === "string" && y.includes("-")) {
+      const n = Number(y.slice(0, 4));
+      return Number.isFinite(n) ? String(n + 1) : String(y);
+    }
+    return y === null ? "" : String(y);
+  }
+
+  function y4Team(row) {
+    return String(y4Get(row, ["team", "TEAM", "teamAbbr", "TEAM_ABBREVIATION"]) || "");
+  }
+
+  function y4Opp(row) {
+    return y4Get(row, ["opponent", "opp", "OPP", "Opponent", "OPPONENT"]) || "—";
+  }
+
+  function y4Date(row) {
+    return y4Get(row, ["date", "gameDate", "GAME_DATE", "matchupDate"]) || "—";
+  }
+
+  function y4Fmt(v, plus = false) {
+    if (v === null || v === undefined || v === "" || v === "—") return "—";
+    const n = Number(v);
+    if (!Number.isFinite(n)) return String(v);
+    const out = Math.abs(n) >= 100 ? n.toFixed(0) : n.toFixed(1);
+    return plus && n > 0 ? `+${out}` : out;
+  }
+
+  function y4Delta(on, off, lowerIsBetter = false) {
+    if (on === null || off === null || on === undefined || off === undefined) return "—";
+    let n = Number(on) - Number(off);
+    if (!Number.isFinite(n)) return "—";
+    if (lowerIsBetter) n = -n;
+    return n > 0 ? `+${n.toFixed(1)}` : n.toFixed(1);
+  }
+
+  function y4YearlyRows() {
+    const meta = state.current?.meta || {};
+    const byYearTeam = meta.onCourtFourFactorsByTeam || {};
+    const rows = [];
+
+    for (const year of Object.keys(byYearTeam).sort((a, b) => Number(b) - Number(a))) {
+      const teams = byYearTeam[year] || {};
+
+      for (const team of Object.keys(teams).sort()) {
+        const ff = teams[team];
+
+        rows.push({
+          year,
+          team,
+          onMin: y4Fmt(ff.onMinutes),
+          offMin: y4Fmt(ff.offMinutes),
+
+          teamEFG: `${y4Fmt(ff.onTeamEFG)} / ${y4Fmt(ff.onTeamEFGOff)} (${y4Delta(ff.onTeamEFG, ff.onTeamEFGOff)})`,
+          teamORB: `${y4Fmt(ff.onTeamOREBPct)} / ${y4Fmt(ff.onTeamOREBPctOff)} (${y4Delta(ff.onTeamOREBPct, ff.onTeamOREBPctOff)})`,
+          teamFTR: `${y4Fmt(ff.onTeamFTr)} / ${y4Fmt(ff.onTeamFTrOff)} (${y4Delta(ff.onTeamFTr, ff.onTeamFTrOff)})`,
+          teamTOV: `${y4Fmt(ff.onTeamTOVPct)} / ${y4Fmt(ff.onTeamTOVPctOff)} (${y4Delta(ff.onTeamTOVPct, ff.onTeamTOVPctOff, true)})`,
+
+          oppEFG: `${y4Fmt(ff.onOppEFG)} / ${y4Fmt(ff.onOppEFGOff)} (${y4Delta(ff.onOppEFG, ff.onOppEFGOff, true)})`,
+          oppORB: `${y4Fmt(ff.onOppOREBPct)} / ${y4Fmt(ff.onOppOREBPctOff)} (${y4Delta(ff.onOppOREBPct, ff.onOppOREBPctOff, true)})`,
+          oppFTR: `${y4Fmt(ff.onOppFTr)} / ${y4Fmt(ff.onOppFTrOff)} (${y4Delta(ff.onOppFTr, ff.onOppFTrOff, true)})`,
+          oppTOV: `${y4Fmt(ff.onOppTOVPct)} / ${y4Fmt(ff.onOppTOVPctOff)} (${y4Delta(ff.onOppTOVPct, ff.onOppTOVPctOff)})`,
+        });
+      }
+    }
+
+    return rows;
+  }
+
+  function y4YearlyPanelHTML() {
+    const rows = y4YearlyRows();
+
+    if (!rows.length) {
+      return `
+        <section class="panel court-section-panel">
+          <h3>Yearly ON/OFF Four Factors</h3>
+          <p class="note">No yearly ON/OFF four-factor data is available for this player yet.</p>
+        </section>
+      `;
+    }
+
+    return `
+      <section class="panel court-section-panel">
+        <div class="section-head">
+          <div>
+            <h3>Yearly ON/OFF Four Factors</h3>
+            <p class="note">
+              Season-level team/opponent four factors while the player is ON vs OFF the floor.
+              Format is ON / OFF (impact). For opponent eFG, ORB%, and FTr, lower is better.
+            </p>
+          </div>
+        </div>
+
+        ${richTable(rows, [
+          ["year", "Year"],
+          ["team", "Team"],
+          ["onMin", "ON Min"],
+          ["offMin", "OFF Min"],
+          ["teamEFG", "Team eFG"],
+          ["teamORB", "Team ORB%"],
+          ["teamFTR", "Team FTr"],
+          ["teamTOV", "Team TOV%"],
+          ["oppEFG", "Opp eFG"],
+          ["oppORB", "Opp ORB%"],
+          ["oppFTR", "Opp FTr"],
+          ["oppTOV", "Opp TOV%"],
+        ])}
+      </section>
+    `;
+  }
+
+  /* Clean Game Logs: game-specific only, no yearly 4F panel */
+  renderGames = function() {
+    const games = Array.isArray(state.current?.games) ? state.current.games : [];
+    const years = [...new Set(games.map(y4Year).filter(Boolean))]
+      .sort((a, b) => Number(b) - Number(a));
+
+    setTimeout(() => updateGamesTable(), 80);
+
+    return `
+      <section class="panel court-section-panel">
+        <div class="section-head">
+          <div>
+            <h3>Game Logs</h3>
+            <p class="note">Game rows only. Yearly ON/OFF four factors are shown in the ON-Court / Shot Profile section.</p>
+          </div>
+        </div>
+
+        <div class="toolbar">
+          <label class="note">
+            Year
+            <select id="gameLogYear">
+              <option value="ALL">All</option>
+              ${years.map(y => `<option value="${y}">${y}</option>`).join("")}
+            </select>
+          </label>
+        </div>
+
+        <div id="gamesTable"></div>
+      </section>
+    `;
+  };
+
+  updateGamesTable = function() {
+    const box = document.getElementById("gamesTable");
+    if (!box) return;
+
+    const games = Array.isArray(state.current?.games) ? state.current.games : [];
+    const yearFilter = document.getElementById("gameLogYear")?.value || "ALL";
+
+    const rows = games
+      .filter(g => yearFilter === "ALL" || y4Year(g) === yearFilter)
+      .map(g => ({
+        year: y4Year(g),
+        date: y4Date(g),
+        team: y4Team(g) || "—",
+        opp: y4Opp(g),
+        pts: y4Fmt(y4Num(g, ["PTS", "pts", "points"])),
+        pp75: y4Fmt(y4Num(g, ["PP75", "pp75", "PTS_75", "pointsPer75"])),
+        rAdjTS: y4Fmt(y4Num(g, ["rAdjTS", "RAdjTS", "RADJTS", "RADJ_TS"]), true),
+        rTS: y4Fmt(y4Num(g, ["rTS", "RTS", "r_ts"]), true),
+        rORTG: y4Fmt(y4Num(g, ["rORTG", "RORTG", "r_off_rating"]), true),
+        rDRTG: y4Fmt(y4Num(g, ["rDRTG", "RDRTG", "r_def_rating"]), true),
+        rNET: y4Fmt(y4Num(g, ["rNET", "RNET", "r_net_rating"]), true),
+        min: y4Fmt(y4Num(g, ["MIN", "min", "minutes"])),
+        reb: y4Fmt(y4Num(g, ["REB", "reb", "TRB", "trb"])),
+        ast: y4Fmt(y4Num(g, ["AST", "ast"])),
+        tov: y4Fmt(y4Num(g, ["TOV", "tov", "TO"])),
+        ts: y4Fmt(y4Num(g, ["TS%", "TS", "ts", "tsPct"])),
+        adjts: y4Fmt(y4Num(g, ["AdjTS%", "AdjTS", "adjTS"])),
+        ortg: y4Fmt(y4Num(g, ["ORTG", "ortg", "offRating"])),
+        drtg: y4Fmt(y4Num(g, ["DRTG", "drtg", "defRating"])),
+      }));
+
+    box.innerHTML = richTable(rows, [
+      ["year", "Year"],
+      ["date", "Date"],
+      ["team", "Team"],
+      ["opp", "Opp"],
+      ["pts", "PTS"],
+      ["pp75", "PP/75"],
+      ["rAdjTS", "rAdj TS"],
+      ["rTS", "rTS"],
+      ["rORTG", "rORTG"],
+      ["rDRTG", "rDRTG"],
+      ["rNET", "rNET"],
+      ["min", "MIN"],
+      ["reb", "REB"],
+      ["ast", "AST"],
+      ["tov", "TOV"],
+      ["ts", "TS%"],
+      ["adjts", "Adj TS%"],
+      ["ortg", "ORTG"],
+      ["drtg", "DRTG"],
+    ]);
+  };
+
+  document.addEventListener("change", function(e) {
+    if (e.target && e.target.id === "gameLogYear") updateGamesTable();
+  });
+
+  /* Put yearly 4F in ON-Court / Shot Profile if that renderer exists */
+  const oldRenderOnCourt = typeof renderOnCourt === "function" ? renderOnCourt : null;
+  renderOnCourt = function() {
+    const old = oldRenderOnCourt ? oldRenderOnCourt() : "";
+    return y4YearlyPanelHTML() + old;
+  };
+
+  /* Also attach to dashboard/overview if your build uses that route */
+  const oldRenderDashboard = typeof renderDashboard === "function" ? renderDashboard : null;
+  if (oldRenderDashboard) {
+    renderDashboard = function() {
+      return oldRenderDashboard() + y4YearlyPanelHTML();
+    };
+  }
+}
