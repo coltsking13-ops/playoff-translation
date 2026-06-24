@@ -4979,3 +4979,298 @@ if (!globalThis.__PTL_YEARLY_4F_PLACEMENT__) {
     };
   }
 }
+
+/* Translator upgrade: add Points / PPG translation */
+if (!globalThis.__PTL_TRANSLATOR_POINTS__) {
+  globalThis.__PTL_TRANSLATOR_POINTS__ = true;
+
+  function __ptlTPGet(row, keys) {
+    for (const k of keys) {
+      if (row && row[k] !== undefined && row[k] !== null && row[k] !== "" && row[k] !== "—") return row[k];
+    }
+    return null;
+  }
+
+  function __ptlTPNum(row, keys) {
+    const v = __ptlTPGet(row, keys);
+    if (v === null) return null;
+    const n = Number(String(v).replace("%", ""));
+    return Number.isFinite(n) ? n : null;
+  }
+
+  function __ptlTPMetric(row, key) {
+    if (key === "PTS") {
+      return __ptlTPNum(row, [
+        "PTS", "pts", "points", "Points",
+        "PPG", "ppg", "pointsPerGame",
+        "playerPTS", "PLAYER_PTS"
+      ]);
+    }
+
+    if (typeof __ptlRTMetric === "function") {
+      return __ptlRTMetric(row, key);
+    }
+
+    return __ptlTPNum(row, [key]);
+  }
+
+  function __ptlTPAvg(vals) {
+    const clean = vals.filter(v => v !== null && v !== undefined && Number.isFinite(Number(v))).map(Number);
+    if (!clean.length) return null;
+    return clean.reduce((a, b) => a + b, 0) / clean.length;
+  }
+
+  function __ptlTPTranslated(gameVals, seriesVal, threshold, cushion) {
+    const vals = gameVals.filter(v => v !== null && v !== undefined && Number.isFinite(Number(v))).map(Number);
+    if (!vals.length) return false;
+
+    const hits = vals.filter(v => v >= threshold).length;
+    const needed = vals.length / 2;
+
+    if (hits > needed) return true;
+    if (hits === needed && seriesVal !== null && seriesVal !== undefined) {
+      return Number(seriesVal) >= threshold - cushion;
+    }
+
+    return false;
+  }
+
+  function __ptlTPFmt(v, plus = false) {
+    if (v === null || v === undefined || v === "" || v === "—") return "—";
+    const n = Number(v);
+    if (!Number.isFinite(n)) return String(v);
+    const out = Math.abs(n) >= 100 ? n.toFixed(0) : n.toFixed(1);
+    return plus && n > 0 ? `+${out}` : out;
+  }
+
+  function __ptlTPCard(title, value, sub) {
+    if (typeof __ptlRTCard === "function") return __ptlRTCard(title, value, sub);
+
+    return `
+      <div class="stat-card">
+        <div class="k">${title}</div>
+        <div class="v">${value}</div>
+        <div class="s">${sub || ""}</div>
+      </div>
+    `;
+  }
+
+  function __ptlTPBuild() {
+    const from = Number(document.getElementById("rtFrom")?.value || 2001);
+    const to = Number(document.getElementById("rtTo")?.value || 2026);
+
+    const ptsT = Number(document.getElementById("rtPts")?.value || 25);
+    const effT = Number(document.getElementById("rtEff")?.value || 2);
+    const offT = Number(document.getElementById("rtOff")?.value || 3);
+    const defT = Number(document.getElementById("rtDef")?.value || 5);
+    const netT = Number(document.getElementById("rtNet")?.value || 4);
+    const cushion = Number(document.getElementById("rtCushion")?.value || 0.2);
+    const minGames = Number(document.getElementById("rtMinGames")?.value || 3);
+
+    const series = (state.current?.series || [])
+      .filter(s => {
+        const y = Number(typeof __ptlRTYear === "function" ? __ptlRTYear(s) : __ptlTPGet(s, ["year", "season"]));
+        const gp = typeof __ptlRTGames === "function" ? __ptlRTGames(s) : (__ptlTPNum(s, ["games", "GP", "gp"]) || 0);
+        return y >= from && y <= to && gp >= minGames;
+      })
+      .sort((a, b) => {
+        const ay = Number(typeof __ptlRTYear === "function" ? __ptlRTYear(a) : __ptlTPGet(a, ["year", "season"]));
+        const by = Number(typeof __ptlRTYear === "function" ? __ptlRTYear(b) : __ptlTPGet(b, ["year", "season"]));
+        return ay - by;
+      });
+
+    const rows = series.map(s => {
+      const games = typeof __ptlRTGamesForSeries === "function" ? __ptlRTGamesForSeries(s) : [];
+
+      const gPts = games.map(g => __ptlTPMetric(g, "PTS"));
+      const gEff = games.map(g => __ptlTPMetric(g, "rAdjTS"));
+      const gOff = games.map(g => __ptlTPMetric(g, "rORTG"));
+      const gDef = games.map(g => __ptlTPMetric(g, "rDRTG"));
+      const gNet = games.map(g => __ptlTPMetric(g, "rNET"));
+
+      const sPts = __ptlTPMetric(s, "PTS") ?? __ptlTPAvg(gPts);
+      const sEff = __ptlTPMetric(s, "rAdjTS") ?? __ptlTPAvg(gEff);
+      const sOff = __ptlTPMetric(s, "rORTG") ?? __ptlTPAvg(gOff);
+      const sDef = __ptlTPMetric(s, "rDRTG") ?? __ptlTPAvg(gDef);
+      const sNet = __ptlTPMetric(s, "rNET") ?? __ptlTPAvg(gNet);
+
+      const pts = __ptlTPTranslated(gPts, sPts, ptsT, cushion);
+      const eff = __ptlTPTranslated(gEff, sEff, effT, cushion);
+      const off = __ptlTPTranslated(gOff, sOff, offT, cushion);
+      const def = __ptlTPTranslated(gDef, sDef, defT, cushion);
+      const net = __ptlTPTranslated(gNet, sNet, netT, cushion);
+
+      const year = typeof __ptlRTYear === "function" ? __ptlRTYear(s) : __ptlTPGet(s, ["year", "season"]);
+      const round = typeof __ptlRTRound === "function" ? __ptlRTRound(s) : (__ptlTPGet(s, ["round", "ROUND"]) || "—");
+      const opp = typeof __ptlRTOpp === "function" ? __ptlRTOpp(s) : (__ptlTPGet(s, ["opponent", "opp", "OPP"]) || "—");
+      const gp = typeof __ptlRTGames === "function" ? __ptlRTGames(s) : (__ptlTPNum(s, ["games", "GP", "gp"]) || games.length);
+
+      return {
+        year,
+        round,
+        opp,
+        games: gp,
+
+        ptsVal: sPts,
+        rAdjTS: sEff,
+        rORTG: sOff,
+        rDRTG: sDef,
+        rNET: sNet,
+
+        ptsHits: gPts.filter(v => v !== null && v >= ptsT).length + "/" + gPts.filter(v => v !== null).length,
+        effHits: gEff.filter(v => v !== null && v >= effT).length + "/" + gEff.filter(v => v !== null).length,
+        offHits: gOff.filter(v => v !== null && v >= offT).length + "/" + gOff.filter(v => v !== null).length,
+        defHits: gDef.filter(v => v !== null && v >= defT).length + "/" + gDef.filter(v => v !== null).length,
+        netHits: gNet.filter(v => v !== null && v >= netT).length + "/" + gNet.filter(v => v !== null).length,
+
+        pts,
+        eff,
+        off,
+        def,
+        net,
+        all3: off && def && net,
+        all4: eff && off && def && net,
+        all5: pts && eff && off && def && net,
+      };
+    });
+
+    return { rows, from, to, ptsT, effT, offT, defT, netT, cushion, minGames };
+  }
+
+  __ptlRTBuild = __ptlTPBuild;
+
+  __ptlRTUpdate = function() {
+    const out = document.getElementById("rtOutput");
+    if (!out || !state.current) return;
+
+    const { rows, from, to, ptsT, effT, offT, defT, netT, cushion, minGames } = __ptlTPBuild();
+    const total = rows.length;
+
+    const ptsCount = rows.filter(r => r.pts).length;
+    const effCount = rows.filter(r => r.eff).length;
+    const offCount = rows.filter(r => r.off).length;
+    const defCount = rows.filter(r => r.def).length;
+    const netCount = rows.filter(r => r.net).length;
+    const all3Count = rows.filter(r => r.all3).length;
+    const all4Count = rows.filter(r => r.all4).length;
+    const all5Count = rows.filter(r => r.all5).length;
+
+    const tableRows = rows.map(r => ({
+      year: r.year,
+      round: r.round,
+      opp: r.opp,
+      games: r.games,
+
+      ptsVal: __ptlTPFmt(r.ptsVal),
+      rAdjTS: __ptlTPFmt(r.rAdjTS, true),
+      rORTG: __ptlTPFmt(r.rORTG, true),
+      rDRTG: __ptlTPFmt(r.rDRTG, true),
+      rNET: __ptlTPFmt(r.rNET, true),
+
+      ptsHits: r.ptsHits,
+      effHits: r.effHits,
+      offHits: r.offHits,
+      defHits: r.defHits,
+      netHits: r.netHits,
+
+      pts: r.pts ? "YES" : "NO",
+      eff: r.eff ? "YES" : "NO",
+      off: r.off ? "YES" : "NO",
+      def: r.def ? "YES" : "NO",
+      net: r.net ? "YES" : "NO",
+      all3: r.all3 ? "YES" : "NO",
+      all4: r.all4 ? "YES" : "NO",
+      all5: r.all5 ? "YES" : "NO",
+    }));
+
+    out.innerHTML = `
+      <div class="stat-grid">
+        ${__ptlTPCard("POINTS TRANSLATE", `${ptsCount}/${total}`, `${from}–${to}: PTS/PPG ≥ ${ptsT}.`)}
+        ${__ptlTPCard("EFFICIENCY TRANSLATES", `${effCount}/${total}`, `rAdj TS ≥ +${effT}.`)}
+        ${__ptlTPCard("OFFENSE TRANSLATES", `${offCount}/${total}`, `rORTG ≥ +${offT}. Cushion: ${cushion}.`)}
+        ${__ptlTPCard("DEFENSE TRANSLATES", `${defCount}/${total}`, `rDRTG ≥ +${defT}. Positive is better.`)}
+        ${__ptlTPCard("NET TRANSLATES", `${netCount}/${total}`, `rNET ≥ +${netT}.`)}
+        ${__ptlTPCard("ALL 5", `${all5Count}/${total}`, `Points + efficiency + offense + defense + net.`)}
+      </div>
+
+      <div style="height:14px"></div>
+
+      <h3>Series Breakdown</h3>
+      ${richTable(tableRows, [
+        ["year", "Year"],
+        ["round", "Round"],
+        ["opp", "Opp"],
+        ["games", "Games"],
+
+        ["ptsVal", "PTS"],
+        ["rAdjTS", "rAdj TS"],
+        ["rORTG", "rORTG"],
+        ["rDRTG", "rDRTG"],
+        ["rNET", "rNET"],
+
+        ["ptsHits", "Pts Games"],
+        ["effHits", "Eff Games"],
+        ["offHits", "Off Games"],
+        ["defHits", "Def Games"],
+        ["netHits", "Net Games"],
+
+        ["pts", "Pts"],
+        ["eff", "Eff"],
+        ["off", "Off"],
+        ["def", "Def"],
+        ["net", "Net"],
+        ["all3", "All 3"],
+        ["all4", "All 4"],
+        ["all5", "All 5"],
+      ])}
+    `;
+  };
+
+  __ptlRTRenderTool = function() {
+    const years = [...new Set((state.current?.series || []).map(s => {
+      if (typeof __ptlRTYear === "function") return __ptlRTYear(s);
+      return __ptlTPGet(s, ["year", "season"]);
+    }).filter(Boolean))]
+      .sort((a, b) => Number(a) - Number(b));
+
+    const minY = years[0] || "2001";
+    const maxY = years[years.length - 1] || "2026";
+
+    setTimeout(() => __ptlRTUpdate(), 80);
+
+    return `
+      <section class="panel court-section-panel">
+        <h3>Series Translation Consistency</h3>
+        <p class="note">
+          Counts translation from game-by-game impact inside each series.
+          Points uses PTS/PPG, efficiency uses rAdj TS.
+        </p>
+
+        <div class="toolbar">
+          <label class="note">From <input id="rtFrom" type="number" value="${minY}" style="width:90px"></label>
+          <label class="note">To <input id="rtTo" type="number" value="${maxY}" style="width:90px"></label>
+          <label class="note">PTS ≥ <input id="rtPts" type="number" value="25" step="0.1" style="width:90px"></label>
+          <label class="note">rAdj TS ≥ <input id="rtEff" type="number" value="2" step="0.1" style="width:90px"></label>
+          <label class="note">rORTG ≥ <input id="rtOff" type="number" value="3" step="0.1" style="width:90px"></label>
+          <label class="note">rDRTG ≥ <input id="rtDef" type="number" value="5" step="0.1" style="width:90px"></label>
+          <label class="note">rNET ≥ <input id="rtNet" type="number" value="4" step="0.1" style="width:90px"></label>
+          <label class="note">Cushion <input id="rtCushion" type="number" value="0.2" step="0.1" style="width:90px"></label>
+          <label class="note">Min Games <input id="rtMinGames" type="number" value="3" step="1" style="width:90px"></label>
+        </div>
+
+        <div id="rtOutput"></div>
+      </section>
+    `;
+  };
+
+  renderTranslator = function() {
+    return __ptlRTRenderTool();
+  };
+
+  document.addEventListener("input", function(e) {
+    if (!e.target) return;
+    if (["rtFrom", "rtTo", "rtPts", "rtEff", "rtOff", "rtDef", "rtNet", "rtCushion", "rtMinGames"].includes(e.target.id)) {
+      __ptlRTUpdate();
+    }
+  });
+}
