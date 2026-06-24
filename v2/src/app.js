@@ -5891,3 +5891,332 @@ if (!globalThis.__PTL_TRANSLATOR_VOLUME_FRACTION__) {
     }
   }, 700);
 }
+
+/* FINAL override: translator points + volume fraction, no blank output */
+if (!globalThis.__PTL_FINAL_TRANSLATOR_VOLUME_FIX__) {
+  globalThis.__PTL_FINAL_TRANSLATOR_VOLUME_FIX__ = true;
+
+  function ftGet(row, keys) {
+    for (const k of keys) {
+      if (row && row[k] !== undefined && row[k] !== null && row[k] !== "" && row[k] !== "—") return row[k];
+    }
+    return null;
+  }
+
+  function ftNum(row, keys) {
+    const v = ftGet(row, keys);
+    if (v === null) return null;
+    const n = Number(String(v).replace("%", ""));
+    return Number.isFinite(n) ? n : null;
+  }
+
+  function ftYear(row) {
+    if (typeof __ptlRTYear === "function") return __ptlRTYear(row);
+    const y = ftGet(row, ["year", "season", "SEASON", "YEAR"]);
+    if (typeof y === "string" && y.includes("-")) {
+      const n = Number(y.slice(0, 4));
+      return Number.isFinite(n) ? String(n + 1) : String(y);
+    }
+    return y === null ? "" : String(y);
+  }
+
+  function ftRound(row) {
+    if (typeof __ptlRTRound === "function") return __ptlRTRound(row);
+    return ftGet(row, ["round", "ROUND", "seriesRound"]) || "—";
+  }
+
+  function ftOpp(row) {
+    if (typeof __ptlRTOpp === "function") return __ptlRTOpp(row);
+    return ftGet(row, ["opponent", "opp", "OPP", "Opponent", "OPPONENT"]) || "—";
+  }
+
+  function ftGP(row) {
+    if (typeof __ptlRTGames === "function") return __ptlRTGames(row);
+    return ftNum(row, ["games", "GP", "gp"]) || 0;
+  }
+
+  function ftMetric(row, key) {
+    if (key === "PTS") return ftNum(row, ["PTS", "pts", "points", "Points", "PPG", "ppg", "pointsPerGame"]);
+    if (key === "rAdjTS") return ftNum(row, ["rAdjTS", "RAdjTS", "RADJTS", "RADJ_TS"]);
+    if (key === "rORTG") return ftNum(row, ["rORTG", "RORTG", "r_off_rating"]);
+    if (key === "rDRTG") return ftNum(row, ["rDRTG", "RDRTG", "r_def_rating"]);
+    if (key === "rNET") return ftNum(row, ["rNET", "RNET", "r_net_rating"]);
+    return ftNum(row, [key]);
+  }
+
+  function ftGamesForSeries(seriesRow) {
+    try {
+      if (typeof __ptlRTGamesForSeries === "function") {
+        const g = __ptlRTGamesForSeries(seriesRow);
+        if (Array.isArray(g)) return g;
+      }
+    } catch (e) {}
+
+    const games = Array.isArray(state.current?.games) ? state.current.games : [];
+    const sy = ftYear(seriesRow);
+    const so = String(ftOpp(seriesRow)).toLowerCase();
+
+    return games.filter(g => {
+      const gy = ftYear(g);
+      const go = String(ftGet(g, ["opponent", "opp", "OPP", "Opponent", "OPPONENT"]) || "").toLowerCase();
+      return gy === sy && go && so && go === so;
+    });
+  }
+
+  function ftAvg(vals) {
+    const clean = vals.filter(v => v !== null && v !== undefined && Number.isFinite(Number(v))).map(Number);
+    return clean.length ? clean.reduce((a, b) => a + b, 0) / clean.length : null;
+  }
+
+  function ftFmt(v, plus = false) {
+    if (v === null || v === undefined || v === "" || v === "—") return "—";
+    const n = Number(v);
+    if (!Number.isFinite(n)) return String(v);
+    const out = Math.abs(n) >= 100 ? n.toFixed(0) : n.toFixed(1);
+    return plus && n > 0 ? `+${out}` : out;
+  }
+
+  function ftTranslated(vals, seriesVal, threshold, cushion) {
+    const clean = vals.filter(v => v !== null && v !== undefined && Number.isFinite(Number(v))).map(Number);
+    if (!clean.length) return false;
+
+    const hits = clean.filter(v => v >= threshold).length;
+    const half = clean.length / 2;
+
+    if (hits > half) return true;
+    if (hits === half && seriesVal !== null && seriesVal !== undefined) {
+      return Number(seriesVal) >= threshold - cushion;
+    }
+    return false;
+  }
+
+  function ftCard(title, value, sub) {
+    return `
+      <div class="stat-card">
+        <div class="k">${title}</div>
+        <div class="v">${value}</div>
+        <div class="s">${sub || ""}</div>
+      </div>
+    `;
+  }
+
+  function ftTable(rows, cols) {
+    if (!rows.length) return `<p class="note">No series match these filters.</p>`;
+
+    return `
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>${cols.map(c => `<th>${c[1]}</th>`).join("")}</tr>
+          </thead>
+          <tbody>
+            ${rows.map(r => `
+              <tr>${cols.map(c => `<td>${r[c[0]] ?? "—"}</td>`).join("")}</tr>
+            `).join("")}
+          </tbody>
+        </table>
+      </div>
+    `;
+  }
+
+  function ftBuildRows() {
+    const from = Number(document.getElementById("rtFrom")?.value || 2001);
+    const to = Number(document.getElementById("rtTo")?.value || 2026);
+
+    const ptsT = Number(document.getElementById("rtPts")?.value || 25);
+    const effT = Number(document.getElementById("rtEff")?.value || 2);
+    const offT = Number(document.getElementById("rtOff")?.value || 3);
+    const defT = Number(document.getElementById("rtDef")?.value || 5);
+    const netT = Number(document.getElementById("rtNet")?.value || 4);
+    const cushion = Number(document.getElementById("rtCushion")?.value || 0.2);
+    const minGames = Number(document.getElementById("rtMinGames")?.value || 3);
+
+    const series = (state.current?.series || [])
+      .filter(s => {
+        const y = Number(ftYear(s));
+        return y >= from && y <= to && ftGP(s) >= minGames;
+      })
+      .sort((a, b) => Number(ftYear(a)) - Number(ftYear(b)));
+
+    let totalPtsHitGames = 0;
+    let totalPtsValidGames = 0;
+
+    const rows = series.map(s => {
+      const games = ftGamesForSeries(s);
+
+      const gPts = games.map(g => ftMetric(g, "PTS"));
+      const gEff = games.map(g => ftMetric(g, "rAdjTS"));
+      const gOff = games.map(g => ftMetric(g, "rORTG"));
+      const gDef = games.map(g => ftMetric(g, "rDRTG"));
+      const gNet = games.map(g => ftMetric(g, "rNET"));
+
+      const cleanPts = gPts.filter(v => v !== null && Number.isFinite(Number(v))).map(Number);
+      const ptsHits = cleanPts.filter(v => v >= ptsT).length;
+
+      totalPtsHitGames += ptsHits;
+      totalPtsValidGames += cleanPts.length;
+
+      const sPts = ftMetric(s, "PTS") ?? ftAvg(gPts);
+      const sEff = ftMetric(s, "rAdjTS") ?? ftAvg(gEff);
+      const sOff = ftMetric(s, "rORTG") ?? ftAvg(gOff);
+      const sDef = ftMetric(s, "rDRTG") ?? ftAvg(gDef);
+      const sNet = ftMetric(s, "rNET") ?? ftAvg(gNet);
+
+      const pts = ftTranslated(gPts, sPts, ptsT, cushion);
+      const eff = ftTranslated(gEff, sEff, effT, cushion);
+      const off = ftTranslated(gOff, sOff, offT, cushion);
+      const def = ftTranslated(gDef, sDef, defT, cushion);
+      const net = ftTranslated(gNet, sNet, netT, cushion);
+
+      return {
+        year: ftYear(s),
+        round: ftRound(s),
+        opp: ftOpp(s),
+        games: ftGP(s),
+
+        ptsVal: ftFmt(sPts),
+        rAdjTS: ftFmt(sEff, true),
+        rORTG: ftFmt(sOff, true),
+        rDRTG: ftFmt(sDef, true),
+        rNET: ftFmt(sNet, true),
+
+        volFrac: `${ptsHits}/${cleanPts.length}`,
+        effFrac: `${gEff.filter(v => v !== null && v >= effT).length}/${gEff.filter(v => v !== null).length}`,
+        offFrac: `${gOff.filter(v => v !== null && v >= offT).length}/${gOff.filter(v => v !== null).length}`,
+        defFrac: `${gDef.filter(v => v !== null && v >= defT).length}/${gDef.filter(v => v !== null).length}`,
+        netFrac: `${gNet.filter(v => v !== null && v >= netT).length}/${gNet.filter(v => v !== null).length}`,
+
+        pts: pts ? "YES" : "NO",
+        eff: eff ? "YES" : "NO",
+        off: off ? "YES" : "NO",
+        def: def ? "YES" : "NO",
+        net: net ? "YES" : "NO",
+        all5: pts && eff && off && def && net ? "YES" : "NO",
+      };
+    });
+
+    return {
+      rows,
+      from,
+      to,
+      ptsT,
+      effT,
+      offT,
+      defT,
+      netT,
+      totalPtsHitGames,
+      totalPtsValidGames,
+    };
+  }
+
+  globalThis.__ptlFinalTranslatorUpdate = function() {
+    const out = document.getElementById("rtOutput");
+    if (!out) return;
+
+    try {
+      const built = ftBuildRows();
+      const rows = built.rows;
+      const total = rows.length;
+
+      const volPct = built.totalPtsValidGames
+        ? ((built.totalPtsHitGames / built.totalPtsValidGames) * 100).toFixed(1)
+        : "—";
+
+      out.innerHTML = `
+        <div class="stat-grid">
+          ${ftCard("POINTS TRANSLATE", `${rows.filter(r => r.pts === "YES").length}/${total}`, `Series majority with PTS ≥ ${built.ptsT}`)}
+          ${ftCard("VOLUME TRANSLATE FRACTION", `${built.totalPtsHitGames}/${built.totalPtsValidGames}`, `${volPct}% of valid games hit PTS ≥ ${built.ptsT}`)}
+          ${ftCard("EFFICIENCY TRANSLATES", `${rows.filter(r => r.eff === "YES").length}/${total}`, `rAdj TS ≥ +${built.effT}`)}
+          ${ftCard("OFFENSE TRANSLATES", `${rows.filter(r => r.off === "YES").length}/${total}`, `rORTG ≥ +${built.offT}`)}
+          ${ftCard("DEFENSE TRANSLATES", `${rows.filter(r => r.def === "YES").length}/${total}`, `rDRTG ≥ +${built.defT}`)}
+          ${ftCard("NET TRANSLATES", `${rows.filter(r => r.net === "YES").length}/${total}`, `rNET ≥ +${built.netT}`)}
+          ${ftCard("ALL 5", `${rows.filter(r => r.all5 === "YES").length}/${total}`, `Points + efficiency + offense + defense + net`)}
+        </div>
+
+        <div style="height:14px"></div>
+
+        <h3>Series Breakdown</h3>
+        ${ftTable(rows, [
+          ["year", "Year"],
+          ["round", "Round"],
+          ["opp", "Opp"],
+          ["games", "Games"],
+          ["ptsVal", "PTS"],
+          ["rAdjTS", "rAdj TS"],
+          ["rORTG", "rORTG"],
+          ["rDRTG", "rDRTG"],
+          ["rNET", "rNET"],
+          ["volFrac", "Vol Frac"],
+          ["effFrac", "Eff Frac"],
+          ["offFrac", "Off Frac"],
+          ["defFrac", "Def Frac"],
+          ["netFrac", "Net Frac"],
+          ["pts", "Pts"],
+          ["eff", "Eff"],
+          ["off", "Off"],
+          ["def", "Def"],
+          ["net", "Net"],
+          ["all5", "All 5"],
+        ])}
+      `;
+    } catch (err) {
+      out.innerHTML = `<p class="note">Translator render error: ${err.message}</p>`;
+      console.error(err);
+    }
+  };
+
+  renderTranslator = function() {
+    const series = state.current?.series || [];
+    const years = [...new Set(series.map(ftYear).filter(Boolean))]
+      .sort((a, b) => Number(a) - Number(b));
+
+    const minY = years[0] || "2001";
+    const maxY = years[years.length - 1] || "2026";
+
+    setTimeout(() => globalThis.__ptlFinalTranslatorUpdate(), 80);
+
+    return `
+      <section class="panel court-section-panel">
+        <h3>Series Translation Consistency — Points + Efficiency</h3>
+        <p class="note">
+          Points Translate counts series where a majority of games clear the PTS threshold.
+          Volume Translate Fraction counts every valid game over the PTS threshold.
+        </p>
+
+        <div class="toolbar">
+          <label class="note">From <input id="rtFrom" type="number" value="${minY}" style="width:90px"></label>
+          <label class="note">To <input id="rtTo" type="number" value="${maxY}" style="width:90px"></label>
+          <label class="note">PTS ≥ <input id="rtPts" type="number" value="25" step="0.1" style="width:90px"></label>
+          <label class="note">rAdj TS ≥ <input id="rtEff" type="number" value="2" step="0.1" style="width:90px"></label>
+          <label class="note">rORTG ≥ <input id="rtOff" type="number" value="3" step="0.1" style="width:90px"></label>
+          <label class="note">rDRTG ≥ <input id="rtDef" type="number" value="5" step="0.1" style="width:90px"></label>
+          <label class="note">rNET ≥ <input id="rtNet" type="number" value="4" step="0.1" style="width:90px"></label>
+          <label class="note">Cushion <input id="rtCushion" type="number" value="0.2" step="0.1" style="width:90px"></label>
+          <label class="note">Min Games <input id="rtMinGames" type="number" value="3" step="1" style="width:90px"></label>
+        </div>
+
+        <div id="rtOutput"><p class="note">Loading translator…</p></div>
+      </section>
+    `;
+  };
+
+  document.addEventListener("input", function(e) {
+    if (!e.target) return;
+    if (["rtFrom", "rtTo", "rtPts", "rtEff", "rtOff", "rtDef", "rtNet", "rtCushion", "rtMinGames"].includes(e.target.id)) {
+      globalThis.__ptlFinalTranslatorUpdate();
+    }
+  });
+
+  setInterval(function() {
+    const panel = [...document.querySelectorAll("h3")]
+      .find(h => (h.textContent || "").includes("Series Translation Consistency"))
+      ?.closest("section, .panel");
+
+    if (!panel) return;
+
+    if (!panel.textContent.includes("VOLUME TRANSLATE FRACTION")) {
+      const out = document.getElementById("rtOutput");
+      if (out) globalThis.__ptlFinalTranslatorUpdate();
+    }
+  }, 700);
+}
