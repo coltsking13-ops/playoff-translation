@@ -6600,3 +6600,201 @@ if (!globalThis.__PTL_PLAYER_HERO_SPOTLIGHT__) {
     };
   }
 }
+
+/* LIVE DOM inject: player picture + prominent team jersey hero */
+if (!globalThis.__PTL_LIVE_PLAYER_HERO_INJECT__) {
+  globalThis.__PTL_LIVE_PLAYER_HERO_INJECT__ = true;
+
+  const HERO_PLAYER_IDS = {
+    "victor wembanyama": "1641705",
+    "lebron james": "2544",
+    "james harden": "201935",
+    "stephen curry": "201939",
+    "kevin durant": "201142",
+    "nikola jokic": "203999",
+    "giannis antetokounmpo": "203507",
+    "luka doncic": "1629029",
+    "jayson tatum": "1628369",
+    "jimmy butler": "202710",
+    "kawhi leonard": "202695",
+    "anthony davis": "203076",
+    "shai gilgeous-alexander": "1628983",
+    "joel embiid": "203954",
+    "damian lillard": "203081",
+    "kyrie irving": "202681",
+    "russell westbrook": "201566",
+    "paul george": "202331",
+    "devin booker": "1626164",
+    "donovan mitchell": "1628378",
+    "jaylen brown": "1627759",
+    "anthony edwards": "1630162",
+    "jalen brunson": "1628973"
+  };
+
+  const HERO_NUMBERS = {
+    "victor wembanyama|SAS": "1",
+    "lebron james|CLE": "23",
+    "lebron james|MIA": "6",
+    "lebron james|LAL": "23",
+    "james harden|OKC": "13",
+    "james harden|HOU": "13",
+    "james harden|BKN": "13",
+    "james harden|PHI": "1",
+    "james harden|LAC": "1",
+    "stephen curry|GSW": "30",
+    "kevin durant|OKC": "35",
+    "kevin durant|GSW": "35",
+    "kevin durant|BKN": "7",
+    "kevin durant|PHX": "35",
+    "nikola jokic|DEN": "15",
+    "giannis antetokounmpo|MIL": "34",
+    "luka doncic|DAL": "77",
+    "jayson tatum|BOS": "0",
+    "jimmy butler|MIA": "22",
+    "kawhi leonard|SAS": "2",
+    "kawhi leonard|TOR": "2",
+    "kawhi leonard|LAC": "2",
+    "anthony davis|LAL": "3",
+    "shai gilgeous-alexander|OKC": "2",
+    "joel embiid|PHI": "21",
+    "damian lillard|POR": "0",
+    "kyrie irving|DAL": "11",
+    "russell westbrook|OKC": "0",
+    "paul george|LAC": "13",
+    "devin booker|PHX": "1",
+    "donovan mitchell|CLE": "45",
+    "jaylen brown|BOS": "7",
+    "anthony edwards|MIN": "5",
+    "jalen brunson|NYK": "11"
+  };
+
+  const HERO_TEAMS = {
+    SAS: "San Antonio Spurs", CLE: "Cleveland Cavaliers", MIA: "Miami Heat", LAL: "Los Angeles Lakers",
+    HOU: "Houston Rockets", OKC: "Oklahoma City Thunder", BKN: "Brooklyn Nets", PHI: "Philadelphia 76ers",
+    LAC: "LA Clippers", GSW: "Golden State Warriors", DEN: "Denver Nuggets", MIL: "Milwaukee Bucks",
+    DAL: "Dallas Mavericks", BOS: "Boston Celtics", TOR: "Toronto Raptors", PHX: "Phoenix Suns",
+    POR: "Portland Trail Blazers", NYK: "New York Knicks", MIN: "Minnesota Timberwolves"
+  };
+
+  function liveHeroGet(row, keys) {
+    for (const k of keys) {
+      if (row && row[k] !== undefined && row[k] !== null && row[k] !== "" && row[k] !== "—") return row[k];
+    }
+    return null;
+  }
+
+  function liveHeroName() {
+    const p = state.current || {};
+    return p.name || p.playerName || p.meta?.name || p.meta?.playerName || p.meta?.displayName || "";
+  }
+
+  function liveHeroGames() {
+    return Array.isArray(state.current?.games) ? state.current.games : [];
+  }
+
+  function liveHeroProminentTeam() {
+    const counts = new Map();
+
+    for (const g of liveHeroGames()) {
+      const t = liveHeroGet(g, ["team", "TEAM", "teamAbbr", "TEAM_ABBREVIATION"]);
+      if (!t) continue;
+      const key = String(t).toUpperCase().trim();
+      counts.set(key, (counts.get(key) || 0) + 1);
+    }
+
+    if (!counts.size) return String(state.current?.meta?.team || "").toUpperCase();
+
+    return [...counts.entries()].sort((a, b) => b[1] - a[1])[0][0];
+  }
+
+  function liveHeroYears() {
+    const years = liveHeroGames()
+      .map(g => liveHeroGet(g, ["year", "season", "SEASON", "YEAR"]))
+      .filter(Boolean)
+      .map(String)
+      .map(y => y.includes("-") ? String(Number(y.slice(0, 4)) + 1) : y)
+      .filter(y => Number.isFinite(Number(y)))
+      .map(Number);
+
+    if (!years.length) return "";
+    const min = Math.min(...years);
+    const max = Math.max(...years);
+    return min === max ? String(max) : `${min}-${max}`;
+  }
+
+  function liveHeroPlayerId() {
+    const name = liveHeroName().toLowerCase().trim();
+    return state.current?.meta?.playerId || state.current?.meta?.nbaId || HERO_PLAYER_IDS[name] || "";
+  }
+
+  function liveHeroJersey(team) {
+    const name = liveHeroName().toLowerCase().trim();
+    return HERO_NUMBERS[`${name}|${team}`] || state.current?.meta?.jersey || "—";
+  }
+
+  function liveHeroHTML() {
+    const name = liveHeroName();
+    const team = liveHeroProminentTeam();
+    const jersey = liveHeroJersey(team);
+    const teamName = HERO_TEAMS[team] || team || "Team";
+    const id = liveHeroPlayerId();
+    const img = id ? `https://cdn.nba.com/headshots/nba/latest/1040x760/${id}.png` : "";
+    const years = liveHeroYears();
+    const games = liveHeroGames().length;
+    const series = Array.isArray(state.current?.series) ? state.current.series.length : 0;
+
+    return `
+      <section class="ptl-live-hero">
+        <div class="ptl-live-rank">#${jersey}</div>
+
+        <div class="ptl-live-copy">
+          <div class="ptl-live-fav">★ PROMINENT TEAM PROFILE</div>
+          <h1>${name}</h1>
+          <div class="ptl-live-teamline">
+            <span>${team}</span>
+            <b>${teamName}</b>
+            <span>•</span>
+            <span>${years}</span>
+            <span>•</span>
+            <span>Base / All-Leverage</span>
+          </div>
+
+          <div class="ptl-live-facts">
+            <div><small>NUMBER</small><strong>#${jersey}</strong></div>
+            <div><small>PROMINENT TEAM</small><strong>${team}</strong></div>
+            <div><small>GAMES</small><strong>${games}</strong></div>
+            <div><small>SERIES</small><strong>${series}</strong></div>
+          </div>
+        </div>
+
+        <div class="ptl-live-photo">
+          ${img ? `<img src="${img}" alt="${name}" onerror="this.style.display='none'">` : ""}
+        </div>
+      </section>
+    `;
+  }
+
+  function liveHeroInject() {
+    const name = liveHeroName();
+    if (!name) return;
+
+    const existing = document.querySelector(".ptl-live-hero");
+    if (existing) return;
+
+    const h1 = [...document.querySelectorAll("h1")]
+      .find(x => (x.textContent || "").trim().toLowerCase() === name.toLowerCase());
+
+    if (!h1) return;
+
+    const oldHero = h1.closest("section, .panel, .hero, .player-hero, .court-section-panel") || h1.parentElement;
+    if (!oldHero || oldHero.classList.contains("ptl-live-hero")) return;
+
+    oldHero.insertAdjacentHTML("beforebegin", liveHeroHTML());
+    oldHero.style.display = "none";
+    oldHero.setAttribute("data-ptl-hidden-simple-hero", "true");
+  }
+
+  setInterval(liveHeroInject, 500);
+  setTimeout(liveHeroInject, 200);
+  setTimeout(liveHeroInject, 1000);
+}
