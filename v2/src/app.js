@@ -74,7 +74,8 @@ async function loadPlayer(slug) {
   els.results.classList.remove("open");
   els.search.value = idx.name;
   els.view.classList.remove("empty");
-  els.view.innerHTML = `<div class="panel">Loading ${idx.name}...</div>`;
+  els.view.innerHTML = `
+    ${renderPlayerHero()}<div class="panel">Loading ${idx.name}...</div>`;
 
   const res = await fetch(`./data/${idx.file}?v=${Date.now()}`);
   state.current = await res.json();
@@ -94,6 +95,73 @@ function yearOptions(rows) {
 function rowYear(row) {
   return String(get(row, ["year", "season"]));
 }
+
+
+// ── Player Hero ──────────────────────────────────────────────────────────────
+const HERO_JERSEY = {
+  "victor wembanyama|SAS":"1",
+  "lebron james|CLE":"23","lebron james|LAL":"23","lebron james|MIA":"6",
+  "james harden|HOU":"13","james harden|OKC":"13","james harden|BKN":"13",
+  "james harden|PHI":"1","james harden|LAC":"1",
+  "stephen curry|GSW":"30",
+  "kevin durant|OKC":"35","kevin durant|GSW":"35","kevin durant|PHX":"35","kevin durant|BKN":"7",
+  "nikola jokic|DEN":"15",
+  "giannis antetokounmpo|MIL":"34",
+  "luka doncic|DAL":"77",
+  "jayson tatum|BOS":"0",
+  "shai gilgeous-alexander|OKC":"2",
+  "joel embiid|PHI":"21",
+  "jalen brunson|NYK":"11",
+};
+const HERO_NBA_IDS = {
+  "victor wembanyama":"1641705","lebron james":"2544","james harden":"201935",
+  "stephen curry":"201939","kevin durant":"201142","nikola jokic":"203999",
+  "giannis antetokounmpo":"203507","luka doncic":"1629029","jayson tatum":"1628369",
+  "shai gilgeous-alexander":"1628983","joel embiid":"203954","jalen brunson":"1628973",
+  "jimmy butler":"202710","kawhi leonard":"202695","anthony davis":"203076",
+  "chris paul":"101108","damian lillard":"203081","kobe bryant":"977",
+  "tim duncan":"1495","dwyane wade":"2548",
+};
+function heroProminentTeam(games) {
+  const c = {};
+  for (const g of (games||[])) { const t=String(g.team||g.TEAM||"").trim().toUpperCase(); if(t) c[t]=(c[t]||0)+1; }
+  let best="",bestN=0;
+  for (const [t,n] of Object.entries(c)) { if(n>bestN){bestN=n;best=t;} }
+  return best;
+}
+function renderPlayerHero() {
+  const p = state.current;
+  if (!p) return "";
+  const meta   = p.meta || {};
+  const name   = meta.name || "";
+  const nameLo = name.toLowerCase();
+  const games  = Array.isArray(p.games)  ? p.games  : [];
+  const series = Array.isArray(p.series) ? p.series : [];
+  const team   = heroProminentTeam(games) || (meta.teams||[])[0] || "";
+  const jNum   = HERO_JERSEY[`${nameLo}|${team}`] || meta.jersey || meta.jerseyNumber || "—";
+  const nbaId  = meta.nbaId||meta.playerId||meta.id||HERO_NBA_IDS[nameLo]||"";
+  const imgUrl = nbaId ? `[cdn.nba.com](https://cdn.nba.com/headshots/nba/latest/1040x760/${nbaId}.png)` : "";
+  const yrs    = [...new Set(games.map(g=>Number(g.year||g.season)).filter(Boolean))].sort();
+  const ySpan  = yrs.length ? (yrs[0]===yrs[yrs.length-1] ? String(yrs[0]) : `${yrs[0]}–${yrs[yrs.length-1]}`) : "—";
+  const photo  = imgUrl ? `<div class="ptl-hero-photo"><img src="${imgUrl}" alt="${name}" onerror="this.parentElement.style.display='none'"/></div>` : "";
+  return `
+<section class="ptl-player-hero">
+  <div class="ptl-hero-number" aria-hidden="true">${jNum}</div>
+  <div class="ptl-hero-copy">
+    <div class="ptl-hero-eyebrow">Playoff Profile</div>
+    <h1 class="ptl-hero-name">${name.toUpperCase()}</h1>
+    <div class="ptl-hero-teamline">${team?`<span class="ptl-hero-team-badge">${team}</span>`:""}</div>
+    <div class="ptl-hero-facts">
+      <div><small>YEARS</small><strong>${ySpan}</strong></div>
+      <div><small>GAMES</small><strong>${meta.gameCount??games.length}</strong></div>
+      <div><small>SERIES</small><strong>${meta.seriesCount??series.length}</strong></div>
+      <div><small>JERSEY</small><strong>#${jNum}</strong></div>
+    </div>
+  </div>
+  ${photo}
+</section>`;
+}
+// ── End Player Hero ───────────────────────────────────────────────────────────
 
 function renderPlayer() {
   const p = state.current;
@@ -6345,674 +6413,4 @@ if (!globalThis.__PTL_SAFE_VOLUME_TRANSLATE_INJECT__) {
 
   setTimeout(svtInject, 300);
   setTimeout(svtInject, 1000);
-}
-
-/* Player dashboard hero: image + prominent team number */
-if (!globalThis.__PTL_PLAYER_HERO_SPOTLIGHT__) {
-  globalThis.__PTL_PLAYER_HERO_SPOTLIGHT__ = true;
-
-  const PTL_PLAYER_ID_FALLBACKS = {
-    "victor wembanyama": "1641705",
-    "lebron james": "2544",
-    "james harden": "201935",
-    "stephen curry": "201939",
-    "kevin durant": "201142",
-    "nikola jokic": "203999",
-    "giannis antetokounmpo": "203507",
-    "luka doncic": "1629029",
-    "jayson tatum": "1628369",
-    "jimmy butler": "202710",
-    "kawhi leonard": "202695",
-    "anthony davis": "203076",
-    "chris paul": "101108",
-    "shai gilgeous-alexander": "1628983",
-    "joel embiid": "203954",
-    "damian lillard": "203081",
-    "kyrie irving": "202681",
-    "russell westbrook": "201566",
-    "paul george": "202331",
-    "devin booker": "1626164",
-    "donovan mitchell": "1628378",
-    "jaylen brown": "1627759",
-    "anthony edwards": "1630162",
-    "jalen brunson": "1628973"
-  };
-
-  const PTL_JERSEY_BY_PLAYER_TEAM = {
-    "victor wembanyama|SAS": "1",
-
-    "lebron james|CLE": "23",
-    "lebron james|MIA": "6",
-    "lebron james|LAL": "23",
-
-    "james harden|OKC": "13",
-    "james harden|HOU": "13",
-    "james harden|BKN": "13",
-    "james harden|PHI": "1",
-    "james harden|LAC": "1",
-
-    "stephen curry|GSW": "30",
-    "kevin durant|OKC": "35",
-    "kevin durant|GSW": "35",
-    "kevin durant|BKN": "7",
-    "kevin durant|PHX": "35",
-
-    "nikola jokic|DEN": "15",
-    "giannis antetokounmpo|MIL": "34",
-    "luka doncic|DAL": "77",
-    "luka doncic|LAL": "77",
-    "jayson tatum|BOS": "0",
-    "jimmy butler|CHI": "21",
-    "jimmy butler|MIN": "23",
-    "jimmy butler|PHI": "23",
-    "jimmy butler|MIA": "22",
-    "kawhi leonard|SAS": "2",
-    "kawhi leonard|TOR": "2",
-    "kawhi leonard|LAC": "2",
-    "anthony davis|NOP": "23",
-    "anthony davis|LAL": "3",
-    "chris paul|NOH": "3",
-    "chris paul|LAC": "3",
-    "chris paul|HOU": "3",
-    "chris paul|OKC": "3",
-    "chris paul|PHX": "3",
-    "shai gilgeous-alexander|OKC": "2",
-    "joel embiid|PHI": "21",
-    "damian lillard|POR": "0",
-    "damian lillard|MIL": "0",
-    "kyrie irving|CLE": "2",
-    "kyrie irving|BOS": "11",
-    "kyrie irving|BKN": "11",
-    "kyrie irving|DAL": "11",
-    "russell westbrook|OKC": "0",
-    "russell westbrook|HOU": "0",
-    "russell westbrook|WAS": "4",
-    "russell westbrook|LAL": "0",
-    "russell westbrook|LAC": "0",
-    "paul george|IND": "24",
-    "paul george|OKC": "13",
-    "paul george|LAC": "13",
-    "paul george|PHI": "8",
-    "devin booker|PHX": "1",
-    "donovan mitchell|UTA": "45",
-    "donovan mitchell|CLE": "45",
-    "jaylen brown|BOS": "7",
-    "anthony edwards|MIN": "5",
-    "jalen brunson|DAL": "13",
-    "jalen brunson|NYK": "11"
-  };
-
-  const PTL_TEAM_NAMES = {
-    ATL: "Atlanta Hawks", BOS: "Boston Celtics", BKN: "Brooklyn Nets", CHA: "Charlotte Hornets",
-    CHI: "Chicago Bulls", CLE: "Cleveland Cavaliers", DAL: "Dallas Mavericks", DEN: "Denver Nuggets",
-    DET: "Detroit Pistons", GSW: "Golden State Warriors", HOU: "Houston Rockets", IND: "Indiana Pacers",
-    LAC: "LA Clippers", LAL: "Los Angeles Lakers", MEM: "Memphis Grizzlies", MIA: "Miami Heat",
-    MIL: "Milwaukee Bucks", MIN: "Minnesota Timberwolves", NOP: "New Orleans Pelicans", NOH: "New Orleans Hornets",
-    NYK: "New York Knicks", OKC: "Oklahoma City Thunder", ORL: "Orlando Magic", PHI: "Philadelphia 76ers",
-    PHX: "Phoenix Suns", POR: "Portland Trail Blazers", SAC: "Sacramento Kings", SAS: "San Antonio Spurs",
-    SEA: "Seattle SuperSonics", TOR: "Toronto Raptors", UTA: "Utah Jazz", WAS: "Washington Wizards"
-  };
-
-  function ptlHeroVal(row, keys) {
-    for (const k of keys) {
-      if (row && row[k] !== undefined && row[k] !== null && row[k] !== "" && row[k] !== "—") return row[k];
-    }
-    return null;
-  }
-
-  function ptlHeroPlayer() {
-    return state.current || {};
-  }
-
-  function ptlHeroGames() {
-    const p = ptlHeroPlayer();
-    return Array.isArray(p.games) ? p.games : [];
-  }
-
-  function ptlHeroSeries() {
-    const p = ptlHeroPlayer();
-    return Array.isArray(p.series) ? p.series : [];
-  }
-
-  function ptlHeroName() {
-    const p = ptlHeroPlayer();
-    return p.name || p.playerName || p.meta?.name || p.meta?.playerName || p.meta?.displayName || "Player";
-  }
-
-  function ptlHeroKeyName() {
-    return String(ptlHeroName()).toLowerCase().trim();
-  }
-
-  function ptlHeroPlayerId() {
-    const p = ptlHeroPlayer();
-    const meta = p.meta || {};
-    const fromMeta = ptlHeroVal(meta, ["playerId", "PLAYER_ID", "nbaId", "id"]);
-    if (fromMeta) return String(fromMeta);
-
-    const game = ptlHeroGames().find(g => ptlHeroVal(g, ["playerId", "PLAYER_ID", "nbaId", "id"]));
-    const fromGame = ptlHeroVal(game, ["playerId", "PLAYER_ID", "nbaId", "id"]);
-    if (fromGame) return String(fromGame);
-
-    return PTL_PLAYER_ID_FALLBACKS[ptlHeroKeyName()] || "";
-  }
-
-  function ptlHeroProminentTeam() {
-    const counts = new Map();
-
-    for (const g of ptlHeroGames()) {
-      const t = ptlHeroVal(g, ["team", "TEAM", "teamAbbr", "TEAM_ABBREVIATION", "franchise"]);
-      if (!t) continue;
-      const key = String(t).toUpperCase().trim();
-      counts.set(key, (counts.get(key) || 0) + 1);
-    }
-
-    if (!counts.size) {
-      const p = ptlHeroPlayer();
-      const metaTeam = ptlHeroVal(p.meta || {}, ["team", "TEAM", "teamAbbr", "primaryTeam"]);
-      return metaTeam ? String(metaTeam).toUpperCase() : "";
-    }
-
-    return [...counts.entries()].sort((a, b) => b[1] - a[1])[0][0];
-  }
-
-  function ptlHeroYears() {
-    const years = ptlHeroGames()
-      .map(g => ptlHeroVal(g, ["year", "season", "SEASON", "YEAR"]))
-      .filter(Boolean)
-      .map(String)
-      .map(y => y.includes("-") ? String(Number(y.slice(0, 4)) + 1) : y)
-      .filter(y => Number.isFinite(Number(y)));
-
-    if (!years.length) return "";
-    const min = Math.min(...years.map(Number));
-    const max = Math.max(...years.map(Number));
-    return min === max ? String(max) : `${min}-${max}`;
-  }
-
-  function ptlHeroJerseyNumber(team) {
-    const key = `${ptlHeroKeyName()}|${String(team).toUpperCase()}`;
-    const mapped = PTL_JERSEY_BY_PLAYER_TEAM[key];
-    if (mapped) return mapped;
-
-    const p = ptlHeroPlayer();
-    const metaNum = ptlHeroVal(p.meta || {}, ["jersey", "jerseyNumber", "number", "uniformNumber"]);
-    if (metaNum) return String(metaNum);
-
-    const row = ptlHeroGames().find(g => String(ptlHeroVal(g, ["team", "TEAM", "teamAbbr"]) || "").toUpperCase() === String(team).toUpperCase());
-    const gameNum = ptlHeroVal(row, ["jersey", "jerseyNumber", "number", "uniformNumber"]);
-    if (gameNum) return String(gameNum);
-
-    return "";
-  }
-
-  function ptlHeroImgSrc() {
-    const id = ptlHeroPlayerId();
-    if (!id) return "";
-    return `https://cdn.nba.com/headshots/nba/latest/1040x760/${id}.png`;
-  }
-
-  function ptlPlayerHeroHTML() {
-    const name = ptlHeroName();
-    const team = ptlHeroProminentTeam();
-    const number = ptlHeroJerseyNumber(team);
-    const img = ptlHeroImgSrc();
-    const years = ptlHeroYears();
-    const teamName = PTL_TEAM_NAMES[team] || team || "Team";
-    const games = ptlHeroGames().length;
-    const series = ptlHeroSeries().length;
-
-    return `
-      <section class="ptl-player-spotlight">
-        <div class="ptl-rank-mark">#${number || "—"}</div>
-
-        <div class="ptl-player-spotlight-copy">
-          <div class="ptl-eyebrow">★ Prominent Team Profile</div>
-          <h1>${name}</h1>
-          <div class="ptl-hero-teamline">
-            <span class="ptl-team-pill">${team || "—"}</span>
-            <span>${teamName}</span>
-            <span class="ptl-dot">•</span>
-            <span>${years || "Playoffs"}</span>
-            <span class="ptl-dot">•</span>
-            <span>Base / All-Leverage</span>
-          </div>
-
-          <div class="ptl-hero-facts">
-            <div><span>NUMBER</span><strong>#${number || "—"}</strong></div>
-            <div><span>TEAM</span><strong>${team || "—"}</strong></div>
-            <div><span>GAMES</span><strong>${games}</strong></div>
-            <div><span>SERIES</span><strong>${series}</strong></div>
-          </div>
-        </div>
-
-        <div class="ptl-player-photo-wrap ${img ? "" : "no-photo"}">
-          ${img ? `<img src="${img}" alt="${name}" onerror="this.parentElement.classList.add('no-photo');this.remove();">` : ""}
-        </div>
-      </section>
-    `;
-  }
-
-  const ptlOldDashboardHeroRender = typeof renderDashboard === "function" ? renderDashboard : null;
-
-  if (ptlOldDashboardHeroRender) {
-    renderDashboard = function() {
-      return ptlPlayerHeroHTML() + ptlOldDashboardHeroRender();
-    };
-  }
-}
-
-/* LIVE DOM inject: player picture + prominent team jersey hero */
-if (!globalThis.__PTL_LIVE_PLAYER_HERO_INJECT__) {
-  globalThis.__PTL_LIVE_PLAYER_HERO_INJECT__ = true;
-
-  const HERO_PLAYER_IDS = {
-    "victor wembanyama": "1641705",
-    "lebron james": "2544",
-    "james harden": "201935",
-    "stephen curry": "201939",
-    "kevin durant": "201142",
-    "nikola jokic": "203999",
-    "giannis antetokounmpo": "203507",
-    "luka doncic": "1629029",
-    "jayson tatum": "1628369",
-    "jimmy butler": "202710",
-    "kawhi leonard": "202695",
-    "anthony davis": "203076",
-    "shai gilgeous-alexander": "1628983",
-    "joel embiid": "203954",
-    "damian lillard": "203081",
-    "kyrie irving": "202681",
-    "russell westbrook": "201566",
-    "paul george": "202331",
-    "devin booker": "1626164",
-    "donovan mitchell": "1628378",
-    "jaylen brown": "1627759",
-    "anthony edwards": "1630162",
-    "jalen brunson": "1628973"
-  };
-
-  const HERO_NUMBERS = {
-    "victor wembanyama|SAS": "1",
-    "lebron james|CLE": "23",
-    "lebron james|MIA": "6",
-    "lebron james|LAL": "23",
-    "james harden|OKC": "13",
-    "james harden|HOU": "13",
-    "james harden|BKN": "13",
-    "james harden|PHI": "1",
-    "james harden|LAC": "1",
-    "stephen curry|GSW": "30",
-    "kevin durant|OKC": "35",
-    "kevin durant|GSW": "35",
-    "kevin durant|BKN": "7",
-    "kevin durant|PHX": "35",
-    "nikola jokic|DEN": "15",
-    "giannis antetokounmpo|MIL": "34",
-    "luka doncic|DAL": "77",
-    "jayson tatum|BOS": "0",
-    "jimmy butler|MIA": "22",
-    "kawhi leonard|SAS": "2",
-    "kawhi leonard|TOR": "2",
-    "kawhi leonard|LAC": "2",
-    "anthony davis|LAL": "3",
-    "shai gilgeous-alexander|OKC": "2",
-    "joel embiid|PHI": "21",
-    "damian lillard|POR": "0",
-    "kyrie irving|DAL": "11",
-    "russell westbrook|OKC": "0",
-    "paul george|LAC": "13",
-    "devin booker|PHX": "1",
-    "donovan mitchell|CLE": "45",
-    "jaylen brown|BOS": "7",
-    "anthony edwards|MIN": "5",
-    "jalen brunson|NYK": "11"
-  };
-
-  const HERO_TEAMS = {
-    SAS: "San Antonio Spurs", CLE: "Cleveland Cavaliers", MIA: "Miami Heat", LAL: "Los Angeles Lakers",
-    HOU: "Houston Rockets", OKC: "Oklahoma City Thunder", BKN: "Brooklyn Nets", PHI: "Philadelphia 76ers",
-    LAC: "LA Clippers", GSW: "Golden State Warriors", DEN: "Denver Nuggets", MIL: "Milwaukee Bucks",
-    DAL: "Dallas Mavericks", BOS: "Boston Celtics", TOR: "Toronto Raptors", PHX: "Phoenix Suns",
-    POR: "Portland Trail Blazers", NYK: "New York Knicks", MIN: "Minnesota Timberwolves"
-  };
-
-  function liveHeroGet(row, keys) {
-    for (const k of keys) {
-      if (row && row[k] !== undefined && row[k] !== null && row[k] !== "" && row[k] !== "—") return row[k];
-    }
-    return null;
-  }
-
-  function liveHeroName() {
-    const p = state.current || {};
-    return p.name || p.playerName || p.meta?.name || p.meta?.playerName || p.meta?.displayName || "";
-  }
-
-  function liveHeroGames() {
-    return Array.isArray(state.current?.games) ? state.current.games : [];
-  }
-
-  function liveHeroProminentTeam() {
-    const counts = new Map();
-
-    for (const g of liveHeroGames()) {
-      const t = liveHeroGet(g, ["team", "TEAM", "teamAbbr", "TEAM_ABBREVIATION"]);
-      if (!t) continue;
-      const key = String(t).toUpperCase().trim();
-      counts.set(key, (counts.get(key) || 0) + 1);
-    }
-
-    if (!counts.size) return String(state.current?.meta?.team || "").toUpperCase();
-
-    return [...counts.entries()].sort((a, b) => b[1] - a[1])[0][0];
-  }
-
-  function liveHeroYears() {
-    const years = liveHeroGames()
-      .map(g => liveHeroGet(g, ["year", "season", "SEASON", "YEAR"]))
-      .filter(Boolean)
-      .map(String)
-      .map(y => y.includes("-") ? String(Number(y.slice(0, 4)) + 1) : y)
-      .filter(y => Number.isFinite(Number(y)))
-      .map(Number);
-
-    if (!years.length) return "";
-    const min = Math.min(...years);
-    const max = Math.max(...years);
-    return min === max ? String(max) : `${min}-${max}`;
-  }
-
-  function liveHeroPlayerId() {
-    const name = liveHeroName().toLowerCase().trim();
-    return state.current?.meta?.playerId || state.current?.meta?.nbaId || HERO_PLAYER_IDS[name] || "";
-  }
-
-  function liveHeroJersey(team) {
-    const name = liveHeroName().toLowerCase().trim();
-    return HERO_NUMBERS[`${name}|${team}`] || state.current?.meta?.jersey || "—";
-  }
-
-  function liveHeroHTML() {
-    const name = liveHeroName();
-    const team = liveHeroProminentTeam();
-    const jersey = liveHeroJersey(team);
-    const teamName = HERO_TEAMS[team] || team || "Team";
-    const id = liveHeroPlayerId();
-    const img = id ? `https://cdn.nba.com/headshots/nba/latest/1040x760/${id}.png` : "";
-    const years = liveHeroYears();
-    const games = liveHeroGames().length;
-    const series = Array.isArray(state.current?.series) ? state.current.series.length : 0;
-
-    return `
-      <section class="ptl-live-hero">
-        <div class="ptl-live-rank">#${jersey}</div>
-
-        <div class="ptl-live-copy">
-          <div class="ptl-live-fav">★ PROMINENT TEAM PROFILE</div>
-          <h1>${name}</h1>
-          <div class="ptl-live-teamline">
-            <span>${team}</span>
-            <b>${teamName}</b>
-            <span>•</span>
-            <span>${years}</span>
-            <span>•</span>
-            <span>Base / All-Leverage</span>
-          </div>
-
-          <div class="ptl-live-facts">
-            <div><small>NUMBER</small><strong>#${jersey}</strong></div>
-            <div><small>PROMINENT TEAM</small><strong>${team}</strong></div>
-            <div><small>GAMES</small><strong>${games}</strong></div>
-            <div><small>SERIES</small><strong>${series}</strong></div>
-          </div>
-        </div>
-
-        <div class="ptl-live-photo">
-          ${img ? `<img src="${img}" alt="${name}" onerror="this.style.display='none'">` : ""}
-        </div>
-      </section>
-    `;
-  }
-
-  function liveHeroInject() {
-    const name = liveHeroName();
-    if (!name) return;
-
-    const existing = document.querySelector(".ptl-live-hero");
-    if (existing) return;
-
-    const h1 = [...document.querySelectorAll("h1")]
-      .find(x => (x.textContent || "").trim().toLowerCase() === name.toLowerCase());
-
-    if (!h1) return;
-
-    const oldHero = h1.closest("section, .panel, .hero, .player-hero, .court-section-panel") || h1.parentElement;
-    if (!oldHero || oldHero.classList.contains("ptl-live-hero")) return;
-
-    oldHero.insertAdjacentHTML("beforebegin", liveHeroHTML());
-    oldHero.style.display = "none";
-    oldHero.setAttribute("data-ptl-hidden-simple-hero", "true");
-  }
-
-  setInterval(liveHeroInject, 500);
-  setTimeout(liveHeroInject, 200);
-  setTimeout(liveHeroInject, 1000);
-}
-
-/* FINAL clean dashboard hero replacement */
-if (!globalThis.__PTL_CLEAN_DASHBOARD_PLAYER_HERO__) {
-  globalThis.__PTL_CLEAN_DASHBOARD_PLAYER_HERO__ = true;
-
-  const CLEAN_HERO_IDS = {
-    "victor wembanyama":"1641705",
-    "lebron james":"2544",
-    "james harden":"201935",
-    "stephen curry":"201939",
-    "kevin durant":"201142",
-    "nikola jokic":"203999",
-    "giannis antetokounmpo":"203507",
-    "luka doncic":"1629029",
-    "jayson tatum":"1628369",
-    "jimmy butler":"202710",
-    "kawhi leonard":"202695",
-    "anthony davis":"203076",
-    "shai gilgeous-alexander":"1628983",
-    "joel embiid":"203954",
-    "damian lillard":"203081",
-    "kyrie irving":"202681",
-    "russell westbrook":"201566",
-    "paul george":"202331",
-    "devin booker":"1626164",
-    "donovan mitchell":"1628378",
-    "jaylen brown":"1627759",
-    "anthony edwards":"1630162",
-    "jalen brunson":"1628973"
-  };
-
-  const CLEAN_HERO_NUMBERS = {
-    "victor wembanyama|SAS":"1",
-    "lebron james|CLE":"23",
-    "lebron james|MIA":"6",
-    "lebron james|LAL":"23",
-    "james harden|HOU":"13",
-    "james harden|OKC":"13",
-    "james harden|BKN":"13",
-    "james harden|PHI":"1",
-    "james harden|LAC":"1",
-    "stephen curry|GSW":"30",
-    "kevin durant|OKC":"35",
-    "kevin durant|GSW":"35",
-    "kevin durant|BKN":"7",
-    "kevin durant|PHX":"35",
-    "nikola jokic|DEN":"15",
-    "giannis antetokounmpo|MIL":"34",
-    "luka doncic|DAL":"77",
-    "jayson tatum|BOS":"0",
-    "jimmy butler|MIA":"22",
-    "kawhi leonard|SAS":"2",
-    "kawhi leonard|TOR":"2",
-    "kawhi leonard|LAC":"2",
-    "anthony davis|LAL":"3",
-    "shai gilgeous-alexander|OKC":"2",
-    "joel embiid|PHI":"21",
-    "damian lillard|POR":"0",
-    "kyrie irving|CLE":"2",
-    "russell westbrook|OKC":"0",
-    "paul george|LAC":"13",
-    "devin booker|PHX":"1",
-    "donovan mitchell|UTA":"45",
-    "jaylen brown|BOS":"7",
-    "anthony edwards|MIN":"5",
-    "jalen brunson|NYK":"11"
-  };
-
-  const CLEAN_HERO_TEAM_NAMES = {
-    SAS:"San Antonio Spurs", CLE:"Cleveland Cavaliers", MIA:"Miami Heat", LAL:"Los Angeles Lakers",
-    HOU:"Houston Rockets", OKC:"Oklahoma City Thunder", BKN:"Brooklyn Nets", PHI:"Philadelphia 76ers",
-    LAC:"LA Clippers", GSW:"Golden State Warriors", DEN:"Denver Nuggets", MIL:"Milwaukee Bucks",
-    DAL:"Dallas Mavericks", BOS:"Boston Celtics", TOR:"Toronto Raptors", PHX:"Phoenix Suns",
-    POR:"Portland Trail Blazers", NYK:"New York Knicks", MIN:"Minnesota Timberwolves", UTA:"Utah Jazz"
-  };
-
-  function cleanHeroValue(row, keys) {
-    for (const k of keys) {
-      if (row && row[k] !== undefined && row[k] !== null && row[k] !== "" && row[k] !== "—") return row[k];
-    }
-    return null;
-  }
-
-  function cleanHeroName() {
-    const p = state.current || {};
-    return p.name || p.playerName || p.meta?.name || p.meta?.playerName || p.meta?.displayName || "Player";
-  }
-
-  function cleanHeroGames() {
-    return Array.isArray(state.current?.games) ? state.current.games : [];
-  }
-
-  function cleanHeroSeries() {
-    return Array.isArray(state.current?.series) ? state.current.series : [];
-  }
-
-  function cleanHeroProminentTeam() {
-    const counts = new Map();
-
-    for (const g of cleanHeroGames()) {
-      const t = cleanHeroValue(g, ["team", "TEAM", "teamAbbr", "TEAM_ABBREVIATION"]);
-      if (!t) continue;
-      const key = String(t).toUpperCase().trim();
-      counts.set(key, (counts.get(key) || 0) + 1);
-    }
-
-    if (!counts.size) {
-      const fallback = cleanHeroValue(state.current?.meta || {}, ["team", "TEAM", "teamAbbr", "primaryTeam"]);
-      return fallback ? String(fallback).toUpperCase() : "";
-    }
-
-    return [...counts.entries()].sort((a, b) => b[1] - a[1])[0][0];
-  }
-
-  function cleanHeroYears() {
-    const years = cleanHeroGames()
-      .map(g => cleanHeroValue(g, ["year", "season", "SEASON", "YEAR"]))
-      .filter(Boolean)
-      .map(String)
-      .map(y => y.includes("-") ? String(Number(y.slice(0, 4)) + 1) : y)
-      .filter(y => Number.isFinite(Number(y)))
-      .map(Number);
-
-    if (!years.length) return "";
-    const min = Math.min(...years);
-    const max = Math.max(...years);
-    return min === max ? String(max) : `${min}-${max}`;
-  }
-
-  function cleanHeroPlayerId() {
-    const meta = state.current?.meta || {};
-    const direct = cleanHeroValue(meta, ["playerId", "PLAYER_ID", "nbaId", "id"]);
-    if (direct) return String(direct);
-
-    const fromGame = cleanHeroValue(cleanHeroGames()[0], ["playerId", "PLAYER_ID", "nbaId", "id"]);
-    if (fromGame) return String(fromGame);
-
-    return CLEAN_HERO_IDS[cleanHeroName().toLowerCase().trim()] || "";
-  }
-
-  function cleanHeroNumber(team) {
-    const key = `${cleanHeroName().toLowerCase().trim()}|${team}`;
-    return CLEAN_HERO_NUMBERS[key] || cleanHeroValue(state.current?.meta || {}, ["jersey", "jerseyNumber", "number"]) || "—";
-  }
-
-  function cleanHeroHTML() {
-    const name = cleanHeroName();
-    const team = cleanHeroProminentTeam();
-    const teamName = CLEAN_HERO_TEAM_NAMES[team] || team || "Team";
-    const number = cleanHeroNumber(team);
-    const years = cleanHeroYears();
-    const playerId = cleanHeroPlayerId();
-    const img = playerId ? `https://cdn.nba.com/headshots/nba/latest/1040x760/${playerId}.png` : "";
-
-    return `
-      <section class="clean-player-hero">
-        <div class="clean-player-number">#${number}</div>
-
-        <div class="clean-player-copy">
-          <div class="clean-player-label">★ PROMINENT TEAM PROFILE</div>
-          <h1>${name}</h1>
-          <div class="clean-player-teamline">
-            <span>${team}</span>
-            <b>${teamName}</b>
-            <span>•</span>
-            <span>${years}</span>
-            <span>•</span>
-            <span>Base / All-Leverage</span>
-          </div>
-
-          <div class="clean-player-facts">
-            <div><small>NUMBER</small><strong>#${number}</strong></div>
-            <div><small>PROMINENT TEAM</small><strong>${team}</strong></div>
-            <div><small>GAMES</small><strong>${cleanHeroGames().length}</strong></div>
-            <div><small>SERIES</small><strong>${cleanHeroSeries().length}</strong></div>
-          </div>
-        </div>
-
-        <div class="clean-player-photo">
-          ${img ? `<img src="${img}" alt="${name}" onerror="this.style.display='none'">` : ""}
-        </div>
-      </section>
-    `;
-  }
-
-  function cleanHeroInjectCSS() {
-    if (document.getElementById("clean-player-hero-css")) return;
-
-    const style = document.createElement("style");
-    style.id = "clean-player-hero-css";
-    style.textContent = `
-      .clean-player-hero{position:relative;overflow:hidden;min-height:430px;margin:0 0 18px;padding:52px 48px;border:1px solid rgba(148,163,184,.24);border-radius:26px;background:radial-gradient(circle at 72% 18%,rgba(96,165,250,.20),transparent 34%),radial-gradient(circle at 95% 85%,rgba(34,197,94,.12),transparent 32%),linear-gradient(135deg,rgba(15,23,42,.98),rgba(12,18,25,.98));}
-      .clean-player-hero:before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);background-size:54px 54px;opacity:.55;}
-      .clean-player-number{position:absolute;left:34%;top:5%;z-index:1;font-size:clamp(120px,18vw,245px);line-height:.8;font-weight:950;letter-spacing:-.08em;color:rgba(226,232,240,.72);}
-      .clean-player-copy{position:relative;z-index:3;max-width:650px;}
-      .clean-player-label{color:#9fb3d9;font-size:12px;font-weight:900;letter-spacing:.16em;margin-bottom:14px;text-transform:uppercase;}
-      .clean-player-copy h1{margin:0;max-width:650px;color:#f8fafc;font-size:clamp(56px,7vw,104px);line-height:.86;letter-spacing:-.075em;text-shadow:0 3px 0 rgba(0,0,0,.35);}
-      .clean-player-teamline{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px;color:#dbeafe;font-size:17px;}
-      .clean-player-facts{display:grid;grid-template-columns:repeat(4,minmax(100px,1fr));gap:14px;max-width:640px;margin-top:40px;}
-      .clean-player-facts div{border-top:1px solid rgba(148,163,184,.24);padding-top:14px;}
-      .clean-player-facts small{display:block;color:#9fb3d9;font-size:11px;text-transform:uppercase;letter-spacing:.16em;font-weight:900;}
-      .clean-player-facts strong{display:block;margin-top:8px;color:#fff;font-size:24px;}
-      .clean-player-photo{position:absolute;right:5%;bottom:-5%;z-index:2;width:min(44vw,520px);height:96%;display:flex;align-items:flex-end;justify-content:center;pointer-events:none;}
-      .clean-player-photo img{max-width:100%;max-height:100%;object-fit:contain;filter:drop-shadow(0 28px 28px rgba(0,0,0,.55));}
-      @media(max-width:900px){.clean-player-hero{min-height:520px;padding:34px 24px}.clean-player-photo{right:-6%;width:72vw;opacity:.72}.clean-player-number{left:28%;top:13%}.clean-player-facts{grid-template-columns:repeat(2,minmax(120px,1fr));}}
-    `;
-    document.head.appendChild(style);
-  }
-
-  const oldCleanRenderDashboard = typeof renderDashboard === "function" ? renderDashboard : null;
-
-  renderDashboard = function() {
-    cleanHeroInjectCSS();
-
-    const old = oldCleanRenderDashboard ? oldCleanRenderDashboard() : "";
-    return cleanHeroHTML() + old;
-  };
 }
