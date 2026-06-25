@@ -6346,3 +6346,257 @@ if (!globalThis.__PTL_SAFE_VOLUME_TRANSLATE_INJECT__) {
   setTimeout(svtInject, 300);
   setTimeout(svtInject, 1000);
 }
+
+/* Player dashboard hero: image + prominent team number */
+if (!globalThis.__PTL_PLAYER_HERO_SPOTLIGHT__) {
+  globalThis.__PTL_PLAYER_HERO_SPOTLIGHT__ = true;
+
+  const PTL_PLAYER_ID_FALLBACKS = {
+    "victor wembanyama": "1641705",
+    "lebron james": "2544",
+    "james harden": "201935",
+    "stephen curry": "201939",
+    "kevin durant": "201142",
+    "nikola jokic": "203999",
+    "giannis antetokounmpo": "203507",
+    "luka doncic": "1629029",
+    "jayson tatum": "1628369",
+    "jimmy butler": "202710",
+    "kawhi leonard": "202695",
+    "anthony davis": "203076",
+    "chris paul": "101108",
+    "shai gilgeous-alexander": "1628983",
+    "joel embiid": "203954",
+    "damian lillard": "203081",
+    "kyrie irving": "202681",
+    "russell westbrook": "201566",
+    "paul george": "202331",
+    "devin booker": "1626164",
+    "donovan mitchell": "1628378",
+    "jaylen brown": "1627759",
+    "anthony edwards": "1630162",
+    "jalen brunson": "1628973"
+  };
+
+  const PTL_JERSEY_BY_PLAYER_TEAM = {
+    "victor wembanyama|SAS": "1",
+
+    "lebron james|CLE": "23",
+    "lebron james|MIA": "6",
+    "lebron james|LAL": "23",
+
+    "james harden|OKC": "13",
+    "james harden|HOU": "13",
+    "james harden|BKN": "13",
+    "james harden|PHI": "1",
+    "james harden|LAC": "1",
+
+    "stephen curry|GSW": "30",
+    "kevin durant|OKC": "35",
+    "kevin durant|GSW": "35",
+    "kevin durant|BKN": "7",
+    "kevin durant|PHX": "35",
+
+    "nikola jokic|DEN": "15",
+    "giannis antetokounmpo|MIL": "34",
+    "luka doncic|DAL": "77",
+    "luka doncic|LAL": "77",
+    "jayson tatum|BOS": "0",
+    "jimmy butler|CHI": "21",
+    "jimmy butler|MIN": "23",
+    "jimmy butler|PHI": "23",
+    "jimmy butler|MIA": "22",
+    "kawhi leonard|SAS": "2",
+    "kawhi leonard|TOR": "2",
+    "kawhi leonard|LAC": "2",
+    "anthony davis|NOP": "23",
+    "anthony davis|LAL": "3",
+    "chris paul|NOH": "3",
+    "chris paul|LAC": "3",
+    "chris paul|HOU": "3",
+    "chris paul|OKC": "3",
+    "chris paul|PHX": "3",
+    "shai gilgeous-alexander|OKC": "2",
+    "joel embiid|PHI": "21",
+    "damian lillard|POR": "0",
+    "damian lillard|MIL": "0",
+    "kyrie irving|CLE": "2",
+    "kyrie irving|BOS": "11",
+    "kyrie irving|BKN": "11",
+    "kyrie irving|DAL": "11",
+    "russell westbrook|OKC": "0",
+    "russell westbrook|HOU": "0",
+    "russell westbrook|WAS": "4",
+    "russell westbrook|LAL": "0",
+    "russell westbrook|LAC": "0",
+    "paul george|IND": "24",
+    "paul george|OKC": "13",
+    "paul george|LAC": "13",
+    "paul george|PHI": "8",
+    "devin booker|PHX": "1",
+    "donovan mitchell|UTA": "45",
+    "donovan mitchell|CLE": "45",
+    "jaylen brown|BOS": "7",
+    "anthony edwards|MIN": "5",
+    "jalen brunson|DAL": "13",
+    "jalen brunson|NYK": "11"
+  };
+
+  const PTL_TEAM_NAMES = {
+    ATL: "Atlanta Hawks", BOS: "Boston Celtics", BKN: "Brooklyn Nets", CHA: "Charlotte Hornets",
+    CHI: "Chicago Bulls", CLE: "Cleveland Cavaliers", DAL: "Dallas Mavericks", DEN: "Denver Nuggets",
+    DET: "Detroit Pistons", GSW: "Golden State Warriors", HOU: "Houston Rockets", IND: "Indiana Pacers",
+    LAC: "LA Clippers", LAL: "Los Angeles Lakers", MEM: "Memphis Grizzlies", MIA: "Miami Heat",
+    MIL: "Milwaukee Bucks", MIN: "Minnesota Timberwolves", NOP: "New Orleans Pelicans", NOH: "New Orleans Hornets",
+    NYK: "New York Knicks", OKC: "Oklahoma City Thunder", ORL: "Orlando Magic", PHI: "Philadelphia 76ers",
+    PHX: "Phoenix Suns", POR: "Portland Trail Blazers", SAC: "Sacramento Kings", SAS: "San Antonio Spurs",
+    SEA: "Seattle SuperSonics", TOR: "Toronto Raptors", UTA: "Utah Jazz", WAS: "Washington Wizards"
+  };
+
+  function ptlHeroVal(row, keys) {
+    for (const k of keys) {
+      if (row && row[k] !== undefined && row[k] !== null && row[k] !== "" && row[k] !== "—") return row[k];
+    }
+    return null;
+  }
+
+  function ptlHeroPlayer() {
+    return state.current || {};
+  }
+
+  function ptlHeroGames() {
+    const p = ptlHeroPlayer();
+    return Array.isArray(p.games) ? p.games : [];
+  }
+
+  function ptlHeroSeries() {
+    const p = ptlHeroPlayer();
+    return Array.isArray(p.series) ? p.series : [];
+  }
+
+  function ptlHeroName() {
+    const p = ptlHeroPlayer();
+    return p.name || p.playerName || p.meta?.name || p.meta?.playerName || p.meta?.displayName || "Player";
+  }
+
+  function ptlHeroKeyName() {
+    return String(ptlHeroName()).toLowerCase().trim();
+  }
+
+  function ptlHeroPlayerId() {
+    const p = ptlHeroPlayer();
+    const meta = p.meta || {};
+    const fromMeta = ptlHeroVal(meta, ["playerId", "PLAYER_ID", "nbaId", "id"]);
+    if (fromMeta) return String(fromMeta);
+
+    const game = ptlHeroGames().find(g => ptlHeroVal(g, ["playerId", "PLAYER_ID", "nbaId", "id"]));
+    const fromGame = ptlHeroVal(game, ["playerId", "PLAYER_ID", "nbaId", "id"]);
+    if (fromGame) return String(fromGame);
+
+    return PTL_PLAYER_ID_FALLBACKS[ptlHeroKeyName()] || "";
+  }
+
+  function ptlHeroProminentTeam() {
+    const counts = new Map();
+
+    for (const g of ptlHeroGames()) {
+      const t = ptlHeroVal(g, ["team", "TEAM", "teamAbbr", "TEAM_ABBREVIATION", "franchise"]);
+      if (!t) continue;
+      const key = String(t).toUpperCase().trim();
+      counts.set(key, (counts.get(key) || 0) + 1);
+    }
+
+    if (!counts.size) {
+      const p = ptlHeroPlayer();
+      const metaTeam = ptlHeroVal(p.meta || {}, ["team", "TEAM", "teamAbbr", "primaryTeam"]);
+      return metaTeam ? String(metaTeam).toUpperCase() : "";
+    }
+
+    return [...counts.entries()].sort((a, b) => b[1] - a[1])[0][0];
+  }
+
+  function ptlHeroYears() {
+    const years = ptlHeroGames()
+      .map(g => ptlHeroVal(g, ["year", "season", "SEASON", "YEAR"]))
+      .filter(Boolean)
+      .map(String)
+      .map(y => y.includes("-") ? String(Number(y.slice(0, 4)) + 1) : y)
+      .filter(y => Number.isFinite(Number(y)));
+
+    if (!years.length) return "";
+    const min = Math.min(...years.map(Number));
+    const max = Math.max(...years.map(Number));
+    return min === max ? String(max) : `${min}-${max}`;
+  }
+
+  function ptlHeroJerseyNumber(team) {
+    const key = `${ptlHeroKeyName()}|${String(team).toUpperCase()}`;
+    const mapped = PTL_JERSEY_BY_PLAYER_TEAM[key];
+    if (mapped) return mapped;
+
+    const p = ptlHeroPlayer();
+    const metaNum = ptlHeroVal(p.meta || {}, ["jersey", "jerseyNumber", "number", "uniformNumber"]);
+    if (metaNum) return String(metaNum);
+
+    const row = ptlHeroGames().find(g => String(ptlHeroVal(g, ["team", "TEAM", "teamAbbr"]) || "").toUpperCase() === String(team).toUpperCase());
+    const gameNum = ptlHeroVal(row, ["jersey", "jerseyNumber", "number", "uniformNumber"]);
+    if (gameNum) return String(gameNum);
+
+    return "";
+  }
+
+  function ptlHeroImgSrc() {
+    const id = ptlHeroPlayerId();
+    if (!id) return "";
+    return `https://cdn.nba.com/headshots/nba/latest/1040x760/${id}.png`;
+  }
+
+  function ptlPlayerHeroHTML() {
+    const name = ptlHeroName();
+    const team = ptlHeroProminentTeam();
+    const number = ptlHeroJerseyNumber(team);
+    const img = ptlHeroImgSrc();
+    const years = ptlHeroYears();
+    const teamName = PTL_TEAM_NAMES[team] || team || "Team";
+    const games = ptlHeroGames().length;
+    const series = ptlHeroSeries().length;
+
+    return `
+      <section class="ptl-player-spotlight">
+        <div class="ptl-rank-mark">#${number || "—"}</div>
+
+        <div class="ptl-player-spotlight-copy">
+          <div class="ptl-eyebrow">★ Prominent Team Profile</div>
+          <h1>${name}</h1>
+          <div class="ptl-hero-teamline">
+            <span class="ptl-team-pill">${team || "—"}</span>
+            <span>${teamName}</span>
+            <span class="ptl-dot">•</span>
+            <span>${years || "Playoffs"}</span>
+            <span class="ptl-dot">•</span>
+            <span>Base / All-Leverage</span>
+          </div>
+
+          <div class="ptl-hero-facts">
+            <div><span>NUMBER</span><strong>#${number || "—"}</strong></div>
+            <div><span>TEAM</span><strong>${team || "—"}</strong></div>
+            <div><span>GAMES</span><strong>${games}</strong></div>
+            <div><span>SERIES</span><strong>${series}</strong></div>
+          </div>
+        </div>
+
+        <div class="ptl-player-photo-wrap ${img ? "" : "no-photo"}">
+          ${img ? `<img src="${img}" alt="${name}" onerror="this.parentElement.classList.add('no-photo');this.remove();">` : ""}
+        </div>
+      </section>
+    `;
+  }
+
+  const ptlOldDashboardHeroRender = typeof renderDashboard === "function" ? renderDashboard : null;
+
+  if (ptlOldDashboardHeroRender) {
+    renderDashboard = function() {
+      return ptlPlayerHeroHTML() + ptlOldDashboardHeroRender();
+    };
+  }
+}
