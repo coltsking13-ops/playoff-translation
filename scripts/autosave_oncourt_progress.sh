@@ -1,17 +1,17 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-INTERVAL_SECONDS="${1:-900}" # default 15 min
-BRANCH="$(git branch --show-current)"
-REMOTE="${REMOTE:-origin}"
+INTERVAL_SECONDS="${1:-900}"
 
+cd "$(git rev-parse --show-toplevel)"
 mkdir -p logs
 
-echo "Autosaving on-court progress every ${INTERVAL_SECONDS}s on branch ${BRANCH}"
-echo "Ctrl+C to stop."
+echo "Autosave started: every ${INTERVAL_SECONDS}s"
+echo "Tracking scrape cache, outputs, and logs only."
+echo "Stop with Ctrl+C."
 
 while true; do
-  ts="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+  stamp="$(date -u +'%Y-%m-%dT%H:%M:%SZ')"
 
   git add \
     public/data/pbpstats/on_court_pipeline \
@@ -24,11 +24,11 @@ while true; do
     2>/dev/null || true
 
   if git diff --cached --quiet; then
-    echo "[$ts] No scrape changes to save."
+    echo "[$stamp] No scrape changes to save."
   else
-    git commit -m "Autosave PBPStats on-court scrape progress ${ts}"
-    git push "$REMOTE" "$BRANCH"
-    echo "[$ts] Saved and pushed scrape progress."
+    git commit -m "Autosave PBPStats on-court scrape progress ${stamp}"
+    git push
+    echo "[$stamp] Saved and pushed scrape progress."
   fi
 
   sleep "$INTERVAL_SECONDS"
